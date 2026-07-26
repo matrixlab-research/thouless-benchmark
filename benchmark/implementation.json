@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "meaning": "A case is implemented only when the named original or native backend executes it and its scientific checks pass in CI.",
+  "implemented": {
+    "thouless": [
+      "bulk_graphene_dirac_cone",
+      "bulk_ssh_polarization",
+      "boundary_ssh_edge_localization",
+      "transport_ballistic_chain"
+    ],
+    "pythtb": [
+      "bulk_graphene_dirac_cone",
+      "bulk_ssh_polarization",
+      "boundary_ssh_edge_localization"
+    ],
+    "kwant": [
+      "bulk_graphene_dirac_cone",
+      "bulk_ssh_polarization",
+      "boundary_ssh_edge_localization",
+      "transport_ballistic_chain"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+.venv/
+.venv-kwant/
+__pycache__/
+.pytest_cache/
+target/
+results/local/
+*.pyc
+.DS_Store

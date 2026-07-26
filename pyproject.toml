@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "thouless-benchmark"
+version = "0.1.0"
+description = "LKM-motivated executable benchmarks for Thouless, PythTB, and Kwant"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "jsonschema==4.25.1",
+]
+
+[project.optional-dependencies]
+pythtb = ["pythtb==2.0.0"]
+test = ["pytest==8.4.2"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/thouless_benchmark"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

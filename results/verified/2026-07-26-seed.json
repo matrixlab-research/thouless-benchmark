@@ -1,0 +1,501 @@
+{
+  "generated_at": "2026-07-26T13:05:39.872435+00:00",
+  "platform": {
+    "machine": "arm64",
+    "python": "3.12.8",
+    "release": "23.6.0",
+    "system": "Darwin"
+  },
+  "policy": {
+    "accuracy_is_gated": true,
+    "public_results_are_not_held_out": true,
+    "timing_is_descriptive": true
+  },
+  "results": [
+    {
+      "backend": "pythtb",
+      "backend_version": "2.0.0",
+      "case_id": "bulk_graphene_dirac_cone",
+      "checks": [
+        {
+          "actual": [
+            -3.0,
+            3.0
+          ],
+          "expected": [
+            -3.0,
+            3.0
+          ],
+          "name": "gamma_spectrum",
+          "passed": true,
+          "tolerance": 1e-10
+        },
+        {
+          "actual": 8.005932084973443e-16,
+          "expected": 0.0,
+          "name": "dirac_gap",
+          "passed": true,
+          "tolerance": 1e-09
+        },
+        {
+          "actual": 6.283185306155577,
+          "expected": "nonzero",
+          "name": "linear_dispersion",
+          "passed": true,
+          "tolerance": null
+        }
+      ],
+      "elapsed_seconds": 0.0028293330688029528,
+      "metrics": {
+        "dirac_gap": 8.005932084973443e-16,
+        "gamma_eigenvalues": [
+          -3.0,
+          3.0
+        ],
+        "reduced_coordinate_velocity": 6.283185306155577
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "pythtb",
+      "backend_version": "2.0.0",
+      "case_id": "bulk_ssh_polarization",
+      "checks": [
+        {
+          "actual": 1,
+          "expected": 1,
+          "name": "winding_magnitude",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": 0.5,
+          "expected": 0.5,
+          "name": "polarization_modulo_one",
+          "passed": true,
+          "tolerance": 1e-08
+        },
+        {
+          "actual": 0.8,
+          "expected": 0.8,
+          "name": "bulk_gap",
+          "passed": true,
+          "tolerance": 0.0002
+        }
+      ],
+      "elapsed_seconds": 0.0005787090631201863,
+      "metrics": {
+        "minimum_gap": 0.8,
+        "reduced_polarization": 0.5,
+        "winding": -1
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "pythtb",
+      "backend_version": "2.0.0",
+      "case_id": "boundary_ssh_edge_localization",
+      "checks": [
+        {
+          "actual": [
+            0.0013931890203979992,
+            2.339941440568407e-05,
+            5.0935431308816454e-08,
+            1.4369723001626085e-11
+          ],
+          "expected": "strictly decreasing",
+          "name": "splitting_decreases",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": [
+            0.6400437291449644,
+            0.6400000210952146,
+            0.6400000000001613,
+            0.6400000000000008
+          ],
+          "expected": "> 0.60",
+          "name": "edge_localization",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": 1.9576143137376167,
+          "expected": 1.9576151889712174,
+          "name": "localization_length",
+          "passed": true,
+          "tolerance": 0.1566092151176974
+        }
+      ],
+      "elapsed_seconds": 0.0066100419498980045,
+      "metrics": {
+        "edge_weights": [
+          0.6400437291449644,
+          0.6400000210952146,
+          0.6400000000001613,
+          0.6400000000000008
+        ],
+        "localization_length": 1.9576143137376167,
+        "splittings": [
+          0.0013931890203979992,
+          2.339941440568407e-05,
+          5.0935431308816454e-08,
+          1.4369723001626085e-11
+        ]
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "kwant",
+      "backend_version": "1.5.0",
+      "case_id": "bulk_graphene_dirac_cone",
+      "checks": [
+        {
+          "actual": [
+            -3.0,
+            3.0
+          ],
+          "expected": [
+            -3.0,
+            3.0
+          ],
+          "name": "gamma_spectrum",
+          "passed": true,
+          "tolerance": 1e-10
+        },
+        {
+          "actual": 8.005932084973443e-16,
+          "expected": 0.0,
+          "name": "dirac_gap",
+          "passed": true,
+          "tolerance": 1e-09
+        },
+        {
+          "actual": 1.0000000000048594,
+          "expected": "nonzero",
+          "name": "linear_dispersion",
+          "passed": true,
+          "tolerance": null
+        }
+      ],
+      "elapsed_seconds": 0.02185708307661116,
+      "metrics": {
+        "dirac_gap": 8.005932084973443e-16,
+        "gamma_eigenvalues": [
+          -3.0,
+          3.0
+        ],
+        "radian_coordinate_velocity": 1.0000000000048594
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "kwant",
+      "backend_version": "1.5.0",
+      "case_id": "bulk_ssh_polarization",
+      "checks": [
+        {
+          "actual": 1,
+          "expected": 1,
+          "name": "winding_magnitude",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": 0.5,
+          "expected": 0.5,
+          "name": "polarization_modulo_one",
+          "passed": true,
+          "tolerance": 1e-08
+        },
+        {
+          "actual": 0.8,
+          "expected": 0.8,
+          "name": "bulk_gap",
+          "passed": true,
+          "tolerance": 0.0002
+        }
+      ],
+      "elapsed_seconds": 0.007252292009070516,
+      "metrics": {
+        "minimum_gap": 0.8,
+        "reduced_polarization": 0.5,
+        "winding": -1
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "kwant",
+      "backend_version": "1.5.0",
+      "case_id": "boundary_ssh_edge_localization",
+      "checks": [
+        {
+          "actual": [
+            0.0013931890203983666,
+            2.33994144057392e-05,
+            5.093543135565398e-08,
+            1.4369698046129753e-11
+          ],
+          "expected": "strictly decreasing",
+          "name": "splitting_decreases",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": [
+            0.8704522938955347,
+            0.8704000266648386,
+            0.8704000000002107,
+            0.8704000000000007
+          ],
+          "expected": "> 0.60",
+          "name": "edge_localization",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": 1.9576141329041152,
+          "expected": 1.9576151889712174,
+          "name": "localization_length",
+          "passed": true,
+          "tolerance": 0.1566092151176974
+        }
+      ],
+      "elapsed_seconds": 0.023164500016719103,
+      "metrics": {
+        "edge_weights": [
+          0.8704522938955347,
+          0.8704000266648386,
+          0.8704000000002107,
+          0.8704000000000007
+        ],
+        "localization_length": 1.9576141329041152,
+        "splittings": [
+          0.0013931890203983666,
+          2.33994144057392e-05,
+          5.093543135565398e-08,
+          1.4369698046129753e-11
+        ]
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "kwant",
+      "backend_version": "1.5.0",
+      "case_id": "transport_ballistic_chain",
+      "checks": [
+        {
+          "actual": 4.218847493575595e-15,
+          "expected": 0.0,
+          "name": "unit_transmission",
+          "passed": true,
+          "tolerance": 1e-09
+        },
+        {
+          "actual": 4.218851082913049e-15,
+          "expected": 0.0,
+          "name": "scattering_unitarity",
+          "passed": true,
+          "tolerance": 1e-09
+        }
+      ],
+      "elapsed_seconds": 0.05884599999990314,
+      "metrics": {
+        "energies": [
+          -1.5,
+          -0.5,
+          0.0,
+          0.5,
+          1.5
+        ],
+        "maximum_transmission_error": 4.218847493575595e-15,
+        "maximum_unitarity_error": 4.218851082913049e-15,
+        "transmissions": [
+          0.9999999999999958,
+          1.0000000000000013,
+          1.0,
+          1.0000000000000013,
+          0.9999999999999958
+        ]
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "thouless",
+      "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+      "case_id": "bulk_graphene_dirac_cone",
+      "checks": [
+        {
+          "actual": [
+            -3.0,
+            3.0
+          ],
+          "expected": [
+            -3.0,
+            3.0
+          ],
+          "name": "gamma_spectrum",
+          "passed": true,
+          "tolerance": 1e-10
+        },
+        {
+          "actual": 8.005932084973443e-16,
+          "expected": 0.0,
+          "name": "dirac_gap",
+          "passed": true,
+          "tolerance": 1e-09
+        },
+        {
+          "actual": 6.283185306165193,
+          "expected": "nonzero",
+          "name": "linear_dispersion",
+          "passed": true,
+          "tolerance": null
+        }
+      ],
+      "elapsed_seconds": 0.000105625,
+      "metrics": {
+        "dirac_gap": 8.005932084973443e-16,
+        "gamma_eigenvalues": [
+          -3.0,
+          3.0
+        ],
+        "reduced_coordinate_velocity": 6.283185306165193
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "thouless",
+      "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+      "case_id": "bulk_ssh_polarization",
+      "checks": [
+        {
+          "actual": 0.5,
+          "expected": 0.5,
+          "name": "polarization_modulo_one",
+          "passed": true,
+          "tolerance": 1e-08
+        },
+        {
+          "actual": 0.8,
+          "expected": 0.8,
+          "name": "bulk_gap",
+          "passed": true,
+          "tolerance": 0.0002
+        }
+      ],
+      "elapsed_seconds": 0.001269167,
+      "metrics": {
+        "minimum_gap": 0.8,
+        "reduced_polarization": 0.5
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "thouless",
+      "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+      "case_id": "boundary_ssh_edge_localization",
+      "checks": [
+        {
+          "actual": [
+            0.001393189020398211,
+            2.33994144057392e-05,
+            5.0935431355653995e-08,
+            1.4369984154800973e-11
+          ],
+          "expected": "strictly decreasing",
+          "name": "splitting_decreases",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": [
+            0.640043729144964,
+            0.640000021095215,
+            0.640000000000162,
+            0.640000000000001
+          ],
+          "expected": "> 0.60",
+          "name": "edge_localization",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": 1.9576162063174212,
+          "expected": 1.9576151889712174,
+          "name": "localization_length",
+          "passed": true,
+          "tolerance": 0.1566092151176974
+        }
+      ],
+      "elapsed_seconds": 0.001464833,
+      "metrics": {
+        "edge_weights": [
+          0.640043729144964,
+          0.640000021095215,
+          0.640000000000162,
+          0.640000000000001
+        ],
+        "localization_length": 1.9576162063174212,
+        "splittings": [
+          0.001393189020398211,
+          2.33994144057392e-05,
+          5.0935431355653995e-08,
+          1.4369984154800973e-11
+        ]
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "thouless",
+      "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+      "case_id": "transport_ballistic_chain",
+      "checks": [
+        {
+          "actual": 1.1102230246251565e-16,
+          "expected": 0.0,
+          "name": "unit_transmission",
+          "passed": true,
+          "tolerance": 1e-09
+        }
+      ],
+      "elapsed_seconds": 0.002758459,
+      "metrics": {
+        "energies": [
+          -1.5,
+          -0.5,
+          0.0,
+          0.5,
+          1.5
+        ],
+        "maximum_transmission_error": 1.1102230246251565e-16,
+        "transmissions": [
+          1.0,
+          0.9999999999999999,
+          1.0,
+          0.9999999999999999,
+          1.0
+        ]
+      },
+      "schema_version": 1,
+      "status": "passed"
+    }
+  ],
+  "schema_version": 1,
+  "summary": {
+    "failed": 0,
+    "passed": 11,
+    "result_count": 11
+  }
+}

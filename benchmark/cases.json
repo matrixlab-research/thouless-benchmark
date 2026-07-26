@@ -1,0 +1,356 @@
+{
+  "schema_version": 1,
+  "lkm_snapshot_date": "2026-07-26",
+  "notes": [
+    "LKM rerank scores are retrieval signals and are not scientific confidence values.",
+    "Each task is a compact benchmark adaptation, not a reproduction of the cited paper.",
+    "Performance comparisons are valid only when hardware, software versions, warmup, and repetition count are recorded."
+  ],
+  "cases": [
+    {
+      "id": "bulk_graphene_dirac_cone",
+      "track": "bulk",
+      "domain": "band_structure",
+      "question": "Does nearest-neighbor graphene exhibit gapless Dirac cones at K and K-prime with the expected linear velocity?",
+      "model": "graphene_nearest_neighbor",
+      "parameters": {"t": 1.0},
+      "observable": "gamma_and_dirac_spectra_and_velocity",
+      "gate": {"kind": "absolute", "atol": 1e-9},
+      "backends": ["thouless", "pythtb", "kwant"],
+      "lkm": {
+        "gcn_id": "gcn_fe868ff5b0c24a38",
+        "package_id": "paper:867771291879342748",
+        "paper": "Coherent transport through graphene nanoribbons in the presence of edge disorder",
+        "doi": "10.48550/arXiv.1104.5260"
+      }
+    },
+    {
+      "id": "bulk_ssh_polarization",
+      "track": "bulk",
+      "domain": "polarization",
+      "question": "Does the dimerized SSH chain have a half-cell bulk polarization in its topological phase?",
+      "model": "ssh",
+      "parameters": {"intracell": 0.6, "intercell": 1.0},
+      "observable": "gap_winding_and_reduced_polarization",
+      "gate": {"kind": "modulo_one", "atol": 1e-8},
+      "backends": ["thouless", "pythtb", "kwant"],
+      "lkm": {
+        "gcn_id": "gcn_56be0a7370e7487a",
+        "package_id": "paper:867771917665304885",
+        "paper": "Electric Multipole Moments, Topological Multipole Moment Pumping, and Chiral Hinge States in Crystalline Insulators",
+        "doi": "10.48550/arXiv.1708.04230"
+      }
+    },
+    {
+      "id": "bulk_rice_mele_pump",
+      "track": "bulk",
+      "domain": "adiabatic_pump",
+      "question": "Does one Rice-Mele parameter cycle pump one unit of charge?",
+      "model": "rice_mele_pump",
+      "parameters": {"mean_hopping": 1.0, "dimerization": 0.5, "staggering": 0.8},
+      "observable": "chern_number_on_momentum_parameter_torus",
+      "gate": {"kind": "integer", "atol": 1e-6},
+      "backends": ["thouless", "pythtb", "kwant"],
+      "lkm": {
+        "gcn_id": "gcn_cbfe21a04fb04b91",
+        "package_id": "paper:814711902243389442",
+        "paper": "Topological bands in one-dimensional periodic potentials",
+        "doi": "10.1016/j.physb.2014.07.026"
+      }
+    },
+    {
+      "id": "bulk_haldane_chern_transition",
+      "track": "bulk",
+      "domain": "chern_insulator",
+      "question": "Do the Haldane mass terms predict the numerical Chern phase and bulk gap?",
+      "model": "haldane",
+      "parameters": {"t1": 1.0, "t2": 0.15, "phase": 1.5707963267948966, "mass": 0.2},
+      "observable": "dirac_masses_gap_and_chern_number",
+      "gate": {"kind": "integer_and_absolute", "atol": 2e-6},
+      "backends": ["thouless", "pythtb", "kwant"],
+      "lkm": {
+        "gcn_id": "gcn_3247662a74524f7c",
+        "package_id": "paper:890158010050019884",
+        "paper": "The Haldane Model in a Magneto-optical Honeycomb Lattice",
+        "doi": "10.48550/arXiv.2307.07637"
+      }
+    },
+    {
+      "id": "bulk_qwz_phase_diagram",
+      "track": "bulk",
+      "domain": "chern_phase_diagram",
+      "question": "Does the two-orbital square-lattice model recover the trivial-Chern-Chern-trivial mass sequence?",
+      "model": "qi_wu_zhang",
+      "parameters": {"masses": [-3.0, -1.0, 1.0, 3.0]},
+      "observable": "chern_numbers_and_gap_closings",
+      "gate": {"kind": "integer_sequence", "atol": 2e-6},
+      "backends": ["thouless", "pythtb", "kwant"],
+      "lkm": {
+        "gcn_id": "gcn_d72f99cc98254250",
+        "package_id": "paper:813249757555195905",
+        "paper": "Change of an insulator's topological properties by a Hubbard interaction",
+        "doi": "10.1103/physrevb.87.085109"
+      }
+    },
+    {
+      "id": "bulk_kane_mele_z2",
+      "track": "bulk",
+      "domain": "time_reversal_topology",
+      "question": "Does Wilson-loop partner switching identify the quantum spin Hall phase when Rashba coupling mixes spin?",
+      "model": "kane_mele",
+      "parameters": {"t": 1.0, "lambda_so": 0.06, "lambda_r": 0.02, "mass": 0.0},
+      "observable": "wilson_loop_flow_and_z2",
+      "gate": {"kind": "z2", "atol": 2e-5},
+      "backends": ["thouless", "pythtb", "kwant"],
+      "lkm": {
+        "gcn_id": "gcn_9469a1e3a9f2414e",
+        "package_id": "paper:867757382543868382",
+        "paper": "Spin-charge separation and quantum spin Hall effect of beta-bismuthene",
+        "doi": "10.48550/arXiv.2209.13582"
+      }
+    },
+    {
+      "id": "bulk_kagome_soc_chern",
+      "track": "bulk",
+      "domain": "flat_chern_band",
+      "question": "Does nearest-neighbor kagome spin-orbit coupling open topological gaps with nonzero band Chern numbers?",
+      "model": "kagome_soc",
+      "parameters": {"t": 1.0, "lambda": 0.1},
+      "observable": "band_gaps_bandwidths_and_chern_numbers",
+      "gate": {"kind": "integer_and_positive_gap", "atol": 3e-5},
+      "backends": ["thouless", "pythtb", "kwant"],
+      "lkm": {
+        "gcn_id": "gcn_590d239462b54bac",
+        "package_id": "paper:867759586210218361",
+        "paper": "High temperature fractional quantum Hall states",
+        "doi": "10.48550/arXiv.1012.2930"
+      }
+    },
+    {
+      "id": "bulk_bbh_nested_wilson",
+      "track": "bulk",
+      "domain": "higher_order_topology",
+      "question": "Do nested Wilson loops recover the quantized quadrupole phase of the BBH model?",
+      "model": "bbh",
+      "parameters": {"gamma_x": 0.5, "gamma_y": 0.5, "lambda_x": 1.0, "lambda_y": 1.0},
+      "observable": "wannier_gaps_sector_polarizations_and_quadrupole",
+      "gate": {"kind": "modulo_one", "atol": 3e-5},
+      "backends": ["thouless", "pythtb", "kwant"],
+      "lkm": {
+        "gcn_id": "gcn_ef6ecb374a3b4167",
+        "package_id": "paper:867773714517721771",
+        "paper": "Wannier Topology and Quadrupole Moments for a generalized Benalcazar-Bernevig-Hughes Model",
+        "doi": "10.48550/arXiv.2208.05058"
+      }
+    },
+    {
+      "id": "bulk_weyl_chirality",
+      "track": "bulk",
+      "domain": "weyl_semimetal",
+      "question": "Can a minimal two-band lattice model locate a pair of Weyl nodes and recover their opposite monopole charges?",
+      "model": "minimal_weyl_pair",
+      "parameters": {"node": 1.0471975511965976},
+      "observable": "node_positions_chiralities_and_slice_chern_jump",
+      "gate": {"kind": "integer_and_absolute", "atol": 4e-5},
+      "backends": ["thouless", "pythtb", "kwant"],
+      "lkm": {
+        "gcn_id": "gcn_ba35347f64674a85",
+        "package_id": "paper:867760016327705531",
+        "paper": "Charge-4 Weyl point: Minimum lattice model and chirality-dependent properties",
+        "doi": "10.48550/arXiv.2106.01948"
+      }
+    },
+    {
+      "id": "bulk_nodal_line_berry_phase",
+      "track": "bulk",
+      "domain": "nodal_semimetal",
+      "question": "Does a loop linking a nodal ring acquire a pi Berry phase while an unlinked loop remains trivial?",
+      "model": "nodal_ring",
+      "parameters": {"mass": 1.5},
+      "observable": "linked_and_unlinked_loop_berry_phases",
+      "gate": {"kind": "phase_modulo_tau", "atol": 2e-5},
+      "backends": ["thouless", "pythtb", "kwant"],
+      "lkm": {
+        "gcn_id": "gcn_0090b42c9e7b4866",
+        "package_id": "paper:867753546848665732",
+        "paper": "Creating and controlling Dirac fermions, Weyl fermions, and nodal lines in the magnetic antiperovskite Eu3PbO",
+        "doi": "10.48550/arXiv.2207.12434"
+      }
+    },
+    {
+      "id": "bulk_tilted_dirac_berry_dipole",
+      "track": "bulk",
+      "domain": "nonlinear_hall",
+      "question": "Does the Berry-curvature dipole reverse when the Dirac-cone tilt is reversed and vary sharply near the band edge?",
+      "model": "tilted_massive_dirac_lattice",
+      "parameters": {"mass": 0.4, "tilt": 0.25, "temperature": 0.03},
+      "observable": "berry_curvature_dipole_vs_chemical_potential",
+      "gate": {"kind": "odd_under_parameter_reversal", "atol": 5e-4},
+      "backends": ["thouless", "pythtb", "kwant"],
+      "lkm": {
+        "gcn_id": "gcn_9aad25b703864414",
+        "package_id": "paper:814751890465095680",
+        "paper": "Giant nonlinear Hall effect in twisted bilayer WTe2",
+        "doi": "10.1038/s41535-021-00403-9"
+      }
+    },
+    {
+      "id": "bulk_wannier_interpolation",
+      "track": "bulk",
+      "domain": "wannier_interpolation",
+      "question": "Does finite Fourier-Wannier interpolation reproduce unseen off-mesh energies while preserving Hermiticity?",
+      "model": "two_band_fourier_field",
+      "parameters": {"mesh": [8, 8], "validation_points": 17},
+      "observable": "off_mesh_energy_error_and_hermiticity",
+      "gate": {"kind": "maximum_error", "atol": 1e-9},
+      "backends": ["thouless", "pythtb"],
+      "not_applicable": {"kwant": "Kwant has no Wannier localization or interpolation workflow."},
+      "lkm": {
+        "gcn_id": "gcn_080a30cd7d2f49d2",
+        "package_id": "paper:867772331882185045",
+        "paper": "Gyrotropic effects in trigonal tellurium studied from first principles",
+        "doi": "10.48550/arXiv.1710.03204"
+      }
+    },
+    {
+      "id": "boundary_ssh_edge_localization",
+      "track": "boundary",
+      "domain": "one_dimensional_edge_state",
+      "question": "Do finite SSH chains exhibit exponentially split end modes with the localization length predicted by the hopping ratio?",
+      "model": "finite_ssh",
+      "parameters": {"cells": [12, 20, 32, 48], "intracell": 0.6, "intercell": 1.0},
+      "observable": "midgap_splitting_edge_weight_and_localization_length",
+      "gate": {"kind": "exponential_scaling", "atol": 2e-5},
+      "backends": ["thouless", "pythtb", "kwant"],
+      "lkm": {
+        "gcn_id": "gcn_ca7683047b0d49b5",
+        "package_id": "paper:1021090273377124352",
+        "paper": "Inverse participation ratio and entanglement of edge states in HgTe quantum wells in a finite strip geometry",
+        "doi": "10.48550/arxiv.2407.12469"
+      }
+    },
+    {
+      "id": "boundary_haldane_ribbon_flow",
+      "track": "boundary",
+      "domain": "bulk_boundary_correspondence",
+      "question": "Does a Haldane ribbon show the chiral edge spectral flow required by its bulk Chern number?",
+      "model": "haldane_ribbon",
+      "parameters": {"width": 24, "t1": 1.0, "t2": 0.15, "phase": 1.5707963267948966, "mass": 0.2},
+      "observable": "in_gap_edge_branch_count_velocity_and_edge_weight",
+      "gate": {"kind": "bulk_boundary", "atol": 2e-5},
+      "backends": ["thouless", "pythtb", "kwant"],
+      "lkm": {
+        "gcn_id": "gcn_6dd6ca85f4f641ad",
+        "package_id": "paper:813290269595140096",
+        "paper": "Valley-Polarized Metals and Quantum Anomalous Hall Effect in Silicene",
+        "doi": "10.1103/physrevlett.109.055502"
+      }
+    },
+    {
+      "id": "boundary_graphene_terminations",
+      "track": "boundary",
+      "domain": "graphene_nanostructure",
+      "question": "Do zigzag and armchair graphene ribbons exhibit their distinct edge-state and finite-size-gap signatures?",
+      "model": "graphene_ribbons",
+      "parameters": {"widths": [12, 18, 24]},
+      "observable": "zigzag_edge_band_and_armchair_family_gaps",
+      "gate": {"kind": "qualitative_and_scaling", "atol": 3e-5},
+      "backends": ["thouless", "pythtb", "kwant"],
+      "lkm": {
+        "gcn_id": "gcn_5fe8f503378b47f2",
+        "package_id": "paper:811976072101888002",
+        "paper": "Perfectly Conducting Channel and Universality Crossover in Disordered Graphene Nanoribbons",
+        "doi": "10.1103/physrevlett.99.036601"
+      }
+    },
+    {
+      "id": "boundary_bbh_corner_modes",
+      "track": "boundary",
+      "domain": "higher_order_boundary_state",
+      "question": "Does a finite BBH lattice bind four midgap states to its four corners?",
+      "model": "finite_bbh",
+      "parameters": {"cells": [8, 8], "gamma_x": 0.5, "gamma_y": 0.5, "lambda_x": 1.0, "lambda_y": 1.0},
+      "observable": "midgap_count_corner_weight_and_sublattice_support",
+      "gate": {"kind": "count_and_localization", "atol": 2e-5},
+      "backends": ["thouless", "pythtb", "kwant"],
+      "lkm": {
+        "gcn_id": "gcn_81a164c9aee8487c",
+        "package_id": "paper:812659096699273217",
+        "paper": "Demonstration of a third-order hierarchy of topological states in a three-dimensional acoustic metamaterial",
+        "doi": "10.1126/sciadv.aay4166"
+      }
+    },
+    {
+      "id": "transport_ballistic_chain",
+      "track": "transport",
+      "domain": "landauer_calibration",
+      "question": "Does a matched one-dimensional device transmit one channel with unit probability throughout the lead band?",
+      "model": "matched_chain_device",
+      "parameters": {"device_sites": 41, "hopping": -1.0, "onsite": 0.0},
+      "observable": "transmission_and_scattering_unitarity",
+      "gate": {"kind": "exact_transport", "atol": 1e-9},
+      "backends": ["thouless", "kwant"],
+      "not_applicable": {"pythtb": "PythTB has no open-system scattering solver."},
+      "lkm": {
+        "gcn_id": "gcn_4a67af08cc41492f",
+        "package_id": "paper:814616625268391937",
+        "paper": "Stability of the X-Y phase of the two-dimensional C4 point group insulator",
+        "doi": "10.1103/physrevb.91.235430"
+      }
+    },
+    {
+      "id": "transport_resonant_level",
+      "track": "transport",
+      "domain": "resonant_transport",
+      "question": "Do conductance resonances track isolated device levels and reach perfect transmission for symmetric lossless contacts?",
+      "model": "resonant_level",
+      "parameters": {"level": 0.2, "lead_hopping": -1.0, "coupling": -0.4},
+      "observable": "resonance_position_height_and_line_shape",
+      "gate": {"kind": "analytic_transport", "atol": 2e-7},
+      "backends": ["thouless", "kwant"],
+      "not_applicable": {"pythtb": "PythTB has no reservoir self-energy or Landauer solver."},
+      "lkm": {
+        "gcn_id": "gcn_a5417d93240540f7",
+        "package_id": "paper:867752169594422035",
+        "paper": "Symmetry-protected transport through a lattice with a local particle loss",
+        "doi": "10.48550/arXiv.2201.10286"
+      }
+    },
+    {
+      "id": "transport_aharonov_bohm_ring",
+      "track": "transport",
+      "domain": "quantum_interference",
+      "question": "Is two-terminal transmission through a symmetric mesoscopic ring periodic in one flux quantum and suppressed at half flux?",
+      "model": "aharonov_bohm_ring",
+      "parameters": {"arm_sites": 12, "hopping": -1.0},
+      "observable": "flux_periodicity_and_destructive_interference",
+      "gate": {"kind": "periodicity_and_node", "atol": 2e-7},
+      "backends": ["thouless", "kwant"],
+      "not_applicable": {"pythtb": "PythTB can model flux-dependent closed spectra but not the required open transmission."},
+      "lkm": {
+        "gcn_id": "gcn_3113e2d6447e4b2a",
+        "package_id": "paper:811947186790072321",
+        "paper": "Quantum transport through finite width mesoscopic ring: Enhancement of the current amplitude with the increase of the edge disorder strength in the limit of strong disorder",
+        "doi": "10.1016/j.solidstatesciences.2007.12.018"
+      }
+    },
+    {
+      "id": "transport_quantum_hall_strip",
+      "track": "transport",
+      "domain": "quantum_hall",
+      "question": "Does a finite Hofstadter strip exhibit a quantized first Hall plateau carried by edge-localized bond current?",
+      "model": "hofstadter_strip",
+      "parameters": {"width": 18, "length": 32, "flux_per_plaquette": 0.125, "disorder": 0.05},
+      "observable": "transmission_plateau_current_edge_fraction_and_unitarity",
+      "gate": {"kind": "quantized_transport_and_localization", "atol": 3e-5},
+      "backends": ["thouless", "kwant"],
+      "not_applicable": {"pythtb": "PythTB has no lead-attached scattering-state or bond-current solver."},
+      "lkm": {
+        "gcn_id": "gcn_812a8cc39b1b4a54",
+        "package_id": "paper:867773627783709271",
+        "paper": "Integer quantum Hall effect in a square lattice revisited",
+        "doi": "10.48550/arXiv.1108.3517"
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+[package]
+name = "thouless-benchmark-runner"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+serde_json = "1.0.145"
+thouless = { git = "https://github.com/matrixlab-research/thouless", rev = "0d87773278183ddc7c254438dccbda1face04fb2" }

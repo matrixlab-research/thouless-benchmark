@@ -1,0 +1,40 @@
+name: Benchmark implementation gap
+description: Track an applicable backend-case path that is not yet executable.
+title: "Implement: "
+labels:
+  - benchmark-gap
+body:
+  - type: input
+    id: cases
+    attributes:
+      label: Case identifiers
+      description: Exact identifiers from benchmark/cases.json.
+    validations:
+      required: true
+  - type: checkboxes
+    id: backends
+    attributes:
+      label: Applicable backends
+      options:
+        - label: Native Thouless Rust
+        - label: Original PythTB 2.0.0
+        - label: Original Kwant 1.5.0
+  - type: textarea
+    id: observable
+    attributes:
+      label: Scientific observable and reference
+      description: State the computed observable, analytic invariant or metamorphic reference, and tolerance.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Completion evidence
+      value: |
+        - [ ] Uses the native or original backend, not a compatibility substitute
+        - [ ] Scientific checks pass
+        - [ ] Cross-backend comparison is recorded where applicable
+        - [ ] benchmark/implementation.json is updated
+        - [ ] CI is updated
+    validations:
+      required: true
