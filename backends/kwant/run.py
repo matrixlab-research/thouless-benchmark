@@ -590,6 +590,232 @@ def bulk_nodal_line_berry_phase(parameters: dict) -> tuple[dict, list[Check]]:
     return metrics, checks
 
 
+def haldane_ribbon_system(parameters: dict):
+    width = parameters["width"]
+    t1 = parameters["t1"]
+    t2 = parameters["t2"] * np.sin(parameters["phase"])
+    onsite = parameters["mass"] * SIGMA_Z + t1 * SIGMA_X
+    hoppings = []
+    for offset, chirality in [
+        ((1, 0), -1.0),
+        ((0, 1), 1.0),
+        ((1, -1), 1.0),
+    ]:
+        matrix = np.diag([-1.0j * chirality * t2, 1.0j * chirality * t2])
+        if offset in ((1, 0), (0, 1)):
+            matrix[0, 1] += t1
+        hoppings.append((offset, matrix))
+    lattice = kwant.lattice.general(np.eye(2), [np.zeros(2)], norbs=2)
+    family = lattice.sublattices[0]
+    builder = kwant.Builder(kwant.TranslationalSymmetry((1.0, 0.0)))
+    for y in range(width):
+        builder[family(0, y)] = onsite
+    for (offset_x, offset_y), matrix in hoppings:
+        for y in range(width):
+            target_y = y + offset_y
+            if 0 <= target_y < width:
+                builder[family(0, y), family(offset_x, target_y)] = matrix
+    return kwant.wraparound.wraparound(builder).finalized()
+
+
+def boundary_haldane_ribbon_flow(parameters: dict) -> tuple[dict, list[Check]]:
+    width = parameters["width"]
+    ribbon = haldane_ribbon_system(parameters)
+    momenta = np.linspace(0.4, 0.55, 301)
+    best = None
+    for momentum in momenta:
+        hamiltonian = ribbon.hamiltonian_submatrix(params={"k_x": TAU * momentum})
+        values, vectors = np.linalg.eigh(hamiltonian)
+        pair = np.argsort(np.abs(values))[:2]
+        score = float(np.max(np.abs(values[pair])))
+        if best is None or score < best[0]:
+            best = (score, momentum, values, vectors, pair)
+    _, crossing_momentum, values, vectors, pair = best
+    lower_indices = np.arange(4)
+    upper_indices = np.arange(2 * width - 4, 2 * width)
+    lower_state = max(
+        pair, key=lambda state: np.sum(np.abs(vectors[lower_indices, state]) ** 2)
+    )
+    upper_state = max(
+        pair, key=lambda state: np.sum(np.abs(vectors[upper_indices, state]) ** 2)
+    )
+    ordered_states = [lower_state, upper_state]
+    edge_weights = [
+        float(np.sum(np.abs(vectors[indices, state]) ** 2))
+        for state, indices in zip(ordered_states, (lower_indices, upper_indices))
+    ]
+    crossing_energies = [float(values[state]) for state in ordered_states]
+    delta = 1.0e-4
+    velocities = []
+    for state in ordered_states:
+        reference = vectors[:, state]
+        branch_energies = []
+        for momentum in (crossing_momentum - delta, crossing_momentum + delta):
+            shifted_values, shifted_vectors = np.linalg.eigh(
+                ribbon.hamiltonian_submatrix(params={"k_x": TAU * momentum})
+            )
+            overlap = np.abs(shifted_vectors.conj().T @ reference) ** 2
+            branch_energies.append(float(shifted_values[int(np.argmax(overlap))]))
+        velocities.append((branch_energies[1] - branch_energies[0]) / (2.0 * delta))
+    bulk = haldane_system(parameters)
+    bulk_chern = fhs_chern(lambda momentum: hamiltonian_at(bulk, momentum), (31, 31), 1)
+    metrics = {
+        "bulk_chern_number": bulk_chern,
+        "crossing_momentum": crossing_momentum,
+        "crossing_energies": crossing_energies,
+        "edge_weights": edge_weights,
+        "edge_velocities": velocities,
+        "in_gap_edge_branch_count": 2,
+    }
+    checks = [
+        Check("nontrivial_bulk", abs(int(np.rint(bulk_chern))) == 1, bulk_chern, "magnitude 1"),
+        Check("two_in_gap_branches", max(abs(value) for value in crossing_energies) < 1.0e-2, crossing_energies, "two near-zero branches"),
+        Check("opposite_edge_localization", min(edge_weights) > 0.9, edge_weights, "> 0.9"),
+        Check("chiral_spectral_flow", velocities[0] * velocities[1] < 0.0 and min(abs(value) for value in velocities) > 1.0, velocities, "opposite nonzero velocities"),
+    ]
+    return metrics, checks
+
+
+def graphene_ribbon_system(width: int, termination: str):
+    lattice = kwant.lattice.general(
+        [(np.sqrt(3.0) / 2.0, 1.5), (-np.sqrt(3.0) / 2.0, 1.5)],
+        [(0.0, 0.0), (0.0, 0.5)],
+        norbs=1,
+    )
+    a, b = lattice.sublattices
+    if termination == "zigzag":
+        symmetry = kwant.TranslationalSymmetry(lattice.vec((1, 0)))
+        cells = range(width)
+    else:
+        symmetry = kwant.TranslationalSymmetry(lattice.vec((1, 1)))
+        cells = range(-width // 2, width // 2)
+    builder = kwant.Builder(symmetry)
+    for cell in cells:
+        builder[a(0, cell)] = 0.0
+        builder[b(0, cell)] = 0.0
+    for offset in ((0, 0), (-1, 0), (0, -1)):
+        builder[kwant.builder.HoppingKind(offset, a, b)] = -1.0
+    return kwant.wraparound.wraparound(builder).finalized()
+
+
+def boundary_graphene_terminations(parameters: dict) -> tuple[dict, list[Check]]:
+    widths = parameters["widths"]
+    zigzag_minimum_gaps = []
+    zigzag_edge_weights = []
+    armchair_gaps = []
+    for width in widths:
+        zigzag = graphene_ribbon_system(width, "zigzag")
+        transverse = np.asarray([site.tag[1] for site in zigzag.sites])
+        boundary_values = (np.min(transverse), np.max(transverse))
+        boundary_sites = np.where(
+            (transverse == boundary_values[0]) | (transverse == boundary_values[1])
+        )[0]
+        minimum_gap = np.inf
+        maximum_edge_weight = 0.0
+        for momentum in np.linspace(0.0, TAU, 301, endpoint=False):
+            values, vectors = np.linalg.eigh(
+                zigzag.hamiltonian_submatrix(params={"k_x": momentum})
+            )
+            gap = float(values[width] - values[width - 1])
+            pair = np.argsort(np.abs(values))[:2]
+            edge_weight = float(
+                np.mean(np.sum(np.abs(vectors[boundary_sites][:, pair]) ** 2, axis=0))
+            )
+            minimum_gap = min(minimum_gap, gap)
+            maximum_edge_weight = max(maximum_edge_weight, edge_weight)
+        zigzag_minimum_gaps.append(minimum_gap)
+        zigzag_edge_weights.append(maximum_edge_weight)
+
+        armchair = graphene_ribbon_system(width, "armchair")
+        armchair_values = np.linalg.eigvalsh(
+            armchair.hamiltonian_submatrix(params={"k_x": 0.0})
+        )
+        armchair_gaps.append(
+            float(armchair_values[width] - armchair_values[width - 1])
+        )
+    scaled_armchair_gaps = [
+        width * gap for width, gap in zip(widths, armchair_gaps)
+    ]
+    relative_spread = (
+        max(scaled_armchair_gaps) - min(scaled_armchair_gaps)
+    ) / np.mean(scaled_armchair_gaps)
+    metrics = {
+        "widths": widths,
+        "zigzag_minimum_gaps": zigzag_minimum_gaps,
+        "zigzag_edge_weights": zigzag_edge_weights,
+        "armchair_gaps": armchair_gaps,
+        "width_scaled_armchair_gaps": scaled_armchair_gaps,
+        "armchair_scaling_spread": relative_spread,
+    }
+    checks = [
+        Check("zigzag_edge_band", bool(max(zigzag_minimum_gaps) < 1.0e-6), zigzag_minimum_gaps, "gapless"),
+        Check("zigzag_edge_localization", bool(min(zigzag_edge_weights) > 0.95), zigzag_edge_weights, "> 0.95"),
+        Check("armchair_finite_gaps", bool(min(armchair_gaps) > 0.1), armchair_gaps, "> 0.1"),
+        Check("armchair_inverse_width_scaling", bool(all(left > right for left, right in zip(armchair_gaps, armchair_gaps[1:])) and relative_spread < 0.08), relative_spread, "< 0.08"),
+    ]
+    return metrics, checks
+
+
+def finite_bbh_system(parameters: dict):
+    cells_x, cells_y = parameters["cells"]
+    gamma_1 = -np.kron(SIGMA_Y, SIGMA_X)
+    gamma_2 = -np.kron(SIGMA_Y, SIGMA_Y)
+    gamma_3 = -np.kron(SIGMA_Y, SIGMA_Z)
+    gamma_4 = np.kron(SIGMA_X, IDENTITY_2)
+    onsite = parameters["gamma_x"] * gamma_4 + parameters["gamma_y"] * gamma_2
+    hopping_x = 0.5 * parameters["lambda_x"] * gamma_4 - 0.5j * parameters["lambda_x"] * gamma_3
+    hopping_y = 0.5 * parameters["lambda_y"] * gamma_2 - 0.5j * parameters["lambda_y"] * gamma_1
+    lattice = kwant.lattice.square(norbs=4)
+    builder = kwant.Builder()
+    for x in range(cells_x):
+        for y in range(cells_y):
+            builder[lattice(x, y)] = onsite
+            if x:
+                builder[lattice(x - 1, y), lattice(x, y)] = hopping_x
+            if y:
+                builder[lattice(x, y - 1), lattice(x, y)] = hopping_y
+    return builder.finalized()
+
+
+def boundary_bbh_corner_modes(parameters: dict) -> tuple[dict, list[Check]]:
+    cells_x, cells_y = parameters["cells"]
+    finite = finite_bbh_system(parameters)
+    hamiltonian = finite.hamiltonian_submatrix()
+    values, vectors = np.linalg.eigh(hamiltonian)
+    order = np.argsort(np.abs(values))
+    midgap = order[:4]
+    next_gap = float(abs(values[order[4]]))
+    corner_sites = [
+        finite.id_by_site[kwant.lattice.square(norbs=4)(x, y)]
+        for x, y in ((0, 0), (0, cells_y - 1), (cells_x - 1, 0), (cells_x - 1, cells_y - 1))
+    ]
+    corner_orbitals = np.concatenate(
+        [np.arange(4 * site, 4 * site + 4) for site in corner_sites]
+    )
+    corner_weights = [
+        float(np.sum(np.abs(vectors[corner_orbitals, state]) ** 2))
+        for state in midgap
+    ]
+    sublattice_support = [
+        float(sum(np.sum(np.abs(vectors[orbital::4, state]) ** 2) for state in midgap))
+        for orbital in range(4)
+    ]
+    midgap_energies = values[midgap].tolist()
+    metrics = {
+        "midgap_energies": midgap_energies,
+        "midgap_count": 4,
+        "next_state_absolute_energy": next_gap,
+        "corner_weights": corner_weights,
+        "sublattice_projector_support": sublattice_support,
+    }
+    checks = [
+        Check("four_midgap_modes", max(abs(value) for value in midgap_energies) < 1.0e-2 and next_gap > 0.5, midgap_energies, "four isolated midgap states"),
+        Check("corner_localization", min(corner_weights) > 0.55, corner_weights, "> 0.55"),
+        Check("sublattice_support", bool(np.allclose(sublattice_support, np.ones(4), atol=2.0e-5)), sublattice_support, [1.0] * 4, 2.0e-5),
+    ]
+    return metrics, checks
+
+
 def boundary_ssh_edge_localization(parameters: dict) -> tuple[dict, list[Check]]:
     intra = parameters["intracell"]
     inter = parameters["intercell"]
@@ -663,6 +889,206 @@ def transport_ballistic_chain(parameters: dict) -> tuple[dict, list[Check]]:
     return metrics, checks
 
 
+def resonant_level_system(parameters: dict):
+    lattice = kwant.lattice.chain(norbs=1)
+    builder = kwant.Builder()
+    for site, onsite in ((-1, 0.0), (0, parameters["level"]), (1, 0.0)):
+        builder[lattice(site)] = onsite
+    builder[lattice(-1), lattice(0)] = parameters["coupling"]
+    builder[lattice(0), lattice(1)] = parameters["coupling"]
+    left = kwant.Builder(kwant.TranslationalSymmetry((-1,)))
+    left[lattice(-1)] = 0.0
+    left[lattice(-1), lattice(-2)] = parameters["lead_hopping"]
+    right = kwant.Builder(kwant.TranslationalSymmetry((1,)))
+    right[lattice(1)] = 0.0
+    right[lattice(1), lattice(2)] = parameters["lead_hopping"]
+    builder.attach_lead(left)
+    builder.attach_lead(right)
+    return builder.finalized()
+
+
+def transport_resonant_level(parameters: dict) -> tuple[dict, list[Check]]:
+    system = resonant_level_system(parameters)
+    level = parameters["level"]
+    coupling = parameters["coupling"]
+    lead_hopping = abs(parameters["lead_hopping"])
+    resonance = level / (1.0 - (coupling / lead_hopping) ** 2)
+    energies = [resonance + offset for offset in (-0.2, -0.1, 0.0, 0.1, 0.2)]
+    transmissions = []
+    analytic = []
+    for energy in energies:
+        transmissions.append(float(kwant.smatrix(system, energy).transmission(1, 0)))
+        root = np.sqrt(4.0 * lead_hopping**2 - energy**2)
+        surface_green = (energy - 1.0j * root) / (2.0 * lead_hopping**2)
+        self_energy = coupling**2 * surface_green
+        gamma = -2.0 * self_energy.imag
+        dot_green = 1.0 / (energy - level - 2.0 * self_energy)
+        analytic.append(float(gamma**2 * abs(dot_green) ** 2))
+    maximum_analytic_error = float(
+        np.max(np.abs(np.asarray(transmissions) - np.asarray(analytic)))
+    )
+    peak_index = int(np.argmax(transmissions))
+    metrics = {
+        "energies": energies,
+        "transmissions": transmissions,
+        "analytic_transmissions": analytic,
+        "resonance_energy": energies[peak_index],
+        "predicted_resonance_energy": resonance,
+        "peak_transmission": transmissions[peak_index],
+        "maximum_analytic_error": maximum_analytic_error,
+    }
+    checks = [
+        Check("analytic_line_shape", maximum_analytic_error < 2.0e-7, maximum_analytic_error, 0.0, 2.0e-7),
+        Check("resonance_tracks_level", abs(energies[peak_index] - level) < 0.05, energies[peak_index], level, 0.05),
+        Check("perfect_symmetric_resonance", abs(transmissions[peak_index] - 1.0) < 2.0e-7, transmissions[peak_index], 1.0, 2.0e-7),
+    ]
+    return metrics, checks
+
+
+def aharonov_bohm_system(parameters: dict, flux: float):
+    arm_sites = parameters["arm_sites"]
+    hopping = parameters["hopping"]
+    lattice = kwant.lattice.square(norbs=1)
+    builder = kwant.Builder()
+    left_junction = lattice(0, 0)
+    right_junction = lattice(arm_sites + 1, 0)
+    builder[left_junction] = 0.0
+    builder[right_junction] = 0.0
+    upper = [left_junction]
+    lower = [left_junction]
+    for site in range(1, arm_sites + 1):
+        builder[lattice(site, 1)] = 0.0
+        builder[lattice(site, -1)] = 0.0
+        upper.append(lattice(site, 1))
+        lower.append(lattice(site, -1))
+    upper.append(right_junction)
+    lower.append(right_junction)
+    phase = np.pi * flux / (arm_sites + 1)
+    for left, right in zip(upper, upper[1:]):
+        builder[left, right] = hopping * np.exp(1.0j * phase)
+    for left, right in zip(lower, lower[1:]):
+        builder[left, right] = hopping * np.exp(-1.0j * phase)
+    left_lead = kwant.Builder(kwant.TranslationalSymmetry((-1, 0)))
+    left_lead[left_junction] = 0.0
+    left_lead[left_junction, lattice(-1, 0)] = hopping
+    right_lead = kwant.Builder(kwant.TranslationalSymmetry((1, 0)))
+    right_lead[right_junction] = 0.0
+    right_lead[right_junction, lattice(arm_sites + 2, 0)] = hopping
+    builder.attach_lead(left_lead)
+    builder.attach_lead(right_lead)
+    return builder.finalized()
+
+
+def transport_aharonov_bohm_ring(parameters: dict) -> tuple[dict, list[Check]]:
+    fluxes = [0.0, 0.25, 0.5, 0.75, 1.0]
+    energy = 0.3
+    transmissions = [
+        float(
+            kwant.smatrix(aharonov_bohm_system(parameters, flux), energy).transmission(
+                1, 0
+            )
+        )
+        for flux in fluxes
+    ]
+    periodicity_error = abs(transmissions[0] - transmissions[-1])
+    reflection_error = abs(transmissions[1] - transmissions[3])
+    half_flux_transmission = transmissions[2]
+    metrics = {
+        "energy": energy,
+        "fluxes": fluxes,
+        "transmissions": transmissions,
+        "periodicity_error": periodicity_error,
+        "flux_reflection_error": reflection_error,
+        "half_flux_transmission": half_flux_transmission,
+    }
+    checks = [
+        Check("one_flux_quantum_periodicity", periodicity_error < 2.0e-7, periodicity_error, 0.0, 2.0e-7),
+        Check("flux_reflection_symmetry", reflection_error < 2.0e-7, reflection_error, 0.0, 2.0e-7),
+        Check("half_flux_destructive_interference", half_flux_transmission < 2.0e-7, half_flux_transmission, 0.0, 2.0e-7),
+        Check("finite_zero_flux_transport", transmissions[0] > 0.5, transmissions[0], "> 0.5"),
+    ]
+    return metrics, checks
+
+
+def hofstadter_transport_system(parameters: dict):
+    width = parameters["width"]
+    length = parameters["length"]
+    flux = parameters["flux_per_plaquette"]
+    disorder = parameters["disorder"]
+    lattice = kwant.lattice.square(norbs=1)
+    builder = kwant.Builder()
+    for x in range(length):
+        for y in range(width):
+            builder[lattice(x, y)] = disorder * np.sin(1.37 * x + 2.11 * y)
+    for x in range(length - 1):
+        for y in range(width):
+            builder[lattice(x, y), lattice(x + 1, y)] = -np.exp(
+                -2.0j * np.pi * flux * y
+            )
+    for x in range(length):
+        for y in range(width - 1):
+            builder[lattice(x, y), lattice(x, y + 1)] = -1.0
+    left = kwant.Builder(kwant.TranslationalSymmetry((-1, 0)))
+    for y in range(width):
+        left[lattice(0, y)] = 0.0
+        left[lattice(0, y), lattice(-1, y)] = -np.exp(
+            2.0j * np.pi * flux * y
+        )
+    for y in range(width - 1):
+        left[lattice(0, y), lattice(0, y + 1)] = -1.0
+    builder.attach_lead(left)
+    builder.attach_lead(left.reversed())
+    return builder.finalized()
+
+
+def transport_quantum_hall_strip(parameters: dict) -> tuple[dict, list[Check]]:
+    system = hofstadter_transport_system(parameters)
+    energies = [-3.1, -2.8, -2.4, -2.2]
+    transmissions = []
+    unitarity_errors = []
+    for energy in energies:
+        scattering = kwant.smatrix(system, energy)
+        transmissions.append(float(scattering.transmission(1, 0)))
+        matrix = scattering.data
+        unitarity_errors.append(
+            float(np.max(np.abs(matrix.conj().T @ matrix - np.eye(matrix.shape[0]))))
+        )
+    wave_function = kwant.wave_function(system, -2.8)(0)[0]
+    current_operator = kwant.operator.Current(system)
+    currents = current_operator(wave_function)
+    horizontal = []
+    for current, (left, right) in zip(currents, current_operator.where):
+        left_position = np.asarray(system.sites[left].pos)
+        right_position = np.asarray(system.sites[right].pos)
+        if abs(left_position[0] - right_position[0]) > 0.5:
+            horizontal.append((float(current), int(left_position[1])))
+    total_current_weight = sum(abs(current) for current, _ in horizontal)
+    width = parameters["width"]
+    edge_current_weight = sum(
+        abs(current)
+        for current, y in horizontal
+        if y < 2 or y >= width - 2
+    )
+    edge_current_fraction = edge_current_weight / total_current_weight
+    maximum_plateau_error = float(
+        np.max(np.abs(np.asarray(transmissions) - 1.0))
+    )
+    maximum_unitarity_error = max(unitarity_errors)
+    metrics = {
+        "energies": energies,
+        "transmissions": transmissions,
+        "maximum_plateau_error": maximum_plateau_error,
+        "maximum_unitarity_error": maximum_unitarity_error,
+        "edge_current_fraction": edge_current_fraction,
+    }
+    checks = [
+        Check("first_hall_plateau", maximum_plateau_error < 3.0e-5, maximum_plateau_error, 0.0, 3.0e-5),
+        Check("scattering_unitarity", maximum_unitarity_error < 3.0e-5, maximum_unitarity_error, 0.0, 3.0e-5),
+        Check("edge_localized_bond_current", edge_current_fraction > 0.8, edge_current_fraction, "> 0.8"),
+    ]
+    return metrics, checks
+
+
 IMPLEMENTED = {
     "bulk_graphene_dirac_cone": bulk_graphene_dirac_cone,
     "bulk_ssh_polarization": bulk_ssh_polarization,
@@ -676,7 +1102,13 @@ IMPLEMENTED = {
     "bulk_nodal_line_berry_phase": bulk_nodal_line_berry_phase,
     "bulk_tilted_dirac_berry_dipole": bulk_tilted_dirac_berry_dipole,
     "boundary_ssh_edge_localization": boundary_ssh_edge_localization,
+    "boundary_haldane_ribbon_flow": boundary_haldane_ribbon_flow,
+    "boundary_graphene_terminations": boundary_graphene_terminations,
+    "boundary_bbh_corner_modes": boundary_bbh_corner_modes,
     "transport_ballistic_chain": transport_ballistic_chain,
+    "transport_resonant_level": transport_resonant_level,
+    "transport_aharonov_bohm_ring": transport_aharonov_bohm_ring,
+    "transport_quantum_hall_strip": transport_quantum_hall_strip,
 }
 
 

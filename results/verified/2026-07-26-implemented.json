@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T13:37:08.328249+00:00",
+  "generated_at": "2026-07-26T13:50:36.394182+00:00",
   "platform": {
     "machine": "arm64",
     "python": "3.12.8",
@@ -45,7 +45,7 @@
           "tolerance": null
         }
       ],
-      "elapsed_seconds": 0.0025332910008728504,
+      "elapsed_seconds": 0.00301708304323256,
       "metrics": {
         "dirac_gap": 8.005932084973443e-16,
         "gamma_eigenvalues": [
@@ -84,7 +84,7 @@
           "tolerance": 0.0002
         }
       ],
-      "elapsed_seconds": 0.0008162090089172125,
+      "elapsed_seconds": 0.000673375092446804,
       "metrics": {
         "minimum_gap": 0.8,
         "reduced_polarization": 0.5,
@@ -120,7 +120,7 @@
           "tolerance": null
         }
       ],
-      "elapsed_seconds": 0.21044275001622736,
+      "elapsed_seconds": 0.20793145801872015,
       "metrics": {
         "chern_number": 0.9999999999999999,
         "minimum_cycle_gap": 1.6030304453164639,
@@ -166,7 +166,7 @@
           "tolerance": null
         }
       ],
-      "elapsed_seconds": 0.2212125000078231,
+      "elapsed_seconds": 0.22597704094368964,
       "metrics": {
         "chern_number": -1.0000000000000009,
         "dirac_masses": [
@@ -219,7 +219,7 @@
           "tolerance": null
         }
       ],
-      "elapsed_seconds": 0.4502377500757575,
+      "elapsed_seconds": 0.4560130420140922,
       "metrics": {
         "chern_numbers": [
           -3.3130777931911632e-18,
@@ -283,7 +283,7 @@
           "tolerance": null
         }
       ],
-      "elapsed_seconds": 0.263149083009921,
+      "elapsed_seconds": 0.26960737502668053,
       "metrics": {
         "endpoint_separation": 5.551115123125783e-17,
         "maximum_wannier_separation": 0.9999999999999999,
@@ -428,7 +428,7 @@
           "tolerance": null
         }
       ],
-      "elapsed_seconds": 0.31673387507908046,
+      "elapsed_seconds": 0.33492887497413903,
       "metrics": {
         "band_chern_numbers": [
           0.9999999999999996,
@@ -493,7 +493,7 @@
           "tolerance": 3e-05
         }
       ],
-      "elapsed_seconds": 0.12846191599965096,
+      "elapsed_seconds": 0.13117237505503,
       "metrics": {
         "minimum_bulk_gap": 1.414213562373095,
         "minimum_wannier_gap": 0.5081742612059095,
@@ -543,7 +543,7 @@
           "tolerance": null
         }
       ],
-      "elapsed_seconds": 0.20169237500522286,
+      "elapsed_seconds": 0.20124774996656924,
       "metrics": {
         "node_gaps": [
           0.0,
@@ -587,7 +587,7 @@
           "tolerance": 2e-05
         }
       ],
-      "elapsed_seconds": 0.03045983298216015,
+      "elapsed_seconds": 0.03078124998137355,
       "metrics": {
         "linked_loop_phase": 3.141592653589793,
         "ring_point": [
@@ -627,7 +627,7 @@
           "tolerance": null
         }
       ],
-      "elapsed_seconds": 1.0540040840860456,
+      "elapsed_seconds": 1.0695630830014125,
       "metrics": {
         "chemical_potentials": [
           0.4,
@@ -676,7 +676,7 @@
           "tolerance": 1e-12
         }
       ],
-      "elapsed_seconds": 0.00865554204210639,
+      "elapsed_seconds": 0.013799250009469688,
       "metrics": {
         "maximum_hermiticity_error": 1.5700924586837752e-16,
         "maximum_off_mesh_energy_error": 6.661338147750939e-16,
@@ -722,7 +722,7 @@
           "tolerance": 0.1566092151176974
         }
       ],
-      "elapsed_seconds": 0.006394374999217689,
+      "elapsed_seconds": 0.007225207984447479,
       "metrics": {
         "edge_weights": [
           0.6400437291449644,
@@ -736,6 +736,221 @@
           2.339941440568407e-05,
           5.0935431308816454e-08,
           1.4369723001626085e-11
+        ]
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "pythtb",
+      "backend_version": "2.0.0",
+      "case_id": "boundary_haldane_ribbon_flow",
+      "checks": [
+        {
+          "actual": -1.0000000000000007,
+          "expected": "magnitude 1",
+          "name": "nontrivial_bulk",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": [
+            -0.0007839341803450949,
+            0.0007839341803455584
+          ],
+          "expected": "two near-zero branches",
+          "name": "two_in_gap_branches",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": [
+            0.9991829276191092,
+            0.9991829276191118
+          ],
+          "expected": "> 0.9",
+          "name": "opposite_edge_localization",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": [
+            -4.736581098008677,
+            4.73658109801722
+          ],
+          "expected": "opposite nonzero velocities",
+          "name": "chiral_spectral_flow",
+          "passed": true,
+          "tolerance": null
+        }
+      ],
+      "elapsed_seconds": 0.3651564170140773,
+      "metrics": {
+        "bulk_chern_number": -1.0000000000000007,
+        "crossing_energies": [
+          -0.0007839341803450949,
+          0.0007839341803455584
+        ],
+        "crossing_momentum": 0.4645,
+        "edge_velocities": [
+          -4.736581098008677,
+          4.73658109801722
+        ],
+        "edge_weights": [
+          0.9991829276191092,
+          0.9991829276191118
+        ],
+        "in_gap_edge_branch_count": 2
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "pythtb",
+      "backend_version": "2.0.0",
+      "case_id": "boundary_graphene_terminations",
+      "checks": [
+        {
+          "actual": [
+            4.420624734625797e-18,
+            1.670967728669024e-27,
+            1.0586255514194674e-27
+          ],
+          "expected": "gapless",
+          "name": "zigzag_edge_band",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": [
+            0.9998910661603508,
+            0.9998910661603506,
+            0.9998910661603503
+          ],
+          "expected": "> 0.95",
+          "name": "zigzag_edge_localization",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": [
+            0.27225898692462314,
+            0.1877926324897077,
+            0.14330717991598607
+          ],
+          "expected": "> 0.1",
+          "name": "armchair_finite_gaps",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": 0.05123489234891586,
+          "expected": "< 0.08",
+          "name": "armchair_inverse_width_scaling",
+          "passed": true,
+          "tolerance": null
+        }
+      ],
+      "elapsed_seconds": 0.15844341600313783,
+      "metrics": {
+        "armchair_gaps": [
+          0.27225898692462314,
+          0.1877926324897077,
+          0.14330717991598607
+        ],
+        "armchair_scaling_spread": 0.05123489234891586,
+        "width_scaled_armchair_gaps": [
+          3.2671078430954776,
+          3.3802673848147387,
+          3.4393723179836657
+        ],
+        "widths": [
+          12,
+          18,
+          24
+        ],
+        "zigzag_edge_weights": [
+          0.9998910661603508,
+          0.9998910661603506,
+          0.9998910661603503
+        ],
+        "zigzag_minimum_gaps": [
+          4.420624734625797e-18,
+          1.670967728669024e-27,
+          1.0586255514194674e-27
+        ]
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "pythtb",
+      "backend_version": "2.0.0",
+      "case_id": "boundary_bbh_corner_modes",
+      "checks": [
+        {
+          "actual": [
+            0.004143567395689598,
+            -0.0041435673956897985,
+            -0.004143567395690177,
+            0.004143567395690508
+          ],
+          "expected": "four isolated midgap states",
+          "name": "four_midgap_modes",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": [
+            0.5627146753048927,
+            0.5627146753048915,
+            0.5627146753048918,
+            0.5627146753048924
+          ],
+          "expected": "> 0.55",
+          "name": "corner_localization",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": [
+            0.9999999999999996,
+            1.0000000000000007,
+            0.9999999999999999,
+            1.0
+          ],
+          "expected": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "name": "sublattice_support",
+          "passed": true,
+          "tolerance": 2e-05
+        }
+      ],
+      "elapsed_seconds": 0.030469125020317733,
+      "metrics": {
+        "corner_weights": [
+          0.5627146753048927,
+          0.5627146753048915,
+          0.5627146753048918,
+          0.5627146753048924
+        ],
+        "midgap_count": 4,
+        "midgap_energies": [
+          0.004143567395689598,
+          -0.0041435673956897985,
+          -0.004143567395690177,
+          0.004143567395690508
+        ],
+        "next_state_absolute_energy": 0.5872188421119369,
+        "sublattice_projector_support": [
+          0.9999999999999996,
+          1.0000000000000007,
+          0.9999999999999999,
+          1.0
         ]
       },
       "schema_version": 1,
@@ -774,7 +989,7 @@
           "tolerance": null
         }
       ],
-      "elapsed_seconds": 0.017015540972352028,
+      "elapsed_seconds": 0.02452720806468278,
       "metrics": {
         "dirac_gap": 8.005932084973443e-16,
         "gamma_eigenvalues": [
@@ -813,7 +1028,7 @@
           "tolerance": 0.0002
         }
       ],
-      "elapsed_seconds": 0.01791154104284942,
+      "elapsed_seconds": 0.006687500048428774,
       "metrics": {
         "minimum_gap": 0.8,
         "reduced_polarization": 0.5,
@@ -849,7 +1064,7 @@
           "tolerance": null
         }
       ],
-      "elapsed_seconds": 0.5039052499923855,
+      "elapsed_seconds": 0.4903026249958202,
       "metrics": {
         "chern_number": 0.9999999999999994,
         "minimum_cycle_gap": 1.6030304453164639,
@@ -895,7 +1110,7 @@
           "tolerance": null
         }
       ],
-      "elapsed_seconds": 0.16626041696872562,
+      "elapsed_seconds": 0.16324154194444418,
       "metrics": {
         "chern_number": -1.0000000000000009,
         "dirac_masses": [
@@ -948,7 +1163,7 @@
           "tolerance": null
         }
       ],
-      "elapsed_seconds": 0.30832179193384945,
+      "elapsed_seconds": 0.31114866700954735,
       "metrics": {
         "chern_numbers": [
           6.6261555863823264e-18,
@@ -1012,7 +1227,7 @@
           "tolerance": null
         }
       ],
-      "elapsed_seconds": 0.19912641705013812,
+      "elapsed_seconds": 0.19589408405590802,
       "metrics": {
         "endpoint_separation": 1.6653345369377348e-16,
         "maximum_wannier_separation": 0.9999999999999993,
@@ -1157,7 +1372,7 @@
           "tolerance": null
         }
       ],
-      "elapsed_seconds": 0.25431412493344396,
+      "elapsed_seconds": 0.23586187500040978,
       "metrics": {
         "band_chern_numbers": [
           1.0000000000000009,
@@ -1222,7 +1437,7 @@
           "tolerance": 3e-05
         }
       ],
-      "elapsed_seconds": 0.08534100011456758,
+      "elapsed_seconds": 0.08714037493336946,
       "metrics": {
         "minimum_bulk_gap": 1.4142135623730945,
         "minimum_wannier_gap": 0.5081742612059096,
@@ -1272,7 +1487,7 @@
           "tolerance": null
         }
       ],
-      "elapsed_seconds": 0.1490746249910444,
+      "elapsed_seconds": 0.15130554197821766,
       "metrics": {
         "node_gaps": [
           2.220446049250313e-16,
@@ -1316,7 +1531,7 @@
           "tolerance": 2e-05
         }
       ],
-      "elapsed_seconds": 0.025901291985064745,
+      "elapsed_seconds": 0.02529862499795854,
       "metrics": {
         "linked_loop_phase": 3.141592653589793,
         "ring_point": [
@@ -1356,7 +1571,7 @@
           "tolerance": null
         }
       ],
-      "elapsed_seconds": 0.7357537910575047,
+      "elapsed_seconds": 0.7151651659514755,
       "metrics": {
         "chemical_potentials": [
           0.4,
@@ -1422,7 +1637,7 @@
           "tolerance": 0.1566092151176974
         }
       ],
-      "elapsed_seconds": 0.029381249914877117,
+      "elapsed_seconds": 0.020819792058318853,
       "metrics": {
         "edge_weights": [
           0.8704522938955347,
@@ -1436,6 +1651,221 @@
           2.33994144057392e-05,
           5.093543135565398e-08,
           1.4369698046129753e-11
+        ]
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "kwant",
+      "backend_version": "1.5.0",
+      "case_id": "boundary_haldane_ribbon_flow",
+      "checks": [
+        {
+          "actual": -0.9999999999999999,
+          "expected": "magnitude 1",
+          "name": "nontrivial_bulk",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": [
+            -0.0007839341803455621,
+            0.0007839341803442619
+          ],
+          "expected": "two near-zero branches",
+          "name": "two_in_gap_branches",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": [
+            0.9991829276191118,
+            0.9991829276191122
+          ],
+          "expected": "> 0.9",
+          "name": "opposite_edge_localization",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": [
+            -4.736581098013365,
+            4.7365810980120004
+          ],
+          "expected": "opposite nonzero velocities",
+          "name": "chiral_spectral_flow",
+          "passed": true,
+          "tolerance": null
+        }
+      ],
+      "elapsed_seconds": 0.18198649992700666,
+      "metrics": {
+        "bulk_chern_number": -0.9999999999999999,
+        "crossing_energies": [
+          -0.0007839341803455621,
+          0.0007839341803442619
+        ],
+        "crossing_momentum": 0.4645,
+        "edge_velocities": [
+          -4.736581098013365,
+          4.7365810980120004
+        ],
+        "edge_weights": [
+          0.9991829276191118,
+          0.9991829276191122
+        ],
+        "in_gap_edge_branch_count": 2
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "kwant",
+      "backend_version": "1.5.0",
+      "case_id": "boundary_graphene_terminations",
+      "checks": [
+        {
+          "actual": [
+            5.173324237026998e-17,
+            3.2952513373826625e-18,
+            4.250117794939628e-17
+          ],
+          "expected": "gapless",
+          "name": "zigzag_edge_band",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": [
+            0.9998910661603506,
+            0.9998910661603508,
+            0.9998910661603504
+          ],
+          "expected": "> 0.95",
+          "name": "zigzag_edge_localization",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": [
+            0.2722589869246227,
+            0.1877926324897078,
+            0.1433071799159868
+          ],
+          "expected": "> 0.1",
+          "name": "armchair_finite_gaps",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": 0.05123489234892253,
+          "expected": "< 0.08",
+          "name": "armchair_inverse_width_scaling",
+          "passed": true,
+          "tolerance": null
+        }
+      ],
+      "elapsed_seconds": 0.1894858340965584,
+      "metrics": {
+        "armchair_gaps": [
+          0.2722589869246227,
+          0.1877926324897078,
+          0.1433071799159868
+        ],
+        "armchair_scaling_spread": 0.05123489234892253,
+        "width_scaled_armchair_gaps": [
+          3.2671078430954723,
+          3.38026738481474,
+          3.439372317983683
+        ],
+        "widths": [
+          12,
+          18,
+          24
+        ],
+        "zigzag_edge_weights": [
+          0.9998910661603506,
+          0.9998910661603508,
+          0.9998910661603504
+        ],
+        "zigzag_minimum_gaps": [
+          5.173324237026998e-17,
+          3.2952513373826625e-18,
+          4.250117794939628e-17
+        ]
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "kwant",
+      "backend_version": "1.5.0",
+      "case_id": "boundary_bbh_corner_modes",
+      "checks": [
+        {
+          "actual": [
+            0.0041435673956895045,
+            0.00414356739568991,
+            -0.004143567395689994,
+            -0.004143567395690018
+          ],
+          "expected": "four isolated midgap states",
+          "name": "four_midgap_modes",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": [
+            0.5627146753048919,
+            0.5627146753048907,
+            0.5627146753048926,
+            0.5627146753048928
+          ],
+          "expected": "> 0.55",
+          "name": "corner_localization",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": [
+            0.9999999999999986,
+            1.0000000000000013,
+            0.9999999999999996,
+            0.9999999999999996
+          ],
+          "expected": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "name": "sublattice_support",
+          "passed": true,
+          "tolerance": 2e-05
+        }
+      ],
+      "elapsed_seconds": 1.3828234589891508,
+      "metrics": {
+        "corner_weights": [
+          0.5627146753048919,
+          0.5627146753048907,
+          0.5627146753048926,
+          0.5627146753048928
+        ],
+        "midgap_count": 4,
+        "midgap_energies": [
+          0.0041435673956895045,
+          0.00414356739568991,
+          -0.004143567395689994,
+          -0.004143567395690018
+        ],
+        "next_state_absolute_energy": 0.5872188421119364,
+        "sublattice_projector_support": [
+          0.9999999999999986,
+          1.0000000000000013,
+          0.9999999999999996,
+          0.9999999999999996
         ]
       },
       "schema_version": 1,
@@ -1461,7 +1891,7 @@
           "tolerance": 1e-09
         }
       ],
-      "elapsed_seconds": 0.07327908300794661,
+      "elapsed_seconds": 0.06918437499552965,
       "metrics": {
         "energies": [
           -1.5,
@@ -1478,6 +1908,170 @@
           1.0,
           1.0000000000000013,
           0.9999999999999958
+        ]
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "kwant",
+      "backend_version": "1.5.0",
+      "case_id": "transport_resonant_level",
+      "checks": [
+        {
+          "actual": 4.440892098500626e-16,
+          "expected": 0.0,
+          "name": "analytic_line_shape",
+          "passed": true,
+          "tolerance": 2e-07
+        },
+        {
+          "actual": 0.2380952380952381,
+          "expected": 0.2,
+          "name": "resonance_tracks_level",
+          "passed": true,
+          "tolerance": 0.05
+        },
+        {
+          "actual": 0.9999999999999998,
+          "expected": 1.0,
+          "name": "perfect_symmetric_resonance",
+          "passed": true,
+          "tolerance": 2e-07
+        }
+      ],
+      "elapsed_seconds": 0.020697375060990453,
+      "metrics": {
+        "analytic_transmissions": [
+          0.7838679743283419,
+          0.9352469264256639,
+          1.0,
+          0.9337649532988787,
+          0.7754844295650668
+        ],
+        "energies": [
+          0.0380952380952381,
+          0.1380952380952381,
+          0.2380952380952381,
+          0.3380952380952381,
+          0.4380952380952381
+        ],
+        "maximum_analytic_error": 4.440892098500626e-16,
+        "peak_transmission": 0.9999999999999998,
+        "predicted_resonance_energy": 0.2380952380952381,
+        "resonance_energy": 0.2380952380952381,
+        "transmissions": [
+          0.7838679743283414,
+          0.9352469264256639,
+          0.9999999999999998,
+          0.9337649532988785,
+          0.7754844295650666
+        ]
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "kwant",
+      "backend_version": "1.5.0",
+      "case_id": "transport_aharonov_bohm_ring",
+      "checks": [
+        {
+          "actual": 2.220446049250313e-16,
+          "expected": 0.0,
+          "name": "one_flux_quantum_periodicity",
+          "passed": true,
+          "tolerance": 2e-07
+        },
+        {
+          "actual": 0.0,
+          "expected": 0.0,
+          "name": "flux_reflection_symmetry",
+          "passed": true,
+          "tolerance": 2e-07
+        },
+        {
+          "actual": 1.0741360387438348e-31,
+          "expected": 0.0,
+          "name": "half_flux_destructive_interference",
+          "passed": true,
+          "tolerance": 2e-07
+        },
+        {
+          "actual": 0.9807537052836548,
+          "expected": "> 0.5",
+          "name": "finite_zero_flux_transport",
+          "passed": true,
+          "tolerance": null
+        }
+      ],
+      "elapsed_seconds": 0.0731200409354642,
+      "metrics": {
+        "energy": 0.3,
+        "flux_reflection_error": 0.0,
+        "fluxes": [
+          0.0,
+          0.25,
+          0.5,
+          0.75,
+          1.0
+        ],
+        "half_flux_transmission": 1.0741360387438348e-31,
+        "periodicity_error": 2.220446049250313e-16,
+        "transmissions": [
+          0.9807537052836548,
+          0.26222894197167557,
+          1.0741360387438348e-31,
+          0.26222894197167557,
+          0.9807537052836546
+        ]
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "kwant",
+      "backend_version": "1.5.0",
+      "case_id": "transport_quantum_hall_strip",
+      "checks": [
+        {
+          "actual": 1.1337597527472099e-12,
+          "expected": 0.0,
+          "name": "first_hall_plateau",
+          "passed": true,
+          "tolerance": 3e-05
+        },
+        {
+          "actual": 2.699746001287531e-14,
+          "expected": 0.0,
+          "name": "scattering_unitarity",
+          "passed": true,
+          "tolerance": 3e-05
+        },
+        {
+          "actual": 0.8840311296412475,
+          "expected": "> 0.8",
+          "name": "edge_localized_bond_current",
+          "passed": true,
+          "tolerance": null
+        }
+      ],
+      "elapsed_seconds": 0.383277166984044,
+      "metrics": {
+        "edge_current_fraction": 0.8840311296412475,
+        "energies": [
+          -3.1,
+          -2.8,
+          -2.4,
+          -2.2
+        ],
+        "maximum_plateau_error": 1.1337597527472099e-12,
+        "maximum_unitarity_error": 2.699746001287531e-14,
+        "transmissions": [
+          0.9999999999988662,
+          0.9999999999999984,
+          0.9999999999999971,
+          0.9999999999999454
         ]
       },
       "schema_version": 1,
@@ -1516,7 +2110,7 @@
           "tolerance": null
         }
       ],
-      "elapsed_seconds": 0.000309375,
+      "elapsed_seconds": 0.000205584,
       "metrics": {
         "dirac_gap": 8.005932084973443e-16,
         "gamma_eigenvalues": [
@@ -1548,7 +2142,7 @@
           "tolerance": 0.0002
         }
       ],
-      "elapsed_seconds": 0.00183725,
+      "elapsed_seconds": 0.001289667,
       "metrics": {
         "minimum_gap": 0.8,
         "reduced_polarization": 0.5
@@ -1583,7 +2177,7 @@
           "tolerance": null
         }
       ],
-      "elapsed_seconds": 0.011806584,
+      "elapsed_seconds": 0.006934667,
       "metrics": {
         "chern_number": 0.9999999999999996,
         "minimum_cycle_gap": 1.6020478421656694,
@@ -1629,7 +2223,7 @@
           "tolerance": null
         }
       ],
-      "elapsed_seconds": 0.010401542,
+      "elapsed_seconds": 0.007011417,
       "metrics": {
         "chern_number": 0.9999999999999999,
         "dirac_masses": [
@@ -1682,7 +2276,7 @@
           "tolerance": null
         }
       ],
-      "elapsed_seconds": 0.013002834,
+      "elapsed_seconds": 0.013611584,
       "metrics": {
         "chern_numbers": [
           -4.417437057588218e-18,
@@ -1746,7 +2340,7 @@
           "tolerance": null
         }
       ],
-      "elapsed_seconds": 0.013921959,
+      "elapsed_seconds": 0.014517792,
       "metrics": {
         "endpoint_separation": 3.885780586188048e-16,
         "maximum_wannier_separation": 0.9999999999999997,
@@ -1891,7 +2485,7 @@
           "tolerance": null
         }
       ],
-      "elapsed_seconds": 0.014202541,
+      "elapsed_seconds": 0.014060292,
       "metrics": {
         "band_chern_numbers": [
           -1.0000000000000007,
@@ -1956,7 +2550,7 @@
           "tolerance": 3e-05
         }
       ],
-      "elapsed_seconds": 0.011029208,
+      "elapsed_seconds": 0.012222125,
       "metrics": {
         "minimum_bulk_gap": 1.414213562373095,
         "minimum_wannier_gap": 0.5081742612059094,
@@ -2006,7 +2600,7 @@
           "tolerance": null
         }
       ],
-      "elapsed_seconds": 0.012074584,
+      "elapsed_seconds": 0.007247833,
       "metrics": {
         "node_gaps": [
           2.220446049250313e-16,
@@ -2050,7 +2644,7 @@
           "tolerance": 2e-05
         }
       ],
-      "elapsed_seconds": 0.000862875,
+      "elapsed_seconds": 0.000937333,
       "metrics": {
         "linked_loop_phase": -3.141592653589793,
         "ring_point": [
@@ -2090,7 +2684,7 @@
           "tolerance": null
         }
       ],
-      "elapsed_seconds": 0.020314,
+      "elapsed_seconds": 0.019718084,
       "metrics": {
         "chemical_potentials": [
           0.4,
@@ -2139,7 +2733,7 @@
           "tolerance": 1e-12
         }
       ],
-      "elapsed_seconds": 0.000381,
+      "elapsed_seconds": 0.000379542,
       "metrics": {
         "maximum_hermiticity_error": 1.936124268140441e-16,
         "maximum_off_mesh_energy_error": 4.440892098500626e-16,
@@ -2185,7 +2779,7 @@
           "tolerance": 0.1566092151176974
         }
       ],
-      "elapsed_seconds": 0.001495833,
+      "elapsed_seconds": 0.001525625,
       "metrics": {
         "edge_weights": [
           0.640043729144964,
@@ -2207,6 +2801,221 @@
     {
       "backend": "thouless",
       "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+      "case_id": "boundary_haldane_ribbon_flow",
+      "checks": [
+        {
+          "actual": 1.0000000000000007,
+          "expected": "magnitude 1",
+          "name": "nontrivial_bulk",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": [
+            -0.000783934180346194,
+            0.0007839341803453883
+          ],
+          "expected": "two near-zero branches",
+          "name": "two_in_gap_branches",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": [
+            0.9991829276191134,
+            0.9991829276191101
+          ],
+          "expected": "> 0.9",
+          "name": "opposite_edge_localization",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": [
+            -4.736581098007965,
+            4.7365810980042795
+          ],
+          "expected": "opposite nonzero velocities",
+          "name": "chiral_spectral_flow",
+          "passed": true,
+          "tolerance": null
+        }
+      ],
+      "elapsed_seconds": 0.077507,
+      "metrics": {
+        "bulk_chern_number": 1.0000000000000007,
+        "crossing_energies": [
+          -0.000783934180346194,
+          0.0007839341803453883
+        ],
+        "crossing_momentum": 0.4645,
+        "edge_velocities": [
+          -4.736581098007965,
+          4.7365810980042795
+        ],
+        "edge_weights": [
+          0.9991829276191134,
+          0.9991829276191101
+        ],
+        "in_gap_edge_branch_count": 2
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "thouless",
+      "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+      "case_id": "boundary_graphene_terminations",
+      "checks": [
+        {
+          "actual": [
+            1.8990543765771262e-18,
+            1.670967728669024e-27,
+            1.0586255875306538e-27
+          ],
+          "expected": "gapless",
+          "name": "zigzag_edge_band",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": [
+            0.9998910661603502,
+            0.9998910661603504,
+            0.9998910661603504
+          ],
+          "expected": "> 0.95",
+          "name": "zigzag_edge_localization",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": [
+            0.27225898692462314,
+            0.1877926324897073,
+            0.14330717991598602
+          ],
+          "expected": "> 0.1",
+          "name": "armchair_finite_gaps",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": 0.051234892348915505,
+          "expected": "< 0.08",
+          "name": "armchair_inverse_width_scaling",
+          "passed": true,
+          "tolerance": null
+        }
+      ],
+      "elapsed_seconds": 0.105129083,
+      "metrics": {
+        "armchair_gaps": [
+          0.27225898692462314,
+          0.1877926324897073,
+          0.14330717991598602
+        ],
+        "armchair_scaling_spread": 0.051234892348915505,
+        "width_scaled_armchair_gaps": [
+          3.2671078430954776,
+          3.380267384814731,
+          3.4393723179836644
+        ],
+        "widths": [
+          12,
+          18,
+          24
+        ],
+        "zigzag_edge_weights": [
+          0.9998910661603502,
+          0.9998910661603504,
+          0.9998910661603504
+        ],
+        "zigzag_minimum_gaps": [
+          1.8990543765771262e-18,
+          1.670967728669024e-27,
+          1.0586255875306538e-27
+        ]
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "thouless",
+      "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+      "case_id": "boundary_bbh_corner_modes",
+      "checks": [
+        {
+          "actual": [
+            0.004143567395689787,
+            -0.0041435673956898775,
+            -0.004143567395690191,
+            0.004143567395690373
+          ],
+          "expected": "four isolated midgap states",
+          "name": "four_midgap_modes",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": [
+            0.5627146753048922,
+            0.5627146753048913,
+            0.5627146753048919,
+            0.5627146753048923
+          ],
+          "expected": "> 0.55",
+          "name": "corner_localization",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": [
+            1.0000000000000009,
+            0.9999999999999998,
+            0.9999999999999986,
+            0.9999999999999982
+          ],
+          "expected": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "name": "sublattice_support",
+          "passed": true,
+          "tolerance": 2e-05
+        }
+      ],
+      "elapsed_seconds": 0.018995209,
+      "metrics": {
+        "corner_weights": [
+          0.5627146753048922,
+          0.5627146753048913,
+          0.5627146753048919,
+          0.5627146753048923
+        ],
+        "midgap_count": 4,
+        "midgap_energies": [
+          0.004143567395689787,
+          -0.0041435673956898775,
+          -0.004143567395690191,
+          0.004143567395690373
+        ],
+        "next_state_absolute_energy": 0.5872188421119361,
+        "sublattice_projector_support": [
+          1.0000000000000009,
+          0.9999999999999998,
+          0.9999999999999986,
+          0.9999999999999982
+        ]
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "thouless",
+      "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
       "case_id": "transport_ballistic_chain",
       "checks": [
         {
@@ -2217,7 +3026,7 @@
           "tolerance": 1e-09
         }
       ],
-      "elapsed_seconds": 0.005272125,
+      "elapsed_seconds": 0.001756708,
       "metrics": {
         "energies": [
           -1.5,
@@ -2237,12 +3046,176 @@
       },
       "schema_version": 1,
       "status": "passed"
+    },
+    {
+      "backend": "thouless",
+      "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+      "case_id": "transport_resonant_level",
+      "checks": [
+        {
+          "actual": 1.3713474800169934e-12,
+          "expected": 0.0,
+          "name": "analytic_line_shape",
+          "passed": true,
+          "tolerance": 2e-07
+        },
+        {
+          "actual": 0.2380952380952381,
+          "expected": 0.2,
+          "name": "resonance_tracks_level",
+          "passed": true,
+          "tolerance": 0.05
+        },
+        {
+          "actual": 0.9999999999999998,
+          "expected": 1.0,
+          "name": "perfect_symmetric_resonance",
+          "passed": true,
+          "tolerance": 2e-07
+        }
+      ],
+      "elapsed_seconds": 0.000289916,
+      "metrics": {
+        "analytic_transmissions": [
+          0.7838679743283419,
+          0.9352469264256639,
+          1.0,
+          0.9337649532988789,
+          0.7754844295650668
+        ],
+        "energies": [
+          0.0380952380952381,
+          0.1380952380952381,
+          0.2380952380952381,
+          0.3380952380952381,
+          0.4380952380952381
+        ],
+        "maximum_analytic_error": 1.3713474800169934e-12,
+        "peak_transmission": 0.9999999999999998,
+        "predicted_resonance_energy": 0.2380952380952381,
+        "resonance_energy": 0.2380952380952381,
+        "transmissions": [
+          0.7838679743281985,
+          0.9352469264256198,
+          0.9999999999999998,
+          0.9337649532987768,
+          0.7754844295636955
+        ]
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "thouless",
+      "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+      "case_id": "transport_aharonov_bohm_ring",
+      "checks": [
+        {
+          "actual": 8.881784197001252e-16,
+          "expected": 0.0,
+          "name": "one_flux_quantum_periodicity",
+          "passed": true,
+          "tolerance": 2e-07
+        },
+        {
+          "actual": 2.220446049250313e-16,
+          "expected": 0.0,
+          "name": "flux_reflection_symmetry",
+          "passed": true,
+          "tolerance": 2e-07
+        },
+        {
+          "actual": 7.530386082553808e-32,
+          "expected": 0.0,
+          "name": "half_flux_destructive_interference",
+          "passed": true,
+          "tolerance": 2e-07
+        },
+        {
+          "actual": 0.9807537052835986,
+          "expected": "> 0.5",
+          "name": "finite_zero_flux_transport",
+          "passed": true,
+          "tolerance": null
+        }
+      ],
+      "elapsed_seconds": 0.000836459,
+      "metrics": {
+        "energy": 0.3,
+        "flux_reflection_error": 2.220446049250313e-16,
+        "fluxes": [
+          0.0,
+          0.25,
+          0.5,
+          0.75,
+          1.0
+        ],
+        "half_flux_transmission": 7.530386082553808e-32,
+        "periodicity_error": 8.881784197001252e-16,
+        "transmissions": [
+          0.9807537052835986,
+          0.2622289419715311,
+          7.530386082553808e-32,
+          0.26222894197153135,
+          0.9807537052835977
+        ]
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "thouless",
+      "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+      "case_id": "transport_quantum_hall_strip",
+      "checks": [
+        {
+          "actual": 1.1366463326112353e-12,
+          "expected": 0.0,
+          "name": "first_hall_plateau",
+          "passed": true,
+          "tolerance": 3e-05
+        },
+        {
+          "actual": 1.3322676295501878e-15,
+          "expected": 0.0,
+          "name": "scattering_unitarity",
+          "passed": true,
+          "tolerance": 3e-05
+        },
+        {
+          "actual": 0.8840311296412628,
+          "expected": "> 0.8",
+          "name": "edge_localized_bond_current",
+          "passed": true,
+          "tolerance": null
+        }
+      ],
+      "elapsed_seconds": 5.08906025,
+      "metrics": {
+        "edge_current_fraction": 0.8840311296412628,
+        "energies": [
+          -3.1,
+          -2.8,
+          -2.4,
+          -2.2
+        ],
+        "maximum_plateau_error": 1.1366463326112353e-12,
+        "maximum_unitarity_error": 1.3322676295501878e-15,
+        "transmissions": [
+          0.9999999999988634,
+          0.9999999999999964,
+          0.9999999999999992,
+          0.9999999999999413
+        ]
+      },
+      "schema_version": 1,
+      "status": "passed"
     }
   ],
   "schema_version": 1,
   "summary": {
     "failed": 0,
-    "passed": 40,
-    "result_count": 40
+    "passed": 55,
+    "result_count": 55
   }
 }

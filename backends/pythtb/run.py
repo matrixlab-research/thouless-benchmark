@@ -650,6 +650,185 @@ def bulk_wannier_interpolation(parameters: dict) -> tuple[dict, list[Check]]:
     return metrics, checks
 
 
+def boundary_haldane_ribbon_flow(parameters: dict) -> tuple[dict, list[Check]]:
+    width = parameters["width"]
+    ribbon = haldane_model(parameters).cut_piece(width, 1, glue_edges=False)
+    momenta = np.linspace(0.4, 0.55, 301)
+    best = None
+    for momentum in momenta:
+        hamiltonian = hamiltonian_at(ribbon, np.array([momentum]))
+        values, vectors = np.linalg.eigh(hamiltonian)
+        pair = np.argsort(np.abs(values))[:2]
+        score = float(np.max(np.abs(values[pair])))
+        if best is None or score < best[0]:
+            best = (score, momentum, values, vectors, pair)
+    _, crossing_momentum, values, vectors, pair = best
+    lower_indices = np.arange(4)
+    upper_indices = np.arange(2 * width - 4, 2 * width)
+    lower_state = max(
+        pair, key=lambda state: np.sum(np.abs(vectors[lower_indices, state]) ** 2)
+    )
+    upper_state = max(
+        pair, key=lambda state: np.sum(np.abs(vectors[upper_indices, state]) ** 2)
+    )
+    ordered_states = [lower_state, upper_state]
+    edge_weights = [
+        float(np.sum(np.abs(vectors[indices, state]) ** 2))
+        for state, indices in zip(ordered_states, (lower_indices, upper_indices))
+    ]
+    crossing_energies = [float(values[state]) for state in ordered_states]
+    delta = 1.0e-4
+    velocities = []
+    for state in ordered_states:
+        reference = vectors[:, state]
+        branch_energies = []
+        for momentum in (crossing_momentum - delta, crossing_momentum + delta):
+            shifted_values, shifted_vectors = np.linalg.eigh(
+                hamiltonian_at(ribbon, np.array([momentum]))
+            )
+            overlap = np.abs(shifted_vectors.conj().T @ reference) ** 2
+            branch_energies.append(float(shifted_values[int(np.argmax(overlap))]))
+        velocities.append((branch_energies[1] - branch_energies[0]) / (2.0 * delta))
+    bulk_chern = fhs_chern(
+        lambda momentum: hamiltonian_at(haldane_model(parameters), momentum),
+        (31, 31),
+        occupied=1,
+    )
+    metrics = {
+        "bulk_chern_number": bulk_chern,
+        "crossing_momentum": crossing_momentum,
+        "crossing_energies": crossing_energies,
+        "edge_weights": edge_weights,
+        "edge_velocities": velocities,
+        "in_gap_edge_branch_count": 2,
+    }
+    checks = [
+        Check("nontrivial_bulk", abs(int(np.rint(bulk_chern))) == 1, bulk_chern, "magnitude 1"),
+        Check("two_in_gap_branches", max(abs(value) for value in crossing_energies) < 1.0e-2, crossing_energies, "two near-zero branches"),
+        Check("opposite_edge_localization", min(edge_weights) > 0.9, edge_weights, "> 0.9"),
+        Check("chiral_spectral_flow", velocities[0] * velocities[1] < 0.0 and min(abs(value) for value in velocities) > 1.0, velocities, "opposite nonzero velocities"),
+    ]
+    return metrics, checks
+
+
+def graphene_nanoribbon_model() -> TBModel:
+    lattice = Lattice(
+        [[np.sqrt(3.0) / 2.0, 1.5], [-np.sqrt(3.0) / 2.0, 1.5]],
+        [[0.0, 0.0], [0.0, 1.0 / 3.0]],
+        "all",
+    )
+    model = TBModel(lattice)
+    for offset in ([0, 0], [-1, 0], [0, -1]):
+        model.set_hop(-1.0, 0, 1, offset)
+    return model
+
+
+def boundary_graphene_terminations(parameters: dict) -> tuple[dict, list[Check]]:
+    widths = parameters["widths"]
+    model = graphene_nanoribbon_model()
+    zigzag_minimum_gaps = []
+    zigzag_edge_weights = []
+    armchair_gaps = []
+    for width in widths:
+        zigzag = model.cut_piece(width, 1, glue_edges=False)
+        minimum_gap = np.inf
+        maximum_edge_weight = 0.0
+        for momentum in np.linspace(0.0, 1.0, 301, endpoint=False):
+            values, vectors = np.linalg.eigh(
+                hamiltonian_at(zigzag, np.array([momentum]))
+            )
+            gap = float(values[width] - values[width - 1])
+            pair = np.argsort(np.abs(values))[:2]
+            edge_weight = float(
+                np.mean(
+                    np.sum(
+                        np.abs(vectors[[0, 1, -2, -1]][:, pair]) ** 2,
+                        axis=0,
+                    )
+                )
+            )
+            minimum_gap = min(minimum_gap, gap)
+            maximum_edge_weight = max(maximum_edge_weight, edge_weight)
+        zigzag_minimum_gaps.append(minimum_gap)
+        zigzag_edge_weights.append(maximum_edge_weight)
+
+        armchair_supercell = model.make_supercell([[1, 1], [-1, 1]])
+        armchair = armchair_supercell.cut_piece(width // 2, 1, glue_edges=False)
+        armchair_values = np.linalg.eigvalsh(
+            hamiltonian_at(armchair, np.array([0.0]))
+        )
+        armchair_gaps.append(
+            float(armchair_values[width] - armchair_values[width - 1])
+        )
+    scaled_armchair_gaps = [
+        width * gap for width, gap in zip(widths, armchair_gaps)
+    ]
+    relative_spread = (
+        max(scaled_armchair_gaps) - min(scaled_armchair_gaps)
+    ) / np.mean(scaled_armchair_gaps)
+    metrics = {
+        "widths": widths,
+        "zigzag_minimum_gaps": zigzag_minimum_gaps,
+        "zigzag_edge_weights": zigzag_edge_weights,
+        "armchair_gaps": armchair_gaps,
+        "width_scaled_armchair_gaps": scaled_armchair_gaps,
+        "armchair_scaling_spread": relative_spread,
+    }
+    checks = [
+        Check("zigzag_edge_band", bool(max(zigzag_minimum_gaps) < 1.0e-6), zigzag_minimum_gaps, "gapless"),
+        Check("zigzag_edge_localization", bool(min(zigzag_edge_weights) > 0.95), zigzag_edge_weights, "> 0.95"),
+        Check("armchair_finite_gaps", bool(min(armchair_gaps) > 0.1), armchair_gaps, "> 0.1"),
+        Check("armchair_inverse_width_scaling", bool(all(left > right for left, right in zip(armchair_gaps, armchair_gaps[1:])) and relative_spread < 0.08), relative_spread, "< 0.08"),
+    ]
+    return metrics, checks
+
+
+def boundary_bbh_corner_modes(parameters: dict) -> tuple[dict, list[Check]]:
+    cells_x, cells_y = parameters["cells"]
+    finite = (
+        bbh_model(parameters)
+        .cut_piece(cells_x, 0, glue_edges=False)
+        .cut_piece(cells_y, 1, glue_edges=False)
+    )
+    hamiltonian = finite.hamiltonian(None, flatten_spin_axis=True)
+    values, vectors = np.linalg.eigh(hamiltonian)
+    order = np.argsort(np.abs(values))
+    midgap = order[:4]
+    next_gap = float(abs(values[order[4]]))
+    positions = np.asarray(finite.lattice.orb_vecs)
+    corner_orbitals = np.where(
+        ((positions[:, 0] < 0.5) | (positions[:, 0] > cells_x - 1.5))
+        & ((positions[:, 1] < 0.5) | (positions[:, 1] > cells_y - 1.5))
+    )[0]
+    corner_weights = [
+        float(np.sum(np.abs(vectors[corner_orbitals, state]) ** 2))
+        for state in midgap
+    ]
+    sublattice_support = [
+        float(
+            sum(
+                np.sum(np.abs(vectors[orbital::4, state]) ** 2)
+                for state in midgap
+            )
+        )
+        for orbital in range(4)
+    ]
+    midgap_energies = values[midgap].tolist()
+    metrics = {
+        "midgap_energies": midgap_energies,
+        "midgap_count": 4,
+        "next_state_absolute_energy": next_gap,
+        "corner_weights": corner_weights,
+        "sublattice_projector_support": sublattice_support,
+    }
+    checks = [
+        Check("four_midgap_modes", max(abs(value) for value in midgap_energies) < 1.0e-2 and next_gap > 0.5, midgap_energies, "four isolated midgap states"),
+        Check("corner_localization", min(corner_weights) > 0.55, corner_weights, "> 0.55"),
+        Check("sublattice_support", bool(np.allclose(sublattice_support, np.ones(4), atol=2.0e-5)), sublattice_support, [1.0] * 4, 2.0e-5),
+    ]
+    return metrics, checks
+
+
 def boundary_ssh_edge_localization(parameters: dict) -> tuple[dict, list[Check]]:
     intra = parameters["intracell"]
     inter = parameters["intercell"]
@@ -700,6 +879,9 @@ IMPLEMENTED = {
     "bulk_tilted_dirac_berry_dipole": bulk_tilted_dirac_berry_dipole,
     "bulk_wannier_interpolation": bulk_wannier_interpolation,
     "boundary_ssh_edge_localization": boundary_ssh_edge_localization,
+    "boundary_haldane_ribbon_flow": boundary_haldane_ribbon_flow,
+    "boundary_graphene_terminations": boundary_graphene_terminations,
+    "boundary_bbh_corner_modes": boundary_bbh_corner_modes,
 }
 
 

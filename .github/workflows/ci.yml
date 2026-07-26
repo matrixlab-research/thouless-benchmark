@@ -41,6 +41,9 @@ jobs:
       - run: python backends/pythtb/run.py bulk_tilted_dirac_berry_dipole
       - run: python backends/pythtb/run.py bulk_wannier_interpolation
       - run: python backends/pythtb/run.py boundary_ssh_edge_localization
+      - run: python backends/pythtb/run.py boundary_haldane_ribbon_flow
+      - run: python backends/pythtb/run.py boundary_graphene_terminations
+      - run: python backends/pythtb/run.py boundary_bbh_corner_modes
 
   kwant:
     runs-on: ubuntu-latest
@@ -67,7 +70,13 @@ jobs:
       - run: python backends/kwant/run.py bulk_nodal_line_berry_phase
       - run: python backends/kwant/run.py bulk_tilted_dirac_berry_dipole
       - run: python backends/kwant/run.py boundary_ssh_edge_localization
+      - run: python backends/kwant/run.py boundary_haldane_ribbon_flow
+      - run: python backends/kwant/run.py boundary_graphene_terminations
+      - run: python backends/kwant/run.py boundary_bbh_corner_modes
       - run: python backends/kwant/run.py transport_ballistic_chain
+      - run: python backends/kwant/run.py transport_resonant_level
+      - run: python backends/kwant/run.py transport_aharonov_bohm_ring
+      - run: python backends/kwant/run.py transport_quantum_hall_strip
 
   thouless:
     runs-on: ubuntu-latest
@@ -87,4 +96,10 @@ jobs:
       - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- bulk_tilted_dirac_berry_dipole
       - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- bulk_wannier_interpolation
       - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- boundary_ssh_edge_localization
+      - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- boundary_haldane_ribbon_flow
+      - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- boundary_graphene_terminations
+      - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- boundary_bbh_corner_modes
       - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- transport_ballistic_chain
+      - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- transport_resonant_level
+      - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- transport_aharonov_bohm_ring
+      - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- transport_quantum_hall_strip

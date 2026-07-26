@@ -1278,6 +1278,490 @@ fn bulk_wannier_interpolation() -> Result<(Value, Vec<Check>), Box<dyn Error>> {
     ))
 }
 
+fn add_block(
+    target: &mut ComplexMatrix,
+    row_offset: usize,
+    column_offset: usize,
+    block: &ComplexMatrix,
+    scale: Complex64,
+) -> Result<(), Box<dyn Error>> {
+    for row in 0..block.rows() {
+        for column in 0..block.columns() {
+            target.add_entry(
+                row_offset + row,
+                column_offset + column,
+                scale * block.get(row, column)?,
+            )?;
+        }
+    }
+    Ok(())
+}
+
+fn finite_ribbon_hamiltonian(
+    width: usize,
+    reduced_momentum: f64,
+    onsite: &ComplexMatrix,
+    hoppings: &[(i32, i32, ComplexMatrix)],
+) -> Result<ComplexMatrix, Box<dyn Error>> {
+    let block_size = onsite.rows();
+    let mut hamiltonian = ComplexMatrix::zeros(width * block_size, width * block_size);
+    for cell in 0..width {
+        add_block(
+            &mut hamiltonian,
+            cell * block_size,
+            cell * block_size,
+            onsite,
+            scalar(1.0),
+        )?;
+    }
+    for cell in 0..width {
+        for (offset_x, offset_y, hopping) in hoppings {
+            let target_cell = cell as i32 + offset_y;
+            if !(0..width as i32).contains(&target_cell) {
+                continue;
+            }
+            let phase = Complex64::from_polar(
+                1.0,
+                std::f64::consts::TAU * reduced_momentum * *offset_x as f64,
+            );
+            add_block(
+                &mut hamiltonian,
+                cell * block_size,
+                target_cell as usize * block_size,
+                hopping,
+                phase,
+            )?;
+            add_block(
+                &mut hamiltonian,
+                target_cell as usize * block_size,
+                cell * block_size,
+                &hopping.adjoint(),
+                phase.conj(),
+            )?;
+        }
+    }
+    Ok(hamiltonian)
+}
+
+fn haldane_ribbon_hamiltonian(
+    width: usize,
+    momentum: f64,
+) -> Result<ComplexMatrix, Box<dyn Error>> {
+    let onsite = add_matrices(&pauli_z(scalar(0.2))?, &pauli_x(scalar(1.0))?)?;
+    let mut hoppings = Vec::new();
+    for (offset_x, offset_y, chirality) in [(1, 0, -1.0), (0, 1, 1.0), (1, -1, 1.0)] {
+        let mut matrix = ComplexMatrix::zeros(2, 2);
+        matrix.set(0, 0, Complex64::new(0.0, -chirality * 0.15))?;
+        matrix.set(1, 1, Complex64::new(0.0, chirality * 0.15))?;
+        if (offset_x, offset_y) == (1, 0) || (offset_x, offset_y) == (0, 1) {
+            matrix.set(0, 1, scalar(1.0))?;
+        }
+        hoppings.push((offset_x, offset_y, matrix));
+    }
+    finite_ribbon_hamiltonian(width, momentum, &onsite, &hoppings)
+}
+
+fn state_weight(
+    vectors: &ComplexMatrix,
+    state: usize,
+    orbitals: &[usize],
+) -> Result<f64, Box<dyn Error>> {
+    Ok(orbitals
+        .iter()
+        .map(|orbital| vectors.get(*orbital, state).map(|value| value.norm_sqr()))
+        .collect::<Result<Vec<_>, _>>()?
+        .iter()
+        .sum())
+}
+
+fn state_overlap(
+    left_vectors: &ComplexMatrix,
+    left_state: usize,
+    right_vectors: &ComplexMatrix,
+    right_state: usize,
+) -> Result<f64, Box<dyn Error>> {
+    let overlap = (0..left_vectors.rows())
+        .map(|orbital| {
+            Ok(left_vectors.get(orbital, left_state)?.conj()
+                * right_vectors.get(orbital, right_state)?)
+        })
+        .collect::<Result<Vec<Complex64>, Box<dyn Error>>>()?
+        .iter()
+        .sum::<Complex64>();
+    Ok(overlap.norm_sqr())
+}
+
+fn boundary_haldane_ribbon_flow() -> Result<(Value, Vec<Check>), Box<dyn Error>> {
+    let width = 24;
+    let mut best: Option<(f64, f64, Vec<f64>, ComplexMatrix, Vec<usize>)> = None;
+    for sample in 0..=300 {
+        let momentum = 0.4 + 0.15 * sample as f64 / 300.0;
+        let eigensystem =
+            hermitian_eigensystem(&haldane_ribbon_hamiltonian(width, momentum)?, 1.0e-10)?;
+        let values = eigensystem.eigenvalues().to_vec();
+        let mut order = (0..values.len()).collect::<Vec<_>>();
+        order.sort_by(|left, right| values[*left].abs().total_cmp(&values[*right].abs()));
+        let pair = order[..2].to_vec();
+        let score = values[pair[0]].abs().max(values[pair[1]].abs());
+        if best.as_ref().map_or(true, |current| score < current.0) {
+            best = Some((
+                score,
+                momentum,
+                values,
+                eigensystem.eigenvectors().clone(),
+                pair,
+            ));
+        }
+    }
+    let (_, crossing_momentum, values, vectors, pair) = best.unwrap();
+    let lower_orbitals = (0..4).collect::<Vec<_>>();
+    let upper_orbitals = (2 * width - 4..2 * width).collect::<Vec<_>>();
+    let lower_state = *pair
+        .iter()
+        .max_by(|left, right| {
+            state_weight(&vectors, **left, &lower_orbitals)
+                .unwrap()
+                .total_cmp(&state_weight(&vectors, **right, &lower_orbitals).unwrap())
+        })
+        .unwrap();
+    let upper_state = *pair
+        .iter()
+        .max_by(|left, right| {
+            state_weight(&vectors, **left, &upper_orbitals)
+                .unwrap()
+                .total_cmp(&state_weight(&vectors, **right, &upper_orbitals).unwrap())
+        })
+        .unwrap();
+    let ordered_states = [lower_state, upper_state];
+    let edge_weights = [
+        state_weight(&vectors, lower_state, &lower_orbitals)?,
+        state_weight(&vectors, upper_state, &upper_orbitals)?,
+    ];
+    let crossing_energies = [values[lower_state], values[upper_state]];
+    let delta = 1.0e-4;
+    let mut velocities = Vec::new();
+    for state in ordered_states {
+        let mut branch_energies = Vec::new();
+        for momentum in [crossing_momentum - delta, crossing_momentum + delta] {
+            let shifted =
+                hermitian_eigensystem(&haldane_ribbon_hamiltonian(width, momentum)?, 1.0e-10)?;
+            let shifted_state = (0..shifted.eigenvalues().len())
+                .max_by(|left, right| {
+                    state_overlap(&vectors, state, shifted.eigenvectors(), *left)
+                        .unwrap()
+                        .total_cmp(
+                            &state_overlap(&vectors, state, shifted.eigenvectors(), *right)
+                                .unwrap(),
+                        )
+                })
+                .unwrap();
+            branch_energies.push(shifted.eigenvalues()[shifted_state]);
+        }
+        velocities.push((branch_energies[1] - branch_energies[0]) / (2.0 * delta));
+    }
+    let bulk = haldane_model()?;
+    let bulk_chern = fhs_chern([31, 31], 1, |point| {
+        bulk.hamiltonian(&point).map_err(Into::into)
+    })?;
+    let checks = vec![
+        check(
+            "nontrivial_bulk",
+            (bulk_chern.round() as i64).abs() == 1,
+            json!(bulk_chern),
+            json!("magnitude 1"),
+            None,
+        ),
+        check(
+            "two_in_gap_branches",
+            crossing_energies.iter().all(|energy| energy.abs() < 1.0e-2),
+            json!(crossing_energies),
+            json!("two near-zero branches"),
+            None,
+        ),
+        check(
+            "opposite_edge_localization",
+            edge_weights.iter().all(|weight| *weight > 0.9),
+            json!(edge_weights),
+            json!("> 0.9"),
+            None,
+        ),
+        check(
+            "chiral_spectral_flow",
+            velocities[0] * velocities[1] < 0.0
+                && velocities.iter().all(|velocity| velocity.abs() > 1.0),
+            json!(velocities),
+            json!("opposite nonzero velocities"),
+            None,
+        ),
+    ];
+    Ok((
+        json!({
+            "bulk_chern_number": bulk_chern,
+            "crossing_momentum": crossing_momentum,
+            "crossing_energies": crossing_energies,
+            "edge_weights": edge_weights,
+            "edge_velocities": velocities,
+            "in_gap_edge_branch_count": 2,
+        }),
+        checks,
+    ))
+}
+
+fn graphene_ribbon_hamiltonian(
+    width: usize,
+    momentum: f64,
+    armchair: bool,
+) -> Result<ComplexMatrix, Box<dyn Error>> {
+    let mut hamiltonian = ComplexMatrix::zeros(2 * width, 2 * width);
+    for cell in 0..width {
+        for (offset_x, offset_y) in [(0_i32, 0_i32), (-1, 0), (0, -1)] {
+            let shift = if armchair {
+                offset_y - offset_x
+            } else {
+                offset_y
+            };
+            let target_cell = cell as i32 + shift;
+            if !(0..width as i32).contains(&target_cell) {
+                continue;
+            }
+            let phase =
+                Complex64::from_polar(1.0, std::f64::consts::TAU * momentum * offset_x as f64);
+            let left = 2 * cell;
+            let right = 2 * target_cell as usize + 1;
+            hamiltonian.add_entry(left, right, -phase)?;
+            hamiltonian.add_entry(right, left, -phase.conj())?;
+        }
+    }
+    Ok(hamiltonian)
+}
+
+fn boundary_graphene_terminations() -> Result<(Value, Vec<Check>), Box<dyn Error>> {
+    let widths = [12_usize, 18, 24];
+    let mut zigzag_minimum_gaps = Vec::new();
+    let mut zigzag_edge_weights = Vec::new();
+    let mut armchair_gaps = Vec::new();
+    for width in widths {
+        let mut minimum_gap = f64::INFINITY;
+        let mut maximum_edge_weight = 0.0_f64;
+        let edge_orbitals = [0, 1, 2 * width - 2, 2 * width - 1];
+        for sample in 0..301 {
+            let momentum = sample as f64 / 301.0;
+            let eigensystem = hermitian_eigensystem(
+                &graphene_ribbon_hamiltonian(width, momentum, false)?,
+                1.0e-10,
+            )?;
+            let gap = eigensystem.eigenvalues()[width] - eigensystem.eigenvalues()[width - 1];
+            minimum_gap = minimum_gap.min(gap);
+            let mut order = (0..2 * width).collect::<Vec<_>>();
+            order.sort_by(|left, right| {
+                eigensystem.eigenvalues()[*left]
+                    .abs()
+                    .total_cmp(&eigensystem.eigenvalues()[*right].abs())
+            });
+            let edge_weight = order[..2]
+                .iter()
+                .map(|state| state_weight(eigensystem.eigenvectors(), *state, &edge_orbitals))
+                .collect::<Result<Vec<_>, _>>()?
+                .iter()
+                .sum::<f64>()
+                / 2.0;
+            maximum_edge_weight = maximum_edge_weight.max(edge_weight);
+        }
+        zigzag_minimum_gaps.push(minimum_gap);
+        zigzag_edge_weights.push(maximum_edge_weight);
+        let values =
+            hermitian_eigensystem(&graphene_ribbon_hamiltonian(width, 0.0, true)?, 1.0e-10)?
+                .eigenvalues()
+                .to_vec();
+        armchair_gaps.push(values[width] - values[width - 1]);
+    }
+    let scaled = widths
+        .iter()
+        .zip(&armchair_gaps)
+        .map(|(width, gap)| *width as f64 * gap)
+        .collect::<Vec<_>>();
+    let mean = scaled.iter().sum::<f64>() / scaled.len() as f64;
+    let spread = (scaled.iter().copied().fold(f64::NEG_INFINITY, f64::max)
+        - scaled.iter().copied().fold(f64::INFINITY, f64::min))
+        / mean;
+    let checks = vec![
+        check(
+            "zigzag_edge_band",
+            zigzag_minimum_gaps.iter().all(|gap| *gap < 1.0e-6),
+            json!(zigzag_minimum_gaps),
+            json!("gapless"),
+            None,
+        ),
+        check(
+            "zigzag_edge_localization",
+            zigzag_edge_weights.iter().all(|weight| *weight > 0.95),
+            json!(zigzag_edge_weights),
+            json!("> 0.95"),
+            None,
+        ),
+        check(
+            "armchair_finite_gaps",
+            armchair_gaps.iter().all(|gap| *gap > 0.1),
+            json!(armchair_gaps),
+            json!("> 0.1"),
+            None,
+        ),
+        check(
+            "armchair_inverse_width_scaling",
+            armchair_gaps.windows(2).all(|pair| pair[0] > pair[1]) && spread < 0.08,
+            json!(spread),
+            json!("< 0.08"),
+            None,
+        ),
+    ];
+    Ok((
+        json!({
+            "widths": widths,
+            "zigzag_minimum_gaps": zigzag_minimum_gaps,
+            "zigzag_edge_weights": zigzag_edge_weights,
+            "armchair_gaps": armchair_gaps,
+            "width_scaled_armchair_gaps": scaled,
+            "armchair_scaling_spread": spread,
+        }),
+        checks,
+    ))
+}
+
+fn finite_bbh_hamiltonian(cells_x: usize, cells_y: usize) -> Result<ComplexMatrix, Box<dyn Error>> {
+    let gamma_1 = scale_matrix(
+        &kronecker(&pauli_y(scalar(1.0))?, &pauli_x(scalar(1.0))?)?,
+        scalar(-1.0),
+    )?;
+    let gamma_2 = scale_matrix(
+        &kronecker(&pauli_y(scalar(1.0))?, &pauli_y(scalar(1.0))?)?,
+        scalar(-1.0),
+    )?;
+    let gamma_3 = scale_matrix(
+        &kronecker(&pauli_y(scalar(1.0))?, &pauli_z(scalar(1.0))?)?,
+        scalar(-1.0),
+    )?;
+    let gamma_4 = kronecker(&pauli_x(scalar(1.0))?, &ComplexMatrix::identity(2))?;
+    let onsite = add_matrices(
+        &scale_matrix(&gamma_4, scalar(0.5))?,
+        &scale_matrix(&gamma_2, scalar(0.5))?,
+    )?;
+    let hopping_x = add_matrices(
+        &scale_matrix(&gamma_4, scalar(0.5))?,
+        &scale_matrix(&gamma_3, Complex64::new(0.0, -0.5))?,
+    )?;
+    let hopping_y = add_matrices(
+        &scale_matrix(&gamma_2, scalar(0.5))?,
+        &scale_matrix(&gamma_1, Complex64::new(0.0, -0.5))?,
+    )?;
+    let dimension = 4 * cells_x * cells_y;
+    let mut hamiltonian = ComplexMatrix::zeros(dimension, dimension);
+    let cell_offset = |x: usize, y: usize| 4 * (y * cells_x + x);
+    for y in 0..cells_y {
+        for x in 0..cells_x {
+            let current = cell_offset(x, y);
+            add_block(&mut hamiltonian, current, current, &onsite, scalar(1.0))?;
+            if x + 1 < cells_x {
+                let target = cell_offset(x + 1, y);
+                add_block(&mut hamiltonian, current, target, &hopping_x, scalar(1.0))?;
+                add_block(
+                    &mut hamiltonian,
+                    target,
+                    current,
+                    &hopping_x.adjoint(),
+                    scalar(1.0),
+                )?;
+            }
+            if y + 1 < cells_y {
+                let target = cell_offset(x, y + 1);
+                add_block(&mut hamiltonian, current, target, &hopping_y, scalar(1.0))?;
+                add_block(
+                    &mut hamiltonian,
+                    target,
+                    current,
+                    &hopping_y.adjoint(),
+                    scalar(1.0),
+                )?;
+            }
+        }
+    }
+    Ok(hamiltonian)
+}
+
+fn boundary_bbh_corner_modes() -> Result<(Value, Vec<Check>), Box<dyn Error>> {
+    let cells_x = 8;
+    let cells_y = 8;
+    let eigensystem = hermitian_eigensystem(&finite_bbh_hamiltonian(cells_x, cells_y)?, 1.0e-10)?;
+    let values = eigensystem.eigenvalues();
+    let vectors = eigensystem.eigenvectors();
+    let mut order = (0..values.len()).collect::<Vec<_>>();
+    order.sort_by(|left, right| values[*left].abs().total_cmp(&values[*right].abs()));
+    let midgap = &order[..4];
+    let midgap_energies = midgap
+        .iter()
+        .map(|state| values[*state])
+        .collect::<Vec<_>>();
+    let next_gap = values[order[4]].abs();
+    let cell_offset = |x: usize, y: usize| 4 * (y * cells_x + x);
+    let mut corner_orbitals = Vec::new();
+    for (x, y) in [
+        (0, 0),
+        (0, cells_y - 1),
+        (cells_x - 1, 0),
+        (cells_x - 1, cells_y - 1),
+    ] {
+        corner_orbitals.extend(cell_offset(x, y)..cell_offset(x, y) + 4);
+    }
+    let corner_weights = midgap
+        .iter()
+        .map(|state| state_weight(vectors, *state, &corner_orbitals))
+        .collect::<Result<Vec<_>, _>>()?;
+    let mut sublattice_support = Vec::new();
+    for orbital in 0..4 {
+        let mut support = 0.0;
+        for state in midgap {
+            for cell in 0..cells_x * cells_y {
+                support += vectors.get(4 * cell + orbital, *state)?.norm_sqr();
+            }
+        }
+        sublattice_support.push(support);
+    }
+    let checks = vec![
+        check(
+            "four_midgap_modes",
+            midgap_energies.iter().all(|energy| energy.abs() < 1.0e-2) && next_gap > 0.5,
+            json!(midgap_energies),
+            json!("four isolated midgap states"),
+            None,
+        ),
+        check(
+            "corner_localization",
+            corner_weights.iter().all(|weight| *weight > 0.55),
+            json!(corner_weights),
+            json!("> 0.55"),
+            None,
+        ),
+        check(
+            "sublattice_support",
+            sublattice_support
+                .iter()
+                .all(|support| (support - 1.0).abs() < 2.0e-5),
+            json!(sublattice_support),
+            json!([1.0, 1.0, 1.0, 1.0]),
+            Some(2.0e-5),
+        ),
+    ];
+    Ok((
+        json!({
+            "midgap_energies": midgap_energies,
+            "midgap_count": 4,
+            "next_state_absolute_energy": next_gap,
+            "corner_weights": corner_weights,
+            "sublattice_projector_support": sublattice_support,
+        }),
+        checks,
+    ))
+}
+
 fn finite_ssh(
     cells: usize,
     intracell: f64,
@@ -1441,6 +1925,343 @@ fn transport_ballistic_chain() -> Result<(Value, Vec<Check>), Box<dyn Error>> {
     ))
 }
 
+fn transport_resonant_level() -> Result<(Value, Vec<Check>), Box<dyn Error>> {
+    let level = 0.2;
+    let coupling = -0.4;
+    let lead_hopping = -1.0;
+    let device = ComplexMatrix::scalar(scalar(level));
+    let lead_onsite = ComplexMatrix::scalar(scalar(0.0));
+    let lead_cell_hopping = ComplexMatrix::scalar(scalar(lead_hopping));
+    let device_coupling = ComplexMatrix::scalar(scalar(coupling));
+    let leads = [
+        LeadContact::new(
+            lead_onsite.clone(),
+            lead_cell_hopping.clone(),
+            device_coupling.clone(),
+        )?,
+        LeadContact::new(lead_onsite, lead_cell_hopping, device_coupling)?,
+    ];
+    let resonance = level / (1.0 - coupling.powi(2));
+    let energies = [-0.2, -0.1, 0.0, 0.1, 0.2]
+        .iter()
+        .map(|offset| resonance + offset)
+        .collect::<Vec<_>>();
+    let options = SurfaceGreenOptions {
+        broadening: 1.0e-12,
+        tolerance: 1.0e-14,
+        max_iterations: 512,
+    };
+    let mut transmissions = Vec::new();
+    let mut analytic = Vec::new();
+    for energy in &energies {
+        transmissions
+            .push(solve_open_system(&device, &leads, *energy, options)?.transmission(1, 0)?);
+        let root = (4.0 - energy.powi(2)).sqrt();
+        let surface_green = Complex64::new(*energy, -root) / 2.0;
+        let self_energy = coupling.powi(2) * surface_green;
+        let gamma = -2.0 * self_energy.im;
+        let dot_green =
+            Complex64::new(1.0, 0.0) / (Complex64::new(*energy - level, 0.0) - 2.0 * self_energy);
+        analytic.push(gamma.powi(2) * dot_green.norm_sqr());
+    }
+    let maximum_analytic_error = transmissions
+        .iter()
+        .zip(&analytic)
+        .map(|(left, right)| (left - right).abs())
+        .fold(0.0_f64, f64::max);
+    let peak_index = transmissions
+        .iter()
+        .enumerate()
+        .max_by(|left, right| left.1.total_cmp(right.1))
+        .map(|(index, _)| index)
+        .unwrap();
+    let checks = vec![
+        check(
+            "analytic_line_shape",
+            maximum_analytic_error < 2.0e-7,
+            json!(maximum_analytic_error),
+            json!(0.0),
+            Some(2.0e-7),
+        ),
+        check(
+            "resonance_tracks_level",
+            (energies[peak_index] - level).abs() < 0.05,
+            json!(energies[peak_index]),
+            json!(level),
+            Some(0.05),
+        ),
+        check(
+            "perfect_symmetric_resonance",
+            (transmissions[peak_index] - 1.0).abs() < 2.0e-7,
+            json!(transmissions[peak_index]),
+            json!(1.0),
+            Some(2.0e-7),
+        ),
+    ];
+    Ok((
+        json!({
+            "energies": energies,
+            "transmissions": transmissions,
+            "analytic_transmissions": analytic,
+            "resonance_energy": energies[peak_index],
+            "predicted_resonance_energy": resonance,
+            "peak_transmission": transmissions[peak_index],
+            "maximum_analytic_error": maximum_analytic_error,
+        }),
+        checks,
+    ))
+}
+
+fn aharonov_bohm_device(arm_sites: usize, flux: f64) -> Result<ComplexMatrix, Box<dyn Error>> {
+    let dimension = 2 + 2 * arm_sites;
+    let left = 0;
+    let right = 1;
+    let upper = (0..arm_sites).map(|site| 2 + site).collect::<Vec<_>>();
+    let lower = (0..arm_sites)
+        .map(|site| 2 + arm_sites + site)
+        .collect::<Vec<_>>();
+    let mut hamiltonian = ComplexMatrix::zeros(dimension, dimension);
+    let phase = std::f64::consts::PI * flux / (arm_sites + 1) as f64;
+    for (path, sign) in [(&upper, 1.0), (&lower, -1.0)] {
+        let mut sites = Vec::with_capacity(arm_sites + 2);
+        sites.push(left);
+        sites.extend(path);
+        sites.push(right);
+        let hopping = -Complex64::from_polar(1.0, sign * phase);
+        for pair in sites.windows(2) {
+            hamiltonian.set(pair[0], pair[1], hopping)?;
+            hamiltonian.set(pair[1], pair[0], hopping.conj())?;
+        }
+    }
+    Ok(hamiltonian)
+}
+
+fn transport_aharonov_bohm_ring() -> Result<(Value, Vec<Check>), Box<dyn Error>> {
+    let arm_sites = 12;
+    let fluxes = [0.0, 0.25, 0.5, 0.75, 1.0];
+    let energy = 0.3;
+    let mut left_coupling = ComplexMatrix::zeros(2 + 2 * arm_sites, 1);
+    left_coupling.set(0, 0, scalar(-1.0))?;
+    let mut right_coupling = ComplexMatrix::zeros(2 + 2 * arm_sites, 1);
+    right_coupling.set(1, 0, scalar(-1.0))?;
+    let leads = [
+        LeadContact::new(
+            ComplexMatrix::scalar(scalar(0.0)),
+            ComplexMatrix::scalar(scalar(-1.0)),
+            left_coupling,
+        )?,
+        LeadContact::new(
+            ComplexMatrix::scalar(scalar(0.0)),
+            ComplexMatrix::scalar(scalar(-1.0)),
+            right_coupling,
+        )?,
+    ];
+    let options = SurfaceGreenOptions {
+        broadening: 1.0e-12,
+        tolerance: 1.0e-14,
+        max_iterations: 512,
+    };
+    let transmissions = fluxes
+        .iter()
+        .map(|flux| {
+            Ok(solve_open_system(
+                &aharonov_bohm_device(arm_sites, *flux)?,
+                &leads,
+                energy,
+                options,
+            )?
+            .transmission(1, 0)?)
+        })
+        .collect::<Result<Vec<_>, Box<dyn Error>>>()?;
+    let periodicity_error = (transmissions[0] - transmissions[4]).abs();
+    let reflection_error = (transmissions[1] - transmissions[3]).abs();
+    let half_flux_transmission = transmissions[2];
+    let checks = vec![
+        check(
+            "one_flux_quantum_periodicity",
+            periodicity_error < 2.0e-7,
+            json!(periodicity_error),
+            json!(0.0),
+            Some(2.0e-7),
+        ),
+        check(
+            "flux_reflection_symmetry",
+            reflection_error < 2.0e-7,
+            json!(reflection_error),
+            json!(0.0),
+            Some(2.0e-7),
+        ),
+        check(
+            "half_flux_destructive_interference",
+            half_flux_transmission < 2.0e-7,
+            json!(half_flux_transmission),
+            json!(0.0),
+            Some(2.0e-7),
+        ),
+        check(
+            "finite_zero_flux_transport",
+            transmissions[0] > 0.5,
+            json!(transmissions[0]),
+            json!("> 0.5"),
+            None,
+        ),
+    ];
+    Ok((
+        json!({
+            "energy": energy,
+            "fluxes": fluxes,
+            "transmissions": transmissions,
+            "periodicity_error": periodicity_error,
+            "flux_reflection_error": reflection_error,
+            "half_flux_transmission": half_flux_transmission,
+        }),
+        checks,
+    ))
+}
+
+fn hofstadter_device(
+    length: usize,
+    width: usize,
+    flux: f64,
+    disorder: f64,
+) -> Result<ComplexMatrix, Box<dyn Error>> {
+    let dimension = length * width;
+    let mut hamiltonian = ComplexMatrix::zeros(dimension, dimension);
+    let index = |x: usize, y: usize| x * width + y;
+    for x in 0..length {
+        for y in 0..width {
+            let current = index(x, y);
+            hamiltonian.set(
+                current,
+                current,
+                scalar(disorder * (1.37 * x as f64 + 2.11 * y as f64).sin()),
+            )?;
+            if x + 1 < length {
+                let target = index(x + 1, y);
+                let hopping = -Complex64::from_polar(1.0, -std::f64::consts::TAU * flux * y as f64);
+                hamiltonian.set(current, target, hopping)?;
+                hamiltonian.set(target, current, hopping.conj())?;
+            }
+            if y + 1 < width {
+                let target = index(x, y + 1);
+                hamiltonian.set(current, target, scalar(-1.0))?;
+                hamiltonian.set(target, current, scalar(-1.0))?;
+            }
+        }
+    }
+    Ok(hamiltonian)
+}
+
+fn hofstadter_leads(
+    length: usize,
+    width: usize,
+    flux: f64,
+) -> Result<[LeadContact; 2], Box<dyn Error>> {
+    let mut cell = ComplexMatrix::zeros(width, width);
+    for y in 0..width - 1 {
+        cell.set(y, y + 1, scalar(-1.0))?;
+        cell.set(y + 1, y, scalar(-1.0))?;
+    }
+    let mut left_hopping = ComplexMatrix::zeros(width, width);
+    let mut right_hopping = ComplexMatrix::zeros(width, width);
+    let mut left_coupling = ComplexMatrix::zeros(length * width, width);
+    let mut right_coupling = ComplexMatrix::zeros(length * width, width);
+    for y in 0..width {
+        let phase = Complex64::from_polar(1.0, std::f64::consts::TAU * flux * y as f64);
+        left_hopping.set(y, y, -phase)?;
+        right_hopping.set(y, y, -phase.conj())?;
+        left_coupling.set(y, y, -phase)?;
+        right_coupling.set((length - 1) * width + y, y, -phase.conj())?;
+    }
+    Ok([
+        LeadContact::new(cell.clone(), left_hopping, left_coupling)?,
+        LeadContact::new(cell, right_hopping, right_coupling)?,
+    ])
+}
+
+fn transport_quantum_hall_strip() -> Result<(Value, Vec<Check>), Box<dyn Error>> {
+    let width = 18;
+    let length = 32;
+    let flux = 0.125;
+    let disorder = 0.05;
+    let device = hofstadter_device(length, width, flux, disorder)?;
+    let leads = hofstadter_leads(length, width, flux)?;
+    let energies = [-3.1, -2.8, -2.4, -2.2];
+    let options = SurfaceGreenOptions {
+        broadening: 1.0e-12,
+        tolerance: 1.0e-13,
+        max_iterations: 512,
+    };
+    let mut transmissions = Vec::new();
+    let mut reference_solution = None;
+    for energy in energies {
+        let solution = solve_open_system(&device, &leads, energy, options)?;
+        transmissions.push(solution.transmission(1, 0)?);
+        if (energy + 2.8_f64).abs() < 1.0e-12 {
+            reference_solution = Some(solution);
+        }
+    }
+    let solution = reference_solution.unwrap();
+    let probabilities = solution.green_function_transmission_matrix(&[1, 1])?;
+    let unitarity_error = (probabilities[0][0] + probabilities[1][0] - 1.0).abs();
+    let injection = solution.broadening_factor(0, 1)?;
+    let states = solution.scattering_states(&[injection])?;
+    let state = &states[0];
+    let index = |x: usize, y: usize| x * width + y;
+    let mut total_current_weight = 0.0;
+    let mut edge_current_weight = 0.0;
+    for x in 0..length - 1 {
+        for y in 0..width {
+            let left = index(x, y);
+            let right = index(x + 1, y);
+            let current = 2.0
+                * (state.get(0, left)?.conj() * device.get(left, right)? * state.get(0, right)?).im;
+            total_current_weight += current.abs();
+            if y < 2 || y >= width - 2 {
+                edge_current_weight += current.abs();
+            }
+        }
+    }
+    let edge_current_fraction = edge_current_weight / total_current_weight;
+    let maximum_plateau_error = transmissions
+        .iter()
+        .map(|transmission| (transmission - 1.0).abs())
+        .fold(0.0_f64, f64::max);
+    let checks = vec![
+        check(
+            "first_hall_plateau",
+            maximum_plateau_error < 3.0e-5,
+            json!(maximum_plateau_error),
+            json!(0.0),
+            Some(3.0e-5),
+        ),
+        check(
+            "scattering_unitarity",
+            unitarity_error < 3.0e-5,
+            json!(unitarity_error),
+            json!(0.0),
+            Some(3.0e-5),
+        ),
+        check(
+            "edge_localized_bond_current",
+            edge_current_fraction > 0.8,
+            json!(edge_current_fraction),
+            json!("> 0.8"),
+            None,
+        ),
+    ];
+    Ok((
+        json!({
+            "energies": energies,
+            "transmissions": transmissions,
+            "maximum_plateau_error": maximum_plateau_error,
+            "maximum_unitarity_error": unitarity_error,
+            "edge_current_fraction": edge_current_fraction,
+        }),
+        checks,
+    ))
+}
+
 fn not_implemented(case_id: &str) -> Value {
     json!({
         "schema_version": 1,
@@ -1470,7 +2291,13 @@ fn main() -> Result<(), Box<dyn Error>> {
         "bulk_tilted_dirac_berry_dipole" => Some(bulk_tilted_dirac_berry_dipole()?),
         "bulk_wannier_interpolation" => Some(bulk_wannier_interpolation()?),
         "boundary_ssh_edge_localization" => Some(boundary_ssh_edge_localization()?),
+        "boundary_haldane_ribbon_flow" => Some(boundary_haldane_ribbon_flow()?),
+        "boundary_graphene_terminations" => Some(boundary_graphene_terminations()?),
+        "boundary_bbh_corner_modes" => Some(boundary_bbh_corner_modes()?),
         "transport_ballistic_chain" => Some(transport_ballistic_chain()?),
+        "transport_resonant_level" => Some(transport_resonant_level()?),
+        "transport_aharonov_bohm_ring" => Some(transport_aharonov_bohm_ring()?),
+        "transport_quantum_hall_strip" => Some(transport_quantum_hall_strip()?),
         _ => None,
     };
     let Some((metrics, checks)) = computed else {

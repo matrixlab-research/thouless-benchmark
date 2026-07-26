@@ -74,6 +74,45 @@ def main() -> int:
         for left, right in zip(reference["splittings"], compared["splittings"]):
             close(left, right, 1.0e-12)
 
+        reference = by_key[("boundary_haldane_ribbon_flow", "thouless")]["metrics"]
+        compared = by_key[("boundary_haldane_ribbon_flow", backend)]["metrics"]
+        if abs(round(reference["bulk_chern_number"])) != abs(
+            round(compared["bulk_chern_number"])
+        ):
+            raise ValueError("Haldane bulk-boundary topology differs across backends")
+        close(reference["crossing_momentum"], compared["crossing_momentum"], 1.0e-12)
+        for name in ("crossing_energies", "edge_weights", "edge_velocities"):
+            for left, right in zip(reference[name], compared[name]):
+                close(left, right, 1.0e-10)
+
+        reference = by_key[("boundary_graphene_terminations", "thouless")]["metrics"]
+        compared = by_key[("boundary_graphene_terminations", backend)]["metrics"]
+        for name in ("armchair_gaps", "zigzag_edge_weights"):
+            for left, right in zip(reference[name], compared[name]):
+                close(left, right, 1.0e-12)
+        close(
+            reference["armchair_scaling_spread"],
+            compared["armchair_scaling_spread"],
+            1.0e-12,
+        )
+
+        reference = by_key[("boundary_bbh_corner_modes", "thouless")]["metrics"]
+        compared = by_key[("boundary_bbh_corner_modes", backend)]["metrics"]
+        for left, right in zip(
+            sorted(abs(value) for value in reference["midgap_energies"]),
+            sorted(abs(value) for value in compared["midgap_energies"]),
+        ):
+            close(left, right, 1.0e-12)
+        close(
+            reference["next_state_absolute_energy"],
+            compared["next_state_absolute_energy"],
+            1.0e-12,
+        )
+        for left, right in zip(
+            sorted(reference["corner_weights"]), sorted(compared["corner_weights"])
+        ):
+            close(left, right, 1.0e-12)
+
         reference = by_key[("bulk_rice_mele_pump", "thouless")]["metrics"]
         compared = by_key[("bulk_rice_mele_pump", backend)]["metrics"]
         close(reference["chern_number"], compared["chern_number"], 1.0e-12)
@@ -154,6 +193,19 @@ def main() -> int:
     kwant_transport = by_key[("transport_ballistic_chain", "kwant")]["metrics"]
     for left, right in zip(thouless_transport["transmissions"], kwant_transport["transmissions"]):
         close(left, right, 1.0e-12)
+
+    for case_id, tolerance in (
+        ("transport_resonant_level", 2.0e-9),
+        ("transport_aharonov_bohm_ring", 2.0e-12),
+        ("transport_quantum_hall_strip", 2.0e-10),
+    ):
+        reference = by_key[(case_id, "thouless")]["metrics"]
+        compared = by_key[(case_id, "kwant")]["metrics"]
+        for left, right in zip(reference["transmissions"], compared["transmissions"]):
+            close(left, right, tolerance)
+    reference = by_key[("transport_quantum_hall_strip", "thouless")]["metrics"]
+    compared = by_key[("transport_quantum_hall_strip", "kwant")]["metrics"]
+    close(reference["edge_current_fraction"], compared["edge_current_fraction"], 1.0e-12)
     print(
         f"result snapshot passed: {expected_count} analytic gates and selected "
         "cross-backend agreements"

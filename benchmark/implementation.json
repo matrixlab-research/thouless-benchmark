@@ -16,7 +16,13 @@
       "bulk_tilted_dirac_berry_dipole",
       "bulk_wannier_interpolation",
       "boundary_ssh_edge_localization",
-      "transport_ballistic_chain"
+      "boundary_haldane_ribbon_flow",
+      "boundary_graphene_terminations",
+      "boundary_bbh_corner_modes",
+      "transport_ballistic_chain",
+      "transport_resonant_level",
+      "transport_aharonov_bohm_ring",
+      "transport_quantum_hall_strip"
     ],
     "pythtb": [
       "bulk_graphene_dirac_cone",
@@ -31,7 +37,10 @@
       "bulk_nodal_line_berry_phase",
       "bulk_tilted_dirac_berry_dipole",
       "bulk_wannier_interpolation",
-      "boundary_ssh_edge_localization"
+      "boundary_ssh_edge_localization",
+      "boundary_haldane_ribbon_flow",
+      "boundary_graphene_terminations",
+      "boundary_bbh_corner_modes"
     ],
     "kwant": [
       "bulk_graphene_dirac_cone",
@@ -46,7 +55,13 @@
       "bulk_nodal_line_berry_phase",
       "bulk_tilted_dirac_berry_dipole",
       "boundary_ssh_edge_localization",
-      "transport_ballistic_chain"
+      "boundary_haldane_ribbon_flow",
+      "boundary_graphene_terminations",
+      "boundary_bbh_corner_modes",
+      "transport_ballistic_chain",
+      "transport_resonant_level",
+      "transport_aharonov_bohm_ring",
+      "transport_quantum_hall_strip"
     ]
   }
 }

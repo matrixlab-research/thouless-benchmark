@@ -43,19 +43,19 @@ separately:
 
 | Backend | Implemented | Applicable | Remaining |
 |---|---:|---:|---:|
-| Thouless native Rust | 14 | 20 | 6 |
-| Original PythTB 2.0.0 | 13 | 16 | 3 |
-| Original Kwant 1.5.0 | 13 | 19 | 6 |
+| Thouless native Rust | 20 | 20 | 0 |
+| Original PythTB 2.0.0 | 16 | 16 | 0 |
+| Original Kwant 1.5.0 | 19 | 19 | 0 |
 
 The [verified result set](results/verified/2026-07-26-implemented.json) contains
-fourteen end-to-end workflows. In addition to the initial band, pump, Weyl,
-nodal-line, interpolation, SSH-boundary, and ballistic-transport cases, it
-includes the Haldane transition, Kagome SOC bands, Kane-Mele \(Z_2\) flow, BBH
-nested Wilson loops, and a tilted-Dirac Berry-curvature dipole. All forty
-applicable backend-case executions pass their analytic checks. The other six
-scientific questions are specified but are not yet implemented; see
-[`benchmark/implementation.json`](benchmark/implementation.json)
-and `python tools/coverage_report.py`.
+all twenty end-to-end workflows. The finite-boundary track includes SSH and
+Haldane spectral flow, graphene termination signatures, and BBH corner modes.
+The open-system track includes ballistic and resonant transport,
+Aharonov-Bohm interference, and a disordered Hofstadter strip with
+edge-localized bond current. All fifty-five applicable backend-case executions
+pass their analytic or invariant-based checks. See
+[`benchmark/implementation.json`](benchmark/implementation.json) and
+`python tools/coverage_report.py`.
 
 PythTB 2.0 requires NumPy 2, while Kwant 1.5 currently builds against NumPy
 1.26. They therefore run in separate environments. Combining both into one
