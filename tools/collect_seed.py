@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run the verified seed across isolated upstream and Rust environments."""
+"""Run every declared implementation across isolated upstream and Rust environments."""
 
 from __future__ import annotations
 
@@ -13,27 +13,6 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SEED = {
-    "thouless": [
-        "bulk_graphene_dirac_cone",
-        "bulk_ssh_polarization",
-        "boundary_ssh_edge_localization",
-        "transport_ballistic_chain",
-    ],
-    "pythtb": [
-        "bulk_graphene_dirac_cone",
-        "bulk_ssh_polarization",
-        "boundary_ssh_edge_localization",
-    ],
-    "kwant": [
-        "bulk_graphene_dirac_cone",
-        "bulk_ssh_polarization",
-        "boundary_ssh_edge_localization",
-        "transport_ballistic_chain",
-    ],
-}
-
-
 def execute(command: list[str], env: dict[str, str] | None = None) -> dict:
     completed = subprocess.run(
         command,
@@ -65,13 +44,16 @@ def main() -> int:
     rust_env = os.environ.copy()
     cargo_directory = str(Path(args.cargo).resolve().parent)
     rust_env["PATH"] = cargo_directory + os.pathsep + rust_env.get("PATH", "")
-    for case_id in SEED["pythtb"]:
+    implementation = json.loads(
+        (ROOT / "benchmark" / "implementation.json").read_text()
+    )["implemented"]
+    for case_id in implementation["pythtb"]:
         results.append(
             execute([args.pythtb_python, "backends/pythtb/run.py", case_id], python_env)
         )
-    for case_id in SEED["kwant"]:
+    for case_id in implementation["kwant"]:
         results.append(execute([args.kwant_python, "backends/kwant/run.py", case_id], python_env))
-    for case_id in SEED["thouless"]:
+    for case_id in implementation["thouless"]:
         results.append(
             execute(
                 [

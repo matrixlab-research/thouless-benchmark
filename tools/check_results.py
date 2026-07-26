@@ -27,10 +27,24 @@ def main() -> int:
     args = parser.parse_args()
     payload = json.loads(args.snapshot.read_text())
     results = payload["results"]
-    if payload["summary"] != {"failed": 0, "passed": 11, "result_count": 11}:
+    root = Path(__file__).resolve().parents[1]
+    implementation = json.loads(
+        (root / "benchmark" / "implementation.json").read_text()
+    )["implemented"]
+    expected_keys = {
+        (case_id, backend)
+        for backend, case_ids in implementation.items()
+        for case_id in case_ids
+    }
+    expected_count = len(expected_keys)
+    if payload["summary"] != {
+        "failed": 0,
+        "passed": expected_count,
+        "result_count": expected_count,
+    }:
         raise ValueError(f"unexpected summary: {payload['summary']}")
     by_key = {(item["case_id"], item["backend"]): item for item in results}
-    if len(by_key) != 11:
+    if set(by_key) != expected_keys:
         raise ValueError("snapshot has duplicate or missing backend-case results")
     for item in results:
         if item["status"] != "passed" or not all(check["passed"] for check in item["checks"]):
@@ -60,11 +74,43 @@ def main() -> int:
         for left, right in zip(reference["splittings"], compared["splittings"]):
             close(left, right, 1.0e-12)
 
+        reference = by_key[("bulk_rice_mele_pump", "thouless")]["metrics"]
+        compared = by_key[("bulk_rice_mele_pump", backend)]["metrics"]
+        close(reference["chern_number"], compared["chern_number"], 1.0e-12)
+        close(reference["minimum_cycle_gap"], compared["minimum_cycle_gap"], 2.0e-3)
+
+        reference = by_key[("bulk_qwz_phase_diagram", "thouless")]["metrics"]
+        compared = by_key[("bulk_qwz_phase_diagram", backend)]["metrics"]
+        if [abs(round(value)) for value in reference["chern_numbers"]] != [
+            abs(round(value)) for value in compared["chern_numbers"]
+        ]:
+            raise ValueError("QWZ phase sequence differs across backends")
+
+        reference = by_key[("bulk_weyl_chirality", "thouless")]["metrics"]
+        compared = by_key[("bulk_weyl_chirality", backend)]["metrics"]
+        if [abs(round(value)) for value in reference["slice_chern_numbers"]] != [
+            abs(round(value)) for value in compared["slice_chern_numbers"]
+        ]:
+            raise ValueError("Weyl slice topology differs across backends")
+
+        reference = by_key[("bulk_nodal_line_berry_phase", "thouless")]["metrics"]
+        compared = by_key[("bulk_nodal_line_berry_phase", backend)]["metrics"]
+        close(abs(reference["linked_loop_phase"]), abs(compared["linked_loop_phase"]), 1.0e-12)
+        close(reference["unlinked_loop_phase"], compared["unlinked_loop_phase"], 1.0e-12)
+
+    thouless_interpolation = by_key[("bulk_wannier_interpolation", "thouless")]
+    pythtb_interpolation = by_key[("bulk_wannier_interpolation", "pythtb")]
+    if thouless_interpolation["status"] != "passed" or pythtb_interpolation["status"] != "passed":
+        raise ValueError("Wannier interpolation did not pass in both applicable backends")
+
     thouless_transport = by_key[("transport_ballistic_chain", "thouless")]["metrics"]
     kwant_transport = by_key[("transport_ballistic_chain", "kwant")]["metrics"]
     for left, right in zip(thouless_transport["transmissions"], kwant_transport["transmissions"]):
         close(left, right, 1.0e-12)
-    print("result snapshot passed: 11 analytic gates and selected cross-backend agreements")
+    print(
+        f"result snapshot passed: {expected_count} analytic gates and selected "
+        "cross-backend agreements"
+    )
     return 0
 
 

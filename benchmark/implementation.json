@@ -5,17 +5,31 @@
     "thouless": [
       "bulk_graphene_dirac_cone",
       "bulk_ssh_polarization",
+      "bulk_rice_mele_pump",
+      "bulk_qwz_phase_diagram",
+      "bulk_weyl_chirality",
+      "bulk_nodal_line_berry_phase",
+      "bulk_wannier_interpolation",
       "boundary_ssh_edge_localization",
       "transport_ballistic_chain"
     ],
     "pythtb": [
       "bulk_graphene_dirac_cone",
       "bulk_ssh_polarization",
+      "bulk_rice_mele_pump",
+      "bulk_qwz_phase_diagram",
+      "bulk_weyl_chirality",
+      "bulk_nodal_line_berry_phase",
+      "bulk_wannier_interpolation",
       "boundary_ssh_edge_localization"
     ],
     "kwant": [
       "bulk_graphene_dirac_cone",
       "bulk_ssh_polarization",
+      "bulk_rice_mele_pump",
+      "bulk_qwz_phase_diagram",
+      "bulk_weyl_chirality",
+      "bulk_nodal_line_berry_phase",
       "boundary_ssh_edge_localization",
       "transport_ballistic_chain"
     ]

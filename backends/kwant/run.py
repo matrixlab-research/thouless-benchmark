@@ -18,8 +18,67 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "src"))
 
 from thouless_benchmark.result import Check, result  # noqa: E402
+from thouless_benchmark.numerics import berry_phase, fhs_chern, minimum_direct_gap  # noqa: E402
 
 warnings.filterwarnings("ignore", message="MUMPS is not available")
+
+SIGMA_X = np.array([[0.0, 1.0], [1.0, 0.0]], dtype=complex)
+SIGMA_Y = np.array([[0.0, -1.0j], [1.0j, 0.0]], dtype=complex)
+SIGMA_Z = np.array([[1.0, 0.0], [0.0, -1.0]], dtype=complex)
+TAU = 2.0 * np.pi
+
+
+def fourier_system(
+    dimension: int,
+    onsite: np.ndarray,
+    hoppings: list[tuple[tuple[int, ...], np.ndarray]],
+):
+    onsite = np.asarray(onsite, dtype=complex)
+    states = onsite.shape[0]
+    primitive = np.eye(dimension)
+    lattice = kwant.lattice.general(primitive, [np.zeros(dimension)], norbs=states)
+    family = lattice.sublattices[0]
+    symmetry = kwant.TranslationalSymmetry(*[tuple(vector) for vector in primitive])
+    builder = kwant.Builder(symmetry)
+    origin = family(*([0] * dimension))
+    builder[origin] = onsite
+    for offset, matrix in hoppings:
+        builder[origin, family(*offset)] = np.asarray(matrix, dtype=complex)
+    return kwant.wraparound.wraparound(builder).finalized()
+
+
+def hamiltonian_at(system, momentum: np.ndarray) -> np.ndarray:
+    names = ("k_x", "k_y", "k_z")
+    params = {
+        names[axis]: float(TAU * value)
+        for axis, value in enumerate(np.asarray(momentum, dtype=float))
+    }
+    return np.asarray(system.hamiltonian_submatrix(params=params), dtype=complex)
+
+
+def qwz_system(mass: float):
+    return fourier_system(
+        2,
+        mass * SIGMA_Z,
+        [
+            ((1, 0), 0.5 * SIGMA_Z - 0.5j * SIGMA_X),
+            ((0, 1), 0.5 * SIGMA_Z - 0.5j * SIGMA_Y),
+        ],
+    )
+
+
+def rice_mele_system(theta: float, parameters: dict):
+    mean = parameters["mean_hopping"]
+    dimerization = parameters["dimerization"]
+    staggering = parameters["staggering"]
+    intracell = mean + dimerization * np.cos(theta)
+    intercell = mean - dimerization * np.cos(theta)
+    onsite = staggering * np.sin(theta) * SIGMA_Z + intracell * SIGMA_X
+    return fourier_system(
+        1,
+        onsite,
+        [((1,), np.array([[0.0, 0.0], [intercell, 0.0]], dtype=complex))],
+    )
 
 
 def wrapped_graphene(t: float):
@@ -121,6 +180,172 @@ def bulk_ssh_polarization(parameters: dict) -> tuple[dict, list[Check]]:
     return metrics, checks
 
 
+def bulk_rice_mele_pump(parameters: dict) -> tuple[dict, list[Check]]:
+    cache: dict[int, object] = {}
+    samples = 31
+
+    def hamiltonian(point: np.ndarray) -> np.ndarray:
+        theta_index = int(np.rint((point[1] % 1.0) * samples)) % samples
+        system = cache.setdefault(
+            theta_index, rice_mele_system(TAU * theta_index / samples, parameters)
+        )
+        return hamiltonian_at(system, np.array([point[0] % 1.0]))
+
+    chern = fhs_chern(hamiltonian, (samples, samples), occupied=1)
+    minimum_gap = np.inf
+    for system in cache.values():
+        minimum_gap = min(
+            minimum_gap,
+            minimum_direct_gap(
+                lambda momentum, system=system: hamiltonian_at(system, momentum),
+                dimension=1,
+                samples=81,
+                occupied=1,
+            ),
+        )
+    pumped_charge = int(np.rint(chern))
+    metrics = {
+        "chern_number": chern,
+        "pumped_charge": pumped_charge,
+        "minimum_cycle_gap": float(minimum_gap),
+    }
+    checks = [
+        Check("quantized_pump", abs(pumped_charge) == 1, pumped_charge, "magnitude 1"),
+        Check("chern_integer", abs(chern - pumped_charge) < 1.0e-6, chern, pumped_charge, 1.0e-6),
+        Check("cycle_stays_gapped", minimum_gap > 0.5, float(minimum_gap), "> 0.5"),
+    ]
+    return metrics, checks
+
+
+def bulk_qwz_phase_diagram(parameters: dict) -> tuple[dict, list[Check]]:
+    chern_numbers: list[float] = []
+    minimum_gaps: list[float] = []
+    for mass in parameters["masses"]:
+        system = qwz_system(mass)
+        hamiltonian = lambda momentum, system=system: hamiltonian_at(system, momentum)
+        chern_numbers.append(fhs_chern(hamiltonian, (31, 31), occupied=1))
+        minimum_gaps.append(minimum_direct_gap(hamiltonian, 2, 40, 1))
+    rounded = [int(np.rint(value)) for value in chern_numbers]
+    metrics = {
+        "chern_numbers": chern_numbers,
+        "rounded_chern_numbers": rounded,
+        "minimum_gaps": minimum_gaps,
+    }
+    checks = [
+        Check(
+            "phase_sequence",
+            [abs(value) for value in rounded] == [0, 1, 1, 0],
+            rounded,
+            "trivial-Chern-Chern-trivial",
+        ),
+        Check("opposite_topological_signs", rounded[1] == -rounded[2], rounded[1:3], "opposite"),
+        Check("sampled_points_gapped", min(minimum_gaps) > 1.9, minimum_gaps, "> 1.9"),
+    ]
+    return metrics, checks
+
+
+def minimal_weyl_system(node: float):
+    return fourier_system(
+        3,
+        (2.0 - np.cos(node)) * SIGMA_Z,
+        [
+            ((1, 0, 0), -0.5 * SIGMA_Z - 0.5j * SIGMA_X),
+            ((0, 1, 0), -0.5 * SIGMA_Z - 0.5j * SIGMA_Y),
+            ((0, 0, 1), 0.5 * SIGMA_Z),
+        ],
+    )
+
+
+def bulk_weyl_chirality(parameters: dict) -> tuple[dict, list[Check]]:
+    node = parameters["node"]
+    system = minimal_weyl_system(node)
+    h3 = lambda momentum: hamiltonian_at(system, momentum)
+    node_reduced = node / TAU
+    node_gaps = [
+        float(np.ptp(np.linalg.eigvalsh(h3(np.array([0.0, 0.0, kz])))))
+        for kz in (node_reduced, 1.0 - node_reduced)
+    ]
+    slice_coordinates = [0.0, 0.25, 0.75]
+    slice_chern = [
+        fhs_chern(
+            lambda momentum, kz=kz: h3(np.array([momentum[0], momentum[1], kz])),
+            (31, 31),
+            occupied=1,
+        )
+        for kz in slice_coordinates
+    ]
+    rounded = [int(np.rint(value)) for value in slice_chern]
+    metrics = {
+        "node_positions_reduced": [node_reduced, 1.0 - node_reduced],
+        "node_gaps": node_gaps,
+        "slice_coordinates": slice_coordinates,
+        "slice_chern_numbers": slice_chern,
+    }
+    checks = [
+        Check("node_locations", max(node_gaps) < 1.0e-10, node_gaps, 0.0, 1.0e-10),
+        Check(
+            "slice_chern_jump",
+            rounded[0] == 0 and abs(rounded[1]) == 1 and rounded[1] == rounded[2],
+            rounded,
+            "trivial between nodes and nonzero outside",
+        ),
+        Check(
+            "opposite_chiralities",
+            rounded[1] - rounded[0] == -(rounded[0] - rounded[2]),
+            [rounded[1] - rounded[0], rounded[0] - rounded[2]],
+            "opposite monopole charges",
+        ),
+    ]
+    return metrics, checks
+
+
+def nodal_ring_system(mass: float):
+    return fourier_system(
+        3,
+        mass * SIGMA_X,
+        [
+            ((1, 0, 0), -0.5 * SIGMA_X),
+            ((0, 1, 0), -0.5 * SIGMA_X),
+            ((0, 0, 1), -0.5j * SIGMA_Z),
+        ],
+    )
+
+
+def bulk_nodal_line_berry_phase(parameters: dict) -> tuple[dict, list[Check]]:
+    mass = parameters["mass"]
+    system = nodal_ring_system(mass)
+    ring_kx = float(np.arccos(mass - 1.0))
+    radius = 0.08
+
+    def loop(center_kx: float) -> list[np.ndarray]:
+        return [
+            hamiltonian_at(
+                system,
+                np.array(
+                    [
+                        (center_kx + radius * np.cos(angle)) / TAU,
+                        0.0,
+                        (radius * np.sin(angle)) / TAU,
+                    ]
+                ),
+            )
+            for angle in np.linspace(0.0, TAU, 401, endpoint=False)
+        ]
+
+    linked = berry_phase(loop(ring_kx), occupied=1)
+    unlinked = berry_phase(loop(0.0), occupied=1)
+    metrics = {
+        "ring_point": [ring_kx / TAU, 0.0, 0.0],
+        "linked_loop_phase": linked,
+        "unlinked_loop_phase": unlinked,
+    }
+    checks = [
+        Check("linked_pi_phase", abs(abs(linked) - np.pi) < 2.0e-5, linked, "pi modulo 2pi", 2.0e-5),
+        Check("unlinked_trivial_phase", abs(unlinked) < 2.0e-5, unlinked, 0.0, 2.0e-5),
+    ]
+    return metrics, checks
+
+
 def boundary_ssh_edge_localization(parameters: dict) -> tuple[dict, list[Check]]:
     intra = parameters["intracell"]
     inter = parameters["intercell"]
@@ -197,6 +422,10 @@ def transport_ballistic_chain(parameters: dict) -> tuple[dict, list[Check]]:
 IMPLEMENTED = {
     "bulk_graphene_dirac_cone": bulk_graphene_dirac_cone,
     "bulk_ssh_polarization": bulk_ssh_polarization,
+    "bulk_rice_mele_pump": bulk_rice_mele_pump,
+    "bulk_qwz_phase_diagram": bulk_qwz_phase_diagram,
+    "bulk_weyl_chirality": bulk_weyl_chirality,
+    "bulk_nodal_line_berry_phase": bulk_nodal_line_berry_phase,
     "boundary_ssh_edge_localization": boundary_ssh_edge_localization,
     "transport_ballistic_chain": transport_ballistic_chain,
 }

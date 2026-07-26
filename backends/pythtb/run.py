@@ -18,6 +18,82 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "src"))
 
 from thouless_benchmark.result import Check, result  # noqa: E402
+from thouless_benchmark.numerics import berry_phase, fhs_chern, minimum_direct_gap  # noqa: E402
+
+SIGMA_X = np.array([[0.0, 1.0], [1.0, 0.0]], dtype=complex)
+SIGMA_Y = np.array([[0.0, -1.0j], [1.0j, 0.0]], dtype=complex)
+SIGMA_Z = np.array([[1.0, 0.0], [0.0, -1.0]], dtype=complex)
+IDENTITY_2 = np.eye(2, dtype=complex)
+TAU = 2.0 * np.pi
+
+
+def fourier_model(
+    dimension: int,
+    onsite: np.ndarray,
+    hoppings: list[tuple[tuple[int, ...], np.ndarray]],
+) -> TBModel:
+    onsite = np.asarray(onsite, dtype=complex)
+    states = onsite.shape[0]
+    lattice = Lattice(np.eye(dimension), np.zeros((states, dimension)), "all")
+    model = TBModel(lattice)
+    for row in range(states):
+        model.set_onsite(float(onsite[row, row].real), row)
+        for column in range(row + 1, states):
+            value = onsite[row, column]
+            if abs(value) > 1.0e-15:
+                model.set_hop(value, row, column, [0] * dimension)
+    for offset, matrix in hoppings:
+        matrix = np.asarray(matrix, dtype=complex)
+        for row in range(states):
+            for column in range(states):
+                value = matrix[row, column]
+                if abs(value) > 1.0e-15:
+                    model.set_hop(value, row, column, list(offset))
+    return model
+
+
+def hamiltonian_at(model: TBModel, momentum: np.ndarray) -> np.ndarray:
+    values = model.hamiltonian([np.asarray(momentum, dtype=float)], flatten_spin_axis=True)
+    return np.asarray(values[0], dtype=complex)
+
+
+def qwz_model(mass: float) -> TBModel:
+    return fourier_model(
+        2,
+        mass * SIGMA_Z,
+        [
+            ((1, 0), 0.5 * SIGMA_Z - 0.5j * SIGMA_X),
+            ((0, 1), 0.5 * SIGMA_Z - 0.5j * SIGMA_Y),
+        ],
+    )
+
+
+def rice_mele_model(theta: float, parameters: dict) -> TBModel:
+    mean = parameters["mean_hopping"]
+    dimerization = parameters["dimerization"]
+    staggering = parameters["staggering"]
+    intracell = mean + dimerization * np.cos(theta)
+    intercell = mean - dimerization * np.cos(theta)
+    onsite = staggering * np.sin(theta) * SIGMA_Z
+    return fourier_model(
+        1,
+        onsite,
+        [
+            ((1,), np.array([[0.0, 0.0], [intercell, 0.0]], dtype=complex)),
+        ],
+    ) if abs(intracell) < 1.0e-15 else _add_intracell(
+        fourier_model(
+            1,
+            onsite,
+            [((1,), np.array([[0.0, 0.0], [intercell, 0.0]], dtype=complex))],
+        ),
+        intracell,
+    )
+
+
+def _add_intracell(model: TBModel, amplitude: float) -> TBModel:
+    model.set_hop(amplitude, 0, 1, [0])
+    return model
 
 
 def graphene_model(t: float) -> TBModel:
@@ -94,6 +170,237 @@ def bulk_ssh_polarization(parameters: dict) -> tuple[dict, list[Check]]:
     return metrics, checks
 
 
+def bulk_rice_mele_pump(parameters: dict) -> tuple[dict, list[Check]]:
+    cache: dict[int, TBModel] = {}
+    samples = 31
+
+    def hamiltonian(point: np.ndarray) -> np.ndarray:
+        theta_index = int(np.rint((point[1] % 1.0) * samples)) % samples
+        model = cache.setdefault(
+            theta_index, rice_mele_model(TAU * theta_index / samples, parameters)
+        )
+        return hamiltonian_at(model, np.array([point[0] % 1.0]))
+
+    chern = fhs_chern(hamiltonian, (samples, samples), occupied=1)
+    minimum_gap = np.inf
+    for theta_index, model in cache.items():
+        del theta_index
+        minimum_gap = min(
+            minimum_gap,
+            minimum_direct_gap(
+                lambda momentum, model=model: hamiltonian_at(model, momentum),
+                dimension=1,
+                samples=81,
+                occupied=1,
+            ),
+        )
+    pumped_charge = int(np.rint(chern))
+    metrics = {
+        "chern_number": chern,
+        "pumped_charge": pumped_charge,
+        "minimum_cycle_gap": float(minimum_gap),
+    }
+    checks = [
+        Check("quantized_pump", abs(pumped_charge) == 1, pumped_charge, "magnitude 1"),
+        Check("chern_integer", abs(chern - pumped_charge) < 1.0e-6, chern, pumped_charge, 1.0e-6),
+        Check("cycle_stays_gapped", minimum_gap > 0.5, float(minimum_gap), "> 0.5"),
+    ]
+    return metrics, checks
+
+
+def bulk_qwz_phase_diagram(parameters: dict) -> tuple[dict, list[Check]]:
+    chern_numbers: list[float] = []
+    minimum_gaps: list[float] = []
+    for mass in parameters["masses"]:
+        model = qwz_model(mass)
+        hamiltonian = lambda momentum, model=model: hamiltonian_at(model, momentum)
+        chern_numbers.append(fhs_chern(hamiltonian, (31, 31), occupied=1))
+        minimum_gaps.append(minimum_direct_gap(hamiltonian, 2, 40, 1))
+    rounded = [int(np.rint(value)) for value in chern_numbers]
+    expected_magnitudes = [0, 1, 1, 0]
+    metrics = {
+        "chern_numbers": chern_numbers,
+        "rounded_chern_numbers": rounded,
+        "minimum_gaps": minimum_gaps,
+    }
+    checks = [
+        Check(
+            "phase_sequence",
+            [abs(value) for value in rounded] == expected_magnitudes,
+            rounded,
+            "trivial-Chern-Chern-trivial",
+        ),
+        Check("opposite_topological_signs", rounded[1] == -rounded[2], rounded[1:3], "opposite"),
+        Check("sampled_points_gapped", min(minimum_gaps) > 1.9, minimum_gaps, "> 1.9"),
+    ]
+    return metrics, checks
+
+
+def minimal_weyl_model(node: float) -> TBModel:
+    onsite = (2.0 - np.cos(node)) * SIGMA_Z
+    return fourier_model(
+        3,
+        onsite,
+        [
+            ((1, 0, 0), -0.5 * SIGMA_Z - 0.5j * SIGMA_X),
+            ((0, 1, 0), -0.5 * SIGMA_Z - 0.5j * SIGMA_Y),
+            ((0, 0, 1), 0.5 * SIGMA_Z),
+        ],
+    )
+
+
+def bulk_weyl_chirality(parameters: dict) -> tuple[dict, list[Check]]:
+    node = parameters["node"]
+    model = minimal_weyl_model(node)
+
+    def h3(momentum: np.ndarray) -> np.ndarray:
+        return hamiltonian_at(model, momentum)
+
+    node_reduced = node / TAU
+    node_gaps = [
+        float(np.ptp(np.linalg.eigvalsh(h3(np.array([0.0, 0.0, kz])))))
+        for kz in (node_reduced, 1.0 - node_reduced)
+    ]
+    slice_coordinates = [0.0, 0.25, 0.75]
+    slice_chern = []
+    for kz in slice_coordinates:
+        slice_chern.append(
+            fhs_chern(
+                lambda momentum, kz=kz: h3(np.array([momentum[0], momentum[1], kz])),
+                (31, 31),
+                occupied=1,
+            )
+        )
+    rounded = [int(np.rint(value)) for value in slice_chern]
+    metrics = {
+        "node_positions_reduced": [node_reduced, 1.0 - node_reduced],
+        "node_gaps": node_gaps,
+        "slice_coordinates": slice_coordinates,
+        "slice_chern_numbers": slice_chern,
+    }
+    checks = [
+        Check("node_locations", max(node_gaps) < 1.0e-10, node_gaps, 0.0, 1.0e-10),
+        Check(
+            "slice_chern_jump",
+            rounded[0] == 0 and abs(rounded[1]) == 1 and rounded[1] == rounded[2],
+            rounded,
+            "trivial between nodes and nonzero outside",
+        ),
+        Check(
+            "opposite_chiralities",
+            rounded[1] - rounded[0] == -(rounded[0] - rounded[2]),
+            [rounded[1] - rounded[0], rounded[0] - rounded[2]],
+            "opposite monopole charges",
+        ),
+    ]
+    return metrics, checks
+
+
+def nodal_ring_model(mass: float) -> TBModel:
+    return fourier_model(
+        3,
+        mass * SIGMA_X,
+        [
+            ((1, 0, 0), -0.5 * SIGMA_X),
+            ((0, 1, 0), -0.5 * SIGMA_X),
+            ((0, 0, 1), -0.5j * SIGMA_Z),
+        ],
+    )
+
+
+def bulk_nodal_line_berry_phase(parameters: dict) -> tuple[dict, list[Check]]:
+    mass = parameters["mass"]
+    model = nodal_ring_model(mass)
+    ring_kx = float(np.arccos(mass - 1.0))
+    radius = 0.08
+
+    def loop(center_kx: float) -> list[np.ndarray]:
+        matrices = []
+        for angle in np.linspace(0.0, TAU, 401, endpoint=False):
+            momentum = np.array(
+                [
+                    (center_kx + radius * np.cos(angle)) / TAU,
+                    0.0,
+                    (radius * np.sin(angle)) / TAU,
+                ]
+            )
+            matrices.append(hamiltonian_at(model, momentum))
+        return matrices
+
+    linked = berry_phase(loop(ring_kx), occupied=1)
+    unlinked = berry_phase(loop(0.0), occupied=1)
+    linked_distance = abs(abs(linked) - np.pi)
+    unlinked_distance = abs(unlinked)
+    metrics = {
+        "ring_point": [ring_kx / TAU, 0.0, 0.0],
+        "linked_loop_phase": linked,
+        "unlinked_loop_phase": unlinked,
+    }
+    checks = [
+        Check("linked_pi_phase", linked_distance < 2.0e-5, linked, "pi modulo 2pi", 2.0e-5),
+        Check("unlinked_trivial_phase", unlinked_distance < 2.0e-5, unlinked, 0.0, 2.0e-5),
+    ]
+    return metrics, checks
+
+
+def interpolation_source_model() -> TBModel:
+    onsite = 0.23 * SIGMA_Z + 0.17 * SIGMA_X
+    return fourier_model(
+        2,
+        onsite,
+        [
+            ((1, 0), 0.31 * SIGMA_Z - 0.22j * SIGMA_X),
+            ((0, 1), -0.19 * SIGMA_Z - 0.27j * SIGMA_Y),
+            ((2, 1), 0.07 * SIGMA_X + 0.05j * SIGMA_Z),
+        ],
+    )
+
+
+def bulk_wannier_interpolation(parameters: dict) -> tuple[dict, list[Check]]:
+    model = interpolation_source_model()
+    nx, ny = parameters["mesh"]
+    samples = np.empty((nx, ny, 2, 2), dtype=complex)
+    for ix in range(nx):
+        for iy in range(ny):
+            samples[ix, iy] = hamiltonian_at(model, np.array([ix / nx, iy / ny]))
+    coefficients = np.fft.fftn(samples, axes=(0, 1)) / (nx * ny)
+
+    def interpolated(momentum: np.ndarray) -> np.ndarray:
+        value = np.zeros((2, 2), dtype=complex)
+        for ix in range(nx):
+            rx = ix if ix <= nx // 2 else ix - nx
+            for iy in range(ny):
+                ry = iy if iy <= ny // 2 else iy - ny
+                value += coefficients[ix, iy] * np.exp(
+                    2.0j * np.pi * (rx * momentum[0] + ry * momentum[1])
+                )
+        return value
+
+    errors = []
+    hermiticity = []
+    count = parameters["validation_points"]
+    for index in range(count):
+        momentum = np.array(
+            [((index * 7 + 3) % 37) / 37.0, ((index * 11 + 5) % 41) / 41.0]
+        )
+        direct = hamiltonian_at(model, momentum)
+        estimate = interpolated(momentum)
+        errors.append(float(np.max(np.abs(np.linalg.eigvalsh(direct) - np.linalg.eigvalsh(estimate)))))
+        hermiticity.append(float(np.max(np.abs(estimate - estimate.conj().T))))
+    maximum_error = max(errors)
+    maximum_hermiticity_error = max(hermiticity)
+    metrics = {
+        "maximum_off_mesh_energy_error": maximum_error,
+        "maximum_hermiticity_error": maximum_hermiticity_error,
+        "validation_points": count,
+    }
+    checks = [
+        Check("off_mesh_energies", maximum_error < 1.0e-9, maximum_error, 0.0, 1.0e-9),
+        Check("hermiticity", maximum_hermiticity_error < 1.0e-12, maximum_hermiticity_error, 0.0, 1.0e-12),
+    ]
+    return metrics, checks
+
+
 def boundary_ssh_edge_localization(parameters: dict) -> tuple[dict, list[Check]]:
     intra = parameters["intracell"]
     inter = parameters["intercell"]
@@ -133,6 +440,11 @@ def boundary_ssh_edge_localization(parameters: dict) -> tuple[dict, list[Check]]
 IMPLEMENTED = {
     "bulk_graphene_dirac_cone": bulk_graphene_dirac_cone,
     "bulk_ssh_polarization": bulk_ssh_polarization,
+    "bulk_rice_mele_pump": bulk_rice_mele_pump,
+    "bulk_qwz_phase_diagram": bulk_qwz_phase_diagram,
+    "bulk_weyl_chirality": bulk_weyl_chirality,
+    "bulk_nodal_line_berry_phase": bulk_nodal_line_berry_phase,
+    "bulk_wannier_interpolation": bulk_wannier_interpolation,
     "boundary_ssh_edge_localization": boundary_ssh_edge_localization,
 }
 
