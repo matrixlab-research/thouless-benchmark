@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T13:18:11.267912+00:00",
+  "generated_at": "2026-07-26T13:37:08.328249+00:00",
   "platform": {
     "machine": "arm64",
     "python": "3.12.8",
@@ -45,7 +45,7 @@
           "tolerance": null
         }
       ],
-      "elapsed_seconds": 0.0026747079100459814,
+      "elapsed_seconds": 0.0025332910008728504,
       "metrics": {
         "dirac_gap": 8.005932084973443e-16,
         "gamma_eigenvalues": [
@@ -84,7 +84,7 @@
           "tolerance": 0.0002
         }
       ],
-      "elapsed_seconds": 0.0006605419330298901,
+      "elapsed_seconds": 0.0008162090089172125,
       "metrics": {
         "minimum_gap": 0.8,
         "reduced_polarization": 0.5,
@@ -120,11 +120,61 @@
           "tolerance": null
         }
       ],
-      "elapsed_seconds": 0.20904608303681016,
+      "elapsed_seconds": 0.21044275001622736,
       "metrics": {
         "chern_number": 0.9999999999999999,
         "minimum_cycle_gap": 1.6030304453164639,
         "pumped_charge": 1
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "pythtb",
+      "backend_version": "2.0.0",
+      "case_id": "bulk_haldane_chern_transition",
+      "checks": [
+        {
+          "actual": [
+            -0.5794228634059948,
+            0.9794228634059947
+          ],
+          "expected": "opposite signs",
+          "name": "opposite_dirac_masses",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": -1,
+          "expected": -1,
+          "name": "chern_from_masses",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": -1.0000000000000009,
+          "expected": -1,
+          "name": "chern_integer",
+          "passed": true,
+          "tolerance": 2e-06
+        },
+        {
+          "actual": 1.1588457268119894,
+          "expected": "> 1.0",
+          "name": "positive_bulk_gap",
+          "passed": true,
+          "tolerance": null
+        }
+      ],
+      "elapsed_seconds": 0.2212125000078231,
+      "metrics": {
+        "chern_number": -1.0000000000000009,
+        "dirac_masses": [
+          -0.5794228634059948,
+          0.9794228634059947
+        ],
+        "minimum_gap": 1.1588457268119894,
+        "predicted_chern_from_masses": -1
       },
       "schema_version": 1,
       "status": "passed"
@@ -169,7 +219,7 @@
           "tolerance": null
         }
       ],
-      "elapsed_seconds": 0.4488333340268582,
+      "elapsed_seconds": 0.4502377500757575,
       "metrics": {
         "chern_numbers": [
           -3.3130777931911632e-18,
@@ -188,6 +238,269 @@
           -1,
           1,
           0
+        ]
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "pythtb",
+      "backend_version": "2.0.0",
+      "case_id": "bulk_kane_mele_z2",
+      "checks": [
+        {
+          "actual": [
+            -1.0000000000000009,
+            1.0000000000000009
+          ],
+          "expected": "opposite",
+          "name": "time_reversal_spin_chern_pair",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": 1,
+          "expected": 1,
+          "name": "nontrivial_z2",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": 0.608864186995052,
+          "expected": "> 0.5",
+          "name": "rashba_gap_stays_open",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": [
+            5.551115123125783e-17,
+            0.9999999999999999
+          ],
+          "expected": "degenerate endpoint with separated flow",
+          "name": "wilson_partner_switching",
+          "passed": true,
+          "tolerance": null
+        }
+      ],
+      "elapsed_seconds": 0.263149083009921,
+      "metrics": {
+        "endpoint_separation": 5.551115123125783e-17,
+        "maximum_wannier_separation": 0.9999999999999999,
+        "minimum_rashba_gap": 0.608864186995052,
+        "spin_chern_numbers_at_zero_rashba": [
+          -1.0000000000000009,
+          1.0000000000000009
+        ],
+        "wilson_centers": [
+          [
+            1.3252311172764657e-17,
+            0.9999999999999999
+          ],
+          [
+            0.00244987539803749,
+            0.9975501246019626
+          ],
+          [
+            0.005001717588045028,
+            0.994998282411955
+          ],
+          [
+            0.007769187799499589,
+            0.9922308122005004
+          ],
+          [
+            0.010891981088218799,
+            0.9891080189117814
+          ],
+          [
+            0.014556446862898607,
+            0.9854435531371014
+          ],
+          [
+            0.019028650431107137,
+            0.980971349568893
+          ],
+          [
+            0.024711547765705718,
+            0.9752884522342943
+          ],
+          [
+            0.032249788074976436,
+            0.9677502119250234
+          ],
+          [
+            0.04273074181088156,
+            0.9572692581891185
+          ],
+          [
+            0.0580776716594626,
+            0.9419223283405375
+          ],
+          [
+            0.08176741627601111,
+            0.9182325837239889
+          ],
+          [
+            0.11960722654929781,
+            0.8803927734507023
+          ],
+          [
+            0.1774561768565923,
+            0.8225438231434078
+          ],
+          [
+            0.24969024040940166,
+            0.7503097595905981
+          ],
+          [
+            0.3169724851487469,
+            0.6830275148512528
+          ],
+          [
+            0.3695949081343377,
+            0.6304050918656623
+          ],
+          [
+            0.4102044200743216,
+            0.5897955799256784
+          ],
+          [
+            0.44342170986737245,
+            0.5565782901326275
+          ],
+          [
+            0.47259681201753395,
+            0.5274031879824661
+          ],
+          [
+            0.49999999999999994,
+            0.5
+          ]
+        ],
+        "z2": 1
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "pythtb",
+      "backend_version": "2.0.0",
+      "case_id": "bulk_kagome_soc_chern",
+      "checks": [
+        {
+          "actual": [
+            1,
+            -1,
+            0
+          ],
+          "expected": "at least one nonzero band",
+          "name": "nonzero_band_chern",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": 0,
+          "expected": 0,
+          "name": "chern_sum_rule",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": [
+            0.06048384277616936,
+            1.5500556162726982
+          ],
+          "expected": "> 0.05",
+          "name": "positive_gaps",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": [
+            1.606018097089619,
+            2.5450242139442043,
+            2.2586853314449487
+          ],
+          "expected": "> 0.1",
+          "name": "finite_bandwidths",
+          "passed": true,
+          "tolerance": null
+        }
+      ],
+      "elapsed_seconds": 0.31673387507908046,
+      "metrics": {
+        "band_chern_numbers": [
+          0.9999999999999996,
+          -0.9999999999999994,
+          -1.6362960590726203e-16
+        ],
+        "bandwidths": [
+          1.606018097089619,
+          2.5450242139442043,
+          2.2586853314449487
+        ],
+        "minimum_gaps": [
+          0.06048384277616936,
+          1.5500556162726982
+        ],
+        "rounded_band_chern_numbers": [
+          1,
+          -1,
+          0
+        ]
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "pythtb",
+      "backend_version": "2.0.0",
+      "case_id": "bulk_bbh_nested_wilson",
+      "checks": [
+        {
+          "actual": 1.414213562373095,
+          "expected": "> 1.3",
+          "name": "bulk_gap",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": 0.5081742612059095,
+          "expected": "> 0.45",
+          "name": "wannier_gap",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": [
+            0.5,
+            0.5
+          ],
+          "expected": [
+            0.5,
+            0.5
+          ],
+          "name": "nested_sector_polarizations",
+          "passed": true,
+          "tolerance": 3e-05
+        },
+        {
+          "actual": 0.5,
+          "expected": 0.5,
+          "name": "quadrupole",
+          "passed": true,
+          "tolerance": 3e-05
+        }
+      ],
+      "elapsed_seconds": 0.12846191599965096,
+      "metrics": {
+        "minimum_bulk_gap": 1.414213562373095,
+        "minimum_wannier_gap": 0.5081742612059095,
+        "quadrupole": 0.5,
+        "sector_polarizations": [
+          0.5,
+          0.5
         ]
       },
       "schema_version": 1,
@@ -230,7 +543,7 @@
           "tolerance": null
         }
       ],
-      "elapsed_seconds": 0.20368645794223994,
+      "elapsed_seconds": 0.20169237500522286,
       "metrics": {
         "node_gaps": [
           0.0,
@@ -274,7 +587,7 @@
           "tolerance": 2e-05
         }
       ],
-      "elapsed_seconds": 0.031212458037771285,
+      "elapsed_seconds": 0.03045983298216015,
       "metrics": {
         "linked_loop_phase": 3.141592653589793,
         "ring_point": [
@@ -283,6 +596,62 @@
           0.0
         ],
         "unlinked_loop_phase": 0.0
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "pythtb",
+      "backend_version": "2.0.0",
+      "case_id": "bulk_tilted_dirac_berry_dipole",
+      "checks": [
+        {
+          "actual": 6.45705711121991e-13,
+          "expected": 0.0,
+          "name": "odd_under_tilt_reversal",
+          "passed": true,
+          "tolerance": 0.0005
+        },
+        {
+          "actual": 3.158183063087488,
+          "expected": "> 0.5",
+          "name": "finite_nonlinear_response",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": 0.6,
+          "expected": "near the band edge",
+          "name": "band_edge_variation",
+          "passed": true,
+          "tolerance": null
+        }
+      ],
+      "elapsed_seconds": 1.0540040840860456,
+      "metrics": {
+        "chemical_potentials": [
+          0.4,
+          0.5,
+          0.6,
+          0.8,
+          1.0
+        ],
+        "negative_tilt_dipole": [
+          1.0374982598765246,
+          2.7883841814610193,
+          3.1581830630876673,
+          2.0218657319872384,
+          1.25079069358747
+        ],
+        "odd_reversal_error": 6.45705711121991e-13,
+        "peak_chemical_potential": 0.6,
+        "positive_tilt_dipole": [
+          -1.0374982598761981,
+          -2.7883841814603736,
+          -3.158183063087488,
+          -2.021865731987006,
+          -1.2507906935874227
+        ]
       },
       "schema_version": 1,
       "status": "passed"
@@ -307,7 +676,7 @@
           "tolerance": 1e-12
         }
       ],
-      "elapsed_seconds": 0.012148667010478675,
+      "elapsed_seconds": 0.00865554204210639,
       "metrics": {
         "maximum_hermiticity_error": 1.5700924586837752e-16,
         "maximum_off_mesh_energy_error": 6.661338147750939e-16,
@@ -353,7 +722,7 @@
           "tolerance": 0.1566092151176974
         }
       ],
-      "elapsed_seconds": 0.0068059590412303805,
+      "elapsed_seconds": 0.006394374999217689,
       "metrics": {
         "edge_weights": [
           0.6400437291449644,
@@ -405,7 +774,7 @@
           "tolerance": null
         }
       ],
-      "elapsed_seconds": 0.022338874987326562,
+      "elapsed_seconds": 0.017015540972352028,
       "metrics": {
         "dirac_gap": 8.005932084973443e-16,
         "gamma_eigenvalues": [
@@ -444,7 +813,7 @@
           "tolerance": 0.0002
         }
       ],
-      "elapsed_seconds": 0.006784708937630057,
+      "elapsed_seconds": 0.01791154104284942,
       "metrics": {
         "minimum_gap": 0.8,
         "reduced_polarization": 0.5,
@@ -480,11 +849,61 @@
           "tolerance": null
         }
       ],
-      "elapsed_seconds": 0.5061786250444129,
+      "elapsed_seconds": 0.5039052499923855,
       "metrics": {
         "chern_number": 0.9999999999999994,
         "minimum_cycle_gap": 1.6030304453164639,
         "pumped_charge": 1
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "kwant",
+      "backend_version": "1.5.0",
+      "case_id": "bulk_haldane_chern_transition",
+      "checks": [
+        {
+          "actual": [
+            -0.5794228634059948,
+            0.9794228634059948
+          ],
+          "expected": "opposite signs",
+          "name": "opposite_dirac_masses",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": -1,
+          "expected": -1,
+          "name": "chern_from_masses",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": -1.0000000000000009,
+          "expected": -1,
+          "name": "chern_integer",
+          "passed": true,
+          "tolerance": 2e-06
+        },
+        {
+          "actual": 1.1588457268119896,
+          "expected": "> 1.0",
+          "name": "positive_bulk_gap",
+          "passed": true,
+          "tolerance": null
+        }
+      ],
+      "elapsed_seconds": 0.16626041696872562,
+      "metrics": {
+        "chern_number": -1.0000000000000009,
+        "dirac_masses": [
+          -0.5794228634059948,
+          0.9794228634059948
+        ],
+        "minimum_gap": 1.1588457268119896,
+        "predicted_chern_from_masses": -1
       },
       "schema_version": 1,
       "status": "passed"
@@ -529,7 +948,7 @@
           "tolerance": null
         }
       ],
-      "elapsed_seconds": 0.3273719160351902,
+      "elapsed_seconds": 0.30832179193384945,
       "metrics": {
         "chern_numbers": [
           6.6261555863823264e-18,
@@ -548,6 +967,269 @@
           -1,
           1,
           0
+        ]
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "kwant",
+      "backend_version": "1.5.0",
+      "case_id": "bulk_kane_mele_z2",
+      "checks": [
+        {
+          "actual": [
+            -1.0000000000000007,
+            1.0000000000000009
+          ],
+          "expected": "opposite",
+          "name": "time_reversal_spin_chern_pair",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": 1,
+          "expected": 1,
+          "name": "nontrivial_z2",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": 0.6088641869950518,
+          "expected": "> 0.5",
+          "name": "rashba_gap_stays_open",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": [
+            1.6653345369377348e-16,
+            0.9999999999999993
+          ],
+          "expected": "degenerate endpoint with separated flow",
+          "name": "wilson_partner_switching",
+          "passed": true,
+          "tolerance": null
+        }
+      ],
+      "elapsed_seconds": 0.19912641705013812,
+      "metrics": {
+        "endpoint_separation": 1.6653345369377348e-16,
+        "maximum_wannier_separation": 0.9999999999999993,
+        "minimum_rashba_gap": 0.6088641869950518,
+        "spin_chern_numbers_at_zero_rashba": [
+          -1.0000000000000007,
+          1.0000000000000009
+        ],
+        "wilson_centers": [
+          [
+            3.2247290520393983e-16,
+            0.9999999999999997
+          ],
+          [
+            0.002449875398037512,
+            0.9975501246019625
+          ],
+          [
+            0.005001717588044984,
+            0.994998282411955
+          ],
+          [
+            0.007769187799499551,
+            0.9922308122005001
+          ],
+          [
+            0.010891981088218624,
+            0.9891080189117816
+          ],
+          [
+            0.014556446862898703,
+            0.9854435531371012
+          ],
+          [
+            0.019028650431107207,
+            0.9809713495688932
+          ],
+          [
+            0.024711547765705704,
+            0.9752884522342943
+          ],
+          [
+            0.03224978807497659,
+            0.9677502119250235
+          ],
+          [
+            0.04273074181088147,
+            0.9572692581891187
+          ],
+          [
+            0.05807767165946269,
+            0.9419223283405375
+          ],
+          [
+            0.08176741627601102,
+            0.9182325837239889
+          ],
+          [
+            0.11960722654929795,
+            0.8803927734507023
+          ],
+          [
+            0.1774561768565924,
+            0.8225438231434076
+          ],
+          [
+            0.24969024040940188,
+            0.7503097595905983
+          ],
+          [
+            0.31697248514874704,
+            0.683027514851253
+          ],
+          [
+            0.36959490813433765,
+            0.6304050918656621
+          ],
+          [
+            0.4102044200743216,
+            0.5897955799256784
+          ],
+          [
+            0.4434217098673726,
+            0.5565782901326275
+          ],
+          [
+            0.47259681201753384,
+            0.5274031879824661
+          ],
+          [
+            0.49999999999999983,
+            0.5
+          ]
+        ],
+        "z2": 1
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "kwant",
+      "backend_version": "1.5.0",
+      "case_id": "bulk_kagome_soc_chern",
+      "checks": [
+        {
+          "actual": [
+            1,
+            -1,
+            0
+          ],
+          "expected": "at least one nonzero band",
+          "name": "nonzero_band_chern",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": 0,
+          "expected": 0,
+          "name": "chern_sum_rule",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": [
+            0.06048384277617003,
+            1.5500556162726986
+          ],
+          "expected": "> 0.05",
+          "name": "positive_gaps",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": [
+            1.606018097089618,
+            2.5450242139442034,
+            2.2586853314449495
+          ],
+          "expected": "> 0.1",
+          "name": "finite_bandwidths",
+          "passed": true,
+          "tolerance": null
+        }
+      ],
+      "elapsed_seconds": 0.25431412493344396,
+      "metrics": {
+        "band_chern_numbers": [
+          1.0000000000000009,
+          -1.0000000000000009,
+          -7.623533855836603e-18
+        ],
+        "bandwidths": [
+          1.606018097089618,
+          2.5450242139442034,
+          2.2586853314449495
+        ],
+        "minimum_gaps": [
+          0.06048384277617003,
+          1.5500556162726986
+        ],
+        "rounded_band_chern_numbers": [
+          1,
+          -1,
+          0
+        ]
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "kwant",
+      "backend_version": "1.5.0",
+      "case_id": "bulk_bbh_nested_wilson",
+      "checks": [
+        {
+          "actual": 1.4142135623730945,
+          "expected": "> 1.3",
+          "name": "bulk_gap",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": 0.5081742612059096,
+          "expected": "> 0.45",
+          "name": "wannier_gap",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": [
+            0.5,
+            0.5
+          ],
+          "expected": [
+            0.5,
+            0.5
+          ],
+          "name": "nested_sector_polarizations",
+          "passed": true,
+          "tolerance": 3e-05
+        },
+        {
+          "actual": 0.5,
+          "expected": 0.5,
+          "name": "quadrupole",
+          "passed": true,
+          "tolerance": 3e-05
+        }
+      ],
+      "elapsed_seconds": 0.08534100011456758,
+      "metrics": {
+        "minimum_bulk_gap": 1.4142135623730945,
+        "minimum_wannier_gap": 0.5081742612059096,
+        "quadrupole": 0.5,
+        "sector_polarizations": [
+          0.5,
+          0.5
         ]
       },
       "schema_version": 1,
@@ -590,7 +1272,7 @@
           "tolerance": null
         }
       ],
-      "elapsed_seconds": 0.15093483310192823,
+      "elapsed_seconds": 0.1490746249910444,
       "metrics": {
         "node_gaps": [
           2.220446049250313e-16,
@@ -634,7 +1316,7 @@
           "tolerance": 2e-05
         }
       ],
-      "elapsed_seconds": 0.02541491703595966,
+      "elapsed_seconds": 0.025901291985064745,
       "metrics": {
         "linked_loop_phase": 3.141592653589793,
         "ring_point": [
@@ -643,6 +1325,62 @@
           0.0
         ],
         "unlinked_loop_phase": 0.0
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "kwant",
+      "backend_version": "1.5.0",
+      "case_id": "bulk_tilted_dirac_berry_dipole",
+      "checks": [
+        {
+          "actual": 2.4646951146678475e-13,
+          "expected": 0.0,
+          "name": "odd_under_tilt_reversal",
+          "passed": true,
+          "tolerance": 0.0005
+        },
+        {
+          "actual": 3.158183063087649,
+          "expected": "> 0.5",
+          "name": "finite_nonlinear_response",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": 0.6,
+          "expected": "near the band edge",
+          "name": "band_edge_variation",
+          "passed": true,
+          "tolerance": null
+        }
+      ],
+      "elapsed_seconds": 0.7357537910575047,
+      "metrics": {
+        "chemical_potentials": [
+          0.4,
+          0.5,
+          0.6,
+          0.8,
+          1.0
+        ],
+        "negative_tilt_dipole": [
+          1.0374982598756577,
+          2.788384181460894,
+          3.158183063087427,
+          2.0218657319874516,
+          1.2507906935876036
+        ],
+        "odd_reversal_error": 2.4646951146678475e-13,
+        "peak_chemical_potential": 0.6,
+        "positive_tilt_dipole": [
+          -1.0374982598757656,
+          -2.7883841814610673,
+          -3.158183063087649,
+          -2.021865731987205,
+          -1.2507906935874311
+        ]
       },
       "schema_version": 1,
       "status": "passed"
@@ -684,7 +1422,7 @@
           "tolerance": 0.1566092151176974
         }
       ],
-      "elapsed_seconds": 0.02030066610313952,
+      "elapsed_seconds": 0.029381249914877117,
       "metrics": {
         "edge_weights": [
           0.8704522938955347,
@@ -723,7 +1461,7 @@
           "tolerance": 1e-09
         }
       ],
-      "elapsed_seconds": 0.060065708006732166,
+      "elapsed_seconds": 0.07327908300794661,
       "metrics": {
         "energies": [
           -1.5,
@@ -778,7 +1516,7 @@
           "tolerance": null
         }
       ],
-      "elapsed_seconds": 0.0001945,
+      "elapsed_seconds": 0.000309375,
       "metrics": {
         "dirac_gap": 8.005932084973443e-16,
         "gamma_eigenvalues": [
@@ -810,7 +1548,7 @@
           "tolerance": 0.0002
         }
       ],
-      "elapsed_seconds": 0.001276666,
+      "elapsed_seconds": 0.00183725,
       "metrics": {
         "minimum_gap": 0.8,
         "reduced_polarization": 0.5
@@ -845,11 +1583,61 @@
           "tolerance": null
         }
       ],
-      "elapsed_seconds": 0.009003583,
+      "elapsed_seconds": 0.011806584,
       "metrics": {
         "chern_number": 0.9999999999999996,
         "minimum_cycle_gap": 1.6020478421656694,
         "pumped_charge": 1
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "thouless",
+      "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+      "case_id": "bulk_haldane_chern_transition",
+      "checks": [
+        {
+          "actual": [
+            -0.5794228634059948,
+            0.9794228634059947
+          ],
+          "expected": "opposite signs",
+          "name": "opposite_dirac_masses",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": 1,
+          "expected": 1,
+          "name": "chern_from_masses",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": 0.9999999999999999,
+          "expected": 1,
+          "name": "chern_integer",
+          "passed": true,
+          "tolerance": 2e-06
+        },
+        {
+          "actual": 1.1588457268119896,
+          "expected": "> 1.0",
+          "name": "positive_bulk_gap",
+          "passed": true,
+          "tolerance": null
+        }
+      ],
+      "elapsed_seconds": 0.010401542,
+      "metrics": {
+        "chern_number": 0.9999999999999999,
+        "dirac_masses": [
+          -0.5794228634059948,
+          0.9794228634059947
+        ],
+        "minimum_gap": 1.1588457268119896,
+        "predicted_chern_from_masses": -1
       },
       "schema_version": 1,
       "status": "passed"
@@ -894,7 +1682,7 @@
           "tolerance": null
         }
       ],
-      "elapsed_seconds": 0.012995542,
+      "elapsed_seconds": 0.013002834,
       "metrics": {
         "chern_numbers": [
           -4.417437057588218e-18,
@@ -913,6 +1701,269 @@
           1,
           -1,
           0
+        ]
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "thouless",
+      "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+      "case_id": "bulk_kane_mele_z2",
+      "checks": [
+        {
+          "actual": [
+            1.0000000000000007,
+            -1.0000000000000007
+          ],
+          "expected": "opposite",
+          "name": "time_reversal_spin_chern_pair",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": 1,
+          "expected": 1,
+          "name": "nontrivial_z2",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": 0.6088641869950518,
+          "expected": "> 0.5",
+          "name": "rashba_gap_stays_open",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": [
+            3.885780586188048e-16,
+            0.9999999999999997
+          ],
+          "expected": "degenerate endpoint with separated flow",
+          "name": "wilson_partner_switching",
+          "passed": true,
+          "tolerance": null
+        }
+      ],
+      "elapsed_seconds": 0.013921959,
+      "metrics": {
+        "endpoint_separation": 3.885780586188048e-16,
+        "maximum_wannier_separation": 0.9999999999999997,
+        "minimum_rashba_gap": 0.6088641869950518,
+        "spin_chern_numbers_at_zero_rashba": [
+          1.0000000000000007,
+          -1.0000000000000007
+        ],
+        "wilson_centers": [
+          [
+            7.536273046762247e-17,
+            0.9999999999999998
+          ],
+          [
+            0.0024498753980127823,
+            0.9975501246019871
+          ],
+          [
+            0.005001717588043675,
+            0.9949982824119564
+          ],
+          [
+            0.007769187799565622,
+            0.9922308122004344
+          ],
+          [
+            0.010891981088217739,
+            0.9891080189117822
+          ],
+          [
+            0.014556446862898278,
+            0.9854435531371017
+          ],
+          [
+            0.0190286504311047,
+            0.9809713495688951
+          ],
+          [
+            0.024711547765706266,
+            0.9752884522342937
+          ],
+          [
+            0.03224978807497718,
+            0.9677502119250228
+          ],
+          [
+            0.04273074181088192,
+            0.9572692581891181
+          ],
+          [
+            0.058077671659462884,
+            0.941922328340537
+          ],
+          [
+            0.08176741627601145,
+            0.9182325837239886
+          ],
+          [
+            0.11960722654929755,
+            0.8803927734507025
+          ],
+          [
+            0.17745617685659437,
+            0.8225438231434057
+          ],
+          [
+            0.24969024040939927,
+            0.7503097595906005
+          ],
+          [
+            0.316972485148747,
+            0.6830275148512528
+          ],
+          [
+            0.3695949081343377,
+            0.6304050918656623
+          ],
+          [
+            0.4102044200743218,
+            0.5897955799256782
+          ],
+          [
+            0.4434217098673725,
+            0.5565782901326275
+          ],
+          [
+            0.47259681201753395,
+            0.5274031879824661
+          ],
+          [
+            0.49999999999999983,
+            0.5000000000000002
+          ]
+        ],
+        "z2": 1
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "thouless",
+      "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+      "case_id": "bulk_kagome_soc_chern",
+      "checks": [
+        {
+          "actual": [
+            -1,
+            1,
+            0
+          ],
+          "expected": "at least one nonzero band",
+          "name": "nonzero_band_chern",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": 0,
+          "expected": 0,
+          "name": "chern_sum_rule",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": [
+            0.060483842776169805,
+            1.5500556162726977
+          ],
+          "expected": "> 0.05",
+          "name": "positive_gaps",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": [
+            1.6060180970896194,
+            2.5450242139442043,
+            2.2586853314449513
+          ],
+          "expected": "> 0.1",
+          "name": "finite_bandwidths",
+          "passed": true,
+          "tolerance": null
+        }
+      ],
+      "elapsed_seconds": 0.014202541,
+      "metrics": {
+        "band_chern_numbers": [
+          -1.0000000000000007,
+          1.0000000000000009,
+          -2.0498806064695014e-16
+        ],
+        "bandwidths": [
+          1.6060180970896194,
+          2.5450242139442043,
+          2.2586853314449513
+        ],
+        "minimum_gaps": [
+          0.060483842776169805,
+          1.5500556162726977
+        ],
+        "rounded_band_chern_numbers": [
+          -1,
+          1,
+          0
+        ]
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "thouless",
+      "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+      "case_id": "bulk_bbh_nested_wilson",
+      "checks": [
+        {
+          "actual": 1.414213562373095,
+          "expected": "> 1.3",
+          "name": "bulk_gap",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": 0.5081742612059094,
+          "expected": "> 0.45",
+          "name": "wannier_gap",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": [
+            0.5,
+            0.5
+          ],
+          "expected": [
+            0.5,
+            0.5
+          ],
+          "name": "nested_sector_polarizations",
+          "passed": true,
+          "tolerance": 3e-05
+        },
+        {
+          "actual": 0.5,
+          "expected": 0.5,
+          "name": "quadrupole",
+          "passed": true,
+          "tolerance": 3e-05
+        }
+      ],
+      "elapsed_seconds": 0.011029208,
+      "metrics": {
+        "minimum_bulk_gap": 1.414213562373095,
+        "minimum_wannier_gap": 0.5081742612059094,
+        "quadrupole": 0.5,
+        "sector_polarizations": [
+          0.5,
+          0.5
         ]
       },
       "schema_version": 1,
@@ -955,7 +2006,7 @@
           "tolerance": null
         }
       ],
-      "elapsed_seconds": 0.006878208,
+      "elapsed_seconds": 0.012074584,
       "metrics": {
         "node_gaps": [
           2.220446049250313e-16,
@@ -999,7 +2050,7 @@
           "tolerance": 2e-05
         }
       ],
-      "elapsed_seconds": 0.000850042,
+      "elapsed_seconds": 0.000862875,
       "metrics": {
         "linked_loop_phase": -3.141592653589793,
         "ring_point": [
@@ -1008,6 +2059,62 @@
           0.0
         ],
         "unlinked_loop_phase": -0.0
+      },
+      "schema_version": 1,
+      "status": "passed"
+    },
+    {
+      "backend": "thouless",
+      "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+      "case_id": "bulk_tilted_dirac_berry_dipole",
+      "checks": [
+        {
+          "actual": 4.418687638008123e-13,
+          "expected": 0.0,
+          "name": "odd_under_tilt_reversal",
+          "passed": true,
+          "tolerance": 0.0005
+        },
+        {
+          "actual": 3.1581830630880194,
+          "expected": "> 0.5",
+          "name": "finite_nonlinear_response",
+          "passed": true,
+          "tolerance": null
+        },
+        {
+          "actual": 0.6,
+          "expected": "near the band edge",
+          "name": "band_edge_variation",
+          "passed": true,
+          "tolerance": null
+        }
+      ],
+      "elapsed_seconds": 0.020314,
+      "metrics": {
+        "chemical_potentials": [
+          0.4,
+          0.5,
+          0.6,
+          0.8,
+          1.0
+        ],
+        "negative_tilt_dipole": [
+          1.0374982598759097,
+          2.788384181461009,
+          3.1581830630875776,
+          2.021865731987459,
+          1.2507906935874376
+        ],
+        "odd_reversal_error": 4.418687638008123e-13,
+        "peak_chemical_potential": 0.6,
+        "positive_tilt_dipole": [
+          -1.0374982598757727,
+          -2.7883841814613044,
+          -3.1581830630880194,
+          -2.0218657319870883,
+          -1.25079069358742
+        ]
       },
       "schema_version": 1,
       "status": "passed"
@@ -1032,7 +2139,7 @@
           "tolerance": 1e-12
         }
       ],
-      "elapsed_seconds": 0.000323084,
+      "elapsed_seconds": 0.000381,
       "metrics": {
         "maximum_hermiticity_error": 1.936124268140441e-16,
         "maximum_off_mesh_energy_error": 4.440892098500626e-16,
@@ -1078,7 +2185,7 @@
           "tolerance": 0.1566092151176974
         }
       ],
-      "elapsed_seconds": 0.001458959,
+      "elapsed_seconds": 0.001495833,
       "metrics": {
         "edge_weights": [
           0.640043729144964,
@@ -1110,7 +2217,7 @@
           "tolerance": 1e-09
         }
       ],
-      "elapsed_seconds": 0.001768958,
+      "elapsed_seconds": 0.005272125,
       "metrics": {
         "energies": [
           -1.5,
@@ -1135,7 +2242,7 @@
   "schema_version": 1,
   "summary": {
     "failed": 0,
-    "passed": 25,
-    "result_count": 25
+    "passed": 40,
+    "result_count": 40
   }
 }

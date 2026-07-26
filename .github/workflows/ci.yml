@@ -31,9 +31,14 @@ jobs:
       - run: python backends/pythtb/run.py bulk_graphene_dirac_cone
       - run: python backends/pythtb/run.py bulk_ssh_polarization
       - run: python backends/pythtb/run.py bulk_rice_mele_pump
+      - run: python backends/pythtb/run.py bulk_haldane_chern_transition
       - run: python backends/pythtb/run.py bulk_qwz_phase_diagram
+      - run: python backends/pythtb/run.py bulk_kane_mele_z2
+      - run: python backends/pythtb/run.py bulk_kagome_soc_chern
+      - run: python backends/pythtb/run.py bulk_bbh_nested_wilson
       - run: python backends/pythtb/run.py bulk_weyl_chirality
       - run: python backends/pythtb/run.py bulk_nodal_line_berry_phase
+      - run: python backends/pythtb/run.py bulk_tilted_dirac_berry_dipole
       - run: python backends/pythtb/run.py bulk_wannier_interpolation
       - run: python backends/pythtb/run.py boundary_ssh_edge_localization
 
@@ -53,9 +58,14 @@ jobs:
       - run: python backends/kwant/run.py bulk_graphene_dirac_cone
       - run: python backends/kwant/run.py bulk_ssh_polarization
       - run: python backends/kwant/run.py bulk_rice_mele_pump
+      - run: python backends/kwant/run.py bulk_haldane_chern_transition
       - run: python backends/kwant/run.py bulk_qwz_phase_diagram
+      - run: python backends/kwant/run.py bulk_kane_mele_z2
+      - run: python backends/kwant/run.py bulk_kagome_soc_chern
+      - run: python backends/kwant/run.py bulk_bbh_nested_wilson
       - run: python backends/kwant/run.py bulk_weyl_chirality
       - run: python backends/kwant/run.py bulk_nodal_line_berry_phase
+      - run: python backends/kwant/run.py bulk_tilted_dirac_berry_dipole
       - run: python backends/kwant/run.py boundary_ssh_edge_localization
       - run: python backends/kwant/run.py transport_ballistic_chain
 
@@ -67,9 +77,14 @@ jobs:
       - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- bulk_graphene_dirac_cone
       - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- bulk_ssh_polarization
       - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- bulk_rice_mele_pump
+      - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- bulk_haldane_chern_transition
       - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- bulk_qwz_phase_diagram
+      - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- bulk_kane_mele_z2
+      - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- bulk_kagome_soc_chern
+      - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- bulk_bbh_nested_wilson
       - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- bulk_weyl_chirality
       - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- bulk_nodal_line_berry_phase
+      - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- bulk_tilted_dirac_berry_dipole
       - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- bulk_wannier_interpolation
       - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- boundary_ssh_edge_localization
       - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- transport_ballistic_chain

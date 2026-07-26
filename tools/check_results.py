@@ -86,6 +86,53 @@ def main() -> int:
         ]:
             raise ValueError("QWZ phase sequence differs across backends")
 
+        reference = by_key[("bulk_haldane_chern_transition", "thouless")]["metrics"]
+        compared = by_key[("bulk_haldane_chern_transition", backend)]["metrics"]
+        if abs(round(reference["chern_number"])) != abs(round(compared["chern_number"])):
+            raise ValueError("Haldane topological class differs across backends")
+        for left, right in zip(reference["dirac_masses"], compared["dirac_masses"]):
+            close(left, right, 1.0e-12)
+        close(reference["minimum_gap"], compared["minimum_gap"], 1.0e-12)
+
+        reference = by_key[("bulk_kagome_soc_chern", "thouless")]["metrics"]
+        compared = by_key[("bulk_kagome_soc_chern", backend)]["metrics"]
+        if [abs(value) for value in reference["rounded_band_chern_numbers"]] != [
+            abs(value) for value in compared["rounded_band_chern_numbers"]
+        ]:
+            raise ValueError("Kagome band topology differs across backends")
+        for name in ("minimum_gaps", "bandwidths"):
+            for left, right in zip(reference[name], compared[name]):
+                close(left, right, 1.0e-12)
+
+        reference = by_key[("bulk_kane_mele_z2", "thouless")]["metrics"]
+        compared = by_key[("bulk_kane_mele_z2", backend)]["metrics"]
+        if reference["z2"] != compared["z2"]:
+            raise ValueError("Kane-Mele Z2 class differs across backends")
+        close(reference["minimum_rashba_gap"], compared["minimum_rashba_gap"], 1.0e-12)
+        close(reference["endpoint_separation"], compared["endpoint_separation"], 1.0e-12)
+        close(
+            reference["maximum_wannier_separation"],
+            compared["maximum_wannier_separation"],
+            1.0e-12,
+        )
+
+        reference = by_key[("bulk_bbh_nested_wilson", "thouless")]["metrics"]
+        compared = by_key[("bulk_bbh_nested_wilson", backend)]["metrics"]
+        for name in ("minimum_bulk_gap", "minimum_wannier_gap", "quadrupole"):
+            close(reference[name], compared[name], 1.0e-12)
+        for left, right in zip(
+            reference["sector_polarizations"], compared["sector_polarizations"]
+        ):
+            close(left, right, 1.0e-12)
+
+        reference = by_key[("bulk_tilted_dirac_berry_dipole", "thouless")]["metrics"]
+        compared = by_key[("bulk_tilted_dirac_berry_dipole", backend)]["metrics"]
+        if reference["peak_chemical_potential"] != compared["peak_chemical_potential"]:
+            raise ValueError("Berry-curvature-dipole peak differs across backends")
+        for name in ("positive_tilt_dipole", "negative_tilt_dipole"):
+            for left, right in zip(reference[name], compared[name]):
+                close(left, right, 1.0e-9)
+
         reference = by_key[("bulk_weyl_chirality", "thouless")]["metrics"]
         compared = by_key[("bulk_weyl_chirality", backend)]["metrics"]
         if [abs(round(value)) for value in reference["slice_chern_numbers"]] != [

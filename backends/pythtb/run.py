@@ -18,7 +18,14 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "src"))
 
 from thouless_benchmark.result import Check, result  # noqa: E402
-from thouless_benchmark.numerics import berry_phase, fhs_chern, minimum_direct_gap  # noqa: E402
+from thouless_benchmark.numerics import (  # noqa: E402
+    berry_curvature_dipole,
+    berry_phase,
+    fhs_chern,
+    minimum_direct_gap,
+    nested_wilson_polarizations,
+    wilson_centers,
+)
 
 SIGMA_X = np.array([[0.0, 1.0], [1.0, 0.0]], dtype=complex)
 SIGMA_Y = np.array([[0.0, -1.0j], [1.0j, 0.0]], dtype=complex)
@@ -236,6 +243,248 @@ def bulk_qwz_phase_diagram(parameters: dict) -> tuple[dict, list[Check]]:
     return metrics, checks
 
 
+def haldane_model(parameters: dict) -> TBModel:
+    t1 = parameters["t1"]
+    t2 = parameters["t2"] * np.sin(parameters["phase"])
+    onsite = parameters["mass"] * SIGMA_Z + t1 * SIGMA_X
+    hoppings = []
+    for offset, chirality in [
+        ((1, 0), -1.0),
+        ((0, 1), 1.0),
+        ((1, -1), 1.0),
+    ]:
+        matrix = np.diag([-1.0j * chirality * t2, 1.0j * chirality * t2])
+        if offset in ((1, 0), (0, 1)):
+            matrix[0, 1] += t1
+        hoppings.append((offset, matrix))
+    return fourier_model(2, onsite, hoppings)
+
+
+def bulk_haldane_chern_transition(parameters: dict) -> tuple[dict, list[Check]]:
+    model = haldane_model(parameters)
+    hamiltonian = lambda momentum: hamiltonian_at(model, momentum)
+    chern = fhs_chern(hamiltonian, (41, 41), occupied=1)
+    dirac_points = [np.array([1.0 / 3.0, 2.0 / 3.0]), np.array([2.0 / 3.0, 1.0 / 3.0])]
+    dirac_masses = [
+        float((hamiltonian(point)[0, 0] - hamiltonian(point)[1, 1]).real / 2.0)
+        for point in dirac_points
+    ]
+    minimum_gap = minimum_direct_gap(hamiltonian, 2, 60, 1)
+    predicted_chern = int(np.sign(dirac_masses[0]) - np.sign(dirac_masses[1])) // 2
+    rounded = int(np.rint(chern))
+    metrics = {
+        "dirac_masses": dirac_masses,
+        "minimum_gap": minimum_gap,
+        "chern_number": chern,
+        "predicted_chern_from_masses": predicted_chern,
+    }
+    checks = [
+        Check("opposite_dirac_masses", dirac_masses[0] * dirac_masses[1] < 0.0, dirac_masses, "opposite signs"),
+        Check("chern_from_masses", rounded == predicted_chern, rounded, predicted_chern),
+        Check("chern_integer", abs(chern - rounded) < 2.0e-6, chern, rounded, 2.0e-6),
+        Check("positive_bulk_gap", minimum_gap > 1.0, minimum_gap, "> 1.0"),
+    ]
+    return metrics, checks
+
+
+def kagome_soc_model(parameters: dict) -> TBModel:
+    hopping = parameters["t"] + 1.0j * parameters["lambda"]
+    onsite = np.zeros((3, 3), dtype=complex)
+    for first, second in ((0, 1), (0, 2), (1, 2)):
+        onsite[first, second] = hopping
+        onsite[second, first] = hopping.conjugate()
+    hoppings = []
+    for offset, first, second in [
+        ((1, 0), 0, 1),
+        ((0, 1), 0, 2),
+        ((1, -1), 1, 2),
+    ]:
+        matrix = np.zeros((3, 3), dtype=complex)
+        matrix[first, second] = hopping
+        hoppings.append((offset, matrix))
+    return fourier_model(2, onsite, hoppings)
+
+
+def bulk_kagome_soc_chern(parameters: dict) -> tuple[dict, list[Check]]:
+    model = kagome_soc_model(parameters)
+    hamiltonian = lambda momentum: hamiltonian_at(model, momentum)
+    cumulative_one = fhs_chern(hamiltonian, (41, 41), occupied=1)
+    cumulative_two = fhs_chern(hamiltonian, (41, 41), occupied=2)
+    band_chern = [cumulative_one, cumulative_two - cumulative_one, -cumulative_two]
+    rounded = [int(np.rint(value)) for value in band_chern]
+    energies = []
+    minimum_gaps = [np.inf, np.inf]
+    for ix in range(50):
+        for iy in range(50):
+            values = np.linalg.eigvalsh(hamiltonian(np.array([ix / 50.0, iy / 50.0])))
+            energies.append(values)
+            minimum_gaps[0] = min(minimum_gaps[0], float(values[1] - values[0]))
+            minimum_gaps[1] = min(minimum_gaps[1], float(values[2] - values[1]))
+    energies = np.asarray(energies)
+    bandwidths = np.ptp(energies, axis=0).tolist()
+    metrics = {
+        "band_chern_numbers": band_chern,
+        "rounded_band_chern_numbers": rounded,
+        "minimum_gaps": minimum_gaps,
+        "bandwidths": bandwidths,
+    }
+    checks = [
+        Check("nonzero_band_chern", any(abs(value) == 1 for value in rounded), rounded, "at least one nonzero band"),
+        Check("chern_sum_rule", sum(rounded) == 0, sum(rounded), 0),
+        Check("positive_gaps", min(minimum_gaps) > 0.05, minimum_gaps, "> 0.05"),
+        Check("finite_bandwidths", all(value > 0.1 for value in bandwidths), bandwidths, "> 0.1"),
+    ]
+    return metrics, checks
+
+
+def kane_mele_model(parameters: dict, rashba: float | None = None) -> TBModel:
+    tau_x, tau_y, tau_z = SIGMA_X, SIGMA_Y, SIGMA_Z
+    spin_x, spin_y, spin_z = SIGMA_X, SIGMA_Y, SIGMA_Z
+    identity = IDENTITY_2
+    t = parameters["t"]
+    intrinsic = parameters["lambda_so"]
+    rashba = parameters["lambda_r"] if rashba is None else rashba
+    mass = parameters["mass"]
+    onsite = (
+        mass * np.kron(tau_z, identity)
+        + t * np.kron(tau_x, identity)
+        + rashba * np.kron(tau_y, spin_x)
+    )
+    hoppings = []
+    for offset, chirality in [
+        ((1, 0), -1.0),
+        ((0, 1), 1.0),
+        ((1, -1), 1.0),
+    ]:
+        matrix = -1.0j * chirality * intrinsic * np.kron(tau_z, spin_z)
+        if offset in ((1, 0), (0, 1)):
+            nearest = np.zeros((4, 4), dtype=complex)
+            nearest[0:2, 2:4] = t * identity
+            matrix += nearest
+        hoppings.append((offset, matrix))
+    return fourier_model(2, onsite, hoppings)
+
+
+def bulk_kane_mele_z2(parameters: dict) -> tuple[dict, list[Check]]:
+    spin_conserved = kane_mele_model(parameters, rashba=0.0)
+    h0 = lambda momentum: hamiltonian_at(spin_conserved, momentum)
+    spin_up = fhs_chern(lambda k: h0(k)[np.ix_([0, 2], [0, 2])], (31, 31), 1)
+    spin_down = fhs_chern(lambda k: h0(k)[np.ix_([1, 3], [1, 3])], (31, 31), 1)
+    spin_chern = int(np.rint((spin_up - spin_down) / 2.0))
+    model = kane_mele_model(parameters)
+    hamiltonian = lambda momentum: hamiltonian_at(model, momentum)
+    minimum_gap = minimum_direct_gap(hamiltonian, 2, 40, 2)
+    transverse = np.linspace(0.0, 0.5, 21)
+    centers = np.asarray(
+        [
+            wilson_centers(
+                hamiltonian,
+                loop_axis=0,
+                fixed_momentum=np.array([0.0, ky]),
+                loop_samples=81,
+                occupied=2,
+            )
+            for ky in transverse
+        ]
+    )
+    endpoint_separation = float(abs(centers[-1, 1] - centers[-1, 0]))
+    midpoint_spread = float(np.max(centers[:, 1] - centers[:, 0]))
+    z2 = abs(spin_chern) % 2
+    metrics = {
+        "spin_chern_numbers_at_zero_rashba": [spin_up, spin_down],
+        "z2": z2,
+        "minimum_rashba_gap": minimum_gap,
+        "wilson_centers": centers.tolist(),
+        "endpoint_separation": endpoint_separation,
+        "maximum_wannier_separation": midpoint_spread,
+    }
+    checks = [
+        Check("time_reversal_spin_chern_pair", int(np.rint(spin_up)) == -int(np.rint(spin_down)), [spin_up, spin_down], "opposite"),
+        Check("nontrivial_z2", z2 == 1, z2, 1),
+        Check("rashba_gap_stays_open", minimum_gap > 0.5, minimum_gap, "> 0.5"),
+        Check("wilson_partner_switching", endpoint_separation < 1.0e-6 and midpoint_spread > 0.4, [endpoint_separation, midpoint_spread], "degenerate endpoint with separated flow"),
+    ]
+    return metrics, checks
+
+
+def bbh_model(parameters: dict) -> TBModel:
+    tau_1, tau_2, tau_3 = SIGMA_X, SIGMA_Y, SIGMA_Z
+    sigma_0, sigma_1, sigma_2, sigma_3 = IDENTITY_2, SIGMA_X, SIGMA_Y, SIGMA_Z
+    gamma_1 = -np.kron(tau_2, sigma_1)
+    gamma_2 = -np.kron(tau_2, sigma_2)
+    gamma_3 = -np.kron(tau_2, sigma_3)
+    gamma_4 = np.kron(tau_1, sigma_0)
+    onsite = parameters["gamma_x"] * gamma_4 + parameters["gamma_y"] * gamma_2
+    hopping_x = 0.5 * parameters["lambda_x"] * gamma_4 - 0.5j * parameters["lambda_x"] * gamma_3
+    hopping_y = 0.5 * parameters["lambda_y"] * gamma_2 - 0.5j * parameters["lambda_y"] * gamma_1
+    return fourier_model(2, onsite, [((1, 0), hopping_x), ((0, 1), hopping_y)])
+
+
+def bulk_bbh_nested_wilson(parameters: dict) -> tuple[dict, list[Check]]:
+    model = bbh_model(parameters)
+    hamiltonian = lambda momentum: hamiltonian_at(model, momentum)
+    minimum_gap = minimum_direct_gap(hamiltonian, 2, 24, 2)
+    centers, sector_polarizations = nested_wilson_polarizations(
+        hamiltonian, loop_samples=51, transverse_samples=51, occupied=2
+    )
+    wannier_gap = float(np.min(centers[:, 1] - centers[:, 0]))
+    quadrupole = float(np.mod(np.mean(sector_polarizations), 1.0))
+    metrics = {
+        "minimum_bulk_gap": minimum_gap,
+        "minimum_wannier_gap": wannier_gap,
+        "sector_polarizations": sector_polarizations.tolist(),
+        "quadrupole": quadrupole,
+    }
+    checks = [
+        Check("bulk_gap", minimum_gap > 1.3, minimum_gap, "> 1.3"),
+        Check("wannier_gap", wannier_gap > 0.45, wannier_gap, "> 0.45"),
+        Check("nested_sector_polarizations", bool(np.allclose(sector_polarizations, [0.5, 0.5], atol=3.0e-5)), sector_polarizations.tolist(), [0.5, 0.5], 3.0e-5),
+        Check("quadrupole", abs(quadrupole - 0.5) < 3.0e-5, quadrupole, 0.5, 3.0e-5),
+    ]
+    return metrics, checks
+
+
+def tilted_dirac_model(parameters: dict, tilt: float) -> TBModel:
+    mass = parameters["mass"]
+    onsite = (mass + 2.0) * SIGMA_Z
+    hopping_x = -0.5 * SIGMA_Z - 0.5j * SIGMA_X - 0.5j * tilt * IDENTITY_2
+    hopping_y = -0.5 * SIGMA_Z - 0.5j * SIGMA_Y
+    return fourier_model(2, onsite, [((1, 0), hopping_x), ((0, 1), hopping_y)])
+
+
+def bulk_tilted_dirac_berry_dipole(parameters: dict) -> tuple[dict, list[Check]]:
+    chemical_potentials = [0.4, 0.5, 0.6, 0.8, 1.0]
+    positive = tilted_dirac_model(parameters, parameters["tilt"])
+    negative = tilted_dirac_model(parameters, -parameters["tilt"])
+    positive_values = berry_curvature_dipole(
+        lambda momentum: hamiltonian_at(positive, momentum),
+        chemical_potentials,
+        temperature=parameters["temperature"],
+        samples=51,
+    )
+    negative_values = berry_curvature_dipole(
+        lambda momentum: hamiltonian_at(negative, momentum),
+        chemical_potentials,
+        temperature=parameters["temperature"],
+        samples=51,
+    )
+    odd_error = float(np.max(np.abs(positive_values + negative_values)))
+    peak_index = int(np.argmax(np.abs(positive_values)))
+    metrics = {
+        "chemical_potentials": chemical_potentials,
+        "positive_tilt_dipole": positive_values.tolist(),
+        "negative_tilt_dipole": negative_values.tolist(),
+        "odd_reversal_error": odd_error,
+        "peak_chemical_potential": chemical_potentials[peak_index],
+    }
+    checks = [
+        Check("odd_under_tilt_reversal", odd_error < 5.0e-4, odd_error, 0.0, 5.0e-4),
+        Check("finite_nonlinear_response", float(np.max(np.abs(positive_values))) > 0.5, float(np.max(np.abs(positive_values))), "> 0.5"),
+        Check("band_edge_variation", peak_index in (1, 2, 3), chemical_potentials[peak_index], "near the band edge"),
+    ]
+    return metrics, checks
+
+
 def minimal_weyl_model(node: float) -> TBModel:
     onsite = (2.0 - np.cos(node)) * SIGMA_Z
     return fourier_model(
@@ -441,9 +690,14 @@ IMPLEMENTED = {
     "bulk_graphene_dirac_cone": bulk_graphene_dirac_cone,
     "bulk_ssh_polarization": bulk_ssh_polarization,
     "bulk_rice_mele_pump": bulk_rice_mele_pump,
+    "bulk_haldane_chern_transition": bulk_haldane_chern_transition,
     "bulk_qwz_phase_diagram": bulk_qwz_phase_diagram,
+    "bulk_kane_mele_z2": bulk_kane_mele_z2,
+    "bulk_kagome_soc_chern": bulk_kagome_soc_chern,
+    "bulk_bbh_nested_wilson": bulk_bbh_nested_wilson,
     "bulk_weyl_chirality": bulk_weyl_chirality,
     "bulk_nodal_line_berry_phase": bulk_nodal_line_berry_phase,
+    "bulk_tilted_dirac_berry_dipole": bulk_tilted_dirac_berry_dipole,
     "bulk_wannier_interpolation": bulk_wannier_interpolation,
     "boundary_ssh_edge_localization": boundary_ssh_edge_localization,
 }

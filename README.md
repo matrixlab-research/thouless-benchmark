@@ -43,17 +43,18 @@ separately:
 
 | Backend | Implemented | Applicable | Remaining |
 |---|---:|---:|---:|
-| Thouless native Rust | 9 | 20 | 11 |
-| Original PythTB 2.0.0 | 8 | 16 | 8 |
-| Original Kwant 1.5.0 | 8 | 19 | 11 |
+| Thouless native Rust | 14 | 20 | 6 |
+| Original PythTB 2.0.0 | 13 | 16 | 3 |
+| Original Kwant 1.5.0 | 13 | 19 | 6 |
 
 The [verified result set](results/verified/2026-07-26-implemented.json) contains
-nine end-to-end workflows: graphene Dirac cones, SSH polarization, Rice-Mele
-pumping, the QWZ phase diagram, Weyl-node chirality, nodal-line Berry phase,
-finite Fourier-Wannier interpolation, SSH end-state localization, and
-ballistic-chain transmission. All twenty-five applicable backend-case
-executions pass their analytic checks. The other eleven scientific questions
-are specified but are not yet implemented; see [`benchmark/implementation.json`](benchmark/implementation.json)
+fourteen end-to-end workflows. In addition to the initial band, pump, Weyl,
+nodal-line, interpolation, SSH-boundary, and ballistic-transport cases, it
+includes the Haldane transition, Kagome SOC bands, Kane-Mele \(Z_2\) flow, BBH
+nested Wilson loops, and a tilted-Dirac Berry-curvature dipole. All forty
+applicable backend-case executions pass their analytic checks. The other six
+scientific questions are specified but are not yet implemented; see
+[`benchmark/implementation.json`](benchmark/implementation.json)
 and `python tools/coverage_report.py`.
 
 PythTB 2.0 requires NumPy 2, while Kwant 1.5 currently builds against NumPy
