@@ -2,7 +2,7 @@
 id: TBQ-049
 suite: 10-non-hermitian
 source_requirement: TB-REQ-049
-status: proposed
+status: executable
 acceptance_class: reference
 lkm_snapshot: 2026-07-27
 ---
@@ -75,5 +75,4 @@ type.
 
 ## Implementation status
 
-`proposed`: this document specifies a scientific problem but does not claim that any
-backend currently passes it. No current executable case is asserted to cover this full problem.
+`executable`: the package-backed evaluator, independent gates, recorded result, and CI are present for thouless: domain_nonhermitian_static. See the machine-readable [backend audit](../../../benchmark/problem_coverage.json). This public result is not held-out validation.

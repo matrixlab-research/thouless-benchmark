@@ -74,7 +74,4 @@ Suite-wide isolation rule: Hold out one lattice family and a topology-changing c
 
 ## Implementation status
 
-`executable`: [`domain_spectral_reliability`](../../../benchmark/domain_cases.json)
-passes with native Thouless, original PythTB, and original Kwant. The backend-level
-witnesses and remaining gaps are recorded in
-[`benchmark/problem_coverage.json`](../../../benchmark/problem_coverage.json).
+`executable`: the package-backed evaluator, independent gates, recorded result, and CI are present for kwant: domain_spectral_reliability; pythtb: domain_spectral_reliability; thouless: domain_spectral_reliability. See the machine-readable [backend audit](../../../benchmark/problem_coverage.json). This public result is not held-out validation.

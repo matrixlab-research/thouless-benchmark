@@ -2,7 +2,7 @@
 id: TBQ-020
 suite: 04-bulk-topology
 source_requirement: TB-REQ-020
-status: proposed
+status: executable
 acceptance_class: exact
 lkm_snapshot: 2026-07-27
 ---
@@ -75,5 +75,4 @@ Suite-wide isolation rule: Hold out a symmetry class, a nearly closed gap, and a
 
 ## Implementation status
 
-`proposed`: this document specifies a scientific problem but does not claim that any
-backend currently passes it. No current executable case is asserted to cover this full problem.
+`executable`: the package-backed evaluator, independent gates, recorded result, and CI are present for thouless: domain_bulk_topology_controls. See the machine-readable [backend audit](../../../benchmark/problem_coverage.json). This public result is not held-out validation.

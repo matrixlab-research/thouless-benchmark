@@ -2,7 +2,7 @@
 id: TBQ-081
 suite: 17-defects-interfaces
 source_requirement: TB-REQ-081
-status: proposed
+status: executable
 acceptance_class: exact
 lkm_snapshot: 2026-07-27
 ---
@@ -74,5 +74,4 @@ interface registry.
 
 ## Implementation status
 
-`proposed`: this document specifies a scientific problem but does not claim that any
-backend currently passes it. No current executable case is asserted to cover this full problem.
+`executable`: the package-backed evaluator, independent gates, recorded result, and CI are present for thouless: domain_defect_workflows. See the machine-readable [backend audit](../../../benchmark/problem_coverage.json). This public result is not held-out validation.

@@ -2,7 +2,7 @@
 id: TBQ-004
 suite: 01-model-construction
 source_requirement: TB-REQ-004
-status: proposed
+status: executable
 acceptance_class: exact
 lkm_snapshot: 2026-07-27
 ---
@@ -77,5 +77,4 @@ not form the hidden set by resampling fitted k-points.
 
 ## Implementation status
 
-`proposed`: this document specifies a scientific problem but does not claim that any
-backend currently passes it. No current executable case is asserted to cover this full problem.
+`executable`: the package-backed evaluator, independent gates, recorded result, and CI are present for thouless: domain_model_fidelity. See the machine-readable [backend audit](../../../benchmark/problem_coverage.json). This public result is not held-out validation.

@@ -76,5 +76,4 @@ observable.
 
 ## Implementation status
 
-`proposed`: this document specifies a scientific problem but does not claim that any
-backend currently passes it. No current executable case is asserted to cover this full problem.
+`proposed`: this document specifies a scientific problem but does not claim that any backend currently passes it. No current executable case is asserted to cover this full problem.

@@ -75,7 +75,4 @@ loops.
 
 ## Implementation status
 
-`executable`: [`domain_magnetic_hofstadter`](../../../benchmark/domain_cases.json)
-passes with native Thouless, original PythTB, and original Kwant. The backend-level
-witnesses and remaining gaps are recorded in
-[`benchmark/problem_coverage.json`](../../../benchmark/problem_coverage.json).
+`executable`: the package-backed evaluator, independent gates, recorded result, and CI are present for kwant: domain_magnetic_hofstadter; pythtb: domain_magnetic_hofstadter; thouless: domain_magnetic_hofstadter. See the machine-readable [backend audit](../../../benchmark/problem_coverage.json). This public result is not held-out validation.

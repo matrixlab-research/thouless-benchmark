@@ -2,7 +2,7 @@
 id: TBQ-037
 suite: 08-open-transport
 source_requirement: TB-REQ-037
-status: proposed
+status: executable
 acceptance_class: exact
 lkm_snapshot: 2026-07-27
 ---
@@ -75,5 +75,4 @@ terminal count.
 
 ## Implementation status
 
-`proposed`: this document specifies a scientific problem but does not claim that any
-backend currently passes it. [`transport_ballistic_chain`](../../../benchmark/cases.json) is related, but does not by itself establish full coverage of this specification.
+`executable`: the package-backed evaluator, independent gates, recorded result, and CI are present for thouless: domain_transport_consistency. See the machine-readable [backend audit](../../../benchmark/problem_coverage.json). This public result is not held-out validation.

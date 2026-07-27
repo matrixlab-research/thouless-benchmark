@@ -2,7 +2,7 @@
 id: TBQ-039
 suite: 08-open-transport
 source_requirement: TB-REQ-039
-status: proposed
+status: executable
 acceptance_class: scaling
 lkm_snapshot: 2026-07-27
 ---
@@ -74,5 +74,4 @@ terminal count.
 
 ## Implementation status
 
-`proposed`: this document specifies a scientific problem but does not claim that any
-backend currently passes it. No current executable case is asserted to cover this full problem.
+`executable`: the package-backed evaluator, independent gates, recorded result, and CI are present for thouless: domain_transport_consistency. See the machine-readable [backend audit](../../../benchmark/problem_coverage.json). This public result is not held-out validation.

@@ -75,7 +75,4 @@ terminal count.
 
 ## Implementation status
 
-`executable`: [`domain_lead_calibration`](../../../benchmark/domain_cases.json)
-passes with native Thouless and original Kwant. Original PythTB is explicitly
-not applicable because it has no semi-infinite lead solver. The backend-level evidence
-is recorded in [`benchmark/problem_coverage.json`](../../../benchmark/problem_coverage.json).
+`executable`: the package-backed evaluator, independent gates, recorded result, and CI are present for kwant: domain_lead_calibration; thouless: domain_lead_calibration. See the machine-readable [backend audit](../../../benchmark/problem_coverage.json). This public result is not held-out validation.

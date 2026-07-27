@@ -58,14 +58,16 @@ related observables.
 ## Required checks
 
 - The original manifest contains exactly twenty unique seed cases.
-- The domain manifest contains five executable witnesses and the generated
+- The domain manifest contains twenty-two executable witnesses and the generated
   audit contains exactly 100 questions by three backends.
+- Every domain question maps to one or more named checks in `question_gates`;
+  every named check must be present and passing in the recorded backend result.
 - Every one of the 300 backend-question assessments names its required,
   available, and missing capabilities and links available capabilities to
   pinned source-level API evidence.
 - The domain problem catalog contains exactly one hundred unique questions in
-  twenty suites. Thirteen currently have complete executable witnesses; the
-  remaining documents stay proposed.
+  twenty suites. Sixty-seven currently have complete executable witnesses; the
+  remaining thirty-three documents stay proposed.
 - Every case has a public LKM GCN identifier and source paper.
 - Every case has at least one native Thouless implementation.
 - Every scored result records backend version and commit where applicable.

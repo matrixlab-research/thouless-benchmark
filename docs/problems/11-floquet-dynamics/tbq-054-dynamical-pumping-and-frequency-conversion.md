@@ -74,5 +74,4 @@ Suite-wide isolation rule: Hold out waveform family, frequency ratio, resonance 
 
 ## Implementation status
 
-`proposed`: this document specifies a scientific problem but does not claim that any
-backend currently passes it. [`bulk_rice_mele_pump`](../../../benchmark/cases.json) is related, but does not by itself establish full coverage of this specification.
+`proposed`: this document specifies a scientific problem but does not claim that any backend currently passes it. No current executable case is asserted to cover this full problem.

@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "meaning": "Executable witnesses for complete problems in the 100-question domain catalog.",
   "cases": [
     {
@@ -14,7 +14,12 @@
         "open_chain_sizes": [32, 64, 128]
       },
       "oracle": "projector invariance, normalized spectral weight, and decreasing open-to-Bloch LDOS error",
-      "backends": ["thouless", "pythtb", "kwant"]
+      "backends": ["thouless", "pythtb", "kwant"],
+      "question_gates": {
+        "TBQ-006": ["degenerate_projector_gauge_invariance"],
+        "TBQ-007": ["dos_state_count"],
+        "TBQ-010": ["interior_ldos_converges_to_bloch"]
+      }
     },
     {
       "id": "domain_magnetic_hofstadter",
@@ -28,7 +33,12 @@
         "chern_mesh": 21
       },
       "oracle": "diagonal gauge equivalence, magnetic-translation algebra, q magnetic bands, and Chern magnitude one",
-      "backends": ["thouless", "pythtb", "kwant"]
+      "backends": ["thouless", "pythtb", "kwant"],
+      "question_gates": {
+        "TBQ-011": ["peierls_gauge_covariance", "gauge_invariant_spectrum"],
+        "TBQ-012": ["magnetic_translation_algebra", "magnetic_band_multiplicity"],
+        "TBQ-013": ["diophantine_chern_label"]
+      }
     },
     {
       "id": "domain_bdg_majorana",
@@ -44,7 +54,12 @@
         "junction_transparency": 0.72
       },
       "oracle": "particle-hole residual, analytic Andreev levels and current, Kitaev invariant, end localization, and exponential splitting",
-      "backends": ["thouless", "pythtb", "kwant"]
+      "backends": ["thouless", "pythtb", "kwant"],
+      "question_gates": {
+        "TBQ-041": ["particle_hole_symmetry", "paired_bdg_spectrum"],
+        "TBQ-042": ["short_junction_andreev_spectrum", "josephson_current_derivative"],
+        "TBQ-043": ["kitaev_bulk_invariants", "majorana_splitting_decreases", "majorana_end_localization", "majorana_self_conjugacy", "trivial_control_not_end_localized"]
+      }
     },
     {
       "id": "domain_lead_calibration",
@@ -60,6 +75,9 @@
       },
       "oracle": "analytic mode count, group velocity, retarded chain self-energy, and subunit evanescent factor",
       "backends": ["thouless", "kwant"],
+      "question_gates": {
+        "TBQ-036": ["one_incoming_and_one_outgoing_mode", "analytic_group_velocities", "analytic_retarded_self_energy", "no_propagating_mode_in_gap", "gap_self_energy", "evanescent_mode_decays"]
+      },
       "not_applicable": {
         "pythtb": "PythTB has no semi-infinite lead-mode or retarded self-energy solver."
       }
@@ -76,7 +94,245 @@
         "hopping": -1.0
       },
       "oracle": "converged discrete texture charge and unitary spectral covariance",
-      "backends": ["thouless", "pythtb", "kwant"]
+      "backends": ["thouless", "pythtb", "kwant"],
+      "question_gates": {
+        "TBQ-066": ["nontrivial_texture_charge", "global_spin_rotation_covariance", "global_spin_rotation_spectrum"]
+      }
+    },
+    {
+      "id": "domain_model_fidelity",
+      "track": "domain",
+      "question_ids": ["TBQ-001", "TBQ-002", "TBQ-003", "TBQ-004", "TBQ-005"],
+      "question": "Does one non-orthogonal model recipe preserve its basis, low-energy subspace, truncation convergence, symmetries, and held-out strain transfer?",
+      "parameters": {"orbitals": 4, "maximum_overlap": 0.08, "truncation_levels": 3, "held_out_strains": [-0.06, 0.02, 0.06]},
+      "oracle": "positive overlap metric, real generalized spectrum, projector fidelity, monotone truncation, linear symmetry breaking, and bounded held-out error",
+      "backends": ["thouless"],
+      "question_gates": {
+        "TBQ-001": ["TBQ-001_generalized_hermiticity_and_metric"],
+        "TBQ-002": ["TBQ-002_energy_window_and_projector_fidelity"],
+        "TBQ-003": ["TBQ-003_hopping_truncation_converges_bands_and_response"],
+        "TBQ-004": ["TBQ-004_symmetry_residual_and_negative_control"],
+        "TBQ-005": ["TBQ-005_held_out_strain_transfer"]
+      }
+    },
+    {
+      "id": "domain_fermiology",
+      "track": "domain",
+      "question_ids": ["TBQ-008", "TBQ-009"],
+      "question": "Does the square-lattice band expose its van Hove saddle and the associated Lifshitz state-counting transition?",
+      "parameters": {"nearest_hopping": -1.0, "fermi_meshes": [80, 160], "chemical_potentials": [-1.0, 0.0, 1.0]},
+      "oracle": "zero-energy mixed-sign Hessian and half-filled, refinement-stable state count at the Lifshitz energy",
+      "backends": ["thouless"],
+      "question_gates": {
+        "TBQ-008": ["TBQ-008_van_hove_stationary_point_and_hessian"],
+        "TBQ-009": ["TBQ-009_lifshitz_state_counting"]
+      }
+    },
+    {
+      "id": "domain_magnetic_convergence",
+      "track": "domain",
+      "question_ids": ["TBQ-014", "TBQ-015"],
+      "question": "Do Harper spectra approach the low-flux Landau fan and stable irrational-flux observables along independent rational sequences?",
+      "parameters": {"landau_denominators": [41, 67, 97], "approximant_denominators": [[8, 13, 21], [5, 18, 31]]},
+      "oracle": "monotone sub-percent Landau error and sequence-independent integrated density of states",
+      "backends": ["thouless"],
+      "question_gates": {
+        "TBQ-014": ["TBQ-014_low_flux_landau_fan"],
+        "TBQ-015": ["TBQ-015_rational_approximant_integrated_observable"]
+      }
+    },
+    {
+      "id": "domain_bulk_topology_controls",
+      "track": "domain",
+      "question_ids": ["TBQ-016", "TBQ-017", "TBQ-018", "TBQ-020"],
+      "question": "Are bulk indices gauge safe, phase boundaries localized, nested Wilson flows stable, and trivial controls rejected?",
+      "parameters": {"chern_mesh": 25, "critical_mass_bracket": [1.8, 2.2], "wilson_mesh": 31},
+      "oracle": "gauge-invariant integer indices, analytic QWZ critical mass, quantized nested polarization, and zero atomic Chern number",
+      "backends": ["thouless"],
+      "question_gates": {
+        "TBQ-016": ["TBQ-016_bulk_index_gauge_invariance"],
+        "TBQ-017": ["TBQ-017_phase_boundary_and_index_change"],
+        "TBQ-018": ["TBQ-018_degeneracy_safe_nested_wilson_flow"],
+        "TBQ-020": ["TBQ-020_trivial_and_nearly_gapless_controls"]
+      }
+    },
+    {
+      "id": "domain_boundary_families",
+      "track": "domain",
+      "question_ids": ["TBQ-021", "TBQ-023", "TBQ-024", "TBQ-025"],
+      "question": "Do finite terminations, surface Green functions, protected flow, and finite geometry families give mutually consistent boundary conclusions?",
+      "parameters": {"families": ["SSH", "graphene", "Haldane", "BBH"], "surface_broadening": 0.001},
+      "oracle": "analytic termination signatures, finite-surface agreement, protected chiral flow, and stable localized boundary observables",
+      "backends": ["thouless"],
+      "question_gates": {
+        "TBQ-021": ["TBQ-021_termination_family_signatures"],
+        "TBQ-023": ["TBQ-023_finite_and_surface_boundary_agreement"],
+        "TBQ-024": ["TBQ-024_conditional_bulk_boundary_correspondence"],
+        "TBQ-025": ["TBQ-025_geometry_family_generalization"]
+      }
+    },
+    {
+      "id": "domain_quantum_geometry_nonlinear",
+      "track": "domain",
+      "question_ids": ["TBQ-026", "TBQ-027", "TBQ-028", "TBQ-030"],
+      "question": "Are geometric tensors gauge covariant and do symmetry-resolved nonlinear responses remain consistent from bulk to finite and lead-attached forms?",
+      "parameters": {"momentum": [0.17, 0.29], "tilts": [-0.25, 0.0, 0.25], "chemical_potentials": [0.45, 0.60, 0.80]},
+      "oracle": "unitary-invariant quantum tensor, symmetry-forbidden zero, odd finite tilt response, zero Chern, and finite boundary/device observables",
+      "backends": ["thouless"],
+      "question_gates": {
+        "TBQ-026": ["TBQ-026_quantum_geometric_tensor_gauge_covariance"],
+        "TBQ-027": ["TBQ-027_competing_nonlinear_hall_mechanisms"],
+        "TBQ-028": ["TBQ-028_forbidden_tensor_component_and_linear_onset"],
+        "TBQ-030": ["TBQ-030_zero_chern_same_model_bulk_boundary_device"]
+      }
+    },
+    {
+      "id": "domain_disorder_reproducibility",
+      "track": "domain",
+      "question_ids": ["TBQ-031"],
+      "question": "Does a declared seed exactly replay Hermitian and non-Hermitian disorder ensembles with the requested moments and correlations?",
+      "parameters": {"seed": "0x5eedcafe", "samples": 4096, "nonhermitian_dimension": 24},
+      "oracle": "byte-identical replay, distinct independent seed, three-standard-error distribution gates, and finite complex spectrum",
+      "backends": ["thouless"],
+      "question_gates": {"TBQ-031": ["TBQ-031_seeded_disorder_ensemble_reproducibility"]}
+    },
+    {
+      "id": "domain_transport_consistency",
+      "track": "domain",
+      "question_ids": ["TBQ-037", "TBQ-038", "TBQ-039", "TBQ-040"],
+      "question": "Does one open-system stack conserve current, reproduce analytic transmission and noise, remain stable for evanescent devices, and transfer across contacts?",
+      "parameters": {"evanescent_lengths": [8, 12, 16, 100000], "contact_couplings": [0.35, 0.55, 0.75]},
+      "oracle": "unitarity and continuity, resonant-level and partition-noise limits, stable exponential decay, and reciprocal contact families",
+      "backends": ["thouless"],
+      "question_gates": {
+        "TBQ-037": ["TBQ-037_scattering_and_local_continuity"],
+        "TBQ-038": ["TBQ-038_transmission_ldos_and_partition_noise"],
+        "TBQ-039": ["TBQ-039_long_evanescent_sparse_stability"],
+        "TBQ-040": ["TBQ-040_contact_family_reciprocity"]
+      }
+    },
+    {
+      "id": "domain_bdg_discretization",
+      "track": "domain",
+      "question_ids": ["TBQ-045"],
+      "question": "Does a continuum kinetic operator converge under Thouless finite-difference discretization while retaining the declared BdG particle-hole symmetry?",
+      "parameters": {"grid_sizes": [20, 40, 80], "pairing": 0.2, "length": 1.0},
+      "oracle": "second-order continuum eigenvalue convergence and machine-precision particle-hole covariance",
+      "backends": ["thouless"],
+      "question_gates": {"TBQ-045": ["TBQ-045_continuum_to_lattice_bdg_convergence"]}
+    },
+    {
+      "id": "domain_nonhermitian_static",
+      "track": "domain",
+      "question_ids": ["TBQ-046", "TBQ-047", "TBQ-049", "TBQ-050"],
+      "question": "Do dense non-Hermitian solvers resolve biorthogonality, exceptional branching, non-Bloch skin localization, and distinct gain-loss families?",
+      "parameters": {"skin_chain_size": 48, "hopping_pair": [1.4, 0.6], "exceptional_perturbations": [1e-8, 1e-7, 1e-6, 1e-5, 1e-4]},
+      "oracle": "small left/right residuals, square-root exceptional exponent, analytic open spectrum with localization reversal, and correct PT regimes",
+      "backends": ["thouless"],
+      "question_gates": {
+        "TBQ-046": ["TBQ-046_biorthogonal_eigenvector_residuals"],
+        "TBQ-047": ["TBQ-047_exceptional_point_square_root_branching"],
+        "TBQ-049": ["TBQ-049_non_bloch_open_spectrum_and_skin_reversal"],
+        "TBQ-050": ["TBQ-050_nonhermitian_family_regime_classification"]
+      }
+    },
+    {
+      "id": "domain_moire_geometry",
+      "track": "domain",
+      "question_ids": ["TBQ-061", "TBQ-062"],
+      "question": "Does a large periodic geometry close exactly and do geometry-dependent couplings remain smooth and rotation covariant?",
+      "parameters": {"shape": [223, 224], "rotation": 0.173, "strain": 0.012, "coupling_decay": 2.2},
+      "oracle": "exact graph counts and closure, invariant rotated distance, monotone coupling decay, and correct strain derivative",
+      "backends": ["thouless"],
+      "question_gates": {
+        "TBQ-061": ["TBQ-061_commensurate_reconstructed_geometry"],
+        "TBQ-062": ["TBQ-062_geometry_dependent_coupling_covariance"]
+      }
+    },
+    {
+      "id": "domain_spin_transport",
+      "track": "domain",
+      "question_ids": ["TBQ-067", "TBQ-068", "TBQ-069", "TBQ-070"],
+      "question": "Do spin-current and torque continuity, Hall-mechanism controls, texture refinement, and magnetic-family observables share one consistent convention?",
+      "parameters": {"texture_sizes": [7, 11, 15], "texture_radii": [2.0, 3.4, 4.8], "spin_orbit": 0.27},
+      "oracle": "commutator-level continuity, symmetry-resolved Hall response, monotone adiabatic approach, and valid common observables across four textures",
+      "backends": ["thouless"],
+      "question_gates": {
+        "TBQ-067": ["TBQ-067_spin_current_and_torque_continuity"],
+        "TBQ-068": ["TBQ-068_mechanism_resolved_hall_response"],
+        "TBQ-069": ["TBQ-069_texture_resolution_and_adiabatic_transport"],
+        "TBQ-070": ["TBQ-070_magnetic_texture_family_generalization"]
+      }
+    },
+    {
+      "id": "domain_response_thermoelectric",
+      "track": "domain",
+      "question_ids": ["TBQ-071", "TBQ-073", "TBQ-075"],
+      "question": "Are dense and sparse response operators identical, thermoelectric limits reciprocal, and KPM accurate from exact overlap to large sparse scale?",
+      "parameters": {"operator_dimension": 32, "temperature": 0.03, "kpm_moments": [32, 96], "large_dimension": 200000},
+      "oracle": "velocity-operator identity, zero thermopower and Wiedemann-Franz limit, exact KPM moment overlap, spectral sum rule, and sparse storage",
+      "backends": ["thouless"],
+      "question_gates": {
+        "TBQ-071": ["TBQ-071_hamiltonian_consistent_response_operators"],
+        "TBQ-073": ["TBQ-073_thermoelectric_onsager_and_low_temperature_limits"],
+        "TBQ-075": ["TBQ-075_exact_to_large_sparse_response_transfer"]
+      }
+    },
+    {
+      "id": "domain_arbitrary_graphs",
+      "track": "domain",
+      "question_ids": ["TBQ-076"],
+      "question": "Can a translation-free graph preserve connectivity and metric invariants under relabelling and rigid motion?",
+      "parameters": {"nodes": 100000, "coordinate_sample": 1024, "rotation": 0.271},
+      "oracle": "exact path-graph counts and degree histogram plus machine-precision rigid-motion distances",
+      "backends": ["thouless"],
+      "question_gates": {"TBQ-076": ["TBQ-076_translation_free_graph_construction"]}
+    },
+    {
+      "id": "domain_defect_workflows",
+      "track": "domain",
+      "question_ids": ["TBQ-081", "TBQ-082", "TBQ-083", "TBQ-084", "TBQ-085"],
+      "question": "Does one defect recipe preserve provenance, local chemistry, embedding convergence, spectral-transport consistency, and sparse family sum rules?",
+      "parameters": {"pristine_sites": 128, "supercell_sizes": [41, 81, 161], "family_sizes": [256, 512, 1024], "impurity_onsite": 1.2},
+      "oracle": "exact provenance, chemically shifted resonance, embedding-supercell agreement, finite local state with suppressed transmission, and unit local spectral weight",
+      "backends": ["thouless"],
+      "question_gates": {
+        "TBQ-081": ["TBQ-081_defect_provenance_bijection"],
+        "TBQ-082": ["TBQ-082_defect_specific_local_chemistry"],
+        "TBQ-083": ["TBQ-083_embedding_and_supercell_agreement"],
+        "TBQ-084": ["TBQ-084_same_defect_local_state_and_transport"],
+        "TBQ-085": ["TBQ-085_defect_family_sparse_sum_rules"]
+      }
+    },
+    {
+      "id": "domain_multiscale_validation",
+      "track": "domain",
+      "question_ids": ["TBQ-086", "TBQ-087", "TBQ-088", "TBQ-089", "TBQ-090"],
+      "question": "Can continuum and lattice descriptions be mapped, compared through gauge-invariant observables, decomposed by error source, and frozen before an external-family check?",
+      "parameters": {"public_momenta": [0.03, 0.06, 0.09, 0.12], "external_momenta": [0.045, 0.075, 0.105], "finite_sizes": [20, 40, 80]},
+      "oracle": "small shared-regime error, exact round trip, invariant spectra and projectors, bounding error budget, and unchanged external tolerance",
+      "backends": ["thouless"],
+      "question_gates": {
+        "TBQ-086": ["TBQ-086_two_scale_common_regime"],
+        "TBQ-087": ["TBQ-087_representation_mapping_round_trip"],
+        "TBQ-088": ["TBQ-088_gauge_invariant_observable_comparison"],
+        "TBQ-089": ["TBQ-089_discrepancy_decomposition"],
+        "TBQ-090": ["TBQ-090_external_family_validation"]
+      }
+    },
+    {
+      "id": "domain_sparse_numerics",
+      "track": "domain",
+      "question_ids": ["TBQ-093", "TBQ-094", "TBQ-095"],
+      "question": "Can sparse numerical errors be separated while fixed-accuracy KPM scales to one million states and exactly replays a dense-to-production recipe?",
+      "parameters": {"error_orders": [32, 64, 128], "scaling_sizes": [1000, 10000, 100000, 1000000], "production_seed": "0x95"},
+      "oracle": "covered error budget, fixed KPM sum-rule accuracy with linear storage and fitted timing interval, plus exact dense-sparse seeded overlap",
+      "backends": ["thouless"],
+      "question_gates": {
+        "TBQ-093": ["TBQ-093_separated_sparse_numerical_error_budget"],
+        "TBQ-094": ["TBQ-094_fixed_accuracy_time_and_memory_scaling"],
+        "TBQ-095": ["TBQ-095_exact_to_production_recipe_reproducibility"]
+      }
     }
   ]
 }

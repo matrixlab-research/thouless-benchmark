@@ -17,6 +17,8 @@ use thouless::transport::{
 use thouless::wannier::interpolate_periodic_matrices;
 use thouless::{Complex64, ComplexMatrix};
 
+mod expanded_domain;
+
 const BACKEND_VERSION: &str = "0d87773278183ddc7c254438dccbda1face04fb2";
 
 struct Check {
@@ -3205,6 +3207,23 @@ fn main() -> Result<(), Box<dyn Error>> {
         "domain_bdg_majorana" => Some(domain_bdg_majorana()?),
         "domain_lead_calibration" => Some(domain_lead_calibration()?),
         "domain_spin_texture_covariance" => Some(domain_spin_texture_covariance()?),
+        "domain_model_fidelity" => Some(expanded_domain::model_fidelity()?),
+        "domain_fermiology" => Some(expanded_domain::fermiology()?),
+        "domain_magnetic_convergence" => Some(expanded_domain::magnetic_convergence()?),
+        "domain_bulk_topology_controls" => Some(expanded_domain::bulk_topology_controls()?),
+        "domain_boundary_families" => Some(expanded_domain::boundary_families()?),
+        "domain_quantum_geometry_nonlinear" => Some(expanded_domain::quantum_geometry_nonlinear()?),
+        "domain_disorder_reproducibility" => Some(expanded_domain::disorder_reproducibility()?),
+        "domain_transport_consistency" => Some(expanded_domain::transport_consistency()?),
+        "domain_bdg_discretization" => Some(expanded_domain::bdg_discretization()?),
+        "domain_nonhermitian_static" => Some(expanded_domain::nonhermitian_static()?),
+        "domain_moire_geometry" => Some(expanded_domain::moire_geometry()?),
+        "domain_spin_transport" => Some(expanded_domain::spin_transport()?),
+        "domain_response_thermoelectric" => Some(expanded_domain::response_thermoelectric()?),
+        "domain_arbitrary_graphs" => Some(expanded_domain::arbitrary_graphs()?),
+        "domain_defect_workflows" => Some(expanded_domain::defect_workflows()?),
+        "domain_multiscale_validation" => Some(expanded_domain::multiscale_validation()?),
+        "domain_sparse_numerics" => Some(expanded_domain::sparse_numerics()?),
         _ => None,
     };
     let Some((metrics, checks)) = computed else {

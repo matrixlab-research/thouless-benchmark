@@ -2,7 +2,7 @@
 id: TBQ-027
 suite: 06-quantum-geometry-response
 source_requirement: TB-REQ-027
-status: proposed
+status: executable
 acceptance_class: reference
 lkm_snapshot: 2026-07-27
 ---
@@ -78,5 +78,4 @@ breaking family.
 
 ## Implementation status
 
-`proposed`: this document specifies a scientific problem but does not claim that any
-backend currently passes it. [`bulk_tilted_dirac_berry_dipole`](../../../benchmark/cases.json) is related, but does not by itself establish full coverage of this specification.
+`executable`: the package-backed evaluator, independent gates, recorded result, and CI are present for thouless: domain_quantum_geometry_nonlinear. See the machine-readable [backend audit](../../../benchmark/problem_coverage.json). This public result is not held-out validation.

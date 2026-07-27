@@ -74,8 +74,4 @@ Suite-wide isolation rule: Hold out termination, corner angle, aspect ratio, and
 
 ## Implementation status
 
-`executable`:
-[`boundary_ssh_edge_localization`](../../../benchmark/cases.json) passes with native
-Thouless, original PythTB, and original Kwant. The backend-level witnesses and
-remaining gaps are recorded in
-[`benchmark/problem_coverage.json`](../../../benchmark/problem_coverage.json).
+`executable`: the package-backed evaluator, independent gates, recorded result, and CI are present for kwant: boundary_ssh_edge_localization; pythtb: boundary_ssh_edge_localization; thouless: boundary_ssh_edge_localization. See the machine-readable [backend audit](../../../benchmark/problem_coverage.json). This public result is not held-out validation.

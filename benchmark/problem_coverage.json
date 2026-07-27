@@ -184,13 +184,15 @@
             "periodic_model": "thouless::model::TightBindingModel::{hamiltonian,eigensystem,momentum_derivatives}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "periodic_model",
             "generalized_eigensystem"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_model_fidelity"
+          ]
         }
       },
       "document": "problems/01-model-construction/tbq-001-basis-and-generalized-hermiticity-fidelity.md",
@@ -262,15 +264,17 @@
             "topological_inputs": "thouless::topology::{chern_numbers_on_uniform_grid,wilson_loop_eigenphases,local_chern_marker_from_hamiltonian}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "periodic_model",
             "generalized_eigensystem",
             "dense_spectrum",
             "topological_inputs"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_model_fidelity"
+          ]
         }
       },
       "document": "problems/01-model-construction/tbq-002-energy-window-and-subspace-fidelity.md",
@@ -342,15 +346,17 @@
             "periodic_model": "thouless::model::TightBindingModel::{hamiltonian,eigensystem,momentum_derivatives}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "periodic_model",
             "generalized_eigensystem",
             "dense_spectrum",
             "frequency_response"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_model_fidelity"
+          ]
         }
       },
       "document": "problems/01-model-construction/tbq-003-controlled-hopping-truncation.md",
@@ -422,15 +428,17 @@
             "periodic_model": "thouless::model::TightBindingModel::{hamiltonian,eigensystem,momentum_derivatives}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "periodic_model",
             "generalized_eigensystem",
             "dense_spectrum",
             "parameterized_models"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_model_fidelity"
+          ]
         }
       },
       "document": "problems/01-model-construction/tbq-004-symmetry-preservation-and-negative-controls.md",
@@ -502,15 +510,17 @@
             "periodic_model": "thouless::model::TightBindingModel::{hamiltonian,eigensystem,momentum_derivatives}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "periodic_model",
             "generalized_eigensystem",
             "dense_spectrum",
             "parameterized_models"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_model_fidelity"
+          ]
         }
       },
       "document": "problems/01-model-construction/tbq-005-transfer-beyond-fitted-structures.md",
@@ -720,13 +730,15 @@
             "periodic_model": "thouless::model::TightBindingModel::{hamiltonian,eigensystem,momentum_derivatives}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "periodic_model",
             "dense_spectrum"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_fermiology"
+          ]
         }
       },
       "document": "problems/02-bands-dos-fermiology/tbq-008-van-hove-and-flat-band-feature-resolution.md",
@@ -782,13 +794,15 @@
             "periodic_model": "thouless::model::TightBindingModel::{hamiltonian,eigensystem,momentum_derivatives}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "periodic_model",
             "dense_spectrum"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_fermiology"
+          ]
         }
       },
       "document": "problems/02-bands-dos-fermiology/tbq-009-fermi-surface-topology-and-lifshitz-transitions.md",
@@ -1160,14 +1174,16 @@
             "periodic_model": "thouless::model::TightBindingModel::{hamiltonian,eigensystem,momentum_derivatives}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "periodic_model",
             "magnetic_models",
             "dense_spectrum"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_magnetic_convergence"
+          ]
         }
       },
       "document": "problems/03-magnetic-flux-hofstadter/tbq-014-low-field-landau-level-correspondence.md",
@@ -1239,15 +1255,17 @@
             "topological_inputs": "thouless::topology::{chern_numbers_on_uniform_grid,wilson_loop_eigenphases,local_chern_marker_from_hamiltonian}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "periodic_model",
             "finite_model",
             "magnetic_models",
             "topological_inputs"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_magnetic_convergence"
+          ]
         }
       },
       "document": "problems/03-magnetic-flux-hofstadter/tbq-015-rational-approximant-convergence.md",
@@ -1311,14 +1329,16 @@
             "topological_inputs": "thouless::topology::{chern_numbers_on_uniform_grid,wilson_loop_eigenphases,local_chern_marker_from_hamiltonian}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "periodic_model",
             "dense_spectrum",
             "topological_inputs"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_bulk_topology_controls"
+          ]
         }
       },
       "document": "problems/04-bulk-topology/tbq-016-gauge-invariant-bulk-indices.md",
@@ -1390,15 +1410,17 @@
             "topological_inputs": "thouless::topology::{chern_numbers_on_uniform_grid,wilson_loop_eigenphases,local_chern_marker_from_hamiltonian}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "periodic_model",
             "dense_spectrum",
             "topological_inputs",
             "parameterized_models"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_bulk_topology_controls"
+          ]
         }
       },
       "document": "problems/04-bulk-topology/tbq-017-topological-phase-boundary-localization.md",
@@ -1462,14 +1484,16 @@
             "topological_inputs": "thouless::topology::{chern_numbers_on_uniform_grid,wilson_loop_eigenphases,local_chern_marker_from_hamiltonian}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "periodic_model",
             "dense_spectrum",
             "topological_inputs"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_bulk_topology_controls"
+          ]
         }
       },
       "document": "problems/04-bulk-topology/tbq-018-degeneracy-safe-wilson-and-nested-wilson-flow.md",
@@ -1630,15 +1654,17 @@
             "topological_inputs": "thouless::topology::{chern_numbers_on_uniform_grid,wilson_loop_eigenphases,local_chern_marker_from_hamiltonian}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "periodic_model",
             "dense_spectrum",
             "topological_inputs",
             "parameterized_models"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_bulk_topology_controls"
+          ]
         }
       },
       "document": "problems/04-bulk-topology/tbq-020-trivial-nearly-gapless-and-basis-adversarial-controls.md",
@@ -1694,13 +1720,15 @@
             "periodic_model": "thouless::model::TightBindingModel::{hamiltonian,eigensystem,momentum_derivatives}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "periodic_model",
             "finite_model"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_boundary_families"
+          ]
         }
       },
       "document": "problems/05-boundaries-bulk-boundary/tbq-021-termination-families-from-one-bulk-model.md",
@@ -1832,14 +1860,16 @@
             "surface_green_function": "thouless::transport::surface_green_function"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "finite_model",
             "dense_spectrum",
             "surface_green_function"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_boundary_families"
+          ]
         }
       },
       "document": "problems/05-boundaries-bulk-boundary/tbq-023-finite-spectrum-and-surface-green-function-agreement.md",
@@ -1911,15 +1941,17 @@
             "topological_inputs": "thouless::topology::{chern_numbers_on_uniform_grid,wilson_loop_eigenphases,local_chern_marker_from_hamiltonian}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "periodic_model",
             "finite_model",
             "dense_spectrum",
             "topological_inputs"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_boundary_families"
+          ]
         }
       },
       "document": "problems/05-boundaries-bulk-boundary/tbq-024-conditional-bulk-boundary-correspondence.md",
@@ -1983,14 +2015,16 @@
             "periodic_model": "thouless::model::TightBindingModel::{hamiltonian,eigensystem,momentum_derivatives}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "periodic_model",
             "finite_model",
             "dense_spectrum"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_boundary_families"
+          ]
         }
       },
       "document": "problems/05-boundaries-bulk-boundary/tbq-025-geometry-family-generalization.md",
@@ -2062,15 +2096,17 @@
             "quantum_geometry": "thouless::topology::quantum_geometric_tensor_from_hamiltonian_derivatives"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "periodic_model",
             "dense_spectrum",
             "quantum_geometry",
             "analytic_hamiltonian_derivatives"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_quantum_geometry_nonlinear"
+          ]
         }
       },
       "document": "problems/06-quantum-geometry-response/tbq-026-gauge-covariance-of-geometric-tensors.md",
@@ -2134,14 +2170,16 @@
             "quantum_geometry": "thouless::topology::quantum_geometric_tensor_from_hamiltonian_derivatives"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "periodic_model",
             "quantum_geometry",
             "frequency_response"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_quantum_geometry_nonlinear"
+          ]
         }
       },
       "document": "problems/06-quantum-geometry-response/tbq-027-competing-nonlinear-hall-mechanisms.md",
@@ -2205,14 +2243,16 @@
             "quantum_geometry": "thouless::topology::quantum_geometric_tensor_from_hamiltonian_derivatives"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "periodic_model",
             "quantum_geometry",
             "frequency_response"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_quantum_geometry_nonlinear"
+          ]
         }
       },
       "document": "problems/06-quantum-geometry-response/tbq-028-symmetry-forbidden-nonlinear-tensor-components.md",
@@ -2373,15 +2413,17 @@
             "steady_state_transport": "thouless::transport::{solve_open_system,ScatteringMatrix}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "periodic_model",
             "finite_model",
             "quantum_geometry",
             "steady_state_transport"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_quantum_geometry_nonlinear"
+          ]
         }
       },
       "document": "problems/06-quantum-geometry-response/tbq-030-zero-chern-nonlinear-bulk-boundary-workflow.md",
@@ -2445,14 +2487,16 @@
             "parameterized_models": "thouless::model::{ModelBuilder,TightBindingModel}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "finite_model",
             "parameterized_models",
             "nonhermitian_spectrum"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_disorder_reproducibility"
+          ]
         }
       },
       "document": "problems/07-disorder-localization/tbq-031-reproducible-disorder-ensembles.md",
@@ -2905,14 +2949,16 @@
             "transport_noise": "thouless::transport::partition_shot_noise"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "steady_state_transport",
             "local_continuity",
             "transport_noise"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_transport_consistency"
+          ]
         }
       },
       "document": "problems/08-open-transport/tbq-037-scattering-conservation-and-local-continuity.md",
@@ -2972,14 +3018,16 @@
             "transport_noise": "thouless::transport::partition_shot_noise"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "steady_state_transport",
             "local_continuity",
             "transport_noise"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_transport_consistency"
+          ]
         }
       },
       "document": "problems/08-open-transport/tbq-038-transmission-local-density-and-finite-temperature-noise.md",
@@ -3032,13 +3080,15 @@
             "steady_state_transport": "thouless::transport::{solve_open_system,ScatteringMatrix}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "steady_state_transport",
             "long_device_solver"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_transport_consistency"
+          ]
         }
       },
       "document": "problems/08-open-transport/tbq-039-numerical-stability-for-long-evanescent-devices.md",
@@ -3101,14 +3151,16 @@
             "surface_green_function": "thouless::transport::surface_green_function"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "steady_state_transport",
             "surface_green_function",
             "parameterized_models"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_transport_consistency"
+          ]
         }
       },
       "document": "problems/08-open-transport/tbq-040-generalization-across-contact-families.md",
@@ -3508,7 +3560,7 @@
             "static_bdg": "thouless::model plus thouless::symmetry::particle_hole_symmetric_basis"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "finite_model",
             "dense_spectrum",
@@ -3516,8 +3568,10 @@
             "parameterized_models",
             "continuum_discretization"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_bdg_discretization"
+          ]
         }
       },
       "document": "problems/09-superconducting-bdg/tbq-045-continuum-to-lattice-bdg-convergence.md",
@@ -3561,12 +3615,14 @@
             "nonhermitian_spectrum": "thouless::decomposition::{schur,eigenvectors_from_schur}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "nonhermitian_spectrum"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_nonhermitian_static"
+          ]
         }
       },
       "document": "problems/10-non-hermitian/tbq-046-biorthogonal-eigenvectors-and-residuals.md",
@@ -3622,13 +3678,15 @@
             "parameterized_models": "thouless::model::{ModelBuilder,TightBindingModel}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "nonhermitian_spectrum",
             "parameterized_models"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_nonhermitian_static"
+          ]
         }
       },
       "document": "problems/10-non-hermitian/tbq-047-exceptional-point-order-and-sensitivity.md",
@@ -3761,14 +3819,16 @@
             "periodic_model": "thouless::model::TightBindingModel::{hamiltonian,eigensystem,momentum_derivatives}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "nonhermitian_spectrum",
             "finite_model",
             "periodic_model"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_nonhermitian_static"
+          ]
         }
       },
       "document": "problems/10-non-hermitian/tbq-049-periodic-open-mismatch-and-skin-localization.md",
@@ -3832,14 +3892,16 @@
             "parameterized_models": "thouless::model::{ModelBuilder,TightBindingModel}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "nonhermitian_spectrum",
             "finite_model",
             "parameterized_models"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_nonhermitian_static"
+          ]
         }
       },
       "document": "problems/10-non-hermitian/tbq-050-non-hermitian-family-generalization.md",
@@ -4495,12 +4557,14 @@
             "large_sparse_geometry": "thouless::block_system::assemble_block_csr and thouless::graph::CompressedGraph"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "large_sparse_geometry"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_moire_geometry"
+          ]
         }
       },
       "document": "problems/13-moire-strain-supercells/tbq-061-commensurate-and-reconstructed-geometry.md",
@@ -4556,13 +4620,15 @@
             "parameterized_models": "thouless::model::{ModelBuilder,TightBindingModel}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "large_sparse_geometry",
             "parameterized_models"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_moire_geometry"
+          ]
         }
       },
       "document": "problems/13-moire-strain-supercells/tbq-062-geometry-dependent-coupling-laws.md",
@@ -4950,14 +5016,16 @@
             "spin_observables": "thouless::observables::{bond_currents,local_sources,pauli_coefficients}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "finite_model",
             "spin_observables",
             "local_continuity"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_spin_transport"
+          ]
         }
       },
       "document": "problems/14-magnetism-spin-orbital/tbq-067-charge-spin-orbital-current-and-torque-continuity.md",
@@ -5021,14 +5089,16 @@
             "spin_observables": "thouless::observables::{bond_currents,local_sources,pauli_coefficients}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "periodic_model",
             "spin_observables",
             "frequency_response"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_spin_transport"
+          ]
         }
       },
       "document": "problems/14-magnetism-spin-orbital/tbq-068-mechanism-resolved-hall-response.md",
@@ -5092,14 +5162,16 @@
             "steady_state_transport": "thouless::transport::{solve_open_system,ScatteringMatrix}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "finite_model",
             "spin_observables",
             "steady_state_transport"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_spin_transport"
+          ]
         }
       },
       "document": "problems/14-magnetism-spin-orbital/tbq-069-texture-resolution-and-adiabatic-convergence.md",
@@ -5171,15 +5243,17 @@
             "steady_state_transport": "thouless::transport::{solve_open_system,ScatteringMatrix}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "finite_model",
             "spin_observables",
             "steady_state_transport",
             "parameterized_models"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_spin_transport"
+          ]
         }
       },
       "document": "problems/14-magnetism-spin-orbital/tbq-070-magnetic-family-generalization.md",
@@ -5242,14 +5316,16 @@
             "sparse_operators": "thouless::linear_operator::{CsrMatrix,LinearOperator}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "generalized_eigensystem",
             "sparse_operators",
             "response_operators"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_response_thermoelectric"
+          ]
         }
       },
       "document": "problems/15-optical-thermoelectric/tbq-071-hamiltonian-consistent-response-operators.md",
@@ -5375,14 +5451,16 @@
             "thermoelectric_response": "thouless::transport::ScatteringMatrix plus thouless::response::FermiDistribution"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "thermoelectric_response",
             "sparse_operators",
             "parameterized_models"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_response_thermoelectric"
+          ]
         }
       },
       "document": "problems/15-optical-thermoelectric/tbq-073-thermoelectric-and-onsager-relations.md",
@@ -5515,14 +5593,16 @@
             "sparse_operators": "thouless::linear_operator::{CsrMatrix,LinearOperator}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "frequency_response",
             "kernel_polynomial",
             "sparse_operators"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_response_thermoelectric"
+          ]
         }
       },
       "document": "problems/15-optical-thermoelectric/tbq-075-method-transfer-from-exact-to-large-sparse-systems.md",
@@ -5586,14 +5666,16 @@
             "large_sparse_geometry": "thouless::block_system::assemble_block_csr and thouless::graph::CompressedGraph"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "arbitrary_graphs",
             "finite_model",
             "large_sparse_geometry"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_arbitrary_graphs"
+          ]
         }
       },
       "document": "problems/16-aperiodic-amorphous-fractal/tbq-076-translation-free-geometric-construction.md",
@@ -6046,13 +6128,15 @@
             "finite_model": "thouless::transform::{make_finite_geometry,make_finite_cluster,make_supercell}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "arbitrary_graphs",
             "finite_model"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_defect_workflows"
+          ]
         }
       },
       "document": "problems/17-defects-interfaces/tbq-081-provenance-preserving-structural-defects.md",
@@ -6124,15 +6208,17 @@
             "finite_model": "thouless::transform::{make_finite_geometry,make_finite_cluster,make_supercell}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "arbitrary_graphs",
             "finite_model",
             "dense_spectrum",
             "embedding_green_function"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_defect_workflows"
+          ]
         }
       },
       "document": "problems/17-defects-interfaces/tbq-082-defect-specific-local-chemistry.md",
@@ -6196,14 +6282,16 @@
             "finite_model": "thouless::transform::{make_finite_geometry,make_finite_cluster,make_supercell}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "finite_model",
             "dense_spectrum",
             "embedding_green_function"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_defect_workflows"
+          ]
         }
       },
       "document": "problems/17-defects-interfaces/tbq-083-embedding-and-supercell-agreement.md",
@@ -6267,14 +6355,16 @@
             "steady_state_transport": "thouless::transport::{solve_open_system,ScatteringMatrix}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "finite_model",
             "dense_spectrum",
             "steady_state_transport"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_defect_workflows"
+          ]
         }
       },
       "document": "problems/17-defects-interfaces/tbq-084-local-state-and-transport-consequences.md",
@@ -6353,7 +6443,7 @@
             "sparse_operators": "thouless::linear_operator::{CsrMatrix,LinearOperator}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "arbitrary_graphs",
             "finite_model",
@@ -6361,8 +6451,10 @@
             "kernel_polynomial",
             "parameterized_models"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_defect_workflows"
+          ]
         }
       },
       "document": "problems/17-defects-interfaces/tbq-085-defect-family-generalization.md",
@@ -6449,7 +6541,7 @@
             "sparse_operators": "thouless::linear_operator::{CsrMatrix,LinearOperator}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "periodic_model",
             "finite_model",
@@ -6458,8 +6550,10 @@
             "continuum_discretization",
             "parameterized_models"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_multiscale_validation"
+          ]
         }
       },
       "document": "problems/18-multiscale-validation/tbq-086-one-physical-question-across-scales.md",
@@ -6539,7 +6633,7 @@
             "topological_inputs": "thouless::topology::{chern_numbers_on_uniform_grid,wilson_loop_eigenphases,local_chern_marker_from_hamiltonian}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "periodic_model",
             "finite_model",
@@ -6547,8 +6641,10 @@
             "dense_spectrum",
             "topological_inputs"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_multiscale_validation"
+          ]
         }
       },
       "document": "problems/18-multiscale-validation/tbq-087-explicit-representation-mapping.md",
@@ -6635,7 +6731,7 @@
             "topological_inputs": "thouless::topology::{chern_numbers_on_uniform_grid,wilson_loop_eigenphases,local_chern_marker_from_hamiltonian}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "periodic_model",
             "finite_model",
@@ -6644,8 +6740,10 @@
             "steady_state_transport",
             "frequency_response"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_multiscale_validation"
+          ]
         }
       },
       "document": "problems/18-multiscale-validation/tbq-088-gauge-invariant-observable-comparison.md",
@@ -6725,7 +6823,7 @@
             "sparse_operators": "thouless::linear_operator::{CsrMatrix,LinearOperator}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "periodic_model",
             "finite_model",
@@ -6733,8 +6831,10 @@
             "sparse_operators",
             "parameterized_models"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_multiscale_validation"
+          ]
         }
       },
       "document": "problems/18-multiscale-validation/tbq-089-discrepancy-decomposition.md",
@@ -6814,7 +6914,7 @@
             "sparse_operators": "thouless::linear_operator::{CsrMatrix,LinearOperator}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "periodic_model",
             "finite_model",
@@ -6822,8 +6922,10 @@
             "sparse_operators",
             "parameterized_models"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_multiscale_validation"
+          ]
         }
       },
       "document": "problems/18-multiscale-validation/tbq-090-external-family-validation.md",
@@ -7055,14 +7157,16 @@
             "sparse_operators": "thouless::linear_operator::{CsrMatrix,LinearOperator}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "sparse_operators",
             "kernel_polynomial",
             "iterative_linear_solver"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_sparse_numerics"
+          ]
         }
       },
       "document": "problems/19-scientific-scale-numerics/tbq-093-separated-numerical-error-budget.md",
@@ -7115,13 +7219,15 @@
             "sparse_operators": "thouless::linear_operator::{CsrMatrix,LinearOperator}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "sparse_operators",
             "kernel_polynomial"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_sparse_numerics"
+          ]
         }
       },
       "document": "problems/19-scientific-scale-numerics/tbq-094-accuracy-preserving-time-and-memory-scaling.md",
@@ -7191,15 +7297,17 @@
             "sparse_operators": "thouless::linear_operator::{CsrMatrix,LinearOperator}"
           },
           "missing_capabilities": [],
-          "reason": "The pinned package has source-level evidence for every specialized primitive required by this problem. Only model orchestration, acceptance gates, result recording, and CI remain; no complete evaluator has yet verified the claim.",
+          "reason": "Every required claim is exercised by package-backed code, an independent analytic or invariant-based gate, a recorded result, and CI.",
           "required_capabilities": [
             "large_sparse_geometry",
             "sparse_operators",
             "kernel_polynomial",
             "parameterized_models"
           ],
-          "status": "implementable_unverified",
-          "witness_cases": []
+          "status": "implemented",
+          "witness_cases": [
+            "domain_sparse_numerics"
+          ]
         }
       },
       "document": "problems/19-scientific-scale-numerics/tbq-095-reproducible-transition-from-exact-to-production-scale.md",
@@ -7560,12 +7668,12 @@
       "verified_coverage_percent": 12
     },
     "thouless": {
-      "implementable_unverified": 54,
-      "implemented": 13,
+      "implementable_unverified": 0,
+      "implemented": 67,
       "missing_capability": 18,
       "not_applicable": 15,
       "total_questions": 100,
-      "verified_coverage_percent": 13
+      "verified_coverage_percent": 67
     }
   }
 }

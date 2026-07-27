@@ -75,8 +75,4 @@ Suite-wide isolation rule: Hold out a symmetry class, a nearly closed gap, and a
 
 ## Implementation status
 
-`executable`: the matched Haldane
-[`bulk_haldane_chern_transition`](../../../benchmark/cases.json) and
-[`boundary_haldane_ribbon_flow`](../../../benchmark/cases.json) witnesses pass with
-native Thouless, original PythTB, and original Kwant. The backend-level evidence is
-recorded in [`benchmark/problem_coverage.json`](../../../benchmark/problem_coverage.json).
+`executable`: the package-backed evaluator, independent gates, recorded result, and CI are present for kwant: bulk_haldane_chern_transition, boundary_haldane_ribbon_flow; pythtb: bulk_haldane_chern_transition, boundary_haldane_ribbon_flow; thouless: bulk_haldane_chern_transition, boundary_haldane_ribbon_flow. See the machine-readable [backend audit](../../../benchmark/problem_coverage.json). This public result is not held-out validation.

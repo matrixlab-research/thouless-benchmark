@@ -1,6 +1,6 @@
 # Thouless benchmark
 
-Twenty-five LKM-motivated, executable tight-binding workflows comparing native
+Forty-two LKM-motivated, executable tight-binding workflows comparing native
 [Thouless](https://github.com/matrixlab-research/thouless) Rust with the
 original PythTB 2.0 and Kwant 1.5 packages.
 
@@ -17,7 +17,7 @@ not claims to reproduce those papers.
 | Bulk bands and topology | 12 | Thouless, PythTB, and Kwant where applicable |
 | Finite boundaries | 4 | Thouless, PythTB, and Kwant |
 | Open-system transport | 4 | Thouless and Kwant; PythTB is not a transport solver |
-| Whole-problem domain witnesses | 5 | Backend applicability is explicit |
+| Whole-problem domain witnesses | 22 | Backend applicability is explicit |
 
 The original manifest is [`benchmark/cases.json`](benchmark/cases.json).
 Whole-problem witnesses are frozen in
@@ -36,8 +36,8 @@ with:
 - acceptance, convergence, and held-out-family rules; and
 - LKM and paper provenance.
 
-These documents define benchmark problems before API design. Thirteen are now
-marked `executable`; eighty-seven remain `proposed`. The canonical
+These documents define benchmark problems before API design. Sixty-seven are
+now marked `executable`; thirty-three remain `proposed`. The canonical
 [100-question by three-backend audit](benchmark/problem_coverage.json)
 distinguishes complete implementation, implementability without verification,
 missing reusable capability, and scientific non-applicability. A related model
@@ -85,24 +85,26 @@ Strict whole-problem coverage of the 100-question catalog is:
 
 | Backend | Implemented | Implementable, unverified | Missing capability | Not applicable | Verified coverage |
 |---|---:|---:|---:|---:|---:|
-| Thouless native Rust | 13 | 54 | 18 | 15 | 13% |
+| Thouless native Rust | 67 | 0 | 18 | 15 | 67% |
 | Original PythTB 2.0.0 | 12 | 16 | 42 | 30 | 12% |
 | Original Kwant 1.5.0 | 13 | 46 | 21 | 20 | 13% |
 
-The five domain witnesses cover degeneracy-safe projectors and DOS state
-counting, Bloch-to-finite spectral convergence, Peierls gauge covariance and
-Hofstadter topology, BdG/Andreev/Majorana physics, analytic lead calibration,
-and spin-texture covariance. `Implementable, unverified` is an engineering
-queue, not coverage; `missing capability` requires a reusable package feature
-before an end-to-end benchmark can be honest. The documented parameter range is
-part of the classification: a dense toy-size route does not establish a sparse
-or production-scale capability.
+The twenty-two domain witnesses include the original spectral, magnetic, BdG,
+lead, and spin-texture cases plus seventeen native Thouless suite workflows.
+Those workflows contribute exactly fifty-four question-specific gates covering
+model fidelity, Fermiology, topology, boundaries, nonlinear response, disorder,
+transport, continuum discretization, non-Hermitian spectra, large geometry,
+spin response, KPM, arbitrary graphs, defects, multiscale validation, and
+sparse production paths up to one million states. `Implementable, unverified`
+is an engineering queue, not coverage; `missing capability` requires a reusable
+package feature before an end-to-end benchmark can be honest.
 
 ## Same-machine timing
 
-The verified domain result contains seven repetitions per backend-case on one
-arm64 macOS machine. Kernel time excludes import and process startup; process
-wall time includes both. The table reports median kernel milliseconds:
+The original cross-backend timing snapshot contains seven repetitions per
+backend-case on one arm64 macOS machine. Kernel time excludes import and process
+startup; process wall time includes both. The table reports median kernel
+milliseconds:
 
 | Workflow | PythTB | Kwant | Thouless |
 |---|---:|---:|---:|
@@ -118,6 +120,11 @@ including their model-assembly choices; they are not isolated eigensolver
 microbenchmarks. The local Kwant environment used SciPy's solver because MUMPS
 was unavailable. See the
 [raw repeated result](results/verified/2026-07-27-domain.json).
+
+The expanded
+[31-record correctness snapshot](results/verified/2026-07-27-domain-expanded.json)
+uses three repetitions and includes all twenty-two Thouless domain workflows.
+It is the result set used for the current 67-question Thouless coverage claim.
 
 PythTB 2.0 requires NumPy 2, while Kwant 1.5 currently builds against NumPy
 1.26. They therefore run in separate environments. Combining both into one

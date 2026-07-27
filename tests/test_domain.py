@@ -6,18 +6,31 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def test_domain_cases_and_implementations_are_consistent() -> None:
-    cases = json.loads((ROOT / "benchmark" / "domain_cases.json").read_text())["cases"]
+    payload = json.loads((ROOT / "benchmark" / "domain_cases.json").read_text())
+    assert payload["schema_version"] == 2
+    cases = payload["cases"]
     implementations = json.loads(
         (ROOT / "benchmark" / "domain_implementation.json").read_text()
     )["implemented"]
     by_id = {case["id"]: case for case in cases}
-    assert len(cases) == len(by_id) == 5
+    assert len(cases) == len(by_id) == 22
+    assert sum(len(case["question_ids"]) for case in cases) == 65
+    assert len(
+        {
+            question_id
+            for case in cases
+            for question_id in case["question_ids"]
+        }
+    ) == 65
     assert set(implementations) == {"thouless", "pythtb", "kwant"}
     for backend, case_ids in implementations.items():
         assert len(case_ids) == len(set(case_ids))
         for case_id in case_ids:
             assert case_id in by_id
             assert backend in by_id[case_id]["backends"]
+            assert set(by_id[case_id]["question_gates"]) == set(
+                by_id[case_id]["question_ids"]
+            )
 
 
 def test_problem_audit_is_complete_and_witnessed() -> None:
@@ -28,7 +41,12 @@ def test_problem_audit_is_complete_and_witnessed() -> None:
         (ROOT / "results" / "verified" / "2026-07-26-implemented.json").read_text()
     )["results"]
     domain_records = json.loads(
-        (ROOT / "results" / "verified" / "2026-07-27-domain.json").read_text()
+        (
+            ROOT
+            / "results"
+            / "verified"
+            / "2026-07-27-domain-expanded.json"
+        ).read_text()
     )["records"]
     verified = {
         (record["case_id"], record["backend"])
@@ -111,8 +129,8 @@ def test_strict_whole_problem_coverage_counts() -> None:
     )["summary"]
     expected = {
         "thouless": {
-            "implemented": 13,
-            "implementable_unverified": 54,
+            "implemented": 67,
+            "implementable_unverified": 0,
             "missing_capability": 18,
             "not_applicable": 15,
         },
@@ -151,11 +169,11 @@ def test_four_way_boundary_judgments_are_frozen() -> None:
 
     # Generalized overlap is present in the pinned Thouless algebra layer, but
     # absent from the Hermitian PythTB and Kwant model contracts.
-    assert by_id["TBQ-001"]["thouless"]["status"] == "implementable_unverified"
+    assert by_id["TBQ-001"]["thouless"]["status"] == "implemented"
     assert by_id["TBQ-001"]["pythtb"]["status"] == "missing_capability"
     assert by_id["TBQ-001"]["kwant"]["status"] == "missing_capability"
     for qid in ("TBQ-002", "TBQ-003", "TBQ-004", "TBQ-005"):
-        assert by_id[qid]["thouless"]["status"] == "implementable_unverified"
+        assert by_id[qid]["thouless"]["status"] == "implemented"
         assert by_id[qid]["pythtb"]["status"] == "missing_capability"
         assert by_id[qid]["kwant"]["status"] == "missing_capability"
 
@@ -173,7 +191,7 @@ def test_four_way_boundary_judgments_are_frozen() -> None:
     # The disorder suite explicitly includes non-Hermitian systems. Dense
     # non-Hermitian eigensystems suffice for ensemble construction, but the
     # large localization workflows need a sparse non-Hermitian solver.
-    assert by_id["TBQ-031"]["thouless"]["status"] == "implementable_unverified"
+    assert by_id["TBQ-031"]["thouless"]["status"] == "implemented"
     assert by_id["TBQ-031"]["pythtb"]["status"] == "missing_capability"
     assert by_id["TBQ-031"]["kwant"]["status"] == "missing_capability"
     for qid in ("TBQ-032", "TBQ-033", "TBQ-034", "TBQ-035"):
@@ -193,13 +211,13 @@ def test_four_way_boundary_judgments_are_frozen() -> None:
 
     # Thouless has general left/right eigensystems; PythTB and Kwant retain
     # Hermitian model contracts.
-    assert by_id["TBQ-046"]["thouless"]["status"] == "implementable_unverified"
+    assert by_id["TBQ-046"]["thouless"]["status"] == "implemented"
     assert by_id["TBQ-046"]["pythtb"]["status"] == "not_applicable"
     assert by_id["TBQ-046"]["kwant"]["status"] == "not_applicable"
     assert by_id["TBQ-048"]["thouless"]["status"] == "missing_capability"
 
     # Continuum-to-lattice BdG refinement needs a reusable discretizer.
-    assert by_id["TBQ-045"]["thouless"]["status"] == "implementable_unverified"
+    assert by_id["TBQ-045"]["thouless"]["status"] == "implemented"
     assert by_id["TBQ-045"]["pythtb"]["status"] == "missing_capability"
     assert by_id["TBQ-045"]["kwant"]["status"] == "implementable_unverified"
 
@@ -224,7 +242,7 @@ def test_four_way_boundary_judgments_are_frozen() -> None:
 
     # The optical and multiscale documents explicitly include non-orthogonal
     # and large sparse holdouts.
-    assert by_id["TBQ-071"]["thouless"]["status"] == "implementable_unverified"
+    assert by_id["TBQ-071"]["thouless"]["status"] == "implemented"
     assert by_id["TBQ-071"]["pythtb"]["status"] == "missing_capability"
     assert by_id["TBQ-071"]["kwant"]["status"] == "missing_capability"
     assert by_id["TBQ-073"]["pythtb"]["status"] == "missing_capability"
