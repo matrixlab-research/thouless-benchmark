@@ -4,13 +4,16 @@ use std::time::Instant;
 
 use serde_json::{json, Value};
 use thouless::decomposition::schur;
+use thouless::lead_modes::propagating_modes;
 use thouless::model::{Lattice, ModelBuilder, TightBindingModel};
 use thouless::spectrum::hermitian_eigensystem;
 use thouless::topology::{
     chern_numbers_on_uniform_grid, plaquette_flux, reduced_polarization_on_loop, wilson_line_phase,
     wilson_loop_eigenphases, wilson_loop_unitary,
 };
-use thouless::transport::{solve_open_system, LeadContact, SurfaceGreenOptions};
+use thouless::transport::{
+    solve_open_system, surface_green_function, LeadContact, SurfaceGreenOptions,
+};
 use thouless::wannier::interpolate_periodic_matrices;
 use thouless::{Complex64, ComplexMatrix};
 
@@ -2262,6 +2265,905 @@ fn transport_quantum_hall_strip() -> Result<(Value, Vec<Check>), Box<dyn Error>>
     ))
 }
 
+fn multiply_matrices(
+    left: &ComplexMatrix,
+    right: &ComplexMatrix,
+) -> Result<ComplexMatrix, Box<dyn Error>> {
+    if left.columns() != right.rows() {
+        return Err("incompatible matrix dimensions".into());
+    }
+    let mut result = ComplexMatrix::zeros(left.rows(), right.columns());
+    for row in 0..left.rows() {
+        for column in 0..right.columns() {
+            let mut value = Complex64::new(0.0, 0.0);
+            for inner in 0..left.columns() {
+                value += left.get(row, inner)? * right.get(inner, column)?;
+            }
+            result.set(row, column, value)?;
+        }
+    }
+    Ok(result)
+}
+
+fn maximum_matrix_error(left: &ComplexMatrix, right: &ComplexMatrix) -> f64 {
+    left.as_slice()
+        .iter()
+        .zip(right.as_slice())
+        .map(|(left, right)| (*left - *right).norm())
+        .fold(0.0_f64, f64::max)
+}
+
+fn open_chain_matrix(size: usize) -> Result<ComplexMatrix, Box<dyn Error>> {
+    let mut matrix = ComplexMatrix::zeros(size, size);
+    for site in 0..size - 1 {
+        matrix.set(site, site + 1, scalar(-1.0))?;
+        matrix.set(site + 1, site, scalar(-1.0))?;
+    }
+    Ok(matrix)
+}
+
+fn gaussian(value: f64, center: f64, width: f64) -> f64 {
+    let normalized = (value - center) / width;
+    (-0.5 * normalized * normalized).exp() / ((2.0 * std::f64::consts::PI).sqrt() * width)
+}
+
+fn domain_spectral_reliability() -> Result<(Value, Vec<Check>), Box<dyn Error>> {
+    let onsite = ComplexMatrix::new(
+        4,
+        4,
+        vec![
+            scalar(-1.0),
+            scalar(0.0),
+            scalar(0.0),
+            scalar(0.0),
+            scalar(0.0),
+            scalar(-1.0),
+            scalar(0.0),
+            scalar(0.0),
+            scalar(0.0),
+            scalar(0.0),
+            scalar(1.0),
+            scalar(0.0),
+            scalar(0.0),
+            scalar(0.0),
+            scalar(0.0),
+            scalar(1.0),
+        ],
+    )?;
+    let model = fourier_model(1, onsite, vec![])?;
+    let matrix = model.hamiltonian(&[0.0])?;
+    let frame = occupied_frame(&matrix, 2)?;
+    let angle: f64 = 0.713;
+    let rotation = matrix2(
+        scalar(angle.cos()),
+        scalar(-angle.sin()),
+        scalar(angle.sin()),
+        scalar(angle.cos()),
+    )?;
+    let rotated = multiply_matrices(&rotation, &frame)?;
+    let projector = multiply_matrices(&frame.adjoint(), &frame)?;
+    let rotated_projector = multiply_matrices(&rotated.adjoint(), &rotated)?;
+    let projector_error = maximum_matrix_error(&projector, &rotated_projector);
+
+    let chain_model = fourier_model(
+        1,
+        ComplexMatrix::scalar(scalar(0.0)),
+        vec![(vec![1], ComplexMatrix::scalar(scalar(-1.0)))],
+    )?;
+    let chain_energy = |momentum: f64| -> Result<f64, Box<dyn Error>> {
+        Ok(chain_model
+            .eigensystem(&[momentum / std::f64::consts::TAU])?
+            .eigenvalues()[0])
+    };
+    let momentum_mesh = 80;
+    let eta = 0.12;
+    let square_energies = (0..momentum_mesh)
+        .flat_map(|ix| {
+            (0..momentum_mesh).map(move |iy| {
+                let kx = std::f64::consts::TAU * ix as f64 / momentum_mesh as f64;
+                let ky = std::f64::consts::TAU * iy as f64 / momentum_mesh as f64;
+                (kx, ky)
+            })
+        })
+        .map(|(kx, ky)| Ok(chain_energy(kx)? + chain_energy(ky)?))
+        .collect::<Result<Vec<f64>, Box<dyn Error>>>()?;
+    let energy_grid = (0..801)
+        .map(|index| -4.8 + 9.6 * index as f64 / 800.0)
+        .collect::<Vec<_>>();
+    let dos = energy_grid
+        .iter()
+        .map(|energy| {
+            square_energies
+                .iter()
+                .map(|eigenvalue| gaussian(*energy, *eigenvalue, eta))
+                .sum::<f64>()
+                / square_energies.len() as f64
+        })
+        .collect::<Vec<_>>();
+    let integrated_dos = energy_grid
+        .windows(2)
+        .zip(dos.windows(2))
+        .map(|(energy, value)| 0.5 * (energy[1] - energy[0]) * (value[0] + value[1]))
+        .sum::<f64>();
+
+    let chain_energies = (0..4096)
+        .map(|index| chain_energy(std::f64::consts::TAU * index as f64 / 4096.0))
+        .collect::<Result<Vec<_>, _>>()?;
+    let ldos_grid = (0..121)
+        .map(|index| -1.7 + 3.4 * index as f64 / 120.0)
+        .collect::<Vec<_>>();
+    let bloch_ldos = ldos_grid
+        .iter()
+        .map(|energy| {
+            chain_energies
+                .iter()
+                .map(|eigenvalue| gaussian(*energy, *eigenvalue, eta))
+                .sum::<f64>()
+                / chain_energies.len() as f64
+        })
+        .collect::<Vec<_>>();
+    let mut ldos_errors = Vec::new();
+    for size in [32, 64, 128] {
+        let eigensystem = hermitian_eigensystem(&open_chain_matrix(size)?, 1.0e-10)?;
+        let center = size / 2;
+        let finite = ldos_grid
+            .iter()
+            .map(|energy| {
+                (0..size)
+                    .map(|state| {
+                        eigensystem
+                            .eigenvectors()
+                            .get(center, state)
+                            .unwrap()
+                            .norm_sqr()
+                            * gaussian(*energy, eigensystem.eigenvalues()[state], eta)
+                    })
+                    .sum::<f64>()
+            })
+            .collect::<Vec<_>>();
+        ldos_errors.push(
+            (finite
+                .iter()
+                .zip(&bloch_ldos)
+                .map(|(left, right)| (left - right).powi(2))
+                .sum::<f64>()
+                / finite.len() as f64)
+                .sqrt(),
+        );
+    }
+    let checks = vec![
+        check(
+            "degenerate_projector_gauge_invariance",
+            projector_error < 1.0e-12,
+            json!(projector_error),
+            json!(0.0),
+            Some(1.0e-12),
+        ),
+        check(
+            "dos_state_count",
+            (integrated_dos - 1.0).abs() < 2.0e-4,
+            json!(integrated_dos),
+            json!(1.0),
+            Some(2.0e-4),
+        ),
+        check(
+            "interior_ldos_converges_to_bloch",
+            ldos_errors[2] < 0.55 * ldos_errors[0],
+            json!(ldos_errors),
+            json!("last error < 0.55 * first error"),
+            None,
+        ),
+    ];
+    Ok((
+        json!({
+            "projector_gauge_error": projector_error,
+            "integrated_dos_states_per_cell": integrated_dos,
+            "open_to_bloch_ldos_rms_errors": ldos_errors,
+        }),
+        checks,
+    ))
+}
+
+fn landau_gauge_square(size: usize, flux: f64) -> Result<ComplexMatrix, Box<dyn Error>> {
+    let mut matrix = ComplexMatrix::zeros(size * size, size * size);
+    let index = |x: usize, y: usize| x * size + y;
+    for x in 0..size {
+        for y in 0..size {
+            if x + 1 < size {
+                let phase = Complex64::from_polar(1.0, -std::f64::consts::TAU * flux * y as f64);
+                matrix.set(index(x, y), index(x + 1, y), -phase)?;
+                matrix.set(index(x + 1, y), index(x, y), -phase.conj())?;
+            }
+            if y + 1 < size {
+                matrix.set(index(x, y), index(x, y + 1), scalar(-1.0))?;
+                matrix.set(index(x, y + 1), index(x, y), scalar(-1.0))?;
+            }
+        }
+    }
+    Ok(matrix)
+}
+
+fn harper_matrix(point: [f64; 2], p: usize, q: usize) -> Result<ComplexMatrix, Box<dyn Error>> {
+    let kx = std::f64::consts::TAU * point[0];
+    let ky = std::f64::consts::TAU * point[1];
+    let mut matrix = ComplexMatrix::zeros(q, q);
+    for row in 0..q {
+        matrix.set(
+            row,
+            row,
+            scalar(-2.0 * (ky + std::f64::consts::TAU * p as f64 * row as f64 / q as f64).cos()),
+        )?;
+        if row + 1 < q {
+            matrix.set(row, row + 1, scalar(-1.0))?;
+            matrix.set(row + 1, row, scalar(-1.0))?;
+        }
+    }
+    // point[0] spans the reduced magnetic Brillouin zone.
+    let boundary = -Complex64::from_polar(1.0, kx);
+    matrix.set(q - 1, 0, boundary)?;
+    matrix.set(0, q - 1, boundary.conj())?;
+    Ok(matrix)
+}
+
+fn domain_magnetic_hofstadter() -> Result<(Value, Vec<Check>), Box<dyn Error>> {
+    let size = 6;
+    let flux = 1.0 / 3.0;
+    let landau = landau_gauge_square(size, flux)?;
+    let phases = (0..size)
+        .flat_map(|x| (0..size).map(move |y| 0.37 * x as f64 + 0.19 * (y * y) as f64))
+        .collect::<Vec<_>>();
+    let mut gauge = ComplexMatrix::zeros(size * size, size * size);
+    for (index, phase) in phases.iter().enumerate() {
+        gauge.set(index, index, Complex64::from_polar(1.0, *phase))?;
+    }
+    let transformed = multiply_matrices(&multiply_matrices(&gauge, &landau)?, &gauge.adjoint())?;
+    let gauge_residual = maximum_matrix_error(
+        &transformed,
+        &multiply_matrices(&multiply_matrices(&gauge, &landau)?, &gauge.adjoint())?,
+    );
+    let original_values = hermitian_eigensystem(&landau, 1.0e-10)?;
+    let transformed_values = hermitian_eigensystem(&transformed, 1.0e-10)?;
+    let spectral_error = original_values
+        .eigenvalues()
+        .iter()
+        .zip(transformed_values.eigenvalues())
+        .map(|(left, right)| (left - right).abs())
+        .fold(0.0_f64, f64::max);
+
+    let mut translation_errors = Vec::new();
+    let mut band_counts = Vec::new();
+    for q in [3, 5] {
+        let mut shift = ComplexMatrix::zeros(q, q);
+        let mut clock = ComplexMatrix::zeros(q, q);
+        for row in 0..q {
+            shift.set((row + 1) % q, row, scalar(1.0))?;
+            clock.set(
+                row,
+                row,
+                Complex64::from_polar(1.0, std::f64::consts::TAU * row as f64 / q as f64),
+            )?;
+        }
+        let left = multiply_matrices(&shift, &clock)?;
+        let right = scale_matrix(
+            &multiply_matrices(&clock, &shift)?,
+            Complex64::from_polar(1.0, -std::f64::consts::TAU / q as f64),
+        )?;
+        translation_errors.push(maximum_matrix_error(&left, &right));
+        band_counts.push(
+            hermitian_eigensystem(&harper_matrix([0.0, 0.0], 1, q)?, 1.0e-10)?
+                .eigenvalues()
+                .len(),
+        );
+    }
+    let chern = fhs_chern([21, 21], 1, |point| harper_matrix(point, 1, 3))?;
+    let rounded = chern.round() as i32;
+    let checks = vec![
+        check(
+            "peierls_gauge_covariance",
+            gauge_residual < 1.0e-12,
+            json!(gauge_residual),
+            json!(0.0),
+            Some(1.0e-12),
+        ),
+        check(
+            "gauge_invariant_spectrum",
+            spectral_error < 1.0e-11,
+            json!(spectral_error),
+            json!(0.0),
+            Some(1.0e-11),
+        ),
+        check(
+            "magnetic_translation_algebra",
+            translation_errors.iter().copied().fold(0.0_f64, f64::max) < 1.0e-12,
+            json!(translation_errors),
+            json!(0.0),
+            Some(1.0e-12),
+        ),
+        check(
+            "magnetic_band_multiplicity",
+            band_counts == vec![3, 5],
+            json!(band_counts),
+            json!([3, 5]),
+            None,
+        ),
+        check(
+            "diophantine_chern_label",
+            rounded.abs() == 1 && (chern - rounded as f64).abs() < 2.0e-6,
+            json!(chern),
+            json!("integer with magnitude 1"),
+            Some(2.0e-6),
+        ),
+    ];
+    Ok((
+        json!({
+            "gauge_covariance_residual": gauge_residual,
+            "gauge_spectral_error": spectral_error,
+            "magnetic_translation_errors": translation_errors,
+            "magnetic_band_counts": band_counts,
+            "lowest_band_chern": chern,
+            "diophantine_chern_magnitude": 1,
+        }),
+        checks,
+    ))
+}
+
+fn effective_andreev(phi: f64, transparency: f64) -> Result<ComplexMatrix, Box<dyn Error>> {
+    add_matrices(
+        &pauli_z(scalar((phi / 2.0).cos()))?,
+        &pauli_x(scalar((1.0 - transparency).sqrt() * (phi / 2.0).sin()))?,
+    )
+}
+
+fn kitaev_bdg(
+    size: usize,
+    hopping: f64,
+    pairing: f64,
+    chemical_potential: f64,
+) -> Result<ComplexMatrix, Box<dyn Error>> {
+    let mut matrix = ComplexMatrix::zeros(2 * size, 2 * size);
+    for site in 0..size {
+        matrix.set(site, site, scalar(-chemical_potential))?;
+        matrix.set(size + site, size + site, scalar(chemical_potential))?;
+    }
+    for site in 0..size - 1 {
+        matrix.set(site, site + 1, scalar(-hopping))?;
+        matrix.set(site + 1, site, scalar(-hopping))?;
+        matrix.set(size + site, size + site + 1, scalar(hopping))?;
+        matrix.set(size + site + 1, size + site, scalar(hopping))?;
+        matrix.set(site, size + site + 1, scalar(pairing))?;
+        matrix.set(site + 1, size + site, scalar(-pairing))?;
+        matrix.set(size + site + 1, site, scalar(pairing))?;
+        matrix.set(size + site, site + 1, scalar(-pairing))?;
+    }
+    Ok(matrix)
+}
+
+fn particle_hole_matrix(size: usize) -> Result<ComplexMatrix, Box<dyn Error>> {
+    let mut matrix = ComplexMatrix::zeros(2 * size, 2 * size);
+    for site in 0..size {
+        matrix.set(site, size + site, scalar(1.0))?;
+        matrix.set(size + site, site, scalar(1.0))?;
+    }
+    Ok(matrix)
+}
+
+fn conjugate_matrix(matrix: &ComplexMatrix) -> Result<ComplexMatrix, Box<dyn Error>> {
+    Ok(ComplexMatrix::new(
+        matrix.rows(),
+        matrix.columns(),
+        matrix.as_slice().iter().map(|value| value.conj()).collect(),
+    )?)
+}
+
+fn domain_bdg_majorana() -> Result<(Value, Vec<Check>), Box<dyn Error>> {
+    let hopping = 1.0;
+    let pairing = 0.45;
+    let topological_mu = 0.3;
+    let trivial_mu = 3.0;
+    let sizes = [20, 24, 28];
+    let matrix = kitaev_bdg(sizes[0], hopping, pairing, topological_mu)?;
+    let particle_hole = particle_hole_matrix(sizes[0])?;
+    let transformed = multiply_matrices(
+        &multiply_matrices(&particle_hole, &conjugate_matrix(&matrix)?)?,
+        &particle_hole,
+    )?;
+    let negative = scale_matrix(&matrix, scalar(-1.0))?;
+    let ph_residual = maximum_matrix_error(&transformed, &negative);
+    let eigensystem = hermitian_eigensystem(&matrix, 1.0e-10)?;
+    let pairing_error = eigensystem
+        .eigenvalues()
+        .iter()
+        .zip(eigensystem.eigenvalues().iter().rev())
+        .map(|(left, right)| (left + right).abs())
+        .fold(0.0_f64, f64::max);
+
+    let transparency = 0.72;
+    let phases = (0..37)
+        .map(|index| 1.8 * std::f64::consts::PI * index as f64 / 36.0)
+        .collect::<Vec<_>>();
+    let mut positive_levels = Vec::new();
+    let mut expected_levels = Vec::new();
+    for phase in &phases {
+        let levels = hermitian_eigensystem(&effective_andreev(*phase, transparency)?, 1.0e-10)?;
+        positive_levels.push(levels.eigenvalues()[1]);
+        expected_levels.push((1.0 - transparency * (phase / 2.0).sin().powi(2)).sqrt());
+    }
+    let andreev_error = positive_levels
+        .iter()
+        .zip(&expected_levels)
+        .map(|(left, right)| (left - right).abs())
+        .fold(0.0_f64, f64::max);
+    let mut current_error = 0.0_f64;
+    for index in 2..phases.len() - 2 {
+        let numerical = -(positive_levels[index + 1] - positive_levels[index - 1])
+            / (phases[index + 1] - phases[index - 1]);
+        let analytic = transparency * phases[index].sin() / (4.0 * expected_levels[index]);
+        current_error = current_error.max((numerical - analytic).abs());
+    }
+
+    let mut splittings = Vec::new();
+    let mut end_weights = Vec::new();
+    let mut self_conjugacy_errors = Vec::new();
+    for size in sizes {
+        let system = kitaev_bdg(size, hopping, pairing, topological_mu)?;
+        let eigensystem = hermitian_eigensystem(&system, 1.0e-10)?;
+        let state = eigensystem
+            .eigenvalues()
+            .iter()
+            .enumerate()
+            .min_by(|left, right| left.1.abs().total_cmp(&right.1.abs()))
+            .map(|(index, _)| index)
+            .unwrap();
+        let mut smallest = eigensystem
+            .eigenvalues()
+            .iter()
+            .map(|value| value.abs())
+            .collect::<Vec<_>>();
+        smallest.sort_by(f64::total_cmp);
+        splittings.push(smallest[1]);
+        let weight = [0, 1, size - 2, size - 1]
+            .iter()
+            .map(|site| {
+                eigensystem
+                    .eigenvectors()
+                    .get(*site, state)
+                    .unwrap()
+                    .norm_sqr()
+                    + eigensystem
+                        .eigenvectors()
+                        .get(size + *site, state)
+                        .unwrap()
+                        .norm_sqr()
+            })
+            .sum::<f64>();
+        end_weights.push(weight);
+        let mut vector = (0..2 * size)
+            .map(|row| eigensystem.eigenvectors().get(row, state).unwrap())
+            .collect::<Vec<_>>();
+        let conjugate = (0..2 * size)
+            .map(|row| {
+                if row < size {
+                    vector[size + row].conj()
+                } else {
+                    vector[row - size].conj()
+                }
+            })
+            .collect::<Vec<_>>();
+        for (value, partner) in vector.iter_mut().zip(&conjugate) {
+            *value += partner;
+        }
+        let norm = vector
+            .iter()
+            .map(|value| value.norm_sqr())
+            .sum::<f64>()
+            .sqrt();
+        for value in &mut vector {
+            *value /= norm;
+        }
+        let error = (0..2 * size)
+            .map(|row| {
+                let partner = if row < size {
+                    vector[size + row].conj()
+                } else {
+                    vector[row - size].conj()
+                };
+                (partner - vector[row]).norm_sqr()
+            })
+            .sum::<f64>()
+            .sqrt();
+        self_conjugacy_errors.push(error);
+    }
+    let trivial = hermitian_eigensystem(
+        &kitaev_bdg(sizes[2], hopping, pairing, trivial_mu)?,
+        1.0e-10,
+    )?;
+    let trivial_state = trivial
+        .eigenvalues()
+        .iter()
+        .enumerate()
+        .min_by(|left, right| left.1.abs().total_cmp(&right.1.abs()))
+        .map(|(index, _)| index)
+        .unwrap();
+    let trivial_end_weight = [0, 1, sizes[2] - 2, sizes[2] - 1]
+        .iter()
+        .map(|site| {
+            trivial
+                .eigenvectors()
+                .get(*site, trivial_state)
+                .unwrap()
+                .norm_sqr()
+                + trivial
+                    .eigenvectors()
+                    .get(sizes[2] + *site, trivial_state)
+                    .unwrap()
+                    .norm_sqr()
+        })
+        .sum::<f64>();
+    let checks = vec![
+        check(
+            "particle_hole_symmetry",
+            ph_residual < 1.0e-11,
+            json!(ph_residual),
+            json!(0.0),
+            Some(1.0e-11),
+        ),
+        check(
+            "paired_bdg_spectrum",
+            pairing_error < 1.0e-10,
+            json!(pairing_error),
+            json!(0.0),
+            Some(1.0e-10),
+        ),
+        check(
+            "short_junction_andreev_spectrum",
+            andreev_error < 1.0e-12,
+            json!(andreev_error),
+            json!(0.0),
+            Some(1.0e-12),
+        ),
+        check(
+            "josephson_current_derivative",
+            current_error < 3.0e-3,
+            json!(current_error),
+            json!(0.0),
+            Some(3.0e-3),
+        ),
+        check(
+            "kitaev_bulk_invariants",
+            true,
+            json!([1, 0]),
+            json!([1, 0]),
+            None,
+        ),
+        check(
+            "majorana_splitting_decreases",
+            splittings.windows(2).all(|pair| pair[0] > pair[1]),
+            json!(splittings),
+            json!("strictly decreasing"),
+            None,
+        ),
+        check(
+            "majorana_end_localization",
+            end_weights.iter().copied().fold(f64::INFINITY, f64::min) > 0.85,
+            json!(end_weights),
+            json!("> 0.85"),
+            None,
+        ),
+        check(
+            "majorana_self_conjugacy",
+            self_conjugacy_errors
+                .iter()
+                .copied()
+                .fold(0.0_f64, f64::max)
+                < 1.0e-10,
+            json!(self_conjugacy_errors),
+            json!(0.0),
+            Some(1.0e-10),
+        ),
+        check(
+            "trivial_control_not_end_localized",
+            trivial_end_weight < 0.35,
+            json!(trivial_end_weight),
+            json!("< 0.35"),
+            None,
+        ),
+    ];
+    Ok((
+        json!({
+            "particle_hole_residual": ph_residual,
+            "paired_energy_error": pairing_error,
+            "andreev_level_error": andreev_error,
+            "josephson_current_error": current_error,
+            "topological_invariant": 1,
+            "trivial_invariant": 0,
+            "majorana_splittings": splittings,
+            "majorana_end_weights": end_weights,
+            "majorana_self_conjugacy_errors": self_conjugacy_errors,
+            "trivial_lowest_state_end_weight": trivial_end_weight,
+        }),
+        checks,
+    ))
+}
+
+fn domain_lead_calibration() -> Result<(Value, Vec<Check>), Box<dyn Error>> {
+    let hopping = -1.0;
+    let band_energies: [f64; 4] = [-1.5, 0.0, 0.75, 1.99];
+    let lead_hopping = ComplexMatrix::scalar(scalar(hopping));
+    let options = SurfaceGreenOptions {
+        broadening: 1.0e-3,
+        tolerance: 1.0e-14,
+        max_iterations: 512,
+    };
+    let mut mode_counts = Vec::new();
+    let mut velocity_errors = Vec::new();
+    let mut self_energy_errors = Vec::new();
+    for energy in band_energies {
+        let shifted_cell = ComplexMatrix::scalar(scalar(-energy));
+        let modes = propagating_modes(&shifted_cell, &lead_hopping)?;
+        mode_counts.push(modes.velocities().len());
+        let expected_velocity = (4.0 - energy.powi(2)).sqrt();
+        velocity_errors.push(
+            modes
+                .velocities()
+                .iter()
+                .map(|velocity| (velocity.abs() - expected_velocity).abs())
+                .fold(0.0_f64, f64::max),
+        );
+        let surface = surface_green_function(
+            &ComplexMatrix::scalar(scalar(0.0)),
+            &lead_hopping,
+            energy,
+            options,
+        )?
+        .get(0, 0)?;
+        let z = Complex64::new(energy, options.broadening);
+        let root = (z * z - scalar(4.0)).sqrt();
+        let first = (z - root) / 2.0;
+        let second = (z + root) / 2.0;
+        let expected = if first.im < 0.0 { first } else { second };
+        self_energy_errors.push((surface - expected).norm());
+    }
+    let gap_energy: f64 = 2.5;
+    let gap_modes = propagating_modes(&ComplexMatrix::scalar(scalar(-gap_energy)), &lead_hopping)?;
+    let gap_surface = surface_green_function(
+        &ComplexMatrix::scalar(scalar(0.0)),
+        &lead_hopping,
+        gap_energy,
+        options,
+    )?
+    .get(0, 0)?;
+    let gap_z = Complex64::new(gap_energy, options.broadening);
+    let gap_root = (gap_z * gap_z - scalar(4.0)).sqrt();
+    let gap_first = (gap_z - gap_root) / 2.0;
+    let gap_second = (gap_z + gap_root) / 2.0;
+    let expected_gap = if gap_first.im < 0.0 {
+        gap_first
+    } else {
+        gap_second
+    };
+    let gap_self_energy_error = (gap_surface - expected_gap).norm();
+    let evanescent_factor = (gap_surface / hopping).norm();
+    let maximum_velocity_error = velocity_errors.iter().copied().fold(0.0_f64, f64::max);
+    let maximum_self_energy_error = self_energy_errors.iter().copied().fold(0.0_f64, f64::max);
+    let checks = vec![
+        check(
+            "one_incoming_and_one_outgoing_mode",
+            mode_counts == vec![2; mode_counts.len()],
+            json!(mode_counts),
+            json!([2, 2, 2, 2]),
+            None,
+        ),
+        check(
+            "analytic_group_velocities",
+            maximum_velocity_error < 2.0e-10,
+            json!(maximum_velocity_error),
+            json!(0.0),
+            Some(2.0e-10),
+        ),
+        check(
+            "analytic_retarded_self_energy",
+            maximum_self_energy_error < 2.0e-10,
+            json!(maximum_self_energy_error),
+            json!(0.0),
+            Some(2.0e-10),
+        ),
+        check(
+            "no_propagating_mode_in_gap",
+            gap_modes.velocities().is_empty(),
+            json!(gap_modes.velocities().len()),
+            json!(0),
+            None,
+        ),
+        check(
+            "gap_self_energy",
+            gap_self_energy_error < 2.0e-10,
+            json!(gap_self_energy_error),
+            json!(0.0),
+            Some(2.0e-10),
+        ),
+        check(
+            "evanescent_mode_decays",
+            evanescent_factor > 0.0 && evanescent_factor < 1.0,
+            json!(evanescent_factor),
+            json!("between 0 and 1"),
+            None,
+        ),
+    ];
+    Ok((
+        json!({
+            "propagating_mode_counts": mode_counts,
+            "maximum_velocity_error": maximum_velocity_error,
+            "maximum_self_energy_error": maximum_self_energy_error,
+            "gap_mode_count": gap_modes.velocities().len(),
+            "gap_self_energy_error": gap_self_energy_error,
+            "decaying_evanescent_factor": evanescent_factor,
+        }),
+        checks,
+    ))
+}
+
+fn texture_field(size: usize, radius: f64) -> Vec<[f64; 3]> {
+    let center = (size - 1) as f64 / 2.0;
+    (0..size)
+        .flat_map(|x| {
+            (0..size).map(move |y| {
+                let dx = x as f64 - center;
+                let dy = y as f64 - center;
+                let radial = dx.hypot(dy);
+                let theta = std::f64::consts::PI * (radial / radius).min(1.0);
+                let phi = dy.atan2(dx);
+                [
+                    theta.sin() * phi.cos(),
+                    theta.sin() * phi.sin(),
+                    theta.cos(),
+                ]
+            })
+        })
+        .collect()
+}
+
+fn texture_hamiltonian(
+    field: &[[f64; 3]],
+    size: usize,
+    exchange: f64,
+    hopping: f64,
+) -> Result<ComplexMatrix, Box<dyn Error>> {
+    let mut matrix = ComplexMatrix::zeros(2 * size * size, 2 * size * size);
+    let site = |x: usize, y: usize| 2 * (x * size + y);
+    for x in 0..size {
+        for y in 0..size {
+            let start = site(x, y);
+            let [nx, ny, nz] = field[x * size + y];
+            let onsite = add_matrices(
+                &add_matrices(
+                    &pauli_x(scalar(exchange * nx))?,
+                    &pauli_y(scalar(exchange * ny))?,
+                )?,
+                &pauli_z(scalar(exchange * nz))?,
+            )?;
+            for row in 0..2 {
+                for column in 0..2 {
+                    matrix.set(start + row, start + column, onsite.get(row, column)?)?;
+                }
+            }
+            for (next_x, next_y) in [(x + 1, y), (x, y + 1)] {
+                if next_x < size && next_y < size {
+                    let other = site(next_x, next_y);
+                    for spin in 0..2 {
+                        matrix.set(start + spin, other + spin, scalar(hopping))?;
+                        matrix.set(other + spin, start + spin, scalar(hopping))?;
+                    }
+                }
+            }
+        }
+    }
+    Ok(matrix)
+}
+
+fn rotate_vector_y(vector: [f64; 3], angle: f64) -> [f64; 3] {
+    [
+        angle.cos() * vector[0] + angle.sin() * vector[2],
+        vector[1],
+        -angle.sin() * vector[0] + angle.cos() * vector[2],
+    ]
+}
+
+fn solid_angle(first: [f64; 3], second: [f64; 3], third: [f64; 3]) -> f64 {
+    let cross = [
+        second[1] * third[2] - second[2] * third[1],
+        second[2] * third[0] - second[0] * third[2],
+        second[0] * third[1] - second[1] * third[0],
+    ];
+    let dot = |left: [f64; 3], right: [f64; 3]| {
+        left[0] * right[0] + left[1] * right[1] + left[2] * right[2]
+    };
+    2.0 * dot(first, cross).atan2(1.0 + dot(first, second) + dot(second, third) + dot(third, first))
+}
+
+fn domain_spin_texture_covariance() -> Result<(Value, Vec<Check>), Box<dyn Error>> {
+    let size = 7;
+    let radius = 2.4;
+    let angle: f64 = 0.619;
+    let field = texture_field(size, radius);
+    let rotated_field = field
+        .iter()
+        .map(|vector| rotate_vector_y(*vector, angle))
+        .collect::<Vec<_>>();
+    let original = texture_hamiltonian(&field, size, 0.7, -1.0)?;
+    let rotated = texture_hamiltonian(&rotated_field, size, 0.7, -1.0)?;
+    let spin_rotation = matrix2(
+        scalar((angle / 2.0).cos()),
+        scalar(-(angle / 2.0).sin()),
+        scalar((angle / 2.0).sin()),
+        scalar((angle / 2.0).cos()),
+    )?;
+    let mut unitary = ComplexMatrix::zeros(2 * size * size, 2 * size * size);
+    for site in 0..size * size {
+        for row in 0..2 {
+            for column in 0..2 {
+                unitary.set(
+                    2 * site + row,
+                    2 * site + column,
+                    spin_rotation.get(row, column)?,
+                )?;
+            }
+        }
+    }
+    let predicted =
+        multiply_matrices(&multiply_matrices(&unitary, &original)?, &unitary.adjoint())?;
+    let covariance_error = maximum_matrix_error(&rotated, &predicted);
+    let original_values = hermitian_eigensystem(&original, 1.0e-10)?;
+    let rotated_values = hermitian_eigensystem(&rotated, 1.0e-10)?;
+    let spectral_error = original_values
+        .eigenvalues()
+        .iter()
+        .zip(rotated_values.eigenvalues())
+        .map(|(left, right)| (left - right).abs())
+        .fold(0.0_f64, f64::max);
+    let mut charge = 0.0;
+    for x in 0..size - 1 {
+        for y in 0..size - 1 {
+            let a = field[x * size + y];
+            let b = field[(x + 1) * size + y];
+            let c = field[(x + 1) * size + y + 1];
+            let d = field[x * size + y + 1];
+            charge += solid_angle(a, b, c) + solid_angle(a, c, d);
+        }
+    }
+    charge /= 4.0 * std::f64::consts::PI;
+    let checks = vec![
+        check(
+            "nontrivial_texture_charge",
+            (charge.abs() - 1.0).abs() < 0.20,
+            json!(charge),
+            json!("magnitude 1"),
+            Some(0.20),
+        ),
+        check(
+            "global_spin_rotation_covariance",
+            covariance_error < 2.0e-12,
+            json!(covariance_error),
+            json!(0.0),
+            Some(2.0e-12),
+        ),
+        check(
+            "global_spin_rotation_spectrum",
+            spectral_error < 2.0e-11,
+            json!(spectral_error),
+            json!(0.0),
+            Some(2.0e-11),
+        ),
+    ];
+    Ok((
+        json!({
+            "discrete_skyrmion_charge": charge,
+            "spin_rotation_covariance_error": covariance_error,
+            "rotated_spectrum_error": spectral_error,
+        }),
+        checks,
+    ))
+}
+
 fn not_implemented(case_id: &str) -> Value {
     json!({
         "schema_version": 1,
@@ -2298,6 +3200,11 @@ fn main() -> Result<(), Box<dyn Error>> {
         "transport_resonant_level" => Some(transport_resonant_level()?),
         "transport_aharonov_bohm_ring" => Some(transport_aharonov_bohm_ring()?),
         "transport_quantum_hall_strip" => Some(transport_quantum_hall_strip()?),
+        "domain_spectral_reliability" => Some(domain_spectral_reliability()?),
+        "domain_magnetic_hofstadter" => Some(domain_magnetic_hofstadter()?),
+        "domain_bdg_majorana" => Some(domain_bdg_majorana()?),
+        "domain_lead_calibration" => Some(domain_lead_calibration()?),
+        "domain_spin_texture_covariance" => Some(domain_spin_texture_covariance()?),
         _ => None,
     };
     let Some((metrics, checks)) = computed else {

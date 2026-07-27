@@ -2,7 +2,7 @@
 id: TBQ-066
 suite: 14-magnetism-spin-orbital
 source_requirement: TB-REQ-066
-status: proposed
+status: executable
 acceptance_class: exact
 lkm_snapshot: 2026-07-27
 ---
@@ -75,5 +75,8 @@ contacts.
 
 ## Implementation status
 
-`proposed`: this document specifies a scientific problem but does not claim that any
-backend currently passes it. No current executable case is asserted to cover this full problem.
+`executable`:
+[`domain_spin_texture_covariance`](../../../benchmark/domain_cases.json) passes with
+native Thouless, original PythTB, and original Kwant. The backend-level witnesses
+and remaining gaps are recorded in
+[`benchmark/problem_coverage.json`](../../../benchmark/problem_coverage.json).

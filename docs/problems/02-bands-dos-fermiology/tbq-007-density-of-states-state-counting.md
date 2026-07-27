@@ -2,7 +2,7 @@
 id: TBQ-007
 suite: 02-bands-dos-fermiology
 source_requirement: TB-REQ-007
-status: proposed
+status: executable
 acceptance_class: convergence
 lkm_snapshot: 2026-07-27
 ---
@@ -75,5 +75,7 @@ Suite-wide isolation rule: Hold out one lattice family and a topology-changing c
 
 ## Implementation status
 
-`proposed`: this document specifies a scientific problem but does not claim that any
-backend currently passes it. No current executable case is asserted to cover this full problem.
+`executable`: [`domain_spectral_reliability`](../../../benchmark/domain_cases.json)
+passes with native Thouless, original PythTB, and original Kwant. The backend-level
+witnesses and remaining gaps are recorded in
+[`benchmark/problem_coverage.json`](../../../benchmark/problem_coverage.json).

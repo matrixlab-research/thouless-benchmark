@@ -2,7 +2,7 @@
 id: TBQ-022
 suite: 05-boundaries-bulk-boundary
 source_requirement: TB-REQ-022
-status: proposed
+status: executable
 acceptance_class: reference
 lkm_snapshot: 2026-07-27
 ---
@@ -74,5 +74,8 @@ Suite-wide isolation rule: Hold out termination, corner angle, aspect ratio, and
 
 ## Implementation status
 
-`proposed`: this document specifies a scientific problem but does not claim that any
-backend currently passes it. [`boundary_ssh_edge_localization`](../../../benchmark/cases.json) is related, but does not by itself establish full coverage of this specification.
+`executable`:
+[`boundary_ssh_edge_localization`](../../../benchmark/cases.json) passes with native
+Thouless, original PythTB, and original Kwant. The backend-level witnesses and
+remaining gaps are recorded in
+[`benchmark/problem_coverage.json`](../../../benchmark/problem_coverage.json).

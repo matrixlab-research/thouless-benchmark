@@ -9,6 +9,7 @@ import math
 import sys
 import time
 from pathlib import Path
+from functools import cache
 
 import numpy as np
 import pythtb
@@ -18,6 +19,12 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "src"))
 
 from thouless_benchmark.result import Check, result  # noqa: E402
+from thouless_benchmark.domain_workflows import (  # noqa: E402
+    bdg_majorana,
+    magnetic_hofstadter,
+    spectral_reliability,
+    spin_texture_covariance,
+)
 from thouless_benchmark.numerics import (  # noqa: E402
     berry_curvature_dipole,
     berry_phase,
@@ -32,6 +39,73 @@ SIGMA_Y = np.array([[0.0, -1.0j], [1.0j, 0.0]], dtype=complex)
 SIGMA_Z = np.array([[1.0, 0.0], [0.0, -1.0]], dtype=complex)
 IDENTITY_2 = np.eye(2, dtype=complex)
 TAU = 2.0 * np.pi
+
+
+def package_dense_matrix(matrix: np.ndarray) -> np.ndarray:
+    """Round-trip a finite Hamiltonian through the original PythTB model."""
+
+    matrix = np.asarray(matrix, dtype=complex)
+    if matrix.shape[0] != matrix.shape[1]:
+        raise ValueError("finite Hamiltonian must be square")
+    states = matrix.shape[0]
+    lattice = Lattice(np.array([[1.0]]), np.zeros((states, 1)), "all")
+    model = TBModel(lattice)
+    for row in range(states):
+        model.set_onsite(float(matrix[row, row].real), row)
+        for column in range(row + 1, states):
+            value = matrix[row, column]
+            if abs(value) > 1.0e-15:
+                model.set_hop(value, row, column, [0])
+    return np.asarray(
+        model.hamiltonian([np.array([0.0])], flatten_spin_axis=True)[0],
+        dtype=complex,
+    )
+
+
+@cache
+def pythtb_chain_model() -> TBModel:
+    lattice = Lattice(np.array([[1.0]]), np.array([[0.0]]), "all")
+    model = TBModel(lattice)
+    model.set_hop(-1.0, 0, 0, [1])
+    return model
+
+
+def pythtb_chain_energy(momentum: float) -> float:
+    return float(
+        np.asarray(
+            pythtb_chain_model().solve_ham([np.array([momentum / TAU])]),
+            dtype=float,
+        ).reshape(-1)[0]
+    )
+
+
+def pythtb_open_chain(size: int) -> np.ndarray:
+    matrix = np.zeros((size, size), dtype=complex)
+    for site in range(size - 1):
+        matrix[site, site + 1] = -1.0
+        matrix[site + 1, site] = -1.0
+    return package_dense_matrix(matrix)
+
+
+def domain_spectral_reliability(parameters: dict) -> tuple[dict, list[Check]]:
+    return spectral_reliability(
+        package_dense_matrix,
+        pythtb_chain_energy,
+        pythtb_open_chain,
+        parameters,
+    )
+
+
+def domain_magnetic_hofstadter(parameters: dict) -> tuple[dict, list[Check]]:
+    return magnetic_hofstadter(package_dense_matrix, parameters)
+
+
+def domain_bdg_majorana(parameters: dict) -> tuple[dict, list[Check]]:
+    return bdg_majorana(package_dense_matrix, parameters)
+
+
+def domain_spin_texture_covariance(parameters: dict) -> tuple[dict, list[Check]]:
+    return spin_texture_covariance(package_dense_matrix, parameters)
 
 
 def fourier_model(
@@ -882,6 +956,10 @@ IMPLEMENTED = {
     "boundary_haldane_ribbon_flow": boundary_haldane_ribbon_flow,
     "boundary_graphene_terminations": boundary_graphene_terminations,
     "boundary_bbh_corner_modes": boundary_bbh_corner_modes,
+    "domain_spectral_reliability": domain_spectral_reliability,
+    "domain_magnetic_hofstadter": domain_magnetic_hofstadter,
+    "domain_bdg_majorana": domain_bdg_majorana,
+    "domain_spin_texture_covariance": domain_spin_texture_covariance,
 }
 
 
@@ -889,8 +967,19 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("case_id")
     args = parser.parse_args()
-    manifest = json.loads((ROOT / "benchmark" / "cases.json").read_text())
-    case = next((item for item in manifest["cases"] if item["id"] == args.case_id), None)
+    manifests = [
+        json.loads((ROOT / "benchmark" / name).read_text())
+        for name in ("cases.json", "domain_cases.json")
+    ]
+    case = next(
+        (
+            item
+            for manifest in manifests
+            for item in manifest["cases"]
+            if item["id"] == args.case_id
+        ),
+        None,
+    )
     if case is None:
         print(json.dumps({"status": "unknown_case", "case_id": args.case_id}))
         return 2

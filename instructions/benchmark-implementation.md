@@ -2,10 +2,11 @@
 
 ## Objective
 
-Maintain an executable, source-traceable benchmark for static tight-binding,
-band topology, Wannier geometry, finite boundaries, and steady-state quantum
-transport. Compare native Thouless Rust with the original PythTB 2.0 and Kwant
-1.5 packages where each package is scientifically applicable.
+Maintain an executable, source-traceable benchmark for the full 100-question
+tight-binding domain catalog. Compare native Thouless Rust with the original
+PythTB 2.0 and Kwant 1.5 packages where each package is scientifically
+applicable. Count only whole scientific problems, not isolated API calls or
+related observables.
 
 ## Non-negotiable rules
 
@@ -39,10 +40,12 @@ transport. Compare native Thouless Rust with the original PythTB 2.0 and Kwant
 
 ## Required checks
 
-- The manifest contains exactly twenty unique cases.
-- The domain problem catalog contains exactly one hundred unique proposed
-  questions in twenty suites. These documents are research specifications, not
-  executable-case or backend-coverage claims.
+- The original manifest contains exactly twenty unique seed cases.
+- The domain manifest contains five executable witnesses and the generated
+  audit contains exactly 100 questions by three backends.
+- The domain problem catalog contains exactly one hundred unique questions in
+  twenty suites. Thirteen currently have complete executable witnesses; the
+  remaining documents stay proposed.
 - Every case has a public LKM GCN identifier and source paper.
 - Every case has at least one native Thouless implementation.
 - Every scored result records backend version and commit where applicable.

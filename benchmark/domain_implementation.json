@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "meaning": "A domain witness is implemented only after its package-backed scientific checks pass.",
+  "implemented": {
+    "thouless": [
+      "domain_spectral_reliability",
+      "domain_magnetic_hofstadter",
+      "domain_bdg_majorana",
+      "domain_lead_calibration",
+      "domain_spin_texture_covariance"
+    ],
+    "pythtb": [
+      "domain_spectral_reliability",
+      "domain_magnetic_hofstadter",
+      "domain_bdg_majorana",
+      "domain_spin_texture_covariance"
+    ],
+    "kwant": [
+      "domain_spectral_reliability",
+      "domain_magnetic_hofstadter",
+      "domain_bdg_majorana",
+      "domain_lead_calibration",
+      "domain_spin_texture_covariance"
+    ]
+  }
+}

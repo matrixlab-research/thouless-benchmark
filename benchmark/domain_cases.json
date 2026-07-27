@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "meaning": "Executable witnesses for complete problems in the 100-question domain catalog.",
+  "cases": [
+    {
+      "id": "domain_spectral_reliability",
+      "track": "domain",
+      "question_ids": ["TBQ-006", "TBQ-007", "TBQ-010"],
+      "question": "Are degenerate projectors gauge safe, does the DOS obey state counting, and does an open-system interior LDOS approach the Bloch result?",
+      "parameters": {
+        "momentum_mesh": 80,
+        "energy_samples": 801,
+        "broadening": 0.12,
+        "open_chain_sizes": [32, 64, 128]
+      },
+      "oracle": "projector invariance, normalized spectral weight, and decreasing open-to-Bloch LDOS error",
+      "backends": ["thouless", "pythtb", "kwant"]
+    },
+    {
+      "id": "domain_magnetic_hofstadter",
+      "track": "domain",
+      "question_ids": ["TBQ-011", "TBQ-012", "TBQ-013"],
+      "question": "Are Peierls gauges unitarily equivalent, do magnetic translations carry the flux phase, and does the lowest one-third-flux band satisfy the Diophantine Chern label?",
+      "parameters": {
+        "finite_square_size": 6,
+        "flux_per_plaquette": 0.3333333333333333,
+        "magnetic_denominators": [3, 5],
+        "chern_mesh": 21
+      },
+      "oracle": "diagonal gauge equivalence, magnetic-translation algebra, q magnetic bands, and Chern magnitude one",
+      "backends": ["thouless", "pythtb", "kwant"]
+    },
+    {
+      "id": "domain_bdg_majorana",
+      "track": "domain",
+      "question_ids": ["TBQ-041", "TBQ-042", "TBQ-043"],
+      "question": "Does a declared Nambu convention enforce particle-hole symmetry, recover the short-junction Andreev spectrum, and distinguish topological Majorana end modes from trivial near-zero controls?",
+      "parameters": {
+        "hopping": 1.0,
+        "pairing": 0.45,
+        "topological_mu": 0.3,
+        "trivial_mu": 3.0,
+        "chain_sizes": [20, 24, 28],
+        "junction_transparency": 0.72
+      },
+      "oracle": "particle-hole residual, analytic Andreev levels and current, Kitaev invariant, end localization, and exponential splitting",
+      "backends": ["thouless", "pythtb", "kwant"]
+    },
+    {
+      "id": "domain_lead_calibration",
+      "track": "domain",
+      "question_ids": ["TBQ-036"],
+      "question": "Do periodic lead modes, velocities, surface self-energies, and evanescent decay agree with the analytic nearest-neighbor chain?",
+      "parameters": {
+        "hopping": -1.0,
+        "onsite": 0.0,
+        "band_energies": [-1.5, 0.0, 0.75, 1.99],
+        "gap_energy": 2.5,
+        "retarded_broadening": 0.001
+      },
+      "oracle": "analytic mode count, group velocity, retarded chain self-energy, and subunit evanescent factor",
+      "backends": ["thouless", "kwant"],
+      "not_applicable": {
+        "pythtb": "PythTB has no semi-infinite lead-mode or retarded self-energy solver."
+      }
+    },
+    {
+      "id": "domain_spin_texture_covariance",
+      "track": "domain",
+      "question_ids": ["TBQ-066"],
+      "question": "Does a spinful lattice preserve the skyrmion charge and spectrum under a common rigid spin rotation when spin-orbit coupling is absent?",
+      "parameters": {
+        "linear_size": 7,
+        "radius": 2.4,
+        "exchange": 0.7,
+        "hopping": -1.0
+      },
+      "oracle": "converged discrete texture charge and unitary spectral covariance",
+      "backends": ["thouless", "pythtb", "kwant"]
+    }
+  ]
+}

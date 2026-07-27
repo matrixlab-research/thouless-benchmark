@@ -68,7 +68,7 @@ def extract_section(body: str, heading: str) -> str:
     return body[start:end].strip()
 
 
-def validate_problem(path: Path, expected_number: int) -> str:
+def validate_problem(path: Path, expected_number: int, expected_status: str) -> str:
     text = path.read_text()
     metadata, body = parse_frontmatter(text, path)
     qid = f"TBQ-{expected_number:03d}"
@@ -84,9 +84,9 @@ def validate_problem(path: Path, expected_number: int) -> str:
         )
     if metadata["suite"] != suite:
         raise ValueError(f"{path}: suite {metadata['suite']} does not match {suite}")
-    if metadata["status"] != "proposed":
+    if metadata["status"] != expected_status:
         raise ValueError(
-            f"{path}: only proposed status is valid until an evaluator and results exist"
+            f"{path}: status {metadata['status']} does not match {expected_status}"
         )
     if metadata["acceptance_class"] not in ACCEPTANCE_CLASSES:
         raise ValueError(
@@ -131,25 +131,48 @@ def validate_problem(path: Path, expected_number: int) -> str:
         raise ValueError(f"{path}: missing LKM score interpretation")
 
     implementation = extract_section(body, "## Implementation status")
-    if not re.search(
-        r"does not claim that any\s+backend currently passes it", implementation
-    ):
-        raise ValueError(f"{path}: proposed status is not explained honestly")
+    if expected_status == "proposed":
+        if not re.search(
+            r"does not claim that any\s+backend currently passes it", implementation
+        ):
+            raise ValueError(f"{path}: proposed status is not explained honestly")
+    else:
+        if "`executable`" not in implementation:
+            raise ValueError(f"{path}: executable status is not stated")
+        if "benchmark/problem_coverage.json" not in implementation:
+            raise ValueError(f"{path}: executable status does not link the audit")
     if "TBD" in text or "TODO" in text:
         raise ValueError(f"{path}: unresolved placeholder")
     return path.relative_to(PROBLEM_ROOT).as_posix()
 
 
-def validate() -> None:
+def validate() -> int:
     paths = sorted(PROBLEM_ROOT.glob("[0-9][0-9]-*/tbq-[0-9][0-9][0-9]-*.md"))
     if len(paths) != 100:
         raise ValueError(f"expected 100 problem files, found {len(paths)}")
 
+    coverage = json.loads((ROOT / "benchmark" / "problem_coverage.json").read_text())
+    coverage_by_id = {problem["id"]: problem for problem in coverage["problems"]}
+    if len(coverage_by_id) != 100:
+        raise ValueError("problem coverage audit does not contain 100 unique ids")
+    executable_ids = {
+        qid
+        for qid, problem in coverage_by_id.items()
+        if any(
+            record["status"] == "implemented"
+            for record in problem["backends"].values()
+        )
+    }
+
     seen_ids = []
     relative_paths = []
     for expected_number, path in enumerate(paths, start=1):
-        relative_paths.append(validate_problem(path, expected_number))
-        seen_ids.append(f"TBQ-{expected_number:03d}")
+        qid = f"TBQ-{expected_number:03d}"
+        expected_status = "executable" if qid in executable_ids else "proposed"
+        relative_paths.append(
+            validate_problem(path, expected_number, expected_status)
+        )
+        seen_ids.append(qid)
     if len(set(seen_ids)) != 100:
         raise ValueError("problem identifiers are not unique")
 
@@ -160,6 +183,15 @@ def validate() -> None:
     linked_paths = re.findall(r"\]\(([^)]+/tbq-[0-9]{3}-[^)]+\.md)\)", index)
     if linked_paths != relative_paths:
         raise ValueError("catalog links do not exactly match the problem files")
+    index_statuses = re.findall(
+        r"\| TBQ-[0-9]{3} \|.+\| TB-REQ-[0-9]{3} \| (proposed|executable) \|",
+        index,
+    )
+    expected_statuses = [
+        "executable" if qid in executable_ids else "proposed" for qid in seen_ids
+    ]
+    if index_statuses != expected_statuses:
+        raise ValueError("catalog statuses do not match the backend audit")
 
     discovery_paths = sorted(LKM_ROOT.glob("[0-9][0-9]-*.json"))
     reasoning_paths = sorted((LKM_ROOT / "reasoning").glob("[0-9][0-9]-*.json"))
@@ -234,17 +266,18 @@ def validate() -> None:
     )
     if failed_lookup.get("code") != 290004:
         raise ValueError("the retained failed LKM lookup no longer has code 290004")
+    return len(executable_ids)
 
 
 def main() -> int:
     try:
-        validate()
+        executable_count = validate()
     except (OSError, ValueError) as error:
         print(f"problem documentation validation failed: {error}", file=sys.stderr)
         return 1
     print(
         "problem documentation validation passed: "
-        "100 unique questions in 20 suites; "
+        f"100 unique questions in 20 suites, {executable_count} executable; "
         "846 LKM nodes, 1,048 papers, and 250 reasoning chains verified"
     )
     return 0

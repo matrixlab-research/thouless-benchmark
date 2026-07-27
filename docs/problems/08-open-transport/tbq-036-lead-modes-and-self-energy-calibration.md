@@ -2,7 +2,7 @@
 id: TBQ-036
 suite: 08-open-transport
 source_requirement: TB-REQ-036
-status: proposed
+status: executable
 acceptance_class: exact
 lkm_snapshot: 2026-07-27
 ---
@@ -75,5 +75,7 @@ terminal count.
 
 ## Implementation status
 
-`proposed`: this document specifies a scientific problem but does not claim that any
-backend currently passes it. [`transport_ballistic_chain`](../../../benchmark/cases.json) is related, but does not by itself establish full coverage of this specification.
+`executable`: [`domain_lead_calibration`](../../../benchmark/domain_cases.json)
+passes with native Thouless and original Kwant. Original PythTB is explicitly
+not applicable because it has no semi-infinite lead solver. The backend-level evidence
+is recorded in [`benchmark/problem_coverage.json`](../../../benchmark/problem_coverage.json).

@@ -2,9 +2,12 @@
 
 This catalog contains 100 domain-first benchmark problem specifications. Each
 problem is defined before choosing a Rust API or source-package compatibility
-surface. The existing 20 executable cases remain canonical in
-[`benchmark/cases.json`](../../benchmark/cases.json); a related case link is
-informational and is not a coverage claim.
+surface. The original twenty workflows remain in
+[`benchmark/cases.json`](../../benchmark/cases.json); additional whole-problem
+witnesses are in
+[`benchmark/domain_cases.json`](../../benchmark/domain_cases.json), with the
+three-backend audit in
+[`benchmark/problem_coverage.json`](../../benchmark/problem_coverage.json).
 
 The upstream derivation is retained in
 [`docs/tight-binding-domain-benchmark-requirements.md`](../tight-binding-domain-benchmark-requirements.md),
@@ -19,8 +22,8 @@ status.
 ## Status vocabulary
 
 - `proposed`: domain specification only; no backend pass is claimed.
-- `executable`: reserved for a future problem whose evaluator, independent
-  oracle, and result records are all present.
+- `executable`: a package-backed evaluator, independent oracle, result record,
+  and CI job are present.
 - `held-out-validated`: reserved for evaluator-owned isolated validation.
 
 ## Catalog
@@ -39,19 +42,19 @@ status.
 
 | ID | Scientific problem | Source requirement | Status |
 | --- | --- | --- | --- |
-| TBQ-006 | [Degeneracy-safe band projectors](02-bands-dos-fermiology/tbq-006-degeneracy-safe-band-projectors.md) | TB-REQ-006 | proposed |
-| TBQ-007 | [Density-of-states state counting](02-bands-dos-fermiology/tbq-007-density-of-states-state-counting.md) | TB-REQ-007 | proposed |
+| TBQ-006 | [Degeneracy-safe band projectors](02-bands-dos-fermiology/tbq-006-degeneracy-safe-band-projectors.md) | TB-REQ-006 | executable |
+| TBQ-007 | [Density-of-states state counting](02-bands-dos-fermiology/tbq-007-density-of-states-state-counting.md) | TB-REQ-007 | executable |
 | TBQ-008 | [Van Hove and flat-band feature resolution](02-bands-dos-fermiology/tbq-008-van-hove-and-flat-band-feature-resolution.md) | TB-REQ-008 | proposed |
 | TBQ-009 | [Fermi-surface topology and Lifshitz transitions](02-bands-dos-fermiology/tbq-009-fermi-surface-topology-and-lifshitz-transitions.md) | TB-REQ-009 | proposed |
-| TBQ-010 | [Bloch and finite-real-space spectral agreement](02-bands-dos-fermiology/tbq-010-bloch-and-finite-real-space-spectral-agreement.md) | TB-REQ-010 | proposed |
+| TBQ-010 | [Bloch and finite-real-space spectral agreement](02-bands-dos-fermiology/tbq-010-bloch-and-finite-real-space-spectral-agreement.md) | TB-REQ-010 | executable |
 
 ### Suite 03 — Magnetic fields, Landau fans, and Hofstadter physics
 
 | ID | Scientific problem | Source requirement | Status |
 | --- | --- | --- | --- |
-| TBQ-011 | [Gauge-covariant Peierls substitution](03-magnetic-flux-hofstadter/tbq-011-gauge-covariant-peierls-substitution.md) | TB-REQ-011 | proposed |
-| TBQ-012 | [Magnetic translation and minimal unit cell](03-magnetic-flux-hofstadter/tbq-012-magnetic-translation-and-minimal-unit-cell.md) | TB-REQ-012 | proposed |
-| TBQ-013 | [Hofstadter gap topology and Streda consistency](03-magnetic-flux-hofstadter/tbq-013-hofstadter-gap-topology-and-streda-consistency.md) | TB-REQ-013 | proposed |
+| TBQ-011 | [Gauge-covariant Peierls substitution](03-magnetic-flux-hofstadter/tbq-011-gauge-covariant-peierls-substitution.md) | TB-REQ-011 | executable |
+| TBQ-012 | [Magnetic translation and minimal unit cell](03-magnetic-flux-hofstadter/tbq-012-magnetic-translation-and-minimal-unit-cell.md) | TB-REQ-012 | executable |
+| TBQ-013 | [Hofstadter gap topology and Streda consistency](03-magnetic-flux-hofstadter/tbq-013-hofstadter-gap-topology-and-streda-consistency.md) | TB-REQ-013 | executable |
 | TBQ-014 | [Low-field Landau-level correspondence](03-magnetic-flux-hofstadter/tbq-014-low-field-landau-level-correspondence.md) | TB-REQ-014 | proposed |
 | TBQ-015 | [Rational-approximant convergence](03-magnetic-flux-hofstadter/tbq-015-rational-approximant-convergence.md) | TB-REQ-015 | proposed |
 
@@ -62,7 +65,7 @@ status.
 | TBQ-016 | [Gauge-invariant bulk indices](04-bulk-topology/tbq-016-gauge-invariant-bulk-indices.md) | TB-REQ-016 | proposed |
 | TBQ-017 | [Topological phase-boundary localization](04-bulk-topology/tbq-017-topological-phase-boundary-localization.md) | TB-REQ-017 | proposed |
 | TBQ-018 | [Degeneracy-safe Wilson and nested Wilson flow](04-bulk-topology/tbq-018-degeneracy-safe-wilson-and-nested-wilson-flow.md) | TB-REQ-018 | proposed |
-| TBQ-019 | [Agreement of independent topological diagnostics](04-bulk-topology/tbq-019-agreement-of-independent-topological-diagnostics.md) | TB-REQ-019 | proposed |
+| TBQ-019 | [Agreement of independent topological diagnostics](04-bulk-topology/tbq-019-agreement-of-independent-topological-diagnostics.md) | TB-REQ-019 | executable |
 | TBQ-020 | [Trivial, nearly gapless, and basis-adversarial controls](04-bulk-topology/tbq-020-trivial-nearly-gapless-and-basis-adversarial-controls.md) | TB-REQ-020 | proposed |
 
 ### Suite 05 — Boundaries, higher-order topology, and bulk-boundary relations
@@ -70,7 +73,7 @@ status.
 | ID | Scientific problem | Source requirement | Status |
 | --- | --- | --- | --- |
 | TBQ-021 | [Termination families from one bulk model](05-boundaries-bulk-boundary/tbq-021-termination-families-from-one-bulk-model.md) | TB-REQ-021 | proposed |
-| TBQ-022 | [Boundary-state localization and finite-size splitting](05-boundaries-bulk-boundary/tbq-022-boundary-state-localization-and-finite-size-splitting.md) | TB-REQ-022 | proposed |
+| TBQ-022 | [Boundary-state localization and finite-size splitting](05-boundaries-bulk-boundary/tbq-022-boundary-state-localization-and-finite-size-splitting.md) | TB-REQ-022 | executable |
 | TBQ-023 | [Finite-spectrum and surface-Green-function agreement](05-boundaries-bulk-boundary/tbq-023-finite-spectrum-and-surface-green-function-agreement.md) | TB-REQ-023 | proposed |
 | TBQ-024 | [Conditional bulk-boundary correspondence](05-boundaries-bulk-boundary/tbq-024-conditional-bulk-boundary-correspondence.md) | TB-REQ-024 | proposed |
 | TBQ-025 | [Geometry-family generalization](05-boundaries-bulk-boundary/tbq-025-geometry-family-generalization.md) | TB-REQ-025 | proposed |
@@ -99,7 +102,7 @@ status.
 
 | ID | Scientific problem | Source requirement | Status |
 | --- | --- | --- | --- |
-| TBQ-036 | [Lead modes and self-energy calibration](08-open-transport/tbq-036-lead-modes-and-self-energy-calibration.md) | TB-REQ-036 | proposed |
+| TBQ-036 | [Lead modes and self-energy calibration](08-open-transport/tbq-036-lead-modes-and-self-energy-calibration.md) | TB-REQ-036 | executable |
 | TBQ-037 | [Scattering conservation and local continuity](08-open-transport/tbq-037-scattering-conservation-and-local-continuity.md) | TB-REQ-037 | proposed |
 | TBQ-038 | [Transmission, local density, and finite-temperature noise](08-open-transport/tbq-038-transmission-local-density-and-finite-temperature-noise.md) | TB-REQ-038 | proposed |
 | TBQ-039 | [Numerical stability for long evanescent devices](08-open-transport/tbq-039-numerical-stability-for-long-evanescent-devices.md) | TB-REQ-039 | proposed |
@@ -109,9 +112,9 @@ status.
 
 | ID | Scientific problem | Source requirement | Status |
 | --- | --- | --- | --- |
-| TBQ-041 | [Nambu convention and particle-hole symmetry](09-superconducting-bdg/tbq-041-nambu-convention-and-particle-hole-symmetry.md) | TB-REQ-041 | proposed |
-| TBQ-042 | [Phase-resolved Andreev spectrum and Josephson current](09-superconducting-bdg/tbq-042-phase-resolved-andreev-spectrum-and-josephson-current.md) | TB-REQ-042 | proposed |
-| TBQ-043 | [Majorana versus trivial near-zero modes](09-superconducting-bdg/tbq-043-majorana-versus-trivial-near-zero-modes.md) | TB-REQ-043 | proposed |
+| TBQ-041 | [Nambu convention and particle-hole symmetry](09-superconducting-bdg/tbq-041-nambu-convention-and-particle-hole-symmetry.md) | TB-REQ-041 | executable |
+| TBQ-042 | [Phase-resolved Andreev spectrum and Josephson current](09-superconducting-bdg/tbq-042-phase-resolved-andreev-spectrum-and-josephson-current.md) | TB-REQ-042 | executable |
+| TBQ-043 | [Majorana versus trivial near-zero modes](09-superconducting-bdg/tbq-043-majorana-versus-trivial-near-zero-modes.md) | TB-REQ-043 | executable |
 | TBQ-044 | [Fragility of four-pi Josephson response](09-superconducting-bdg/tbq-044-fragility-of-four-pi-josephson-response.md) | TB-REQ-044 | proposed |
 | TBQ-045 | [Continuum-to-lattice BdG convergence](09-superconducting-bdg/tbq-045-continuum-to-lattice-bdg-convergence.md) | TB-REQ-045 | proposed |
 
@@ -159,7 +162,7 @@ status.
 
 | ID | Scientific problem | Source requirement | Status |
 | --- | --- | --- | --- |
-| TBQ-066 | [Spinor texture construction and covariance](14-magnetism-spin-orbital/tbq-066-spinor-texture-construction-and-covariance.md) | TB-REQ-066 | proposed |
+| TBQ-066 | [Spinor texture construction and covariance](14-magnetism-spin-orbital/tbq-066-spinor-texture-construction-and-covariance.md) | TB-REQ-066 | executable |
 | TBQ-067 | [Charge, spin, orbital-current, and torque continuity](14-magnetism-spin-orbital/tbq-067-charge-spin-orbital-current-and-torque-continuity.md) | TB-REQ-067 | proposed |
 | TBQ-068 | [Mechanism-resolved Hall response](14-magnetism-spin-orbital/tbq-068-mechanism-resolved-hall-response.md) | TB-REQ-068 | proposed |
 | TBQ-069 | [Texture-resolution and adiabatic convergence](14-magnetism-spin-orbital/tbq-069-texture-resolution-and-adiabatic-convergence.md) | TB-REQ-069 | proposed |

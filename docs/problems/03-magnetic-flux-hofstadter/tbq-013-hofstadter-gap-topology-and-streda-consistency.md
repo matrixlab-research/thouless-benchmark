@@ -2,7 +2,7 @@
 id: TBQ-013
 suite: 03-magnetic-flux-hofstadter
 source_requirement: TB-REQ-013
-status: proposed
+status: executable
 acceptance_class: exact
 lkm_snapshot: 2026-07-27
 ---
@@ -74,5 +74,7 @@ loops.
 
 ## Implementation status
 
-`proposed`: this document specifies a scientific problem but does not claim that any
-backend currently passes it. [`transport_quantum_hall_strip`](../../../benchmark/cases.json) is related, but does not by itself establish full coverage of this specification.
+`executable`: [`domain_magnetic_hofstadter`](../../../benchmark/domain_cases.json)
+passes with native Thouless, original PythTB, and original Kwant. The backend-level
+witnesses and remaining gaps are recorded in
+[`benchmark/problem_coverage.json`](../../../benchmark/problem_coverage.json).

@@ -15,9 +15,11 @@ jobs:
       - run: python -m pip install --upgrade pip
       - run: python -m pip install -e ".[test]"
       - run: python tools/check_manifest.py
+      - run: python tools/build_problem_coverage.py --check
       - run: python tools/check_problem_docs.py
       - run: python tools/coverage_report.py
       - run: python tools/check_results.py results/verified/2026-07-26-implemented.json
+      - run: python tools/check_domain_results.py results/verified/2026-07-27-domain.json
       - run: python -m pytest
 
   pythtb:
@@ -45,6 +47,10 @@ jobs:
       - run: python backends/pythtb/run.py boundary_haldane_ribbon_flow
       - run: python backends/pythtb/run.py boundary_graphene_terminations
       - run: python backends/pythtb/run.py boundary_bbh_corner_modes
+      - run: python backends/pythtb/run.py domain_spectral_reliability
+      - run: python backends/pythtb/run.py domain_magnetic_hofstadter
+      - run: python backends/pythtb/run.py domain_bdg_majorana
+      - run: python backends/pythtb/run.py domain_spin_texture_covariance
 
   kwant:
     runs-on: ubuntu-latest
@@ -78,6 +84,11 @@ jobs:
       - run: python backends/kwant/run.py transport_resonant_level
       - run: python backends/kwant/run.py transport_aharonov_bohm_ring
       - run: python backends/kwant/run.py transport_quantum_hall_strip
+      - run: python backends/kwant/run.py domain_spectral_reliability
+      - run: python backends/kwant/run.py domain_magnetic_hofstadter
+      - run: python backends/kwant/run.py domain_bdg_majorana
+      - run: python backends/kwant/run.py domain_lead_calibration
+      - run: python backends/kwant/run.py domain_spin_texture_covariance
 
   thouless:
     runs-on: ubuntu-latest
@@ -104,3 +115,8 @@ jobs:
       - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- transport_resonant_level
       - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- transport_aharonov_bohm_ring
       - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- transport_quantum_hall_strip
+      - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- domain_spectral_reliability
+      - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- domain_magnetic_hofstadter
+      - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- domain_bdg_majorana
+      - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- domain_lead_calibration
+      - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- domain_spin_texture_covariance

@@ -21,6 +21,16 @@ def main() -> None:
         print(f"{backend}: {len(implemented)}/{len(applicable)} implemented; {len(gaps)} gaps")
         for case_id in gaps:
             print(f"  - {case_id}")
+    domain = json.loads(
+        (ROOT / "benchmark" / "problem_coverage.json").read_text()
+    )["summary"]
+    print("whole-problem domain coverage:")
+    for backend in ("thouless", "pythtb", "kwant"):
+        item = domain[backend]
+        print(
+            f"{backend}: {item['implemented']}/100 implemented; "
+            f"{item['partial']} partial; {item['not_applicable']} not applicable"
+        )
 
 
 if __name__ == "__main__":

@@ -1,6 +1,6 @@
 # Thouless benchmark
 
-Twenty LKM-motivated, executable tight-binding workflows comparing native
+Twenty-five LKM-motivated, executable tight-binding workflows comparing native
 [Thouless](https://github.com/matrixlab-research/thouless) Rust with the
 original PythTB 2.0 and Kwant 1.5 packages.
 
@@ -17,10 +17,11 @@ not claims to reproduce those papers.
 | Bulk bands and topology | 12 | Thouless, PythTB, and Kwant where applicable |
 | Finite boundaries | 4 | Thouless, PythTB, and Kwant |
 | Open-system transport | 4 | Thouless and Kwant; PythTB is not a transport solver |
+| Whole-problem domain witnesses | 5 | Backend applicability is explicit |
 
-The manifest is [`benchmark/cases.json`](benchmark/cases.json). It is the
-canonical list of questions, parameters, applicability, observables,
-tolerances, and provenance.
+The original manifest is [`benchmark/cases.json`](benchmark/cases.json).
+Whole-problem witnesses are frozen in
+[`benchmark/domain_cases.json`](benchmark/domain_cases.json).
 
 ## Domain problem catalog
 
@@ -35,10 +36,12 @@ with:
 - acceptance, convergence, and held-out-family rules; and
 - LKM and paper provenance.
 
-These documents define candidate benchmark problems before API design. They
-are all marked `proposed`; the twenty cases in `benchmark/cases.json` remain
-the only currently executable benchmark set. A link from a proposed problem
-to an executable case indicates scientific proximity, not full coverage.
+These documents define benchmark problems before API design. Thirteen are now
+marked `executable`; eighty-seven remain `proposed`. The canonical
+[100-question by three-backend audit](benchmark/problem_coverage.json)
+distinguishes complete implementation, partial capability, and scientific
+non-applicability. A related model or single observable is not counted as a
+whole-problem implementation.
 
 ## Comparison policy
 
@@ -51,13 +54,12 @@ to an executable case indicates scientific proximity, not full coverage.
   environment. The repository rejects imports from a Thouless compatibility
   tree.
 - Thouless is executed as a Rust binary pinned to an exact Git commit.
-- Wall-clock and memory measurements are descriptive. CI does not assert that
-  one backend must be faster.
+- Timing measurements are descriptive. CI does not assert that one backend
+  must be faster.
 
 ## Status
 
-The repository deliberately reports specification and implementation coverage
-separately:
+The original twenty-case seed remains fully implemented:
 
 | Backend | Implemented | Applicable | Remaining |
 |---|---:|---:|---:|
@@ -75,6 +77,40 @@ pass their analytic or invariant-based checks. See
 [`benchmark/implementation.json`](benchmark/implementation.json) and
 `python tools/coverage_report.py`.
 
+Strict whole-problem coverage of the 100-question catalog is:
+
+| Backend | Implemented | Partial | Not applicable | Raw coverage |
+|---|---:|---:|---:|---:|
+| Thouless native Rust | 13 | 71 | 16 | 13% |
+| Original PythTB 2.0.0 | 12 | 44 | 44 | 12% |
+| Original Kwant 1.5.0 | 13 | 61 | 26 | 13% |
+
+The five domain witnesses cover degeneracy-safe projectors and DOS state
+counting, Bloch-to-finite spectral convergence, Peierls gauge covariance and
+Hofstadter topology, BdG/Andreev/Majorana physics, analytic lead calibration,
+and spin-texture covariance. `Partial` is a recorded gap, not coverage.
+
+## Same-machine timing
+
+The verified domain result contains seven repetitions per backend-case on one
+arm64 macOS machine. Kernel time excludes import and process startup; process
+wall time includes both. The table reports median kernel milliseconds:
+
+| Workflow | PythTB | Kwant | Thouless |
+|---|---:|---:|---:|
+| Spectral reliability | 716.10 | 207.42 | 20.96 |
+| Magnetic Hofstadter | 78.99 | 162.71 | 1.42 |
+| BdG and Majorana | 14.50 | 40.21 | 1.52 |
+| Lead calibration | not applicable | 10.89 | 0.14 |
+| Spin-texture covariance | 11.60 | 10.06 | 4.48 |
+
+Median process-wall ranges are 294–991 ms for PythTB, 524–735 ms for Kwant,
+and 2.6–24.3 ms for Thouless. These numbers describe these complete adapters,
+including their model-assembly choices; they are not isolated eigensolver
+microbenchmarks. The local Kwant environment used SciPy's solver because MUMPS
+was unavailable. See the
+[raw repeated result](results/verified/2026-07-27-domain.json).
+
 PythTB 2.0 requires NumPy 2, while Kwant 1.5 currently builds against NumPy
 1.26. They therefore run in separate environments. Combining both into one
 Python environment is not a supported benchmark configuration.
@@ -90,6 +126,8 @@ uv pip install --python .venv-kwant/bin/python --no-build-isolation \
   tinyarray==1.2.5 kwant==1.5.0
 uv pip install --python .venv-kwant/bin/python --no-deps -e .
 python tools/collect_seed.py
+python tools/collect_domain_results.py
+python tools/build_problem_coverage.py --check
 python tools/check_problem_docs.py
 ```
 

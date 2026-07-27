@@ -2,7 +2,7 @@
 id: TBQ-019
 suite: 04-bulk-topology
 source_requirement: TB-REQ-019
-status: proposed
+status: executable
 acceptance_class: exact
 lkm_snapshot: 2026-07-27
 ---
@@ -75,5 +75,8 @@ Suite-wide isolation rule: Hold out a symmetry class, a nearly closed gap, and a
 
 ## Implementation status
 
-`proposed`: this document specifies a scientific problem but does not claim that any
-backend currently passes it. [`bulk_bbh_nested_wilson`](../../../benchmark/cases.json) is related, but does not by itself establish full coverage of this specification.
+`executable`: the matched Haldane
+[`bulk_haldane_chern_transition`](../../../benchmark/cases.json) and
+[`boundary_haldane_ribbon_flow`](../../../benchmark/cases.json) witnesses pass with
+native Thouless, original PythTB, and original Kwant. The backend-level evidence is
+recorded in [`benchmark/problem_coverage.json`](../../../benchmark/problem_coverage.json).

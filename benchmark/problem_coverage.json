@@ -1,0 +1,2418 @@
+{
+  "policy": {
+    "implemented": "all required claims have executable package-backed witnesses and passing gates",
+    "not_applicable": "the required end-to-end scientific workflow is outside the package scope",
+    "partial": "relevant package capability exists but the complete problem is not yet witnessed",
+    "public_is_not_held_out": true,
+    "shared_postprocessing": "allowed only after the named backend constructs the Hamiltonian",
+    "unit": "whole scientific problem"
+  },
+  "problems": [
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The complete required workflow lies outside original Kwant 1.5: its static scattering and sparse-system APIs do not supply the required Wannier, non-Hermitian-topology, real-time, self-consistent, optical, thermoelectric, or inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The pinned native Thouless revision does not supply the required generalized-overlap, real-time Floquet, interacting self-consistency, or parameter-inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/01-model-construction/tbq-001-basis-and-generalized-hermiticity-fidelity.md",
+      "id": "TBQ-001",
+      "suite": "01-model-construction",
+      "title": "Basis and generalized-Hermiticity fidelity"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The complete required workflow lies outside original Kwant 1.5: its static scattering and sparse-system APIs do not supply the required Wannier, non-Hermitian-topology, real-time, self-consistent, optical, thermoelectric, or inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-002.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-002.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/01-model-construction/tbq-002-energy-window-and-subspace-fidelity.md",
+      "id": "TBQ-002",
+      "suite": "01-model-construction",
+      "title": "Energy-window and subspace fidelity"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-003.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-003.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-003.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/01-model-construction/tbq-003-controlled-hopping-truncation.md",
+      "id": "TBQ-003",
+      "suite": "01-model-construction",
+      "title": "Controlled hopping truncation"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-004.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-004.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-004.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/01-model-construction/tbq-004-symmetry-preservation-and-negative-controls.md",
+      "id": "TBQ-004",
+      "suite": "01-model-construction",
+      "title": "Symmetry preservation and negative controls"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-005.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-005.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-005.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/01-model-construction/tbq-005-transfer-beyond-fitted-structures.md",
+      "id": "TBQ-005",
+      "suite": "01-model-construction",
+      "title": "Transfer beyond fitted structures"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "domain_spectral_reliability"
+          ]
+        },
+        "pythtb": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "domain_spectral_reliability"
+          ]
+        },
+        "thouless": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "domain_spectral_reliability"
+          ]
+        }
+      },
+      "document": "problems/02-bands-dos-fermiology/tbq-006-degeneracy-safe-band-projectors.md",
+      "id": "TBQ-006",
+      "suite": "02-bands-dos-fermiology",
+      "title": "Degeneracy-safe band projectors"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "domain_spectral_reliability"
+          ]
+        },
+        "pythtb": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "domain_spectral_reliability"
+          ]
+        },
+        "thouless": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "domain_spectral_reliability"
+          ]
+        }
+      },
+      "document": "problems/02-bands-dos-fermiology/tbq-007-density-of-states-state-counting.md",
+      "id": "TBQ-007",
+      "suite": "02-bands-dos-fermiology",
+      "title": "Density-of-states state counting"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-008.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-008.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-008.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/02-bands-dos-fermiology/tbq-008-van-hove-and-flat-band-feature-resolution.md",
+      "id": "TBQ-008",
+      "suite": "02-bands-dos-fermiology",
+      "title": "Van Hove and flat-band feature resolution"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-009.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-009.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-009.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/02-bands-dos-fermiology/tbq-009-fermi-surface-topology-and-lifshitz-transitions.md",
+      "id": "TBQ-009",
+      "suite": "02-bands-dos-fermiology",
+      "title": "Fermi-surface topology and Lifshitz transitions"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "domain_spectral_reliability"
+          ]
+        },
+        "pythtb": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "domain_spectral_reliability"
+          ]
+        },
+        "thouless": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "domain_spectral_reliability"
+          ]
+        }
+      },
+      "document": "problems/02-bands-dos-fermiology/tbq-010-bloch-and-finite-real-space-spectral-agreement.md",
+      "id": "TBQ-010",
+      "suite": "02-bands-dos-fermiology",
+      "title": "Bloch and finite-real-space spectral agreement"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "domain_magnetic_hofstadter"
+          ]
+        },
+        "pythtb": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "domain_magnetic_hofstadter"
+          ]
+        },
+        "thouless": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "domain_magnetic_hofstadter"
+          ]
+        }
+      },
+      "document": "problems/03-magnetic-flux-hofstadter/tbq-011-gauge-covariant-peierls-substitution.md",
+      "id": "TBQ-011",
+      "suite": "03-magnetic-flux-hofstadter",
+      "title": "Gauge-covariant Peierls substitution"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "domain_magnetic_hofstadter"
+          ]
+        },
+        "pythtb": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "domain_magnetic_hofstadter"
+          ]
+        },
+        "thouless": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "domain_magnetic_hofstadter"
+          ]
+        }
+      },
+      "document": "problems/03-magnetic-flux-hofstadter/tbq-012-magnetic-translation-and-minimal-unit-cell.md",
+      "id": "TBQ-012",
+      "suite": "03-magnetic-flux-hofstadter",
+      "title": "Magnetic translation and minimal unit cell"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "domain_magnetic_hofstadter"
+          ]
+        },
+        "pythtb": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "domain_magnetic_hofstadter"
+          ]
+        },
+        "thouless": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "domain_magnetic_hofstadter"
+          ]
+        }
+      },
+      "document": "problems/03-magnetic-flux-hofstadter/tbq-013-hofstadter-gap-topology-and-streda-consistency.md",
+      "id": "TBQ-013",
+      "suite": "03-magnetic-flux-hofstadter",
+      "title": "Hofstadter gap topology and Streda consistency"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-014.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-014.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-014.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/03-magnetic-flux-hofstadter/tbq-014-low-field-landau-level-correspondence.md",
+      "id": "TBQ-014",
+      "suite": "03-magnetic-flux-hofstadter",
+      "title": "Low-field Landau-level correspondence"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-015.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-015.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-015.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/03-magnetic-flux-hofstadter/tbq-015-rational-approximant-convergence.md",
+      "id": "TBQ-015",
+      "suite": "03-magnetic-flux-hofstadter",
+      "title": "Rational-approximant convergence"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-016.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-016.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-016.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/04-bulk-topology/tbq-016-gauge-invariant-bulk-indices.md",
+      "id": "TBQ-016",
+      "suite": "04-bulk-topology",
+      "title": "Gauge-invariant bulk indices"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-017.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-017.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-017.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/04-bulk-topology/tbq-017-topological-phase-boundary-localization.md",
+      "id": "TBQ-017",
+      "suite": "04-bulk-topology",
+      "title": "Topological phase-boundary localization"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-018.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-018.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-018.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/04-bulk-topology/tbq-018-degeneracy-safe-wilson-and-nested-wilson-flow.md",
+      "id": "TBQ-018",
+      "suite": "04-bulk-topology",
+      "title": "Degeneracy-safe Wilson and nested Wilson flow"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "bulk_haldane_chern_transition",
+            "boundary_haldane_ribbon_flow"
+          ]
+        },
+        "pythtb": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "bulk_haldane_chern_transition",
+            "boundary_haldane_ribbon_flow"
+          ]
+        },
+        "thouless": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "bulk_haldane_chern_transition",
+            "boundary_haldane_ribbon_flow"
+          ]
+        }
+      },
+      "document": "problems/04-bulk-topology/tbq-019-agreement-of-independent-topological-diagnostics.md",
+      "id": "TBQ-019",
+      "suite": "04-bulk-topology",
+      "title": "Agreement of independent topological diagnostics"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-020.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-020.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-020.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/04-bulk-topology/tbq-020-trivial-nearly-gapless-and-basis-adversarial-controls.md",
+      "id": "TBQ-020",
+      "suite": "04-bulk-topology",
+      "title": "Trivial, nearly gapless, and basis-adversarial controls"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-021.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-021.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-021.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/05-boundaries-bulk-boundary/tbq-021-termination-families-from-one-bulk-model.md",
+      "id": "TBQ-021",
+      "suite": "05-boundaries-bulk-boundary",
+      "title": "Termination families from one bulk model"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "boundary_ssh_edge_localization"
+          ]
+        },
+        "pythtb": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "boundary_ssh_edge_localization"
+          ]
+        },
+        "thouless": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "boundary_ssh_edge_localization"
+          ]
+        }
+      },
+      "document": "problems/05-boundaries-bulk-boundary/tbq-022-boundary-state-localization-and-finite-size-splitting.md",
+      "id": "TBQ-022",
+      "suite": "05-boundaries-bulk-boundary",
+      "title": "Boundary-state localization and finite-size splitting"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-023.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-023.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/05-boundaries-bulk-boundary/tbq-023-finite-spectrum-and-surface-green-function-agreement.md",
+      "id": "TBQ-023",
+      "suite": "05-boundaries-bulk-boundary",
+      "title": "Finite-spectrum and surface-Green-function agreement"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-024.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-024.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-024.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/05-boundaries-bulk-boundary/tbq-024-conditional-bulk-boundary-correspondence.md",
+      "id": "TBQ-024",
+      "suite": "05-boundaries-bulk-boundary",
+      "title": "Conditional bulk-boundary correspondence"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-025.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-025.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-025.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/05-boundaries-bulk-boundary/tbq-025-geometry-family-generalization.md",
+      "id": "TBQ-025",
+      "suite": "05-boundaries-bulk-boundary",
+      "title": "Geometry-family generalization"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-026.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-026.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-026.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/06-quantum-geometry-response/tbq-026-gauge-covariance-of-geometric-tensors.md",
+      "id": "TBQ-026",
+      "suite": "06-quantum-geometry-response",
+      "title": "Gauge covariance of geometric tensors"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-027.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-027.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-027.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/06-quantum-geometry-response/tbq-027-competing-nonlinear-hall-mechanisms.md",
+      "id": "TBQ-027",
+      "suite": "06-quantum-geometry-response",
+      "title": "Competing nonlinear Hall mechanisms"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-028.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-028.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-028.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/06-quantum-geometry-response/tbq-028-symmetry-forbidden-nonlinear-tensor-components.md",
+      "id": "TBQ-028",
+      "suite": "06-quantum-geometry-response",
+      "title": "Symmetry-forbidden nonlinear tensor components"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-029.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-029.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-029.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/06-quantum-geometry-response/tbq-029-fermi-surface-and-derivative-convergence.md",
+      "id": "TBQ-029",
+      "suite": "06-quantum-geometry-response",
+      "title": "Fermi-surface and derivative convergence"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-030.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-030.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/06-quantum-geometry-response/tbq-030-zero-chern-nonlinear-bulk-boundary-workflow.md",
+      "id": "TBQ-030",
+      "suite": "06-quantum-geometry-response",
+      "title": "Zero-Chern nonlinear bulk-boundary workflow"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-031.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-031.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-031.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/07-disorder-localization/tbq-031-reproducible-disorder-ensembles.md",
+      "id": "TBQ-031",
+      "suite": "07-disorder-localization",
+      "title": "Reproducible disorder ensembles"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-032.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-032.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-032.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/07-disorder-localization/tbq-032-cross-observable-localization-diagnosis.md",
+      "id": "TBQ-032",
+      "suite": "07-disorder-localization",
+      "title": "Cross-observable localization diagnosis"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-033.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-033.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-033.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/07-disorder-localization/tbq-033-finite-size-scaling-of-mobility-edges.md",
+      "id": "TBQ-033",
+      "suite": "07-disorder-localization",
+      "title": "Finite-size scaling of mobility edges"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-034.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-034.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-034.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/07-disorder-localization/tbq-034-topological-mobility-gap.md",
+      "id": "TBQ-034",
+      "suite": "07-disorder-localization",
+      "title": "Topological mobility gap"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-035.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-035.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-035.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/07-disorder-localization/tbq-035-statistical-generalization-across-disorder-families.md",
+      "id": "TBQ-035",
+      "suite": "07-disorder-localization",
+      "title": "Statistical generalization across disorder families"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "domain_lead_calibration"
+          ]
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "domain_lead_calibration"
+          ]
+        }
+      },
+      "document": "problems/08-open-transport/tbq-036-lead-modes-and-self-energy-calibration.md",
+      "id": "TBQ-036",
+      "suite": "08-open-transport",
+      "title": "Lead modes and self-energy calibration"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-037.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-037.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/08-open-transport/tbq-037-scattering-conservation-and-local-continuity.md",
+      "id": "TBQ-037",
+      "suite": "08-open-transport",
+      "title": "Scattering conservation and local continuity"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-038.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-038.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/08-open-transport/tbq-038-transmission-local-density-and-finite-temperature-noise.md",
+      "id": "TBQ-038",
+      "suite": "08-open-transport",
+      "title": "Transmission, local density, and finite-temperature noise"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-039.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-039.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/08-open-transport/tbq-039-numerical-stability-for-long-evanescent-devices.md",
+      "id": "TBQ-039",
+      "suite": "08-open-transport",
+      "title": "Numerical stability for long evanescent devices"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-040.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-040.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/08-open-transport/tbq-040-generalization-across-contact-families.md",
+      "id": "TBQ-040",
+      "suite": "08-open-transport",
+      "title": "Generalization across contact families"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "domain_bdg_majorana"
+          ]
+        },
+        "pythtb": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "domain_bdg_majorana"
+          ]
+        },
+        "thouless": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "domain_bdg_majorana"
+          ]
+        }
+      },
+      "document": "problems/09-superconducting-bdg/tbq-041-nambu-convention-and-particle-hole-symmetry.md",
+      "id": "TBQ-041",
+      "suite": "09-superconducting-bdg",
+      "title": "Nambu convention and particle-hole symmetry"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "domain_bdg_majorana"
+          ]
+        },
+        "pythtb": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "domain_bdg_majorana"
+          ]
+        },
+        "thouless": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "domain_bdg_majorana"
+          ]
+        }
+      },
+      "document": "problems/09-superconducting-bdg/tbq-042-phase-resolved-andreev-spectrum-and-josephson-current.md",
+      "id": "TBQ-042",
+      "suite": "09-superconducting-bdg",
+      "title": "Phase-resolved Andreev spectrum and Josephson current"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "domain_bdg_majorana"
+          ]
+        },
+        "pythtb": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "domain_bdg_majorana"
+          ]
+        },
+        "thouless": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "domain_bdg_majorana"
+          ]
+        }
+      },
+      "document": "problems/09-superconducting-bdg/tbq-043-majorana-versus-trivial-near-zero-modes.md",
+      "id": "TBQ-043",
+      "suite": "09-superconducting-bdg",
+      "title": "Majorana versus trivial near-zero modes"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The complete required workflow lies outside original Kwant 1.5: its static scattering and sparse-system APIs do not supply the required Wannier, non-Hermitian-topology, real-time, self-consistent, optical, thermoelectric, or inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-044.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/09-superconducting-bdg/tbq-044-fragility-of-four-pi-josephson-response.md",
+      "id": "TBQ-044",
+      "suite": "09-superconducting-bdg",
+      "title": "Fragility of four-pi Josephson response"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The complete required workflow lies outside original Kwant 1.5: its static scattering and sparse-system APIs do not supply the required Wannier, non-Hermitian-topology, real-time, self-consistent, optical, thermoelectric, or inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-045.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/09-superconducting-bdg/tbq-045-continuum-to-lattice-bdg-convergence.md",
+      "id": "TBQ-045",
+      "suite": "09-superconducting-bdg",
+      "title": "Continuum-to-lattice BdG convergence"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The complete required workflow lies outside original Kwant 1.5: its static scattering and sparse-system APIs do not supply the required Wannier, non-Hermitian-topology, real-time, self-consistent, optical, thermoelectric, or inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-046.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/10-non-hermitian/tbq-046-biorthogonal-eigenvectors-and-residuals.md",
+      "id": "TBQ-046",
+      "suite": "10-non-hermitian",
+      "title": "Biorthogonal eigenvectors and residuals"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The complete required workflow lies outside original Kwant 1.5: its static scattering and sparse-system APIs do not supply the required Wannier, non-Hermitian-topology, real-time, self-consistent, optical, thermoelectric, or inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-047.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/10-non-hermitian/tbq-047-exceptional-point-order-and-sensitivity.md",
+      "id": "TBQ-047",
+      "suite": "10-non-hermitian",
+      "title": "Exceptional-point order and sensitivity"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The complete required workflow lies outside original Kwant 1.5: its static scattering and sparse-system APIs do not supply the required Wannier, non-Hermitian-topology, real-time, self-consistent, optical, thermoelectric, or inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-048.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/10-non-hermitian/tbq-048-point-gap-line-gap-and-non-bloch-invariants.md",
+      "id": "TBQ-048",
+      "suite": "10-non-hermitian",
+      "title": "Point-gap, line-gap, and non-Bloch invariants"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The complete required workflow lies outside original Kwant 1.5: its static scattering and sparse-system APIs do not supply the required Wannier, non-Hermitian-topology, real-time, self-consistent, optical, thermoelectric, or inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-049.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/10-non-hermitian/tbq-049-periodic-open-mismatch-and-skin-localization.md",
+      "id": "TBQ-049",
+      "suite": "10-non-hermitian",
+      "title": "Periodic-open mismatch and skin localization"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The complete required workflow lies outside original Kwant 1.5: its static scattering and sparse-system APIs do not supply the required Wannier, non-Hermitian-topology, real-time, self-consistent, optical, thermoelectric, or inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-050.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/10-non-hermitian/tbq-050-non-hermitian-family-generalization.md",
+      "id": "TBQ-050",
+      "suite": "10-non-hermitian",
+      "title": "Non-Hermitian family generalization"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The complete required workflow lies outside original Kwant 1.5: its static scattering and sparse-system APIs do not supply the required Wannier, non-Hermitian-topology, real-time, self-consistent, optical, thermoelectric, or inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The pinned native Thouless revision does not supply the required generalized-overlap, real-time Floquet, interacting self-consistency, or parameter-inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/11-floquet-dynamics/tbq-051-equivalent-representations-of-a-drive.md",
+      "id": "TBQ-051",
+      "suite": "11-floquet-dynamics",
+      "title": "Equivalent representations of a drive"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The complete required workflow lies outside original Kwant 1.5: its static scattering and sparse-system APIs do not supply the required Wannier, non-Hermitian-topology, real-time, self-consistent, optical, thermoelectric, or inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The pinned native Thouless revision does not supply the required generalized-overlap, real-time Floquet, interacting self-consistency, or parameter-inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/11-floquet-dynamics/tbq-052-quasienergy-branch-and-time-origin-consistency.md",
+      "id": "TBQ-052",
+      "suite": "11-floquet-dynamics",
+      "title": "Quasienergy branch and time-origin consistency"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The complete required workflow lies outside original Kwant 1.5: its static scattering and sparse-system APIs do not supply the required Wannier, non-Hermitian-topology, real-time, self-consistent, optical, thermoelectric, or inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The pinned native Thouless revision does not supply the required generalized-overlap, real-time Floquet, interacting self-consistency, or parameter-inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/11-floquet-dynamics/tbq-053-sambe-direct-propagation-and-high-frequency-agreement.md",
+      "id": "TBQ-053",
+      "suite": "11-floquet-dynamics",
+      "title": "Sambe, direct-propagation, and high-frequency agreement"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The complete required workflow lies outside original Kwant 1.5: its static scattering and sparse-system APIs do not supply the required Wannier, non-Hermitian-topology, real-time, self-consistent, optical, thermoelectric, or inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The pinned native Thouless revision does not supply the required generalized-overlap, real-time Floquet, interacting self-consistency, or parameter-inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/11-floquet-dynamics/tbq-054-dynamical-pumping-and-frequency-conversion.md",
+      "id": "TBQ-054",
+      "suite": "11-floquet-dynamics",
+      "title": "Dynamical pumping and frequency conversion"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The complete required workflow lies outside original Kwant 1.5: its static scattering and sparse-system APIs do not supply the required Wannier, non-Hermitian-topology, real-time, self-consistent, optical, thermoelectric, or inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The pinned native Thouless revision does not supply the required generalized-overlap, real-time Floquet, interacting self-consistency, or parameter-inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/11-floquet-dynamics/tbq-055-time-step-and-harmonic-cutoff-holdout.md",
+      "id": "TBQ-055",
+      "suite": "11-floquet-dynamics",
+      "title": "Time-step and harmonic-cutoff holdout"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The complete required workflow lies outside original Kwant 1.5: its static scattering and sparse-system APIs do not supply the required Wannier, non-Hermitian-topology, real-time, self-consistent, optical, thermoelectric, or inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The pinned native Thouless revision does not supply the required generalized-overlap, real-time Floquet, interacting self-consistency, or parameter-inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/12-interactions-self-consistency/tbq-056-interaction-and-double-counting-declaration.md",
+      "id": "TBQ-056",
+      "suite": "12-interactions-self-consistency",
+      "title": "Interaction and double-counting declaration"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The complete required workflow lies outside original Kwant 1.5: its static scattering and sparse-system APIs do not supply the required Wannier, non-Hermitian-topology, real-time, self-consistent, optical, thermoelectric, or inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The pinned native Thouless revision does not supply the required generalized-overlap, real-time Floquet, interacting self-consistency, or parameter-inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/12-interactions-self-consistency/tbq-057-self-consistency-robustness-and-metastability.md",
+      "id": "TBQ-057",
+      "suite": "12-interactions-self-consistency",
+      "title": "Self-consistency robustness and metastability"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The complete required workflow lies outside original Kwant 1.5: its static scattering and sparse-system APIs do not supply the required Wannier, non-Hermitian-topology, real-time, self-consistent, optical, thermoelectric, or inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The pinned native Thouless revision does not supply the required generalized-overlap, real-time Floquet, interacting self-consistency, or parameter-inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/12-interactions-self-consistency/tbq-058-thermodynamic-comparison-of-competing-orders.md",
+      "id": "TBQ-058",
+      "suite": "12-interactions-self-consistency",
+      "title": "Thermodynamic comparison of competing orders"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The complete required workflow lies outside original Kwant 1.5: its static scattering and sparse-system APIs do not supply the required Wannier, non-Hermitian-topology, real-time, self-consistent, optical, thermoelectric, or inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The pinned native Thouless revision does not supply the required generalized-overlap, real-time Floquet, interacting self-consistency, or parameter-inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/12-interactions-self-consistency/tbq-059-conservation-and-unbroken-symmetry-checks.md",
+      "id": "TBQ-059",
+      "suite": "12-interactions-self-consistency",
+      "title": "Conservation and unbroken-symmetry checks"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The complete required workflow lies outside original Kwant 1.5: its static scattering and sparse-system APIs do not supply the required Wannier, non-Hermitian-topology, real-time, self-consistent, optical, thermoelectric, or inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The pinned native Thouless revision does not supply the required generalized-overlap, real-time Floquet, interacting self-consistency, or parameter-inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/12-interactions-self-consistency/tbq-060-validation-against-small-exact-systems.md",
+      "id": "TBQ-060",
+      "suite": "12-interactions-self-consistency",
+      "title": "Validation against small exact systems"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-061.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-061.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-061.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/13-moire-strain-supercells/tbq-061-commensurate-and-reconstructed-geometry.md",
+      "id": "TBQ-061",
+      "suite": "13-moire-strain-supercells",
+      "title": "Commensurate and reconstructed geometry"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-062.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-062.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-062.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/13-moire-strain-supercells/tbq-062-geometry-dependent-coupling-laws.md",
+      "id": "TBQ-062",
+      "suite": "13-moire-strain-supercells",
+      "title": "Geometry-dependent coupling laws"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-063.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-063.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-063.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/13-moire-strain-supercells/tbq-063-continuum-atomistic-correspondence.md",
+      "id": "TBQ-063",
+      "suite": "13-moire-strain-supercells",
+      "title": "Continuum-atomistic correspondence"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-064.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-064.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/13-moire-strain-supercells/tbq-064-sparse-observables-in-giant-supercells.md",
+      "id": "TBQ-064",
+      "suite": "13-moire-strain-supercells",
+      "title": "Sparse observables in giant supercells"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-065.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-065.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-065.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/13-moire-strain-supercells/tbq-065-structural-family-transfer.md",
+      "id": "TBQ-065",
+      "suite": "13-moire-strain-supercells",
+      "title": "Structural-family transfer"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "domain_spin_texture_covariance"
+          ]
+        },
+        "pythtb": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "domain_spin_texture_covariance"
+          ]
+        },
+        "thouless": {
+          "reason": "Every required claim is exercised by package-backed code and an analytic or invariant-based gate.",
+          "status": "implemented",
+          "witness_cases": [
+            "domain_spin_texture_covariance"
+          ]
+        }
+      },
+      "document": "problems/14-magnetism-spin-orbital/tbq-066-spinor-texture-construction-and-covariance.md",
+      "id": "TBQ-066",
+      "suite": "14-magnetism-spin-orbital",
+      "title": "Spinor texture construction and covariance"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-067.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-067.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/14-magnetism-spin-orbital/tbq-067-charge-spin-orbital-current-and-torque-continuity.md",
+      "id": "TBQ-067",
+      "suite": "14-magnetism-spin-orbital",
+      "title": "Charge, spin, orbital-current, and torque continuity"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-068.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-068.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-068.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/14-magnetism-spin-orbital/tbq-068-mechanism-resolved-hall-response.md",
+      "id": "TBQ-068",
+      "suite": "14-magnetism-spin-orbital",
+      "title": "Mechanism-resolved Hall response"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-069.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-069.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/14-magnetism-spin-orbital/tbq-069-texture-resolution-and-adiabatic-convergence.md",
+      "id": "TBQ-069",
+      "suite": "14-magnetism-spin-orbital",
+      "title": "Texture-resolution and adiabatic convergence"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-070.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-070.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-070.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/14-magnetism-spin-orbital/tbq-070-magnetic-family-generalization.md",
+      "id": "TBQ-070",
+      "suite": "14-magnetism-spin-orbital",
+      "title": "Magnetic-family generalization"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-071.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-071.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/15-optical-thermoelectric/tbq-071-hamiltonian-consistent-response-operators.md",
+      "id": "TBQ-071",
+      "suite": "15-optical-thermoelectric",
+      "title": "Hamiltonian-consistent response operators"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The complete required workflow lies outside original Kwant 1.5: its static scattering and sparse-system APIs do not supply the required Wannier, non-Hermitian-topology, real-time, self-consistent, optical, thermoelectric, or inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-072.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/15-optical-thermoelectric/tbq-072-optical-spectral-sum-and-time-domain-agreement.md",
+      "id": "TBQ-072",
+      "suite": "15-optical-thermoelectric",
+      "title": "Optical spectral-sum and time-domain agreement"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The complete required workflow lies outside original Kwant 1.5: its static scattering and sparse-system APIs do not supply the required Wannier, non-Hermitian-topology, real-time, self-consistent, optical, thermoelectric, or inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-073.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/15-optical-thermoelectric/tbq-073-thermoelectric-and-onsager-relations.md",
+      "id": "TBQ-073",
+      "suite": "15-optical-thermoelectric",
+      "title": "Thermoelectric and Onsager relations"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-074.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-074.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/15-optical-thermoelectric/tbq-074-broadening-and-integration-convergence.md",
+      "id": "TBQ-074",
+      "suite": "15-optical-thermoelectric",
+      "title": "Broadening and integration convergence"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-075.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-075.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/15-optical-thermoelectric/tbq-075-method-transfer-from-exact-to-large-sparse-systems.md",
+      "id": "TBQ-075",
+      "suite": "15-optical-thermoelectric",
+      "title": "Method transfer from exact to large sparse systems"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-076.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-076.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-076.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/16-aperiodic-amorphous-fractal/tbq-076-translation-free-geometric-construction.md",
+      "id": "TBQ-076",
+      "suite": "16-aperiodic-amorphous-fractal",
+      "title": "Translation-free geometric construction"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-077.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-077.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-077.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/16-aperiodic-amorphous-fractal/tbq-077-singular-spectral-measures-and-localization.md",
+      "id": "TBQ-077",
+      "suite": "16-aperiodic-amorphous-fractal",
+      "title": "Singular spectral measures and localization"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-078.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-078.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-078.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/16-aperiodic-amorphous-fractal/tbq-078-real-space-topology-without-translation-symmetry.md",
+      "id": "TBQ-078",
+      "suite": "16-aperiodic-amorphous-fractal",
+      "title": "Real-space topology without translation symmetry"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-079.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-079.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-079.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/16-aperiodic-amorphous-fractal/tbq-079-approximant-and-multifractal-scaling.md",
+      "id": "TBQ-079",
+      "suite": "16-aperiodic-amorphous-fractal",
+      "title": "Approximant and multifractal scaling"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-080.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-080.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-080.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/16-aperiodic-amorphous-fractal/tbq-080-geometry-family-generalization.md",
+      "id": "TBQ-080",
+      "suite": "16-aperiodic-amorphous-fractal",
+      "title": "Geometry-family generalization"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-081.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-081.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-081.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/17-defects-interfaces/tbq-081-provenance-preserving-structural-defects.md",
+      "id": "TBQ-081",
+      "suite": "17-defects-interfaces",
+      "title": "Provenance-preserving structural defects"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-082.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-082.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-082.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/17-defects-interfaces/tbq-082-defect-specific-local-chemistry.md",
+      "id": "TBQ-082",
+      "suite": "17-defects-interfaces",
+      "title": "Defect-specific local chemistry"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-083.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-083.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-083.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/17-defects-interfaces/tbq-083-embedding-and-supercell-agreement.md",
+      "id": "TBQ-083",
+      "suite": "17-defects-interfaces",
+      "title": "Embedding and supercell agreement"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-084.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-084.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/17-defects-interfaces/tbq-084-local-state-and-transport-consequences.md",
+      "id": "TBQ-084",
+      "suite": "17-defects-interfaces",
+      "title": "Local-state and transport consequences"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-085.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-085.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-085.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/17-defects-interfaces/tbq-085-defect-family-generalization.md",
+      "id": "TBQ-085",
+      "suite": "17-defects-interfaces",
+      "title": "Defect-family generalization"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-086.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-086.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-086.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/18-multiscale-validation/tbq-086-one-physical-question-across-scales.md",
+      "id": "TBQ-086",
+      "suite": "18-multiscale-validation",
+      "title": "One physical question across scales"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-087.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-087.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-087.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/18-multiscale-validation/tbq-087-explicit-representation-mapping.md",
+      "id": "TBQ-087",
+      "suite": "18-multiscale-validation",
+      "title": "Explicit representation mapping"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-088.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-088.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-088.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/18-multiscale-validation/tbq-088-gauge-invariant-observable-comparison.md",
+      "id": "TBQ-088",
+      "suite": "18-multiscale-validation",
+      "title": "Gauge-invariant observable comparison"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-089.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-089.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-089.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/18-multiscale-validation/tbq-089-discrepancy-decomposition.md",
+      "id": "TBQ-089",
+      "suite": "18-multiscale-validation",
+      "title": "Discrepancy decomposition"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-090.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-090.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-090.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/18-multiscale-validation/tbq-090-external-family-validation.md",
+      "id": "TBQ-090",
+      "suite": "18-multiscale-validation",
+      "title": "External-family validation"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-091.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-091.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/19-scientific-scale-numerics/tbq-091-sparse-only-production-path.md",
+      "id": "TBQ-091",
+      "suite": "19-scientific-scale-numerics",
+      "title": "Sparse-only production path"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-092.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-092.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/19-scientific-scale-numerics/tbq-092-scalable-solver-portfolio.md",
+      "id": "TBQ-092",
+      "suite": "19-scientific-scale-numerics",
+      "title": "Scalable solver portfolio"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-093.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-093.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/19-scientific-scale-numerics/tbq-093-separated-numerical-error-budget.md",
+      "id": "TBQ-093",
+      "suite": "19-scientific-scale-numerics",
+      "title": "Separated numerical error budget"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-094.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-094.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/19-scientific-scale-numerics/tbq-094-accuracy-preserving-time-and-memory-scaling.md",
+      "id": "TBQ-094",
+      "suite": "19-scientific-scale-numerics",
+      "title": "Accuracy-preserving time and memory scaling"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-095.",
+          "status": "partial",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The backend can supply at least one relevant one-body model, matrix, or solver component, but no current evaluator witnesses every required computation and control in TBQ-095.",
+          "status": "partial",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/19-scientific-scale-numerics/tbq-095-reproducible-transition-from-exact-to-production-scale.md",
+      "id": "TBQ-095",
+      "suite": "19-scientific-scale-numerics",
+      "title": "Reproducible transition from exact to production scale"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The complete required workflow lies outside original Kwant 1.5: its static scattering and sparse-system APIs do not supply the required Wannier, non-Hermitian-topology, real-time, self-consistent, optical, thermoelectric, or inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The pinned native Thouless revision does not supply the required generalized-overlap, real-time Floquet, interacting self-consistency, or parameter-inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/20-inference-inverse-design/tbq-096-constrained-multi-observable-parameter-inference.md",
+      "id": "TBQ-096",
+      "suite": "20-inference-inverse-design",
+      "title": "Constrained multi-observable parameter inference"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The complete required workflow lies outside original Kwant 1.5: its static scattering and sparse-system APIs do not supply the required Wannier, non-Hermitian-topology, real-time, self-consistent, optical, thermoelectric, or inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The pinned native Thouless revision does not supply the required generalized-overlap, real-time Floquet, interacting self-consistency, or parameter-inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/20-inference-inverse-design/tbq-097-gradient-verification-through-spectral-calculations.md",
+      "id": "TBQ-097",
+      "suite": "20-inference-inverse-design",
+      "title": "Gradient verification through spectral calculations"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The complete required workflow lies outside original Kwant 1.5: its static scattering and sparse-system APIs do not supply the required Wannier, non-Hermitian-topology, real-time, self-consistent, optical, thermoelectric, or inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The pinned native Thouless revision does not supply the required generalized-overlap, real-time Floquet, interacting self-consistency, or parameter-inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/20-inference-inverse-design/tbq-098-identifiability-and-predictive-calibration.md",
+      "id": "TBQ-098",
+      "suite": "20-inference-inverse-design",
+      "title": "Identifiability and predictive calibration"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The complete required workflow lies outside original Kwant 1.5: its static scattering and sparse-system APIs do not supply the required Wannier, non-Hermitian-topology, real-time, self-consistent, optical, thermoelectric, or inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The pinned native Thouless revision does not supply the required generalized-overlap, real-time Floquet, interacting self-consistency, or parameter-inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/20-inference-inverse-design/tbq-099-independent-forward-validation-of-inverse-designs.md",
+      "id": "TBQ-099",
+      "suite": "20-inference-inverse-design",
+      "title": "Independent forward validation of inverse designs"
+    },
+    {
+      "backends": {
+        "kwant": {
+          "reason": "The complete required workflow lies outside original Kwant 1.5: its static scattering and sparse-system APIs do not supply the required Wannier, non-Hermitian-topology, real-time, self-consistent, optical, thermoelectric, or inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "pythtb": {
+          "reason": "The complete required workflow lies outside original PythTB 2.0: it has no corresponding overlap, open-lead, real-time, self-consistent, response, sparse-production, or inference solver.",
+          "status": "not_applicable",
+          "witness_cases": []
+        },
+        "thouless": {
+          "reason": "The pinned native Thouless revision does not supply the required generalized-overlap, real-time Floquet, interacting self-consistency, or parameter-inference workflow.",
+          "status": "not_applicable",
+          "witness_cases": []
+        }
+      },
+      "document": "problems/20-inference-inverse-design/tbq-100-out-of-family-inference-holdout.md",
+      "id": "TBQ-100",
+      "suite": "20-inference-inverse-design",
+      "title": "Out-of-family inference holdout"
+    }
+  ],
+  "schema_version": 1,
+  "summary": {
+    "kwant": {
+      "applicable_coverage_percent": 17.57,
+      "implemented": 13,
+      "not_applicable": 26,
+      "partial": 61,
+      "raw_coverage_percent": 13,
+      "total_questions": 100
+    },
+    "pythtb": {
+      "applicable_coverage_percent": 21.43,
+      "implemented": 12,
+      "not_applicable": 44,
+      "partial": 44,
+      "raw_coverage_percent": 12,
+      "total_questions": 100
+    },
+    "thouless": {
+      "applicable_coverage_percent": 15.48,
+      "implemented": 13,
+      "not_applicable": 16,
+      "partial": 71,
+      "raw_coverage_percent": 13,
+      "total_questions": 100
+    }
+  }
+}
