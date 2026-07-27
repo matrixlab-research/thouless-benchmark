@@ -1,6 +1,6 @@
 # Thouless benchmark
 
-Forty-two LKM-motivated, executable tight-binding workflows comparing native
+Fifty-two LKM-motivated, executable tight-binding workflows comparing native
 [Thouless](https://github.com/matrixlab-research/thouless) Rust with the
 original PythTB 2.0 and Kwant 1.5 packages.
 
@@ -18,10 +18,15 @@ not claims to reproduce those papers.
 | Finite boundaries | 4 | Thouless, PythTB, and Kwant |
 | Open-system transport | 4 | Thouless and Kwant; PythTB is not a transport solver |
 | Whole-problem domain witnesses | 22 | Backend applicability is explicit |
+| Native automatic differentiation | 10 | Thouless native Rust |
 
 The original manifest is [`benchmark/cases.json`](benchmark/cases.json).
 Whole-problem witnesses are frozen in
 [`benchmark/domain_cases.json`](benchmark/domain_cases.json).
+The ten domain-facing native AD witnesses are frozen in
+[`benchmark/ad_cases.json`](benchmark/ad_cases.json) and explained in
+[`docs/ad-benchmarks.md`](docs/ad-benchmarks.md), with
+[one specification per problem](docs/ad-problems/README.md).
 
 ## Domain problem catalog
 
@@ -126,6 +131,22 @@ The expanded
 uses three repetitions and includes all twenty-two Thouless domain workflows.
 It is the result set used for the current 67-question Thouless coverage claim.
 
+## Native AD benchmark status
+
+Ten different scientific problem types now exercise the merged Rust-native AD
+stack: spectral inference, degenerate subspaces, identifiability, quantum
+geometry, topological design, implicit surface Green functions, inverse
+transport, full device/lead sensitivity, sparse adjoints, and robust
+checkpointed KPM design.
+
+All 30 required checks pass in the
+[seven-repetition verified snapshot](results/verified/2026-07-28-ad.json)
+against Thouless commit
+`237f544c497e89cd99dedd68f16e399bc9980987`. The public validation points and
+disorder seeds are development evidence, not the isolated held-out evaluator.
+AD witnesses also do not automatically change strict whole-problem TBQ
+coverage.
+
 PythTB 2.0 requires NumPy 2, while Kwant 1.5 currently builds against NumPy
 1.26. They therefore run in separate environments. Combining both into one
 Python environment is not a supported benchmark configuration.
@@ -142,6 +163,9 @@ uv pip install --python .venv-kwant/bin/python --no-build-isolation \
 uv pip install --python .venv-kwant/bin/python --no-deps -e .
 python tools/collect_seed.py
 python tools/collect_domain_results.py
+python tools/run_thouless_cases.py --track ad
+python tools/collect_ad_results.py
+python tools/check_ad_results.py --current results/local/ad.json
 python tools/build_problem_coverage.py --check
 python tools/check_problem_docs.py
 ```

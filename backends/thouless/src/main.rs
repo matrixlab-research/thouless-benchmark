@@ -17,9 +17,10 @@ use thouless::transport::{
 use thouless::wannier::interpolate_periodic_matrices;
 use thouless::{Complex64, ComplexMatrix};
 
+mod ad_workflows;
 mod expanded_domain;
 
-const BACKEND_VERSION: &str = "0d87773278183ddc7c254438dccbda1face04fb2";
+const BACKEND_VERSION: &str = "237f544c497e89cd99dedd68f16e399bc9980987";
 
 struct Check {
     name: &'static str,
@@ -3224,6 +3225,16 @@ fn main() -> Result<(), Box<dyn Error>> {
         "domain_defect_workflows" => Some(expanded_domain::defect_workflows()?),
         "domain_multiscale_validation" => Some(expanded_domain::multiscale_validation()?),
         "domain_sparse_numerics" => Some(expanded_domain::sparse_numerics()?),
+        "ad_spectral_recovery" => Some(ad_workflows::spectral_recovery()?),
+        "ad_degenerate_projector" => Some(ad_workflows::degenerate_projector()?),
+        "ad_identifiability" => Some(ad_workflows::identifiability()?),
+        "ad_quantum_metric" => Some(ad_workflows::quantum_metric()?),
+        "ad_topological_design" => Some(ad_workflows::topological_design()?),
+        "ad_surface_green_implicit" => Some(ad_workflows::surface_green_implicit()?),
+        "ad_inverse_transport" => Some(ad_workflows::inverse_transport()?),
+        "ad_lead_device_sensitivity" => Some(ad_workflows::lead_device_sensitivity()?),
+        "ad_sparse_adjoint_scaling" => Some(ad_workflows::sparse_adjoint_scaling()?),
+        "ad_robust_kpm_design" => Some(ad_workflows::robust_kpm_design()?),
         _ => None,
     };
     let Some((metrics, checks)) = computed else {

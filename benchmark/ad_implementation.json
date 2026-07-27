@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "meaning": "An AD benchmark is implemented only after its native Thouless scientific checks pass.",
+  "implemented": {
+    "thouless": [
+      "ad_spectral_recovery",
+      "ad_degenerate_projector",
+      "ad_identifiability",
+      "ad_quantum_metric",
+      "ad_topological_design",
+      "ad_surface_green_implicit",
+      "ad_inverse_transport",
+      "ad_lead_device_sensitivity",
+      "ad_sparse_adjoint_scaling",
+      "ad_robust_kpm_design"
+    ]
+  }
+}
