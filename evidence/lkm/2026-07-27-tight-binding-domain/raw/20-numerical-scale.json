@@ -1,0 +1,1519 @@
+{
+  "code": 0,
+  "data": {
+    "has_more": true,
+    "papers": {
+      "paper:1052629302647980034": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Jabir Ali Ouassou",
+        "available_online": "",
+        "cover_date_start": "2024-10-11",
+        "created_at": "2026-06-10T02:22:04+08:00",
+        "doi": "10.48550/arxiv.2410.08758",
+        "en_title": "Bodge: Python package for efficient tight-binding modeling of superconducting nanostructures",
+        "id": "1052629302647980034",
+        "keywords": "",
+        "publication_date": "2024-10-11",
+        "publication_id": "108490",
+        "publication_name": "Superconductivity _ Physics.cond-mat.supr-con",
+        "research_categories": "",
+        "zh_title": "博奇：用于超导纳米结构高效紧束缚建模的Python软件包"
+      },
+      "paper:1094132596020871189": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Petr Karpov | Andreas Marek | Tobias Melson | Alexander Pöppl | Victor Wen-zhe Yu | Ben Hourahine | Alberto Garcia | William Dawson | Yi Yao | William Huhn | Jonathan Moussa | Sam Hall | Reinhard Maurer | Uthpala Herath | Konstantin Lion | Sebastian Kokott | Volker Blum",
+        "available_online": "",
+        "cover_date_start": "2025-02-04",
+        "created_at": "2026-06-11T08:48:55+08:00",
+        "doi": "10.48550/arxiv.2502.02460",
+        "en_title": "Solvers for Large-Scale Electronic Structure Theory: ELPA and ELSI",
+        "id": "1094132596020871189",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108483",
+        "publication_name": "Materials Science",
+        "research_categories": "",
+        "zh_title": "大规模电子结构理论求解器：ELPA和ELSI"
+      },
+      "paper:1172482335589793801": {
+        "area": "arxiv-physics",
+        "authors": "Yunlong Wang | Zhixin Liang | Chi Ding | Junjie Wang | Zheyong Fan | Hui-Tian Wang | Dingyu Xing | Jian Sun",
+        "available_online": "",
+        "cover_date_start": "2025-09-08",
+        "created_at": "2026-06-14T03:34:36+08:00",
+        "doi": "10.48550/arXiv.2509.06525",
+        "en_title": "GPUTB: Efficient Machine Learning Tight-Binding Method for Large-Scale Electronic Properties Calculations",
+        "id": "1172482335589793801",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108512",
+        "publication_name": "Computational Physics",
+        "research_categories": "",
+        "zh_title": "GPUTB：用于大规模电子性质计算的高效机器学习紧束缚方法"
+      },
+      "paper:1182050151695384617": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Yunhai Li | Zewen Wu | Miao Zhang | Junyi Wang | Shengjun Yuan",
+        "available_online": "",
+        "cover_date_start": "2025-09-30",
+        "created_at": "2026-06-19T06:43:01+08:00",
+        "doi": "10.48550/arXiv.2509.26309",
+        "en_title": "TBPLaS 2.0: a Tight-Binding Package for Large-scale Simulation",
+        "id": "1182050151695384617",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108483",
+        "publication_name": "Materials Science",
+        "research_categories": "",
+        "zh_title": "TBPLaS 2.0：用于大规模模拟的紧束缚程序包"
+      },
+      "paper:1187365558274752544": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Zhichang Fu | Yunhai Li | Weiqing Zhou | Shengjun Yuan",
+        "available_online": "",
+        "cover_date_start": "2025-10-20",
+        "created_at": "2026-06-17T02:20:18+08:00",
+        "doi": "10.48550/arXiv.2510.17432",
+        "en_title": "Large-scale stochastic propagation method beyond the sequential approach",
+        "id": "1187365558274752544",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108483",
+        "publication_name": "Materials Science",
+        "research_categories": "",
+        "zh_title": "超越顺序方法的大规模随机传播方法"
+      },
+      "paper:1190634009982402573": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Alejandro José Uría-Álvarez",
+        "available_online": "",
+        "cover_date_start": "2025-10-28",
+        "created_at": "2026-06-13T21:28:59+08:00",
+        "doi": "10.48550/arXiv.2510.25009",
+        "en_title": "Optical excitations and disorder in two-dimensional topological insulators",
+        "id": "1190634009982402573",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "二维拓扑绝缘体中的光学激发与无序"
+      },
+      "paper:1202947975546929152": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Ranadeep Roy | Wei Chen",
+        "available_online": "",
+        "cover_date_start": "2025-12-02",
+        "created_at": "2026-06-17T04:01:27+08:00",
+        "doi": "10.48550/arXiv.2512.03022",
+        "en_title": "Topological marker in three dimensions based on kernel polynomial method",
+        "id": "1202947975546929152",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108482",
+        "publication_name": "Disordered Systems and Neural Networks",
+        "research_categories": "",
+        "zh_title": "基于核多项式方法的三维拓扑标记"
+      },
+      "paper:1203313184895664134": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Jinjing Yi | Daniel Massatt | Andrew Horning | Mitchell Luskin | J. H. Pixley | Jason Kaye",
+        "available_online": "",
+        "cover_date_start": "2025-12-02",
+        "created_at": "2026-06-15T07:17:47+08:00",
+        "doi": "10.48550/arXiv.2512.03149",
+        "en_title": "A high-order regularized delta-Chebyshev method for computing spectral densities",
+        "id": "1203313184895664134",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108482",
+        "publication_name": "Disordered Systems and Neural Networks",
+        "research_categories": "",
+        "zh_title": "一种用于计算谱密度的高阶正则化δ-切比雪夫方法"
+      },
+      "paper:1210198763377786898": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Anouar Moustaj | Yitao Sun | Tiago V. C. Antao | Jose L. Lado",
+        "available_online": "",
+        "cover_date_start": "2025-12-20",
+        "created_at": "2026-06-14T09:56:06+08:00",
+        "doi": "10.48550/arXiv.2512.18397",
+        "en_title": "Momentum-resolved spectral functions of super-moiré systems using tensor networks",
+        "id": "1210198763377786898",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "使用张量网络的超莫尔系统的动量分辨谱函数"
+      },
+      "paper:1229361484681707555": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "S. M. João | Hanwen Jin | Johannes Lischner",
+        "available_online": "",
+        "cover_date_start": "2023-08-07",
+        "created_at": "2026-06-18T23:59:37+08:00",
+        "doi": "10.48550/arXiv.2308.03957",
+        "en_title": "Atomistic theory of hot carrier relaxation in large plasmonic nanoparticles",
+        "id": "1229361484681707555",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108483",
+        "publication_name": "Materials Science",
+        "research_categories": "",
+        "zh_title": "大尺寸等离子体纳米颗粒中热载流子弛豫的原子理论"
+      },
+      "paper:7463130581270827059": {
+        "area": "arxiv-cond-mat",
+        "authors": "Zhikang Jiang | Zhizhi Xiao | Mingfa Tang | Weiyu Li | Zhaoru Sun | Ke Xia | Youqi Ke",
+        "available_online": null,
+        "cover_date_start": "2026-05-20",
+        "created_at": "2026-06-02T12:00:08+08:00",
+        "doi": "10.48550/arxiv.2605.20918",
+        "en_title": "High-performance linear-scaling electronic structure method via chromatic superposition states",
+        "id": "7463130581270827059",
+        "keywords": null,
+        "publication_date": "2026-05-20",
+        "publication_id": "",
+        "publication_name": "arXiv (cond-mat.mtrl-sci)",
+        "research_categories": null,
+        "zh_title": "基于色叠加态的高性能线性缩放电子结构方法"
+      },
+      "paper:7478568728655417413": {
+        "area": "arXiv-cond-mat",
+        "authors": "Tiago V. C. Ant\\~ao | Anouar Moustaj | Yitao Sun | Jose L. Lado",
+        "available_online": null,
+        "cover_date_start": "2026-07-01",
+        "created_at": "2026-07-08T11:25:18+08:00",
+        "doi": "10.48550/arxiv.2607.00991",
+        "en_title": "Tensor Network Solvers for Ultra-large Tight-binding Hamiltonians: Algorithms and Applications",
+        "id": "7478568728655417413",
+        "keywords": null,
+        "publication_date": "2026-07-01",
+        "publication_id": "",
+        "publication_name": "arXiv (cond-mat.str-el)",
+        "research_categories": null,
+        "zh_title": "用于超大型紧密绑定哈密顿量的张量网络求解器: 算法和应用"
+      },
+      "paper:811100192630636544": {
+        "area": "physics and astrophysics, physical sciences",
+        "authors": "Yuki Nagai | Yasushi Shinohara | Yasunori Futamura | Tetsuya Sakurai",
+        "available_online": "",
+        "cas_zone": "4",
+        "cover_date_start": "2017-01-15",
+        "created_at": "2026-05-16T21:52:51+08:00",
+        "doi": "10.7566/jpsj.86.014708",
+        "en_title": "Reduced-Shifted Conjugate-Gradient Method for a Green’s Function: Efficient Numerical Approach in a Nano-Structured Superconductor",
+        "id": "811100192630636544",
+        "impact_factor": 2.6,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "2017-1-15",
+        "publication_id": "647",
+        "publication_name": "Journal of the Physical Society of Japan _ J. Phys. Soc. Jpn.",
+        "research_categories": "[\"Physical Sciences\"]",
+        "zh_title": "用于格林函数的约化移位共轭梯度法：纳米结构超导体中的高效数值方法"
+      },
+      "paper:811807791189590017": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, materials science, multidisciplinary",
+        "authors": "M. Zieliński | M. Korkusiński | P. Hawrylak",
+        "available_online": "2010-2-1",
+        "cas_zone": "2",
+        "cover_date_start": "2010-02-01",
+        "created_at": "2026-06-16T04:11:24+08:00",
+        "doi": "10.1103/physrevb.81.085301",
+        "en_title": "Atomistic tight-binding theory of multiexciton complexes in a self-assembled InAs quantum dot",
+        "id": "811807791189590017",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "自组装InAs量子点中多激子复合体的原子级紧束缚理论"
+      },
+      "paper:812581497503481857": {
+        "area": "physics and astrophysics, physics, mathematical, computer science, interdisciplinary applications",
+        "authors": "Takeo Hoshi | Mitsuaki Kawamura | Kazuyoshi Yoshimi | Yuichi Motoyama | Takahiro Misawa | Youhei Yamaji | Synge Todo | Naoki Kawashima | Tomohiro Sogabe",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2021-01-01",
+        "created_at": "2026-06-14T19:50:59+08:00",
+        "doi": "10.1016/j.cpc.2020.107536",
+        "en_title": "K ω — Open-source library for the shifted Krylov subspace method of the form ( z I − H ) x = b",
+        "id": "812581497503481857",
+        "impact_factor": 3.5,
+        "jcr_zone": "Q1",
+        "keywords": "[{\"ch_name\":\"Krylov 子空间方法\",\"en_name\":\"Krylov subspace method\"},{\"ch_name\":\"数值线性代数\",\"en_name\":\"Numerical linear algebra\"},{\"ch_name\":\"量子晶格模型\",\"en_name\":\"Quantum lattice models\"},{\"ch_name\":\"平移线性方程\",\"en_name\":\"Shifted linear equations\"}]",
+        "publication_date": "2021-1",
+        "publication_id": "533",
+        "publication_name": "Computer Physics Communications _ Computer Physics Communications",
+        "research_categories": "",
+        "zh_title": "K ω — 用于形如$$(zI - H)x = b$$的移位Krylov子空间方法的开源库 "
+      },
+      "paper:812585898318233600": {
+        "area": "physics and astrophysics, physical sciences, condensed matter physics",
+        "authors": "Takuya Nomoto | Takashi Koretsune | Ryotaro Arita",
+        "available_online": "2020-7-24",
+        "cas_zone": "2",
+        "cover_date_start": "2020-07-24",
+        "created_at": "2026-06-17T06:28:01+08:00",
+        "doi": "10.1103/physrevb.102.014444",
+        "en_title": "Local force method for the ab initio tight-binding model: Effect of spin-dependent hopping on exchange interactions",
+        "id": "812585898318233600",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "用于从头算紧束缚模型的局域力方法：自旋相关跳跃对交换相互作用的影响"
+      },
+      "paper:812587288616763392": {
+        "area": "material science, materials science, multidisciplinary, physics, applied, nanoscience & nanotechnology",
+        "authors": "Yan Yu | Yan-Yang Zhang | Lei Liu | Si-Si Wang | Ji-Huan Guan | Yang Xia | Shu-Shen Li",
+        "available_online": "",
+        "cas_zone": "4",
+        "cover_date_start": "2020-07-01",
+        "created_at": "2026-06-13T00:51:32+08:00",
+        "doi": "10.1063/5.0007682",
+        "en_title": "Chebyshev polynomial method to Landauer–Büttiker formula of quantum transport in nanostructures",
+        "id": "812587288616763392",
+        "impact_factor": 1,
+        "jcr_zone": "Q4",
+        "keywords": "",
+        "publication_date": "2020-7-1",
+        "publication_id": "2279",
+        "publication_name": "AIP Advances _ AIP Advances",
+        "research_categories": "",
+        "zh_title": "用于纳米结构中量子输运的兰道尔－比蒂克公式的切比雪夫多项式方法"
+      },
+      "paper:813106699895308289": {
+        "area": null,
+        "authors": "Sascha Brück | Mauro Calderara | Mohammad Hossein Bani-Hashemian | Joost VandeVondele | Mathieu Luisier",
+        "available_online": "",
+        "cover_date_start": "2017-08-21",
+        "created_at": "2026-06-01T22:15:27+08:00",
+        "doi": "10.1063/1.4998421",
+        "en_title": "Efficient algorithms for large-scale quantum transport calculations",
+        "id": "813106699895308289",
+        "keywords": "",
+        "publication_date": "2017-8-21",
+        "publication_id": "0",
+        "publication_name": "The Journal of Chemical Physics _ The Journal of Chemical Physics",
+        "research_categories": "",
+        "zh_title": "大规模量子输运计算的高效算法"
+      },
+      "paper:813204317975609344": {
+        "area": "physics and astrophysics, physics, applied, multidisciplinary, particles & fields",
+        "authors": "Shixun Zhang | Shinichi Yamagia | Seiji Yunoki",
+        "available_online": "2013-8-12",
+        "cover_date_start": "2013-08-12",
+        "created_at": "2026-06-14T03:08:41+08:00",
+        "doi": "10.1088/1742-6596/454/1/012049",
+        "en_title": "A study of parallelizing O( N ) Green-function-based Monte Carlo method for many fermions coupled with classical degrees of freedom",
+        "id": "813204317975609344",
+        "keywords": "",
+        "publication_date": "2013-8-12",
+        "publication_id": "97787",
+        "publication_name": "Journal of Physics: Conference Series _ J. Phys.: Conf. Ser.",
+        "research_categories": "",
+        "zh_title": "一项关于将基于格林函数的$$O(N)$$蒙特卡罗方法并行化的研究，该方法用于处理与经典自由度耦合的多个费米子系统"
+      },
+      "paper:813231082747985921": {
+        "area": null,
+        "authors": "Shixun Zhang | Shinichi Yamagiwa | Seiji Yunoki",
+        "available_online": "",
+        "cover_date_start": "2012-11-01",
+        "created_at": "2026-05-19T23:55:57+08:00",
+        "doi": "10.1109/sc.companion.2012.88",
+        "en_title": "GPU-Based Parallelization of Kernel Polynomial Method for Solving LDOS",
+        "id": "813231082747985921",
+        "keywords": "",
+        "publication_date": "2012-11",
+        "publication_id": "0",
+        "publication_name": "2012 SC Companion: High Performance Computing, Networking Storage and Analysis",
+        "research_categories": "",
+        "zh_title": "基于GPU的并行化核多项式求解LDOS方法"
+      },
+      "paper:813259081543319553": {
+        "area": "physics and astrophysics, physics, condensed matter",
+        "authors": "Stefan Barthel | Gerd Czycholl | Georges Bouzerar",
+        "available_online": "2013-1-14",
+        "cas_zone": "4",
+        "cover_date_start": "2013-01-01",
+        "created_at": "2026-06-15T06:06:43+08:00",
+        "doi": "10.1140/epjb/e2012-30795-4",
+        "en_title": "Effective Heisenberg exchange integrals of diluted magnetic semiconductors determined within realistic multi-band tight-binding models",
+        "id": "813259081543319553",
+        "impact_factor": 1.4,
+        "jcr_zone": "Q3",
+        "keywords": "",
+        "publication_date": "2013-1",
+        "publication_id": "658",
+        "publication_name": "The European Physical Journal B _ Eur. Phys. J. B",
+        "research_categories": "",
+        "zh_title": "在实际多带紧束缚模型中确定的稀磁半导体的有效海森堡交换积分"
+      },
+      "paper:817398968655806465": {
+        "area": "geoscience, chemical sciences, macromolecular and materials chemistry, physical sciences",
+        "authors": "Ivan Kriuchevskyi | Vladimir V. Palyulin | Rico Milkus | Robert M. Elder | Timothy W. Sirk | Alessio Zaccone",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2020-07-24",
+        "created_at": "2026-06-02T18:46:03+08:00",
+        "doi": "10.1103/PhysRevB.102.024108",
+        "en_title": "Scaling up the lattice dynamics of amorphous materials by orders of magnitude",
+        "id": "817398968655806465",
+        "impact_factor": 3.6,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "98281",
+        "publication_name": "Physical Review B   Condensed Matter and Materials Physics _ ",
+        "research_categories": "[\"Chemical Sciences\", \"Macromolecular and Materials Chemistry\", \"Physical Sciences\"]",
+        "zh_title": "将非晶材料的晶格动力学放大几个数量级"
+      },
+      "paper:817404164526047233": {
+        "area": "geoscience, physical sciences, condensed matter physics",
+        "authors": "N. A. García-Martínez | D. Carvalho | J. Fernández-Rossier | J. L. Lado",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2019-10-03",
+        "created_at": "2026-06-02T13:55:52+08:00",
+        "doi": "10.1103/PhysRevB.97.115453",
+        "en_title": "Real-space mapping of topological invariants using artificial neural networks",
+        "id": "817404164526047233",
+        "impact_factor": 3.6,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "98281",
+        "publication_name": "Physical Review B   Condensed Matter and Materials Physics _ ",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "使用人工神经网络对拓扑不变量进行实空间映射"
+      },
+      "paper:867745807611200117": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Yi-Hsuan Liu | Wei-Lin Tu | Gia-Wei Chern | Ting-Kuo Lee",
+        "available_online": "",
+        "cover_date_start": "2022-12-12",
+        "created_at": "2026-05-16T15:48:31+08:00",
+        "doi": "10.48550/arXiv.2212.05685",
+        "en_title": "Intertwined Orders and Electronic Structure in Superconducting Vortex Halos",
+        "id": "867745807611200117",
+        "keywords": "",
+        "publication_date": "2022-12-12",
+        "publication_id": "108490",
+        "publication_name": "Superconductivity _ Physics.cond-mat.supr-con",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "超导涡旋晕中的交织序与电子结构"
+      },
+      "paper:867751434697834935": {
+        "area": "arXiv-Physics, arXiv-Physics",
+        "authors": "Michael Lass | Robert Schade | Thomas D. Kühne | Christian Plessl",
+        "available_online": "",
+        "cover_date_start": "2020-04-22",
+        "created_at": "2026-06-19T07:49:45+08:00",
+        "doi": "10.48550/arXiv.2004.10811",
+        "en_title": "A Submatrix-Based Method for Approximate Matrix Function Evaluation in the Quantum Chemistry Code CP2K",
+        "id": "867751434697834935",
+        "keywords": "",
+        "publication_date": "2020-04-22",
+        "publication_id": "108512",
+        "publication_name": "Computational Physics _ Physics.physics.comp-ph",
+        "research_categories": "",
+        "zh_title": "一种基于子矩阵的方法，用于在量子化学代码CP2K中进行近似矩阵函数评估"
+      },
+      "paper:867751518625858303": {
+        "area": "arxiv-physics, chemical sciences, macromolecular and materials chemistry, physical sciences",
+        "authors": "Ivan Kriuchevskyi | Vladimir V. Palyulin | Rico Milkus | Robert M. Elder | Timothy W. Sirk | Alessio Zaccone",
+        "available_online": "",
+        "cover_date_start": "2020-07-23",
+        "created_at": "2026-06-17T02:27:06+08:00",
+        "doi": "10.48550/arXiv.2007.11912",
+        "en_title": "Scaling up the lattice dynamics of amorphous materials by orders of magnitude",
+        "id": "867751518625858303",
+        "keywords": "",
+        "publication_date": "2020-07-23",
+        "publication_id": "108482",
+        "publication_name": "Disordered Systems and Neural Networks _ Physics.cond-mat.dis-nn",
+        "research_categories": "[\"Chemical Sciences\", \"Macromolecular and Materials Chemistry\", \"Physical Sciences\"]",
+        "zh_title": "将非晶材料的晶格动力学放大几个数量级"
+      },
+      "paper:867751696124608936": {
+        "area": "arxiv-physics",
+        "authors": "Zheyong Fan | Ville Vierimaa | Ari Harju",
+        "available_online": "",
+        "cover_date_start": "2017-05-03",
+        "created_at": "2026-06-17T07:38:01+08:00",
+        "doi": "10.48550/arXiv.1705.01387",
+        "en_title": "GPUQT: An efficient linear-scaling quantum transport code fully implemented on graphics processing units",
+        "id": "867751696124608936",
+        "keywords": "",
+        "publication_date": "2017-05-03",
+        "publication_id": "108512",
+        "publication_name": "Computational Physics _ Physics.physics.comp-ph",
+        "research_categories": "",
+        "zh_title": "GPUQT：一种在图形处理器上完全实现的高效线性缩放量子输运代码"
+      },
+      "paper:867753288244658205": {
+        "area": "arxiv-mathematics",
+        "authors": "Takeo Hoshi | Mitsuaki Kawamura | Kazuyoshi Yoshimi | Yuichi Motoyama | Takahiro Misawa | Youhei Yamaji | Synge Todo | Naoki Kawashima | Tomohiro Sogabe",
+        "available_online": "",
+        "cover_date_start": "2020-01-23",
+        "created_at": "2026-06-13T19:05:34+08:00",
+        "doi": "10.48550/arXiv.2001.08707",
+        "en_title": "K$ω$ -- Open-source library for the shifted Krylov subspace method of the form $(zI-H)x=b$",
+        "id": "867753288244658205",
+        "keywords": "",
+        "publication_date": "2020-01-23",
+        "publication_id": "108549",
+        "publication_name": "Numerical Analysis _ Mathematics.math.NA",
+        "research_categories": "",
+        "zh_title": "K$ω$——用于形如$(zI - H)x = b$的移位Krylov子空间方法的开源库"
+      },
+      "paper:867754812769305348": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Stephen Carr | Daniel Massatt | Shiang Fang | Paul Cazeaux | Mitchell Luskin | Efthimios Kaxiras",
+        "available_online": "",
+        "cover_date_start": "2016-11-02",
+        "created_at": "2026-05-16T06:37:56+08:00",
+        "doi": "10.48550/arXiv.1611.00649",
+        "en_title": "Twistronics: Manipulating the Electronic Properties of Two-dimensional Layered Structures through their Twist Angle",
+        "id": "867754812769305348",
+        "keywords": "",
+        "publication_date": "2016-11-02",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "扭转电子学：通过扭转角操纵二维层状结构的电子性质"
+      },
+      "paper:867760755548618804": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Takuya Nomoto | Takashi Koretsune | Ryotaro Arita",
+        "available_online": "",
+        "cover_date_start": "2020-03-25",
+        "created_at": "2026-06-14T09:48:57+08:00",
+        "doi": "10.48550/arXiv.2003.11162",
+        "en_title": "Local force method for the ab initio tight-binding model with spin-dependent hopping",
+        "id": "867760755548618804",
+        "keywords": "",
+        "publication_date": "2020-03-25",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "具有自旋相关跳跃的从头算紧束缚模型的局域力方法"
+      },
+      "paper:867765002071704074": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Yunhai Li | Zhen Zhan | Xueheng Kuang | Yonggang Li | Shengjun Yuan",
+        "available_online": "",
+        "cover_date_start": "2022-09-02",
+        "created_at": "2026-06-14T15:58:37+08:00",
+        "doi": "10.48550/arXiv.2209.00806",
+        "en_title": "TBPLaS: a Tight-Binding Package for Large-scale Simulation",
+        "id": "867765002071704074",
+        "keywords": "",
+        "publication_date": "2022-09-02",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "",
+        "zh_title": "TBPLaS：用于大规模模拟的紧束缚程序包"
+      },
+      "paper:867765378309161890": {
+        "area": "arXiv-Physics, arXiv-Physics",
+        "authors": "Victor Wen-zhe Yu | Carmen Campos | William Dawson | Alberto García | Ville Havu | Ben Hourahine | William P Huhn | Mathias Jacquelin | Weile Jia | Murat Keçeli | Raul Laasner | Yingzhou Li | Lin Lin | Jianfeng Lu | Jonathan Moussa | Jose E Roman | Álvaro Vázquez-Mayagoitia | Chao Yang | Volker Blum",
+        "available_online": "",
+        "cover_date_start": "2019-12-31",
+        "created_at": "2026-06-19T06:41:15+08:00",
+        "doi": "10.48550/arXiv.1912.13403",
+        "en_title": "ELSI -- An Open Infrastructure for Electronic Structure Solvers",
+        "id": "867765378309161890",
+        "keywords": "",
+        "publication_date": "2019-12-31",
+        "publication_id": "108512",
+        "publication_name": "Computational Physics _ Physics.physics.comp-ph",
+        "research_categories": "",
+        "zh_title": "ELSI——电子结构求解器的开放基础设施"
+      },
+      "paper:867765699798368789": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Yan Yu | Yan-Yang Zhang | Lei Liu | Si-Si Wang | Ji-Huan Guan | Yang Xia | Shu-Shen Li",
+        "available_online": "",
+        "cover_date_start": "2020-07-21",
+        "created_at": "2026-05-22T22:00:50+08:00",
+        "doi": "10.48550/arXiv.2007.10544",
+        "en_title": "Chebyshev Polynomial Method to Landauer-Büttiker Formula of Quantum Transport in Nanostructures",
+        "id": "867765699798368789",
+        "keywords": "",
+        "publication_date": "2020-07-21",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "用于纳米结构中量子输运的朗道尔-比蒂克公式的切比雪夫多项式方法"
+      },
+      "paper:867768860877520931": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "D. Carvalho | N. A. Garcia-Martinez | J. L. Lado | J. Fernandez-Rossier",
+        "available_online": "",
+        "cover_date_start": "2018-01-29",
+        "created_at": "2026-05-16T18:39:31+08:00",
+        "doi": "10.48550/arXiv.1801.09655",
+        "en_title": "Real space mapping of topological invariants using artificial neural networks",
+        "id": "867768860877520931",
+        "keywords": "",
+        "publication_date": "2018-01-29",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "利用人工神经网络对拓扑不变量进行实空间映射"
+      },
+      "paper:867769186837856931": {
+        "area": "arXiv-Computer Science, arXiv-Computer Science",
+        "authors": "Moritz Kreutzer | Georg Hager | Gerhard Wellein | Andreas Pieper | Andreas Alvermann | Holger Fehske",
+        "available_online": "",
+        "cover_date_start": "2014-10-20",
+        "created_at": "2026-06-19T00:31:12+08:00",
+        "doi": "10.48550/arXiv.1410.5242",
+        "en_title": "Performance Engineering of the Kernel Polynomial Method on Large-Scale CPU-GPU Systems",
+        "id": "867769186837856931",
+        "keywords": "",
+        "publication_date": "2014-10-20",
+        "publication_id": "108594",
+        "publication_name": "Computational Engineering, Finance, and Science _ Computer Science.cs.CE",
+        "research_categories": "",
+        "zh_title": "大规模CPU-GPU系统上核多项式方法的性能工程"
+      },
+      "paper:867771022567276683": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Simão M. João | Miša Anđelković | Lucian Covaci | Tatiana Rappoport | João M. V. P. Lopes | Aires Ferreira",
+        "available_online": "",
+        "cover_date_start": "2019-10-11",
+        "created_at": "2026-06-14T23:22:23+08:00",
+        "doi": "10.48550/arXiv.1910.05194",
+        "en_title": "KITE: high-performance accurate modelling of electronic structure and response functions of large molecules, disordered crystals and heterostructures",
+        "id": "867771022567276683",
+        "keywords": "",
+        "publication_date": "2019-10-11",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "KITE：大分子、无序晶体和异质结构的电子结构及响应函数的高性能精确建模"
+      },
+      "paper:867771043828203877": {
+        "area": "arXiv-Physics, Information and Computing Sciences, Applied Computing, Physical Sciences, Condensed Matter Physics",
+        "authors": "Weiqing Zhou | Shengjun Yuan",
+        "available_online": "",
+        "cover_date_start": "2022-03-07",
+        "created_at": "2026-06-19T10:39:17+08:00",
+        "doi": "10.48550/arXiv.2203.03465",
+        "en_title": "A Time-Dependent Random State Approach for Large-scale Density Functional Calculations",
+        "id": "867771043828203877",
+        "keywords": "",
+        "publication_date": "2022-03-07",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Information and Computing Sciences\", \"Applied Computing\", \"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "一种用于大规模密度泛函计算的含时随机态方法"
+      },
+      "paper:932514933495562244": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Niaz Ali Khan | Wen Chen | Munsif Jan | Gao Xianlong",
+        "available_online": "",
+        "cover_date_start": "2023-11-16",
+        "created_at": "2026-06-15T01:03:45+08:00",
+        "doi": "10.48550/arXiv.2311.09556",
+        "en_title": "Linear-scale simulations of quench dynamics",
+        "id": "932514933495562244",
+        "keywords": "",
+        "publication_date": "2023-11-16",
+        "publication_id": "108482",
+        "publication_name": "Disordered Systems and Neural Networks _ Physics.cond-mat.dis-nn",
+        "research_categories": "",
+        "zh_title": "淬火动力学的线性尺度模拟"
+      },
+      "paper:937411645674619034": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Mingfa Tang | Chang Liu | Aixia Zhang | Qingyun Zhang | Shengjun Yuan | Youqi Ke",
+        "available_online": "",
+        "cover_date_start": "2023-11-30",
+        "created_at": "2026-06-16T23:16:53+08:00",
+        "doi": "10.48550/arXiv.2311.18161",
+        "en_title": "Random Green's function method for large-scale electronic structure calculation",
+        "id": "937411645674619034",
+        "keywords": "",
+        "publication_date": "2023-11-30",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "用于大规模电子结构计算的随机格林函数方法"
+      },
+      "paper:942120767775048290": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Harry Lane | Hao Zhang | David Dahlbom | Sam Quinn | Rolando D. Somma | Martin Mourigal | Cristian D. Batista | Kipton Barros",
+        "available_online": "",
+        "cover_date_start": "2023-12-13",
+        "created_at": "2026-06-11T08:04:52+08:00",
+        "doi": "10.48550/arXiv.2312.08349",
+        "en_title": "Kernel Polynomial Method for Linear Spin Wave Theory",
+        "id": "942120767775048290",
+        "keywords": "",
+        "publication_date": "2023-12-13",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "线性自旋波理论的核多项式方法"
+      }
+    },
+    "variables": [
+      {
+        "content": "For sparse tight-binding Hamiltonians (with only nearest-neighbor hopping terms, resulting in O(N) nonzero matrix elements), the Kernel Polynomial Method (KPM) implementation requires iterative vector–matrix products per Chebyshev moment and achieves a theoretical computational complexity of $\\mathcal{O}(S M N)$, where $S$ is the number of disorder realizations averaged over, $M$ is the Chebyshev truncation order, and $N$ is the number of lattice sites (system size). Empirically, timing and memory benchmarks for the standard Anderson model quench (from plane wave to $W_f=10$) with $M=1024$ and a single disorder realization show near-linear scaling: execution time scales as $\\sim N^{1.05}$ and memory usage scales as $\\sim N^{0.96}$ for the KPM implementation. In comparison, exact diagonalization (ED) benchmarks for the same sparse Hamiltonian report execution-time scaling $\\sim N^{1.895}$ and memory scaling $\\sim N^{0.98}$ for sparse ED, and $\\sim N^{2.98}$ time and $\\sim N^{1.88}$ memory for dense ED (where the Hamiltonian matrix is treated as dense). For dense Hamiltonians, the KPM cost becomes $\\mathcal{O}(S M N^2)$ because the sparse-structure advantages are lost.",
+        "content_hash": "d318642bb9a88010d5e7f7bd407d2e22ada7e21463aa642ee1bfe077ebfef193",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_ff4d29ed73394821",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:932514933495562244::conclusion_10",
+            "package_id": "paper:932514933495562244",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:932514933495562244"
+          ]
+        },
+        "rerank_score": 0.9381127591412447,
+        "role": "conclusion",
+        "score": 0.006569012382965872,
+        "title": "Computational complexity and empirical linear scaling of KPM for Loschmidt echo",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The Kernel Polynomial Method (KPM) evaluates traces of the form $\\operatorname{Tr}[A\\,\\delta(\\varepsilon-H_0)\\,B\\,\\delta(\\varepsilon'-H_0)]$ using Chebyshev expansion and stochastic trace estimation, requiring only matrix-vector multiplications with the sparse tight-binding Hamiltonian $H_0$. This avoids the $O(N^3)$ diagonalization bottleneck, enabling computation of $\\Omega(\\varepsilon,\\varepsilon')$ for spherical nanoparticles containing up to $\\sim 250,000$ atoms (approximately 1.5 million atomic orbitals) on a single computing node.",
+        "content_hash": "35ae6b80f80fbb32e6ba9148efc9f8b850aca8a4daca45f1efb132e8e7310bb5",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_481ab642ce144bcc",
+        "kind": "highlight",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1229361484681707555::H2",
+            "package_id": "paper:1229361484681707555",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1229361484681707555"
+          ]
+        },
+        "rerank_score": 0.926792363359903,
+        "role": "premise",
+        "score": 0.005590062111801242,
+        "title": "KPM avoids diagonalization for large systems",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Each KPM evaluation of Chebyshev moments for a sparse TB-BdG Hamiltonian matrix h of dimension proportional to the number of lattice sites N requires only repeated sparse matrix–vector products in the Chebyshev recursion, and therefore the arithmetic cost per evaluation scales as O(MN) operations (M Chebyshev moments times O(N) nonzero elements per matrix–vector product for the sparse TB-BdG), which enables repeated KPM calls in RMFT self-consistency loops for matrices with N up to ≃ 10^4 when M is chosen in the range ≃ 10^3–2×10^3.\n      Appendix B paragraph quoting M and R and main-text statements about GPU acceleration and linear scaling",
+        "content_hash": "9d5608280f1355d1b91b2dbbdd1c41d4baf7e28add424eecdba106793ced72d7",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_33200f1b147d4f28",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867745807611200117::P3",
+            "package_id": "paper:867745807611200117",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867745807611200117"
+          ]
+        },
+        "rerank_score": 0.9121634297992184,
+        "role": "premise",
+        "score": 0.005738621415416995,
+        "title": "O(MN) computational cost per KPM evaluation for sparse TB-BdG matrices",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "GPUTB (GPU-accelerated tight-binding machine learning framework) produces orthogonal, sparse Hamiltonians that can be directly used by an optimized, pure-CUDA linear-scaling quantum-transport (LSQT) implementation (velocity-autocorrelation kernel polynomial method (KPM)/Chebyshev-based approach) to compute density of states (DOS) and conductivity with O(N) complexity. This direct pipeline avoids separate orthogonalization steps and enables DOS and transport computations for systems with millions to ~100 million atoms on graphics processing unit (GPU) hardware.",
+        "content_hash": "2fbc1e7969943bb27448ceef107892b817b34b2ad13bea34717aeeb3257f5769",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_6175dd3b99f24a6a",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1172482335589793801::conclusion_9",
+            "package_id": "paper:1172482335589793801",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1172482335589793801"
+          ]
+        },
+        "rerank_score": 0.9063151163279927,
+        "role": "conclusion",
+        "score": 0.006464886995028616,
+        "title": "Generation of orthogonal sparse Hamiltonians compatible with O(N) LSQT and pure-CUDA GPU execution",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The study of intrinsic electronic transport in large disordered tight-binding systems requires methods whose computational cost and memory usage grow at most linearly with system size so that realistic two- and three-dimensional samples containing millions of orbitals can be simulated. Conventional matrix-inversion based approaches, most notably recursive Green's function implementations of the Landauer–Büttiker or non-equilibrium Green's function formalisms, carry computational costs that grow superlinearly (typically cubic with respect to system width for the recursive Green's function technique) and therefore become infeasible for very large 2D and 3D lattices. Existing linear-scaling approaches based on the Kubo formalism (expressing DC conductivity through spectral operators and time-dependent correlation functions such as the velocity autocorrelation (VAC) or mean-square displacement (MSD)) provide the theoretical route to linear scaling, but realizing that theoretical scaling in practice requires combining several numerical building blocks (efficient sparse matrix–vector multiplication, stochastic trace evaluation, stable and accurate time propagation of states, and an efficient approximation of the spectral resolution operator $\\delta(E-H)$) in a single high-performance implementation. Prior implementations either do not place all building blocks on massively parallel accelerators or lack general, user-level software that can (a) run fully on a single GPU, (b) expose both VAC and MSD Kubo-based workflows, and (c) scale to multi-million–orbital tight-binding Hamiltonians under realistic GPU memory constraints. Because many transport regimes of interest (diffusive transport, localization, extraction of semiclassical quantities such as relaxation time $\\tau(E)$ and mean free path $\\lambda(E)$, and localization length $\\xi(E)$) require simulating long propagation times and/or fine energy resolution (controlled by the number of Chebyshev moments $N_{m}$), the absence of a fully GPU-resident, linear-scaling, stable and practical code limits quantitative studies: it prevents rapid parameter scans over many energies, restricts accessible sample sizes, and impedes practical extraction of kinetic quantities from VAC/MSD time series for realistic disordered systems. This gap motivates a dedicated, fully GPU-implemented code that assembles the necessary linear-scaling numerical techniques into a single, usable package and documents its inputs, outputs, performance, and example applications.",
+        "content_hash": "93a21c10d886ea4a4482823ad9fc460e10e71e36e494bb6c5ee87a91cc44dc8f",
+        "id": "gcn_61cc01e25fae41d8",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867751696124608936::problem",
+            "package_id": "paper:867751696124608936",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867751696124608936"
+          ]
+        },
+        "rerank_score": 0.9403749352795212,
+        "role": "premise",
+        "score": 0.014109918578830496,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The computational time for the kernel polynomial method (KPM) scales linearly with the number of particles N as t_KPM ∝ N, while direct diagonalization (DD) scales as approximately N^2.7. The memory usage of KPM scales as ∼N, compared to ∼N² for DD. For the benchmark system with polynomial degree K=50, number of random vectors R=500, and C=32 computational cores, KPM becomes faster than DD already for N ∼ 10^4, and systems with N = 10^6 become tractable. The linear scaling originates from the sparse nature of the Hessian matrix (density d ∝ 1/N, due to the finite interaction range), which allows efficient matrix-vector products, and from the parallelizability of the independent random-vector iterations.",
+        "content_hash": "a0400171231a9d55ff947cb04bcf0b2916207a807b156b350e04031f1451c28c",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_374ca7cd85a147e7",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817398968655806465::conclusion_4",
+            "package_id": "paper:817398968655806465",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817398968655806465"
+          ]
+        },
+        "rerank_score": 0.8715192674599698,
+        "role": "conclusion",
+        "score": 0.006182513139034878,
+        "title": "Scaling analysis: KPM achieves linear time and memory scaling with system size",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Evaluating spectral functions and Green’s-function-based observables on very large lattices relies on sparse-matrix polynomial-expansion techniques such as Chebyshev/KPM. These methods require a sparse Hamiltonian representation and a straightforward export path between a model-construction interface and sparse numerical routines. Before Bodge, assembling a properly formatted BdG Hamiltonian for use with KPM-based workflows required extra manual steps; a package that produces ready-to-use sparse matrices and documents the Chebyshev workflow reduces friction for large-scale superconductivity calculations.",
+        "content_hash": "f68a76b5283992482972ee0ab5115abcbeb6bf2f15a37d2bdbeec4eb2ea7f55c",
+        "id": "gcn_e6394f2f69bb47a8",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1052629302647980034::conclusion_7_subproblem",
+            "package_id": "paper:1052629302647980034",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1052629302647980034"
+          ]
+        },
+        "rerank_score": 0.8533012352259377,
+        "role": "premise",
+        "score": 0.02889344262295082,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "For sparse tight-binding Hamiltonians the Kernel Polynomial Method computes local spectral functions g_{ij}(ω)=⟨i|δ(H−ω)|j⟩ and hence the density-matrix elements ρ_{ij} by (i) rescaling the Hamiltonian spectrum into the interval (−1,1), (ii) expanding g_{ij}(ω) in Chebyshev polynomials, (iii) applying the Jackson kernel for improved convergence, and (iv) obtaining the Chebyshev expansion coefficients via sparse matrix–vector products using the recursion |α_{n+1}⟩=2ℋ|α_n⟩−|α_{n−1}⟩; because the number of nonzero Hamiltonian matrix elements scales as O(N) for a sparse tight-binding matrix and the KPM evaluation of a fixed-size local block requires a fixed number of matrix–vector products (fixed expansion degree), computing that same fixed-size local density-matrix block across all N sites incurs an overall computational cost that scales asymptotically as O(N).\n      Eqs. (5)–(13)",
+        "content_hash": "7e3f02eb1d88c203a78779cc852e71a4d63cf1ca2c3f0ebfabaefebd961580f9",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_2c981c9409c64fad",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867768860877520931::P8",
+            "package_id": "paper:867768860877520931",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867768860877520931"
+          ]
+        },
+        "rerank_score": 0.9042421043355999,
+        "role": "premise",
+        "score": 0.006011321771947165,
+        "title": "KPM gives linear scaling for fixed-size local blocks in sparse tight-binding Hamiltonians",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The study of electronic structure and quantum transport in large molecular and condensed systems requires accurate, non-perturbative evaluation of lattice Green's functions and response tensors for models with disorder, defects, spin-orbit coupling and applied fields. Prior to this work, real-space semi-empirical tight-binding (SETB) methods were known to be an efficient, physically intuitive framework for such problems, but numerical implementations faced multiple, interrelated bottlenecks. Spectral approaches based on orthogonal polynomial expansions (e.g. Chebyshev polynomial based Kernel Polynomial Method, KPM) mitigate the N^3 cost of exact diagonalisation, yet truncated expansions suffer from Gibbs oscillations and, in practice, only provide controlled resolution near interval centers; available alternatives with improved convergence (Chebyshev Polynomial Green’s Function, CPGF) were not packaged into a scalable, user-friendly production code. Existing open-source codes and implementations could handle at most mesoscopic problem sizes (typically up to 10^7 orbitals, with a few recent demonstrations reaching ~10^9 in specific contexts) and/or relied on approximations for disorder (single-impurity T-matrix, coherent potential approximation) or on hardware (GPU) and memory constraints that limited domain sizes and energy resolution. Crucially, the accessible energy resolution in tight-binding spectral calculations is bounded by the finite-system mean level spacing $ \\delta E $ (so that the spectral broadening $ \\eta \\gtrsim \\delta E $), which forces simulations to very large Hilbert spaces to resolve meV-scale features; achieving such fine resolution while retaining accurate disorder averaging, efficient evaluation of multi-point traces appearing in linear and non-linear Kubo formulas, flexible model definition (multiple orbitals, heterostructures, defects) and ability to run on commonly available shared-memory HPC nodes was not possible with existing general-purpose codes. Consequently, researchers lacked a general-purpose, open, high-performance tool that: (i) implements numerically controlled, asymptotically exact spectral expansions of lattice Green's functions with on-demand energy resolution; (ii) evaluates linear and higher-order response tensors for disordered, multi-orbital SETB models at realistic system sizes; (iii) scales near-linearly with CPU cores while keeping memory use manageable; and (iv) exposes a convenient model- and-workflow interface for practical studies (e.g., twisted bilayers, topological materials, magneto-optics, wave-packet dynamics) that require billions of orbitals and thousands–hundreds of thousands of spectral moments.",
+        "content_hash": "3ac9266d740790d6c39969b679bc81ab845da6edc618697a51e1b3cd1f08ad94",
+        "id": "gcn_d4e95739fda9404e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867771022567276683::problem",
+            "package_id": "paper:867771022567276683",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867771022567276683"
+          ]
+        },
+        "rerank_score": 0.8683658174716649,
+        "role": "premise",
+        "score": 0.009900990099009901,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Computing spectral densities and Green's-function-like objects for atomistic Hamiltonians with $N\\gg 10^{6}$ requires an evaluation of $\\delta(\\omega-\\hat{H})$ or related resolvents. Conventional KPM implementations rely on storing vectors and applying sparse matrices of dimension $N$, which becomes computationally and memory-wise prohibitive for super-moiré sizes. A tensor-network realization of KPM where the Chebyshev recurrence is realized as MPO operations was required to evaluate spectral operators directly in the compressed pseudo-spin representation, enabling spectral resolution at atomistic length scales without dense-matrix storage.",
+        "content_hash": "78b565f87a4fcea44f3196e28c96aab2e174c3e14b9757d7529a1a8076af3427",
+        "id": "gcn_a574c4e3401d49bf",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1210198763377786898::conclusion_2_subproblem",
+            "package_id": "paper:1210198763377786898",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1210198763377786898"
+          ]
+        },
+        "rerank_score": 0.8197603859547509,
+        "role": "premise",
+        "score": 0.008547008547008548,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Many high-order regularization strategies in the literature require solving linear systems or performing operations that are infeasible for very large sparse $H_N$. Any practically useful high-order method for realistic tight-binding models must therefore preserve the matvec-only structure (three-term recurrence) that makes KPM scalable. The computational-cost conclusion establishes that HODC meets this requirement: it attains high weak-order regularization while retaining the same dominant $O(pN)$ matvec complexity and only low-cost additional transforms, thereby resolving the computational bottleneck that prevented earlier high-order pole methods from applying to very large sparse Hamiltonians.",
+        "content_hash": "18dfaea33755efc1d54291f1f5872ce99af809c95cfa601f8d989c0a19e9c1ff",
+        "id": "gcn_1f63ddff40274152",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1203313184895664134::conclusion_2_subproblem",
+            "package_id": "paper:1203313184895664134",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1203313184895664134"
+          ]
+        },
+        "rerank_score": 0.815399863627253,
+        "role": "premise",
+        "score": 0.018432333129210044,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In computational quantum many-body physics one frequently needs selected elements of the resolvent (Green's function) $G(z)=(zI-H)^{-1}$, such as spectral or response quantities of the form $\\boldsymbol{a}^{\\dagger}G(z)\\boldsymbol{b}$, evaluated at many complex energy points $z_k$ near the real axis or on contours in the complex plane. For realistic quantum lattice Hamiltonians $H$ the matrix dimension $M$ can be enormous (e.g., $M\\gtrsim10^{9}$) and $H$ is typically large and sparse. Conventional numerical strategies that form eigenpairs (full diagonalization) scale as $O(M^{3})$ in operations and $O(M^{2})$ in memory and are therefore infeasible; Lanczos-based Krylov methods reduce cost but are commonly restricted to diagonal Green's-function elements, require separate runs at each sampling point, and do not offer straightforward, rigorous residual-based convergence control for many off-diagonal evaluations. As a result, computing spectra or contour-integral projections at a dense set of $N_{\\mathrm{eq}}>1$ shifts $z_k$ has been computationally expensive because independent Krylov solves repeat the dominant sparse matrix–vector product (SpMV) $N_{\\mathrm{eq}}$ times and require storing many large vectors. Moreover, before this work there was no publicly available, general-purpose, open-source library that packaged efficient shifted-Krylov algorithms (which mathematically exploit shift invariance of Krylov subspaces and residual collinearity) with a reverse-communication SpMV interface, seed-switching, projected solves, and re-use/recalculation facilities suitable for quantum-lattice applications. These deficiencies prevented routine, scalable computation of large-scale dynamical Green's functions, contour-integral interior eigenpairs, and related response functions for many-body lattice problems at realistic sizes and sampling density.",
+        "content_hash": "9b6436132accdeabd37678ccf654cd53070a0d5167337875fa027c22d28abc51",
+        "id": "gcn_a2cb91897a8d46e3",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812581497503481857::problem",
+            "package_id": "paper:812581497503481857",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812581497503481857"
+          ]
+        },
+        "rerank_score": 0.8121249871005505,
+        "role": "premise",
+        "score": 0.011627906976744186,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Electronic structure codes based on Kohn–Sham density-functional theory (KS-DFT) or related tight-binding methods must repeatedly obtain the electron density from a given Hamiltonian matrix $ \\mathbf{H} $ and, when non-orthogonal basis functions are used, an overlap matrix $ \\mathbf{S} $. Different discretizations (localized numeric atom-centered orbitals, atomic orbital pseudopotentials, planewave bases, DFTB parametrizations) and different physical settings (finite, non-periodic molecules versus periodic systems with many $k$-points; spin-polarized versus spin-unpolarized calculations) generate Hamiltonian and overlap matrices with widely different sizes, spectral widths, sparsity patterns, and distribution requirements across MPI tasks. A diverse set of numerical algorithms exist (dense diagonalization scaling as $O(N^{3})$, Fermi operator expansion and pole-expansion methods, density-matrix purification, spectrum-slicing iterative eigensolvers, Chebyshev filtering, etc.), each having distinct regimes of applicability, parallel scaling characteristics, and software interfaces. Prior to this work there was no broadly adopted, open, and portable infrastructure that (a) exposes a common API to electronic-structure codes so they can plug in many different high-performance solver libraries without bespoke glue code for each solver, (b) handles the variety of matrix storage formats and MPI distribution patterns used by different codes (including formats needed for sparse selected inversion and for planewave operator representations), (c) supports periodic and spin-polarized workflows that involve multiple independent eigenproblems (many $k$-points and spin channels) with an efficient parallel solve/reduction strategy, and (d) supplies the practical utilities needed in production workflows (density-matrix extrapolation across geometry steps, computation of the energy-weighted density matrix required for Pulay forces, parallel matrix I/O, standardized machine-readable benchmark output). Because of these gaps, application developers and users repeatedly had to reimplement solver integrations, could not easily compare solver performance on equal footing, and lacked automated guidance for solver selection; as a result, large-scale simulations were often suboptimal in performance and portability and it was difficult to accelerate the community-wide adoption and testing of new eigensolver and density-matrix algorithms.",
+        "content_hash": "c3e1108102325811357e5c47897508b3efc820af87a0b6ba977404fd0106ac73",
+        "id": "gcn_c4c21996b2754137",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867765378309161890::problem",
+            "package_id": "paper:867765378309161890",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867765378309161890"
+          ]
+        },
+        "rerank_score": 0.8439177022522132,
+        "role": "premise",
+        "score": 0.009615384615384616,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The sparse-matrix Lanczos diagonalization with Kramers symmetry, applied to a tight-binding Hamiltonian matrix of dimension ~20 million × 20 million for a system of ~10^6 atoms, is assumed to achieve effective linear scaling with the number of atoms when only a few lowest electron and hole states are required; no timing measurements, scaling curves, or comparisons with other algorithms are presented.",
+        "content_hash": "c630981790a1fc38a09a22ff876daf11c2c3e20644787f4c041ddee4ced0a30a",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_23ab842cb17e47db",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811807791189590017::P2",
+            "package_id": "paper:811807791189590017",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811807791189590017"
+          ]
+        },
+        "rerank_score": 0.9021578689585608,
+        "role": "premise",
+        "score": 0.0058910289779628665,
+        "title": "Sparse-matrix Lanczos linear scaling is assumed without performance data",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For a uniform 1D tight-binding chain, the MPO KPM implemented in TensorBinding.jl computes the local density of states for a system of 10^12 sites in a few seconds on a single core, whereas exact diagonalization would take an estimated one billion years and sparse-matrix KPM would be limited by memory to much smaller sizes. This benchmark is shown in Fig. 2(d) with explicit calculations up to 2^20 sites and extrapolation to larger sizes.",
+        "content_hash": "6ea942d0fe1fe6c9fdb4d0a7190fb3b170cfa79b3e7958cfa485f6279f029dcf",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_967a3f1b78a54e4a",
+        "kind": "highlight",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:7478568728655417413::H5",
+            "package_id": "paper:7478568728655417413",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:7478568728655417413"
+          ]
+        },
+        "rerank_score": 0.8036771520777681,
+        "role": "premise",
+        "score": 0.005988882911959835,
+        "title": "Quantitative timing benchmark for uniform 1D chain",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The work addresses the computational problem of applying the Kernel Polynomial Method (KPM) to compute spectral quantities (e.g., density of states, DOS) for very large sparse Hermitian matrices that arise in realistic quantum-mechanical models (here: Hamiltonians for three-dimensional topological insulators with $N\\sim10^{6}\\ldots10^{9}$ matrix rows and $N_{\\mathrm{nz}}\\approx 13N$ nonzeros). Prior-to-this-work practice implemented KPM as a simple iterative recurrence that (a) applies the sparse matrix to one vector at a time (SpMV) and (b) performs many accompanying level-1 BLAS vector operations and dot products per iteration. On modern multicore CPUs and accelerator-based nodes this approach exhibits a number of concrete limitations: the per-iteration code balance (bytes transferred per flop) is large for single-vector execution, which makes the kernels strictly main-memory-bandwidth-bound on contemporary architectures; repeated reads/writes of the same vectors and many separate reductions (dot products) produce scattered data access and communication overhead; existing general-purpose sparse kernels and libraries expose an unfavorable balance for the KPM access pattern and do not fuse the specific combination of scaling/shifting, SpM(V) operations, and on-the-fly scalar products required by KPM; earlier GPU KPM implementations either target a single GPU or retain a memory footprint and data-access pattern that prevents streaming and efficient heterogeneous execution. As a consequence, KPM implementations could not (a) attain high sustained floating-point throughput on heterogeneous CPU–GPU systems, (b) decouple execution from the main-memory bandwidth bottleneck, or (c) scale resource-efficiently to petascale heterogeneous systems for application matrices of realistic size (e.g., those for topological-insulator superlattices). This gap motivates investigation of algorithm-specific, implementation-level transformations (blocking, kernel fusion, on-the-fly scalar reductions), architecture-aware implementations on both CPU and GPU, and performance models that predict the changing bottlenecks across optimization stages so that KPM can be executed efficiently at large scale.",
+        "content_hash": "cc7f1081d34f8ec83afe070fb291f128f47dea0037ec7bae42a850679f0a7617",
+        "id": "gcn_9feda5b97a96476d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867769186837856931::problem",
+            "package_id": "paper:867769186837856931",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867769186837856931"
+          ]
+        },
+        "rerank_score": 0.8909565340265305,
+        "role": "premise",
+        "score": 0.021534021534021536,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The central computational challenge for practical materials modeling is executing accurate quantum calculations (DOS, transport, optical responses, and charge densities) on billion-atom models within reasonable wall-clock time and memory limits. Prior sPM approaches either required excessive CPU time or memory and did not demonstrate production-level runtimes at the billion-atom scale. The paper provides an end-to-end demonstration that the concurrent propagation framework attains linear scaling and dramatic wall-time reductions on realistic large-scale tight-binding models, closing the gap between methodological promise and large-scale applicability.",
+        "content_hash": "abd7fb52fefcb912ddccdb98f3c94efe741ab766b744cb93e796302cee8326da",
+        "id": "gcn_ce8d01575aa44abf",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1187365558274752544::conclusion_13_subproblem",
+            "package_id": "paper:1187365558274752544",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1187365558274752544"
+          ]
+        },
+        "rerank_score": 0.7805039968903987,
+        "role": "premise",
+        "score": 0.006369426751592357,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Tight-binding (TB) simulations are widely used to compute electronic structure and response properties of large materials models, but common exact-diagonalization workflows require storing and manipulating full Hamiltonian matrices so their memory and CPU costs scale as $ \\mathcal{O}(N^{2}) $ and $ \\mathcal{O}(N^{3}) $ with the number of orbitals $N$, restricting practical calculations to at most tens of thousands of orbitals. The tight-binding propagation method (TBPM) avoids full diagonalization by propagating wavefunctions and evaluating correlation functions, and in principle achieves linear scaling by exploiting Hamiltonian sparsity and Chebyshev expansions; however, software realization of TBPM and companion modeling tools must be efficient, robust and easy to integrate into other codes to make that potential usable in practice. The predecessor package TBPLaS 1.3 already implemented TBPM, KPM and diagonalization-based solvers and provided Python/Cython/FORTRAN components, but several substantive limitations remained: (i) modelling tools were split across Python (flexible, but slow) and Cython (faster for polylithic models but inefficient or hard-to-control for large monolithic models), forcing users to choose awkward workarounds and limiting the size and kinds of models conveniently constructible; (ii) solvers combined Python orchestration with FORTRAN/Cython kernels, producing excessive cross-language call overhead, duplicated memory usage (e.g. eigenstates for all k-points held in Python), and constrained integration into pure-C++ high-performance workflows; (iii) legacy FORTRAN numerical subroutines had long, opaque parameter lists and hindered maintainability and extension; (iv) inconsistent solver interfaces and parameter conventions across diagonalization and TBPM solvers made usage error-prone and increased the learning curve; and (v) the mixed-language build (Python/Cython/FORTRAN/C/C++) complicated installation, prevented native Windows builds and made optional features (MPI, GPU, FEAST) awkward to select. These limitations prevented routine, high-performance, large-scale TBPM and diagonalization calculations (including precise response and topological properties) on extreme-size models, impeded maintainability and developer productivity, and limited the package's adoption in performance-critical or multi-language projects.",
+        "content_hash": "a10d231809af566d5c16aab5b7a7547515e4ec32108198b2a04d5ec13306393f",
+        "id": "gcn_eb0f61f9b34544d3",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1182050151695384617::problem",
+            "package_id": "paper:1182050151695384617",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1182050151695384617"
+          ]
+        },
+        "rerank_score": 0.7765739029038863,
+        "role": "premise",
+        "score": 0.012658227848101266,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Large-scale electronic-structure simulations based on density-functional theory (DFT) require methods that avoid the conventional $O(n^3)$ cost of solving the Kohn–Sham generalized eigenvalue problem as the number of basis functions grows. Density-matrix based linear-scaling approaches exploit the nearsightedness of electronic matter and the sparsity of the Kohn–Sham Hamiltonian $\\boldsymbol{K}$ to obtain overall linear scaling, but they require the evaluation of a matrix function (the density matrix) of a large, sparse matrix. In many existing implementations (including the baseline CP2K/Quickstep workflow), computing the density matrix either relies on (a) dense eigensolvers that are cubic in system size, or (b) iterative polynomial or rational schemes (e.g., Newton–Schulz iterations, Padé approximants) applied to the distributed sparse matrix representation. These approaches have specific shortcomings in the large-scale, distributed-memory setting used in CP2K: iterative sparse algorithms on distributed block-compressed sparse row (DBCSR) data lead to many small-block dense operations that are suboptimal for modern processors and accelerators (limited by memory bandwidth and poor utilization of high-throughput units such as tensor cores); the distributed storage of sparsity patterns complicates algorithms that assume a global view; and for grand-canonical versus canonical ensembles, control of the chemical potential $\\mu$ requires global procedures that interact poorly with purely local approximations. As a consequence, current practice either lacks scalable performance on modern heterogeneous hardware for very large systems, or imposes approximations/empirical parameters (e.g., ad-hoc truncation thresholds, phenomenological treatments of $\\mu$) that limit quantitative accuracy, prevent efficient use of GPUs/FPGAs, and impede canonical-ensemble calculations without expensive global recomputation. This work is motivated by the need for a method that (i) produces an approximate density matrix from a large sparse Kohn–Sham operator with asymptotically linear cost, (ii) transforms distributed sparse operations into local dense computations that can exploit modern CPU/GPU/FPGA throughput, (iii) integrates with CP2K's DBCSR distributed storage and MPI topology without requiring global replication of matrix data, and (iv) supports both grand-canonical and canonical ensembles (and finite temperature generalizations) with controllable error.",
+        "content_hash": "53ef1bd67a7cdcd4469a68af07c1a0a70bbfbe543a386428703882301076f3dc",
+        "id": "gcn_3d92fb25a0b346a2",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867751434697834935::problem",
+            "package_id": "paper:867751434697834935",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867751434697834935"
+          ]
+        },
+        "rerank_score": 0.8075962618022182,
+        "role": "premise",
+        "score": 0.015151515151515152,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The calculation of Green's functions G(z) = [zI - H]^{-1} matrix elements for large, sparse many-body or mean-field Hamiltonians is a central computational task for extracting excitation spectra, local densities of states and self-consistent mean fields (for example, superconducting gap fields in Bogoliubov–de Gennes (BdG) theory). Existing strategies have distinct and complementary limitations that leave a practical problem-state unsolved for nano-structured superconductors and similar systems. Kernel-polynomial methods (KPM) efficiently approximate spectral functions near the real-frequency axis by polynomial expansions but require a bounded and not-too-wide eigenvalue range; when strong \"fabrication\" potentials or fine spatial discretizations produce very wide eigenvalue spectra, KPM requires large polynomial cutoff and loses energy resolution. Direct diagonalization gives exact spectral and Green's-function information but scales as O(M^3) in matrix dimension M and is infeasible for realistic two-dimensional lattice sizes needed to capture both short quantum oscillations (scale ~1/k_F) and longer coherence lengths. A complementary approach is to obtain Green's-function matrix elements by solving linear systems (zI - H) x(z) = b for many complex shifts z (Matsubara frequencies or real-frequency points). Shifted Krylov methods (shifted CG/COCG/BiCG) reuse Krylov subspaces across shifts to avoid repeated expensive sparse-matrix-vector products, but they require storing full solution- or search-vectors per shift (memory scales with problem dimension n and number of shifts), which becomes prohibitive when thousands to tens of thousands of Matsubara shifts are needed for accurate Matsubara summations in self-consistent mean-field calculations. Moreover, CG-type methods converge poorly when evaluation frequencies approach eigenvalues (poles) on the real axis, complicating real-axis (retarded/advanced) calculations. These shortcomings together prevent efficient, accurate, and memory-manageable calculation of Green's-function matrix elements and Matsubara sums in large, nano-fabricated BdG systems: researchers lack a method that (i) directly yields desired reduced quantities (matrix elements) without computing and storing full solution vectors, (ii) reuses Krylov subspace work across tens of thousands of shifts, (iii) keeps memory proportional to the number m of requested reduced outputs (m ≪ n), and (iv) remains computationally feasible for matrix dimensions up to tens of thousands required to resolve multiple length scales in superconductors.",
+        "content_hash": "3d7ddf2ddf2f45300c884cef1e570fbd28b31eacf8d9354b6dc72d48abe89bbb",
+        "id": "gcn_2185933bf3e743de",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811100192630636544::problem",
+            "package_id": "paper:811100192630636544",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811100192630636544"
+          ]
+        },
+        "rerank_score": 0.8753557494675086,
+        "role": "premise",
+        "score": 0.010309278350515464,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "For a Wannier tight-binding Hamiltonian of dimension $N$ with Chebyshev expansion order $M$ and stochastic sample size $S$, the KPM-based evaluation of second derivatives scales as $\\mathcal{O}(S M N)$ (sparse matrix–vector operations), whereas the direct Green's-function evaluation that retains non-local magnetic potential scales as $\\mathcal{O}(N^3 N_M)$ where $N_M$ is the number of Matsubara frequency points. For the practical multi-orbital case of bcc-Fe with $N_i = 16^3$ unit cells (Hamiltonian dimension $N = N_i \\times 18$, including 9 orbitals and spin), $M = 2000$, $S = 3200$, and a hopping matrix sparsity of about 600 non-zero elements per row (due to a cutoff energy $\\epsilon_{\\text{cutoff}} = 5\\times10^{-3}$ eV), the KPM operation count is approximately $10^{15}$, while the conventional full Green's-function approach with non-local $\\Sigma^{i(0)}$ and $\\Sigma^{i(1)}$ would be about $10^{18}$.",
+        "content_hash": "ce490ad328a49811506d13e7e77e0404518b5964d6f67a51cbd398bd85682796",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_c128e95af81c4ea4",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867760755548618804::conclusion_2",
+            "package_id": "paper:867760755548618804",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867760755548618804"
+          ]
+        },
+        "rerank_score": 0.7999745171605984,
+        "role": "conclusion",
+        "score": 0.006260331993231016,
+        "title": "Computational-cost comparison showing KPM's favorable scaling for a multi-orbital tight-binding model",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Even if a formally exact formula to extract exchange couplings exists, practical application to realistic multiorbital tight-binding models requires manageable computational resource demands. The KPM formulation must be characterized by practical parameters ($M$, $S$, cutoff) to establish feasibility and to compare to the cost of the conventional Green's-function approach; quantifying the runtime/operation-count advantage is necessary to justify use of KPM in real materials calculations.",
+        "content_hash": "cc617343102b96b83517707bb2899184b204b84a4116c7007e3c36106e7b8a2e",
+        "id": "gcn_6da407f9731849f4",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812585898318233600::conclusion_6_subproblem",
+            "package_id": "paper:812585898318233600",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812585898318233600"
+          ]
+        },
+        "rerank_score": 0.7685099719528183,
+        "role": "premise",
+        "score": 0.02797067901234568,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In quantum-transport calculations one must obtain the conductor's dressed Green's function which contains the dynamical influence of semi-infinite leads via self energies. Traditional methods compute lead surface Green's functions or self energies by diagonalization or iterative surface techniques, then form and invert dense conductor matrices; these steps lose sparsity and scale poorly in large or irregular devices. The KPM provides a route to compute Green's functions using only sparse matrix–vector multiplications, but previously KPM treatments were restricted to isolated or bulk systems where the Hamiltonian is finite and there is no bath-induced dressing. A concrete mathematical representation that brings the open-system self energies and the conductor dressing into the Chebyshev expansion, while preserving sparsity and enabling energy-reuse (the same Chebyshev coefficients apply for all energies), was missing. Without such a representation one cannot exploit KPM's $O(ND)$ scaling to evaluate energy-resolved transmission $T(E)$ for scattering setups without reverting to dense-matrix operations, and therefore large energy scans or large-device transport simulations remained computationally prohibitive.",
+        "content_hash": "b4060886072776d18e5f64ce066acc4ad201e47c51f18b8955e8b0bac3bba796",
+        "id": "gcn_b3478481ba6d4e87",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867765699798368789::conclusion_1_subproblem",
+            "package_id": "paper:867765699798368789",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867765699798368789"
+          ]
+        },
+        "rerank_score": 0.7896106476812177,
+        "role": "premise",
+        "score": 0.021164021164021163,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The KPM implementation for the multi-mass Hessian exhibits near-linear scaling of CPU time and memory with the number of particles $N$ under the sparsity conditions of short-range interaction cutoffs. Specifically, for the tested systems the wall-clock time follows $t_{\\mathrm{KPM}}\\propto K\\cdot R\\cdot C\\cdot d\\propto N$, where $K$ is the Chebyshev truncation degree, $R$ the number of stochastic vectors, $C$ the number of parallel cores, and $d$ the Hessian density; memory usage grows $\\sim N$ because the number of non-zero Hessian elements scales as $9 N N_{\\mathrm{inter}}$ with $N_{\\mathrm{inter}}$ fixed by the interaction cutoff, so $d\\propto N_{\\mathrm{inter}}/N$. In contrast, direct diagonalization empirically scales roughly as $N^{2.7}$ in time and $N^{2}$ in memory for these problems. The KPM scaling demonstrated makes lattice-dynamics computations at atomistic or coarse-grain resolution feasible for $N$ up to $10^{6}$ on standard sparse-linear-algebra and parallel hardware.",
+        "content_hash": "48fef4d845bea974715e88e79974e504d244f131147bf098743a9ed2f31e82d7",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_beda160d878241f1",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867751518625858303::conclusion_6",
+            "package_id": "paper:867751518625858303",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867751518625858303"
+          ]
+        },
+        "rerank_score": 0.7880617491818036,
+        "role": "conclusion",
+        "score": 0.005583251797667303,
+        "title": "Computational scaling and resource usage: KPM time and memory scale linearly, enabling $N\\!\\sim\\!10^{6}$ evaluations",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Numerically computing topological markers by diagonalization became infeasible in higher dimensions because storing eigenvectors and constructing full projectors requires memory and I/O that scale as the square of the Hilbert-space dimension, limiting studies to small system sizes and preventing exploration of impurity-induced spatial structure and critical behaviour requiring $L\\gtrsim\\xi$. The KPM approach trades full diagonalization for repeated sparse-matrix–vector multiplications, reducing memory demand to the size of a few vectors of length $M$ while incurring an explicit polynomial-order cost $\\propto N$ in CPU time. Quantifying these scalings clarifies the computational regime where KPM permits larger-system studies of markers that were previously inaccessible.",
+        "content_hash": "88d84c13aed840784505d336a6b341cdb049a9875299bf22ac70373ad897562c",
+        "id": "gcn_a802efb575934f42",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1202947975546929152::conclusion_2_subproblem",
+            "package_id": "paper:1202947975546929152",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1202947975546929152"
+          ]
+        },
+        "rerank_score": 0.7576642851510221,
+        "role": "premise",
+        "score": 0.01020408163265306,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Exact diagonalization of large multiband disordered Hamiltonians is computationally prohibitive ($\\mathcal{O}(N^3)$ scaling), which has limited previous studies to small systems or to approximations for disorder. A numerically efficient, scalable method to evaluate spectral functions and two-particle (Green's function product) quantities needed for $J_{ij}$ is therefore required. Demonstrating that KPM can be combined with a multiband ETBM and the Lichtenstein formula to obtain $J_{ij}$ on large finite disordered systems addresses this computational bottleneck and enables statistically robust disorder averaging of exchange integrals.",
+        "content_hash": "e3813da5193170e8a373a1d3d143dfeb32ded3ce52d1c3cbc17d59ddc33e256a",
+        "id": "gcn_0b14058274804fa0",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813259081543319553::conclusion_6_subproblem",
+            "package_id": "paper:813259081543319553",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813259081543319553"
+          ]
+        },
+        "rerank_score": 0.8550698466199658,
+        "role": "premise",
+        "score": 0.005780346820809248,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Solving the linear system (εS - H - Σ)ψ = Inj for the wave function in DFT-based quantum transport is computationally challenging because the Hamiltonian matrix, expressed in a contracted Gaussian basis, has a large bandwidth and is relatively dense (sparsity of only ~0.2–1%). Traditional direct sparse solvers like MUMPS have high algorithmic complexity and memory usage for such matrices, and they do not efficiently leverage GPU accelerators. The Recursive Green's Function algorithm, while efficient for tight-binding, is predominantly sequential and difficult to parallelize. Moreover, the self-energy matrix Σ arising from the lead coupling is low-rank, but standard solvers do not exploit this structure. A new algorithm that can benefit from dense linear algebra on GPUs, parallelize over multiple accelerators, and decouple the computation of the inverse of the unperturbed matrix from the self-energy correction is needed to reduce wall times and enable simulations of larger systems from first principles.",
+        "content_hash": "731900d09b3ab6762d3f8c942d32cd50da9b65b72e42abae7055b3ad0003f5dc",
+        "id": "gcn_90f4093fd7ca4864",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813106699895308289::conclusion_2_subproblem",
+            "package_id": "paper:813106699895308289",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813106699895308289"
+          ]
+        },
+        "rerank_score": 0.8233318529272953,
+        "role": "premise",
+        "score": 0.01,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The study addresses numerical evaluation of quantum electronic transport in open nanostructures via the Landauer-Büttiker framework, where the physically measured two-terminal conductance is given by a transmission function expressed in terms of retarded and advanced Green's functions and lead self-energies. For realistic or large-scale systems this standard Green's-function approach becomes computationally demanding because (i) the leads are semi-infinite so their surface Green's functions and self-energies formally live in infinite-dimensional spaces, (ii) obtaining the dressed conductor Green's function requires inversion of dense matrices $\\left[E-H_C-\\Sigma_L-\\Sigma_R\\right]^{-1}$ which destroys sparsity and scales poorly with system size, and (iii) commonly used layer-recursive or iterative schemes that reduce cost apply only to special geometries (layerable devices) and fail for irregular, quasi-incommensurate, or large multi-orbital systems. Separately, the kernel polynomial method (KPM) and Chebyshev expansions enable very efficient large-scale calculations for isolated or bulk Hamiltonians because they replace matrix inversion by repeated sparse matrix–vector products and energy-independent Chebyshev coefficients, but prior KPM formulations and recent kernel/bath techniques had been developed for isolated or bulk problems and did not supply a straightforward, numerically efficient prescription to (a) compute lead surface Green's functions (and hence self-energies) of semi-infinite leads within KPM without resorting to dense matrix operations, and (b) include those self-energies to form the dressed conductor Green's function in a way that preserves the KPM computational advantages. Because of these gaps, simulations of quantum transport for large, irregular, or multi-terminal nanostructures lacked a KPM-based method that (1) represents both lead self-energies and the dressed conductor Green's function as Chebyshev expansions of sparse matrices, (2) avoids expensive dense-matrix inversions or costly self-consistent infinite-lead procedures where possible, and (3) yields controlled, practical approximations that trade negligible physical error for large computational savings.",
+        "content_hash": "b9d69cb6d0ae6a07d6d36253d37ccda1234cff23d925054424562826c31fa1d0",
+        "id": "gcn_195720e97ef04c82",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812587288616763392::problem",
+            "package_id": "paper:812587288616763392",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812587288616763392"
+          ]
+        },
+        "rerank_score": 0.8496814972546827,
+        "role": "premise",
+        "score": 0.014181926751592357,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In Kohn–Sham density functional theory (DFT) calculations formulated in a non-orthonormal basis, the central computational task is solving the generalized eigenproblem $H C = \\varepsilon S C$ for real symmetric or complex Hermitian Hamiltonian $H$ and positive-definite overlap matrix $S$, or equivalently forming the single-particle density matrix $P$ without full diagonalization. Prior to this work, several practical limitations hindered large-scale, high-throughput, and GPU-accelerated electronic-structure simulations: (a) the cubic-scaling cost of dense eigensolvers (diagonalization) becomes the dominant computational bottleneck for large systems, preventing routine calculations for many thousands of basis functions unless alternative reduced-scaling solvers are used; (b) different solver libraries expose heterogeneous APIs and distributed-matrix formats, so integrating multiple solver types into an electronic-structure code required repeated, error-prone glue code and prevented easy comparative benchmarking and solver switching; (c) for generalized eigenproblems in particular, key linear-algebra steps (Cholesky-based reduction, triangular inversion, and the forward/back transformations that involve large matrix-matrix multiplications) were not fully GPU-resident in many solver implementations, so important computation phases fell back to CPUs or suffered from expensive GPU–CPU memory transfers and inefficient inter-GPU communication patterns; (d) GPU support across vendor ecosystems was incomplete or feature-uneven (e.g., full NVIDIA/AMD support with collective communication versus only partial Intel GPU support), complicating portable performance and feature parity across current HPC systems; and (e) without a unified interface layer, electronic-structure codes lacked a standardized mechanism for selecting and dispatching eigensolvers versus density-matrix solvers (including occupation-number handling) adapted to system dimensionality, sparsity, and hardware, thereby preventing easy exploitation of solver-specific crossover regimes (when density-matrix methods outperform direct diagonalization) and inhibiting exascale readiness. These limitations prevented routine, scalable, GPU-accelerated generalized-eigenproblem solutions for very large dense matrices, made solver-interchangeability and comparative benchmarking difficult, and constrained the ability of codes like FHI-aims to exploit modern heterogeneous HPC hardware efficiently.",
+        "content_hash": "2227f7f6cde90d1cb954ddf50ce2b179de7844d289578e1b033a966eb9930b4c",
+        "id": "gcn_1c7a1cac1ee74296",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1094132596020871189::problem",
+            "package_id": "paper:1094132596020871189",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1094132596020871189"
+          ]
+        },
+        "rerank_score": 0.7443974026741136,
+        "role": "premise",
+        "score": 0.009433962264150943,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Computing $S^{-\\frac{1}{2}}$, the transformed Hamiltonian $H'$, and the density matrix $\\hat{\\rho}$ in linear-scaling DFT typically requires solving linear systems or evaluating matrix functions efficiently. The Green's function formulation leads to shifted linear systems $(zS-H)|R_i(z)\\rangle = |r_i\\rangle$ for many complex energy points $z$ and multiple right-hand sides (the CSS vectors). Direct solution for each $z$ and each right-hand side is computationally prohibitive. Approximate methods like Chebyshev polynomial expansion can control cost but sacrifice accuracy. A Krylov subspace method can solve a linear system for a single right-hand side efficiently, but handling multiple right-hand sides separately would multiply the cost. The block-Lanczos method constructs a single Krylov subspace that is shared across all $z$ and all right-hand sides simultaneously, dramatically reducing the computational work. Additionally, the projection onto the CSS representation reduces the number of right-hand sides from system size to a small constant ($\\sim 310$ for the density matrix). The challenge is to combine these two compression strategies to achieve linear scaling with high accuracy and hardware efficiency, replacing the inefficient sparse-sparse matrix operations of conventional methods with efficient sparse-dense matrix multiplications.",
+        "content_hash": "790b00c728c975a80a18c55a2b214bdfb1dccbbbc03d0adba40e9c24939cd2f2",
+        "id": "gcn_2129cb0b39194015",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:7463130581270827059::conclusion_2_subproblem",
+            "package_id": "paper:7463130581270827059",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:7463130581270827059"
+          ]
+        },
+        "rerank_score": 0.7398513779442525,
+        "role": "premise",
+        "score": 0.014084507042253521,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "For realistic modelling workflows one needs both (a) convenient, physics-oriented model construction primitives (lattice vectors, orbital labels, hopping terms, inter-layer containers, per-sample modifiers for strain/fields) so that complex geometries and perturbations can be expressed succinctly, and (b) compiled, parallel numerical kernels for computationally demanding operations (matrix construction, time propagation, Chebyshev and KPM expansions, Green’s-function recursion, diagonalization and post-processing). Existing software either provides low-level cores with limited user ergonomics or user-friendly Python front-ends with cores that lack industrial-strength parallel and sparse-matrix implementations. This gap prevents routine adoption for large-scale studies where both model expressivity and high performance are required.",
+        "content_hash": "5f2b7ba6cf731ea01a2f3d1a75102448e4d9e6829e669b172251d1a33333d8be",
+        "id": "gcn_de1b0d41bef1483f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867765002071704074::conclusion_1_subproblem",
+            "package_id": "paper:867765002071704074",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867765002071704074"
+          ]
+        },
+        "rerank_score": 0.7393687846970549,
+        "role": "premise",
+        "score": 0.011494252873563218,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Even if local density-matrix blocks could be used to predict topological invariants, the computation of those blocks for large, inhomogeneous systems remains a bottleneck. Exact diagonalization of the full Hamiltonian scales as $O(N^3)$ and becomes prohibitive for systems with tens of thousands of atoms—exactly the scale where local topological mapping is most needed (e.g., in Moiré superlattices or large disordered samples). Real-space methods such as the kernel polynomial method (KPM) have been developed to compute spectral functions and correlation functions with $O(N)$ cost for sparse Hamiltonians, but they had not been coupled with a machine learning classifier to perform local topological characterization. This work bridges that gap, showing that an ANN trained on density-matrix blocks can be combined with the KPM to achieve a practical, linear-scaling algorithm for mapping topological invariants in large inhomogeneous systems.",
+        "content_hash": "9cd43b1460d018f2789dbb21d517f85f8df22c5b25350aa2af848ba4a9c9de33",
+        "id": "gcn_d773a07e50034246",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817404164526047233::conclusion_2_subproblem",
+            "package_id": "paper:817404164526047233",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817404164526047233"
+          ]
+        },
+        "rerank_score": 0.7574543535935905,
+        "role": "premise",
+        "score": 0.009433962264150943,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The paper asserts that the configuration-space, sparse-KPM workflow is computationally favorable compared to brute-force DFT supercell calculations for sampling many twist angles and local configurations because the global calculation decomposes into a large number of independent local computations of H^{\\omega} that can be run in parallel (an embarrassingly parallel outer loop), and because each local KPM computation relies on sparse matrix–vector operations that can exploit optimized, multi-threaded numerical libraries (the implementation reported uses MVAPICH for parallel communication and Intel MKL for optimized linear algebra), although the workflow still requires the one-time cost of constructing Wannier-derived tight-binding Hamiltonians and may involve many ω samples for high-dimensional Ω.\n      Implementation notes in Section II and acknowledgments regarding MVAPICH and Intel MKL",
+        "content_hash": "fb9609380b6be5cd9edac04bce16ba2cf02085481112ec195731e28f081d8c3e",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_dacb4ab53660441b",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867754812769305348::P10",
+            "package_id": "paper:867754812769305348",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867754812769305348"
+          ]
+        },
+        "rerank_score": 0.8071215954549403,
+        "role": "premise",
+        "score": 0.006183103975535169,
+        "title": "Claimed computational advantage vs. DFT despite cost of constructing Wannier TB and high-dimensional Ω sampling",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In Monte Carlo sampling of classical configurations coupled to fermions, each local classical update requires estimating the change in electron free energy, which can be expressed via the change of the density of states. Direct diagonalization of the $N\\times N$ single-particle Hamiltonian costs $O(N^3)$ and becomes prohibitive as $N$ increases. KPM-based approaches reduce cost by expanding spectral quantities in Chebyshev polynomials, but a clear accounting of the per-update computational cost for a GFMC method that computes only local Green-function elements was needed to assess practical scaling and to determine what work must be optimized (e.g., the MVM recurrence vs. the FFT). The asymptotic cost expression $O(NM)+O(M\\log M)$ identifies the MVM recurrence as the memory- and compute-dominant component and shows that, for fixed expansion order $M$, the algorithm becomes effectively linear in $N$, explaining why large-$N$ simulations become feasible if the MVM can be implemented efficiently on the target hardware.",
+        "content_hash": "3ca84037353ff0172c6e44b624043e5624f3846d7fbd43f23688929692bdfcc8",
+        "id": "gcn_9eb6fa49f7754785",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813204317975609344::conclusion_1_subproblem",
+            "package_id": "paper:813204317975609344",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813204317975609344"
+          ]
+        },
+        "rerank_score": 0.8259282069546059,
+        "role": "premise",
+        "score": 0.006622516556291391,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The central obstacle for large-scale first-principles calculations has been simultaneous control of CPU complexity and memory footprint: diagonalization demands $O(N^{3})$ work and $O(N^{2})$ memory, preventing routine calculations for very large $N$. Even existing linear-scaling algorithms face practical limitations (basis dependence, accuracy of kinetic functionals, large prefactors). A method that (i) replaces diagonalization by sparse matrix–vector operations, (ii) keeps memory demands proportional to system size, and (iii) benefits from reduced sampling for larger systems is required to make ab initio calculations of very large systems tractable on modest hardware.",
+        "content_hash": "067fb5bce2c57800204f1aa6bdd28b66b7359ca914cd8a8083cbdd33ab765de4",
+        "id": "gcn_8a07de2c291c4b8b",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867771043828203877::conclusion_5_subproblem",
+            "package_id": "paper:867771043828203877",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867771043828203877"
+          ]
+        },
+        "rerank_score": 0.7283549112841476,
+        "role": "premise",
+        "score": 0.006211180124223602,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In computational quantum many-body problems one frequently needs selected elements of the Green's function $G(z)=(zI-H)^{-1}$ for many complex energy points $z_k$ (e.g., $z_k=\\omega_k+i\\delta$ with small $\\delta$) or for numerical contour integrals on the complex plane. For realistic quantum-lattice Hamiltonians $H$ represented as very large sparse Hermitian (or real-symmetric) matrices of dimension $M$ (often $M\\gg 10^6$), direct diagonalization to obtain eigenpairs (cost $O(M^3)$ and memory $O(M^2)$) is infeasible. A standard iterative alternative based on Lanczos recurrences can produce diagonal Green's-function components via continued fractions, but (i) it is not straightforward to obtain off-diagonal elements $G_{ab}(z)$ with the same efficiency and (ii) convergence control of continued-fraction based results is problematic. A practical workflow therefore requires an algorithm that (a) can solve many shifted linear systems $(z_k I - H)x^{(k)}=b$ for many $z_k$ simultaneously with total cost comparable to a single linear solve, (b) provides direct access to both diagonal and off-diagonal projected quantities (e.g., $a^\\dagger G(z)b$) with rigorous residual-based convergence monitoring, and (c) uses memory and sparse-matrix operations sparingly so that problems with extremely large $M$ (e.g., up to billions of degrees of freedom in principle) become tractable on realistic hardware. Prior to this work there existed shifted-Krylov algorithms in the literature, but, according to the authors, no publicly available, maintained, open-source library packaging shifted-conjugate-gradient (real and complex), shifted-COCG, and shifted-BiCG solvers together with a reverse-communication interface for user-supplied matrix–vector products, projection-mode operation, seed-switching, and utilities for integration with quantum-lattice solvers. The absence of such a library prevented easy adoption of shifted-Krylov approaches by users who need: efficient simultaneous multi-shift solves, projection-only evaluation of solutions to reduce SpMV and memory work, residual-based convergence control across many shifts, and practical tools (standalone executables and library API) to combine these methods with existing electronic-structure or quantum-lattice packages.",
+        "content_hash": "2ebf35ccdfdd2152646a4ceb4d7dc220c4a405a4fdfe7a37b59644f1737e6030",
+        "id": "gcn_277ddd3ae46d462f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867753288244658205::problem",
+            "package_id": "paper:867753288244658205",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867753288244658205"
+          ]
+        },
+        "rerank_score": 0.7518194629819059,
+        "role": "premise",
+        "score": 0.005714285714285714,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In large-scale electronic structure, computing the Fermi–Dirac operator $F(O^{-1}H)$ or the density matrix without diagonalization is essential to reach linear scaling. Prior stochastic approaches avoided diagonalization by expanding $F$ in global polynomials (e.g. Chebyshev), but those polynomial expansions require very high order for low temperature or narrowly gapped systems, leading to prohibitive cost despite their formal linear scaling. Direct Green’s-function based integration is exact but would naively require solving large linear systems for many complex energies $z$, which is expensive. A practical algorithm therefore needs a way to evaluate the required Green’s-function integrals with controlled approximation using a small subspace, to avoid high polynomial orders and full diagonalization while preserving stochastic-error behavior. The Krylov-projected rGF addresses precisely this computational and approximation gap by solving shifted linear systems in a shared small Krylov subspace per random vector, reducing the number of basis functions required to represent the relevant spectral window and enabling linear-scaling evaluation of $\\tilde{F}$ with controllable stochastic error.",
+        "content_hash": "30fde012a9946aadbddc844353b408c9129f8bccdd37c5546da79ca2c39d4fbe",
+        "id": "gcn_f7e49d1ecda8457d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:937411645674619034::conclusion_1_subproblem",
+            "package_id": "paper:937411645674619034",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:937411645674619034"
+          ]
+        },
+        "rerank_score": 0.713029719004323,
+        "role": "premise",
+        "score": 0.006060606060606061,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The central computational obstacle in applying LSWT to very large magnetic unit cells stems from the cubic-scaling dense diagonalization step required to obtain eigenpairs of $\\tilde{I}D$. For real-space large-supercell treatments of disorder, incommensurability, or multi-$\\boldsymbol{k}$ textures, the dense diagonalization becomes the dominant cost and prohibits practical calculations. A viable alternative must replace dense eigenvalue solvers with operations that exploit matrix sparsity or structure and scale linearly with system size. Deriving an explicit cost model and demonstrating a crossover point where the KPM matvec-based workflow becomes favorable (including dependence on polynomial order $M$ and sparsity of $D$) provides practitioners with a quantitative criterion for when KPM will outperform conventional LSWT.",
+        "content_hash": "2b5a9b2156080ddc5fb07b782a09baeb1939fa56fdb3a9dba9a932ab2382f4a7",
+        "id": "gcn_be512c1c83744ebd",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:942120767775048290::conclusion_3_subproblem",
+            "package_id": "paper:942120767775048290",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:942120767775048290"
+          ]
+        },
+        "rerank_score": 0.7082461184048874,
+        "role": "premise",
+        "score": 0.011235955056179775,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Mapping topology or building training datasets for disordered samples requires computing projectors $P=\\theta(E_F-H)$ and their reduced correlation matrices across many disorder realizations and parameter points. Direct diagonalization of the full Hamiltonian for each sample is the main computational bottleneck. The kernel polynomial method (KPM) provides a controlled expansion of $P$ in matrix polynomials of $H$, enabling application of $P$ to basis vectors via sparse-matrix recurrences with $O(M)$ sparse-matrix multiplies instead of an $O(N^3)$ diagonalization per sample. This greatly reduces precomputation costs for data-generation workflows and for scanning disorder/statistics in real-space diagnostics and ANN training.",
+        "content_hash": "d05ba7a6603cbb1417deaa46ac49236914c7a6291ed2bb4afbefff7153b92cf7",
+        "id": "gcn_1fc386f6233b4687",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1190634009982402573::conclusion_8_subproblem",
+            "package_id": "paper:1190634009982402573",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1190634009982402573"
+          ]
+        },
+        "rerank_score": 0.706973992318668,
+        "role": "premise",
+        "score": 0.005988023952095809,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In computing LDOS via KPM, the core computational kernel is a mix of sparse matrix–vector multiplications and short, tightly serialized Chebyshev recurrences: $|r_{n+2}\\rangle = 2\\tilde{H}|r_{n+1}\\rangle - |r_n\\rangle$ and $\\mu_n=\\langle r|r_n\\rangle$. Prior CPU implementations attempted thread-level parallelism over independent random vectors, but the inner recurrence is difficult to parallelize across nodes because it requires frequent synchronized, memory-intensive operations and causes poor utilization when the memory bus saturates. There was no concrete, implementation-level decomposition that both (a) maps the per-row sparse-matrix updates and dot-products to per-thread work to exploit thousands of GPU threads, and (b) manages the recurrence state with minimal memory overhead while preserving coalesced accesses for the compressed sparse ELL layout. Without such a decomposition, KPM implementations remained memory-bound and could not exploit accelerator hardware effectively to reduce wallclock times for large sparse Hamiltonians.",
+        "content_hash": "2d54d2f839f05faf24d9b8776a7f693e4a40296f61d4f0252d86f335e5c7c752",
+        "id": "gcn_68f8e957de1d4b30",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813231082747985921::conclusion_1_subproblem",
+            "package_id": "paper:813231082747985921",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813231082747985921"
+          ]
+        },
+        "rerank_score": 0.8034749612466793,
+        "role": "premise",
+        "score": 0.018350030668574935,
+        "type": "question",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "req_34fd353f2e35b"
+}

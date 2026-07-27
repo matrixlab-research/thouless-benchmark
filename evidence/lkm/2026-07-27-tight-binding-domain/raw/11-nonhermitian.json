@@ -1,0 +1,1493 @@
+{
+  "code": 0,
+  "data": {
+    "has_more": true,
+    "papers": {
+      "paper:1020579632388243457": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Han Xiao | Qi-Bo Zeng",
+        "available_online": "",
+        "cover_date_start": "2024-03-28",
+        "created_at": "2026-06-12T00:17:59+08:00",
+        "doi": "10.48550/arxiv.2403.19430",
+        "en_title": "Coexistence of non-Hermitian skin effect and extended states in one-dimensional nonreciprocal lattices",
+        "id": "1020579632388243457",
+        "keywords": "",
+        "publication_date": "2024-03-28",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "一维非互易晶格中非厄米趋肤效应与扩展态的共存"
+      },
+      "paper:1077113815813849095": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Haoyan Chen | Yi Zhang",
+        "available_online": "",
+        "cover_date_start": "2024-12-19",
+        "created_at": "2026-06-19T00:42:27+08:00",
+        "doi": "10.48550/arxiv.2412.14912",
+        "en_title": "Recurrence method in Non-Hermitian Systems",
+        "id": "1077113815813849095",
+        "keywords": "",
+        "publication_date": "2024-12-19",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "非厄米系统中的递推方法"
+      },
+      "paper:1113972520534409221": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Yazhuang Miao | Yiming Zhao | Yong Wang | Xiaolong Zhao | Xuexi Yi",
+        "available_online": "",
+        "cover_date_start": "2025-03-31",
+        "created_at": "2026-06-13T13:42:31+08:00",
+        "doi": "10.48550/arxiv.2503.23978",
+        "en_title": "Non-Abelian Gauge Enhances Self-Healing for Non-Hermitian Topological Su-Schrieffer-Heeger Chain",
+        "id": "1113972520534409221",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "非阿贝尔规范增强非厄米拓扑苏-施里弗-海格链的自愈合能力 "
+      },
+      "paper:1126493783353982978": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Markus Bestler | Alexander Dikopoltsev | Oded Zilberberg",
+        "available_online": "",
+        "cover_date_start": "2025-05-05",
+        "created_at": "2026-06-14T17:19:52+08:00",
+        "doi": "10.48550/arxiv.2505.02776",
+        "en_title": "Non-Hermitian topology and skin modes in the continuum via parametric processes",
+        "id": "1126493783353982978",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "通过参量过程实现的连续统中的非厄米拓扑与表面模式"
+      },
+      "paper:1129109350057508908": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Pius M. Theiler | Sander Driessen | Matthew C. Beard",
+        "available_online": "",
+        "cover_date_start": "2025-05-09",
+        "created_at": "2026-06-19T09:47:21+08:00",
+        "doi": "10.48550/arxiv.2505.06173",
+        "en_title": "Non-Hermitian Exchange as the Origin of Chirality-Induced Spin Selectivity",
+        "id": "1129109350057508908",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "非厄米交换作为手性诱导自旋选择性的起源"
+      },
+      "paper:1147866257039556623": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Sayed Ali Akbar Ghorashi | Masatoshi Sato",
+        "available_online": "",
+        "cover_date_start": "2025-07-02",
+        "created_at": "2026-06-18T23:18:56+08:00",
+        "doi": "10.48550/arxiv.2507.02038",
+        "en_title": "Topological Reality Switch: Towards Bulk-Boundary Selective Lasing",
+        "id": "1147866257039556623",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Quantum Physics",
+        "research_categories": "",
+        "zh_title": "拓扑实境切换：迈向体-边界选择性激光发射"
+      },
+      "paper:1149314103378968606": {
+        "area": "arxiv-physics",
+        "authors": "Hua-Yu Bai | Yang Chen | Tian-Yang Zhang | Guang-Can Guo | Ming Gong | Xi-Feng Ren",
+        "available_online": "",
+        "cover_date_start": "2025-07-05",
+        "created_at": "2026-06-14T03:34:40+08:00",
+        "doi": "10.48550/arxiv.2507.04085",
+        "en_title": "Skin modes tunability and self-healing effect in photonic Floquet lattices",
+        "id": "1149314103378968606",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108520",
+        "publication_name": "Optics",
+        "research_categories": "",
+        "zh_title": "光子弗洛凯晶格中的表面模式可调谐性与自愈合效应"
+      },
+      "paper:1164173020172910592": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Edward McCann",
+        "available_online": "",
+        "cover_date_start": "2025-08-15",
+        "created_at": "2026-06-15T01:47:58+08:00",
+        "doi": "10.48550/arXiv.2508.11601",
+        "en_title": "A non-Hermitian Su-Schrieffer-Heeger model with the energy levels of free parafermions",
+        "id": "1164173020172910592",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "一个具有自由parafermions能级的非厄米Su-Schrieffer-Heeger模型"
+      },
+      "paper:1175812268261113865": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Rahul S | Giandomenico Palumbo",
+        "available_online": "",
+        "cover_date_start": "2025-09-18",
+        "created_at": "2026-06-15T06:41:54+08:00",
+        "doi": "10.48550/arXiv.2509.15102",
+        "en_title": "Zero Indirect Band Gap in Non-Hermitian Systems",
+        "id": "1175812268261113865",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "非厄米系统中的零间接带隙"
+      },
+      "paper:1182050232985190435": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Carlos Payá | Oliver Solow | Elsa Prada | Ramón Aguado | Karsten Flensberg",
+        "available_online": "",
+        "cover_date_start": "2025-10-01",
+        "created_at": "2026-06-16T08:39:10+08:00",
+        "doi": "10.48550/arXiv.2510.00921",
+        "en_title": "Non-Hermitian Skin Effect and Electronic Nonlocal Transport",
+        "id": "1182050232985190435",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "非厄米趋肤效应与电子非局域输运"
+      },
+      "paper:1215272888559468545": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Yuancheng Zhao | Jia-Xin Zhong | Jing Lin | Yun Jing | Kun Ding",
+        "available_online": "",
+        "cover_date_start": "2026-01-05",
+        "created_at": "2026-06-17T08:29:52+08:00",
+        "doi": "10.48550/arXiv.2601.01886",
+        "en_title": "Geometry-induced Exceptional Point Detached from Fermi Arcs",
+        "id": "1215272888559468545",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108485",
+        "publication_name": "Other Condensed Matter",
+        "research_categories": "",
+        "zh_title": "与费米弧分离的几何诱导例外点"
+      },
+      "paper:7462766240029773855": {
+        "area": "arxiv-cond-mat",
+        "authors": "Junsong Sun | Huaiming Guo | Bohm-Jung Yang",
+        "available_online": null,
+        "cover_date_start": "2026-05-19",
+        "created_at": "2026-06-02T11:01:49+08:00",
+        "doi": "10.48550/arxiv.2605.19272",
+        "en_title": "Non-Bloch Quantum Geometry of Non-Hermitian Systems",
+        "id": "7462766240029773855",
+        "keywords": null,
+        "publication_date": "2026-05-19",
+        "publication_id": "",
+        "publication_name": "arXiv (cond-mat.mes-hall)",
+        "research_categories": null,
+        "zh_title": "非Hermitian系统的非Bloch量子几何"
+      },
+      "paper:811822057275785219": {
+        "area": "Comprehensive Periodical, Physical Sciences, Condensed Matter Physics",
+        "authors": "Xiujuan Zhang | Yuan Tian | Jian-Hua Jiang | Ming-Hui Lu | Yan-Feng Chen",
+        "available_online": "2021-9-10",
+        "cas_zone": "1",
+        "cover_date_start": "2021-09-10",
+        "created_at": "2026-06-19T02:45:33+08:00",
+        "doi": "10.1038/s41467-021-25716-y",
+        "en_title": "Observation of higher-order non-Hermitian skin effect",
+        "id": "811822057275785219",
+        "impact_factor": 15.5,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2021-12",
+        "publication_id": "10026",
+        "publication_name": "Nature Communications _ Nat Commun",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "高阶非厄米趋肤效应的观测"
+      },
+      "paper:812305930086514689": {
+        "area": "physics and astrophysics, physics, multidisciplinary",
+        "authors": "Lei Xiao | Tianshu Deng | Kunkun Wang | Zhong Wang | Wei Yi | Peng Xue",
+        "available_online": "2021-6-10",
+        "cas_zone": "1",
+        "cover_date_start": "2021-06-10",
+        "created_at": "2026-06-15T03:24:25+08:00",
+        "doi": "10.1103/physrevlett.126.230402",
+        "en_title": "Observation of Non-Bloch Parity-Time Symmetry and Exceptional Points",
+        "id": "812305930086514689",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "",
+        "zh_title": "非布洛赫宇称-时间对称性与例外点的观测"
+      },
+      "paper:812670620042002433": {
+        "area": "physics and astrophysics, physical sciences, quantum physics",
+        "authors": "Nobuyuki Okuma | Kohei Kawabata | Ken Shiozaki | Masatoshi Sato",
+        "available_online": "2020-2-25",
+        "cas_zone": "1",
+        "cover_date_start": "2020-02-25",
+        "created_at": "2026-06-11T03:22:35+08:00",
+        "doi": "10.1103/physrevlett.124.086801",
+        "en_title": "Topological Origin of Non-Hermitian Skin Effects",
+        "id": "812670620042002433",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "[\"Physical Sciences\", \"Quantum Physics\"]",
+        "zh_title": "非厄米趋肤效应的拓扑起源"
+      },
+      "paper:812736399848505344": {
+        "area": "Comprehensive Periodical, Physical Sciences, Quantum Physics",
+        "authors": "Han Zhao | Xingdu Qiao | Tianwei Wu | Bikashkali Midya | Stefano Longhi | Liang Feng",
+        "available_online": "",
+        "cas_zone": "1",
+        "cover_date_start": "2019-09-13",
+        "created_at": "2026-06-19T04:01:42+08:00",
+        "doi": "10.1126/science.aay1064",
+        "en_title": "Non-Hermitian topological light steering",
+        "id": "812736399848505344",
+        "impact_factor": 45.7,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2019-9-13",
+        "publication_id": "7984",
+        "publication_name": "Science _ Science",
+        "research_categories": "[\"Physical Sciences\", \"Quantum Physics\"]",
+        "zh_title": "非厄米拓扑光操控"
+      },
+      "paper:812744582495207425": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, materials science, multidisciplinary",
+        "authors": "Zi-Yong Ge | Yu-Ran Zhang | Tao Liu | Si-Wen Li | Heng Fan | Franco Nori",
+        "available_online": "2019-8-15",
+        "cas_zone": "2",
+        "cover_date_start": "2019-08-15",
+        "created_at": "2026-06-12T07:52:12+08:00",
+        "doi": "10.1103/physrevb.100.054105",
+        "en_title": "Topological band theory for non-Hermitian systems from the Dirac equation",
+        "id": "812744582495207425",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "基于狄拉克方程的非厄米系统拓扑能带理论"
+      },
+      "paper:812765518548172803": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, materials science, multidisciplinary",
+        "authors": "Flore K. Kunst | Vatsal Dwivedi",
+        "available_online": "2019-6-10",
+        "cas_zone": "2",
+        "cover_date_start": "2019-06-10",
+        "created_at": "2026-06-10T00:20:48+08:00",
+        "doi": "10.1103/physrevb.99.245116",
+        "en_title": "Non-Hermitian systems and topology: A transfer-matrix perspective",
+        "id": "812765518548172803",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "非厄米系统与拓扑：转移矩阵视角"
+      },
+      "paper:812776030832951297": {
+        "area": "Physics and Astrophysics, physics, condensed matter, physics, applied, materials science, multidisciplinary",
+        "authors": "Ching Hua Lee | Ronny Thomale",
+        "available_online": "2019-5-8",
+        "cas_zone": "2",
+        "cover_date_start": "2019-05-08",
+        "created_at": "2026-06-19T00:13:37+08:00",
+        "doi": "10.1103/physrevb.99.201103",
+        "en_title": "Anatomy of skin modes and topology in non-Hermitian systems",
+        "id": "812776030832951297",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "非厄米系统中皮肤模式与拓扑结构剖析"
+      },
+      "paper:817338011158052866": {
+        "area": "comprehensive periodical, multidisciplinary sciences",
+        "authors": "Kai Zhang | Zhesen Yang | Chen Fang",
+        "available_online": "",
+        "cas_zone": "1",
+        "cover_date_start": "2022-05-07",
+        "created_at": "2026-05-23T02:06:30+08:00",
+        "doi": "10.1038/s41467-022-30161-6",
+        "en_title": "Universal non-Hermitian skin effect in two and higher dimensions",
+        "id": "817338011158052866",
+        "impact_factor": 15.5,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "10026",
+        "publication_name": "Nature Communications _ ",
+        "research_categories": "",
+        "zh_title": "二维及更高维度中的普适非厄米趋肤效应"
+      },
+      "paper:817359319132536833": {
+        "area": "physics and astrophysics, physical sciences, classical physics",
+        "authors": "Kazuki Yokomizo | Taiki Yoda | Shuichi Murakami",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2022-05-03",
+        "created_at": "2026-06-13T02:20:01+08:00",
+        "doi": "10.1103/PhysRevResearch.4.023089",
+        "en_title": "Non-Hermitian waves in a continuous periodic model and application to photonic crystals",
+        "id": "817359319132536833",
+        "impact_factor": 4.9,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "68812",
+        "publication_name": "Physical Review Research _ ",
+        "research_categories": "[\"Physical Sciences\", \"Classical Physics\"]",
+        "zh_title": "连续周期模型中的非厄米波及其在光子晶体中的应用"
+      },
+      "paper:867746837438660758": {
+        "area": "arXiv-Physics, Mathematical Sciences, Mathematical Physics, Physical Sciences, Condensed Matter Physics, Quantum Physics",
+        "authors": "Flore K. Kunst | Guido van Miert | Emil J. Bergholtz",
+        "available_online": "",
+        "cover_date_start": "2018-12-07",
+        "created_at": "2026-07-23T15:22:14+08:00",
+        "doi": "10.48550/arXiv.1812.03099",
+        "en_title": "Extended Bloch theorem for topological lattice models with open boundaries",
+        "id": "867746837438660758",
+        "keywords": "",
+        "publication_date": "2018-12-07",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Mathematical Sciences\", \"Mathematical Physics\", \"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "具有开放边界的拓扑晶格模型的扩展布洛赫定理"
+      },
+      "paper:867751288450843265": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Yang Li | Xiang Ji | Yuanping Chen | Xiaohong Yan | Xiaosen Yang",
+        "available_online": "",
+        "cover_date_start": "2022-04-27",
+        "created_at": "2026-06-17T08:21:53+08:00",
+        "doi": "10.48550/arXiv.2204.12857",
+        "en_title": "Topological energy braiding of the non-Bloch bands",
+        "id": "867751288450843265",
+        "keywords": "",
+        "publication_date": "2022-04-27",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "非布洛赫能带的拓扑能量编织"
+      },
+      "paper:867752303501771115": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Dipendu Halder | Saurabh Basu",
+        "available_online": "",
+        "cover_date_start": "2023-04-25",
+        "created_at": "2026-06-14T02:31:49+08:00",
+        "doi": "10.48550/arXiv.2304.12723",
+        "en_title": "Topological properties of a non-Hermitian two-orbital model",
+        "id": "867752303501771115",
+        "keywords": "",
+        "publication_date": "2023-04-25",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "非厄米双轨道模型的拓扑性质"
+      },
+      "paper:867756346018103948": {
+        "area": "arxiv-physics, physical sciences, quantum physics",
+        "authors": "Gang-Feng Guo | Xi-Xi Bao | Han-Jie Zhu | Xiao-Ming Zhao | Lin Zhuang | Lei Tan | Wu-Ming Liu",
+        "available_online": "",
+        "cover_date_start": "2023-04-14",
+        "created_at": "2026-05-22T22:02:10+08:00",
+        "doi": "10.48550/arXiv.2304.06926",
+        "en_title": "Anomalous non-Hermitian skin effect: the topological inequivalence of skin modes versus point gap",
+        "id": "867756346018103948",
+        "keywords": "",
+        "publication_date": "2023-04-14",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Quantum Physics\"]",
+        "zh_title": "反常非厄米趋肤效应：趋肤模式与点能隙的拓扑不等价性"
+      },
+      "paper:867757013096988978": {
+        "area": "arxiv-physics, mathematical sciences, mathematical physics, physical sciences, atomic, molecular and optical physics, quantum physics",
+        "authors": "Peng He | Hai-Tao Ding | Shi-Liang Zhu",
+        "available_online": "",
+        "cover_date_start": "2021-01-04",
+        "created_at": "2026-06-16T23:57:10+08:00",
+        "doi": "10.48550/arXiv.2101.00985",
+        "en_title": "Geometry and superfluidity of the flat band in a non-Hermitian optical lattice",
+        "id": "867757013096988978",
+        "keywords": "",
+        "publication_date": "2021-01-04",
+        "publication_id": "108486",
+        "publication_name": "Quantum Gases _ Physics.cond-mat.quant-gas",
+        "research_categories": "[\"Mathematical Sciences\", \"Mathematical Physics\", \"Physical Sciences\", \"Atomic, Molecular and Optical Physics\", \"Quantum Physics\"]",
+        "zh_title": "非厄米光学晶格中平带的几何与超流性"
+      },
+      "paper:867757876519633402": {
+        "area": "arxiv-physics, mathematical sciences, mathematical physics, physical sciences, quantum physics",
+        "authors": "Zi-Yong Ge | Yu-Ran Zhang | Tao Liu | Si-Wen Li | Heng Fan | Franco Nori",
+        "available_online": "",
+        "cover_date_start": "2019-03-24",
+        "created_at": "2026-06-11T00:18:20+08:00",
+        "doi": "10.48550/arXiv.1903.09985",
+        "en_title": "Topological band theory for non-Hermitian systems from the Dirac equation",
+        "id": "867757876519633402",
+        "keywords": "",
+        "publication_date": "2019-03-24",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Mathematical Sciences\", \"Mathematical Physics\", \"Physical Sciences\", \"Quantum Physics\"]",
+        "zh_title": "基于狄拉克方程的非厄米系统拓扑能带理论"
+      },
+      "paper:867762534193561646": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "C. Yuce",
+        "available_online": "",
+        "cover_date_start": "2019-05-22",
+        "created_at": "2026-05-16T15:27:01+08:00",
+        "doi": "10.48550/arXiv.1905.09328",
+        "en_title": "Non-Hermitian anomalous skin effect",
+        "id": "867762534193561646",
+        "keywords": "",
+        "publication_date": "2019-05-22",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "非厄米反常趋肤效应"
+      },
+      "paper:867769529927729543": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Kohei Kawabata | Masatoshi Sato | Ken Shiozaki",
+        "available_online": "",
+        "cover_date_start": "2020-08-17",
+        "created_at": "2026-06-17T02:08:27+08:00",
+        "doi": "10.48550/arXiv.2008.07237",
+        "en_title": "Higher-order non-Hermitian skin effect",
+        "id": "867769529927729543",
+        "keywords": "",
+        "publication_date": "2020-08-17",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "高阶非厄米趋肤效应"
+      },
+      "paper:867769786027737269": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "X. L. Zhao | L. B. Chen | L. B. Fu | X. X. Yi",
+        "available_online": "",
+        "cover_date_start": "2019-07-18",
+        "created_at": "2026-05-25T20:46:36+08:00",
+        "doi": "10.48550/arXiv.1907.07924",
+        "en_title": "Topological Phase Transition of A Non-Hermitian Crosslinked Chain",
+        "id": "867769786027737269",
+        "keywords": "",
+        "publication_date": "2019-07-18",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "非厄米交联链的拓扑相变"
+      },
+      "paper:867770280393572777": {
+        "area": "arxiv-physics, mathematical sciences, mathematical physics, physical sciences",
+        "authors": "Flore K. Kunst | Vatsal Dwivedi",
+        "available_online": "",
+        "cover_date_start": "2018-12-05",
+        "created_at": "2026-06-15T23:26:43+08:00",
+        "doi": "10.48550/arXiv.1812.02186",
+        "en_title": "Non-Hermitian systems and topology: A transfer-matrix perspective",
+        "id": "867770280393572777",
+        "keywords": "",
+        "publication_date": "2018-12-05",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Mathematical Sciences\", \"Mathematical Physics\", \"Physical Sciences\"]",
+        "zh_title": "非厄米系统与拓扑：转移矩阵视角"
+      },
+      "paper:867771102917559261": {
+        "area": "arXiv-Physics, Physical Sciences, Classical Physics",
+        "authors": "Kazuki Yokomizo | Taiki Yoda | Shuichi Murakami",
+        "available_online": "",
+        "cover_date_start": "2021-12-06",
+        "created_at": "2026-06-19T05:34:35+08:00",
+        "doi": "10.48550/arXiv.2112.02791",
+        "en_title": "Non-Hermitian waves in a continuous periodic model and application to photonic crystals",
+        "id": "867771102917559261",
+        "keywords": "",
+        "publication_date": "2021-12-06",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Classical Physics\"]",
+        "zh_title": "连续周期模型中的非厄米波及其在光子晶体中的应用"
+      },
+      "paper:867771125713601288": {
+        "area": "arxiv-physics, arxiv-quantum physics",
+        "authors": "Tony E. Lee",
+        "available_online": "",
+        "cover_date_start": "2016-03-16",
+        "created_at": "2026-06-02T07:19:00+08:00",
+        "doi": "10.48550/arXiv.1603.05312",
+        "en_title": "Anomalous edge state in a non-Hermitian lattice",
+        "id": "867771125713601288",
+        "keywords": "",
+        "publication_date": "2016-03-16",
+        "publication_id": "108526",
+        "publication_name": "Quantum Physics _ Physics.quant-ph.quant-ph",
+        "research_categories": "",
+        "zh_title": "非厄米晶格中的反常边缘态"
+      },
+      "paper:867771980533727861": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "S M Rafi-Ul-Islam | Zhuo Bin Siu | Mansoor B.A. Jalil",
+        "available_online": "",
+        "cover_date_start": "2021-02-07",
+        "created_at": "2026-06-15T23:02:51+08:00",
+        "doi": "10.48550/arXiv.2102.03727",
+        "en_title": "Non-Hermitian topological phases and exceptional lines in topolectrical circuits",
+        "id": "867771980533727861",
+        "keywords": "",
+        "publication_date": "2021-02-07",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "非厄米拓扑相和拓扑电路中的奇异线"
+      },
+      "paper:873507259219444169": {
+        "area": "arXiv-Physics, arXiv-Physics",
+        "authors": "Yaohua Li | Cuicui Lu | Shuang Zhang | Yong-Chun Liu",
+        "available_online": "",
+        "cover_date_start": "2023-06-07",
+        "created_at": "2026-06-19T00:53:04+08:00",
+        "doi": "10.48550/arXiv.2306.04460",
+        "en_title": "Loss-induced Floquet non-Hermitian skin effect",
+        "id": "873507259219444169",
+        "keywords": "",
+        "publication_date": "2023-06-07",
+        "publication_id": "108520",
+        "publication_name": "Optics _ Physics.physics.optics",
+        "research_categories": "",
+        "zh_title": "损耗诱导的弗洛凯非厄米趋肤效应"
+      },
+      "paper:914701265236132477": {
+        "area": "Physics and Astrophysics, physics, applied, physics, multidisciplinary, physics, mathematical, physics, mathematical, physics, multidisciplinary, physics, applied, physics, applied, physics, multidisciplinary, physics, applied, physics, multidisciplinary, physics, mathematical, physics, applied, physics, multidisciplinary, physics, multidisciplinary",
+        "authors": "Kazuki Yokomizo | Yuto Ashida",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2023-09-29",
+        "created_at": "2026-06-19T07:41:46+08:00",
+        "doi": "10.1103/physrevresearch.5.033217",
+        "en_title": "Non-Hermitian physics of levitated nanoparticle array",
+        "id": "914701265236132477",
+        "impact_factor": 4.9,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "68812",
+        "publication_name": "Physical Review Research _ ",
+        "research_categories": "",
+        "zh_title": "悬浮纳米颗粒阵列的非厄米物理学"
+      },
+      "paper:918569166477197369": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Ayan Banerjee | Arka Bandyopadhyay | Ronika Sarkar | Awadhesh Narayan",
+        "available_online": "",
+        "cover_date_start": "2023-10-07",
+        "created_at": "2026-06-19T11:30:58+08:00",
+        "doi": "10.48550/arXiv.2310.04834",
+        "en_title": "Non-Hermitian Topology and Flat Bands via an Exact Real Space Decimation Scheme",
+        "id": "918569166477197369",
+        "keywords": "",
+        "publication_date": "2023-10-07",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "通过精确实空间抽取方案实现的非厄米拓扑与平带"
+      },
+      "paper:966036053959901189": {
+        "area": "arxiv-physics, physical sciences, quantum physics",
+        "authors": "Liwei Xiong | Qicheng Zhang | Xiling Feng | Yufei Leng | Min Pi | Shuaishuai Tong | Chunyin Qiu",
+        "available_online": "",
+        "cover_date_start": "2023-12-01",
+        "created_at": "2026-06-15T02:48:00+08:00",
+        "doi": "10.48550/arXiv.2312.11490",
+        "en_title": "Tracking Intrinsic Non-Hermitian Skin Effect in Lossy Lattices",
+        "id": "966036053959901189",
+        "keywords": "",
+        "publication_date": "2023-12-01",
+        "publication_id": "108485",
+        "publication_name": "Other Condensed Matter _ Physics.cond-mat.other",
+        "research_categories": "[\"Physical Sciences\", \"Quantum Physics\"]",
+        "zh_title": "追踪有损晶格中的本征非厄米趋肤效应"
+      },
+      "paper:974558963599147010": {
+        "area": "arxiv-physics",
+        "authors": "Wen-Cheng Jiang | Jian Li | Qing-Xu Li | Jia-Ji Zhu",
+        "available_online": "",
+        "cover_date_start": "2024-03-08",
+        "created_at": "2026-05-22T21:55:00+08:00",
+        "doi": "10.48550/arXiv.2403.05039",
+        "en_title": "Gain-Loss-Induced Bipolar Non-Hermitian Skin Effect With Purely Imaginary Eigenenergies",
+        "id": "974558963599147010",
+        "keywords": "",
+        "publication_date": "2024-03-08",
+        "publication_id": "108505",
+        "publication_name": "Applied Physics _ Physics.physics.app-ph",
+        "research_categories": "",
+        "zh_title": "具有纯虚本征能量的增益-损耗诱导双极非厄米趋肤效应"
+      },
+      "paper:998473493928476672": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics, quantum physics",
+        "authors": "Shu Hamanaka | Tsuneya Yoshida | Kohei Kawabata",
+        "available_online": "",
+        "cover_date_start": "2024-05-16",
+        "created_at": "2026-05-22T20:01:17+08:00",
+        "doi": "10.48550/arxiv.2405.10015",
+        "en_title": "Non-Hermitian Topology in Hermitian Topological Matter",
+        "id": "998473493928476672",
+        "keywords": "",
+        "publication_date": "2024-05-16",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "厄米拓扑物质中的非厄米拓扑"
+      }
+    },
+    "variables": [
+      {
+        "content": "Non-Hermitian lattice models generically possess complex energy spectra whose imaginary parts lead to strong sensitivity to perturbations, exceptional points, and non-Hermitian skin effects; this complexification obstructs precise control of dynamical amplification, gain/lasing localization, and makes quantitative spectral engineering difficult. In two-dimensional non-Hermitian tight-binding systems such as the 2D Su–Schrieffer–Heeger (SSH) model with asymmetric hoppings, conventional prescriptions for obtaining a real spectrum rely on global symmetries like parity-time ($\\mathcal{PT}$) symmetry or on special fine-tuned constructions, but these approaches lack boundary-condition selectivity and do not provide a controllable way to force the spectrum to be real under one boundary condition (periodic or open) while leaving it complex under another. Prior “bottom-up’’ constructions that produce real spectra impose restrictive structures or offer limited tunability, and non-Bloch approaches clarify bulk spectra under open boundaries but do not by themselves provide a simple, local perturbation protocol to switch spectral reality between bulk (PBC) and boundary (OBC) selectively. Consequently, researchers cannot (i) impose a real bulk spectrum under PBC while keeping edge spectra complex under OBC in a controllable manner, (ii) exploit non-Hermitian skin effects to render full-OBC bulk spectra real on demand, or (iii) realize a boundary-condition–selective, tunable “reality switch’’ that could be used to control gain or lasing localization in practical non-Hermitian platforms.",
+        "content_hash": "4bcf13bc36bdb85c2d42323d2632c424ab146a991fb847ea154559e615313f16",
+        "id": "gcn_130f99edf2fc49a5",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1147866257039556623::problem",
+            "package_id": "paper:1147866257039556623",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1147866257039556623"
+          ]
+        },
+        "rerank_score": 0.8714166843074626,
+        "role": "premise",
+        "score": 0.012066365007541477,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The paper addresses the stability and spectral consequences of zero indirect band gaps in lattice band models when non-Hermitian effects (gain and loss, asymmetric intracell couplings) are present. In the standard band-theory context, a direct band gap occurs when conduction- and valence-band extrema coincide in momentum, while an indirect band gap occurs when these extrema occur at different momenta; a zero indirect band gap means that the global conduction-band minimum and valence-band maximum in energy are degenerate even though bands do not necessarily touch at the same momentum. Prior work has recently shown that in certain Hermitian one- and two-dimensional lattice models robust zero indirect gaps can persist over finite parameter ranges rather than being fine-tuned singularities. However, non-Hermitian Hamiltonians generically produce complex-valued spectra and bring new phenomena — exceptional points (EPs), point-gap versus line-gap spectral topologies, and the non-Hermitian skin effect (NHSE) — that can qualitatively alter band-structure notions inherited from Hermitian systems. Before this work, there was no systematic understanding of whether (and under what conditions) a robust zero indirect gap of the real part of the spectrum can survive non-Hermitian perturbations, how such a zero indirect gap would manifest in the complex-energy plane (point gap vs line-like gap), how it would relate to the appearance or suppression of the NHSE, or how EPs interact with these indirect-gap phenomena. Because experimental platforms routinely realize gain/loss and asymmetric hopping, this gap in knowledge prevents reliable prediction of spectral and spatial localization properties (e.g., whether eigenstates will be boundary-localized), hinders guidance for realizing such semimetallic phases in dissipative systems, and leaves unanswered whether the Hermitian robustness of zero indirect gaps extends to open-system settings. This motivates a focused study of a concrete non-Hermitian lattice model to (i) determine parameter regimes where the real-part indirect gap is pinned to zero, (ii) characterize the associated complex-spectrum topology (point gap vs line-like), (iii) connect the spectral structure to the NHSE, and (iv) examine EPs and their quantitative signatures.",
+        "content_hash": "4edc1effb8d81476699c96c136464f304371053576dd5161fc650af4e8e420a9",
+        "id": "gcn_0bbe258032584232",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1175812268261113865::problem",
+            "package_id": "paper:1175812268261113865",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1175812268261113865"
+          ]
+        },
+        "rerank_score": 0.8553323102610344,
+        "role": "premise",
+        "score": 0.007042253521126761,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The bulk-boundary correspondence for noninteracting tight-binding lattices is a foundational principle that, in Hermitian systems, links an integer-valued bulk topological invariant (in one dimension, the winding number) to the existence and multiplicity of zero-energy states localized at open boundaries. That standard framework assumes Hermiticity (closed systems) and diagonalizability of the Hamiltonian, and it underlies quantitative predictions (for example, that a winding number of $\\pm 1$ implies a pair of zero-energy edge states, one at each end). In experimental platforms such as photonic waveguides, however, gain and loss make the effective Hamiltonian intrinsically non-Hermitian. Prior theoretical treatments and numerical studies have largely indicated that the usual bulk-boundary correspondence continues to apply even when eigenvalues become complex, but these treatments typically assume that the Bloch Hamiltonian does not encircle non-Hermitian degeneracies (exceptional points) or otherwise produce non-diagonalizable behavior. What is missing is a controlled analysis of one-dimensional tight-binding models where (i) the Bloch Hamiltonian encircles an exceptional point so that eigenvalues and eigenvectors acquire $4\\pi$ periodicity in crystal momentum, and (ii) the full open-boundary Hamiltonian becomes defective (algebraic multiplicity larger than geometric multiplicity). Without that analysis, it is unclear whether the integer-valued winding number and its one-to-one implication for pairs of edge states survive, whether the Bloch-zone topology can take non-integer values, whether defectiveness can alter edge-state multiplicity and stability, and what signatures would be observable in realistic photonic implementations that include gain/loss, engineered hopping phases, finite size, and disorder. These gaps prevent definitive predictions for (a) the possible emergence of fractional topological invariants tied to encircling exceptional points, (b) the existence and dynamic stability of edge modes when the open system is non-diagonalizable, and (c) experimentally accessible protocols to detect such non-Hermitian topological phenomena.",
+        "content_hash": "b2dee1f34abfdcc4e2517c0660946d334b6ed638ab53c47d91af1c2722a238a3",
+        "id": "gcn_61de6af0dab44776",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867771125713601288::problem",
+            "package_id": "paper:867771125713601288",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867771125713601288"
+          ]
+        },
+        "rerank_score": 0.9512107476611222,
+        "role": "premise",
+        "score": 0.01873249299719888,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In the non-Hermitian tight-binding model with asymmetric hopping (derived from the $-i\\alpha\\hat\\sigma\\!\\cdot\\!\\hat p$ term and discretized into a Hatano–Nelson model), periodic boundary conditions produce delocalized Bloch-like states with eigenvalues forming a loop in the complex energy plane, whereas open boundary conditions collapse the spectrum onto a real segment and localize all states at the interfaces (the non-Hermitian skin effect). Thus, structural chirality generates non-Hermitian topology: the spectra under periodic and open boundary conditions are qualitatively different and not smoothly connected, and Bloch-band-based simulation methods that assume periodicity can miss the interface-localized spin accumulation entirely.",
+        "content_hash": "e755a12cfa1072c28f66c660dc34bb968e3c0aadceb014f94829341c97208ffd",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_e18498f5d5fb4958",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1129109350057508908::conclusion_4",
+            "package_id": "paper:1129109350057508908",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1129109350057508908"
+          ]
+        },
+        "rerank_score": 0.8485809543217377,
+        "role": "conclusion",
+        "score": 0.006056466302367941,
+        "title": "Bulk chirality plus open boundaries produces $\\mathcal{PT}$-symmetric non-Hermitian topology: periodic vs open boundary spectra differ qualitatively",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The study addresses the interplay of two active but previously only partially reconciled research threads in lattice many-body physics: (i) the physics of dispersionless (flat) Bloch bands, where extensive degeneracy and destructive-interference localization produce phenomena governed by band geometry (e.g., enhanced pairing, unconventional superfluidity), and (ii) non-Hermitian band structures realized in open or driven systems (gain/loss, nonreciprocal hopping) that host exceptional points (EPs), bulk Fermi arcs and the non-Hermitian skin effect. Prior work had established flat-band mechanisms for enhanced superconductivity and a geometric (quantum-metric) contribution to superfluid weight for Hermitian multiband systems, and separately had characterized point-gap topology, EPs and skin effects in non-Hermitian single-particle spectra. However, before this work there was no comprehensive treatment that (a) derived an experimentally motivated effective non-Hermitian multiband lattice model for interacting fermions with both nonreciprocal kinetic terms and complex-valued interactions arising from engineered loss, (b) identified whether and how a strictly flat, real-energy Bloch band survives non-Hermitian perturbations and how its localization competes or coexists with skin-effect pumping of bulk states, and (c) extended the multiband mean-field (BCS/BdG) description and the superfluid-weight–quantum-metric relation to the non-Hermitian, biorthogonal setting so that phase coherence (Meissner stiffness) and pairing criticality can be quantitatively assessed. These gaps prevented quantitative predictions for (i) the single-particle spectral topology (EPs, Fermi arcs, point gaps) and localization properties when nonreciprocity and engineered losses are present on a Lieb lattice, (ii) the form of mean-field gap equations and quasiparticle spectra for a non-Hermitian multiband superfluid with complex interaction $U$, and (iii) an expression for the superfluid weight that incorporates a non-Hermitian quantum metric and allows assessment of how nonreciprocity and dissipative two-body loss affect phase stiffness and criticality. Without such a synthesis, it was unclear whether nonreciprocity and loss could enhance or suppress superfluid coherence in flat-band settings, whether the flat band would be immune to the skin effect, and how to relate measurable stiffness (and hence transition temperatures in two dimensions) to quantum-geometry quantities in an open-system realization.",
+        "content_hash": "497230cc577b5a38edcee5e377bb40abde32df9c8d75641803e3903ed4259383",
+        "id": "gcn_7ec599bfc2924101",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867757013096988978::problem",
+            "package_id": "paper:867757013096988978",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867757013096988978"
+          ]
+        },
+        "rerank_score": 0.9216844921087731,
+        "role": "premise",
+        "score": 0.005847953216374269,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The study addresses spectral and localization phenomena in one-dimensional non-Hermitian tight-binding lattices that combine nonreciprocal (asymmetric) hopping and staggered on-site modulations. Prior to this work, models with only nearest-neighbor nonreciprocal hopping (e.g., the Hatano-Nelson type) or those without staggered modulations produced a skin effect that typically drives a macroscopic fraction of eigenstates to one boundary in a uniform way, and analytic control over the location or energy dependence of that accumulation was limited. Existing analyses showed that randomness, quasiperiodic disorder, or specially engineered nonreciprocity profiles can suppress or modify the skin effect, but there was no general understanding of how staggered on-site potentials interacting with both nearest-neighbor (NN) and next-nearest-neighbor (NNN) nonreciprocal hoppings change (i) whether the skin effect is energy dependent, (ii) whether skin-direction reversal can be induced by onsite terms, (iii) when extended (bulk-like) eigenstates can survive under open boundary conditions (OBC) despite nonreciprocity, and (iv) how physical gain/loss (imaginary onsite modulation) alters skin physics. These gaps prevent a systematic prediction of when NHSE (non-Hermitian skin effect) coexists with extended states, when NHSE edges (spectral energies that separate states localized at opposite ends) appear, and under what analytic parameter conditions NHSE can be reversed or completely dissolved. Consequently, there was a need for a model-level analysis that (a) derives the PBC (periodic boundary condition) spectral form for lattices with staggered onsite modulation and NN+NNN nonreciprocal hopping, (b) identifies energy-dependent NHSE features and NHSE-edge criteria, and (c) characterizes parameter regimes supporting coexistence of extended states and NHSE or the complete dissolution of NHSE by real or imaginary onsite modulations.",
+        "content_hash": "006838d053cc8d983d35279e05a3a4e7c4acc1496910047c8bd5cdb188ef2a46",
+        "id": "gcn_f9696242aade41ce",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1020579632388243457::problem",
+            "package_id": "paper:1020579632388243457",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1020579632388243457"
+          ]
+        },
+        "rerank_score": 0.8459573066373031,
+        "role": "premise",
+        "score": 0.007142857142857143,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Prior to this work, non-Hermitian band theory admitted two distinct but interrelated regimes for exceptional points (EPs). In periodic (Bloch) settings, EPs are branch points of the complex-eigenvalue Riemann surfaces defined on the Brillouin zone (BZ); they appear in pairs and are connected by branch cuts called non-Hermitian Fermi arcs (FAs), and these Bloch EPs and FAs fully determine eigenvalue braiding and related topological features. Under open boundary conditions (OBCs), however, the non-Hermitian skin effect generically invalidates Bloch spectra and requires non-Bloch band theory based on the generalized Brillouin zone (GBZ). Existing practice often assumed a direct correspondence between branch points of Riemann surfaces viewed from the GBZ and OBC EPs (i.e., that non-Bloch EPs are simply the GBZ-located branch points). This prior state left several substantive scientific gaps unresolved: (i) whether EPs that appear in OBC spectra necessarily coincide with non-Bloch branch points of the characteristic Riemann surfaces, (ii) how the geometry of the sample boundary (the actual lattice shape that sets which directions have skin modes) controls the appearance, location, and nature of OBC EPs and FAs, and (iii) how branch cuts and branch points on the GBZ govern OBC eigenvalue knot topology when EPs and branch points potentially separate. Because these issues concern the very identification and classification of spectral singularities in non-Bloch regimes, they prevent a unified understanding of non-Hermitian spectral topology under realistic open boundaries and hinder the design of devices that would exploit EPs under mechanical or geometric control.",
+        "content_hash": "27e7d6fee9eee96d754ab1161046eeefc163a8e828a5c54e1061843cbea34350",
+        "id": "gcn_50de35dc0ff54047",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1215272888559468545::problem",
+            "package_id": "paper:1215272888559468545",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1215272888559468545"
+          ]
+        },
+        "rerank_score": 0.8367448521411343,
+        "role": "premise",
+        "score": 0.01757855416392002,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The study addresses the lack of a systematic, k-space construction of non‑Hermitian single‑particle tight‑binding models that (i) generalize chiral symmetry to a complex p‑fold form, (ii) produce p complex bands related by the pth roots of unity, and (iii) connect directly to well‑understood Hermitian bipartite parent models so that topology and localized states can be related to the parent. Prior work supplied non‑Hermitian SSH variants either by adding complex onsite potentials (breaking chiral symmetry, sometimes preserving PT symmetry) or by introducing non‑reciprocal (unidirectional) hopping in ad hoc ways. Those approaches left unresolved problems: there was no general recipe that (a) starts from an arbitrary Hermitian bipartite $2\\times2$ Bloch Hamiltonian $\\mathcal{H}^{(1,1)}(k,0)$ with off‑diagonal $h(k)$ and produces a $p\\times p$ non‑Hermitian Bloch Hamiltonian with a controlled complexified chiral symmetry $Z\\mathcal{H}Z^{-1}=\\omega\\mathcal{H}$, (b) yields explicit algebraic relations for the $p$ bands in terms of the parent bandstructure, and (c) clarifies how topology, edge/soliton states and exceptional points of the non‑Hermitian model relate to those of the Hermitian parent. In addition, experimental and theoretical understanding was incomplete concerning how imperfect (partial) unidirectionality, real parameter constraints (time‑reversal symmetric real hoppings), and inhomogeneities or disorder affect the spectral structure, the emergence of complex spectra, the presence or absence of non‑Hermitian skin effects, and the occurrence and response signatures of exceptional points. These gaps prevented a unified theoretical description of pth‑root non‑Hermitian tight‑binding models, obstructed precise predictions for their spectral and topological properties, and made it unclear how to map such models to known solvable non‑Hermitian many‑body solutions (e.g., free parafermions).",
+        "content_hash": "82c5b03cfa8b351b46952372b54120782166d1172fc483009f35df46c6e896fa",
+        "id": "gcn_af9f675a50454ecb",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1164173020172910592::problem",
+            "package_id": "paper:1164173020172910592",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1164173020172910592"
+          ]
+        },
+        "rerank_score": 0.8279191158198796,
+        "role": "premise",
+        "score": 0.010962273735996363,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Non-Hermitian extensions of one-dimensional tight-binding topological systems confront a set of concrete, unresolved issues that motivate this work. Physically, non-Hermiticity arises in lattice models from either nonreciprocal (asymmetric) hopping amplitudes or from onsite gain and loss, and it alters the relation between bulk spectra computed under periodic boundary conditions (PBC) and the observable spectrum under open boundary conditions (OBC). In particular, nonreciprocal lattices exhibit the non-Hermitian skin effect: bulk eigenstates are macroscopically accumulated near one boundary under OBC, and PBC-derived topological criteria can fail to predict which edge or interface supports localized modes. Standard topological constructions (e.g., winding numbers defined from Bloch Hamiltonians under PBC) and the conventional bulk-boundary correspondence therefore become unreliable guides in these systems. Practically, this prevents one from (i) predicting when or where topological zero-energy modes will be localized under OBC in a nonreciprocal lattice, (ii) distinguishing genuine topological modes from non-topological skin modes that are sensitive to disorder, and (iii) designing lattices where topological edge states have controllable spatial extent. Moreover, when gain/loss is added (for example alternating gain and loss), existing PBC-based invariants reported in the literature do not straightforwardly predict the OBC topological spectrum. The lack of a clear criterion linking lattice parity, chiral symmetry, nonreciprocity strength, and the spatial localization (or delocalization) of topological versus bulk states is the concrete problem addressed in this paper.",
+        "content_hash": "f9c223903f2530d1647aed85029958f6b49e07ee201458f7b1ab971c2b7e8ece",
+        "id": "gcn_7d207f5d069c4316",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867762534193561646::problem",
+            "package_id": "paper:867762534193561646",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867762534193561646"
+          ]
+        },
+        "rerank_score": 0.9239031143168874,
+        "role": "premise",
+        "score": 0.006535947712418301,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Topological phenomena in non-Hermitian (NH) settings have been largely realized and analyzed within lattice (tight-binding) models and by engineering complex environments or baths to create effective gain, loss, or asymmetric couplings. These engineered-bath approaches impose practical and conceptual limitations: they require careful reservoir design or active elements (gain, pumps, amplifiers), they often rely on discrete-lattice descriptions rather than continuum media, and they can be unstable near exceptional points unless mode lifetimes are carefully controlled. As a result, there is no simple, scalable, continuum-based prescription for producing NH spectral topology and the non-Hermitian skin effect (NHSE) in bosonic systems using only Hermitian Hamiltonian processes (i.e., without elaborate bath engineering). This gap leaves unresolved whether (and how) purely Hermitian, spatially nonlocal coherent processes—such as momentum-shifted parametric pair production—can generate the spectral degeneracies (exceptional points and diabolical lines), anomalous bulk response, and boundary-localized skin modes characteristic of NH topology in a continuum bosonic setting, and how such effects can be stabilized physically (e.g., by minimal local dissipation) and classified topologically (e.g., by spectral winding or non-Bloch methods).",
+        "content_hash": "54d51f23d4b1fe5ee764dfb61ef9d86e5fff0e7ae1fc6b36aab931bd07e87c2b",
+        "id": "gcn_8bffa81c54974dcb",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1126493783353982978::problem",
+            "package_id": "paper:1126493783353982978",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1126493783353982978"
+          ]
+        },
+        "rerank_score": 0.8188599139615815,
+        "role": "premise",
+        "score": 0.023148148148148147,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Non-Hermitian physics has revealed the non-Hermitian skin effect (NHSE), i.e., extensive boundary localization of bulk states, and related topological spectral phenomena in optical, acoustic, mechanical and electronic platforms. Prior theoretical descriptions (for example, non-Bloch band theory and generalized Brillouin zone (GBZ) methods) show that asymmetric (non-reciprocal) hopping and complex hopping amplitudes can produce NHSE, and topological winding numbers of bulk spectra diagnose boundary accumulation. However, experimental and practical tunability of the NHSE remains limited because (i) realizing controlled non-reciprocal hopping in many platforms is difficult, (ii) previous works typically obtain NHSE via engineered asymmetric couplings or fixed complex hoppings rather than by straightforward, widely available gain and loss channels, and (iii) distinct NHSE phenomenologies (e.g., partial coexistence of extended and skin states, bipolar skin localization at both ends, and higher-dimensional corner-localized NHSE) have not been demonstrated as tunable outcomes in a single, simple model controlled only by gain and loss. These limitations impede the ability to (a) systematically switch between extended and various skin-localized phases by a single experimental control parameter, (b) realize multiple NHSE regimes within one implementable device platform, and (c) explore higher-dimensional skin phenomenology (edge vs. corner skin modes) without resorting to non-reciprocal elements. Consequently, a clear theoretical demonstration and an experimentally feasible implementation showing how balanced on-site gain and loss alone can tune between extended, partial-skin, bipolar-skin, and multi-corner-skin regimes is missing and motivates the present study.",
+        "content_hash": "cbfb99f1be974e332d0f8696060d9c57a743e263827597d5fc57b486700483f4",
+        "id": "gcn_ed06d31854954cff",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:974558963599147010::problem",
+            "package_id": "paper:974558963599147010",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:974558963599147010"
+          ]
+        },
+        "rerank_score": 0.8163733985176018,
+        "role": "premise",
+        "score": 0.011904761904761904,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The quantum-geometric framework presented here is developed for one-dimensional non-Hermitian tight-binding models. Its generalization to higher-dimensional systems, where the skin effect can be more complex (e.g., corner skin modes, higher-order topology), and to systems with disorder or interactions, remains an open direction. Additionally, the authors suggest that geometric diagnostics, localization bounds, and topological characterizations can be extended to broad classes of open-boundary non-Hermitian systems where the skin effect plays an essential role; such extensions have not been carried out in this work and constitute important open problems for future research.",
+        "content_hash": "f80d5b4e406cddd3459579b9327dbfb0e6408b418bb0ceb47143c0c9390f7f2a",
+        "id": "gcn_b99dc9044f534383",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:7462766240029773855::open_question",
+            "package_id": "paper:7462766240029773855",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:7462766240029773855"
+          ]
+        },
+        "rerank_score": 0.8135989182009794,
+        "role": "premise",
+        "score": 0.011040398450470394,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Physical context: non-Hermitian tight-binding–type matrices derived from the levitated-array model exhibit strong boundary sensitivity (non-Hermitian skin effect), so the spectrum of an open chain differs from that of a periodic chain. Prior to applying the non-Bloch approach to this optically coupled mechanical model, conventional Bloch-band methods (real $k$) gave incorrect predictions for open experimental geometries. The specific problem was to obtain the asymptotic open-chain eigenvalues (continuum bands) from the microscopic light-mediated couplings (which can be long-range and asymmetric). The absence of a GBZ criterion tailored to the multi-neighbor optical-coupling polynomial equation prevented determination of which complex-$k$ trajectories yield the physically realized open-chain spectrum and where non-Hermitian degeneracies (spectral singularities) occur in parameter space.",
+        "content_hash": "0fd5896531944b87ce73bbf5ee53a05f18445a2d7bdfd553052efc81b3b57ce0",
+        "id": "gcn_acdb56ab21524dd6",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:914701265236132477::conclusion_2_subproblem",
+            "package_id": "paper:914701265236132477",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:914701265236132477"
+          ]
+        },
+        "rerank_score": 0.8128794547356115,
+        "role": "premise",
+        "score": 0.016601495506620018,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Exceptional points and the $PT$-symmetry breaking transition had previously been located and characterized within Bloch-band frameworks by analyzing $U(k)$ on the unit circle. However, when the non-Hermitian skin effect is present, Bloch spectra fail to represent the OBC spectra and their phase transitions: Bloch eigenvalues can form complex loops that do not correspond to the physical OBC eigenvalues. Consequently, there was no simple analytic condition expressed in terms of experimental control parameters (coin angles and gain/loss strengths) that correctly predicts where the $PT$-like spectral reality is lost in systems with skin effect. A predictive, experimentally testable equality that directly ties the coin parameters and gain/loss to the location of exceptional points under OBC was therefore missing, preventing quantitative comparison between theory and experiments probing non-Bloch spectral transitions.",
+        "content_hash": "1797c41e84590091a5f7920e213e5af3def09ba4b5ba5a3db2e06ac291940f06",
+        "id": "gcn_6cd90a26c3e24e5c",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812305930086514689::conclusion_2_subproblem",
+            "package_id": "paper:812305930086514689",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812305930086514689"
+          ]
+        },
+        "rerank_score": 0.8115288020912887,
+        "role": "premise",
+        "score": 0.015027612574341546,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Non-Hermitian single-particle tight-binding models—Hamiltonians with $\\mathcal{H}\\neq\\mathcal{H}^\\dagger$—arise in effective descriptions of open or driven systems and in photonic, mechanical, electronic, and cold-atom implementations. Prior theoretical work showed novel phenomena in such models (exceptional points where eigenvectors coalesce; PT symmetry with unbroken/broken phases; and numerical observations of a non-Hermitian \"skin effect\" and qualitative differences between spectra computed with periodic boundary conditions (PBC) and open boundary conditions (OBC)). Existing approaches to the topology of non-Hermitian systems attempted to generalize Berry-phase–type bulk invariants using biorthogonal inner products or complexified Brillouin zones, and various model-specific treatments produced correct predictions in special cases. However, there remained no general, real-space, analytically tractable framework that (i) computes the full finite-OBC eigensystem (energies and wave functions) for generic lattice models, (ii) gives a decisive criterion that predicts when PBC and OBC bulk spectra differ, (iii) explains when and why the non-Hermitian skin effect occurs and how it relates to that spectral discrepancy, (iv) locates and characterizes real-space exceptional points whose order can grow with system size, and (v) provides a principled prescription for computing bulk topological invariants that correctly predict OBC boundary modes for generic non-Hermitian lattices. Because many prior diagnostics (biorthogonal invariants, continuum Bloch invariants) fail to predict boundary modes in general, the absence of a general real-space method prevented systematic understanding and prediction of boundary-localized phenomena and topology in non-Hermitian lattice models.",
+        "content_hash": "cf685964e63c5094cf7279d3b0bd29a67e0a1bb290f038703384b3c76ff10ee9",
+        "id": "gcn_2121737520b543ca",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812765518548172803::problem",
+            "package_id": "paper:812765518548172803",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812765518548172803"
+          ]
+        },
+        "rerank_score": 0.907327220501533,
+        "role": "premise",
+        "score": 0.02623004235907462,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Non-Hermitian Hamiltonians generically have complex spectra, which allow two distinct notions of spectral gaps: line gaps (spectrum avoids a reference line) and point gaps (spectrum avoids a reference point $E\\in\\mathbb{C}$, i.e., $\\det(H-E)\\neq0$). While line-gap topology can be continuously connected to Hermitian topological phases and thus inherits a conventional bulk-boundary correspondence (BBC), point-gap topology is intrinsic to non-Hermitian systems and cannot in general be deformed to any Hermitian counterpart. Prior work observed an extreme sensitivity of bulk spectra and eigenstates to boundary conditions—the non-Hermitian skin effect—where many bulk eigenstates localize at boundaries and periodic- and open-boundary spectra differ dramatically. Existing approaches (for example, non-Bloch band theory and various phenomenological constructions) identified practical spectral conditions for open-boundary spectra and gave model-specific explanations, but they did not establish a general, topology-based mechanism explaining (i) when and why the BBC persists or fails for point-gapped systems, (ii) what is the precise topological origin of the skin effect, and (iii) how symmetry can protect new varieties of skin effects. Because this gap in understanding prevents a unifying description of the relation between bulk topology (especially point-gap topology), boundary spectra in semi-infinite versus finite geometries, and the occurrence or absence of topologically protected boundary modes, researchers lacked a principled classification of skin effects (including symmetry-protected types) and could not predict or rule out skin phenomena in general dimensions and symmetry classes. This work is needed to (a) supply rigorous statements tying point-gap invariants to boundary spectra in semi-infinite systems, (b) explain the inevitable emergence of the skin effect in finite open systems when the periodic system is point-gapped topological, and (c) identify symmetry-enriched skin effects such as a time-reversal-protected $\\mathbb{Z}_{2}$ skin effect and to indicate how these phenomena extend to higher dimensions.",
+        "content_hash": "5e143c0bbd15e863e3fdbbc98aef5dc9ced53943da7f72d1f426b3b1a35c91de",
+        "id": "gcn_1cc62f5bf9b04540",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812670620042002433::problem",
+            "package_id": "paper:812670620042002433",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812670620042002433"
+          ]
+        },
+        "rerank_score": 0.8239263214002652,
+        "role": "premise",
+        "score": 0.011494252873563218,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The work addresses the theoretical description and classification of complex-energy band topology in one-dimensional non-Hermitian lattice systems under open boundary conditions. Physically, the focus is on non-Hermitian (NH) tight-binding chains with nonreciprocal hopping that exhibit the non-Hermitian skin effect (NHSE), so that bulk eigenstates become spatially localized and the usual Bloch description (periodic-boundary Bloch band theory on the real-valued Brillouin zone, BZ) ceases to represent the open system spectrum. Prior approaches characterized complex-energy topology for NH systems using Bloch-band constructions on the BZ (for periodic boundary conditions, PBC): separable Bloch bands can form nontrivial braids and are classified by braid/knot invariants defined along the BZ. Those Bloch-BZ invariants, however, presuppose extended Bloch eigenstates and a real wave vector, and therefore fail when the NHSE collapses the PBC spectra into open-boundary spectra with different eigenvectors and different eigenenergies. Concretely, the PBC Bloch energies of NH models can overlap or form loops in the complex-energy plane while the OBC spectrum (the physical open system spectrum) “collapses” in ways not captured by BZ-based invariants; thus Bloch-based braid/knot classifications do not describe the topology of the physically realized open-boundary bands. As a consequence, it remained unresolved whether topologically nontrivial complex-energy braiding can exist for the physically relevant non-Bloch bands of open NH systems, and—if so—how to (i) compute the correct momentum-space manifold (the generalized Brillouin zone, GBZ), (ii) define appropriate non-Bloch topological invariants that classify energy braiding under OBC, and (iii) identify phase boundaries and their relation to exceptional points (EPs). This gap prevents a systematic topological classification of energy braiding that applies to the actual spectra and eigenstates of 1D NH open systems.",
+        "content_hash": "81984858325d9351e4629d069871a7dcc7918d63010465b425c3e715da7bc8c0",
+        "id": "gcn_c8a6e3690e6e4c1b",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867751288450843265::problem",
+            "package_id": "paper:867751288450843265",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867751288450843265"
+          ]
+        },
+        "rerank_score": 0.8389291319935235,
+        "role": "premise",
+        "score": 0.016666666666666666,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The anomalous non‑Hermitian skin effect demonstrated here opens directions for generalization to other multi‑band non‑Hermitian systems, as indicated by the mention of a four‑band example. Further work is needed to extend the non‑Bloch band theory and auxiliary generalized Brillouin‑zone concepts to accommodate the spectral mutations and the failure of the \\(|\\beta_2|=|\\beta_3|\\) condition, and to explore potential sensor applications that exploit the multifold exceptional points and the extreme sensitivity of the eigenvalue spectrum.",
+        "content_hash": "9e9be27a356f417b03f4103710a1c4e14a8b7d29acbd743779198e5114424b46",
+        "id": "gcn_b48cf63e1d9147b6",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867756346018103948::open_question",
+            "package_id": "paper:867756346018103948",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867756346018103948"
+          ]
+        },
+        "rerank_score": 0.8023027076940202,
+        "role": "premise",
+        "score": 0.014926168772322619,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In non-Hermitian periodic wave systems there is a qualitatively new phenomenon — the non-Hermitian skin effect — whereby bulk eigenstates become exponentially localized at system boundaries under open boundary conditions. Prior theoretical understanding and quantitative tools for this effect have been developed mainly for discrete tight-binding models using non-Bloch band theory and related constructs (generalized Brillouin zones specified by complex Bloch factors $\\\\beta=e^{i k a}$). However, many physically relevant wave systems (for example, electromagnetic waves in photonic crystals, elastic and acoustic waves) are described by continuous second-order (Sturm-Liouville–type) differential operators with spatially varying coefficients, anisotropy and gain/loss. For such continuous periodic systems it remained unclear how to (i) formulate a non-Bloch description with a generalized Brillouin zone that quantifies complex Bloch wave numbers, (ii) compute localization lengths of skin modes and the corresponding eigenspectra under open boundary conditions, and (iii) establish a bulk–edge correspondence (topological invariants predicting edge states) compatible with open-boundary eigenspectra. Prior methods that address continuous models — notably the imaginary-gauge transformation — apply only to special models and do not provide a general procedure to obtain the generalized Brillouin zone, while discrete non-Bloch methods do not directly carry over to continuum operators. As a result, quantitative prediction of eigenspectra, localization lengths, and topological invariants for continuous non-Hermitian periodic media (such as photonic crystals with anisotropy and loss) was missing, and it was not known whether properties such as boundary-condition independence of asymptotic spectra or a uniform localization length across bands hold in continuous settings. This gap prevents systematic theoretical prediction and interpretation of numerical or experimental observations of non-Hermitian skin effects in continuous wave systems.",
+        "content_hash": "4119a1c23ed9f84baf116f1b28bc31e6b6dbfc4afa0b616c7e3101db1c17862b",
+        "id": "gcn_68c59b3a7bcb4733",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817359319132536833::problem",
+            "package_id": "paper:817359319132536833",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817359319132536833"
+          ]
+        },
+        "rerank_score": 0.8453943440989633,
+        "role": "premise",
+        "score": 0.014708682406702209,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The study addresses the theoretical and practical fragility of non-Hermitian topological lattice systems: in one-dimensional non-Hermitian chains conventional Bloch-based bulk-boundary correspondence fails because gain, loss and nonreciprocal hoppings warp Bloch momenta into the complex plane and produce the non-Hermitian skin effect (NHSE), while exceptional points (EPs) and complex-energy band braiding create spectral structures that are not classified by Hermitian invariants. Prior analyses provided tools such as the generalized Brillouin zone (GBZ) and examples of self-healing in special non-Hermitian models, but a clear, model-level understanding is missing for systems that simultaneously carry (i) spinful degrees of freedom subject to synthetic non-Abelian (SU(2)) gauge rotations on hopping processes and (ii) independent nonreciprocal hoppings. In this physical context—one-dimensional sublattice (A/B) chains with spin-1/2 on each site and experimentally relevant asymmetric couplings—existing approaches leave open how SU(2) gauge-induced spin-dependent phases change the complex-energy topology, how EPs and braiding structure are computed in such matrix-valued Bloch Hamiltonians, how the GBZ and OBC decay lengths are modified by gauge rotations, and whether these modifications can be used to stabilize dynamical properties (notably self-healing of skin-localized modes) under space–time-dependent scattering. Because self-healing in previously studied non-Hermitian systems is highly parameter-sensitive, there is a practical gap: no systematic model and quantitative diagnostics exist that combine non-Abelian gauge structure with nonreciprocal hoppings to (a) classify complex-energy braiding and EPs, (b) predict NHSE directionality and decay lengths under OBC via the GBZ, and (c) determine whether gauge control can broaden the parameter regimes where dynamically resilient self-healing occurs. This combination of theoretical and numerical gaps prevents reliable prediction of experimental parameter regimes (in photonic, atomic or superconducting platforms) where skin modes would remain robust under moving absorptive scatterers or fabrication disorder.",
+        "content_hash": "da95df09083ee99c6ce22436d8dbc62f69461dd2a4881d5aeea493f0581675bf",
+        "id": "gcn_9e9ae91faf99448f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1113972520534409221::problem",
+            "package_id": "paper:1113972520534409221",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1113972520534409221"
+          ]
+        },
+        "rerank_score": 0.7960809834962725,
+        "role": "premise",
+        "score": 0.006134969325153374,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Prior to this work there was no unified, model-independent understanding of why and when conventional topological band theory (and its bulk-boundary correspondence) for Hermitian lattice and continuum systems fails once non-Hermiticity is introduced. Non-Hermitian Hamiltonians arise in many contexts (open systems with gain/loss, finite quasiparticle lifetimes, disorder-averaged effective Hamiltonians) and exhibit phenomena absent in Hermitian systems (exceptional points, boundary-condition-dependent bulk spectra, and the non-Hermitian skin effect). Existing approaches either (i) compute non-Bloch topological invariants on a case-by-case basis to restore bulk-boundary correspondence for particular models, or (ii) treat certain non-Hermitian perturbations perturbatively, but there was no general criterion to decide when a non-Hermitian band structure should be analyzed by Bloch-wave (ordinary k-space) methods versus non-Bloch-wave (generalized complex-momentum) methods. Consequently, it was unclear which physical origin(s) of non-Hermiticity produce the skin effect and breakdown of conventional bulk-boundary correspondence, how to map such non-Hermitian problems to Hermitian ones when possible, and how to diagnose topological phases unambiguously (including finite-lifetime/disordered systems and higher-dimensional Chern insulators) across these different situations. This gap prevented a systematic, physically transparent classification of non-Hermitian topological phases and left open which computational diagnostics (e.g., singular-value decomposition, non-Bloch invariants, gauge mappings) are reliable in which circumstances.",
+        "content_hash": "ea858980fae6b4bab19fed270a7807133feae74e5ea6883fecc43388bec88123",
+        "id": "gcn_500801312b794e7d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867757876519633402::problem",
+            "package_id": "paper:867757876519633402",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867757876519633402"
+          ]
+        },
+        "rerank_score": 0.8946742246653463,
+        "role": "premise",
+        "score": 0.021235955056179777,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The work acknowledges several unresolved scientific issues and limitations that remain for future study. First, the experiments used passive directional loss to implement non-Hermiticity; how the interplay of non-Bloch band topology, active gain/loss engineering, parity-time (PT) symmetry breaking, and exceptional singularities (exceptional points, rings, surfaces) manifests in multidimensional and spinful settings remains unexplored experimentally and only partially understood theoretically. Second, the observed phenomena were demonstrated in an acoustic platform with a small intrinsic band gap (≈40 Hz) and geometric tolerances that required scaling in simulations; quantifying how the higher-order non-Hermitian skin effect scales with system size, with varying band-gap-to-midgap ratios, and in platforms with different microscopic dispersion relations (e.g., photonic on-chip resonator arrays) is left open. Third, while numerical evidence indicates robustness to modest geometric and dissipation perturbations, a systematic characterization of disorder thresholds, statistical variability of localization measures, and the role of long-range couplings or fabrication-induced symmetry breaking remains to be completed. Finally, the general classification of higher-order non-Hermitian skin phenomena in terms of symmetry, dimensionality, and topological invariants — and the development of predictive analytical frameworks (e.g., generalized non-Bloch bulk-boundary correspondences) that fully account for spin-resolved, multidimensional skinning — are open theoretical problems highlighted as directions for future research.",
+        "content_hash": "5828fba80a36b13a6c23b0e570ac5864576863f89c7a16fc923087d981d9c095",
+        "id": "gcn_7281d0e8a59340e4",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811822057275785219::open_question",
+            "package_id": "paper:811822057275785219",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811822057275785219"
+          ]
+        },
+        "rerank_score": 0.7935945651626544,
+        "role": "premise",
+        "score": 0.00684931506849315,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Non-Hermitian lattices exhibit the non-Hermitian skin effect (NHSE), in which an extensive set of eigenstates localize exponentially at open boundaries; this intrinsic exponential localization directly encodes non-Bloch band topology and generalized Brillouin-zone physics. In real experimental platforms, however, ubiquitous uniform background loss (e.g., material dissipation, propagation loss) alters dynamical and steady-state responses: although the eigenstates themselves can be shifted in eigenvalue by a uniform imaginary offset, practical pumping–probe measurements produce intensity profiles in which the uniform loss competes with or overwhelms the NHSE. Prior experimental remedies include (i) using active gain to partially cancel loss, (ii) transient excitation protocols, or (iii) reconstructing eigenmodes via an effective admittance/impedance matrix assembled from O(N^2) measurements (as practiced in topolectric circuits). These prior approaches suffer from clear limitations: active gain is experimentally demanding and may introduce instabilities; transient or empirical-loss-subtraction methods do not directly reveal the loss-irrelevant exponential eigenstate localization that defines the intrinsic NHSE; and the admittance-matrix (effective Hamiltonian) approach imposes an N^2 measurement workload, is sensitive to measurement noise, and becomes impractical in higher dimensions. As a consequence, experiments routinely observe only partial signatures of NHSE (asymmetric responses, edge accumulation) but cannot efficiently and robustly extract the loss-irrelevant intrinsic exponential localization of eigenstates, preventing direct experimental access to non-Bloch topology and reliable NHSE characterization in highly lossy or higher-dimensional lattices. This paper addresses the need for an experimentally practical, noise-robust method to recover intrinsic, loss-irrelevant NHSE profiles from pumping–probe measurements in lossy lattices.",
+        "content_hash": "a541160ea70795fd2aa71810a9b9a57b939d5b69ab1e005335d11fac387c5e10",
+        "id": "gcn_ddfe2f86fa014be2",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:966036053959901189::problem",
+            "package_id": "paper:966036053959901189",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:966036053959901189"
+          ]
+        },
+        "rerank_score": 0.7925598822033317,
+        "role": "premise",
+        "score": 0.009523809523809525,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The paper addresses how non-Hermiticity modifies band topology, edge localization, and bulk–boundary correspondence in one-dimensional tight-binding models built from two orbitals per unit cell (a spinless, 1D BHZ-like model with s and p_x orbitals). Prior to this work the following scientifically substantive issues remained: (i) it is commonly assumed that non-reciprocal hopping implies the non-Hermitian skin effect (NHSE), but exceptions and the precise relation between non-reciprocity, symmetry (in particular PT symmetry and variants of time-reversal or particle-hole symmetries), and NHSE were not fully characterized for multi-orbital lattice models; (ii) in non-Hermitian (NH) settings the conventional bulk–boundary correspondence (BBC) can break down, and it was unclear when bi-orthogonal BBC (BBBC), complex Berry phase (CBP) and conventional winding-number constructions remain valid indicators of edge modes versus when they fail; (iii) the occurrence, location and role of exceptional points (EPs) in controlling topological transitions and in invalidating bi-orthogonality in multi-orbital NH Bloch Hamiltonians needed explicit identification; (iv) a unified, concrete set of representative NH perturbations (staggered imaginary onsite potentials vs. different kinds of non-reciprocal hoppings: intra-orbital vs. inter-orbital) had not been systematically compared to determine which perturbations (and which symmetry classes) produce: conventional one-sided NHSE, bi-directional NHSE (BDNHSE), or absence of NHSE; (v) because many earlier analyses focused on single-orbital models, it remained unresolved how to extend or apply PBC-based topological invariants (Berry phase, winding number) to two-orbital NH models and which parameter combinations control topological phase boundaries quantitatively. These gaps prevented a definitive statement, for a concrete two-orbital 1D lattice model, of (a) when bulk spectral diagnostics and PBC invariants predict edge-localized zero modes, (b) when NHSE appears or is absent despite non-reciprocity, and (c) how EPs delimit topological transitions.",
+        "content_hash": "7550fd4b33267d1c016dfa58f1acfb3a998f6e97bc3b22bff033a8abb8dcc128",
+        "id": "gcn_092cc7e411a84dd3",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867752303501771115::problem",
+            "package_id": "paper:867752303501771115",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867752303501771115"
+          ]
+        },
+        "rerank_score": 0.7918074498661898,
+        "role": "premise",
+        "score": 0.005780346820809248,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "For the non-Hermitian tight-binding model with gain-loss contrast Δγ and momentum k_y, the computed complex eigenenergies form Riemann sheets that reveal an exceptional point degeneracy at (k_y = 0.25π/a, Δγ = 1.785t).",
+        "content_hash": "ad3d7e4dd073e62ff8c4edfd4ac7aeb3d4bd64148007a2d62e53af57f4506814",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_80c145f5e2fe46ef",
+        "kind": "highlight",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812736399848505344::H1",
+            "package_id": "paper:812736399848505344",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812736399848505344"
+          ]
+        },
+        "rerank_score": 0.789188405707965,
+        "role": "premise",
+        "score": 0.006120580100171937,
+        "title": "Riemann sheet analysis of EP",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The study addresses the theoretical understanding of topological phases in one-dimensional lattice systems when non-Hermiticity is introduced by balanced on-site gain and loss. Prior to this work, topological classification in Hermitian systems is well established using global invariants (for example winding numbers for chiral one-dimensional two-band models), but extending that classification to non-Hermitian systems remains incomplete: non-Hermiticity produces complex energy spectra, exceptional points where eigenvalues and eigenvectors coalesce, modified bulk-boundary correspondence and skin effects that invalidate some Hermitian intuitions. Existing approaches either treated non-Hermiticity phenomenologically or focused on special non-Hermitian terms (e.g., asymmetric hopping or PT symmetry) without a clear, model-specific characterization for crosslinked-chain geometries with balanced gain and loss. As a consequence, for crosslinked (Creutz-like) chains with tunable hopping phases and on-site imaginary potentials, there was no explicit analytical expression for a topological invariant adapted to the model, no precise map between parameter-space exceptional surfaces and topological phase boundaries, and no detailed account of how edge-state localization and skin effect evolve with increasing balanced gain/loss or with realistic disorders. These gaps prevent quantitative prediction of when and where topological edge modes persist, how exceptional points control phase transitions in such lattices, how complex eigenenergy structures and operator expectation values reflect topology, and what parameter ranges are compatible with experimental implementations (e.g., in coupled waveguides or photonic crystals). Therefore a focused analysis is required that (i) formulates the crosslinked-chain Hamiltonian with balanced gain and loss, (ii) derives a model-specific winding number and phase diagram, (iii) identifies the relation between exceptional points and phase boundaries, (iv) characterizes edge states and skin effects under open boundary conditions, (v) demonstrates alternative topological signatures in complex-energy and operator-expectation vector fields and trajectories, and (vi) assesses robustness to implementation-relevant disorders.",
+        "content_hash": "7a512ef4ed94cf74ce51a2a9a0a1bca7adb39035d298a42679392d9dac00ebd4",
+        "id": "gcn_ccc68531bbe84c81",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867769786027737269::problem",
+            "package_id": "paper:867769786027737269",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867769786027737269"
+          ]
+        },
+        "rerank_score": 0.8841020955397674,
+        "role": "premise",
+        "score": 0.010526315789473684,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The non-Hermitian skin effect—the collapse of a macroscopic number of eigenstates to boundaries under open boundary conditions—is the defining bulk-boundary correspondence of point-gap topological phases in non-Hermitian systems. It had been observed in various engineered open classical and quantum systems, including photonic, phononic, electrical, and ultracold atomic platforms, but always in systems where non-Hermiticity was explicitly designed into the Hamiltonian. The natural question was whether the chiral edge states of a purely Hermitian Chern insulator, when viewed as an open subsystem through the self-energy formalism, could inherently exhibit the skin effect without any engineered gain or loss. Answering this required computing the open-boundary spectrum of the effective non-Hermitian Hamiltonian and demonstrating the extreme sensitivity to boundary conditions and the corner localization of eigenstates.",
+        "content_hash": "55108b869a73ede73f330dc538437040cdb2b3d8c42de4f072af804e441f5451",
+        "id": "gcn_adf0a18c253d44c8",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:998473493928476672::conclusion_4_subproblem",
+            "package_id": "paper:998473493928476672",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:998473493928476672"
+          ]
+        },
+        "rerank_score": 0.7831978067608294,
+        "role": "premise",
+        "score": 0.0136986301369863,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Non-Hermitian single-particle lattice systems (nonreciprocal or with gain/loss) exhibit qualitatively new boundary sensitivity that is not captured by conventional Hermitian band theory: introducing open boundaries can drastically reshape the entire complex energy spectrum of a macroscopically large system, producing an extensive set of boundary-localized \"skin\" modes and apparently violating the usual bulk-boundary correspondence. Prior theoretical approaches have partially extended Hermitian topological invariants (e.g., biorthogonal Berry curvature, Chern numbers, and biorthogonal polarization) but leave unresolved practical and conceptual gaps: (i) existing non-Hermitian topological diagnostics are not generically sufficient or are tailored to simple (nearest-neighbor or fine-tuned) models, (ii) there is no general analytic method to obtain exact energies and spatial decay lengths of skin modes for models with arbitrarily many nonreciprocal hopping ranges, and (iii) the interplay between the complex-analytic structure of the non-Bloch band (zeros, poles, branch cuts, exceptional points) and the existence or absence of boundary-localized modes is not systematically characterized. Consequently, quantitative predictions for when a model will exhibit the skin effect versus only isolated topological boundary modes, and for the localization lengths and dispersions of those modes, remain unavailable for generic non-Hermitian tight-binding Hamiltonians with long-range and asymmetric hoppings. This lack of generality prevents a unified understanding of how complex band-structure singularities determine boundary spectra and prohibits a model-independent criterion for 1D topological boundary zero modes.",
+        "content_hash": "a95b5f5be9ced85d744c063fecdf27d9d47e0f7ca7af48f5deed64f07bc466f3",
+        "id": "gcn_a257596220134a59",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812776030832951297::problem",
+            "package_id": "paper:812776030832951297",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812776030832951297"
+          ]
+        },
+        "rerank_score": 0.8817233057038512,
+        "role": "premise",
+        "score": 0.020065635255508675,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Non-Hermitian tight-binding lattice models under open boundary conditions (OBCs) exhibit boundary-sensitive spectra that depart qualitatively from periodic-boundary (Bloch) predictions: phenomena such as the non-Hermitian skin effect and GBZ (generalized Brillouin zone) physics make OBC spectra different from PBC spectra. Prior methods to obtain OBC spectra fall into two main families with important limitations. First, direct numerical diagonalization of large non-Hermitian OBC Hamiltonian matrices is numerically unstable and susceptible to accumulated errors, especially for large system sizes and high band multiplicity, preventing reliable computation of spectra for large multi-band models. Second, the non-Bloch/GBZ theory extends Bloch analysis by replacing $e^{ik}$ with a complex parameter $\\beta$ and identifying a GBZ via modulus-equality conditions of characteristic equation roots; while powerful for many single- or few-band bulk spectra, determining the GBZ can be technically challenging, often requiring auxiliary constructions, and becomes computationally and conceptually cumbersome for complicated multi-band problems (large unit cells, magnetic unit cells, or two-dimensional Hofstadter-type models). Moreover, the non-Bloch approach primarily targets continuous bulk OBC spectra and does not provide a direct, general, and efficient formalism to compute isolated edge spectra or to treat changes induced by finite overall system-size parity or by localized boundary perturbations. As a result of these limitations, researchers lacked a single systematic, size-independent, and computationally efficient method to (i) obtain both bulk and isolated edge OBC spectra for generic multi-band non-Hermitian tight-binding models (including those with large periodic unit cells or magnetic unit cells), (ii) treat sensitivity to global system size (size-parity effects), and (iii) analyze stability of edge modes under boundary perturbations in a targeted way amenable to large-scale calculation (for example, non-Hermitian Hofstadter butterflies with large magnetic unit cells).",
+        "content_hash": "bd3ee4d10c686ed1eb01fa535fb1fbff60bae123ca05931330118d21f8240b6e",
+        "id": "gcn_c8866cb2dc7345e7",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1077113815813849095::problem",
+            "package_id": "paper:1077113815813849095",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1077113815813849095"
+          ]
+        },
+        "rerank_score": 0.7772138311974668,
+        "role": "premise",
+        "score": 0.015422986867555735,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Non-Hermitian extensions of single-particle tight-binding models show qualitatively different spectral and boundary phenomena compared with Hermitian systems, undermining standard tools for topological classification. Concretely: (i) bulk spectra computed for periodic boundary conditions (PBC) can differ markedly from spectra for open boundary conditions (OBC), so that topological invariants computed from Bloch bands under PBC do not reliably predict boundary-localized modes; (ii) finite non-Hermitian systems can exhibit a non-Hermitian skin effect in which states that would be bulk-like under PBC instead pile up at boundaries under OBC; (iii) exceptional points (EPs) appear both in Bloch (momentum-space) spectra and as real-space singularities whose order depends on system size; (iv) several ad hoc prescriptions have been proposed to restore bulk-boundary correspondence (for example by complexifying momentum or using biorthogonal Berry curvature), but these lack a general, real-space derivation and do not apply uniformly to arbitrary lattice models. Prior analyses either assumed specific models and used numerical diagonalization, used phenomenological substitutes for microscopic decay exponents, or worked within Hermitian-like assumptions (e.g., unimodular transfer matrices) that fail generically for non-Hermitian Hamiltonians. As a result, there is no unified, analytically controlled real-space framework that (a) computes spectra and eigenstates for finite non-Hermitian lattices with OBC, (b) identifies precise conditions under which PBC and OBC spectra coincide or differ, (c) relates that distinction to the skin effect and to real-space EPs, and (d) yields a systematic prescription for bulk invariants that correctly predict protected boundary modes for general non-Hermitian tight-binding models. This gap prevents reliable theoretical prediction and classification of non-Hermitian topological phenomena in realistic lattice systems.",
+        "content_hash": "7ad53b1328453337d33c31fc54bc54cae2d0169c3158b583d0d96125c026beb6",
+        "id": "gcn_85703e8825b848ac",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867770280393572777::problem",
+            "package_id": "paper:867770280393572777",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867770280393572777"
+          ]
+        },
+        "rerank_score": 0.8753751857745461,
+        "role": "premise",
+        "score": 0.02919863597612958,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The paper notes that its exact standing-wave and boundary-mode constructions could be extended to non-Hermitian tight-binding models, which are relevant for dissipative systems and have attracted attention due to phenomena such as the non-Hermitian skin effect (where bulk states accumulate at boundaries) and exceptional points (degeneracies in both energy and eigenvectors). In these systems, conventional bulk-boundary correspondence can break down, and the continuum states behave as boundary modes. A systematic extension of the present analytic methods (including the standing-wave construction for bulk states and the exact boundary-mode solutions) to non-Hermitian settings remains an important open direction for future work.",
+        "content_hash": "bfacab0226301e1d9247650e11665e7c345c7ccc27f3c54a1553109c245ec870",
+        "id": "gcn_fb3b3cc13cf44db0",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867746837438660758::open_question_3",
+            "package_id": "paper:867746837438660758",
+            "version": "open-question-atomization-v2"
+          },
+          "source_packages": [
+            "paper:867746837438660758"
+          ]
+        },
+        "rerank_score": 0.8715297598989847,
+        "role": "premise",
+        "score": 0.008547008547008548,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Several scientifically meaningful issues are left open or identified as future work in the paper: (i) whether the property that all skin-mode localization lengths are identical (originating here from a circular GBZ and the second-order differential operator) extends to arbitrary non-Hermitian continuous systems beyond the Sturm–Liouville second-order class considered; (ii) whether the GBZ result and radii derived here depend on the chosen discretization scheme (the derivation used a central-difference discretization) and, if so, how to obtain discretization-independent continuum prescriptions in more general settings; (iii) construction and classification of non-Hermitian skin effects and non-Bloch topological invariants in two- and three-dimensional continuous systems (the paper restricts attention to one-dimensional propagation and leaves higher-dimensional propagation as future theoretical and experimental work); and (iv) experimental realization details and robustness: while candidate materials and modulation schemes (anisotropic lossy dielectrics, hyperbolic materials, Floquet modulation) are suggested, the paper does not resolve practical limits on material loss/gain values, disorder, finite-size corrections, or dynamical stability needed to observe the predicted GBZ-controlled spectra and bulk–edge correspondence in experiments.",
+        "content_hash": "d17ee5313f8db2e6fd81ef0da0d31cc409bfcb81a375546b8cbec47d3166093c",
+        "id": "gcn_36e2b889af7e4a8f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867771102917559261::open_question",
+            "package_id": "paper:867771102917559261",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867771102917559261"
+          ]
+        },
+        "rerank_score": 0.8163277147653955,
+        "role": "premise",
+        "score": 0.006896551724137931,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The study concerns non-Hermitian topological systems in which the non-Hermitian skin effect (NHSE) — the extensive accumulation of eigenmodes at a system boundary and the concomitant failure of conventional Bloch-band bulk-boundary correspondence — is a central phenomenon. Prior realizations and theoretical treatments of the NHSE have relied almost exclusively on systems with explicit nonreciprocal (asymmetric) couplings, or on engineered gain and loss combined with chiral currents generated by complex next-nearest-neighbor hoppings. Both routes present substantive gaps: nonreciprocal couplings are difficult or impossible to implement in many experimental platforms, and gain/loss schemes that produce NHSE require complex next-nearest-neighbor tunneling phases that have been hard to obtain experimentally. Meanwhile, periodically driven (Floquet) systems offer a route to engineer effective couplings (including complex long-range hoppings) in the quasienergy spectrum, but the role of Floquet driving in producing NHSE was not established prior to this work. Additionally, for Floquet (time-periodic) non-Hermitian systems the effective (stroboscopic) coupling matrix $H_{\\mathrm{eff}}$ that governs quasienergies is in general only available numerically, so the established generalized Brillouin zone (GBZ) methods developed for static non-Hermitian systems do not immediately apply. These limitations together prevented a general, experimentally accessible mechanism to realize NHSE without imposing explicit nonreciprocity, and left open how to (i) generate the required complex multi-step hoppings in a realizable platform and (ii) formulate a GBZ-based description that recovers real-space spectra of Floquet non-Hermitian systems.",
+        "content_hash": "6a28b5a085fc496765cebe8e13ebd34e4c2a55eafba76742df7996feebeb1adb",
+        "id": "gcn_cfe256c4eb5343df",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:873507259219444169::problem",
+            "package_id": "paper:873507259219444169",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:873507259219444169"
+          ]
+        },
+        "rerank_score": 0.7686722808292947,
+        "role": "premise",
+        "score": 0.006802721088435374,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In the photonic-crystal tight-binding model with the specified parameters, nonzero dissipation splits each Hermitian Dirac point into paired exceptional points, the open-boundary spectrum exhibits geometry-dependent skin effect, and a localized Gaussian wave packet shows a transverse side jump into a corner in the non-Hermitian case but only reflection and slow dispersion in the Hermitian case.",
+        "content_hash": "354a2fbd14c1f7eefe0d4f097b968fdf5325fbc7c7ccae8145439d0e76af9674",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_150f315be2544bd1",
+        "kind": "highlight",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817338011158052866::H10",
+            "package_id": "paper:817338011158052866",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817338011158052866"
+          ]
+        },
+        "rerank_score": 0.7632131750904275,
+        "role": "premise",
+        "score": 0.006611588311148995,
+        "title": "Explicit photonic-crystal model splits Dirac points into exceptional points and supports a dynamical side-jump signature",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Before this work, non-Hermitian systems were known to host an exceptional boundary phenomenon in one dimension: the non-Hermitian skin effect, in which an extensive fraction of eigenstates becomes boundary-localized and the conventional Bloch band description fails. A one-dimensional topological characterization (the complex-energy winding number $W(E)$) and a non-Bloch band theory that replaces $e^{ik}$ by a complex parameter $\\beta$ were established to predict and quantify the skin effect under open boundary conditions. Higher-order (spatial-symmetry protected) topological phases were also established for Hermitian systems, with the hallmark that $d$-dimensional $n$-th order Hermitian topology produces $O(1)$ corner (or hinge) modes rather than extensive boundary spectra. However, the behavior of non-Hermitian topology and the skin effect in dimensions higher than one remained unresolved: (i) whether intrinsic non-Hermitian topology can produce higher-order (corner-localized) skin phenomena distinct from both first-order non-Hermitian skin effects and Hermitian higher-order corner modes; (ii) what microscopic models realize such higher-order non-Hermitian skin responses and with what quantitative spectral and localization signatures; and (iii) whether and how the one-dimensional non-Bloch band theory must be modified in higher dimensions when open boundary conditions are imposed along more than one direction. Because these gaps meant there was no general bulk diagnostic or concrete models to predict extensive (in $L$) corner-localized skin spectra in two and three dimensions, the community lacked a theory to (a) distinguish such effects from Hermitian higher-order topology or from first-order non-Hermitian skin effects, (b) compute exact spectra and localization lengths for candidate lattice models, and (c) extend non-Bloch methods to higher dimensions to predict which subset of modes becomes boundary-localized.",
+        "content_hash": "ba9609dd8533640cc61b8b32f21bd40bbd78fc5cacca9fe7f0a3a9894c731707",
+        "id": "gcn_777d6ed2bd9d4bb6",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867769529927729543::problem",
+            "package_id": "paper:867769529927729543",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867769529927729543"
+          ]
+        },
+        "rerank_score": 0.8458885127715113,
+        "role": "premise",
+        "score": 0.026838432635534086,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The study addresses the challenge of analyzing spectral topology and flat-band phenomena in complex non-Hermitian lattice systems with many internal degrees of freedom (multiband systems, $n\\ge 3$). Prior to this work, the community possessed a collection of model-specific tools and conceptual constructs — Bloch Hamiltonians for translationally invariant systems, transfer-matrix/GBZ approaches for some one-dimensional non-reciprocal models, and phenomenological treatments of gain/loss — but there was no general, exact real-space reduction technique tailored to non-Hermitian multiband Hamiltonians that (i) systematically reduces matrix order while retaining the full characteristic equation and density of states, (ii) preserves the complex-energy spectral topology (including exceptional points and point/line gap distinctions), and (iii) allows unified investigation of bulk-boundary correspondence (BBC), generalized Brillouin zones (GBZ), non-Bloch van Hove singularities, transport in the presence of disorder/defects, and the analytical construction of compact localized states (CLSs) and flat bands. As a consequence of these limitations, researchers lacked a single, broadly applicable analytic framework to (a) obtain reduced effective models that exactly reproduce parent-model dispersions and eigenfunctions for multiband non-Hermitian systems, (b) analyze how non-reciprocity and gain/loss jointly control skin effects and BBC breakdown, (c) compute transport (Landauer) observables reliably from reduced models in the presence of defects, and (d) derive analytic conditions for flat bands and CLSs in quasi-one-dimensional bipartite non-Hermitian lattices. This gap in methodological capability prevented straightforward, model-independent derivations of phase diagrams, GBZs, van Hove singularities, and flat-band structure for realistic multiband non-Hermitian systems.",
+        "content_hash": "d39199e9008024511ead404769bab106c02d7ed6a6bc710799aaa28cc4b6c368",
+        "id": "gcn_5cf587a6e33748b7",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:918569166477197369::problem",
+            "package_id": "paper:918569166477197369",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:918569166477197369"
+          ]
+        },
+        "rerank_score": 0.7620796449826134,
+        "role": "premise",
+        "score": 0.007462686567164179,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Non-Hermitian lattice systems exhibiting the non-Hermitian skin effect (NHSE) concentrate an extensive set of eigenstates at system boundaries, producing boundary-localized \"skin modes\" whose spectral and spatial properties are highly sensitive to boundary conditions. Prior theory has established biorthogonal eigenstates and non-Bloch band concepts for such systems, and recent work predicted a \"self-healing effect\" (SHE) for non-Hermitian skin modes whereby a mode with the largest gain (largest imaginary part of its eigenenergy) dominates long-time dynamics and restores its spatial profile after a local disturbance. However, several scientifically substantive gaps remained before this work: (i) under open boundary conditions (OBC) it was unclear how the energy spectrum of skin modes responds quantitatively to local perturbations placed at the boundary opposite to their localization, because naive Hermitian perturbation intuition (amplitude at the perturbed site controls sensitivity) fails in non-Hermitian settings; (ii) there was no generally articulated, quantitative measure that identifies which skin modes can be spectrally tuned by a remote boundary potential and by how much; (iii) lacking such a tunability measure and a practical control protocol, there was no experimentally feasible route to spectrally isolate (engineer) a single skin mode into the dominant gain eigenmode required to realize SHE in a laboratory platform; and (iv) concrete implementations that combine realistic photonic Floquet engineering, experimentally accessible gain/loss and boundary-modulation methods, and full propagation modeling (including disturbances) were not provided. These gaps prevented controlled experimental realization of SHE in NHSE systems and limited the ability to steer and probe skin-mode spectra using local boundary perturbations.",
+        "content_hash": "0a75a9df2d74ccbcacaafbd800285a908ecfa53961f57e2d46bae86ce342728a",
+        "id": "gcn_2777c70b20b74850",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1149314103378968606::problem",
+            "package_id": "paper:1149314103378968606",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1149314103378968606"
+          ]
+        },
+        "rerank_score": 0.7602261664858643,
+        "role": "premise",
+        "score": 0.010752688172043012,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Topological band theory for Hermitian systems provides robust bulk-boundary correspondence and well-defined topological invariants, but when non-Hermiticity is introduced (to model gain/loss, finite quasiparticle lifetimes, disorder-induced self-energies, etc.) several substantive problems arise that motivate this work. First, non-Hermitian band spectra can depend strongly on boundary conditions: eigenenergies and eigenstates computed from Bloch (periodic) Hamiltonians frequently fail to predict boundary-localized modes seen under open boundary conditions, i.e., the conventional bulk-boundary correspondence breaks down. Second, non-Hermitian systems display qualitatively new phenomena (for example, the non-Hermitian skin effect and exceptional points) whose origins in field-theoretic terms were not systematically classified; in particular, it was unclear when a non-Hermitian system’s topology should be characterized by Bloch-wave quantities versus non-Bloch (generalized Brillouin-zone) constructions. Third, existing partial remedies—such as non-Bloch winding numbers or ad hoc replacement rules in specific lattice models—do not provide a unified physical mechanism explaining why the conventional correspondence fails in some non-Hermitian models but not in others, nor do they supply a general operational prescription applicable across continuum Dirac-type descriptions and lattice realizations. As a consequence, practitioners lacked (i) a principled classification of non-Hermiticities relevant to topological band theory, (ii) a mechanistic explanation linking non-Hermitian terms to current conservation and boundary sensitivity, and (iii) general, implementable mappings or invariants that restore a meaningful bulk-boundary correspondence for physically relevant models (e.g., SSH, QWZ, disordered superconducting chains).",
+        "content_hash": "85e817edc81a221d5e3c84734667ce7d94a7b3e130b7974d2311f9d3146f19d3",
+        "id": "gcn_755e9f36c932422d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812744582495207425::problem",
+            "package_id": "paper:812744582495207425",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812744582495207425"
+          ]
+        },
+        "rerank_score": 0.8582504469924237,
+        "role": "premise",
+        "score": 0.006578947368421052,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Open quantum electronic systems subject to loss or gain are commonly described by non-Hermitian effective Hamiltonians, which produce phenomena absent in Hermitian systems such as exceptional points (EPs) and the non-Hermitian skin effect (NHSE). Prior theoretical work established these spectral and topological properties (EPs, point-gap winding numbers, NHSE) and demonstrated NHSE manifestations in non-electronic platforms (photonic, cold-atom) and in theoretical electronic models (e.g. persistent currents). However, a coherent and practical connection between non-Hermitian eigenvectors (biorthogonal left and right states, their boundary localization) and standard electronic transport observables was lacking. In particular, it was unclear whether and how the NHSE—i.e., the boundary accumulation of right (left) eigenstates and the concomitant breakdown of bulk-boundary correspondence—would produce measurable signatures in two-terminal electronic conductance, what form those signatures would take (local versus nonlocal conductance, reciprocity), and how bulk predictions for EPs under periodic boundary conditions (PBC) relate quantitatively to the spectra of finite wires with open boundary conditions (OBC). Existing approaches relied on either phenomenological reasoning, non-electronic platforms, or bulk (PBC) diagnostics whose relation to finite-length transport experiments was not established. As a consequence, there was no concrete, quantitatively predictive device proposal and transport-theory derivation that (i) links NHSE eigenvector localization to experimentally accessible local and nonlocal conductance matrix elements in an electronic nanowire, and (ii) explains why EP positions inferred from bulk (PBC) spectra can be shifted in finite (OBC) devices. This gap prevents using transport spectroscopy as a diagnostic of non-Hermitian topology and NHSE in realistic electronic nanowires coupled to reservoirs.",
+        "content_hash": "f82c448c8c80476de2bd0d7a010c1279558c241df654c1cc150c7a827966a12f",
+        "id": "gcn_bfacc9f62ccc4896",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1182050232985190435::problem",
+            "package_id": "paper:1182050232985190435",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1182050232985190435"
+          ]
+        },
+        "rerank_score": 0.7538844320151444,
+        "role": "premise",
+        "score": 0.005747126436781609,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Topological phases in Hermitian, lossless platforms are well understood, but many striking phenomena unique to non-Hermitian systems — specifically exceptional points (EPs) where eigenvectors coalesce, the non-Hermitian skin effect, and $\\mathcal{PT}$-symmetry breaking — require controlled gain and loss and thus have been difficult to realize and probe in conventional condensed-matter, acoustic, or photonic systems. Prior approaches either introduce imaginary onsite potentials or asymmetric couplings phenomenologically, but in real materials the necessary control over sublattice couplings and balanced gain/loss is limited, the complex eigenspectra are prone to instability, and experimental access to band-structure observables is constrained. Consequently, there is no simple, tunable, experimentally accessible platform that (i) implements a lattice with controllable non-Hermiticity to produce and reconfigure EP loci (lines/curves) in the Brillouin zone, (ii) yields explicit analytic relations locating those EPs, and (iii) provides a direct electrical readout that maps EP topology in momentum space. Moreover, the finite-size behavior (open-boundary geometries) of non-Hermitian lattices — in particular how zero-admittance states, boundary points (BPs) that delimit their existence, and edge versus bulk localization evolve with tunable gain/loss and intersite couplings — lacked a concrete, circuit-implementable framework that connects analytic conditions to measurable impedance signatures and a phase diagram of boundary-point multiplicities. These gaps impede quantitative prediction, experimental detection, and systematic control of non-Hermitian topological features such as exceptional lines and their finite-size manifestations.",
+        "content_hash": "1b4c385389d32e9ed6f8a310624e273abc3df6e4f0bdb81ef23cf7802b4504a1",
+        "id": "gcn_0ab15cd3724b4dde",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867771980533727861::problem",
+            "package_id": "paper:867771980533727861",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867771980533727861"
+          ]
+        },
+        "rerank_score": 0.8237841353457389,
+        "role": "premise",
+        "score": 0.011363636363636364,
+        "type": "question",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "req_b65493cd2533f"
+}

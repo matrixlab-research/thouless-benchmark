@@ -1,0 +1,1492 @@
+{
+  "code": 0,
+  "data": {
+    "has_more": true,
+    "papers": {
+      "paper:1008255193768263681": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics, quantum physics",
+        "authors": "Jing-Xin Liu | Jian-Te Wang | Shi-Liang Zhu",
+        "available_online": "",
+        "cover_date_start": "2024-06-12",
+        "created_at": "2026-06-02T14:14:00+08:00",
+        "doi": "10.48550/arxiv.2406.07911",
+        "en_title": "Proposal for realizing and probing topological crystalline insulators in optical lattices",
+        "id": "1008255193768263681",
+        "keywords": "",
+        "publication_date": "2024-06-12",
+        "publication_id": "108486",
+        "publication_name": "Quantum Gases _ Physics.cond-mat.quant-gas",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "关于在光学晶格中实现和探测拓扑晶体绝缘体的提议"
+      },
+      "paper:1008255197509582852": {
+        "area": "arXiv-Physics, Physical Sciences, Quantum Physics",
+        "authors": "Robert Peters | Tsuneya Yoshida",
+        "available_online": "",
+        "cover_date_start": "2024-06-12",
+        "created_at": "2026-06-19T10:46:06+08:00",
+        "doi": "10.48550/arxiv.2406.07827",
+        "en_title": "Hinge non-Hermitian skin effect in the single-particle properties of a strongly correlated f-electron system",
+        "id": "1008255197509582852",
+        "keywords": "",
+        "publication_date": "2024-06-12",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "[\"Physical Sciences\", \"Quantum Physics\"]",
+        "zh_title": "强关联f电子系统单粒子性质中的铰链非厄米趋肤效应"
+      },
+      "paper:1060440692112752648": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Jongjun M. Lee | Min Ju Park | Hyun-Woo Lee",
+        "available_online": "",
+        "cover_date_start": "2024-11-01",
+        "created_at": "2026-06-12T00:02:09+08:00",
+        "doi": "10.48550/arxiv.2411.00353",
+        "en_title": "Orbital Edelstein effect of electronic itinerant orbital motion at edges",
+        "id": "1060440692112752648",
+        "keywords": "",
+        "publication_date": "2024-11-01",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "边缘处电子巡游轨道运动的轨道埃德尔斯坦效应"
+      },
+      "paper:1071659921138778114": {
+        "area": "physics and astrophysics, mathematical sciences, mathematical physics, physical sciences, condensed matter physics, quantum physics",
+        "authors": "Ling Lin | Chaohong Lee",
+        "available_online": "",
+        "cas_zone": "1",
+        "cover_date_start": "2024-12-05",
+        "created_at": "2026-05-16T21:04:09+08:00",
+        "doi": "10.1038/s42005-024-01884-3",
+        "en_title": "Probing chiral-symmetric higher-order topological insulators with multipole winding number",
+        "id": "1071659921138778114",
+        "impact_factor": 5.2,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "496",
+        "publication_name": "Communications Physics _ ",
+        "research_categories": "[\"Mathematical Sciences\", \"Mathematical Physics\", \"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "用多极缠绕数探测手性对称高阶拓扑绝缘体"
+      },
+      "paper:1108818767984459778": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Sibin Lü | Jun Hu",
+        "available_online": "",
+        "cover_date_start": "2025-03-15",
+        "created_at": "2026-05-16T20:59:29+08:00",
+        "doi": "10.48550/arxiv.2503.12196",
+        "en_title": "Intrinsic higher-order topological states in 2D honeycomb Z_2 quantum spin Hall insulators",
+        "id": "1108818767984459778",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108483",
+        "publication_name": "Materials Science",
+        "research_categories": "",
+        "zh_title": "二维蜂窝状Z₂量子自旋霍尔绝缘体中的本征高阶拓扑态"
+      },
+      "paper:1129109350057508901": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Kyouhei Horie",
+        "available_online": "",
+        "cover_date_start": "2025-05-10",
+        "created_at": "2026-06-19T04:55:30+08:00",
+        "doi": "10.48550/arxiv.2505.06704",
+        "en_title": "Chern character and Fermi point",
+        "id": "1129109350057508901",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "K-Theory and Homology",
+        "research_categories": "",
+        "zh_title": "陈类特征与费米点"
+      },
+      "paper:1137754019196829700": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Zoltán Guba | Aris Alexandradinata | Tomáš Bzdušek",
+        "available_online": "",
+        "cover_date_start": "2025-06-05",
+        "created_at": "2026-06-15T03:14:01+08:00",
+        "doi": "10.48550/arxiv.2506.05179",
+        "en_title": "Delicate Wannier insulators",
+        "id": "1137754019196829700",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "精细万尼尔绝缘体"
+      },
+      "paper:1235580544805240834": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Anish Kuanr | Rajashri Parida | Saralasrita Mohanty | Tapan Mishra",
+        "available_online": "",
+        "cover_date_start": "2026-03-02",
+        "created_at": "2026-06-19T04:40:21+08:00",
+        "doi": "10.48550/arXiv.2603.02116",
+        "en_title": "Engineering edge states in topoelectric circuits",
+        "id": "1235580544805240834",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108485",
+        "publication_name": "Other Condensed Matter",
+        "research_categories": "",
+        "zh_title": "拓扑电路中的工程边缘态"
+      },
+      "paper:812598922366156801": {
+        "area": "Physics and Astrophysics, physics, multidisciplinary",
+        "authors": "S. E. Freeney | J. J. van den Broeke | A. J. J. Harsveld van der Veen | I. Swart | C. Morais Smith",
+        "available_online": "2020-6-12",
+        "cas_zone": "1",
+        "cover_date_start": "2020-06-12",
+        "created_at": "2026-06-19T09:35:11+08:00",
+        "doi": "10.1103/physrevlett.124.236404",
+        "en_title": "Edge-Dependent Topology in Kekulé Lattices",
+        "id": "812598922366156801",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "",
+        "zh_title": "凯库勒晶格中的边缘相关拓扑结构"
+      },
+      "paper:812687530683006978": {
+        "area": "physics and astrophysics, physical sciences, condensed matter physics",
+        "authors": "Ying Chen | Zhi-Kang Lin | Huanyang Chen | Jian-Hua Jiang",
+        "available_online": "2020-1-21",
+        "cas_zone": "2",
+        "cover_date_start": "2020-01-21",
+        "created_at": "2026-06-16T08:05:40+08:00",
+        "doi": "10.1103/physrevb.101.041109",
+        "en_title": "Plasmon-polaritonic quadrupole topological insulators",
+        "id": "812687530683006978",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "表面等离激元 - 极化子四极拓扑绝缘体"
+      },
+      "paper:813011432395243527": {
+        "area": null,
+        "authors": "Taro Kimura",
+        "available_online": "2018-7-25",
+        "cover_date_start": "2018-07-25",
+        "created_at": "2026-06-01T22:12:50+08:00",
+        "doi": "10.5772/intechopen.74934",
+        "en_title": "Analysis of Topological Material Surfaces",
+        "id": "813011432395243527",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "0",
+        "publication_name": "Heterojunctions and Nanostructures",
+        "research_categories": "",
+        "zh_title": "拓扑材料表面分析"
+      },
+      "paper:813224384901677056": {
+        "area": "physics and astrophysics, physical sciences, condensed matter physics, quantum physics",
+        "authors": "A. Gómez-León | G. Platero",
+        "available_online": "2013-5-14",
+        "cas_zone": "1",
+        "cover_date_start": "2013-05-14",
+        "created_at": "2026-06-14T14:19:39+08:00",
+        "doi": "10.1103/physrevlett.110.200403",
+        "en_title": "Floquet-Bloch Theory and Topology in Periodically Driven Lattices",
+        "id": "813224384901677056",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "周期驱动晶格中的弗洛凯 - 布洛赫理论与拓扑学"
+      },
+      "paper:813291502091370496": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, materials science, multidisciplinary",
+        "authors": "Sergey S. Pershoguba | Victor M. Yakovenko",
+        "available_online": "2012-8-2",
+        "cas_zone": "2",
+        "cover_date_start": "2012-08-02",
+        "created_at": "2026-06-16T02:06:17+08:00",
+        "doi": "10.1103/physrevb.86.075304",
+        "en_title": "Shockley model description of surface states in topological insulators",
+        "id": "813291502091370496",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "拓扑绝缘体中表面态的肖克利模型描述"
+      },
+      "paper:814648041532293121": {
+        "area": "physics and astrophysics, physics, multidisciplinary",
+        "authors": "A. V. Nalitov | D. D. Solnyshkov | G. Malpuech",
+        "available_online": "2015-3-16",
+        "cas_zone": "1",
+        "cover_date_start": "2015-03-16",
+        "created_at": "2026-06-13T05:18:54+08:00",
+        "doi": "10.1103/physrevlett.114.116401",
+        "en_title": "Polariton Z Topological Insulator",
+        "id": "814648041532293121",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "",
+        "zh_title": "极化子Z拓扑绝缘体"
+      },
+      "paper:814704137269673984": {
+        "area": "Physics and Astrophysics, Physical Sciences, Condensed Matter Physics",
+        "authors": "Noah F. Q. Yuan | Kin Fai Mak | K. T. Law",
+        "available_online": "2014-8-26",
+        "cas_zone": "1",
+        "cover_date_start": "2014-08-26",
+        "created_at": "2026-06-19T07:23:53+08:00",
+        "doi": "10.1103/physrevlett.113.097001",
+        "en_title": "Possible Topological Superconducting Phases of MoS 2",
+        "id": "814704137269673984",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "二硫化钼可能的拓扑超导相"
+      },
+      "paper:817335993739771905": {
+        "area": "chemistry, physical sciences, condensed matter physics",
+        "authors": "Tianyi Hu | Tingfeng Zhang | Haimen Mu | Zhengfei Wang",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2022-11-19",
+        "created_at": "2026-06-14T08:43:37+08:00",
+        "doi": "10.1021/acs.jpclett.2c02683",
+        "en_title": "Intrinsic Second-Order Topological Insulator in Two-Dimensional Covalent Organic Frameworks",
+        "id": "817335993739771905",
+        "impact_factor": 4.9,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "3390",
+        "publication_name": "Journal of Physical Chemistry Letters _ ",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "二维共价有机框架中的本征二阶拓扑绝缘体"
+      },
+      "paper:817336503179935746": {
+        "area": "physics and astrophysics, physics, multidisciplinary",
+        "authors": "Moon Jip Park | Youngkuk Kim | Gil Young Cho | SungBin Lee",
+        "available_online": "",
+        "cas_zone": "1",
+        "cover_date_start": "2019-11-23",
+        "created_at": "2026-06-16T05:34:25+08:00",
+        "doi": "10.1103/PhysRevLett.123.216803",
+        "en_title": "Higher-Order Topological Insulator in Twisted Bilayer Graphene",
+        "id": "817336503179935746",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ ",
+        "research_categories": "",
+        "zh_title": "扭曲双层石墨烯中的高阶拓扑绝缘体"
+      },
+      "paper:817400281619759106": {
+        "area": "geoscience, materials science, multidisciplinary, physics, condensed matter",
+        "authors": "Nicodemos Varnava | Ivo Souza | David Vanderbilt",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2020-04-25",
+        "created_at": "2026-06-02T11:45:57+08:00",
+        "doi": "10.1103/PhysRevB.101.155130",
+        "en_title": "Axion coupling in the hybrid Wannier representation",
+        "id": "817400281619759106",
+        "impact_factor": 3.6,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "98281",
+        "publication_name": "Physical Review B   Condensed Matter and Materials Physics _ ",
+        "research_categories": "",
+        "zh_title": "混合万尼尔表象中的轴子耦合"
+      },
+      "paper:867745588345570086": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "U. Kuhl | S. Barkhofen | T. Tudorovskiy | H.-J. Stoeckmann | T. Hossain | L. de Forges de Parny | F. Mortessagne",
+        "available_online": "",
+        "cover_date_start": "2010-06-04",
+        "created_at": "2026-06-19T01:30:57+08:00",
+        "doi": "10.48550/arXiv.1006.0901",
+        "en_title": "Dirac Point and Edge States in a Microwave Realization of Tight-Binding Graphene-like Structures",
+        "id": "867745588345570086",
+        "keywords": "",
+        "publication_date": "2010-06-04",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "狄拉克点与类紧束缚石墨烯结构微波实现中的边缘态"
+      },
+      "paper:867746391923884883": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics, quantum physics",
+        "authors": "Xiujuan Zhang | Bi-Ye Xie | Hong-Fei Wang | Xiangyuan Xu | Yuan Tian | Jian-Hua Jiang | Ming-Hui Lu | Yan-Feng Chen",
+        "available_online": "",
+        "cover_date_start": "2019-05-12",
+        "created_at": "2026-05-16T15:49:19+08:00",
+        "doi": "10.48550/arXiv.1905.04646",
+        "en_title": "Dimensional hierarchy of higher-order topology in three-dimensional sonic crystals",
+        "id": "867746391923884883",
+        "keywords": "",
+        "publication_date": "2019-05-12",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "三维声子晶体中高阶拓扑的维度层次结构"
+      },
+      "paper:867746837438660758": {
+        "area": "arxiv-physics, mathematical sciences, mathematical physics, physical sciences, condensed matter physics, quantum physics",
+        "authors": "Flore K. Kunst | Guido van Miert | Emil J. Bergholtz",
+        "available_online": "",
+        "cover_date_start": "2018-12-07",
+        "created_at": "2026-06-15T01:35:48+08:00",
+        "doi": "10.48550/arXiv.1812.03099",
+        "en_title": "Extended Bloch theorem for topological lattice models with open boundaries",
+        "id": "867746837438660758",
+        "keywords": "",
+        "publication_date": "2018-12-07",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Mathematical Sciences\", \"Mathematical Physics\", \"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "具有开放边界的拓扑晶格模型的扩展布洛赫定理"
+      },
+      "paper:867748896409912259": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Zhi-Kang Lin | Jian-Hua Jiang",
+        "available_online": "",
+        "cover_date_start": "2021-12-01",
+        "created_at": "2026-06-14T02:56:22+08:00",
+        "doi": "10.48550/arXiv.2112.00352",
+        "en_title": "Dirac cones and higher-order topology in quasi-continuous media",
+        "id": "867748896409912259",
+        "keywords": "",
+        "publication_date": "2021-12-01",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "",
+        "zh_title": "准连续介质中的狄拉克锥与高阶拓扑"
+      },
+      "paper:867752125487121133": {
+        "area": "arXiv-Physics, Physical Sciences, Condensed Matter Physics, Quantum Physics",
+        "authors": "Philipp Eck | Yuan Fang | Domenico Di Sante | Giorgio Sangiovanni | Jennifer Cano",
+        "available_online": "",
+        "cover_date_start": "2022-07-04",
+        "created_at": "2026-06-19T04:52:36+08:00",
+        "doi": "10.48550/arXiv.2207.01359",
+        "en_title": "Recipe for higher-order topology on the triangular lattice",
+        "id": "867752125487121133",
+        "keywords": "",
+        "publication_date": "2022-07-04",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "三角晶格上高阶拓扑的配方"
+      },
+      "paper:867763083337007417": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Motohiko Ezawa",
+        "available_online": "",
+        "cover_date_start": "2020-07-08",
+        "created_at": "2026-06-13T14:39:39+08:00",
+        "doi": "10.48550/arXiv.2007.03884",
+        "en_title": "Edge-Corner Correspondence: Boundary-Obstructed Topological Phases with Chiral Symmetry",
+        "id": "867763083337007417",
+        "keywords": "",
+        "publication_date": "2020-07-08",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "边-角对应：具有手性对称性的边界受阻拓扑相"
+      },
+      "paper:867763205890375843": {
+        "area": "arXiv-Physics, Physical Sciences, Condensed Matter Physics",
+        "authors": "Tenta Tani | Masaru Hitomi | Takuto Kawakami | Mikito Koshino",
+        "available_online": "",
+        "cover_date_start": "2021-12-22",
+        "created_at": "2026-06-19T10:14:34+08:00",
+        "doi": "10.48550/arXiv.2112.11735",
+        "en_title": "Topological edge and corner states and fractional corner charges in blue phosphorene",
+        "id": "867763205890375843",
+        "keywords": "",
+        "publication_date": "2021-12-22",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "蓝磷烯中的拓扑边缘态、角态和分数角电荷"
+      },
+      "paper:867764471056040681": {
+        "area": "arxiv-physics, mathematical sciences, mathematical physics, physical sciences, nuclear and plasma physics",
+        "authors": "Qiao-Ru Xu | Emilio Cobanera | Gerardo Ortiz",
+        "available_online": "",
+        "cover_date_start": "2021-07-21",
+        "created_at": "2026-05-18T14:51:06+08:00",
+        "doi": "10.48550/arXiv.2107.10393",
+        "en_title": "Bloch and Bethe ansatze for the Harper model: A butterfly with a boundary",
+        "id": "867764471056040681",
+        "keywords": "",
+        "publication_date": "2021-07-21",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Mathematical Sciences\", \"Mathematical Physics\", \"Physical Sciences\", \"Nuclear and Plasma Physics\"]",
+        "zh_title": "哈珀模型的布洛赫（Bloch）和贝塞（Bethe）假设：带有边界的蝴蝶"
+      },
+      "paper:867766424687346549": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Yue-Ran Ding | Dong-Hui Xu | Chui-Zhen Chen | X. C. Xie",
+        "available_online": "",
+        "cover_date_start": "2019-11-25",
+        "created_at": "2026-05-16T16:42:21+08:00",
+        "doi": "10.48550/arXiv.1911.10797",
+        "en_title": "Hinged Quantum Spin-Hall Effect in Antiferromagnetic Topological Insulators",
+        "id": "867766424687346549",
+        "keywords": "",
+        "publication_date": "2019-11-25",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "反铁磁拓扑绝缘体中的铰链式量子自旋霍尔效应"
+      },
+      "paper:867769658009191043": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Motohiko Ezawa",
+        "available_online": "",
+        "cover_date_start": "2018-03-08",
+        "created_at": "2026-06-02T07:19:20+08:00",
+        "doi": "10.48550/arXiv.1803.02995",
+        "en_title": "Strong and weak second-order topological insulators with hexagonal symmetry and $\\mathbb{Z}_3$ index",
+        "id": "867769658009191043",
+        "keywords": "",
+        "publication_date": "2018-03-08",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "具有六边形对称性和$\\mathbb{Z}_3$指标的强和弱二阶拓扑绝缘体"
+      },
+      "paper:867770508442076096": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Yi-Dong Wu",
+        "available_online": "",
+        "cover_date_start": "2019-12-16",
+        "created_at": "2026-06-11T07:33:06+08:00",
+        "doi": "10.48550/arXiv.1912.10881",
+        "en_title": "Corner states are not topologically protected",
+        "id": "867770508442076096",
+        "keywords": "",
+        "publication_date": "2019-12-16",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "角态不受拓扑保护"
+      },
+      "paper:867771409399546607": {
+        "area": "arxiv-physics, physical sciences, classical physics, condensed matter physics, quantum physics",
+        "authors": "Mengyao Li | Dmitry Zhirihin | Dmitry Filonov | Xiang Ni | Alexey Slobozhanyuk | Andrea Alù | Alexander B. Khanikaev",
+        "available_online": "",
+        "cover_date_start": "2019-09-19",
+        "created_at": "2026-06-14T06:30:57+08:00",
+        "doi": "10.48550/arXiv.1909.09199",
+        "en_title": "Photonic Higher-Order Topological States Induced by Long Range Interactions",
+        "id": "867771409399546607",
+        "keywords": "",
+        "publication_date": "2019-09-19",
+        "publication_id": "108505",
+        "publication_name": "Applied Physics _ Physics.physics.app-ph",
+        "research_categories": "[\"Physical Sciences\", \"Classical Physics\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "由长程相互作用诱导的光子高阶拓扑态"
+      },
+      "paper:867771418027229403": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Motoaki Hirayama | Ryo Takahashi | Satoru Matsuishi | Hideo Hosono | Shuichi Murakami",
+        "available_online": "",
+        "cover_date_start": "2020-04-08",
+        "created_at": "2026-05-22T21:43:11+08:00",
+        "doi": "10.48550/arXiv.2004.03785",
+        "en_title": "Higher-Order Topological Crystalline Insulating Phase and Quantized Hinge Charge in Topological Electride Apatite",
+        "id": "867771418027229403",
+        "keywords": "",
+        "publication_date": "2020-04-08",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "",
+        "zh_title": "拓扑电子型磷灰石中的高阶拓扑晶体绝缘相和量子化棱电荷"
+      },
+      "paper:867772064977650281": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Xi Wu | Taro Kimura",
+        "available_online": "",
+        "cover_date_start": "2022-05-06",
+        "created_at": "2026-06-16T02:09:48+08:00",
+        "doi": "10.48550/arXiv.2205.03035",
+        "en_title": "Boundary Condition Analysis of First and Second Order Topological Insulators",
+        "id": "867772064977650281",
+        "keywords": "",
+        "publication_date": "2022-05-06",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "一阶和二阶拓扑绝缘体的边界条件分析"
+      },
+      "paper:867772957169025873": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Qing Liu | Kai Wang | Jia-Xiao Dai | Y.X.Zhao",
+        "available_online": "",
+        "cover_date_start": "2022-05-12",
+        "created_at": "2026-06-15T03:36:41+08:00",
+        "doi": "10.48550/arXiv.2205.05873",
+        "en_title": "Takagi Topological Insulator on the Honeycomb Lattice",
+        "id": "867772957169025873",
+        "keywords": "",
+        "publication_date": "2022-05-12",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "蜂窝晶格上的高木拓扑绝缘体"
+      },
+      "paper:867774124737430115": {
+        "area": "arXiv-Physics, Physical Sciences, Condensed Matter Physics",
+        "authors": "Ryo Takahashi | Yutaro Tanaka | Shuichi Murakami",
+        "available_online": "",
+        "cover_date_start": "2019-10-18",
+        "created_at": "2026-06-19T08:56:16+08:00",
+        "doi": "10.48550/arXiv.1910.08290",
+        "en_title": "Bulk-edge and bulk-hinge correspondence in inversion-symmetric insulators",
+        "id": "867774124737430115",
+        "keywords": "",
+        "publication_date": "2019-10-18",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "反演对称绝缘体中的体边和体铰链对应关系"
+      },
+      "paper:875080232049049720": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Yonatan Betancur-Ocampo | B. Manjarrez-Montañez | A.M. Martínez-Argüello | Rafael A. Méndez-Sánchez",
+        "available_online": "",
+        "cover_date_start": "2023-06-08",
+        "created_at": "2026-06-14T23:45:42+08:00",
+        "doi": "10.48550/arXiv.2306.05595",
+        "en_title": "Twofold topological phase transitions induced by third-nearest-neighbor interactions in 1D chains",
+        "id": "875080232049049720",
+        "keywords": "",
+        "publication_date": "2023-06-08",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "一维链中第三近邻相互作用诱导的双重拓扑相变"
+      },
+      "paper:926185560416977158": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Sayak Bhowmik | Saikat Banerjee | Arijit Saha",
+        "available_online": "",
+        "cover_date_start": "2023-10-29",
+        "created_at": "2026-05-22T23:08:41+08:00",
+        "doi": "10.48550/arXiv.2310.19010",
+        "en_title": "Higher-order topological corner and bond-localized modes in magnonic insulators",
+        "id": "926185560416977158",
+        "keywords": "",
+        "publication_date": "2023-10-29",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "磁振子绝缘体中的高阶拓扑角态和键局域模"
+      },
+      "paper:926901324413403149": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Wenzhang Li | Qin He | Xiao-Ping Li | Da-Shuai Ma | Botao Fu",
+        "available_online": "",
+        "cover_date_start": "2023-11-01",
+        "created_at": "2026-06-17T01:02:18+08:00",
+        "doi": "10.48550/arXiv.2311.00340",
+        "en_title": "Two-dimensional double-kagome-lattice nitrogene: a direct band gap semiconductor with nontrivial corner state",
+        "id": "926901324413403149",
+        "keywords": "",
+        "publication_date": "2023-11-01",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "",
+        "zh_title": "二维双 Kagome 晶格氮化物：一种具有非平凡角态的直接带隙半导体"
+      },
+      "paper:942483432699593348": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Michał J. Pacholski | Ashley M. Cook",
+        "available_online": "",
+        "cover_date_start": "2023-12-13",
+        "created_at": "2026-06-12T06:55:46+08:00",
+        "doi": "10.48550/arXiv.2312.08552",
+        "en_title": "Crystalline finite-size topology",
+        "id": "942483432699593348",
+        "keywords": "",
+        "publication_date": "2023-12-13",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "晶体有限尺寸拓扑结构"
+      },
+      "paper:947196961813954948": {
+        "area": "arxiv-physics, mathematical sciences, mathematical physics, physical sciences, condensed matter physics",
+        "authors": "Shifeng Qian | Yongpan Li | Cheng-Cheng Liu",
+        "available_online": "",
+        "cover_date_start": "2023-12-23",
+        "created_at": "2026-06-17T03:23:26+08:00",
+        "doi": "10.48550/arXiv.2312.15131",
+        "en_title": "Stable Higher-Order Topological Dirac Semimetals with $\\mathbb{Z}_2$ Monopole Charge in Alternating-twisted Multilayer Graphenes and beyond",
+        "id": "947196961813954948",
+        "keywords": "",
+        "publication_date": "2023-12-23",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Mathematical Sciences\", \"Mathematical Physics\", \"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "具有$$\\mathbb{Z}_2$$单极子电荷的稳定高阶拓扑狄拉克半金属在交替扭曲多层石墨烯及其他体系中的研究 "
+      },
+      "paper:997209886867587126": {
+        "area": "physics and astrophysics, physical sciences, condensed matter physics",
+        "authors": "Shi-Qiao Wu | Zhi-Kang Lin | Yongyao Li | Jianing Xie",
+        "available_online": "2024-4-1",
+        "cas_zone": "3",
+        "cover_date_start": "2024-04-01",
+        "created_at": "2026-06-14T10:24:15+08:00",
+        "doi": "10.1063/5.0202383",
+        "en_title": "Geometry-dependent acoustic higher-order topological phases on a two-dimensional honeycomb lattice",
+        "id": "997209886867587126",
+        "impact_factor": 2.4,
+        "jcr_zone": "Q3",
+        "keywords": "",
+        "publication_date": "2024-4-7",
+        "publication_id": "585",
+        "publication_name": "Journal of Applied Physics _ ",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "二维蜂窝晶格上依赖于几何结构的声学高阶拓扑相"
+      }
+    },
+    "variables": [
+      {
+        "content": "Translating bulk topological invariants into concrete, localized physical observables requires demonstrating boundary-localized states in finite-size models with realistic terminations and with the same symmetries assumed by the bulk classification. Prior to this work, continuum-model proposals and abstract topological indicators suggested corner modes in idealized descriptions, but a tight-binding demonstration on moiré-scale atomic lattices was lacking. Without such a tight-binding demonstration, questions remain about whether microscopic lattice termination effects, interlayer hopping details, or band-counting subtleties would destroy or alter the predicted fractional corner charges. Providing explicit finite-size tight-binding calculations with mirror and $C_6$ symmetric boundaries directly establishes the existence and fractionalization ($e/2$ per corner) of in-gap corner-localized electronic states for realistic moiré-lattice terminations.",
+        "content_hash": "a6ce776f823ba36814e2309f08574d2303f735b87989237778f0fa788e41fede",
+        "id": "gcn_79c7aedbe338479f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817336503179935746::conclusion_5_subproblem",
+            "package_id": "paper:817336503179935746",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817336503179935746"
+          ]
+        },
+        "rerank_score": 0.9248827562765269,
+        "role": "premise",
+        "score": 0.023714891361950187,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Fractional corner charge predicted by bulk symmetry indicators must be corroborated by explicit finite-size spectra that account for the role of edge terminations, because different terminations can host metallic edge charges that mask or modify corner localization. Prior to this work, a minimal triangular $l=1$ model had not been used to show how canonical terminations (zigzag versus flat) affect edge conductivity and to demonstrate the existence of an exactly counted set of mid-gap corner states (six states with two electrons at neutrality) that realize the filling anomaly corresponding to $Q_{12}=2/3$. This finite-size characterization is essential to connect bulk multipole diagnostics with spectroscopic signatures accessible in experiments.",
+        "content_hash": "9c057e8cce0e6f6d751b76e31526fc955aaa213ba14f9f52847cdc2b7784bfcb",
+        "id": "gcn_5df76f52b8ef47b9",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867752125487121133::conclusion_5_subproblem",
+            "package_id": "paper:867752125487121133",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867752125487121133"
+          ]
+        },
+        "rerank_score": 0.9036373956330863,
+        "role": "premise",
+        "score": 0.008771929824561403,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The authors note an unresolved boundary/finite-sample subtlety in the higher-order boundary manifestation: the recursive hinge Green-function plus Wannier interpolation calculation yields a single hinge state per hinge in the computed spectral function (Fig.2(f)), whereas direct diagonalization of a finite tubelike sample produces a pair of hinge states (Supplemental Material). This discrepancy indicates an unresolved dependence of the hinge-mode count and spectral weight on boundary termination, numerical method and finite-size geometry; reconciling these different computational outcomes and establishing the precise relation between bulk $w_{2}$, hinge-mode multiplicity, boundary termination conditions, and observable spectroscopy is left unresolved in the paper.",
+        "content_hash": "c46fd4b0d9a0e7f8299006ab6c3a7accb8ca3885d398ec45fb06d19378307df2",
+        "id": "gcn_845407cac1554d64",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:947196961813954948::open_question",
+            "package_id": "paper:947196961813954948",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:947196961813954948"
+          ]
+        },
+        "rerank_score": 0.8713192197165606,
+        "role": "premise",
+        "score": 0.016129032258064516,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "For a topological electronic insulator the bulk-boundary correspondence guarantees protected chiral edge modes when bulk bands carry nonzero Chern numbers. For a proposed photonic or polaritonic TI it is essential to demonstrate that the finite-size, experimentally realizable lattice actually hosts edge-localized electromagnetic/polaritonic modes that propagate unidirectionally and are immune to backscattering, including in the presence of realistic lattice termination (zigzag edges) and realistic SOI and Zeeman magnitudes. Prior polaritonic proposals either did not connect the bulk topological index to specific edge spectra for experimentally accessible terminations, or relied on hypothetical couplings. Presenting a tight-binding stripe calculation that yields the edge-state dispersion and localization provides the needed bridge between the computed bulk Chern numbers and experimentally observable, robust edge transport.",
+        "content_hash": "86d0f63b564b1468bf704eae04ae51864a715cf02f07843f647553265979ebfb",
+        "id": "gcn_b920216be8e84be5",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814648041532293121::conclusion_3_subproblem",
+            "package_id": "paper:814648041532293121",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814648041532293121"
+          ]
+        },
+        "rerank_score": 0.8975526815262298,
+        "role": "premise",
+        "score": 0.012987012987012988,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Observing higher-order topology in finite metamaterial samples requires understanding the intermediate edge physics that connects bulk band topology to corner-localized modes. Prior studies in tight-binding lattices sometimes produced gapless edge modes protected by particular symmetries, but in quasi-continuous metamaterials the edge termination and the absence of protecting edge symmetries often lead to gapped edge spectra, complicating the route from bulk invariants to corner signatures. Designers need explicit predictions of whether edge states will be gapped or gapless for the experimentally accessible domain-wall geometries and which bulk phase pairings produce edge-localized branches inside the bulk gap. Computing the projected ribbon spectra for the concrete SC geometries and linking them to the underlying Wannier distributions resolves this gap and gives practical guidance on boundary phenomenology preceding corner-state emergence.",
+        "content_hash": "84dcef1d0cfd8f26dc783a80bf50c74591ad9aa2d151b6ce5b091694b4117560",
+        "id": "gcn_6e65ecc41cb34e9d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867748896409912259::conclusion_3_subproblem",
+            "package_id": "paper:867748896409912259",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867748896409912259"
+          ]
+        },
+        "rerank_score": 0.8606208664187114,
+        "role": "premise",
+        "score": 0.01639344262295082,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The presence or absence of localized zero-energy (mid-gap) corner or edge states in finite samples of tight-binding models depends on the specific boundary termination chosen for the same bulk Hamiltonian, even when the two termination choices preserve the same protecting symmetries. Consequently, corner/edge modes observed for one termination can be annihilated by switching to a different, symmetry-equivalent termination of the same bulk; conversely, identical robust-looking corner modes can be produced in a bulk that would be labeled \"trivial\" by Berry/Wannier diagnostics simply by choosing an appropriate boundary. As an explicit demonstration, finite triangular terminations of a model produce zero-energy corner states for one boundary type but not for another; for instance, the energy spectrum of a $\\nabla$-type triangle with size $L=20$ shows zero-energy corner states for one boundary type and no such states for another boundary type of the same bulk.",
+        "content_hash": "d66df5f5ce4c201a706a7b50e6f956e52c0345a32f3bec724b6d4033bf99ea31",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_b848c90b1049418b",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867770508442076096::conclusion_4",
+            "package_id": "paper:867770508442076096",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867770508442076096"
+          ]
+        },
+        "rerank_score": 0.8952538644925199,
+        "role": "conclusion",
+        "score": 0.006622516556291391,
+        "title": "Corner and edge states in these models reflect boundary choice rather than intrinsic bulk topology",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "bulk-boundary correspondence; surface metallicity; half-quantized AHC; second-order topological insulator; hinge modes",
+        "content_hash": "6cdd7b500292f7b2f4010eb3db3b60910c56f17e858a3ef1529bcb05a7c52a7e",
+        "id": "gcn_ff238218ed7d48b3",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817400281619759106::conclusion_8_subproblem",
+            "package_id": "paper:817400281619759106",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817400281619759106"
+          ]
+        },
+        "rerank_score": 0.8975306548284931,
+        "role": "premise",
+        "score": 0.007246376811594203,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The theoretical prediction that the existence of topological edge states in a Kekulé-patterned crystalline topological insulator can depend on the edge termination implies a specific experimental signature: for a given bulk hopping regime, some terminations should show boundary-localized in-gap states while others should not. Prior to this measurement, it was unknown whether such termination-sensitive edge modes could be observed in finite, experimentally realizable lattices where (i) the energies of bulk bands and the midgap are shifted by overlap effects, (ii) chiral symmetry might be weakly broken by NNN hopping, and (iii) finite-size and boundary-corner effects could delocalize or hybridize candidate edge states. Demonstrating a clear contrast—an in-gap edge-localized state for the partially bearded edge but not for the molecular-zigzag edge—addresses whether termination-dependent topology is observable under realistic experimental conditions for the $t_1<t_0$ regime.",
+        "content_hash": "6cf211e1a92a001b6d08913e7d74233774b8e004b85fc68901431e1dd422c4e4",
+        "id": "gcn_4ae84351aa674d92",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812598922366156801::conclusion_3_subproblem",
+            "package_id": "paper:812598922366156801",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812598922366156801"
+          ]
+        },
+        "rerank_score": 0.8366063324492035,
+        "role": "premise",
+        "score": 0.011764705882352941,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Understanding how a Wannier-level delicate invariant controls the existence or removal of boundary-localized modes requires delineating the relation between Wannier-spectrum gaps and energy gaps on sharply terminated surfaces. Prior bulk-boundary correspondences related Wannier flow to first-order surface spectra, but a quantitative statement connecting Wannier-gap closings at $\\nu=\\tfrac12$ to surface energy-gap closings (and thus to the presence/removal of hinge/corner states in geometries with multiple open boundaries) was lacking. Mapping phase boundaries and observing concurrence of Wannier-gap and surface-gap closings in explicit layered models is necessary to formulate and test a boundary-obstruction picture for DWIs and to identify termination-dependence (DWI vs DWI') in practical model parameter spaces.",
+        "content_hash": "ab1ece04c6fa2c20fc0fc06d6d52ad7f3c9e736fee38585f5c4cdaa645eed4de",
+        "id": "gcn_417390c0d5e545a4",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1137754019196829700::conclusion_6_subproblem",
+            "package_id": "paper:1137754019196829700",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1137754019196829700"
+          ]
+        },
+        "rerank_score": 0.8348356420480967,
+        "role": "premise",
+        "score": 0.010752688172043012,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Lattices with open boundaries in both spatial directions produce higher-codimension boundary modes (edges and corners). Prior exact-analytic boundary constructions handled corner or edge states in certain fine-tuned models, but an exact closed-form decomposition of the entire finite-size spectrum into bulk, each distinct family of edge states, and corner states (with explicit standing-wave quantization for bulk and edges and exact corner eigenfunctions) was not available for the generic Lieb lattice. This hindered analytic separation of corner, edge, and bulk contributions in finite geometries and the provision of exact finite-size benchmarks. By giving the exact corner eigenfunction and demonstration that the remaining spectrum splits into analytically computable standing-wave bulk bands and two independent edge-band families from the respective edge Hamiltonians, the work closes that gap.",
+        "content_hash": "8295c9fa6ea46d987c97c92310e81258702977820730a297d4ede6759fe75ea6",
+        "id": "gcn_2b3dacb8344241fe",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867746837438660758::conclusion_8_subproblem",
+            "package_id": "paper:867746837438660758",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867746837438660758"
+          ]
+        },
+        "rerank_score": 0.887776692320444,
+        "role": "premise",
+        "score": 0.006666666666666667,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The unusual one-to-many bulk-boundary behavior of $\\mathcal{PT}$-protected real topological insulators means the bulk $\\mathbb{Z}_2$ invariant does not single-handedly predict which boundary manifestation (helical edges versus corner zero-modes and their spatial locations) will appear. Practically, experimenters and modelers need simple algebraic criteria that take microscopic hopping amplitudes and a chosen termination to tell whether an edge is gapless and whether adjacent edges form a mass-domain-wall that localizes a corner state. Prior to this work such algebraic edge-mass expressions were not available in a minimal model. The derived formulas $m_i$ and $M_i$ give the required local, physically transparent mapping from hopping parameters to edge masses and thus to corner-bound-state predictions via the Jackiw–Rebbi picture.",
+        "content_hash": "59f4f0f91d2028c6f4cd0b0797b214273bc2bd8bfc6baeba7f6d35a29963b404",
+        "id": "gcn_5b52a154416f4ab6",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867772957169025873::conclusion_5_subproblem",
+            "package_id": "paper:867772957169025873",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867772957169025873"
+          ]
+        },
+        "rerank_score": 0.8186915866377955,
+        "role": "premise",
+        "score": 0.0136986301369863,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In the design and prediction of topological acoustic devices, one must know not only whether the infinite bulk is in a topological or trivial phase, but also which finite-sample boundary-localized modes will appear for a given fabricated sample shape and termination. Prior bulk-focused analyses implicitly assumed a one-to-one mapping from bulk topology to the kind of boundary modes, an assumption that fails in honeycomb acoustic lattices where small bulk gaps and boundary-dependent symmetry reduction can invalidate straightforward bulk-edge correspondence. Without explicit characterization of how sample contour and edge termination map to first-order versus higher-order localized modes (including the case where localized modes overlap spectrally with bulk bands), designers cannot predict whether a fabricated device will support corner modes (useful for highly localized trapping) or edge modes (useful for guided edge transport), nor can they anticipate the occurrence of BICs that affect device performance. The derived geometry-dependent result addresses this practical gap by exposing the direct influence of sample contour and termination on whether a finite honeycomb acoustic sample exhibits 0D corner states, 1D edge states, or edge BICs.",
+        "content_hash": "70a60ec0845dd5c3cd018652c590ab9daff256387559cd47246f4cba51900dca",
+        "id": "gcn_c2ce0b66e686477e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:997209886867587126::conclusion_1_subproblem",
+            "package_id": "paper:997209886867587126",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:997209886867587126"
+          ]
+        },
+        "rerank_score": 0.815419552519651,
+        "role": "premise",
+        "score": 0.008403361344537815,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Prior to this work, higher-order topological insulators (HOTIs) had been largely realized and characterized in two-dimensional systems, where the bulk-boundary correspondence produces 1D gapped edge states and 0D localized corner states; theoretical proposals for three-dimensional (3D) HOTIs existed mainly in nearest-neighbor tight-binding models (e.g., 3D Su-Schrieffer-Heeger (SSH)-type or breathing-pyrochlore models) that rely on sublattice/chiral symmetry and simplified lattice Hamiltonians. Those prior approaches left several substantive gaps: (i) experimental realization of bona fide 3D HOTIs that simultaneously host 2D surface states, 1D hinge states and 0D corner states (i.e., codimension-three boundary states) had not been demonstrated and was expressly noted as challenging; (ii) tight-binding constructions impose chiral (sublattice) symmetry which pins boundary-state spectra (e.g., zero-energy corner modes) and thereby embeds lower-dimensional boundary modes within higher-dimensional ones, preventing spectral separation and direct experimental identification of distinct boundary-state bands; (iii) there was a lack of a continuum-wave platform with a large, designable full bulk band gap in which the 3D Zak phases (3D bulk polarizations) and quantized Wannier-center positions could be implemented, measured and used to predict a dimensional hierarchy of boundary modes; and (iv) practical experimental issues — finite-size effects, fabrication tolerances and environmental variations of air — limited quantitative agreement between model predictions and measurements and made controlled observation of separated surface/hinge/corner resonances difficult. These limitations prevented the direct observation of a dimensional hierarchy of higher-order topology in a single 3D system, impeded unambiguous spectral identification of distinct codimension-1, -2 and -3 boundary states, and left open whether a continuum acoustic metamaterial could realize nontrivial 3D bulk polarizations and associated multiplet boundary correspondences beyond tight-binding constraints.",
+        "content_hash": "ea3ea3d3f4044d2e873a1a3a5eeef56c9dc6dc6b89f218bb1cf995b92c333eb9",
+        "id": "gcn_bf4c1b18d7414df8",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867746391923884883::problem",
+            "package_id": "paper:867746391923884883",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867746391923884883"
+          ]
+        },
+        "rerank_score": 0.8641664132896228,
+        "role": "premise",
+        "score": 0.013888888888888888,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "pseudo-SOTMI; incomplete unit cells; termination dependence; partial localization; boundary-weighted states\n        The decorated honeycomb magnon system poses a subtle finite-size problem: the same bulk topology can lead to qualitatively different boundary signatures depending on how the lattice ends. Prior studies of analogous lattice models did not fully resolve whether corner-localized magnonic states remain sharply pinned to the corners under different edge cuts, especially when bosonic onsite-energy shifts move the in-gap levels away from the center of the bulk gap. To interpret the finite-system spectrum correctly, it is therefore necessary to distinguish true topological corner modes from states that merely accumulate near the boundary because of the specific termination. This distinction is essential for understanding whether the observed boundary features are intrinsic to topology or are only pseudo-corner effects.",
+        "content_hash": "79b92bc0f0c5456ce592ac5b93bdfc7c3a44e048b1827629014d28ebd25d11c4",
+        "id": "gcn_7fa1360d6ef642f9",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:926185560416977158::conclusion_4_subproblem",
+            "package_id": "paper:926185560416977158",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:926185560416977158"
+          ]
+        },
+        "rerank_score": 0.813940353675386,
+        "role": "premise",
+        "score": 0.018470230334637114,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The analysis assumes specific technical constraints and leaves several model- and geometry-dependent aspects open for further resolution. First, the cutting-procedure derivations require (i) choosing a unit cell invariant under inversion and (ii) that no atomic site resides exactly on the unit-cell boundary; the treatment of systems where these assumptions cannot be satisfied (and where bulk inversion eigenvalues alone are known to be insufficient to predict boundary phenomena) remains an open regime for systematic classification. Second, the main derivations for hinge-state locality assume that the slab surfaces are insulating (gapped); the precise classification of situations where surface gaplessness versus gapped-but-chiral-hinge distributions occur for $\\mu_{1}=2$ (in class A) or $\\kappa_{1}=2$ (in class AII) — i.e., when the odd-parity slab Chern/$Z_2$ response is realized as surface-localized chiral/helical modes versus hinge-localized modes — requires analysis of competing surface terminations and microscopic surface Hamiltonians beyond the parity-counting, and the paper leaves the surface-versus-hinge placement of the chiral/helical modes as a geometry- and termination-dependent question. Third, although finite-range hopping and generic boundary perturbations are argued to be benign in the large-size limit, quantitative estimates of finite-size corrections (how large the slab must be relative to localization lengths for the asymptotic parity relations to hold in practice) are not given and remain to be characterized. Finally, the approach focuses on noninteracting band Hamiltonians; the robustness of the derived parity relations and the corresponding hinge-state predictions in the presence of interactions (beyond mean-field single-particle descriptions) is not addressed and constitutes an open direction.",
+        "content_hash": "24a650fc1a4576d65e84d48a0cc63e8710c419ae4a2c4e90c8ebd9e0a5f22416",
+        "id": "gcn_b510d8ee844b42ae",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867774124737430115::open_question",
+            "package_id": "paper:867774124737430115",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867774124737430115"
+          ]
+        },
+        "rerank_score": 0.8543359128968053,
+        "role": "premise",
+        "score": 0.010309278350515464,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Physical context: To study finite geometries (ribbons, flakes) with sizes beyond practical DFT supercells and to analyze edge/corner phenomena, accurate minimal tight-binding Hamiltonians are required. Prior state: Without validated Wannier-based tight-binding models, nanostructure calculations could not be performed with fidelity to the first-principles electronic structure. Consequences: The absence of such validated models prevents systematic exploration of edge and corner states and their dependence on geometry. This conclusion resolves that methodological bottleneck by providing reproduced band structures and an operational route to nanostructure modeling.",
+        "content_hash": "6387df92870f1694493613cdc086f776d962d625a9b8213d5d5211cd1ce413e2",
+        "id": "gcn_8585df1dcfe44b00",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1108818767984459778::conclusion_12_subproblem",
+            "package_id": "paper:1108818767984459778",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1108818767984459778"
+          ]
+        },
+        "rerank_score": 0.811509506170964,
+        "role": "premise",
+        "score": 0.00558659217877095,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "To establish that the constructed model indeed realizes a TCI phase with corner-localized zero modes and to determine which boundary terminations exhibit gapped vs gapless edges, it is necessary to compute finite-size spectra and spatial eigenstate densities across parameter space. Purely analytical edge arguments do not suffice to show that the corner states survive on realistic finite lattices or to determine the shape-dependent manifestation of edge and corner features; numerical spectra and density maps are required to demonstrate these phenomena concretely.",
+        "content_hash": "55020e6ade086010e04f91527244c0cef177e570cdb1ee800e674ed4de5643c1",
+        "id": "gcn_df6f133dbf5a41e0",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1008255193768263681::conclusion_6_subproblem",
+            "package_id": "paper:1008255193768263681",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1008255193768263681"
+          ]
+        },
+        "rerank_score": 0.8066369218329333,
+        "role": "premise",
+        "score": 0.012658227848101266,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The one-dimensional floating edge state for type-A nanoribbons and the sixfold-degenerate zero-dimensional corner states in a finite hexagonal flake with N=1152 atoms were calculated from a tight-binding model parameterized from the DFT band structure. The existence, number, and energy position of these boundary states depend on the tight-binding parameters and the termination geometry. The robustness of these boundary states to variations in the tight-binding parameters within the range consistent with the DFT band structure is not verified. In particular, the sixfold degeneracy of the corner states and their spatial localization at the six corners could be lifted by small perturbations not captured by the model (e.g., edge relaxation, passivation, or flake-size effects).Fig. 4(b), 4(c), 4(d)",
+        "content_hash": "9fa049745c22c62b2dffd52042137f32d67be6341863b7b30e462f4d39a5ddfa",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_db787e4343ac4692",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:926901324413403149::P14",
+            "package_id": "paper:926901324413403149",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:926901324413403149"
+          ]
+        },
+        "rerank_score": 0.8061297297638229,
+        "role": "premise",
+        "score": 0.0065257196389030825,
+        "title": "Tight-binding model fidelity for edge and corner states in DKL-nitrogene",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Concrete numerical verification in finite systems is required to confirm that the effective Hamiltonians and topological invariants derived in the high- and low-frequency analyses correctly predict observable boundary modes. Without such finite-size spectra one cannot establish bulk–boundary correspondence in the driven context or validate that Bessel-renormalized hoppings and torus winding actually produce edge states in accessible parameter ranges.",
+        "content_hash": "b4400444efade846d594953030c96ca2ab713b58b8e9694f9d4a059848bde878",
+        "id": "gcn_4e63d6e4a34f4965",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813224384901677056::conclusion_8_subproblem",
+            "package_id": "paper:813224384901677056",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813224384901677056"
+          ]
+        },
+        "rerank_score": 0.8500376575598523,
+        "role": "premise",
+        "score": 0.011627906976744186,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The bulk/edge correspondence guarantees topological boundary states, but when a system has multiple boundaries in different directions (corners, edges), there is the possibility of states localized at the intersection of these boundaries—here called \"edge-of-edge\" states. Prior to this work, such states had not been systematically studied in topological semimetals or insulators, and it was unclear whether they exist and how they depend on the boundary conditions at the two surfaces. This is particularly relevant for materials with cubic or rectangular geometries, where corners or hinges could host additional topological modes. A general theoretical framework to compute such states and predict their spectra was needed.",
+        "content_hash": "a63ae3ead646e2a22710c7132a368168240db5b95417a6dddb50b09595a5dd08",
+        "id": "gcn_8b94c990a49045fd",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813011432395243527::conclusion_7_subproblem",
+            "package_id": "paper:813011432395243527",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813011432395243527"
+          ]
+        },
+        "rerank_score": 0.8646449540449355,
+        "role": "premise",
+        "score": 0.007352941176470588,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Higher-order corner modes can depend sensitively on boundary termination and on boundary-localized spectral reorganizations; methods that rely exclusively on bulk Bloch eigenstates under PBC fail to capture boundary-sensitive distinctions (BOTPs) and cannot explain why some corner states originate from boundary phenomena. A comprehensive invariant must therefore incorporate boundary-state contributions so that the predicted corner-mode multiplicity under OBC matches actual spectral degeneracies. Without such an understanding, counting corner modes from bulk-only data risks misidentifying trivial defect states as topological.",
+        "content_hash": "c1ff19ab17c51125a9096bc1f192fe3b048a3ab734e02ea2571f642e1d8850a4",
+        "id": "gcn_51c0f0f33c81435f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1071659921138778114::conclusion_6_subproblem",
+            "package_id": "paper:1071659921138778114",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1071659921138778114"
+          ]
+        },
+        "rerank_score": 0.7999427443381959,
+        "role": "premise",
+        "score": 0.01606160616061606,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Observed corner spectral features in finite tight-binding clusters require a microscopic interpretation that connects the localized edge/corner physics to an analytically tractable model; without such mapping it is unclear whether corner modes are topologically protected domain-wall states or fragile artifacts of particular lattice termination. An SSH-wire mapping provides a minimal, well-understood paradigm to interpret the degeneracy counts, energy positions, and robustness of corner modes, and therefore is necessary to show that the corner phenomena in the DKB SOTI are generic and parameter-insensitive (beyond the detailed tight-binding parametrization).",
+        "content_hash": "9ad119cbe2aaabe5428926968badbf70521e95755261ce7515c16c7e5a8816e5",
+        "id": "gcn_6e6fb645c75b4730",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817335993739771905::conclusion_4_subproblem",
+            "package_id": "paper:817335993739771905",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817335993739771905"
+          ]
+        },
+        "rerank_score": 0.7970046904213052,
+        "role": "premise",
+        "score": 0.013554463554463554,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "When surface Dirac cones hybridise and open a finite gap, it is essential to determine whether reduced-dimensional gapless boundary states remain and where they localize. For practical identification and to design probes, one needs explicit edge-state wavefunctions, their dispersion, and the mechanism by which symmetry-allowed surface perturbations gap the edge spectrum except at isolated orientations that host corner zero modes. Prior methods either numerically observed corner or hinge states or used continuum surface models without a direct mapping to microscopic hybridisation parameters; a closed-form edge Hamiltonian with orientation-dependent mass terms provides predictive criteria for the presence and spatial structure of corner and edge modes in finite-thickness crystalline samples.",
+        "content_hash": "a75ab9fc33a08f12c8f7cd4b13dd1aa06fef17066da22dc0be07e2b0ecba982d",
+        "id": "gcn_728c5b1e3e194a82",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:942483432699593348::conclusion_4_subproblem",
+            "package_id": "paper:942483432699593348",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:942483432699593348"
+          ]
+        },
+        "rerank_score": 0.7934244984758186,
+        "role": "premise",
+        "score": 0.00980392156862745,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The mixed-boundary (PBC in one surface direction, OBC in the other) analysis provides a topological explanation (point-gap winding) for hinge NHSE on 1D surface subsystems, but the spectral and spatial structure of modes in a fully open finite sample can differ: multi-directional skin effects can hybridize and multiple orbital/spin components can produce complex corner/hinge patterns. Prior to this work there was no explicit interacting-lattice demonstration of how the surface EP arrangement and layer-dependent Σ produce fully open-system corner/hinge-localized eigenstates in a concrete f-electron model, nor a mapping of their spin-orbital structure; numerical observation is necessary before a topological classification (if any) of these fully open corner/hinge modes can be attempted.",
+        "content_hash": "1ea36fd577da39b15b878e6b0371ee30137a0291aed4c5b51bd5a06a5d67ebce",
+        "id": "gcn_6490538f43764f91",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1008255197509582852::conclusion_4_subproblem",
+            "package_id": "paper:1008255197509582852",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1008255197509582852"
+          ]
+        },
+        "rerank_score": 0.7791453283714074,
+        "role": "premise",
+        "score": 0.015151515151515152,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Theoretical analyses of topological bands generally assume that rewriting a periodic tight-binding Hamiltonian with a different unit cell produces the same bulk bands, but in multi-leg ladders this fact does not by itself resolve why edge-state counts measured under open boundary conditions differ between cell choices. Previously the connection between unitary equivalence of bulk Bloch matrices and the distinct boundary spectra that result from alternate open cuts had not been explicitly exhibited for the two-leg SSH ladder with staggered and uniform dimerizations. Without explicit unitary mappings and their demonstration, it was difficult to attribute differing edge phenomenology unambiguously to boundary termination rather than to any bulk redefinition. The present conclusion remedies that by supplying explicit Bloch Hamiltonians and an explicit $k$-dependent unitary that maps one cell representation to another, thereby isolating the origin of the boundary sensitivity.",
+        "content_hash": "1dac5cfa10c45b371ac9f180d41c07db868558b0a9e31a27204d1944c85fbd7b",
+        "id": "gcn_c72a5a0232ef4254",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1235580544805240834::conclusion_4_subproblem",
+            "package_id": "paper:1235580544805240834",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1235580544805240834"
+          ]
+        },
+        "rerank_score": 0.7774762763249632,
+        "role": "premise",
+        "score": 0.008130081300813009,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Although analytic expressions and symmetry indicators diagnose bulk topology, explicit finite-size spectra and real-space LDOS are needed to confirm that (a) a chosen mass term can gap out surface/edge states without destroying hinge/corner modes, and (b) the hinge/corner modes localize at the expected real-space boundaries in finite prisms and disks. Prior analyses in hexagonal contexts either employed large-band models or did not present a concise numerical demonstration tying the analytic index to finite-geometry spectra. Providing finite-prism and finite-disk diagonalizations with LDOS and band plots verifies that the proposed minimal Hamiltonian realizes the target boundary phenomenology and that the analytic classification predicts the observed boundary modes.",
+        "content_hash": "4905e5019c4ed5d0f049cb7fd9b4329c9b479f07c1f1d023c1d14c177fdb1a01",
+        "id": "gcn_bba71cf4ba384b74",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867769658009191043::conclusion_6_subproblem",
+            "package_id": "paper:867769658009191043",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867769658009191043"
+          ]
+        },
+        "rerank_score": 0.8432372612749095,
+        "role": "premise",
+        "score": 0.015625,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Higher-order topology is often described qualitatively by nested bulk invariants and symmetry arguments, but an explicit lattice-level mechanism relating a surface's nontrivial topological charge to the presence of an exponentially localized, gapless hinge mode was missing. In particular, it was unclear how a surface Chern number (computed from the surface effective Hamiltonian with boundary-rotated coefficients) constrains the penetration factors and normalizability conditions of putative hinge solutions. An explicit lattice demonstration linking $N_{\\mathrm{surface}}\\neq0$ to the existence of a normalizable hinge eigenstate is required to make the edge–hinge correspondence concrete for tight-binding models.",
+        "content_hash": "6b4a9bd0f88c89a10fbd800892a7f6ac379bd9cf88a58a63a7de666dba1867cb",
+        "id": "gcn_2462c1078d0e470c",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867772064977650281::conclusion_8_subproblem",
+            "package_id": "paper:867772064977650281",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867772064977650281"
+          ]
+        },
+        "rerank_score": 0.771193565658235,
+        "role": "premise",
+        "score": 0.009523809523809525,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Ab initio band structures and symmetry indicators alone do not by themselves demonstrate the microscopic localization of hinge states, nor do they test sensitivity to surface/edge potentials and Coulomb-induced Fermi-level shifts that determine the actual occupation of hinge-localized bands. Therefore, complementary effective tight-binding and interacting models are required to (i) connect Wannier-localized orbitals to finite-sample terminations, (ii) implement charge-neutrality constraints and Coulomb effects that fix the Fermi level and hinge occupancy, and (iii) verify that the predicted fractional hinge filling survives reasonable variations of model parameters and boundary conditions. Prior to this work, such model validation combining Wannier-based effective Hamiltonians with explicit surface/hinge terminations and Coulomb effects had not been demonstrated for an electride candidate with triangular-block tiling.",
+        "content_hash": "b714979acffeafe9d64b541a02902fc2defeb15e5277a1ab9f6b36107394f5a7",
+        "id": "gcn_a7b64f0c709b4cc8",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867771418027229403::conclusion_5_subproblem",
+            "package_id": "paper:867771418027229403",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867771418027229403"
+          ]
+        },
+        "rerank_score": 0.803539454851985,
+        "role": "premise",
+        "score": 0.006369426751592357,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "A common expectation in topological and transport studies is that boundary accumulations reflect bulk response functions (bulk-boundary correspondence). For orbital phenomena this would mean that bulk orbital Berry curvature or bulk orbital Hall conductivity predicts edge orbital accumulation. However, prior reports (including claims of orbital Hall currents in some tight-binding models) did not conclusively separate bulk OHE contributions from edge-localized itinerant-OAM contributions. It remained unresolved whether edge OAM accumulation under electric fields is guaranteed or predicted by bulk orbital transport quantities or whether it can arise from purely local edge itinerant self-rotation depending on termination. Clarifying this is essential for interpreting experiments and for theoretically distinguishing OHE and OEE contributions.",
+        "content_hash": "0aaa4de78b84e2abfca73b0db4fb9e6c7a2351b4ad7978de9b2710b5bbc2fe94",
+        "id": "gcn_f484883b3c554e42",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1060440692112752648::conclusion_6_subproblem",
+            "package_id": "paper:1060440692112752648",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1060440692112752648"
+          ]
+        },
+        "rerank_score": 0.7686356206031675,
+        "role": "premise",
+        "score": 0.007936507936507936,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Physical context: Predicting how many in-gap bands appear at a given crystallographic termination is a concrete, experimentally relevant question. Prior numerical studies reported edge bands for both armchair and zigzag terminations but did not provide a bulk-topology-based counting rule linking boundary geometry to the number of in-gap bands. Knowing the counting rule is necessary to predict whether a given finite geometry can host isolated corner modes (which require certain edge-band occupancies) and to relate ribbon spectra to bulk polarization/Wannier-center placement. Consequences: without such a rule, one cannot generally determine from bulk information alone how many dangling boundary orbitals to expect for a chosen termination, nor infer the possible emergence of corner-localized modes in flakes built from those edges.",
+        "content_hash": "9e2f57d7623e04889fafafa8e8276829ab550be5a3d0c549e67d315e3ad4f7fd",
+        "id": "gcn_ccfccd5ed76741a4",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867763205890375843::conclusion_4_subproblem",
+            "package_id": "paper:867763205890375843",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867763205890375843"
+          ]
+        },
+        "rerank_score": 0.7674042426648573,
+        "role": "premise",
+        "score": 0.011020252645153727,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The physical question addressed is how and when topologically protected gapless surface (edge) states appear at the boundary of an insulating crystalline solid, and how those surface states depend on microscopic lattice structure and surface termination. Prior to this work, the bulk-boundary correspondence for time-reversal-invariant topological insulators was established using global topological invariants ($Z_2$ indices) and continuum $k\\!\\cdot\\!p$ or effective models; these approaches prove existence or absence of surface modes but do not provide a simple, local, and physically transparent criterion, applicable directly to tight-binding lattice Hamiltonians, that (i) identifies for which in-plane crystal momenta the surface states exist, (ii) predicts on which sublattice or physical layer the surface states localize depending on how the crystal is terminated, and (iii) relates changes in surface-state structure (e.g., number and positions of Dirac cones) to elementary changes of tight-binding parameters. In addition, continuum approximations (truncations of $e^{ik}$ to low-order polynomials in $k$) commonly used to model real materials remove lattice periodicity in the out-of-plane direction and can produce spurious surface solutions or fail when the edge-state decay length is short compared to the unit cell. Because of these gaps, there was no compact, model-independent tight-binding criterion that (a) connects the off-diagonal interlayer tunneling function $t(k,\\boldsymbol{p})$ of a $2\\times2$ sublattice Hamiltonian to the domain of in-plane momenta where surface states exist, (b) accounts explicitly for surface termination, and (c) explains how changes in tight-binding amplitudes produce topological transitions between “weak” and “strong” TI phases in lattice models. This lack of a simple, lattice-level diagnostic impedes transparent interpretation of numerical tight-binding models and the assessment of when continuum ($k$-expanded) models are adequate for realistic materials.",
+        "content_hash": "436855fb8edee180903195f20aa08174491b05fab7c9f97055c574bd8db6abb7",
+        "id": "gcn_30c9126478b94b5c",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813291502091370496::problem",
+            "package_id": "paper:813291502091370496",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813291502091370496"
+          ]
+        },
+        "rerank_score": 0.8641986395849908,
+        "role": "premise",
+        "score": 0.01329225352112676,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "For generic finite terminations the boundary spectrum is affected by corner modifications, and no single compact boundary Hamiltonian had been shown to capture both edges simultaneously. Without an understanding of how boundary-state descriptions transform under relabelings and large-$N$ limits, one cannot predict how changes in termination pattern affect which $k_y$ values produce edge localization or how to relate left- and right-edge spectra. Showing that $H_\\partial(k_y)$ and its $k_y$-shifted partner describe the two edges in the thermodynamic limit resolves how to account for arbitrary $\\nu$ terminations analytically.",
+        "content_hash": "8a9db99aa9dde4a92053e5d324aab792135ec5a84640080ba7b4dc6d6d692102",
+        "id": "gcn_9d2c904f71854616",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867764471056040681::conclusion_8_subproblem",
+            "package_id": "paper:867764471056040681",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867764471056040681"
+          ]
+        },
+        "rerank_score": 0.7722267213663621,
+        "role": "premise",
+        "score": 0.0136986301369863,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Demonstrating quadrupole topology experimentally or computationally requires not only bulk topological indices (Wannier-sector polarizations) but also observable boundary signatures—namely gapped edges and in-gap corner-localized modes that manifest the higher-order bulk-boundary correspondence. Prior plasmonic studies had not shown that a realistic plasmonic BBH design produces corner-localized eigenmodes inside a bulk gap, nor that simple tight-binding models faithfully reproduce the full-wave electrodynamic spectra. If tight-binding predictions and full electromagnetic simulations disagree, the practicality of observing corner states in fabricated plasmonic structures would be in doubt. This conclusion resolves that issue by showing mutual agreement between tight-binding and full-wave results and by demonstrating the emergence (and finite-size splitting) of corner states in the proposed plasmonic lattice.",
+        "content_hash": "b96dac522ff049ec6915e79be3735fed92b8d9da1d8aa8f1d2ba788275fb2278",
+        "id": "gcn_d9f0e28ca43b4c3d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812687530683006978::conclusion_6_subproblem",
+            "package_id": "paper:812687530683006978",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812687530683006978"
+          ]
+        },
+        "rerank_score": 0.8196656222384491,
+        "role": "premise",
+        "score": 0.013827270038450162,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Photonic implementations of higher-order topological insulators (HOTIs) seek to realize protected boundary modes whose dimensionality is two or more orders lower than the host crystal (e.g., 0D corner states in a 2D lattice). Prior theoretical descriptions and prototype implementations of HOTIs have largely relied on tight-binding models with only nearest-neighbour couplings and on analogies with electronic or acoustic systems, which implicitly assume that interactions are local and that sublattice/chiral symmetries are preserved. In realistic electromagnetic (photonic) platforms, however, each site (here, a dielectric cylinder supporting a vertical dipolar mode placed between parallel metal plates) couples not only to nearest neighbours but also to the transverse electromagnetic mode of the host waveguide and to non-neighbouring sites via radiative (far-field) interactions. These long-range couplings break the idealized intra-sublattice interaction neglect used in generalized chiral-symmetry arguments, modify boundary radiative channels (open boundary conditions can couple modes to the continuum), and therefore can (i) shift or hybridize boundary-localized modes with bulk or edge continua, (ii) invalidate nearest-neighbour tight-binding predictions for boundary phenomena, and (iii) make the effect of finite-size and termination (e.g., metallic enclosure versus open boundaries) nontrivial. Because of these differences, it was not known whether photonic Kagome-type lattices that realize Wannier-type bulk polarization (and the associated bulk-boundary correspondence predicting edge and corner modes) would retain quantized polarization, whether zero-energy (single-frequency) corner states protected by generalized chiral symmetry survive in the presence of non-negligible same-sublattice and long-range interactions and radiative coupling, and whether new classes of higher-order states unique to wave-based long-range-coupled systems could emerge. Consequently, first-principles electromagnetic analysis and experimental validation beyond nearest-neighbour tight-binding approximations were required to determine which HOTI phenomena persist, how boundary states are spectrally and spatially modified by long-range interactions and realistic terminations, and whether novel topological boundary states can be engineered in photonic platforms.",
+        "content_hash": "820b53c7f0b33c9a31d615a39de90656628f9f2558514abb1c025a1a78c2e70e",
+        "id": "gcn_adb19aafd3ae4e25",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867771409399546607::problem",
+            "package_id": "paper:867771409399546607",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867771409399546607"
+          ]
+        },
+        "rerank_score": 0.8065867076308784,
+        "role": "premise",
+        "score": 0.009615384615384616,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Bulk topological invariants predict edge-localized modes only insofar as a finite-size realization respects the assumptions of the bulk model (boundary termination, absence of symmetry-breaking perturbations). Prior to computing finite-chain spectra for the four-site unit-cell model with first- and third-neighbor hoppings, it was not known whether the twofold bulk topology (opposite winding numbers for different $t'$ regimes) actually produces spatially localized, robust edge modes in realistic finite lattices, nor whether those modes persist when $t'$ is varied across the predicted transition. Demonstrating localized edge eigenstates in a finite Hamiltonian with explicit inter-cell coupling blocks and verifying their exponential localization is necessary to establish that the predicted bulk topology has the expected observable boundary signatures.",
+        "content_hash": "f784f9d643730a7544e71cda5013582735cdb6854186a44be9ce1ebbc93901f5",
+        "id": "gcn_84ae100d6fe44737",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:875080232049049720::conclusion_4_subproblem",
+            "package_id": "paper:875080232049049720",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:875080232049049720"
+          ]
+        },
+        "rerank_score": 0.7620208989126849,
+        "role": "premise",
+        "score": 0.006289308176100629,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Graphene and related honeycomb-lattice carbon allotropes exhibit low-energy electronic behavior controlled by a nearest-neighbor tight-binding description on a bipartite (two-sublattice) hexagonal lattice, giving rise to conical band crossings (Dirac points) and to boundary-localized \"edge\" states whose existence depends on edge termination. Prior experimental electromagnetic realizations of Dirac-point physics employed photonic crystals or open scattering microwave arrangements where propagating Bloch modes and open-boundary scattering predominated; these implementations either did not realize a closed tight-binding Hamiltonian with one localized bound state per lattice site and predominantly evanescent nearest-neighbor coupling, or they probed global transmission rather than local spectral properties. Consequently, there was no macroscopic, tunable microwave platform that (i) implements a tight-binding lattice in which each site contributes a single, well-separated bound resonance that couples evanescently to nearest neighbors, (ii) provides controlled, quantitative nearest- and next-nearest-neighbor coupling strength data, and (iii) permits direct local probing of the local density of states (LDOS) to detect spatially localized states (e.g., zigzag edge states or corner-localized states) and to compare finite-flake spectra with both open and periodic boundary conditions. These gaps prevented direct experimental tests, in a tight-binding setting, of how lattice symmetry and boundary termination produce the Dirac-point spectral signature and edge/corner states, and inhibited controlled, macroscopic studies of defects, disorder, finite-size effects, and engineered multi-atom unit cells in a system where parameters (site resonance, inter-site coupling, antenna coupling) could be measured and adjusted.",
+        "content_hash": "c921078a31a8601328aad1e88a52aa36638b131f6ec7c1c44fcd632d801979c0",
+        "id": "gcn_12fda1f6080943d4",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867745588345570086::problem",
+            "package_id": "paper:867745588345570086",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867745588345570086"
+          ]
+        },
+        "rerank_score": 0.8612308889981931,
+        "role": "premise",
+        "score": 0.015873015873015872,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Concrete computations of local edge Hamiltonian spectra are required to identify Fermi points, verify sign-coordinates and compute their contributions in explicit examples and in the proof of the bulk–edge correspondence. Prior treatments did not provide this complete parameter-by-parameter spectral characterization for the chosen local model; the result supplies the exact conditions under which boundary states exist and their finite-dimensional representation needed to apply the signed-Fermi-point formula.",
+        "content_hash": "d149c938b055b372ea8be5808e852814df9fbb02edc8bec6665f8ba141893df9",
+        "id": "gcn_33e1d15ebe6f48ec",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1129109350057508901::conclusion_9_subproblem",
+            "package_id": "paper:1129109350057508901",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1129109350057508901"
+          ]
+        },
+        "rerank_score": 0.76121369304617,
+        "role": "premise",
+        "score": 0.010638297872340425,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Bulk Chern numbers imply edge-state multiplicities through the bulk–boundary correspondence, but explicit tight-binding BdG spectra are required to verify that the continuum-lattice projected model and the chosen lattice termination (zigzag or flat edge) manifest the predicted chiral Majorana branches and to illustrate their dispersion. Prior to these finite-geometry calculations there was no explicit demonstration, for the concrete lattice model of MoS₂ with the identified $E$ pairing, that the number of propagating edge modes matches the piecewise Chern-number formula across parameter regimes relevant to gating.",
+        "content_hash": "88b4923adbbf7580c3f876c1f44f039ba4772671b9e89e48a7742f53c3e8bd85",
+        "id": "gcn_9cbe97f75d664ee9",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814704137269673984::conclusion_8_subproblem",
+            "package_id": "paper:814704137269673984",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814704137269673984"
+          ]
+        },
+        "rerank_score": 0.7961287067826801,
+        "role": "premise",
+        "score": 0.012345679012345678,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Topological phases in condensed-matter systems are conventionally characterized by topological numbers defined for the bulk and by gapless boundary excitations via the bulk-edge correspondence: a quantized bulk invariant changes only when the bulk gap closes, and a topological phase is evidenced by protected gapless edge states. However, recent theoretical work introduced “boundary-obstructed” topological phases for which topological transitions can occur without bulk-gap closing while boundary (edge or surface) gaps close instead. This situation exposes two gaps in the prior-state-of-knowledge that motivate the present work. First, there is no compact, systematic generalization of the bulk-edge correspondence that distinguishes cases where (i) bulk topological numbers predict corner or hinge states (bulk-corner / bulk-hinge types) from cases where topological numbers must be assigned to lower-dimensional boundaries (edge- or surface-based invariants) and where only edge/surface gaps close at transition points (edge-corner / surface-hinge types). Without such a classification, it is unclear how to categorize existing higher-order topological insulators and superconductors and the recently proposed boundary-obstructed phases in a unified framework. Second, there is a shortage of simple, analytically tractable lattice models in symmetry classes where the bulk remains gapped while boundary gaps close (so-called boundary-obstructed transitions), together with explicit formulas for the reduced (edge or surface) Hamiltonians, their topological invariants, and the analytical criteria for the emergence of localized corner (or hinge) zero modes. The absence of minimal models and closed-form edge invariants impedes transparent physical understanding and prevents direct proposals for experimental probes that detect boundary-obstructed transitions (for example, impedance signatures in electric circuits). These limitations prevent (a) a clear operational criterion to decide when a higher-order topological phase is a bulk-corner versus an edge-corner type, (b) analytic prediction of corner-state emergence from edge Hamiltonians in concrete lattice models with chiral symmetry, and (c) straightforward experimental proposals that map the Hamiltonian signatures to measurable observables.",
+        "content_hash": "706b72e6c421caea2e2f90ece7d2976d323066c279b9a715156b9c64c67c7ade",
+        "id": "gcn_98d34e45d0c34e49",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867763083337007417::problem",
+            "package_id": "paper:867763083337007417",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867763083337007417"
+          ]
+        },
+        "rerank_score": 0.7887611267128987,
+        "role": "premise",
+        "score": 0.008771929824561403,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The conceptual mapping to SSH end states predicts hinge-localized modes, but explicit numerical spectra and spatial-mode profiles are required to verify that for realistic finite multilayers the hinge states persist, to quantify finite-size hybridization gaps, and to identify parameter windows where hinge localization is clean. Prior literature lacked such finite-size numerical confirmation in the AFM TI multilayer geometry with the concrete microscopic Hamiltonian. The tight-binding spectra and local density-of-states calculations close this gap by demonstrating hinge localization, showing the dependence on sample thickness $N_z$, and revealing the finite-size hybridization phenomenon that sets practical thickness requirements for observation.",
+        "content_hash": "002d33c77eb4a25445b3af36f1210c77d233f12086bf219df949479b07f5c023",
+        "id": "gcn_bf071ea1e92347c9",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867766424687346549::conclusion_5_subproblem",
+            "package_id": "paper:867766424687346549",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867766424687346549"
+          ]
+        },
+        "rerank_score": 0.7995660444074282,
+        "role": "premise",
+        "score": 0.008620689655172414,
+        "type": "question",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "req_f050c8b5573a4"
+}

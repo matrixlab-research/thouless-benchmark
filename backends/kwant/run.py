@@ -9,6 +9,7 @@ import math
 import sys
 import time
 import warnings
+from functools import cache
 from pathlib import Path
 
 import kwant
@@ -18,6 +19,12 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "src"))
 
 from thouless_benchmark.result import Check, result  # noqa: E402
+from thouless_benchmark.domain_workflows import (  # noqa: E402
+    bdg_majorana,
+    magnetic_hofstadter,
+    spectral_reliability,
+    spin_texture_covariance,
+)
 from thouless_benchmark.numerics import (  # noqa: E402
     berry_curvature_dipole,
     berry_phase,
@@ -34,6 +41,122 @@ SIGMA_Y = np.array([[0.0, -1.0j], [1.0j, 0.0]], dtype=complex)
 SIGMA_Z = np.array([[1.0, 0.0], [0.0, -1.0]], dtype=complex)
 IDENTITY_2 = np.eye(2, dtype=complex)
 TAU = 2.0 * np.pi
+
+
+def package_dense_matrix(matrix: np.ndarray) -> np.ndarray:
+    """Round-trip a finite Hamiltonian through the original Kwant builder."""
+
+    matrix = np.asarray(matrix, dtype=complex)
+    if matrix.shape[0] != matrix.shape[1]:
+        raise ValueError("finite Hamiltonian must be square")
+    lattice = kwant.lattice.chain(norbs=1)
+    builder = kwant.Builder()
+    for row in range(matrix.shape[0]):
+        builder[lattice(row)] = matrix[row, row]
+    for row in range(matrix.shape[0]):
+        for column in range(row + 1, matrix.shape[1]):
+            value = matrix[row, column]
+            if abs(value) > 1.0e-15:
+                builder[lattice(row), lattice(column)] = value
+    return np.asarray(builder.finalized().hamiltonian_submatrix(), dtype=complex)
+
+
+@cache
+def kwant_chain_system():
+    lattice = kwant.lattice.chain(norbs=1)
+    builder = kwant.Builder(kwant.TranslationalSymmetry((1,)))
+    builder[lattice(0)] = 0.0
+    builder[lattice(0), lattice(1)] = -1.0
+    return kwant.wraparound.wraparound(builder).finalized()
+
+
+def kwant_chain_energy(momentum: float) -> float:
+    return float(
+        np.linalg.eigvalsh(
+            kwant_chain_system().hamiltonian_submatrix(params={"k_x": float(momentum)})
+        )[0]
+    )
+
+
+def kwant_open_chain(size: int) -> np.ndarray:
+    lattice = kwant.lattice.chain(norbs=1)
+    builder = kwant.Builder()
+    for site in range(size):
+        builder[lattice(site)] = 0.0
+        if site:
+            builder[lattice(site - 1), lattice(site)] = -1.0
+    return np.asarray(builder.finalized().hamiltonian_submatrix(), dtype=complex)
+
+
+def domain_spectral_reliability(parameters: dict) -> tuple[dict, list[Check]]:
+    return spectral_reliability(
+        package_dense_matrix,
+        kwant_chain_energy,
+        kwant_open_chain,
+        parameters,
+    )
+
+
+def domain_magnetic_hofstadter(parameters: dict) -> tuple[dict, list[Check]]:
+    return magnetic_hofstadter(package_dense_matrix, parameters)
+
+
+def domain_bdg_majorana(parameters: dict) -> tuple[dict, list[Check]]:
+    return bdg_majorana(package_dense_matrix, parameters)
+
+
+def domain_lead_calibration(parameters: dict) -> tuple[dict, list[Check]]:
+    lattice = kwant.lattice.chain(norbs=1)
+    builder = kwant.Builder(kwant.TranslationalSymmetry((-1,)))
+    builder[lattice(0)] = parameters["onsite"]
+    builder[lattice(0), lattice(-1)] = parameters["hopping"]
+    lead = builder.finalized()
+    mode_counts = []
+    velocity_errors = []
+    self_energy_errors = []
+    for energy in parameters["band_energies"]:
+        propagating, _ = lead.modes(float(energy))
+        velocities = np.asarray(propagating.velocities)
+        mode_counts.append(int(len(velocities)))
+        expected_velocity = np.sqrt(4.0 - float(energy) ** 2)
+        velocity_errors.append(
+            float(np.max(np.abs(np.abs(velocities) - expected_velocity)))
+        )
+        expected_self_energy = 0.5 * (
+            float(energy) - 1.0j * np.sqrt(4.0 - float(energy) ** 2)
+        )
+        self_energy_errors.append(
+            float(abs(lead.selfenergy(float(energy))[0, 0] - expected_self_energy))
+        )
+    gap_energy = float(parameters["gap_energy"])
+    gap_modes, _ = lead.modes(gap_energy)
+    gap_self_energy = complex(lead.selfenergy(gap_energy)[0, 0])
+    expected_gap_self_energy = 0.5 * (
+        gap_energy - np.sqrt(gap_energy**2 - 4.0)
+    )
+    gap_self_energy_error = float(abs(gap_self_energy - expected_gap_self_energy))
+    evanescent_factor = float(abs(gap_self_energy / parameters["hopping"]))
+    metrics = {
+        "propagating_mode_counts": mode_counts,
+        "maximum_velocity_error": max(velocity_errors),
+        "maximum_self_energy_error": max(self_energy_errors),
+        "gap_mode_count": int(len(gap_modes.velocities)),
+        "gap_self_energy_error": gap_self_energy_error,
+        "decaying_evanescent_factor": evanescent_factor,
+    }
+    checks = [
+        Check("one_incoming_and_one_outgoing_mode", mode_counts == [2] * len(mode_counts), mode_counts, [2] * len(mode_counts)),
+        Check("analytic_group_velocities", max(velocity_errors) < 2.0e-10, max(velocity_errors), 0.0, 2.0e-10),
+        Check("analytic_retarded_self_energy", max(self_energy_errors) < 2.0e-10, max(self_energy_errors), 0.0, 2.0e-10),
+        Check("no_propagating_mode_in_gap", len(gap_modes.velocities) == 0, int(len(gap_modes.velocities)), 0),
+        Check("gap_self_energy", gap_self_energy_error < 2.0e-10, gap_self_energy_error, 0.0, 2.0e-10),
+        Check("evanescent_mode_decays", 0.0 < evanescent_factor < 1.0, evanescent_factor, "between 0 and 1"),
+    ]
+    return metrics, checks
+
+
+def domain_spin_texture_covariance(parameters: dict) -> tuple[dict, list[Check]]:
+    return spin_texture_covariance(package_dense_matrix, parameters)
 
 
 def fourier_system(
@@ -1109,6 +1232,11 @@ IMPLEMENTED = {
     "transport_resonant_level": transport_resonant_level,
     "transport_aharonov_bohm_ring": transport_aharonov_bohm_ring,
     "transport_quantum_hall_strip": transport_quantum_hall_strip,
+    "domain_spectral_reliability": domain_spectral_reliability,
+    "domain_magnetic_hofstadter": domain_magnetic_hofstadter,
+    "domain_bdg_majorana": domain_bdg_majorana,
+    "domain_lead_calibration": domain_lead_calibration,
+    "domain_spin_texture_covariance": domain_spin_texture_covariance,
 }
 
 
@@ -1116,8 +1244,19 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("case_id")
     args = parser.parse_args()
-    manifest = json.loads((ROOT / "benchmark" / "cases.json").read_text())
-    case = next((item for item in manifest["cases"] if item["id"] == args.case_id), None)
+    manifests = [
+        json.loads((ROOT / "benchmark" / name).read_text())
+        for name in ("cases.json", "domain_cases.json")
+    ]
+    case = next(
+        (
+            item
+            for manifest in manifests
+            for item in manifest["cases"]
+            if item["id"] == args.case_id
+        ),
+        None,
+    )
     if case is None:
         print(json.dumps({"status": "unknown_case", "case_id": args.case_id}))
         return 2

@@ -1,0 +1,1510 @@
+{
+  "code": 0,
+  "data": {
+    "has_more": true,
+    "papers": {
+      "paper:1010430014404952072": {
+        "area": "arxiv-physics, chemical sciences, macromolecular and materials chemistry, engineering, materials engineering, physical sciences, quantum physics",
+        "authors": "Wojciech J. Jankowski | Joshua J.P. Thompson | Bartomeu Monserrat | Robert-Jan Slager",
+        "available_online": "",
+        "cover_date_start": "2024-06-17",
+        "created_at": "2026-06-02T18:31:02+08:00",
+        "doi": "10.48550/arxiv.2406.11951",
+        "en_title": "Excitonic topology and quantum geometry in organic semiconductors",
+        "id": "1010430014404952072",
+        "keywords": "",
+        "publication_date": "2024-06-17",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Chemical Sciences\", \"Macromolecular and Materials Chemistry\", \"Engineering\", \"Materials Engineering\", \"Physical Sciences\", \"Quantum Physics\"]",
+        "zh_title": "有机半导体中的激子拓扑与量子几何"
+      },
+      "paper:1089421371194212369": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "K. Ziegler | R. Ya. Kezerashvili",
+        "available_online": "",
+        "cover_date_start": "2025-01-22",
+        "created_at": "2026-06-13T01:19:57+08:00",
+        "doi": "10.48550/arxiv.2501.13026",
+        "en_title": "Stability of the Mott phase in excitonic double layers",
+        "id": "1089421371194212369",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108483",
+        "publication_name": "Materials Science",
+        "research_categories": "",
+        "zh_title": "激子双层中莫特相的稳定性"
+      },
+      "paper:1188453275775533071": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "V. Apinyan | T. Kopeć",
+        "available_online": "",
+        "cover_date_start": "2025-10-22",
+        "created_at": "2026-06-16T08:34:54+08:00",
+        "doi": "10.48550/arXiv.2510.19880",
+        "en_title": "Excitonic correlations in the system of gated metallic wires with the applied Zeeman magnetic field",
+        "id": "1188453275775533071",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons",
+        "research_categories": "",
+        "zh_title": "施加塞曼磁场的门控金属线系统中的激子关联"
+      },
+      "paper:1215640016986832899": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Boran Zhou | Ya-Hui Zhang",
+        "available_online": "",
+        "cover_date_start": "2026-01-05",
+        "created_at": "2026-06-17T01:02:46+08:00",
+        "doi": "10.48550/arXiv.2601.02485",
+        "en_title": "Symmetric topological Mott insulator and Mott semimetal",
+        "id": "1215640016986832899",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons",
+        "research_categories": "",
+        "zh_title": "对称拓扑莫特绝缘体和莫特半金属"
+      },
+      "paper:1229377012175470623": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Yande Que | Yang-Hao Chan | Junxiang Jia | Anirban Das | Zhengjue Tong | Yu-Tzu Chang | Zhenhao Cui | Amit Kumar | Gagandeep Singh | Hsin Lin | Shantanu Mukherjee | Bent Weber",
+        "available_online": "",
+        "cover_date_start": "2023-09-28",
+        "created_at": "2026-06-19T00:00:05+08:00",
+        "doi": "10.48550/arXiv.2309.16260",
+        "en_title": "A gate-tunable quantum phase transition in a topological excitonic insulator",
+        "id": "1229377012175470623",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons",
+        "research_categories": "",
+        "zh_title": "拓扑激子绝缘体中的栅极可调谐量子相变"
+      },
+      "paper:1229662473808773149": {
+        "area": "arxiv-physics, arxiv-quantum physics",
+        "authors": "Alan Duriez | Pamela C. Carvalho | Marco Antonio Barroca | Federico Zipoli | Ben Jaderberg | Rodrigo Neumann Barros Ferreira | Kunal Sharma | Antonio Mezzacapo | Benjamin Wunsch | Mathias Steiner",
+        "available_online": "",
+        "cover_date_start": "2025-03-13",
+        "created_at": "2026-06-13T17:40:13+08:00",
+        "doi": "10.48550/arXiv.2503.10901",
+        "en_title": "Computing band gaps of periodic materials via sample-based quantum diagonalization",
+        "id": "1229662473808773149",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108526",
+        "publication_name": "Quantum Physics",
+        "research_categories": "",
+        "zh_title": "通过基于样本的量子对角化计算周期性材料的带隙"
+      },
+      "paper:811258686499454977": {
+        "area": "Physics and Astrophysics, physics, condensed matter, physics, applied, materials science, multidisciplinary",
+        "authors": "Carlo Motta | Pankaj Mandal | Stefano Sanvito",
+        "available_online": "2016-7-5",
+        "cas_zone": "2",
+        "cover_date_start": "2016-07-05",
+        "created_at": "2026-06-19T04:09:54+08:00",
+        "doi": "10.1103/physrevb.94.045202",
+        "en_title": "Effects of molecular dipole orientation on the exciton binding energy of CH 3 NH 3 PbI 3",
+        "id": "811258686499454977",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "分子偶极取向对CH₃NH₃PbI₃激子结合能的影响"
+      },
+      "paper:811639436067471365": {
+        "area": "physics and astrophysics, physical sciences, atomic, molecular and optical physics, quantum physics",
+        "authors": "Zhu Chen | Biao Wu",
+        "available_online": "2011-8-1",
+        "cas_zone": "1",
+        "cover_date_start": "2011-08-01",
+        "created_at": "2026-06-17T02:47:45+08:00",
+        "doi": "10.1103/physrevlett.107.065301",
+        "en_title": "Bose-Einstein Condensate in a Honeycomb Optical Lattice: Fingerprint of Superfluidity at the Dirac Point",
+        "id": "811639436067471365",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "[\"Physical Sciences\", \"Atomic, Molecular and Optical Physics\", \"Quantum Physics\"]",
+        "zh_title": "蜂窝状光学晶格中的玻色-爱因斯坦凝聚：狄拉克点处超流性的指纹特征"
+      },
+      "paper:811996540489957377": {
+        "area": null,
+        "authors": "H Sevincli | R T Senger | E Durgun | S Ciraci",
+        "available_online": "2007-4-27",
+        "cover_date_start": "2007-04-27",
+        "created_at": "2026-05-20T13:12:50+08:00",
+        "doi": "10.1088/0953-8984/19/21/216205",
+        "en_title": "Oscillatory exchange coupling in magnetic molecules",
+        "id": "811996540489957377",
+        "keywords": "",
+        "publication_date": "2007-5-30",
+        "publication_id": "0",
+        "publication_name": "Journal of Physics: Condensed Matter _ J. Phys.: Condens. Matter",
+        "research_categories": "",
+        "zh_title": "磁性分子中的振荡交换耦合"
+      },
+      "paper:812535844404461569": {
+        "area": "Physics and Astrophysics, Physical Sciences, Condensed Matter Physics, Quantum Physics",
+        "authors": "Yang Zhang | Noah F. Q. Yuan | Liang Fu",
+        "available_online": "2020-11-30",
+        "cas_zone": "2",
+        "cover_date_start": "2020-11-30",
+        "created_at": "2026-06-19T05:18:27+08:00",
+        "doi": "10.1103/physrevb.102.201115",
+        "en_title": "Moiré quantum chemistry: Charge transfer in transition metal dichalcogenide superlattices",
+        "id": "812535844404461569",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "莫尔量子化学：过渡金属二硫属化物超晶格中的电荷转移"
+      },
+      "paper:812564002151333892": {
+        "area": "physics and astrophysics, physics, applied, multidisciplinary, mathematical",
+        "authors": "HaRu K. Park | Hyeok-Jun Yang | SungBin Lee",
+        "available_online": "2020-9-24",
+        "cas_zone": "2",
+        "cover_date_start": "2020-09-24",
+        "created_at": "2026-06-11T02:06:47+08:00",
+        "doi": "10.1103/physrevresearch.2.033487",
+        "en_title": "Spin-helix-driven insulating phase in two-dimensional lattice",
+        "id": "812564002151333892",
+        "impact_factor": 4.9,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "68812",
+        "publication_name": "Physical Review Research _ Phys. Rev. Research",
+        "research_categories": "",
+        "zh_title": "二维晶格中自旋螺旋驱动的绝缘相"
+      },
+      "paper:812584878989115393": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, materials science, multidisciplinary",
+        "authors": "C. Hubert | K. Cohen | A. Ghazaryan | M. Lemeshko | R. Rapaport | P. V. Santos",
+        "available_online": "2020-7-21",
+        "cas_zone": "2",
+        "cover_date_start": "2020-07-21",
+        "created_at": "2026-06-12T00:48:25+08:00",
+        "doi": "10.1103/physrevb.102.045307",
+        "en_title": "Attractive interactions, molecular complexes, and polarons in coupled dipolar exciton fluids",
+        "id": "812584878989115393",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "耦合偶极激子流体中的吸引相互作用、分子复合物和极化子"
+      },
+      "paper:812642081875951616": {
+        "area": "physics and astrophysics, physical sciences, quantum physics",
+        "authors": "Ken Inayoshi | Yuta Murakami | Akihisa Koga",
+        "available_online": "",
+        "cas_zone": "4",
+        "cover_date_start": "2020-06-15",
+        "created_at": "2026-05-23T03:10:15+08:00",
+        "doi": "10.7566/jpsj.89.064002",
+        "en_title": "Excitonic Condensation Reflecting Electronic States in Two-Band Penrose–Hubbard Model",
+        "id": "812642081875951616",
+        "impact_factor": 2.6,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "2020-6-15",
+        "publication_id": "647",
+        "publication_name": "Journal of the Physical Society of Japan _ J. Phys. Soc. Jpn.",
+        "research_categories": "[\"Physical Sciences\", \"Quantum Physics\"]",
+        "zh_title": "双带彭罗斯 - 哈伯德模型中反映电子态的激子凝聚"
+      },
+      "paper:812642985576497152": {
+        "area": "Physics and Astrophysics, physics, condensed matter, physics, applied, materials science, multidisciplinary",
+        "authors": "Fengcheng Wu | Sankar Das Sarma",
+        "available_online": "2020-4-30",
+        "cas_zone": "2",
+        "cover_date_start": "2020-04-30",
+        "created_at": "2026-06-19T00:44:08+08:00",
+        "doi": "10.1103/physrevb.101.155149",
+        "en_title": "Ferromagnetism and superconductivity in twisted double bilayer graphene",
+        "id": "812642985576497152",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "扭曲双层双层石墨烯中的铁磁性和超导性"
+      },
+      "paper:812707666555043841": {
+        "area": "physics and astrophysics, physics, applied, multidisciplinary, mathematical",
+        "authors": "Ya-Hui Zhang | Dan Mao | T. Senthil",
+        "available_online": "2019-11-25",
+        "cas_zone": "2",
+        "cover_date_start": "2019-11-25",
+        "created_at": "2026-06-17T05:27:48+08:00",
+        "doi": "10.1103/physrevresearch.1.033126",
+        "en_title": "Twisted bilayer graphene aligned with hexagonal boron nitride: Anomalous Hall effect and a lattice model",
+        "id": "812707666555043841",
+        "impact_factor": 4.9,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "68812",
+        "publication_name": "Physical Review Research _ Phys. Rev. Research",
+        "research_categories": "",
+        "zh_title": "与六方氮化硼对齐的扭曲双层石墨烯：反常霍尔效应与晶格模型"
+      },
+      "paper:812734900791672832": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, materials science, multidisciplinary",
+        "authors": "S. Krompiewski",
+        "available_online": "2019-9-16",
+        "cas_zone": "2",
+        "cover_date_start": "2019-09-16",
+        "created_at": "2026-06-17T01:14:00+08:00",
+        "doi": "10.1103/physrevb.100.125421",
+        "en_title": "Selected graphenelike zigzag nanoribbons with chemically functionalized edges: Implications for electronic and magnetic properties",
+        "id": "812734900791672832",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "具有化学功能化边缘的选定类石墨烯锯齿形纳米带：对电子和磁性的影响"
+      },
+      "paper:812765957360451585": {
+        "area": "physics and astrophysics, physics, mathematical, computer science, interdisciplinary applications",
+        "authors": "Peter H. Jacobse",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2019-11-01",
+        "created_at": "2026-06-13T08:49:30+08:00",
+        "doi": "10.1016/j.cpc.2019.06.003",
+        "en_title": "MathemaTB: A Mathematica package for tight-binding calculations",
+        "id": "812765957360451585",
+        "impact_factor": 3.5,
+        "jcr_zone": "Q1",
+        "keywords": "[{\"en_name\": \"Band structure\", \"ch_name\": \"\"}, {\"en_name\": \"Electronic structure\", \"ch_name\": \"\"}, {\"en_name\": \"HÃ¼ckel method\", \"ch_name\": \"\"}, {\"en_name\": \"Mathematica\", \"ch_name\": \"\"}, {\"en_name\": \"Quantum chemistry\", \"ch_name\": \"\"}, {\"en_name\": \"Tight-binding\", \"ch_name\": \"\"}]",
+        "publication_date": "2019-11",
+        "publication_id": "533",
+        "publication_name": "Computer Physics Communications _ Computer Physics Communications",
+        "research_categories": "",
+        "zh_title": "MathemaTB：一个用于紧束缚计算的Mathematica软件包"
+      },
+      "paper:813060027823685633": {
+        "area": "Material science, materials science, biomaterials, materials science, composites, materials science, characterization & testing, materials science, biomaterials, materials science, biomaterials, materials science, composites, materials science, characterization & testing, materials science, biomaterials, materials science, biomaterials",
+        "authors": "Sivabrata Sahu | S.K. Panda | G.C. Rout",
+        "available_online": "",
+        "cover_date_start": "2018-01-01",
+        "created_at": "2026-06-19T00:04:31+08:00",
+        "doi": "10.1016/j.matpr.2017.09.216",
+        "en_title": "Microscopic tight-binding study of the interplay between on-site and inter-site Coulomb interactions in Graphene",
+        "id": "813060027823685633",
+        "keywords": "[{\"en_name\": \"Coulomb interaction\", \"ch_name\": \"\"}, {\"en_name\": \"Ferromagnetism\", \"ch_name\": \"\"}, {\"en_name\": \"Graphene\", \"ch_name\": \"\"}, {\"en_name\": \"Tight-binding model\", \"ch_name\": \"\"}]",
+        "publication_date": "2018",
+        "publication_id": "98013",
+        "publication_name": "Materials Today: Proceedings _ Materials Today: Proceedings",
+        "research_categories": "",
+        "zh_title": "石墨烯中在位与近邻库仑相互作用之间相互作用的微观紧束缚研究"
+      },
+      "paper:813089419262164994": {
+        "area": "comprehensive periodical, multidisciplinary sciences",
+        "authors": "Daniele Varsano | Sandro Sorella | Davide Sangalli | Matteo Barborini | Stefano Corni | Elisa Molinari | Massimo Rontani",
+        "available_online": "2017-11-13",
+        "cas_zone": "1",
+        "cover_date_start": "2017-11-13",
+        "created_at": "2026-05-18T18:14:49+08:00",
+        "doi": "10.1038/s41467-017-01660-8",
+        "en_title": "Carbon nanotubes as excitonic insulators",
+        "id": "813089419262164994",
+        "impact_factor": 15.5,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2017-12",
+        "publication_id": "10026",
+        "publication_name": "Nature Communications _ Nat Commun",
+        "research_categories": "",
+        "zh_title": "作为激子绝缘体的碳纳米管"
+      },
+      "paper:813144590432337920": {
+        "area": "Physics and Astrophysics, physics, applied",
+        "authors": "R. Farghadan | A. Saffarzadeh",
+        "available_online": "",
+        "cas_zone": "3",
+        "cover_date_start": "2014-05-07",
+        "created_at": "2026-06-19T01:39:15+08:00",
+        "doi": "10.1063/1.4874939",
+        "en_title": "Electric field control of spin-resolved edge states in graphene quantum nanorings",
+        "id": "813144590432337920",
+        "impact_factor": 2.4,
+        "jcr_zone": "Q3",
+        "keywords": "",
+        "publication_date": "2014-5-7",
+        "publication_id": "585",
+        "publication_name": "Journal of Applied Physics _ Journal of Applied Physics",
+        "research_categories": "",
+        "zh_title": "石墨烯量子纳米环中自旋分辨边缘态的电场控制"
+      },
+      "paper:814568134743687168": {
+        "area": "material science, materials science, multidisciplinary, physics, condensed matter",
+        "authors": "J.D. Gouveia | R.G. Dias",
+        "available_online": "",
+        "cas_zone": "3",
+        "cover_date_start": "2016-05-01",
+        "created_at": "2026-06-16T05:15:10+08:00",
+        "doi": "10.1016/j.jmmm.2015.12.096",
+        "en_title": "Spin and charge density waves in the Lieb lattice",
+        "id": "814568134743687168",
+        "impact_factor": 3,
+        "jcr_zone": "Q2",
+        "keywords": "[{\"ch_name\":\"利布晶格\",\"en_name\":\"Lieb lattice\"},{\"ch_name\":\"平均场\",\"en_name\":\"Mean-field\"},{\"ch_name\":\"自旋和电荷调制\",\"en_name\":\"Spin and charge modulation\"}]",
+        "publication_date": "2016-5",
+        "publication_id": "2151",
+        "publication_name": "Journal of Magnetism and Magnetic Materials _ Journal of Magnetism and Magnetic Materials",
+        "research_categories": "",
+        "zh_title": "利布晶格中的自旋与电荷密度波"
+      },
+      "paper:867747555490922975": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Karol Szałowski",
+        "available_online": "",
+        "cover_date_start": "2017-01-31",
+        "created_at": "2026-06-14T19:17:10+08:00",
+        "doi": "10.48550/arXiv.1701.09128",
+        "en_title": "Ferrimagnetic and antiferromagnetic phase in bilayer graphene nanoflake controlled with external electric fields",
+        "id": "867747555490922975",
+        "keywords": "",
+        "publication_date": "2017-01-31",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "",
+        "zh_title": "外部电场控制下双层石墨烯纳米片中的亚铁磁相和反铁磁相"
+      },
+      "paper:867750056940274481": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Louk Rademaker | Dmitry A. Abanin | Paula Mellado",
+        "available_online": "",
+        "cover_date_start": "2019-07-01",
+        "created_at": "2026-05-18T15:06:57+08:00",
+        "doi": "10.48550/arXiv.1907.00940",
+        "en_title": "Charge Smoothening and Band Flattening due to Hartree corrections in Twisted Bilayer Graphene",
+        "id": "867750056940274481",
+        "keywords": "",
+        "publication_date": "2019-07-01",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "由于扭曲双层石墨烯中的哈特里修正导致的电荷平滑和能带扁平化"
+      },
+      "paper:867752262686998595": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "E. Viñas Boström | P. Helmer | P. Werner | C. Verdozzi",
+        "available_online": "",
+        "cover_date_start": "2019-03-12",
+        "created_at": "2026-06-14T17:03:15+08:00",
+        "doi": "10.48550/arXiv.1903.04984",
+        "en_title": "Density Functional Theory of the Hubbard-Holstein Model",
+        "id": "867752262686998595",
+        "keywords": "",
+        "publication_date": "2019-03-12",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "哈伯德 - 霍尔斯坦模型的密度泛函理论"
+      },
+      "paper:867753546848665725": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "J. D. Gouveia | R. G. Dias",
+        "available_online": "",
+        "cover_date_start": "2015-05-07",
+        "created_at": "2026-06-14T07:39:35+08:00",
+        "doi": "10.48550/arXiv.1505.01656",
+        "en_title": "Spin and charge density waves in the Lieb lattice",
+        "id": "867753546848665725",
+        "keywords": "",
+        "publication_date": "2015-05-07",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "利布晶格中的自旋与电荷密度波"
+      },
+      "paper:867753809760223316": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Dongyu Wu | Yunpeng Huang | Song Sun | Jiacheng Gao | Zhaopeng Guo | Hongming Weng | Zhong Fang | Kun Jiang | Zhijun Wang",
+        "available_online": "",
+        "cover_date_start": "2021-10-21",
+        "created_at": "2026-06-17T04:25:03+08:00",
+        "doi": "10.48550/arXiv.2110.11058",
+        "en_title": "Unprotected quadratic band crossing points and quantum anomalous Hall effect in FeB2 monolayer",
+        "id": "867753809760223316",
+        "keywords": "",
+        "publication_date": "2021-10-21",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "FeB₂单层中的无保护二次能带交叉点与量子反常霍尔效应"
+      },
+      "paper:867755103828837178": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Antonio L. R. Manesco | Jose L. Lado | Eduardo V. S. Ribeiro | Gabrielle Weber | Durval Rodrigues Jr",
+        "available_online": "",
+        "cover_date_start": "2020-03-11",
+        "created_at": "2026-05-21T18:29:16+08:00",
+        "doi": "10.48550/arXiv.2003.05163",
+        "en_title": "Correlations in the elastic Landau level of spontaneously buckled graphene",
+        "id": "867755103828837178",
+        "keywords": "",
+        "publication_date": "2020-03-11",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "自发屈曲石墨烯弹性朗道能级中的相关性"
+      },
+      "paper:867756581142397876": {
+        "area": "arxiv-physics, physical sciences, atomic, molecular and optical physics, quantum physics",
+        "authors": "Yi-Xiang Wang | Fuxiang Li",
+        "available_online": "",
+        "cover_date_start": "2020-01-19",
+        "created_at": "2026-06-14T02:35:52+08:00",
+        "doi": "10.48550/arXiv.2001.06757",
+        "en_title": "Repulsive Fermi gases in a two-dimensional lattice with non-Abelian gauge fields",
+        "id": "867756581142397876",
+        "keywords": "",
+        "publication_date": "2020-01-19",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "[\"Physical Sciences\", \"Atomic, Molecular and Optical Physics\", \"Quantum Physics\"]",
+        "zh_title": "具有非阿贝尔规范场的二维晶格中的排斥费米气体"
+      },
+      "paper:867759848635236901": {
+        "area": "arxiv-physics, physical sciences, atomic, molecular and optical physics, quantum physics",
+        "authors": "Dean Johnstone | Patrik Öhberg | Callum W. Duncan",
+        "available_online": "",
+        "cover_date_start": "2019-04-29",
+        "created_at": "2026-06-17T00:44:33+08:00",
+        "doi": "10.48550/arXiv.1904.12870",
+        "en_title": "Mean-field phases of an ultracold gas in a quasicrystalline potential",
+        "id": "867759848635236901",
+        "keywords": "",
+        "publication_date": "2019-04-29",
+        "publication_id": "108486",
+        "publication_name": "Quantum Gases _ Physics.cond-mat.quant-gas",
+        "research_categories": "[\"Physical Sciences\", \"Atomic, Molecular and Optical Physics\", \"Quantum Physics\"]",
+        "zh_title": "准晶势场中超冷气体的平均场相"
+      },
+      "paper:867762692134273879": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Alejandro Lopez-Bezanilla | Jose L. Lado",
+        "available_online": "",
+        "cover_date_start": "2019-06-06",
+        "created_at": "2026-05-16T19:33:10+08:00",
+        "doi": "10.48550/arXiv.1906.02711",
+        "en_title": "Defect-induced magnetism and Yu-Shiba-Rusinov states in twisted bilayer graphene",
+        "id": "867762692134273879",
+        "keywords": "",
+        "publication_date": "2019-06-06",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "扭曲双层石墨烯中缺陷诱导的磁性和汤川-芝-鲁西诺夫态"
+      },
+      "paper:867766424687345900": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Yann Claveau | Brice Arnaud | Sergio Di Matteo",
+        "available_online": "",
+        "cover_date_start": "2014-03-10",
+        "created_at": "2026-06-14T19:45:53+08:00",
+        "doi": "10.48550/arXiv.1403.2259",
+        "en_title": "Mean-field solution of the Hubbard model: the magnetic phase diagram",
+        "id": "867766424687345900",
+        "keywords": "",
+        "publication_date": "2014-03-10",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "哈伯德模型的平均场解：磁相图"
+      },
+      "paper:867769339057537829": {
+        "area": "arxiv-physics, physical sciences, quantum physics",
+        "authors": "Yuri. S. Orlov | Sergey. V. Nikolaev",
+        "available_online": "",
+        "cover_date_start": "2022-12-12",
+        "created_at": "2026-06-17T08:36:04+08:00",
+        "doi": "10.48550/arXiv.2212.06091",
+        "en_title": "Photoinduced Magnetic Transitions and Excitonic Order Enhancement in Spin Crossover Strongly Correlated Electron Systems",
+        "id": "867769339057537829",
+        "keywords": "",
+        "publication_date": "2022-12-12",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "[\"Physical Sciences\", \"Quantum Physics\"]",
+        "zh_title": "自旋交叉强关联电子系统中的光致磁转变与激子序增强"
+      },
+      "paper:867769614812053870": {
+        "area": "arXiv-Physics, Physical Sciences, Quantum Physics",
+        "authors": "Konrad Jerzy Kapcia",
+        "available_online": "",
+        "cover_date_start": "2021-11-04",
+        "created_at": "2026-06-19T08:52:56+08:00",
+        "doi": "10.48550/arXiv.2111.02699",
+        "en_title": "Charge-order on the triangular lattice: Effects of next-nearest-neighbor attraction in finite temperatures",
+        "id": "867769614812053870",
+        "keywords": "",
+        "publication_date": "2021-11-04",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "[\"Physical Sciences\", \"Quantum Physics\"]",
+        "zh_title": "三角晶格上的电荷序：有限温度下次近邻吸引的影响"
+      },
+      "paper:867770462380229178": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Yuanping Chen | Shenglong Xu | Yuee Xie | Chengyong Zhong | Congjun Wu | S. B. Zhang",
+        "available_online": "",
+        "cover_date_start": "2018-01-23",
+        "created_at": "2026-06-15T08:58:55+08:00",
+        "doi": "10.48550/arXiv.1801.07550",
+        "en_title": "Ferromagnetism and Wigner crystallization in Kagome graphene and related structures",
+        "id": "867770462380229178",
+        "keywords": "",
+        "publication_date": "2018-01-23",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "",
+        "zh_title": " Kagome石墨烯及相关结构中的铁磁性和维格纳结晶化"
+      },
+      "paper:867791047206372224": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics, quantum physics",
+        "authors": "Hui Yang | Ya-Hui Zhang",
+        "available_online": "",
+        "cover_date_start": "2023-05-02",
+        "created_at": "2026-06-15T02:39:38+08:00",
+        "doi": "10.48550/arXiv.2305.01702",
+        "en_title": "Exciton and light induced ferromagnetism from doping a moiré Mott insulator",
+        "id": "867791047206372224",
+        "keywords": "",
+        "publication_date": "2023-05-02",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "通过掺杂莫尔条纹莫特绝缘体实现的激子与光致铁磁性"
+      },
+      "paper:891245891262873627": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Assem Alassaf | János Koltai | László Oroszlány",
+        "available_online": "",
+        "cover_date_start": "2023-07-10",
+        "created_at": "2026-06-13T01:53:56+08:00",
+        "doi": "10.48550/arXiv.2307.04620",
+        "en_title": "Surface magnon spectra of nodal loop semimetals",
+        "id": "891245891262873627",
+        "keywords": "",
+        "publication_date": "2023-07-10",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "节线环半金属的表面磁振子谱"
+      },
+      "paper:904068873643360695": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Daniel Muñoz-Segovia | Jörn W. F. Venderbos | Adolfo G. Grushin | Fernando de Juan",
+        "available_online": "",
+        "cover_date_start": "2023-08-29",
+        "created_at": "2026-06-14T07:15:53+08:00",
+        "doi": "10.48550/arXiv.2308.15541",
+        "en_title": "Nematic and stripe orders within the charge density wave state of doped TiSe$_2$",
+        "id": "904068873643360695",
+        "keywords": "",
+        "publication_date": "2023-08-29",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "掺杂TiSe₂电荷密度波态中的向列相序和条纹序"
+      },
+      "paper:977191075573661697": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Dongkyu Lee | Wooil Yang | Young-Woo Son | Jeil Jung",
+        "available_online": "",
+        "cover_date_start": "2024-03-01",
+        "created_at": "2026-06-14T13:49:03+08:00",
+        "doi": "10.48550/arxiv.2403.00530",
+        "en_title": "Extended Hubbard corrected tight-binding model for rhombohedral few-layer graphene",
+        "id": "977191075573661697",
+        "keywords": "",
+        "publication_date": "2024-03-01",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "用于菱方多层石墨烯的扩展哈伯德修正紧束缚模型"
+      },
+      "paper:986873974279372806": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Kevin J. U. Vidarte | Caio Lewenkopf",
+        "available_online": "",
+        "cover_date_start": "2024-04-12",
+        "created_at": "2026-06-17T01:37:08+08:00",
+        "doi": "10.48550/arxiv.2404.08177",
+        "en_title": "Magnetic properties of low-angle twisted bilayer graphene at three-quarters filling",
+        "id": "986873974279372806",
+        "keywords": "",
+        "publication_date": "2024-04-12",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "四分之三填充时低角度扭曲双层石墨烯的磁性"
+      },
+      "paper:995209885136191488": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Amador García-Fuente | Jaime Ferrer",
+        "available_online": "",
+        "cover_date_start": "2024-05-07",
+        "created_at": "2026-05-23T18:14:01+08:00",
+        "doi": "10.48550/arxiv.2405.04085",
+        "en_title": "Solution of the mean-field Hubbard model of graphene rectangulenes",
+        "id": "995209885136191488",
+        "keywords": "",
+        "publication_date": "2024-05-07",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "石墨烯矩形分子的平均场哈伯德模型的解"
+      }
+    },
+    "variables": [
+      {
+        "content": "To analyze correlated phases (Mott-like insulators, ferromagnets, composite Fermi liquids, intervalley-coherent orders) in MA-TBG/h-BN one needs a microscopic interacting model that captures the dominant real-space interaction processes appropriate to the Wannier orbitals of the active bands. Prior analyses either worked in continuum momentum-space Hartree-Fock approximations or invoked phenomenological interactions; without a projected lattice interaction Hamiltonian that reflects the spatial extent and overlap of Wannier orbitals (cluster charging and intersite Hund's terms) and includes the quasiperiodic potential from the misaligned h-BN moiré, one cannot systematically address strong-coupling limits, compare energetic tendencies among candidate orders, or set up numerical many-body simulations on a lattice. The extended Hubbard form above fills this gap by providing an explicit, physically-motivated effective interaction model.",
+        "content_hash": "5baddb1768d08d0324d70e9d882e42df5d0f553d02fa0f0527d719c0d06c363f",
+        "id": "gcn_938aef02737f4298",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812707666555043841::conclusion_4_subproblem",
+            "package_id": "paper:812707666555043841",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812707666555043841"
+          ]
+        },
+        "rerank_score": 0.7131249488664112,
+        "role": "premise",
+        "score": 0.006666666666666667,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Flat-band $ \\pi $-state physics is controlled by the competition of kinetic hoppings and local Coulomb interactions, yet standard tight-binding parameterizations obtained from DFT embed some interaction renormalization and therefore cannot be naively combined with an added Hubbard mean-field without double counting. Prior practice either ignored this double counting or treated Hubbard parameters empirically, producing uncontrolled results for band gaps, flatness, and magnetic order. Practitioners therefore needed a principled scheme that (i) starts from DFT+U+V outputs in the Wannier basis, (ii) identifies and subtracts the interaction contribution implicitly present in those DFT-derived onsite and hopping parameters, and (iii) prescribes how to reintroduce a mean-field extended-Hubbard correction self-consistently during tight-binding solution. Without such a subtraction-and-update framework researchers could not obtain consistent, parameter-free tight-binding models suitable for quantitative comparison with experiments or for use in further many-body calculations.",
+        "content_hash": "d81f52eb905808805a19feaeb3f8968fa8c881dabc1e9593b78dd9baa9c3a871",
+        "id": "gcn_ba2c8f81bdf64292",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:977191075573661697::conclusion_1_subproblem",
+            "package_id": "paper:977191075573661697",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:977191075573661697"
+          ]
+        },
+        "rerank_score": 0.7057132082302242,
+        "role": "premise",
+        "score": 0.01639344262295082,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The tight-binding description of interactions includes an on-site Hubbard interaction $U$ that is treated at the static mean-field (self-consistent spin-density) level according to $H_{U}^{\\mathrm{MF}}=\\sum_{i} U[\\langle n_{i,\\uparrow}\\rangle n_{i,\\downarrow}+\\langle n_{i,\\downarrow}\\rangle n_{i,\\uparrow}-\\langle n_{i,\\uparrow}\\rangle\\langle n_{i,\\downarrow}\\rangle]$, and the claim implicit in the paper is that this mean-field treatment captures the essential interaction-driven exchange splitting and local-moment formation of the defect states even though beyond-mean-field (quantum fluctuation and correlation) effects that can be important in narrow/flat-band regimes are neglected.\n      Fig. 5",
+        "content_hash": "c0b006da62d7e3ba99feb72f154970abc22b3d0633f8589ae0b7130b6a5a2d02",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_49a5d60e2f454885",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867762692134273879::P6",
+            "package_id": "paper:867762692134273879",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867762692134273879"
+          ]
+        },
+        "rerank_score": 0.7247040653725279,
+        "role": "premise",
+        "score": 0.005874741200828157,
+        "title": "Mean-field Hubbard neglects beyond-mean-field correlations in flat-band regimes",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The opening of a self-consistent gap at half-filling for $U=t$ is concluded from non-collinear self-consistent mean-field solutions of the Hubbard model on the $\\delta t_i$-modulated tight-binding lattice; the claim presumes that mean-field captures the dominant interaction physics in the nearly flat zeroth pseudo Landau subband and gives a reliable estimate of gap formation and its magnitude.Fig. 2(b)",
+        "content_hash": "d0b54093f5b4278035e023b628dad5b049c301d23aa6265c462a8148bcd04fdd",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_0a3750691a9e455b",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867755103828837178::P5",
+            "package_id": "paper:867755103828837178",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867755103828837178"
+          ]
+        },
+        "rerank_score": 0.7043310709453471,
+        "role": "premise",
+        "score": 0.006230257930740462,
+        "title": "Mean-field Hubbard gap at half-filling",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Effective lattice or tight-binding models, and the extracted interaction matrix elements (on-site Hubbard $U$, intersite Coulomb terms, exchange and Hund couplings), depend critically on the single-particle Bloch states from which localized Wannier orbitals are constructed. If those Bloch states are substantially altered by long-range Hartree fields — changing real-space localization between AA and AB/BA regions and narrowing bandwidths — then low-energy parameters extracted from non-self-consistent bands will be quantitatively and possibly qualitatively incorrect. A self-consistent Hartree starting point is therefore needed to produce realistic interaction parameters for subsequent many-body treatments beyond Hartree.",
+        "content_hash": "6b7c866c79e3968c8348accaaecb9e1e35b831fc3576aa5e0a9e6fdcefe8d8f9",
+        "id": "gcn_feb84bf784fb42ed",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867750056940274481::conclusion_6_subproblem",
+            "package_id": "paper:867750056940274481",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867750056940274481"
+          ]
+        },
+        "rerank_score": 0.7133005677456681,
+        "role": "premise",
+        "score": 0.00558659217877095,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Using the computed site-charge and site-spin occupations, the mean-field Hubbard Hamiltonian is rewritten in the original site basis as a one-body tight-binding model with spin-dependent on-site energies $\\epsilon_{\\mathbf{R} i\\sigma}^a = \\epsilon_0 + U n_{\\mathbf{R} i\\bar{\\sigma}}^a$. This Hamiltonian incorporates both the edge-state physics and electron correlations at the self-consistent mean-field level, and it can serve as input for quantum transport codes or be extended to include disorder, magnetic fields, or optical driving fields.",
+        "content_hash": "4639326ed42cdeaa2b1991305a04bd2b6da20f34f963d8018993499dce68f2a9",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_13d1910a5f844961",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:995209885136191488::conclusion_6",
+            "package_id": "paper:995209885136191488",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:995209885136191488"
+          ]
+        },
+        "rerank_score": 0.6762485077838133,
+        "role": "conclusion",
+        "score": 0.0062344018567252885,
+        "title": "Self-consistent site-basis mean-field Hubbard Hamiltonian",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In the cubic two-sublattice tight-binding model with on-site Hubbard interaction $U$ at half filling, the interacting Hamiltonian is decoupled using a self-consistent mean-field (Hartree) approximation. The mean-field ground state yields a surface magnetization $m_i = (n_{i,\\uparrow} - n_{i,\\downarrow})\\mu_B$ concentrated on the top and bottom layers and decaying exponentially into the bulk, as shown for slab thickness $N=20$ and $U/t=1.0$. This mean-field decoupling neglects quantum fluctuations and correlation effects beyond the Hartree level, which can modify or destroy magnetic ordering in low-dimensional and flat-band systems.",
+        "content_hash": "2c663c4097fb18b772db91e8569a6bef7979940bc7317cf8d76874fcbcb331d9",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_b49a72d6b2e94c60",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:891245891262873627::P2",
+            "package_id": "paper:891245891262873627",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:891245891262873627"
+          ]
+        },
+        "rerank_score": 0.6699515146500352,
+        "role": "premise",
+        "score": 0.006091690119982225,
+        "title": "Mean-field approximation for surface magnetization",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Even if susceptibilities diverge at particular momenta, one must determine which ordered states actually minimize the interacting energy and whether resulting orders open single-particle gaps (insulating behavior). Prior arguments based on nesting implied possible SDW formation but did not enumerate the coexistence with charge order or the possibility of additional transverse spiral components that produce noncoplanar magnetism on a lattice. A concrete mean-field solution of the lattice Hubbard model is necessary to show whether the leading instability is collinear SDW, spiral SDW, CDW, or a coexistence giving a full insulating gap, and how these orders evolve as interaction strength and SOC-ratio detuning change. Without such a calculation one cannot predict the sequence of metal–insulator transitions or the real-space structure of the ordered phases that experiments would observe.",
+        "content_hash": "00e20338d441deddb3431d5bd9f856b7f9c0dfe68f41bd252e1713f1617e266d",
+        "id": "gcn_d1ef4e58ae6748cc",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812564002151333892::conclusion_5_subproblem",
+            "package_id": "paper:812564002151333892",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812564002151333892"
+          ]
+        },
+        "rerank_score": 0.6698024369708162,
+        "role": "premise",
+        "score": 0.007518796992481203,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In order to assess how molecular orientational disorder affects excitons at experimentally relevant low photoexcited concentrations, a model is required that both (i) retains the essential physical ingredients — band-like motion on a lattice (hopping $t_{ij}^{\\alpha}$), site-energy disorder induced by molecular dipoles, and nonlocal electron–hole Coulomb attraction ($U_{ij}$) — and (ii) is computationally tractable for very large cells and disorder averaging. Ab initio many-body methods and exact diagonalization of interacting lattice models each fail one of these requirements: ab initio approaches cannot sample sufficiently large cells and many dynamic disorder configurations; exact many-body solutions cannot be scaled to the cell sizes needed for low exciton densities. A mean-field tight-binding formulation is therefore needed as a pragmatic compromise: it must be simple enough to permit finite-size scaling and disorder averages, yet retain explicit definitions of interaction (on-site $U_0$ and long-range $- \\beta U_0/r_{ij}$) and disorder (on-site random field of amplitude $\\xi$) so that results can be related back to first-principles electronic structure and molecular dynamics.",
+        "content_hash": "3f62c5221150c87479762ba58bcfb5901605cf85574bda5359cb7035d11a06a0",
+        "id": "gcn_acb96a5216d44d97",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811258686499454977::conclusion_1_subproblem",
+            "package_id": "paper:811258686499454977",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811258686499454977"
+          ]
+        },
+        "rerank_score": 0.7321904443956759,
+        "role": "premise",
+        "score": 0.01639344262295082,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Abstract tight-binding Hubbard studies had suggested that interactions could produce excitonic topology independent of single-particle bands, but those treatments treated electronic hoppings and interaction strengths as independent parameters without exposing the microscopic mapping to excitonic degrees of freedom. A clear derivation linking screened density–density interactions in a microscopic SSH-Hubbard model to an effective excitonic tight-binding Hamiltonian was therefore required to assess the plausibility of interaction-driven excitonic phases in realistic materials. The dualisation above provides that derivation, clarifying how nearest-neighbour Coulomb terms map to exciton hopping and the circumstances under which the excitonic SSH form arises; it also explains why interaction-driven regimes predicted in abstract models may be absent when $t_{1/2}^{\\rm exc}$ and $t_{1/2}$ are correlated through common Wannier matrix elements.",
+        "content_hash": "961c1d6f3a607def36c97a051811bef60201bca04b490a9b551d2c10d4b702c1",
+        "id": "gcn_933bac00f86e4063",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1010430014404952072::conclusion_5_subproblem",
+            "package_id": "paper:1010430014404952072",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1010430014404952072"
+          ]
+        },
+        "rerank_score": 0.66062815111657,
+        "role": "premise",
+        "score": 0.015384615384615385,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In decorated lattices such as the Lieb lattice the noninteracting tight-binding bands do not distribute orbital weight uniformly across sublattices (the flat band involves only B and C orbitals), so allowing spatially varying $n_x$ is physically required to capture correct band filling and energetics. Prior mean-field practice that minimized $F(\\vec m,n)$ with respect to both $\\vec m$ and $n$ (or fixed $n$ homogeneously) is mathematically inconsistent when $n_x$ are free variables because the quadratic $-U n_x^{2}/4$ term makes the functional unbounded below in the $n$ directions; numerically this leads to divergence or boundary solutions. The saddle-point prescription (min over magnetizations, max over densities) restores the correct variational structure: it enforces the self-consistency conditions $n_x=\\langle\\hat n_x\\rangle$ and $\\vec m_x=\\langle\\hat{\\vec s}_x\\rangle$ and yields stable, physically meaningful mean-field solutions that can capture sublattice charge modulation driven by band topology and interactions.",
+        "content_hash": "cfe40227a9e2740462f7c6625009af95fecd341ed15dcbe4aebd52ff788591b4",
+        "id": "gcn_6f40020b68ab4dad",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867753546848665725::conclusion_1_subproblem",
+            "package_id": "paper:867753546848665725",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867753546848665725"
+          ]
+        },
+        "rerank_score": 0.7308238796939378,
+        "role": "premise",
+        "score": 0.009900990099009901,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Reproducing correlation-driven spin-polarized ground states (for example antiferromagnetic edge states on zigzag graphene nanoribbons) in tight-binding models requires integrating a self-consistent mean-field iteration (updating on-site potentials from Mulliken-like populations) with $k$-point sampling for periodic systems and with subsequent dispersion/ orbital plotting.  Prior ad-hoc implementations required bespoke SCF loops, careful handling of spin channels and consistency between k-sampling and population averaging, making it time-consuming to prototype and visualize correlated tight-binding scenarios within Mathematica.",
+        "content_hash": "c65e9b154d3b1f2d0c0341a2e9571ea01b4f0ebe95eb572b5d8ee589491ae28e",
+        "id": "gcn_cd0891310f214d3b",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812765957360451585::conclusion_4_subproblem",
+            "package_id": "paper:812765957360451585",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812765957360451585"
+          ]
+        },
+        "rerank_score": 0.6800088262439568,
+        "role": "premise",
+        "score": 0.014705882352941176,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "While BSE identifies bound excitons and QMC detects sublattice order, a self-consistent mean-field solution is required to link excitonic binding to the single-particle quasiparticle gap, its momentum dependence, and thermal behavior, and to produce direct, testable relations between the order parameter and measurable quantities (transport gap, spectral gap, temperature dependence). Before this work, no fully self-consistent, interaction-resolved mean-field calculation—anchored to ab initio and effective-mass interaction kernels—provided the explicit momentum-dependent order parameter $|\\Delta(\\tau k)|$, the corresponding quasiparticle bands $E(\\tau k)$, or a microscopic estimate of the sublattice charge displacement to compare with many-body ground-state calculations and experiments.",
+        "content_hash": "247384eefea395ac6bc446a73bb6380ea62d731a358c3fc8db0140eb05b248f0",
+        "id": "gcn_988b111b890c4709",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813089419262164994::conclusion_5_subproblem",
+            "package_id": "paper:813089419262164994",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813089419262164994"
+          ]
+        },
+        "rerank_score": 0.6482702636397,
+        "role": "premise",
+        "score": 0.008620689655172414,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "To study interaction-driven instabilities of the QBCP a realistic lattice model that captures the orbital content, SOC, and the correct band topology is required. Purely continuum $k\\!\\cdot\\!p$ descriptions give qualitative insight but are insufficient to perform self-consistent many-body calculations with lattice-scale interactions. Prior absence of a fitted microscopic tight-binding model prevented controlled mean-field and beyond-mean-field studies of Coulomb-driven ordering and precluded estimating energy gaps and energetics in material-specific units.",
+        "content_hash": "0ae085ebb605974522232c5c5b6c2bdcc810e89c14bbcb71409b6d252a3b154e",
+        "id": "gcn_ed4c315e12044e37",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867753809760223316::conclusion_5_subproblem",
+            "package_id": "paper:867753809760223316",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867753809760223316"
+          ]
+        },
+        "rerank_score": 0.6454658962688402,
+        "role": "premise",
+        "score": 0.006802721088435374,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The analysis rests on several approximations and leaves multiple scientifically meaningful issues open for further study. First, the treatment assumes tightly bound excitons that do not dissociate and neglects recombination dynamics (the model requires the electron–hole binding energy to exceed other energy scales and the observation time to be shorter than recombination time); the robustness of the conclusions when exciton binding is weaker or recombination/dissociation processes are relevant is not addressed. Second, the non-local exciton–exciton interaction $U_{\\mathbf{r r}'}$ is handled at the static mean-field level: fluctuations beyond mean-field (spatial and dynamical correlations of $U$) are not included, so the quantitative accuracy of the $1/2$ renormalization of $\\bar{\\mu}_{\\mathbf{r}}$ and of the density formula when correlations beyond mean-field are significant remains unresolved. Third, the hopping criterion derived from absolute convergence of the perturbative expansion (inequality $c\\beta J(1+e^{\\beta J})<1+e^{\\beta\\hat{\\mu}}$) is a sufficient condition for Mott stability in the perturbative (small-$J$) regime; whether this condition is also necessary, or how the true phase boundary behaves outside the perturbative range of $J$ (intermediate or large hopping where nonperturbative effects and collective coherence set in) is not settled. Fourth, the piecewise enforcement of the hard-core constraint via the Heaviside cutoff in the mean-field density formula assumes the right-hand side of the Fourier-solution is non-negative; situations where some Fourier components would predict negative occupation and require a fully constrained self-consistent treatment are not developed here. Fifth, the work does not compute microscopic $U_{\\mathbf{r r}'}$ and $V_{\\mathbf{r}}$ for specific heterostructures: determining $\\tilde{U}_{\\mathbf{k}}$, $\\tilde{U}_0$, and $W_{\\mathbf{r}}$ from ab initio or microscopic model calculations for candidate materials (so as to make quantitative experimental predictions) remains outstanding. Finally, finite-frequency (dynamical) responses, effects of disorder, and interplay with additional degrees of freedom (e.g., spin, phonons, or substrate screening beyond static mean-field) were not included and represent explicit directions for future work to assess the generality and experimental applicability of the present conclusions.",
+        "content_hash": "bb473f64db680fbf69b2262d8f1702122e0cfc643db53d754c14bc9350d95eeb",
+        "id": "gcn_24aa315c43734109",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1089421371194212369::open_question",
+            "package_id": "paper:1089421371194212369",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1089421371194212369"
+          ]
+        },
+        "rerank_score": 0.6399032495632023,
+        "role": "premise",
+        "score": 0.008928571428571428,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In order to produce a reliable, parameter-resolved mapping of magnetic phases one needs a concrete, reproducible computational protocol that (i) captures edge-localized $p^{z}$ states important in nanoflakes, (ii) allows independent variation of in-plane and perpendicular electric fields together with an in-plane exchange/magnetic splitting, and (iii) yields both global observables (total spin) and local observables (site-resolved spin densities and staggered order parameters). Prior studies used a range of models (continuum, ribbon approximations, or monolayer tight-binding), but a consistent application of an atomistic tight-binding model with Hubbard interaction in a self-consistent mean-field solution, parameterized for bilayer Bernal stacking and scanning $(E_{\\parallel},E_{\\perp},\\Delta_{B})$, was not available for a representative finite bilayer nanoflake; without such a protocol one cannot establish phase boundaries, quantify order-parameter magnitudes, or visualize site-resolved spin textures needed to assess electric-field control and robustness to exchange fields.",
+        "content_hash": "22a659598baa238fbd7248a2e930245e86cdfd86cbfec8ce10a991a5a01d4755",
+        "id": "gcn_359c46a3c2594b38",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867747555490922975::conclusion_6_subproblem",
+            "package_id": "paper:867747555490922975",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867747555490922975"
+          ]
+        },
+        "rerank_score": 0.690456465665573,
+        "role": "premise",
+        "score": 0.013513513513513514,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In an atomistic tight-binding model of twisted bilayer graphene (TBG) with an on-site Hubbard interaction term treated at the mean-field level, where the mean-field Hamiltonian is $H_U^{MF}=U\\sum_i[n_{i\\uparrow}\\langle n_{i\\downarrow}\\rangle+n_{i\\downarrow}\\langle n_{i\\uparrow}\\rangle-\\langle n_{i\\uparrow}\\rangle\\langle n_{i\\downarrow}\\rangle]$, the self-consistent solution for the magnetic ground state around the charge neutrality point and at finite doping is obtained by neglecting quadratic fluctuations in $\\delta n_{i\\sigma}$; this static mean-field approximation omits beyond-mean-field correlation effects such as nonlocal Coulomb terms, Kondo screening, and quantum fluctuations, which could alter the critical interaction strength, the gap magnitude, and the nature of the magnetic order.O. V. Yazyev, Emergence of magnetism in graphene materials and nanostructures, Rep. Prog. Phys. 73, 056501 (2010).",
+        "content_hash": "498283eb345636f79d6cd3f49059c8483b6b417ad5b35f68a4abedee8bfb7f5f",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_3d75038288544604",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:986873974279372806::P1",
+            "package_id": "paper:986873974279372806",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:986873974279372806"
+          ]
+        },
+        "rerank_score": 0.6317008793440817,
+        "role": "premise",
+        "score": 0.005556179564940656,
+        "title": "Mean-field approximation neglects beyond-mean-field correlations in twisted bilayer graphene",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "To move beyond qualitative statements and to understand the mechanisms and parameter dependence (which interactions matter and by how much) one needs a minimal interacting lattice model tied to the tight-binding description of the material and realistic estimates of interaction strengths. Prior flat-band model analyses often omitted Coulomb-range effects or did not connect $U,V$ values to actual materials. Without such a minimal Hubbard description and concrete parameter values, one cannot predict energetics of competing ordered states, compute energy penalties for domain formation, or explain the observed percolation-driven evolution of magnetization with filling.",
+        "content_hash": "6eb86e1ffcc07a563147b8a13d114d64b20aa9561b90b0718b478c685df1c8e2",
+        "id": "gcn_4e1d1672cd9d4dc5",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867770462380229178::conclusion_6_subproblem",
+            "package_id": "paper:867770462380229178",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867770462380229178"
+          ]
+        },
+        "rerank_score": 0.6752250170616956,
+        "role": "premise",
+        "score": 0.007352941176470588,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "To address the mixed-valence regime one needs an effective, computationally tractable description that retains the key charge fluctuations (singlon/doublon/triplon) yet permits calculation of band-reconstruction, excitonic pairing, and topological indices. Earlier approaches either worked at full Hilbert-space cost or relied on uncontrolled approximations that break the link between local-charge quantization and band topology. The renormalized mean-field Hamiltonian above supplies a concrete, self-consistent reduced-charge-sector model: it explicitly encodes (i) how local valence fluctuations renormalize kinetic couplings via $g_{\\gamma}$, (ii) the single-site energies $E_{s},E_{t}$ that control singlon/triplon populations, and (iii) the hybridization between localized and itinerant degrees of freedom. This provides the missing practical framework to compute Hubbard-band structure, exciton pairing, and topological indices in a controlled restricted Hilbert space.",
+        "content_hash": "82f621c20382255135865a463ea0bbdf569e1128a566b3624476c75f7f72d5e1",
+        "id": "gcn_685aa6223f0848f3",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1215640016986832899::conclusion_2_subproblem",
+            "package_id": "paper:1215640016986832899",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1215640016986832899"
+          ]
+        },
+        "rerank_score": 0.6270792059427132,
+        "role": "premise",
+        "score": 0.012345679012345678,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The continuum $k\\!\\cdot\\!p$ energetics indicate possible instabilities but leave open whether a realistic lattice model with local microscopic interactions—one that (a) reproduces the band-mass anisotropies and (b) breaks the accidental separate charge conservation of conduction and valence bands—can self-consistently stabilize the sequence of $3Q$, nematic multi-$Q$, and $1Q$ phases across temperature and doping. Without such a lattice model it is uncertain whether the continuum predictions are an artifact of band folding or of the continuum approximation. The tight-binding model above, together with Hartree–Fock solution details (choice of hoppings to fit masses and gap, decoupling in the $d^\\dagger p$ channel, and constrained iterative procedure), explicitly fills this gap and confirms the robustness of the predicted phase sequence in a microscopic setting.",
+        "content_hash": "33dcefe15fe3ae922f4cd31a84ebc594cddff628ba057edeebc30505afc818e3",
+        "id": "gcn_db5ef415e010453a",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:904068873643360695::conclusion_4_subproblem",
+            "package_id": "paper:904068873643360695",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:904068873643360695"
+          ]
+        },
+        "rerank_score": 0.6268240193452412,
+        "role": "premise",
+        "score": 0.008064516129032258,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In the physical context of two proximate metallic lattice wires the scientific need was for an explicit, solvable mean-field closure that simultaneously determines the thermodynamic chemical potential, interwire charge redistribution, spin-resolved excitonic interwire pairing amplitudes, and a local staggered antiferromagnetic order arising from on-site $U$. Prior to this work there was no presented set of coupled lattice momentum-resolved equations that express these observables in terms of microscopic parameters $t_{0},t_{1},W,U,V,B,\\kappa,T$ and the interacting band eigenvalues $\\varepsilon_{i}(\\mathbf{k})$, so quantitative predictions of how gate, Zeeman field, temperature and interwire separation control excitonic and magnetic orders were not available. The derived system of equations provides that missing operational mean-field framework.",
+        "content_hash": "cce1e92df7fa7da010f82be00e8395a15826040e032d9e507011964f7772551c",
+        "id": "gcn_8ec1639713cc450d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1188453275775533071::conclusion_1_subproblem",
+            "package_id": "paper:1188453275775533071",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1188453275775533071"
+          ]
+        },
+        "rerank_score": 0.6246540626250799,
+        "role": "premise",
+        "score": 0.011764705882352941,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Predicting how Coulomb correlations change low-energy bands in gapped graphene requires dispersions that include mean-field shifts from both local and nearest-neighbour interactions. Prior tight-binding or Hubbard-model dispersions either ignored $U_{1}$ or did not include hopping beyond nearest neighbours together with substrate-induced on-site splitting. Without renormalized dispersions one cannot consistently evaluate the occupancy difference $d(T)$ or the Coulomb-modified gap because the two quasi-particle branches control thermal occupation differences that enter the self-consistency.",
+        "content_hash": "840e9e7ed852798365624b25aa014fefb925e746cd626c307e9cfa0d7eff72ea",
+        "id": "gcn_07636c6c9b4c46de",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813060027823685633::conclusion_2_subproblem",
+            "package_id": "paper:813060027823685633",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813060027823685633"
+          ]
+        },
+        "rerank_score": 0.6732392152891847,
+        "role": "premise",
+        "score": 0.010101010101010102,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The high-$U$ regime of Hubbard models is commonly discussed in terms of effective spin models, but a clear mean-field account that connects sublattice occupations, magnetization amplitudes, and the one-particle mean-field spectrum in lattices with more than two orbitals per unit cell requires explicit treatment of the $U\\to\\infty$ limit. Prior mean-field studies did not present the detailed perturbative analysis that yields the $t=0$ eigenvalues and the ensuing self-consistency relations for $m_x$ and $n_x$ in decorated lattices with a flat band. Without this derivation, it is difficult to justify why the large-$U$ occupation profile mirrors, up to a factor, the $U=0$ tight-binding occupation profile and why quasi-flat bands persist in the mean-field spectrum at strong coupling, both of which are necessary to interpret the numerical phase diagram and the persistence of magnetism in the singly-occupied regime.",
+        "content_hash": "183d47c07acd9398f6cd0979d180e853df58dea562808a5c3cdbb0229bbda6fe",
+        "id": "gcn_9c2c08bc219f4563",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814568134743687168::conclusion_3_subproblem",
+            "package_id": "paper:814568134743687168",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814568134743687168"
+          ]
+        },
+        "rerank_score": 0.7071489362040532,
+        "role": "premise",
+        "score": 0.013628146293978585,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In the square-lattice Hubbard model one requires an explicit, algebraic form for the single-particle energies that (i) incorporates the nearest-neighbour tight-binding dispersion, (ii) carries the dependence on mean occupations that encode magnetic order, and (iii) is simple enough to be analytically inspected and used as the kernel of a self-consistent numerical loop. Prior literature often presents more formal or more involved many-body approximations (e.g., two-pole Green-function methods) that obscure the simple mean-field dependence of band energies on sublattice occupations and spin imbalance. Without a compact, explicit formula for $\\varepsilon_{\\vec{k}\\sigma}^{\\pm}$ written in terms of $t$, $U$, $\\varepsilon_{0\\vec{k}}^{\\pm}$ and $\\langle n_{\\alpha\\sigma}\\rangle$, it is difficult for students and practitioners to (a) see how magnetic order renormalizes bands, (b) set up a practical diagonalization at each $\\vec{k}$-point, and (c) relate analytic limits ($U\\to0$, $t\\to0$, symmetric occupations) to the numerically determined phase behaviour. The derived expression resolves this need by making the dependence explicit and tractable for subsequent numerical implementation.",
+        "content_hash": "5b361101d979d1c644200d45a944aaaf8fcbc746e98f4bdae3513b202744b79f",
+        "id": "gcn_8024cd59bde24a83",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867766424687345900::conclusion_1_subproblem",
+            "package_id": "paper:867766424687345900",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867766424687345900"
+          ]
+        },
+        "rerank_score": 0.6926369137245767,
+        "role": "premise",
+        "score": 0.008333333333333333,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Biexciton creation/annihilation processes (terms proportional to $J_{ex}^{\\prime\\prime}$ in the effective Hamiltonian) are kinematic processes that are absent in simple tight-binding pictures but are generated in the second-order projection from the two-orbital Hubbard model. Prior studies either neglected these terms or did not trace their quantitative influence on excitonic ordering and magnetism. Without including $J_{ex}^{\\prime\\prime}$ one cannot determine whether an excitonic condensate can coexist with AFM, how excitonic order parameters arrange on sublattices, nor whether excitonic formation stabilizes or suppresses magnetic order. Those questions are crucial to predict experimentally observable coexistence regions and multicritical behavior.",
+        "content_hash": "5c802163dc6d347f062e6131fc59f3eb14fac3d4cbdde579d562fb59154748a6",
+        "id": "gcn_80291d89f8164020",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867769339057537829::conclusion_3_subproblem",
+            "package_id": "paper:867769339057537829",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867769339057537829"
+          ]
+        },
+        "rerank_score": 0.6091858830057307,
+        "role": "premise",
+        "score": 0.005780346820809248,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Physical context: Tight-binding reductions are the standard route to obtain lattice Hubbard-type models when the optical lattice is deep; they rely on a choice of Wannier functions that is conventionally taken to be independent of the many-body state. Before this work it was assumed that for sufficiently deep honeycomb lattices the tight-binding model (with on-site interaction) would correctly represent interacting-boson band structures including behavior near Dirac points. If such tight-binding models miss interaction-induced qualitative band-topology changes, then predictions based on Hubbard-like models for dynamics and spectroscopy near $\\mathbf{K}$ would be unreliable. Hence it was necessary to test whether a standard tight-binding approximation reproduces the mean-field band-topology changes induced by interaction.",
+        "content_hash": "b41fc0b4ab2905e1b430e993322199b4d81cf1c6e4bc905fe551986e05e3a668",
+        "id": "gcn_3d4d5cdd5f974622",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811639436067471365::conclusion_4_subproblem",
+            "package_id": "paper:811639436067471365",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811639436067471365"
+          ]
+        },
+        "rerank_score": 0.6258712639682951,
+        "role": "premise",
+        "score": 0.028177225029148854,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "To generate predictive, material-comparable conclusions about edge magnetism and spin-dependent transport one requires a microscopic Hamiltonian that simultaneously captures: the lattice-specific tight-binding hoppings, local electron-electron interactions that can produce edge-localized magnetism, intrinsic spin-orbit anisotropy (important for heavier elements such as Sn), and the effect of chemically functionalized edges or localized dopants. Prior studies either neglected one or more of these ingredients or used different parameterizations per material, preventing direct comparison. Moreover, experimental control over edge chemistry is commonly discussed phenomenologically (e.g., as hydrogenation or oxidation) rather than modeled microscopically in a way that connects local electronegativity changes to local electron filling. A consistent, self-consistent mean-field tight-binding framework that includes (i) a Hubbard mean-field treatment for magnetism, (ii) a simple on-site model of edge functionalization/doping ($H_{\\mathrm{dop}}$) to vary edge filling, and (iii) intrinsic spin-orbit coupling, is needed to compute band structures, magnetic profiles, and transport on the same footing for graphene, stanene, and phosphorene, thereby enabling a direct assessment of which material/chemistry combinations can produce usable spintronic behavior.",
+        "content_hash": "f68959b4e31e9ec52a79ef12453a5da6dbab6164ff96efd4112591910beea5de",
+        "id": "gcn_005c99b0488c4c35",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812734900791672832::conclusion_1_subproblem",
+            "package_id": "paper:812734900791672832",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812734900791672832"
+          ]
+        },
+        "rerank_score": 0.6380260654340801,
+        "role": "premise",
+        "score": 0.011764705882352941,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The work acknowledges and leaves open several scientifically meaningful issues for future study: (i) beyond mean-field: the present results are obtained within a self-consistent mean-field decoupling of the Hubbard interaction; the stability and quantitative modification of the predicted TAFM, the precise values of phase boundaries, and the critical behavior could be altered by quantum fluctuations and correlation effects not captured by mean-field theory — assessing these requires more sophisticated methods such as quantum Monte Carlo or density-matrix-renormalization-group calculations. (ii) dynamical and disorder effects: the interplay of temporal fluctuations, coupling to higher bands, heating due to Raman lasers, and potential disorder in realistic experimental implementations may modify the TAFM region and observable signatures; quantitative modeling of these effects is not provided. (iii) experimental detection and parameter calibration: while candidate detection schemes (orthogonal atomic drifts for band topology and Bragg scattering for AFM order) are suggested, the mapping from experimentally tunable parameters (lattice depth $V_0$, Raman strength $V_1$, temperatures achievable in fermionic species) to the mean-field phase diagram requires further quantitative calibration including lifetime and heating constraints. (iv) generality beyond the isotropic tight-binding limit: the calculations mostly focus on the isotropic case $t_x=t_y$ and specific $t_s$ values; how robust the TAFM and other phases are against anisotropies, longer-range hoppings, multi-orbital coupling, or departures from strict half filling remains to be established.",
+        "content_hash": "731d4172e4efa3af34d747914e3eb025c63f1ab93832994235960c34b9ac40a4",
+        "id": "gcn_2908694f709e4483",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867756581142397876::open_question",
+            "package_id": "paper:867756581142397876",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867756581142397876"
+          ]
+        },
+        "rerank_score": 0.6265083009145613,
+        "role": "premise",
+        "score": 0.007936507936507936,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Bridging the experimental spectroscopic phenomenology and a microscopic interaction-driven picture requires a model that (i) contains the relevant inverted $d$ and $p$ orbital characters and their SOC-coupled mixing, (ii) includes a physically motivated screened Coulomb interaction, and (iii) can be tuned by a chemical potential to simulate charge transfer from a gated substrate. Prior theoretical work produced either gapped or semimetallic predictions depending on method details, and there was no direct demonstration that a simple model with screened interactions can simultaneously produce the measured gap magnitude and reproduce the ambipolar, doping-driven collapse. A self-consistent k·p mean-field calculation that reproduces both the gap size and the doping dependence is therefore necessary to support an excitonic interpretation and to extract interaction scales relevant for the phase diagram.",
+        "content_hash": "18abaae7a84583815285f4299ac95576335094f7dd5afd40d14d51c769f7aa70",
+        "id": "gcn_b9597a7437c14230",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1229377012175470623::conclusion_3_subproblem",
+            "package_id": "paper:1229377012175470623",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1229377012175470623"
+          ]
+        },
+        "rerank_score": 0.5953676335417315,
+        "role": "premise",
+        "score": 0.010869565217391304,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "An effective lattice model is required to study correlation effects beyond mean-field and to describe how added carriers choose to occupy different moiré sites when multiple minima are present. The conventional triangular single-band Hubbard model cannot represent charge-transfer physics between $MM$ and $MX$ sites because it lacks a second low-energy orbital/site per unit cell and a tunable on-site energy difference $\\Delta$. Therefore an extended two-sublattice Hubbard model, with explicit sublattice energy offset and intersite Coulomb terms, is necessary to capture the essential competition between $\\Delta$, $U$, and $t$ and to model the insulating state and the behavior upon doping.",
+        "content_hash": "e807fabe524ac3354639f52ea6c45995e63a868bf02cd13a5c5502df6e86cb94",
+        "id": "gcn_694f6eafc93941f4",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812535844404461569::conclusion_7_subproblem",
+            "package_id": "paper:812535844404461569",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812535844404461569"
+          ]
+        },
+        "rerank_score": 0.612895986611843,
+        "role": "premise",
+        "score": 0.013333333333333334,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "To study interaction-driven ferromagnetism, collective excitations, and phonon-mediated superconductivity in a controlled way, one needs an explicit interacting Hamiltonian expressed in the same single-band basis that reflects the actual moiré Bloch wavefunctions. Prior approaches often invoked phenomenological Hubbard-like or continuum approximations without computing the band-projected Coulomb matrix elements that encode sublattice and layer weight, inter-valley coherence structure, and the momentum dependence of screening by gates. Without the band-projected $V_{\\boldsymbol{k}_1\\boldsymbol{k}_2\\boldsymbol{k}_3\\boldsymbol{k}_4}^{(\\tau\\tau')}$ and form factors $O_{\\boldsymbol{k}\\boldsymbol{k}'}^{(\\tau)}(\\boldsymbol{q})$, mean-field self-energies, magnon kernels, and pairing susceptibilities cannot be evaluated with fidelity to TDBG band geometry, preventing quantitative statements about energetics and stability of ordered phases.",
+        "content_hash": "8b85b17ef65f7ee972c5ccc937581c0a0f2927b112f57d4c874d20af09b47008",
+        "id": "gcn_2a1d60b4137f45fe",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812642985576497152::conclusion_2_subproblem",
+            "package_id": "paper:812642985576497152",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812642985576497152"
+          ]
+        },
+        "rerank_score": 0.6167920209910505,
+        "role": "premise",
+        "score": 0.007194244604316547,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "For reliable predictions of field-induced changes in GQR magnetism one must use a microscopic Hamiltonian that includes both the site-dependent electrostatic potential generated by a transverse gate field and electron-electron interactions that produce edge-localized moments. Prior phenomenological or noninteracting treatments cannot predict how the competition between Stark shifts and on-site Coulomb repulsion redistributes spin density between inner and outer edges, nor can they give threshold field strengths for depolarization. A self-consistent tight-binding + mean-field Hubbard calculation with explicit definitions of $\\\\epsilon_{i,\\\\sigma}$, $t$, $U$, and the local moment operator is therefore required to produce the spin-resolved spectra and spatial magnetization maps that the remaining conclusions report.",
+        "content_hash": "99ac48d76b7fe07e327a6b249ce35342dcb6ef096de8464b058e05e85aa26530",
+        "id": "gcn_ae40cb361e6447fd",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813144590432337920::conclusion_1_subproblem",
+            "package_id": "paper:813144590432337920",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813144590432337920"
+          ]
+        },
+        "rerank_score": 0.6881797125849802,
+        "role": "premise",
+        "score": 0.012195121951219513,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Standard mean-field studies of lattice-boson phases use global or unit-cell order parameters appropriate for periodic lattices; these formulations cannot capture the spatially varying local order that an aperiodic site geometry produces. To predict which local patterns of integer fillings and local transport appear across a finite-size quasicrystal, and to classify phases that may break rotational symmetry non-uniformly, one needs a site-resolved mean-field scheme that (a) uses local densities and local condensate order parameters, (b) accepts position-dependent tight-binding coefficients, and (c) provides a convergent self-consistent algorithm to find spatially inhomogeneous mean-field ground states. Without implementing such a site-resolved Gutzwiller loop, questions about local phase composition and symmetry breaking in quasicrystalline Bose–Hubbard systems remained unaddressed.",
+        "content_hash": "34841b53b992354d8053ba54d0348e957d57025ebafe6af13d9acfc7fb43c78e",
+        "id": "gcn_45a5a616d0724ecb",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867759848635236901::conclusion_2_subproblem",
+            "package_id": "paper:867759848635236901",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867759848635236901"
+          ]
+        },
+        "rerank_score": 0.6243349150788092,
+        "role": "premise",
+        "score": 0.014925373134328358,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "For correlated periodic materials the community needs a compact, material-specific lattice model that preserves the one-electron band structure while adding explicit interaction terms to capture correlations. Prior work used Extended Hubbard ideas with phenomenological or partially first-principles $U$ and $V$, but there was no fully specified workflow that (i) obtains hopping integrals $t_{pq}$ by projecting a DFT plane-wave solution onto the valence atomic-orbital basis of the pseudopotential, (ii) computes $U$ and $V$ self-consistently (e.g., via density-functional perturbation theory), and (iii) organizes the result into a Hamiltonian whose degrees of freedom map naturally to lattice sites for downstream many-body diagonalization. Without such a representation researchers could not produce a single, reproducible, materials-specific lattice Hamiltonian that both reproduces the DFT bands and exposes the many-body interaction terms required to improve band-gap predictions.",
+        "content_hash": "fe462ff22b20afaec5e264eba3fb86677cd9cca0afa7335c9ec0792dd9480943",
+        "id": "gcn_0ff8fb36270a4760",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1229662473808773149::conclusion_1_subproblem",
+            "package_id": "paper:1229662473808773149",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1229662473808773149"
+          ]
+        },
+        "rerank_score": 0.5862726182755196,
+        "role": "premise",
+        "score": 0.00909090909090909,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The study has focused on the two-band Hubbard model with only local density-density interactions and a fixed ratio U/V = 2 (no Hartree term). In more realistic situations, one would need to include additional orbitals, longer-range hoppings, and other interaction types such as exchange interactions; how these affect the stability and spatial structure of excitonic insulator phases on quasiperiodic lattices remains an open question. Furthermore, this work addressed only static mean-field properties. Dynamical aspects—in particular the nature of collective modes (phase and amplitude/Higgs modes) in excitonic insulator and superconducting phases on quasiperiodic systems—have not been investigated. The possibility of exciton-Mott transitions in quasiperiodic lattices is another unresolved direction. Additionally, systematically varying the ratio U/V to include the Hartree term, and thereby bridging to the attractive Hubbard model description of superconductivity, would be an interesting extension to explore how the findings connect to superconducting instabilities in quasicrystals.",
+        "content_hash": "9977746ce81d9cea45c325dd23fa17e4d4708db1c88b6e942422a13c77efc0cb",
+        "id": "gcn_9a8d3a4095694cae",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812642081875951616::open_question",
+            "package_id": "paper:812642081875951616",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812642081875951616"
+          ]
+        },
+        "rerank_score": 0.6271886173055075,
+        "role": "premise",
+        "score": 0.014492753623188406,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In the physical context of a moiré+monolayer TMD device where the bottom moiré layer hosts a Mott insulator (one hole per moiré site) and excitons are injected into the top monolayer, researchers need a compact lattice description that captures both the localized spin moments and the neutral, mobile excitons each carrying spin-$\\tfrac{1}{2}$. Prior treatments either considered excitons in band semiconductors or used phenomenological probes of correlated states; there was no explicit mapping from the continuum Coulomb problem to a lattice model that (a) enumerates the local four-state Hilbert space, (b) defines operators that encode layer polarization and spin, and (c) identifies the allowed two-site interaction terms constrained by microscopic processes (hop-scattering of excitons, dipole repulsion, and spin exchange). Without such a model, it is impossible to formulate controlled many-body calculations (e.g., DMRG) and to determine which terms (kinetic $J_p$ versus spin exchange $J_b$) dominate magnetism at small $J_b$. The derived Hamiltonian resolves that gap by providing explicit operator definitions and the minimal set of couplings needed to study exciton–spin interplay.",
+        "content_hash": "407b9fe63c5752ef31e51f6989536ca410edab6a13e3a01ea6c236acffd005b7",
+        "id": "gcn_f55d0a3a129c47ff",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867791047206372224::conclusion_1_subproblem",
+            "package_id": "paper:867791047206372224",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867791047206372224"
+          ]
+        },
+        "rerank_score": 0.5805734513517593,
+        "role": "premise",
+        "score": 0.008849557522123894,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The study addresses the finite-temperature ordering and phase-separation behavior of a lattice fermion model on a two-dimensional triangular lattice in the atomic (zero-bandwidth) limit, where sites can host up to two fermions (spin-1/2). Prior to this work, analyses of the extended Hubbard / lattice-gas family of models on various lattices had established that onsite interaction $U$ and nearest-neighbor density interactions $W_{1}$ can produce nonordered (NO) and several charge-ordered states (e.g., two-sublattice and three-sublattice orders) and that mean-field (variational) decouplings give closed self-consistent equations for sublattice densities. However, for the triangular lattice the finite-temperature ($T>0$) consequences of including an attractive next-nearest-neighbor (NNN) density interaction $W_{2}<0$ had not been fully characterized: previous triangular-lattice studies either neglected $W_{2}$, focused on $T=0$, or treated special parameter regimes. In particular, it was not known how an attractive $W_{2}$ modifies (i) the existence and stability ranges of three-sublattice charge-ordered patterns (including the “two-equal, one-different’’ DCO pattern and the three-different TCO pattern), (ii) the occurrence and temperature-extent of macroscopic phase-separated (PS) states (coexistence of two distinct homogeneous phases at fixed overall density), (iii) the order (continuous vs. first-order) of transitions between ordered phases in the triangular geometry, and (iv) the quantitative structure of finite-$T$ phase diagrams as functions of chemical potential $\\mu$ or particle concentration $n$. These are the scientific gaps this paper aims to fill by deriving explicit finite-$T$ self-consistent mean-field equations for the triangular lattice with $W_{2}\\neq 0$ and by mapping the resulting phase behavior across parameter space (varying $U$, $W_{1}>0$, $W_{2}\\le 0$ and the ratio $k=|W_{2}|/W_{1}$).",
+        "content_hash": "6b597eb66c43ca31f799046747214e0dea4435d45bfebaf50b01415536bcab0d",
+        "id": "gcn_3c611b845e6646de",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867769614812053870::problem",
+            "package_id": "paper:867769614812053870",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867769614812053870"
+          ]
+        },
+        "rerank_score": 0.5930036191589091,
+        "role": "premise",
+        "score": 0.0058823529411764705,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Single-site analytic potentials miss lattice kinetic-energy contributions and nonlocal screening captured in many-body lattice treatments. The Mott-Hubbard transition and associated XC discontinuities in lattice systems emerge from the interplay of local interactions and lattice hopping; hence an appropriate reference functional must include nonperturbative lattice self-consistency. Prior to these DMFT-derived potentials there was no nonperturbative lattice-based XC functional for HH systems that could reveal how phonon-induced screening affects the existence and magnitude of XC discontinuities, nor provide a realistic local-density reference usable in ALDA time propagation that incorporates lattice kinetic feedback on $E_{xc}$.",
+        "content_hash": "6b86ada695de2a2f6e287add39c34b362f496dd8a40dcfab595ac6041e0b620a",
+        "id": "gcn_17fbab94cfa6459f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867752262686998595::conclusion_3_subproblem",
+            "package_id": "paper:867752262686998595",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867752262686998595"
+          ]
+        },
+        "rerank_score": 0.6136570510542884,
+        "role": "premise",
+        "score": 0.007936507936507936,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The work leaves several scientifically meaningful open issues and limitations explicitly acknowledged by the authors. (1) The self-consistent TB calculations neglect lateral (in-plane) distortions of electron and hole wave functions induced by IX–IX interactions; the authors estimated such lateral shifts to be small yet did not provide a full microscopic treatment—thus the quantitative impact of in-plane wave-function rearrangements on $U_{t}$ and on molecular/trion binding remains to be settled. (2) The lattice model assumes a static, closed-packed triangular arrangement of IXs and neglects kinetic (hopping) effects and thermal/quantum fluctuations; the degree to which a real correlated IX fluid departs from this static correlated limit and how that impacts interlayer binding across the full density range requires further study. (3) The continuous dipolaron (Fröhlich-type) model neglects short-range intra-DQW interactions and exchange effects (it treats the IX fluid via its dispersion $\\omega(k)$); therefore, its predictions in the intermediate-density transition from uncorrelated to correlated regimes are approximate—quantitatively accurate modeling of this crossover, including exchange and strong short-range correlations, remains open. (4) Exact-diagonalization results are limited to one-dimensional lattices of small finite size and use a phenomenological short-distance cutoff $a$; extension to realistic two-dimensional systems with controlled finite-size scaling and microscopic short-range regularization is needed to obtain quantitative agreement with experiments. (5) The formation of mixed dark/bright condensed Bose phases and the interplay of dipolar and short-range exchange interactions at high densities (which may produce qualitatively new many-body phases) were noted but not addressed here; mapping how those phases modify interlayer binding and dipolaron formation constitutes a substantial open theoretical and experimental problem. (6) Quantitatively reproducing the magnitude and nonmonotonic density dependence of experimentally measured interlayer binding energies across the full density range requires models that combine realistic electronic structure, many-body correlations, and finite-temperature/finite-lifetime effects; constructing and validating such comprehensive models remains an open task.",
+        "content_hash": "27a5c1d2da285cdaf9478ebe5e804445e9b2a51ac9e369e24e69072c60aa098a",
+        "id": "gcn_3f97c086755a4f1c",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812584878989115393::open_question",
+            "package_id": "paper:812584878989115393",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812584878989115393"
+          ]
+        },
+        "rerank_score": 0.6011830417791789,
+        "role": "premise",
+        "score": 0.005917159763313609,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Physical context and prior limitations: Electron–electron correlations on local atomic sites can qualitatively affect magnetization amplitudes and, in principle, ordering. The minimal single-level tight-binding model omits onsite Coulomb repulsion and therefore cannot capture correlation-driven enhancement of local moments. A pragmatic way to assess the influence of local Coulomb terms is to add site-dependent $U_i$ and solve self-consistently at the mean-field level to see whether correlations change the F/AF ground-state sequence (which would undermine the single-particle-based mechanism) or only renormalize moments. The Hartree–Fock treatment of the onsite Hubbard term directly addresses this gap: it tests whether inclusion of local Coulomb repulsion changes the type of magnetic ordering and quantifies how local moments respond to $U$ for finite TM-capped C chains.",
+        "content_hash": "31970db7eb08ea65969426622da5ca0bc0e40adcbbc604c4e4ef905b1380f2d7",
+        "id": "gcn_ea0ade3785324099",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811996540489957377::conclusion_2_subproblem",
+            "package_id": "paper:811996540489957377",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811996540489957377"
+          ]
+        },
+        "rerank_score": 0.6728603977038162,
+        "role": "premise",
+        "score": 0.008264462809917356,
+        "type": "question",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "req_3cab1c11e2380"
+}

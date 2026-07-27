@@ -1,0 +1,1628 @@
+{
+  "code": 0,
+  "data": {
+    "has_more": true,
+    "papers": {
+      "paper:1048481575555039239": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Börge Göbel | Lennart Schimpf | Ingrid Mertig",
+        "available_online": "",
+        "cover_date_start": "2024-10-01",
+        "created_at": "2026-06-15T02:09:40+08:00",
+        "doi": "10.48550/arxiv.2410.00820",
+        "en_title": "Topological orbital Hall effect caused by skyrmions and antiferromagnetic skyrmions",
+        "id": "1048481575555039239",
+        "keywords": "",
+        "publication_date": "2024-10-01",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "由斯格明子和反铁磁斯格明子引起的拓扑轨道霍尔效应"
+      },
+      "paper:1058628420809785359": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Cheng-Ming Miao | Qing-Feng Sun | Ying-Tao Zhang",
+        "available_online": "",
+        "cover_date_start": "2024-10-29",
+        "created_at": "2026-06-19T03:54:29+08:00",
+        "doi": "10.48550/arxiv.2410.21732",
+        "en_title": "Second-order topological corner states in zigzag graphene nanoflake with different types of edge magnetic configurations",
+        "id": "1058628420809785359",
+        "keywords": "",
+        "publication_date": "2024-10-29",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "具有不同类型边缘磁构型的锯齿形石墨烯纳米片中的二阶拓扑角态"
+      },
+      "paper:1063339603802456082": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Arijit Mandal | S. Satpathy | B.R.K. Nanda",
+        "available_online": "",
+        "cover_date_start": "2024-11-10",
+        "created_at": "2026-06-19T03:16:14+08:00",
+        "doi": "10.48550/arxiv.2411.06434",
+        "en_title": "Tuning the band topology and topological Hall effect in skyrmion crystals via the spin-orbit coupling",
+        "id": "1063339603802456082",
+        "keywords": "",
+        "publication_date": "2024-11-10",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "",
+        "zh_title": "通过自旋轨道耦合调控斯格明子晶体中的能带拓扑和拓扑霍尔效应"
+      },
+      "paper:1088988091466645513": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Kusampal Yadav | Dilruba Hasina | Nasiruddin Mondal | Sayantika Bhowal | Devajyoti Mukherjee",
+        "available_online": "",
+        "cover_date_start": "2025-01-17",
+        "created_at": "2026-06-15T05:13:13+08:00",
+        "doi": "10.48550/arxiv.2501.09969",
+        "en_title": "Giant topological Hall effect in epitaxial Ni$_{80}$Fe$_{20}$/La$_{0.65}$Sr$_{0.35}$MnO$_3$ thin film heterostructures",
+        "id": "1088988091466645513",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108483",
+        "publication_name": "Materials Science",
+        "research_categories": "",
+        "zh_title": "外延Ni$_{80}$Fe$_{20}$/La$_{0.65}$Sr$_{0.35}$MnO$_3$薄膜异质结构中的巨拓扑霍尔效应"
+      },
+      "paper:1134915489739309136": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Hao Wu | Daniel F. Agterberg",
+        "available_online": "",
+        "cover_date_start": "2025-05-24",
+        "created_at": "2026-06-15T06:38:01+08:00",
+        "doi": "10.48550/arxiv.2505.18620",
+        "en_title": "AI-predicted PT-symmetric magnets",
+        "id": "1134915489739309136",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108483",
+        "publication_name": "Materials Science",
+        "research_categories": "",
+        "zh_title": "人工智能预测的宇称时间对称磁体"
+      },
+      "paper:811037968205611009": {
+        "area": "physics and astrophysics, physics, applied, multidisciplinary, particles & fields",
+        "authors": "Sudin Ganguly | Saurabh Basu",
+        "available_online": "2017-4-6",
+        "cover_date_start": "2017-04-06",
+        "created_at": "2026-06-14T08:48:14+08:00",
+        "doi": "10.1088/1742-6596/807/8/082003",
+        "en_title": "Spin Hall conductance in Y-shaped junction devices",
+        "id": "811037968205611009",
+        "keywords": "",
+        "publication_date": "2017-4-6",
+        "publication_id": "97787",
+        "publication_name": "Journal of Physics: Conference Series _ J. Phys.: Conf. Ser.",
+        "research_categories": "",
+        "zh_title": "Y形结器件中的自旋霍尔电导率"
+      },
+      "paper:811056663078371329": {
+        "area": "Physics and Astrophysics, physics, condensed matter, physics, applied, materials science, multidisciplinary",
+        "authors": "Collins Ashu Akosa | Papa Birame Ndiaye | Aurélien Manchon",
+        "available_online": "2017-2-28",
+        "cas_zone": "2",
+        "cover_date_start": "2017-02-28",
+        "created_at": "2026-06-19T04:18:05+08:00",
+        "doi": "10.1103/physrevb.95.054434",
+        "en_title": "Intrinsic nonadiabatic topological torque in magnetic skyrmions and vortices",
+        "id": "811056663078371329",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "磁斯格明子和涡旋中的本征非绝热拓扑扭矩"
+      },
+      "paper:811095293134110721": {
+        "area": "Comprehensive Periodical, multidisciplinary sciences",
+        "authors": "Manuel dos Santos Dias | Juba Bouaziz | Mohammed Bouhassoune | Stefan Blügel | Samir Lounis",
+        "available_online": "2016-12-20",
+        "cas_zone": "1",
+        "cover_date_start": "2016-12-01",
+        "created_at": "2026-06-19T06:11:47+08:00",
+        "doi": "10.1038/ncomms13613",
+        "en_title": "Chirality-driven orbital magnetic moments as a new probe for topological magnetic structures",
+        "id": "811095293134110721",
+        "impact_factor": 15.5,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2016-12",
+        "publication_id": "10026",
+        "publication_name": "Nature Communications _ Nat Commun",
+        "research_categories": "",
+        "zh_title": "手性驱动的轨道磁矩作为拓扑磁结构的一种新探针"
+      },
+      "paper:812334481380737026": {
+        "area": "material science, physical sciences, condensed matter physics",
+        "authors": "Junji Fujimoto | Florian Lange | Satoshi Ejima | Tomonori Shirakawa | Holger Fehske | Seiji Yunoki | Sadamichi Maekawa",
+        "available_online": "",
+        "cas_zone": "3",
+        "cover_date_start": "2021-06-01",
+        "created_at": "2026-05-17T00:05:47+08:00",
+        "doi": "10.1063/5.0049882",
+        "en_title": "Spin–charge conversion and current vortex in spin–orbit coupled systems",
+        "id": "812334481380737026",
+        "impact_factor": 4.3,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "2021-6-1",
+        "publication_id": "2143",
+        "publication_name": "APL Materials _ APL Materials",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "自旋 - 轨道耦合系统中的自旋 - 电荷转换与电流涡旋"
+      },
+      "paper:812509720882446339": {
+        "area": "material science, physical sciences, condensed matter physics, quantum physics",
+        "authors": "Jian-Xiao Zhang | Domenico Andreoli | Jiadong Zang | Chao-Xing Liu",
+        "available_online": "",
+        "cas_zone": "3",
+        "cover_date_start": "2021-06-01",
+        "created_at": "2026-05-23T01:42:28+08:00",
+        "doi": "10.1016/j.jmmm.2020.167700",
+        "en_title": "Topological Hall effect in magnetic topological insulator films",
+        "id": "812509720882446339",
+        "impact_factor": 3,
+        "jcr_zone": "Q2",
+        "keywords": "[{\"ch_name\":\"斯格明子\",\"en_name\":\"Skyrmion\"},{\"ch_name\":\"自旋轨道耦合\",\"en_name\":\"Spinâu0080u0093orbit coupling\"},{\"ch_name\":\"拓扑霍尔效应\",\"en_name\":\"Topological Hall effect\"}]",
+        "publication_date": "2021-6",
+        "publication_id": "2151",
+        "publication_name": "Journal of Magnetism and Magnetic Materials _ Journal of Magnetism and Magnetic Materials",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "磁性拓扑绝缘体薄膜中的拓扑霍尔效应"
+      },
+      "paper:812514720455065603": {
+        "area": "physics and astrophysics, physical sciences, condensed matter physics",
+        "authors": "Deepak S. Kathyat | Arnob Mukherjee | Sanjeev Kumar",
+        "available_online": "2021-1-8",
+        "cas_zone": "2",
+        "cover_date_start": "2021-01-08",
+        "created_at": "2026-06-15T00:41:24+08:00",
+        "doi": "10.1103/physrevb.103.035111",
+        "en_title": "Electronic mechanism for nanoscale skyrmions and topological metals",
+        "id": "812514720455065603",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "用于纳米尺度斯格明子和拓扑金属的电子机制"
+      },
+      "paper:812544716942868481": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, materials science, multidisciplinary",
+        "authors": "M. Redies | F. R. Lux | J.-P. Hanke | P. M. Buhl | S. Blügel | Y. Mokrousov",
+        "available_online": "2020-11-9",
+        "cas_zone": "2",
+        "cover_date_start": "2020-11-09",
+        "created_at": "2026-06-16T04:27:39+08:00",
+        "doi": "10.1103/physrevb.102.184407",
+        "en_title": "Mixed topology ring states for Hall effect and orbital magnetism in skyrmions of Weyl semimetals",
+        "id": "812544716942868481",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "外尔半金属斯格明子中霍尔效应和轨道磁性的混合拓扑环态"
+      },
+      "paper:812706231067082755": {
+        "area": "physics and astrophysics, physical sciences, condensed matter physics",
+        "authors": "Robert Sokolewicz | Sumit Ghosh | Dmitry Yudin | Aurélien Manchon | Mikhail Titov",
+        "available_online": "2019-12-2",
+        "cas_zone": "2",
+        "cover_date_start": "2019-12-02",
+        "created_at": "2026-06-16T10:45:39+08:00",
+        "doi": "10.1103/physrevb.100.214403",
+        "en_title": "Spin-orbit torques in a Rashba honeycomb antiferromagnet",
+        "id": "812706231067082755",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "Rashba 蜂窝状反铁磁体中的自旋轨道转矩"
+      },
+      "paper:812711532570869761": {
+        "area": "Physics and Astrophysics, physics, applied",
+        "authors": "Collins Ashu Akosa | Hang Li | Gen Tatara | Oleg A. Tretiakov",
+        "available_online": "2019-11-13",
+        "cas_zone": "2",
+        "cover_date_start": "2019-11-13",
+        "created_at": "2026-06-19T04:30:08+08:00",
+        "doi": "10.1103/physrevapplied.12.054032",
+        "en_title": "Tuning the Skyrmion Hall Effect via Engineering of Spin-Orbit Interaction",
+        "id": "812711532570869761",
+        "impact_factor": 4.5,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "503",
+        "publication_name": "Physical Review Applied _ Phys. Rev. Applied",
+        "research_categories": "",
+        "zh_title": "通过自旋轨道相互作用工程调控斯格明子霍尔效应"
+      },
+      "paper:812847791498854402": {
+        "area": "material science, physical sciences, condensed matter physics",
+        "authors": "Zhizhou Yu | Jian Chen | Lei Zhang | Yanxia Xing | Jian Wang",
+        "available_online": "2018",
+        "cas_zone": "3",
+        "cover_date_start": "2018-01-01",
+        "created_at": "2026-06-12T23:06:38+08:00",
+        "doi": "10.1039/c8nr04628j",
+        "en_title": "Magnetization dynamics induced by the Rashba effect in ferromagnetic films",
+        "id": "812847791498854402",
+        "impact_factor": 5.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "2079",
+        "publication_name": "Nanoscale _ Nanoscale",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "铁磁薄膜中由Rashba效应诱导的磁化动力学"
+      },
+      "paper:813045292109660162": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, materials science, multidisciplinary",
+        "authors": "S. Ghosh | A. Manchon",
+        "available_online": "2018-4-2",
+        "cas_zone": "2",
+        "cover_date_start": "2018-04-02",
+        "created_at": "2026-06-12T02:29:16+08:00",
+        "doi": "10.1103/physrevb.97.134402",
+        "en_title": "Spin-orbit torque in a three-dimensional topological insulator–ferromagnet heterostructure: Crossover between bulk and surface transport",
+        "id": "813045292109660162",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "三维拓扑绝缘体 - 铁磁体异质结构中的自旋轨道转矩：体输运与表面输运之间的转变"
+      },
+      "paper:813085165587791874": {
+        "area": "Comprehensive Periodical, multidisciplinary sciences",
+        "authors": "Xichao Zhang | Jing Xia | Yan Zhou | Xiaoxi Liu | Han Zhang | Motohiko Ezawa",
+        "available_online": "2017-11-23",
+        "cas_zone": "1",
+        "cover_date_start": "2017-11-23",
+        "created_at": "2026-06-19T01:06:25+08:00",
+        "doi": "10.1038/s41467-017-01785-w",
+        "en_title": "Skyrmion dynamics in a frustrated ferromagnetic film and current-induced helicity locking-unlocking transition",
+        "id": "813085165587791874",
+        "impact_factor": 15.5,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2017-12",
+        "publication_id": "10026",
+        "publication_name": "Nature Communications _ Nat Commun",
+        "research_categories": "",
+        "zh_title": "受挫铁磁薄膜中的斯格明子动力学与电流诱导的螺旋度锁定-解锁转变"
+      },
+      "paper:814614787601203201": {
+        "area": "Physics and Astrophysics, physics, condensed matter, physics, applied, materials science, multidisciplinary",
+        "authors": "Gen Yin | Yizhou Liu | Yafis Barlas | Jiadong Zang | Roger K. Lake",
+        "available_online": "2015-7-13",
+        "cas_zone": "2",
+        "cover_date_start": "2015-07-13",
+        "created_at": "2026-06-18T23:13:58+08:00",
+        "doi": "10.1103/physrevb.92.024411",
+        "en_title": "Topological spin Hall effect resulting from magnetic skyrmions",
+        "id": "814614787601203201",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "由磁斯格明子产生的拓扑自旋霍尔效应"
+      },
+      "paper:817346350029996034": {
+        "area": "physics and astrophysics, physics, applied",
+        "authors": "Collins Ashu Akosa | Hang Li | Gen Tatara | Oleg A. Tretiakov",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2019-11-14",
+        "created_at": "2026-06-02T14:25:45+08:00",
+        "doi": "10.1103/PhysRevApplied.12.054032",
+        "en_title": "Tuning the Skyrmion Hall Effect via Engineering of Spin-Orbit Interaction",
+        "id": "817346350029996034",
+        "impact_factor": 4.5,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "503",
+        "publication_name": "Physical Review Applied _ ",
+        "research_categories": "",
+        "zh_title": "通过自旋轨道相互作用工程调控斯格明子霍尔效应"
+      },
+      "paper:817363099827830784": {
+        "area": "physics and astrophysics, physical sciences, condensed matter physics, quantum physics",
+        "authors": "Nisarga Paul | Liang Fu",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2021-08-21",
+        "created_at": "2026-06-02T11:30:50+08:00",
+        "doi": "10.1103/PhysRevResearch.3.033173",
+        "en_title": "Topological magnetic textures in magnetic topological insulators",
+        "id": "817363099827830784",
+        "impact_factor": 4.9,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "68812",
+        "publication_name": "Physical Review Research _ ",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "磁性拓扑绝缘体中的拓扑磁结构"
+      },
+      "paper:817399071823101952": {
+        "area": "geoscience, materials science, multidisciplinary, physics, condensed matter",
+        "authors": "Deepak S. Kathyat | Arnob Mukherjee | Sanjeev Kumar",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2021-01-09",
+        "created_at": "2026-06-15T01:35:25+08:00",
+        "doi": "10.1103/PhysRevB.103.035111",
+        "en_title": "Electronic mechanism for nanoscale skyrmions and topological metals",
+        "id": "817399071823101952",
+        "impact_factor": 3.6,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "98281",
+        "publication_name": "Physical Review B   Condensed Matter and Materials Physics _ ",
+        "research_categories": "",
+        "zh_title": "用于纳米尺度斯格明子和拓扑金属的电子机制"
+      },
+      "paper:817399760280354817": {
+        "area": "geoscience, materials science, multidisciplinary, physics, condensed matter",
+        "authors": "Callum Robert MacKinnon | Serban Lepadatu | Tim Mercer | Phillip Robert Bissell",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2020-12-08",
+        "created_at": "2026-06-02T10:42:17+08:00",
+        "doi": "10.1103/PhysRevB.102.214408",
+        "en_title": "Role of an additional interfacial spin-transfer torque for current-driven skyrmion dynamics in chiral magnetic layers",
+        "id": "817399760280354817",
+        "impact_factor": 3.6,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "98281",
+        "publication_name": "Physical Review B   Condensed Matter and Materials Physics _ ",
+        "research_categories": "",
+        "zh_title": "额外界面自旋转移力矩在手性磁性层中电流驱动斯格明子动力学中的作用"
+      },
+      "paper:817400018834030593": {
+        "area": "geoscience, materials science, multidisciplinary, physics, condensed matter",
+        "authors": "Guilhem Manchon | Sumit Ghosh | Cyrille Barreteau | and Aurélien Manchon",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2020-05-15",
+        "created_at": "2026-06-02T18:06:48+08:00",
+        "doi": "10.1103/PhysRevB.101.174423",
+        "en_title": "Semirealistic tight-binding model for spin-orbit torques",
+        "id": "817400018834030593",
+        "impact_factor": 3.6,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "98281",
+        "publication_name": "Physical Review B   Condensed Matter and Materials Physics _ ",
+        "research_categories": "",
+        "zh_title": "用于自旋轨道转矩的半现实紧束缚模型"
+      },
+      "paper:817400052967276546": {
+        "area": "geoscience, materials science, multidisciplinary, physics, condensed matter",
+        "authors": "J. Feilhauer | S. Saha | J. Tobik | M. Zelent | L. J. Heyderman | M. Mruczkiewicz",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2020-11-20",
+        "created_at": "2026-06-02T12:20:56+08:00",
+        "doi": "10.1103/PhysRevB.102.184425",
+        "en_title": "Controlled motion of skyrmions in a magnetic antidot lattice",
+        "id": "817400052967276546",
+        "impact_factor": 3.6,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "98281",
+        "publication_name": "Physical Review B   Condensed Matter and Materials Physics _ ",
+        "research_categories": "",
+        "zh_title": "磁反点晶格中斯格明子的可控运动"
+      },
+      "paper:817400205711245313": {
+        "area": "geoscience, materials science, multidisciplinary, physics, condensed matter",
+        "authors": "M. Redies | F. R. Lux | J.-P. Hanke | P. M. Buhl | S. Blügel | Y. Mokrousov",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2020-11-10",
+        "created_at": "2026-06-02T14:55:48+08:00",
+        "doi": "10.1103/PhysRevB.102.184407",
+        "en_title": "Mixed topology ring states for Hall effect and orbital magnetism in skyrmions of Weyl semimetals",
+        "id": "817400205711245313",
+        "impact_factor": 3.6,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "98281",
+        "publication_name": "Physical Review B   Condensed Matter and Materials Physics _ ",
+        "research_categories": "",
+        "zh_title": "外尔半金属斯格明子中霍尔效应和轨道磁性的混合拓扑环态"
+      },
+      "paper:867746858313712598": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Gen Yin | Yizhou Liu | Yafis Barlas | Jiadong Zang | Roger K. Lake",
+        "available_online": "",
+        "cover_date_start": "2015-03-01",
+        "created_at": "2026-06-17T01:16:39+08:00",
+        "doi": "10.48550/arXiv.1503.00242",
+        "en_title": "Topological Spin Hall Effect due to Magnetic Skyrmions",
+        "id": "867746858313712598",
+        "keywords": "",
+        "publication_date": "2015-03-01",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "由磁斯格明子引起的拓扑自旋霍尔效应"
+      },
+      "paper:867747792313909843": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Callum R. MacKinnon | Katharina Zeissler | Simone Finizio | Jörg Raabe | Christopher H. Marrows | Tim Mercer | Philip R. Bissell | Serban Lepadatu",
+        "available_online": "",
+        "cover_date_start": "2021-06-15",
+        "created_at": "2026-06-17T00:50:52+08:00",
+        "doi": "10.48550/arXiv.2106.08046",
+        "en_title": "Collective skyrmion motion under the influence of an additional interfacial spin-transfer torque",
+        "id": "867747792313909843",
+        "keywords": "",
+        "publication_date": "2021-06-15",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "在附加界面自旋转移力矩影响下的集体斯格明子运动"
+      },
+      "paper:867751076625907919": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Dongwook Go | Hyun-Woo Lee",
+        "available_online": "",
+        "cover_date_start": "2019-03-04",
+        "created_at": "2026-06-19T06:26:57+08:00",
+        "doi": "10.48550/arXiv.1903.01085",
+        "en_title": "Orbital Torque: Torque Generation by Orbital Current Injection",
+        "id": "867751076625907919",
+        "keywords": "",
+        "publication_date": "2019-03-04",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "轨道转矩：通过轨道电流注入产生转矩"
+      },
+      "paper:867751344318972635": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Kyoung-Woong Moon | Jungbum Yoon | Changsoo Kim | Jae-Hun Sim | Se Kwon Kim | Soong-Geun Je | Chanyong Hwang",
+        "available_online": "",
+        "cover_date_start": "2022-11-09",
+        "created_at": "2026-05-22T22:48:52+08:00",
+        "doi": "10.48550/arXiv.2211.04949",
+        "en_title": "Alternative understanding of the skyrmion Hall effect based on one-dimensional domain wall motion",
+        "id": "867751344318972635",
+        "keywords": "",
+        "publication_date": "2022-11-09",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "基于一维畴壁运动对斯格明子霍尔效应的另类理解"
+      },
+      "paper:867753288240463995": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "C. A. Akosa | H. Li | G. Tatara | O. A. Tretiakov",
+        "available_online": "",
+        "cover_date_start": "2019-07-11",
+        "created_at": "2026-06-09T21:41:55+08:00",
+        "doi": "10.48550/arXiv.1907.05196",
+        "en_title": "Tuning skyrmion Hall effect via engineering of spin-orbit interaction",
+        "id": "867753288240463995",
+        "keywords": "",
+        "publication_date": "2019-07-11",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "通过自旋轨道相互作用工程调控斯格明子霍尔效应"
+      },
+      "paper:867753393169367903": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics, quantum physics",
+        "authors": "Yu Li | Sergiy Mankovsky | Svitlana Polesya | Hubert Ebert | Christoforos Moutafis",
+        "available_online": "",
+        "cover_date_start": "2021-06-29",
+        "created_at": "2026-06-14T16:48:28+08:00",
+        "doi": "10.48550/arXiv.2106.15463",
+        "en_title": "Magnetic Bloch-point hopping in multilayer skyrmions and associated emergent electromagnetic signatures",
+        "id": "867753393169367903",
+        "keywords": "",
+        "publication_date": "2021-06-29",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "多层斯格明子中的磁性布洛赫点跳跃及相关的涌现电磁特征"
+      },
+      "paper:867755136485687984": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "M. Redies | F. R. Lux | J.-P. Hanke | P. M. Buhl | G. P. Müller | N. S. Kiselev | S. Blügel | Y. Mokrousov",
+        "available_online": "",
+        "cover_date_start": "2018-11-05",
+        "created_at": "2026-05-25T23:58:45+08:00",
+        "doi": "10.48550/arXiv.1811.01584",
+        "en_title": "Distinct magnetotransport and orbital fingerprints of chiral bobbers",
+        "id": "867755136485687984",
+        "keywords": "",
+        "publication_date": "2018-11-05",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "",
+        "zh_title": "手性浮子独特的磁输运和轨道特征"
+      },
+      "paper:867761392986358757": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "P. B. N'diaye | C.A. Akosa | A. Manchon",
+        "available_online": "",
+        "cover_date_start": "2016-09-18",
+        "created_at": "2026-06-14T23:19:24+08:00",
+        "doi": "10.48550/arXiv.1609.05480",
+        "en_title": "Topological Hall and Spin Hall Effects in Disordered Skyrmionic Textures",
+        "id": "867761392986358757",
+        "keywords": "",
+        "publication_date": "2016-09-18",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "无序斯格明子纹理中的拓扑霍尔效应和自旋霍尔效应"
+      },
+      "paper:867762442359276449": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Manuel dos Santos Dias | Juba Bouaziz | Mohammed Bouhassoune | Stefan Blügel | Samir Lounis",
+        "available_online": "",
+        "cover_date_start": "2016-09-23",
+        "created_at": "2026-05-16T19:47:48+08:00",
+        "doi": "10.48550/arXiv.1609.07529",
+        "en_title": "Chirality-driven orbital magnetic moments as a new probe for topological magnetic structures",
+        "id": "867762442359276449",
+        "keywords": "",
+        "publication_date": "2016-09-23",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "手性驱动的轨道磁矩作为拓扑磁结构的一种新探针"
+      },
+      "paper:867763047706395105": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Yifei Guan | Oleg V. Yazyev | Alexander Kruchkov",
+        "available_online": "",
+        "cover_date_start": "2021-11-19",
+        "created_at": "2026-06-19T07:58:15+08:00",
+        "doi": "10.48550/arXiv.2111.10410",
+        "en_title": "Unconventional Flat Chern Bands and 2$e$ Charges in Skyrmionic Moiré Superlattices",
+        "id": "867763047706395105",
+        "keywords": "",
+        "publication_date": "2021-11-19",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "非常规平陈数能带与斯格明子莫尔超晶格中的2e电荷"
+      },
+      "paper:867765936298394125": {
+        "area": "arxiv-physics, chemical sciences, macromolecular and materials chemistry, physical sciences",
+        "authors": "Xichao Zhang | Jing Xia | Xiaoxi Liu",
+        "available_online": "",
+        "cover_date_start": "2022-09-14",
+        "created_at": "2026-06-15T01:10:32+08:00",
+        "doi": "10.48550/arXiv.2209.06961",
+        "en_title": "Particle-like skyrmions interacting with a funnel obstacle",
+        "id": "867765936298394125",
+        "keywords": "",
+        "publication_date": "2022-09-14",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Chemical Sciences\", \"Macromolecular and Materials Chemistry\", \"Physical Sciences\"]",
+        "zh_title": "与漏斗形障碍物相互作用的类粒子斯格明子"
+      },
+      "paper:867767135101780008": {
+        "area": "arXiv-Physics, Physical Sciences, Condensed Matter Physics",
+        "authors": "M. Redies | F. R. Lux | J.-P. Hanke | P. M. Buhl | S. Blügel | Y. Mokrousov",
+        "available_online": "",
+        "cover_date_start": "2020-03-06",
+        "created_at": "2026-06-19T00:43:27+08:00",
+        "doi": "10.48550/arXiv.2003.03243",
+        "en_title": "Mixed topology ring states for Hall effect and orbital magnetism in skyrmions of Weyl semimetals",
+        "id": "867767135101780008",
+        "keywords": "",
+        "publication_date": "2020-03-06",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "外尔半金属斯格明子中霍尔效应和轨道磁性的混合拓扑环态"
+      },
+      "paper:867769929053504284": {
+        "area": "arXiv-Physics, Physical Sciences, Condensed Matter Physics",
+        "authors": "Hang Li | Aurelien Manchon",
+        "available_online": "",
+        "cover_date_start": "2016-04-29",
+        "created_at": "2026-06-19T07:30:53+08:00",
+        "doi": "10.48550/arXiv.1604.08782",
+        "en_title": "Tunable spin-charge conversion through topological phase transitions in zigzag nanoribbons",
+        "id": "867769929053504284",
+        "keywords": "",
+        "publication_date": "2016-04-29",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "通过锯齿形纳米带中的拓扑相变实现可调谐的自旋-电荷转换"
+      },
+      "paper:867771804138078337": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "C. R. MacKinnon | S. Lepadatu | T. Mercer | P. Bissell",
+        "available_online": "",
+        "cover_date_start": "2020-09-08",
+        "created_at": "2026-06-15T07:37:13+08:00",
+        "doi": "10.48550/arXiv.2009.03751",
+        "en_title": "Role of an additional interfacial spin-transfer torque for current-driven skyrmion dynamics in chiral magnetic layers",
+        "id": "867771804138078337",
+        "keywords": "",
+        "publication_date": "2020-09-08",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "额外界面自旋转移力矩在手性磁性层中电流驱动斯格明子动力学中的作用"
+      },
+      "paper:867772560236871844": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Tan Dao | Sergey S. Pershoguba | Jiadong Zang",
+        "available_online": "",
+        "cover_date_start": "2022-10-20",
+        "created_at": "2026-06-17T02:31:02+08:00",
+        "doi": "10.48550/arXiv.2210.11459",
+        "en_title": "Hall Effect Induced by Topologically Trivial Target Skyrmions",
+        "id": "867772560236871844",
+        "keywords": "",
+        "publication_date": "2022-10-20",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "由拓扑平凡的目标斯格明子诱导的霍尔效应"
+      }
+    },
+    "variables": [
+      {
+        "content": "In a tight-binding model on a square lattice with a Néel-type skyrmion (skyrmion radius r_s=10a_0, exchange J=5t_0) and Rashba spin-orbit coupling, the topological Hall angle θ_TH calculated via the Landauer-Büttiker formalism (Eqs. 15–16) crosses zero at a RSOC strength t_R* ≈ 0.17 t_0, closely matching the analytical prediction t_R^c = 0.2 t_0 derived from the condition λ_R = r_s/2 (Eq. 12). The 15% difference is consistent with the neglected higher-order SOC terms.",
+        "content_hash": "5aa15ed49edeaecba4a233891574893f2efaac409b351a80bb44e45db12b4abc",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_9897d0405aaa497b",
+        "kind": "highlight",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817346350029996034::H1",
+            "package_id": "paper:817346350029996034",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817346350029996034"
+          ]
+        },
+        "rerank_score": 0.8562627068984496,
+        "role": "premise",
+        "score": 0.010429864253393664,
+        "title": "Numerical tight-binding validation of THE cancellation at predicted SOC strength",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Magnetic skyrmions are non-collinear, topologically non-trivial spin textures that exert an emergent magnetic field on conduction electrons via a Berry-phase mechanism, producing the topological (charge) Hall effect and associated spin-polarized transport in previously studied models. Concurrently, the orbital degree of freedom has emerged as an independent channel for transport in solids (orbital magnetization, orbital Hall effect, orbital torques), but the role of real-space topological magnetic textures in generating orbital transport was not established. In particular, it was not known whether (i) a skyrmion texture that couples to conduction electrons only through a spin-exchange (Hund's) coupling and without spin-orbit coupling can generate a transverse orbital current (a topological orbital Hall effect, quantified by an orbital Hall conductivity $\\sigma_{xy}^{L_z}$); (ii) how such an orbital response relates quantitatively to the established topological charge Hall conductivity $\\sigma_{xy}$ and the topological spin Hall conductivity $\\sigma_{xy}^{S_z}$ across realistic electronic-structure parameters (hopping amplitudes, Hund's coupling, skyrmion size); and (iii) whether compensated textures such as antiferromagnetic skyrmions (two sublattices with opposite topological charge) can produce a net transverse orbital (and/or spin) current in the absence of net charge Hall transport. These gaps prevented a theoretical assessment of (A) whether skyrmionic textures can act as generators of orbital currents in experimentally relevant electronic models without intrinsic spin-orbit coupling, (B) how large such orbital currents can be relative to spin currents, and (C) whether orbital transport can serve as an unambiguous signature of compensated or coexisting topological textures where the conventional topological Hall signal cancels.",
+        "content_hash": "925e68cf73261ca17eed27745e24ab4ecde493a59c4e4c8d13d4c84993233a56",
+        "id": "gcn_24b0aa946f4346b7",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1048481575555039239::problem",
+            "package_id": "paper:1048481575555039239",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1048481575555039239"
+          ]
+        },
+        "rerank_score": 0.79423590075221,
+        "role": "premise",
+        "score": 0.009444888178913738,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In the tight-binding transport simulations on a square lattice with the Hamiltonian $\\mathcal{H}=\\sum_i \\hat{c}_i^\\dagger(\\epsilon_i + J\\boldsymbol{m}_i\\cdot\\hat{\\boldsymbol{\\sigma}})\\hat{c}_i - \\sum_{\\langle i,j\\rangle} \\hat{c}_i^\\dagger t_{ij}\\hat{c}_j$, where the nearest-neighbor hopping $t_{ij}$ is $t_0+i t_R\\sigma_y+i t_D\\sigma_x$ for $j=i\\pm\\boldsymbol{x}$ and $t_0-i t_R\\sigma_x-i t_D\\sigma_y$ for $j=i\\pm\\boldsymbol{y}$, the magnetization on each site $\\boldsymbol{m}_i$ is prescribed as the skyrmion ansatz with fixed radius $r_s=10a_0$, independent of the SOC hopping parameters $t_R$ and $t_D$. The topological Hall angle $\\theta_{\\mathrm{TH}}=(V_T-V_B)/(V_R-V_L)$ is computed as $t_R$ (for a Néel skyrmion) or $t_D$ (for a Bloch antiskyrmion) is varied.",
+        "content_hash": "b80b16c9c7028c320656f5caded7c5d80e4494cf674bfc513670667e7a975713",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_90dccc756d8d4533",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867753288240463995::P6",
+            "package_id": "paper:867753288240463995",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867753288240463995"
+          ]
+        },
+        "rerank_score": 0.8331287428076342,
+        "role": "premise",
+        "score": 0.015873015873015872,
+        "title": "Fixed skyrmion texture in tight-binding transport simulations",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Efficient routes to generate spin currents in light-element materials (where intrinsic spin-orbit coupling is weak) are desirable for spintronics, yet conventional spin Hall effects rely on SOC. Prior theoretical proposals suggested that PT-symmetric collinear magnets could host nonlinear spin Hall responses without SOC, but concrete minimal-model demonstrations clarifying which microscopic terms (e.g., spin-independent inter-sublattice hoppings) produce the effect were needed. Without such a mechanism demonstrated in a material-relevant tight-binding model, it was unclear which materials or microscopic parameters to target experimentally. Demonstrating the SOC-free nonlinear spin Hall response within the AFM1 tight-binding model identifies the microscopic origin (inter-sublattice hopping plus staggered exchange) and therefore guides searches for materials where SOC is not required to obtain sizable spin-current generation.",
+        "content_hash": "bc698f019d652b967957d7e6a55575abf5dda0d60447cfbe0fc74c7cd0551a07",
+        "id": "gcn_a572d7be0648498e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1134915489739309136::conclusion_3_subproblem",
+            "package_id": "paper:1134915489739309136",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1134915489739309136"
+          ]
+        },
+        "rerank_score": 0.7600198295127336,
+        "role": "premise",
+        "score": 0.009259259259259259,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "A tight-binding model for electrons on a square lattice coupled to a skyrmion crystal is given by $\\mathcal{H}_{s}=t \\sum_{\\langle i,j\\rangle} c_i^\\dagger c_j - J_H\\sum_i \\hat{n}_i\\cdot (c_i^\\dagger \\vec{\\sigma} c_i)$, where $t$ is the nearest-neighbor hopping parameter, $J_H$ is the Hund's coupling, $c_i^\\dagger$ ($c_i$) creates (annihilates) an electron at site $i$, $\\vec{\\sigma}$ is the vector of Pauli matrices, and the local magnetization vector $\\hat{n}_i=(\\sin\\theta_i\\cos\\phi_i,\\sin\\theta_i\\sin\\phi_i,\\cos\\theta_i)$ describes the spin texture with polar angle $\\theta_i$ and azimuthal angle $\\phi_i$. The model uses the adiabatic limit $J_H/t=100$ so that electronic spins align with the local magnetization. For a Néel-type skyrmion texture, $\\theta_i=\\pi(1-r_i/\\lambda)$ where $\\lambda$ is the skyrmion radius and $r_i$ is the radial distance, and $\\phi_i=m\\alpha_i+\\gamma$ with vorticity $m=1$ and helicity $\\gamma=0$ ($\\alpha_i$ being the azimuthal coordinate). This model is augmented by a Rashba term $\\mathcal{H}_R = \\alpha\\left[\\sigma_x\\sin(k_y a)-\\sigma_y\\sin(k_x a)\\right]$, where $\\alpha$ is the Rashba coefficient, $a$ is the lattice constant, and $k_x$, $k_y$ are wavevector components. The topological Hall conductivity $\\sigma_{xy}^{\\mathrm{THC}}$ is evaluated via the Kubo formula $\\sigma_{xy}^{\\mathrm{THC}} = \\frac{e^2}{h}\\frac{2\\pi}{S_A}\\sum_{n,\\vec{k}}^{\\mathrm{occ}}\\Omega_n^z(\\vec{k})$, where $e$ is the electron charge, $h$ is Planck's constant, $S_A$ is the surface area of the skyrmion lattice unit cell, $n$ is the band index, $\\vec{k}$ is the wavevector, and $\\Omega_n^z(\\vec{k})$ is the $z$ component of the Berry curvature for the $n$th band: $\\Omega_n^z(\\vec{k})=2\\mathrm{Im}\\sum_{m\\neq n}\\frac{\\langle n\\vec{k}|\\partial_{k_x}\\mathcal{H}|m\\vec{k}\\rangle\\langle m\\vec{k}|\\partial_{k_y}\\mathcal{H}|n\\vec{k}\\rangle}{(E_{n\\vec{k}}-E_{m\\vec{k}})^2}$, with $|n\\vec{k}\\rangle$ and $E_{n\\vec{k}}$ being the eigenstates and eigenvalues. The calculations demonstrate that (i) in the absence of Rashba ($\\alpha=0$) the model yields a nonzero $\\sigma_{xy}^{\\mathrm{THC}}$ that becomes quantized (integer multiples of $e^2/h$) when the Fermi energy lies in a band gap of the skyrmion crystal, and (ii) finite Rashba coupling ($\\alpha/t=\\pm 0.5$ shown) alters the band structure and changes the magnitude and sign of $\\sigma_{xy}^{\\mathrm{THC}}$ in a manner that depends on the sign and magnitude of $\\alpha$, indicating that Rashba interaction at an interface can enhance, reduce, or reverse the topological Hall conductivity depending on electronic details.",
+        "content_hash": "cca27b731962d28650bc39bd3b17ef7ee24b4c3cb3d6171fe6914a34badc77b7",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_feda117ec14043b9",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1088988091466645513::conclusion_7",
+            "package_id": "paper:1088988091466645513",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1088988091466645513"
+          ]
+        },
+        "rerank_score": 0.7421319234255129,
+        "role": "conclusion",
+        "score": 0.013333333333333334,
+        "title": "Tight-binding model of skyrmion lattice with Rashba interaction demonstrates modulation of topological Hall conductivity by Rashba coupling",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For the square-lattice Néel skyrmion crystal (4×4 magnetic unit cell, skyrmion radius λ=2 lattice constants) with Rashba SOC tuned to the empirically determined optimal strength α_R≈0.5 t/a (roughly twice the continuum estimate), the computed subband energies and dispersions (Fig.11 of the supplementary materials) are compared to the Landau levels of a square-lattice tight-binding model in a uniform magnetic field with flux per plaquette φ=±Φ₀/16. The topological Hall conductivity σ_xy for the skyrmion crystal (Fig.3(b)) displays prominent quantized plateaus at integer multiples of e²/h, matching the uniform-field quantized Hall conductivity.",
+        "content_hash": "5b189c82092c0513bc2952125716c02d5d270c0a79bd22496354a0acbd6a31bb",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_71269618cf694e93",
+        "kind": "highlight",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1063339603802456082::H1b",
+            "package_id": "paper:1063339603802456082",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1063339603802456082"
+          ]
+        },
+        "rerank_score": 0.7233189830100216,
+        "role": "premise",
+        "score": 0.007518796992481203,
+        "title": "Band-structure comparison with uniform magnetic field Landau levels",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "A microscopic, nonperiodic transport framework for evaluating charge and spin Hall responses of a single magnetic skyrmion is defined by the tight-binding itinerant-electron Hamiltonian\n      $H_{e} = -J_{H}\\sum_{i} c_{i}^{\\dagger}\\boldsymbol{\\sigma} c_{i}\\cdot \\mathbf{S}_{i} - t\\sum_{\\langle i,j\\rangle}\\left(c_{i}^{\\dagger}c_{j} + \\mathrm{h.c.}\\right)$,\n      where $c_{i}^{\\dagger}$ and $c_{i}$ are electron creation/annihilation operators on lattice site $i$, $\\boldsymbol{\\sigma}$ is the vector of Pauli matrices acting on itinerant spin, $J_{H}$ is the Hund's-rule (exchange) coupling between itinerant spin and the local magnetization $\\mathbf{S}_{i}$, and $t$ is the nearest-neighbor hopping amplitude. Open device-region transport is computed using the non-equilibrium Green's function (NEGF) formalism with semi-infinite terminal self-energies $\\Sigma_{m}$, retarded Green's function $G^{R} = [\\epsilon I - H_{e} - \\sum_{m}\\Sigma_{m}]^{-1}$, transmission coefficients $T_{m,n} = \\operatorname{Tr}[\\Gamma_{m} G_{mn}^{R}\\Gamma_{n}G_{mn}^{A}]$ (with $\\Gamma_{m}=i(\\Sigma_{m}-\\Sigma_{m}^{\\dagger})$), zero-temperature linear-response currents $I_{m}=(e/h)\\sum_{n}T_{m,n}\\delta\\mu_{n}$, and the terminal spin current operator used to evaluate spin currents. The transverse spin-Hall intensity is quantified by the spin Hall angle\n      $\\theta_{\\mathrm{TSH}} = \\left(\\frac{2e}{\\hbar}\\right)\\frac{I_{42}^{S_{z}}}{I_{13}}$,\n      where $I_{13}=I_{1}-I_{3}$ is the longitudinal charged current between terminals 1 and 3 and $I_{42}^{S_{z}}=I_{4}^{S_{z}}-I_{2}^{S_{z}}$ is the net transverse spin-$S_{z}$ current.",
+        "content_hash": "f0f38f8fc1420b3ed8f77f0b41a41496960ed2f206ac6b70be438b162c8c9af3",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_6f50c820b4aa4e39",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867746858313712598::conclusion_1",
+            "package_id": "paper:867746858313712598",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867746858313712598"
+          ]
+        },
+        "rerank_score": 0.8184214813679047,
+        "role": "conclusion",
+        "score": 0.011235955056179775,
+        "title": "Microscopic transport framework for single-skyrmion Hall responses",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In the $J_1$-$J_2$-$J_3$ classical Heisenberg model on a simple square lattice with competing exchange interactions, perpendicular anisotropy, Zeeman field, and the dipole-dipole interaction (DDI), a skyrmion that occupies a Bloch-type lowest-energy helicity ($\\eta=\\pm\\pi/2$) remains helicity-locked under a weak vertical spin-current-driven Slonczewski-like torque (current densities below the helicity-unlocking threshold) and undergoes translational motion with the helicity fixed. The direction of straight-line motion is opposite for the two Bloch helicities: a skyrmion with $\\eta=+\\pi/2$ moves in the opposite lateral direction to one with $\\eta=-\\pi/2$ for the same weak current pulse, enabling helicity read-out by observing motion. The spin-transfer torque term is $\\tau=-u\\mathbf{m}\\times(\\mathbf{m}\\times\\mathbf{p})$ with $u=\\frac{\\gamma_0\\hbar j P}{2 a e \\mu_0 M_S}$ and spin polarization $\\mathbf{p}=-\\hat{y}$. Here $\\gamma_0$ is the gyromagnetic ratio, $\\hbar$ the reduced Planck constant, $j$ the current density, $P=0.4$ the spin Hall angle, $a=4\\ \\mathring{\\mathrm{A}}$ the lattice constant, $e$ the electron charge, $\\mu_0$ the vacuum permeability, and $M_S=800$ kA m$^{-1}$ the saturation magnetization.",
+        "content_hash": "3fbe44b5a28243a92d76ae2c3aff43999377d72bce15ff15c8e5cd5a73ea41b7",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_512a21e9f784400c",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813085165587791874::conclusion_2",
+            "package_id": "paper:813085165587791874",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813085165587791874"
+          ]
+        },
+        "rerank_score": 0.7181405972011923,
+        "role": "conclusion",
+        "score": 0.005917159763313609,
+        "title": "Helicity-locked translational motion under weak current; opposite directions for opposite Bloch helicities",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For a tight-binding bilayer consisting of a nonmagnet (NM) and a ferromagnet (FM), where the NM is modeled by $s$ and $p$ orbitals (an $sp$ lattice) that produce a sizable intrinsic orbital Hall effect (OHE) and the FM is modeled by $d$ orbitals that possess finite spin-orbit coupling (SOC) with strength $\\alpha_{\\mathrm{so}}^{\\mathrm{FM}}>0$ while the NM SOC is set to zero, a nonzero orbital Hall current in the NM injects orbital angular momentum into the FM; the FM SOC converts the injected orbital accumulation $\\langle \\mathbf{L}(z)\\rangle$ at layer $z$ into a local spin accumulation $\\langle \\mathbf{S}(z)\\rangle$ in the FM, and the total spin accumulation $\\langle \\mathbf{S}\\rangle^{\\mathrm{FM}}=\\sum_{z\\in\\mathrm{FM}}\\langle\\mathbf{S}(z)\\rangle$ yields a finite torque $\\mathbf{T}=(J/\\hbar)\\hat{\\mathbf{M}}\\times\\langle\\mathbf{S}\\rangle^{\\mathrm{FM}}$ (i.e., an orbital torque) even when the NM has zero SOC. In the calculated Kubo responses (band-resolved and layer-resolved), the injected orbital Hall current reduces the edge orbital accumulation in the isolated NM and produces correspondingly finite $\\langle S_{y}(z)\\rangle$ values inside the FM; the exchange interaction then causes spin precession, producing oscillatory $\\langle S_{x}(z)\\rangle$ profiles in the FM.",
+        "content_hash": "d83e269a3c3dc5c0d06eb716ad9dfa6d88d1c9884cbef26dd5aae8913c2bb579",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_0dee6ed8697c45e9",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867751076625907919::conclusion_2",
+            "package_id": "paper:867751076625907919",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867751076625907919"
+          ]
+        },
+        "rerank_score": 0.7674474838001334,
+        "role": "conclusion",
+        "score": 0.009259259259259259,
+        "title": "Existence of orbital torque when SOC is present only in the ferromagnet",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Tight-binding numerical transport calculations on a square lattice (lattice constant $a_0$) using a four-terminal Landauer-Büttiker geometry with an embedded isolated skyrmion (radius $r_s=10a_0$) and exchange coupling $J=5t_0$ (where $t_0=\\hbar^2/2m^*a_0^2$ is the hopping in the absence of SOC, with effective electron mass $m^*$ and reduced Planck constant $\\hbar$) show that the topological Hall angle $\\theta_{\\mathrm{TH}}=(V_T-V_B)/(V_R-V_L)$ (with terminal voltages $V_T$, $V_B$, $V_R$, $V_L$ at top, bottom, right, and left leads) vanishes at a critical SOC hopping strength. The computed critical hopping is $t_{R(D)}^*\\approx0.17\\,t_0$, in close agreement with the analytical prediction $t_{R(D)}^*\\approx0.2\\,t_0$ derived from the condition $\\lambda_{R,D}^{c}\\approx r_s/2$ (where $\\lambda_{R(D)}=\\hbar^2/(2m^*\\beta_{R(D)})$ is the SOC characteristic length). The vanishing of $\\theta_{\\mathrm{TH}}$ occurs for Néel skyrmions (vorticity $q=+1$, helicity $\\gamma_c=0$ or $\\pi$) when tuning the Rashba SOC coupling $t_R$, and for Bloch antiskyrmions ($q=-1$, $\\gamma_c=\\pm\\pi/2$) when tuning the Dresselhaus SOC coupling $t_D$, consistent with the selection rules that only these combinations yield a nonzero linear-in-SOC averaged emergent field that can oppose the texture-induced field. The vanishing of $\\theta_{\\mathrm{TH}}$ is independent of the system lateral size for tested sizes $L=101a_0,\\,161a_0,\\,181a_0$ (with the skyrmion embedded in the central region), indicating that the effect is not a finite-size artifact.",
+        "content_hash": "1cfc1242daa76b86685649fe0402494110237c29791eaab960e428433314a308",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_1c8d90ef84ff4c4a",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812711532570869761::conclusion_5",
+            "package_id": "paper:812711532570869761",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812711532570869761"
+          ]
+        },
+        "rerank_score": 0.746842791880167,
+        "role": "conclusion",
+        "score": 0.009009009009009009,
+        "title": "Numerical confirmation: tight-binding Landauer-Büttiker calculations showing vanishing topological Hall signal at predicted SOC",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Tight-binding quantum transport calculations using the Hamiltonian\n      $$\n      H=-t\\sum_{\\langle ij\\rangle} c_i^\\dagger c_j - J\\sum_i c_i^\\dagger \\boldsymbol{\\sigma}\\!\\cdot\\!\\boldsymbol{S}_i\\, c_i\n      $$\n      in a four-terminal Landauer–Büttiker geometry show that a target skyrmion with net skyrmion number $Q=0$ generates a measurable Hall resistance $R_{H}$ and Hall angle $\\theta_{H}=(V_{T}-V_{B})/(V_{R}-V_{L})$ (with $V_{T,B,R,L}$ the terminal voltages computed from transmission coefficients) whose dependence on energy and on the texture radius is nonmonotonic and can change sign. In representative numerical parameters (system size $N\\times N=96\\times96$, hopping $t=1$, exchange $J=1/3$, target radius $r_{0}=48$) the computed Hall angle is (i) zero for $|E|<J$, (ii) exhibits a pronounced peak at the band-overlap edge $E\\approx 4t-J$, and (iii) as a function of $r_{0}$ at fixed energy $E=3.64$ shows a sign change near $r_{0}\\approx24$: for $r_{0}<24$ the Hall angle and $R_{H}$ are negative (outer-shell-dominated deflection), whereas for $r_{0}>24$ they are positive (inner-shell-dominated deflection); in the limit $r_{0}=0$ the Hall response vanishes as the system is ferromagnetic. Thus, even though the target skyrmion has zero net topological charge, it produces a quantum Hall signal whose magnitude and sign depend sensitively on energy and geometric parameters.",
+        "content_hash": "27798b7db289f4f4168e50f65d4c2a7213ac9607b59f0d306c8f23979a1e0dde",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_6b245e58afd545bb",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867772560236871844::conclusion_3",
+            "package_id": "paper:867772560236871844",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867772560236871844"
+          ]
+        },
+        "rerank_score": 0.7106133720815686,
+        "role": "conclusion",
+        "score": 0.007751937984496124,
+        "title": "Quantum transport: target skyrmion (Q = 0) produces a nonzero, nonmonotonic Hall angle and Hall resistance with radius- and energy-dependent sign change",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The tight-binding model exhibits a topological phase transition that can be driven either by tuning $t_{so}$ or by rotating the magnetization vector $\\mathbf{m}$; numerical evaluation of the nonequilibrium spin density as a function of magnetization polar angle $\\theta$ shows that when the system crosses the transition the intraband field-like component $\\delta S_{\\mathrm{FL}}$ drops abruptly while interband components (both field-like and damping-like) are sharply enhanced, resulting in a pronounced angular anisotropy of the generated spin densities and therefore of the spin-orbit torque tensor.",
+        "content_hash": "6b456247759c307f726e0f5abcc5b1aef9533698cbd7219fc380cf095473a9fb",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_8bdd3552c6a94a6c",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867769929053504284::conclusion_5",
+            "package_id": "paper:867769929053504284",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867769929053504284"
+          ]
+        },
+        "rerank_score": 0.8097426907899699,
+        "role": "conclusion",
+        "score": 0.006172839506172839,
+        "title": "Magnetization-direction-driven topological transition produces strong angular anisotropy of spin densities and torques",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Using the tight-binding model for Pd/Fe/Ir(111) with SOC, the TOMR is computed for N_sk = -1 skyrmions with radii ranging from approximately 0.5 nm to 2.5 nm (Fig. 5b). The TOMR remains nearly constant over this entire radius range, mirroring the constancy of the underlying chirality-driven orbital moment (Fig. 5a). The TOMR values for other N_sk values (-2, +1, +2, not shown in the main figure but described) follow the same scaling pattern.",
+        "content_hash": "210cfa75ad42983e8e9da78d77c3c6d6e8d40b41bc4d88f6f0c91c6677796c9c",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_dfead06f5eb44132",
+        "kind": "highlight",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811095293134110721::H6",
+            "package_id": "paper:811095293134110721",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811095293134110721"
+          ]
+        },
+        "rerank_score": 0.7015174678873615,
+        "role": "premise",
+        "score": 0.010752688172043012,
+        "title": "Tight-binding calculation of TOMR shows insensitivity to skyrmion radius",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In the tight-binding model of the FM-TI heterostructure (with TI layers modeled by a $4\\times4$ effective Dirac-type Hamiltonian and FM layers by a $2\\times2$ parabolic Hamiltonian), each ferromagnetic layer is represented by a single parabolic band per spin channel with Zeeman splitting $\\Delta$ and nearest-neighbor hopping $t_0$. This minimal band description is assumed to be sufficient to capture the spin current absorption from the TI bulk and the resulting SOT magnitude across all transport regimes, such that the computed ratio of bulk spin Hall torque to interfacial torque is reliable.Eq. (6)",
+        "content_hash": "000d53acb477a552bb8e7121226eb9e9e2ac7b4c483da852e832c0cacbcfc3c6",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_c209bc42fddc4b37",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813045292109660162::P1",
+            "package_id": "paper:813045292109660162",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813045292109660162"
+          ]
+        },
+        "rerank_score": 0.7897984336084325,
+        "role": "premise",
+        "score": 0.007462686567164179,
+        "title": "Parabolic FM model underestimates bulk SHE",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The paper derives both the spin-orbit torque coefficients and the transport parameters (conductivity $\\sigma$ and mean free path $\\ell_0$) from the same tight-binding model (Hamiltonian $H = H_0 + \\sum_i V_i c_{i\\sigma}^\\dagger c_{i\\sigma}$) and the same disorder realizations, using the same scattering-state framework. The transport parameters are extracted by fitting the disorder-averaged two-terminal conductance to a scaling form (Eq. 12) across multiple sample lengths for each Néel orientation, ensuring that the torque magnitudes are associated with well-characterized transport regimes.",
+        "content_hash": "a7f066b844db5687645e23f88d4368978d2ce7b02e554de9bc36237a13a8652d",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_59af7aac80ef4a86",
+        "kind": "highlight",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812706231067082755::H6",
+            "package_id": "paper:812706231067082755",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812706231067082755"
+          ]
+        },
+        "rerank_score": 0.7546768221671991,
+        "role": "premise",
+        "score": 0.011764705882352941,
+        "title": "Self-consistent extraction of transport parameters from same tight-binding model",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The tight-binding model for magic-angle (θ=1.08°) twisted bilayer graphene (TBG) with a commensurate skyrmion lattice (SkL) that produces the phase diagram of total Chern number as a function of uniform magnetization m0 and SkL amplitude μ uses an on-site spin-orbit coupling term H_s(r_i)=σ·m(r_i) (with σ Pauli matrices and m(r_i) the SkL magnetization field) to represent the SkL effect. The inter-site hopping integrals t_{ij} are taken from the pristine bilayer (without SkL) and are assumed to be unaffected by the magnetic texture. The critical threshold μ_c ≈ 4 meV and the shape of the |C|=2 region in the (m0, μ) plane are computed within this on-site-only model.",
+        "content_hash": "ceb6ba8ce973271d4fd824f8278b497b6a864d221e47d71ab6ac541f0773b091",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_273d741806fb4bd4",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867763047706395105::P3",
+            "package_id": "paper:867763047706395105",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867763047706395105"
+          ]
+        },
+        "rerank_score": 0.6966219500339161,
+        "role": "premise",
+        "score": 0.006493506493506494,
+        "title": "On-site-only spin-orbit coupling approximation used to compute the phase diagram for TBG with skyrmion lattice",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In a tight-binding honeycomb model with Rashba-like spin-orbit coupling $t_{\\mathrm{so}}=0.4\\,\\text{eV}$, nearest-neighbour hopping $t=-1.0\\,\\text{eV}$ and exchange splitting $\\lambda=1.4\\,\\text{eV}$ (parameters chosen such that the ferromagnetic host exhibits a mixed Weyl point as a function of the magnetization direction unit vector $\\hat{\\mathbf{m}}$), electronic states appear inside the ferromagnetic bulk gap $[-0.3,+0.3]\\,\\text{eV}$ that are strictly localized to the skyrmion domain-wall region (the spatial region where magnetization lies in-plane) and vanish in both the skyrmion core and the ferromagnetic background. These states are observed for multiple parametrizations of the skyrmion profile (varying domain-wall width parameters $d$ or $a$, which control the width of the in-plane magnetization region) and remain confined to the ring-shaped domain wall irrespective of the wall width.",
+        "content_hash": "8b05d86abb600a4dc203b4103183074ef303f259a02ddfd040a66446174b2620",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_bff62e301e5742c4",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867767135101780008::conclusion_1",
+            "package_id": "paper:867767135101780008",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867767135101780008"
+          ]
+        },
+        "rerank_score": 0.7316051690008134,
+        "role": "conclusion",
+        "score": 0.0136986301369863,
+        "title": "Existence and spatial localization of mixed topology ring states (MTRS)",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The integrated formulas reproduce the sign of the skyrmion Hall velocity for both spin-transfer torque and spin-orbit torque and are shown to match the micromagnetic simulation curves for the STT-only sweep over $\\beta$.",
+        "content_hash": "2cd612933f0db5e5f1a42420b22a2f940e7bd121222ced7a08f1968f81ae8667",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_b564093f59304c0f",
+        "kind": "highlight",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867751344318972635::H3",
+            "package_id": "paper:867751344318972635",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867751344318972635"
+          ]
+        },
+        "rerank_score": 0.6959893640330614,
+        "role": "premise",
+        "score": 0.0067526152337365145,
+        "title": "Approximate skyrmion velocity equations from integrated domain wall dynamics",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In a tight-binding model of Dirac electrons coupled to classical spins on a square lattice, in the strong exchange coupling limit (large J) and at very low doping (single electron added above charge neutrality), the formation of a Néel-type skyrmion (vorticity 1) with the added electron bound to it is energetically favorable compared to the uniform ferromagnetic state. This is demonstrated by a variational calculation on a 50×50 lattice with a momentum cutoff k_UV consistent with Dirac cone dispersion; the optimal skyrmion radius b satisfies lattice spacing a ≲ b ≲ 1/k_UV. The binding is enabled by the in-plane component of the realistic skyrmion profile (δ>0 in a simplified model, full smooth profile in numerics), which breaks particle-hole symmetry and produces a downward spectral shift of bound state energies, making the charged skyrmion energetically favorable even at zero external magnetic field.",
+        "content_hash": "9148be82abc73f35fbe2b7ce9d9af1e8692e7b2da9b89d183aaaee9cfaf00454",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_3270c7e6442a4a33",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817363099827830784::conclusion_1",
+            "package_id": "paper:817363099827830784",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817363099827830784"
+          ]
+        },
+        "rerank_score": 0.6904569910191646,
+        "role": "conclusion",
+        "score": 0.00625,
+        "title": "Charged skyrmion formation at zero external field",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In a tight-binding model of a ferromagnetic conductor (square lattice, exchange splitting $\\Delta = 2t/3$ with $t$ the hopping parameter, sample width $W=128a_{0}$ where $a_{0}$ is the lattice constant) with a single skyrmion described by the arctan magnetization profile, the computed topological Hall angle $\\theta_{\\mathrm{TH}}$ and topological spin Hall angle $\\theta_{\\mathrm{TSH}}$ are found to saturate to a constant value for skyrmion radii $r_{s}\\ge 2a_{0}$ and remain independent of $r_{s}$ for larger radii. This saturation is interpreted as evidence that the adiabatic approximation—in which itinerant electron spins remain aligned with the local magnetization direction—is valid even for few-atom skyrmions, because the total emergent magnetic flux quantized by the skyrmion's topological charge is the sole determinant of the transverse response. However, the Hall angles are integrated transport coefficients that could saturate through flux-cancellation mechanisms even if non-adiabatic spin mistracking (spins deviating from the local texture) is present; the paper does not compute any direct measure of spin alignment (e.g., the local spin density profile, spin torque magnitude, or the non-adiabatic component of the scattering matrix) to verify that the adiabatic condition holds for $r_{s}=2a_{0}$.Fig. 3",
+        "content_hash": "4ee20d3e0a6653ba1191f3c8ce49001aa9f9c7bd689d5e8d4604d852b8219062",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_102173f64b044e23",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867761392986358757::P2",
+            "package_id": "paper:867761392986358757",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867761392986358757"
+          ]
+        },
+        "rerank_score": 0.7788141465423075,
+        "role": "premise",
+        "score": 0.0070921985815602835,
+        "title": "Saturation does not directly test adiabaticity",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In the tight-binding honeycomb model (hopping $t=-1.0\\ \\mathrm{eV}$, Rashba spin-orbit coupling $t_{\\mathrm{so}}=0.4\\ \\mathrm{eV}$, exchange splitting $\\lambda=1.4\\ \\mathrm{eV}$) hosting a hexagonal Néel skyrmion lattice (supercell of 1568 atoms, skyrmion radius $R$, maximal skyrmion radius $R_{\\mathrm{max}}$ (half the side length of the hexagonal skyrmion lattice unit cell)), the mixed topology ring states (MTRSs) possess a well-defined sense of bound orbital current circulation around the skyrmion center (an orbital chirality) and contribute a localized orbital magnetic moment whose dominant contribution is the local-circulation part $M_{\\mathrm{orb}}^{LC}$ of the orbital magnetization $M_{\\mathrm{orb}}(\\mu)$ as a function of chemical potential $\\mu$. In the computed $M_{\\mathrm{orb}}(\\mu)$, the energetic positions of MTRSs produce characteristic sawtoothlike jumps; the orbital magnetization arising from these states has a common sign for all MTRSs at a given $R$, and this sign reverses as $R$ crosses a critical range ($R\\approx 0.8R_{\\mathrm{max}}$), corresponding to the change in the global balance of up/down magnetized domains.",
+        "content_hash": "da4e7b6a4a09757c8630c70b8e9179e85977b2924ec57bb7220719cfb84009d9",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_e7b35d0007d94e2b",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812544716942868481::conclusion_2",
+            "package_id": "paper:812544716942868481",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812544716942868481"
+          ]
+        },
+        "rerank_score": 0.7160433604551703,
+        "role": "conclusion",
+        "score": 0.006535947712418301,
+        "title": "Mixed topology ring states (MTRSs) carry a robust, localized orbital chirality and local-circulation–dominated orbital moment",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Several limitations and directions for future work are stated. The present simulations primarily include the Edelstein (Rashba/Edelstein) effect that produces a transverse nonequilibrium spin density and a dominant field-like torque; the spin Hall torque (and its predominantly damping-like character), which depends on the heavy-metal spin Hall angle and interface conductances, is not included and must be incorporated to simultaneously study spin-orbit and spin-Hall torques. Achieving that requires obtaining a tight-binding Hamiltonian of the heavy-metal/ferromagnet interface fitted to first-principles electronic structure and embedding it in a three-dimensional transport calculation (with at least four probes) so that bulk spin Hall generation, interfacial transmission, and lateral asymmetry are treated together. In addition, experimental realities such as non-uniform oxygen content and other atomic-scale variations in the wedge can further modify the interfacial potential profiles; quantifying how realistic oxide inhomogeneity alters the two Rashba terms and the thresholds for field-free switching remains unresolved. Finally, the derivation uses the adiabatic (frozen Green's function) approximation and a specific tight-binding discretization; assessment of non-adiabatic corrections, scaling to larger device sizes, and validation against full first-principles transport simulations are open tasks.",
+        "content_hash": "68087611a9c5720989a3fd825a7304c35404fe2587386157662b3e3fa7a033ad",
+        "id": "gcn_ddacab2e8dbc461b",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812847791498854402::open_question",
+            "package_id": "paper:812847791498854402",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812847791498854402"
+          ]
+        },
+        "rerank_score": 0.7208199808164684,
+        "role": "premise",
+        "score": 0.007936507936507936,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Magnetic skyrmions are nanoscale, noncoplanar spin textures of intense current interest because of their potential for low-energy manipulation in metallic devices. Prior theoretical understanding of skyrmion formation has been dominated by spin-only Hamiltonians that include Dzyaloshinskii–Moriya (DM) interactions or geometrical frustration; those spin models are appropriate descriptions for localized-moment (Mott-insulating) contexts but are conceptually inconsistent when applied to itinerant metallic magnets where spin-orbit coupling (SOC) and conduction electrons play an essential role. Consequently, there is no established microscopic electronic-Hamiltonian-based account that (i) derives skyrmion-stabilizing interactions from itinerant-electron physics together with SOC, (ii) explains both densely packed skyrmion crystals and experimentally reported sparse-skyrmion regimes in metallic thin films or constricted samples, and (iii) consistently predicts the electronic (transport and local-spectroscopic) signatures of such textures when SOC is present. Practically, conventional studies either (a) adopt phenomenological spin Hamiltonians whose microscopic justification in metals is unclear, or (b) use the standard double-exchange (DE) approximation without including Rashba SOC phases when analyzing electronic response; both approaches leave open whether skyrmions are actually stabilized by electronic mechanisms in metals, how sparse versus packed skyrmion arrangements emerge from electronic parameters, and how SOC modifies Hall response and local density-of-states (LDOS) features. These gaps prevent a direct, ab initio–style connection between measurable electronic observables (Hall conductivity, LDOS, Bott index) and the microscopic itinerant-electron mechanisms that could stabilize nanoscale skyrmions in metals.",
+        "content_hash": "8d1b928969c8d54a08ffec3f3088b726a1a6ee088e4427e16d6345bd796f6473",
+        "id": "gcn_dd304667969643a9",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812514720455065603::problem",
+            "package_id": "paper:812514720455065603",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812514720455065603"
+          ]
+        },
+        "rerank_score": 0.7072464204697715,
+        "role": "premise",
+        "score": 0.00666851903306474,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In the tight-binding model of the FM(5)/NM(40) bilayer, when spin-orbit coupling in the nonmagnetic layer is turned off, the self-torque arising solely from spin accumulation inside the ferromagnet is computed. The fieldlike self-torque has the same sign as the torque in the full spin-orbit coupling case (both layers), while the dampinglike self-torque has the opposite sign. Its magnitude is about four to five times smaller than the torque when both layers have spin-orbit coupling, consistent with the ratio of the ferromagnet spin-orbit coupling energy $\\xi_{\\mathrm{soc}}^{\\mathrm{FM}} \\approx 0.065$ eV to the nonmagnetic metal spin-orbit coupling energy $\\xi_{\\mathrm{soc}}^{\\mathrm{NM}} \\approx 0.367$ eV. This self-torque is large enough to potentially induce magnetic excitations.",
+        "content_hash": "239e6f3d47a572e187510813e4decee3280d2cdc06087d4c1ef9d8900370101a",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_65f6ec0646614314",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817400018834030593::conclusion_7",
+            "package_id": "paper:817400018834030593",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817400018834030593"
+          ]
+        },
+        "rerank_score": 0.7170035675952766,
+        "role": "conclusion",
+        "score": 0.006211180124223602,
+        "title": "Self-torque from ferromagnet is sizable and sign-sensitive",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For a single, nonperiodic skyrmion embedded in a multi-terminal device, prior transport descriptions based on bulk or periodic approximations cannot capture the boundary-driven charge accumulation, terminal voltage development, and open-terminal spin currents that determine whether a skyrmion produces a transverse charge Hall voltage or a pure transverse spin current. A quantitatively reliable method is required that (i) treats the lack of spatial periodicity of a single skyrmion, (ii) includes the leads as reservoirs with self-energies so open-boundary charge and spin currents can be computed, and (iii) provides energy-resolved charge and spin terminal currents and chemical-potential distributions so the competing roles of emergent gauge forces and electrostatic accumulation can be distinguished. The implemented NEGF tight-binding framework directly addresses these needs by combining a microscopic $s$-like tight-binding Hund-coupled Hamiltonian with semi-infinite-lead self-energies and explicit formulas for terminal spin currents and $\\theta_{\\mathrm{TSH}}$, enabling controlled, quantitative predictions for single-skyrmion transport that were previously unavailable.",
+        "content_hash": "96c4d3f1d3d60eafebdfd737cdc458b036d55502b32ab9360780340d6f828743",
+        "id": "gcn_4976c163c49a4739",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814614787601203201::conclusion_1_subproblem",
+            "package_id": "paper:814614787601203201",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814614787601203201"
+          ]
+        },
+        "rerank_score": 0.7609909504704435,
+        "role": "premise",
+        "score": 0.01780185758513932,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Although spin–orbit coupling is known to be essential for intrinsic AHE, its influence on the topological Hall effect originating from a skyrmion texture was not previously established. In a clean system, it was an open question whether increasing SOC would increase the conductance associated with THE (via enhanced spin–orbit torques or modified Berry phases), decrease it (by introducing spin-flip processes that destroy the adiabatic following of the magnetization), or leave it unchanged. Moreover, even if the conductance were unaffected, the Hall resistance might still change through modifications of the longitudinal conductance, but no quantitative separation of these effects existed for the multi-band MTI model.",
+        "content_hash": "32f5ea804395719a0a32b6e68e17ed2490d28b0ecec64e29c353b22b8e8cd6dc",
+        "id": "gcn_6f4377ed974a4d41",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812509720882446339::conclusion_2_subproblem",
+            "package_id": "paper:812509720882446339",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812509720882446339"
+          ]
+        },
+        "rerank_score": 0.7032858520590408,
+        "role": "premise",
+        "score": 0.006993006993006993,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Understanding how the magnitude of spin–orbit coupling affects both the measurable transverse voltages/currents and the spin Hall conductance is crucial for predicting whether materials or device regimes with strong RSOC will enhance or suppress spin-Hall-related observables. Prior to this work the interplay between increasing RSOC strength and the competing trends of larger transverse voltages/spin currents but smaller or vanishing $G_{SH}$ (including the proposed LDOS suppression mechanism) had not been demonstrated for angle-varied Y-junction tight-binding devices; without such results one cannot assess whether stronger RSOC always helps detection or can instead destroy the measurable spin Hall response.",
+        "content_hash": "0e70703c74a54ec890c354e060f7e711be17186868a98499c73e200d8d1a9d9b",
+        "id": "gcn_d8002e6f3ae94d9e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811037968205611009::conclusion_8_subproblem",
+            "package_id": "paper:811037968205611009",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811037968205611009"
+          ]
+        },
+        "rerank_score": 0.7385921691685734,
+        "role": "premise",
+        "score": 0.0125,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Ballistic tight-binding transport calculations for isolated skyrmions (large $401\\times401$ lattice, lattice constant $a_{0}$, exchange $J_{\\mathrm{sd}}=2t/3$ with $t$ the hopping parameter, bias $eV=0.1J_{\\mathrm{sd}}$) show that: (i) the local adiabatic torque is dominated by the longitudinal spin current component $J_{s}^{x}$, while the contribution from the transverse spin current $J_{s}^{y}$ to the adiabatic torque is at least an order of magnitude smaller; (ii) the local nonadiabatic torque is dominated by the transverse spin current $J_{s}^{y}$ whereas the longitudinal contribution is small; (iii) the torque computed from local spin density and from divergence of local spin current coincide for skyrmion radii $r_{0}\\gtrsim 10\\,a_{0}$, indicating negligible spin mistracking and validating the adiabatic transport assumption in that regime. These numerical results corroborate the analytical identification of the topology-induced transverse spin current as the main source of intrinsic nonadiabatic torque.",
+        "content_hash": "e4935f41528dd5a52d73c74796ec39008766f3f55f8aab8d444766b223819ed4",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_f10b3d92f29a4c6a",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811056663078371329::conclusion_8",
+            "package_id": "paper:811056663078371329",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811056663078371329"
+          ]
+        },
+        "rerank_score": 0.7500977480123062,
+        "role": "conclusion",
+        "score": 0.0125,
+        "title": "Tight-binding numerical confirmation of torque-component origins and validity of adiabatic approximation for skyrmion radii $\\geq 10 a_0$",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In the p-orbital tight-binding model, the Hall conductivity σxy of a skyrmion tube (ST), single-surface bobber (SSB), and twin-surface bobber (TSB) is computed using identical electronic structure parameters (hopping, exchange, spin-orbit) and identical film geometry except for the spin texture itself (relaxed from separate initial configurations).",
+        "content_hash": "0052057b06b8a800e6207c619a40fa341ee0a8e499f71d6612e3aa58436dd6c4",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_621588682d2548f3",
+        "kind": "highlight",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867755136485687984::H1",
+            "package_id": "paper:867755136485687984",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867755136485687984"
+          ]
+        },
+        "rerank_score": 0.7072109137216219,
+        "role": "premise",
+        "score": 0.01824763227054098,
+        "title": "Controlled comparison between spin textures",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The topological Hall resistivity $\\rho_{xy}^{\\mathrm{TH}}$ for the multilayer skyrmion chain is computed using a single-orbital tight-binding model described by the Hamiltonian $H_{\\mathrm{e}} = \\sum_{i} \\mathbf{c}_{i}^{\\dagger} \\boldsymbol{\\epsilon}_i \\mathbf{c}_i - t \\sum_{\\langle i,j\\rangle} (\\mathbf{c}_{i}^{\\dagger} \\mathbf{c}_j + \\mathrm{H.c.}) - J_{\\mathrm{H}} \\sum_{i} \\mathbf{c}_{i}^{\\dagger} \\boldsymbol{\\sigma} \\mathbf{c}_i \\cdot \\mathbf{m}_i$, where $J_{\\mathrm{H}} = 5t$ is the Hund coupling ($t$ is the nearest-neighbour hopping integral), on a cubic lattice with perfect periodic geometry and no impurity scattering. The model neglects the multi-orbital nature of Co d-bands, spin-orbit coupling (beyond the Berry-phase coupling to the local magnetization), and disorder. In real Co-based multilayers, the TH signal arises from the Berry curvature of multiple bands; the simplification to a single orbital with $J_{\\mathrm{H}} \\gg t$ might change the quantitative relation between $\\rho_{xy}^{\\mathrm{TH}}$ and the topological charge density.",
+        "content_hash": "c2395716f48242d5ceff6425666def2f098c49d84a2bee5934ab4b29573a2b78",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_7b07bfaa5a1e433f",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867753393169367903::P6",
+            "package_id": "paper:867753393169367903",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867753393169367903"
+          ]
+        },
+        "rerank_score": 0.6542699140320569,
+        "role": "premise",
+        "score": 0.012658227848101266,
+        "title": "Simplified single-orbital tight-binding transport model may miss band-structure effects",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In a dense triangular lattice of approximately 380 Néel skyrmions (each with topological charge Q=-1, relaxed diameter ~15 nm) occupying the left half (x=0–1000 nm, y=0–1000 nm) of a 2000 nm × 1000 nm × 1 nm ferromagnetic layer with perpendicular magnetic anisotropy (K=0.8 MJ/m³), interfacial Dzyaloshinskii-Moriya interaction (D=3 mJ/m²), exchange constant A=15 pJ/m, saturation magnetization Ms=580 kA/m, Gilbert damping α=0.3, and with periodic boundary conditions in y and open boundaries in x, each skyrmion moves with an intrinsic skyrmion Hall angle approximately 0° (purely +x direction) when driven by damping-like spin-orbit torque at current densities j=0.3, 0.5, 0.7, 0.9 MA/cm² and spin-polarization angle θ=201°, before encountering the funnel obstacle or the layer edges.",
+        "content_hash": "541c6bcbb35f13a2868796c6aa6960dbb094094d51ab3e852150fa00b64a68cc",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_55e392733f1a483b",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867765936298394125::P2",
+            "package_id": "paper:867765936298394125",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867765936298394125"
+          ]
+        },
+        "rerank_score": 0.639862096516757,
+        "role": "premise",
+        "score": 0.006993006993006993,
+        "title": "Zero intrinsic skyrmion Hall angle for each skyrmion in dense triangular lattice at spin-polarization angle θ=201°",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In the existing literature on transport in skyrmion metals, it is common practice to use the standard double-exchange model (without spin-orbit coupling) to study the response of itinerant electrons to magnetic textures, even when the textures themselves are stabilized by spin-orbit interactions such as Dzyaloshinskii-Moriya terms or Rashba coupling. This inconsistency can lead to qualitatively incorrect predictions for the spatial distribution of electronic charge, affecting interpretations of STM and Hall effect measurements.",
+        "content_hash": "9e76ce32518b31b9e9c4564505ecc73659d420aba29624ae13535a6c8a9f27e2",
+        "id": "gcn_d239394c7031455f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817399071823101952::conclusion_7_subproblem",
+            "package_id": "paper:817399071823101952",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817399071823101952"
+          ]
+        },
+        "rerank_score": 0.6743932922192478,
+        "role": "premise",
+        "score": 0.006802721088435374,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The mapping between the emergent magnetic flux density B_{\\mathrm{sk}}(x,y) = n\\cdot(\\partial_x n\\times\\partial_y n) and the site-resolved orbital moment in model skyrmion lattices is established using a tight-binding model constructed as follows: two degenerate orbitals |x^2-y^2⟩ and |xy⟩ are placed on a hexagonal lattice with C_{3v} symmetry, nearest-neighbour hopping only, a local exchange coupling term that aligns the itinerant electron spin to a prescribed static spin texture n(x,y), and model parameters (on-site energies and hoppings) taken from the ferromagnetic DFT density of states for Pd/Fe/Ir(111); the calculations of the site-resolved orbital moments for the chirality-driven mapping are performed with the spin-orbit coupling omitted and use a large hexagonal unit cell containing 961 magnetic sites.\n      Fig. 4(a), Fig. 4(b), Fig. 4(c), Fig. 4(d)",
+        "content_hash": "42903e2f8330379b7b524756105d4b32fbc6ef71ce39b5dc93c417a1d2a50832",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_e184c168d0194892",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867762442359276449::P4",
+            "package_id": "paper:867762442359276449",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867762442359276449"
+          ]
+        },
+        "rerank_score": 0.7305497414855335,
+        "role": "premise",
+        "score": 0.008064516129032258,
+        "title": "Tight-binding two-orbital model construction used to map emergent flux to site orbital moments",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In a ferromagnetic thin film (CoFeB, saturation magnetization \\( M_S = 1.2 \\times 10^6 \\) A/m, thickness \\( h = 1.4 \\) nm) with a square array of non-conductive circular holes (antidots) of diameter 250 nm and lattice constant 512 nm, where skyrmions (Néel-type, radius \\( R_{sk} = 43.2 \\) nm, domain wall width \\( \\Delta = 17 \\) nm) are repelled by the holes and relax at valleys between four neighboring holes, the Thiele equation \\( \\mathbf{G} \\times \\dot{\\mathbf{r}} - \\alpha \\mathbf{D}\\dot{\\mathbf{r}} + \\mathbf{F}_\\mathbf{j} + \\mathbf{F}_{ad} = 0 \\) accurately describes the current-driven motion of the skyrmion center \\( \\mathbf{r} \\). The gyromagnetic coupling vector has magnitude \\( G = 4\\pi \\) (winding number \\( w = -1 \\)), the dissipative tensor has magnitude \\( D = 5.73\\pi \\), and \\( \\alpha \\) is the damping constant. The current-induced force for spin transfer torque (STT) is \\( \\mathbf{F}_\\mathbf{j}^{\\mathrm{STT}} = \\mathbf{G} \\times b_j \\mathbf{j}_{\\mathrm{FM}}(\\mathbf{r},t) \\) with \\( b_j = |\\mu_B/eM_S| \\), \\( \\mu_B \\) the Bohr magneton, \\( e \\) the elementary charge, and \\( \\mathbf{j}_{\\mathrm{FM}} \\) the current density in the ferromagnetic layer; for spin orbit torque (SOT) it is \\( \\mathbf{F}_\\mathbf{j}^{\\mathrm{SOT}} = (\\gamma \\hbar C / (2|e|M_S h)) \\theta_{\\mathrm{SH}} \\mathbf{j}_{\\mathrm{HM}}(\\mathbf{r},t) \\), where \\( \\gamma \\) is the gyromagnetic ratio, \\( \\hbar \\) the reduced Planck constant, \\( \\theta_{\\mathrm{SH}} \\) the spin Hall angle, \\( \\mathbf{j}_{\\mathrm{HM}} \\) the current density in the heavy metal layer, and \\( C = \\pi \\int_0^\\infty [\\partial\\theta/\\partial r + \\sin 2\\theta/(2r)] r dr \\) with \\( \\theta(r) = 2\\arctan[\\sinh(R_{sk}/\\Delta)/\\sinh(r/\\Delta)] \\). The force from the antidot lattice is \\( \\mathbf{F}_{ad} = -(\\gamma/(M_s h)) \\nabla V(\\mathbf{r}) \\), where the periodic repulsive potential \\( V \\) is obtained by interpolating quasi-isoenergy contours from micromagnetic simulations (Mumax3). The current density distributions are applied as rectangular pulses of width \\( \\Delta t \\) and are taken as uniform or nonuniform (the latter computed via finite-element method Comsol assuming an ohmic conductor with the hole). This model predicts skyrmion trajectories that agree quantitatively with full micromagnetic simulations for the tested current pulse parameters (current density up to 400 GA/m², pulse width up to 400 ns, damping \\( \\alpha \\) between 0.03 and 0.3).",
+        "content_hash": "078c13b467e816292900ecb2c64feb0d0e0d3b190eecdf6046314f0c15d0a4ae",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_cf5e099981dc4462",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817400052967276546::conclusion_1",
+            "package_id": "paper:817400052967276546",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817400052967276546"
+          ]
+        },
+        "rerank_score": 0.6734605964757113,
+        "role": "conclusion",
+        "score": 0.0064516129032258064,
+        "title": "Semianalytical Thiele model for skyrmion dynamics in an antidot lattice",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In a Co(1 nm)/Pt(3 nm) bilayer with interfacial Dzyaloshinskii-Moriya interaction (DMI) of 1.5 mJ/m², saturation magnetization 600 kA/m, exchange stiffness 10 pJ/m, and perpendicular anisotropy 380 kJ/m³, including the interfacial spin-transfer torque (ISTT) in addition to the spin-orbit torque (SOT) yields a skyrmion Hall angle (SkHA) that decreases with decreasing skyrmion diameter for diameters below 100 nm, in agreement with experimental observations, whereas the SOT-only model predicts an increasing SkHA with decreasing diameter.",
+        "content_hash": "c148ddf72da193e15641232937b70a00ef8aa03df94d93210b56ee27fd6060fb",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_9dd0e6d3fe6c42d0",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817399760280354817::conclusion_1",
+            "package_id": "paper:817399760280354817",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817399760280354817"
+          ]
+        },
+        "rerank_score": 0.6677743017805905,
+        "role": "conclusion",
+        "score": 0.01294213598901099,
+        "title": "ISTT inclusion yields decreasing SkHA with decreasing diameter below 100 nm in Co/Pt bilayer",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The combination of interfacial spin-transfer torque (ISTT) and bulk spin-transfer torque (STT) with spin-orbit torque (SOT) reduces the net effective driving force on skyrmions for a given applied in-plane current density compared to SOT-only, leading to lower velocities and greater susceptibility to landscape disorder (surface roughness with 1 Å depth and 40 nm in-plane coherence length) in the elastic depinning regime; this enhanced disorder sensitivity produces a larger spread of skyrmion Hall angles (SkHA) for skyrmion collections (groups of interacting skyrmions), matching the experimental spread observed in Pt/Co/Ir multilayer wires that SOT-only modelling underestimates.",
+        "content_hash": "e07d18e11e7f2f51d9573524482bfcb5c3b4a76a7f6114adefc29bc0fa4d355b",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_2ba9501bed4343aa",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867747792313909843::conclusion_7",
+            "package_id": "paper:867747792313909843",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867747792313909843"
+          ]
+        },
+        "rerank_score": 0.6454500373996768,
+        "role": "conclusion",
+        "score": 0.006769936890418818,
+        "title": "ISTT reduces net driving force and increases disorder sensitivity in the depinning regime",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The work addresses the theory of spin-charge conversion in spatially nonuniform geometries and the lack of a consistent lattice-level description of charge and spin currents in spin-orbit-coupled tight-binding models needed to predict local charge responses to local spin injection. Physically, experiments and theory commonly treat spin-charge conversion via spatially uniform spin injection and use continuum Rashba models to obtain the spin Hall and inverse spin Hall effects. However, there are several gaps when one wants to treat mesoscopic, interface, and lattice-specific phenomena or local (point-like) spin injection: (i) the standard continuum formulas do not directly apply to lattice models used to study mesoscopic systems and finite geometries; (ii) the operator definitions of charge and, especially, spin currents are ambiguous in spin-orbit-coupled systems and different common prescriptions (time derivative of polarization, symmetrized spin–velocity operator, SU(2) gauge definition) give differing expressions and continuity-equation properties; (iii) the lattice form of spin-orbit coupling (SOC) as the generator of intrinsic spin current is not established in a gauge-consistent way for tight-binding models; (iv) because prior work focused on extended or uniform spin injection, the spatial profile of charge current induced by a local, time-dependent spin source (e.g., a precessing localized spin used as spin pump) has not been derived microscopically on the lattice, so it is unclear whether nontrivial spatial structures (such as vortices) appear, how they depend quantitatively on SOC strength, temperature, level broadening, and band structure, and how they compare to semiclassical (wave-packet) intuition. These deficiencies prevent controlled, quantitative predictions for local spin-to-charge conversion in mesoscopic/lattice settings, obstruct comparisons between numerical simulations and continuum theory, and hinder proposals for experimental detection of spatially resolved signatures (e.g., oscillation periods set by SOC parameters) of spin-orbit-mediated spin-charge conversion.",
+        "content_hash": "a5261bcb961c8001986646fb133e7d0960b98fac86c8597829e1fd855b51170d",
+        "id": "gcn_d0015b55a81540b3",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812334481380737026::problem",
+            "package_id": "paper:812334481380737026",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812334481380737026"
+          ]
+        },
+        "rerank_score": 0.6448625531469732,
+        "role": "premise",
+        "score": 0.0070921985815602835,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In a skyrmion lattice imprinted on a 2D mixed Weyl semimetal, described by a honeycomb-lattice tight-binding model with nearest-neighbor hopping t = −1.0 eV, Rashba spin-orbit coupling t_so = 0.4 eV, and Stoner exchange λ = 1.4 eV, the out-of-plane orbital magnetization M_orb is insensitive to the domain wall width (controlled by the steepness parameter a) and to the spin chirality of the skyrmion (the sense of rotation of the magnetization in the domain wall). This robustness is characteristic of the topological orbital magnetization (TOM), which arises from the Berry curvature of the occupied states and is determined by the overall magnetization texture, not the local details. The orbital magnetization does not exhibit a chiral contribution because the chiral part vanishes by symmetry for the symmetric Néel skyrmion profile used. The TOM remains constant across changes in the domain wall width, in contrast to the highly sensitive Hall conductance.",
+        "content_hash": "ad5f48937d10ca03060f9037cfe4b21868ac378dfb77b35966bc488b1b0e66c5",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_527a21f3165642d5",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817400205711245313::conclusion_3",
+            "package_id": "paper:817400205711245313",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817400205711245313"
+          ]
+        },
+        "rerank_score": 0.6680008666904094,
+        "role": "conclusion",
+        "score": 0.006500139288699044,
+        "title": "Robust topological orbital magnetization in honeycomb-lattice skyrmion lattice",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For the full self-consistent spin transport torque computed via the drift-diffusion solver for isolated Néel skyrmions in a disorder-free Co(1nm)/Pt(3nm) bilayer across a diameter range spanning 21 nm to 396 nm, the sum of the closed-form SOT term (Eq. 4) and ISTT term (Eq. 7) with four fitting parameters (θ_SHAeff, r_G, P_⊥, β_⊥) reproduces the total torque with a Pearson correlation coefficient R > 0.99, as reported in Appendix B.",
+        "content_hash": "90a14f8e421a6d820e7af89336fa13b3e4dbfe7f02d45877a36af287a4797bc7",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_192a207c1a9d4c19",
+        "kind": "highlight",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867771804138078337::H1",
+            "package_id": "paper:867771804138078337",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867771804138078337"
+          ]
+        },
+        "rerank_score": 0.6565974027185673,
+        "role": "premise",
+        "score": 0.010309278350515464,
+        "title": "High-fidelity torque parametrization",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Realizing electronic corner modes induced solely by boundary magnetism requires a microscopic lattice Hamiltonian that (i) preserves the intrinsic spin–orbit couplings responsible for quantum-spin-Hall-like edge modes in the bulk and (ii) models exchange coupling that is localized to zigzag edge sites with tunable orientation and sublattice dependence. Prior work either modified bulk mass terms or applied global magnetic fields; a concrete tight-binding model that restricts the exchange to the edges while keeping the Kane–Mele intrinsic spin–orbit term and allowing per-edge and per-sublattice control of $J$ and orientation was missing. The absence of such an explicit model prevented quantitative exploration of whether boundary-localized (anti)ferromagnetism suffices to gap edge modes anisotropically and produce corner-localized in-gap states in graphene-like flakes.",
+        "content_hash": "bca1445b82a877c33c6affedc200acb796027db704ce0dfdfbf524ea48086c12",
+        "id": "gcn_770ab01fa4234630",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1058628420809785359::conclusion_1_subproblem",
+            "package_id": "paper:1058628420809785359",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1058628420809785359"
+          ]
+        },
+        "rerank_score": 0.6267374760646508,
+        "role": "premise",
+        "score": 0.011764705882352941,
+        "type": "question",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "req_e22152a468aa3"
+}

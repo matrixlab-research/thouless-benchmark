@@ -1,0 +1,9 @@
+{
+  "code": 290004,
+  "error": {
+    "msg": "claim not found",
+    "reference": "",
+    "title": ""
+  },
+  "trace_id": "req_a7b2870211bc2"
+}

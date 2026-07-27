@@ -1,0 +1,1466 @@
+{
+  "code": 0,
+  "data": {
+    "has_more": true,
+    "papers": {
+      "paper:1005717531870101516": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Longjun Xiang | Hao Jin | Jian Wang",
+        "available_online": "",
+        "cover_date_start": "2024-06-04",
+        "created_at": "2026-05-18T14:00:52+08:00",
+        "doi": "10.48550/arxiv.2406.02257",
+        "en_title": "Intrinsic spin Hall effect from spin quantum metric",
+        "id": "1005717531870101516",
+        "keywords": "",
+        "publication_date": "2024-06-04",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "",
+        "zh_title": "源于自旋量子度规的内禀自旋霍尔效应"
+      },
+      "paper:1027222229949087755": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Han-Byul Kim | Taewon Yuk | Sang-Jin Sin",
+        "available_online": "",
+        "cover_date_start": "2024-07-30",
+        "created_at": "2026-06-02T18:23:06+08:00",
+        "doi": "10.48550/arxiv.2407.21098",
+        "en_title": "Topological transition as a percolation of the Berry curvature",
+        "id": "1027222229949087755",
+        "keywords": "",
+        "publication_date": "2024-07-30",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "拓扑转变作为贝里曲率的逾渗"
+      },
+      "paper:1043046535845117954": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Motohiko Ezawa",
+        "available_online": "",
+        "cover_date_start": "2024-09-14",
+        "created_at": "2026-06-17T06:33:58+08:00",
+        "doi": "10.48550/arxiv.2409.09241",
+        "en_title": "Intrinsic nonlinear conductivity induced by quantum geometry in altermagnets and measurement of the in-plane Néel vector",
+        "id": "1043046535845117954",
+        "keywords": "",
+        "publication_date": "2024-09-14",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "交变磁体中量子几何诱导的本征非线性电导率及面内奈尔矢量的测量"
+      },
+      "paper:1043407667852214279": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Harsh Varshney | Amit Agarwal",
+        "available_online": "",
+        "cover_date_start": "2024-09-17",
+        "created_at": "2026-06-10T13:17:23+08:00",
+        "doi": "10.48550/arxiv.2409.11108",
+        "en_title": "Intrinsic nonlinear Nernst and Seebeck effect",
+        "id": "1043407667852214279",
+        "keywords": "",
+        "publication_date": "2024-09-17",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "本征非线性能斯特效应和塞贝克效应"
+      },
+      "paper:1048481575555039233": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Giacomo Sala | Maria Teresa Mercaldo | Klevis Domi | Stefano Gariglio | Mario Cuoco | Carmine Ortix | Andrea D. Caviglia",
+        "available_online": "",
+        "cover_date_start": "2024-07-09",
+        "created_at": "2026-06-19T04:43:41+08:00",
+        "doi": "10.48550/arxiv.2407.06659",
+        "en_title": "The quantum metric of electrons with spin-momentum locking",
+        "id": "1048481575555039233",
+        "keywords": "",
+        "publication_date": "2024-07-09",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "具有自旋 - 动量锁定的电子的量子度量"
+      },
+      "paper:1056091918737342473": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Kazuki Nakazawa | Henry F. Legg | Jelena Klinovaja | Daniel Loss",
+        "available_online": "",
+        "cover_date_start": "2024-10-22",
+        "created_at": "2026-06-11T08:59:53+08:00",
+        "doi": "10.48550/arxiv.2410.16639",
+        "en_title": "Interband contributions to nonlinear transport in semiconductor nanostructures",
+        "id": "1056091918737342473",
+        "keywords": "",
+        "publication_date": "2024-10-22",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "半导体纳米结构中带间对非线性输运的贡献"
+      },
+      "paper:1063339611977154571": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Fang Qin | Ruizhe Shen | Ching Hua Lee",
+        "available_online": "",
+        "cover_date_start": "2024-11-10",
+        "created_at": "2026-06-12T00:07:13+08:00",
+        "doi": "10.48550/arxiv.2411.06509",
+        "en_title": "Nonlinear Hall effects with an exceptional ring",
+        "id": "1063339611977154571",
+        "keywords": "",
+        "publication_date": "2024-11-10",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "具有奇异环的非线性霍尔效应"
+      },
+      "paper:1065875950492712963": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Weiyao Zhao | Kaijian Xing | Yufei Zhao | Lei Chen | Min Hong | Yuefeng Yin | Yang Liu | Khoa Dang Le | Jacob Gayles | Fang Tang | Yong Fang | Binghai Yan | Julie Karel",
+        "available_online": "",
+        "cover_date_start": "2024-11-18",
+        "created_at": "2026-06-16T03:44:48+08:00",
+        "doi": "10.48550/arxiv.2411.11395",
+        "en_title": "Tuneable large nonlinear charge transport driven by the quantum metric at room temperatures in TbMn6Sn6",
+        "id": "1065875950492712963",
+        "keywords": "",
+        "publication_date": "2024-11-18",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "",
+        "zh_title": "室温下TbMn6Sn6中由量子度规驱动的可调谐大非线性电荷输运"
+      },
+      "paper:1071675180952059908": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "An-Qi Wang | Dong Li | Tong-Yang Zhao | Xing-Yu Liu | Jiantian Zhang | Xin Liao | Qing Yin | Zhen-Cun Pan | Peng Yu | Zhi-Min Liao",
+        "available_online": "",
+        "cover_date_start": "2024-12-04",
+        "created_at": "2026-06-19T04:59:13+08:00",
+        "doi": "10.48550/arxiv.2412.02937",
+        "en_title": "Orbital anomalous Hall effect in the few-layer Weyl semimetal TaIrTe4",
+        "id": "1071675180952059908",
+        "keywords": "",
+        "publication_date": "2024-12-04",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "少层外尔半金属TaIrTe₄中的轨道反常霍尔效应"
+      },
+      "paper:1092748085752234026": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Shivam Sharma | Abir De Sarkar",
+        "available_online": "",
+        "cover_date_start": "2025-01-27",
+        "created_at": "2026-06-15T03:46:05+08:00",
+        "doi": "10.48550/arxiv.2501.15835",
+        "en_title": "Nonlinear valley thermal physics in two dimensional materials",
+        "id": "1092748085752234026",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "二维材料中的非线性谷热物理学"
+      },
+      "paper:1106552492092555276": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Zesheng Zhang | Xin-Zhi Li | Wen-Yu He",
+        "available_online": "",
+        "cover_date_start": "2025-03-11",
+        "created_at": "2026-06-13T20:48:55+08:00",
+        "doi": "10.48550/arxiv.2503.07960",
+        "en_title": "Orbital Magnetization as the Origin of the Nonlinear Hall Effect and Its Implications",
+        "id": "1106552492092555276",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "轨道磁化作为非线性霍尔效应的起源及其影响"
+      },
+      "paper:1125036231449640970": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Xu Yang | Brian Skinner",
+        "available_online": "",
+        "cover_date_start": "2025-04-30",
+        "created_at": "2026-06-15T01:32:28+08:00",
+        "doi": "10.48550/arxiv.2505.00086",
+        "en_title": "Nonlinear thermoelectric effects as a means to probe quantum geometry",
+        "id": "1125036231449640970",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108483",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "非线性热电效应作为探测量子几何的一种手段"
+      },
+      "paper:1134915520953319509": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Yuan Fang | Shouvik Sur | Yonglong Xie | Qimiao Si",
+        "available_online": "",
+        "cover_date_start": "2025-05-22",
+        "created_at": "2026-06-13T02:24:05+08:00",
+        "doi": "10.48550/arxiv.2505.16999",
+        "en_title": "Nonlinear thermal and thermoelectric transport from quantum geometry",
+        "id": "1134915520953319509",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "源于量子几何的非线性热输运和热电输运"
+      },
+      "paper:1136995494036242434": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Xue Han | Jason Qu | Hengxin Tan | Zicheng Tao | Noah M. Meyer | Patrick S. Kirchmann | Yanfeng Guo | Binghai Yan | Zhi-Xun Shen | Jonathan A. Sobota",
+        "available_online": "",
+        "cover_date_start": "2025-06-03",
+        "created_at": "2026-06-17T07:43:35+08:00",
+        "doi": "10.48550/arxiv.2506.02466",
+        "en_title": "Reconstructing the wavefunction of magnetic topological insulators MnBi2Te4 and MnBi4Te7 using spin-resolved photoemission",
+        "id": "1136995494036242434",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108483",
+        "publication_name": "Materials Science",
+        "research_categories": "",
+        "zh_title": "利用自旋分辨光电子能谱重构磁性拓扑绝缘体MnBi₂Te₄和MnBi₄Te₇的波函数"
+      },
+      "paper:1147143194861895685": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Vivek Pandey | Pankaj Bhalla",
+        "available_online": "",
+        "cover_date_start": "2025-07-01",
+        "created_at": "2026-06-17T08:09:12+08:00",
+        "doi": "10.48550/arxiv.2507.00744",
+        "en_title": "Reshaping the anomalous Hall response in tilted 3D system with disorder correction",
+        "id": "1147143194861895685",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "通过无序修正重塑倾斜三维系统中的反常霍尔响应"
+      },
+      "paper:1155475380484702209": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Hiroki Yoshida | Takehito Yokoyama",
+        "available_online": "",
+        "cover_date_start": "2025-07-24",
+        "created_at": "2026-06-17T05:50:54+08:00",
+        "doi": "10.48550/arxiv.2507.18458",
+        "en_title": "Emergent-gravity Hall effect from quantum geometry",
+        "id": "1155475380484702209",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108485",
+        "publication_name": "Other Condensed Matter",
+        "research_categories": "",
+        "zh_title": "源于量子几何的涌现引力霍尔效应"
+      },
+      "paper:1159462780185608201": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Xiao-Bin Qiang | Tianyu Liu | Zi-Xuan Gao | Hai-Zhou Lu | X. C. Xie",
+        "available_online": "",
+        "cover_date_start": "2025-08-04",
+        "created_at": "2026-06-13T06:02:11+08:00",
+        "doi": "10.48550/arXiv.2508.02088",
+        "en_title": "A Clarification on Quantum-Metric-Induced Nonlinear Transport",
+        "id": "1159462780185608201",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "关于量子度量诱导的非线性输运的澄清"
+      },
+      "paper:1163085780185251850": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Jongjun M. Lee",
+        "available_online": "",
+        "cover_date_start": "2025-08-14",
+        "created_at": "2026-06-19T03:59:32+08:00",
+        "doi": "10.48550/arXiv.2508.10385",
+        "en_title": "Universal intrinsic orbital dynamics from Berry curvature in electronic two-band systems",
+        "id": "1163085780185251850",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "电子双带系统中源于贝里曲率的普适本征轨道动力学"
+      },
+      "paper:1169971681964326919": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "I. V. Solovyev",
+        "available_online": "",
+        "cover_date_start": "2025-08-30",
+        "created_at": "2026-06-12T00:48:48+08:00",
+        "doi": "10.48550/arXiv.2509.00369",
+        "en_title": "Hidden ferromagnetism of centrosymmetric antiferromagnets",
+        "id": "1169971681964326919",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108485",
+        "publication_name": "Other Condensed Matter",
+        "research_categories": "",
+        "zh_title": "中心对称反铁磁体的隐藏铁磁性"
+      },
+      "paper:1188453186415886340": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Srimayi Korrapati | Snehasish Nandy | Sumanta Tewari",
+        "available_online": "",
+        "cover_date_start": "2025-10-23",
+        "created_at": "2026-06-17T08:50:41+08:00",
+        "doi": "10.48550/arXiv.2510.20237",
+        "en_title": "Electric field induced Berry curvature dipole and non-linear anomalous Hall effect in higher wave symmetric unconventional magnets",
+        "id": "1188453186415886340",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "高波对称性非常规磁体中电场诱导的贝里曲率偶极子和非线性反常霍尔效应"
+      },
+      "paper:1200416026685079558": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Atul Rathor | Sahanawaj Akhtar | Arijit Haldar",
+        "available_online": "",
+        "cover_date_start": "2025-11-24",
+        "created_at": "2026-06-16T10:51:49+08:00",
+        "doi": "10.48550/arXiv.2511.19616",
+        "en_title": "Hidden Magnon Berry Curvature drives Vertical Magnon Transport",
+        "id": "1200416026685079558",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons",
+        "research_categories": "",
+        "zh_title": "隐藏的磁振子贝里曲率驱动垂直磁振子输运"
+      },
+      "paper:1203673201280811025": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Rhonald Burgos Atencia",
+        "available_online": "",
+        "cover_date_start": "2025-12-03",
+        "created_at": "2026-06-15T05:04:01+08:00",
+        "doi": "10.48550/arXiv.2512.04164",
+        "en_title": "Quantum geometry and linear orbital response in arbitrary SU(2) representation",
+        "id": "1203673201280811025",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "任意SU(2)表示中的量子几何与线性轨道响应"
+      },
+      "paper:1205122980372283404": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "John Tan | Oles Matsyshyn | Giovanni Vignale | Justin C. W. Song",
+        "available_online": "",
+        "cover_date_start": "2025-12-05",
+        "created_at": "2026-06-17T08:25:53+08:00",
+        "doi": "10.48550/arXiv.2512.06074",
+        "en_title": "Nonequilibrium Exchange Nonlinear Hall Effect",
+        "id": "1205122980372283404",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "非平衡交换非线性霍尔效应"
+      },
+      "paper:1217447580313583626": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Lassaad Mandhour | Frédéric Piéchon",
+        "available_online": "",
+        "cover_date_start": "2026-01-09",
+        "created_at": "2026-06-19T00:22:56+08:00",
+        "doi": "10.48550/arXiv.2601.05726",
+        "en_title": "Quantum geometric scattering of a Dirac particle by a Berry curvature domain wall",
+        "id": "1217447580313583626",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "狄拉克粒子在贝里曲率畴壁处的量子几何散射"
+      },
+      "paper:1225516013110427672": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Longjun Xiang | Jinxiong Jia | Jian Wang",
+        "available_online": "",
+        "cover_date_start": "2026-02-02",
+        "created_at": "2026-06-17T00:47:35+08:00",
+        "doi": "10.48550/arXiv.2602.02040",
+        "en_title": "Quantum Geometric Entropy Production and Entropy Hall Effect",
+        "id": "1225516013110427672",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108488",
+        "publication_name": "Statistical Mechanics",
+        "research_categories": "",
+        "zh_title": "量子几何熵产生与熵霍尔效应"
+      },
+      "paper:1225780552007680003": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Xuan Qian | Xiao-Bin Qiang | Wenkai Zhu | Yuqing Huang | Yiyuan Chen | Hai-Zhou Lu | Yang Ji | Kaiyou Wang",
+        "available_online": "",
+        "cover_date_start": "2026-02-03",
+        "created_at": "2026-05-16T22:43:25+08:00",
+        "doi": "10.48550/arXiv.2602.03636",
+        "en_title": "Probing quantum geometric nonlinear magnetization via second-harmonic magneto-optical Kerr effect",
+        "id": "1225780552007680003",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "通过二次谐波磁光克尔效应探测量子几何非线性磁化强度"
+      },
+      "paper:1225780552007680004": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Xiao-Bin Qiang | Xiaoxiong Liu | Hai-Zhou Lu | X. C. Xie",
+        "available_online": "",
+        "cover_date_start": "2026-02-03",
+        "created_at": "2026-05-16T20:50:52+08:00",
+        "doi": "10.48550/arXiv.2602.03597",
+        "en_title": "Quantum Christoffel Nonlinear Magnetization",
+        "id": "1225780552007680004",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "量子克里斯托费尔非线性磁化强度"
+      },
+      "paper:1243175682972844045": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Luca Maranzana | Koki Shinada | Ying-Ming Xie | Sergey Artyukhin | Naoto Nagaosa",
+        "available_online": "",
+        "cover_date_start": "2026-03-22",
+        "created_at": "2026-06-17T07:13:57+08:00",
+        "doi": "10.48550/arXiv.2603.21262",
+        "en_title": "Semiclassical Wave-Packet Dynamics in Phase-Space Geometry: Quantum Metric Effects",
+        "id": "1243175682972844045",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "相空间几何中的半经典波包动力学：量子度量效应"
+      },
+      "paper:1251123084874743822": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Shihao Zhang",
+        "available_online": "",
+        "cover_date_start": "2026-04-14",
+        "created_at": "2026-05-16T20:37:22+08:00",
+        "doi": "10.48550/arXiv.2604.12726",
+        "en_title": "Third-order optical response in d-wave altermagnets: Analytical and numerical results from microscopic model",
+        "id": "1251123084874743822",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "d波反铁磁体中的三阶光学响应：微观模型的解析和数值结果"
+      },
+      "paper:7465802858270425112": {
+        "area": "arxiv-cond-mat",
+        "authors": "Danyu Shu | Ryotaro Sano | Ai Yamakage | Hiroshi Funaki | Mamoru Matsuo",
+        "available_online": null,
+        "cover_date_start": "2026-05-26",
+        "created_at": "2026-06-02T16:38:55+08:00",
+        "doi": "10.48550/arxiv.2605.27059",
+        "en_title": "Quantum Geometric Origin of Hall Viscosity and Nonlocal Hall Conductivity in Lattice Bands",
+        "id": "7465802858270425112",
+        "keywords": null,
+        "publication_date": "2026-05-26",
+        "publication_id": "",
+        "publication_name": "arXiv (cond-mat.mes-hall)",
+        "research_categories": null,
+        "zh_title": "晶格带中霍尔粘度和非局部霍尔电导率的量子几何起源"
+      },
+      "paper:7465802858278813699": {
+        "area": "arxiv-cond-mat",
+        "authors": "T. Farajollahpour",
+        "available_online": null,
+        "cover_date_start": "2026-05-26",
+        "created_at": "2026-06-02T17:18:26+08:00",
+        "doi": "10.48550/arxiv.2605.27277",
+        "en_title": "Three Quantum-Geometric Contributions to Cubic Orbital Magnetization",
+        "id": "7465802858278813699",
+        "keywords": null,
+        "publication_date": "2026-05-26",
+        "publication_id": "",
+        "publication_name": "arXiv (cond-mat.mes-hall)",
+        "research_categories": null,
+        "zh_title": "三个量子几何对立方轨道磁化的贡献"
+      },
+      "paper:867753779963888506": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics, quantum physics",
+        "authors": "Daniel Kaplan | Tobias Holder | Binghai Yan",
+        "available_online": "",
+        "cover_date_start": "2022-11-30",
+        "created_at": "2026-06-17T01:25:06+08:00",
+        "doi": "10.48550/arXiv.2211.17213",
+        "en_title": "Unification of Nonlinear Anomalous Hall Effect and Nonreciprocal Magnetoresistance in Metals by the Quantum Geometry",
+        "id": "867753779963888506",
+        "keywords": "",
+        "publication_date": "2022-11-30",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "通过量子几何实现金属中非线性反常霍尔效应与非互易磁阻的统一"
+      },
+      "paper:867760507153548163": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Narjes Kheirabadi | Abdollah Langari",
+        "available_online": "",
+        "cover_date_start": "2022-12-20",
+        "created_at": "2026-06-14T16:48:06+08:00",
+        "doi": "10.48550/arXiv.2212.12410",
+        "en_title": "Quantum nonlinear planar Hall effect in bilayer graphene: an orbital effect of a steady in-plane magnetic field",
+        "id": "867760507153548163",
+        "keywords": "",
+        "publication_date": "2022-12-20",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "双层石墨烯中的量子非线性平面霍尔效应：平面内稳恒磁场的轨道效应"
+      },
+      "paper:867768156553216254": {
+        "area": "arXiv-Physics, Physical Sciences, Condensed Matter Physics, Quantum Physics",
+        "authors": "Hao Sun | Dhiman Bhowmick | Bo Yang | Pinaki Sengupta",
+        "available_online": "",
+        "cover_date_start": "2022-07-08",
+        "created_at": "2026-06-19T02:28:46+08:00",
+        "doi": "10.48550/arXiv.2207.03964",
+        "en_title": "Interacting topological Dirac magnons",
+        "id": "867768156553216254",
+        "keywords": "",
+        "publication_date": "2022-07-08",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "相互作用的拓扑狄拉克磁振子"
+      },
+      "paper:867768552390656209": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Cong Xiao | Huiying Liu | Jianzhou Zhao | Shengyuan A. Yang | Qian Niu",
+        "available_online": "",
+        "cover_date_start": "2020-02-05",
+        "created_at": "2026-05-16T18:46:53+08:00",
+        "doi": "10.48550/arXiv.2002.01637",
+        "en_title": "Thermoelectric Generation of Orbital Magnetization in Metals",
+        "id": "867768552390656209",
+        "keywords": "",
+        "publication_date": "2020-02-05",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "金属中轨道磁化的热电产生"
+      },
+      "paper:884073293311639781": {
+        "area": "arXiv-Physics, Physical Sciences, Condensed Matter Physics, Quantum Physics",
+        "authors": "Naizhou Wang | Daniel Kaplan | Zhaowei Zhang | Tobias Holder | Ning Cao | Aifeng Wang | Xiaoyuan Zhou | Feifei Zhou | Zhengzhi Jiang | Chusheng Zhang | Shihao Ru | Hongbing Cai | Kenji Watanabe | Takashi Taniguchi | Binghai Yan | Weibo Gao",
+        "available_online": "",
+        "cover_date_start": "2023-06-15",
+        "created_at": "2026-06-19T04:11:16+08:00",
+        "doi": "10.48550/arXiv.2306.09285",
+        "en_title": "Quantum metric-induced nonlinear transport in a topological antiferromagnet",
+        "id": "884073293311639781",
+        "keywords": "",
+        "publication_date": "2023-06-15",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "拓扑反铁磁体中量子度量诱导的非线性输运"
+      },
+      "paper:890158029784219959": {
+        "area": "arXiv-Physics, Physical Sciences, Condensed Matter Physics",
+        "authors": "Longjun Xiang | Bin Wang | Yadong Wei | Jian Wang",
+        "available_online": "",
+        "cover_date_start": "2023-07-14",
+        "created_at": "2026-06-19T00:54:00+08:00",
+        "doi": "10.48550/arXiv.2307.07145",
+        "en_title": "Intrinsic time-reversal-even linear displacement Hall effect",
+        "id": "890158029784219959",
+        "keywords": "",
+        "publication_date": "2023-07-14",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "本征时间反演偶宇称线性位移霍尔效应"
+      },
+      "paper:890884013747601567": {
+        "area": "arXiv-Physics, Physical Sciences, Condensed Matter Physics",
+        "authors": "Hui Li | Chengping Zhang | Chengjie Zhou | Chen Ma | Xiao Lei | Hongtao He | Baikui Li | K. T. Law | Jiannong Wang",
+        "available_online": "",
+        "cover_date_start": "2023-07-23",
+        "created_at": "2026-06-19T06:55:06+08:00",
+        "doi": "10.48550/arXiv.2307.12313",
+        "en_title": "Quantum geometric-induced third-order nonlinear transport in antiferromagnetic topological insulator MnBi2Te4",
+        "id": "890884013747601567",
+        "keywords": "",
+        "publication_date": "2023-07-23",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "反铁磁拓扑绝缘体MnBi₂Te₄中量子几何诱导的三阶非线性输运"
+      },
+      "paper:975212623249276934": {
+        "area": "physics and astrophysics, physical sciences, condensed matter physics",
+        "authors": "Cong Chen | Dawei Zhai | Cong Xiao | Wang Yao",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2024-03-14",
+        "created_at": "2026-06-13T13:50:30+08:00",
+        "doi": "10.1103/physrevresearch.6.l012059",
+        "en_title": "Crossed nonlinear dynamical Hall effect in twisted bilayers",
+        "id": "975212623249276934",
+        "impact_factor": 4.9,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "68812",
+        "publication_name": "Physical Review Research _ ",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "扭曲双层膜中的交叉非线性动态霍尔效应"
+      },
+      "paper:982528501724741637": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Bo Li | Xu-Tao Zeng | Qianhui Xu | Fan Yang | Junsen Xiang | Hengyang Zhong | Sihao Deng | Lunhua He | Juping Xu | Wen Yin | Xingye Lu | Huiying Liu | Xian-Lei Sheng | Wentao Jin",
+        "available_online": "",
+        "cover_date_start": "2024-04-02",
+        "created_at": "2026-06-16T04:10:10+08:00",
+        "doi": "10.48550/arxiv.2404.01600",
+        "en_title": "C-type antiferromagnetic structure of topological semimetal CaMnSb$_2$",
+        "id": "982528501724741637",
+        "keywords": "",
+        "publication_date": "2024-04-02",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "拓扑半金属CaMnSb₂的C型反铁磁结构"
+      }
+    },
+    "variables": [
+      {
+        "content": "The work addresses the gap in understanding how quantum geometry beyond the Berry curvature and quantum metric can generate observable magnetization responses in crystalline solids. Prior theory had shown that orbital magnetization and current-induced orbital moments can arise from band geometry (notably Berry curvature) and that linear current-induced orbital magnetization often requires broken inversion symmetry and is frequently entangled with spin contributions through spin-orbit coupling, making unambiguous identification of purely orbital mechanisms difficult in experiment. Existing nonlinear transport theory had identified nonlinear Hall and related effects tied to Berry-curvature dipoles and quantum metric, but no established semiclassical or response-theory expression identified a purely geometric, quadratic-in-electric-field orbital magnetization term that (i) can survive in the absence of spin-orbit coupling, (ii) can be present even in centrosymmetric materials as a second-order response, and (iii) is directly expressed in terms of a geometric connection (an analogue of the Christoffel symbol) in the Hilbert-space metric. Because of these gaps, researchers lacked (a) a clear microscopic formula and observable consequences for a nonlinear orbital magnetization driven by quantum geometry distinct from previously known mechanisms, (b) symmetry criteria and material guidance to find realizations where spin effects are negligible, and (c) concrete experimental observables and estimates (e.g., Kerr rotation, tunneling magnetoresistance) that could validate such a geometric orbital mechanism. This absence prevented both targeted materials searches for purely orbital nonlinear magnetization and experimental tests that could separate orbital-geometry effects from spin-orbit or time-reversal-odd magneto-optical mechanisms.",
+        "content_hash": "224cb923b1d5996df99a118fe769a5161bfb36ae6420ee69f30081634c135f70",
+        "id": "gcn_625da35d83a54c6a",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1225780552007680004::problem",
+            "package_id": "paper:1225780552007680004",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1225780552007680004"
+          ]
+        },
+        "rerank_score": 0.942021811496564,
+        "role": "premise",
+        "score": 0.032018442622950824,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "A central theoretical gap in nonlinear magnetism was the absence of a systematic description of how quantum geometry enters an electric-field-induced magnetic response beyond linear order. Berry curvature already provided a well-established framework for linear magnetization, but the role of the quantum metric in nonlinear magnetic phenomena had not been formulated in a way that linked measurable nonlinear magnetization to a microscopic band-geometry tensor. Without such a theory, one could not identify which geometric quantity controls the nonlinear magnetic response, nor derive a predictive expression that connects the observable second-harmonic magnetization to band structure, relaxation time, and the underlying orbital and spin channels.",
+        "content_hash": "3bf96a944568f609e54db9568bfa0f8bb466f4bcaab9919074764e354115daff",
+        "id": "gcn_3e90ac9901294fc5",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1225780552007680003::conclusion_4_subproblem",
+            "package_id": "paper:1225780552007680003",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1225780552007680003"
+          ]
+        },
+        "rerank_score": 0.9290474108436859,
+        "role": "premise",
+        "score": 0.0218108504398827,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "For a general metallic crystal with band dispersion E_{a,k}, Berry curvature Ω_{a,k}, band velocity v_{a,k}=∂_k E_{a,k}, and quantum-metric tensor G^{jk}_{a,k}, the second-order nonlinear Hall conductivity σ^{H}_{ijk} in Eq. (5) obtained from the orbital-magnetization-based derivation reproduces the Berry-curvature-dipole contribution — known from Sodemann and Fu (2015) [1] in the form σ^{(2)}_{ijk} ∝ ∫_k (∂_{k_i} Ω^j) f(E) — and the quantum-metric-dipole contribution — known from Gao, Yang, and Niu (2014) [20] and subsequent works [21,22] as involving ∂ G terms. The functional forms of both contributions exactly match the previously published expressions, providing a consistency check for the derivation.",
+        "content_hash": "7d45aabba76316aa232f7f33e03a7eaea76619081d79ae6dd3dcdca150314bad",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_5ac8eb8356574e7e",
+        "kind": "highlight",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1106552492092555276::H1",
+            "package_id": "paper:1106552492092555276",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1106552492092555276"
+          ]
+        },
+        "rerank_score": 0.926437832217207,
+        "role": "premise",
+        "score": 0.006018099547511312,
+        "title": "Derived conductivity reproduces known Berry-curvature and quantum-metric dipole terms",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Berry curvature and quantum metric control distinct transport phenomena (Hall effects and metric-controlled nonlinearities). For higher-spin manifolds, it was unclear how these objects scale with multiplet size and magnetic quantum number and how they depend on the local orientation (texture) of the quantization axis. Existing results either gave component-wise expressions for special models or implicit numerical evaluations. A closed-form decomposition that writes the curvature and metric as a universal geometric factor (derivatives of the quantization-axis texture) times simple multiplet-dependent scalar factors is necessary to (i) identify which features of geometric responses are purely geometric (texture controlled) and which depend on internal multiplet structure, and (ii) enable analytic evaluation of response integrals in representative models.",
+        "content_hash": "2d06a2cecc06ae14b08ddba9318df2922c87cdcd36074f32c8ee6bc06b671043",
+        "id": "gcn_6a54f7498f824235",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1203673201280811025::conclusion_2_subproblem",
+            "package_id": "paper:1203673201280811025",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1203673201280811025"
+          ]
+        },
+        "rerank_score": 0.911225873070151,
+        "role": "premise",
+        "score": 0.015384615384615385,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Experimentally relevant identification of a quantum-metric-induced nonlinear Hall effect is hampered when Berry-curvature-dipole contributions coexist and potentially dominate. A simple, analytically specified model that (by symmetry) suppresses Berry-curvature-sourced nonlinearities while retaining quantum-metric dipole physics is therefore necessary to (i) produce unambiguous numerical estimates, (ii) demonstrate symmetry-control of metric-induced response, and (iii) provide a concrete target Hamiltonian family for prospective material realizations and numerical band-structure benchmarking.",
+        "content_hash": "4b387c8f94e69318fcf565a2d978fe4e20859de3ba2856c2d5361c8956049330",
+        "id": "gcn_2b4fb2b56a914847",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1159462780185608201::conclusion_8_subproblem",
+            "package_id": "paper:1159462780185608201",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1159462780185608201"
+          ]
+        },
+        "rerank_score": 0.8938675039543196,
+        "role": "premise",
+        "score": 0.02154215976331361,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In analyses of band geometry and response functions, explicit analytic forms for the quantum metric and Berry curvature simplify the connection between microscopic Hamiltonian parameters and geometric response. Before this work, while definitions of the quantum geometric tensor were established, a compact, parameter-explicit expression valid for a generic two-band Hamiltonian that directly exhibits how the Berry curvature depends on the band-mixing amplitude phase $ \\theta_{\\mathbf{k}} $ and the relative band-coupling scale $ y_{\\mathbf{k}} $ was not provided in a single universal formula. Without such closed-form expressions, it was difficult to trace how changes in the off-diagonal phase or coupling magnitude influence Berry curvature versus quantum metric, to identify necessary conditions for nonzero Berry curvature, or to use geometric intuition to engineer desired response magnitudes. An explicit analytic representation thus fills a gap needed to derive subsequent gauge-invariant expressions for orbital angular momentum and orbital transport.",
+        "content_hash": "716c0ed4b25e3b38be3ba580853b323ef6b9835ee614cc16869c937e4f803ee7",
+        "id": "gcn_1a7a7272dd074994",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1163085780185251850::conclusion_1_subproblem",
+            "package_id": "paper:1163085780185251850",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1163085780185251850"
+          ]
+        },
+        "rerank_score": 0.8838454218907466,
+        "role": "premise",
+        "score": 0.014285714285714285,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Momentum-space quantum geometry of Bloch bands (Berry curvature, Berry connection polarizability, quantum metric) is widely used to explain nonlinear electronic responses such as the Berry-curvature-dipole (BCD) and intrinsic nonlinear Hall (INH) effects. Prior theoretical treatments typically (a) treat quantum geometric quantities as properties of non-interacting Bloch quasiparticles or of a frozen equilibrium mean-field bandstructure, and (b) attribute observed second-order transverse currents to equilibrium band-geometry mechanisms (BCD, INH) whose values are set by the equilibrium distribution and ground-state self-energy. These approaches therefore neglect dynamical feedback between an externally driven nonequilibrium many-body state and electron-electron exchange interactions. Concretely, under a uniform applied electric field $ \\mathbf{E} $ the single-particle density matrix acquires both a Fermi-surface shift and interband coherences, but existing theory does not provide controlled expressions for how these nonequilibrium changes in the distribution alter the exchange self-energy, how that exchange change modifies Bloch quantum geometric quantities (Berry connection, curvature, metric), nor how such modifications contribute to second-order (nonlinear) Hall currents. As a result, it is unclear whether and when exchange-mediated, nonequilibrium modifications to quantum geometry produce nonlinear Hall signals that are comparable to the familiar non-interacting mechanisms, how these exchange contributions scale with relaxation time $ \\tau $ and chemical potential $ \\mu $, and what symmetry / microscopic conditions (e.g., presence of spin-orbit coupling, PT symmetry) favor or suppress such effects. This gap prevents (i) a complete microscopic accounting of nonlinear Hall responses in interacting materials driven out of equilibrium, (ii) reliable interpretation of experiments that infer equilibrium band geometry from nonlinear transport, and (iii) quantitative prediction of new interaction-enabled nonlinear transport channels (e.g., in PT-symmetric magnets where equilibrium spin densities vanish but nonequilibrium spin accumulation may activate exchange).",
+        "content_hash": "cdcb8bf8284c11c92a74b8b928cb754ba286e39c77d7d5f295cf7b3271035013",
+        "id": "gcn_7a33458ad03d40b0",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1205122980372283404::problem",
+            "package_id": "paper:1205122980372283404",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1205122980372283404"
+          ]
+        },
+        "rerank_score": 0.8811340601727835,
+        "role": "premise",
+        "score": 0.014084507042253521,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In materials with combined $P\\times T$ symmetry the Berry curvature vanishes and conventional linear anomalous Hall effects are forbidden, so probing band geometry requires observables sensitive to higher-order quantum-geometric quantities such as the Berry connection polarizability (quantum metric–related). Prior to establishing the magnetic symmetry and the band crossings, there was no clear prediction for which nonlinear Hall tensor components could be finite or how to measure them in CaMnSb$_{2}$. Identifying the nonzero tensor components and prescribing an experimental setup provides a concrete route to probe quantum-geometry effects in a $P\\times T$-symmetric antiferromagnet where standard Berry-curvature probes fail.",
+        "content_hash": "e593be31867e70330f7be461a283102a4046057e6da0b812551e849e9249b411",
+        "id": "gcn_b6bf4405292b429e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:982528501724741637::conclusion_7_subproblem",
+            "package_id": "paper:982528501724741637",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:982528501724741637"
+          ]
+        },
+        "rerank_score": 0.8884591200926371,
+        "role": "premise",
+        "score": 0.011833785004516713,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The electronic quantum geometry encoded in the quantum geometric tensor (with real part the quantum metric and imaginary part the Berry curvature) is known to control a range of transport phenomena, and recent work has established that nonlinear electrical responses (second-order in electric field) — in particular the nonlinear Hall effect — provide direct probes of quantum geometry via the Berry-curvature-dipole (BCD) and the quantum-metric-dipole (QMD). However, prior to this work there was no unified, intrinsic-theory framework that connects quantum geometry to second-order thermoelectric responses of the form $j_{e},j_{Q}\\propto E(\\nabla T)$. Existing studies of nonlinear transport either focused on electrical nonlinearities (BCD- and QMD-driven nonlinear Hall effects) or on various nonlinear thermoelectric phenomena without isolating intrinsic, quantum-geometric contributions in a form directly usable by experiments. Concretely: (i) there was no derivation of intrinsic, relaxation-time independent thermoelectric tensors that originate from the field-induced modification of the Berry connection (the Berry-connection-polarizability $G_{ab}$) and thus encode the quantum metric; (ii) there were no compact low-temperature (Sommerfeld) relations that map nonlinear thermoelectric coefficients to the already-studied nonlinear Hall coefficients, which would permit experimental estimates of thermoelectric signals from existing nonlinear Hall data; and (iii) there was no thermoelectric measurement protocol known to robustly extract Fermi-surface topological invariants such as the total Weyl-node chirality below the Fermi level. Because of these gaps, experimental probing of the QMD via thermoelectric responses, quantitative prediction of expected signal magnitudes from known nonlinear Hall data, and the use of thermoelectric measurements as a robust probe of Weyl chirality were not available.",
+        "content_hash": "86a0ae2198d16bae742345161ed25c033fd03a3b65e692c48842aa0638299b7a",
+        "id": "gcn_30c504a60d5f4c57",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1125036231449640970::problem",
+            "package_id": "paper:1125036231449640970",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1125036231449640970"
+          ]
+        },
+        "rerank_score": 0.8717180930178743,
+        "role": "premise",
+        "score": 0.017518349259105385,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In studies of geometric effects one needs a model where the quantum geometry (e.g., Berry curvature distribution or dipole) can be changed independently of the spectrum so that any scattering differences can be unambiguously attributed to geometry rather than to spectral mismatches. Standard tight-binding models typically couple hopping-parameter changes to the spectrum; therefore, prior models did not cleanly separate dispersion effects from geometric effects. The presented three-orbital cubic-lattice Hamiltonian provides a practical microscopic baseline: it preserves the dispersion while allowing continuous rotation of the Berry-dipole orientation via a single parameter $\\\\alpha$. This separation is essential to isolate and study purely geometric scattering mechanisms and to compare continuum and lattice descriptions.",
+        "content_hash": "e39dca36d317ba56f925094ff7e26ab5aa95fda2a9a3d8dc2e7a0abbd18b6f9f",
+        "id": "gcn_31930a6ae670434f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1217447580313583626::conclusion_1_subproblem",
+            "package_id": "paper:1217447580313583626",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1217447580313583626"
+          ]
+        },
+        "rerank_score": 0.8669208203719921,
+        "role": "premise",
+        "score": 0.006493506493506494,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In band-geometric linear responses, it is important to identify which geometric objects (Berry curvature, quantum metric, interband connection, etc.) control a given observable, because this determines symmetry constraints, scaling, and computational strategy. Prior intuition emphasized Berry curvature for many anomalous transport phenomena, but it was unclear which geometry governs electrically or thermally induced OM in metals. Explicitly revealing that the quantum metric (rather than the Berry curvature) enters the intrinsic OM kernel clarifies what band information must be computed and provides new geometric insight into how interband mixing and state distances generate orbital magnetization under driving.",
+        "content_hash": "dcffbb5b3ac72c9d6dbb961a45478efc170c0dbdecdd6ff16f673946fa7f68d6",
+        "id": "gcn_a9771d7cad2f4afc",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867768552390656209::conclusion_5_subproblem",
+            "package_id": "paper:867768552390656209",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867768552390656209"
+          ]
+        },
+        "rerank_score": 0.9617052662198193,
+        "role": "premise",
+        "score": 0.029206349206349208,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In Bernal bilayer graphene, the Berry-curvature part of the second-order response is odd under flipping the displacement field $u_D \\to -u_D$, while the quantum-metric part is even under the same transformation. Therefore, by measuring the nonlinear Hall signal at $+u_D$ and $-u_D$ and taking the sum and difference, one can isolate the quantum-metric (even) and Berry-curvature (odd) contributions, respectively.",
+        "content_hash": "054f2c4af31e05ea78112da5d9f8887cebf40736c6594f058e5ac821bc380754",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_fea87462de344763",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1134915520953319509::P8",
+            "package_id": "paper:1134915520953319509",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1134915520953319509"
+          ]
+        },
+        "rerank_score": 0.858849585744786,
+        "role": "premise",
+        "score": 0.005895408517131363,
+        "title": "Practicality of u_D sign-flip separation in bilayer graphene",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Physical context: Nonlinear (second-order) Hall-like phenomena in electronic systems are known to be governed by Berry-curvature dipoles; analogous constructions for bosonic BdG systems and for the in-plane (hidden) components were not previously established. Without such an identification, the physical origin of any computed second-order vertical magnon response would be obscure, and the relation between the nonlinear coefficients and band geometry (and distributions appropriate to bosons) remained unknown. Establishing that the nonlinear coefficients are Brillouin-zone integrals of $ \\partial_{k}\\Omega^{(x,y)} $ (and energy-weighted variants) completes the geometric interpretation of the nonlinear VMT responses and specifies which geometric moments must be finite for observable nonlinear transport.",
+        "content_hash": "c1fe7a7031ecee33bbdc484234900a906492d8f4a01b5a9adb2e212911be0feb",
+        "id": "gcn_a2a31846f7c143e5",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1200416026685079558::conclusion_3_subproblem",
+            "package_id": "paper:1200416026685079558",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1200416026685079558"
+          ]
+        },
+        "rerank_score": 0.8584371624362301,
+        "role": "premise",
+        "score": 0.009615384615384616,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In $\\mathcal{PT}$-symmetric two-dimensional conductors the usual linear intrinsic thermoelectric (Nernst) and Hall responses vanish because Berry curvature and intraband orbital magnetization contributions cancel between time-reversed valley pairs. Prior kinetic and geometric frameworks provided formulas for linear anomalous thermoelectric effects in terms of Berry curvature, but lacked a closed, general expression that links second-order (quadratic in thermal field) dissipationless thermoelectric conductivity to the band-resolved quantum metric and related interband Berry-connection combinations. Without an explicit, microscopic expression one cannot predict the magnitude, valley dependence, or temperature scaling of intrinsic nonlinear valley thermal currents, nor can one separate intrinsic (geometry-driven, $\\tau$-independent) contributions from disorder-dependent ones. The derived formula above fills that gap by giving an explicit integrand in terms of band energies, occupations, derivatives, and the band-resolved quantum metric, enabling concrete evaluation for models and materials.",
+        "content_hash": "6060052f52d5a758ee2a67fa58edb73428924edc86492f824e1557656f20a668",
+        "id": "gcn_21295f7434ed4dd1",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1092748085752234026::conclusion_1_subproblem",
+            "package_id": "paper:1092748085752234026",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1092748085752234026"
+          ]
+        },
+        "rerank_score": 0.8561566294492742,
+        "role": "premise",
+        "score": 0.012987012987012988,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "A transverse (Hall-like) second-order response that is intrinsic to band quantum geometry and that couples to an in-plane Néel component would provide an independent handle to resolve Néel-vector orientation. Prior theory of quantum-metric induced nonlinear effects established their existence in other model systems but did not provide transverse-response formulas for a d-wave altermagnet with Rashba coupling and an in-plane Néel vector. It remained unclear whether a geometry-driven nonlinear Hall-like response exists generically in this class, whether it is parametrically large or suppressed, and how it scales with $\\tau$ and with $\\mu$ close to band-touching. The analytic expressions above supply explicit parameter dependence (including $\\tau$ as it appears in the derived form in the paper) and therefore fill the missing quantitative description necessary to evaluate transverse measurements as probes of the in-plane Néel vector.",
+        "content_hash": "df419d226b6f603d09fa47499991bd636e770f9c3b0efc475f7c94366283fdc8",
+        "id": "gcn_905d9a2db8b54b38",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1043046535845117954::conclusion_2_subproblem",
+            "package_id": "paper:1043046535845117954",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1043046535845117954"
+          ]
+        },
+        "rerank_score": 0.8555162684695929,
+        "role": "premise",
+        "score": 0.00558659217877095,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In materials and model Hamiltonians where band geometry governs electronic responses, theory and experiment have well-established connections between Berry curvature, quantum metric, and nonlinear Hall effects in Hermitian systems: the extrinsic nonlinear Hall effect is controlled by the Berry curvature dipole (BCD), and intrinsic higher-order Hall responses are governed by Berry connection polarizability (BCP) or the biorthogonal quantum metric. However, in non-Hermitian band structures exceptional points generically occur as extended one-dimensional loci (exceptional lines or rings) where the Hamiltonian is defective and left/right eigenvectors coalesce. Prior work on non-Hermitian exceptional structures has largely characterized band topology and single-particle spectral fingerprints, leaving their consequences for transport and higher-order nonlinear response largely unexplored. Concretely, there is no prior, controlled analysis of how an extensive locus of defective states (an exceptional ring) modifies the biorthogonal Berry curvature and quantum metric, how the resulting singularities contribute to the BCD and BCP integrals that determine extrinsic and intrinsic nonlinear Hall responses, nor what scaling laws govern the magnitude of such nonlinear responses as non-Hermiticity is varied while the exceptional-ring geometry is held fixed. This gap prevents quantitative predictions for whether non-Hermiticity enhances or suppresses extrinsic and intrinsic nonlinear Hall signals, and inhibits understanding of which tensor components survive symmetry constraints in the presence of inversion-breaking tilt and dissipation. The present paper addresses these missing theoretical ingredients by constructing a concrete non-Hermitian two-band model with an exceptional ring, deriving closed-form biorthogonal geometric quantities, and evaluating their contributions to BCD and BCP to expose scaling behaviors and symmetry-selected nonzero response components.",
+        "content_hash": "47d1a55efb851231a05c56b224def1c3726c55ff2b9bf7ea2398105cd1de3aa5",
+        "id": "gcn_4d6905786bbc4399",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1063339611977154571::problem",
+            "package_id": "paper:1063339611977154571",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1063339611977154571"
+          ]
+        },
+        "rerank_score": 0.850571221246774,
+        "role": "premise",
+        "score": 0.012405286343612335,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In studies of band topology and quantum geometry researchers use both the Berry curvature (an antisymmetric, imaginary component of the quantum geometric tensor) and the quantum metric (its symmetric, real part). Prior analyses often treated these quantities separately: Berry curvature as the integrand of global Chern invariants and the quantum metric as a separate geometric object with distinct physical implications (e.g., in superfluid weight or optical responses). Before this work there was not a simple, explicit pointwise identity, expressed in elementary Bloch-vector derivatives for two-band 2D models, tying the determinant of the quantum metric directly to the local squared Berry curvature. The absence of such an explicit local relation concealed a simple geometric link between metric fluctuations and sign-insensitive squared-curvature magnitude, limiting geometric interpretations of topology that simultaneously involve metric and curvature. Providing the exact identity clarifies how local metric information already encodes the magnitude of curvature and sets the stage for relating global topological integrals to geometrical constructions on the Bloch sphere.",
+        "content_hash": "d0b8f787a2f04667cbba29be3bf2dcc827b396fb82f935c6587819093d27b967",
+        "id": "gcn_bdb217f903104638",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1027222229949087755::conclusion_1_subproblem",
+            "package_id": "paper:1027222229949087755",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1027222229949087755"
+          ]
+        },
+        "rerank_score": 0.8502836831680094,
+        "role": "premise",
+        "score": 0.005952380952380952,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The quantum geometric tensor (QGT) of electronic Bloch states — whose real part is the quantum metric $g$ and whose imaginary part yields the Berry curvature $\\Omega$ — encodes geometric properties that can control electromagnetic responses of quantum materials. Prior experimental access to the quantum metric in metals has been extremely limited: transport-based observations of quantum-metric-induced effects have been reported only in a narrow class of materials (notably topological antiferromagnets) and indirect probes have dominated studies of the Berry curvature. Theoretical proposals indicate that an intrinsic nonlinear magnetoresistance can be driven by the band-energy normalized quantum metric (BNQM), i.e., the real part of the QGT weighted by band-energy denominators, but two connected problems prevented broader progress. First, there was no general identification of a widespread, symmetry-allowed microscopic mechanism that generically endows metallic bands with a finite quantum metric while being experimentally accessible; existing focus on special topological or magnetic materials left open whether ubiquitous spin-orbit phenomena could produce measurable quantum-metric effects. Second, even when a finite quantum metric exists microscopically, its contribution to nonlinear transport competes with other nonlinear mechanisms (disorder-mediated skew-scattering and side-jump terms, and semiclassical bilinear magnetoelectric resistance (BMER) that scales with scattering time), and there was no experimentally validated protocol to disentangle and quantify the intrinsic, scattering-time-independent quantum-metric contribution in a realistic multiband conductor. These gaps prevented (a) the prediction of which common condensed-matter settings would host detectable quantum-metric transport, (b) the design of measurements that unambiguously identify an intrinsic quantum-metric signal in the presence of competing effects, and (c) electrically tunable demonstrations of quantum-metric conductivities in nonmagnetic materials with spin-orbit coupling.",
+        "content_hash": "27084f7d1174b8cbec3914c7774caf7bd6734854505b58db953cc9df91cba9a1",
+        "id": "gcn_9c342154cbd44a48",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1048481575555039233::problem",
+            "package_id": "paper:1048481575555039233",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1048481575555039233"
+          ]
+        },
+        "rerank_score": 0.850538623880061,
+        "role": "premise",
+        "score": 0.010101010101010102,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Previously, orbital magnetization in such AFM systems with $\\{S|t\\}$ symmetry was not expressed in a simple closed form that directly links it to the same Berry curvature controlling the AHE and to the intra-sublattice dispersion $h_{\\mathbf{k}}$. Without this relation one lacked a concise understanding of why orbital magnetization can be large even when the net spin magnetization is tiny, and how strain/dispersion modifications affect magnetization via the same Berry curvature responsible for Hall transport.",
+        "content_hash": "5e3e533bb84953676fd24237e079fe4b0a027a6e182f2377d3e92acee6be6a58",
+        "id": "gcn_0e01eb59cd774e81",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1169971681964326919::conclusion_5_subproblem",
+            "package_id": "paper:1169971681964326919",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1169971681964326919"
+          ]
+        },
+        "rerank_score": 0.8461823336734239,
+        "role": "premise",
+        "score": 0.007692307692307693,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Nonlinear electronic responses (second- or higher-order in the applied electric field) are a sensitive probe of the quantum geometry of Bloch states (the real part = quantum metric, the imaginary part = Berry curvature), and are also the functional basis for rectification and other nonlinear devices. However, prior to this work there was a substantive gap between this scientific insight and practical device-level materials: large nonlinear responses that reveal quantum-metric physics have typically been small in magnitude or confined to cryogenic temperatures, and materials that combine (i) broken inversion symmetry and broken time-reversal symmetry in a controllable way, (ii) strong quantum-geometry-induced responses, and (iii) room-temperature operation and tunability, were lacking. Experimental studies had identified quantum-metric-induced nonlinear transport in antiferromagnetic heterostructures and related low-temperature systems, and Berry-curvature-dipole nonlinear Hall effects in nonmagnetic systems, but these examples either relied on low-temperature symmetry-broken phases (limiting device utility) or on non-magnetic mechanisms that are not readily tunable by magnetic field. In parallel, magnetic kagome materials were known to host complex magnetic orders (ferrimagnetism, chiral magnons, Skyrmions) and large Berry-curvature responses at elevated temperatures, but it was unresolved whether such magnetism could be harnessed to produce a large, tuneable, quantum-metric-driven second-order charge transport at or near room temperature. Practically, the field lacked a material system in which (a) a measurable second-order conductivity $J_k^{(2)}=\\sigma^{(2)}_{k,ij}E_iE_j$ appears with large amplitude at room temperature, (b) the distinct quantum-geometry contributions (quantum metric dipole $D_{\\text{metric}}$, Berry curvature dipole $D_{\\text{BC}}$) and chiral magnetism/eMChA contributions can be identified and controlled, and (c) the nonlinear response can be tuned by modest external magnetic fields and temperature changes accessible near room temperature. This deficiency prevented both quantitative tests of quantum-metric transport mechanisms at practical temperatures and the design of room-temperature, tuneable nonlinear electronic devices based on quantum geometry.",
+        "content_hash": "302cc22f72a8df4dcfe31e8b44fb16d0b8b130fa38345d7932c25707c8321368",
+        "id": "gcn_e4ceb5da6f9141b4",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1065875950492712963::problem",
+            "package_id": "paper:1065875950492712963",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1065875950492712963"
+          ]
+        },
+        "rerank_score": 0.8436838429236035,
+        "role": "premise",
+        "score": 0.01644370122630992,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The quantum geometric tensor of Bloch electrons has an imaginary part (Berry curvature) whose transport signatures (e.g., anomalous Hall and nonlinear Hall effects from a Berry curvature dipole) are well established, but the real part — the quantum metric, which measures amplitude distances between neighboring Bloch states — has not been experimentally established as a source of measurable charge transport. Existing nonlinear-transport probes have largely focused on nonmagnetic, inversion-breaking systems where the Berry curvature dipole governs the nonlinear anomalous Hall effect; theoretical work recently predicted that an antisymmetric quantum-metric distribution (a quantum metric dipole) in momentum space can generate both a nonlinear anomalous Hall response and a diode-like nonreciprocal longitudinal response in magnetic, inversion-breaking systems, yet no experimental realization of this mechanism had been demonstrated. In practice, separating quantum-metric contributions from other sources is difficult because (i) Berry curvature dipole and skew-scattering mechanisms can also produce nonlinear responses but have different symmetry and scattering-time dependences, (ii) many magnetic materials either preserve inversion (forbidding the quantum-metric dipole) or lack clean, controllable antiferromagnetic states needed to flip the time-reversal breaking while keeping overall compensation, and (iii) first-principles predictions for magnetic topological materials (surface gaps, band alignments) can disagree with experiment, complicating direct quantitative comparison. These gaps left open whether (a) the quantum metric can produce observable, robust nonlinear transverse and longitudinal transport in a real material, (b) such signals can be unambiguously distinguished from Berry-curvature, impurity-scattering, or thermal/engineered contact artifacts, and (c) a candidate material platform exists in which symmetry (broken P and T but preserved PT and C3 rotational symmetry) and tunability (gating, field control of AFM order) allow clean attribution of observed nonlinear transport to the intrinsic band-structure quantum metric.",
+        "content_hash": "b7d1cb39c774f7df5dc1b97112c59abc1aea7e9fa9c2de3c8dbbbd0d21d90b06",
+        "id": "gcn_f29ade3ccd1b43c8",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:884073293311639781::problem",
+            "package_id": "paper:884073293311639781",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:884073293311639781"
+          ]
+        },
+        "rerank_score": 0.8689061200480909,
+        "role": "premise",
+        "score": 0.02426470588235294,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Physical context: In two-dimensional unconventional magnets (p,d,f,g,i symmetries and altermagnets), crystalline symmetries suppress both the linear intrinsic AHE and the intrinsic Berry curvature dipole, so conventional Berry-curvature based Hall probes cannot detect nonlinear responses. Prior approaches to obtain nonlinear Hallity either relied on materials with intrinsic BCD or on structural symmetry breaking; they did not provide a general microscopic mechanism that (i) respects the starting symmetry of the crystal, (ii) directly ties the induced BCD to the quantum metric (the real part of the quantum geometric tensor), and (iii) yields explicit scaling relations for experimentally observable nonlinear conductivities. The absence of such a mechanism left a conceptual and practical barrier to using nonlinear Hall measurements to probe the quantum geometry and to distinguish parity of unconventional magnetic orders. The present conclusion supplies the missing microscopic link: an applied dc electric field couples to the BCP (band-normalized quantum metric) to produce a field-linear induced BCD and the accompanying nonlinear conductivities.",
+        "content_hash": "49523fa4a21222f169fd61d6363d7f74a9be8157a7ddf84d1eff000f557662b2",
+        "id": "gcn_7daba701dbb94947",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1188453186415886340::conclusion_1_subproblem",
+            "package_id": "paper:1188453186415886340",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1188453186415886340"
+          ]
+        },
+        "rerank_score": 0.8378518014808913,
+        "role": "premise",
+        "score": 0.010782235481929288,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Nonlocal Hall conductivity in the presence of a spatially varying electric field is known to be sensitive to quantum geometry, but a general expression in terms of the quantum metric and Berry curvature for lattice bands was lacking. The semiclassical dynamics of Bloch wave packets had been extended to include electric field gradients, but the explicit form of the second-order Hall response in terms of the band-projected quadrupole was not derived.",
+        "content_hash": "e7a7c4280baeed96e038a919d3e0ec4d16d1c5f7759e05c4d7ee63b01916a23c",
+        "id": "gcn_d9cd529f6bee4df4",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:7465802858270425112::conclusion_4_subproblem",
+            "package_id": "paper:7465802858270425112",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:7465802858270425112"
+          ]
+        },
+        "rerank_score": 0.836401992070213,
+        "role": "premise",
+        "score": 0.009433962264150943,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The intrinsic interband Hall response is controlled by quantum-geometric data (quantum metric and Berry curvature) of the Bloch bands. For nodal-line systems it was necessary to know explicit, band-resolved forms of these geometric objects to determine which geometric channel (metric versus curvature) contributes under different symmetry or gap conditions (e.g., $M=0$). Prior literature discussed geometry qualitatively but did not always provide closed-form QGT components for tilted DNLSM low-energy models and clarify whether tilt modifies these objects. Without explicit expressions one cannot assess whether the intrinsic AHC is controlled by Berry curvature (which would vanish in gapless limits) or by the quantum metric (which can survive gapless cases), nor predict their tilt sensitivity.",
+        "content_hash": "8e558a4162d0a9e060996539acd42f73af18086010a04dfadff685ddfac2d708",
+        "id": "gcn_c94254a204d641fb",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1147143194861895685::conclusion_6_subproblem",
+            "package_id": "paper:1147143194861895685",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1147143194861895685"
+          ]
+        },
+        "rerank_score": 0.8286784441811387,
+        "role": "premise",
+        "score": 0.014925373134328358,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Hall-type linear responses are commonly associated with Berry curvature, while mixed geometric tensors have been discussed primarily in higher-order or symmetric responses. It was not previously established whether mixed components of the quantum metric can produce an intrinsic antisymmetric linear conductivity at the collisionless ($\\tau^0$) level, nor was there an explicit formula relating $G_{ij}^{px}$, the group velocity, and derivatives of $f_0$ to such a Hall response. An explicit conductivity tensor is required to identify and distinguish metric-induced Hall signals from conventional Berry-curvature Hall conductivities and from symmetric magneto-electric responses.",
+        "content_hash": "dfd3b813156247590e08e232f08cd0b5ca3365725ce5c14f680216d9b1fe48df",
+        "id": "gcn_e1f6d90c40e3459d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1243175682972844045::conclusion_9_subproblem",
+            "package_id": "paper:1243175682972844045",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1243175682972844045"
+          ]
+        },
+        "rerank_score": 0.8256224145164566,
+        "role": "premise",
+        "score": 0.005813953488372093,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Understanding and predicting topology-driven transport phenomena (quantum anomalous Hall, nonlinear Hall effects tied to Berry curvature multipoles and quantum metric) requires knowledge of the Hamiltonian coefficients that enter Berry-curvature formulas. Prior to this work, Hamiltonian parameters for MBT surfaces were not constrained by experimentally measured orbital-coupled spin textures, so quantitative predictions of Berry curvature and related nonlinear responses could not be grounded in spectroscopic data. Without experimentally obtained $\\alpha,\\gamma$ and wavefunction structure, the connection between measured spectral features and expected geometric transport signatures remained qualitative.",
+        "content_hash": "7ce7add89d2f14da983c3fc7c37213bece84d483de5550b6b92a8d1e3e18329e",
+        "id": "gcn_70a164046cad4f1d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1136995494036242434::conclusion_5_subproblem",
+            "package_id": "paper:1136995494036242434",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1136995494036242434"
+          ]
+        },
+        "rerank_score": 0.8239719031563254,
+        "role": "premise",
+        "score": 0.027271052146674038,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The transport properties of electrons in crystalline solids are known to be controlled by geometric properties of Bloch states (for example, momentum-space Berry curvature produces the anomalous Hall effect and the quantum metric underlies other geometric responses). Prior theoretical frameworks treated geometric effects either within the adiabatic single-band semiclassical wavepacket picture (yielding Berry-curvature-driven anomalous velocities and topological Hall terms) or considered specific momentum-space geometric constructions (quantum metric, momentum-space \"gravity\") in isolated settings. However, these treatments left several gaps: (i) the role of interband, nonadiabatic corrections to wavepacket dynamics in producing higher-rank geometric objects that enter the equations of motion was not systematically derived in a unified semiclassical framework; (ii) although the quantum metric and its derivatives were recognized as physically relevant, there was no general derivation showing that Christoffel-symbol–type objects (derivatives of weighted quantum metrics) appear directly in semiclassical equations of motion and act as effective gravitational fields across real, momentum, time, and external-parameter spaces; (iii) the concrete transport signatures (in particular, Hall responses) caused specifically by such Christoffel-symbol terms were not established: it was not known which transport coefficients (linear or nonlinear, local or pumped currents) receive contributions from these emergent-gravity terms, what symmetry conditions permit a finite effect (e.g., requirements on band dispersion parity), and how these effects manifest in representative model systems (spin textures, Rashba systems, moving textures, parameter driving). These gaps prevented quantitative prediction and classification of \"emergent-gravity\" transport phenomena and left open whether and how Christoffel-symbol–type geometry can produce measurable Hall responses in realistic electronic systems.",
+        "content_hash": "6c2aa854fb6a07b01a50bf1996c76f8b06234eedb4e41a8c04580759283f3a73",
+        "id": "gcn_02fc9f42b9724a1a",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1155475380484702209::problem",
+            "package_id": "paper:1155475380484702209",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1155475380484702209"
+          ]
+        },
+        "rerank_score": 0.8214348447684279,
+        "role": "premise",
+        "score": 0.006535947712418301,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The responses of Bloch electrons' spin degree of freedom to external electric fields lack a unified, quantum-geometric description analogous to that available for charge transport.  Prior work established that the conventional quantum geometric tensor (QGT), composed of the Berry curvature (BC) and the quantum metric (QM), organizes a range of charge transport phenomena (intrinsic anomalous Hall effect, Berry-curvature-dipole nonlinear Hall effect, quantum-metric-dipole effects, displacement currents), but spin responses (spin currents and electrically induced spin magnetization) have been treated piecemeal: some mechanisms (e.g., intrinsic spin Hall effect) were tied to spin Berry curvature expressions while others (e.g., Edelstein effect, various nonlinear spin generation mechanisms) were derived using semiclassical or perturbative approaches without an overarching geometric object.  This fragmented situation produces several concrete scientific shortcomings: there is no single, gauge-invariant tensorial object that (i) explicitly incorporates the spin operator into the geometric structure of interband matrix elements, (ii) distinguishes the distinct symmetry parities and Fermi-surface vs Fermi-sea origins of spin responses, and (iii) systematically generates all linear and second-order spin current and spin magnetization contributions (intrinsic and extrinsic, DC and AC).  Because of these limitations researchers could not systematically (a) predict displacement-type spin currents in insulating systems under AC drive from a geometric principle, (b) identify and classify higher-order (in field and in scattering time) spin responses that are geometric in origin, or (c) ascertain when extrinsic (scattering-time dependent) contributions may dominate intrinsic geometric contributions for realistic band structures.  These gaps hinder: quantitative predictions of spin transport across insulating vs metallic regimes, design rules for materials that exploit geometric spin responses, and a coherent theoretical basis to compare and unify previously derived spin response formulas.",
+        "content_hash": "a241287062671abda0ce09b90cdb71373867ac92b90e4579d0fe337e316da6d8",
+        "id": "gcn_1bfc025603474fc9",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1005717531870101516::problem",
+            "package_id": "paper:1005717531870101516",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1005717531870101516"
+          ]
+        },
+        "rerank_score": 0.8274282143082756,
+        "role": "premise",
+        "score": 0.006535947712418301,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Physical context and prior state: semiclassical Boltzmann treatments omit interband matrix-element contributions such as Berry curvature dipole and quantum-metric–related terms; previous microscopic studies identified geometric contributions to nonlinear Hall effects but a clear disorder-scaling classification (which contributions scale as $\\tau$ vs $\\tau^2$ in the dirty limit) for the DC second-order conductivity in a multiband, disordered Keldysh framework was not fully established. This conclusion provides explicit leading-order interband formulas, defines the geometric tensors involved, and clarifies their distinct $\\tau$-dependences and parametric origins (Berry-curvature dipole vs quantum-geometry/metric).",
+        "content_hash": "565e8c3f3c2c3dd64ac7e2f6cd9ed6c15dad50229ccf91192f66d5e3e9522a2a",
+        "id": "gcn_3fdc5c5c76bc49b5",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1056091918737342473::conclusion_3_subproblem",
+            "package_id": "paper:1056091918737342473",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1056091918737342473"
+          ]
+        },
+        "rerank_score": 0.8172087851921783,
+        "role": "premise",
+        "score": 0.01648227590878302,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The leading-order entropy production $\\Pi^{(2)}$ depends explicitly on the symmetric quantum metric $g_{nm}^{ab}$ and does not contain the antisymmetric Berry curvature $\\Omega_{nm}^{ab}=i(r_{nm}^a r_{mn}^b - r_{nm}^b r_{mn}^a)$ because $\\Omega_{nm}^{ab}E_aE_b=0$ identically due to antisymmetry, while $g_{nm}^{ab}E_aE_b$ is generically nonzero. Consequently, geometric responses controlled by the quantum metric (extrinsic Drude current and intrinsic nonlinear Ohmic current) generate entropy and are dissipative, whereas responses controlled by the Berry curvature (intrinsic anomalous Hall effect and the Berry-curvature-dipole nonlinear Hall effect) are dissipationless.",
+        "content_hash": "f6db6db02c4242fe5cfbc11d80efe969bed7b65994098aa012aef6ccf7d16212",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_aa76303e2a394147",
+        "kind": "highlight",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1225516013110427672::H4",
+            "package_id": "paper:1225516013110427672",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1225516013110427672"
+          ]
+        },
+        "rerank_score": 0.8150330224434006,
+        "role": "premise",
+        "score": 0.005786128171004885,
+        "title": "Diagnostic separation: quantum metric dissipative, Berry curvature dissipationless",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Few-layer $T_d$-TaIrTe$_4$ and similar low-symmetry, nonmagnetic two-dimensional crystals are predicted to host a Berry curvature dipole $\\boldsymbol{D}$ that can produce nonlinear transverse charge responses without static magnetic order, but prior to this work the connection between current-induced orbital magnetization and a genuine first-order (linear) anomalous Hall effect (AHE) in such nonmagnetic systems remained unresolved. Conventional AHE theory requires time-reversal symmetry breaking, typically provided by spontaneous spin magnetization, so observing a linear transverse voltage at zero applied magnetic field in a nonmagnetic conductor raises the question of what microscopic polarization (spin or orbital) breaks time-reversal symmetry and how it couples to transport. Previous experiments established second-order nonlinear Hall effects (NLHE) linked to a Berry curvature dipole and third-order responses in topological semimetals, yet they did not provide an experimental protocol that separates the generation of a current-induced magnetization from its electrical detection, nor a quantitative account of whether orbital or spin magnetization dominates the magnetoelectric response in few-layer TaIrTe$_4$. These gaps prevented (i) direct demonstration that a dc-driven out-of-plane orbital magnetization can produce a linear-in-probe-current Hall voltage in a time-reversal symmetric crystal, (ii) a quantitative comparison among linear AHE, NLHE and dc nonreciprocal Hall signals to confirm a single underlying mechanism, and (iii) microscopic identification (with band-structure-based magnetoelectric susceptibilities) of whether orbital moments or spin moments are the dominant source of current-induced magnetization in this material. Because these issues bear on whether out-of-plane orbital flow can be electrically controlled and detected in realistic devices, resolving them is necessary to move beyond phenomenological NLHE observations toward a mechanistic, quantitative understanding of orbital magnetoelectric effects in low-symmetry two-dimensional Weyl semimetals.",
+        "content_hash": "95e5238049affe9734f65534dae899c9f96e387b6641824ef7e212f777f5c266",
+        "id": "gcn_56aa0694d9054075",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1071675180952059908::problem",
+            "package_id": "paper:1071675180952059908",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1071675180952059908"
+          ]
+        },
+        "rerank_score": 0.8126694453111313,
+        "role": "premise",
+        "score": 0.009174311926605505,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Experimental and theoretical work before this paper lacked an intrinsic, band-structure-only mechanism that generically produces a longitudinal second-order response (NMR) without relying solely on scattering processes, while transverse nonlinear responses were commonly associated with the Berry curvature dipole and/or extrinsic scattering effects. This left unresolved whether quantum geometry (beyond Berry curvature dipoles) can simultaneously generate both transverse and longitudinal nonlinearities in a material whose symmetry permits such contributions. Because prior metric- or Berry-based approaches often predicted a vanishing longitudinal second-order conductivity, there was no clear route to attribute observed longitudinal nonlinearities to an intrinsic geometric source. By identifying the specific combination of derivatives of the band-normalized quantum metric that appears in the intrinsic $\\tau^{0}$ term, the work provides that missing band-structure origin and explains how the same quantum-geometric object can feed both NLAHE and NMR depending on tensor components and crystal symmetry.",
+        "content_hash": "190654e6fafc788d191ec4a159a20a39619aaf53264ccfd2827af3f12ba281d8",
+        "id": "gcn_d34ca8acb55b4261",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867753779963888506::conclusion_2_subproblem",
+            "package_id": "paper:867753779963888506",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867753779963888506"
+          ]
+        },
+        "rerank_score": 0.8531036841894093,
+        "role": "premise",
+        "score": 0.008695652173913044,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "While quantum-metric-induced nonlinear transport had been explored in purely $\\boldsymbol{k}$-space contexts, the role of mixed $(\\boldsymbol{k},E_{\\perp})$ quantum geometry—which naturally appears in layered systems where $E_{\\perp}$ couples to an interlayer dipole—was not formulated. Without expressing $\\mathcal{G}$ in terms of mixed quantum-metric elements and decomposing $\\chi^{\\mathrm{int}}$, it was unclear whether the new dynamical Hall response was a metric-type effect, which metric component dominates, and how interband virtual processes contribute. This connection provides a geometric interpretation and separates a Fubini–Study-like term (intimately tied to layer hybridization and band velocities) from other interband corrections, clarifying the microscopic origin of the intrinsic response.",
+        "content_hash": "7ce3470019742a66b1e7c729337017887ea68ea363d3a746720aaf79f3c64a17",
+        "id": "gcn_7aca327cd8e34784",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:975212623249276934::conclusion_3_subproblem",
+            "package_id": "paper:975212623249276934",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:975212623249276934"
+          ]
+        },
+        "rerank_score": 0.8152914758716137,
+        "role": "premise",
+        "score": 0.0072992700729927005,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Existing theories for nonlinear orbital magnetization were limited to quadratic order (e.g., the quantum‑Christoffel magnetization of Qiang *et al.* [23]). For symmetry‑filtered systems (e.g., $C_{3v}$ surfaces, zincblende crystals) where linear and quadratic axial responses vanish, the leading response is cubic, but its quantum‑geometric content was completely unexplored. It was unknown whether the cubic magnetization possesses a multipole hierarchy analogous to that of third‑order transport currents (quantum‑metric quadrupole, Berry‑curvature quadrupole, Berry‑connection polarizability). Without this understanding, no controlled theoretical prediction could be made for the magnitude, angular dependence, or experimental separation of the cubic magnetization signal in these important material classes.",
+        "content_hash": "b715f5e5d9a675a4b9826c0b91c8c160cdab3cfb5f7bc76f3cfbc5174996417b",
+        "id": "gcn_4880f80072874f72",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:7465802858278813699::conclusion_2_subproblem",
+            "package_id": "paper:7465802858278813699",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:7465802858278813699"
+          ]
+        },
+        "rerank_score": 0.8070472889188599,
+        "role": "premise",
+        "score": 0.017700420384984143,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "While the continuum definitions of the quantum metric and BCP exist, their momentum-space magnitude and distribution in realistic lattice models determine the numerical size of any intrinsic geometric response. Prior to explicit model calculations, it was unknown whether the quantum metric would be sufficiently concentrated or large in candidate materials to produce an observable intrinsic nonlinear thermoelectric current. By computing the quantum metric for a concrete PT-symmetric CuMnAs model and reporting its concentration near band edges and characteristic multipolar patterns, this result provides the necessary microscopic input to evaluate the magnitude and k-space origin of the NLI response.",
+        "content_hash": "9c6eb08d39d7beecc15b5073c2436c97eea0666be9f8af1a711701a5a5284d87",
+        "id": "gcn_1c652507e67240ca",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1043407667852214279::conclusion_5a_subproblem",
+            "package_id": "paper:1043407667852214279",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1043407667852214279"
+          ]
+        },
+        "rerank_score": 0.8024689422864522,
+        "role": "premise",
+        "score": 0.005681818181818182,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The study is set in the context of quantum geometric effects of Bloch electrons, where the quantum geometric tensor $T_{\\alpha\\beta}(\\boldsymbol{k})=\\langle \\partial_{\\alpha}u_{\\boldsymbol{k}}|(1-|u_{\\boldsymbol{k}}\\rangle\\langle u_{\\boldsymbol{k}}|)|\\partial_{\\beta}u_{\\boldsymbol{k}}\\rangle$ encodes the imaginary part $ \\Omega_{\\alpha\\beta}=2\\mathrm{Im}(T_{\\alpha\\beta})$ (Berry curvature) and the real part $g_{\\alpha\\beta}=\\mathrm{Re}(T_{\\alpha\\beta})$ (quantum metric). Prior experimental studies demonstrated nonlinear responses arising from Berry curvature dipoles and quantum-metric dipoles in systems where inversion symmetry is broken (e.g., bilayer/few-layer WTe$_2$ and MnBi$_2$Te$_4$ thin films), but bulk crystals that preserve inversion symmetry suppress second-order (dipole) responses. Consequently, there remained no experimental probe that directly accesses the next-higher spatial moments (quadrupoles) of both real and imaginary parts of the quantum geometric tensor in an inversion-symmetric, magnetically ordered solid. The absence of such probes leaves open whether (i) quadrupolar distributions of Berry curvature or quantum metric exist and produce measurable high-order transport, (ii) how those multipoles evolve across magnetic transitions in a topological antiferromagnet, and (iii) whether a concrete semiclassical/theoretical framework can quantitatively connect measured higher-harmonic voltages to well-defined band-geometric quantities (e.g., spatial derivatives of $g_{\\alpha\\beta}$ and $\\Omega_{\\alpha\\beta}$) in a bulk material. These gaps prevent using nonlinear transport in inversion-symmetric magnetic topological materials as an experimental window onto higher moments of quantum geometry and their magnetic-field dependence.",
+        "content_hash": "1b7effba0150d8ecc2b426a31604b08ef32440a0f655acd98b007ccc0ef2ad0e",
+        "id": "gcn_d1a440d3dfde43cc",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:890884013747601567::problem",
+            "package_id": "paper:890884013747601567",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:890884013747601567"
+          ]
+        },
+        "rerank_score": 0.829403681103849,
+        "role": "premise",
+        "score": 0.0136986301369863,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In the physical context of 2D electronic systems, demonstrations of Hall responses tied to band geometry have typically required either intrinsic inversion breaking with sizable spin–orbit coupling (producing Berry curvature hot spots and a nonzero BCD) or explicit magnetic order/Zeeman coupling. There was no established demonstration that the orbital effect of an in-plane magnetic field (which couples to electron motion via vector-potential induced hopping phases but does not involve spins) can alone generate the band Berry curvature textures whose first moment yields a BCD and hence a nonlinear Hall current. Without such a mechanism, theory could not predict QNLPE in nonmagnetic, spin–orbit–free 2D Dirac materials, nor could it propose magnetic-field control protocols for rectification/second-harmonic generation that do not rely on spin physics. Establishing an orbital-only route is therefore necessary to expand the class of systems and experimental setups that can realize quantum-geometric nonlinear responses.",
+        "content_hash": "86fa8a45c5d8e059cf88a9dd49a61bf44a3fc46ce4f20d3f2140d054bc6cacb2",
+        "id": "gcn_d1455cf67b574199",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867760507153548163::conclusion_1_subproblem",
+            "package_id": "paper:867760507153548163",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867760507153548163"
+          ]
+        },
+        "rerank_score": 0.8410309542173144,
+        "role": "premise",
+        "score": 0.011904761904761904,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In the study of nonlinear bulk photovoltaic effects, researchers lacked microscopically derived, gauge-covariant expressions that isolate quantum-metric contributions from Berry-curvature ones in a minimal altermagnet model. Existing frameworks mix Berry-curvature and metric terms or treat material parameters phenomenologically, so there was no clear, model-based formula linking measurable third-order injection and shift currents to the quantum metric $g_{\\mu\\nu}$ and higher-order quantum connections $C_{...}$, together with explicit dependencies on relaxation time $\\tau$, bond integrals $V_{\\pi},V_{\\delta}$, crystal field $\\Delta$, and exchange $m$. This absence prevented unambiguous identification of quantum-metric-dominated regimes, impeded analytic evaluation in limiting cases, and left open whether third-order responses could be free of Berry-curvature contamination in a realistic tight-binding setting.",
+        "content_hash": "3168a4d430c49d5bdbe1a1ece6cfaf338718911c6773c9476f839a683ef53492",
+        "id": "gcn_f7b78f5e86e94b0f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1251123084874743822::conclusion_1_subproblem",
+            "package_id": "paper:1251123084874743822",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1251123084874743822"
+          ]
+        },
+        "rerank_score": 0.7966370440017077,
+        "role": "premise",
+        "score": 0.009852455833818677,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Band-geometry-sensitive observables (Berry curvature, quantum metric) govern topological transport and geometric responses, but prior work largely computed these quantities within noninteracting linear spin-wave theory where curvature hotspots are fixed by $H_{0}$. Without identifying an interaction-generated off-diagonal $g(\\boldsymbol{k})$ and its relation to population imbalances there was no microscopic route to predict how many-body populations can relocate Berry-curvature weight, deform the quantum metric, or move Dirac points—operations that are crucial for engineering band geometry and for interpreting experiments sensitive to band geometry (e.g., thermal Hall measurements).",
+        "content_hash": "92d1f93cd2384c57a88a1d73401ab394c83e8d7bc7ee94a8016eb4930ed2ce9d",
+        "id": "gcn_102ce2b2c7fa4a81",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867768156553216254::conclusion_4_subproblem",
+            "package_id": "paper:867768156553216254",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867768156553216254"
+          ]
+        },
+        "rerank_score": 0.8479322243528699,
+        "role": "premise",
+        "score": 0.01,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The central unresolved conceptual question was whether displacement currents—unlike DC intrinsic linear conduction Hall currents, which are $\\mathcal{T}$-odd and therefore vanish in $\\mathcal{T}$-symmetric systems—could host an intrinsic $\\mathcal{T}$-even linear transverse response and, if so, which band-geometric object would play the role analogous to Berry curvature for conduction Hall effects. Prior work linked Berry curvature (a $\\mathcal{T}$-odd object) to many intrinsic transverse conduction responses and, more recently, connected quantum metric to some nonlinear effects; however, no established decomposition mapped AC displacement response into separate $\\mathcal{T}$-even and $\\mathcal{T}$-odd geometric contributions. Without this decomposition it was impossible to predict whether a purely intrinsic, relaxation-time-free transverse displacement current could appear in $\\mathcal{T}$-invariant materials and to classify its geometric origin.",
+        "content_hash": "44ea84baade1bcbd540eaee208a0cee55e57bcaaf0dd610d84c8d68a9f46f97e",
+        "id": "gcn_e057c9258e434c15",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:890158029784219959::conclusion_2_subproblem",
+            "package_id": "paper:890158029784219959",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:890158029784219959"
+          ]
+        },
+        "rerank_score": 0.8222104938839419,
+        "role": "premise",
+        "score": 0.005714285714285714,
+        "type": "question",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "req_cc21419415a0e"
+}

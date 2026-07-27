@@ -1,0 +1,1493 @@
+{
+  "code": 0,
+  "data": {
+    "has_more": true,
+    "papers": {
+      "paper:1018766514880249858": {
+        "area": "arxiv-physics, chemical sciences, macromolecular and materials chemistry, information and computing sciences, physical sciences, condensed matter physics",
+        "authors": "Junxi Yu | Shifeng Qian | Cheng-Cheng Liu",
+        "available_online": "",
+        "cover_date_start": "2024-07-11",
+        "created_at": "2026-06-15T02:56:42+08:00",
+        "doi": "10.48550/arxiv.2407.08110",
+        "en_title": "General Electronic Structure Calculation Method for Twisted Systems",
+        "id": "1018766514880249858",
+        "keywords": "",
+        "publication_date": "2024-07-11",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Chemical Sciences\", \"Macromolecular and Materials Chemistry\", \"Information and Computing Sciences\", \"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "扭曲体系的通用电子结构计算方法"
+      },
+      "paper:1027100936562016260": {
+        "area": "physics and astrophysics, physical sciences, condensed matter physics",
+        "authors": "Ning Mao | Cheng Xu | Jiangxu Li | Ting Bao | Peitao Liu | Yong Xu | Claudia Felser | Liang Fu | Yang Zhang",
+        "available_online": "",
+        "cas_zone": "1",
+        "cover_date_start": "2024-08-04",
+        "created_at": "2026-05-16T22:24:43+08:00",
+        "doi": "10.1038/s42005-024-01754-y",
+        "en_title": "Transfer learning relaxation, electronic structure and continuum model for twisted bilayer MoTe 2",
+        "id": "1027100936562016260",
+        "impact_factor": 5.2,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "496",
+        "publication_name": "Communications Physics _ ",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "扭曲双层二碲化钼的迁移学习弛豫、电子结构和连续介质模型"
+      },
+      "paper:1038701119158616068": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Christophe De Beule | Robin Smeyers | Wilson Nieto Luna | E. J. Mele | Lucian Covaci",
+        "available_online": "",
+        "cover_date_start": "2024-09-03",
+        "created_at": "2026-06-15T06:28:47+08:00",
+        "doi": "10.48550/arxiv.2409.02250",
+        "en_title": "Elastic screening of pseudo gauge fields in graphene",
+        "id": "1038701119158616068",
+        "keywords": "",
+        "publication_date": "2024-09-03",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "石墨烯中赝规范场的弹性筛选"
+      },
+      "paper:1068413822181572613": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Daniel T. Larson | Daniel Bennett | Abduhla Ali | Anderson S. Chaves | Raagya Arora | Karin M. Rabe | Efthimios Kaxiras",
+        "available_online": "",
+        "cover_date_start": "2024-11-25",
+        "created_at": "2026-06-17T08:44:20+08:00",
+        "doi": "10.48550/arxiv.2411.16497",
+        "en_title": "Stacking-dependent electronic structure of ultrathin perovskite bilayers",
+        "id": "1068413822181572613",
+        "keywords": "",
+        "publication_date": "2024-11-25",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "",
+        "zh_title": "超薄钙钛矿双层膜的层叠依赖电子结构"
+      },
+      "paper:1070951575758831625": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Jin Wang | Erio Tosatti",
+        "available_online": "",
+        "cover_date_start": "2024-11-30",
+        "created_at": "2026-06-14T19:41:45+08:00",
+        "doi": "10.48550/arxiv.2412.00434",
+        "en_title": "Universal Moiré Buckling of Freestanding 2D Bilayers",
+        "id": "1070951575758831625",
+        "keywords": "",
+        "publication_date": "2024-11-30",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "独立二维双层膜的通用莫尔纹屈曲"
+      },
+      "paper:1074575319303716878": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Zhigang Song | Xiuying Zhang | Julian Klein | Jonathan Curtis | Frances M. Ross | Prineha Narang",
+        "available_online": "",
+        "cover_date_start": "2024-12-12",
+        "created_at": "2026-06-19T00:31:42+08:00",
+        "doi": "10.48550/arxiv.2412.09192",
+        "en_title": "Twist-induced spin splitting and spin-Hall-like effect in antiferromagnetic bilayers",
+        "id": "1074575319303716878",
+        "keywords": "",
+        "publication_date": "2024-12-12",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "",
+        "zh_title": "反铁磁双层膜中的扭曲诱导自旋分裂和类自旋霍尔效应"
+      },
+      "paper:1152577548907970566": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Haoshen Ye | Shuai Dong",
+        "available_online": "",
+        "cover_date_start": "2025-07-16",
+        "created_at": "2026-06-17T06:12:06+08:00",
+        "doi": "10.48550/arxiv.2507.12324",
+        "en_title": "Magnetic and ferroelectric phase diagram of twisted CrI_3 layers",
+        "id": "1152577548907970566",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108483",
+        "publication_name": "Materials Science",
+        "research_categories": "",
+        "zh_title": "扭曲的CrI₃层的磁性和铁电相图"
+      },
+      "paper:1154027116531023875": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Haiyan Zhua | Hongyu Yua | Weiqin Zhua | Guoliang Yua | Changsong Xu | Hongjun Xiang",
+        "available_online": "",
+        "cover_date_start": "2025-07-18",
+        "created_at": "2026-06-19T07:48:47+08:00",
+        "doi": "10.48550/arxiv.2507.13709",
+        "en_title": "Moiré-Induced Magnetoelectricity in Twisted Bilayer NiI2",
+        "id": "1154027116531023875",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108483",
+        "publication_name": "Materials Science",
+        "research_categories": "",
+        "zh_title": "扭曲双层碘化镍中的莫尔诱导磁电效应"
+      },
+      "paper:1212733797292834838": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Christophe De Beule | Ming-Hao Liu | Bart Partoens | Lucian Covaci",
+        "available_online": "",
+        "cover_date_start": "2025-12-28",
+        "created_at": "2026-06-13T12:53:14+08:00",
+        "doi": "10.48550/arXiv.2512.22982",
+        "en_title": "Gate-Tunable Transport and 1D Channel in a Graphene Nanoslide",
+        "id": "1212733797292834838",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "石墨烯纳米片层中的栅极可调输运与一维通道"
+      },
+      "paper:1225780552007680018": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Federico Escudero | Dong Wang | Pierre A. Pantaleón | Shengjun Yuan | Francisco Guinea | Zhen Zhan",
+        "available_online": "",
+        "cover_date_start": "2026-02-02",
+        "created_at": "2026-06-13T17:35:52+08:00",
+        "doi": "10.48550/arXiv.2602.02692",
+        "en_title": "Straintronics and twistronics in bilayer graphene",
+        "id": "1225780552007680018",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "双层石墨烯中的应变电子学与扭曲电子学"
+      },
+      "paper:1229352424032960545": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Zhigang Song | Jingshan Qi | Olivia Liebman | Prineha Narang",
+        "available_online": "",
+        "cover_date_start": "2023-07-18",
+        "created_at": "2026-05-16T20:51:46+08:00",
+        "doi": "10.48550/arXiv.2307.09506",
+        "en_title": "Flat-band spin density wave in twisted bilayer materials",
+        "id": "1229352424032960545",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons",
+        "research_categories": "",
+        "zh_title": "扭曲双层材料中的平带自旋密度波"
+      },
+      "paper:7465946494530183217": {
+        "area": "arxiv-cond-mat",
+        "authors": "Arjyama Bordoloi | Daniel Kaplan | Sobhit Singh",
+        "available_online": null,
+        "cover_date_start": "2026-05-26",
+        "created_at": "2026-06-02T10:22:24+08:00",
+        "doi": "10.48550/arxiv.2605.27548",
+        "en_title": "Relaxation-driven topological domains in moir\\'e materials",
+        "id": "7465946494530183217",
+        "keywords": null,
+        "publication_date": "2026-05-26",
+        "publication_id": "",
+        "publication_name": "arXiv (cond-mat.mtrl-sci)",
+        "research_categories": null,
+        "zh_title": "moir材料中的松弛驱动拓扑域"
+      },
+      "paper:7478126813552050209": {
+        "area": "arXiv-physics",
+        "authors": "Mengfan Tu | Huajie Chen | Daniel Massatt",
+        "available_online": null,
+        "cover_date_start": "2026-06-30",
+        "created_at": "2026-07-09T02:25:02+08:00",
+        "doi": "10.48550/arxiv.2606.31104",
+        "en_title": "Relaxation of Incommensurate Structures via Quantum Models",
+        "id": "7478126813552050209",
+        "keywords": null,
+        "publication_date": "2026-06-30",
+        "publication_id": "",
+        "publication_name": "arXiv (physics.comp-ph)",
+        "research_categories": null,
+        "zh_title": "通过量子模型松弛不相称的结构"
+      },
+      "paper:812520301815398402": {
+        "area": "physics and astrophysics, physics, multidisciplinary",
+        "authors": "Dawei Zhai | Wang Yao",
+        "available_online": "2020-12-31",
+        "cas_zone": "1",
+        "cover_date_start": "2020-12-31",
+        "created_at": "2026-06-12T04:41:05+08:00",
+        "doi": "10.1103/physrevlett.125.266404",
+        "en_title": "Layer Pseudospin Dynamics and Genuine Non-Abelian Berry Phase in Inhomogeneously Strained Moiré Pattern",
+        "id": "812520301815398402",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "",
+        "zh_title": "非均匀应变莫尔条纹中的层赝自旋动力学与真正的非阿贝尔贝里相位"
+      },
+      "paper:812654164617199616": {
+        "area": null,
+        "authors": "",
+        "available_online": "",
+        "cover_date_start": "2020-04-07",
+        "created_at": "2026-06-01T17:07:23+08:00",
+        "doi": "10.1021/acs.nanolett.9b04027.s001",
+        "en_title": "Perfect and Controllable Nesting in Minimally Twisted Bilayer Graphene",
+        "id": "812654164617199616",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "0",
+        "publication_name": "",
+        "research_categories": "",
+        "zh_title": "最小扭曲双层石墨烯中完美且可控的嵌套"
+      },
+      "paper:812678330368131072": {
+        "area": "material science, physical sciences, condensed matter physics",
+        "authors": "Zongrui Pei | Sai Mu | Wenmei Ming",
+        "available_online": "2020",
+        "cas_zone": "3",
+        "cover_date_start": "2020-01-01",
+        "created_at": "2026-06-15T23:59:16+08:00",
+        "doi": "10.1039/c9nr09111d",
+        "en_title": "The local strain distribution in bilayer materials: a multiscale study",
+        "id": "812678330368131072",
+        "impact_factor": 5.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "2079",
+        "publication_name": "Nanoscale _ Nanoscale",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "双层材料中的局部应变分布：一项多尺度研究"
+      },
+      "paper:812686536284831745": {
+        "area": "comprehensive periodical, physical sciences, condensed matter physics",
+        "authors": "Haohao Shi | Zhen Zhan | Zhikai Qi | Kaixiang Huang | Edo van Veen | Jose Ángel Silva-Guillén | Runxiao Zhang | Pengju Li | Kun Xie | Hengxing Ji | Mikhail I. Katsnelson | Shengjun Yuan | Shengyong Qin | Zhenyu Zhang",
+        "available_online": "2020-1-17",
+        "cas_zone": "1",
+        "cover_date_start": "2020-01-17",
+        "created_at": "2026-06-13T19:31:18+08:00",
+        "doi": "10.1038/s41467-019-14207-w",
+        "en_title": "Large-area, periodic, and tunable intrinsic pseudo-magnetic fields in low-angle twisted bilayer graphene",
+        "id": "812686536284831745",
+        "impact_factor": 15.5,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2020-12",
+        "publication_id": "10026",
+        "publication_name": "Nature Communications _ Nat Commun",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "低角度扭曲双层石墨烯中的大面积、周期性且可调谐的本征赝磁场"
+      },
+      "paper:812692413263904768": {
+        "area": "material science, physical sciences, condensed matter physics",
+        "authors": "Peng Kang",
+        "available_online": "2020-1-27",
+        "cas_zone": "3",
+        "cover_date_start": "2020-01-27",
+        "created_at": "2026-05-18T21:33:15+08:00",
+        "doi": "10.1088/2053-1583/ab6707",
+        "en_title": "Indirect-to-direct bandgap transition in bilayer InSe: roles of twistronics",
+        "id": "812692413263904768",
+        "impact_factor": 4.7,
+        "jcr_zone": "Q2",
+        "keywords": "[{\"ch_name\":\"间接到直接带隙跃迁\",\"en_name\":\"indirect-to-direct bandgap transition\"},{\"ch_name\":\"硒化铟\",\"en_name\":\"indium selenide\"},{\"ch_name\":\"双电子学\",\"en_name\":\"twistronics\"},{\"ch_name\":\"二维材料\",\"en_name\":\"two-dimensional materials\"}]",
+        "publication_date": "",
+        "publication_id": "2094",
+        "publication_name": "2D Materials _ 2D Mater.",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "双层InSe中从间接带隙到直接带隙的转变：转角电子学的作用"
+      },
+      "paper:812703149704871937": {
+        "area": "material science, physical sciences, condensed matter physics",
+        "authors": "Min Long | Pierre A. Pantaleón | Zhen Zhan | Francisco Guinea | Jose Ángel Silva-Guillén | Shengjun Yuan",
+        "available_online": "2022-4-20",
+        "cas_zone": "1",
+        "cover_date_start": "2022-04-20",
+        "created_at": "2026-05-23T01:35:21+08:00",
+        "doi": "10.1038/s41524-022-00763-1",
+        "en_title": "An atomistic approach for the structural and electronic properties of twisted bilayer graphene-boron nitride heterostructures",
+        "id": "812703149704871937",
+        "impact_factor": 11.2,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2022-12",
+        "publication_id": "2057",
+        "publication_name": "npj Computational Materials _ npj Comput Mater",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "一种用于研究扭曲双层石墨烯-氮化硼异质结构的结构和电子性质的原子尺度方法"
+      },
+      "paper:813212652800049153": {
+        "area": "Comprehensive Periodical, Physical Sciences, Condensed Matter Physics",
+        "authors": "Wei Yan | Wen-Yu He | Zhao-Dong Chu | Mengxi Liu | Lan Meng | Rui-Fen Dou | Yanfeng Zhang | Zhongfan Liu | Jia-Cai Nie | Lin He",
+        "available_online": "2013-7-12",
+        "cas_zone": "1",
+        "cover_date_start": "2013-07-12",
+        "created_at": "2026-06-19T08:25:43+08:00",
+        "doi": "10.1038/ncomms3159",
+        "en_title": "Strain and curvature induced evolution of electronic band structures in twisted graphene bilayer",
+        "id": "813212652800049153",
+        "impact_factor": 15.5,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2013-10",
+        "publication_id": "10026",
+        "publication_name": "Nature Communications _ Nat Commun",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "扭曲双层石墨烯中应变和曲率诱导的电子能带结构演化"
+      },
+      "paper:814609362248007681": {
+        "area": "material science, materials science, multidisciplinary",
+        "authors": "M M van Wijk | A Schuring | M I Katsnelson | A Fasolino",
+        "available_online": "2015-7-29",
+        "cas_zone": "3",
+        "cover_date_start": "2015-07-29",
+        "created_at": "2026-05-18T15:24:40+08:00",
+        "doi": "10.1088/2053-1583/2/3/034010",
+        "en_title": "Relaxation of moiré patterns for slightly misaligned identical lattices: graphene on graphite",
+        "id": "814609362248007681",
+        "impact_factor": 4.7,
+        "jcr_zone": "Q2",
+        "keywords": "[{\"ch_name\":\"原子模拟\",\"en_name\":\"Atomistic simulations\"},{\"ch_name\":\"石墨烯\",\"en_name\":\"Graphene\"},{\"ch_name\":\"云纹\",\"en_name\":\"moire\"}]",
+        "publication_date": "",
+        "publication_id": "2094",
+        "publication_name": "2D Materials _ 2D Mater.",
+        "research_categories": "",
+        "zh_title": "轻微错位的相同晶格的莫尔条纹弛豫：石墨上的石墨烯"
+      },
+      "paper:817404776986705921": {
+        "area": "geoscience, physical sciences, condensed matter physics",
+        "authors": "Márton Szendrő | András Pálinkás | Péter Süle | and Zoltán Osváth",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2019-11-25",
+        "created_at": "2026-06-02T15:52:38+08:00",
+        "doi": "10.1103/PhysRevB.100.125404",
+        "en_title": "Anisotropic strain effects in small-twist-angle graphene on graphite",
+        "id": "817404776986705921",
+        "impact_factor": 3.6,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "98281",
+        "publication_name": "Physical Review B   Condensed Matter and Materials Physics _ ",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "小扭转角石墨烯在石墨上的各向异性应变效应"
+      },
+      "paper:864958863038742773": {
+        "area": "comprehensive periodical, physical sciences, condensed matter physics",
+        "authors": "Suk Hyun Sung | Yin Min Goh | Hyobin Yoo | Rebecca Engelke | Hongchao Xie | Kuan Zhang | Zidong Li | Andrew Ye | Parag B. Deotare | Ellad B. Tadmor | Andrew J. Mannix | Jiwoong Park | Liuyan Zhao | Philip Kim | Robert Hovden",
+        "available_online": "2022-12-19",
+        "cas_zone": "1",
+        "cover_date_start": "2022-12-19",
+        "created_at": "2026-05-23T00:38:38+08:00",
+        "doi": "10.1038/s41467-022-35477-x",
+        "en_title": "Torsional periodic lattice distortions and diffraction of twisted 2D materials",
+        "id": "864958863038742773",
+        "impact_factor": 15.5,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "10026",
+        "publication_name": "Nature Communications _ Nat Commun",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "扭转二维材料的扭转周期性晶格畸变与衍射"
+      },
+      "paper:867745229120208912": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Haohao Shi | Zhen Zhan | Zhikai Qi | Kaixiang Huang | Edo van Veen | Jose Angel Silva-Guillén | Runxiao Zhang | Pengju Li | Kun Xie | Hengxing Ji | Mikhail I. Katsnelson | Shengjun Yuan | Shengyong Qin | Zhenyu Zhang",
+        "available_online": "",
+        "cover_date_start": "2019-05-11",
+        "created_at": "2026-06-15T02:27:24+08:00",
+        "doi": "10.48550/arXiv.1905.04515",
+        "en_title": "Large-area, periodic, and tunable intrinsic pseudo-magnetic fields in low-angle twisted bilayer graphene",
+        "id": "867745229120208912",
+        "keywords": "",
+        "publication_date": "2019-05-11",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "低角度扭曲双层石墨烯中的大面积、周期性和可调谐本征赝磁场"
+      },
+      "paper:867748811072602364": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Marwa Mannaï | Sonia Haddad",
+        "available_online": "",
+        "cover_date_start": "2020-11-17",
+        "created_at": "2026-06-17T04:48:25+08:00",
+        "doi": "10.48550/arXiv.2011.08818",
+        "en_title": "Twistronics versus straintronics in twisted bilayers of graphene and transition metal dichalcogenides",
+        "id": "867748811072602364",
+        "keywords": "",
+        "publication_date": "2020-11-17",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "扭曲双层石墨烯和过渡金属二硫属化物中的扭转电子学与应变电子学"
+      },
+      "paper:867752553289351214": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Saismit Naik | Mit H. Naik | Indrajit Maity | Manish Jain",
+        "available_online": "",
+        "cover_date_start": "2021-02-15",
+        "created_at": "2026-06-15T23:34:01+08:00",
+        "doi": "10.48550/arXiv.2102.07884",
+        "en_title": "Twister: Construction and structural relaxation of commensurate moiré superlattices",
+        "id": "867752553289351214",
+        "keywords": "",
+        "publication_date": "2021-02-15",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "",
+        "zh_title": "《扭曲： commensurate 莫尔超晶格的构建与结构弛豫》 "
+      },
+      "paper:867758194619843247": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "G. Cantele | D. Alfè | F. Conte | V. Cataudella | D. Ninno | P. Lucignano",
+        "available_online": "",
+        "cover_date_start": "2020-04-29",
+        "created_at": "2026-06-19T04:18:12+08:00",
+        "doi": "10.48550/arXiv.2004.14323",
+        "en_title": "Structural relaxation and low energy properties of Twisted Bilayer Graphene",
+        "id": "867758194619843247",
+        "keywords": "",
+        "publication_date": "2020-04-29",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "",
+        "zh_title": "扭曲双层石墨烯的结构弛豫与低能性质"
+      },
+      "paper:867762487171219688": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Yafei Li | Qing Yuan | Deping Guo | Cancan Lou | Xingxia Cui | Guangqiang Mei | Hrvoje Petek | Limin Cao | Wei Ji | Min Feng",
+        "available_online": "",
+        "cover_date_start": "2022-06-19",
+        "created_at": "2026-05-16T19:45:33+08:00",
+        "doi": "10.48550/arXiv.2206.09354",
+        "en_title": "Realization of one-dimensional electronic flat bands in an untwisted moire superlattice",
+        "id": "867762487171219688",
+        "keywords": "",
+        "publication_date": "2022-06-19",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "在非扭曲莫尔超晶格中实现一维电子平带"
+      },
+      "paper:867763923233800453": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Yu. N. Gornostyrev | M.I. Katsnelson",
+        "available_online": "",
+        "cover_date_start": "2020-06-20",
+        "created_at": "2026-05-16T19:24:58+08:00",
+        "doi": "10.48550/arXiv.2006.11551",
+        "en_title": "Origin of the vortex displacement field in twisted bilayer graphene",
+        "id": "867763923233800453",
+        "keywords": "",
+        "publication_date": "2020-06-20",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "扭曲双层石墨烯中涡旋位移场的起源"
+      },
+      "paper:867764172618728223": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "M. Van der Donck | F. M. Peeters | B. Van Duppen",
+        "available_online": "",
+        "cover_date_start": "2016-06-15",
+        "created_at": "2026-06-19T08:44:11+08:00",
+        "doi": "10.48550/arXiv.1606.04709",
+        "en_title": "Comment on \"Creating in-plane pseudomagnetic fields in excess of 1000 T by misoriented stacking in a graphene bilayer\"",
+        "id": "867764172618728223",
+        "keywords": "",
+        "publication_date": "2016-06-15",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "对“通过双层石墨烯中的错位堆叠产生超过1000特斯拉的面内赝磁场”的评论"
+      },
+      "paper:867769920841056630": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Francisco Guinea | Niels R. Walet",
+        "available_online": "",
+        "cover_date_start": "2019-03-01",
+        "created_at": "2026-05-25T19:22:10+08:00",
+        "doi": "10.48550/arXiv.1903.00364",
+        "en_title": "Continuum models for twisted bilayer graphene: the effects of lattice deformation and hopping parameter",
+        "id": "867769920841056630",
+        "keywords": "",
+        "publication_date": "2019-03-01",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "扭曲双层石墨烯的连续体模型：晶格变形和跳跃参数的影响"
+      },
+      "paper:867771815940849729": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Jian Kang | Oskar Vafek",
+        "available_online": "",
+        "cover_date_start": "2022-08-11",
+        "created_at": "2026-06-16T07:54:58+08:00",
+        "doi": "10.48550/arXiv.2208.05953",
+        "en_title": "Pseudo-magnetic fields, particle-hole asymmetry, and microscopic effective continuum Hamitonians of twisted bilayer graphene",
+        "id": "867771815940849729",
+        "keywords": "",
+        "publication_date": "2022-08-11",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "扭曲双层石墨烯的赝磁场、粒子-空穴不对称性及微观有效连续哈密顿量"
+      },
+      "paper:867773468681176020": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Fatemeh Haddadi | QuanSheng Wu | Alex J. Kruchkov | Oleg V. Yazyev",
+        "available_online": "",
+        "cover_date_start": "2019-06-03",
+        "created_at": "2026-05-25T22:47:58+08:00",
+        "doi": "10.48550/arXiv.1906.00623",
+        "en_title": "Moiré Flat Bands in Twisted Double Bilayer Graphene",
+        "id": "867773468681176020",
+        "keywords": "",
+        "publication_date": "2019-06-03",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "扭曲双层双层石墨烯中的莫尔平带"
+      },
+      "paper:867773731613704200": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "A. M. León | E. A. Velásquez | F. Caro-Lopera | J. Mejía-López",
+        "available_online": "",
+        "cover_date_start": "2021-06-06",
+        "created_at": "2026-06-14T03:54:30+08:00",
+        "doi": "10.48550/arXiv.2106.03258",
+        "en_title": "Tuning magnetic states in CrI$_3$ bilayers via Moiré patterns",
+        "id": "867773731613704200",
+        "keywords": "",
+        "publication_date": "2021-06-06",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "通过莫尔条纹调控CrI₃双层中的磁态"
+      },
+      "paper:867774290894782807": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Chiun-Yan Lin | Ming-Fa Lin",
+        "available_online": "",
+        "cover_date_start": "2019-07-20",
+        "created_at": "2026-06-14T02:20:58+08:00",
+        "doi": "10.48550/arXiv.1907.08858",
+        "en_title": "Magneto-electronic properties of twisted bilayer graphene system",
+        "id": "867774290894782807",
+        "keywords": "",
+        "publication_date": "2019-07-20",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "扭曲双层石墨烯体系的磁电性质"
+      },
+      "paper:902981464772051449": {
+        "area": "arXiv-Physics, Physical Sciences, Condensed Matter Physics",
+        "authors": "F. Mesple | N. R. Walet | G. Trambly de Laissardière | F. Guinea | D. Dosenovic | H. Okuno | C. Paillet | A. Michon | C. Chapelier | V. T. Renard",
+        "available_online": "",
+        "cover_date_start": "2023-08-25",
+        "created_at": "2026-06-19T05:21:24+08:00",
+        "doi": "10.48550/arXiv.2308.13230",
+        "en_title": "Giant atomic swirl in graphene bilayers with biaxial heterostrain",
+        "id": "902981464772051449",
+        "keywords": "",
+        "publication_date": "2023-08-25",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "具有双轴异质应变的双层石墨烯中的巨型原子涡旋"
+      },
+      "paper:932514933495562878": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Ning Mao | Cheng Xu | Jiangxu Li | Ting Bao | Peitao Liu | Yong Xu | Claudia Felser | Liang Fu | Yang Zhang",
+        "available_online": "",
+        "cover_date_start": "2023-11-13",
+        "created_at": "2026-06-19T09:54:38+08:00",
+        "doi": "10.48550/arXiv.2311.07533",
+        "en_title": "Lattice relaxation, electronic structure and continuum model for twisted bilayer MoTe$_2$",
+        "id": "932514933495562878",
+        "keywords": "",
+        "publication_date": "2023-11-13",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "扭曲双层二碲化钼的晶格弛豫、电子结构和连续介质模型"
+      },
+      "paper:936507684159488092": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Adrián Ceferino | Francisco Guinea",
+        "available_online": "",
+        "cover_date_start": "2023-11-25",
+        "created_at": "2026-06-13T19:25:28+08:00",
+        "doi": "10.48550/arXiv.2311.15052",
+        "en_title": "Pseudomagnetic fields in fully relaxed twisted bilayer and trilayer graphene",
+        "id": "936507684159488092",
+        "keywords": "",
+        "publication_date": "2023-11-25",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "完全弛豫的扭曲双层和三层石墨烯中的赝磁场"
+      },
+      "paper:966036063640354870": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Mohammed M. Al Ezzi | Gayani N. Pallewela | Shaffique Adam",
+        "available_online": "",
+        "cover_date_start": "2023-12-31",
+        "created_at": "2026-06-14T13:50:36+08:00",
+        "doi": "10.48550/arXiv.2401.00498",
+        "en_title": "Analytical Model for Atomic Relaxation in Twisted Moiré Materials",
+        "id": "966036063640354870",
+        "keywords": "",
+        "publication_date": "2023-12-31",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "扭曲莫尔材料中原子弛豫的解析模型"
+      },
+      "paper:989705481998041106": {
+        "area": "physics and astrophysics, information and computing sciences, machine learning",
+        "authors": "Zilong Yuan | Zhiming Xu | He Li | Xinle Cheng | Honggeng Tao | Zechen Tang | Zhiyuan Zhou | Wenhui Duan | Yong Xu",
+        "available_online": "",
+        "cover_date_start": "2024-04-23",
+        "created_at": "2026-05-22T20:35:25+08:00",
+        "doi": "10.1007/s44214-024-00055-3",
+        "en_title": "Equivariant neural network force fields for magnetic materials",
+        "id": "989705481998041106",
+        "keywords": "[{\"ch_name\":\"深度学习\",\"en_name\":\"Deep Learning\"},{\"ch_name\":\"密度泛函理论\",\"en_name\":\"Density Functional Theory\"},{\"ch_name\":\"力场\",\"en_name\":\"Force Fields\"},{\"ch_name\":\"磁性材料\",\"en_name\":\"Magnetic Materials\"},{\"ch_name\":\"神经网络\",\"en_name\":\"Neural Networks\"}]",
+        "publication_date": "",
+        "publication_id": "98409",
+        "publication_name": "Quantum Frontiers _ ",
+        "research_categories": "[\"Information and Computing Sciences\", \"Machine Learning\"]",
+        "zh_title": "用于磁性材料的等变神经网络力场"
+      }
+    },
+    "variables": [
+      {
+        "content": "Moiré electronic structure is strongly sensitive to atomic reconstruction and the accompanying strain distribution; such strain can produce pseudomagnetic effects and modify interlayer coupling. Prior modeling efforts that neglected realistic, twist-angle-dependent atomic relaxation could misestimate the magnitude and spatial structure of the moiré potential and hence the induced band splittings and transport properties. A quantitative, analytic parametrization of the displacement and strain fields (with fitted numerical parameters) is therefore required so that continuum models and tight-binding hopping corrections can include the correct long-wavelength and short-range deformation effects. Without this fit one cannot reliably connect DFT supercell calculations to reduced models used to predict transport or to extrapolate to other twist angles and material candidates.",
+        "content_hash": "e3aa49a5769e5912dc233409a767fa0d2367d4c26093bb9a064cba1578208c37",
+        "id": "gcn_01a4701e71284ca0",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1074575319303716878::conclusion_5_subproblem",
+            "package_id": "paper:1074575319303716878",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1074575319303716878"
+          ]
+        },
+        "rerank_score": 0.9699928692739357,
+        "role": "premise",
+        "score": 0.02256628212912366,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Twisted two-dimensional (2D) materials form moiré superlattices whose electronic properties depend sensitively on the local atomic registry; at small twist angles modest in-plane atomic displacements (lattice relaxation) can substantially lower interlayer (van der Waals) energy at the cost of elastic energy, producing domain-like AB/BA/AA patterns that strongly modify moiré potentials and electronic bands. Prior theoretical and computational approaches treated relaxation using continuum elasticity theory, DFT-parametrized effective models, or large-scale molecular dynamics (MD) and tight-binding calculations. These existing methods either (i) require heavy numerical computation for each twist angle and material (limiting accessibility and systematic exploration), (ii) use phenomenological or numerically fitted parameterizations that obscure the direct connection between symmetry, displacement-field harmonics, and electronic coupling, or (iii) lack simple closed-form relations that expose how relaxation amplitudes and moiré quantities scale with twist angle and with material parameters (elastic moduli, interlayer potential). As a result, there was no compact, analytically transparent description that (a) gives an explicit functional form for the in-plane displacement field $D(r)$ respecting symmetry and incompressibility; (b) yields universal scaling rules across twist angles and materials; (c) provides a small set of material-specific parameters that can be obtained from modest numerical input; and (d) can be inserted into continuum electronic models to predict band-structure effects (band isolation, Fermi velocity renormalization, pseudomagnetic fields) without performing full atomistic relaxation and large-scale diagonalizations for every case. This gap limited rapid, physically transparent predictions of how lattice relaxation modifies moiré potentials, pseudomagnetic fields, and low-energy electronic structure across different twisted 2D materials and twist-angle regimes.",
+        "content_hash": "c54bc05f7591c63493982a6e17de77691344768ea3411357f7365c85f0d85aee",
+        "id": "gcn_20c39b6a194e48e5",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:966036063640354870::problem",
+            "package_id": "paper:966036063640354870",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:966036063640354870"
+          ]
+        },
+        "rerank_score": 0.9285796575430072,
+        "role": "premise",
+        "score": 0.01020408163265306,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Twisted bilayer graphene (TBG) near the first “magic” twist angle exhibits isolated narrow bands whose topology and interaction-driven phases (correlated insulators, superconductivity, Chern states) are the subject of active study. The standard low-energy starting point in this field is the Bistritzer–MacDonald (BM) continuum model, which was derived for a rigid twist and keeps only the leading (first-order) gradient terms and the three minimal inter-layer momentum transfers. However, the BM model omits several physically comparable contributions that arise when realistic atomic relaxations and microscopic hoppings are accounted for: (i) relaxation of atomic positions produces moiré-periodic in-plane displacement fields $\\delta\\boldsymbol{U}(\\boldsymbol{x})$ dominated by a curl (solenoidal) component, which generates a moiré-periodic pseudo-vector potential $\\mathcal{A}(\\boldsymbol{x})$ and large local pseudo-magnetic fields; (ii) higher-order intra-layer gradient terms (second order in momentum or mixed derivatives with $\\delta\\boldsymbol{U}$) are nominally of the same scale as inter-layer gradient terms at the small magic-angle momentum scale $k_\\theta$ and therefore can quantitatively change band dispersions; (iii) microscopic inter-layer tunneling derived from realistic tight-binding models contains additional contact couplings (in particular a term proportional to $i\\sigma_3$, denoted $w_3$) and gradient couplings $\\boldsymbol{\\Lambda}(\\boldsymbol{x})$ that break particle–hole (p–h) symmetry within a valley; and (iv) the Fourier content of inter-layer tunneling is broadened by the spatially inhomogeneous relaxation, so truncating to the BM three $\\boldsymbol{q}$’s can miss important momentum-transfer processes. Because of these omissions, existing continuum descriptions cannot (a) systematically predict narrow-band dispersions and Bloch wavefunctions obtained from microscopic tight-binding or ab‑initio derived models with the precision needed to compare with experiments, (b) quantify the degree and microscopic origin of p–h asymmetry of the narrow‑band Hilbert space, nor (c) assess the effect of relaxation-induced pseudo-magnetic fields on the magic-angle condition. Consequently, there is a need for a continuum effective Hamiltonian derived directly from microscopic tight‑binding models including realistic lattice relaxation and a controlled gradient expansion to the orders required to make quantitatively accurate spectral and wavefunction predictions for TBG, and to identify which microscopic terms (e.g., $w_3$, $\\boldsymbol{\\Lambda}$, $\\mathcal{A}$) control p–h breaking and flat‑band formation.",
+        "content_hash": "eb22eb0bf5522acbe1edbb3faa648af0de92bb301ce4b0410ab659de8927c3cf",
+        "id": "gcn_a6768eacf5db4ebc",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867771815940849729::problem",
+            "package_id": "paper:867771815940849729",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867771815940849729"
+          ]
+        },
+        "rerank_score": 0.9280124526871855,
+        "role": "premise",
+        "score": 0.012658227848101266,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In twisted TMD bilayers the in-plane relaxation (atomic displacements within each layer) and the resulting strain fields are physically significant because they generate spatially varying hopping and on-site potentials and produce strain-induced pseudo-gauge fields that couple to low-energy carriers. Prior continuum models typically included only out-of-plane corrugation or leading first-harmonic moiré potentials, neglecting substantial in-plane relaxations and their gauge-field consequences. Without accurate knowledge of the amplitude and pattern of the intralayer displacements, continuum descriptions cannot incorporate pseudomagnetic contributions nor correctly capture higher-band modifications and interband mixing; this omission undermines predictions for topology and many-body phases, especially for higher-filling and band-mixing fractional states. Therefore, obtaining quantitative ab initio values of displacement amplitudes and associated pseudo fields is essential to extend continuum models and to evaluate whether strain effects are large enough to alter band topology or promote FCI states.",
+        "content_hash": "fbdb7db320503aff1fde1ecd5063042e899bd36063e1c24f7f5efede74cf2505",
+        "id": "gcn_7c5958d291c349cc",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:932514933495562878::conclusion_3_subproblem",
+            "package_id": "paper:932514933495562878",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:932514933495562878"
+          ]
+        },
+        "rerank_score": 0.894974375210814,
+        "role": "premise",
+        "score": 0.015384615384615385,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In DFT-relaxed twisted bilayer MoTe₂ structures, in-plane atomic displacements (intralayer relaxation) grow as the twist angle decreases and attain amplitudes up to ≈0.5 Å for the top-layer Mo atoms at θ = 2.88°; converting these DFT-computed displacement and strain fields into an effective strain-induced gauge field A(r) via the standard continuum linear-strain-to-gauge mapping produces a spatially periodic pseudomagnetic field B(r) with peak magnitudes on the order of 10² tesla (reported peak values up to ≈200 T in the numerical calculations and continuum-model considerations permitting pseudomagnetic fields up to ≈250 T). Because these relaxation-induced gauge and pseudomagnetic fields have magnitudes comparable to energy scales relevant to the moiré bands, they are non-negligible and should be included in low-energy continuum models of tMoTe₂.",
+        "content_hash": "859d545b81cf6d3d3d259424659ce1ecb2deb79c5b84b5497e99c187142d3230",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_61e0a2519cac4cef",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1027100936562016260::conclusion_3",
+            "package_id": "paper:1027100936562016260",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1027100936562016260"
+          ]
+        },
+        "rerank_score": 0.8839817071912338,
+        "role": "conclusion",
+        "score": 0.006569012382965872,
+        "title": "In-plane relaxations reach ~0.5 Å and induce strain gauge fields giving pseudomagnetic fields ∼10² T at small angles",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Twisted two-dimensional (2D) materials (bilayers or multilayers with a relative rotation angle between layers) form long-period moiré lattices whose electronic properties differ dramatically from the untwisted constituents. Prior to this work there was no single, systematic computational workflow that (a) determines commensurate twist geometries for arbitrary 2D crystal lattices, (b) incorporates lattice relaxation (both out-of-plane and in-plane) of large moiré cells with affordable cost, and (c) produces accurate moiré-scale electronic Hamiltonians for both tight-binding (TB) and continuum ($\\boldsymbol{k}\\!\\cdot\\!\\boldsymbol{p}$) descriptions from first-principles inputs. Existing practices required either (i) ad hoc or strained approximations to force commensurability, (ii) prohibitively expensive large-scale density functional theory (DFT) relaxations to obtain accurate interlayer spacings and forces for large moiré cells, or (iii) phenomenological parameter choices (or uncontrolled approximations) for interlayer hopping and continuum coupling terms instead of determination from the underlying bilayer electronic structure. These limitations prevented reliable, reproducible, and low-cost generation of relaxed moiré geometries and quantitatively accurate moiré Hamiltonians for general 2D materials, obstructing systematic studies (e.g., band flattening, topology, anisotropy tuning) across different crystal symmetries and material families.",
+        "content_hash": "510fd47629702f696bb78531204f9461ccd8203ddbdd993323f2ec127f74427b",
+        "id": "gcn_0555c375963f4f6a",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1018766514880249858::problem",
+            "package_id": "paper:1018766514880249858",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1018766514880249858"
+          ]
+        },
+        "rerank_score": 0.8838382719724704,
+        "role": "premise",
+        "score": 0.009259259259259259,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The electronic band structure of magic-angle (θ=1.08°) twisted bilayer graphene under (2×1) buckling is computed using a tight-binding model based on the atomic positions obtained from the classical force-field relaxation (REBO for intralayer, Kolmogorov-Crespi for interlayer). The tight-binding Hamiltonian includes only π-orbitals with distance-dependent Slater-Koster parameters. The relaxed geometry has out-of-plane corrugations of ~10 Å from the classical force field. The resulting bands show folding due to the (2×1) supercell, a doubling of the narrow-band manifold, and small transverse shifts of the Dirac points at K by ±k_y ≈ 0.065 and 0.054 in units of ΓY = π/(√3 a). The shift is interpreted as consistent with a pseudomagnetic field from curvature and strain. The magnitude of these shifts is at the limit of the tight-binding resolution and may be sensitive to the specific tight-binding parametrization and the accuracy of the relaxed geometry.Fig. 9",
+        "content_hash": "390dbe89dea4c6e9c33c9190778907365e20be5cd662431e56ca262d1f1ed58a",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_70de20e46c504a7b",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1070951575758831625::P10",
+            "package_id": "paper:1070951575758831625",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1070951575758831625"
+          ]
+        },
+        "rerank_score": 0.8656669245937643,
+        "role": "premise",
+        "score": 0.006390037258204461,
+        "title": "Buckling-induced electronic structure changes are model-dependent",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Prior continuum-elasticity predictions for moiré-induced PMFs in TBG anticipated strong pseudo magnetic textures capable of producing sizable pseudo Landau quantization. At the same time, atomistic tight-binding calculations built on relaxed atomic geometries reported much smaller PMFs, creating a contradiction between continuum estimates and microscopically informed calculations. The core scientific deficit addressed here was to establish whether and how sublattice-relative (optical) relaxations that occur during moiré lattice relaxation can change the PMF amplitude in TBG, and to quantify that change across experimentally relevant twist angles. Without this quantification, theoretical expectations for strain-induced gauge effects in TBG remained unreliable.",
+        "content_hash": "765af6375ef141b8eb3a0ca8bc5a0a6436a8c30147f7df23eb8a16644553e7d9",
+        "id": "gcn_7669e34168cf4908",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1038701119158616068::conclusion_3_subproblem",
+            "package_id": "paper:1038701119158616068",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1038701119158616068"
+          ]
+        },
+        "rerank_score": 0.847340067861033,
+        "role": "premise",
+        "score": 0.013333333333333334,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "To connect experimental spectroscopy to microscopic electronic mechanisms one needs electronic-structure calculations on the actual relaxed atomic geometry. Prior theoretical work showed that twisted bilayers host topological helical channels at AB/BA boundaries and that solitons influence electronic confinement, but there was no calculation combining (i) a large-scale relaxed geometry produced from experimentally measured heterostrain parameters, (ii) an experimentally motivated interlayer potential difference, and (iii) tight-binding evaluation of LDOS at meV energy resolution and nanometre spatial resolution. Without such calculations it remained unclear whether the AA resonance, the ESL features, and the soliton-core channels observed in STM are intrinsic to the biaxially-heterostrained relaxed geometry, whether tensile-domain-wall reflection can explain AB-region confinement, and whether topology guarantees robust helical channels in the presence of hybridization and strain-induced pseudomagnetic fields.",
+        "content_hash": "76049efa9984e0637d297020f34b1ab15a8a342ab81d19c30c6df45f3f870c00",
+        "id": "gcn_8b2f60c8c9524178",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:902981464772051449::conclusion_4_subproblem",
+            "package_id": "paper:902981464772051449",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:902981464772051449"
+          ]
+        },
+        "rerank_score": 0.8413527110301486,
+        "role": "premise",
+        "score": 0.016214449166394244,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Low-angle twisted bilayer graphene (TBG) presents a physically rich setting in which in-plane lattice relaxations and interlayer coupling produce large-scale moiré patterns, but prior to this work there was no convincing, large-area experimental demonstration that these intrinsic lattice deformations in bilayer graphene produce periodic pseudo-magnetic fields (PMFs) strong enough to quantize electronic states. The relevant background is: theory and experiment have shown that non-uniform strain in graphene can act as a gauge potential and generate PMFs (e.g., nanobubbles and single-layer graphene on mismatched substrates), and theoretical work predicted important effects of lattice relaxation and heterostrain in low-angle TBG. However, existing experimental evidence of PMFs was either local (nanobubbles) or limited to special heterostructures; for strongly coupled, homostructural low-angle TBG the intrinsic, periodic strain textures arising from moiré-induced lattice relaxation had not been directly shown to produce spatially extended, periodic PMFs or associated pseudo-Landau quantization. Because first-principles calculations of realistic moiré unit cells are computationally prohibitive, and because rigidly twisted (undeformed) models do not capture observed electronic resonances near AA regions, there was (1) a methodological gap in constructing tractable yet realistic models of the deformed moiré lattice and its electronic consequences, (2) an interpretational gap in connecting observed STM/STS resonances to PMF-induced pseudo-Landau levels rather than other moiré features, and (3) a control gap: the dependence of any intrinsic PMF geometry and amplitude on twist angle and heterostrain had not been experimentally established. These gaps prevented quantitative identification of PMFs in bilayer moiré systems, hindered understanding of how lattice relaxation influences low-energy electronic structure (including flat bands and correlation effects), and left open whether TBG could serve as a platform for valley-contrasting phenomena and PMF-based topological responses.",
+        "content_hash": "d1dee82934ddb3e024dea18d6a6f5f7d94752a2c0f628d26363944f84bf74b6c",
+        "id": "gcn_e0114f59fcda4812",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812686536284831745::problem",
+            "package_id": "paper:812686536284831745",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812686536284831745"
+          ]
+        },
+        "rerank_score": 0.8211709314491595,
+        "role": "premise",
+        "score": 0.009708737864077669,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Twisted two-dimensional bilayer materials (notably twisted bilayer graphene) develop moiré-scale electronic bands that can become extremely flat as the interlayer twist angle is reduced. Prior theoretical descriptions of magnetism in these systems have emphasized orbital ferromagnetism tied to Berry curvature and moiré-scale current loops, or have relied on low-energy effective models with uncontrolled approximations; these accounts leave important empirical observations unexplained. Specifically, (1) orbital-moment-based mechanisms predict out-of-plane-only orbital moments and magnitudes that conflict with measured in-plane magnetic responses and measured moments, (2) low-energy/phenomenological models cannot variationally include all atomic orbitals and therefore generate multiple, sometimes inconsistent predictions for magnetic ground states, and (3) there is no ab initio, atomistic-scale calculation of spin-polarized electronic structure across the very large moiré supercells required to test whether local spin polarization (as opposed to purely orbital magnetization) can appear. As a result of these limitations, the microscopic origin of observed ferromagnetism, its dependence on doping and twist angle, the role of band renormalization under carrier addition, and whether magnetism in twisted systems is a local-atomic-spin phenomenon or a collective moiré-scale spin density wave remain unresolved; this prevents a direct, quantitative comparison between theory and experiments (e.g., anomalous Hall and magnetization measurements) and obstructs the design of experiments that can separate spin and orbital contributions to magnetism. The present paper addresses this gap by providing variational, spin-polarized, large-supercell electronic-structure calculations and a minimal model to test whether an enhanced ratio of exchange interaction to band dispersion ($J/t$) can drive spin splitting and moiré-scale spin density waves in twisted bilayers.",
+        "content_hash": "21951acaca993a29831efc4846e846bc403eb66ddcf882278a33a990d20f4353",
+        "id": "gcn_5ee830e3c1a641ff",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1229352424032960545::problem",
+            "package_id": "paper:1229352424032960545",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1229352424032960545"
+          ]
+        },
+        "rerank_score": 0.8077285273547494,
+        "role": "premise",
+        "score": 0.007407407407407408,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Electrons in twisted graphene experience strain-induced effective magnetic fields that can strongly modify inter-cone coupling and band dispersion near the magic angles. Previously, estimates of these pseudomagnetic fields came from numerical relaxation results or qualitative arguments, leaving unclear whether their magnitude scaled strongly with twist angle or was controlled by simple material parameters. The lack of an explicit analytic expression relating $B(\\vec{r})$ to $V_{vdW}$ and $\\mu$ prevented transparent estimates of the field amplitude and magnetic length, and thereby limited understanding of how relaxation affects confinement of electronic wavefunctions and the robustness of flat bands. An explicit formula is required to predict whether these fields are large enough to confine electrons in AA patches and to estimate when they are essentially independent of $\\theta$ within the experimentally relevant twist-angle window.",
+        "content_hash": "f3d9587077bbad177a9af4306a365a1390d55a656d2585023948369fbfe21afe",
+        "id": "gcn_3a0fe82d269c49dd",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:936507684159488092::conclusion_2_subproblem",
+            "package_id": "paper:936507684159488092",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:936507684159488092"
+          ]
+        },
+        "rerank_score": 0.8039500356179787,
+        "role": "premise",
+        "score": 0.011627906976744186,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In moiré superlattices, structural relaxation produces spatial modulation of atomic registries and interlayer separation, which determines local electronic properties such as interlayer hybridization and tunneling. Prior theoretical studies of topological mosaics in twisted materials assumed unrelaxed structures or neglected relaxation, leaving open the question of whether relaxation itself could induce spatial variations in the Z₂ topological invariant within a single moiré unit cell. Understanding this is crucial because relaxation is ubiquitous in moiré systems and strongly renormalizes electronic structure. Twisted BiSb bilayers are a promising platform due to their strong spin-orbit coupling and stacking-dependent topological character established for untwisted bilayers, but it remained unknown whether the twist-induced stacking variations after relaxation could create a real-space texture where topological and trivial phases coexist.",
+        "content_hash": "3cc0289d6edb8665afc2235ece559c34ef0c9bbcdd22eb279e6c8b07dd513614",
+        "id": "gcn_5582d2c79c994690",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:7465946494530183217::conclusion_1_subproblem",
+            "package_id": "paper:7465946494530183217",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:7465946494530183217"
+          ]
+        },
+        "rerank_score": 0.8032473988723573,
+        "role": "premise",
+        "score": 0.006666666666666667,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Twisted two-dimensional (2D) material bilayers form moiré patterns whose large-scale atomic reconstructions control electronic, vibrational and optical properties. Theoretical and computational study of these reconstructed moiré superlattices requires a periodic simulation cell, but an arbitrary twist between two layers generally produces an incommensurate moiré that is incompatible with standard periodic-boundary-condition methods (e.g., density functional theory, DFT) and with classical force-field molecular mechanics unless a commensurate superlattice is found. Existing analytic results for commensurate twist angles cover only special cases (for example, hexagonal lattices with identical lattice constants) and do not handle the general case of dissimilar lattices, heterobilayers, or the need to apply small, controlled strains or deformations to obtain practical supercell sizes. At the same time, fully ab initio structural relaxation of large moiré supercells is a major computational bottleneck, so classical interatomic potentials (with parameters fit to DFT) are used as a cheaper alternative. However, setting up a commensurate superlattice for arbitrary material pairs (including the choice of superlattice vectors, controlled application of biaxial strain or a deformation tensor, and generation of atom coordinates) and then performing large-scale relaxations with appropriate registry-dependent interlayer potentials is technically non-trivial and error prone for non-experts. Consequently, before electronic or vibrational properties can be meaningfully predicted for a broad class of twisted 2D systems, there is a concrete need for a general, automated, and scalable toolchain that (i) finds commensurate moiré superlattices across arbitrary 2D homobilayer and heterobilayer combinations while allowing user-controlled mismatch/strain tolerances, (ii) applies controlled lattice-parameter strains or a symmetric strain + rotation (deformation) tensor when exact coincidence is not possible, (iii) writes out correct superlattice vectors and atom coordinates, and (iv) interfaces with inexpensive classical-forcefield relaxation engines (e.g., LAMMPS) in a way that is efficient for the large system sizes typical of small twist angles. Without such an integrated capability, studies are either limited to the special analytic cases, forced to accept large spurious strains or enormous supercells, or they must undertake expensive and specialist DFT relaxations that are infeasible for realistic moiré cell sizes.",
+        "content_hash": "12331c8066e4ec6c12b3e22f4ef3e5027d7cae4264fc3ff22900b5c2d28f0253",
+        "id": "gcn_8cc718e6c5794277",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867752553289351214::problem",
+            "package_id": "paper:867752553289351214",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867752553289351214"
+          ]
+        },
+        "rerank_score": 0.8385130056453509,
+        "role": "premise",
+        "score": 0.006097560975609756,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Prior to this work, the theoretical and computational description of how arbitrary in-plane strain combined with a relative twist affects the narrow moiré bands of bilayer graphene was incomplete and practically limited. Narrow bands in twisted bilayer graphene (TBG) are central to correlated and topological phenomena, but realistic atomistic calculations become prohibitive because the small lattice mismatches that generate moiré flat bands produce supercells with tens of thousands of atoms and, moreover, generic twist+strain configurations are in general incommensurate. Consequently, most prior studies used continuum approximations, phenomenological heavy-fermion models, or special commensurate-twist constructions; these approaches leave several substantive gaps: (i) there exists no general, global prescription to produce commensurate supercells for arbitrary combinations of twist and experimentally relevant in-plane strains (uniaxial, shear, small biaxial), so atomistic tight-binding (TB) calculations could not be systematically performed across the combined twist–strain parameter space; (ii) continuum models under strain incorporate geometric changes and strain-induced scalar/gauge fields but their ability to quantitatively reproduce atomistic spectra, including effects of lattice relaxation, the strain-type dependence (uniaxial versus shear), strain-direction dependence, and valley-resolved features, was not established; (iii) it remained unclear how strain magnitude, type and direction modify the twist angle that minimizes the narrow-band bandwidth (the practical “magic” condition), whether the minimum bandwidth scales simply with strain, and how lattice relaxation modifies gaps between narrow and remote bands; (iv) the role of electrostatic (Hartree) renormalization in the presence of strain — specifically the competition between strain-broadening of bare bands and Hartree-induced band reshaping — had not been quantified for twisted+strained bilayer graphene (TSBG); (v) the influence of arbitrary strain on valley-resolved band topology (valley Chern numbers) and whether strain and interactions can produce asymmetric topological behaviour between the two narrow bands was not established. These limitations prevented systematic, quantitative atomistic predictions of bandwidths, DOS features (van Hove singularities), valley splitting and topological transitions for experimentally realistic TSBG samples and thus constrained understanding of where strongly correlated or topological phases may arise.",
+        "content_hash": "b2e1d121d73e1a27c5c2c4f9ebc8ffebf2b94056cdf697a189fd7244f1aacb1f",
+        "id": "gcn_ddf02b3080b24362",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1225780552007680018::problem",
+            "package_id": "paper:1225780552007680018",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1225780552007680018"
+          ]
+        },
+        "rerank_score": 0.7996766216634004,
+        "role": "premise",
+        "score": 0.013957786207567357,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Twisted van der Waals (vdW) multilayers produce moiré superlattices in which local interlayer stacking varies periodically and thereby modulates ferroic properties (magnetism, ferroelectricity) across the supercell. Prior theoretical descriptions commonly treated twisted layers as rigid lattices or as mosaics of local sliding bilayers, using the local stacking mode to infer interlayer magnetic coupling and sliding ferroelectric dipoles. These rigid-lattice or purely local-sliding approximations neglect spontaneous structural relaxation that arises because the system can trade interlayer stacking energy against intralayer strain energy. The omission of structural relaxation is a substantive methodological limitation: when $E_{\\mathrm{stack}}$ (the stacking-dependent interlayer energy) and $E_{\\mathrm{strain}}$ (the intralayer elastic cost) are comparable, relaxation will reorganize domains and domain walls, changing local stacking fractions, domain-wall widths, and hence local interlayer exchange $J_{L}$ and local dipoles. As a consequence of these uncontrolled approximations, theoretical predictions based on rigid models (for example, the predicted existence and parameter ranges of magnetic bubbles, merons, and ferroic domain textures) can disagree with experiment (e.g., the absence of magnetic bubbles in twisted $1+1$ $CrI_{3}$ bilayers). Therefore, before using twistronics concepts to design or interpret ferroic moiré phenomena, it is necessary to quantify and include spontaneous structural relaxation in realistic models and to determine how relaxation modifies stacking distributions, local $J_{L}$, ferroelectric dipoles, and the existence/size of ferroic textures across twist angle and layer thickness.",
+        "content_hash": "eadfc2b576374644b4f4c0ecc5d34ab873547b0b8f657ea86616f39a9fbb030a",
+        "id": "gcn_3031a7023f96476d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1152577548907970566::problem",
+            "package_id": "paper:1152577548907970566",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1152577548907970566"
+          ]
+        },
+        "rerank_score": 0.791243137957695,
+        "role": "premise",
+        "score": 0.01,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Twisted bilayer two-dimensional materials (in particular bilayer graphene, G/G) form moiré patterns whose atomic-scale relaxation strongly affects electronic and structural properties. Before this work, two complementary but conceptually different descriptions of the relaxed state coexisted: (i) the moiré / coincidence-site-lattice (CSL) picture in which one lattice is rigidly rotated with respect to the other and the geometry of coincidence points sets the moiré period, and (ii) descriptions in terms of dislocations and partial dislocation networks (Frenkel–Kontorova, grain‑boundary language) borrowed from three‑dimensional and thin‑film materials. Atomistic simulations and microscopy had shown vortex‑like displacement fields, networks of stacking domains separated by soliton‑like boundaries, and intersections where six domains meet, but the explicit connection between the vortex picture and the dislocation/partial‑dislocation language was lacking. In practice, this gap meant there was no compact, analytical framework that (a) explains the origin of vortex displacement fields as elastic relaxation of a physically transparent ensemble of dislocations, (b) relates the global twist angle and moiré coincidence geometry to dislocation Burgers vectors and spacing, and (c) yields explicit, tunable formulas for displacement, rotation and pseudomagnetic‑field distributions that can be compared qualitatively or semi‑quantitatively with atomistic simulation and experiment. Existing treatments either used purely geometric CSL constructions (no elastic relaxation) or expensive atomistic calculations (which give numerical patterns but not a clear dislocation‑based interpretation); there was no simple analytic model connecting these viewpoints and exposing how parameters such as dislocation spacing $d$, Burgers vector magnitude $b$, core width $\\\\xi$, and partial‑dislocation splitting $\\\\delta$ control vortex period, amplitude and energetic trends. This absence hindered intuitive understanding of how elastic relaxation produces vortex networks, how stacking domains and partial dislocations emerge from screw‑type conjugation, and how these structural features map to rotation fields and pseudomagnetic fields.",
+        "content_hash": "ea082c3614c75c7e1e8a27d05df3a381f49504f8a8180d503d2c6ff525b375c2",
+        "id": "gcn_efc769537fc74584",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867763923233800453::problem",
+            "package_id": "paper:867763923233800453",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867763923233800453"
+          ]
+        },
+        "rerank_score": 0.8358610867668366,
+        "role": "premise",
+        "score": 0.007575757575757576,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Twisted two-dimensional (2D) homobilayers — in particular twisted bilayer graphene (TBLG) and twisted bilayer transition metal dichalcogenides (t-BTMD) — develop low-energy moiré bands whose flatness controls correlated phenomena (e.g., superconductivity in TBLG near the magic angle). Prior work established continuum and numerical models for unstrained twisted bilayers and reported numerically and experimentally that modest heterostrain can strongly alter band flatness and even induce flat bands away from the unstrained magic angle. However, there was no full analytical treatment that (i) incorporates uniform strain (heterostrain) and small twist in a low-energy continuum framework, (ii) yields closed-form expressions for the strain-renormalized effective (Dirac) velocities and tilt terms that govern band flatness and particle-hole asymmetry, and (iii) accounts, at least approximately, for lattice relaxation effects in analytic form. Existing approaches were predominantly numerical (DFT, tight-binding, continuum numerics) or used uncontrolled/phenomenological simplifications for strain and relaxation; consequently, there was no compact analytical mapping from strain tensor components and twist to the effective low-energy Hamiltonian parameters, no analytic criterion for when strain can render moiré bands flat (or shift the effective magic angle), and no simple analytic indicator of how lattice relaxation modifies those strain-driven effects. These gaps hindered (a) physical understanding of the mechanisms by which strain displaces Dirac points and renormalizes velocities in moiré bands, (b) straightforward prediction or experimental extraction of the strain tensor from low-energy band observables, and (c) analytic estimates of how relaxation competes with strain in setting the bandwidth of the lowest moiré bands.",
+        "content_hash": "eb0bd2f1b48db71795559759a7b5960289c1be53e2e22c914e2ae7f2765c1b9c",
+        "id": "gcn_98312ba0cbb94dad",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867748811072602364::problem",
+            "package_id": "paper:867748811072602364",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867748811072602364"
+          ]
+        },
+        "rerank_score": 0.8226247507416895,
+        "role": "premise",
+        "score": 0.022149202872094438,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Rigidly twisted tight-binding models of TBG predict electronic features that differ from STM/S observations when atomic relaxation is important. The prior computational practice of neglecting moiré-scale lattice deformation prevented quantitative connection between predicted gauge potentials and measured LDOS. To interpret spectroscopic peaks as pseudo-Landau levels and to extract PMF magnitudes one needs a deformation-to-gauge mapping and large-scale calculations that span the full moiré cell; absent such modelling, experimental resonances could not be unambiguously attributed to intrinsic PMFs and the role of in-plane versus out-of-plane relaxation remained unresolved.",
+        "content_hash": "cf590d7c9f3c8e5f185ce51206d60e01b68ca75ac34046b5e77448791bd944d1",
+        "id": "gcn_f21b9ea4543f43eb",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867745229120208912::conclusion_3_subproblem",
+            "package_id": "paper:867745229120208912",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867745229120208912"
+          ]
+        },
+        "rerank_score": 0.8482079114186188,
+        "role": "premise",
+        "score": 0.007633587786259542,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The authors explicitly identify several unresolved scientific tasks and limitations to be addressed in future work: (1) atomic relaxation and ionic rearrangement in twisted (commensurate and incommensurate) bilayers were not treated here beyond relaxation of high-symmetry, unrotated stackings; modeling the full atomic relaxation fields in twisted supercells and the effects of those relaxations on electronic structure (including possible emergence of polarization or ferroelectric vortices) remains to be done. (2) The conduction-band electronic structure, which in these materials is primarily derived from titanium $d_{xy}$ orbitals and is relevant for electron doping, was not constructed; a corresponding MLWF or minimal model for the conduction band is under development. (3) Continuum moiré Hamiltonians that use the provided configuration-space interlayer parametrization to compute angle-dependent moiré bands, including incommensurate twists, have not yet been derived and tested; constructing and validating such continuum models is left for future work. (4) The interlayer hopping ansatz employed neglects $\\pi$-type contributions and makes cutoff/decay approximations; the quantitative impact of these approximations on long-range coupling and on low-energy moiré bands has not been fully quantified. (5) The present parameter sets and reduced models were obtained for high-symmetry, unrelaxed twisted approximants and three representative A-site cations (Ca,Sr,Ba); extension to other chemistries, to finite strain/mismatch, and to inclusion of many-body correlation effects beyond DFT remains an open task.",
+        "content_hash": "d76989f546d6c059d5d017b0ba1059f48e19e07d633734fda7c7ea894fa82957",
+        "id": "gcn_7ee41202baee4d4f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1068413822181572613::open_question",
+            "package_id": "paper:1068413822181572613",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1068413822181572613"
+          ]
+        },
+        "rerank_score": 0.7746779393480502,
+        "role": "premise",
+        "score": 0.010869565217391304,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The paper addresses the specific claim in prior work that the electronic effect of rotating (twisting) one graphene layer with respect to another in bilayer graphene can be interpreted as an effective in-plane pseudomagnetic field. The established baseline is the conventional continuum tight-binding description of single-layer graphene near its Dirac points and the standard bilayer Hamiltonian approximated about a single Dirac point; prior practice (as in the cited work) obtained a low-energy bilayer operator by linearizing around one inequivalent K point and then applying a relative rotation between layers. The substantive insufficiency in that prior approach is the neglect of the superperiodic structure introduced by the twist: a finite twist between layers produces a moiré superlattice with a supercell Brillouin zone (sBZ) that is much smaller than the original Brillouin zones, so band folding, reinstatement of $C_{3}$ rotational symmetry about the moiré Dirac points, and coupling (hybridization) between Dirac cones connected by reciprocal superlattice vectors become essential to the low-energy physics. Existing approximate treatments that (i) linearize the intralayer Hamiltonian only about one K point and (ii) model interlayer coupling at zeroth order (neglecting its spatial dependence and coupling between regions connected by superlattice reciprocal vectors) therefore miss symmetry constraints and inter-cone hybridization. As a consequence of these omissions, such approximations cannot reliably predict (a) the true multiplicity and symmetry (e.g., $C_{3}$) of low-energy Dirac features in the sBZ, (b) whether Dirac cones remain degenerate or hybridize into AB-like or AA-gapped spectra at low energy, and (c) quantitative low-energy transport properties. Hence a precise assessment of whether twisting can be interpreted as an in-plane pseudomagnetic field requires a Hamiltonian and spectral analysis that include the full superperiodicity and the spatially dependent interlayer coupling; without these, comparisons with the known effect of a real in-plane magnetic field are uncontrolled and potentially incorrect.",
+        "content_hash": "6ab38a859ee8d5627d3b30a1e0aa1c5530dccc5a0192bb735afdf80f759a5566",
+        "id": "gcn_861ceb0bb0f4491e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867764172618728223::problem",
+            "package_id": "paper:867764172618728223",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867764172618728223"
+          ]
+        },
+        "rerank_score": 0.8705872232557074,
+        "role": "premise",
+        "score": 0.008849557522123894,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "To assess whether sub-percent, spatially extended local strains from lattice-mismatch relaxations modify band structure or induce pseudomagnetic effects, one must feed atomistically resolved displacement fields into electronic-structure methods. However, the long spatial extent of partial cores (tens to hundreds of $b$) means that atomistic supercells must span similarly large lateral dimensions, producing atom counts that exceed routine DFT practicality. This computational bottleneck prevents immediate first-principles confirmation of whether the computed strain fields alter key electronic characteristics (e.g., gaps, flat bands, pseudomagnetic responses) and therefore motivates alternative strategies (mapping to tight-binding, multiscale embedding, or waiting for larger-scale DFT resources).",
+        "content_hash": "313976c54062762d3df302ac09e87edd8903a8edf4020227a0934fb235e0c764",
+        "id": "gcn_f0f5316d60f54a67",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812678330368131072::conclusion_7_subproblem",
+            "package_id": "paper:812678330368131072",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812678330368131072"
+          ]
+        },
+        "rerank_score": 0.8093955027487051,
+        "role": "premise",
+        "score": 0.009174311926605505,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "First-principles and continuum-elastic analyses show that in-plane relaxation can qualitatively change the strain tensor and the resulting pseudogauge/pseudomagnetic-field profile (for example, fully relaxed uniaxial profiles can remove pseudomagnetic fields). Device-specific finite-size effects and substrate couplings make fully microscopic relaxation calculations burdensome for experimental parameter scans. A simple, physically transparent phenomenological parametrization of relaxation is necessary to map device geometry to an effective pseudogauge weight $ \\alpha $ for analytic scattering and LDOS theories and for comparison with tight-binding numerics and experiments.",
+        "content_hash": "3cb3f6935688eb1bad4c1335ac921e4f7e580f25ea5c6411b063268da2bbdd77",
+        "id": "gcn_76a9e8634baa4cb3",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1212733797292834838::conclusion_10_subproblem",
+            "package_id": "paper:1212733797292834838",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1212733797292834838"
+          ]
+        },
+        "rerank_score": 0.7698372392498637,
+        "role": "premise",
+        "score": 0.011764705882352941,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The spectroscopic signature of strain-induced pseudomagnetic fields in single-layer graphene had been demonstrated experimentally (Landau-like levels following the massless-Dirac sequence), but in bilayer graphene the presence of interlayer coupling and possible curvature-induced rehybridization complicates expectations: theory allowed for several possible responses to strain (massless-like pseudo-LLs, massive-chiral-like LLs, or gapped behaviour depending on stacking and curvature), and it was not known which quantization sequence would appear in a realistically corrugated twisted bilayer. In particular, because Bernal-stacked bilayers exhibit massive-chiral Landau spectra under real magnetic fields, it was an open problem whether strain and curvature in a twisted bilayer could recreate the massive-chiral LL progression at zero external field, and what pseudomagnetic field strength and effective mass would be implied. Resolving this was necessary to interpret local STS peaks unambiguously and to assess whether strain engineering in bilayers can produce quantized spectra analogous to those used to infer valley- and layer-resolved physics in real-field quantum-Hall experiments.",
+        "content_hash": "909127843de98c20fcc813fe85ac44739b564978c0afc187d7d8a23d23f2e343",
+        "id": "gcn_e4716f12ab9643c5",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813212652800049153::conclusion_2_subproblem",
+            "package_id": "paper:813212652800049153",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813212652800049153"
+          ]
+        },
+        "rerank_score": 0.768452403891253,
+        "role": "premise",
+        "score": 0.015625,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Twisted bilayers of two-dimensional (2D) van der Waals (vdW) magnets promise emergent magnetoelectric phenomena because small interlayer rotations produce moiré superlattices with spatially varying stacking, strain, and interlayer spacing. However, prior theoretical descriptions of twisted magnetic vdW systems have two interrelated shortcomings that prevent quantitative understanding of moiré-induced magnetoelectricity in materials such as NiI2. First, atomistic first-principles calculations (density functional theory, DFT) that can capture both spin–orbit coupling and spin-pair polarization are computationally intractable at the large moiré length scales required for small twist angles, so realistic structural relaxation and large-scale spin textures are typically not treated. Second, many earlier moiré-model studies neglected intrinsic stacking-induced ionic displacements and explicit spin–lattice coupling (including anisotropic exchanges such as Kitaev terms and biquadratic interactions) that are known to be essential for magnetically induced ferroelectricity in NiI2. As a result of these gaps, it was unclear how moiré-scale lattice relaxation alters interlayer spacing, ionic displacements, and stacking-dependent ferroelectricity; how those lattice changes feed back on intralayer and interlayer magnetic order; how spin-driven electronic polarization (via a generalized spin-current / KNB mechanism) and ionic (stacking) polarization coexist and compete on the moiré scale; and whether predicted topological magnetic textures (e.g., skyrmion lattices) survive once realistic relaxations and full spin–lattice couplings are included. These unresolved issues motivate a computational framework able to (i) represent spin–lattice coupling with near-first-principles accuracy while being efficient for moiré supercells, (ii) compute relaxed atomic geometries at the moiré scale, and (iii) predict both ionic and spin-driven polarizations consistently.",
+        "content_hash": "cca741db72a14162fdca88fb2d496815afa40cd63afce550909c37aac3631df6",
+        "id": "gcn_b2d085b681e14ff7",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1154027116531023875::problem",
+            "package_id": "paper:1154027116531023875",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1154027116531023875"
+          ]
+        },
+        "rerank_score": 0.7680171317988119,
+        "role": "premise",
+        "score": 0.01098901098901099,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The authors explicitly identify several unresolved scientific issues and limitations remaining after this work: (1) a comprehensive, angle‑resolved mapping of electronic and magnetic properties across the full domain $0^{\\circ}\\le\\theta\\le360^{\\circ}$ for Bravais‑moiré systems is required to establish clear trends; (2) the stability and metastability regimes of twisted, shifted magnetic bilayers (including the role of structural relaxation and possible noncollinear magnetization textures at other commensurate angles and at small angles) need further exploration because strong magnetic forces and layer displacements may prevent periodic stabilization in some regimes; (3) the broader mathematical implications signaled by the algebra/geometry of the commensuration construction — including potential connections to non‑Euclidean transformations or unseen classes of twisted lattices — remain open for formal investigation; (4) experimental validation of the predicted twist‑induced magnetic transitions, noncollinear states, and large effective‑mass electronic behavior is necessary to confirm the computational predictions; and (5) computational scalability constraints (rapid growth of supercell size for many commensurate angles) limit direct DFT exploration of very small or very dense sets of angles, motivating the development of efficient multiscale or reduced models tailored to shifted, magnetic moiré lattices.",
+        "content_hash": "c08a296811dca70077289d615d5b28388cdd03b386648b12ac9d550d97906f39",
+        "id": "gcn_7c2a416042164612",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867773731613704200::open_question",
+            "package_id": "paper:867773731613704200",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867773731613704200"
+          ]
+        },
+        "rerank_score": 0.797062600635108,
+        "role": "premise",
+        "score": 0.006896551724137931,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Realistic twisted bilayer InSe supercells are not perfectly flat, because local stacking variations generate vertical corrugation across the Moiré pattern. Before this work, it was unclear how strongly such relaxation alters the electronic structure relative to an ideal rigid twist. This mattered because bilayer InSe is strain sensitive, so even modest corrugation could modify the band edges and potentially change whether the system appears indirect or direct. Without accounting for relaxation, the twist-angle dependence of the electronic states would be unreliable.",
+        "content_hash": "4e31d7a0e89e55d1ae0fe388df11f219748cfc1d5ff555aeee3b922eb0d41b1e",
+        "id": "gcn_ba5087b4d90b4def",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812692413263904768::conclusion_5_subproblem",
+            "package_id": "paper:812692413263904768",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812692413263904768"
+          ]
+        },
+        "rerank_score": 0.8165569566489357,
+        "role": "premise",
+        "score": 0.006944444444444444,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Incommensurate bilayer systems, such as twisted bilayer graphene, exhibit long-wavelength moiré patterns that govern both electronic and mechanical properties. Structural relaxation reshapes these moiré patterns and significantly influences the low-energy electronic band structure. Accurate modeling requires a consistent framework that treats both relaxation and electronic structure in a unified manner. However, existing approaches suffer from fundamental limitations. The supercell method approximates incommensurate structures by commensurate periodic systems but becomes computationally prohibitive at small twist angles where the moiré period grows rapidly. Continuum models such as the Bistritzer-MacDonald model provide effective descriptions at the moiré scale but assume rigid lattices and ideal periodicity, thereby neglecting structural relaxation. Configuration-space frameworks have been developed to treat electronic properties directly on incommensurate geometries, yielding well-defined observables and convergent numerical schemes, but these do not incorporate relaxation. When structural relaxation is included, existing approaches commonly decouple mechanical and electronic degrees of freedom: lattice deformation is described by continuum elasticity with stacking-dependent interlayer energies, leading to reconstruction and domain formation, while electronic properties are subsequently computed on the relaxed structures using tight-binding or related models. In such treatments, relaxation and electronic modeling remain separate steps, and a consistent framework that determines both relaxed structures and electronic properties within a single description for incommensurate systems is lacking. Moreover, there is a notable absence of rigorous mathematical analysis for Schrödinger-type operators or density functional methods in this context, leaving the fundamental interplay between variational energy minimization and non-periodic spectral theory largely unexplored. Consequently, one cannot accurately predict relaxed moiré geometries, domain-wall formation, and associated spectral modulation in a unified manner, and numerical approximations lack theoretical guarantees.",
+        "content_hash": "9894f0c1a83a32a31432a88799729878cdfe710b8ebabeb12c24538e02b61049",
+        "id": "gcn_1a2885f36db54db6",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:7478126813552050209::problem",
+            "package_id": "paper:7478126813552050209",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:7478126813552050209"
+          ]
+        },
+        "rerank_score": 0.7478763096216554,
+        "role": "premise",
+        "score": 0.00980392156862745,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The central theoretical question is whether the experimentally observed atomic relaxations and strain fields in the untwisted rectangular moiré cell are sufficient, in principle, to create electronic bands that are flat in one crystallographic direction but dispersive in the orthogonal direction. Prior predictions of 1D flat bands were largely limited to twisted, rectangular homo-bilayers; it remained uncertain whether relaxation-induced strain alone (in the absence of twist) could produce similarly extreme anisotropic narrowing of bandwidths in a hetero-bilayer. A definitive resolution required performing first-principles calculations on a large relaxed moiré supercell that (a) captures the experimentally observed 3D relaxations, (b) identifies the orbital character of low-energy bands, and (c) quantifies their dispersions along the two orthogonal directions ($\\Gamma$–X corresponding to $AC$ and $\\Gamma$–Y corresponding to $ZZ$). The present DFT results directly answer this need by showing $p_z$-derived bands with sub-meV bandwidth along $AC$ and only few- to few-tens-of-meV bandwidth along $ZZ$, which demonstrates that relaxation-induced strain can produce true 1D flat bands in an untwisted hetero-bilayer.",
+        "content_hash": "af8de4512ee0b85f0d854d8b4cec95fc208201a2088362c0592029f535e2e54f",
+        "id": "gcn_7d1c0c06c48846e1",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867762487171219688::conclusion_4_subproblem",
+            "package_id": "paper:867762487171219688",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867762487171219688"
+          ]
+        },
+        "rerank_score": 0.7558650287334107,
+        "role": "premise",
+        "score": 0.006369426751592357,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Twisted bilayer graphene (TBG) and other twisted van der Waals materials form moiré superlattices that exhibit spontaneous atomic restructuring at the nanoscale. Near the magic angle (~1.1°), this relaxation dramatically influences electronic structure, magnetism, and superconductivity. Prior experiments revealed that low-twist moiré lattices are not simple superpositions of two rigid layers but instead reorganize into triangular arrays of alternating AB/BA domains separated by soliton boundaries. However, a systematic, quantitative description of the restructured moiré superlattice was lacking: existing models were limited to qualitative characterizations of local stacking geometry, provided no global structural order parameter, and could not relate the degree of relaxation to the twist angle in an analytic or predictive manner. Moreover, no method existed to extract the picoscale atomic displacements directly from diffraction measurements, hindering the connection between structure and emergent electronic phenomena. Thus, the need to concisely capture the full atomistic reconstruction of low-twist moiré materials, quantify relaxation amplitudes, and establish a universal framework applicable across different layered systems remained an open scientific challenge.",
+        "content_hash": "3acdf899d12ebb600324d0727432ed443846c3f96bfc57fd41c450dfbc100e1d",
+        "id": "gcn_215bb7792ce4484f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:864958863038742773::problem",
+            "package_id": "paper:864958863038742773",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:864958863038742773"
+          ]
+        },
+        "rerank_score": 0.7410436819610156,
+        "role": "premise",
+        "score": 0.011235955056179775,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Fermi surface nesting in the relaxed twisted bilayer graphene is robust with respect to the level of electronic structure theory: Dirac-Weyl versus tight-binding treatment of the single-layer blocks, and with or without inclusion of relaxation-induced pseudo-gauge and scalar fields (the lowest-order corrections to the single-layer Hamiltonian due to in-plane strain).",
+        "content_hash": "aa9f983f6490c7770203db9d1a04ecd6bc3fe1378a8d433180f95747685278e9",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_2b9039cd1c044df9",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812654164617199616::conclusion_10",
+            "package_id": "paper:812654164617199616",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812654164617199616"
+          ]
+        },
+        "rerank_score": 0.7958061394790182,
+        "role": "conclusion",
+        "score": 0.006138666064098219,
+        "title": "Robustness of Fermi surface nesting to theoretical method",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Theoretical understanding of relaxation-induced gauge fields in TBG has largely come from studies of free-standing TBG or simplified continuum descriptions, leaving uncertain the magnitude and spatial structure of pseudo-magnetic fields when a real hBN substrate and full atomic relaxation are present. Since pseudo-magnetic fields can strongly modify low-energy band dispersion, valley-dependent responses, and mimic magnetic-field-like splitting, an atomistic quantification of $\\mathbf{A}(\\mathbf{r})$ and $\\mathbf{B}(\\mathbf{r})$ in realistic supported or encapsulated stacks is necessary to assess their role in experiments and to determine whether simplified continuum approximations capture the dominant physics.",
+        "content_hash": "e5b71d1392b5dc6cbf619e89ae5e12c9322704d8389f2b7b8eb0801fc99a9a3c",
+        "id": "gcn_9eab341cff744329",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812703149704871937::conclusion_3_subproblem",
+            "package_id": "paper:812703149704871937",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812703149704871937"
+          ]
+        },
+        "rerank_score": 0.7391741692745148,
+        "role": "premise",
+        "score": 0.005681818181818182,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Electronic models for twisted graphene typically incorporate strain-induced scalar and vector potentials but often assume smooth, sinusoidal strain fields inherited from rigid-layer moiré modulations. Without relaxed atomic geometries at small twist angles, quantitative estimates of local shear strains $\\bar{u}$ and therefore of pseudo-vector potentials and pseudo-magnetic fields remained uncertain. This prevented assessment of whether relaxation-induced localization of deformations could produce pseudo-magnetic fields large enough (Tesla scale) and sufficiently inhomogeneous to influence observable electronic phenomena such as suppression of weak localization or formation of local Landau-level-like features.",
+        "content_hash": "2de7396c469d2921fdb7ec8371935fd8ca3159b72f379e2af90fac8f0b2aecb7",
+        "id": "gcn_8a827be973464c06",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814609362248007681::conclusion_4_subproblem",
+            "package_id": "paper:814609362248007681",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814609362248007681"
+          ]
+        },
+        "rerank_score": 0.8321214211123373,
+        "role": "premise",
+        "score": 0.015625,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The equilibrium structure of a twisted bilayer graphene Moiré superlattice is the starting point for any electronic structure calculation. Early analytical models (such as that of Nam and Koshino) predicted only a very small lattice relaxation, whereas scanning probe experiments on free‑standing bilayers had revealed the existence of strain solitons with widths on the order of 6 nm. A quantitative, model‑independent determination of the deformation pattern and of the soliton width using modern interatomic potentials was missing, leaving open the question of whether the relaxation is large enough to significantly alter the electronic structure and whether different force fields give consistent results.",
+        "content_hash": "19b9fcb3ddadf3d0f86acad28433225bd9f037bd89e83cbc7002d0a6c1e51f92",
+        "id": "gcn_0efb11c78b264d5e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867769920841056630::conclusion_1_subproblem",
+            "package_id": "paper:867769920841056630",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867769920841056630"
+          ]
+        },
+        "rerank_score": 0.8059329478184334,
+        "role": "premise",
+        "score": 0.014285714285714285,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In twisted bilayer graphene, faithful microscopic modeling requires (a) inclusion of all intra- and interlayer C-2p_z hopping integrals across the large-number-of-orbital Moire cell, (b) a tractable yet realistic parametrization of how hoppings depend on inter-atomic distance and orientation, and (c) incorporation of perpendicular electric and magnetic fields that alter on-site energies and introduce Peierls phases. Prior methods either (i) used effective continuum approximations that drop atomic-scale details and cannot produce accurate magnetic wave functions and inter-sublattice amplitude relations, (ii) relied on first-principles calculations that are computationally infeasible for very large Moire cells, or (iii) used tight-binding implementations with oversimplified interlayer hopping that fail to capture twist-dependent hybridizations and zone-folding in large commensurate cells. Without a generalized tight-binding Hamiltonian with explicit empirical distance dependence and field coupling one cannot compute realistic band structures, density of states, optical matrix elements, or magnetically quantized Landau-level wave functions across the range of $\\\\theta$, $V_z$, and $B_z$ relevant to experiments. The presented Hamiltonian directly addresses this modelling gap by specifying the hopping functional form, the geometric Moire construction, and a numerical diagonalization workflow applicable to large commensurate cells.",
+        "content_hash": "93237fdf11d8309a13fbc353362ab4106bb3fac5ddd2d91ddf1c76daabd8d6e7",
+        "id": "gcn_1e9a8d7e4bb74806",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867774290894782807::conclusion_1_subproblem",
+            "package_id": "paper:867774290894782807",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867774290894782807"
+          ]
+        },
+        "rerank_score": 0.7988457183359446,
+        "role": "premise",
+        "score": 0.015873015873015872,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The detailed analysis of the spectral features of the large commensurate moiré bilayer supercell, in particular the absence of peak splitting in its density of states compared to the AAB trilayer, remains to be fully understood and is outside the scope of this work. Reliable STM simulations of such large supercells are currently hindered by the limitations of the Harris functional (poor surface energies) and the use of short‑ranged basis sets in the SIESTA code, preventing direct comparison of simulated and experimental topographies. The classical molecular dynamics simulations, using a combination of the lcbop and Kolmogorov–Crespi potentials, may underestimate the geometric corrugation of the moiré pattern, as the experimental geometric corrugation (0.6–0.8 Å at $U = -500$ mV) is larger than the simulated value (0.23 Å); improved force fields could be required. The direction‑dependent bond alternations revealed by CMD could generate pseudomagnetic fields and direction‑dependent electronic transport, but these electronic consequences have not been computed in this work. Finally, whether shear strain in twisted graphene systems can be enhanced to the critical level of about 17% to open a direction‑dependent gap and produce flat bands remains a speculative future direction.",
+        "content_hash": "5c9e86ebacaa6f55a8b156910c33eecf37dde2dd96dfbc816f231f2e11db72b8",
+        "id": "gcn_cdf1b17d68864159",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817404776986705921::open_question",
+            "package_id": "paper:817404776986705921",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817404776986705921"
+          ]
+        },
+        "rerank_score": 0.8228505460945748,
+        "role": "premise",
+        "score": 0.0136986301369863,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Moiré‑twisted magnetic bilayers are predicted to host rich non‑collinear magnetic textures, but simulating their spin dynamics from first principles is unattainable with conventional DFT because of the enormous supercell size and the need to explore configuration space efficiently. Earlier magnetic NNFFs lacked the ability to provide accurate magnetic forces and sufficient generalization to large‑scale moiré structures, preventing the study of spontaneous magnetic relaxation and its impact on the electronic band structure in such systems.",
+        "content_hash": "ac3aae2f689992a462ac757038c002af46cb3d1ebaff93dfdf93bfc945f4cbdc",
+        "id": "gcn_8d18e3b3a014466e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:989705481998041106::conclusion_4_subproblem",
+            "package_id": "paper:989705481998041106",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:989705481998041106"
+          ]
+        },
+        "rerank_score": 0.7257219591856481,
+        "role": "premise",
+        "score": 0.009174311926605505,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In the limit of decoupled layers (negligible interlayer hybridization) experimentalists and theorists require an understanding of how strain-induced pseudovector potentials cause geometric phases of layer-resolved components. Prior works recognized strain-induced pseudomagnetic fields in monolayers, but did not systematically treat layer-contrasted pseudomagnetic fluxes as producing relative AB phases between layer components and thereby a rotation of the layer pseudospin. Clarifying this AB mechanism for the decoupled-bilayer limit is essential to distinguish purely strain-driven pseudospin rotations from those arising due to interlayer coupling and to interpret loop-dependent effects and pseudospin textures in weakly hybridized moiré regions.",
+        "content_hash": "b2894cbcf441ad8a833d5d85d295134ce5595260500f2bffc9df3ff8650bbc27",
+        "id": "gcn_9564ce9f48fd482e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812520301815398402::conclusion_3_subproblem",
+            "package_id": "paper:812520301815398402",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812520301815398402"
+          ]
+        },
+        "rerank_score": 0.7242707571087275,
+        "role": "premise",
+        "score": 0.01574894331538417,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Conventional tight-binding models for twisted graphene multilayers fail to capture the band gaps observed in ab initio calculations because they assume each bilayer is symmetric and therefore neglect the built-in interlayer potential difference. Without a correct description of the intrinsic polarization, reliable tight-binding calculations at twist angles relevant to flat-band physics could not be performed, leaving a gap between atomistic accuracy and computational feasibility for large moiré supercells. A faithful parametrization of the ISP effect was required to bridge this gap and enable systematic studies of band flattening down to the magic angle regime.",
+        "content_hash": "7b89c75815d4e784830ab68498df152a81f28b9aa48e7016624273ff76558aab",
+        "id": "gcn_ff013f31faca4978",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867773468681176020::conclusion_2_subproblem",
+            "package_id": "paper:867773468681176020",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867773468681176020"
+          ]
+        },
+        "rerank_score": 0.7936498676023998,
+        "role": "premise",
+        "score": 0.007518796992481203,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Twisted bilayer graphene (TBG) at small rotation angles, and in particular near the first \"magic\" angle, exhibits experimentally observed nearly flat electronic bands, narrow bandwidths (~10 meV), and energy gaps separating the flat-band (FB) manifold from higher and lower bands (tens of meV). Prior low-energy modeling (continuum models, tight-binding) and semiclassical relaxation treatments have identified FBs but either omitted atomistic, long-range van der Waals (vdW) forces or treated structural relaxation phenomenologically. As a result, the community lacked a systematic, large-scale, first-principles account of how interlayer vdW-driven atomic relaxations (both in-plane and out-of-plane) modify the atomic geometry and therefore the single-particle electronic structure across small twist angles (including the first magic angle). This gap includes: (i) absence of DFT calculations that include long-range vdW interactions for very large moiré supercells (up to ~10^4 atoms) to obtain explicit atomic displacement fields; (ii) lack of ab initio quantification of the relaxation energy per atom and its dependence on twist angle and its relation to thermal stability of the relaxed geometry; (iii) uncertainty about which components of relaxation (in-plane versus out-of-plane) are necessary to reproduce the experimentally observed band separations and FB bandwidths; and (iv) absence of ab initio–derived, angle-independent effective interlayer coupling parameters for continuum low-energy models that correctly incorporate relaxation. These limitations prevented reliable, quantitative mapping between atomistic relaxation physics and the experimentally observed flat-band electronic features, left ambiguous the thermal robustness of the relaxed moiré geometry, and hindered the provision of ab initio benchmark parameters (e.g., interlayer hopping coefficients) to be used in continuum or many-body treatments.",
+        "content_hash": "a509a006dc7d079c0e811ddafefea58545e3caf9d688c3f8988f5dbc3361de4e",
+        "id": "gcn_9622ff876e244e0b",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867758194619843247::problem",
+            "package_id": "paper:867758194619843247",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867758194619843247"
+          ]
+        },
+        "rerank_score": 0.77321654970216,
+        "role": "premise",
+        "score": 0.006711409395973154,
+        "type": "question",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "req_1f298d0360b26"
+}

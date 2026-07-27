@@ -1,0 +1,3710 @@
+{
+  "generated_at": "2026-07-27T10:27:25.088528+00:00",
+  "platform": {
+    "machine": "arm64",
+    "processor": "arm",
+    "python": "3.12.9",
+    "release": "23.6.0",
+    "system": "Darwin"
+  },
+  "policy": {
+    "accuracy_is_gated": true,
+    "kernel_time_excludes_import_and_process_startup": true,
+    "process_wall_time_includes_import_and_process_startup": true,
+    "public_results_are_not_held_out": true,
+    "same_machine": true,
+    "timing_is_descriptive": true
+  },
+  "records": [
+    {
+      "backend": "pythtb",
+      "case_id": "domain_spectral_reliability",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/.venv/bin/python",
+        "backends/pythtb/run.py",
+        "domain_spectral_reliability"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.7002992910001922,
+        "median": 0.6981416670005274,
+        "minimum": 0.6980323750012758,
+        "samples": [
+          0.6981416670005274,
+          0.7002992910001922,
+          0.6980323750012758
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 1.1766672499998094,
+        "median": 0.9597232079995592,
+        "minimum": 0.9557749160012463,
+        "samples": [
+          1.1766672499998094,
+          0.9557749160012463,
+          0.9597232079995592
+        ]
+      },
+      "repetitions": 3,
+      "representative_result": {
+        "backend": "pythtb",
+        "backend_version": "2.0.0",
+        "case_id": "domain_spectral_reliability",
+        "checks": [
+          {
+            "actual": 0.0,
+            "expected": 0.0,
+            "name": "degenerate_projector_gauge_invariance",
+            "passed": true,
+            "tolerance": 1e-12
+          },
+          {
+            "actual": 0.9999999999999627,
+            "expected": 1.0,
+            "name": "dos_state_count",
+            "passed": true,
+            "tolerance": 0.0002
+          },
+          {
+            "actual": [
+              0.007296876485900255,
+              1.875326262261625e-05,
+              1.9556069510813063e-14
+            ],
+            "expected": "last error < 0.55 * first error",
+            "name": "interior_ldos_converges_to_bloch",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 0.6980323750012758,
+        "metrics": {
+          "integrated_dos_states_per_cell": 0.9999999999999627,
+          "open_to_bloch_ldos_rms_errors": [
+            0.007296876485900255,
+            1.875326262261625e-05,
+            1.9556069510813063e-14
+          ],
+          "projector_gauge_error": 0.0
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "pythtb",
+      "case_id": "domain_magnetic_hofstadter",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/.venv/bin/python",
+        "backends/pythtb/run.py",
+        "domain_magnetic_hofstadter"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.07547787500152481,
+        "median": 0.07509354099966004,
+        "minimum": 0.07504175000030955,
+        "samples": [
+          0.07504175000030955,
+          0.07547787500152481,
+          0.07509354099966004
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.3450387499997305,
+        "median": 0.3387977080001292,
+        "minimum": 0.33255737499894167,
+        "samples": [
+          0.33255737499894167,
+          0.3450387499997305,
+          0.3387977080001292
+        ]
+      },
+      "repetitions": 3,
+      "representative_result": {
+        "backend": "pythtb",
+        "backend_version": "2.0.0",
+        "case_id": "domain_magnetic_hofstadter",
+        "checks": [
+          {
+            "actual": 2.482534153247273e-16,
+            "expected": 0.0,
+            "name": "peierls_gauge_covariance",
+            "passed": true,
+            "tolerance": 1e-12
+          },
+          {
+            "actual": 5.551115123125783e-15,
+            "expected": 0.0,
+            "name": "gauge_invariant_spectrum",
+            "passed": true,
+            "tolerance": 1e-11
+          },
+          {
+            "actual": [
+              6.955527313080394e-16,
+              2.482534153247273e-16
+            ],
+            "expected": 0.0,
+            "name": "magnetic_translation_algebra",
+            "passed": true,
+            "tolerance": 1e-12
+          },
+          {
+            "actual": [
+              3,
+              5
+            ],
+            "expected": [
+              3,
+              5
+            ],
+            "name": "magnetic_band_multiplicity",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": -1.0000000000000002,
+            "expected": "integer with magnitude 1",
+            "name": "diophantine_chern_label",
+            "passed": true,
+            "tolerance": 2e-06
+          }
+        ],
+        "elapsed_seconds": 0.07509354099966004,
+        "metrics": {
+          "diophantine_chern_magnitude": 1,
+          "gauge_covariance_residual": 2.482534153247273e-16,
+          "gauge_spectral_error": 5.551115123125783e-15,
+          "lowest_band_chern": -1.0000000000000002,
+          "magnetic_band_counts": [
+            3,
+            5
+          ],
+          "magnetic_translation_errors": [
+            6.955527313080394e-16,
+            2.482534153247273e-16
+          ]
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "pythtb",
+      "case_id": "domain_bdg_majorana",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/.venv/bin/python",
+        "backends/pythtb/run.py",
+        "domain_bdg_majorana"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.014347000000270782,
+        "median": 0.01388425000004645,
+        "minimum": 0.013602167000499321,
+        "samples": [
+          0.013602167000499321,
+          0.014347000000270782,
+          0.01388425000004645
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.2777565409996896,
+        "median": 0.2770778340000106,
+        "minimum": 0.2728706249999959,
+        "samples": [
+          0.2777565409996896,
+          0.2770778340000106,
+          0.2728706249999959
+        ]
+      },
+      "repetitions": 3,
+      "representative_result": {
+        "backend": "pythtb",
+        "backend_version": "2.0.0",
+        "case_id": "domain_bdg_majorana",
+        "checks": [
+          {
+            "actual": 0.0,
+            "expected": 0.0,
+            "name": "particle_hole_symmetry",
+            "passed": true,
+            "tolerance": 1e-11
+          },
+          {
+            "actual": 1.3322676295501878e-15,
+            "expected": 0.0,
+            "name": "paired_bdg_spectrum",
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "actual": 1.1102230246251565e-16,
+            "expected": 0.0,
+            "name": "short_junction_andreev_spectrum",
+            "passed": true,
+            "tolerance": 1e-12
+          },
+          {
+            "actual": 0.0014494381139362467,
+            "expected": 0.0,
+            "name": "josephson_current_derivative",
+            "passed": true,
+            "tolerance": 0.003
+          },
+          {
+            "actual": [
+              1,
+              0
+            ],
+            "expected": [
+              1,
+              0
+            ],
+            "name": "kitaev_bulk_invariants",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": [
+              6.982400489621373e-05,
+              5.169387361803054e-06,
+              2.8414537649891323e-07
+            ],
+            "expected": "strictly decreasing",
+            "name": "majorana_splitting_decreases",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": [
+              0.8726837615672722,
+              0.8726837005929687,
+              0.8726836999779669
+            ],
+            "expected": "> 0.85",
+            "name": "majorana_end_localization",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "expected": 0.0,
+            "name": "majorana_self_conjugacy",
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "actual": 0.010526152404135205,
+            "expected": "< 0.35",
+            "name": "trivial_control_not_end_localized",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 0.01388425000004645,
+        "metrics": {
+          "andreev_level_error": 1.1102230246251565e-16,
+          "josephson_current_error": 0.0014494381139362467,
+          "majorana_end_weights": [
+            0.8726837615672722,
+            0.8726837005929687,
+            0.8726836999779669
+          ],
+          "majorana_self_conjugacy_errors": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "majorana_splittings": [
+            6.982400489621373e-05,
+            5.169387361803054e-06,
+            2.8414537649891323e-07
+          ],
+          "paired_energy_error": 1.3322676295501878e-15,
+          "particle_hole_residual": 0.0,
+          "topological_invariant": 1,
+          "trivial_invariant": 0,
+          "trivial_lowest_state_end_weight": 0.010526152404135205
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "pythtb",
+      "case_id": "domain_spin_texture_covariance",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/.venv/bin/python",
+        "backends/pythtb/run.py",
+        "domain_spin_texture_covariance"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.010767875000965432,
+        "median": 0.010718542000176967,
+        "minimum": 0.010692542000469984,
+        "samples": [
+          0.010692542000469984,
+          0.010718542000176967,
+          0.010767875000965432
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.2696364170005836,
+        "median": 0.26856766600030824,
+        "minimum": 0.2660297919992445,
+        "samples": [
+          0.2660297919992445,
+          0.26856766600030824,
+          0.2696364170005836
+        ]
+      },
+      "repetitions": 3,
+      "representative_result": {
+        "backend": "pythtb",
+        "backend_version": "2.0.0",
+        "case_id": "domain_spin_texture_covariance",
+        "checks": [
+          {
+            "actual": 1.0,
+            "expected": "magnitude 1",
+            "name": "nontrivial_texture_charge",
+            "passed": true,
+            "tolerance": 0.2
+          },
+          {
+            "actual": 2.220599296927511e-16,
+            "expected": 0.0,
+            "name": "global_spin_rotation_covariance",
+            "passed": true,
+            "tolerance": 2e-12
+          },
+          {
+            "actual": 9.769962616701378e-15,
+            "expected": 0.0,
+            "name": "global_spin_rotation_spectrum",
+            "passed": true,
+            "tolerance": 2e-11
+          }
+        ],
+        "elapsed_seconds": 0.010767875000965432,
+        "metrics": {
+          "discrete_skyrmion_charge": 1.0,
+          "rotated_spectrum_error": 9.769962616701378e-15,
+          "spin_rotation_covariance_error": 2.220599296927511e-16
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "kwant",
+      "case_id": "domain_spectral_reliability",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/.venv-kwant/bin/python",
+        "backends/kwant/run.py",
+        "domain_spectral_reliability"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.20140970799911884,
+        "median": 0.2004304999991291,
+        "minimum": 0.19576195900117455,
+        "samples": [
+          0.2004304999991291,
+          0.20140970799911884,
+          0.19576195900117455
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 1.9326462499993795,
+        "median": 0.7116267080000398,
+        "minimum": 0.7064584589988954,
+        "samples": [
+          1.9326462499993795,
+          0.7116267080000398,
+          0.7064584589988954
+        ]
+      },
+      "repetitions": 3,
+      "representative_result": {
+        "backend": "kwant",
+        "backend_version": "1.5.0",
+        "case_id": "domain_spectral_reliability",
+        "checks": [
+          {
+            "actual": 1.8069094481207863e-17,
+            "expected": 0.0,
+            "name": "degenerate_projector_gauge_invariance",
+            "passed": true,
+            "tolerance": 1e-12
+          },
+          {
+            "actual": 0.9999999999999627,
+            "expected": 1.0,
+            "name": "dos_state_count",
+            "passed": true,
+            "tolerance": 0.0002
+          },
+          {
+            "actual": [
+              0.007296876485900256,
+              1.8753262622612555e-05,
+              1.955781216585861e-14
+            ],
+            "expected": "last error < 0.55 * first error",
+            "name": "interior_ldos_converges_to_bloch",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 0.19576195900117455,
+        "metrics": {
+          "integrated_dos_states_per_cell": 0.9999999999999627,
+          "open_to_bloch_ldos_rms_errors": [
+            0.007296876485900256,
+            1.8753262622612555e-05,
+            1.955781216585861e-14
+          ],
+          "projector_gauge_error": 1.8069094481207863e-17
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "kwant",
+      "case_id": "domain_magnetic_hofstadter",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/.venv-kwant/bin/python",
+        "backends/kwant/run.py",
+        "domain_magnetic_hofstadter"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.2741864159997931,
+        "median": 0.17641604200071015,
+        "minimum": 0.13879474999885133,
+        "samples": [
+          0.2741864159997931,
+          0.13879474999885133,
+          0.17641604200071015
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.7462357500007784,
+        "median": 0.691785290999178,
+        "minimum": 0.6364798340000561,
+        "samples": [
+          0.7462357500007784,
+          0.6364798340000561,
+          0.691785290999178
+        ]
+      },
+      "repetitions": 3,
+      "representative_result": {
+        "backend": "kwant",
+        "backend_version": "1.5.0",
+        "case_id": "domain_magnetic_hofstadter",
+        "checks": [
+          {
+            "actual": 1.5700924586837752e-16,
+            "expected": 0.0,
+            "name": "peierls_gauge_covariance",
+            "passed": true,
+            "tolerance": 1e-12
+          },
+          {
+            "actual": 5.245803791353865e-15,
+            "expected": 0.0,
+            "name": "gauge_invariant_spectrum",
+            "passed": true,
+            "tolerance": 1e-11
+          },
+          {
+            "actual": [
+              6.955527313080394e-16,
+              2.482534153247273e-16
+            ],
+            "expected": 0.0,
+            "name": "magnetic_translation_algebra",
+            "passed": true,
+            "tolerance": 1e-12
+          },
+          {
+            "actual": [
+              3,
+              5
+            ],
+            "expected": [
+              3,
+              5
+            ],
+            "name": "magnetic_band_multiplicity",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": -1.0000000000000002,
+            "expected": "integer with magnitude 1",
+            "name": "diophantine_chern_label",
+            "passed": true,
+            "tolerance": 2e-06
+          }
+        ],
+        "elapsed_seconds": 0.17641604200071015,
+        "metrics": {
+          "diophantine_chern_magnitude": 1,
+          "gauge_covariance_residual": 1.5700924586837752e-16,
+          "gauge_spectral_error": 5.245803791353865e-15,
+          "lowest_band_chern": -1.0000000000000002,
+          "magnetic_band_counts": [
+            3,
+            5
+          ],
+          "magnetic_translation_errors": [
+            6.955527313080394e-16,
+            2.482534153247273e-16
+          ]
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "kwant",
+      "case_id": "domain_bdg_majorana",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/.venv-kwant/bin/python",
+        "backends/kwant/run.py",
+        "domain_bdg_majorana"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.1030919589993573,
+        "median": 0.041321791999507695,
+        "minimum": 0.019036458999835304,
+        "samples": [
+          0.041321791999507695,
+          0.019036458999835304,
+          0.1030919589993573
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.617120207998596,
+        "median": 0.587995707999653,
+        "minimum": 0.5209010409998882,
+        "samples": [
+          0.587995707999653,
+          0.5209010409998882,
+          0.617120207998596
+        ]
+      },
+      "repetitions": 3,
+      "representative_result": {
+        "backend": "kwant",
+        "backend_version": "1.5.0",
+        "case_id": "domain_bdg_majorana",
+        "checks": [
+          {
+            "actual": 0.0,
+            "expected": 0.0,
+            "name": "particle_hole_symmetry",
+            "passed": true,
+            "tolerance": 1e-11
+          },
+          {
+            "actual": 3.1086244689504383e-15,
+            "expected": 0.0,
+            "name": "paired_bdg_spectrum",
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "actual": 1.1102230246251565e-16,
+            "expected": 0.0,
+            "name": "short_junction_andreev_spectrum",
+            "passed": true,
+            "tolerance": 1e-12
+          },
+          {
+            "actual": 0.0014494381139362467,
+            "expected": 0.0,
+            "name": "josephson_current_derivative",
+            "passed": true,
+            "tolerance": 0.003
+          },
+          {
+            "actual": [
+              1,
+              0
+            ],
+            "expected": [
+              1,
+              0
+            ],
+            "name": "kitaev_bulk_invariants",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": [
+              6.982400489670286e-05,
+              5.1693873619108884e-06,
+              2.8414537669280246e-07
+            ],
+            "expected": "strictly decreasing",
+            "name": "majorana_splitting_decreases",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": [
+              0.872683761567271,
+              0.8726837005929688,
+              0.8726836999779666
+            ],
+            "expected": "> 0.85",
+            "name": "majorana_end_localization",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "expected": 0.0,
+            "name": "majorana_self_conjugacy",
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "actual": 0.010526152404134953,
+            "expected": "< 0.35",
+            "name": "trivial_control_not_end_localized",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 0.1030919589993573,
+        "metrics": {
+          "andreev_level_error": 1.1102230246251565e-16,
+          "josephson_current_error": 0.0014494381139362467,
+          "majorana_end_weights": [
+            0.872683761567271,
+            0.8726837005929688,
+            0.8726836999779666
+          ],
+          "majorana_self_conjugacy_errors": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "majorana_splittings": [
+            6.982400489670286e-05,
+            5.1693873619108884e-06,
+            2.8414537669280246e-07
+          ],
+          "paired_energy_error": 3.1086244689504383e-15,
+          "particle_hole_residual": 0.0,
+          "topological_invariant": 1,
+          "trivial_invariant": 0,
+          "trivial_lowest_state_end_weight": 0.010526152404134953
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "kwant",
+      "case_id": "domain_lead_calibration",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/.venv-kwant/bin/python",
+        "backends/kwant/run.py",
+        "domain_lead_calibration"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.010855708000235609,
+        "median": 0.010043000000223401,
+        "minimum": 0.009978332998798578,
+        "samples": [
+          0.010855708000235609,
+          0.010043000000223401,
+          0.009978332998798578
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.5065454169998702,
+        "median": 0.5055264579987124,
+        "minimum": 0.5052234160011722,
+        "samples": [
+          0.5055264579987124,
+          0.5052234160011722,
+          0.5065454169998702
+        ]
+      },
+      "repetitions": 3,
+      "representative_result": {
+        "backend": "kwant",
+        "backend_version": "1.5.0",
+        "case_id": "domain_lead_calibration",
+        "checks": [
+          {
+            "actual": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "expected": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "name": "one_incoming_and_one_outgoing_mode",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": 8.326672684688674e-16,
+            "expected": 0.0,
+            "name": "analytic_group_velocities",
+            "passed": true,
+            "tolerance": 2e-10
+          },
+          {
+            "actual": 4.041272810440265e-16,
+            "expected": 0.0,
+            "name": "analytic_retarded_self_energy",
+            "passed": true,
+            "tolerance": 2e-10
+          },
+          {
+            "actual": 0,
+            "expected": 0,
+            "name": "no_propagating_mode_in_gap",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": 0.0,
+            "expected": 0.0,
+            "name": "gap_self_energy",
+            "passed": true,
+            "tolerance": 2e-10
+          },
+          {
+            "actual": 0.5,
+            "expected": "between 0 and 1",
+            "name": "evanescent_mode_decays",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 0.009978332998798578,
+        "metrics": {
+          "decaying_evanescent_factor": 0.5,
+          "gap_mode_count": 0,
+          "gap_self_energy_error": 0.0,
+          "maximum_self_energy_error": 4.041272810440265e-16,
+          "maximum_velocity_error": 8.326672684688674e-16,
+          "propagating_mode_counts": [
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "kwant",
+      "case_id": "domain_spin_texture_covariance",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/.venv-kwant/bin/python",
+        "backends/kwant/run.py",
+        "domain_spin_texture_covariance"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.04893866599923058,
+        "median": 0.02569750000111526,
+        "minimum": 0.007727750000412925,
+        "samples": [
+          0.02569750000111526,
+          0.04893866599923058,
+          0.007727750000412925
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.5744057499996416,
+        "median": 0.534420375000991,
+        "minimum": 0.5124651670012099,
+        "samples": [
+          0.5744057499996416,
+          0.534420375000991,
+          0.5124651670012099
+        ]
+      },
+      "repetitions": 3,
+      "representative_result": {
+        "backend": "kwant",
+        "backend_version": "1.5.0",
+        "case_id": "domain_spin_texture_covariance",
+        "checks": [
+          {
+            "actual": 1.0,
+            "expected": "magnitude 1",
+            "name": "nontrivial_texture_charge",
+            "passed": true,
+            "tolerance": 0.2
+          },
+          {
+            "actual": 2.220599296927511e-16,
+            "expected": 0.0,
+            "name": "global_spin_rotation_covariance",
+            "passed": true,
+            "tolerance": 2e-12
+          },
+          {
+            "actual": 1.0658141036401503e-14,
+            "expected": 0.0,
+            "name": "global_spin_rotation_spectrum",
+            "passed": true,
+            "tolerance": 2e-11
+          }
+        ],
+        "elapsed_seconds": 0.007727750000412925,
+        "metrics": {
+          "discrete_skyrmion_charge": 1.0,
+          "rotated_spectrum_error": 1.0658141036401503e-14,
+          "spin_rotation_covariance_error": 2.220599296927511e-16
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "thouless",
+      "case_id": "domain_spectral_reliability",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "domain_spectral_reliability"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.021901167,
+        "median": 0.0197885,
+        "minimum": 0.0196915,
+        "samples": [
+          0.021901167,
+          0.0196915,
+          0.0197885
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.02916462500070338,
+        "median": 0.022128624999822932,
+        "minimum": 0.021998165999320918,
+        "samples": [
+          0.02916462500070338,
+          0.022128624999822932,
+          0.021998165999320918
+        ]
+      },
+      "repetitions": 3,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+        "case_id": "domain_spectral_reliability",
+        "checks": [
+          {
+            "actual": 0.0,
+            "expected": 0.0,
+            "name": "degenerate_projector_gauge_invariance",
+            "passed": true,
+            "tolerance": 1e-12
+          },
+          {
+            "actual": 0.999999999999963,
+            "expected": 1.0,
+            "name": "dos_state_count",
+            "passed": true,
+            "tolerance": 0.0002
+          },
+          {
+            "actual": [
+              0.0072968764859003025,
+              1.8753262622597102e-05,
+              1.958247249802814e-14
+            ],
+            "expected": "last error < 0.55 * first error",
+            "name": "interior_ldos_converges_to_bloch",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 0.0197885,
+        "metrics": {
+          "integrated_dos_states_per_cell": 0.999999999999963,
+          "open_to_bloch_ldos_rms_errors": [
+            0.0072968764859003025,
+            1.8753262622597102e-05,
+            1.958247249802814e-14
+          ],
+          "projector_gauge_error": 0.0
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "thouless",
+      "case_id": "domain_magnetic_hofstadter",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "domain_magnetic_hofstadter"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.001698834,
+        "median": 0.001675583,
+        "minimum": 0.001590292,
+        "samples": [
+          0.001698834,
+          0.001675583,
+          0.001590292
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.003919458000382292,
+        "median": 0.003917333000572398,
+        "minimum": 0.003832207999948878,
+        "samples": [
+          0.003832207999948878,
+          0.003917333000572398,
+          0.003919458000382292
+        ]
+      },
+      "repetitions": 3,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+        "case_id": "domain_magnetic_hofstadter",
+        "checks": [
+          {
+            "actual": 0.0,
+            "expected": 0.0,
+            "name": "peierls_gauge_covariance",
+            "passed": true,
+            "tolerance": 1e-12
+          },
+          {
+            "actual": 3.9968028886505635e-15,
+            "expected": 0.0,
+            "name": "gauge_invariant_spectrum",
+            "passed": true,
+            "tolerance": 1e-11
+          },
+          {
+            "actual": [
+              6.955527313080394e-16,
+              2.482534153247273e-16
+            ],
+            "expected": 0.0,
+            "name": "magnetic_translation_algebra",
+            "passed": true,
+            "tolerance": 1e-12
+          },
+          {
+            "actual": [
+              3,
+              5
+            ],
+            "expected": [
+              3,
+              5
+            ],
+            "name": "magnetic_band_multiplicity",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": 1.0000000000000002,
+            "expected": "integer with magnitude 1",
+            "name": "diophantine_chern_label",
+            "passed": true,
+            "tolerance": 2e-06
+          }
+        ],
+        "elapsed_seconds": 0.001590292,
+        "metrics": {
+          "diophantine_chern_magnitude": 1,
+          "gauge_covariance_residual": 0.0,
+          "gauge_spectral_error": 3.9968028886505635e-15,
+          "lowest_band_chern": 1.0000000000000002,
+          "magnetic_band_counts": [
+            3,
+            5
+          ],
+          "magnetic_translation_errors": [
+            6.955527313080394e-16,
+            2.482534153247273e-16
+          ]
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "thouless",
+      "case_id": "domain_bdg_majorana",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "domain_bdg_majorana"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.002575084,
+        "median": 0.001657709,
+        "minimum": 0.001657541,
+        "samples": [
+          0.002575084,
+          0.001657541,
+          0.001657709
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.00473045800026739,
+        "median": 0.0037894580000283895,
+        "minimum": 0.003749749999769847,
+        "samples": [
+          0.00473045800026739,
+          0.0037894580000283895,
+          0.003749749999769847
+        ]
+      },
+      "repetitions": 3,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+        "case_id": "domain_bdg_majorana",
+        "checks": [
+          {
+            "actual": 0.0,
+            "expected": 0.0,
+            "name": "particle_hole_symmetry",
+            "passed": true,
+            "tolerance": 1e-11
+          },
+          {
+            "actual": 2.220446049250313e-15,
+            "expected": 0.0,
+            "name": "paired_bdg_spectrum",
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "actual": 1.1102230246251565e-16,
+            "expected": 0.0,
+            "name": "short_junction_andreev_spectrum",
+            "passed": true,
+            "tolerance": 1e-12
+          },
+          {
+            "actual": 0.0014494381139362467,
+            "expected": 0.0,
+            "name": "josephson_current_derivative",
+            "passed": true,
+            "tolerance": 0.003
+          },
+          {
+            "actual": [
+              1,
+              0
+            ],
+            "expected": [
+              1,
+              0
+            ],
+            "name": "kitaev_bulk_invariants",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": [
+              6.982400489633043e-05,
+              5.1693873625912516e-06,
+              2.841453769886638e-07
+            ],
+            "expected": "strictly decreasing",
+            "name": "majorana_splitting_decreases",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": [
+              0.8726837615672716,
+              0.8726837005929695,
+              0.8726836999779665
+            ],
+            "expected": "> 0.85",
+            "name": "majorana_end_localization",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "expected": 0.0,
+            "name": "majorana_self_conjugacy",
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "actual": 0.01052615240413491,
+            "expected": "< 0.35",
+            "name": "trivial_control_not_end_localized",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 0.001657709,
+        "metrics": {
+          "andreev_level_error": 1.1102230246251565e-16,
+          "josephson_current_error": 0.0014494381139362467,
+          "majorana_end_weights": [
+            0.8726837615672716,
+            0.8726837005929695,
+            0.8726836999779665
+          ],
+          "majorana_self_conjugacy_errors": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "majorana_splittings": [
+            6.982400489633043e-05,
+            5.1693873625912516e-06,
+            2.841453769886638e-07
+          ],
+          "paired_energy_error": 2.220446049250313e-15,
+          "particle_hole_residual": 0.0,
+          "topological_invariant": 1,
+          "trivial_invariant": 0,
+          "trivial_lowest_state_end_weight": 0.01052615240413491
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "thouless",
+      "case_id": "domain_lead_calibration",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "domain_lead_calibration"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.000179208,
+        "median": 0.000112541,
+        "minimum": 0.00011025,
+        "samples": [
+          0.000179208,
+          0.000112541,
+          0.00011025
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.002380500000072061,
+        "median": 0.0021437909999804106,
+        "minimum": 0.002086667000185116,
+        "samples": [
+          0.002380500000072061,
+          0.002086667000185116,
+          0.0021437909999804106
+        ]
+      },
+      "repetitions": 3,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+        "case_id": "domain_lead_calibration",
+        "checks": [
+          {
+            "actual": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "expected": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "name": "one_incoming_and_one_outgoing_mode",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": 3.0531133177191805e-16,
+            "expected": 0.0,
+            "name": "analytic_group_velocities",
+            "passed": true,
+            "tolerance": 2e-10
+          },
+          {
+            "actual": 6.716027733943974e-11,
+            "expected": 0.0,
+            "name": "analytic_retarded_self_energy",
+            "passed": true,
+            "tolerance": 2e-10
+          },
+          {
+            "actual": 0,
+            "expected": 0,
+            "name": "no_propagating_mode_in_gap",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": 2.220446115424761e-16,
+            "expected": 0.0,
+            "name": "gap_self_energy",
+            "passed": true,
+            "tolerance": 2e-10
+          },
+          {
+            "actual": 0.49999981481507305,
+            "expected": "between 0 and 1",
+            "name": "evanescent_mode_decays",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 0.00011025,
+        "metrics": {
+          "decaying_evanescent_factor": 0.49999981481507305,
+          "gap_mode_count": 0,
+          "gap_self_energy_error": 2.220446115424761e-16,
+          "maximum_self_energy_error": 6.716027733943974e-11,
+          "maximum_velocity_error": 3.0531133177191805e-16,
+          "propagating_mode_counts": [
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "thouless",
+      "case_id": "domain_spin_texture_covariance",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "domain_spin_texture_covariance"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.006568792,
+        "median": 0.006561459,
+        "minimum": 0.006542291,
+        "samples": [
+          0.006542291,
+          0.006561459,
+          0.006568792
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.00874587500038615,
+        "median": 0.008704459000000497,
+        "minimum": 0.008603708000009647,
+        "samples": [
+          0.008603708000009647,
+          0.00874587500038615,
+          0.008704459000000497
+        ]
+      },
+      "repetitions": 3,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+        "case_id": "domain_spin_texture_covariance",
+        "checks": [
+          {
+            "actual": 1.0,
+            "expected": "magnitude 1",
+            "name": "nontrivial_texture_charge",
+            "passed": true,
+            "tolerance": 0.2
+          },
+          {
+            "actual": 2.220446049250313e-16,
+            "expected": 0.0,
+            "name": "global_spin_rotation_covariance",
+            "passed": true,
+            "tolerance": 2e-12
+          },
+          {
+            "actual": 4.440892098500626e-15,
+            "expected": 0.0,
+            "name": "global_spin_rotation_spectrum",
+            "passed": true,
+            "tolerance": 2e-11
+          }
+        ],
+        "elapsed_seconds": 0.006568792,
+        "metrics": {
+          "discrete_skyrmion_charge": 1.0,
+          "rotated_spectrum_error": 4.440892098500626e-15,
+          "spin_rotation_covariance_error": 2.220446049250313e-16
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "thouless",
+      "case_id": "domain_model_fidelity",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "domain_model_fidelity"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.002866334,
+        "median": 0.002827958,
+        "minimum": 0.002819375,
+        "samples": [
+          0.002866334,
+          0.002819375,
+          0.002827958
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.005038250001234701,
+        "median": 0.0050207090007461375,
+        "minimum": 0.00492912499976228,
+        "samples": [
+          0.0050207090007461375,
+          0.00492912499976228,
+          0.005038250001234701
+        ]
+      },
+      "repetitions": 3,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+        "case_id": "domain_model_fidelity",
+        "checks": [
+          {
+            "actual": {
+              "minimum_overlap": 0.904838221332197,
+              "residual": 0.0
+            },
+            "expected": {
+              "maximum_residual": 1e-12,
+              "positive_metric": true
+            },
+            "name": "TBQ-001_generalized_hermiticity_and_metric",
+            "passed": true,
+            "tolerance": 1e-12
+          },
+          {
+            "actual": {
+              "energy_error": 4.513728957528107e-05,
+              "projector_error": 0.01008510769007865
+            },
+            "expected": {
+              "maximum_energy_error": 0.005,
+              "maximum_projector_error": 0.03
+            },
+            "name": "TBQ-002_energy_window_and_projector_fidelity",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": {
+              "band_errors": [
+                0.7199999999999989,
+                0.35999999999999943,
+                0.0
+              ],
+              "response_errors": [
+                1.799933512636187e-05,
+                8.940328072526427e-06,
+                0.0
+              ]
+            },
+            "expected": "monotone convergence to the untruncated model",
+            "name": "TBQ-003_hopping_truncation_converges_bands_and_response",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": {
+              "linear_ratio_spread": 0.0,
+              "residuals": [
+                0.0,
+                0.0002,
+                0.0004,
+                0.0008
+              ]
+            },
+            "expected": {
+              "exact_residual": 1e-11,
+              "linear_spread": 0.05
+            },
+            "name": "TBQ-004_symmetry_residual_and_negative_control",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": {
+              "errors": [
+                0.008937885288581304,
+                0.0010107687992646497,
+                0.008511429058027153
+              ],
+              "strains": [
+                -0.06,
+                0.02,
+                0.06
+              ]
+            },
+            "expected": {
+              "maximum_error": 0.01
+            },
+            "name": "TBQ-005_held_out_strain_transfer",
+            "passed": true,
+            "tolerance": 0.01
+          }
+        ],
+        "elapsed_seconds": 0.002827958,
+        "metrics": {
+          "generalized_eigenvalues": [
+            [
+              -1.302641679607997,
+              0.0
+            ],
+            [
+              -0.3488833751009825,
+              0.0
+            ],
+            [
+              0.6900507840456233,
+              0.0
+            ],
+            [
+              1.6034245028230611,
+              0.0
+            ]
+          ],
+          "held_out_transfer_errors": [
+            0.008937885288581304,
+            0.0010107687992646497,
+            0.008511429058027153
+          ],
+          "minimum_overlap_eigenvalue": 0.904838221332197,
+          "symmetry_residuals": [
+            0.0,
+            0.0002,
+            0.0004,
+            0.0008
+          ],
+          "truncation_band_errors": [
+            0.7199999999999989,
+            0.35999999999999943,
+            0.0
+          ],
+          "truncation_response_errors": [
+            1.799933512636187e-05,
+            8.940328072526427e-06,
+            0.0
+          ]
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "thouless",
+      "case_id": "domain_fermiology",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "domain_fermiology"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.045025166,
+        "median": 0.044882708,
+        "minimum": 0.043823917,
+        "samples": [
+          0.045025166,
+          0.044882708,
+          0.043823917
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.04715595800007577,
+        "median": 0.04708533399934822,
+        "minimum": 0.046337415999005316,
+        "samples": [
+          0.04715595800007577,
+          0.04708533399934822,
+          0.046337415999005316
+        ]
+      },
+      "repetitions": 3,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+        "case_id": "domain_fermiology",
+        "checks": [
+          {
+            "actual": {
+              "energy": 0.0,
+              "hessian": [
+                -78.9568326275969,
+                78.9568326275969
+              ]
+            },
+            "expected": {
+              "feature_energy": 0.0,
+              "mixed_hessian": true
+            },
+            "name": "TBQ-008_van_hove_stationary_point_and_hessian",
+            "passed": true,
+            "tolerance": 0.002
+          },
+          {
+            "actual": {
+              "coarse": [
+                0.309375,
+                0.495625,
+                0.690625
+              ],
+              "fine": [
+                0.3078125,
+                0.497265625,
+                0.6921875
+              ],
+              "refinement_error": 0.0016406250000000067
+            },
+            "expected": {
+              "half_filling_at_lifshitz": 0.5,
+              "maximum_volume_error": 0.005
+            },
+            "name": "TBQ-009_lifshitz_state_counting",
+            "passed": true,
+            "tolerance": 0.005
+          }
+        ],
+        "elapsed_seconds": 0.043823917,
+        "metrics": {
+          "occupied_fractions": [
+            0.3078125,
+            0.497265625,
+            0.6921875
+          ],
+          "van_hove_energy": 0.0,
+          "van_hove_hessian": [
+            -78.9568326275969,
+            78.9568326275969
+          ]
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "thouless",
+      "case_id": "domain_magnetic_convergence",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "domain_magnetic_convergence"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.006016125,
+        "median": 0.005926709,
+        "minimum": 0.0058845,
+        "samples": [
+          0.006016125,
+          0.005926709,
+          0.0058845
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.008304166000016266,
+        "median": 0.00823304199911945,
+        "minimum": 0.00796375000027183,
+        "samples": [
+          0.008304166000016266,
+          0.00823304199911945,
+          0.00796375000027183
+        ]
+      },
+      "repetitions": 3,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+        "case_id": "domain_magnetic_convergence",
+        "checks": [
+          {
+            "actual": {
+              "denominators": [
+                41,
+                67,
+                97
+              ],
+              "lowest_levels": [
+                -3.849669210421672,
+                -3.9073162319918717,
+                -3.9357479782382407
+              ],
+              "relative_errors": [
+                0.019038581327762056,
+                0.011677651867300227,
+                0.008075393897894727
+              ]
+            },
+            "expected": {
+              "final_relative_error": 0.01,
+              "monotone": true
+            },
+            "name": "TBQ-014_low_flux_landau_fan",
+            "passed": true,
+            "tolerance": 0.01
+          },
+          {
+            "actual": {
+              "flux_errors": [
+                [
+                  0.0069660112501050975,
+                  0.0026493733652794837,
+                  0.0010136302977241662
+                ],
+                [
+                  0.018033988749894925,
+                  0.006922877638783742,
+                  0.005130762943443279
+                ]
+              ],
+              "integrated_dos": [
+                [
+                  0.5,
+                  0.49846153846153846,
+                  0.4990476190476191
+                ],
+                [
+                  0.4,
+                  0.5,
+                  0.5006451612903225
+                ]
+              ],
+              "sequence_difference": 0.0015975422427034758
+            },
+            "expected": {
+              "sequence_difference": 0.01
+            },
+            "name": "TBQ-015_rational_approximant_integrated_observable",
+            "passed": true,
+            "tolerance": 0.01
+          }
+        ],
+        "elapsed_seconds": 0.0058845,
+        "metrics": {
+          "approximant_integrated_dos": [
+            [
+              0.5,
+              0.49846153846153846,
+              0.4990476190476191
+            ],
+            [
+              0.4,
+              0.5,
+              0.5006451612903225
+            ]
+          ],
+          "landau_fan_relative_errors": [
+            0.019038581327762056,
+            0.011677651867300227,
+            0.008075393897894727
+          ]
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "thouless",
+      "case_id": "domain_bulk_topology_controls",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "domain_bulk_topology_controls"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.007355875,
+        "median": 0.007275167,
+        "minimum": 0.007257125,
+        "samples": [
+          0.007355875,
+          0.007257125,
+          0.007275167
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.00954716700107383,
+        "median": 0.009428625000509783,
+        "minimum": 0.009368082999571925,
+        "samples": [
+          0.009428625000509783,
+          0.009368082999571925,
+          0.00954716700107383
+        ]
+      },
+      "repetitions": 3,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+        "case_id": "domain_bulk_topology_controls",
+        "checks": [
+          {
+            "actual": {
+              "error": 1.4432899320127035e-15,
+              "reference": 0.9999999999999988,
+              "rotated": 1.0000000000000002
+            },
+            "expected": {
+              "maximum_raw_deviation": 1e-05
+            },
+            "name": "TBQ-016_bulk_index_gauge_invariance",
+            "passed": true,
+            "tolerance": 1e-05
+          },
+          {
+            "actual": {
+              "critical_gap": 5.536329327162904e-16,
+              "located_mass": 1.9999999999999998,
+              "side_cherns": [
+                -1.0000000000000002,
+                -6.971267856506406e-18
+              ]
+            },
+            "expected": {
+              "critical_mass": 2.0,
+              "maximum_error": 0.0001
+            },
+            "name": "TBQ-017_phase_boundary_and_index_change",
+            "passed": true,
+            "tolerance": 0.0001
+          },
+          {
+            "actual": {
+              "basis_residual": 0.0,
+              "minimum_wannier_gap": 0.5114105320660641,
+              "nested_polarizations": [
+                0.49999999999999983,
+                0.5000000000000002
+              ]
+            },
+            "expected": {
+              "phase_tolerance": 0.0002,
+              "polarization": 0.5
+            },
+            "name": "TBQ-018_degeneracy_safe_nested_wilson_flow",
+            "passed": true,
+            "tolerance": 0.0002
+          },
+          {
+            "actual": {
+              "atomic_chern": 0.0,
+              "nearly_gapless_direct_gap": 0.00199999999999978
+            },
+            "expected": {
+              "atomic_chern": 0.0,
+              "near_gap_warning_threshold": 0.003
+            },
+            "name": "TBQ-020_trivial_and_nearly_gapless_controls",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 0.007275167,
+        "metrics": {
+          "atomic_chern": 0.0,
+          "gauge_cherns": [
+            0.9999999999999988,
+            1.0000000000000002
+          ],
+          "located_critical_mass": 1.9999999999999998,
+          "nested_polarizations": [
+            0.49999999999999983,
+            0.5000000000000002
+          ]
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "thouless",
+      "case_id": "domain_boundary_families",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "domain_boundary_families"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.1891635,
+        "median": 0.189163417,
+        "minimum": 0.189047709,
+        "samples": [
+          0.189163417,
+          0.1891635,
+          0.189047709
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.19212012500065612,
+        "median": 0.19194158400023298,
+        "minimum": 0.19167020799977763,
+        "samples": [
+          0.19167020799977763,
+          0.19194158400023298,
+          0.19212012500065612
+        ]
+      },
+      "repetitions": 3,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+        "case_id": "domain_boundary_families",
+        "checks": [
+          {
+            "actual": {
+              "graphene": {
+                "armchair_gaps": [
+                  0.27225898692462314,
+                  0.1877926324897073,
+                  0.14330717991598602
+                ],
+                "armchair_scaling_spread": 0.051234892348915505,
+                "width_scaled_armchair_gaps": [
+                  3.2671078430954776,
+                  3.380267384814731,
+                  3.4393723179836644
+                ],
+                "widths": [
+                  12,
+                  18,
+                  24
+                ],
+                "zigzag_edge_weights": [
+                  0.9998910661603502,
+                  0.9998910661603504,
+                  0.9998910661603504
+                ],
+                "zigzag_minimum_gaps": [
+                  1.8990543765771262e-18,
+                  1.670967728669024e-27,
+                  1.0586255875306538e-27
+                ]
+              },
+              "ssh": {
+                "edge_weights": [
+                  0.640043729144964,
+                  0.640000021095215,
+                  0.640000000000162,
+                  0.640000000000001
+                ],
+                "localization_length": 1.9576162063174212,
+                "splittings": [
+                  0.001393189020398211,
+                  2.33994144057392e-05,
+                  5.0935431355653995e-08,
+                  1.4369984154800973e-11
+                ]
+              }
+            },
+            "expected": "analytic SSH and graphene termination signatures",
+            "name": "TBQ-021_termination_family_signatures",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": {
+              "finite": {
+                "edge_weights": [
+                  0.640043729144964,
+                  0.640000021095215,
+                  0.640000000000162,
+                  0.640000000000001
+                ],
+                "localization_length": 1.9576162063174212,
+                "splittings": [
+                  0.001393189020398211,
+                  2.33994144057392e-05,
+                  5.0935431355653995e-08,
+                  1.4369984154800973e-11
+                ]
+              },
+              "surface": {
+                "decaying_evanescent_factor": 0.49999981481507305,
+                "gap_mode_count": 0,
+                "gap_self_energy_error": 2.220446115424761e-16,
+                "maximum_self_energy_error": 6.716027733943974e-11,
+                "maximum_velocity_error": 3.0531133177191805e-16,
+                "propagating_mode_counts": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              }
+            },
+            "expected": "consistent localized boundary solutions",
+            "name": "TBQ-023_finite_and_surface_boundary_agreement",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": {
+              "protected_chiral": {
+                "bulk_chern_number": 1.0000000000000007,
+                "crossing_energies": [
+                  -0.000783934180346194,
+                  0.0007839341803453883
+                ],
+                "crossing_momentum": 0.4645,
+                "edge_velocities": [
+                  -4.736581098007965,
+                  4.7365810980042795
+                ],
+                "edge_weights": [
+                  0.9991829276191134,
+                  0.9991829276191101
+                ],
+                "in_gap_edge_branch_count": 2
+              },
+              "termination_dependent": {
+                "armchair_gaps": [
+                  0.27225898692462314,
+                  0.1877926324897073,
+                  0.14330717991598602
+                ],
+                "armchair_scaling_spread": 0.051234892348915505,
+                "width_scaled_armchair_gaps": [
+                  3.2671078430954776,
+                  3.380267384814731,
+                  3.4393723179836644
+                ],
+                "widths": [
+                  12,
+                  18,
+                  24
+                ],
+                "zigzag_edge_weights": [
+                  0.9998910661603502,
+                  0.9998910661603504,
+                  0.9998910661603504
+                ],
+                "zigzag_minimum_gaps": [
+                  1.8990543765771262e-18,
+                  1.670967728669024e-27,
+                  1.0586255875306538e-27
+                ]
+              }
+            },
+            "expected": "protected flow survives while termination-dependent modes vary",
+            "name": "TBQ-024_conditional_bulk_boundary_correspondence",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": {
+              "flakes": {
+                "corner_weights": [
+                  0.5627146753048922,
+                  0.5627146753048913,
+                  0.5627146753048919,
+                  0.5627146753048923
+                ],
+                "midgap_count": 4,
+                "midgap_energies": [
+                  0.004143567395689787,
+                  -0.0041435673956898775,
+                  -0.004143567395690191,
+                  0.004143567395690373
+                ],
+                "next_state_absolute_energy": 0.5872188421119361,
+                "sublattice_projector_support": [
+                  1.0000000000000009,
+                  0.9999999999999998,
+                  0.9999999999999986,
+                  0.9999999999999982
+                ]
+              },
+              "one_dimensional": {
+                "edge_weights": [
+                  0.640043729144964,
+                  0.640000021095215,
+                  0.640000000000162,
+                  0.640000000000001
+                ],
+                "localization_length": 1.9576162063174212,
+                "splittings": [
+                  0.001393189020398211,
+                  2.33994144057392e-05,
+                  5.0935431355653995e-08,
+                  1.4369984154800973e-11
+                ]
+              },
+              "ribbons": {
+                "armchair_gaps": [
+                  0.27225898692462314,
+                  0.1877926324897073,
+                  0.14330717991598602
+                ],
+                "armchair_scaling_spread": 0.051234892348915505,
+                "width_scaled_armchair_gaps": [
+                  3.2671078430954776,
+                  3.380267384814731,
+                  3.4393723179836644
+                ],
+                "widths": [
+                  12,
+                  18,
+                  24
+                ],
+                "zigzag_edge_weights": [
+                  0.9998910661603502,
+                  0.9998910661603504,
+                  0.9998910661603504
+                ],
+                "zigzag_minimum_gaps": [
+                  1.8990543765771262e-18,
+                  1.670967728669024e-27,
+                  1.0586255875306538e-27
+                ]
+              }
+            },
+            "expected": "protected observables persist across widths and finite geometries",
+            "name": "TBQ-025_geometry_family_generalization",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 0.189047709,
+        "metrics": {
+          "corner_modes": {
+            "corner_weights": [
+              0.5627146753048922,
+              0.5627146753048913,
+              0.5627146753048919,
+              0.5627146753048923
+            ],
+            "midgap_count": 4,
+            "midgap_energies": [
+              0.004143567395689787,
+              -0.0041435673956898775,
+              -0.004143567395690191,
+              0.004143567395690373
+            ],
+            "next_state_absolute_energy": 0.5872188421119361,
+            "sublattice_projector_support": [
+              1.0000000000000009,
+              0.9999999999999998,
+              0.9999999999999986,
+              0.9999999999999982
+            ]
+          },
+          "graphene_terminations": {
+            "armchair_gaps": [
+              0.27225898692462314,
+              0.1877926324897073,
+              0.14330717991598602
+            ],
+            "armchair_scaling_spread": 0.051234892348915505,
+            "width_scaled_armchair_gaps": [
+              3.2671078430954776,
+              3.380267384814731,
+              3.4393723179836644
+            ],
+            "widths": [
+              12,
+              18,
+              24
+            ],
+            "zigzag_edge_weights": [
+              0.9998910661603502,
+              0.9998910661603504,
+              0.9998910661603504
+            ],
+            "zigzag_minimum_gaps": [
+              1.8990543765771262e-18,
+              1.670967728669024e-27,
+              1.0586255875306538e-27
+            ]
+          },
+          "haldane_flow": {
+            "bulk_chern_number": 1.0000000000000007,
+            "crossing_energies": [
+              -0.000783934180346194,
+              0.0007839341803453883
+            ],
+            "crossing_momentum": 0.4645,
+            "edge_velocities": [
+              -4.736581098007965,
+              4.7365810980042795
+            ],
+            "edge_weights": [
+              0.9991829276191134,
+              0.9991829276191101
+            ],
+            "in_gap_edge_branch_count": 2
+          },
+          "ssh": {
+            "edge_weights": [
+              0.640043729144964,
+              0.640000021095215,
+              0.640000000000162,
+              0.640000000000001
+            ],
+            "localization_length": 1.9576162063174212,
+            "splittings": [
+              0.001393189020398211,
+              2.33994144057392e-05,
+              5.0935431355653995e-08,
+              1.4369984154800973e-11
+            ]
+          },
+          "surface_green": {
+            "decaying_evanescent_factor": 0.49999981481507305,
+            "gap_mode_count": 0,
+            "gap_self_energy_error": 2.220446115424761e-16,
+            "maximum_self_energy_error": 6.716027733943974e-11,
+            "maximum_velocity_error": 3.0531133177191805e-16,
+            "propagating_mode_counts": [
+              2,
+              2,
+              2,
+              2
+            ]
+          }
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "thouless",
+      "case_id": "domain_quantum_geometry_nonlinear",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "domain_quantum_geometry_nonlinear"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.029021459,
+        "median": 0.028514959,
+        "minimum": 0.028387083,
+        "samples": [
+          0.029021459,
+          0.028387083,
+          0.028514959
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.031748125000376604,
+        "median": 0.030665291000332218,
+        "minimum": 0.030643708001662162,
+        "samples": [
+          0.031748125000376604,
+          0.030665291000332218,
+          0.030643708001662162
+        ]
+      },
+      "repetitions": 3,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+        "case_id": "domain_quantum_geometry_nonlinear",
+        "checks": [
+          {
+            "actual": {
+              "minimum_metric_diagonal": 0.052467358635123994,
+              "tensor_error": 9.469747252991005e-17
+            },
+            "expected": {
+              "maximum_tensor_error": 1e-07,
+              "minimum_metric": -1e-10
+            },
+            "name": "TBQ-026_quantum_geometric_tensor_gauge_covariance",
+            "passed": true,
+            "tolerance": 1e-07
+          },
+          {
+            "actual": {
+              "negative_tilt": [
+                2.2785800248254753,
+                3.1581830630875776,
+                2.021865731987459
+              ],
+              "positive_tilt": [
+                -2.2785800248256134,
+                -3.1581830630880194,
+                -2.0218657319870883
+              ],
+              "symmetric": [
+                -2.9776310372650163e-13,
+                -7.035637548569383e-14,
+                -2.0324368814538922e-14
+              ]
+            },
+            "expected": "symmetry-suppressed response and an odd allowed response",
+            "name": "TBQ-027_competing_nonlinear_hall_mechanisms",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": {
+              "allowed_norm": 3.1581830630880194,
+              "forbidden_norm": 2.9776310372650163e-13
+            },
+            "expected": {
+              "forbidden_to_allowed_ratio": 1e-05
+            },
+            "name": "TBQ-028_forbidden_tensor_component_and_linear_onset",
+            "passed": true,
+            "tolerance": 1e-05
+          },
+          {
+            "actual": {
+              "chern": 2.208718528794109e-17,
+              "nonlinear_scale": 3.1581830630880194,
+              "termination_gaps": [
+                1.0461138665674445,
+                1.0089884526173045
+              ],
+              "weak_bias_transmission": 9.401715041251405e-15
+            },
+            "expected": "zero Chern, finite nonlinear response, and reported termination/device observables",
+            "name": "TBQ-030_zero_chern_same_model_bulk_boundary_device",
+            "passed": true,
+            "tolerance": 1e-05
+          }
+        ],
+        "elapsed_seconds": 0.028514959,
+        "metrics": {
+          "nonlinear_responses": {
+            "negative": [
+              2.2785800248254753,
+              3.1581830630875776,
+              2.021865731987459
+            ],
+            "positive": [
+              -2.2785800248256134,
+              -3.1581830630880194,
+              -2.0218657319870883
+            ],
+            "symmetric": [
+              -2.9776310372650163e-13,
+              -7.035637548569383e-14,
+              -2.0324368814538922e-14
+            ]
+          },
+          "quantum_tensor_error": 9.469747252991005e-17,
+          "zero_chern_workflow": {
+            "chern": 2.208718528794109e-17,
+            "termination_gaps": [
+              1.0461138665674445,
+              1.0089884526173045
+            ],
+            "transmission": 9.401715041251405e-15
+          }
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "thouless",
+      "case_id": "domain_disorder_reproducibility",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "domain_disorder_reproducibility"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.000220125,
+        "median": 0.000217208,
+        "minimum": 0.000200041,
+        "samples": [
+          0.000220125,
+          0.000217208,
+          0.000200041
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.0024819579994073138,
+        "median": 0.0023179999989224598,
+        "minimum": 0.0022855000006529735,
+        "samples": [
+          0.0023179999989224598,
+          0.0024819579994073138,
+          0.0022855000006529735
+        ]
+      },
+      "repetitions": 3,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+        "case_id": "domain_disorder_reproducibility",
+        "checks": [
+          {
+            "actual": {
+              "lag_one": -0.008014924422384075,
+              "mean": -0.008726337681900542,
+              "seed_replay": true,
+              "spectrum_size": 24,
+              "variance": 0.33201093284192895
+            },
+            "expected": "byte-identical replay and moments/correlation within three standard errors",
+            "name": "TBQ-031_seeded_disorder_ensemble_reproducibility",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 0.000200041,
+        "metrics": {
+          "lag_one_correlation": -0.008014924422384075,
+          "mean": -0.008726337681900542,
+          "sample_count": 4096,
+          "seed": "0x5eedcafe",
+          "variance": 0.33201093284192895
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "thouless",
+      "case_id": "domain_transport_consistency",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "domain_transport_consistency"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.030220458,
+        "median": 0.030142667,
+        "minimum": 0.028856292,
+        "samples": [
+          0.030142667,
+          0.030220458,
+          0.028856292
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.03344387500146695,
+        "median": 0.03244287500092469,
+        "minimum": 0.032184375000724685,
+        "samples": [
+          0.03244287500092469,
+          0.03344387500146695,
+          0.032184375000724685
+        ]
+      },
+      "repetitions": 3,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+        "case_id": "domain_transport_consistency",
+        "checks": [
+          {
+            "actual": {
+              "ballistic": {
+                "energies": [
+                  -1.5,
+                  -0.5,
+                  0.0,
+                  0.5,
+                  1.5
+                ],
+                "maximum_transmission_error": 1.1102230246251565e-16,
+                "transmissions": [
+                  1.0,
+                  0.9999999999999999,
+                  1.0,
+                  0.9999999999999999,
+                  1.0
+                ]
+              },
+              "continuity_error": 0.0
+            },
+            "expected": {
+              "maximum_residual": 1e-09
+            },
+            "name": "TBQ-037_scattering_and_local_continuity",
+            "passed": true,
+            "tolerance": 1e-09
+          },
+          {
+            "actual": {
+              "partition_noise": 0.24,
+              "resonant_level": {
+                "analytic_transmissions": [
+                  0.7838679743283419,
+                  0.9352469264256639,
+                  1.0,
+                  0.9337649532988789,
+                  0.7754844295650668
+                ],
+                "energies": [
+                  0.0380952380952381,
+                  0.1380952380952381,
+                  0.2380952380952381,
+                  0.3380952380952381,
+                  0.4380952380952381
+                ],
+                "maximum_analytic_error": 1.3713474800169934e-12,
+                "peak_transmission": 0.9999999999999998,
+                "predicted_resonance_energy": 0.2380952380952381,
+                "resonance_energy": 0.2380952380952381,
+                "transmissions": [
+                  0.7838679743281985,
+                  0.9352469264256198,
+                  0.9999999999999998,
+                  0.9337649532987768,
+                  0.7754844295636955
+                ]
+              }
+            },
+            "expected": {
+              "partition_noise": 0.24
+            },
+            "name": "TBQ-038_transmission_ldos_and_partition_noise",
+            "passed": true,
+            "tolerance": 1e-12
+          },
+          {
+            "actual": {
+              "lengths": [
+                8,
+                12,
+                16
+              ],
+              "log_slopes": [
+                -1.9248473045930385,
+                -1.924847300240387
+              ],
+              "production_dimension": 100000,
+              "production_nnz": 299998,
+              "production_solver_nnz": 599996,
+              "production_transmission": 0.0,
+              "solver_nnz": [
+                44,
+                68,
+                92
+              ],
+              "transmissions": [
+                1.394112150310384e-07,
+                6.316775769110045e-11,
+                2.8621554444557565e-14
+              ]
+            },
+            "expected": {
+              "decay_rate_error": 0.01,
+              "production_size": 100000
+            },
+            "name": "TBQ-039_long_evanescent_sparse_stability",
+            "passed": true,
+            "tolerance": 0.01
+          },
+          {
+            "actual": {
+              "couplings": [
+                0.35,
+                0.55,
+                0.75
+              ],
+              "reciprocity_error": 0.0,
+              "transmissions": [
+                [
+                  0.9999999999999998,
+                  0.9999999999999998
+                ],
+                [
+                  0.9999999999999998,
+                  0.9999999999999998
+                ],
+                [
+                  1.0,
+                  1.0
+                ]
+              ]
+            },
+            "expected": {
+              "maximum_reciprocity_error": 1e-09
+            },
+            "name": "TBQ-040_contact_family_reciprocity",
+            "passed": true,
+            "tolerance": 1e-09
+          }
+        ],
+        "elapsed_seconds": 0.028856292,
+        "metrics": {
+          "ballistic": {
+            "energies": [
+              -1.5,
+              -0.5,
+              0.0,
+              0.5,
+              1.5
+            ],
+            "maximum_transmission_error": 1.1102230246251565e-16,
+            "transmissions": [
+              1.0,
+              0.9999999999999999,
+              1.0,
+              0.9999999999999999,
+              1.0
+            ]
+          },
+          "contact_transmissions": [
+            [
+              0.9999999999999998,
+              0.9999999999999998
+            ],
+            [
+              0.9999999999999998,
+              0.9999999999999998
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "evanescent_transmissions": [
+            1.394112150310384e-07,
+            6.316775769110045e-11,
+            2.8621554444557565e-14
+          ],
+          "resonant": {
+            "analytic_transmissions": [
+              0.7838679743283419,
+              0.9352469264256639,
+              1.0,
+              0.9337649532988789,
+              0.7754844295650668
+            ],
+            "energies": [
+              0.0380952380952381,
+              0.1380952380952381,
+              0.2380952380952381,
+              0.3380952380952381,
+              0.4380952380952381
+            ],
+            "maximum_analytic_error": 1.3713474800169934e-12,
+            "peak_transmission": 0.9999999999999998,
+            "predicted_resonance_energy": 0.2380952380952381,
+            "resonance_energy": 0.2380952380952381,
+            "transmissions": [
+              0.7838679743281985,
+              0.9352469264256198,
+              0.9999999999999998,
+              0.9337649532987768,
+              0.7754844295636955
+            ]
+          }
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "thouless",
+      "case_id": "domain_bdg_discretization",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "domain_bdg_discretization"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.0198405,
+        "median": 0.019069583,
+        "minimum": 0.018783416,
+        "samples": [
+          0.0198405,
+          0.018783416,
+          0.019069583
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.0229263750006794,
+        "median": 0.021343166999940877,
+        "minimum": 0.020920291999573237,
+        "samples": [
+          0.0229263750006794,
+          0.020920291999573237,
+          0.021343166999940877
+        ]
+      },
+      "repetitions": 3,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+        "case_id": "domain_bdg_discretization",
+        "checks": [
+          {
+            "actual": {
+              "continuum_energy_errors": [
+                0.0018636138699341586,
+                0.0004891767317739194,
+                0.00012535067725783378
+              ],
+              "grid_sizes": [
+                20,
+                40,
+                80
+              ],
+              "particle_hole_residuals": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            "expected": {
+              "final_relative_error": 0.01,
+              "monotone_second_order": true,
+              "particle_hole_residual": 1e-10
+            },
+            "name": "TBQ-045_continuum_to_lattice_bdg_convergence",
+            "passed": true,
+            "tolerance": 0.01
+          }
+        ],
+        "elapsed_seconds": 0.019069583,
+        "metrics": {
+          "continuum_energy_errors": [
+            0.0018636138699341586,
+            0.0004891767317739194,
+            0.00012535067725783378
+          ],
+          "grid_sizes": [
+            20,
+            40,
+            80
+          ],
+          "particle_hole_residuals": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "thouless",
+      "case_id": "domain_nonhermitian_static",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "domain_nonhermitian_static"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.003509417,
+        "median": 0.003387958,
+        "minimum": 0.003363208,
+        "samples": [
+          0.003509417,
+          0.003387958,
+          0.003363208
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.006334125000648783,
+        "median": 0.005745291000494035,
+        "minimum": 0.005584624999755761,
+        "samples": [
+          0.006334125000648783,
+          0.005745291000494035,
+          0.005584624999755761
+        ]
+      },
+      "repetitions": 3,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+        "case_id": "domain_nonhermitian_static",
+        "checks": [
+          {
+            "actual": {
+              "left_residual": 5.35015268926554e-16,
+              "off_diagonal_overlap": 5.17951014786426e-16,
+              "right_residual": 5.721958498152797e-16
+            },
+            "expected": {
+              "off_diagonal_overlap": 1e-08,
+              "residual": 1e-10
+            },
+            "name": "TBQ-046_biorthogonal_eigenvector_residuals",
+            "passed": true,
+            "tolerance": 1e-08
+          },
+          {
+            "actual": {
+              "fitted_exponent": 0.49999999999999994,
+              "perturbations": [
+                1e-08,
+                1e-07,
+                1e-06,
+                1e-05,
+                0.0001
+              ],
+              "splittings": [
+                0.00020000000000000004,
+                0.0006324555320336757,
+                0.001999999999999999,
+                0.00632455532033676,
+                0.020000000000000004
+              ]
+            },
+            "expected": {
+              "branching_exponent": 0.5,
+              "relative_tolerance": 0.05
+            },
+            "name": "TBQ-047_exceptional_point_square_root_branching",
+            "passed": true,
+            "tolerance": 0.025
+          },
+          {
+            "actual": {
+              "forward_position": 45.98125000000001,
+              "reverse_position": 1.0187500000000018,
+              "spectral_error": 5.6520428337591966e-09
+            },
+            "expected": "non-Bloch open spectrum and reversed localization side",
+            "name": "TBQ-049_non_bloch_open_spectrum_and_skin_reversal",
+            "passed": true,
+            "tolerance": 1e-07
+          },
+          {
+            "actual": {
+              "pt_broken_max_imaginary": 0.9797958971132713,
+              "pt_unbroken_max_imaginary": 1.8735013540549517e-16,
+              "skin_pair": [
+                45.98125000000001,
+                1.0187500000000018
+              ]
+            },
+            "expected": "unbroken and broken PT regimes plus nonreciprocal skin family",
+            "name": "TBQ-050_nonhermitian_family_regime_classification",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 0.003363208,
+        "metrics": {
+          "eigen_residuals": [
+            5.721958498152797e-16,
+            5.35015268926554e-16
+          ],
+          "exceptional_point_exponent": 0.49999999999999994,
+          "pt_imaginary_scales": [
+            1.8735013540549517e-16,
+            0.9797958971132713
+          ],
+          "skin_positions": [
+            45.98125000000001,
+            1.0187500000000018
+          ]
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "thouless",
+      "case_id": "domain_moire_geometry",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "domain_moire_geometry"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.002179292,
+        "median": 0.002018166,
+        "minimum": 0.002016917,
+        "samples": [
+          0.002016917,
+          0.002018166,
+          0.002179292
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.004500875000303495,
+        "median": 0.004257833001247491,
+        "minimum": 0.0042283749990019714,
+        "samples": [
+          0.004257833001247491,
+          0.0042283749990019714,
+          0.004500875000303495
+        ]
+      },
+      "repetitions": 3,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+        "case_id": "domain_moire_geometry",
+        "checks": [
+          {
+            "actual": {
+              "closure_error": 0.0,
+              "edges": 198914,
+              "nodes": 49952
+            },
+            "expected": {
+              "closure_error": 1e-10,
+              "edges": 198914,
+              "nodes": 49952
+            },
+            "name": "TBQ-061_commensurate_reconstructed_geometry",
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "actual": {
+              "couplings": [
+                1.1162780704588715,
+                1.0,
+                0.8958341352965281,
+                0.8025187979624783
+              ],
+              "derivative_relative_error": -8.174350085710101e-11,
+              "distances": [
+                0.95,
+                1.0,
+                1.05,
+                1.1
+              ],
+              "rotation_error": 0.0
+            },
+            "expected": {
+              "derivative_error": 0.01,
+              "rotation_error": 1e-10
+            },
+            "name": "TBQ-062_geometry_dependent_coupling_covariance",
+            "passed": true,
+            "tolerance": 0.01
+          }
+        ],
+        "elapsed_seconds": 0.002179292,
+        "metrics": {
+          "couplings": [
+            1.1162780704588715,
+            1.0,
+            0.8958341352965281,
+            0.8025187979624783
+          ],
+          "geometry": {
+            "closure_error": 0.0,
+            "edges": 198914,
+            "nodes": 49952
+          }
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "thouless",
+      "case_id": "domain_spin_transport",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "domain_spin_transport"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.009957958,
+        "median": 0.0099445,
+        "minimum": 0.009647667,
+        "samples": [
+          0.0099445,
+          0.009957958,
+          0.009647667
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.012220124999657855,
+        "median": 0.012069832999259233,
+        "minimum": 0.011939457999687875,
+        "samples": [
+          0.012069832999259233,
+          0.012220124999657855,
+          0.011939457999687875
+        ]
+      },
+      "repetitions": 3,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+        "case_id": "domain_spin_transport",
+        "checks": [
+          {
+            "actual": {
+              "normalized_continuity_residual": 0.0
+            },
+            "expected": {
+              "maximum_residual": 1e-08
+            },
+            "name": "TBQ-067_spin_current_and_torque_continuity",
+            "passed": true,
+            "tolerance": 1e-08
+          },
+          {
+            "actual": {
+              "opposite_mass_sum": 2.423069136447964e-05,
+              "topological": -6.283173177800985,
+              "trivial": -4.374474515977424e-06
+            },
+            "expected": {
+              "cancellation_fraction": 0.01
+            },
+            "name": "TBQ-068_mechanism_resolved_hall_response",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": {
+              "adiabatic_errors": [
+                6.783827943834808e-10,
+                2.347348981857067e-10,
+                1.1777490094289078e-10
+              ],
+              "charges": [
+                1.0,
+                0.9999999999999997,
+                0.9999999999999997
+              ],
+              "radii": [
+                2.0,
+                3.4,
+                4.8
+              ],
+              "sizes": [
+                7,
+                11,
+                15
+              ],
+              "transmissions": [
+                0.9999999993216172,
+                0.9999999997652651,
+                0.9999999998822251
+              ]
+            },
+            "expected": {
+              "final_texture_error": 0.03,
+              "monotone_transport": true
+            },
+            "name": "TBQ-069_texture_resolution_and_adiabatic_transport",
+            "passed": true,
+            "tolerance": 0.03
+          },
+          {
+            "actual": {
+              "family_transmissions": [
+                0.9999999999576012,
+                1.0,
+                0.9999999998304046,
+                0.9999999998822251
+              ],
+              "spin_covariance": {
+                "discrete_skyrmion_charge": 1.0,
+                "rotated_spectrum_error": 4.440892098500626e-15,
+                "spin_rotation_covariance_error": 2.220446049250313e-16
+              }
+            },
+            "expected": "common observable gates pass for ferro, antiferro, spiral, and skyrmion controls",
+            "name": "TBQ-070_magnetic_texture_family_generalization",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 0.009647667,
+        "metrics": {
+          "continuity_error": 0.0,
+          "family_transmissions": [
+            0.9999999999576012,
+            1.0,
+            0.9999999998304046,
+            0.9999999998822251
+          ],
+          "hall_responses": [
+            -6.283173177800985,
+            -4.374474515977424e-06,
+            2.423069136447964e-05
+          ],
+          "texture_charges": [
+            1.0,
+            0.9999999999999997,
+            0.9999999999999997
+          ]
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "thouless",
+      "case_id": "domain_response_thermoelectric",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "domain_response_thermoelectric"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.063740208,
+        "median": 0.062330833,
+        "minimum": 0.062100875,
+        "samples": [
+          0.063740208,
+          0.062330833,
+          0.062100875
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.06752254200000607,
+        "median": 0.06691270800001803,
+        "minimum": 0.06594745800066448,
+        "samples": [
+          0.06691270800001803,
+          0.06752254200000607,
+          0.06594745800066448
+        ]
+      },
+      "repetitions": 3,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+        "case_id": "domain_response_thermoelectric",
+        "checks": [
+          {
+            "actual": {
+              "dense_sparse_velocity_error": 0.0,
+              "generalized_imaginary_error": 0.0
+            },
+            "expected": {
+              "operator_error": 1e-09
+            },
+            "name": "TBQ-071_hamiltonian_consistent_response_operators",
+            "passed": true,
+            "tolerance": 1e-09
+          },
+          {
+            "actual": {
+              "lorenz": 3.289868136198891,
+              "moments": [
+                0.9999999992393502,
+                -1.9045717995401854e-18,
+                0.0029608813203268083
+              ],
+              "reciprocity_error": 0.0,
+              "thermopower": 6.348572669962991e-17
+            },
+            "expected": {
+              "lorenz": 3.289868133696453,
+              "reciprocity": 1e-06,
+              "thermopower": 0.0
+            },
+            "name": "TBQ-073_thermoelectric_onsager_and_low_temperature_limits",
+            "passed": true,
+            "tolerance": 0.02
+          },
+          {
+            "actual": {
+              "exact_kpm_moment_error": 1.4476267407026455e-15,
+              "large_dimension": 200000,
+              "large_nnz": 599998,
+              "moments": 32,
+              "small_kpm_spectral_weight": 0.9999553789049735
+            },
+            "expected": {
+              "linear_sparse_storage": true,
+              "overlap_error": 0.02
+            },
+            "name": "TBQ-075_exact_to_large_sparse_response_transfer",
+            "passed": true,
+            "tolerance": 0.02
+          }
+        ],
+        "elapsed_seconds": 0.062100875,
+        "metrics": {
+          "kpm": {
+            "exact_overlap_error": 1.4476267407026455e-15,
+            "large_dimension": 200000,
+            "large_nnz": 599998,
+            "spectral_weight": 0.9999553789049735
+          },
+          "thermoelectric": {
+            "lorenz": 3.289868136198891,
+            "thermopower": 6.348572669962991e-17
+          },
+          "velocity_error": 0.0
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "thouless",
+      "case_id": "domain_arbitrary_graphs",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "domain_arbitrary_graphs"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.004762625,
+        "median": 0.00467775,
+        "minimum": 0.004572666,
+        "samples": [
+          0.004572666,
+          0.004762625,
+          0.00467775
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.007614125001055072,
+        "median": 0.007092084000760224,
+        "minimum": 0.006895917000292684,
+        "samples": [
+          0.007614125001055072,
+          0.007092084000760224,
+          0.006895917000292684
+        ]
+      },
+      "repetitions": 3,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+        "case_id": "domain_arbitrary_graphs",
+        "checks": [
+          {
+            "actual": {
+              "degree_histogram": [
+                0,
+                2,
+                99998
+              ],
+              "edges": 199998,
+              "nodes": 100000,
+              "relabelled_histogram": [
+                0,
+                2,
+                99998
+              ],
+              "rigid_motion_distance_error": 1.6830981053317373e-13
+            },
+            "expected": {
+              "coordinate_error": 1e-12,
+              "edges": 199998,
+              "nodes": 100000
+            },
+            "name": "TBQ-076_translation_free_graph_construction",
+            "passed": true,
+            "tolerance": 1e-12
+          }
+        ],
+        "elapsed_seconds": 0.00467775,
+        "metrics": {
+          "degree_histogram": [
+            0,
+            2,
+            99998
+          ],
+          "edge_count": 199998,
+          "node_count": 100000,
+          "rigid_motion_distance_error": 1.6830981053317373e-13
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "thouless",
+      "case_id": "domain_defect_workflows",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "domain_defect_workflows"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.0085615,
+        "median": 0.008451125,
+        "minimum": 0.008395625,
+        "samples": [
+          0.008395625,
+          0.0085615,
+          0.008451125
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.010804749999806518,
+        "median": 0.01074999999946158,
+        "minimum": 0.010672708000129205,
+        "samples": [
+          0.010672708000129205,
+          0.010804749999806518,
+          0.01074999999946158
+        ]
+      },
+      "repetitions": 3,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+        "case_id": "domain_defect_workflows",
+        "checks": [
+          {
+            "actual": {
+              "surviving_sites": 127,
+              "unaffected_edges": 250
+            },
+            "expected": "exact provenance and unchanged unaffected bonds",
+            "name": "TBQ-081_defect_provenance_bijection",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": {
+              "chemical_resonance": 2.0024837845001886,
+              "disabled_recovery_error": 0.0,
+              "scalar_resonance": 2.3323807579381257
+            },
+            "expected": "hybridization changes the resonance and disabling it exactly recovers the scalar model",
+            "name": "TBQ-082_defect_specific_local_chemistry",
+            "passed": true,
+            "tolerance": 1e-12
+          },
+          {
+            "actual": {
+              "embedding_ldos": 7.664383552220132e-05,
+              "relative_error": 7.0729900526145055e-16,
+              "supercell_ldos": [
+                7.664383551255535e-05,
+                7.664383552220109e-05,
+                7.664383552220126e-05
+              ]
+            },
+            "expected": {
+              "final_relative_error": 0.01
+            },
+            "name": "TBQ-083_embedding_and_supercell_agreement",
+            "passed": true,
+            "tolerance": 0.01
+          },
+          {
+            "actual": {
+              "local_density": 0.12486731612162194,
+              "transmission": 0.3314619205360179
+            },
+            "expected": "finite local spectral weight and defect-suppressed transmission",
+            "name": "TBQ-084_same_defect_local_state_and_transport",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": {
+              "local_spectral_weights": [
+                0.9998215227876083,
+                0.9998215227876083,
+                0.9998215227876083
+              ],
+              "sizes": [
+                256,
+                512,
+                1024
+              ]
+            },
+            "expected": {
+              "spectral_sum_rule": 1.0,
+              "tolerance": 0.03
+            },
+            "name": "TBQ-085_defect_family_sparse_sum_rules",
+            "passed": true,
+            "tolerance": 0.03
+          }
+        ],
+        "elapsed_seconds": 0.008451125,
+        "metrics": {
+          "embedding": {
+            "ldos": 7.664383552220132e-05,
+            "supercells": [
+              7.664383551255535e-05,
+              7.664383552220109e-05,
+              7.664383552220126e-05
+            ]
+          },
+          "family_weights": [
+            0.9998215227876083,
+            0.9998215227876083,
+            0.9998215227876083
+          ],
+          "provenance": {
+            "surviving": 127,
+            "unaffected_edges": 250
+          },
+          "resonances": [
+            2.3323807579381257,
+            2.0024837845001886
+          ],
+          "transport": {
+            "ldos": 0.12486731612162194,
+            "transmission": 0.3314619205360179
+          }
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "thouless",
+      "case_id": "domain_multiscale_validation",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "domain_multiscale_validation"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.000798083,
+        "median": 0.000768084,
+        "minimum": 0.000757041,
+        "samples": [
+          0.000798083,
+          0.000768084,
+          0.000757041
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.0030501670007652137,
+        "median": 0.0029443339990393724,
+        "minimum": 0.002668291999725625,
+        "samples": [
+          0.0030501670007652137,
+          0.0029443339990393724,
+          0.002668291999725625
+        ]
+      },
+      "repetitions": 3,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+        "case_id": "domain_multiscale_validation",
+        "checks": [
+          {
+            "actual": {
+              "continuum": [
+                0.0009,
+                0.0036,
+                0.0081,
+                0.0144
+              ],
+              "lattice": [
+                0.0008999325020249138,
+                0.0035989201295916207,
+                0.008094533976011453,
+                0.0143827282922675
+              ],
+              "momenta": [
+                0.03,
+                0.06,
+                0.09,
+                0.12
+              ],
+              "relative_errors": [
+                7.499775009573231e-05,
+                0.00029996400232756577,
+                0.0006748177763637494,
+                0.001199424148090301
+              ]
+            },
+            "expected": {
+              "maximum_normalized_discrepancy": 0.002
+            },
+            "name": "TBQ-086_two_scale_common_regime",
+            "passed": true,
+            "tolerance": 0.002
+          },
+          {
+            "actual": {
+              "round_trip_error": 4.47545209131181e-16,
+              "state_multiplicity": 2
+            },
+            "expected": {
+              "maximum_round_trip_error": 1e-10
+            },
+            "name": "TBQ-087_representation_mapping_round_trip",
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "actual": {
+              "projector_error": 6.206335383118183e-17,
+              "raw_matrix_difference": 1.3812057776760043,
+              "spectrum_error": 4.440892098500626e-16
+            },
+            "expected": {
+              "observable_error": 1e-10
+            },
+            "name": "TBQ-088_gauge_invariant_observable_comparison",
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "actual": {
+              "combined_bound": 0.017703519139629552,
+              "discretization_errors": [
+                7.499775009573231e-05,
+                0.00029996400232756577,
+                0.0006748177763637494,
+                0.001199424148090301
+              ],
+              "finite_size_errors": [
+                0.022338347549743398,
+                0.00586839763252045,
+                0.001504094991539251
+              ],
+              "model_form_error": 0.015,
+              "observed": 0.00900409499153925
+            },
+            "expected": "refinement errors shrink and the component budget bounds the discrepancy",
+            "name": "TBQ-089_discrepancy_decomposition",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": {
+              "held_out_momenta": [
+                0.045,
+                0.075,
+                0.105
+              ],
+              "relative_errors": [
+                0.00016873860983419574,
+                0.0004686621182214351,
+                0.0009184124258319697
+              ]
+            },
+            "expected": {
+              "predeclared_tolerance": 0.002
+            },
+            "name": "TBQ-090_external_family_validation",
+            "passed": true,
+            "tolerance": 0.002
+          }
+        ],
+        "elapsed_seconds": 0.000757041,
+        "metrics": {
+          "cross_scale_errors": [
+            7.499775009573231e-05,
+            0.00029996400232756577,
+            0.0006748177763637494,
+            0.001199424148090301
+          ],
+          "error_budget": {
+            "bound": 0.017703519139629552,
+            "observed": 0.00900409499153925
+          },
+          "external_errors": [
+            0.00016873860983419574,
+            0.0004686621182214351,
+            0.0009184124258319697
+          ],
+          "gauge_invariant_errors": [
+            4.440892098500626e-16,
+            6.206335383118183e-17
+          ],
+          "mapping_error": 4.47545209131181e-16
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "thouless",
+      "case_id": "domain_sparse_numerics",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "domain_sparse_numerics"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.5252935,
+        "median": 0.449967084,
+        "minimum": 0.444473458,
+        "samples": [
+          0.5252935,
+          0.449967084,
+          0.444473458
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.5426250000000437,
+        "median": 0.4615973749987461,
+        "minimum": 0.4559773330001917,
+        "samples": [
+          0.5426250000000437,
+          0.4615973749987461,
+          0.4559773330001917
+        ]
+      },
+      "repetitions": 3,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+        "case_id": "domain_sparse_numerics",
+        "checks": [
+          {
+            "actual": {
+              "combined_bound": 0.0019782245210323564,
+              "finite_size_component": 0.001953125,
+              "iterative_error": 8.082312338639065e-12,
+              "kpm_errors": [
+                0.0004015468503205666,
+                0.00010039578385778736,
+                2.50995129500442e-05
+              ],
+              "observed_error": 2.50995129500442e-05,
+              "orders": [
+                32,
+                64,
+                128
+              ]
+            },
+            "expected": "each controlled error is reported and the combined budget covers the discrepancy",
+            "name": "TBQ-093_separated_sparse_numerical_error_budget",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": {
+              "maximum_error": 0.00017847721239194758,
+              "nnz_per_row": [
+                2.998,
+                2.9998,
+                2.99998,
+                2.999998
+              ],
+              "records": [
+                [
+                  1000,
+                  2998,
+                  0.999821522787608,
+                  0.000365
+                ],
+                [
+                  10000,
+                  29998,
+                  0.9998215227876082,
+                  0.0038265
+                ],
+                [
+                  100000,
+                  299998,
+                  0.9998215227876082,
+                  0.0397115
+                ],
+                [
+                  1000000,
+                  2999998,
+                  0.9998215227876084,
+                  0.386362209
+                ]
+              ],
+              "time_exponent": 1.0090219902054405,
+              "time_exponent_confidence_95": [
+                0.985814435306759,
+                1.032229545104122
+              ]
+            },
+            "expected": {
+              "fixed_accuracy": 0.03,
+              "linear_sparse_storage": true
+            },
+            "name": "TBQ-094_fixed_accuracy_time_and_memory_scaling",
+            "passed": true,
+            "tolerance": 0.03
+          },
+          {
+            "actual": {
+              "dense_sparse_overlap_error": 0.0,
+              "production_dimension": 1000000,
+              "production_nnz": 2999998,
+              "seed": "0x95",
+              "small_checksum": 17977150778615424716,
+              "small_dimension": 128
+            },
+            "expected": "byte-identical seeded construction metadata and a common sparse recipe",
+            "name": "TBQ-095_exact_to_production_recipe_reproducibility",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 0.444473458,
+        "metrics": {
+          "error_budget": {
+            "combined": 0.0019782245210323564,
+            "iterative": 8.082312338639065e-12,
+            "kpm": [
+              0.0004015468503205666,
+              0.00010039578385778736,
+              2.50995129500442e-05
+            ]
+          },
+          "reproducibility": {
+            "checksum": 17977150778615424716,
+            "dense_sparse_overlap_error": 0.0,
+            "production_dimension": 1000000
+          },
+          "scaling": {
+            "records": [
+              [
+                1000,
+                2998,
+                0.999821522787608,
+                0.000365
+              ],
+              [
+                10000,
+                29998,
+                0.9998215227876082,
+                0.0038265
+              ],
+              [
+                100000,
+                299998,
+                0.9998215227876082,
+                0.0397115
+              ],
+              [
+                1000000,
+                2999998,
+                0.9998215227876084,
+                0.386362209
+              ]
+            ],
+            "time_exponent": 1.0090219902054405,
+            "time_exponent_confidence_95": [
+              0.985814435306759,
+              1.032229545104122
+            ]
+          }
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    }
+  ],
+  "schema_version": 1,
+  "summary": {
+    "backend_case_records": 31,
+    "failed": 0,
+    "passed": 31,
+    "repetitions_per_record": 3
+  }
+}

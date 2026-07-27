@@ -15,8 +15,13 @@ jobs:
       - run: python -m pip install --upgrade pip
       - run: python -m pip install -e ".[test]"
       - run: python tools/check_manifest.py
+      - run: python tools/build_problem_coverage.py --check
+      - run: python tools/sync_problem_status.py --check
+      - run: python tools/check_problem_docs.py
       - run: python tools/coverage_report.py
       - run: python tools/check_results.py results/verified/2026-07-26-implemented.json
+      - run: python tools/check_domain_results.py results/verified/2026-07-27-domain.json
+      - run: python tools/check_domain_results.py --current results/verified/2026-07-27-domain-expanded.json
       - run: python -m pytest
 
   pythtb:
@@ -44,6 +49,10 @@ jobs:
       - run: python backends/pythtb/run.py boundary_haldane_ribbon_flow
       - run: python backends/pythtb/run.py boundary_graphene_terminations
       - run: python backends/pythtb/run.py boundary_bbh_corner_modes
+      - run: python backends/pythtb/run.py domain_spectral_reliability
+      - run: python backends/pythtb/run.py domain_magnetic_hofstadter
+      - run: python backends/pythtb/run.py domain_bdg_majorana
+      - run: python backends/pythtb/run.py domain_spin_texture_covariance
 
   kwant:
     runs-on: ubuntu-latest
@@ -77,29 +86,21 @@ jobs:
       - run: python backends/kwant/run.py transport_resonant_level
       - run: python backends/kwant/run.py transport_aharonov_bohm_ring
       - run: python backends/kwant/run.py transport_quantum_hall_strip
+      - run: python backends/kwant/run.py domain_spectral_reliability
+      - run: python backends/kwant/run.py domain_magnetic_hofstadter
+      - run: python backends/kwant/run.py domain_bdg_majorana
+      - run: python backends/kwant/run.py domain_lead_calibration
+      - run: python backends/kwant/run.py domain_spin_texture_covariance
 
   thouless:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: dtolnay/rust-toolchain@1.85.0
-      - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- bulk_graphene_dirac_cone
-      - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- bulk_ssh_polarization
-      - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- bulk_rice_mele_pump
-      - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- bulk_haldane_chern_transition
-      - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- bulk_qwz_phase_diagram
-      - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- bulk_kane_mele_z2
-      - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- bulk_kagome_soc_chern
-      - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- bulk_bbh_nested_wilson
-      - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- bulk_weyl_chirality
-      - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- bulk_nodal_line_berry_phase
-      - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- bulk_tilted_dirac_berry_dipole
-      - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- bulk_wannier_interpolation
-      - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- boundary_ssh_edge_localization
-      - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- boundary_haldane_ribbon_flow
-      - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- boundary_graphene_terminations
-      - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- boundary_bbh_corner_modes
-      - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- transport_ballistic_chain
-      - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- transport_resonant_level
-      - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- transport_aharonov_bohm_ring
-      - run: cargo run --quiet --release --manifest-path backends/thouless/Cargo.toml -- transport_quantum_hall_strip
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: sudo apt-get update
+      - run: sudo apt-get install -y liblapack3
+      - run: cargo build --quiet --release --manifest-path backends/thouless/Cargo.toml
+      - run: python tools/run_thouless_cases.py --track all

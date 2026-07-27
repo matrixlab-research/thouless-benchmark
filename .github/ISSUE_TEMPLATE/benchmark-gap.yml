@@ -1,5 +1,5 @@
 name: Benchmark implementation gap
-description: Track an applicable backend-case path that is not yet executable.
+description: Track an implementable-unverified problem or a missing package capability.
 title: "Implement: "
 labels:
   - benchmark-gap
@@ -7,8 +7,17 @@ body:
   - type: input
     id: cases
     attributes:
-      label: Case identifiers
-      description: Exact identifiers from benchmark/cases.json.
+      label: Problem or case identifiers
+      description: Exact TBQ identifiers or case identifiers from the benchmark manifests.
+    validations:
+      required: true
+  - type: dropdown
+    id: assessment
+    attributes:
+      label: Current assessment
+      options:
+        - implementable_unverified
+        - missing_capability
     validations:
       required: true
   - type: checkboxes
@@ -27,14 +36,23 @@ body:
     validations:
       required: true
   - type: textarea
+    id: capabilities
+    attributes:
+      label: Required and missing capabilities
+      description: Copy the required and missing capability identifiers from benchmark/problem_coverage.json.
+    validations:
+      required: true
+  - type: textarea
     id: evidence
     attributes:
       label: Completion evidence
       value: |
         - [ ] Uses the native or original backend, not a compatibility substitute
+        - [ ] Exercises the documented parameter range and required scale
         - [ ] Scientific checks pass
         - [ ] Cross-backend comparison is recorded where applicable
-        - [ ] benchmark/implementation.json is updated
+        - [ ] A verified result record is committed
+        - [ ] The relevant implementation manifest and problem audit are updated
         - [ ] CI is updated
     validations:
       required: true

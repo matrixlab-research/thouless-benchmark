@@ -1,0 +1,1493 @@
+{
+  "generated_at": "2026-07-27T08:09:11.511992+00:00",
+  "platform": {
+    "machine": "arm64",
+    "processor": "arm",
+    "python": "3.12.9",
+    "release": "23.6.0",
+    "system": "Darwin"
+  },
+  "policy": {
+    "accuracy_is_gated": true,
+    "kernel_time_excludes_import_and_process_startup": true,
+    "process_wall_time_includes_import_and_process_startup": true,
+    "public_results_are_not_held_out": true,
+    "same_machine": true,
+    "timing_is_descriptive": true
+  },
+  "records": [
+    {
+      "backend": "pythtb",
+      "case_id": "domain_spectral_reliability",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/.venv/bin/python",
+        "backends/pythtb/run.py",
+        "domain_spectral_reliability"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.7301677920004295,
+        "median": 0.7160979590007628,
+        "minimum": 0.7134900410001137,
+        "samples": [
+          0.7301677920004295,
+          0.7234891250000146,
+          0.7151551659999313,
+          0.7196954580003876,
+          0.71359399999983,
+          0.7134900410001137,
+          0.7160979590007628
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 8.445332667000002,
+        "median": 0.9907783329999802,
+        "minimum": 0.9872107499995764,
+        "samples": [
+          8.445332667000002,
+          1.0043588749995251,
+          0.9877387500000623,
+          0.9907783329999802,
+          0.9872107499995764,
+          0.9874847080000109,
+          0.9965895000004821
+        ]
+      },
+      "repetitions": 7,
+      "representative_result": {
+        "backend": "pythtb",
+        "backend_version": "2.0.0",
+        "case_id": "domain_spectral_reliability",
+        "checks": [
+          {
+            "actual": 0.0,
+            "expected": 0.0,
+            "name": "degenerate_projector_gauge_invariance",
+            "passed": true,
+            "tolerance": 1e-12
+          },
+          {
+            "actual": 0.9999999999999627,
+            "expected": 1.0,
+            "name": "dos_state_count",
+            "passed": true,
+            "tolerance": 0.0002
+          },
+          {
+            "actual": [
+              0.007296876485900255,
+              1.875326262261625e-05,
+              1.9556069510813063e-14
+            ],
+            "expected": "last error < 0.55 * first error",
+            "name": "interior_ldos_converges_to_bloch",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 0.7160979590007628,
+        "metrics": {
+          "integrated_dos_states_per_cell": 0.9999999999999627,
+          "open_to_bloch_ldos_rms_errors": [
+            0.007296876485900255,
+            1.875326262261625e-05,
+            1.9556069510813063e-14
+          ],
+          "projector_gauge_error": 0.0
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "pythtb",
+      "case_id": "domain_magnetic_hofstadter",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/.venv/bin/python",
+        "backends/pythtb/run.py",
+        "domain_magnetic_hofstadter"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.08098599999993894,
+        "median": 0.07899004200044146,
+        "minimum": 0.07733920800001215,
+        "samples": [
+          0.07899004200044146,
+          0.0799700829993526,
+          0.07784766599979775,
+          0.07733920800001215,
+          0.07893849999982194,
+          0.08098599999993894,
+          0.08087095800055977
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.36532866600009584,
+        "median": 0.36037504199975956,
+        "minimum": 0.3577880000002551,
+        "samples": [
+          0.3577880000002551,
+          0.36532866600009584,
+          0.35844383299991023,
+          0.3596024590005982,
+          0.36037504199975956,
+          0.36382083400076226,
+          0.3651536670004134
+        ]
+      },
+      "repetitions": 7,
+      "representative_result": {
+        "backend": "pythtb",
+        "backend_version": "2.0.0",
+        "case_id": "domain_magnetic_hofstadter",
+        "checks": [
+          {
+            "actual": 2.482534153247273e-16,
+            "expected": 0.0,
+            "name": "peierls_gauge_covariance",
+            "passed": true,
+            "tolerance": 1e-12
+          },
+          {
+            "actual": 5.551115123125783e-15,
+            "expected": 0.0,
+            "name": "gauge_invariant_spectrum",
+            "passed": true,
+            "tolerance": 1e-11
+          },
+          {
+            "actual": [
+              6.955527313080394e-16,
+              2.482534153247273e-16
+            ],
+            "expected": 0.0,
+            "name": "magnetic_translation_algebra",
+            "passed": true,
+            "tolerance": 1e-12
+          },
+          {
+            "actual": [
+              3,
+              5
+            ],
+            "expected": [
+              3,
+              5
+            ],
+            "name": "magnetic_band_multiplicity",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": -1.0000000000000002,
+            "expected": "integer with magnitude 1",
+            "name": "diophantine_chern_label",
+            "passed": true,
+            "tolerance": 2e-06
+          }
+        ],
+        "elapsed_seconds": 0.08087095800055977,
+        "metrics": {
+          "diophantine_chern_magnitude": 1,
+          "gauge_covariance_residual": 2.482534153247273e-16,
+          "gauge_spectral_error": 5.551115123125783e-15,
+          "lowest_band_chern": -1.0000000000000002,
+          "magnetic_band_counts": [
+            3,
+            5
+          ],
+          "magnetic_translation_errors": [
+            6.955527313080394e-16,
+            2.482534153247273e-16
+          ]
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "pythtb",
+      "case_id": "domain_bdg_majorana",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/.venv/bin/python",
+        "backends/pythtb/run.py",
+        "domain_bdg_majorana"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.01585545799935062,
+        "median": 0.014495791000626923,
+        "minimum": 0.01423662500019418,
+        "samples": [
+          0.014495791000626923,
+          0.014607707999857666,
+          0.014485332999356615,
+          0.014766207999855396,
+          0.014438917000006768,
+          0.01423662500019418,
+          0.01585545799935062
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.3065836670002682,
+        "median": 0.2979060830002709,
+        "minimum": 0.28958358299951215,
+        "samples": [
+          0.3003694999997606,
+          0.2991994579997481,
+          0.29628841700014164,
+          0.2979060830002709,
+          0.3065836670002682,
+          0.28958358299951215,
+          0.2925738750000164
+        ]
+      },
+      "repetitions": 7,
+      "representative_result": {
+        "backend": "pythtb",
+        "backend_version": "2.0.0",
+        "case_id": "domain_bdg_majorana",
+        "checks": [
+          {
+            "actual": 0.0,
+            "expected": 0.0,
+            "name": "particle_hole_symmetry",
+            "passed": true,
+            "tolerance": 1e-11
+          },
+          {
+            "actual": 1.3322676295501878e-15,
+            "expected": 0.0,
+            "name": "paired_bdg_spectrum",
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "actual": 1.1102230246251565e-16,
+            "expected": 0.0,
+            "name": "short_junction_andreev_spectrum",
+            "passed": true,
+            "tolerance": 1e-12
+          },
+          {
+            "actual": 0.0014494381139362467,
+            "expected": 0.0,
+            "name": "josephson_current_derivative",
+            "passed": true,
+            "tolerance": 0.003
+          },
+          {
+            "actual": [
+              1,
+              0
+            ],
+            "expected": [
+              1,
+              0
+            ],
+            "name": "kitaev_bulk_invariants",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": [
+              6.982400489621373e-05,
+              5.169387361803054e-06,
+              2.8414537649891323e-07
+            ],
+            "expected": "strictly decreasing",
+            "name": "majorana_splitting_decreases",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": [
+              0.8726837615672722,
+              0.8726837005929687,
+              0.8726836999779669
+            ],
+            "expected": "> 0.85",
+            "name": "majorana_end_localization",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "expected": 0.0,
+            "name": "majorana_self_conjugacy",
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "actual": 0.010526152404135205,
+            "expected": "< 0.35",
+            "name": "trivial_control_not_end_localized",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 0.01585545799935062,
+        "metrics": {
+          "andreev_level_error": 1.1102230246251565e-16,
+          "josephson_current_error": 0.0014494381139362467,
+          "majorana_end_weights": [
+            0.8726837615672722,
+            0.8726837005929687,
+            0.8726836999779669
+          ],
+          "majorana_self_conjugacy_errors": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "majorana_splittings": [
+            6.982400489621373e-05,
+            5.169387361803054e-06,
+            2.8414537649891323e-07
+          ],
+          "paired_energy_error": 1.3322676295501878e-15,
+          "particle_hole_residual": 0.0,
+          "topological_invariant": 1,
+          "trivial_invariant": 0,
+          "trivial_lowest_state_end_weight": 0.010526152404135205
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "pythtb",
+      "case_id": "domain_spin_texture_covariance",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/.venv/bin/python",
+        "backends/pythtb/run.py",
+        "domain_spin_texture_covariance"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.012200124999253603,
+        "median": 0.011596416000429599,
+        "minimum": 0.011262832999818784,
+        "samples": [
+          0.011439458000495506,
+          0.01206895799987251,
+          0.011596416000429599,
+          0.011515584000335366,
+          0.011262832999818784,
+          0.011635834000117029,
+          0.012200124999253603
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.3016938750006375,
+        "median": 0.29447458300001017,
+        "minimum": 0.28922700000020996,
+        "samples": [
+          0.29026387500016426,
+          0.2977883749999819,
+          0.29575541699978203,
+          0.2913435420005044,
+          0.28922700000020996,
+          0.3016938750006375,
+          0.29447458300001017
+        ]
+      },
+      "repetitions": 7,
+      "representative_result": {
+        "backend": "pythtb",
+        "backend_version": "2.0.0",
+        "case_id": "domain_spin_texture_covariance",
+        "checks": [
+          {
+            "actual": 1.0,
+            "expected": "magnitude 1",
+            "name": "nontrivial_texture_charge",
+            "passed": true,
+            "tolerance": 0.2
+          },
+          {
+            "actual": 2.220599296927511e-16,
+            "expected": 0.0,
+            "name": "global_spin_rotation_covariance",
+            "passed": true,
+            "tolerance": 2e-12
+          },
+          {
+            "actual": 9.769962616701378e-15,
+            "expected": 0.0,
+            "name": "global_spin_rotation_spectrum",
+            "passed": true,
+            "tolerance": 2e-11
+          }
+        ],
+        "elapsed_seconds": 0.012200124999253603,
+        "metrics": {
+          "discrete_skyrmion_charge": 1.0,
+          "rotated_spectrum_error": 9.769962616701378e-15,
+          "spin_rotation_covariance_error": 2.220599296927511e-16
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "kwant",
+      "case_id": "domain_spectral_reliability",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/.venv-kwant/bin/python",
+        "backends/kwant/run.py",
+        "domain_spectral_reliability"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.21444208299999445,
+        "median": 0.20741966599962325,
+        "minimum": 0.20453729200016824,
+        "samples": [
+          0.21444208299999445,
+          0.20632562499940832,
+          0.20453729200016824,
+          0.20766333300070983,
+          0.20741966599962325,
+          0.20543791700038128,
+          0.20867216700025892
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 1.023198500000035,
+        "median": 0.7237996249996286,
+        "minimum": 0.7116353329993217,
+        "samples": [
+          1.023198500000035,
+          0.7182224170001064,
+          0.7190914169996176,
+          0.7116353329993217,
+          0.7554261670002234,
+          0.7237996249996286,
+          0.7559629590004988
+        ]
+      },
+      "repetitions": 7,
+      "representative_result": {
+        "backend": "kwant",
+        "backend_version": "1.5.0",
+        "case_id": "domain_spectral_reliability",
+        "checks": [
+          {
+            "actual": 1.8069094481207863e-17,
+            "expected": 0.0,
+            "name": "degenerate_projector_gauge_invariance",
+            "passed": true,
+            "tolerance": 1e-12
+          },
+          {
+            "actual": 0.9999999999999627,
+            "expected": 1.0,
+            "name": "dos_state_count",
+            "passed": true,
+            "tolerance": 0.0002
+          },
+          {
+            "actual": [
+              0.007296876485900256,
+              1.8753262622612555e-05,
+              1.955781216585861e-14
+            ],
+            "expected": "last error < 0.55 * first error",
+            "name": "interior_ldos_converges_to_bloch",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 0.20867216700025892,
+        "metrics": {
+          "integrated_dos_states_per_cell": 0.9999999999999627,
+          "open_to_bloch_ldos_rms_errors": [
+            0.007296876485900256,
+            1.8753262622612555e-05,
+            1.955781216585861e-14
+          ],
+          "projector_gauge_error": 1.8069094481207863e-17
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "kwant",
+      "case_id": "domain_magnetic_hofstadter",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/.venv-kwant/bin/python",
+        "backends/kwant/run.py",
+        "domain_magnetic_hofstadter"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.2159729579998384,
+        "median": 0.16270795800028282,
+        "minimum": 0.14005633300075715,
+        "samples": [
+          0.2151888329999565,
+          0.14005633300075715,
+          0.2159729579998384,
+          0.15405787500003498,
+          0.16270795800028282,
+          0.15868554200005747,
+          0.16499649999968824
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.7618866659995547,
+        "median": 0.7350912080000853,
+        "minimum": 0.6708824590004951,
+        "samples": [
+          0.7522645829994872,
+          0.6708824590004951,
+          0.7618866659995547,
+          0.7350912080000853,
+          0.7602348750006058,
+          0.6975192090003475,
+          0.728388833000281
+        ]
+      },
+      "repetitions": 7,
+      "representative_result": {
+        "backend": "kwant",
+        "backend_version": "1.5.0",
+        "case_id": "domain_magnetic_hofstadter",
+        "checks": [
+          {
+            "actual": 1.5700924586837752e-16,
+            "expected": 0.0,
+            "name": "peierls_gauge_covariance",
+            "passed": true,
+            "tolerance": 1e-12
+          },
+          {
+            "actual": 5.245803791353865e-15,
+            "expected": 0.0,
+            "name": "gauge_invariant_spectrum",
+            "passed": true,
+            "tolerance": 1e-11
+          },
+          {
+            "actual": [
+              6.955527313080394e-16,
+              2.482534153247273e-16
+            ],
+            "expected": 0.0,
+            "name": "magnetic_translation_algebra",
+            "passed": true,
+            "tolerance": 1e-12
+          },
+          {
+            "actual": [
+              3,
+              5
+            ],
+            "expected": [
+              3,
+              5
+            ],
+            "name": "magnetic_band_multiplicity",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": -1.0000000000000002,
+            "expected": "integer with magnitude 1",
+            "name": "diophantine_chern_label",
+            "passed": true,
+            "tolerance": 2e-06
+          }
+        ],
+        "elapsed_seconds": 0.16499649999968824,
+        "metrics": {
+          "diophantine_chern_magnitude": 1,
+          "gauge_covariance_residual": 1.5700924586837752e-16,
+          "gauge_spectral_error": 5.245803791353865e-15,
+          "lowest_band_chern": -1.0000000000000002,
+          "magnetic_band_counts": [
+            3,
+            5
+          ],
+          "magnetic_translation_errors": [
+            6.955527313080394e-16,
+            2.482534153247273e-16
+          ]
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "kwant",
+      "case_id": "domain_bdg_majorana",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/.venv-kwant/bin/python",
+        "backends/kwant/run.py",
+        "domain_bdg_majorana"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.10803408399988257,
+        "median": 0.04020616700017854,
+        "minimum": 0.026149583999540482,
+        "samples": [
+          0.04606812499969237,
+          0.026149583999540482,
+          0.04020616700017854,
+          0.10803408399988257,
+          0.03511687499940308,
+          0.03411545800008753,
+          0.06032729099933931
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.6352239999996527,
+        "median": 0.5775511669999105,
+        "minimum": 0.5275078340000618,
+        "samples": [
+          0.5626115830000344,
+          0.5275078340000618,
+          0.5390191659998891,
+          0.6317955840004288,
+          0.6352239999996527,
+          0.5775511669999105,
+          0.5912420000004204
+        ]
+      },
+      "repetitions": 7,
+      "representative_result": {
+        "backend": "kwant",
+        "backend_version": "1.5.0",
+        "case_id": "domain_bdg_majorana",
+        "checks": [
+          {
+            "actual": 0.0,
+            "expected": 0.0,
+            "name": "particle_hole_symmetry",
+            "passed": true,
+            "tolerance": 1e-11
+          },
+          {
+            "actual": 3.1086244689504383e-15,
+            "expected": 0.0,
+            "name": "paired_bdg_spectrum",
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "actual": 1.1102230246251565e-16,
+            "expected": 0.0,
+            "name": "short_junction_andreev_spectrum",
+            "passed": true,
+            "tolerance": 1e-12
+          },
+          {
+            "actual": 0.0014494381139362467,
+            "expected": 0.0,
+            "name": "josephson_current_derivative",
+            "passed": true,
+            "tolerance": 0.003
+          },
+          {
+            "actual": [
+              1,
+              0
+            ],
+            "expected": [
+              1,
+              0
+            ],
+            "name": "kitaev_bulk_invariants",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": [
+              6.982400489670286e-05,
+              5.1693873619108884e-06,
+              2.8414537669280246e-07
+            ],
+            "expected": "strictly decreasing",
+            "name": "majorana_splitting_decreases",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": [
+              0.872683761567271,
+              0.8726837005929688,
+              0.8726836999779666
+            ],
+            "expected": "> 0.85",
+            "name": "majorana_end_localization",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "expected": 0.0,
+            "name": "majorana_self_conjugacy",
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "actual": 0.010526152404134953,
+            "expected": "< 0.35",
+            "name": "trivial_control_not_end_localized",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 0.06032729099933931,
+        "metrics": {
+          "andreev_level_error": 1.1102230246251565e-16,
+          "josephson_current_error": 0.0014494381139362467,
+          "majorana_end_weights": [
+            0.872683761567271,
+            0.8726837005929688,
+            0.8726836999779666
+          ],
+          "majorana_self_conjugacy_errors": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "majorana_splittings": [
+            6.982400489670286e-05,
+            5.1693873619108884e-06,
+            2.8414537669280246e-07
+          ],
+          "paired_energy_error": 3.1086244689504383e-15,
+          "particle_hole_residual": 0.0,
+          "topological_invariant": 1,
+          "trivial_invariant": 0,
+          "trivial_lowest_state_end_weight": 0.010526152404134953
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "kwant",
+      "case_id": "domain_lead_calibration",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/.venv-kwant/bin/python",
+        "backends/kwant/run.py",
+        "domain_lead_calibration"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.04170337499999732,
+        "median": 0.010891750000155298,
+        "minimum": 0.009813292000217189,
+        "samples": [
+          0.04170337499999732,
+          0.010891750000155298,
+          0.01052383399928658,
+          0.009831000000303902,
+          0.009813292000217189,
+          0.020277292000173475,
+          0.011203084000044328
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.5392165420007586,
+        "median": 0.5242531250005413,
+        "minimum": 0.503244249999625,
+        "samples": [
+          0.503244249999625,
+          0.5084322920001796,
+          0.5310332079998261,
+          0.5322463339998649,
+          0.5242531250005413,
+          0.5392165420007586,
+          0.514110250000158
+        ]
+      },
+      "repetitions": 7,
+      "representative_result": {
+        "backend": "kwant",
+        "backend_version": "1.5.0",
+        "case_id": "domain_lead_calibration",
+        "checks": [
+          {
+            "actual": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "expected": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "name": "one_incoming_and_one_outgoing_mode",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": 8.326672684688674e-16,
+            "expected": 0.0,
+            "name": "analytic_group_velocities",
+            "passed": true,
+            "tolerance": 2e-10
+          },
+          {
+            "actual": 4.041272810440265e-16,
+            "expected": 0.0,
+            "name": "analytic_retarded_self_energy",
+            "passed": true,
+            "tolerance": 2e-10
+          },
+          {
+            "actual": 0,
+            "expected": 0,
+            "name": "no_propagating_mode_in_gap",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": 0.0,
+            "expected": 0.0,
+            "name": "gap_self_energy",
+            "passed": true,
+            "tolerance": 2e-10
+          },
+          {
+            "actual": 0.5,
+            "expected": "between 0 and 1",
+            "name": "evanescent_mode_decays",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 0.011203084000044328,
+        "metrics": {
+          "decaying_evanescent_factor": 0.5,
+          "gap_mode_count": 0,
+          "gap_self_energy_error": 0.0,
+          "maximum_self_energy_error": 4.041272810440265e-16,
+          "maximum_velocity_error": 8.326672684688674e-16,
+          "propagating_mode_counts": [
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "kwant",
+      "case_id": "domain_spin_texture_covariance",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/.venv-kwant/bin/python",
+        "backends/kwant/run.py",
+        "domain_spin_texture_covariance"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.015293374999600928,
+        "median": 0.010060792000331276,
+        "minimum": 0.007818125000085274,
+        "samples": [
+          0.010060792000331276,
+          0.011571625000215136,
+          0.008345750000444241,
+          0.007818125000085274,
+          0.011074707999796374,
+          0.015293374999600928,
+          0.009679583000433922
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.5795865829995819,
+        "median": 0.543921667000177,
+        "minimum": 0.5187939580000602,
+        "samples": [
+          0.543921667000177,
+          0.5613893330000792,
+          0.5795865829995819,
+          0.5252498750005543,
+          0.5242593749999287,
+          0.5187939580000602,
+          0.5493045419998452
+        ]
+      },
+      "repetitions": 7,
+      "representative_result": {
+        "backend": "kwant",
+        "backend_version": "1.5.0",
+        "case_id": "domain_spin_texture_covariance",
+        "checks": [
+          {
+            "actual": 1.0,
+            "expected": "magnitude 1",
+            "name": "nontrivial_texture_charge",
+            "passed": true,
+            "tolerance": 0.2
+          },
+          {
+            "actual": 2.220599296927511e-16,
+            "expected": 0.0,
+            "name": "global_spin_rotation_covariance",
+            "passed": true,
+            "tolerance": 2e-12
+          },
+          {
+            "actual": 1.0658141036401503e-14,
+            "expected": 0.0,
+            "name": "global_spin_rotation_spectrum",
+            "passed": true,
+            "tolerance": 2e-11
+          }
+        ],
+        "elapsed_seconds": 0.009679583000433922,
+        "metrics": {
+          "discrete_skyrmion_charge": 1.0,
+          "rotated_spectrum_error": 1.0658141036401503e-14,
+          "spin_rotation_covariance_error": 2.220599296927511e-16
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "thouless",
+      "case_id": "domain_spectral_reliability",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "domain_spectral_reliability"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.022071125,
+        "median": 0.020962917,
+        "minimum": 0.020785291,
+        "samples": [
+          0.022071125,
+          0.020950125,
+          0.021005417,
+          0.020962917,
+          0.020785291,
+          0.020918167,
+          0.0211125
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.029087666999657813,
+        "median": 0.024315999999998894,
+        "minimum": 0.024137374999554595,
+        "samples": [
+          0.029087666999657813,
+          0.0243180420002318,
+          0.024475625000377477,
+          0.024289915999361256,
+          0.02423087500028487,
+          0.024315999999998894,
+          0.024137374999554595
+        ]
+      },
+      "repetitions": 7,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+        "case_id": "domain_spectral_reliability",
+        "checks": [
+          {
+            "actual": 0.0,
+            "expected": 0.0,
+            "name": "degenerate_projector_gauge_invariance",
+            "passed": true,
+            "tolerance": 1e-12
+          },
+          {
+            "actual": 0.999999999999963,
+            "expected": 1.0,
+            "name": "dos_state_count",
+            "passed": true,
+            "tolerance": 0.0002
+          },
+          {
+            "actual": [
+              0.0072968764859003025,
+              1.8753262622597102e-05,
+              1.958247249802814e-14
+            ],
+            "expected": "last error < 0.55 * first error",
+            "name": "interior_ldos_converges_to_bloch",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 0.0211125,
+        "metrics": {
+          "integrated_dos_states_per_cell": 0.999999999999963,
+          "open_to_bloch_ldos_rms_errors": [
+            0.0072968764859003025,
+            1.8753262622597102e-05,
+            1.958247249802814e-14
+          ],
+          "projector_gauge_error": 0.0
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "thouless",
+      "case_id": "domain_magnetic_hofstadter",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "domain_magnetic_hofstadter"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.002178875,
+        "median": 0.001420625,
+        "minimum": 0.001347666,
+        "samples": [
+          0.002178875,
+          0.001414916,
+          0.00142175,
+          0.001363833,
+          0.001453458,
+          0.001420625,
+          0.001347666
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.00511000000005879,
+        "median": 0.004150291000769357,
+        "minimum": 0.003559083000254759,
+        "samples": [
+          0.00511000000005879,
+          0.0038275420001809835,
+          0.004161625000051572,
+          0.004150291000769357,
+          0.0038966669999354053,
+          0.004291042000659218,
+          0.003559083000254759
+        ]
+      },
+      "repetitions": 7,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+        "case_id": "domain_magnetic_hofstadter",
+        "checks": [
+          {
+            "actual": 0.0,
+            "expected": 0.0,
+            "name": "peierls_gauge_covariance",
+            "passed": true,
+            "tolerance": 1e-12
+          },
+          {
+            "actual": 3.9968028886505635e-15,
+            "expected": 0.0,
+            "name": "gauge_invariant_spectrum",
+            "passed": true,
+            "tolerance": 1e-11
+          },
+          {
+            "actual": [
+              6.955527313080394e-16,
+              2.482534153247273e-16
+            ],
+            "expected": 0.0,
+            "name": "magnetic_translation_algebra",
+            "passed": true,
+            "tolerance": 1e-12
+          },
+          {
+            "actual": [
+              3,
+              5
+            ],
+            "expected": [
+              3,
+              5
+            ],
+            "name": "magnetic_band_multiplicity",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": 1.0000000000000002,
+            "expected": "integer with magnitude 1",
+            "name": "diophantine_chern_label",
+            "passed": true,
+            "tolerance": 2e-06
+          }
+        ],
+        "elapsed_seconds": 0.001347666,
+        "metrics": {
+          "diophantine_chern_magnitude": 1,
+          "gauge_covariance_residual": 0.0,
+          "gauge_spectral_error": 3.9968028886505635e-15,
+          "lowest_band_chern": 1.0000000000000002,
+          "magnetic_band_counts": [
+            3,
+            5
+          ],
+          "magnetic_translation_errors": [
+            6.955527313080394e-16,
+            2.482534153247273e-16
+          ]
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "thouless",
+      "case_id": "domain_bdg_majorana",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "domain_bdg_majorana"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.001570625,
+        "median": 0.001515792,
+        "minimum": 0.001411375,
+        "samples": [
+          0.001515792,
+          0.001451542,
+          0.001529334,
+          0.001411375,
+          0.001552792,
+          0.001466084,
+          0.001570625
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.0042802499992831144,
+        "median": 0.004076625000379863,
+        "minimum": 0.003867665999678138,
+        "samples": [
+          0.003867665999678138,
+          0.004045958000460814,
+          0.004018166000605561,
+          0.0041712500005814945,
+          0.0042802499992831144,
+          0.004145957999753591,
+          0.004076625000379863
+        ]
+      },
+      "repetitions": 7,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+        "case_id": "domain_bdg_majorana",
+        "checks": [
+          {
+            "actual": 0.0,
+            "expected": 0.0,
+            "name": "particle_hole_symmetry",
+            "passed": true,
+            "tolerance": 1e-11
+          },
+          {
+            "actual": 2.220446049250313e-15,
+            "expected": 0.0,
+            "name": "paired_bdg_spectrum",
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "actual": 1.1102230246251565e-16,
+            "expected": 0.0,
+            "name": "short_junction_andreev_spectrum",
+            "passed": true,
+            "tolerance": 1e-12
+          },
+          {
+            "actual": 0.0014494381139362467,
+            "expected": 0.0,
+            "name": "josephson_current_derivative",
+            "passed": true,
+            "tolerance": 0.003
+          },
+          {
+            "actual": [
+              1,
+              0
+            ],
+            "expected": [
+              1,
+              0
+            ],
+            "name": "kitaev_bulk_invariants",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": [
+              6.982400489633043e-05,
+              5.1693873625912516e-06,
+              2.841453769886638e-07
+            ],
+            "expected": "strictly decreasing",
+            "name": "majorana_splitting_decreases",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": [
+              0.8726837615672716,
+              0.8726837005929695,
+              0.8726836999779665
+            ],
+            "expected": "> 0.85",
+            "name": "majorana_end_localization",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "expected": 0.0,
+            "name": "majorana_self_conjugacy",
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "actual": 0.01052615240413491,
+            "expected": "< 0.35",
+            "name": "trivial_control_not_end_localized",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 0.001570625,
+        "metrics": {
+          "andreev_level_error": 1.1102230246251565e-16,
+          "josephson_current_error": 0.0014494381139362467,
+          "majorana_end_weights": [
+            0.8726837615672716,
+            0.8726837005929695,
+            0.8726836999779665
+          ],
+          "majorana_self_conjugacy_errors": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "majorana_splittings": [
+            6.982400489633043e-05,
+            5.1693873625912516e-06,
+            2.841453769886638e-07
+          ],
+          "paired_energy_error": 2.220446049250313e-15,
+          "particle_hole_residual": 0.0,
+          "topological_invariant": 1,
+          "trivial_invariant": 0,
+          "trivial_lowest_state_end_weight": 0.01052615240413491
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "thouless",
+      "case_id": "domain_lead_calibration",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "domain_lead_calibration"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.000219291,
+        "median": 0.000139667,
+        "minimum": 0.000113,
+        "samples": [
+          0.000219291,
+          0.0001405,
+          0.000139667,
+          0.000125583,
+          0.000125459,
+          0.000167,
+          0.000113
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.002735915999437566,
+        "median": 0.0025551660000928678,
+        "minimum": 0.0022269169994615368,
+        "samples": [
+          0.002735915999437566,
+          0.0025551660000928678,
+          0.002675249999811058,
+          0.002248582999527571,
+          0.0022269169994615368,
+          0.0026697080002122675,
+          0.002358166000703932
+        ]
+      },
+      "repetitions": 7,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+        "case_id": "domain_lead_calibration",
+        "checks": [
+          {
+            "actual": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "expected": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "name": "one_incoming_and_one_outgoing_mode",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": 3.0531133177191805e-16,
+            "expected": 0.0,
+            "name": "analytic_group_velocities",
+            "passed": true,
+            "tolerance": 2e-10
+          },
+          {
+            "actual": 6.716027733943974e-11,
+            "expected": 0.0,
+            "name": "analytic_retarded_self_energy",
+            "passed": true,
+            "tolerance": 2e-10
+          },
+          {
+            "actual": 0,
+            "expected": 0,
+            "name": "no_propagating_mode_in_gap",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": 2.220446115424761e-16,
+            "expected": 0.0,
+            "name": "gap_self_energy",
+            "passed": true,
+            "tolerance": 2e-10
+          },
+          {
+            "actual": 0.49999981481507305,
+            "expected": "between 0 and 1",
+            "name": "evanescent_mode_decays",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 0.000113,
+        "metrics": {
+          "decaying_evanescent_factor": 0.49999981481507305,
+          "gap_mode_count": 0,
+          "gap_self_energy_error": 2.220446115424761e-16,
+          "maximum_self_energy_error": 6.716027733943974e-11,
+          "maximum_velocity_error": 3.0531133177191805e-16,
+          "propagating_mode_counts": [
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "thouless",
+      "case_id": "domain_spin_texture_covariance",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "domain_spin_texture_covariance"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.004540416,
+        "median": 0.004483958,
+        "minimum": 0.004401291,
+        "samples": [
+          0.004540416,
+          0.004401291,
+          0.004483958,
+          0.00444725,
+          0.004499958,
+          0.004430875,
+          0.00450475
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.007623375000548549,
+        "median": 0.007256749999214662,
+        "minimum": 0.006904458999997587,
+        "samples": [
+          0.006904458999997587,
+          0.0071310410003206925,
+          0.007279874999767344,
+          0.007297291999748268,
+          0.007623375000548549,
+          0.007256749999214662,
+          0.007209291999970446
+        ]
+      },
+      "repetitions": 7,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "0d87773278183ddc7c254438dccbda1face04fb2",
+        "case_id": "domain_spin_texture_covariance",
+        "checks": [
+          {
+            "actual": 1.0,
+            "expected": "magnitude 1",
+            "name": "nontrivial_texture_charge",
+            "passed": true,
+            "tolerance": 0.2
+          },
+          {
+            "actual": 2.220446049250313e-16,
+            "expected": 0.0,
+            "name": "global_spin_rotation_covariance",
+            "passed": true,
+            "tolerance": 2e-12
+          },
+          {
+            "actual": 4.440892098500626e-15,
+            "expected": 0.0,
+            "name": "global_spin_rotation_spectrum",
+            "passed": true,
+            "tolerance": 2e-11
+          }
+        ],
+        "elapsed_seconds": 0.00450475,
+        "metrics": {
+          "discrete_skyrmion_charge": 1.0,
+          "rotated_spectrum_error": 4.440892098500626e-15,
+          "spin_rotation_covariance_error": 2.220446049250313e-16
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    }
+  ],
+  "schema_version": 1,
+  "summary": {
+    "backend_case_records": 14,
+    "failed": 0,
+    "passed": 14,
+    "repetitions_per_record": 7
+  }
+}

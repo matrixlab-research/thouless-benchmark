@@ -1,0 +1,78 @@
+---
+id: TBQ-049
+suite: 10-non-hermitian
+source_requirement: TB-REQ-049
+status: executable
+acceptance_class: reference
+lkm_snapshot: 2026-07-27
+---
+
+# TBQ-049 — Periodic-open mismatch and skin localization
+
+## Scientific question
+
+Does the generalized Brillouin zone predict the open-boundary spectrum and skin
+direction?
+
+## Benchmark adaptation
+
+This is a benchmark adaptation motivated by the cited research. It is not a claim to
+reproduce the source paper. The benchmark family is:
+
+Nonreciprocal SSH and two-dimensional gain-loss lattice families with point gaps, line
+gaps, exceptional points, and skin localization.
+
+## Parameters
+
+`t` or another explicitly named scale is the reference energy when a row is
+dimensionless. A concrete case must freeze exact values, conventions, and random seeds
+inside the public or held-out evaluator.
+
+| Name | Meaning | Public development range | Unit |
+| --- | --- | --- | --- |
+| `t_R/t_L` | hopping nonreciprocity | 0.2 to 5 | dimensionless |
+| `gamma/t` | gain or loss strength | 0 to 3 | dimensionless |
+| `m/t` | gap control | -2 to 2 | dimensionless |
+| `L/a` | open-system size | 20 to 512 | cells |
+| `W/t` | complex or real disorder | 0 to 4 | dimensionless |
+
+## Required computation
+
+Compare periodic bands, non-Bloch bands, open spectra, and spatial eigenstate profiles
+as nonreciprocity changes sign.
+
+## Expected result
+
+Open spectra follow non-Bloch rather than periodic predictions and skin localization
+reverses with nonreciprocity.
+
+The expected result is a scientific relation, invariant, trend, or independently
+generated reference. Cross-package agreement alone is not ground truth.
+
+## Acceptance and convergence
+
+**Class:** `reference`
+
+Spectral-set distance below 1 percent and localization-side classification exact.
+
+Any numerical tolerance must be fixed before held-out evaluation and justified by the
+reference uncertainty, conditioning, and refinement study.
+
+## Held-out variants
+
+Hide boundary orientation and a two-dimensional corner-skin case.
+
+Suite-wide isolation rule: Hold out boundary orientation, gain-loss pattern, exceptional-point order, and disorder
+type.
+
+## Evidence
+
+- LKM seeds: `gcn_130f99edf2fc49a5`, `gcn_61de6af0dab44776`, and reasoning chain `867752662542582493_2`.
+- Representative source: [Dissipative two-dimensional Raman lattice](https://doi.org/10.48550/arXiv.2211.00424).
+- Source requirement: [`TB-REQ-049`](../../tight-binding-domain-benchmark-requirements.md)
+  in the domain-requirements derivation.
+- LKM retrieval rank is not a confidence or correctness probability.
+
+## Implementation status
+
+`executable`: the package-backed evaluator, independent gates, recorded result, and CI are present for thouless: domain_nonhermitian_static. See the machine-readable [backend audit](../../../benchmark/problem_coverage.json). This public result is not held-out validation.
