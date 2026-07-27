@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "meaning": "Domain-facing witnesses for Rust-native automatic differentiation. TBQ references identify motivating domain requirements and do not by themselves claim complete TBQ coverage.",
+  "source_issue": "https://github.com/matrixlab-research/thouless-benchmark/issues/6",
+  "cases": [
+    {
+      "id": "ad_spectral_recovery",
+      "document": "docs/ad-problems/ad-spectral-recovery.md",
+      "track": "ad",
+      "problem_type": "multi-observable spectral inference",
+      "question_ids": ["TBQ-096", "TBQ-099"],
+      "ad_gates": ["AD-G01", "AD-G11"],
+      "question": "Can one Hamiltonian be recovered from eigenvalues and occupied-subspace information, then predict momenta excluded from the loss?",
+      "parameters": {
+        "model_parameters": 3,
+        "training_momenta": [0.17, 0.63, 1.11, 1.72, 2.31],
+        "public_validation_momenta": [0.39, 0.91, 1.43, 2.03, 2.67]
+      },
+      "oracle": "central directional derivative, known parameters, and an independent eigensystem/projector forward calculation at excluded momenta",
+      "lkm_nodes": ["gcn_d8da92281f564142", "gcn_d369960c13104475"],
+      "required_checks": [
+        "AD-G01_spectral_loss_directional_derivative",
+        "AD-G11_joint_spectral_parameter_recovery",
+        "AD-G11_hidden_momentum_forward_validation"
+      ]
+    },
+    {
+      "id": "ad_degenerate_projector",
+      "document": "docs/ad-problems/ad-degenerate-projector.md",
+      "track": "ad",
+      "problem_type": "degeneracy-safe spectral differentiation",
+      "question_ids": ["TBQ-006", "TBQ-097"],
+      "ad_gates": ["AD-G04"],
+      "question": "Does differentiation remain gauge invariant for a separated occupied subspace while rejecting an isolated band label at exact degeneracy?",
+      "parameters": {
+        "matrix_dimension": 4,
+        "occupied_dimension": 2,
+        "subspace_gap_floor": 0.0001
+      },
+      "oracle": "central difference, a simultaneous unitary basis rotation, and an explicit exact-degeneracy negative control",
+      "lkm_nodes": ["gcn_fb3f3fe0ae0d411b"],
+      "required_checks": [
+        "AD-G04_degenerate_projector_directional_derivative",
+        "AD-G04_occupied_basis_rotation_invariance",
+        "AD-G04_unstable_band_label_rejected"
+      ]
+    },
+    {
+      "id": "ad_identifiability",
+      "document": "docs/ad-problems/ad-identifiability.md",
+      "track": "ad",
+      "problem_type": "inverse-problem identifiability",
+      "question_ids": ["TBQ-098"],
+      "ad_gates": ["AD-G14"],
+      "question": "Can the sensitivity matrix reveal a known non-identifiable parameter direction, and can a local perturbation observable lift it?",
+      "parameters": {
+        "model_parameters": 2,
+        "spectral_observables": 5,
+        "local_perturbation_observables": 1
+      },
+      "oracle": "analytic Fisher eigenstructure and a deliberately constructed local observable with nonzero response along the spectral nullspace",
+      "lkm_nodes": ["gcn_f3c1234ae1284fbd"],
+      "required_checks": [
+        "AD-G14_known_fisher_nullspace",
+        "AD-G14_local_perturbation_lifts_ambiguity",
+        "AD-G14_predictive_ambiguity_is_not_hidden"
+      ]
+    },
+    {
+      "id": "ad_quantum_metric",
+      "document": "docs/ad-problems/ad-quantum-metric.md",
+      "track": "ad",
+      "problem_type": "differentiable quantum geometry",
+      "question_ids": ["TBQ-026", "TBQ-029"],
+      "ad_gates": ["AD-G01", "AD-G02", "AD-G15"],
+      "question": "Are quantum-metric sensitivities correct, basis covariant, and stable under momentum-mesh refinement?",
+      "parameters": {
+        "coarse_momentum_points": 32,
+        "refined_momentum_points": 64,
+        "model_parameters": 2
+      },
+      "oracle": "central directional difference, a global basis rotation, and coarse-to-refined value and gradient convergence",
+      "lkm_nodes": ["gcn_86bcebac99504f4c", "gcn_43c4ae6e813149c4"],
+      "required_checks": [
+        "AD-G01_quantum_metric_directional_derivative",
+        "AD-G02_quantum_metric_basis_covariance",
+        "AD-G15_quantum_geometry_mesh_convergence"
+      ]
+    },
+    {
+      "id": "ad_topological_design",
+      "document": "docs/ad-problems/ad-topological-design.md",
+      "track": "ad",
+      "problem_type": "topological inverse design",
+      "question_ids": ["TBQ-017", "TBQ-030"],
+      "ad_gates": ["AD-G16"],
+      "question": "Can a smooth occupied-projector loss move a trivial QWZ model into a target topological phase without differentiating the discrete invariant?",
+      "parameters": {
+        "optimization_mesh": [7, 7],
+        "chern_mesh": [25, 25],
+        "gap_scan_mesh": [20, 20],
+        "initial_mass": 2.65,
+        "target_mass": 1.0
+      },
+      "oracle": "independent FHS Chern recomputation and a resolved gap closing between the initial and final masses",
+      "lkm_nodes": ["gcn_0d1ce01faa964ce2", "gcn_43c4ae6e813149c4"],
+      "required_checks": [
+        "AD-G16_smooth_topological_proxy_optimized",
+        "AD-G16_discrete_invariant_forward_recomputed",
+        "AD-G16_invariant_change_has_resolved_gap_closing"
+      ]
+    },
+    {
+      "id": "ad_surface_green_implicit",
+      "document": "docs/ad-problems/ad-surface-green-implicit.md",
+      "track": "ad",
+      "problem_type": "implicit differentiation of a converged solver",
+      "question_ids": ["TBQ-023", "TBQ-036"],
+      "ad_gates": ["AD-G02", "AD-G09", "AD-G10"],
+      "question": "Can the retarded surface Green function be differentiated through its fixed-point equation without unrolling solver iterations?",
+      "parameters": {
+        "lead_dimension": 2,
+        "broadening": 0.001,
+        "tight_tolerance": 1e-12,
+        "loose_tolerance": 1e-09
+      },
+      "oracle": "central difference, JVP/VJP adjoint identity, retarded sign, and tolerance stability",
+      "lkm_nodes": ["gcn_ce17a6832cec4c76", "gcn_e8d4a72c26304f59"],
+      "required_checks": [
+        "AD-G09_surface_green_directional_derivative",
+        "AD-G02_surface_green_adjoint_identity",
+        "AD-G10_retarded_branch_and_tolerance_stability"
+      ]
+    },
+    {
+      "id": "ad_inverse_transport",
+      "document": "docs/ad-problems/ad-inverse-transport.md",
+      "track": "ad",
+      "problem_type": "inverse transmission design",
+      "question_ids": ["TBQ-040", "TBQ-099"],
+      "ad_gates": ["AD-G12", "AD-G13"],
+      "question": "Can microscopic device parameters be inferred from a transmission trace and then validated by a separate non-AD forward solve at excluded energies?",
+      "parameters": {
+        "model_parameters": 2,
+        "training_energies": [-0.72, -0.48, -0.21, 0.0, 0.24, 0.51, 0.77],
+        "public_validation_energies": [-0.61, -0.34, 0.13, 0.39, 0.68]
+      },
+      "oracle": "central directional difference, target trace loss, and independent open-system transmission at excluded energies",
+      "lkm_nodes": ["gcn_7508395e785e4a5e", "gcn_e8d4a72c26304f59", "gcn_b1a69b35d07f45ad"],
+      "required_checks": [
+        "AD-G12_transport_loss_directional_derivative",
+        "AD-G13_inverse_transmission_trace",
+        "AD-G13_independent_forward_transport_validation"
+      ]
+    },
+    {
+      "id": "ad_lead_device_sensitivity",
+      "document": "docs/ad-problems/ad-lead-device-sensitivity.md",
+      "track": "ad",
+      "problem_type": "complete open-system sensitivity",
+      "question_ids": ["TBQ-036", "TBQ-040"],
+      "ad_gates": ["AD-G09", "AD-G12"],
+      "question": "Does a transmission VJP include device, lead-cell, periodic-hopping, interface, energy, and broadening contributions?",
+      "parameters": {
+        "device_dimension": 2,
+        "leads": 2,
+        "differentiated_blocks": 6
+      },
+      "oracle": "one full-graph central directional difference and nonzero contribution checks for every declared parameter family",
+      "lkm_nodes": ["gcn_7508395e785e4a5e", "gcn_599a15903a2a40bc", "gcn_e8d4a72c26304f59"],
+      "required_checks": [
+        "AD-G12_complete_device_lead_directional_derivative",
+        "AD-G12_device_lead_interface_energy_contributions",
+        "AD-G09_periodic_lead_implicit_path"
+      ]
+    },
+    {
+      "id": "ad_sparse_adjoint_scaling",
+      "document": "docs/ad-problems/ad-sparse-adjoint-scaling.md",
+      "track": "ad",
+      "problem_type": "many-parameter sparse adjoint",
+      "question_ids": ["TBQ-094", "TBQ-097"],
+      "ad_gates": ["AD-G07", "AD-G08"],
+      "question": "Does a sparse adjoint give converged gradients while keeping the number of linear systems independent of parameter count?",
+      "parameters": {
+        "operator_dimension": 128,
+        "parameter_counts": [8, 32, 64],
+        "relative_residual_tolerance": 1e-11
+      },
+      "oracle": "true primal and adjoint residuals, JVP/VJP/central-difference agreement, and two reverse linear systems versus two per finite-difference parameter",
+      "lkm_nodes": ["gcn_e8d4a72c26304f59", "gcn_b1a69b35d07f45ad"],
+      "required_checks": [
+        "AD-G07_sparse_primal_and_adjoint_residuals",
+        "AD-G07_sparse_adjoint_gradient",
+        "AD-G08_reverse_solve_count_independent_of_parameters"
+      ]
+    },
+    {
+      "id": "ad_robust_kpm_design",
+      "document": "docs/ad-problems/ad-robust-kpm-design.md",
+      "track": "ad",
+      "problem_type": "stochastic robust sparse design",
+      "question_ids": ["TBQ-094", "TBQ-100"],
+      "ad_gates": ["AD-G08", "AD-G17"],
+      "question": "Can a checkpointed KPM gradient improve an ensemble objective on both training disorder and public unseen seeds without parameter-wise finite differences?",
+      "parameters": {
+        "operator_dimension": 96,
+        "model_parameters": 4,
+        "moments": 36,
+        "checkpoint_interval": 6,
+        "training_seeds": [11, 23, 37, 53, 71, 89, 107, 131],
+        "public_validation_seeds": [17, 41, 67, 97, 127]
+      },
+      "oracle": "central directional difference, objective improvement on public unseen seeds, and reported operator-action and stored-vector costs",
+      "generality_boundary": "Public unseen seeds are development evidence only. They do not satisfy the isolated AD-G18 evaluator.",
+      "lkm_nodes": ["gcn_0e8306bb16b74c91", "gcn_041957b9b14b4f04"],
+      "required_checks": [
+        "AD-G17_stochastic_kpm_directional_derivative",
+        "AD-G17_training_and_public_holdout_improve",
+        "AD-G08_checkpointed_kpm_cost_reduction"
+      ]
+    }
+  ]
+}
