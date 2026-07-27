@@ -1,0 +1,1491 @@
+{
+  "code": 0,
+  "data": {
+    "has_more": true,
+    "papers": {
+      "paper:1038701119158616069": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Grigory Bednik",
+        "available_online": "",
+        "cover_date_start": "2024-09-04",
+        "created_at": "2026-06-19T00:53:24+08:00",
+        "doi": "10.48550/arxiv.2409.02373",
+        "en_title": "Multifractaility, topology and anomalous Hall conductivity on a 30 degrees twisted bilayer honeycomb lattice",
+        "id": "1038701119158616069",
+        "keywords": "",
+        "publication_date": "2024-09-04",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "30度扭曲双层蜂窝晶格上的多重分形、拓扑结构与反常霍尔电导率"
+      },
+      "paper:1040536153800835092": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Kevin J. U. Vidarte | Caio Lewenkopf",
+        "available_online": "",
+        "cover_date_start": "2024-09-08",
+        "created_at": "2026-06-13T23:38:31+08:00",
+        "doi": "10.48550/arxiv.2409.05126",
+        "en_title": "Quasicrystalline 30$^{\\circ}$ twisted bilayer graphene: Fractal patterns and electronic localization properties",
+        "id": "1040536153800835092",
+        "keywords": "",
+        "publication_date": "2024-09-08",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "准晶态30°扭曲双层石墨烯：分形图案与电子局域化特性"
+      },
+      "paper:1048843783111704577": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Kazuma Saito | Masahiro Hori | Ryo Okugawa | K. Tanaka | Takami Tohyama",
+        "available_online": "",
+        "cover_date_start": "2024-10-02",
+        "created_at": "2026-06-19T07:40:32+08:00",
+        "doi": "10.48550/arxiv.2410.01236",
+        "en_title": "Gapless superconductivity and its real-space topology in quasicrystals",
+        "id": "1048843783111704577",
+        "keywords": "",
+        "publication_date": "2024-10-02",
+        "publication_id": "108490",
+        "publication_name": "Superconductivity _ Physics.cond-mat.supr-con",
+        "research_categories": "",
+        "zh_title": "准晶中的无隙超导性及其实空间拓扑结构"
+      },
+      "paper:1142429478408945665": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Quentin Marsal | Patric Holmvall | Annica M. Black-Schaffer",
+        "available_online": "",
+        "cover_date_start": "2025-06-18",
+        "created_at": "2026-06-19T06:38:53+08:00",
+        "doi": "10.48550/arxiv.2506.15575",
+        "en_title": "Quantum metric and localization in a quasicrystal",
+        "id": "1142429478408945665",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "准晶中的量子度量与局域化"
+      },
+      "paper:1156923802140016646": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Frode Balling-Ansø | Jeppe Lykke Krogh | Ella Elisabeth Lassen | Anne E. B. Nielsen",
+        "available_online": "",
+        "cover_date_start": "2025-07-28",
+        "created_at": "2026-06-19T04:06:22+08:00",
+        "doi": "10.48550/arXiv.2507.20722",
+        "en_title": "Identification and Properties of Topological States in the Bulk of Quasicrystals",
+        "id": "1156923802140016646",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Quantum Physics",
+        "research_categories": "",
+        "zh_title": "准晶体体相中拓扑态的识别与性质"
+      },
+      "paper:1192443055836233756": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Yu-Peng Wang | Chuo-Kai Chang | Ryo Okugawa | Chen-Hsuan Hsu",
+        "available_online": "",
+        "cover_date_start": "2025-11-01",
+        "created_at": "2026-06-19T02:50:50+08:00",
+        "doi": "10.48550/arXiv.2511.00350",
+        "en_title": "Quasiperiodicity-induced bulk localization with self similarity in non-Hermitian lattices",
+        "id": "1192443055836233756",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "非厄米晶格中具有自相似性的准周期诱导体局域化"
+      },
+      "paper:1200087706047086598": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Mou Yan | Yu-Liang Tao | Yichong Hu | Zhenxing Cui | Jiong-Hao Wang | Gang Chen | Yong Xu",
+        "available_online": "",
+        "cover_date_start": "2025-11-23",
+        "created_at": "2026-06-14T04:43:58+08:00",
+        "doi": "10.48550/arXiv.2511.18357",
+        "en_title": "Observation of topological phases without crystalline counterparts",
+        "id": "1200087706047086598",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "无晶体对应物的拓扑相观测"
+      },
+      "paper:1225780552007680016": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "William Caiger | Felix Flicker | Miguel-Ángel Sánchez-Martínez",
+        "available_online": "",
+        "cover_date_start": "2026-02-02",
+        "created_at": "2026-06-19T03:27:26+08:00",
+        "doi": "10.48550/arXiv.2602.02796",
+        "en_title": "Fractal Topology of Majorana Bound States in Superconducting Quasicrystals",
+        "id": "1225780552007680016",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "超导准晶体中马约拉纳束缚态的分形拓扑"
+      },
+      "paper:811866131743637507": {
+        "area": "Physics and Astrophysics, physics, condensed matter, physics, applied, materials science, multidisciplinary",
+        "authors": "Roland Widmer | Pierangelo Gröning | Michael Feuerbacher | Oliver Gröning",
+        "available_online": "2009-3-17",
+        "cas_zone": "2",
+        "cover_date_start": "2009-03-17",
+        "created_at": "2026-06-19T01:59:20+08:00",
+        "doi": "10.1103/physrevb.79.104202",
+        "en_title": "Experimental signatures of spiky local density of states in quasicrystals",
+        "id": "811866131743637507",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "准晶体中尖峰局域态密度的实验特征"
+      },
+      "paper:812085830997770241": {
+        "area": "physics and astrophysics, physics, multidisciplinary",
+        "authors": "Li Jing-Bo | Fang Xi-Ming",
+        "available_online": "2006-5-30",
+        "cas_zone": "1",
+        "cover_date_start": "2006-05-30",
+        "created_at": "2026-06-16T03:17:22+08:00",
+        "doi": "10.1088/0256-307x/23/6/006",
+        "en_title": "High Efficient Quantum Key Distribution by Random Using Classified Signal Coherent States",
+        "id": "812085830997770241",
+        "impact_factor": 4.7,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2006-6",
+        "publication_id": "632",
+        "publication_name": "Chinese Physics Letters _ Chinese Phys. Lett.",
+        "research_categories": "",
+        "zh_title": "基于分类信号相干态随机使用的高效量子密钥分发"
+      },
+      "paper:812499129149161473": {
+        "area": "physics and astrophysics, physics, applied, multidisciplinary, mathematical",
+        "authors": "Junmo Jeon | SungBin Lee",
+        "available_online": "2021-2-22",
+        "cas_zone": "2",
+        "cover_date_start": "2021-02-22",
+        "created_at": "2026-06-11T04:08:46+08:00",
+        "doi": "10.1103/physrevresearch.3.013168",
+        "en_title": "Topological critical states and anomalous electronic transmittance in one-dimensional quasicrystals",
+        "id": "812499129149161473",
+        "impact_factor": 4.9,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "68812",
+        "publication_name": "Physical Review Research _ Phys. Rev. Research",
+        "research_categories": "",
+        "zh_title": "一维准晶中的拓扑临界态与反常电子透射率"
+      },
+      "paper:812536564054753281": {
+        "area": "Physics and Astrophysics, physics, condensed matter, physics, applied, materials science, multidisciplinary",
+        "authors": "Chun-Bo Hua | Rui Chen | Bin Zhou | Dong-Hui Xu",
+        "available_online": "2020-12-1",
+        "cas_zone": "2",
+        "cover_date_start": "2020-12-01",
+        "created_at": "2026-06-19T09:07:09+08:00",
+        "doi": "10.1103/physrevb.102.241102",
+        "en_title": "Higher-order topological insulator in a dodecagonal quasicrystal",
+        "id": "812536564054753281",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "十二边形准晶中的高阶拓扑绝缘体"
+      },
+      "paper:813126235642134528": {
+        "area": "comprehensive periodical, chemical sciences, physical sciences, condensed matter physics",
+        "authors": "Laura C. Collins | Thomas G. Witte | Rochelle Silverman | David B. Green | Kenjiro K. Gomes",
+        "available_online": "2017-6-22",
+        "cas_zone": "1",
+        "cover_date_start": "2017-06-22",
+        "created_at": "2026-06-12T05:58:30+08:00",
+        "doi": "10.1038/ncomms15961",
+        "en_title": "Imaging quasiperiodic electronic states in a synthetic Penrose tiling",
+        "id": "813126235642134528",
+        "impact_factor": 15.5,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2017-12",
+        "publication_id": "10026",
+        "publication_name": "Nature Communications _ Nat Commun",
+        "research_categories": "[\"Chemical Sciences\", \"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "合成彭罗斯镶嵌中的成像准周期电子态"
+      },
+      "paper:814553573332353028": {
+        "area": "physics and astrophysics, physics, multidisciplinary",
+        "authors": "Miguel A. Bandres | Mikael C. Rechtsman | Mordechai Segev",
+        "available_online": "2016-2-22",
+        "cas_zone": "1",
+        "cover_date_start": "2016-02-22",
+        "created_at": "2026-06-14T23:29:19+08:00",
+        "doi": "10.1103/physrevx.6.011016",
+        "en_title": "Topological Photonic Quasicrystals: Fractal Topological Spectrum and Protected Transport",
+        "id": "814553573332353028",
+        "impact_factor": 15.7,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "479",
+        "publication_name": "Physical Review X _ Phys. Rev. X",
+        "research_categories": "",
+        "zh_title": "拓扑光子准晶体：分形拓扑谱与受保护传输"
+      },
+      "paper:817398415271919616": {
+        "area": "geoscience, materials science, multidisciplinary, physics, condensed matter",
+        "authors": "Huaqing Huang | Yong-Shi Wu | Feng Liu",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2020-01-07",
+        "created_at": "2026-06-02T16:57:37+08:00",
+        "doi": "10.1103/PhysRevB.101.041103",
+        "en_title": "Aperiodic topological crystalline insulators",
+        "id": "817398415271919616",
+        "impact_factor": 3.6,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "98281",
+        "publication_name": "Physical Review B   Condensed Matter and Materials Physics _ ",
+        "research_categories": "",
+        "zh_title": "非周期性拓扑晶体绝缘体"
+      },
+      "paper:817400674949005313": {
+        "area": "geoscience, materials science, multidisciplinary, physics, condensed matter",
+        "authors": "Callum W. Duncan | Sourav Manna | Anne E. B. Nielsen",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2020-03-14",
+        "created_at": "2026-06-02T12:14:28+08:00",
+        "doi": "10.1103/PhysRevB.101.115413",
+        "en_title": "Topological models in rotationally symmetric quasicrystals",
+        "id": "817400674949005313",
+        "impact_factor": 3.6,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "98281",
+        "publication_name": "Physical Review B   Condensed Matter and Materials Physics _ ",
+        "research_categories": "",
+        "zh_title": "旋转对称准晶体中的拓扑模型"
+      },
+      "paper:867749385117630882": {
+        "area": "arXiv-Physics, Physical Sciences, Atomic, Molecular and Optical Physics, Quantum Physics",
+        "authors": "Shankari V. Rajagopal | Toshihiko Shimasaki | Peter Dotti | Mantas Račiūnas | Ruwan Senaratne | Egidijus Anisimovas | André Eckardt | David M. Weld",
+        "available_online": "",
+        "cover_date_start": "2019-09-11",
+        "created_at": "2026-07-23T18:41:42+08:00",
+        "doi": "10.48550/arXiv.1909.05200",
+        "en_title": "Phasonic Spectroscopy of a Quantum Gas in a Quasicrystalline Lattice",
+        "id": "867749385117630882",
+        "keywords": "",
+        "publication_date": "2019-09-11",
+        "publication_id": "108486",
+        "publication_name": "Quantum Gases _ Physics.cond-mat.quant-gas",
+        "research_categories": "[\"Physical Sciences\", \"Atomic, Molecular and Optical Physics\", \"Quantum Physics\"]",
+        "zh_title": "准晶格子中量子气体的声子光谱学"
+      },
+      "paper:867749820440248659": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "M. Ö. Oktel",
+        "available_online": "",
+        "cover_date_start": "2021-03-15",
+        "created_at": "2026-06-19T02:02:59+08:00",
+        "doi": "10.48550/arXiv.2103.08678",
+        "en_title": "Strictly localized states in the octagonal Ammann-Beenker quasicrystal",
+        "id": "867749820440248659",
+        "keywords": "",
+        "publication_date": "2021-03-15",
+        "publication_id": "108482",
+        "publication_name": "Disordered Systems and Neural Networks _ Physics.cond-mat.dis-nn",
+        "research_categories": "",
+        "zh_title": "八边形阿曼-本克（Ammann-Beenker）准晶中的严格局域态"
+      },
+      "paper:867750205322166953": {
+        "area": "arxiv-physics, mathematical sciences, mathematical physics, physical sciences",
+        "authors": "Nicolas Macé | Anuradha Jagannathan | Pavel Kalugin | Rémy Mosseri | Frédéric Piéchon",
+        "available_online": "",
+        "cover_date_start": "2017-06-21",
+        "created_at": "2026-05-26T01:30:46+08:00",
+        "doi": "10.48550/arXiv.1706.06796",
+        "en_title": "Critical eigenstates and their properties in one and two dimensional quasicrystals",
+        "id": "867750205322166953",
+        "keywords": "",
+        "publication_date": "2017-06-21",
+        "publication_id": "108482",
+        "publication_name": "Disordered Systems and Neural Networks _ Physics.cond-mat.dis-nn",
+        "research_categories": "[\"Mathematical Sciences\", \"Mathematical Physics\", \"Physical Sciences\"]",
+        "zh_title": "一维和二维准晶中的临界本征态及其性质"
+      },
+      "paper:867750854931776178": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Tan Peng | Chun-Bo Hua | Rui Chen | Zheng-Rong Liu | Dong-Hui Xu | Bin Zhou",
+        "available_online": "",
+        "cover_date_start": "2021-08-11",
+        "created_at": "2026-06-14T19:23:32+08:00",
+        "doi": "10.48550/arXiv.2108.04971",
+        "en_title": "Higher-order topological Anderson insulators in quasicrystals",
+        "id": "867750854931776178",
+        "keywords": "",
+        "publication_date": "2021-08-11",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "准晶中的高阶拓扑安德森绝缘体"
+      },
+      "paper:867752125487120925": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Anuradha Jagannathan | Piyush Jeena | Marco Tarzia",
+        "available_online": "",
+        "cover_date_start": "2018-09-17",
+        "created_at": "2026-06-15T03:15:48+08:00",
+        "doi": "10.48550/arXiv.1809.06324",
+        "en_title": "Nonmonotonic crossover and scaling behaviors in a disordered 1D quasicrystal",
+        "id": "867752125487120925",
+        "keywords": "",
+        "publication_date": "2018-09-17",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "无序一维准晶中的非单调交叉和标度行为"
+      },
+      "paper:867752222081942204": {
+        "area": "arxiv-physics, engineering, electronics, sensors and digital hardware, mathematical sciences, mathematical physics, physical sciences, atomic, molecular and optical physics",
+        "authors": "Marcelo Amaral | David Chester | Fang Fang | Klee Irwin",
+        "available_online": "",
+        "cover_date_start": "2022-07-01",
+        "created_at": "2026-06-14T02:37:28+08:00",
+        "doi": "10.48550/arXiv.2207.08928",
+        "en_title": "Exploiting Anyonic Behavior of Quasicrystals for Topological Quantum Computing",
+        "id": "867752222081942204",
+        "keywords": "",
+        "publication_date": "2022-07-01",
+        "publication_id": "108526",
+        "publication_name": "Quantum Physics _ Physics.quant-ph.quant-ph",
+        "research_categories": "[\"Engineering\", \"Electronics, Sensors and Digital Hardware\", \"Mathematical Sciences\", \"Mathematical Physics\", \"Physical Sciences\", \"Atomic, Molecular and Optical Physics\"]",
+        "zh_title": "利用准晶体的任意子行为实现拓扑量子计算"
+      },
+      "paper:867754468119151043": {
+        "area": "arxiv-physics, mathematical sciences, pure mathematics, physical sciences",
+        "authors": "M. Akif Keskiner | M.Ö Oktel",
+        "available_online": "",
+        "cover_date_start": "2022-07-12",
+        "created_at": "2026-06-15T02:54:30+08:00",
+        "doi": "10.48550/arXiv.2207.05552",
+        "en_title": "Strictly Localized States on the Socolar Dodecagonal Lattice",
+        "id": "867754468119151043",
+        "keywords": "",
+        "publication_date": "2022-07-12",
+        "publication_id": "108482",
+        "publication_name": "Disordered Systems and Neural Networks _ Physics.cond-mat.dis-nn",
+        "research_categories": "[\"Mathematical Sciences\", \"Pure Mathematics\", \"Physical Sciences\"]",
+        "zh_title": "索科拉尔十二边形晶格上的严格局域态"
+      },
+      "paper:867761187452879171": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Miguel A. Bandres | Mikael C. Rechtsman | Mordechai Segev",
+        "available_online": "",
+        "cover_date_start": "2017-05-25",
+        "created_at": "2026-05-26T02:23:17+08:00",
+        "doi": "10.48550/arXiv.1705.09380",
+        "en_title": "Topological Photonic Quasicrystals: Fractal Topological Spectrum and Protected Transport",
+        "id": "867761187452879171",
+        "keywords": "",
+        "publication_date": "2017-05-25",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "拓扑光子准晶体：分形拓扑谱与受保护传输"
+      },
+      "paper:867762575733948957": {
+        "area": "arxiv-physics, mathematical sciences, mathematical physics, physical sciences",
+        "authors": "Bastien Lapierre | Kenny Choo | Apoorv Tiwari | Clément Tauber | Titus Neupert | Ramasubramanian Chitra",
+        "available_online": "",
+        "cover_date_start": "2020-06-17",
+        "created_at": "2026-05-19T18:50:40+08:00",
+        "doi": "10.48550/arXiv.2006.10054",
+        "en_title": "The fine structure of heating in a quasiperiodically driven critical quantum system",
+        "id": "867762575733948957",
+        "keywords": "",
+        "publication_date": "2020-06-17",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "[\"Mathematical Sciences\", \"Mathematical Physics\", \"Physical Sciences\"]",
+        "zh_title": "准周期驱动临界量子系统中的加热精细结构"
+      },
+      "paper:867763861497839913": {
+        "area": "arXiv-Physics, Mathematical Sciences, Mathematical Physics, Physical Sciences, Condensed Matter Physics",
+        "authors": "Rasoul Ghadimi | Masahiro Hori | Takanori Sugimoto | Takami Tohyama",
+        "available_online": "",
+        "cover_date_start": "2023-04-21",
+        "created_at": "2026-06-19T10:17:38+08:00",
+        "doi": "10.48550/arXiv.2304.10699",
+        "en_title": "Confined states and topological phases in two-dimensional quasicrystalline $π$-flux model",
+        "id": "867763861497839913",
+        "keywords": "",
+        "publication_date": "2023-04-21",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Mathematical Sciences\", \"Mathematical Physics\", \"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "二维准晶$\\pi$通量模型中的受限态和拓扑相"
+      },
+      "paper:867764610499871535": {
+        "area": "arXiv-Physics, Physical Sciences, Quantum Physics",
+        "authors": "Aoqian Shi | Jiapei Jiang | Yuchen Peng | Peng Peng | Jianzhi Chen | Jianjun Liu",
+        "available_online": "",
+        "cover_date_start": "2022-09-13",
+        "created_at": "2026-06-19T10:14:18+08:00",
+        "doi": "10.48550/arXiv.2209.05751",
+        "en_title": "Multimer analysis method reveals higher-order topology in quasicrystals",
+        "id": "867764610499871535",
+        "keywords": "",
+        "publication_date": "2022-09-13",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "[\"Physical Sciences\", \"Quantum Physics\"]",
+        "zh_title": "多聚体分析方法揭示了准晶体中的高阶拓扑结构"
+      },
+      "paper:867765418641589104": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics, quantum physics",
+        "authors": "Huaqing Huang | Feng Liu",
+        "available_online": "",
+        "cover_date_start": "2018-09-28",
+        "created_at": "2026-06-13T11:15:19+08:00",
+        "doi": "10.48550/arXiv.1810.00081",
+        "en_title": "Theory of spin Bott index for quantum spin Hall states in non-periodic systems",
+        "id": "867765418641589104",
+        "keywords": "",
+        "publication_date": "2018-09-28",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "非周期系统中量子自旋霍尔态的自旋博特指标理论"
+      },
+      "paper:867766048789627277": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Rasoul Ghadimi | Takanori Sugimoto | Takami Tohyama",
+        "available_online": "",
+        "cover_date_start": "2022-07-07",
+        "created_at": "2026-05-16T16:41:56+08:00",
+        "doi": "10.48550/arXiv.2207.03028",
+        "en_title": "Higher-dimensional Hofstadter butterfly on Penrose lattice",
+        "id": "867766048789627277",
+        "keywords": "",
+        "publication_date": "2022-07-07",
+        "publication_id": "108486",
+        "publication_name": "Quantum Gases _ Physics.cond-mat.quant-gas",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "彭罗斯晶格上的高维霍夫施塔特蝴蝶"
+      },
+      "paper:867769538161148153": {
+        "area": "arXiv-Physics, Physical Sciences, Condensed Matter Physics",
+        "authors": "Tiago S. Gonçalves | Miguel Gonçalves | Pedro Ribeiro | Bruno Amorim",
+        "available_online": "",
+        "cover_date_start": "2022-12-15",
+        "created_at": "2026-06-19T05:49:13+08:00",
+        "doi": "10.48550/arXiv.2212.08024",
+        "en_title": "Topological phase transitions for any taste in 2D quasiperiodic systems",
+        "id": "867769538161148153",
+        "keywords": "",
+        "publication_date": "2022-12-15",
+        "publication_id": "108482",
+        "publication_name": "Disordered Systems and Neural Networks _ Physics.cond-mat.dis-nn",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "二维准周期系统中适用于任何情况的拓扑相变"
+      },
+      "paper:867769693774021553": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Emmanuel Gottlob | Ulrich Schneider",
+        "available_online": "",
+        "cover_date_start": "2022-10-11",
+        "created_at": "2026-06-11T00:39:23+08:00",
+        "doi": "10.48550/arXiv.2210.05691",
+        "en_title": "Hubbard Models for Quasicrystalline Potentials",
+        "id": "867769693774021553",
+        "keywords": "",
+        "publication_date": "2022-10-11",
+        "publication_id": "108482",
+        "publication_name": "Disordered Systems and Neural Networks _ Physics.cond-mat.dis-nn",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "用于准晶势的哈伯德模型"
+      },
+      "paper:867770780115534206": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Archisman Panigrahi | Vladimir Juricic | Bitan Roy",
+        "available_online": "",
+        "cover_date_start": "2021-12-13",
+        "created_at": "2026-06-17T00:16:13+08:00",
+        "doi": "10.48550/arXiv.2112.06911",
+        "en_title": "Projected Topological Branes",
+        "id": "867770780115534206",
+        "keywords": "",
+        "publication_date": "2021-12-13",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "投影拓扑膜"
+      },
+      "paper:867771091932676981": {
+        "area": "arXiv-Physics, Physical Sciences, Classical Physics",
+        "authors": "Sourav Manna | Bitan Roy",
+        "available_online": "",
+        "cover_date_start": "2022-02-15",
+        "created_at": "2026-06-19T10:42:34+08:00",
+        "doi": "10.48550/arXiv.2202.07658",
+        "en_title": "Inner Skin Effects on Non-Hermitian Topological Fractals",
+        "id": "867771091932676981",
+        "keywords": "",
+        "publication_date": "2022-02-15",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Classical Physics\"]",
+        "zh_title": "内皮层对非厄米拓扑分形的影响"
+      },
+      "paper:867772717451968721": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Daniel Varjas | Alexander Lau | Kim Pöyhönen | Anton R. Akhmerov | Dmitry I. Pikulin | Ion Cosma Fulga",
+        "available_online": "",
+        "cover_date_start": "2019-04-15",
+        "created_at": "2026-06-16T03:16:45+08:00",
+        "doi": "10.48550/arXiv.1904.07242",
+        "en_title": "Topological phases without crystalline counterparts",
+        "id": "867772717451968721",
+        "keywords": "",
+        "publication_date": "2019-04-15",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "无晶体对应物的拓扑相"
+      },
+      "paper:867772751656518103": {
+        "area": "arxiv-physics, mathematical sciences, mathematical physics, physical sciences",
+        "authors": "Terry A. Loring",
+        "available_online": "",
+        "cover_date_start": "2018-11-19",
+        "created_at": "2026-06-12T02:04:13+08:00",
+        "doi": "10.48550/arXiv.1811.07494",
+        "en_title": "Bulk Spectrum and K-theory for Infinite-Area Topological Quasicrystal",
+        "id": "867772751656518103",
+        "keywords": "",
+        "publication_date": "2018-11-19",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Mathematical Sciences\", \"Mathematical Physics\", \"Physical Sciences\"]",
+        "zh_title": "无限面积拓扑准晶体的体谱与K理论"
+      },
+      "paper:892695502070480923": {
+        "area": "arXiv-Physics, Physical Sciences, Condensed Matter Physics",
+        "authors": "Justin Schirmann | Selma Franca | Felix Flicker | Adolfo G. Grushin",
+        "available_online": "",
+        "cover_date_start": "2023-07-20",
+        "created_at": "2026-06-19T01:48:34+08:00",
+        "doi": "10.48550/arXiv.2307.11054",
+        "en_title": "Physical properties of the Hat aperiodic monotile: Graphene-like features, chirality and zero-modes",
+        "id": "892695502070480923",
+        "keywords": "",
+        "publication_date": "2023-07-20",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "帽子非周期单瓦片的物理性质：类石墨烯特征、手性和零模"
+      },
+      "paper:939222012528689276": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Sougata Biswas | Arunava Chakrabarti",
+        "available_online": "",
+        "cover_date_start": "2023-07-25",
+        "created_at": "2026-06-14T08:34:24+08:00",
+        "doi": "10.48550/arXiv.2307.13393",
+        "en_title": "Complete escape from localization on a hierarchical lattice: A Koch fractal with all states extended",
+        "id": "939222012528689276",
+        "keywords": "",
+        "publication_date": "2023-07-25",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "在分层晶格上完全摆脱局域化：具有所有扩展态的科赫分形"
+      },
+      "paper:943750642852167996": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Zhaoyang Zhang | Shun Liang | Ismael Septembre | Jiawei Yu | Yongping Huang | Maochang Liu | Yanpeng Zhang | Min Xiao | Guillaume Malpuech | Dmitry Solnyshkov",
+        "available_online": "",
+        "cover_date_start": "2023-12-14",
+        "created_at": "2026-06-17T03:55:23+08:00",
+        "doi": "10.48550/arXiv.2312.09322",
+        "en_title": "Non-Hermitian delocalization in a 2D photonic quasicrystal",
+        "id": "943750642852167996",
+        "keywords": "",
+        "publication_date": "2023-12-14",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "二维光子准晶中的非厄米离域化"
+      },
+      "paper:966036067314565132": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Chaozhi Ouyang | Qinghua He | Dong-Hui Xu | Feng Liu",
+        "available_online": "",
+        "cover_date_start": "2024-01-26",
+        "created_at": "2026-06-17T02:11:42+08:00",
+        "doi": "10.48550/arXiv.2401.14896",
+        "en_title": "Higher-order topology in Fibonacci quasicrystals",
+        "id": "966036067314565132",
+        "keywords": "",
+        "publication_date": "2024-01-26",
+        "publication_id": "108490",
+        "publication_name": "Superconductivity _ Physics.cond-mat.supr-con",
+        "research_categories": "",
+        "zh_title": "斐波那契准晶体中的高阶拓扑结构"
+      },
+      "paper:973109899573592072": {
+        "area": "arXiv-Physics, Physical Sciences, Condensed Matter Physics",
+        "authors": "Tan Peng | Yong-Chen Xiong | Chun-Bo Hua | Zheng-Rong Liu | Xiaolu Zhu | Wei Cao | Fang Lv | Yue Hou | Bin Zhou | Ziyu Wang | Rui Xiong",
+        "available_online": "",
+        "cover_date_start": "2024-03-07",
+        "created_at": "2026-06-19T04:51:30+08:00",
+        "doi": "10.48550/arXiv.2403.04338",
+        "en_title": "Structural disorder-induced topological phase transitions in quasicrystals",
+        "id": "973109899573592072",
+        "keywords": "",
+        "publication_date": "2024-03-07",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "准晶中结构无序诱导的拓扑相变"
+      }
+    },
+    "variables": [
+      {
+        "content": "Quasicrystals such as the Penrose tiling present a pre-existing scientific gap in understanding how their intrinsic aperiodic geometry—encoded by irrational numbers (e.g., the golden ratio $\\\\tau=(1+\\\\sqrt{5})/2$) that govern the ratio of the numbers of distinct tiles—affects single-particle electronic spectra and topology. Prior theoretical work on magnetic-field effects in aperiodic systems either (i) imposed a uniform external magnetic field that produces local fluxes proportional to tile areas (which can yield irrational area ratios even in periodic crystals, so the source of aperiodicity is not uniquely quasicrystalline) or (ii) studied topological indices in quasicrystals without isolating the role of the irrational tile-number ratio. Consequently, there is no clear, ab initio model tying a quasicrystal-unique irrational quantity (the ratio of tile numbers) to (a) the breaking of magnetic-flux periodicity in energy spectra, (b) the emergence and classification of topological gaps in fractal (Hofstadter-like) spectra, or (c) how a one-dimensional aperiodic flux parameter can be interpreted as motion in a higher-dimensional periodic flux space. Because standard momentum-space topological tools rely on translation symmetry, and because earlier uniform-field constructions do not uniquely link aperiodicity to quasicrystalline tile-count irrationality, there is a methodological and conceptual need for a real-space tight-binding formulation on a Penrose lattice that (1) introduces a staggered (zero-net) local magnetic flux tied to tile-type counts, (2) exposes whether and how spectral periodicity is lost in the thermodynamic quasicrystal limit, and (3) determines whether fractal Hofstadter-like energy structures support well-defined topological invariants (and corresponding edge phenomena) when the magnetic-flux parameter space becomes effectively higher dimensional. This unresolved problem-state motivates constructing a staggered-flux model on the Penrose approximants, analyzing finite-size behavior, and establishing how the irrational tile-number ratio controls spectral aperiodicity and topology.",
+        "content_hash": "ee59ae85e3914452d66abfc1ffb6726c54bc217c0c4bfd597949ad56c894fee4",
+        "id": "gcn_dfde823db8fb4c7d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867766048789627277::problem",
+            "package_id": "paper:867766048789627277",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867766048789627277"
+          ]
+        },
+        "rerank_score": 0.8014628753085415,
+        "role": "premise",
+        "score": 0.031009615384615385,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Quasicrystalline two-dimensional lattices (for example, the Penrose and Ammann-Beenker rhombus tilings) lack translational symmetry yet are known to host nontrivial electronic phenomena; however, the mapping of paradigmatic lattice constructions for topological phases in periodic crystals (notably Haldane-type models and $\\pi$-flux constructions used on square and honeycomb lattices) into the aperiodic/quasicrystalline setting is not settled. Prior work had established (i) that certain quasicrystals host strictly localized \"confined\" states in the zero-flux tight-binding vertex model (e.g., zero-energy confined states in the Penrose tiling and a known fraction $p=1/(2\\tau_s^2)$ in the Ammann-Beenker tiling), and (ii) that Haldane-like topological phases can be generalized to some quasicrystals by ad hoc procedures. What remained unresolved before this work was a systematic procedure for introducing a $\\pi$-flux pattern (analogous to the square-lattice $\\pi$-flux model) into bipartite quasicrystalline rhombus tilings, and a quantitative understanding of the consequences of such $\\pi$-flux configurations on three specific scientific issues: (A) the existence, energies, spatial structure, and macroscopic fraction of strictly localized (confined) eigenstates in different $\\pi$-flux configurations, (B) the possible emergence of massless Dirac cones or other band-structure features in approximants of quasicrystals under $\\pi$-flux, and (C) whether Haldane-like (time-reversal-breaking) topological phases with quantized invariant (Chern-like) character can be realized in quasicrystals without a uniform magnetic field by using staggered, tile-dependent diagonal hoppings. Because quasicrystals are aperiodic, standard momentum-space tools and conventional topological invariants need adaptations (for example, the Bott index in real space) and their reliable numerical application requires controlling approximant size and energy-gap magnitudes. These gaps in understanding prevented making quantitative predictions about confined-state energies and densities under flux, assessing the occurrence and robustness of Dirac cones in approximants, and proposing a controlled route to realize nontrivial chiral topological phases in aperiodic lattices without applying a net magnetic field.",
+        "content_hash": "b22a973bc7a175553b88a286f6e87edd3c35dfb71353acc003592a78db0f956a",
+        "id": "gcn_9e58c6a7cc274d8e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867763861497839913::problem",
+            "package_id": "paper:867763861497839913",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867763861497839913"
+          ]
+        },
+        "rerank_score": 0.7819214632755263,
+        "role": "premise",
+        "score": 0.011904761904761904,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In fractal, hierarchical, and many aperiodic tight‑binding systems the spectrum is typically singular, Cantor‑like, or fragmented and the RSRG flows of hopping amplitudes tend to indicate localization or multifractal behaviour at generic energies. Prior works identified only discrete sets of resonant energies that produced isolated extended or atypical states; no analytic criterion was known to produce a continuous band filled exclusively by extended states in a non‑periodic Koch‑type lattice. Without such a mechanism one cannot predict or engineer a fractal lattice to be globally conducting or transparent for an arbitrary energy of an incoming particle. Resolving this requires a parameter prescription that changes the spectral character from fragmented to absolutely continuous and guarantees extendedness at every energy in a finite interval.",
+        "content_hash": "66bbd72604af96ed825a6608a30424f1c0d49f042d9edb236ef7fbdac40e93d3",
+        "id": "gcn_6ccd073ef5034202",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:939222012528689276::conclusion_2_subproblem",
+            "package_id": "paper:939222012528689276",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:939222012528689276"
+          ]
+        },
+        "rerank_score": 0.7664692099321977,
+        "role": "premise",
+        "score": 0.009009009009009009,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Quasicrystalline one-dimensional lattices produce bulk electronic spectra with Cantor-set-like fractal gap hierarchies that are well established in the literature, whereas the textbook topological protection of Majorana bound states (MBS) is understood for periodic 1D superconductors (the Kitaev chain) where the topological phase occupies a single connected chemical-potential interval terminated by a bulk gap closing. What is lacking is a coherent, predictive understanding of how quasicrystalline spectral fractality affects the existence, stability and phase boundaries of the MBS-hosting topological phase. Prior approaches and known facts include: (i) the periodic Kitaev chain admits a momentum-space $\\mathbb{Z}_2$ invariant and a clear criterion $|\\mu|<2t$ for the topological phase; (ii) quasicrystal tight-binding models (e.g. Fibonacci/Aubry-André limits) exhibit multifractal densities of states and persistent QC gaps which can be gap-labelled by integers $(p,q)$ via the integrated density of states $N(E)=p+\\gamma q$; and (iii) individual mid-gap states in quasicrystals wind as a phason parameter $\\phi$ is varied, giving a $\\mathbb{Z}$ winding label $q$. However, these prior results leave multiple substantive unresolved problems: there is no general criterion that predicts which QC spectral gaps will actually interrupt the MBS topological phase when superconducting pairing is present; reciprocal-space topological indicators fail in aperiodic lattices and spectral/ localisation diagnostics alone are insufficient to distinguish MBS from trivial zero-energy modes induced by quasicrystallinity; finite-size approximants and the discontinuous nature of two-valued hopping models complicate numerical identification of true thermodynamic behaviour and the assignment of topological labels (e.g. the Berry phase/Chern-number constructions become ill-defined for discontinuous projections); and consequently one cannot reliably map or predict the chemical-potential dependence of Majorana phase transitions in quasicrystalline superconductors. These gaps in understanding prevent quantitative predictions of MBS stability in quasicrystalline 1D superconductors, obstruct a principled distinction between topological and trivial zero modes in such systems, and leave open whether and how a fractal bulk spectrum translates into fractal topological phase structure accessible in experiment.",
+        "content_hash": "7b8d75e8b5716c2aebfea00e34c3e0a0d351f228b9f3ea9fa58be718ef14199d",
+        "id": "gcn_ca2ada2b02af424f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1225780552007680016::problem",
+            "package_id": "paper:1225780552007680016",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1225780552007680016"
+          ]
+        },
+        "rerank_score": 0.7540586860883836,
+        "role": "premise",
+        "score": 0.00980392156862745,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Prior to this work, there was no established, systematically applied numerical workflow combining spectral-gap extrapolation, a topology calculation suitable for broken translational invariance, and mutually complementary real- and momentum-space IPR finite-size scalings to classify the novel localization-topology interplay produced by quasiperiodicity. Such an integrated diagnostic set is necessary because quasiperiodicity can simultaneously affect the bulk gap, the quantization of the Chern invariant, and the localization character of the same low-energy eigenstates; separating these effects requires jointly using spectral, topological and fractal scaling observables.",
+        "content_hash": "ede64c494759888432867e11863f2bed1e85cfb61b3389bffce6bea011332edd",
+        "id": "gcn_445eef3fe8b34c68",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867769538161148153::conclusion_6_subproblem",
+            "package_id": "paper:867769538161148153",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867769538161148153"
+          ]
+        },
+        "rerank_score": 0.7445469917407588,
+        "role": "premise",
+        "score": 0.006535947712418301,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "To study propagation of noninteracting particles (electrons, photons, acoustic or mechanical waves) on an aperiodic tiling one needs a concrete microscopic model that isolates geometric connectivity effects. Prior analyses of quasicrystals employed vertex tight-binding models on known tilings (Penrose, Ammann–Beenker, etc.), where equal nearest-neighbour hoppings reduce the physics to the graph adjacency matrix and thereby separate connectivity-induced spectral features from site- or bond-dependent energy scales. Before this work there was no explicit, published formulation of such a vertex model for the recently discovered Hat monotile; without it one cannot compute spectral functions, identify zero-modes, implement magnetic Peierls phases uniformly across single-area tiles, or evaluate topological markers and transport observables necessary to make contact with experiments. The explicit Hamiltonian provides the minimal, unambiguous mathematical object required to address all subsequent spectral, localization, and topological questions.",
+        "content_hash": "ae438b6e40716568f1c4d37793d31072cd36047a09b2e06ec1d213625e1fde15",
+        "id": "gcn_fe1811795c334ff8",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:892695502070480923::conclusion_1_subproblem",
+            "package_id": "paper:892695502070480923",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:892695502070480923"
+          ]
+        },
+        "rerank_score": 0.7432669555286092,
+        "role": "premise",
+        "score": 0.011235955056179775,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Quasicrystalline potentials are long-range ordered but non-periodic, so standard solid-state tools built on Bloch's theorem cannot be used to derive tight-binding descriptions. This obstructs two distinct but related needs. First, to study single- and many-body phenomena (e.g. localisation transitions, mobility edges, superfluid–Mott transitions, topological responses) one needs a discrete tight-binding Hamiltonian expressed in terms of localised single-particle basis functions (Wannier functions) and their matrix elements (on-site energies, tunnelling amplitudes, interaction integrals). For periodic crystals Bloch waves provide a controlled route to maximally localised orthogonal Wannier functions; for general non-periodic/quasiperiodic potentials no such generic, systematically convergent construction exists, and available approaches either rely on imaginary‑time projection of trial states, on global band projections that require special structure, or on perturbative inheritance from a proximate periodic model. Second, non-periodicity prevents an efficient, compact description of the thermodynamic limit: finite patches sample only a subset of possible local site environments and it is unclear whether results converge uniformly with system size or whether rare local environments (that may control many-body phases) are missed. Consequences of these gaps are concrete: without a controlled construction of localised orthogonal basis states one cannot reliably compute site-resolved Hubbard parameters; without a compact parameterisation of site environments one cannot meaningfully extrapolate finite-patch tight-binding results to the infinite quasicrystal or define global topological quantities on a compact manifold. These limitations therefore block the derivation of accurate, scalable Hubbard models for generic quasicrystals and hinder quantitative theoretical and numerical studies of localisation, many-body phases, and topology in experimentally realised optical quasicrystals.",
+        "content_hash": "5e66d379bd6391549d478b6d72d68c08fb8786348bb938e5dc12972f08e39a56",
+        "id": "gcn_ed7d117a46654d03",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867769693774021553::problem",
+            "package_id": "paper:867769693774021553",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867769693774021553"
+          ]
+        },
+        "rerank_score": 0.7357928514642107,
+        "role": "premise",
+        "score": 0.015384615384615385,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Quasicrystals lack a periodic length scale and therefore do not admit the Bloch-band/band-structure machinery that underlies most classifications of electronic states and transport in crystals. Prior work established that certain one-dimensional quasiperiodic models (e.g., Fibonacci chains) host nonextended, nonlocalized \"critical\" eigenstates and that gap-labeling/K-theory and transfer-matrix/renormalization methods reveal fractal spectra and many small gaps. However, before this work there remained a set of interrelated, unresolved scientific deficiencies: (i) whether the critical zero-energy states that appear in some 1D quasiperiodic tight-binding models are topologically robust under pattern-preserving perturbations was not established, because standard topological tools for periodic systems do not apply and tiling-space topology had not been connected explicitly to critical-state properties; (ii) there was no clear tiling-space–based classification that links cohomological invariants of aperiodic tilings to the large-scale scaling (extended/critical/localized) character of the zero-energy state; (iii) because transport calculations in quasicrystals cannot appeal to Bloch-wave scattering, there was no general analytic account of how critical-state structure in quasiperiodic chains controls electronic transmittance and conductance near zero energy under realistic boundary conditions (system in air or connected to periodic leads), nor a predictive scaling relation for system-size and quasiperiodicity-strength dependence of averaged transmittance; and (iv) numerically observed sensitive dependence of transmittance on system size in quasicrystals lacked a rigorous origin tying it to pattern-dependent topological quantities. These gaps prevented quantitative, topology-based predictions of robustness and anomalous transport signatures unique to quasicrystals and obstructed a unified classification of distinct 1D aperiodic tilings by their zero-energy localization and transport behavior.",
+        "content_hash": "3945a6e01783f2f0ec5ddea98e36069384226472d338e03fecb701b448d28f84",
+        "id": "gcn_1031ec23807c48d3",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812499129149161473::problem",
+            "package_id": "paper:812499129149161473",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812499129149161473"
+          ]
+        },
+        "rerank_score": 0.7537397282236515,
+        "role": "premise",
+        "score": 0.015873015873015872,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Quasicrystals are known to produce fractal or singular-continuous spectra with nested subbands arising from local pattern inflation/deflation, but prior studies had not established whether such self-similar spectral structure can carry topological character (i.e., whether nested minigaps can be bona fide topological gaps hosting chiral edge modes). Because topological invariants are subtle in aperiodic systems and because smaller gaps produce edge states with longer spatial penetration, it was unknown whether small fractal minigaps are topological and whether their associated edge states can be observed in finite systems. Demonstrating topological indices for a hierarchy of minigaps in large approximants resolves whether the QC’s fractal spectrum can be endowed with topological bands.",
+        "content_hash": "26d62e62b2c7d4bec0818a14aef1af73c7a3ae2ffc9ed339d634445edae91eb8",
+        "id": "gcn_f8938bcfccac46b5",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814553573332353028::conclusion_4_subproblem",
+            "package_id": "paper:814553573332353028",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814553573332353028"
+          ]
+        },
+        "rerank_score": 0.7324562895322236,
+        "role": "premise",
+        "score": 0.01639344262295082,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In the design of quasicrystalline higher-order topological systems one needs a concrete microscopic Hamiltonian that (i) captures the subsite structure of a quasicrystal basic cell, (ii) makes explicit the separate roles of intra-cell and inter-cell couplings, and (iii) connects symmetry-imposed multimer patterns to the existence and count of in-gap corner-localized modes. Prior literature lacked a compact, finite-size tight-binding representation tailored to Stampfli-type quasicrystal basic cells with explicit intra- and inter-cell coupling parameters and an associated, easily verifiable mapping between multimer monomers and exact zero-energy eigenstates. Without such a model it is difficult to predict how varying $t_{0}$ and $t_{1}$ (the experimentally tunable intra- vs inter-cell couplings) changes the spectrum and the number of corner-localized modes, preventing systematic design of multi-mode corner arrays and obstructing direct comparison with finite-size experiments.",
+        "content_hash": "3d9f9b15322b326a6c1da704ce6a1bcdef441dc4e143a16ef3b8631a4fff81af",
+        "id": "gcn_a3caaa3db13343a7",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867764610499871535::conclusion_1_subproblem",
+            "package_id": "paper:867764610499871535",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867764610499871535"
+          ]
+        },
+        "rerank_score": 0.7324433354616241,
+        "role": "premise",
+        "score": 0.0136986301369863,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Tight-binding and local-topology arguments for Penrose tilings predict that local vertex topology can impose strong constraints on localization, but they also allow for cases where globally imposed matching rules or non-local quasiperiodic structure change spectral properties of locally identical sites. Prior experimental probes could not separate the influence of strictly local (first-neighbour) geometry from longer-range quasiperiodic context. Resolving whether sites with identical nearest-neighbour geometry but different global matching contexts exhibit different LDOS is crucial for understanding whether electronic states in quasicrystals are governed by strictly local topology or by extended quasiperiodic structure; addressing this requires a controlled lattice with identified vertex classes and comparative spectroscopy on those classes.",
+        "content_hash": "105d84922d6559d49bcb41fb4a51fd84b2a81e68f28a11a669fbe21637c65045",
+        "id": "gcn_ef713931bb4844c4",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813126235642134528::conclusion_5_subproblem",
+            "package_id": "paper:813126235642134528",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813126235642134528"
+          ]
+        },
+        "rerank_score": 0.7288163869112684,
+        "role": "premise",
+        "score": 0.014925373134328358,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The study addresses the electronic structure of 30°-twisted bilayer graphene (30°-TBG), a dodecagonal quasicrystalline bilayer in which long-range orientational order exists without translational symmetry. Prior to this work, the lack of translation invariance posed a concrete computational and conceptual bottleneck: standard atomistic electronic-structure methods rely on periodic boundary conditions and become impractical (or require extremely large unit cells) for incommensurate angles such as 30°, while alternative k-space tight-binding descriptions provide important insights but do not deliver a direct, scalable real-space atomistic picture of local spectral functions and spatial localization patterns. Existing strategies included (i) constructing large periodic approximants with unit cells containing up to 10^7 atoms to mimic the incommensurate geometry, which is computationally demanding and obscures direct real-space interpretation, and (ii) k-space tight-binding models that predict localized, fractal-like quasicrystalline states but do not produce fully atomistic local density of states (LDOS) maps for large, nonperiodic samples. Because of these limitations, several scientific questions remained unresolved: where, in real space, do the quasicrystalline localized states reside and how do they relate to the Stampfli quasicrystal tiling elements; what is the spatial pattern and quantitative strength of LDOS suppression associated with interlayer coupling; and how do Landau-level (LL) spectra of the quasicrystal compare quantitatively with monolayer graphene and experiment. The combination of (a) the need for an O(𝒩)-scalable, real-space, atomistic method that avoids periodic boundary conditions and (b) the absence of a detailed mapping between atomistic LDOS, quasicrystal tiling (Stampfli constructions), and measurable spectral features under magnetic field motivates the present work.",
+        "content_hash": "dd09b2861867ee9c08441dfb4cffd9c4a49d4bebaaf2e59e2d96bee61493734c",
+        "id": "gcn_692b6c32b6a64c54",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1040536153800835092::problem",
+            "package_id": "paper:1040536153800835092",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1040536153800835092"
+          ]
+        },
+        "rerank_score": 0.7187704043666393,
+        "role": "premise",
+        "score": 0.01,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "One could suspect that lack of translation symmetry (as in quasicrystals and amorphous systems) might generically permit interior NH accumulations under PBC; prior to this work that possibility was not excluded. Distinguishing fractal-specific inner-skin phenomena from generic nonperiodic-lattice responses required direct comparative numerics on quasicrystalline and amorphous geometries with identical NH operators and boundary conditions.",
+        "content_hash": "fa89f8b6c940ad8e4895fbdd521e89d0cd9952049b93ec19d77d84032a997271",
+        "id": "gcn_67c0dcfa49f84937",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867771091932676981::conclusion_8_subproblem",
+            "package_id": "paper:867771091932676981",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867771091932676981"
+          ]
+        },
+        "rerank_score": 0.7173358894729343,
+        "role": "premise",
+        "score": 0.014285714285714285,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "For a concrete prediction to guide experiments, the community needed explicit numerical parameter regimes showing where quasicrystalline-only higher-order topology appears, how robust that regime is under tuning of intra- versus inter-cell hoppings, and what distinct spectroscopic signatures (number and spatial localization of near-zero modes) distinguish the quasicrystalline topological phase from trivial or gapless regimes. Without quantitative phase boundaries and spatial-mode diagnostics, designing an experiment and interpreting measurements (corner peaks versus central peaks) would remain ambiguous.",
+        "content_hash": "93f8ea3f11cced326d7b98fc5e47ad2f90579f5d2758cf56ff6ce7df31cdd5b4",
+        "id": "gcn_4bc2177d8d4645fb",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1200087706047086598::conclusion_4_subproblem",
+            "package_id": "paper:1200087706047086598",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1200087706047086598"
+          ]
+        },
+        "rerank_score": 0.7017441404625274,
+        "role": "premise",
+        "score": 0.007142857142857143,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Theoretical descriptions of quasicrystal electronic structure had yielded conflicting predictions about the presence of fine-scale LDOS structure: some calculations on large approximants or tilings predicted small-width peaks and gaps while other recent calculations suggested a nonspiky total DOS. Moreover, calculations that neglected realistic aperiodic geometry or used too small approximants could not address how local geometric inequivalency leads to site-to-site LDOS variability. A model that (i) places a tight-binding Hamiltonian on a quasicrystalline vertex network and (ii) computes locally resolved LDOS with finite-energy broadening was therefore needed to test whether the aperiodic geometry alone can generate localized, narrow spectral features and how self-similarity or differing larger-scale environments influence local spectra. The Penrose-patch tight-binding calculations here resolve this by demonstrating that aperiodic geometry produced local spikiness and that geometrically similar sites may still show distinct LDOS because of differing extended surroundings.",
+        "content_hash": "9f248b6e2396af1c5158770518dde86c026df272d67e1d69c088e0e58a6d62f4",
+        "id": "gcn_70de5e4ba17c468d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811866131743637507::conclusion_4_subproblem",
+            "package_id": "paper:811866131743637507",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811866131743637507"
+          ]
+        },
+        "rerank_score": 0.7904389140988879,
+        "role": "premise",
+        "score": 0.019829868739789307,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Crystalline band topology is a well-established framework describing how electronic bands in periodic solids exhibit robust, quantized responses and boundary-localized modes, but it is defined for physical crystals that exist only up to three spatial dimensions. Consequently, any attempt to access or probe topological phases native to higher spatial dimensionality ($d>3$) in realistic laboratory systems faces a fundamental obstruction: there is no natural higher-dimensional lattice in which to realize their band Hamiltonians and associated bulk-boundary phenomena. Prior efforts to study topology on nonperiodic structures (quasicrystals or amorphous networks) have either (i) directly defined specific topological tight-binding models on quasicrystal or aperiodic graphs or (ii) introduced specific aperiodic potentials in low-dimensional crystals; these approaches do not provide a systematic mapping from bona fide higher-dimensional topological crystals to lower-dimensional realizations that unambiguously inherit the parent crystal's topological invariants and defect responses. Moreover, there has been no generally stated and constructive procedure for obtaining an effective Hamiltonian that lives on a lower-dimensional “brane’’ embedded in a parent lattice by integrating out degrees of freedom outside the brane while preserving Hermiticity and the spectral/topological signatures of the parent. As a result, (a) researchers lack a controlled method to realize holographic images of $d>3$ topological crystals in $d\\le 3$ experimental platforms, (b) it is unclear whether and how parent bulk-boundary and bulk-defect correspondences, and topological invariants, survive projection onto periodic or aperiodic lower-dimensional lattices (including quasicrystals), and (c) there is no established way to probe translationally active topological features (e.g., band-inversion momentum–sensitive defect modes) of higher-dimensional parents using lower-dimensional networks. These gaps hinder both theoretical exploration of higher-dimensional band topology and practical routes to observe their physical consequences in available designer and metamaterial platforms.",
+        "content_hash": "c17ce739368cd31b85eab54fd778e9fde0c19af6bd00a46df6a2b831c92d849b",
+        "id": "gcn_bd1d84232cdf4672",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867770780115534206::problem",
+            "package_id": "paper:867770780115534206",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867770780115534206"
+          ]
+        },
+        "rerank_score": 0.7035366461179255,
+        "role": "premise",
+        "score": 0.008264462809917356,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Appendix B invokes established mathematical results (theorems in the quasicrystal literature) that characterize bounded orbits of the Fibonacci trace map and prove that, for positive invariant V, the set of bounded orbits is a Cantor set of measure zero for the tight‑binding model.",
+        "content_hash": "41efb6160d59125dcda86ae54c1c629cced1ecb4ba9b75206e660f12310b01cf",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_3945365da7a64f4f",
+        "kind": "highlight",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867762575733948957::H3",
+            "package_id": "paper:867762575733948957",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867762575733948957"
+          ]
+        },
+        "rerank_score": 0.7250157906777333,
+        "role": "premise",
+        "score": 0.0057478858350951375,
+        "title": "Use of rigorous Fibonacci trace‑map theorems to argue Cantor structure",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The electronic spectrum and eigenstate classification for two-dimensional quasicrystals remains incomplete because there is no Bloch theorem analogue to exploit lattice periodicity and reciprocal-space band-labeling. Prior studies established that simplified tight-binding vertex models on quasicrystals can exhibit macroscopically degenerate, strictly localized zero-energy eigenstates (LS) in special cases (notably the Penrose tiling), but it is unknown how generic those features are across different quasiperiodic tilings and how to count and classify such states reliably in the thermodynamic bulk. Existing numerical approaches rely on (a) diagonalizing finite open patches, which mixes bulk LS with boundary-induced zero modes and makes it hard to decide exact zero eigenvalues numerically; (b) large periodic approximants or deflation-based constructions that require careful extrapolation and may miss LS types that are not centered on the chosen symmetric patch; and (c) ad hoc localization-detection heuristics (e.g., high inverse participation ratio) that do not guarantee a complete, orthogonal, compact basis for the zero-energy manifold. These limitations prevent (i) a robust, scalable bulk count of strictly localized zero-energy states for large two-dimensional quasicrystals such as the octagonal Ammann-Beenker lattice (ABL); (ii) an exact analytical accounting of LS frequencies in the infinite lattice via perpendicular-space area measures; and (iii) a construction of a compact, orthogonal set of LS (a maximally localized basis spanning the zero-energy manifold) suitable for further analytical or numerical study. Consequently, quantitative statements about the fraction of zero-energy LS in the ABL spectrum, a complete list of independent LS types, and the relationship between LS structure and vertex/perpendicular-space geometry remained unresolved prior to this work.",
+        "content_hash": "8de9d87edbe60274bbc7f60148dc2e01e289571a574b961c1e1c1fa48eeae874",
+        "id": "gcn_1984d7d5b3234b4f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867749820440248659::problem",
+            "package_id": "paper:867749820440248659",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867749820440248659"
+          ]
+        },
+        "rerank_score": 0.7102677958869659,
+        "role": "premise",
+        "score": 0.006944444444444444,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Physical context: Understanding the disorder-strength dependence of topology is essential for experimental realization and theoretical classification of HOTAIs in quasicrystals. Prior state: In crystalline systems TAIs/HOTAIs are known to appear only in finite disorder windows; whether the same qualitative structure holds in aperiodic lattices was not established. Limitations: Without concrete phase-structure mapping, one cannot prescribe experimental parameters or understand the interplay between disorder-induced renormalization and localization in quasicrystals. Consequences of the gap: This conclusion maps the generic structure—weak-disorder stability, intermediate-disorder induction, strong-disorder localization—for the studied quasicrystalline SOTI models, providing concrete numerical guidance on where HOTAIs may be observed.",
+        "content_hash": "09a27e9003dac575d11144dc361152c849f6c849aba005217249c61cdbeec2a8",
+        "id": "gcn_ab0fbe8cb9cc45cd",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867750854931776178::conclusion_7_subproblem",
+            "package_id": "paper:867750854931776178",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867750854931776178"
+          ]
+        },
+        "rerank_score": 0.703023572561191,
+        "role": "premise",
+        "score": 0.006896551724137931,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "A mirror-protected topological crystalline insulator is realized in an aperiodic octagonal quasicrystal (Ammann-Beenker tiling) using a tight-binding model with three atomic $p$ orbitals ($p_x$, $p_y$, $p_z$) per site and spin-orbit coupling. The system exhibits a bulk energy gap and robust edge states localized on the boundary, as shown by the open-boundary spectrum and wavefunction analysis. The topology is driven by a band inversion between $p_z$ states (antisymmetric under in-plane mirror $\\hat{M}_z$) and $p_{x,y}$ states (symmetric under $\\hat{M}_z$), both having the same parity.",
+        "content_hash": "5a54de4c20da4798cd733b118e8c511891067a58d3833cd79d4d515d065a1b63",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_cf26ac4f4dc74d61",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817398415271919616::conclusion_1",
+            "package_id": "paper:817398415271919616",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817398415271919616"
+          ]
+        },
+        "rerank_score": 0.74649835820746,
+        "role": "conclusion",
+        "score": 0.006296842668039563,
+        "title": "Realization of aperiodic topological crystalline insulator (TCI) in an octagonal quasicrystal",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Quasicrystals are aperiodic lattices with long-range order but no translational symmetry, so conventional momentum-space concepts such as Fermi surfaces and momentum-space topological invariants cannot be applied directly. Tight-binding models on two-dimensional quasicrystalline tilings (e.g., Ammann-Beenker, Penrose, Socolar) generically host families of strictly localized, highly degenerate \"confined\" single-particle states that form a macroscopic flat band at zero kinetic energy in the normal state. Prior theoretical and numerical studies of superconductivity in quasicrystals have largely adapted periodic-system treatments (mean-field s-wave pairing, momentum-space diagnostics) or considered topological superconductivity in regimes where bulk spectral gaps exist; consequently, there is no established understanding of how the dense manifold of confined states and absence of translational symmetry modify superconducting phases under Zeeman fields and spin-orbit coupling. In particular, (i) previous literature on gapless superconductivity treated impurity- or disorder-induced subgap bands or magnetic impurities, so it remains unresolved whether a quasicrystal can realize an intrinsic gapless superconducting phase driven solely by its aperiodic geometry and flat-band confined states; (ii) conventional topological classification relies on a bulk energy gap and momentum-space constructs, leaving open how to identify and characterize any topological character of superconducting phases that are both gapless and aperiodic; and (iii) without such real-space diagnostics, it is unclear whether boundary modes (e.g., Majorana zero modes) can appear or be protected in gapless superconducting phases specific to quasicrystals. These gaps in understanding prevent prediction, classification, and physical interpretation of novel superconducting phases that could arise from the interplay of confined states, broken translational symmetry, Zeeman fields, and spin-orbit coupling in quasicrystals.",
+        "content_hash": "bad59b8443f8c44ff876953960075f573f58070be5e715f7bdee4bf44c61f117",
+        "id": "gcn_d9150334822f4d0d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1048843783111704577::problem",
+            "package_id": "paper:1048843783111704577",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1048843783111704577"
+          ]
+        },
+        "rerank_score": 0.6810816481702818,
+        "role": "premise",
+        "score": 0.007352941176470588,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Physical context: the transport and spectral properties of quasicrystals are controlled by the spatial character of bulk eigenstates. Prior understanding: quasicrystal eigenstates may be critical, localized, or fractal, but the interplay between such bulk state character and topological band inversion in a concrete QSH quasicrystal model had not been systematically quantified. Scientific consequence: quantifying the localized/critical nature and the low participation ratios near the Fermi level clarifies why quasicrystalline QSH systems may show poor bulk conduction even when topological edge channels exist, and motivates separate transport analyses to distinguish edge conduction from bulk contributions.",
+        "content_hash": "7e1a84b3460c72b046d16adb9d82fe82fb71ecdf69bb0d82835cbbb36f5aff6f",
+        "id": "gcn_77753a62cfe04a67",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867765418641589104::conclusion_8_subproblem",
+            "package_id": "paper:867765418641589104",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867765418641589104"
+          ]
+        },
+        "rerank_score": 0.7416287223467526,
+        "role": "premise",
+        "score": 0.006923399413068215,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Quasicrystalline tight-binding models lack a Bloch-theorem framework to classify eigenstates, so their excitation spectra must be understood case-by-case. Two well-studied planar quasicrystals — the Penrose tiling (PL) and the Ammann–Beenker lattice (ABL) — both exhibit a large, degenerate zero-energy manifold composed of strictly localized (compact) states (LS), but the two models display qualitatively different LS phenomenology: the PL admits a small finite set of high-frequency LS types and large regions of the lattice that are \"forbidden\" (cannot belong to any LS support), whereas the ABL admits many generations of LS types, all LS types can be chosen with constant amplitude magnitude (alternating signs provide interference), and no forbidden sites are found. A recent study of the Socolar dodecagonal lattice (SDL) reported a numerical LS fraction and a set of LS types whose frequencies did not sum to the numerical degeneracy, leaving open whether the SDL follows the PL-like or ABL-like pattern and whether the previously identified LS types and counting methods were complete or accurate. More generally, for quasicrystals obtained by cut-and-project constructions (here: SDL from a six-dimensional cubic lattice, with perpendicular-space acceptance domains $V_{ij}$), there is a need for a robust, non-ambiguous method to (i) enumerate independent LS types, (ii) compute their translation/rotation frequencies in the infinite lattice, (iii) certify independence (non-redundancy), and (iv) identify sites forbidden by local connectivity — because prior approaches based on inflation/deflation scaling or limited numerics can miscount frequencies or miss low-frequency LS types, preventing a definitive accounting of the zero-energy manifold and obstructing understanding of which structural ingredients control LS frequency, orthogonality, and robustness.",
+        "content_hash": "762473ab45cff920c90348a7ff1dbdbab637c637cbffa4fa4b765a55d7c01a8c",
+        "id": "gcn_18504d408d1a4145",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867754468119151043::problem",
+            "package_id": "paper:867754468119151043",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867754468119151043"
+          ]
+        },
+        "rerank_score": 0.6830096074709202,
+        "role": "premise",
+        "score": 0.012345679012345678,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In the Hofstadter vertex model (a tight-binding model on the vertices of the quasicrystal with nearest-neighbor hopping and a Peierls phase from a uniform perpendicular magnetic field in the Landau gauge) on the fivefold Penrose (3448 sites) and eightfold Ammann-Beenker (3345 sites) quasilattices, the density of states on the energy-flux plane reveals a Hofstadter butterfly that is non-periodic: the fractal pattern does not repeat with flux and the spectrum is not symmetric around \\(\\phi/\\phi_0=0.5\\), where \\(\\phi\\) is the magnetic flux through the reference tile (fat rhombus for Penrose, square for Ammann-Beenker) and \\(\\phi_0=2\\pi\\) is the flux quantum. This aperiodicity arises from the two competing incommensurate scales introduced by the different tile areas.",
+        "content_hash": "68e4d4dd0194cb12e0f7e8ca512161aa64437e6c7f642e52e10e32efb5c382a9",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_4fa0557e59884330",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817400674949005313::conclusion_1",
+            "package_id": "paper:817400674949005313",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817400674949005313"
+          ]
+        },
+        "rerank_score": 0.7376967990677673,
+        "role": "conclusion",
+        "score": 0.005712667394910385,
+        "title": "Aperiodic Hofstadter butterfly in fivefold Penrose and eightfold Ammann-Beenker quasicrystalline vertex models",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Quasicrystals are ordered but non‑periodic structures whose electronic or photonic spectra fragment into many narrow bands and gaps; in one dimension this leads to well‑established localization driven by a tunable incommensurate potential (Aubry–André physics) and by the formation of a fractal (Cantor‑like) spectrum. In two dimensions, and in particular for dodecagonal (12‑fold) quasicrystals realizable as the superposition of two honeycomb lattices rotated by $30^\\circ$, theoretical studies predict a similar tendency toward band fractalization and band narrowing, but experimental tests of localization transitions and of the detailed transport consequences of increasing quasicrystal strength in 2D have been scarce. Independently, non‑Hermitian potentials (complex on‑site energies or losses/gain) can strongly modify localization: in 1D non‑Hermitian quasicrystals a transition associated with the appearance of diffusive, non‑Hermitian bands bounded by exceptional points was predicted and observed, leading to localization of all states via a mechanism distinct from the Hermitian fractal band picture. Before this work it was therefore unresolved how these two localization mechanisms—(i) Hermitian quasicrystal band fractalization/flat bands and (ii) non‑Hermitian exceptional‑point driven diffusive bands—interact in a genuinely two‑dimensional dodecagonal quasicrystal. In particular, there was no experimental system with independent, continuous control of (a) the relative strength of the two constituent lattices that tunes the system from a periodic honeycomb lattice to a dodecagonal quasicrystal, and (b) the non‑Hermitian part of the potential (imaginary susceptibility) that can be varied without concomitantly altering the real potential in an uncontrolled way. Without such a platform, it remained unclear (A) whether the Hermitian localization transition in 2D quasicrystals can be observed and quantitatively characterized, (B) whether adding non‑Hermiticity strengthens the localization (as in some 1D scenarios) or produces qualitatively new transport regimes in 2D, and (C) whether exceptional‑point physics is required for non‑Hermitian modifications of transport in 2D quasicrystals or whether alternative non‑Hermitian mechanisms can delocalize or reconfigure wavepacket transport. These gaps prevented experimental tests of competing theoretical predictions and hindered understanding of how quasicrystal symmetry and localization manifest in real‑space probe dynamics in two dimensions.",
+        "content_hash": "9217bb77e0b8de19266941fa60e4df53f5b9875d6f7fc184c8e6f41adc3b8872",
+        "id": "gcn_5197c3c995e3473c",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:943750642852167996::problem",
+            "package_id": "paper:943750642852167996",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:943750642852167996"
+          ]
+        },
+        "rerank_score": 0.6754438507093492,
+        "role": "premise",
+        "score": 0.006289308176100629,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The study concerns one-dimensional tight-binding lattices that combine two features not fully reconciled in prior work: (i) non-Hermiticity arising from antisymmetric (nonreciprocal) hopping amplitudes, which in the absence of other perturbations produces boundary-localized “skin” modes and complex PBC spectral loops characterized by a spectral winding number; and (ii) a quasiperiodic onsite potential (incommensurate with the lattice) that in Hermitian models (Aubry–André type) produces a well-defined localization–delocalization transition at a critical potential strength $V_{c}$ and fractal spectral structures at criticality. Existing approaches have treated these ingredients separately or in special symmetric combinations (e.g., preserving generalized self-duality or PT symmetry) and have: relied on dynamical probes rather than static eigenstate fractal measures; used models with exponential or symmetric long-range hopping that preserve analytic dualities; or focused on OBC where skin effects mask bulk localization. Consequently, the following substantive scientific gaps remain prior to this work: (a) the influence of antisymmetric nearest-neighbor hopping on the existence and quantitative value of a bulk-critical potential $V_{c}$ under periodic boundary conditions (PBC) where skin modes are suppressed; (b) how finite-range longer-range hoppings (e.g., next-nearest-neighbor terms) alter localization physics (possible emergence of mobility edges) in non-Hermitian quasiperiodic lattices lacking self-dual symmetry; (c) how fractal diagnostics originally developed for real spectra (spectral fractal dimension, Cantor-like measures) generalize to complex PBC spectra in non-Hermitian settings and whether such spectral fractal measures relate to localization transitions; and (d) whether localization- and spectrum-based diagnostics exhibit parameter-space self-similarity (Devil’s-staircase-like plateaus) when system parameters (not only energy) are varied. These gaps prevent quantitative prediction of localization boundaries or mobility edges in realistic non-Hermitian quasiperiodic lattices, leave the connection between spectral topology (winding) and bulk localization unclear, and obstruct the use of fractal and ratio-based diagnostics to classify phases and transitions in these systems.",
+        "content_hash": "aa8845589493d1afdb9077103a325b983170f6510093d30985edcd1540ababec",
+        "id": "gcn_e7c23224c43341f4",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1192443055836233756::problem",
+            "package_id": "paper:1192443055836233756",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1192443055836233756"
+          ]
+        },
+        "rerank_score": 0.6680901737287234,
+        "role": "premise",
+        "score": 0.009345794392523364,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Quasicrystals and topological quantum computation (TQC) occupy overlapping but disconnected prior research trajectories. On the TQC side, universal hardware-level protection requires non-abelian anyons (e.g. Fibonacci anyons), yet realizing non-abelian anyonic quasiparticles in physical materials remains experimentally elusive; established theoretical frameworks for anyons (Chern–Simons theory, lattice models, Temperley–Lieb/Jones constructions) provide fusion Hilbert spaces and braid-group representations but lack a widely available materials platform that implements these structures. On the quasicrystal side, quasicrystalline materials show aperiodic and topological order and have been studied with adaptations of Bloch and tight-binding methods, but the absence of translational symmetry invalidates direct use of standard Bloch/Floquet machinery for topological aspects and complicates identification of protected fusion-like degrees of freedom. Existing approaches to quasicrystal electronic structure and topology (cut-and-project/model-set constructions, tiling-space C*-algebras, tight-binding exact solutions) describe spectra and certain states, but they do not by themselves provide a concrete route to obtain the fusion Hilbert spaces or braid-group operations needed for TQC. Consequently, there is a clear gap: a physically motivated, mathematically controlled identification of quasicrystalline degrees of freedom that (i) realize Hilbert spaces with the same combinatorial growth as non-abelian anyon fusion spaces, (ii) admit algebraic projections and relations that realize Temperley–Lieb / Jones-Wenzl structures at the appropriate root of unity, and (iii) produce unitary braid-group representations that can serve as the hardware substrate for topological quantum computation. Without such an identification, one cannot (a) propose a concrete class of solid-state materials that realize non-abelian anyonic fusion spaces, (b) define explicit projection operators and braid generators acting on physically meaningful quasicrystal subspaces, or (c) map standard qubit encodings into quasicrystal tiling-space subspaces suitable for implementing quantum circuits via braiding. This paper addresses that gap by studying whether and how lower-dimensional quasicrystal tiling spaces (notably the one-dimensional Fibonacci chain and two-dimensional Penrose tiling) can supply the required Hilbert-space dimensions, C*-algebraic structure, and braid-group representations needed for TQC.",
+        "content_hash": "fcd86a727ffdf51a8b010677e01915ede540d290eabd59846e508d47d8adcd59",
+        "id": "gcn_733049032e0b4c28",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867752222081942204::problem",
+            "package_id": "paper:867752222081942204",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867752222081942204"
+          ]
+        },
+        "rerank_score": 0.6742882504066308,
+        "role": "premise",
+        "score": 0.010638297872340425,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "A key prior uncertainty for quasicrystalline topological systems was whether the spectrum would exhibit complex fractal structure (many gaps at all scales) that could dominate or obscure topological band-gap features. If many substantial gaps existed, finite-size experiments might show edge phenomena tied to those spurious gaps, preventing reliable extrapolation to infinite-area behavior. What is needed is a numerically supported statement about the size of any secondary gaps: either a demonstration that large fractal-like gaps persist (making the system spectrally intricate), or that apart from the central topological gap the spectrum organizes into broad continuous bands with at most very small residual gaps, so that topological predictions based on a primary gap are meaningful.",
+        "content_hash": "dc385815d0c69355855662a1685a8d6d2f6b5e0fd0a0087af0026eab97d673dd",
+        "id": "gcn_80dc2eeb1353490b",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867772751656518103::conclusion_2_subproblem",
+            "package_id": "paper:867772751656518103",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867772751656518103"
+          ]
+        },
+        "rerank_score": 0.7240443880337175,
+        "role": "premise",
+        "score": 0.010638297872340425,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The work addresses the problem of identifying and characterizing topological states that are localized inside the bulk of quasicrystals (so-called bulk localized transport, BLT, states) in systems that lack translational invariance. Before this work: (i) quasicrystalline graphs such as the Ammann-Beenker (AB) tiling do not admit a Brillouin zone or crystal momentum, so momentum-space topological invariants (standard Chern-number formulas) are inapplicable; (ii) existing real-space markers have drawbacks for this setting: the Bott index yields integer invariants but is not formulated in directly measurable local quantities, and the local Chern marker is derived from momentum-space formulas and need not take integer values or have an unambiguous interpretation far from periodicity; (iii) BLT states themselves lack a limiting thermodynamic regime in which topology becomes exact (individual BLT states can remain at fixed spatial separations when the system grows), so there is no obvious, unique finite-size criterion for classifying a state as topological; (iv) consequently, there is no established, physically motivated, experimentally accessible algorithm to (a) decide which single-particle eigenenergies correspond to topological (BLT or edge) currents in finite quasicrystals, (b) separate bulk-localized topological currents from ordinary edge states, (c) quantify robustness of such currents under disorder, or (d) characterize how BLT occurrence scales with system parameters (flux, system size) and how BLT real-space support relates to quasicrystal geometry. These gaps prevented clear numerical classification, physical interpretation, and experimental connection for BLT states and motivated the development of a concrete, local, physically interpretable identification scheme and its application to a prototypical model (the Hofstadter model on the AB-tiling).",
+        "content_hash": "b76d04b910e5d4397a4a7303829a323411ad629e523839aa5e2bf3f60af6c121",
+        "id": "gcn_727f074dcce2453c",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1156923802140016646::problem",
+            "package_id": "paper:1156923802140016646",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1156923802140016646"
+          ]
+        },
+        "rerank_score": 0.657832146481682,
+        "role": "premise",
+        "score": 0.005747126436781609,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Quasicrystalline electronic systems, exemplified by the one-dimensional Fibonacci chain, exhibit long-range order without translational symmetry and a scale-invariant atomic structure that produces a fractal energy spectrum and critical (multifractal) eigenstates. Prior analyses of localization in such systems have mainly relied on indicators like the inverse participation ratio (IPR) and multifractal exponents, which quantify only the number of sites where a state has weight and related global scaling exponents. These tools do not capture how eigenstate localization correlates with the chain's local atomic environments, local symmetry centers, or with the spectral gap labeling that arises from the quasicrystal's higher-dimensional embedding (phason degree of freedom). Consequently, existing approaches cannot (i) distinguish different bulk bands that occupy similar numbers of sites but are localized on distinct local environments (e.g., \"atomic\" vs \"molecular\" sites), (ii) provide a direct, quantitative link between spatial localization lengths and the gap labels/fractal structure of the energy spectrum, nor (iii) supply a geometric observable naturally sensitive to phase relations between eigenstate components and to scale-invariance across approximants. These limitations hinder precise theoretical understanding of localization in quasicrystals and impede relating localization to experimentally accessible geometric observables and to many-body phenomena sensitive to quantum geometry.",
+        "content_hash": "9aa690126d94fc4557147109af76ea7a37c8b46c03da8ad13012833c54ef1d58",
+        "id": "gcn_eab58f58bec04645",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1142429478408945665::problem",
+            "package_id": "paper:1142429478408945665",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1142429478408945665"
+          ]
+        },
+        "rerank_score": 0.655591569789095,
+        "role": "premise",
+        "score": 0.015151515151515152,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Quasicrystals are known to have a fractal (self-similar) energy spectrum with an infinite hierarchy of band gaps, arising from the aperiodic but ordered structure. In the context of topological insulators, it was unknown whether these gaps could host topological edge states. In periodic systems, topological invariants are defined from the band structure, and the number of topological gaps is fixed (equal to the number of bands or due to band inversion at high-symmetry points). The spectrum of a quasicrystal is singular continuous, and the notion of a band gap requires a careful thermodynamic limit. The question was whether the fractal gaps in a modulated quasicrystal could become topological—i.e., support chiral edge states—and if so, how the topological structure would manifest across different energy scales. This work reveals that the quasicrystal's fractal spectrum indeed becomes endowed with topological minigaps, each with a nontrivial Bott index and associated edge state, demonstrating a new class of topological system where topology appears at multiple resolutions.",
+        "content_hash": "2873662f4c83171ff37c6c75bd78695ede348c2f6dcfa5c9e3d35f4c001ce18d",
+        "id": "gcn_bfbcb15ee3644af5",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867761187452879171::conclusion_3_subproblem",
+            "package_id": "paper:867761187452879171",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867761187452879171"
+          ]
+        },
+        "rerank_score": 0.7337195829291567,
+        "role": "premise",
+        "score": 0.03128054740957967,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Determining parameter regimes that admit genuinely extended eigenstates in nonperiodic/fractal tight-binding systems is essential for understanding transport and localization transitions. Prior analyses for related aperiodic systems left open which explicit parameter combinations produce nontrivial extended solutions on fractal lattices. The statement that $E=-2/\\lambda$ yields extended states for $\\lambda\\geq 1$ gives a precise, parameter-dependent criterion locating a family of delocalized states in the model's phase diagram.",
+        "content_hash": "401b4d47265d30a597607e79c0e9c9431f6ea297dc8dc4942fd68db2d4c2f4ec",
+        "id": "gcn_d1f7335346a44a6c",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812085830997770241::conclusion_6_subproblem",
+            "package_id": "paper:812085830997770241",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812085830997770241"
+          ]
+        },
+        "rerank_score": 0.7537360095132586,
+        "role": "premise",
+        "score": 0.015625,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Higher-order topology in extended systems requires diagnostics that do not rely on translational symmetry and must be robust to realistic disorder. Before this work, higher-order Anderson-type transitions and structural-disorder-induced second-order topology had been demonstrated in crystalline and amorphous periodic lattices, but it was not established whether positional amorphization of a quasicrystalline lattice could produce a HOTI detectable by a bulk invariant suitable for aperiodic samples. The specific difficulties were (a) choosing an invariant that remains quantized in an aperiodic geometry and under ensemble-averaged symmetry constraints, (b) verifying that corner-localized modes emerge from gap renormalization induced by structural disorder rather than from finite-size or boundary-specific artifacts, and (c) showing the parameter windows (mass term strength, Dirac mass $M$, and disorder $\\sigma$) where a stable HOTI appears. Without addressing these points, there was no clear route to predict or confirm structural-disorder-induced second-order topology in quasicrystals.",
+        "content_hash": "317fabc0a160f0a0924f562a40710f08bfe2e93126e1fc4b2b9284cf24ba7a25",
+        "id": "gcn_b80fd7f6b4eb42d2",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:973109899573592072::conclusion_2_subproblem",
+            "package_id": "paper:973109899573592072",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:973109899573592072"
+          ]
+        },
+        "rerank_score": 0.6535934571552757,
+        "role": "premise",
+        "score": 0.008620689655172414,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In quasicrystals, there is no canonical unit cell or translational symmetry to define Bloch bands and Wannier centers, so a direct microscopic construction that places atomic sites and specifies intersite couplings while preserving a chosen higher-dimensional parent topology is lacking. Researchers needed a concrete, parameterized recipe that maps the known four-site-per-cell 2D SSH model (which has distinct topological classes characterized by Wannier-center coordinates $(\\nu_x,\\nu_y)\\in\\{0,1/2\\}^2$) into a 1D aperiodic tiling so that the resulting quasicrystal inherits the parent’s hopping pattern and can be implemented in physical platforms. Without such a construction, one cannot systematically (i) design quasicrystalline structures that reflect specific parent-model topologies, (ii) compute or simulate their spectrum and localized modes, or (iii) propose realizable phononic/photonic geometries to test inheritance of higher-order topology.",
+        "content_hash": "b0a14f30377c0da32813ef4d3edafc1cc01ea04c8426309e093251269f581b08",
+        "id": "gcn_90be1d3e4cf6485d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:966036067314565132::conclusion_1_subproblem",
+            "package_id": "paper:966036067314565132",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:966036067314565132"
+          ]
+        },
+        "rerank_score": 0.6458692074306338,
+        "role": "premise",
+        "score": 0.009708737864077669,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In one-dimensional quasiperiodic tight-binding models such as Fibonacci chains, the pure (disorder-free) Hamiltonian is known to have critical, multifractal single-particle eigenstates and a hierarchical fractal spectrum; rigorous results also imply that adding any amount of uncorrelated short-range disorder localizes all states in the infinite-system limit. What is not understood prior to this work is how the critical eigenstates of a finite quasicrystalline sample (i.e., system sizes smaller than the eventual localization length) respond quantitatively to weak random perturbations of the hopping amplitudes. Existing analytic techniques (trace-map methods and real-space renormalization for the pure system) characterize spectra and wavefunctions in the absence of disorder, but they do not provide controlled predictions for finite-size scaling functions, level-by-level IPR responses, or the dependence of localization-length exponents on the microscopic hopping ratio when weak randomness is present. Consequently, there is no unified picture that (i) classifies which individual critical states of an approximant will become more or less localized upon adding weak disorder, (ii) gives the scaling functions governing the inverse participation ratio (IPR) as a function of disorder strength $W$ and system size $L$, or (iii) connects those behaviors to the renormalization-group (RG) structure of the pure quasicrystal. This gap prevents quantitative finite-size predictions relevant for numerical studies and experiments (e.g., ultracold atoms, mesoscopic transport) and leaves open the interpretation of recent results on localization in quasiperiodic versus random systems.",
+        "content_hash": "769d40478e5069c9889207901480cd7bbb2529b985c04a96f2bed312bd57c00f",
+        "id": "gcn_860a76aba8754d04",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867752125487120925::problem",
+            "package_id": "paper:867752125487120925",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867752125487120925"
+          ]
+        },
+        "rerank_score": 0.706538302734622,
+        "role": "premise",
+        "score": 0.011764705882352941,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The detailed shape and fractality of single-particle wavefunctions in quasicrystals are fundamental open questions, with implications for localization and transport. While the Aubry-André model predicts a localization transition for all states, deviations due to larger secondary lattice amplitudes can introduce energy-dependent fractality and mobility edges; direct measurement of wavefunction statistics—for example through density imaging or response to phasonic perturbations—would clarify the nature of eigenstates in quasiperiodic potentials.",
+        "content_hash": "20ed9c0a3b4d158dfcba89a2446e50f6f929fb88db6cb5d275b0a5479b2733ad",
+        "id": "gcn_3c2fd9c0d1b14111",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867749385117630882::open_question_8",
+            "package_id": "paper:867749385117630882",
+            "version": "open-question-atomization-v2"
+          },
+          "source_packages": [
+            "paper:867749385117630882"
+          ]
+        },
+        "rerank_score": 0.6923746136439699,
+        "role": "premise",
+        "score": 0.008,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Demonstrating higher-order topology in a quasicrystalline setting requires first establishing a parent first-order topological phase that hosts boundary modes which can be gapped into bound states by suitable mass terms. Before this work, it had not been shown explicitly that a spinful, orbitalful tight-binding model defined on the Stampfli-tiling quasicrystal supports TRS-protected counterpropagating edge modes analogous to quantum spin Hall–type edge channels. Without such a demonstration one cannot justify introducing symmetry-breaking mass terms on the edge to obtain corner-localized bound states in the quasicrystal.",
+        "content_hash": "3609743e0f81c9aa26b3d670f246920eab19eaf6f778b8efaaa39a23f1de6c71",
+        "id": "gcn_ca418aa4f90c4117",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812536564054753281::conclusion_2_subproblem",
+            "package_id": "paper:812536564054753281",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812536564054753281"
+          ]
+        },
+        "rerank_score": 0.6880516932153921,
+        "role": "premise",
+        "score": 0.007874015748031496,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In quasicrystals, the absence of periodicity but presence of long-range order leads to unconventional electronic properties. For one-dimensional quasiperiodic chains such as the Fibonacci chain, while the fractal nature of the energy spectrum is well-established, the structure of eigenstates is not fully understood analytically, especially the nature of critical states that are neither localized nor extended. The special E=0 state at the center of the spectrum was known but its exact wavefunction in terms of a height field and its multifractal dimensions had not been derived in a general and explicit form. For two-dimensional quasicrystals like the Penrose and Ammann-Beenker tilings, the simplest tight-binding hopping model resisted theoretical analysis: apart from a few confined states at the band center, no analytic eigenstates were known. Recently, Kalugin and Katz (2014) proposed that the ground state of the pure hopping model on these tilings has a product form ψ(i)=C(i)e^{κ h(i)} with a nonlocal height field h(i), but this result was restricted to the pure hopping Hamiltonian. Extensions to models with site potentials, and a rigorous analytical demonstration that such states are critical (multifractal) were lacking. Furthermore, the exact computation of their multifractal spectra remained an open problem, despite numerical evidence suggesting criticality. This work aims to fill these gaps by providing exact solutions for a class of tight-binding models on 1D and 2D quasiperiodic tilings, explicitly computing their multifractal properties, and generalizing the Sutherland-Kalugin-Katz (SKK) framework to include onsite potentials and to the entire family of 1D metallic-mean chains.",
+        "content_hash": "67dfe5540da79338ef223a88e2a7d74d8eb1deb87d5a4c5d6742088d99e2da99",
+        "id": "gcn_ccdd0f0c1cd14eb8",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867750205322166953::problem",
+            "package_id": "paper:867750205322166953",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867750205322166953"
+          ]
+        },
+        "rerank_score": 0.7148124095625521,
+        "role": "premise",
+        "score": 0.01020408163265306,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "For the Ammann–Beenker quasicrystal tight-binding model (Eqs. 1–3, 5) with parameters t=Δ=1, μ=-1.7, V=1, numerical sparse diagonalization on a finite tiling of 27137 sites (N=4 subdivisions) shows eight states with energies near zero, separated from all other states by a gap, whose wavefunction amplitudes are strongly localized at the eight corners of the octagonal sample, with negligible weight on edges and in the bulk (Fig. 1). This direct numerical demonstration provides a concrete, validated realization of a higher-order topological superconducting phase in a quasicrystal.",
+        "content_hash": "51970b884cdb730c8563f0059cb8b9f94dd2d77b15f4972f5f342c3e4cd6aec8",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_aca79d97ba1a45ee",
+        "kind": "highlight",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867772717451968721::H1",
+            "package_id": "paper:867772717451968721",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867772717451968721"
+          ]
+        },
+        "rerank_score": 0.6915174987462004,
+        "role": "premise",
+        "score": 0.005744348302476596,
+        "title": "Numerical demonstration of corner Majorana zero modes",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The work addresses the lack of a systematic, quantitative understanding of how nontrivial band topology can persist or evolve when crystalline translational symmetry is removed to produce quasicrystalline or aperiodic systems, and how that evolution interplays with the well-known tendency of quasicrystals to host multifractal electronic states. Specifically, in two-dimensional electronic systems the standard topological diagnostics (Chern numbers, Berry curvature, TKNN formulas) are defined in momentum space and rely on translation invariance; these diagnostics therefore do not apply directly to nonperiodic lattices such as a 30° twisted bilayer honeycomb lattice which is aperiodic/quasicrystalline. Prior approaches either (a) used empirical, locally-defined indicators (e.g. local Chern markers) without establishing how they relate to conventional bulk invariants in deformed crystalline limits, or (b) proposed constructions of topological quasicrystals without tracing a smooth deformation from a known crystalline topological phase. As a result, there is no clear procedure to (i) construct a quasicrystalline system that inherits crystalline topology under smooth deformation, (ii) identify phase transitions between crystalline-like topological phases and strongly coupled aperiodic regimes, and (iii) characterize topology and transport (e.g. anomalous Hall response) in finite, nonperiodic samples where global momentum-space invariants are unavailable. These gaps prevent rigorous classification of topological quasicrystals, limit quantitative predictions for experiments or numerics on finite samples, and leave unresolved whether tools such as topological entanglement entropy, local Chern marker, and anomalous Hall conductivity computed in real-space can serve as reliable diagnostics across the crystalline→quasicrystalline crossover.",
+        "content_hash": "65fdd71f87d57c8114db0092fd75d9b914b4ddc06badc56b403ebf30dfe9bd77",
+        "id": "gcn_3ae3660252764b3d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1038701119158616069::problem",
+            "package_id": "paper:1038701119158616069",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1038701119158616069"
+          ]
+        },
+        "rerank_score": 0.6315118198059394,
+        "role": "premise",
+        "score": 0.009174311926605505,
+        "type": "question",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "req_ee48775dd0624"
+}

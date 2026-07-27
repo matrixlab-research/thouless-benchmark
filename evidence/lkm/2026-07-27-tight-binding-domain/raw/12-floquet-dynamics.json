@@ -1,0 +1,1475 @@
+{
+  "code": 0,
+  "data": {
+    "has_more": true,
+    "papers": {
+      "paper:1061164460892225590": {
+        "area": "arxiv-physics, arxiv-quantum physics",
+        "authors": "Samarth Sriram | Sashank Kaushik Sridhar | Avik Dutt",
+        "available_online": "",
+        "cover_date_start": "2024-11-04",
+        "created_at": "2026-06-10T23:36:19+08:00",
+        "doi": "10.48550/arxiv.2411.02475",
+        "en_title": "Quantized topological phases beyond square lattices in Floquet synthetic dimensions",
+        "id": "1061164460892225590",
+        "keywords": "",
+        "publication_date": "2024-11-04",
+        "publication_id": "108526",
+        "publication_name": "Quantum Physics _ Physics.quant-ph.quant-ph",
+        "research_categories": "",
+        "zh_title": "弗洛凯合成维度中超越方形晶格的量子化拓扑相"
+      },
+      "paper:1113441274880327685": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Othmane Benhaida | Saidi El Hassan | L. B. Drissi",
+        "available_online": "",
+        "cover_date_start": "2025-03-28",
+        "created_at": "2026-06-17T08:11:05+08:00",
+        "doi": "10.48550/arxiv.2503.22146",
+        "en_title": "Optically Controlled Topological Phases in the Deformed α-",
+        "id": "1113441274880327685",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "变形α-中光控拓扑相"
+      },
+      "paper:1141346488366923777": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Yifei Bai | Anna R. Dardia | Toshihiko Shimasaki | David M. Weld",
+        "available_online": "",
+        "cover_date_start": "2025-06-13",
+        "created_at": "2026-06-19T05:43:08+08:00",
+        "doi": "10.48550/arxiv.2506.11984",
+        "en_title": "Exploring light-induced phases of 2D materials in a modulated 1D quasicrystal",
+        "id": "1141346488366923777",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108482",
+        "publication_name": "Quantum Gases",
+        "research_categories": "",
+        "zh_title": "探索二维材料在调制一维准晶中的光诱导相"
+      },
+      "paper:1141706553821233158": {
+        "area": "arXiv-Physics, arXiv-Physics",
+        "authors": "Ruiyi Zhou | Yosuke Kanai",
+        "available_online": "",
+        "cover_date_start": "2025-06-13",
+        "created_at": "2026-06-18T23:19:45+08:00",
+        "doi": "10.48550/arxiv.2506.12147",
+        "en_title": "Molecular Control of Floquet Topological Phase in Non-adiabatic Thouless Pumping",
+        "id": "1141706553821233158",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108510",
+        "publication_name": "Chemical Physics",
+        "research_categories": "",
+        "zh_title": "非绝热 Thouless 泵浦中 Floquet 拓扑相的分子控制"
+      },
+      "paper:1159100446640439300": {
+        "area": "arxiv-physics",
+        "authors": "Maowu Zuo | Yongguan Ke | Zhoutao Lei | Chaohong Lee",
+        "available_online": "",
+        "cover_date_start": "2025-08-01",
+        "created_at": "2026-06-16T10:39:38+08:00",
+        "doi": "10.48550/arXiv.2508.00582",
+        "en_title": "Diagnosing Floquet Chern and anomalous topological insulators based on Bloch oscillations",
+        "id": "1159100446640439300",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108520",
+        "publication_name": "Optics",
+        "research_categories": "",
+        "zh_title": "基于布洛赫振荡诊断弗洛凯陈绝缘体和反常拓扑绝缘体"
+      },
+      "paper:1160190813754359812": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Saud Alabdulal | Miftah Hadi Syahputra Anfa | Hocine Bahlouli | Michael Vogl",
+        "available_online": "",
+        "cover_date_start": "2025-08-06",
+        "created_at": "2026-06-19T04:44:30+08:00",
+        "doi": "10.48550/arXiv.2508.04620",
+        "en_title": "Light induced transitions of valley Chern numbers and flat bands in a non-twisted moire graphene-hexagonal boron nitride superlattice",
+        "id": "1160190813754359812",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "非扭曲莫尔石墨烯-六方氮化硼超晶格中光诱导的谷陈数和平带跃迁"
+      },
+      "paper:1162365540585439237": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Suheel Ahmad Malik | M. A. H. Ahshan | SK Firoz Islam",
+        "available_online": "",
+        "cover_date_start": "2025-08-12",
+        "created_at": "2026-06-15T04:17:05+08:00",
+        "doi": "10.48550/arXiv.2508.09011",
+        "en_title": "Probing imbalanced Weyl nodes in two-dimensional anisotropic Weyl semimetal via optical conductivity",
+        "id": "1162365540585439237",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "通过光导率探测二维各向异性外尔半金属中的非平衡外尔点"
+      },
+      "paper:7477243840723296339": {
+        "area": "arXiv-cond-mat",
+        "authors": "Hosein Cheraghchi",
+        "available_online": null,
+        "cover_date_start": "2026-06-25",
+        "created_at": "2026-07-04T01:54:37+08:00",
+        "doi": "10.48550/arxiv.2606.26632",
+        "en_title": "Floquet-Engineered Chern Insulator in two-dimensional $d_{x^2-y^2}$-Wave Altermagnets",
+        "id": "7477243840723296339",
+        "keywords": null,
+        "publication_date": "2026-06-25",
+        "publication_id": "",
+        "publication_name": "arXiv (cond-mat.mes-hall)",
+        "research_categories": null,
+        "zh_title": "二维 $ d_{x ^ 2-y ^ 2}$-波高磁的Floquet工程Chern绝缘子"
+      },
+      "paper:7477243840723296374": {
+        "area": "arXiv-cond-mat",
+        "authors": "Hosein Cheraghchi",
+        "available_online": null,
+        "cover_date_start": "2026-06-25",
+        "created_at": "2026-07-09T02:02:38+08:00",
+        "doi": "10.48550/arxiv.2606.26667",
+        "en_title": "Floquet Topological Phases and Anomalous Hall Signatures in Irradiated Two-dimensional $d_{xy}$-Wave Altermagnets",
+        "id": "7477243840723296374",
+        "keywords": null,
+        "publication_date": "2026-06-25",
+        "publication_id": "",
+        "publication_name": "arXiv (cond-mat.mes-hall)",
+        "research_categories": null,
+        "zh_title": "辐照二维 $ d_{xy}$ 波高磁中的Floquet拓扑相和异常霍尔特征"
+      },
+      "paper:811698847909675011": {
+        "area": "Physics and Astrophysics, physics, condensed matter, physics, applied, materials science, multidisciplinary",
+        "authors": "Takuya Kitagawa | Erez Berg | Mark Rudner | Eugene Demler",
+        "available_online": "2010-12-10",
+        "cas_zone": "2",
+        "cover_date_start": "2010-12-10",
+        "created_at": "2026-06-19T00:14:25+08:00",
+        "doi": "10.1103/physrevb.82.235114",
+        "en_title": "Topological characterization of periodically driven quantum systems",
+        "id": "811698847909675011",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "周期性驱动量子系统的拓扑表征"
+      },
+      "paper:812550683533246464": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, materials science, multidisciplinary",
+        "authors": "Sara Zamani | R. Jafari | A. Langari",
+        "available_online": "2020-10-29",
+        "cas_zone": "2",
+        "cover_date_start": "2020-10-29",
+        "created_at": "2026-06-16T07:54:58+08:00",
+        "doi": "10.1103/physrevb.102.144306",
+        "en_title": "Floquet dynamical quantum phase transition in the extended XY model: Nonadiabatic to adiabatic topological transition",
+        "id": "812550683533246464",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "扩展XY模型中的弗洛凯动力学量子相变：非绝热到绝热的拓扑相变"
+      },
+      "paper:812586135703257089": {
+        "area": "comprehensive periodical, physical sciences, condensed matter physics, quantum physics",
+        "authors": "Zlata Fedorova | Haixin Qiu | Stefan Linden | Johann Kroha",
+        "available_online": "2020-7-27",
+        "cas_zone": "1",
+        "cover_date_start": "2020-07-27",
+        "created_at": "2026-06-17T06:14:57+08:00",
+        "doi": "10.1038/s41467-020-17510-z",
+        "en_title": "Observation of topological transport quantization by dissipation in fast Thouless pumps",
+        "id": "812586135703257089",
+        "impact_factor": 15.5,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2020-12",
+        "publication_id": "10026",
+        "publication_name": "Nature Communications _ Nat Commun",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "通过快速 Thouless 泵浦中的耗散观测拓扑输运量子化"
+      },
+      "paper:812645250471297025": {
+        "area": "physics and astrophysics, mathematical sciences, mathematical physics, physical sciences, quantum physics",
+        "authors": "Haiping Hu | Erhai Zhao",
+        "available_online": "2020-4-21",
+        "cas_zone": "1",
+        "cover_date_start": "2020-04-21",
+        "created_at": "2026-06-13T20:52:31+08:00",
+        "doi": "10.1103/physrevlett.124.160402",
+        "en_title": "Topological Invariants for Quantum Quench Dynamics from Unitary Evolution",
+        "id": "812645250471297025",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "[\"Mathematical Sciences\", \"Mathematical Physics\", \"Physical Sciences\", \"Quantum Physics\"]",
+        "zh_title": "幺正演化下量子猝灭动力学的拓扑不变量"
+      },
+      "paper:813093316601053184": {
+        "area": "Physics and Astrophysics, physics, multidisciplinary",
+        "authors": "Ivar Martin | Gil Refael | Bertrand Halperin",
+        "available_online": "2017-10-16",
+        "cas_zone": "1",
+        "cover_date_start": "2017-10-16",
+        "created_at": "2026-06-19T09:12:38+08:00",
+        "doi": "10.1103/physrevx.7.041008",
+        "en_title": "Topological Frequency Conversion in Strongly Driven Quantum Systems",
+        "id": "813093316601053184",
+        "impact_factor": 15.7,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "479",
+        "publication_name": "Physical Review X _ Phys. Rev. X",
+        "research_categories": "",
+        "zh_title": "强驱动量子系统中的拓扑频率转换"
+      },
+      "paper:813224384901677056": {
+        "area": "physics and astrophysics, physical sciences, condensed matter physics, quantum physics",
+        "authors": "A. Gómez-León | G. Platero",
+        "available_online": "2013-5-14",
+        "cas_zone": "1",
+        "cover_date_start": "2013-05-14",
+        "created_at": "2026-06-14T14:19:39+08:00",
+        "doi": "10.1103/physrevlett.110.200403",
+        "en_title": "Floquet-Bloch Theory and Topology in Periodically Driven Lattices",
+        "id": "813224384901677056",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "周期驱动晶格中的弗洛凯 - 布洛赫理论与拓扑学"
+      },
+      "paper:814672519045840898": {
+        "area": "physics and astrophysics, physics, multidisciplinary",
+        "authors": "Arijit Kundu | H. A. Fertig | Babak Seradjeh",
+        "available_online": "2014-12-3",
+        "cas_zone": "1",
+        "cover_date_start": "2014-12-03",
+        "created_at": "2026-06-14T15:04:37+08:00",
+        "doi": "10.1103/physrevlett.113.236803",
+        "en_title": "Effective Theory of Floquet Topological Transitions",
+        "id": "814672519045840898",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "",
+        "zh_title": "弗洛凯拓扑相变的有效理论"
+      },
+      "paper:817337108992622593": {
+        "area": "physics and astrophysics, physics, multidisciplinary",
+        "authors": "P. J. D. Crowley | I. Martin | A. Chandran",
+        "available_online": "",
+        "cas_zone": "1",
+        "cover_date_start": "2020-09-01",
+        "created_at": "2026-06-02T18:38:13+08:00",
+        "doi": "10.1103/PhysRevLett.125.100601",
+        "en_title": "Half-Integer Quantized Topological Response in Quasiperiodically Driven Quantum Systems",
+        "id": "817337108992622593",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ ",
+        "research_categories": "",
+        "zh_title": "准周期驱动量子系统中的半整数量子化拓扑响应"
+      },
+      "paper:867745692657910599": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Olesia Dmytruk | Marco Schirò",
+        "available_online": "",
+        "cover_date_start": "2022-04-12",
+        "created_at": "2026-06-13T22:25:19+08:00",
+        "doi": "10.48550/arXiv.2204.05922",
+        "en_title": "Controlling topological phases of matter with quantum light",
+        "id": "867745692657910599",
+        "keywords": "",
+        "publication_date": "2022-04-12",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "用量子光控制物质的拓扑相"
+      },
+      "paper:867747429284315912": {
+        "area": "arxiv-physics, physical sciences, classical physics, quantum physics",
+        "authors": "R. Jafari | Alireza Akbari",
+        "available_online": "",
+        "cover_date_start": "2020-09-20",
+        "created_at": "2026-06-16T23:19:05+08:00",
+        "doi": "10.48550/arXiv.2009.09484",
+        "en_title": "Floquet dynamical phase transition and entanglement spectrum",
+        "id": "867747429284315912",
+        "keywords": "",
+        "publication_date": "2020-09-20",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "[\"Physical Sciences\", \"Classical Physics\", \"Quantum Physics\"]",
+        "zh_title": "弗洛凯动力学相变与纠缠谱"
+      },
+      "paper:867747478844211271": {
+        "area": "arxiv-physics, arxiv-quantum physics",
+        "authors": "Alberto D. Verga",
+        "available_online": "",
+        "cover_date_start": "2022-08-02",
+        "created_at": "2026-06-16T07:37:17+08:00",
+        "doi": "10.48550/arXiv.2208.01706",
+        "en_title": "Entanglement dynamics and phase transitions of the Floquet cluster spin chain",
+        "id": "867747478844211271",
+        "keywords": "",
+        "publication_date": "2022-08-02",
+        "publication_id": "108526",
+        "publication_name": "Quantum Physics _ Physics.quant-ph.quant-ph",
+        "research_categories": "",
+        "zh_title": "弗洛凯簇自旋链的纠缠动力学与相变"
+      },
+      "paper:867748734023237638": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics, quantum physics",
+        "authors": "Shaohua Zhou | Changhua Bao | Benshu Fan | Hui Zhou | Qixuan Gao | Haoyuan Zhong | Tianyun Lin | Hang Liu | Pu Yu | Peizhe Tang | Sheng Meng | Wenhui Duan | Shuyun Zhou",
+        "available_online": "",
+        "cover_date_start": "2023-02-01",
+        "created_at": "2026-06-15T03:31:38+08:00",
+        "doi": "10.48550/arXiv.2302.00604",
+        "en_title": "Pseudospin-selective Floquet band engineering in black phosphorus",
+        "id": "867748734023237638",
+        "keywords": "",
+        "publication_date": "2023-02-01",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "黑磷中的赝自旋选择性弗洛凯能带工程"
+      },
+      "paper:867752180646412967": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics, quantum physics",
+        "authors": "S. Sajad Dabiri | Hosein Cheraghchi | Ali Sadeghi",
+        "available_online": "",
+        "cover_date_start": "2021-12-18",
+        "created_at": "2026-06-14T03:00:35+08:00",
+        "doi": "10.48550/arXiv.2112.09958",
+        "en_title": "Light-induced topological phases in thin films of magnetically doped topological insulators",
+        "id": "867752180646412967",
+        "keywords": "",
+        "publication_date": "2021-12-18",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "磁性掺杂拓扑绝缘体薄膜中的光诱导拓扑相"
+      },
+      "paper:867752205174702486": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Keisuke Kitayama | Yasuhiro Tanaka | Masao Ogata | Masahito Mochizuki",
+        "available_online": "",
+        "cover_date_start": "2021-08-12",
+        "created_at": "2026-06-19T04:45:08+08:00",
+        "doi": "10.48550/arXiv.2108.05843",
+        "en_title": "Floquet theory of photoinduced topological phase transitions in the organic salt $α$-(BEDT-TTF)$_2$I$_3$ irradiated with elliptically polarized light",
+        "id": "867752205174702486",
+        "keywords": "",
+        "publication_date": "2021-08-12",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "椭圆偏振光辐照下有机盐α-(BEDT-TTF)₂I₃中光致拓扑相变的弗洛凯理论 "
+      },
+      "paper:867754778619281448": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Hannes Hübener | Michael A. Sentef | Umberto de Giovannini | Alexander F. Kemper | Angel Rubio",
+        "available_online": "",
+        "cover_date_start": "2016-04-12",
+        "created_at": "2026-05-16T15:36:53+08:00",
+        "doi": "10.48550/arXiv.1604.03399",
+        "en_title": "Creating stable Floquet-Weyl semimetals by laser-driving of 3D Dirac materials",
+        "id": "867754778619281448",
+        "keywords": "",
+        "publication_date": "2016-04-12",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "",
+        "zh_title": "通过对三维狄拉克材料进行激光驱动来创建稳定的弗洛凯-外尔半金属"
+      },
+      "paper:867758025224487417": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Zahra Askarpour | Hosein Cheraghchi",
+        "available_online": "",
+        "cover_date_start": "2022-10-12",
+        "created_at": "2026-06-11T00:37:36+08:00",
+        "doi": "10.48550/arXiv.2210.06222",
+        "en_title": "Light-induced switch based on edge modes in irradiated thin topological insulators",
+        "id": "867758025224487417",
+        "keywords": "",
+        "publication_date": "2022-10-12",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "基于辐照薄拓扑绝缘体边缘态的光致开关"
+      },
+      "paper:867759299265298837": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics, quantum physics",
+        "authors": "Joaquín Minguzzi | Zijie Zhu | Kilian Sandholzer | Anne-Sophie Walter | Konrad Viebahn | Tilman Esslinger",
+        "available_online": "",
+        "cover_date_start": "2021-12-23",
+        "created_at": "2026-06-15T23:46:26+08:00",
+        "doi": "10.48550/arXiv.2112.12788",
+        "en_title": "Topological pumping in a Floquet-Bloch band",
+        "id": "867759299265298837",
+        "keywords": "",
+        "publication_date": "2021-12-23",
+        "publication_id": "108486",
+        "publication_name": "Quantum Gases _ Physics.cond-mat.quant-gas",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "弗洛凯 - 布洛赫能带中的拓扑泵浦"
+      },
+      "paper:867760806379389029": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "I. A. Assi | J. P. F. LeBlanc | Martin Rodriguez-Vega | Hocine Bahlouli | Michael Vogl",
+        "available_online": "",
+        "cover_date_start": "2021-06-23",
+        "created_at": "2026-06-14T03:45:28+08:00",
+        "doi": "10.48550/arXiv.2106.12616",
+        "en_title": "Floquet engineering and non-equilibrium topological maps in twisted trilayer graphene",
+        "id": "867760806379389029",
+        "keywords": "",
+        "publication_date": "2021-06-23",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "扭曲三层石墨烯中的弗洛凯工程与非平衡拓扑映射"
+      },
+      "paper:867761581318996899": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Philip J. D. Crowley | Ivar Martin | Anushya Chandran",
+        "available_online": "",
+        "cover_date_start": "2018-08-23",
+        "created_at": "2026-06-13T20:47:02+08:00",
+        "doi": "10.48550/arXiv.1808.07884",
+        "en_title": "Topological classification of quasi-periodically driven quantum systems",
+        "id": "867761581318996899",
+        "keywords": "",
+        "publication_date": "2018-08-23",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "准周期驱动量子系统的拓扑分类"
+      },
+      "paper:867763008829391173": {
+        "area": "arxiv-physics",
+        "authors": "Haofan Yang | Jing Xu | Zhongfei Xiong | Xinda Lu | Ruo-Yang Zhang | Yuntian Chen | Shuang Zhang",
+        "available_online": "",
+        "cover_date_start": "2021-02-17",
+        "created_at": "2026-05-16T14:55:26+08:00",
+        "doi": "10.48550/arXiv.2102.08750",
+        "en_title": "Optically reconfigurable quantum spin-valley Hall effect of light in coupled nonlinear ring resonator lattice",
+        "id": "867763008829391173",
+        "keywords": "",
+        "publication_date": "2021-02-17",
+        "publication_id": "108520",
+        "publication_name": "Optics _ Physics.physics.optics",
+        "research_categories": "",
+        "zh_title": "耦合非线性环形谐振器晶格中光的光学可重构量子自旋-谷霍尔效应"
+      },
+      "paper:867763562716595086": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics, quantum physics",
+        "authors": "V. G. Ibarra-Sierra | J. C. Sandoval-Santana | A. Kunold | Saúl A. Herrera | Gerardo G. Naumis",
+        "available_online": "",
+        "cover_date_start": "2021-12-01",
+        "created_at": "2026-06-13T21:51:50+08:00",
+        "doi": "10.48550/arXiv.2112.00889",
+        "en_title": "Dirac materials under linear polarized light: quantum wave function evolution and topological Berry phases as classical charged particles trajectories under electromagnetic fields",
+        "id": "867763562716595086",
+        "keywords": "",
+        "publication_date": "2021-12-01",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "线偏振光下的狄拉克材料：量子波函数演化与拓扑贝里相位作为电磁场下经典带电粒子的轨迹"
+      },
+      "paper:867764726233301237": {
+        "area": "arxiv-physics",
+        "authors": "S.K. Earl | M.A. Conway | J.B Muir | M. Wurdack | E.A. Ostrovskaya | J.O. Tollerud | J.A. Davis",
+        "available_online": "",
+        "cover_date_start": "2021-06-20",
+        "created_at": "2026-06-14T10:57:21+08:00",
+        "doi": "10.48550/arXiv.2106.10618",
+        "en_title": "Coherent Dynamics of Floquet-Bloch States in Monolayer WS2 Reveals Fast Adiabatic Switching",
+        "id": "867764726233301237",
+        "keywords": "",
+        "publication_date": "2021-06-20",
+        "publication_id": "108520",
+        "publication_name": "Optics _ Physics.physics.optics",
+        "research_categories": "",
+        "zh_title": "单层WS2中弗洛凯-布洛赫态的相干动力学揭示了快速绝热开关"
+      },
+      "paper:867766758084182327": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Gabriel E. Topp | Gregor Jotzu | James W. McIver | Lede Xian | Angel Rubio | Michael A. Sentef",
+        "available_online": "",
+        "cover_date_start": "2019-06-28",
+        "created_at": "2026-06-19T05:24:34+08:00",
+        "doi": "10.48550/arXiv.1906.12135",
+        "en_title": "Topological Floquet Engineering of Twisted Bilayer Graphene",
+        "id": "867766758084182327",
+        "keywords": "",
+        "publication_date": "2019-06-28",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "",
+        "zh_title": "扭曲双层石墨烯的拓扑弗洛凯工程"
+      },
+      "paper:867769640497971971": {
+        "area": "arxiv-physics, physical sciences, atomic, molecular and optical physics, condensed matter physics, quantum physics",
+        "authors": "Philip J. D. Crowley | Ivar Martin | Anushya Chandran",
+        "available_online": "",
+        "cover_date_start": "2019-08-21",
+        "created_at": "2026-05-25T21:30:38+08:00",
+        "doi": "10.48550/arXiv.1908.08062",
+        "en_title": "Half-integer quantized topological response in quasiperiodically driven quantum systems",
+        "id": "867769640497971971",
+        "keywords": "",
+        "publication_date": "2019-08-21",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Atomic, Molecular and Optical Physics\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "准周期驱动量子系统中的半整数量子化拓扑响应"
+      },
+      "paper:867770027976163429": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics, quantum physics",
+        "authors": "Chen-Huan Wu",
+        "available_online": "",
+        "cover_date_start": "2018-06-10",
+        "created_at": "2026-06-11T01:57:15+08:00",
+        "doi": "10.48550/arXiv.1806.03592",
+        "en_title": "Anomalous Rabi oscillation and related dynamical polarizations under the off-resonance circularly polarized light",
+        "id": "867770027976163429",
+        "keywords": "",
+        "publication_date": "2018-06-10",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "非共振圆偏振光下的反常拉比振荡及相关动态极化"
+      },
+      "paper:867770878820090225": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Longwen Zhou | Chong Chen | Jiangbin Gong",
+        "available_online": "",
+        "cover_date_start": "2016-08-31",
+        "created_at": "2026-06-17T04:18:27+08:00",
+        "doi": "10.48550/arXiv.1608.08719",
+        "en_title": "Floquet Semimetal with Floquet-band Holonomy",
+        "id": "867770878820090225",
+        "keywords": "",
+        "publication_date": "2016-08-31",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "具有弗洛凯能带全同性的弗洛凯半金属"
+      },
+      "paper:867771653189272273": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Martin Rodriguez-Vega | Michael Vogl | Gregory A. Fiete",
+        "available_online": "",
+        "cover_date_start": "2020-11-10",
+        "created_at": "2026-06-19T03:11:10+08:00",
+        "doi": "10.48550/arXiv.2011.05089",
+        "en_title": "Direct driving of electronic and phononic degrees of freedom in a honeycomb bilayer with infrared light",
+        "id": "867771653189272273",
+        "keywords": "",
+        "publication_date": "2020-11-10",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "用红外光直接驱动蜂窝双层结构中的电子和声子自由度"
+      },
+      "paper:867772898629124529": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "S. Sajad Dabiri | H. Cheraghchi",
+        "available_online": "",
+        "cover_date_start": "2022-08-17",
+        "created_at": "2026-06-19T01:26:25+08:00",
+        "doi": "10.48550/arXiv.2208.08196",
+        "en_title": "Electric Circuit Simulation of Floquet Topological Insulators",
+        "id": "867772898629124529",
+        "keywords": "",
+        "publication_date": "2022-08-17",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "弗洛凯拓扑绝缘体的电路模拟"
+      },
+      "paper:867773011015500574": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Balaganchi A. Bhargava | Sanjib Kumar Das | Ion Cosma Fulga",
+        "available_online": "",
+        "cover_date_start": "2021-11-02",
+        "created_at": "2026-05-18T14:19:06+08:00",
+        "doi": "10.48550/arXiv.2111.01655",
+        "en_title": "Quantum phase transitions and a disorder-based filter in a Floquet system",
+        "id": "867773011015500574",
+        "keywords": "",
+        "publication_date": "2021-11-02",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "弗洛凯系统中的量子相变与基于无序的滤波器"
+      },
+      "paper:867774043820916969": {
+        "area": "arxiv-physics, physical sciences, quantum physics",
+        "authors": "Long Zhang | Lin Zhang | Xiong-Jun Liu",
+        "available_online": "",
+        "cover_date_start": "2020-04-29",
+        "created_at": "2026-05-22T22:03:52+08:00",
+        "doi": "10.48550/arXiv.2004.14013",
+        "en_title": "Unified theory to characterize Floquet topological phases by quench dynamics",
+        "id": "867774043820916969",
+        "keywords": "",
+        "publication_date": "2020-04-29",
+        "publication_id": "108486",
+        "publication_name": "Quantum Gases _ Physics.cond-mat.quant-gas",
+        "research_categories": "[\"Physical Sciences\", \"Quantum Physics\"]",
+        "zh_title": "通过猝灭动力学表征弗洛凯拓扑相的统一理论"
+      },
+      "paper:926902400520814609": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Lin Zhang",
+        "available_online": "",
+        "cover_date_start": "2023-10-31",
+        "created_at": "2026-06-19T08:13:52+08:00",
+        "doi": "10.48550/arXiv.2311.00114",
+        "en_title": "Dynamical characterization of $Z_{2}$ Floquet topological phases via quantum quenches",
+        "id": "926902400520814609",
+        "keywords": "",
+        "publication_date": "2023-10-31",
+        "publication_id": "108486",
+        "publication_name": "Quantum Gases _ Physics.cond-mat.quant-gas",
+        "research_categories": "",
+        "zh_title": "通过量子猝灭对$$Z_{2}$$弗洛凯拓扑相进行动力学表征"
+      }
+    },
+    "variables": [
+      {
+        "content": "The prior scientific situation motivating this work is as follows. Researchers aiming to engineer and control quantum states with time-periodic (Floquet) drives had observed that a single-frequency strong drive dresses states by harmonics and can be described by a one-dimensional Floquet lattice (photon-number index) with a linear \"tilt\" proportional to the drive frequency. However, when several drives with mutually incommensurate frequencies are applied, there was no widely adopted, self-contained formulation that (i) maps the full multitone driven Schrödinger dynamics to a higher-dimensional tight-binding (Floquet) lattice with a built-in effective uniform \"electric\" field whose components are the drive frequencies, (ii) connects Berry-curvature and Chern-number concepts of band topology in that emergent Floquet lattice to measurable energy flows between drives, and (iii) identifies the dynamical regimes, initial-state choices, and disorder conditions under which quantized, topologically protected energy transfer (pumping) between drives can be expected. Prior approaches either treated drives perturbatively (multiwave mixing), considered single-frequency Floquet theory only, or invoked phenomenological/real-space analogies without a direct, quantitatively predictive mapping for multiple incommensurate drives. As a consequence, it remained unclear whether (and under what conditions) one can (a) realize genuinely multidimensional topological band structure purely in frequency (time) space, (b) obtain an exact relation between a Floquet-band Chern number and a long-time averaged energy-pumping power between two drives, (c) control the dependence of pumping on rational vs irrational frequency ratios and on temporal disorder, and (d) implement such effects in simple quantum systems (e.g., a single two-level system) with experimentally accessible parameters. These gaps prevented definitive predictions and quantitative numerical tests for topological frequency conversion and hindered proposals for experimental realization and for extending the idea to higher synthetic dimensions.",
+        "content_hash": "bbd7bd4197bfc19b5ca7ed582e413be7b5a5423b500ab68f7914574fb8bb56b9",
+        "id": "gcn_7d5c22f3ec22410d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813093316601053184::problem",
+            "package_id": "paper:813093316601053184",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813093316601053184"
+          ]
+        },
+        "rerank_score": 0.8317638775511144,
+        "role": "premise",
+        "score": 0.0125,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Floquet engineering is known to open gaps and induce topology in SD systems, but prior Floquet analyses did not combine (i) a $k_x$ tilt that creates node-energy imbalance and (ii) the explicit leading high-frequency corrections that produce a momentum-dependent $\\sigma_z$ term. Without the explicit $v_L$ and $\\delta_1$ formulas one cannot predict how irradiation shifts the node positions in $k_x$ (the nodes move to $k_x^n=\\pm\\sqrt{(\\delta_0-\\delta_1)/\\alpha}$), how the induced mass term changes sign between nodes, or how light amplitude, frequency, and phase control both the opening of dynamical gaps and the modified node separation. These details determine whether Floquet driving can produce a bulk-insulating Chern phase or instead produce edge modes coexisting with a conducting bulk when nodes are energy-imbalanced.",
+        "content_hash": "ccab7b9b1460de94fb0d973df84357e69a8723dd12889fac863a5dc8c83f6682",
+        "id": "gcn_da29fc093cae4f5e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1162365540585439237::conclusion_6_subproblem",
+            "package_id": "paper:1162365540585439237",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1162365540585439237"
+          ]
+        },
+        "rerank_score": 0.8162692194730079,
+        "role": "premise",
+        "score": 0.009345794392523364,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Physical context: identifying which driven Floquet states are topologically trivial or nontrivial, and understanding how geometric (Berry) and dynamical phases contribute to the total phase, is central to predicting drive-induced transport and topological pumping. Prior approaches and limitations: Berry-phase arguments apply cleanly in adiabatic limits but fail to classify phases when driving is strong or comparable to electronic energies; perturbative Floquet methods do not capture non-adiabatic frequency-multiplication effects that can qualitatively change the phase accumulation. Scientific consequences: absent a concrete separation of $\\gamma_{D}$ and $\\gamma_{B}$ across parameter regimes and a diagnostic (e.g., momentum-direction criterion $\\tilde{k}_{y}=0$) for triviality, it is difficult to predict which states will participate in topological transport or remain inert under strong irradiation; experimental implications (which momenta generate photo-induced topology) remain ambiguous.",
+        "content_hash": "d609575b2bec7a3563f86d12bfcd0d458fe112f4806dcc4b9b4b493bb90a5e05",
+        "id": "gcn_69c35496847846eb",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867763562716595086::conclusion_6_subproblem",
+            "package_id": "paper:867763562716595086",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867763562716595086"
+          ]
+        },
+        "rerank_score": 0.8063773563272073,
+        "role": "premise",
+        "score": 0.011904761904761904,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In the study of Floquet-engineered topological phases in altermagnets, a lattice-based effective Hamiltonian that captures the full crystalline and magnetic symmetries is required to accurately describe the driven system. Prior approaches using k·p models are limited to low energies near the Γ point and miss higher-order momentum-dependent spin-orbit couplings and additional gap-closing points that can give rise to high Chern numbers. Without such a Hamiltonian, the topological phase diagram and the mechanism for high Chern numbers cannot be properly understood. The paper derives this Hamiltonian from the tight-binding model using Floquet theory and high-frequency expansion, providing a complete description of the light-induced effects.",
+        "content_hash": "c943aaa4c54c60889b7a967b55d8cdc0a745575db4e2af88dd05aa819871b95a",
+        "id": "gcn_6d381c4e172746d0",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:7477243840723296339::conclusion_1_subproblem",
+            "package_id": "paper:7477243840723296339",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:7477243840723296339"
+          ]
+        },
+        "rerank_score": 0.798625112382617,
+        "role": "premise",
+        "score": 0.015384615384615385,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In driven lattice problems one frequently wants an exact, nonperturbative representation of the time-dependent Schrödinger problem that is amenable to the standard toolbox of tight-binding diagonalization and topological classification. Prior work either treated time perturbatively or used regime-specific effective Hamiltonians; what was missing was a representation that (a) formulates the full Floquet eigenvalue problem as an ordinary time-independent tight-binding matrix, (b) identifies the synthetic extra lattice dimension associated with the Floquet (photon) index, and (c) makes explicit the physics of the effective linear potential along that extra dimension (the $-n\\omega$ Stark-like term). Without such a mapping, one cannot systematically connect driven problems to static-lattice topology or analyze crossovers controlled by the driving frequency.",
+        "content_hash": "667d0c99f83309204b3a3c35e9e1bee35114decb90cfda915bd799f2195ab0d9",
+        "id": "gcn_2554693461f74dee",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813224384901677056::conclusion_1_subproblem",
+            "package_id": "paper:813224384901677056",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813224384901677056"
+          ]
+        },
+        "rerank_score": 0.8353849199102483,
+        "role": "premise",
+        "score": 0.017857142857142856,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Interpreting and controlling Floquet-induced topology in a simple lattice requires a compact model that identifies which drive-induced processes generate the band inversion and the associated topological transition. Prior topological pumps relied on Rice–Mele physics with two spatially separated orbitals per unit cell, whereas here the relevant orbitals (s and p) are colocated on each lattice site and are coupled by resonant drive terms; absent a specific model one cannot predict the drive amplitudes, phases, and detunings that produce the single gap closing and the corresponding Zak-phase winding needed for a Thouless pump. Moreover, without the mapping from drive parameters to band topology, experimental parameter searches are unguided and the physical mechanism (on-site vs nearest-neighbour photon processes) that controls the topology remains unclear.",
+        "content_hash": "0de30beb151f083705e4f536426bf5f3a18d777d0dba4893d7884cad8e795f7d",
+        "id": "gcn_597b08eca5934566",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867759299265298837::conclusion_3_subproblem",
+            "package_id": "paper:867759299265298837",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867759299265298837"
+          ]
+        },
+        "rerank_score": 0.782992065330435,
+        "role": "premise",
+        "score": 0.007874015748031496,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Periodically driven (Floquet) two-dimensional tight-binding systems, such as graphene irradiated by circularly polarized light, can host topological phases that have no static analogs. Prior work established that Floquet bands must be treated as $(2+1)$-dimensional objects with a compactified time direction and that one may define Floquet topological invariants (for example, invariants $C_{0}$ and $C_{\\pi}$ that distinguish edge states crossing the gaps at quasienergy $0$ and at the Floquet-zone (FZ) boundary $\\pm\\Omega/2$). However, there remained no general, practical framework to (i) predict when and where Floquet band gaps close (the critical points of topological transitions) in a tight-binding model as drive parameters (frequency $\\Omega$, amplitude encoded in $\\alpha=eA_{0}a_{0}/c$, hopping $\\gamma$) are varied, (ii) determine the order and Chern-number exchange $|\\Delta C|$ across such transitions from microscopic model parameters, and (iii) connect the temporal Fourier structure (the distribution of Floquet Fourier indices $m$ in a critical eigenstate) to observable transport signatures in typical experimental probes that couple to time-independent leads. In particular, while in static two-dimensional systems a bulk topological transition is signaled by a metallic bulk with two-terminal conductivity of order $e^{2}/h$, it was not known whether and under what microscopic conditions this hallmark persists in Floquet systems, given the extra temporal subband structure and the need to match time-dependent Floquet wave functions to time-independent lead states. The lack of these analytic tools and rules prevented reliable prediction of which Floquet transitions would be visible in bulk two-terminal transport, how the Chern numbers exchanged at transitions depend on drive parameters, and what role disorder plays in altering these transport signatures.",
+        "content_hash": "0d5c5e0dc3ab0bb721e13e21b2e03c3f7ad0b004b6c3baef41d5003f342d30a7",
+        "id": "gcn_2dce1c7286ff4523",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814672519045840898::problem",
+            "package_id": "paper:814672519045840898",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814672519045840898"
+          ]
+        },
+        "rerank_score": 0.8120759379187072,
+        "role": "premise",
+        "score": 0.021028701335606706,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Experimental and theoretical research into photoinduced topological phase transitions has concentrated largely on idealized or atomically simple two-dimensional systems (e.g., graphene, silicene, transition-metal dichalcogenides) or on toy lattice models, leaving a gap in understanding for realistic bulk materials with complex crystal structures and multiband electronic spectra. In such real materials one must confront (i) complex tight-binding Hamiltonians with multiple molecular sublattices and anisotropic transfer integrals, (ii) band sets near the Fermi level that may be energetically separated from other bands so that off-resonant driving is possible, and (iii) material-specific responses to polarization, amplitude, and frequency of light (including ellipticity). Prior Floquet studies did not provide material-specific phase diagrams, quantitative predictions of Chern numbers, Hall conductivities, and edge-state spectra for a realistic bulk organic conductor with inclined Dirac cones under experimentally relevant driving conditions; they also left open whether elliptically polarized light (as opposed to circular) can open gaps at material Dirac points and produce experimentally accessible Floquet Chern phases. Because of these gaps, there was no reliable, quantitative guidance for experiments on complex organic conductors about which light frequencies, amplitudes, and polarizations would produce Floquet semimetal, Floquet Chern insulator, or other nonequilibrium steady phases, nor any detailed understanding of nonequilibrium occupations and their consequences for observable Hall responses in such materials. This work is therefore necessary to close that gap by providing a material-specific Floquet analysis for a realistic tight-binding model of the organic conductor α-(BEDT-TTF)2I3 and thereby to predict phase diagrams, topological invariants, edge-state spectra, and Hall responses under elliptically polarized irradiation.",
+        "content_hash": "840d5180e3de29b8e233c58d52a4a3bad3513c32aba0fb19a2a94d84908c062e",
+        "id": "gcn_729b63f4e7984930",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867752205174702486::problem",
+            "package_id": "paper:867752205174702486",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867752205174702486"
+          ]
+        },
+        "rerank_score": 0.7726952312039553,
+        "role": "premise",
+        "score": 0.005988023952095809,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In order to study the impact of engineered dissipation on Floquet band topology one needs a concrete single-particle lattice model that (i) captures the essential ingredients of topological pumping (a dimerized chain with periodically modulated hoppings and onsite potentials) and (ii) allows incorporating time- and site-dependent loss in a physically transparent way. Previous formulations of Thouless pumps did not include tailored, time-periodic onsite decay rates that switch on when local potentials exceed thresholds; without such a model it was not possible to explore how loss timing relative to the hopping and potential modulation can suppress unwanted hybridization between counterpropagating Floquet modes and thereby affect band gaps and winding in the FBBZ. The non-Hermitian driven RM model above sets the physical context (1D dimerized lattice, unit-cell sublattices A/B, driving frequency $\\Omega$) and provides the parametrization needed to ask whether and how time-periodic losses can restore topological pumping at fast driving.",
+        "content_hash": "d15fdf582b8cc6d0a6b7e1834014adea0da9d00bc9251d1ffb7eef5ecd57cb04",
+        "id": "gcn_0e4db79b274049ad",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812586135703257089::conclusion_1_subproblem",
+            "package_id": "paper:812586135703257089",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812586135703257089"
+          ]
+        },
+        "rerank_score": 0.759995861664614,
+        "role": "premise",
+        "score": 0.007575757575757576,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The study acknowledges several unresolved issues and limitations that define directions for future work. First, the Floquet analysis was carried out in a high-frequency regime with a finite Floquet truncation (three harmonics $m,n=-1,0,1$); how the reported topological transitions and band-flattening phenomena evolve outside the high-frequency regime (including possible resonant inter-Floquet-copy effects) remains unaddressed. Second, the treatment neglects light-induced modifications of interlayer hoppings and other light-matter interaction channels (e.g., phonon-mediated effects, cavity quantization of light), so the robustness of the computed Chern-number transitions against such additional coupling mechanisms is open. Third, electron-electron interactions were omitted; whether the light-flattened bands reported here enable correlated many-body phases (superconductivity, magnetism, fractionalized states) in untwisted G-hBN under drive requires interacting calculations or experiments. Fourth, the influence of other perturbations—different light types (twisted light, noncircular polarizations), applied magnetic fields, pressure, lattice defects, and impurities—on the Floquet topology and band flattening was not studied and remains an open experimental and theoretical question. Finally, extension of the present analysis to twisted variants of G-hBN and to simplified interacting effective models that capture driven correlated physics are suggested but quantitatively unresolved, including how phase boundaries shift with model simplifications or additional physical ingredients.",
+        "content_hash": "59df11fb20d0d21f47987dba439f539de316b847d7377c9579143ab56b75c861",
+        "id": "gcn_abfcf4d452d948f1",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1160190813754359812::open_question",
+            "package_id": "paper:1160190813754359812",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1160190813754359812"
+          ]
+        },
+        "rerank_score": 0.7495931807788585,
+        "role": "premise",
+        "score": 0.005747126436781609,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Floquet phases are defined with a periodic drive and the effective Floquet Hamiltonian depends on the reference (trigger) time used to define the one-period evolution; experimental quench triggers need not coincide with the symmetric reference time used in theoretical constructions. Without a statement identifying driving protocols for which direct stroboscopic quench measurements still correspond to a Dirac-form effective Floquet Hamiltonian (one with only $\\gamma_{i}$ terms and no $\\mathrm{i}\\gamma_{i}\\gamma_{j}$ bilinears) and without proof that the effective Hamiltonian shares the $Z_{2}$ invariant when gapped, the dynamical BIS scheme would be restricted to the special $t_{*}=0$ case. Thus it is necessary to characterize conditions (on $f(t)$) under which direct measurements remain valid and to establish invariance of topology under passage to $\\tilde{H}_{F}^{(t_{*})}$.",
+        "content_hash": "caad6c7b1c4bc7b742d9287b16c2591ffffdc122bb4199dde1ffb2b823635030",
+        "id": "gcn_f1fddee1ed5a460d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:926902400520814609::conclusion_5_subproblem",
+            "package_id": "paper:926902400520814609",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:926902400520814609"
+          ]
+        },
+        "rerank_score": 0.7462580702732444,
+        "role": "premise",
+        "score": 0.006134969325153374,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "A lattice-level tight-binding model that explicitly includes both the linear inter-site couplings and the pump-induced on-site cross-coupling is necessary to predict band structure and topology of the probe modes. Prior models for topological photonics often assume static engineered couplings or phenomenological mass terms; they do not derive the explicit operator-level tight-binding Hamiltonian showing how a pump (via XMM) introduces time-dependent on-site mode-mixing terms $g$ and shifts $V_{1,2}$. Without such a Hamiltonian, one cannot carry out Bloch/Floquet analysis to determine valley-resolved gaps or construct domain walls between different pump-configured regions.",
+        "content_hash": "73e627c54fb4f7460be3e3ad81fd3e596026b440517992ad72416511701f337b",
+        "id": "gcn_09f9a7a208ee4db2",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867763008829391173::conclusion_3_subproblem",
+            "package_id": "paper:867763008829391173",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867763008829391173"
+          ]
+        },
+        "rerank_score": 0.7535481146245717,
+        "role": "premise",
+        "score": 0.0277569392348087,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In photonic realizations of Floquet topological phases one needs an explicit, experimentally realistic lattice model that (i) implements time-periodic symmetry breaking sufficient to produce both FCIs and FATIs, and (ii) minimizes driving complexity so that fabrication and bulk probes are feasible. Prior lattice proposals that realize similar transitions often required three-dimensional helical curving or engineered on-site modulations, complicating fabrication and limiting direct bulk-response measurements. A compact tight-binding description with explicit, physically calibrated coupling functions and a driving scheme involving only one-dimensional periodic curving would address both theoretical analysis and experimental implementation needs: it would provide a tractable Floquet Hamiltonian for computing Floquet bands and topological invariants and a concrete device geometry amenable to laser-direct-write fabrication and bulk probing. Without such a model, it is difficult to (a) compute and map Floquet topological phases for realistic parameters, (b) design experiments that implement the driving while keeping the tight-binding approximation valid, and (c) propose bulk diagnostics tied to specific band and coupling structures.",
+        "content_hash": "a93328742927588c05837974d8f8285961374b0dc7b358072e24ffe9d402f78a",
+        "id": "gcn_485e1a591dc54685",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1159100446640439300::conclusion_1_subproblem",
+            "package_id": "paper:1159100446640439300",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1159100446640439300"
+          ]
+        },
+        "rerank_score": 0.7279604505168469,
+        "role": "premise",
+        "score": 0.01,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Although a DTOP notion existed for quenched systems, it was not established in an exact Floquet many-body solution how dynamical topology (quantized v_D jumps) correlates with adiabatic following and with the analytic zeros of $\\mathcal{L}_k(t)$. Without an exact mode-resolved expression for phases and DTOP one cannot prove that quantized dynamical topology is present only when the driven quasispins follow the effective field (adiabatic regime) and absent otherwise.",
+        "content_hash": "05e5e79b9045bf217cabd7047abf6a92e1c2c05a4e9fb418a2c7bb0ffb185e5e",
+        "id": "gcn_a2c3a3a9413b4d85",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812550683533246464::conclusion_8_subproblem",
+            "package_id": "paper:812550683533246464",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812550683533246464"
+          ]
+        },
+        "rerank_score": 0.7777503933332752,
+        "role": "premise",
+        "score": 0.009259259259259259,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The effective Floquet Hamiltonian contains multiple competing terms: the renormalized equilibrium SOC ($\\mathcal{J}_0\\lambda$), the light-induced SOC ($\\lambda'$), and the light-induced spin splitting ($J'$). A single dimensionless parameter that captures the competition between the renormalized equilibrium SOC and the light-induced SOC was needed to classify the topological regimes in a transparent manner. Without such a parameter, the phase diagram would be multidimensional and less intuitive, obscuring the physical mechanism behind the different topological phases.",
+        "content_hash": "0d11226eb63cedd949e29fb5216dbd19f686e270862594ec7e8c657ee5472cb0",
+        "id": "gcn_ed0e745294654826",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:7477243840723296374::conclusion_2_subproblem",
+            "package_id": "paper:7477243840723296374",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:7477243840723296374"
+          ]
+        },
+        "rerank_score": 0.7176702991205398,
+        "role": "premise",
+        "score": 0.012658227848101266,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The study addresses the experimental and theoretical challenge of realizing, probing, and engineering Floquet (time-periodically driven) topological phases for non-interacting tight-binding models. In the condensed-matter context, applying a time-periodic drive to induce Floquet topological insulators is hindered by heating and dissipation, which can destroy Floquet states and their topological signatures and complicate experimental control. Existing approaches for studying driven systems rely on the Floquet formalism (Fourier decomposition of $H(t)$ into Fourier components $H^{n}$ and formation of the infinite-dimensional Floquet Hamiltonian $H_{F}$) but require working in an enlarged Hilbert space and truncation schemes whose practical implementation and physical realization remain nontrivial. Prior metamaterial platforms (notably LC electric circuits) have successfully simulated static topological phases, and there exists a formal correspondence between a circuit grounded Laplacian and a static tight-binding Hamiltonian; however, there was no generally articulated, implementable prescription to (i) convert an arbitrary non-interacting time-periodic tight-binding Hamiltonian into a time-independent circuit representation that simulates its Floquet Hamiltonian in Fourier space, and (ii) detect uniquely Floquet-induced edge states (including anomalous edge states appearing in dynamical gaps) with experimentally accessible circuit measurements. Because Floquet Hamiltonians are higher-dimensional (the time/Floquet index acts as an extra dimension), the lack of an explicit circuit construction and of concrete measurement protocols prevented controlled laboratory emulation and detection of driven-induced topological features (for example, resonant midgap modes at quasi-energies $0$ or $\\pm\\Omega/2$), limited exploration of frequency-dependent behaviors (high-frequency effective Hamiltonians versus adiabatic $d\\!+\\!1$ regimes), and left open how many Floquet replicas are needed in physical implementations for quantitative convergence. This paper is motivated by the need for a practical, element-level mapping from $H(t)$ to a time-independent LC circuit that (a) implements the truncated Floquet Hamiltonian as a static lattice with an extra spatial dimension, (b) provides explicit circuit parameter rules that realize Fourier components $H^{n}$ and onsite quasi-energy offsets, and (c) yields experimentally measurable signatures (two-point and one-point impedances) that unambiguously detect Floquet edge states and quantify robustness to disorder and losses.",
+        "content_hash": "7fdb33a850aa8f8441e66748195307737190c34f94d80832ae4feac517f38e43",
+        "id": "gcn_428ca3a1c505486f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867772898629124529::problem",
+            "package_id": "paper:867772898629124529",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867772898629124529"
+          ]
+        },
+        "rerank_score": 0.7132623753448928,
+        "role": "premise",
+        "score": 0.018889857599535022,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The work addresses the optical control and structural tuning of topological phases in the two-dimensional $\\alpha$-$T_3$ tight-binding lattice: a hexagonal-like lattice with two vertex sites (A,B) and a central site (C) per unit cell whose low-energy spectrum contains two dispersive bands and a flat band. Prior theory shows that (i) circularly polarized off-resonant light can induce a Haldane-type time-reversal-symmetry-breaking mass and produce Floquet-Chern insulators, and (ii) the $\\alpha$-$T_3$ model interpolates between graphene ($\\alpha=0$) and the dice lattice ($\\alpha=1$) with known low-energy topological signatures. However, the combined problem of (A) a full tight-binding Floquet description valid across the entire Brillouin zone including explicit uniaxial deformation of nearest-neighbour hoppings, and (B) how that deformation moves and merges Dirac points, reshapes Berry curvature, alters band Chern numbers, modifies Wannier charge-center windings and the anomalous Hall conductivity, was not settled. Previous studies largely relied on low-energy continuum (Dirac-point) approximations, separate treatments of mass or Floquet terms, or did not include anisotropic hopping in the full lattice model; as a consequence there was no comprehensive phase diagram in the space of $(\\alpha,\\Delta,\\gamma_1)$ (with $\\Delta$ the light-induced amplitude and $\\gamma_1$ the deformed hopping) nor a full-BZ calculation combining quasi-energy spectra, Berry curvature distribution, Wannier center evolution and transport signatures. Because of these gaps, it remained unclear where and how Dirac-point motion and merging occur under combined light and uniaxial deformation, what the precise Chern-number plateaux are for the three-band system across $\\alpha$, how/when the system becomes topologically trivial (e.g. critical value(s) of $\\gamma_1$), and how those changes appear in measurable Hall conductivities. This paper is motivated by the need for a tight-binding Floquet framework that (i) includes anisotropic hopping along one bond direction, (ii) yields closed-form quasi-energies and eigenstates across the BZ, (iii) computes Berry curvature and Chern numbers across the full BZ as deformation varies, and (iv) connects these bulk invariants to Wannier center windings and anomalous Hall conductivity to produce a complete, tunable phase map.",
+        "content_hash": "6fde4e4bf17da3c033d893c434f36c692de1258ea7f5da5ee72f8f37cae5dc7c",
+        "id": "gcn_e7a6c6b84e7c48b9",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1113441274880327685::problem",
+            "package_id": "paper:1113441274880327685",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1113441274880327685"
+          ]
+        },
+        "rerank_score": 0.710835884594664,
+        "role": "premise",
+        "score": 0.0136986301369863,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Thouless pumping and Floquet topological engineering promise quantized, topology-driven particle transport in one-dimensional quantum systems when the Hamiltonian is time-periodic. In practice, most theoretical treatments have relied on model Hamiltonians (e.g., the Rice–Mele model) and on the adiabatic limit, or else invoked phenomenological descriptions that do not resolve atomistic electronic structure. Extending these ideas to real molecules requires a first-principles, time-dependent electronic-structure treatment that can (i) accommodate nonadiabatic, periodically driven dynamics (Floquet conditions), (ii) connect the abstract topological invariant (the winding number) to chemically intuitive, real-space descriptions of bonding, and (iii) predict how concrete, localized chemical modifications (substitutions or protonation state changes) alter whether a driven molecular system enters a Floquet topological phase. Additional complications arise because practical implementations using the time-dependent Kohn–Sham (KS) ansatz are nonlinear: the KS Hamiltonian depends on the instantaneous density, so a time-periodic external field does not automatically guarantee a strictly Floquet-periodic KS Hamiltonian. As a result, it has been unclear which molecular perturbations preserve or destroy Floquet topological pumping in realistic conjugated polymers, which driving-field parameters are required in chemically modified chains, and how to map the winding number to a valence-bond / localized-orbital picture that enables chemical intuition and design. These gaps prevent rational, atomistic design of molecular systems that exploit Floquet topological phases and leave open whether small, local chemical changes (e.g., a protonation or single-atom substitution) can qualitatively change the existence of the Floquet topological phase.",
+        "content_hash": "b52cb75fc6dd798eafbc06adaeb5cf77361470a88580411354dded94a789acdf",
+        "id": "gcn_be410c8109dd4e9e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1141706553821233158::problem",
+            "package_id": "paper:1141706553821233158",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1141706553821233158"
+          ]
+        },
+        "rerank_score": 0.7094843325210735,
+        "role": "premise",
+        "score": 0.00625,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Long evolution times and periodic driving can in principle induce heating, interband transitions, and interaction-driven modifications that would confound interpretations based on single-particle Floquet theory.  Before attributing observed localization/delocalization and anomalous transport to Floquet spectral structure and polarization-induced effective terms, it was necessary to verify (experimentally) that interactions and heating do not qualitatively alter the dynamics over the measurement timescales and parameter ranges, and that the single-band tight-binding approximation and noninteracting Floquet analysis remain applicable to the observed phenomena.",
+        "content_hash": "c8e46d8f40603b106b0d41c869ee5d378ead13edabade698c48b88ae929a5fe9",
+        "id": "gcn_716e9b6ca3bc4f87",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1141346488366923777::conclusion_6_subproblem",
+            "package_id": "paper:1141346488366923777",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1141346488366923777"
+          ]
+        },
+        "rerank_score": 0.7088149130147359,
+        "role": "premise",
+        "score": 0.00625,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "A distinguishing diagnostic for quench-induced DQPTs has been the dynamical topological order parameter, which shows quantized jumps at critical times and links dynamical nonanalyticities to topology. For Floquet-driven dynamics (no quench), it was not established whether a similar quantized, topological invariant exists and whether it can be computed analytically from the mode-resolved Floquet data. Without analytic expressions for the phases entering $\\nu_D(t)$, one cannot determine whether observed Loschmidt zeros in a driven protocol correspond to topologically nontrivial dynamical transitions or are merely accidental amplitude zeros. Providing closed-form geometric and dynamical phases and demonstrating quantized jumps therefore resolves whether FDQPTs in this solvable Floquet model are topological in the same sense as quench-induced DQPTs.",
+        "content_hash": "09a67e439c1a73f9f5e5098e95e21efa26ee7c78b6f4085e5fc19aca87d59dc9",
+        "id": "gcn_05926a9dd39d4883",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867747429284315912::conclusion_3_subproblem",
+            "package_id": "paper:867747429284315912",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867747429284315912"
+          ]
+        },
+        "rerank_score": 0.7369735803903259,
+        "role": "premise",
+        "score": 0.014925373134328358,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The work demonstrates momentum-resolved, pseudospin-selective Floquet band renormalization in black phosphorus within the duration of the pump pulse, but several scientific issues remain open. First, the Floquet sidebands and hybridization are observed with a resolution-limited lifetime (~130 fs); whether and how Floquet-engineered band structure can be stabilized or prolonged in the presence of intrinsic electron–electron and electron–phonon scattering, heating, and other dissipation channels is unresolved. Second, while ab initio Floquet tight-binding calculations reproduce the observed transient renormalization, a complete quantitative theory of the non-equilibrium formation dynamics (beyond the Floquet steady-state approximation used here) including dissipative processes and the crossover from few-cycle to longer-timescale behavior requires further investigation. Third, the experimental realization of optically induced transient topological phases in semiconductors — i.e., using near-resonant Floquet engineering to produce robust, observable topological edge or transport signatures — has not been achieved and remains an explicit future direction. Fourth, generality and materials-design rules remain to be established: it is an open question which classes of semiconductors (band gap, dispersion, pseudospin structure, scattering rates) admit strong, controllable Floquet hybridization without rapid decoherence or sample damage under resonant pumping. Addressing these unresolved issues will be necessary to move from transient, pump-duration–limited Floquet signatures toward practical dynamical control of electronic phases.",
+        "content_hash": "c3791c7f174cb48cc1c291efa3967532307240296aa408cfb7171e2cd2a22158",
+        "id": "gcn_bfbdba804dcc4b2e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867748734023237638::open_question",
+            "package_id": "paper:867748734023237638",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867748734023237638"
+          ]
+        },
+        "rerank_score": 0.7056683619421612,
+        "role": "premise",
+        "score": 0.005555555555555556,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "A single spin-1/2 driven by two harmonic, incommensurate tones provides a minimal non-equilibrium setting in which the stationary dynamics map onto a two-dimensional synthetic tight-binding problem subjected to an effective \"electric field\" equal to the vector of drive frequencies. Prior work established that, for appropriate choices of the drive amplitudes and relative phase offset, the instantaneous band structure of the driven qubit is topologically non-trivial and that, deep inside the topological regime, the driven spin pumps energy between the drives at an integer-quantized average rate (an effect directly analogous to the quantum Hall response of two-dimensional band insulators). What remained unresolved before this work is the precise non-equilibrium behaviour at and near the dynamical phase transition that separates the topological (pumping) and trivial (non-pumping) regimes: specifically, (i) what is the mean energy-pumping rate at the critical parameter value where the instantaneous band structure hosts a Dirac point, (ii) how finite drive frequencies and the consequent non-adiabatic excitations (heating) modify or destroy the quantized response on physically accessible time scales, and (iii) whether there exists a universal description (scaling functions and time scales) that controls the crossover from the quantized pre-thermal pumping to the late-time, non-pumping infinite-temperature-like state. These gaps prevented quantitative prediction of measurable pump powers at finite frequency, understanding of the role of the Dirac singularity in the Berry curvature on dynamical response, and design of experimental protocols to extract universal signatures of the critical response in qubit or optical-cavity platforms.",
+        "content_hash": "80d0eba7c3f17d24a37a3b94a591a2afb5e56a85daacbff4d616dc86c110052d",
+        "id": "gcn_ef3f6c23dc6a4e1f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867769640497971971::problem",
+            "package_id": "paper:867769640497971971",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867769640497971971"
+          ]
+        },
+        "rerank_score": 0.7527276838133703,
+        "role": "premise",
+        "score": 0.00909090909090909,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Prior Floquet synthetic-dimension demonstrations of quantized topological pumping focused on square-lattice nearest-neighbor models; it was not established whether non-square Haldane-class models mapped to incommensurate-drive Floquet lattices would exhibit the same robust conservative topological signatures (linear quantized pumping, torus-to-sphere mapping) or whether long-range NNN terms and non-orthogonality of lattice vectors would qualitatively alter conservative Floquet transport. Numerical confirmation was required to validate that the time-domain engineered Hamiltonians produce the expected topological dynamics before considering driven-dissipative and experimental effects.",
+        "content_hash": "7011884359db8a3885b34ed013f92bbbf3afad5790b8b5e5db13a0cd4884ddcf",
+        "id": "gcn_ca212853e4d44714",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1061164460892225590::conclusion_3_subproblem",
+            "package_id": "paper:1061164460892225590",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1061164460892225590"
+          ]
+        },
+        "rerank_score": 0.7024864644197653,
+        "role": "premise",
+        "score": 0.014285714285714285,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Floquet topology can also be encoded in topologically protected crossings of the phase bands of the evolution operator during the driving period, but such singularities are generally difficult to access directly. A dynamical scheme that only identifies the quasienergy invariants is not sufficient if one also wants to locate and count the singular events in the time-dependent phase bands that generate the Floquet topology. Before this work, there was no simple quench-based indicator that converted changes in the driving phase into a measurable count of these singularities.",
+        "content_hash": "9e5422973202e8c4f27476caed90d76c13c37ecaee4f016322761ff23a18ad61",
+        "id": "gcn_2e0747e91591479b",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867774043820916969::conclusion_6_subproblem",
+            "package_id": "paper:867774043820916969",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867774043820916969"
+          ]
+        },
+        "rerank_score": 0.740569597600627,
+        "role": "premise",
+        "score": 0.011114198388441233,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The study concerns two-dimensional periodically driven (Floquet) tight-binding systems on a honeycomb lattice and the topology of their quasienergy bands. Prior work established that periodically driven systems can realize topological phases with no static analog (anomalous Floquet phases) and introduced scattering-matrix and winding-number invariants for Floquet systems, but the combined questions of (i) the full analytic phase structure of a sequentially-driven honeycomb tight-binding model, (ii) how different types of spatial disorder (hopping versus onsite) quantitatively alter that Floquet phase diagram and the localization properties of bulk bands and edge modes, and (iii) how to efficiently construct the Floquet time-evolution operator in real space for large, disordered systems to enable robust numerical diagnostics, have not been settled. In particular, existing studies either focused on specific drives or on disorder effects in a subset of Floquet models, and numerical approaches to construct Floquet operators with disorder typically require costly matrix exponentiation for large system sizes, limiting finite-size scaling and disorder-ensemble sampling. These gaps prevent (a) an analytic identification of the gap-closing conditions that separate Floquet phases of this driven honeycomb model, (b) a phase-by-phase, disorder-type-resolved account of which phases (strong, weak, anomalous) remain localized or become delocalized as disorder increases, and (c) a practical route to exploit disorder-induced bulk localization (AFAI behavior) to filter bulk signals from edge-state signals in experimentally realizable photonic waveguide arrays.",
+        "content_hash": "72ffeaef6cc6aac7649a8eaca0914fdcb525c6f5e088d4e7e4d3c5d3180f9251",
+        "id": "gcn_524d5f2f82bf44ba",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867773011015500574::problem",
+            "package_id": "paper:867773011015500574",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867773011015500574"
+          ]
+        },
+        "rerank_score": 0.7090615566999964,
+        "role": "premise",
+        "score": 0.014880063700607146,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The paper addresses the problem of how to design, predict, and control robust three-dimensional topological phases—specifically Weyl semimetals, Dirac semimetals, and topological insulators—on ultrafast time scales by means of periodic (laser) driving. Prior to this work, theoretical proposals for Floquet engineering of topology relied largely on simplified model Hamiltonians (e.g., few-band tight-binding models with Peierls substitution and high-frequency Floquet expansions) that capture conceptual mechanisms but omit important material-specific ingredients: the full bandstructure asymmetries away from low-energy k·p regions, intra-atomic dipole and higher-multipole optical transitions, dynamical screening and time-dependent Hartree/exchange-correlation fields, and multi-photon dressing across the whole Brillouin zone. These omissions leave open whether (i) circularly polarised light can, in a quantitatively predictive way, split a fourfold 3D Dirac point into separated Weyl points (Floquet-Weyl semimetal) in a real material, (ii) how the splitting depends on driving amplitude and frequency when all valence electrons and realistic band asymmetries are included, (iii) whether laser-induced Floquet Weyl points are stable or instead smeared, gapped, or shifted in energy asymmetrically (producing Weyl metals) because of material-specific asymmetries, and (iv) whether Floquet driving can restore topology (close a strain-induced gap) and how to steer Floquet-Weyl point positions in time for pump-probe control. These gaps prevent quantitative, materials-specific predictions for experiments (e.g., pump–probe ARPES or ultrafast transport measurements) and leave open whether Floquet engineering can produce practically stable, controllable Weyl states in realistic 3D Dirac materials.",
+        "content_hash": "1116a744485ff6582627d906c456a5c99f91fa0462b343b38c3c39d17a157f57",
+        "id": "gcn_855bce25bc944004",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867754778619281448::problem",
+            "package_id": "paper:867754778619281448",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867754778619281448"
+          ]
+        },
+        "rerank_score": 0.7941596564191624,
+        "role": "premise",
+        "score": 0.012345679012345678,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Identifying topological transitions induced by off-resonant driving requires a dynamical frequency that captures both ordinary band-splitting and the additional light-induced mass contributions that arise because the driving couples non-commuting pseudospin operators (anomalous Bloch–Siegert-type physics). Prior approaches either treated only isotropic band shifts or analysed topology at a static, time-averaged level without isolating a Rabi-like quantity that directly encodes the light-induced mass responsible for gap opening/closing. A compact formula for $\\Gamma_{AR}$ and its induced mass term is needed to map the drive parameters $(\\mathcal{A},\\Omega)$ and static controls $(E_{\\perp},M)$ onto topological character (gapped vs gapless edge states, Chern-number-related masslessness) so that photoinduced topological phase transitions can be predicted in the off-resonant regime.",
+        "content_hash": "236b0d238f78fac0923c6852df02ff3893d6d8e39a35172ea6a901eb5b18819c",
+        "id": "gcn_c6aad18297e140ed",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867770027976163429::conclusion_3_subproblem",
+            "package_id": "paper:867770027976163429",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867770027976163429"
+          ]
+        },
+        "rerank_score": 0.7621778779259563,
+        "role": "premise",
+        "score": 0.007246376811594203,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The work addresses the unresolved question of how quantum fluctuations of a cavity electromagnetic mode modify and can be used to control topological phases in an electronic lattice system. The physical context is one-dimensional topological insulators exemplified by the Su-Schrieffer-Heeger (SSH) model, a dimerized tight-binding chain with intracell hopping $v$ and intercell hopping $w$, whose topological distinction (Zak phase / boundary-localized edge modes) is fixed by the ratio $v/w$ in the isolated electronic model. Prior approaches to light-induced topology predominantly considered classical time-periodic (Floquet) drives or semiclassical treatments of light, which can engineer topological bandstructure but suffer from serious practical limitations such as heating and the requirement of high-frequency drives to avoid runaway absorption. It is not established whether genuinely quantum cavity photons — treated via a gauge-invariant coupling to electrons — can (i) change the finite-length energy spectrum that encodes edge modes, (ii) shift or induce topological transitions in the bulk, or (iii) provide experimentally accessible photonic signatures of a topology change, and how these effects depend on microscopic geometry (sublattice positions) and on the thermodynamic limit. Additionally, there is a methodological gap: it is unclear which theoretical approximations (for example mean-field decoupling, collective coupling scaling $g\\propto1/\\sqrt{L}$, or k-space truncations) are adequate to capture cavity-induced topology, and what their limitations are for finite-size chains and for predicting observable photon properties. These gaps prevent predictive control of topology with quantum light and hinder assessment of cavity-based probes (e.g., polariton spectra) as diagnostic tools for topological transitions.",
+        "content_hash": "c5e8119094163ac607ef18d7f955ac408ac627e12e25f3cea4c0e806e178a315",
+        "id": "gcn_4eb404e918074d4b",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867745692657910599::problem",
+            "package_id": "paper:867745692657910599",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867745692657910599"
+          ]
+        },
+        "rerank_score": 0.6960015064163552,
+        "role": "premise",
+        "score": 0.008849557522123894,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In quasiperiodically driven quantum systems, a spin-1/2 subjected to two incommensurate harmonic drives can exhibit a topological energy pumping effect analogous to the quantum Hall effect, where energy flows from one drive to the other at an integer-quantized average rate. This effect relies on the mapping of the driven spin to a two-dimensional synthetic tight-binding model in the presence of an electric field, with the drive frequencies playing the role of the electric field. Prior work established the existence of integer quantized pumping in the topological regime [24,25], but the nature of the dynamical phase transition between the topological (pumping) and trivial (non-pumping) regimes remained unexplored. In particular, the behavior of the pumping rate at the critical point, the timescales governing the breakdown of adiabaticity, and the universal scaling properties of energy transfer processes near the transition were unknown. This gap hinders a full understanding of dynamical phase transitions in driven systems and the potential for observing universal critical phenomena in simple quantum settings.",
+        "content_hash": "1b4490937235f3b96328bab9dfc1adb2436b82ef519bdebddf9ea0b9fba5abec",
+        "id": "gcn_1d1f124691664905",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817337108992622593::problem",
+            "package_id": "paper:817337108992622593",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817337108992622593"
+          ]
+        },
+        "rerank_score": 0.692457570573041,
+        "role": "premise",
+        "score": 0.00819672131147541,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Researchers needed a concrete microscopic Hamiltonian that treats an infrared-driven phonon and the electrons on equal footing in honeycomb bilayers with point group $D_{3d}$. Previously, either fully electronic Floquet tight-binding models (which omit explicit lattice displacement fields) or frozen-phonon static tight-binding parametrizations (Born–Oppenheimer-style snapshots) were used; neither yields a single compact time-dependent lattice Hamiltonian that simultaneously (a) respects the space-group-allowed displacement patterns for an $E_u$ infrared phonon, (b) incorporates the time dependence of hopping amplitudes through the instantaneous atomic positions, and (c) includes the direct electron–light coupling via minimal substitution. Without such a Hamiltonian one cannot systematically compute Floquet quasienergies or compare the relative roles of driven phonons versus direct electronic driving within the same microscopic framework.",
+        "content_hash": "6584046ed0e3ed30d5e922f7147c677f59793141d05f89996b98f837df2a30ee",
+        "id": "gcn_d5a6a45af78e4794",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867771653189272273::conclusion_1_subproblem",
+            "package_id": "paper:867771653189272273",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867771653189272273"
+          ]
+        },
+        "rerank_score": 0.7170894160326455,
+        "role": "premise",
+        "score": 0.006369426751592357,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Periodically driven (Floquet) quantum systems lack a well-defined ground state and therefore cannot be classified using the standard static topological schemes that rely on ground-state band structure. At the same time, driven systems exhibit phenomena — such as quantized adiabatic pumping and dynamically induced chiral edge modes — that resemble static topological effects but depend on fundamentally different spectral features: quasienergies are phases, defined modulo $2\\pi/T$, and can therefore wind as crystal momentum or other parameters are varied. Prior theoretical approaches treated pumped charge and dynamically induced topological band structures piecemeal: quantized pumping was characterized using Chern-number arguments in adiabatic limits, and several proposals showed that periodic driving can generate effective Hamiltonians with nontrivial static-type invariants. What was missing prior to this work was a unified, manifestly Floquet-based framework that (i) identifies the intrinsic topological objects appropriate to dynamics (the Floquet evolution operators $U(T)$), (ii) provides computable topological invariants that capture winding of quasienergy (including in disordered or interacting gapped systems), (iii) explains how quantized pumping and edge-state phenomena arise from Floquet topology rather than only from effective static descriptions, and (iv) clarifies when and how the effective static Hamiltonian description applies (including precise symmetry conditions at the level of $U(T)$). Because existing methods either relied on adiabatic, static, or phenomenological constructions or failed to account for quasienergy periodicity and disorder, they did not provide a general, predictive classification of driven systems nor an explanation for striking possibilities such as chiral edge modes appearing while all bulk Chern numbers are zero.",
+        "content_hash": "34ce70a0b7a60ca06835c120ef19a48d551bd6e07bf81cce13adda6ef877db8f",
+        "id": "gcn_713cf2130fe5452b",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811698847909675011::problem",
+            "package_id": "paper:811698847909675011",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811698847909675011"
+          ]
+        },
+        "rerank_score": 0.7859754449224483,
+        "role": "premise",
+        "score": 0.015625,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Periodically driven (Floquet) quantum systems can exhibit nonequilibrium topological phases whose quasienergies are defined only modulo the Floquet Brillouin zone, enabling phenomena (for example, chiral edge modes coexisting with trivial bulk bands and quasienergy winding) not present in static systems. Prior work has shown many Floquet topological phases and exotic edge phenomena, but an important conceptual gap remained: it was unclear how Floquet holonomy — the possibility that an eigenstate of a Floquet propagator U(λ) parametrized by a periodic parameter λ may adiabatically evolve into a different orthogonal eigenstate after λ advances by one period — can give rise to new types of Floquet topological or semimetallic phases and what their dynamical and boundary manifestations would be. In particular, there was no explicit, minimal lattice model demonstrating (i) bandwise Floquet holonomy in which entire Floquet bands (not just isolated eigenstates) exchange with other bands under an adiabatic λ-cycle, (ii) the consequences of such bandwise holonomy for bulk adiabatic pumping and state population transfer, and (iii) how edge modes behave under open boundary conditions in such a scenario (whether winding edge modes can appear that are localized only on one edge, whether their holonomy differs from bulk holonomy, and whether they can produce quantized pumping without disorder). Existing analyses of Floquet topological phases did not provide a construction resolving these questions: prior methods either focused on Floquet Chern and Weyl phases, disorder-induced anomalous pumps, or isolated instances of Floquet holonomy for single states, but none provided a concrete, analytically simple periodically quenched lattice model that (a) maps λ to a synthetic-dimension quasimomentum while keeping U(λ) manifestly 2π-periodic in λ, (b) exhibits vanishing indirect gaps (a semimetallic band connection across λ) concomitant with bandwise exchange under λ→λ+2π, and (c) allows controlled study of bulk dynamical signatures and open-boundary edge-state structure and pumping. As a result, before this work there was no clear theoretical model connecting Floquet-band holonomy to observable bulk population-transfer cycles, Wannier pumping anomalies, and to robust, well-separated winding edge modes enabling quantized or fractional edge pumping in the absence of disorder.",
+        "content_hash": "209c6f3d398fa214c9860970e4c2c1cd37695aae1330f1856149f78d84879d77",
+        "id": "gcn_1a3abb3cf0a64046",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867770878820090225::problem",
+            "package_id": "paper:867770878820090225",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867770878820090225"
+          ]
+        },
+        "rerank_score": 0.7771367642370184,
+        "role": "premise",
+        "score": 0.015151515151515152,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Few-level quantum systems (qudits) driven by two incommensurate (quasi-periodic) classical tones lie between the well-understood limits of single-frequency Floquet driving and stochastic driving. Prior theory shows that the two-tone Schrödinger problem can be mapped to a tight-binding model on a two-dimensional \"frequency lattice\" and that adiabatically driven spins mapped to Chern insulators can pump energy between drives. However, before this work the following concrete scientific gaps prevented a complete understanding and experimental design: (i) There was no exhaustive, band-theoretic classification of the fundamental (quasi-energy) solutions for a generic d-level system driven by two incommensurate frequencies that connects topological band invariants to observable dynamical phenomena at arbitrary drive rates. (ii) The relation (if any) between topological invariants of quasi-energy bands (Berry curvature/Chern numbers) and the functional form of the quasi-energy dispersion $\\epsilon_j(\\vec{\\theta}_0)$ (derivatives with respect to initial drive phases $\\vec{\\theta}_0$) was not established; consequently one could not predict from topology whether quasi-energies would be flat or dispersing and what that would imply for dynamics. (iii) The dynamical signatures associated with any such topological classification—quantified energy pumping between drives, sensitivity to initial phases, (a)periodicity or spectral density of expectation values, and convergence properties of commensurate approximations—were not derived as precise, quantitative relations valid beyond the strictly adiabatic limit. (iv) The stability of any topological dynamical class at finite drive frequencies was unclear: it was unknown whether exact level crossings required for non-zero band Chern numbers survive generic perturbations, whether such topology can be realized experimentally at finite frequency, and what time-scales (if any) protect topological behavior (pre-thermal regimes). (v) There was no explicit finite-frequency Hamiltonian-construction (with controlled bandwidth) that guarantees topological quasi-energy states (e.g., counter-diabatic terms adapted to quasi-periodic driving). These gaps prevented predictive identification of when pumping and other topological dynamical phenomena occur, impeded quantitative design of finite-frequency experiments, and left open whether topological dynamical classes form stable phases or only finely tuned points in parameter space.",
+        "content_hash": "8796fd4b018a00219593a716f0e021eee1585338749d1027a51f8e8db790f902",
+        "id": "gcn_d3449ed556ac4af6",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867761581318996899::problem",
+            "package_id": "paper:867761581318996899",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867761581318996899"
+          ]
+        },
+        "rerank_score": 0.7505424560527352,
+        "role": "premise",
+        "score": 0.01282051282051282,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Floquet engineering aims to use periodic driving to create or control topological electronic states in solids, but existing solid-state implementations face a substantive, unresolved problem: the intrinsic electronic energy scales (bandwidths, Fermi velocities, valley separations) of most candidate materials are fixed and often do not match experimentally accessible photon energies and pulse shapes, which leads to unavoidable resonant interband excitations, strong heating, and loss of the light-induced states. In addition, single-layer graphene, a paradigmatic Dirac system, cannot be tuned into and out of a topologically trivial insulating state by an experimentally accessible, spatially uniform electrostatic control parameter, so it does not permit exploration of the full topological phase diagram (the Haldane-like transition between trivial and Chern-insulating phases) using only symmetry-breaking fields plus time-reversal-symmetry-breaking light. Microscopically reliable predictions of Floquet topology in realistic multilayer or Moiré systems are further hindered by the need to treat large Moiré unit cells and interlayer couplings beyond minimal continuum models: without a full microscopic tight-binding treatment that includes spatially varying stacking, interlayer hoppings, and possible sublattice and layer potentials, it is unclear whether interlayer coupling will qualitatively alter Dirac dispersions, Berry curvature distributions, light-induced gaps, and the resulting Floquet topological phases. Consequently, prior to this work there was no detailed, microscopic demonstration that a tunable van-der-Waals Moiré platform could (i) provide controllable electronic bandwidths matched to pump photon energies to avoid detrimental resonances and heating, (ii) realize a backgate-tunable starting point that is topologically trivial so that a light-induced Haldane-like transition can be explored, and (iii) be treated microscopically (full Moiré-unit-cell tight-binding) to predict Floquet-band topology and phase boundaries for experimentally realistic driving amplitudes and frequencies.",
+        "content_hash": "31a8121064a0851d1ed414d37ba40fa3662e80524e917c1146e604bfc0d639da",
+        "id": "gcn_73440f4cd9be4c18",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867766758084182327::problem",
+            "package_id": "paper:867766758084182327",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867766758084182327"
+          ]
+        },
+        "rerank_score": 0.7363436954913658,
+        "role": "premise",
+        "score": 0.014954368844311918,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The physical question is whether the stroboscopic (Floquet) version of the cluster chain retains distinct symmetry-protected topological sectors and how to identify them. Prior analyses of topological quantum walks and static cluster Hamiltonians used either effective single-particle Floquet constructions or ground-state stabilizer arguments, but a direct Floquet classification for the driven cluster operator required demonstrating a chiral symmetry of $h_{k}$ and computing a robust winding invariant adapted to the quasienergy band structure. Without such an invariant one cannot delineate parameter-space boundaries between topologically nontrivial and trivial driven phases, nor predict where Floquet-band gap closings (Dirac points) occur and hence where dynamical transitions associated with topology and entanglement may appear. The winding number formula above provides the missing topological classification for the driven cluster model and identifies the critical lines $J=B\\;\\mathrm{mod}\\;\\tfrac{\\pi}{2}$ that separate phases.",
+        "content_hash": "7545bde3c031fc4a066d3dca665fa0983f3fc3644ef190570d646558d86bb7b6",
+        "id": "gcn_cb649d5471994cd7",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867747478844211271::conclusion_2_subproblem",
+            "package_id": "paper:867747478844211271",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867747478844211271"
+          ]
+        },
+        "rerank_score": 0.6840354347608165,
+        "role": "premise",
+        "score": 0.007042253521126761,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Physical context: Analyses of topological invariants for driven (Floquet) systems exploit time-periodic unitaries and their phase-band singularities to classify topology. Prior approaches: Quench unitaries $U(t)=e^{-iht}$ are not time-periodic on $t\\in[0,\\pi]$, so direct adoption of Floquet methods was obstructed. Consequences: Without a homotopic map from the quench unitary to a time-periodic evolution, it was unclear how the Floquet classification machinery (e.g., phase bands and Weyl-like singularities) could be applied to quench problems. Establishing the homotopy $U_{l}\\sim U_{g}$ bridges this methodological gap and allows leverage of Floquet insights for quench topology.",
+        "content_hash": "f72b35ec61f5c4fa748b4a152d3a214617fc38d74ddd7ccfcd3df1e759191d6b",
+        "id": "gcn_e6071aeb0cbf4007",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812645250471297025::conclusion_2_subproblem",
+            "package_id": "paper:812645250471297025",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812645250471297025"
+          ]
+        },
+        "rerank_score": 0.6839630471070782,
+        "role": "premise",
+        "score": 0.015625,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In the context of Floquet engineering of topological phases, practical device modeling requires a controlled, static-like description of the driven system when transport is computed with coherent methods (Landauer/NEGF). For thin TI films irradiated by circularly polarized light, a microscopic effective Hamiltonian that captures how the drive renormalizes the inter-surface tunneling, Fermi velocities, and adds a drive-induced mass is needed. Prior work indicates an inverse-frequency expansion exists, but device modeling requires the explicit form of the drive-induced terms (their dependence on drive amplitude and frequency) and the identification of the assumptions under which the static approximation applies (off-resonant regime, low intensity, neglect of higher-order terms). Without an explicit effective Hamiltonian one cannot (i) compute pseudo-spin-resolved Chern numbers, (ii) determine which pseudo-spin sectors become gapped or inverted by light, or (iii) perform quantitative NEGF transport calculations for nano-ribbons with driven scattering regions.",
+        "content_hash": "792eda3105e4e1b68538280deba1a008729ea0a9cdb7bff8dae30eb4eb0e172c",
+        "id": "gcn_0bb8537bec1f4541",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867758025224487417::conclusion_1_subproblem",
+            "package_id": "paper:867758025224487417",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867758025224487417"
+          ]
+        },
+        "rerank_score": 0.6813205353096684,
+        "role": "premise",
+        "score": 0.009900990099009901,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In ultrathin films of three-dimensional topological insulators (TI) the low-energy electronic structure near the Γ point is formed by two hybridized surface Dirac cones whose hybridization (tunneling) opens a gap, and whose topology can be altered by static knobs such as perpendicular exchange (magnetization) from magnetic doping, structural inversion asymmetry (SIA) and external magnetic field (Landau quantization). These static control parameters give only limited, material-dependent routes to engineer band inversion and Chern numbers. Separately, time-periodic (Floquet) driving by electromagnetic radiation is known to dress electronic bands and can induce effective mass terms and dynamical gaps, but a focused, quantitative description of the off-resonant, photon-dressed low-energy Hamiltonian for magnetically doped TI thin films — one that includes tunneling between surfaces, perpendicular exchange, and the perturbative (high-frequency, weak-field) photon-assisted corrections — is not fully settled in the literature for the realistic parameter regimes of TI thin films. Consequently, the mapping between experimentally tunable light parameters (frequency, intensity, polarization) and the resulting topological phases (including whether light alone can induce quantum anomalous Hall phases, the existence of phases with zero total Chern number yet nontrivial pseudo-spin structure, and the behavior under simultaneous perpendicular magnetic field) has not been established at the level of (i) an explicit effective static Hamiltonian valid in the off-resonant limit, (ii) analytic expressions for Berry curvature and Chern numbers for the driven model, and (iii) numerical confirmation of edge spectra, Hall conductivities and Landau-level fan diagrams for parameter values relevant to TI thin films. This lack of a consolidated theoretical and numerical framework prevents a controlled assessment of which light-induced topological phases are realizable, how the Fermi velocity and mass terms are renormalized by light, how edge modes manifest in ribbons, and how photon-dressing interacts with Landau quantization to produce higher-Chern-number phases.",
+        "content_hash": "a9e8ec68095f33ca9c05745dbfbaf406b0e4f108234c09f2e3f849a1f1b07b2d",
+        "id": "gcn_8bb5e7035e1f4c75",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867752180646412967::problem",
+            "package_id": "paper:867752180646412967",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867752180646412967"
+          ]
+        },
+        "rerank_score": 0.691109888245918,
+        "role": "premise",
+        "score": 0.006802721088435374,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The work leaves several experimentally and theoretically meaningful issues open. First, the shortest pulse duration and the exact parametric boundary at which Floquet theory (continuous-drive approximations and adiabatic following) fail were not determined: the experiments demonstrate Floquet-like, adiabatic behavior down to 34 fs (~15 optical cycles) but do not establish whether still shorter pulses (fewer cycles), different pulse shapes, or more strongly driving fields would produce non-adiabatic dynamics or departures from instantaneous $|\\mathbf{E}|^2$ scaling. Second, the experiments were performed with red-detuned, sub-bandgap pumps that do not generate significant exciton populations; the regime in which resonant or higher-fluence pumping produces real population, scattering, or heating that breaks adiabaticity remains untested. Third, the time-domain simulations used to support the adiabatic interpretation were implemented only to first order in the electric field with the spectral shift introduced phenomenologically, so a more rigorous, higher-order, or ab initio theoretical treatment of the driven many-body system (including electron–phonon and many-body scattering) is required to fully validate and generalize the phenomenological modeling. Fourth, the experimentally relevant question of whether the same instantaneous, adiabatic response and linear intensity scaling persist in other material systems (different TMDs, heterostructures, or materials proposed for light-induced topological transitions) has not been settled. Finally, predictions of light-induced topological phase transitions in driven TMDs remain experimentally unobserved; connecting the demonstrated ultrafast adiabatic Stark response to the controlled realization and detection of driven topological phases requires further experimental and theoretical development.",
+        "content_hash": "109d78c2721dd3acea6fc985590ea81d3696e9e495158b7b4e4d56cca7915d63",
+        "id": "gcn_f55ae600804d43da",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867764726233301237::open_question",
+            "package_id": "paper:867764726233301237",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867764726233301237"
+          ]
+        },
+        "rerank_score": 0.6960279894134038,
+        "role": "premise",
+        "score": 0.011363636363636364,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The study is limited to the non-interacting (single-particle) Floquet description of TTG and to the high-frequency regime where the employed effective Hamiltonians and truncated quasi-energy computations are controlled; consequently the following scientific issues remain unresolved within the paper's scope and are explicitly acknowledged as open: (1) How electronic interactions (Coulomb correlations) modify or stabilize the light-induced flattened bands and Floquet topological phases in TTG, including whether Floquet-driven flat bands lead to interaction-driven ordered phases (superconductivity, magnetism) analogous to equilibrium correlated states; (2) The fate of low-frequency driving regimes (where driving frequency is comparable to or smaller than bandwidth) for TTG, which require computation of Floquet winding numbers and a treatment beyond high-frequency approximations; (3) Quantitative assessment of dissipation, heating, and lifetime of Floquet states in realistic experimental conditions (pump durations, substrate coupling), which will determine whether the predicted Floquet topological/interface states and magic-angle tuning are observable; (4) Numerical convergence issues encountered in some Chern-number computations (cases labeled by 'v' for numerically gapless and '$\\nu$' for nonconvergent Chern values in Table I) indicate open questions about stability and precise identification of certain high-Chern-number regions that require finer resolution and further numerical study; (5) The role of next-nearest-layer interactions and lattice relaxation (beyond the $w_0\\approx0.8w_1$ parameterization used) on the drive-induced band and topology changes, which could modify phase boundaries and the handedness sensitivity reported for ABC TLT. These constitute the principal unresolved scientific directions left open by the present non-interacting Floquet analysis.",
+        "content_hash": "61615e989dec7f98f9bee46c4f3698e1174699aefe7cb96537309ce4c427f57a",
+        "id": "gcn_a1dee376bdee40f2",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867760806379389029::open_question",
+            "package_id": "paper:867760806379389029",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867760806379389029"
+          ]
+        },
+        "rerank_score": 0.6945085821222912,
+        "role": "premise",
+        "score": 0.01098901098901099,
+        "type": "question",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "req_c16213d7f27cc"
+}

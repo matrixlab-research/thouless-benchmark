@@ -1,0 +1,1888 @@
+{
+  "code": 0,
+  "data": {
+    "has_more": true,
+    "papers": {
+      "paper:1053890800124952581": {
+        "area": "geoscience, materials science, multidisciplinary, nanoscience & nanotechnology, engineering",
+        "authors": "Sisheng Duan | Jing-Yang You | Zhihao Cai | Jian Gou | Dong Li | Yu Li Huang | Xiaojiang Yu | Siew Lang Teo | Shuo Sun | Yihe Wang | Ming Lin | Chun Zhang | Baojie Feng | Andrew T. S. Wee | Wei Chen",
+        "available_online": "",
+        "cover_date_start": "2024-10-17",
+        "created_at": "2026-05-16T20:20:03+08:00",
+        "doi": "10.1038/s41467-024-53314-1",
+        "en_title": "Observation of kagome-like bands in two-dimensional semiconducting Cr8Se12",
+        "id": "1053890800124952581",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "98116",
+        "publication_name": "NanoScience and Technology _ ",
+        "research_categories": "",
+        "zh_title": "二维半导体Cr8Se12中类 Kagome 能带的观测"
+      },
+      "paper:1053919589894717445": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Seungwon Jung",
+        "available_online": "",
+        "cover_date_start": "2024-10-15",
+        "created_at": "2026-06-16T23:39:22+08:00",
+        "doi": "10.48550/arxiv.2410.11909",
+        "en_title": "Stop using Landau gauge for Tight-binding Models",
+        "id": "1053919589894717445",
+        "keywords": "",
+        "publication_date": "2024-10-15",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "停止在紧束缚模型中使用朗道规范"
+      },
+      "paper:1078730910016208902": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Dongbin Shin | Fabijan Pavošević | Nicolas Tancogne-Dejean | Michele Buzzi | Emil Viñas Boström | Angel Rubio",
+        "available_online": "",
+        "cover_date_start": "2024-12-24",
+        "created_at": "2026-06-19T03:55:30+08:00",
+        "doi": "10.48550/arxiv.2412.18088",
+        "en_title": "Origin of the insulating and superconducting phases in molecular solid $κ$-(BEDT-TTF)$_2$Cu$_2$(CN)$_3$",
+        "id": "1078730910016208902",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons",
+        "research_categories": "",
+        "zh_title": "分子固体κ-(BEDT-TTF)$_2$Cu$_2$(CN)$_3$中绝缘相和超导相的起源"
+      },
+      "paper:1083833140071366698": {
+        "area": "arxiv-physics",
+        "authors": "Jiaqi Zhou | Samuel Poncé | Jean-Christophe Charlier",
+        "available_online": "",
+        "cover_date_start": "2025-01-03",
+        "created_at": "2026-06-17T06:54:01+08:00",
+        "doi": "10.48550/arxiv.2501.02110",
+        "en_title": "High-throughput calculations of spin Hall conductivity in non-magnetic 2D materials",
+        "id": "1083833140071366698",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108512",
+        "publication_name": "Computational Physics",
+        "research_categories": "",
+        "zh_title": "非磁性二维材料中自旋霍尔电导率的高通量计算"
+      },
+      "paper:1103774583875436566": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Jisong Gao | Haijun Cao | Xuegao Hu | Hui Zhou | Zhihao Cai | Qiaoxiao Zhao | Dong Li | Zhicheng Gao | Shin-ichiro Ideta | Kenya Shimada | Peng Cheng | Lan Chen | Kehui Wu | Sheng Meng | Baojie Feng",
+        "available_online": "",
+        "cover_date_start": "2025-03-03",
+        "created_at": "2026-06-13T06:32:59+08:00",
+        "doi": "10.48550/arxiv.2503.01535",
+        "en_title": "Flat bands and temperature-driven phase transition in quasi-one-dimensional zigzag chains",
+        "id": "1103774583875436566",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons",
+        "research_categories": "",
+        "zh_title": "准一维锯齿链中的平带与温度驱动的相变"
+      },
+      "paper:1112351290114965508": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Sangeeta Sharma | Deepika Gill | John Kay Dewhurst | Peter Elliott | Sam Shallcross",
+        "available_online": "",
+        "cover_date_start": "2025-03-27",
+        "created_at": "2026-06-19T04:27:32+08:00",
+        "doi": "10.48550/arxiv.2503.21376",
+        "en_title": "Ultrafast Saddletronics",
+        "id": "1112351290114965508",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "超快鞍座电子学"
+      },
+      "paper:1229502265828573193": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Licheng Wang | Ali Hamza Qureshi | Yi Sun | Xiaokang Xu | Xiaojing Yao | Xinli Zhao | Ai-Lei He | Yuan Zhou | Xiuyun Zhang",
+        "available_online": "",
+        "cover_date_start": "2024-07-15",
+        "created_at": "2026-06-18T23:28:05+08:00",
+        "doi": "10.48550/arXiv.2407.10432",
+        "en_title": "Second-order topological insulator in Bilayer borophene",
+        "id": "1229502265828573193",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108483",
+        "publication_name": "Materials Science",
+        "research_categories": "",
+        "zh_title": "双层硼烯中的二阶拓扑绝缘体"
+      },
+      "paper:7465428044567285865": {
+        "area": "arxiv-cond-mat",
+        "authors": "Takashi Inoue | Shoji Yamamoto",
+        "available_online": null,
+        "cover_date_start": "2026-05-23",
+        "created_at": "2026-06-02T17:04:12+08:00",
+        "doi": "10.48550/arxiv.2605.24430",
+        "en_title": "Superconfined Antiferromagnons on the Two-Dimensional Penrose Lattice",
+        "id": "7465428044567285865",
+        "keywords": null,
+        "publication_date": "2026-05-23",
+        "publication_id": "",
+        "publication_name": "arXiv (cond-mat.str-el)",
+        "research_categories": null,
+        "zh_title": "二维Penrose晶格上的超约束反铁磁振子"
+      },
+      "paper:811133642695770113": {
+        "area": "mathematics, computer science, artificial intelligence, materials science, characterization & testing, engineering, multidisciplinary",
+        "authors": "Jose Silva-Guillén | Pablo San-Jose | Rafael Roldán",
+        "available_online": "2016-10-1",
+        "cover_date_start": "2016-10-01",
+        "created_at": "2026-05-26T04:11:43+08:00",
+        "doi": "10.3390/app6100284",
+        "en_title": "Electronic Band Structure of Transition Metal Dichalcogenides from Ab Initio and Slater–Koster Tight-Binding Model",
+        "id": "811133642695770113",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "96528",
+        "publication_name": "Applied Sciences _ Applied Sciences",
+        "research_categories": "",
+        "zh_title": "基于第一性原理和Slater-Koster紧束缚模型的过渡金属二硫属化物的电子能带结构"
+      },
+      "paper:811806684665085953": {
+        "area": "physics and astrophysics, physics, condensed matter",
+        "authors": "J. van Wezel | P. Nahai-Williamson | S.S. Saxena",
+        "available_online": "2010-2-10",
+        "cas_zone": "4",
+        "cover_date_start": "2010-02-10",
+        "created_at": "2026-06-16T03:13:23+08:00",
+        "doi": "10.1002/pssb.200983012",
+        "en_title": "Quasi one-dimensional chains and exciton-phonon interactions in TiSe 2",
+        "id": "811806684665085953",
+        "impact_factor": 1.1,
+        "jcr_zone": "Q3",
+        "keywords": "",
+        "publication_date": "2010-3",
+        "publication_id": "671",
+        "publication_name": "physica status solidi (b) _ phys. stat. sol. (b)",
+        "research_categories": "",
+        "zh_title": "二硒化钛中的准一维链与激子-声子相互作用"
+      },
+      "paper:811822398583078915": {
+        "area": "physics and astrophysics, physics, multidisciplinary",
+        "authors": "Taichi Kosugi | Takashi Miyake | Shoji Ishibashi | Ryotaro Arita | Hideo Aoki",
+        "available_online": "",
+        "cas_zone": "4",
+        "cover_date_start": "2009-11-15",
+        "created_at": "2026-06-10T01:08:48+08:00",
+        "doi": "10.1143/jpsj.78.113704",
+        "en_title": "First-Principles Electronic Structure of Solid Picene",
+        "id": "811822398583078915",
+        "impact_factor": 2.6,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "2009-11-15",
+        "publication_id": "647",
+        "publication_name": "Journal of the Physical Society of Japan _ J. Phys. Soc. Jpn.",
+        "research_categories": "",
+        "zh_title": "固体并五苯的第一性原理电子结构"
+      },
+      "paper:812481557905276928": {
+        "area": "physics and astrophysics, physical sciences, condensed matter physics",
+        "authors": "Dexi Shao | Zhaopeng Guo | Xianxin Wu | Simin Nie | Jian Sun | Hongming Weng | Zhijun Wang",
+        "available_online": "2021-3-25",
+        "cas_zone": "2",
+        "cover_date_start": "2021-03-25",
+        "created_at": "2026-06-17T08:54:29+08:00",
+        "doi": "10.1103/physrevresearch.3.013278",
+        "en_title": "Topological insulators in the NaCaBi family with large spin-orbit coupling gaps",
+        "id": "812481557905276928",
+        "impact_factor": 4.9,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "68812",
+        "publication_name": "Physical Review Research _ Phys. Rev. Research",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "具有大自旋轨道耦合能隙的NaCaBi族拓扑绝缘体"
+      },
+      "paper:812534283842355202": {
+        "area": "physics and astrophysics, physical sciences, condensed matter physics",
+        "authors": "M. Nakhaee | S. A. Ketabi | F. M. Peeters",
+        "available_online": "",
+        "cas_zone": "3",
+        "cover_date_start": "2020-12-07",
+        "created_at": "2026-06-16T07:03:53+08:00",
+        "doi": "10.1063/5.0023980",
+        "en_title": "Machine learning approach to constructing tight binding models for solids with application to BiTeCl",
+        "id": "812534283842355202",
+        "impact_factor": 2.4,
+        "jcr_zone": "Q3",
+        "keywords": "",
+        "publication_date": "2020-12-7",
+        "publication_id": "585",
+        "publication_name": "Journal of Applied Physics _ Journal of Applied Physics",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "用于构建固体紧束缚模型的机器学习方法及其在BiTeCl中的应用"
+      },
+      "paper:812555273129426945": {
+        "area": "material science, physical sciences, condensed matter physics, quantum physics",
+        "authors": "Jinbo Pan | Jiabin Yu | Yan-Fang Zhang | Shixuan Du | Anderson Janotti | Chao-Xing Liu | Qimin Yan",
+        "available_online": "2020-10-13",
+        "cas_zone": "1",
+        "cover_date_start": "2020-10-13",
+        "created_at": "2026-06-15T06:31:16+08:00",
+        "doi": "10.1038/s41524-020-00419-y",
+        "en_title": "Quantum anomalous Hall effect in two-dimensional magnetic insulator heterojunctions",
+        "id": "812555273129426945",
+        "impact_factor": 11.2,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2020-12",
+        "publication_id": "2057",
+        "publication_name": "npj Computational Materials _ npj Comput Mater",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "二维磁性绝缘体异质结中的量子反常霍尔效应"
+      },
+      "paper:812573316442226689": {
+        "area": "material science, chemical sciences, macromolecular and materials chemistry, engineering, materials engineering, nanotechnology",
+        "authors": "Yi-min Ding | Huilong Dong | Hongxia Zhong | Juan Xie | Nopporn Rujisamphan | Youyong Li",
+        "available_online": "",
+        "cas_zone": "3",
+        "cover_date_start": "2020-12-01",
+        "created_at": "2026-05-18T23:45:24+08:00",
+        "doi": "10.1016/j.mtcomm.2020.101606",
+        "en_title": "Structures and optoelectronic properties of two-dimensional MC6 (M = Ti and Hf) predicted by computational approaches",
+        "id": "812573316442226689",
+        "impact_factor": 4.9,
+        "jcr_zone": "Q2",
+        "keywords": "[{\"ch_name\":\"吸收光谱\",\"en_name\":\"Absorbance spectrum\"},{\"ch_name\":\"带隙调制\",\"en_name\":\"Band gap modulation\"},{\"ch_name\":\"第一性原理计算\",\"en_name\":\"First-principles calculations\"},{\"ch_name\":\"二维碳化物\",\"en_name\":\"Two-dimensional carbide\"}]",
+        "publication_date": "2020-12",
+        "publication_id": "2190",
+        "publication_name": "Materials Today Communications _ Materials Today Communications",
+        "research_categories": "[\"Chemical Sciences\", \"Macromolecular and Materials Chemistry\", \"Engineering\", \"Materials Engineering\", \"Nanotechnology\"]",
+        "zh_title": "通过计算方法预测的二维MC6（M = Ti和Hf）的结构和光电性质"
+      },
+      "paper:812652544286261249": {
+        "area": null,
+        "authors": "",
+        "available_online": "",
+        "cover_date_start": "2020-04-09",
+        "created_at": "2026-05-20T05:49:07+08:00",
+        "doi": "10.1021/acs.nanolett.8b03745.s001",
+        "en_title": "Ferromagnetic Anomalous Hall Effect in Cr-Doped Bi2Se3 Thin Films via Surface-State Engineering",
+        "id": "812652544286261249",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "0",
+        "publication_name": "",
+        "research_categories": "",
+        "zh_title": "通过表面态工程研究 Cr 掺杂 Bi2Se3 薄膜中的铁磁反常霍尔效应"
+      },
+      "paper:812673173043544066": {
+        "area": "physics and astrophysics, physics, multidisciplinary",
+        "authors": "Xiao Li | Lei Xu | Jun Zhang",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2020-06-01",
+        "created_at": "2026-05-23T02:21:59+08:00",
+        "doi": "10.1016/j.cjph.2020.02.011",
+        "en_title": "Band structure and transport property of graphene/h-BN heterostructure under local potentials",
+        "id": "812673173043544066",
+        "impact_factor": 4.8,
+        "jcr_zone": "Q1",
+        "keywords": "[{\"ch_name\":\"石墨烯/h-BN异质结构\",\"en_name\":\"Graphene/h-BN heterostructure\"},{\"ch_name\":\"朗道能级\",\"en_name\":\"Landau level\"},{\"ch_name\":\"局域势\",\"en_name\":\"Local potential\"}]",
+        "publication_date": "2020-6",
+        "publication_id": "611",
+        "publication_name": "Chinese Journal of Physics _ Chinese Journal of Physics",
+        "research_categories": "",
+        "zh_title": "局部电势作用下石墨烯/h-BN异质结构的能带结构与输运性质"
+      },
+      "paper:812708326772047875": {
+        "area": "physics and astrophysics, chemical sciences, physical sciences, condensed matter physics",
+        "authors": "Peiheng Jiang | Liang Si | Zhaoliang Liao | Zhicheng Zhong",
+        "available_online": "2019-11-22",
+        "cas_zone": "2",
+        "cover_date_start": "2019-11-22",
+        "created_at": "2026-06-15T06:59:03+08:00",
+        "doi": "10.1103/physrevb.100.201106",
+        "en_title": "Electronic structure of rare-earth infinite-layer R Ni O 2 ( R = La , Nd )",
+        "id": "812708326772047875",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "[\"Chemical Sciences\", \"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "稀土无限层RNiO₂（R = La，Nd）的电子结构"
+      },
+      "paper:812710214464700416": {
+        "area": "material science, chemical sciences, macromolecular and materials chemistry, engineering, materials engineering, nanotechnology",
+        "authors": "V. Hung Nguyen | J.-C. Charlier",
+        "available_online": "2020",
+        "cas_zone": "3",
+        "cover_date_start": "2020-01-01",
+        "created_at": "2026-05-16T08:36:32+08:00",
+        "doi": "10.1039/c9na00542k",
+        "en_title": "Aharonov–Bohm interferences in polycrystalline graphene",
+        "id": "812710214464700416",
+        "impact_factor": 4.2,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "2184",
+        "publication_name": "Nanoscale Advances _ Nanoscale Adv.",
+        "research_categories": "[\"Chemical Sciences\", \"Macromolecular and Materials Chemistry\", \"Engineering\", \"Materials Engineering\", \"Nanotechnology\"]",
+        "zh_title": "多晶石墨烯中的阿哈罗诺夫 - 玻姆干涉"
+      },
+      "paper:812739285370273794": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, materials science, multidisciplinary",
+        "authors": "D. A. Solis | A. Hallal | X. Waintal | M. Chshiev",
+        "available_online": "2019-9-3",
+        "cas_zone": "2",
+        "cover_date_start": "2019-09-03",
+        "created_at": "2026-06-11T08:51:41+08:00",
+        "doi": "10.1103/physrevb.100.104402",
+        "en_title": "Proximity magnetoresistance in graphene induced by magnetic insulators",
+        "id": "812739285370273794",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "由磁性绝缘体诱导的石墨烯中的近邻磁电阻"
+      },
+      "paper:812769060218470402": {
+        "area": "material science, physical sciences, condensed matter physics",
+        "authors": "Wushi Dong | Peter B. Littlewood",
+        "available_online": "2019-6-4",
+        "cas_zone": "3",
+        "cover_date_start": "2019-06-04",
+        "created_at": "2026-05-28T03:53:27+08:00",
+        "doi": "10.1021/acsaelm.9b00095",
+        "en_title": "Quantum Electron Transport in Ohmic Edge Contacts between Two-Dimensional Materials",
+        "id": "812769060218470402",
+        "impact_factor": 4.1,
+        "jcr_zone": "Q2",
+        "keywords": "[{\"ch_name\":\"密度泛函理论\",\"en_name\":\"density functional theory\"},{\"ch_name\":\"边缘接触\",\"en_name\":\"edge contacts\"},{\"ch_name\":\"石墨烯\",\"en_name\":\"graphene\"},{\"ch_name\":\"欧姆接触\",\"en_name\":\"ohmic contacts\"},{\"ch_name\":\"泊松解算器\",\"en_name\":\"Poisson solver\"},{\"ch_name\":\"量子输运\",\"en_name\":\"quantum transport\"},{\"ch_name\":\"自洽模拟\",\"en_name\":\"self-consistent simulation\"},{\"ch_name\":\"过渡金属二硫化物\",\"en_name\":\"transition-metal dichalcogenides\"}]",
+        "publication_date": "2019-6-25",
+        "publication_id": "2177",
+        "publication_name": "ACS Applied Electronic Materials _ ACS Appl. Electron. Mater.",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "二维材料间欧姆边缘接触中的量子电子输运"
+      },
+      "paper:812778792907964416": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, materials science, multidisciplinary",
+        "authors": "Liang Ma | Wen-Xuan Qiu | Jing-Tao Lü | Jin-Hua Gao",
+        "available_online": "2019-5-3",
+        "cas_zone": "2",
+        "cover_date_start": "2019-05-03",
+        "created_at": "2026-06-14T01:51:25+08:00",
+        "doi": "10.1103/physrevb.99.205403",
+        "en_title": "Orbital degrees of freedom in artificial electron lattices on a metal surface",
+        "id": "812778792907964416",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "金属表面人工电子晶格中的轨道自由度"
+      },
+      "paper:812791863814651906": {
+        "area": "chemistry, chemical sciences, engineering, physical sciences",
+        "authors": "Z. H. He | X. B. Ye | B. C. Pan",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2019-03-21",
+        "created_at": "2026-05-25T20:36:31+08:00",
+        "doi": "10.1063/1.5088918",
+        "en_title": "Linear scaling algorithm for tight-binding molecular dynamics simulations",
+        "id": "812791863814651906",
+        "impact_factor": 3.5,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "2019-3-21",
+        "publication_id": "3427",
+        "publication_name": "The Journal of Chemical Physics _ J. Chem. Phys.",
+        "research_categories": "[\"Chemical Sciences\", \"Engineering\", \"Physical Sciences\"]",
+        "zh_title": "用于紧束缚分子动力学模拟的线性标度算法"
+      },
+      "paper:812815938876342273": {
+        "area": "material science, chemical sciences, physical sciences, condensed matter physics",
+        "authors": "Takami Tohyama | Riku Ogura | Kensuke Yoshinaga | Shin Naito | Nobuaki Miyakawa | Eiji Kaneshita",
+        "available_online": "",
+        "cas_zone": "3",
+        "cover_date_start": "2019-04-01",
+        "created_at": "2026-05-25T22:27:57+08:00",
+        "doi": "10.1016/j.jpcs.2018.12.029",
+        "en_title": "Syntheses and first-principles calculations of the pseudobrookite compound AlTi2O5",
+        "id": "812815938876342273",
+        "impact_factor": 4.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "2019-4",
+        "publication_id": "2153",
+        "publication_name": "Journal of Physics and Chemistry of Solids _ Journal of Physics and Chemistry of Solids",
+        "research_categories": "[\"Chemical Sciences\", \"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "假板钛矿化合物AlTi₂O₅的合成与第一性原理计算"
+      },
+      "paper:813093454077755392": {
+        "area": "Physics and Astrophysics, physics, condensed matter, physics, applied, materials science, multidisciplinary",
+        "authors": "Sejoong Kim | Young-Woo Son",
+        "available_online": "2017-10-17",
+        "cas_zone": "2",
+        "cover_date_start": "2017-10-17",
+        "created_at": "2026-06-19T05:48:47+08:00",
+        "doi": "10.1103/physrevb.96.155439",
+        "en_title": "Quasiparticle energy bands and Fermi surfaces of monolayer NbSe 2",
+        "id": "813093454077755392",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "单层NbSe₂的准粒子能带和费米面"
+      },
+      "paper:813136048732241921": {
+        "area": "physics and astrophysics, physical sciences, condensed matter physics, quantum physics",
+        "authors": "Xi Zhang | Tianlei Wang | Wencong Chen | Sanmei Wang | Da Peng",
+        "available_online": "2017-5-16",
+        "cas_zone": "4",
+        "cover_date_start": "2017-05-16",
+        "created_at": "2026-05-16T20:58:01+08:00",
+        "doi": "10.3389/fphy.2017.00013",
+        "en_title": "Edge-Corrected Mean-Field Hubbard Model: Principle and Applications in 2D Materials",
+        "id": "813136048732241921",
+        "impact_factor": 2.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "591",
+        "publication_name": "Frontiers in Physics _ Front. Phys.",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "边缘修正平均场哈伯德模型：原理及其在二维材料中的应用"
+      },
+      "paper:813147265119027201": {
+        "area": "material science, materials science, multidisciplinary",
+        "authors": "V Zólyomi | J R Wallbank | V I Fal'ko",
+        "available_online": "2014-4-15",
+        "cas_zone": "3",
+        "cover_date_start": "2014-04-15",
+        "created_at": "2026-05-28T16:18:35+08:00",
+        "doi": "10.1088/2053-1583/1/1/011005",
+        "en_title": "Silicane and germanane: tight-binding and first-principles studies",
+        "id": "813147265119027201",
+        "impact_factor": 4.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "2094",
+        "publication_name": "2D Materials _ 2D Mater.",
+        "research_categories": "",
+        "zh_title": "硅烷和锗烷：紧束缚和第一性原理研究"
+      },
+      "paper:813154205308026883": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, materials science, multidisciplinary",
+        "authors": "N. A. Pike | D. Stroud",
+        "available_online": "2014-3-20",
+        "cas_zone": "2",
+        "cover_date_start": "2014-03-20",
+        "created_at": "2026-06-17T01:17:15+08:00",
+        "doi": "10.1103/physrevb.89.115428",
+        "en_title": "Tight-binding model for adatoms on graphene: Analytical density of states, spectral function, and induced magnetic moment",
+        "id": "813154205308026883",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "石墨烯上吸附原子的紧束缚模型：态密度、谱函数和感应磁矩的解析解"
+      },
+      "paper:814544229127684099": {
+        "area": "material science, materials science, multidisciplinary, physics, applied, nanoscience & nanotechnology",
+        "authors": "Christos Mathioudakis | Pantelis C. Kelires",
+        "available_online": "2016-3-16",
+        "cas_zone": "3",
+        "cover_date_start": "2016-03-16",
+        "created_at": "2026-05-16T19:41:57+08:00",
+        "doi": "10.1186/s11671-016-1354-4",
+        "en_title": "Modelling of Three-Dimensional Nanographene",
+        "id": "814544229127684099",
+        "impact_factor": 4.8,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "2016-12",
+        "publication_id": "2164",
+        "publication_name": "Nanoscale Research Letters _ Nanoscale Res Lett",
+        "research_categories": "",
+        "zh_title": "三维纳米石墨烯的建模"
+      },
+      "paper:814574480490758145": {
+        "area": "material science, materials science, multidisciplinary, physics, applied, nanoscience & nanotechnology, chemistry",
+        "authors": "Jean-Joseph Adjizian | Aurélien Lherbier | Simon M.-M. Dubois | Andrés Rafael Botello-Méndez | Jean-Christophe Charlier",
+        "available_online": "2016",
+        "cas_zone": "3",
+        "cover_date_start": "2016-01-01",
+        "created_at": "2026-05-26T07:22:14+08:00",
+        "doi": "10.1039/c5nr06825h",
+        "en_title": "The electronic and transport properties of two-dimensional conjugated polymer networks including disorder",
+        "id": "814574480490758145",
+        "impact_factor": 5.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "2079",
+        "publication_name": "Nanoscale _ Nanoscale",
+        "research_categories": "",
+        "zh_title": "包含无序的二维共轭聚合物网络的电子和输运性质"
+      },
+      "paper:814675083422334979": {
+        "area": "Physics and Astrophysics, physics, multidisciplinary",
+        "authors": "Miao Zhou | Zheng Liu | Wenmei Ming | Zhengfei Wang | Feng Liu",
+        "available_online": "2014-12-2",
+        "cas_zone": "1",
+        "cover_date_start": "2014-12-02",
+        "created_at": "2026-06-18T23:09:45+08:00",
+        "doi": "10.1103/physrevlett.113.236802",
+        "en_title": "s d 2 Graphene: Kagome Band in a Hexagonal Lattice",
+        "id": "814675083422334979",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "",
+        "zh_title": "s d 2 石墨烯：六角晶格中的 Kagome 能带"
+      },
+      "paper:817357531230765057": {
+        "area": "material science, chemical sciences, physical chemistry",
+        "authors": "Liwei Zhang | Berk Onat | Geneviève Dusson | Adam McSloy | G. Anand | Reinhard J. Maurer | Christoph Ortner | James R. Kermode",
+        "available_online": "",
+        "cas_zone": "1",
+        "cover_date_start": "2022-07-23",
+        "created_at": "2026-05-23T01:35:19+08:00",
+        "doi": "10.1038/s41524-022-00843-2",
+        "en_title": "Equivariant analytical mapping of first principles Hamiltonians to accurate and transferable materials models",
+        "id": "817357531230765057",
+        "impact_factor": 11.2,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "2057",
+        "publication_name": "npj Computational Materials _ ",
+        "research_categories": "[\"Chemical Sciences\", \"Physical Chemistry\"]",
+        "zh_title": "第一性原理哈密顿量到精确且可转移的材料模型的等变解析映射"
+      },
+      "paper:867747888610935013": {
+        "area": "arxiv-physics, arxiv-quantum physics",
+        "authors": "Jacob Bringewatt | William Dorland | Stephen P. Jordan",
+        "available_online": "",
+        "cover_date_start": "2019-05-17",
+        "created_at": "2026-06-12T00:24:31+08:00",
+        "doi": "10.48550/arXiv.1905.07461",
+        "en_title": "Polynomial Time Algorithms for Estimating Spectra of Adiabatic Hamiltonians",
+        "id": "867747888610935013",
+        "keywords": "",
+        "publication_date": "2019-05-17",
+        "publication_id": "108526",
+        "publication_name": "Quantum Physics _ Physics.quant-ph.quant-ph",
+        "research_categories": "",
+        "zh_title": "用于估计绝热哈密顿量谱的多项式时间算法"
+      },
+      "paper:867748145793073591": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "J. L. Lado | J. Fernandez-Rossier",
+        "available_online": "",
+        "cover_date_start": "2016-06-09",
+        "created_at": "2026-06-16T05:59:30+08:00",
+        "doi": "10.48550/arXiv.1606.03038",
+        "en_title": "Landau Levels in 2D materials using Wannier Hamiltonians obtained by first principles",
+        "id": "867748145793073591",
+        "keywords": "",
+        "publication_date": "2016-06-09",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "使用基于第一性原理得到的万尼尔哈密顿量研究二维材料中的朗道能级"
+      },
+      "paper:867749302963798040": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Toshitaka Ogata | Mitsuaki Kawamura | Taisuke Ozaki",
+        "available_online": "",
+        "cover_date_start": "2021-03-18",
+        "created_at": "2026-06-14T21:12:52+08:00",
+        "doi": "10.48550/arXiv.2103.10019",
+        "en_title": "Methods for constructing parameter-dependent flat band lattices",
+        "id": "867749302963798040",
+        "keywords": "",
+        "publication_date": "2021-03-18",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "",
+        "zh_title": "构建参数相关平带晶格的方法"
+      },
+      "paper:867750590271193300": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "B. Rosenstein | M. Lewkowicz | T. Maniv",
+        "available_online": "",
+        "cover_date_start": "2012-10-11",
+        "created_at": "2026-06-13T21:39:31+08:00",
+        "doi": "10.48550/arXiv.1210.3345",
+        "en_title": "Chiral anomaly and strength of the electron-electron interaction in graphene",
+        "id": "867750590271193300",
+        "keywords": "",
+        "publication_date": "2012-10-11",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "石墨烯中的手征反常与电子-电子相互作用强度"
+      },
+      "paper:867754778619281637": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Christoph W. Groth | Michael Wimmer | Anton R. Akhmerov | Xavier Waintal",
+        "available_online": "",
+        "cover_date_start": "2013-09-11",
+        "created_at": "2026-05-16T18:39:04+08:00",
+        "doi": "10.48550/arXiv.1309.2926",
+        "en_title": "Kwant: a software package for quantum transport",
+        "id": "867754778619281637",
+        "keywords": "",
+        "publication_date": "2013-09-11",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "Kwant：一个用于量子输运的软件包"
+      },
+      "paper:867758922616800113": {
+        "area": "arxiv-physics, chemical sciences, macromolecular and materials chemistry, theoretical and computational chemistry, information and computing sciences, physical sciences",
+        "authors": "Qiangqiang Gu | Linfeng Zhang | Ji Feng",
+        "available_online": "",
+        "cover_date_start": "2020-11-27",
+        "created_at": "2026-06-17T07:51:56+08:00",
+        "doi": "10.48550/arXiv.2011.13774",
+        "en_title": "Neural network representation of electronic structure from $ab$ $initio$ molecular dynamics",
+        "id": "867758922616800113",
+        "keywords": "",
+        "publication_date": "2020-11-27",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "[\"Chemical Sciences\", \"Macromolecular and Materials Chemistry\", \"Theoretical and Computational Chemistry\", \"Information and Computing Sciences\", \"Physical Sciences\"]",
+        "zh_title": "基于第一性原理分子动力学的电子结构神经网络表示"
+      },
+      "paper:867764510792877004": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Nguyen Minh Nguyen | Giuseppe Cuono | Rajibul Islam | Carmine Autieri | Timo Hyart | Wojciech Brzezicki",
+        "available_online": "",
+        "cover_date_start": "2022-09-14",
+        "created_at": "2026-06-13T03:45:48+08:00",
+        "doi": "10.48550/arXiv.2209.06912",
+        "en_title": "Unprotected edge modes in quantum spin Hall insulator candidate materials",
+        "id": "867764510792877004",
+        "keywords": "",
+        "publication_date": "2022-09-14",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "量子自旋霍尔绝缘体候选材料中的无保护边缘模式"
+      },
+      "paper:867767556654498578": {
+        "area": "arxiv-physics, arxiv-mathematical physics",
+        "authors": "E. L. Korotyaev | A. A. Kutsenko",
+        "available_online": "",
+        "cover_date_start": "2009-06-22",
+        "created_at": "2026-05-16T18:57:21+08:00",
+        "doi": "10.48550/arXiv.0906.4018",
+        "en_title": "Zigzag and armchair nanotubes in external fields",
+        "id": "867767556654498578",
+        "keywords": "",
+        "publication_date": "2009-06-22",
+        "publication_id": "108496",
+        "publication_name": "Mathematical Physics _ Physics.math-ph.math-ph",
+        "research_categories": "",
+        "zh_title": "外场中的锯齿形和扶手椅形纳米管"
+      },
+      "paper:867767853321814971": {
+        "area": "arxiv-physics, arxiv-mathematical physics",
+        "authors": "Jacob Shapiro | Michael I. Weinstein",
+        "available_online": "",
+        "cover_date_start": "2020-10-22",
+        "created_at": "2026-05-28T02:12:19+08:00",
+        "doi": "10.48550/arXiv.2010.12097",
+        "en_title": "Tight-Binding Reduction and Topological Equivalence in Strong Magnetic Fields",
+        "id": "867767853321814971",
+        "keywords": "",
+        "publication_date": "2020-10-22",
+        "publication_id": "108496",
+        "publication_name": "Mathematical Physics _ Physics.math-ph.math-ph",
+        "research_categories": "",
+        "zh_title": "强磁场中的紧束缚约化与拓扑等价性"
+      },
+      "paper:867770316045156420": {
+        "area": "arXiv-Physics, Physical Sciences, Condensed Matter Physics",
+        "authors": "P. O. Sukhachov | D. O. Oriekhov | E. V. Gorbar",
+        "available_online": "",
+        "cover_date_start": "2023-03-02",
+        "created_at": "2026-06-19T04:07:39+08:00",
+        "doi": "10.48550/arXiv.2303.01452",
+        "en_title": "Stackings and effective models of bilayer dice lattices",
+        "id": "867770316045156420",
+        "keywords": "",
+        "publication_date": "2023-03-02",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "双层骰子晶格的堆积与有效模型"
+      },
+      "paper:867772314920419559": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Antoine Honet | Luc Henrard | Vincent Meunier",
+        "available_online": "",
+        "cover_date_start": "2020-12-03",
+        "created_at": "2026-06-17T05:37:28+08:00",
+        "doi": "10.48550/arXiv.2012.02066",
+        "en_title": "Semi-empirical many-body formalism of optical absorption in nanosystems and molecules",
+        "id": "867772314920419559",
+        "keywords": "",
+        "publication_date": "2020-12-03",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "纳米系统和分子中光吸收的半经验多体形式理论"
+      },
+      "paper:867772331882185147": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Dong-Ling Deng | Sheng-Tao Wang | Lu-Ming Duan",
+        "available_online": "",
+        "cover_date_start": "2013-11-05",
+        "created_at": "2026-06-17T05:35:44+08:00",
+        "doi": "10.48550/arXiv.1311.1099",
+        "en_title": "Systematic Construction of tight-binding Hamiltonians for Topological Insulators and Superconductors",
+        "id": "867772331882185147",
+        "keywords": "",
+        "publication_date": "2013-11-05",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "拓扑绝缘体和超导体紧束缚哈密顿量的系统构建"
+      },
+      "paper:867773131442356923": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Cong Chen | Weikang Wu | Zhi-Ming Yu | Ziyu Chen | Y. X. Zhao | Xian-Lei Sheng | Shengyuan A. Yang",
+        "available_online": "",
+        "cover_date_start": "2020-11-30",
+        "created_at": "2026-06-17T07:14:03+08:00",
+        "doi": "10.48550/arXiv.2011.14868",
+        "en_title": "Graphyne as a second-order and real Chern topological insulator in two dimensions",
+        "id": "867773131442356923",
+        "keywords": "",
+        "publication_date": "2020-11-30",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "二维石墨炔作为二阶实陈数拓扑绝缘体"
+      },
+      "paper:871336478209212416": {
+        "area": "Physics and Astrophysics, Physical Sciences",
+        "authors": "Quancheng Liu | David A. Kessler | Eli Barkai",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2023-06-01",
+        "created_at": "2026-06-19T08:10:45+08:00",
+        "doi": "10.1103/PhysRevResearch.5.023141",
+        "en_title": "Designing exceptional-point-based graphs yielding topologically guaranteed quantum search",
+        "id": "871336478209212416",
+        "impact_factor": 4.9,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "68812",
+        "publication_name": "Physical Review Research _ ",
+        "research_categories": "[\"Physical Sciences\"]",
+        "zh_title": "设计基于例外点的图以实现拓扑保证的量子搜索"
+      },
+      "paper:875125670332596800": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics, quantum physics",
+        "authors": "Xuegao Hu | Run-Wu Zhang | Da-Shuai Ma | Zhihao Cai | Daiyu Geng | Zhenyu Sun | Qiaoxiao Zhao | Jisong Gao | Peng Cheng | Lan Chen | Kehui Wu | Yugui Yao | Baojie Feng",
+        "available_online": "",
+        "cover_date_start": "2023-06-09",
+        "created_at": "2026-06-17T07:55:38+08:00",
+        "doi": "10.48550/arXiv.2306.05634",
+        "en_title": "Realization of a two-dimensional checkerboard lattice in monolayer Cu$_2$N",
+        "id": "875125670332596800",
+        "keywords": "",
+        "publication_date": "2023-06-09",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "在单层Cu₂N中实现二维棋盘格晶格"
+      },
+      "paper:918568905801204201": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Ilyoun Na | Marc Vila | Sinéad M. Griffin",
+        "available_online": "",
+        "cover_date_start": "2023-10-09",
+        "created_at": "2026-06-17T04:43:54+08:00",
+        "doi": "10.48550/arXiv.2310.05896",
+        "en_title": "Controlling Topology through Targeted Symmetry Manipulation in Magnetic Systems",
+        "id": "918568905801204201",
+        "keywords": "",
+        "publication_date": "2023-10-09",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "通过磁系统中定向对称性操纵来控制拓扑结构"
+      },
+      "paper:966947791895003140": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics, quantum physics",
+        "authors": "Sejoong Kim",
+        "available_online": "",
+        "cover_date_start": "2024-02-19",
+        "created_at": "2026-06-14T15:53:19+08:00",
+        "doi": "10.48550/arXiv.2402.11969",
+        "en_title": "Construction of optimized tight-binding models using \\textit{ab initio} Hamiltonian: Application to monolayer $2H$-transition metal dichalcogenides",
+        "id": "966947791895003140",
+        "keywords": "",
+        "publication_date": "2024-02-19",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "使用从头算哈密顿量构建优化的紧束缚模型：应用于单层2H型过渡金属二硫属化物"
+      },
+      "paper:995209885136191495": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Tatsuto Hatanaka | Takuya Nomoto | Ryotaro Arita",
+        "available_online": "",
+        "cover_date_start": "2024-05-07",
+        "created_at": "2026-05-22T20:33:50+08:00",
+        "doi": "10.48550/arxiv.2405.04369",
+        "en_title": "Calculation of the biquadratic spin interactions based on the spin cluster expansion for \\textit{ab initio} tight-binding models",
+        "id": "995209885136191495",
+        "keywords": "",
+        "publication_date": "2024-05-07",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "基于用于从头算紧束缚模型的自旋团簇展开的双二次自旋相互作用的计算"
+      }
+    },
+    "variables": [
+      {
+        "content": "Many-body studies (DMFT, exact diagonalization, DMRG, or effective-model analyses of spin-liquid physics and pairing) require an accurate low-energy lattice Hamiltonian. Previous tight-binding models for kappa-ET systems estimated intra-monomer splittings from monomer-to-monomer hoppings and omitted an explicit dimer HOMO–LUMO on-site term. Because the MO-level $\\\\Delta$ plays a key role in opening a single-particle gap and in pressure-dependent behavior, a tight-binding Hamiltonian that (i) uses a dimer-MO basis and (ii) includes $\\\\Delta$ explicitly with ab initio fitted parameters is required to study correlated phases, superconductivity, and light-driven dynamics grounded in the corrected single-particle electronic structure.",
+        "content_hash": "4268865623f2f5df47fdbba22864e2945762b88a11a29bd5f8a7a05b4bf33c2b",
+        "id": "gcn_c6f626a0985c4536",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1078730910016208902::conclusion_6_subproblem",
+            "package_id": "paper:1078730910016208902",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1078730910016208902"
+          ]
+        },
+        "rerank_score": 0.8562571653806236,
+        "role": "premise",
+        "score": 0.009174311926605505,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Physical context: realistic modelling of QSH heterostructures (zinc-blende III–V/II–VI compounds and their quantum wells) requires a multi-orbital tight-binding Hamiltonian that captures band inversion, orbital characters near the gap, and spin–orbit coupling. Prior state: phenomenological low-energy continuum models (e.g., BHZ-type two-band models) capture topology qualitatively but lack material specificity, and previous microscopic models often did not present compact first-neighbour tight-binding parameters directly fitted to DFT for all relevant heterostructure constituents. Limitation: without a material-validated tight-binding Hamiltonian one cannot reliably compute edge spectra of realistic heterostructures, assess whether additional states appear in the bulk gap, nor simulate the effect of edge potentials or heterostructure stacking in a predictive way. Scientific consequence: absence of such a Hamiltonian prevented quantitative connection between ab initio band structure and edge-mode spectra, hampering explanation of experimental multimode edge transport and design of mitigation strategies.",
+        "content_hash": "6565a713c9655a5a2405486f36f1f3882c164edbf3844ace830ba302526e389c",
+        "id": "gcn_c28913eaf743428c",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867764510792877004::conclusion_1_subproblem",
+            "package_id": "paper:867764510792877004",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867764510792877004"
+          ]
+        },
+        "rerank_score": 0.824534734128667,
+        "role": "premise",
+        "score": 0.012048192771084338,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Community-wide exploration and validation of candidate spin-orbitronic materials require open access to high-fidelity tight-binding Hamiltonians and computed electronic structure data. Previously, fully-relativistic Wannier Hamiltonians for large 2D material sets were not broadly available in a form ready for dense-$\\mathbf{k}$ transport interpolation, which limited reproducibility and follow-up high-throughput analyses or device modeling by other groups.",
+        "content_hash": "7b3b1dafbfd648962e5c47cf0e981668f82c307b80743278778c9c0e7d771206",
+        "id": "gcn_7c902910d3a141cb",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1083833140071366698::conclusion_10_subproblem",
+            "package_id": "paper:1083833140071366698",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1083833140071366698"
+          ]
+        },
+        "rerank_score": 0.8215540579550671,
+        "role": "premise",
+        "score": 0.007407407407407408,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Many-body and large-scale model calculations (for example, studies of electron-phonon coupling, CDW energetics, or heterostructures) require compact tight-binding Hamiltonians that capture the correct low-energy quasiparticle dispersions. Ab initio $GW$ calculations are too costly for large-system many-body simulations, and DFT-based TB fits may not reflect $GW$ corrections. This TB construction provides compact, parameterized Hamiltonians matched to both DFT-GGA and $GW$ dispersions so subsequent many-body treatments can use the appropriate quasiparticle-informed model.",
+        "content_hash": "e93f7032c2a1f1b4d4c98d8c4efb37510852ffde7eed79a9313a8007eaf00c50",
+        "id": "gcn_2c784898693c47e5",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813093454077755392::conclusion_6_subproblem",
+            "package_id": "paper:813093454077755392",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813093454077755392"
+          ]
+        },
+        "rerank_score": 0.8661143261839719,
+        "role": "premise",
+        "score": 0.010309278350515464,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The paper addresses the problem of constructing minimal-size tight-binding (TB) Hamiltonians for two-dimensional crystals subject to a uniform perpendicular magnetic field. In this physical context one represents a crystal by a lattice with primitive vectors $v_{1},v_{2}$ (matrix $V$), a basis of $N_{atom}$ atoms per unit cell, and a finite hopping set described by integer lattice displacements and intra-basis offsets. A uniform field $B$ normal to the plane is encoded by a vector potential $\\mathbf{A}(\\mathbf{r})$ and by the magnetic flux per (crystal) unit cell normalized to the flux quantum, $\\Phi\\stackrel{\\mathrm{def}}{=}\\frac{qB|V|}{h}\\in\\mathbb{Q}$. The standard numerical approach (Hofstadter construction) enforces a magnetic superlattice (magnetic unit cell, MUC) with integer index matrix $T$ so that flux quantization $\\Phi|T|\\in\\mathbb{Z}$ holds; the exact lower bound on the number of degrees of freedom in the TB Hamiltonian that follows from flux quantization is $N_{atom}\\,q_{\\Phi}$ where $q_{\\Phi}$ is the denominator of the rational $\\Phi$. In practice many authors and software adopt a linear vector potential choice (most commonly the Landau gauge), which restricts $\\mathbf{A}(\\mathbf{r})$ to be affine in $\\mathbf{r}$; this practice imposes extra commensurability constraints on the allowed hopping displacements and on the choice of $T$ beyond mere flux quantization. Concretely, linear-$\\mathbf{A}$ constructions require arithmetic conditions that mix the hopping displacement set $S_{hop}$ (the set of lattice shifts combined with intra-basis offsets) with $T$ and the matrix parameterizing the linear $\\mathbf{A}$, so that the Fourier transform produces a $k$-diagonal Hamiltonian. These extra constraints force (i) the hopping network to be effectively rank-2 (commensurate) in the sense that arbitrary incommensurate atomic rearrangements raise rank$(S_{hop})$ and violate the conditions, and (ii) the minimal achievable MUC size under the linear-$\\mathbf{A}$ ansatz can be strictly larger than the flux-quantization lower bound $N_{atom}\\,q_{\\Phi}$. The scientific consequences are practical and quantitative: TB Hamiltonians become significantly larger (rising cost from quadratic to cubic in matrix-size for typical solvers), previously tractable band-structure computations (notably small-angle moiré and twisted bilayer graphene models) become infeasible, and the community misconception that the Landau-like gauges are universally sufficient leads to unnecessarily large numerical problems and blocks treatment of incommensurate atomic reconstructions within a fixed MUC.",
+        "content_hash": "c98b9893da468e4c3b83dbc7813f8f631503be6b0e8066535b4534bceabb6855",
+        "id": "gcn_a1bc3affe44c4be8",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1053919589894717445::problem",
+            "package_id": "paper:1053919589894717445",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1053919589894717445"
+          ]
+        },
+        "rerank_score": 0.8103646435716343,
+        "role": "premise",
+        "score": 0.006993006993006993,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The paper addresses a concrete, physically motivated gap between continuum quantum models of electrons in two-dimensional crystals under strong perpendicular magnetic fields and the discrete tight-binding models commonly used by physicists to model topological behavior (in particular, the integer quantum Hall effect).  Physically, one studies non-interacting electrons moving in R^2 under a strong uniform magnetic field of strength b and subject to a crystal potential formed by a countable set of localized atomic wells positioned at a discrete set G.  Prior theoretical practice uses tight-binding (discrete) Hamiltonians on the lattice of atomic centers (hopping models parametrized by overlap amplitudes) to compute macroscopic topological invariants (e.g. the Hall conductance/Chern numbers, and edge spectral flow) because they are simpler and naturally encode an effective momentum cutoff.  However, two substantive scientific insufficiencies motivated the work: (i) a rigorous, quantitative derivation of when and how a continuum magnetic Hamiltonian\n    $H^{\\lambda,b}=(P-bA x)^{2}+\\lambda^{2}V(x)-e_{0}^{\\lambda}\\mathbb{1}$\n    (with $b=\\lambda$ and $V(x)=\\sum_{m\\in G}v_{0}(x-m)$) reduces, at low energies and long times, to a scale-free tight-binding operator $H^{\\mathrm{TB}}$ acting on $\\ell^{2}(G)$ — prior tight-binding derivations often assumed translation invariance, weak magnetic field, or non-magnetic bases and did not treat the coupled large-field / strong-binding regime in full generality; and (ii) whether the topological indices (Fredholm indices expressing bulk Hall conductance and edge conductance) computed from such tight-binding approximations agree with the corresponding indices of the full continuum Hamiltonian in a mathematically controlled limit.  Concretely: previous methods lacked (A) a norm-resolvent control (with explicit small error) of the scaled continuum resolvent $(\\rho^{\\lambda})^{-1}H^{\\lambda}$ by a discrete resolvent lifted to the continuum, when magnetic field and well depth scale together $b\\sim\\lambda\\to\\infty$, and (B) a proof that this control suffices to carry Fredholm-index formulas for bulk and edge Hall conductances from the discrete to the continuum setting.  These gaps prevented a rigorous justification of the widely used principle \"compute topology from tight-binding models\" in the strong-field/strong-binding regime and left unresolved how non-periodic arrangements, edges and disorder in the continuum are captured by discrete topological invariants.",
+        "content_hash": "65fa93836f416956f08649a163c4d9adc2c0013a4ac921d79a6d37ed7a30ada6",
+        "id": "gcn_93625c6ae6994ad0",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867767853321814971::problem",
+            "package_id": "paper:867767853321814971",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867767853321814971"
+          ]
+        },
+        "rerank_score": 0.8126914560130444,
+        "role": "premise",
+        "score": 0.0047169811320754715,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Many materials beyond graphene are modeled by tight-binding Hamiltonians where adatom and impurity problems are of interest. Existing analytical impurity results are often restricted to graphene-specific linearized DOS or to numerical case studies. Demonstrating that the same formal structure carries over to arbitrary 2D tight-binding hosts (with only $\\rho_0$ and $\\mathcal G_0$ changed) provides a transferable analytic tool for studying dilute adatoms across material platforms.",
+        "content_hash": "aedd95a731f506c1b9078613a11034fc6acfca3d934f2be91a17d2127d1ed8ab",
+        "id": "gcn_576a908efd694c0a",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813154205308026883::conclusion_13_subproblem",
+            "package_id": "paper:813154205308026883",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813154205308026883"
+          ]
+        },
+        "rerank_score": 0.8972389234706608,
+        "role": "premise",
+        "score": 0.00847457627118644,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The approach assumes that a mean-field tight-binding Hamiltonian is a valid starting point for the electronic structure of target systems such as ZnO nanoparticles, defective 2D materials, and semiconductor quantum dots. For many such systems, a single-band nearest-neighbor tight-binding (TB) model is a crude approximation that may not capture essential physics (e.g., ionic character, d-orbitals, multi-band effects).",
+        "content_hash": "fae119a385237e39ae29b6908ea0646865ccf41b665f6ad39b721fd6809afd6f",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_bb208e6c2e9147f8",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867772314920419559::P17",
+            "package_id": "paper:867772314920419559",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867772314920419559"
+          ]
+        },
+        "rerank_score": 0.791444021685582,
+        "role": "premise",
+        "score": 0.005052238236864181,
+        "title": "TB+MF-H starting approximation may be invalid for target systems",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Translating first-principles electronic structures into a minimal model that is both physically transparent and quantitatively accurate is essential for materials design and theoretical analysis (e.g., predicting topological phase boundaries and responses to perturbations). Prior to this work, there was no compact, bond-centered kagome tight-binding Hamiltonian that (a) originates from explicit $sd^{2}$ orbital chemistry on a hexagonal TM lattice, (b) includes 2NN and 3NN hoppings necessary to represent substrate-induced anisotropy, and (c) provides concrete numerical hopping and SOC/exchange parameter values fitted to DFT for both freestanding and substrate-supported cases. Without such a Hamiltonian and parameterization, it is difficult to predict how substrate coupling or chemical substitution quantitatively shifts the band dispersion, anisotropy, and topological gaps needed for experimental realization.",
+        "content_hash": "97b02e2780a0770a53010f27d19100f4ab0736f1768577c4f405d2c6fe658d0b",
+        "id": "gcn_4207f7c584794d15",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814675083422334979::conclusion_3_subproblem",
+            "package_id": "paper:814675083422334979",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814675083422334979"
+          ]
+        },
+        "rerank_score": 0.7773192439215639,
+        "role": "premise",
+        "score": 0.014925373134328358,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The structural relaxation and all energetic, electronic‑structure, inverse‑participation‑ratio, conductivity and optical absorption calculations are performed with the Naval Research Laboratory (NRL) two‑center, non‑orthogonal s/p tight‑binding Hamiltonian; this tight‑binding model is an approximate electronic Hamiltonian that uses atomic‑like s and p orbitals with two‑center distance‑ and environment‑dependent parameters and is not equivalent to first‑principles density‑functional theory or many‑body methods, so its transferability for absolute formation energies, optical matrix elements, and spectral positions can be limited unless the model is validated specifically for the classes of strained, curved and undercoordinated carbon motifs present in the networks. \n      Papaconstantopoulos DA, Mehl MJ (2003) The Slater-Koster tight-binding method: a computationally efficient and accurate approach. J Phys Condens Matter 15:R413–R440",
+        "content_hash": "8f1d4595b925fb8512b1e54b9c82b48e9645e1fed45161217ee7d0d9d7ad7f97",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_905f89fa0b9246b6",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814544229127684099::P2",
+            "package_id": "paper:814544229127684099",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814544229127684099"
+          ]
+        },
+        "rerank_score": 0.8158365486871603,
+        "role": "premise",
+        "score": 0.004708561070368671,
+        "title": "Use of the NRL two‑center s,p tight‑binding model without higher‑level validation",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Flat-band (FB) tight-binding models — Hamiltonians that possess an energy eigenvalue independent of crystal momentum over the entire Brillouin zone — are a focal point for studying many-body phenomena (ferromagnetism, fractional quantum Hall effects, unconventional superconductivity) and for designing artificial lattices. Prior constructive approaches for producing FB systems have largely relied on particular graph-theoretic constructions (bipartite lattices with unequal sublattice sizes, line-graph constructions, partial-line-graph constructions, and several ad hoc plaquette/assembly rules). These graph-based methods leave gaps: they do not directly provide a general, model-parameter-level criterion for when a chosen tight-binding (TB) graph with specified hopping and onsite parameters will produce a flat band; they do not systematically generate families of FB systems obtained by tuning TB parameters while keeping the graph fixed; and they do not naturally produce FB systems that require long-range or nonstandard hopplings introduced by parameter manipulations. Moreover, the absence of a parameter-level necessary-and-sufficient condition has prevented straightforward numerical checks (and systematic parameter searches) for FBs in materials-derived TB models. At the same time, when a parameter-based condition is written down it can become algebraically intractable as the unit-cell size $N$ grows, so an approach must reconcile analytic conditions for small $N$ with numerically tractable checks for larger $N$. This paper is therefore needed to (i) provide a general parameter-level characterization of when a TB Hamiltonian on a specified graph has a FB, (ii) give constructive, local graphical procedures that generate new FB lattices from known FB lattices by removing or adding sites while controlling the required parameter changes, and (iii) clarify the practical complexity limits of such parameter-based constructions and their applicability to material-realistic TB models.",
+        "content_hash": "411edb75032143bac46be3f282b6e2d3928d964e9f416f67327619c16d9cab8f",
+        "id": "gcn_bacb8fda8d344684",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867749302963798040::problem",
+            "package_id": "paper:867749302963798040",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867749302963798040"
+          ]
+        },
+        "rerank_score": 0.7734241613699168,
+        "role": "premise",
+        "score": 0.00546448087431694,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Accurately capturing the orbital character, spin-orbit coupling, and the effects of substitutional Cr on the low-energy surface bands of Bi2Se3 requires a tight-binding Hamiltonian faithful to the ab initio electronic structure. Direct plane-wave outputs are not convenient for Berry-curvature or low-energy model studies; construction of a maximally localized Wannier representation is necessary to build a tractable tight-binding model that preserves orbital and SOC physics. Choosing appropriate computational parameters (energy cutoff, $k$-point sampling, and the protocol for introducing SOC after Wannier projection) is essential to ensure that the resulting tight-binding Hamiltonian yields converged mass-gap susceptibilities and Berry curvatures. The specified protocol and parameters define the computational workflow that underlies the computed susceptibilities and phase-diagram results reported above.",
+        "content_hash": "db7cba6a47fbd8a20f7573555bc3132ccc909674df70db5fb52ac7bee39ad47d",
+        "id": "gcn_f109a0d738764054",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812652544286261249::conclusion_6_subproblem",
+            "package_id": "paper:812652544286261249",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812652544286261249"
+          ]
+        },
+        "rerank_score": 0.7841411289802287,
+        "role": "premise",
+        "score": 0.013157894736842105,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "To go beyond DFT and investigate correlation‑driven instabilities such as charge‑density‑wave formation, a compact, real‑space tight‑binding Hamiltonian that faithfully captures the low‑energy Ti 3d band structure was required. Without such a model, quantitative random‑phase‑approximation (RPA) susceptibilities could not be computed, leaving the role of electron‑electron interactions unexplored.",
+        "content_hash": "8abb4bfd5d751bab2890c18868e740c3944d235115122583ed7ec39accefa77c",
+        "id": "gcn_d65e69e4a71d47d2",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812815938876342273::conclusion_5_subproblem",
+            "package_id": "paper:812815938876342273",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812815938876342273"
+          ]
+        },
+        "rerank_score": 0.7694363118655596,
+        "role": "premise",
+        "score": 0.015625,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "To connect microscopic orbital identifications to analytically tractable band properties and to assess the role of different hopping pathways, a compact tight-binding description based on the actual dominant orbital was necessary. Prior toy-model analyses of sawtooth and zigzag geometries established that particular hopping patterns can yield flat bands, but real materials introduce an extra intra-top-row hopping and substrate-induced on-site shifts that can qualitatively change the band shapes. Without a fitted tight-binding Hamiltonian tied to experiment and first-principles data, one could not quantify which hopping terms are essential to realize a robust flat band in a chemically realistic zigzag chain. By presenting the explicit Hamiltonian together with experimentally constrained parameters, the study provides the concrete minimal model that explains the observed flat-band phenomenology and enables further theoretical analysis of symmetry and interaction effects.",
+        "content_hash": "6df17733b4e25d5d83751879cab186cd949e8c9b00ac26381f17ab502fcdf062",
+        "id": "gcn_80e7e574f3c64f23",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1103774583875436566::conclusion_3_subproblem",
+            "package_id": "paper:1103774583875436566",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1103774583875436566"
+          ]
+        },
+        "rerank_score": 0.7656863107761576,
+        "role": "premise",
+        "score": 0.006666666666666667,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "To model phenomena such as strain, disorder, or many-body interactions in monolayer semiconducting TMDs (MX₂, with M = Mo, W and X = S, Se) at an atomistic level, one requires a tight-binding Hamiltonian that faithfully represents both the band energies and the orbital composition of the states. The band edges of these compounds exhibit a complex mixture of metal d and chalcogen p orbitals, and the orbital weights are sensitive to the k-point and vary among the four materials. Previous TB models either lacked the necessary accuracy across the entire Brillouin zone, failed to capture the correct orbital character (e.g., the relative contributions of d₀, d₂, p_xy, and p_z at Kⁿ, Kᶜ, and Γⁿ), or were not generalized to all four TMD families. Consequently, it was difficult to carry out reliable large-scale simulations of physical properties—such as optical absorption, transport in disordered or strained samples, or edge states in nanoribbons—for these materials, because the available parameterizations could not guarantee simultaneous agreement with DFT on band topology and orbital content.",
+        "content_hash": "628cbd0534f5c160ba39fdb10cdd809c3762b4c400d3b5209c0311d6a4e4ed6e",
+        "id": "gcn_0fd08a93a520433c",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811133642695770113::conclusion_1_subproblem",
+            "package_id": "paper:811133642695770113",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811133642695770113"
+          ]
+        },
+        "rerank_score": 0.8354794479448306,
+        "role": "premise",
+        "score": 0.006493506493506494,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In large-scale tight-binding molecular dynamics, the main scientific challenge is to retain the physical fidelity of the tight-binding Hamiltonian while avoiding the $O(N^3)$ cost of exact diagonalization for systems that may contain tens of thousands to hundreds of thousands of atoms. Existing linear-scaling approaches have been successful in many contexts, but most density-matrix-based or Fermi-operator-based schemes are most effective for semiconductors and insulators, leaving metallic systems still difficult to treat efficiently and accurately. For tungsten and similar metals, realistic simulations of structural evolution, defects, melting, and high-temperature behavior require a method that can compute energies, forces, and electronic properties with linear scaling, modest memory use, and good parallel efficiency. The difficulty is that standard divide-and-conquer realizations typically rely on building a density matrix or electronic density, which can complicate implementation for metallic tight-binding dynamics and may limit practical efficiency. As a result, there remains a need for a divide-and-conquer strategy that can recover key thermodynamic and electronic quantities for large metallic systems directly from local calculations, without sacrificing agreement with exact diagonalization.",
+        "content_hash": "c4620c36d95c1dac23575afaef44af4693919b973a9a2968ae05c14779f444ca",
+        "id": "gcn_a0c6c88aa5344b9c",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812791863814651906::problem",
+            "package_id": "paper:812791863814651906",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812791863814651906"
+          ]
+        },
+        "rerank_score": 0.792539593654201,
+        "role": "premise",
+        "score": 0.005714285714285714,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Progress beyond qualitative expectations required explicit bilayer tight-binding Hamiltonians that encode how rims (A,B) and hubs (C) in different layers hybridize for each geometrically distinct stacking. Prior to these explicit matrices there was no concrete model to compute band dispersions, to analyze discrete symmetries of the bilayer Hamiltonian, or to derive controlled low-energy effective models; those analyses demand the precise inter-sublattice connectivity and parametrization ($t$, $g$) provided by the matrices above.",
+        "content_hash": "1c81e90621bfcea868300b1384010a0287693b5e575df67ee6f713c9b5ea8b0b",
+        "id": "gcn_7b64d67065094104",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867770316045156420::conclusion_2_subproblem",
+            "package_id": "paper:867770316045156420",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867770316045156420"
+          ]
+        },
+        "rerank_score": 0.7529183928995145,
+        "role": "premise",
+        "score": 0.0056179775280898875,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The electronic structure of crystalline solids is commonly modeled by tight-binding (TB) Hamiltonians expressed in a localized-orbital basis so that hopping integrals determine band dispersions and orbital characters. First-principles density functional theory (DFT) calculations can produce high-fidelity “ab initio” TB Hamiltonians (for example via maximally localized Wannier functions) that inherit band energies and orbital projections from DFT, but these ab initio TB Hamiltonians have long-ranged couplings and are therefore large and computationally costly. To make TB models tractable for applications to defects, surfaces, strained or twisted systems, and other extended or inhomogeneous geometries, practitioners routinely truncate the ab initio Hamiltonian by discarding couplings beyond a chosen distance cutoff. Prior practice thus trades complexity for compactness: truncated ab initio TB (tTB) models typically retain the qualitative features of the full Hamiltonian but introduce finite quantitative errors because the discarded, small-but-nonzero integrals alter band energies, curvatures, Fermi-surface topology, spin splittings, and orbital weights. An alternative is to fit a small-parameter TB model to reproduce targeted bands; however, unconstrained numerical fitting that minimizes only band-energy differences can reach different local minima depending on initialization and may produce parameter sets that reproduce bands while misrepresenting orbital projections or spin textures. Consequently, there is a practical need for a systematic procedure that (i) starts from a physically grounded initial model (the truncated ab initio Hamiltonian), (ii) reduces the quantitative discrepancies induced by truncation without restoring the full long-range Hamiltonian, (iii) preserves crystal-symmetry constraints and orbital character, and (iv) can be steered to reproduce local electronic features of interest (band edges, Fermi surfaces, spin textures) with controlled emphasis. The absence of such a controlled, symmetry-preserving optimization workflow prevents reliable construction of compact TB models that simultaneously deliver DFT-level band energies and local electronic observables for systems (e.g., Janus 2H transition-metal dichalcogenides) where local features and spin properties are essential.",
+        "content_hash": "5b3c786ebd8c3d4d42f760b697619f072692c5709812f3182a51d492e8fb4c8e",
+        "id": "gcn_c63bb5a9ee604e87",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:966947791895003140::problem",
+            "package_id": "paper:966947791895003140",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:966947791895003140"
+          ]
+        },
+        "rerank_score": 0.7464877729329942,
+        "role": "premise",
+        "score": 0.014492753623188406,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Accurate transport calculations for graphene/MoS$_2$ junctions require compact tight-binding parameters that preserve the relevant near-Fermi-level electronic structure of both materials. Before this work, the challenge was to reduce the first-principles description to a computationally efficient basis without losing the band dispersion and density-of-states features that control tunneling and barrier formation at the interface. If the reduced Hamiltonian distorted the electronic structure, then any later calculation of screening, alignment, or transmission would inherit systematic errors and could not be trusted as a quantitative model of the edge contact.",
+        "content_hash": "0feeba39b488102b9d0034e89f333771024a4a59e3e3a6921c98f558e4ea43b2",
+        "id": "gcn_6e31ef57b59f4988",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812769060218470402::conclusion_2_subproblem",
+            "package_id": "paper:812769060218470402",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812769060218470402"
+          ]
+        },
+        "rerank_score": 0.7570818419908416,
+        "role": "premise",
+        "score": 0.007575757575757576,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "To interpret experiments and to facilitate analytic understanding, condensed-matter studies require a minimal effective Hamiltonian that captures the essential band topology and singularities with a small set of parameters. Before this work, CT- and distorted-kagome proposals existed in the literature, but there was no demonstration that a simple single-orbital tight-binding model on an atom-based CT lattice, with physically motivated hopping parameters directly tied to the identified atomic Se $p_z$ orbitals and the underlying Cr honeycomb, can reproduce the specific valence-band features measured in a real 2D semiconductor. Without such a mapping, theoretical predictions about the stability of VHSs to perturbations, the effect of hopping asymmetry, and the feasibility of elevating the VHS to the Fermi level remained qualitative. Providing the explicit Hamiltonian form, the identification of the relevant orbitals, and fitted hopping hierarchy gives a compact, testable model for further theoretical and experimental exploration.",
+        "content_hash": "3437ebedc2f16df907ef368a384a3b5da8809a6307526c2b50ee541272da6dca",
+        "id": "gcn_b4f7effc12134227",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1053890800124952581::conclusion_4_subproblem",
+            "package_id": "paper:1053890800124952581",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1053890800124952581"
+          ]
+        },
+        "rerank_score": 0.7404017044709663,
+        "role": "premise",
+        "score": 0.007194244604316547,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The realization and study of symmetry-protected topological insulators (TIs) and superconductors (TSCs) require explicit, experimentally relevant tight-binding Hamiltonians whose band-structure maps from the crystalline Brillouin zone to the appropriate target space carry the nontrivial topology predicted by the periodic-table classification. Prior to this work, concrete lattice models realizing many of the integer (Z) 3D topological phases existed only as isolated examples (often with topological invariant magnitude $|\\Gamma|=1$, or in a few cases $|\\Gamma|=2$) and sometimes on complicated lattices (for example, a diamond-lattice model for a CI-class TSC). There was no general, systematic prescription to produce tight-binding Hamiltonians on simple lattices that realize arbitrary integer topological indices, nor a simple algebraic operation that reliably produces higher-winding-number representatives while preserving the required symmetry constraints (time-reversal, particle-hole, chiral) and a bulk gap. Because of this limitation researchers could not (a) generate families of lattice Hamiltonians that realize all topological sectors in a given symmetry class, (b) obtain simple lattice models with controlled locality (e.g., limited-range hopping/pairing) for arbitrary integer invariants, or (c) provide straightforward candidate Hamiltonians for experimental implementation (e.g., in optical lattices) across the full integer classification. These gaps impeded systematic numerical benchmarking of topological indices, hindered exploration of boundary phenomena and phase transitions for higher-$|\\Gamma|$ phases, and left open how to build simple, realizable lattice representatives for each integer class in three dimensions.",
+        "content_hash": "2f8a756973f8aaa8d62f496501316342d88425c4e72cdf733ebcb4cdce0fb026",
+        "id": "gcn_5babbb115ae44eb9",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867772331882185147::problem",
+            "package_id": "paper:867772331882185147",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867772331882185147"
+          ]
+        },
+        "rerank_score": 0.8350719723822693,
+        "role": "premise",
+        "score": 0.005681818181818182,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Device-level quantum-transport calculations require a compact, real-space Hamiltonian that captures the spin-dependent band shifts and sublattice asymmetries induced by magnetic-insulator proximity while remaining affordable for scattering-matrix simulations. Prior to this work, DFT supplied spin-resolved band structures for graphene on several magnetic insulators, but those band structures were not packaged as a validated, discrete tight-binding Hamiltonian with explicit nearest-neighbor hoppings and exchange/sublattice terms suitable for large-scale transport tools. Without such a model, one cannot efficiently compute P/AP conductances, explore device-size effects, or quantify PMR for candidate materials using scattering approaches. Providing a tight-binding Hamiltonian with DFT-fitted hopping parameters bridges the gap between ab initio band information and device-scale transport predictions, enabling systematic evaluation of proximity-induced magnetotransport.",
+        "content_hash": "dbd48463ef47a4aafe764f7bec865c58d7d10ad6de356def21c8da9d8017d081",
+        "id": "gcn_23926c8fab394f1a",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812739285370273794::conclusion_1_subproblem",
+            "package_id": "paper:812739285370273794",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812739285370273794"
+          ]
+        },
+        "rerank_score": 0.7569470120201072,
+        "role": "premise",
+        "score": 0.016129032258064516,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "To realize the spectral conditions in a laboratory or model calculation one needs concrete Hamiltonian matrices whose eigenvectors and eigenvalues meet the $p_k=1/N$ and $E_k\\tau=2\\pi k/N$ requirements. Prior work lacked constructive many-site tight-binding Hamiltonians that produce the required uniform overlaps and linear-in-$k$ phase spectrum. Providing explicit Hamiltonians enables numerical simulation, robustness testing, and points the way toward experimental implementation in engineered platforms.",
+        "content_hash": "a92611cab0c74bd0a94152e67c16ace3465008d6cb075856a1444e9b7b968f5c",
+        "id": "gcn_2f70c76d453f40b2",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:871336478209212416::conclusion_3_subproblem",
+            "package_id": "paper:871336478209212416",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:871336478209212416"
+          ]
+        },
+        "rerank_score": 0.734022166856603,
+        "role": "premise",
+        "score": 0.014084507042253521,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The construction of accurate tight-binding (TB) Hamiltonians for real solids is an open practical bottleneck that motivated this work. Physically, researchers need compact TB models (real-space Hamiltonian and overlap matrices expressed via Slater–Koster (SK) integrals and on-site energies) so that large-scale electronic-structure and transport calculations (e.g., Green's-function-based conductance of devices) can be performed at a fraction of the cost of first-principles codes. The prior state of practice is: (i) first-principles density-functional calculations (e.g., VASP, OpenMX, QUANTUM ESPRESSO) provide accurate band structures but are computationally expensive and limited to relatively small cells; (ii) the TB approach (LCAO + SK parametrization) is computationally cheap and suitable for large/nonperiodic systems, but obtaining the SK integrals that reproduce DFT bands requires nonlinear fitting of many parameters; and (iii) conventional TB fitting relies on nonlinear optimizers that are highly sensitive to initial guesses, easily trapped in local minima, and become impractical as the number of atoms/orbitals (and hence independent SK parameters) grows. These limitations have specific scientific consequences: for complex materials (many atoms per cell, non-orthogonal bases, and essential spin–orbit coupling) there is often no reliable TB parametrization available; quantitative predictions of low-energy band dispersions and derived properties (e.g., topological character, low-energy transport) are therefore difficult or impossible without laborious manual fitting; and uncontrolled fitting failures (orbital mixing, misattributed bands) can produce TB models that reproduce energies but lack correct orbital character and yield wrong physical behavior. The paper is motivated by the need for an automated, scalable procedure that overcomes sensitivity to initial guesses and the explosion of local minima, produces physically interpretable SK parameters (including overlap and spin–orbit terms when required), and yields TB models that faithfully reproduce the DFT low-energy bands of complex solids.",
+        "content_hash": "94d89b9a70f03a9f5efbac055bfbac9cb87037828d7152548b9ebd5ccd907f52",
+        "id": "gcn_ac7fb045e7f54e6c",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812534283842355202::problem",
+            "package_id": "paper:812534283842355202",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812534283842355202"
+          ]
+        },
+        "rerank_score": 0.7781516720882418,
+        "role": "premise",
+        "score": 0.01639344262295082,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Density functional theory (DFT) calculations, while accurate, are computationally prohibitive for the large systems (hundreds of nanometers, millions of atoms) required to study transport in disordered 2DCP samples. A simplified yet accurate tight-binding (TB) description was lacking for the 2D-C-(PP)₃ network. Without such a model, it was impossible to efficiently simulate the electronic structure of mesoscopic defective 2DCPs and to perform the extensive wavepacket dynamics needed to access all transport regimes, including localization. The absence of a validated TB Hamiltonian was therefore a bottleneck for any quantitative investigation of charge transport in these materials.",
+        "content_hash": "4e9e5a2ade64d5d8f53f4e7881009cf6c727f461340af05814ca1faafa258a02",
+        "id": "gcn_5848132013354b8a",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814574480490758145::conclusion_1_subproblem",
+            "package_id": "paper:814574480490758145",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814574480490758145"
+          ]
+        },
+        "rerank_score": 0.7468472621148393,
+        "role": "premise",
+        "score": 0.009259259259259259,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The numerical scattering problem for quantum transport—computing wave propagation, scattering matrices $S_{nm}$, and related local observables for a finite scattering region coupled to semi-infinite leads described by tight-binding Hamiltonians of the form $\\hat{H}=\\sum_{i,j} H_{ij}|i\\rangle\\langle j|$—was already central to mesoscopic physics, but the pre-existing computational ecosystem suffered from several intertwined, scientifically substantive deficiencies that limited its general applicability and hindered quantitative and exploratory research. First, many widely used implementations relied on the recursive Green's function (RGF) algorithm (or ad hoc, private codes) that are naturally restricted to quasi-one-dimensional geometries, impose strong structural constraints on the Hamiltonian, and scale unfavorably with system size, thereby preventing efficient treatment of large two- and three-dimensional tight-binding systems and of complex multi-terminal or multi-lattice problems. Second, several common solution methods and implementations show numerical instabilities in standard but delicate situations (for example when handling evanescent modes or non-invertible hoppings in leads), leaving no robust, general-purpose public solver for arbitrary single-particle tight-binding scattering problems. Third, many existing software packages that address transport were highly specialized (DFT+NEGF molecular junction codes, transistor simulators, or codes that assume particular lattice types), making it difficult or impossible to extend them to include other single-particle effects (spin, Nambu electron–hole structure for superconductivity), different Bravais lattices, or arbitrary geometries without substantial reimplementation. Fourth, there was no widely available framework that combined (a) an expressive, physics-oriented way to define arbitrary tight-binding Hamiltonians (including multi-orbital sites and position-dependent matrix-valued onsite/ hopping terms), (b) a low-level, language-neutral representation suitable for high-performance solvers, and (c) high-performance, stable solvers that exploit state-of-the-art sparse direct methods (nested dissection orderings) — all in a user-friendly package. Consequently, researchers could not easily and reliably perform large-scale, multi-terminal, spinful, or superconducting transport calculations, could not interoperate with other codes (e.g., DFT or Poisson solvers) via a universal low-level format, and were often forced to reimplement solvers or accept either limited generality or degraded numerical performance and stability.",
+        "content_hash": "974a56dc09a45e1a4333a76ae32b37d6ea94d4846c17d68e2d8fe70091c22daa",
+        "id": "gcn_f45aad1dfee24026",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867754778619281637::problem",
+            "package_id": "paper:867754778619281637",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867754778619281637"
+          ]
+        },
+        "rerank_score": 0.8254464357920049,
+        "role": "premise",
+        "score": 0.006211180124223602,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Several scientifically meaningful issues remain open following the tight-binding first-order analysis: (i) a conceptual understanding of why the space-dimensional (dimensional) regularization of the low-energy Dirac theory reproduces the microscopic tight-binding result is not provided by the present calculation and remains to be elucidated; (ii) higher-order interaction effects (terms of order $O(\\alpha^{2})$ and beyond), their resummation (for example within random-phase approximation or $1/N_{f}$ expansions), and the role of velocity renormalization in quantitatively modifying conductivity and dielectric predictions must be derived either directly from the tight-binding model or from a low-energy effective theory with a demonstrably correct regularization; (iii) a construction of alternative lattice-consistent regularizations (for example an explicit Pauli–Villars-type scheme adapted to the condensed-matter setting) and an analysis of their relation to dimensional regularization remains to be developed; (iv) the quantitative influence of environmental effects—substrate dielectric screening, charge puddles, and disorder—on the effective interaction range and on the experimentally observed suppression (or absence) of interaction corrections requires detailed modeling and comparison with the tight-binding predictions; and (v) implications of the determined interaction correction for the (so far unobserved) exciton-condensation instability —including whether the corrected dielectric screening and interaction strength alter the predicted critical coupling $\\alpha_{c}$ or exciton dispersion sufficiently to reconcile theory with experiments—remain to be investigated.",
+        "content_hash": "038ebafd4c1e50e943a1403fc0d8ddab69d7c13e706e44850dca2fac97db9a20",
+        "id": "gcn_d3d68b1cbc344e1f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867750590271193300::open_question",
+            "package_id": "paper:867750590271193300",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867750590271193300"
+          ]
+        },
+        "rerank_score": 0.825370317527081,
+        "role": "premise",
+        "score": 0.005291005291005291,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Compact tight-binding models are valuable for rapid evaluation of electronic response, large-scale modeling, and incorporation into device simulations; however, before this work no validated low-energy TB Hamiltonians existed for MC$_6$ Cmma monolayers. Constructing MLWFs and verifying that a reduced TB representation reproduces PBE band edges provides a computationally efficient route to explore disorder, transport, and heterostructure properties beyond the reach of full first-principles many-body calculations.",
+        "content_hash": "20586246edaae7205512ef684e7dd1aa063adfdba589e32a10766128f31ff9ce",
+        "id": "gcn_92649ea53c6546b3",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812573316442226689::conclusion_9_subproblem",
+            "package_id": "paper:812573316442226689",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812573316442226689"
+          ]
+        },
+        "rerank_score": 0.7247535514128419,
+        "role": "premise",
+        "score": 0.004784688995215311,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "A concise, quantitative effective Hamiltonian is required to analyze and predict $p$-orbital band physics (for example, bandwidths, band gaps, flat-band formation, and orbital-dependent hopping) and to enable further theoretical work (many-body studies, disorder effects, engineered perturbations). Prior to this work there was no directly validated set of tight-binding hopping and on-site parameters that fit the computed $p$ bands for the CO/Cu(111) based square and Lieb lattices. Without such parameterizations, one cannot efficiently study interaction effects, topological band properties, or design parameter regimes (atomic limit, strong hybridization) in a controlled way.",
+        "content_hash": "8fdbdf7fccc040df9789fbea1d333d4aaeb9bec9b66486c7b0e3f784932c50c7",
+        "id": "gcn_b541cfbb3ae24461",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812778792907964416::conclusion_4_subproblem",
+            "package_id": "paper:812778792907964416",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812778792907964416"
+          ]
+        },
+        "rerank_score": 0.7499549705771421,
+        "role": "premise",
+        "score": 0.007246376811594203,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The tight-binding Hamiltonian lacks on-site potentials, so all six building blocks are zero-energy eigenstates. The spin-wave Hamiltonian introduces site potentials that are coordination-number dependent, a feature absent in the electronic tight-binding model. It was not understood how these potentials would affect the confined states—whether they would preserve all building blocks or select a subset, and what the selection criterion would be. This question directly determines the nature and degeneracy of confined antiferromagnons.",
+        "content_hash": "87c7dd817e0c07bf41a34995e48ce5b28a5455c45f6dc1b3d0420d312cf51b9e",
+        "id": "gcn_359d7021df094c51",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:7465428044567285865::conclusion_3_subproblem",
+            "package_id": "paper:7465428044567285865",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:7465428044567285865"
+          ]
+        },
+        "rerank_score": 0.721026962733109,
+        "role": "premise",
+        "score": 0.022847301951779565,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "First-principles calculations are costly to scan chemical substitutions and parameter regimes; a compact tight-binding model that encodes the symmetry constraints and the minimal orbital content is required to explore parameter dependencies such as Rashba strength, exchange magnitude, and hopping anisotropies. Prior to this work there was no minimal, symmetry-consistent tight-binding Hamiltonian for these Mn-based TMPT monolayers that both reproduces the DFT topology and provides explicit knobs (e.g., $\\lambda_R$) that can be varied to propose chemical or field-based strategies for enlarging topological gaps.",
+        "content_hash": "5eb1990787719abf2a73ac0bf4ed27291f4e31e12984ecca5fba22c072a03458",
+        "id": "gcn_acdb7d925d5849db",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:918568905801204201::conclusion_7_subproblem",
+            "package_id": "paper:918568905801204201",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:918568905801204201"
+          ]
+        },
+        "rerank_score": 0.7185756453135731,
+        "role": "premise",
+        "score": 0.009615384615384616,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Accurate modeling of chemically disordered graphene barriers requires a tractable atomistic Hamiltonian that captures the essential low-energy electronic structure without the computational cost of repeated large-scale DFT transport calculations. Prior studies either used full DFT (expensive) or simple ad hoc tight-binding models without DFT validation. Providing an effective tight-binding parametrization calibrated to DFT enables systematic transport simulations across device geometries and impurity densities, and supports the prediction of AB oscillations in chemically functionalized barriers.",
+        "content_hash": "a696c1856f2df824e06b11b203d85557584c132ed7472b3349df8c405d730f81",
+        "id": "gcn_e48682df540f4a60",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812710214464700416::conclusion_6_subproblem",
+            "package_id": "paper:812710214464700416",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812710214464700416"
+          ]
+        },
+        "rerank_score": 0.7217581513768205,
+        "role": "premise",
+        "score": 0.01880067095331283,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The prediction of electronic structure properties beyond total energies and forces is crucial for understanding phenomena such as charge transport, optical response, and electron–phonon coupling in materials. While machine-learning interatomic potentials (MLIPs) have advanced the efficiency of atomistic simulations, they fundamentally omit explicit electronic degrees of freedom, limiting observable predictions to structural and energetic properties. Semi-empirical tight-binding (TB) models, which retain some electronic information, are widely used but rely on two-centre or three-centre integral approximations and rigid parameterizations that lack transferability across different bonding environments and materials phases. Data-driven approaches to construct TB models from density functional theory (DFT) have been explored, yet a general scheme to represent the full ab initio Hamiltonian—beyond the two-centre approximation—in an atomic orbital basis that respects fundamental symmetries (translation, permutation, and rotation equivariance) and can be trained from limited reference data remains missing. In solid-state systems, the need for a systematic, equivariant, and transferable parameterization of Hamiltonian and overlap matrices as functions of local atomic and bond environments is particularly acute, as existing methods either cannot capture the full complexity of DFT Hamiltonians or fail to generalize across crystal phases and defects.",
+        "content_hash": "2a377f94fdef3af95c031e1e4791cdcff7631142d44556406630f33e3bc58155",
+        "id": "gcn_475c710477224dbf",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817357531230765057::problem",
+            "package_id": "paper:817357531230765057",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817357531230765057"
+          ]
+        },
+        "rerank_score": 0.7110142278194111,
+        "role": "premise",
+        "score": 0.008928571428571428,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "To connect an atomic-material candidate to the ideal checkerboard line-graph physics one needs an explicit microscopic model that (i) maps atomic orbitals to lattice sites, (ii) states the symmetry-required hopping relationships, and (iii) gives analytic conditions for the occurrence of a dispersionless band. Without such a model, comparisons between first-principles band structures and the idealized line-graph predictions remain qualitative. The tight-binding Hamiltonian with explicit definitions of $t_{1}$ and $t_{2}$ fills this gap by providing the concrete criterion ($t_{1}=t_{2}$) for an exact flat band and by giving the analytic flat-band energy $-2t_{2}$, thereby enabling direct, quantitative comparison to DFT bands and experimental dispersions and clarifying how perturbations (inequivalent hoppings) modify the flat-band phenomenology.",
+        "content_hash": "c14e6acd1d2eda68cdea19f1a279563385c4462f0e78abef79ad826fa4d63903",
+        "id": "gcn_4e61ca13f2584d32",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:875125670332596800::conclusion_2_subproblem",
+            "package_id": "paper:875125670332596800",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:875125670332596800"
+          ]
+        },
+        "rerank_score": 0.7109578975208356,
+        "role": "premise",
+        "score": 0.011904761904761904,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In order to decide which collective modes (electronic excitons or lattice distortions) can drive the CDW and the superconductivity in TiSe₂, a compact electronic-structure model is required that captures the low-energy bands and yields explicit numerical hopping amplitudes. Prior approaches either produced large first-principles band structures (DFT/LDA) without isolating a minimal effective model, or invoked phenomenological excitonic/Jahn–Teller pictures without parameter values tied to the band topology. Without a fitted tight-binding Hamiltonian one cannot (i) identify the key orbital overlaps that control charge motion, (ii) assess spatial confinement of charge-transfer excitations and screening, or (iii) provide a controlled starting point for model calculations of exciton–phonon coupling and superconducting pairing. The tight-binding fit thus addresses the need for a minimal, parameterised low-energy model linking band-structure data to microscopic hopping pathways.",
+        "content_hash": "8eb9c3b4d9fe05c5e6acc89a9e3ddcdc78abf06f5b24a496998218757a6686c9",
+        "id": "gcn_4b1035554ab44641",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811806684665085953::conclusion_1_subproblem",
+            "package_id": "paper:811806684665085953",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811806684665085953"
+          ]
+        },
+        "rerank_score": 0.8100578702621251,
+        "role": "premise",
+        "score": 0.006896551724137931,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The orbital character of the valence and conduction band edges in silicane and germanane had not been identified, yet this information is indispensable for constructing a physically motivated, low-energy effective model of the electronic structure. Without knowledge of which atomic orbitals contribute at the high-symmetry points, it was impossible to justify the choice of basis states for a tight-binding Hamiltonian or to understand the interband mixing responsible for the band dispersion.",
+        "content_hash": "4db855778c1bc60de74ed47a1ac3400e23024d8bb6ac003e6fb0d8f819ed3385",
+        "id": "gcn_7223a6fabd6e44e2",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813147265119027201::conclusion_4_subproblem",
+            "package_id": "paper:813147265119027201",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813147265119027201"
+          ]
+        },
+        "rerank_score": 0.7704282272833839,
+        "role": "premise",
+        "score": 0.005649717514124294,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Ab initio molecular dynamics (AIMD) routinely generates very large volumes of instantaneous electronic-structure data (Kohn–Sham eigenvalues and eigenstates) along ionic trajectories, but there is no widely applicable, high-fidelity, and transferable surrogate that maps an ionic configuration to a microscopic electronic Hamiltonian for crystalline materials. Existing machine-learned interatomic potentials accelerate sampling of ionic configurations but discard the explicit electronic structure; recent ML efforts targeted specific electronic observables (e.g. density of states or charge density) or molecular Hamiltonians for small systems, yet a general method to predict a microscopic, configuration-dependent tight-binding Hamiltonian for extended crystalline systems is lacking. Moreover, (i) a tight-binding Hamiltonian is not uniquely determined by band energies because of $U(N)$ gauge freedom, so naive spectrum-fitting can produce discontinuous, non-smooth Hamiltonians that fail to interpolate along trajectories; (ii) direct ab initio evaluation of time-dependent electronic evolution and of ensemble-averaged electronic correlation functions (spectral functions, current–current correlators) for large system sizes and long times is prohibitively expensive, preventing routine study of non-adiabatic electronic dynamics and of large-scale thermodynamic sampling; and (iii) there is no established neural-network architecture and training strategy that enforces locality, smoothness, and calibration to a reference Wannierized Hamiltonian while remaining transferable across system sizes and temperatures. These gaps preclude efficient, reusable, and accurate sampling of microscopic electronic Hamiltonians from AIMD needed to compute time-resolved and equilibrium electronic correlation functions in extended materials.",
+        "content_hash": "4b396f74fc77f8ea512e7f4bc69b0c570b681d33aae77b38bbf69451bda99117",
+        "id": "gcn_24c970423d13429d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867758922616800113::problem",
+            "package_id": "paper:867758922616800113",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867758922616800113"
+          ]
+        },
+        "rerank_score": 0.7146524099526615,
+        "role": "premise",
+        "score": 0.012987012987012988,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Prior to this work there was no compact, physically transparent tight‑binding style procedure that (a) systematically accounts for the atomic under‑coordination (surface, edge and vacancy) that dominates the atomic fraction in nanostructures and (b) embeds that effect directly into the effective single‑particle Hamiltonian used to compute electronic structure including local Coulomb repulsion. In the study of low‑dimensional 2D materials (graphene, phosphorene, antimonene and their nanoribbons) researchers used three main approaches: density functional theory (DFT) which is accurate but computationally expensive for large systems; parameterized tight‑binding (TB) or density‑functional tight‑binding (DFTB) which are efficient but typically carry bulk‑fitted parameters and often neglect systematic edge/under‑coordination corrections; and simplified Hubbard or mean‑field Hubbard treatments that include onsite Coulomb repulsion but do not include coordination‑dependent changes to hopping and onsite potentials. Those prior treatments therefore suffered from specific limitations: conventional TB/DFTB commonly employed bulk‑derived hopping and onsite parameters and so could not capture edge‑induced bond contraction, enhanced local potentials, or the multi‑well potential (quantum trapping) at the surface/edge; DFT calculations that do include relaxation and edge chemistry are too costly to use routinely for large nanoribbons or for systematic parameter studies; and standard Hubbard/mean‑field models include onsite $U$ but leave hopping and onsite integrals uniform, missing coordination‑dependent modulation of both kinetic (hopping) and potential terms. As a consequence, several concrete scientific questions remained unresolved or inadequately quantified: what microscopic change of Hamiltonian elements (onsite potentials, hopping integrals, and onsite repulsion $U$) is produced by under‑coordination and bond contraction at edges and vacancies; what is the physical origin of the experimentally and DFT observed band‑gap opening and its monotonic width dependence in graphene, phosphorene and antimonene nanoribbons; and what mechanism produces localized Dirac‑Fermi polaron states and their associated local magnetic moments at edges and vacancies. These gaps prevented a concise, computationally efficient model that connects bond‑level structural change (shorter, stronger bonds at under‑coordinated sites) to modified Hamiltonian entries and to observable electronic and magnetic signatures across families of 2D nanoribbons.",
+        "content_hash": "8e4f2bba9b994547ae3b112b17af53026adccd2d817ef0bd7f00513d07304f98",
+        "id": "gcn_4bde919567024cd8",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813136048732241921::problem",
+            "package_id": "paper:813136048732241921",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813136048732241921"
+          ]
+        },
+        "rerank_score": 0.7998854047428612,
+        "role": "premise",
+        "score": 0.008695652173913044,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Many applications (Landau level spectra, valley-resolved responses, edge/interface modes) require a tight-binding Hamiltonian that not only matches band energies but also preserves orbital composition and band topology away from a single k-point. Before this work, manually constructed or fitted tight-binding models could produce energetic agreement in narrow windows but often failed to faithfully conserve orbital weights or global band topology, thereby jeopardizing predictions of valley-dependent LLs, spin splittings, or edge modes. A method that yields a compact tight-binding Hamiltonian that is an exact representation (within the chosen band window) of the DFT Hamiltonian is therefore needed to move from first-principles bands to reliable LL and edge-state calculations.",
+        "content_hash": "c5a9855a3983944b078246df1b088fde2feb2c304e0d26f553087c8c1e027011",
+        "id": "gcn_7e393f146ffa4722",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867748145793073591::conclusion_2_subproblem",
+            "package_id": "paper:867748145793073591",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867748145793073591"
+          ]
+        },
+        "rerank_score": 0.7778657330902428,
+        "role": "premise",
+        "score": 0.018191028829326703,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Several scientifically meaningful limitations and directions are left unresolved. First, the domain of applicability of the tight-binding model to physically realistic Hamiltonians is not characterized: it remains open which classes of target interactions and geometries can be faithfully represented by collections of Hamming-symmetric wells on an $n$-qubit hypercube (the authors conjecture certain embeddings are possible but do not provide general constructive conditions). Second, tight-binding may fail to detect the true minimum gap when that gap occurs at early or intermediate $s$ values before the bound-state localization is sufficient; there is no general criterion (beyond the proposed perturbative error estimate) guaranteeing that the tight-binding regime covers the adiabatic bottleneck. Third, numerical stability depends on the choice of the Fix–Heiberger tolerance $\\epsilon$, and systematic rules for selecting $\\epsilon$ to eliminate unstable near-null modes without discarding physically relevant small-gap modes are not provided. Fourth, the practical generation of the required Hamming-ball or K-local potentials on near-term hardware (which would require high-degree interactions) is acknowledged as a barrier; the feasibility and resource costs of implementing these potentials physically (or approximating them with available controls) are not settled. Finally, the extent to which the tight-binding constructions (and their demonstrated empirical robustness) imply classical simulability or hardness of the corresponding adiabatic evolutions remains unanswered: even if the model is classically simulatable in some regimes, whether tunneling effects in broader non-stoquastic or less symmetric families produce genuine quantum speedups is not resolved by the present work.",
+        "content_hash": "005243f30efe5f4a474d3d76e1bab2a4c5d0a767fa4b23c541c999583d4f7b33",
+        "id": "gcn_3cad132e17f44da5",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867747888610935013::open_question",
+            "package_id": "paper:867747888610935013",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867747888610935013"
+          ]
+        },
+        "rerank_score": 0.7369238040095157,
+        "role": "premise",
+        "score": 0.011764705882352941,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Carbon nanotubes (zigzag and armchair) are physically modelled at the atomic scale by tight‑binding (discrete) Schrödinger Hamiltonians on graphs; experiments and applied theory routinely treat nanotubes in combined uniform magnetic fields (along the tube axis) and externally imposed longitudinal electric potentials (periodic or almost periodic). Prior rigorous mathematical work produced spectral information mostly for continuum (metric graph) models or for special parameter regimes, but a complete, explicit spectral description for the tight‑binding discrete models of zigzag and armchair single‑wall nanotubes in a longitudinal magnetic field plus a general periodic electric potential was missing. In particular, there was no unified reduction of these tight‑binding Hamiltonians to tractable one‑dimensional objects amenable to spectral analysis (Jacobi matrices with explicit coefficients tied to the magnetic flux and tube geometry), no complete identification of when and how flat bands (eigenvalues of infinite multiplicity) occur in these discrete models, and no uniform asymptotic control of spectral band edges and gap widths in the two physically important coupling regimes: weak external potential ($t\\downarrow0$) and strong external potential ($t\\to\\infty$). These gaps in the literature prevented explicit, quantitative predictions of band/gap structure, multiplicities, and the dependence of spectral bands on the magnetic flux and on the potential's period and Fourier coefficients; they also hindered direct comparison between zigzag and armchair geometries and obstructed identification of parameter sets that open or close gaps (including the mechanism by which a band can collapse to a flat band as a magnetic parameter tends to a critical value). Consequently, a systematic tight‑binding spectral theory that (i) reduces nanotube Hamiltonians to explicit Jacobi (scalar or matrix) operators with coefficients expressed via the magnetic flux and potential, (ii) characterizes all spectral bands and flat bands, and (iii) provides asymptotic formulas for band edges and gap widths in the small‑ and large‑coupling regimes was required to resolve these unresolved scientific issues.",
+        "content_hash": "ead05bd3e68b89c9dbbb8ee1246b5b38ce4f4451081e11d949a40d0fc728c5bd",
+        "id": "gcn_449f575dd47b431f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867767556654498578::problem",
+            "package_id": "paper:867767556654498578",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867767556654498578"
+          ]
+        },
+        "rerank_score": 0.8021141293071221,
+        "role": "premise",
+        "score": 0.00558659217877095,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Physical context: First-principles modeling of magnetic materials commonly uses tight-binding/Wannier representations derived from density-functional electronic structure calculations. To extract effective classical spin Hamiltonians that include higher-order terms such as biquadratic couplings one needs a formal connection between the electronic Hamiltonian and cluster expansion coefficients that is implementable in tight-binding bases and compatible with standard ab initio codes. Prior state: The SCE-RDLM formalism existed in the KKR multiple-scattering Green-function framework and provided reference-state independent access to arbitrary-order interactions, but a corresponding formulation for Wannier/tight-binding models was not available; existing tight-binding–based exchange-extraction methods (e.g., LKAG, local-force approaches) either assume an ordered reference state or map all effects into bilinear couplings, or require expensive constrained total-energy fitting. Consequences of the gap: Without a tight-binding SCE-DLM formalism, practitioners could not systematically compute higher-order interactions from Wannierized Hamiltonians, limiting access to materials where plane-wave or other non-KKR bases are preferred and preventing efficient, systematic studies of the electronic origin of biquadratic and multi-site couplings.",
+        "content_hash": "5c27ef30807f9c55088444616654603ecf3910dd398e32b1fdb6310f820277dc",
+        "id": "gcn_50dd92ae12eb4ed5",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:995209885136191495::conclusion_1_subproblem",
+            "package_id": "paper:995209885136191495",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:995209885136191495"
+          ]
+        },
+        "rerank_score": 0.6995503003066175,
+        "role": "premise",
+        "score": 0.011764705882352941,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Tight-binding (π-band) models capture the low-energy graphene manifold but leave open the possibility that multi-orbital effects, core states, or exchange–correlation dynamics could qualitatively alter the selection behaviour or induce unwanted transitions elsewhere in the Brillouin zone. Ab initio, all-electron time-dependent simulations are needed to test whether the tight-binding selection rule and localized saddle excitation survive a fully interacting-electron Kohn–Sham treatment. Without such confirmation the tight-binding predictions could not be taken as robust for experimental materials where orbital hybridization or higher-energy bands might create competing absorption channels or modify matrix elements.",
+        "content_hash": "0f3a1ba65f83ee1739ccdfd9921260b5e306ef5fffbffe9407e34dd62ddc24be",
+        "id": "gcn_ba60bc45a19a41df",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1112351290114965508::conclusion_5_subproblem",
+            "package_id": "paper:1112351290114965508",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1112351290114965508"
+          ]
+        },
+        "rerank_score": 0.6989065172571816,
+        "role": "premise",
+        "score": 0.009900990099009901,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Numerical evaluation of Wilson loops, semi-infinite edge spectra, and finite-flake eigenstates requires a tractable tight-binding Hamiltonian faithful to the DFT electronic structure near the Fermi level. A direct plane-wave DFT representation is impractical for repeated boundary and Wilson-loop computations. Constructing a maximally-localized-Wannier-based tight-binding model for the relevant low-energy bands remedies this computational bottleneck and enables gauge-consistent Wilson-loop evaluation, edge Green’s-function calculations, and finite-disk diagonalizations; prior to this work such a practical ab-initio model for graphyne’s low-energy manifold had not been presented for these topological analyses.",
+        "content_hash": "251122e9da0660bf0b45864c24c490a8aa4e3ef722cf28191f1f36433124ae4a",
+        "id": "gcn_8ae800a254ac43f9",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867773131442356923::conclusion_8_subproblem",
+            "package_id": "paper:867773131442356923",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867773131442356923"
+          ]
+        },
+        "rerank_score": 0.7019314901521438,
+        "role": "premise",
+        "score": 0.00819672131147541,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "To confirm that the first-principles band inversion leads to robust chiral edge states and to provide a compact model for further theoretical exploration (e.g., disorder, edge termination, or interaction effects), a minimal tight-binding Hamiltonian is required that captures orbital content, SOC, and magnetic exchange in a numerically tractable form. Before this construction, the first-principles prediction stood without a simple lattice model that could be used for edge calculations and parameter studies; the tight-binding model fills this gap and corroborates the topological assignment by independent means.",
+        "content_hash": "506e2d6cd51e9f85b473050e12c6fc3eac42d9e7f41f4b53986b64263574b129",
+        "id": "gcn_393d85a726194cdd",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812555273129426945::conclusion_8_subproblem",
+            "package_id": "paper:812555273129426945",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812555273129426945"
+          ]
+        },
+        "rerank_score": 0.6901788581246998,
+        "role": "premise",
+        "score": 0.006369426751592357,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "To analyze edge spectra, finite geometries, and parameter-dependent topological transitions in a computationally efficient and physically transparent manner, an accurate lattice Hamiltonian is needed that captures the DFT electronic structure while allowing construction of ribbons and finite flakes. Ab initio calculations alone are computationally costly for large nanodisks or systematic parameter sweeps; consequently, an explicit tight-binding or Wannier Hamiltonian fitted to DFT is essential to extend the analysis to edge terminations, defects, and interlayer-distance dependence while preserving the correct orbital content.",
+        "content_hash": "69f8872587ca84c18ab778a8c92be5989fe83efee2aca313a3edcd824fdbbe24",
+        "id": "gcn_2098b40b44424ddd",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1229502265828573193::conclusion_6_subproblem",
+            "package_id": "paper:1229502265828573193",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1229502265828573193"
+          ]
+        },
+        "rerank_score": 0.6901706727644914,
+        "role": "premise",
+        "score": 0.007407407407407408,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "A compact, accurate low-energy model is required to perform many-body, transport, or pairing calculations that are computationally prohibitive with the full DFT band structure. Prior to this work there was no validated tight-binding Hamiltonian that captures the conduction-band manifold with orbital-resolved real-space hopping parameters and localized basis functions suitable for further theoretical analyses (e.g., inclusion of interactions, phonons, or evaluating nesting). Without such a downfolded model, attempts to study superconductivity or correlation effects would lack quantitative hopping amplitudes and interorbital hybridizations.",
+        "content_hash": "c1ee9b83119562cd87b263c15942537ae15ee66ae531d3b80e11b57b9d5f8c4f",
+        "id": "gcn_3646c7d0628c46a2",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811822398583078915::conclusion_4_subproblem",
+            "package_id": "paper:811822398583078915",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811822398583078915"
+          ]
+        },
+        "rerank_score": 0.7896091321800238,
+        "role": "premise",
+        "score": 0.007633587786259542,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In the study of graphene on h-BN, ab initio calculations reported an interaction-induced band gap but did not provide a minimal lattice Hamiltonian with numerical tight-binding parameters that reproduces both the Dirac-cone displacement to low-symmetry $\\Gamma\\!-\\!M$ lines and a quantitatively consistent gap for subsequent transport calculations on finite-width ribbons. Without such a compact tight-binding parametrization it is difficult to perform device-scale transport calculations (including layer-resolved conductances and edge-state localization) or to explore how local gating and finite-width effects modify band topology and gaps. The absence of a validated tight-binding description thus limited systematic exploration of edge-localized modes, finite-size electronic structure, and transport in graphene/h-BN nanoribbons.",
+        "content_hash": "8bd1597ba9b08c619ad4981b8882cae7ca853d6638c6f3a506bf0707f890c301",
+        "id": "gcn_35cf29f8c4144dfb",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812673173043544066::conclusion_1_subproblem",
+            "package_id": "paper:812673173043544066",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812673173043544066"
+          ]
+        },
+        "rerank_score": 0.6885874116739968,
+        "role": "premise",
+        "score": 0.008547008547008548,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Quantitative model Hamiltonians are required to connect first-principles band structure to low-energy many-body theories. Prior work lacked a hybrid-functional-based, Wannier-localized tight-binding representation that captures the balance of itinerancy and localization for both Ni $d$ and rare-earth $d$ states in the infinite-layer nickelates. Without such a Wannier Hamiltonian, derivation of minimal lattice models and controlled many-body calculations (e.g., Hubbard-model studies) could not be carried out with parameters grounded in the HSE electronic structure.",
+        "content_hash": "1c8717c8a037ec848cad741cad45e8c7cc79eb8152bf33b5e0cf4261337fc72b",
+        "id": "gcn_0859fb6ae8444b2b",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812708326772047875::conclusion_4_subproblem",
+            "package_id": "paper:812708326772047875",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812708326772047875"
+          ]
+        },
+        "rerank_score": 0.7072536695295966,
+        "role": "premise",
+        "score": 0.00558659217877095,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Direct first-principles slab calculations of surface spectra can be costly and may obscure the role of orbital composition in surface-state formation. A minimal tight-binding model that reproduces the bulk electronic structure is needed to generate surface Green’s functions, explore surface terminations, and to serve as a basis for further model analyses (for example, including disorder or interactions). Prior to this work, no validated Wannier tight-binding model for $P6_3/mmc$ NaCaBi had been presented; establishing such a model closes the methodological gap between bulk DFT and detailed surface-state or model-Hamiltonian studies.",
+        "content_hash": "d4b7da90523360d473ea8beb9111b087e044bb44bd5e34c142861efad8dc53ce",
+        "id": "gcn_20adab41084b4f00",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812481557905276928::conclusion_8_subproblem",
+            "package_id": "paper:812481557905276928",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812481557905276928"
+          ]
+        },
+        "rerank_score": 0.6849861489827401,
+        "role": "premise",
+        "score": 0.007042253521126761,
+        "type": "question",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "req_f709ec7767c79"
+}

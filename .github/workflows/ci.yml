@@ -15,6 +15,7 @@ jobs:
       - run: python -m pip install --upgrade pip
       - run: python -m pip install -e ".[test]"
       - run: python tools/check_manifest.py
+      - run: python tools/check_problem_docs.py
       - run: python tools/coverage_report.py
       - run: python tools/check_results.py results/verified/2026-07-26-implemented.json
       - run: python -m pytest

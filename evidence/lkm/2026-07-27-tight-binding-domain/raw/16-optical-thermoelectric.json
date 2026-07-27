@@ -1,0 +1,1590 @@
+{
+  "code": 0,
+  "data": {
+    "has_more": true,
+    "papers": {
+      "paper:1032904190029987859": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Farzad Mahfouzi | Mark D. Stiles | Paul M. Haney",
+        "available_online": "",
+        "cover_date_start": "2024-08-19",
+        "created_at": "1970-01-01T08:00:00+08:00",
+        "doi": "10.48550/arxiv.2408.10081",
+        "en_title": "Current-Induced Circular Dichroism on Metallic Surfaces: A First-Principles Study",
+        "id": "1032904190029987859",
+        "keywords": "",
+        "publication_date": "2024-08-19",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "金属表面的电流诱导圆二色性：第一性原理研究"
+      },
+      "paper:1088970807050240023": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Miguel-Ángel Sánchez-Martínez | Daniel Muñoz-Segovia | Fernando de Juan",
+        "available_online": "",
+        "cover_date_start": "2025-01-17",
+        "created_at": "2026-06-19T00:26:19+08:00",
+        "doi": "10.48550/arxiv.2501.10085",
+        "en_title": "Optical probes of two-component pairing states in transition metal dichalcogenides",
+        "id": "1088970807050240023",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108490",
+        "publication_name": "Superconductivity",
+        "research_categories": "",
+        "zh_title": "过渡金属二硫属化物中两组分配对态的光学探针"
+      },
+      "paper:1177308086130442247": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Saúl Antonio Herrera-González | Guillermo Parra-Martínez | Francisco Guinea | Jose Angel Silva-Guillén | Pierre A. Pantaleón | Gerardo G. Naumis",
+        "available_online": "",
+        "cover_date_start": "2025-09-22",
+        "created_at": "2026-06-19T03:29:57+08:00",
+        "doi": "10.48550/arXiv.2509.18098",
+        "en_title": "Electronic structure and optical signatures of highly-doped graphene",
+        "id": "1177308086130442247",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "高掺杂石墨烯的电子结构与光学特征"
+      },
+      "paper:1184515419591934013": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Arpit Raj | Swati Chaudhary | Martin Rodriguez-Vega | Maia G. Vergniory | Roni Ilan | Gregory A. Fiete",
+        "available_online": "",
+        "cover_date_start": "2025-10-09",
+        "created_at": "2026-06-19T02:29:55+08:00",
+        "doi": "10.48550/arXiv.2510.08740",
+        "en_title": "Light-induced pseudo-magnetic fields in three-dimensional topological semimetals",
+        "id": "1184515419591934013",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "三维拓扑半金属中的光诱导赝磁场"
+      },
+      "paper:1229344011647451137": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "P. P. Abrantes | W. J. M. Kort-Kamp | F. S. S. Rosa | C. Farina | F. A. Pinheiro | Tarik P. Cysne",
+        "available_online": "",
+        "cover_date_start": "2023-07-04",
+        "created_at": "2026-06-17T02:37:16+08:00",
+        "doi": "10.48550/arXiv.2307.01752",
+        "en_title": "Controlling electric and magnetic Purcell effects in phosphorene via strain engineering",
+        "id": "1229344011647451137",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "通过应变工程控制磷烯中的电和磁珀塞尔效应"
+      },
+      "paper:811133642695770113": {
+        "area": "mathematics, computer science, artificial intelligence, materials science, characterization & testing, engineering, multidisciplinary",
+        "authors": "Jose Silva-Guillén | Pablo San-Jose | Rafael Roldán",
+        "available_online": "2016-10-1",
+        "cover_date_start": "2016-10-01",
+        "created_at": "2026-05-26T04:11:43+08:00",
+        "doi": "10.3390/app6100284",
+        "en_title": "Electronic Band Structure of Transition Metal Dichalcogenides from Ab Initio and Slater–Koster Tight-Binding Model",
+        "id": "811133642695770113",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "96528",
+        "publication_name": "Applied Sciences _ Applied Sciences",
+        "research_categories": "",
+        "zh_title": "基于第一性原理和Slater-Koster紧束缚模型的过渡金属二硫属化物的电子能带结构"
+      },
+      "paper:811823090924257280": {
+        "area": "physics and astrophysics, physics, multidisciplinary",
+        "authors": "A. R. Wright | J. C. Cao | C. Zhang",
+        "available_online": "2009-11-10",
+        "cas_zone": "1",
+        "cover_date_start": "2009-11-10",
+        "created_at": "2026-06-14T08:46:01+08:00",
+        "doi": "10.1103/physrevlett.103.207401",
+        "en_title": "Enhanced Optical Conductivity of Bilayer Graphene Nanoribbons in the Terahertz Regime",
+        "id": "811823090924257280",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "",
+        "zh_title": "太赫兹波段双层石墨烯纳米带的增强光导率"
+      },
+      "paper:812065244133195778": {
+        "area": "geoscience, materials science, multidisciplinary, physics, condensed matter, nanoscience & nanotechnology",
+        "authors": "Satoshi Kokado | Nobuhisa Fujima | Kikuo Harigaya | Hisashi Shimizu | Akimasa Sakuma",
+        "available_online": "2006-9-11",
+        "cover_date_start": "2006-09-01",
+        "created_at": "2026-05-17T01:28:16+08:00",
+        "doi": "10.1002/pssc.200567118",
+        "en_title": "Spin polarized transport of iron nitride Fe 4 N: Analysis using a combination of first principles calculation and model calculation",
+        "id": "812065244133195778",
+        "keywords": "",
+        "publication_date": "2006-9",
+        "publication_id": "32031",
+        "publication_name": "physica status solidi c _ Phys. Status Solidi (c)",
+        "research_categories": "",
+        "zh_title": "氮化铁Fe₄N的自旋极化输运：基于第一性原理计算与模型计算相结合的分析"
+      },
+      "paper:812104753344413696": {
+        "area": "geoscience, materials science, multidisciplinary, physics, applied, nanoscience & nanotechnology",
+        "authors": "W. Xu | Z. Zeng | F. Lu | C. Zhang",
+        "available_online": "",
+        "cover_date_start": "2006-08-01",
+        "created_at": "2026-05-19T04:24:04+08:00",
+        "doi": "10.1016/j.physe.2006.03.072",
+        "en_title": "Fast-electron optical spectrum of a two-dimensional electron gas in the presence of the Rashba effect",
+        "id": "812104753344413696",
+        "keywords": "[{\"en_name\": \"Fast-electron optical spectrum\", \"ch_name\": \"\"}, {\"en_name\": \"Plasmon modes\", \"ch_name\": \"\"}, {\"en_name\": \"Rashba spin-splitting\", \"ch_name\": \"\"}]",
+        "publication_date": "2006-8",
+        "publication_id": "98276",
+        "publication_name": "Physica E: Low dimensional Systems and Nanostructures _ Physica E: Low-dimensional Systems and Nanostructures",
+        "research_categories": "",
+        "zh_title": "存在Rashba效应时二维电子气的快电子光学光谱"
+      },
+      "paper:812507774570201089": {
+        "area": "material science, physical sciences, condensed matter physics",
+        "authors": "Sergey Lyaschenko | Olga Maximova | Dmitriy Shevtsov | Sergey Varnakov | Ivan Tarasov | Ulf Wiedwald | Johanna Rosen | Sergei Ovchinnikov | Michael Farle",
+        "available_online": "",
+        "cas_zone": "3",
+        "cover_date_start": "2021-06-01",
+        "created_at": "2026-05-24T01:14:15+08:00",
+        "doi": "10.1016/j.jmmm.2021.167803",
+        "en_title": "Optical and magneto-optical properties of epitaxial Mn2GaC MAX phase thin film",
+        "id": "812507774570201089",
+        "impact_factor": 3,
+        "jcr_zone": "Q2",
+        "keywords": "[{\"ch_name\":\"外延薄膜\",\"en_name\":\"Epitaxial thin films\"},{\"ch_name\":\"磁圆二色性\",\"en_name\":\"Magnetic circular dichroism\"},{\"ch_name\":\"磁性\",\"en_name\":\"Magnetism\"},{\"ch_name\":\"最大相位\",\"en_name\":\"MAX phases\"},{\"ch_name\":\"光谱磁椭偏仪\",\"en_name\":\"Spectral magneto-ellipsometry\"}]",
+        "publication_date": "2021-6",
+        "publication_id": "2151",
+        "publication_name": "Journal of Magnetism and Magnetic Materials _ Journal of Magnetism and Magnetic Materials",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "外延Mn2GaC MAX相薄膜的光学和磁光性质"
+      },
+      "paper:812531912810692612": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, materials science, multidisciplinary",
+        "authors": "Emilia Ridolfi | Paolo E. Trevisanutto | Vitor M. Pereira",
+        "available_online": "2020-12-7",
+        "cas_zone": "2",
+        "cover_date_start": "2020-12-07",
+        "created_at": "2026-06-13T17:24:29+08:00",
+        "doi": "10.1103/physrevb.102.245110",
+        "en_title": "Expeditious computation of nonlinear optical properties of arbitrary order with native electronic interactions in the time domain",
+        "id": "812531912810692612",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "在时域中利用原生电子相互作用快速计算任意阶非线性光学性质"
+      },
+      "paper:812549216336347140": {
+        "area": "Physics and Astrophysics, physics, condensed matter, physics, applied, materials science, multidisciplinary",
+        "authors": "F. Michael Bartram | Sopheak Sorn | Zhuolu Li | Kyle Hwangbo | Shengchun Shen | Felix Frontini | Liqun He | Pu Yu | Arun Paramekanti | Luyi Yang",
+        "available_online": "2020-10-26",
+        "cas_zone": "2",
+        "cover_date_start": "2020-10-26",
+        "created_at": "2026-06-19T09:26:42+08:00",
+        "doi": "10.1103/physrevb.102.140408",
+        "en_title": "Anomalous Kerr effect in SrRuO 3 thin films",
+        "id": "812549216336347140",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "SrRuO₃薄膜中的反常克尔效应"
+      },
+      "paper:812594850275786752": {
+        "area": "geoscience, materials science, multidisciplinary, physics, applied, nanoscience & nanotechnology",
+        "authors": "H.D. Bui | M. Yarmohammadi",
+        "available_online": "",
+        "cover_date_start": "2020-10-01",
+        "created_at": "2026-05-23T01:14:00+08:00",
+        "doi": "10.1016/j.physe.2020.114330",
+        "en_title": "On the bias voltage and staggered potential effects in tuning anisotropic temperature-dependent electrical conductivity of topological crystalline insulator thin films",
+        "id": "812594850275786752",
+        "keywords": "",
+        "publication_date": "2020-10",
+        "publication_id": "98276",
+        "publication_name": "Physica E: Low dimensional Systems and Nanostructures _ Physica E: Low-dimensional Systems and Nanostructures",
+        "research_categories": "",
+        "zh_title": "关于拓扑晶体绝缘体薄膜各向异性温度相关电导率调谐中的偏置电压和交错势效应"
+      },
+      "paper:812671584392183810": {
+        "area": "physics and astrophysics, chemical sciences, physical sciences, condensed matter physics",
+        "authors": "Masashi Akita | Yasumaru Fujii | Mina Maruyama | Susumu Okada | Katsunori Wakabayashi",
+        "available_online": "2020-2-24",
+        "cas_zone": "2",
+        "cover_date_start": "2020-02-24",
+        "created_at": "2026-06-12T05:00:58+08:00",
+        "doi": "10.1103/physrevb.101.085418",
+        "en_title": "Momentum-selective optical absorption in triptycene molecular membrane",
+        "id": "812671584392183810",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "[\"Chemical Sciences\", \"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "三蝶烯分子膜中的动量选择性光吸收"
+      },
+      "paper:812699544335679489": {
+        "area": "physics and astrophysics, physical sciences, condensed matter physics",
+        "authors": "Tetsuro Habe",
+        "available_online": "2019-12-18",
+        "cas_zone": "2",
+        "cover_date_start": "2019-12-18",
+        "created_at": "2026-06-11T04:30:59+08:00",
+        "doi": "10.1103/physrevb.100.245131",
+        "en_title": "Dynamical conductivity in the multiply degenerate point-nodal semimetal CoSi",
+        "id": "812699544335679489",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "多重简并点节点半金属CoSi中的动态电导率"
+      },
+      "paper:812998405079957505": {
+        "area": "Physics and Astrophysics, physics, condensed matter, physics, applied, materials science, multidisciplinary",
+        "authors": "Tetsuro Habe | Mikito Koshino",
+        "available_online": "2018-9-4",
+        "cas_zone": "2",
+        "cover_date_start": "2018-09-04",
+        "created_at": "2026-06-19T00:20:12+08:00",
+        "doi": "10.1103/physrevb.98.125201",
+        "en_title": "Dynamical conductivity in the topological nodal-line semimetal ZrSiS",
+        "id": "812998405079957505",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "拓扑节点线半金属 ZrSiS 的动态电导率"
+      },
+      "paper:813055985642897408": {
+        "area": "physics and astrophysics, optics",
+        "authors": "Hamza Bennacer | Abdelkader Boukortt | Said Meskine | Moufdi Hadjab | Mohamed Issam Ziane | Ali Zaoui",
+        "available_online": "",
+        "cas_zone": "3",
+        "cover_date_start": "2018-04-01",
+        "created_at": "2026-05-18T20:47:04+08:00",
+        "doi": "10.1016/j.ijleo.2018.01.079",
+        "en_title": "First principles investigation of optoelectronic properties of ZnXP2 (X = Si, Ge) lattice matched with silicon for tandem solar cells applications using the mBJ exchange potential",
+        "id": "813055985642897408",
+        "keywords": "[{\"en_name\": \"Chalcopyrite\", \"ch_name\": \"\"}, {\"en_name\": \"Electronic band structure\", \"ch_name\": \"\"}, {\"en_name\": \"FP-LAPW\", \"ch_name\": \"\"}, {\"en_name\": \"Linear optical properties\", \"ch_name\": \"\"}, {\"en_name\": \"mBJ\", \"ch_name\": \"\"}]",
+        "publication_date": "2018-4",
+        "publication_id": "609",
+        "publication_name": "Optik _ Optik",
+        "research_categories": "",
+        "zh_title": "使用mBJ交换势对与硅晶格匹配的用于串联太阳能电池应用的ZnXP2（X = Si，Ge）的光电特性进行第一性原理研究"
+      },
+      "paper:814586056606220289": {
+        "area": "physics and astrophysics, physics, multidisciplinary",
+        "authors": "G. J. Slotman | M. M. van Wijk | Pei-Liang Zhao | A. Fasolino | M. I. Katsnelson | Shengjun Yuan",
+        "available_online": "2015-10-26",
+        "cas_zone": "1",
+        "cover_date_start": "2015-10-26",
+        "created_at": "2026-06-17T06:21:22+08:00",
+        "doi": "10.1103/physrevlett.115.186801",
+        "en_title": "Effect of Structural Relaxation on the Electronic Structure of Graphene on Hexagonal Boron Nitride",
+        "id": "814586056606220289",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "",
+        "zh_title": "结构弛豫对六方氮化硼上石墨烯电子结构的影响"
+      },
+      "paper:839814087947845633": {
+        "area": "physics and astrophysics, engineering, nanotechnology, physical sciences, condensed matter physics",
+        "authors": "Michael M. Slepchenkov | Pavel V. Barkov | Olga E. Glukhova",
+        "available_online": "",
+        "cover_date_start": "2023-03-07",
+        "created_at": "2026-05-18T15:30:00+08:00",
+        "doi": "10.3390/quantum5010017",
+        "en_title": "Quantum Reports, Vol. 5, Pages 253-266: Quantum Study of the Optical Conductivity of Composite Films Formed by Bilayer Graphene and Single-Walled Carbon Nanotubes under Axial Stretching",
+        "id": "839814087947845633",
+        "impact_factor": 1.5,
+        "jcr_zone": "Q4",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "58949",
+        "publication_name": "Quantum Reports _ ",
+        "research_categories": "[\"Engineering\", \"Nanotechnology\", \"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "《量子报告》，第5卷，第253 - 266页：轴向拉伸下双层石墨烯与单壁碳纳米管形成的复合薄膜的光导率的量子研究"
+      },
+      "paper:867745243288568128": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Chi-Cheng Lee | Yung-Ting Lee | Masahiro Fukuda | Taisuke Ozaki",
+        "available_online": "",
+        "cover_date_start": "2018-05-23",
+        "created_at": "2026-06-11T00:50:40+08:00",
+        "doi": "10.48550/arXiv.1805.08918",
+        "en_title": "Tight-binding calculations of optical matrix elements for conductivity using non-orthogonal atomic orbitals: Anomalous Hall conductivity in bcc Fe",
+        "id": "867745243288568128",
+        "keywords": "",
+        "publication_date": "2018-05-23",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "使用非正交原子轨道对电导率光学矩阵元进行的紧束缚计算：体心立方铁中的反常霍尔电导率"
+      },
+      "paper:867745754687471740": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Alexander Watson | Dionisios Margetis | Mitchell Luskin",
+        "available_online": "",
+        "cover_date_start": "2023-04-09",
+        "created_at": "2026-06-12T00:35:54+08:00",
+        "doi": "10.48550/arXiv.2304.04303",
+        "en_title": "Mathematical aspects of the Kubo formula for electrical conductivity with dissipation",
+        "id": "867745754687471740",
+        "keywords": "",
+        "publication_date": "2023-04-09",
+        "publication_id": "108496",
+        "publication_name": "Mathematical Physics _ Physics.math-ph.math-ph",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "含耗散的电导率久保公式的数学方面"
+      },
+      "paper:867748228341170877": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "German G. Blesio | Leonid V. Pourovskii | Markus Aichhorn | Monica Pozzo | Dario Alfè | Jernej Mravlje",
+        "available_online": "",
+        "cover_date_start": "2023-04-27",
+        "created_at": "2026-06-16T03:11:52+08:00",
+        "doi": "10.48550/arXiv.2304.13962",
+        "en_title": "Influence of oxygen on electronic correlation and transport in iron in the outer Earth's core",
+        "id": "867748228341170877",
+        "keywords": "",
+        "publication_date": "2023-04-27",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "氧对外地核中铁的电子关联和输运的影响"
+      },
+      "paper:867748888105189607": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Junya Shibata | Akihito Takeuchi | Hiroshi Kohno | Gen Tatara",
+        "available_online": "",
+        "cover_date_start": "2017-09-12",
+        "created_at": "2026-05-19T16:55:42+08:00",
+        "doi": "10.48550/arXiv.1709.03689",
+        "en_title": "Theory of electromagnetic wave propagation in ferromagnetic Rashba conductor",
+        "id": "867748888105189607",
+        "keywords": "",
+        "publication_date": "2017-09-12",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "铁磁 Rashba 导体中电磁波传播理论"
+      },
+      "paper:867750768659137416": {
+        "area": "arXiv-Physics, Engineering, Physical Sciences, Condensed Matter Physics",
+        "authors": "Ren Habara | Katsunori Wakabayashi",
+        "available_online": "",
+        "cover_date_start": "2023-03-24",
+        "created_at": "2026-06-19T06:05:13+08:00",
+        "doi": "10.48550/arXiv.2303.13768",
+        "en_title": "Symmetry manipulation of nonlinear optical effect for metallic TMDC",
+        "id": "867750768659137416",
+        "keywords": "",
+        "publication_date": "2023-03-24",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Engineering\", \"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "金属过渡金属二硫属化物非线性光学效应的对称性操控"
+      },
+      "paper:867754849125531810": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Sita Kandel | Godfrey Gumbs | Oleg L. Berman",
+        "available_online": "",
+        "cover_date_start": "2022-06-13",
+        "created_at": "2026-05-18T15:03:36+08:00",
+        "doi": "10.48550/arXiv.2206.06438",
+        "en_title": "Anisotropic optical conductivities of Model Topological nodal-line Semimetals",
+        "id": "867754849125531810",
+        "keywords": "",
+        "publication_date": "2022-06-13",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "模型拓扑节线半金属的各向异性光导率"
+      },
+      "paper:867757797993874330": {
+        "area": "arxiv-physics, physical sciences, quantum physics",
+        "authors": "Tonmoy K. Bhowmick | Amrit De | Roger K. Lake",
+        "available_online": "",
+        "cover_date_start": "2018-05-08",
+        "created_at": "2026-05-25T21:41:51+08:00",
+        "doi": "10.48550/arXiv.1805.02799",
+        "en_title": "High Figure of Merit Magneto Optics from Interfacial Skyrmions on Topological Insulators",
+        "id": "867757797993874330",
+        "keywords": "",
+        "publication_date": "2018-05-08",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Quantum Physics\"]",
+        "zh_title": "拓扑绝缘体上界面斯格明子的高优值磁光效应"
+      },
+      "paper:867761781274050726": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "N. M. R. Peres | T. Stauber",
+        "available_online": "",
+        "cover_date_start": "2008-01-10",
+        "created_at": "2026-06-16T23:08:02+08:00",
+        "doi": "10.48550/arXiv.0801.1519",
+        "en_title": "Transport in a Clean Graphene Sheet at Finite Temperature and Frequency",
+        "id": "867761781274050726",
+        "keywords": "",
+        "publication_date": "2008-01-10",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "有限温度和频率下清洁石墨烯片中的输运"
+      },
+      "paper:867764638622679772": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics, quantum physics",
+        "authors": "F. Schilberth | M.-C. Jiang | S. Minami | M. A. Kassem | F. Mayr | J. Deisenhofer | T. Koretsune | Y. Tabata | T. Waki | H. Nakamura | G.-Y. Guo | R. Arita | I. Kézsmárki | S. Bordács",
+        "available_online": "",
+        "cover_date_start": "2023-01-31",
+        "created_at": "2026-05-21T14:28:35+08:00",
+        "doi": "10.48550/arXiv.2301.13726",
+        "en_title": "Nodal line resonance generating the giant anomalous Hall effect of Co$_3$Sn$_2$S$_2$",
+        "id": "867764638622679772",
+        "keywords": "",
+        "publication_date": "2023-01-31",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "产生Co₃Sn₂S₂巨反常霍尔效应的节线共振"
+      },
+      "paper:867764979443434242": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Vinod Kumar Solet | Shamim Sk | Sudhir K. Pandey",
+        "available_online": "",
+        "cover_date_start": "2022-07-12",
+        "created_at": "2026-05-19T16:47:55+08:00",
+        "doi": "10.48550/arXiv.2207.05661",
+        "en_title": "First-principles study of optoelectronic and thermoelectronic properties of the ScAgC half-Heusler compound",
+        "id": "867764979443434242",
+        "keywords": "",
+        "publication_date": "2022-07-12",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "ScAgC半赫斯勒化合物的光电和热电性质的第一性原理研究"
+      },
+      "paper:867765002071704074": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Yunhai Li | Zhen Zhan | Xueheng Kuang | Yonggang Li | Shengjun Yuan",
+        "available_online": "",
+        "cover_date_start": "2022-09-02",
+        "created_at": "2026-06-14T15:58:20+08:00",
+        "doi": "10.48550/arXiv.2209.00806",
+        "en_title": "TBPLaS: a Tight-Binding Package for Large-scale Simulation",
+        "id": "867765002071704074",
+        "keywords": "",
+        "publication_date": "2022-09-02",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "",
+        "zh_title": "TBPLaS：用于大规模模拟的紧束缚程序包"
+      },
+      "paper:867765155239297158": {
+        "area": "arXiv-Physics, Physical Sciences, Condensed Matter Physics",
+        "authors": "Farshad Azizi | Hamed Rezania",
+        "available_online": "",
+        "cover_date_start": "2021-06-22",
+        "created_at": "2026-06-19T06:41:11+08:00",
+        "doi": "10.48550/arXiv.2106.11967",
+        "en_title": "Effects of spin-orbit coupling and magnetic field on electronic properties of Germanene structure",
+        "id": "867765155239297158",
+        "keywords": "",
+        "publication_date": "2021-06-22",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "自旋轨道耦合和磁场对锗烯结构电子性质的影响"
+      },
+      "paper:867765530830832207": {
+        "area": "arXiv-Physics, Engineering, Nanotechnology, Physical Sciences, Condensed Matter Physics",
+        "authors": "Aleandro Antidormi | Aron W. Cummings",
+        "available_online": "",
+        "cover_date_start": "2021-11-08",
+        "created_at": "2026-06-19T03:42:44+08:00",
+        "doi": "10.48550/arXiv.2111.04571",
+        "en_title": "All-carbon approach to inducing electrical and optical anisotropy in graphene",
+        "id": "867765530830832207",
+        "keywords": "",
+        "publication_date": "2021-11-08",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Engineering\", \"Nanotechnology\", \"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "在石墨烯中诱导电学和光学各向异性的全碳方法"
+      },
+      "paper:867766869136769368": {
+        "area": "arXiv-Physics, Mathematical Sciences, Mathematical Physics, Physical Sciences",
+        "authors": "Tomonari Mizoguchi | Hiroyasu Matsuura | Masao Ogata",
+        "available_online": "",
+        "cover_date_start": "2021-06-10",
+        "created_at": "2026-06-19T10:27:07+08:00",
+        "doi": "10.48550/arXiv.2106.05435",
+        "en_title": "Thermoelectric transport of type-I, II, and III massless Dirac fermions in two-dimensional lattice model",
+        "id": "867766869136769368",
+        "keywords": "",
+        "publication_date": "2021-06-10",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "[\"Mathematical Sciences\", \"Mathematical Physics\", \"Physical Sciences\"]",
+        "zh_title": "二维晶格模型中I型、II型和III型无质量狄拉克费米子的热电输运"
+      },
+      "paper:867768248202953597": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Tetsuro Habe | Mikito Koshino",
+        "available_online": "",
+        "cover_date_start": "2018-06-12",
+        "created_at": "2026-06-15T05:17:04+08:00",
+        "doi": "10.48550/arXiv.1806.04283",
+        "en_title": "Dynamical conductivity in topological nodal-line semimetal ZrSiS",
+        "id": "867768248202953597",
+        "keywords": "",
+        "publication_date": "2018-06-12",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "拓扑节线半金属ZrSiS中的动态电导率"
+      },
+      "paper:867768289084834443": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Pablo San-Jose | Elsa Prada",
+        "available_online": "",
+        "cover_date_start": "2013-04-19",
+        "created_at": "2026-05-19T16:11:30+08:00",
+        "doi": "10.48550/arXiv.1304.5344",
+        "en_title": "Helical networks in twisted bilayer graphene under interlayer bias",
+        "id": "867768289084834443",
+        "keywords": "",
+        "publication_date": "2013-04-19",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "层间偏压下扭曲双层石墨烯中的螺旋网络"
+      },
+      "paper:867769103505425217": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics, quantum physics",
+        "authors": "J. P. Santos Pires | Simão M. João | Aires Ferreira | B. Amorim | J. M. Viana Parente Lopes",
+        "available_online": "",
+        "cover_date_start": "2022-05-30",
+        "created_at": "2026-06-14T06:56:31+08:00",
+        "doi": "10.48550/arXiv.2205.15123",
+        "en_title": "Anomalous Transport Signatures in Weyl Semimetals with Point Defects",
+        "id": "867769103505425217",
+        "keywords": "",
+        "publication_date": "2022-05-30",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "具有点缺陷的外尔半金属中的反常输运特征"
+      },
+      "paper:867769444170989924": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "V. Apinyan | T. K. Kopec",
+        "available_online": "",
+        "cover_date_start": "2021-12-14",
+        "created_at": "2026-06-13T23:21:42+08:00",
+        "doi": "10.48550/arXiv.2112.08938",
+        "en_title": "High thermoelectric performance in excitonic bilayer graphene",
+        "id": "867769444170989924",
+        "keywords": "",
+        "publication_date": "2021-12-14",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "激子双层石墨烯中的高热电性能"
+      },
+      "paper:867772568772280462": {
+        "area": "arXiv-Physics, Physical Sciences, Condensed Matter Physics",
+        "authors": "Jhao-Ying Wu | Wu-Pei Su | Godfrey Gumbs",
+        "available_online": "",
+        "cover_date_start": "2019-12-21",
+        "created_at": "2026-06-19T04:44:30+08:00",
+        "doi": "10.48550/arXiv.1912.10219",
+        "en_title": "Anomalous magneto-transport properties of bilayer phosphorene",
+        "id": "867772568772280462",
+        "keywords": "",
+        "publication_date": "2019-12-21",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "双层磷烯的反常磁输运性质"
+      },
+      "paper:867774124737430260": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Tony Low | A. S. Rodin | A. Carvalho | Yongjin Jiang | Han Wang | Fengnian Xia | A. H. Castro Neto",
+        "available_online": "",
+        "cover_date_start": "2014-04-15",
+        "created_at": "2026-06-17T04:18:53+08:00",
+        "doi": "10.48550/arXiv.1404.4030",
+        "en_title": "Tunable optical properties of multilayers black phosphorus thin films",
+        "id": "867774124737430260",
+        "keywords": "",
+        "publication_date": "2014-04-15",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "",
+        "zh_title": "多层黑磷薄膜的可调谐光学性质"
+      },
+      "paper:868441591780475400": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Spenser Talkington | Eugene J. Mele",
+        "available_online": "",
+        "cover_date_start": "2023-05-23",
+        "created_at": "2026-06-15T01:33:26+08:00",
+        "doi": "10.48550/arXiv.2305.14472",
+        "en_title": "Terahertz Circular Dichroism in Commensurate Twisted Bilayer Graphene",
+        "id": "868441591780475400",
+        "keywords": "",
+        "publication_date": "2023-05-23",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "在 commensurate 扭曲双层石墨烯中的太赫兹圆二色性 "
+      }
+    },
+    "variables": [
+      {
+        "content": "The optical conductivity is calculated using the Kubo formula within the single-particle tight-binding model, neglecting excitonic effects, local-field corrections, disorder scattering, and other many-body contributions that could broaden or suppress the peak.",
+        "content_hash": "7787b995e90ef3d41c109c19b5691d95085ba34b44681e5b31b0699e6830c1df",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_847b1536aee94a5c",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811823090924257280::P4",
+            "package_id": "paper:811823090924257280",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811823090924257280"
+          ]
+        },
+        "rerank_score": 0.9140096735582803,
+        "role": "premise",
+        "score": 0.010642414860681114,
+        "title": "Single-particle approximation",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For the two-orbital square-lattice tight-binding model with Hamiltonian $\\mathcal{H}(\\boldsymbol{k})=\\begin{pmatrix}\\lambda a_{\\boldsymbol{k}}+d_{\\boldsymbol{k}} & a_{\\boldsymbol{k}} \\\\ a_{\\boldsymbol{k}} & \\lambda a_{\\boldsymbol{k}}-d_{\\boldsymbol{k}}\\end{pmatrix}$, where $a_{\\boldsymbol{k}}=2t'(\\cos k_x a_0-\\cos k_y a_0)$, $d_{\\boldsymbol{k}}=2t(\\cos k_x a_0+\\cos k_y a_0)$, $t=-1\\,\\mathrm{eV}$, $t'=-0.3\\,\\mathrm{eV}$, $a_0$ lattice constant, $\\lambda$ the dimensionless tilting parameter, interlayer spacing $d_0=10\\,\\mathrm{\\AA}$, and impurity damping $\\Gamma=0.02\\,\\mathrm{eV}$, the thermoelectric linear-response coefficients are computed from the spectral conductivity $\\alpha_{xx}(\\epsilon)$. The spectral conductivity is defined by the Kubo formula:\n      $$\n      \\alpha_{xx}(\\epsilon)=\\frac{\\hbar e^{2}}{2\\pi A d_{0}}\\sum_{\\boldsymbol{k}}\\mathrm{Tr}\\{G^{(R)}(\\boldsymbol{k},\\epsilon)v_{x}(\\boldsymbol{k})G^{(A)}(\\boldsymbol{k},\\epsilon)v_{x}(\\boldsymbol{k})-\\mathrm{Re}[G^{(R)}(\\boldsymbol{k},\\epsilon)v_{x}(\\boldsymbol{k})G^{(R)}(\\boldsymbol{k},\\epsilon)v_{x}(\\boldsymbol{k})]\\},\n      $$\n      with $G^{(R/A)}(\\boldsymbol{k},\\epsilon)=[\\epsilon\\pm i\\Gamma-\\mathcal{H}(\\boldsymbol{k})]^{-1}$, $v_x(\\boldsymbol{k})=(1/\\hbar)\\partial\\mathcal{H}/\\partial k_x$, and $A$ the area. The Sommerfeld-Bethe relations give $L_{12}=\\frac{1}{e}\\int_{-\\infty}^{\\infty}d\\epsilon\\,(\\epsilon-\\mu)f'(\\epsilon-\\mu)\\alpha_{xx}(\\epsilon)$ and $L_{22}=-\\frac{1}{e^{2}}\\int_{-\\infty}^{\\infty}d\\epsilon\\,(\\epsilon-\\mu)^{2}f'(\\epsilon-\\mu)\\alpha_{xx}(\\epsilon)$, where $f(\\epsilon)$ is the Fermi-Dirac distribution. From these, the Seebeck coefficient $S=(1/T)(L_{12}/L_{11})$, the power factor $\\mathrm{PF}=(1/T^{2})L_{12}^{2}/L_{11}$, and the electronic-limited figure of merit $ZT=S^{2}\\sigma/\\kappa_{e}\\,T$ with $\\kappa_{e}=[L_{22}-(L_{12}L_{21})/L_{11}]/T$ (and $L_{21}=L_{12}$) are obtained. Numerical evaluation shows that the largest thermoelectric responses occur not at the type-III critical point but at an optimally tilted type-I configuration: specifically, for $\\mu=0.05\\,\\mathrm{eV}$ and $\\lambda\\approx 0.89$ the computed values are $S\\approx -70\\;\\mu\\mathrm{V}/\\mathrm{K}$, $\\mathrm{PF}\\approx 3000\\;\\mu\\mathrm{W}/\\mathrm{mK}^{2}$, and $ZT\\approx 0.18$ (with phonon thermal conductivity neglected). The temperature dependence of peaks is such that for $\\lambda\\le 1$ the maxima of $S$, PF and $ZT$ appear near $T\\sim\\mu/(2k_B)$.",
+        "content_hash": "378bdbcefd5aad6d36b22e2934c06aaec0e8504dcedb25a3031a7f4894a90e24",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_da7d99ec9d9c470d",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867766869136769368::conclusion_3",
+            "package_id": "paper:867766869136769368",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867766869136769368"
+          ]
+        },
+        "rerank_score": 0.904066583562475,
+        "role": "conclusion",
+        "score": 0.015625,
+        "title": "Thermoelectric transport computed via Kubo/Sommerfeld-Bethe relations and optimal tilting/doping identified",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The optical response calculations use a dense 50×50×50 k-point mesh to compute Kubo-Greenwood conductivity matrix elements and the complex dielectric function, reducing numerical sampling errors in the Brillouin-zone integrals that determine ε(ω), n(ω), and σ(ω) across 0–10 eV.",
+        "content_hash": "5a49f03506ef8005a61f444ced0eef538e847c507937227da30eaf99d9df2d20",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_95c522a640754c38",
+        "kind": "highlight",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867764979443434242::H3",
+            "package_id": "paper:867764979443434242",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867764979443434242"
+          ]
+        },
+        "rerank_score": 0.8702652366828445,
+        "role": "premise",
+        "score": 0.013513513513513514,
+        "title": "Dense k-point sampling for optical-property matrix elements",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The optical conductivity $\\sigma(\\omega)=\\mathrm{Im}(\\varepsilon_{11})\\omega/4\\pi$ was calculated from the measured diagonal dielectric response $\\varepsilon_{11}$, so the temperature-dependent conductivity peaks inherit an experimentally constrained dielectric tensor rather than a purely model-generated spectrum.",
+        "content_hash": "edb50fd791d1ee21d6ab2d908e4815c6f27d9744bface9dab728315c82a83263",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_5641b0b318cb450a",
+        "kind": "highlight",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812507774570201089::H2",
+            "package_id": "paper:812507774570201089",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812507774570201089"
+          ]
+        },
+        "rerank_score": 0.8865472408124125,
+        "role": "premise",
+        "score": 0.009433962264150943,
+        "title": "The optical conductivity is computed from independently measured dielectric spectra",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The longitudinal optical conductivity $\\mathrm{Re}\\,\\sigma_{xx}(\\omega)$ for the two-orbital tight-binding model on a simple cubic lattice with random vacancies (concentrations $n_v=0.2\\%, 0.4\\%, 0.6\\%, 1\\%$) at Fermi energy $E_F=0.25\\hbar v/a$ and broadening $\\eta=0.004\\hbar v/a$ is computed using a kernel-convoluted Chebyshev expansion of the finite-frequency Kubo formula. The number of Chebyshev polynomials and the kernel parameters are not reported, and no convergence test with respect to polynomial order or broadening is shown.Fig. 4",
+        "content_hash": "561e8d2ee13baa57b7c62b48b18024e825e91512d164152a30db66ab1e52dce7",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_4005e79846794f24",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867769103505425217::P5",
+            "package_id": "paper:867769103505425217",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867769103505425217"
+          ]
+        },
+        "rerank_score": 0.8593644684409941,
+        "role": "premise",
+        "score": 0.008620689655172414,
+        "title": "Convergence of the optical conductivity Chebyshev expansion",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The linear-response longitudinal optical conductivity is computed from the tight-binding (TB) eigenvalues $\\varepsilon_{\\alpha}$ and eigenstates $|\\alpha\\rangle$ via the Kubo-like expression\n      $$\n      \\sigma_{xx}(\\omega)=\\frac{e^{2}\\hbar}{iS}\\sum_{\\alpha,\\beta}\\frac{f(\\varepsilon_{\\alpha})-f(\\varepsilon_{\\beta})}{\\varepsilon_{\\alpha}-\\varepsilon_{\\beta}}\\frac{|\\langle\\alpha|v_{x}|\\beta\\rangle|^{2}}{\\varepsilon_{\\alpha}-\\varepsilon_{\\beta}+\\hbar\\omega+i\\eta_{0}},\n      $$\n      where $f(\\varepsilon)=[1+\\exp((\\varepsilon-\\mu)/k_{B}T)]^{-1}$ is the Fermi function, $\\mu$ the chemical potential (set by filling), $S$ the system area, $v_{x}$ the velocity operator derived from the TB Hamiltonian, and $\\eta_{0}$ a phenomenological spectral broadening. This computational procedure is applied to the fitted TB Hamiltonians to obtain frequency-dependent optical conductivity curves as a function of the Fermi energy $E_{F}$ (doping) and temperature/broadening parameters.",
+        "content_hash": "407ff22bc7a99b3e5d91b2cefea351320c49510fc484623495eec99eaf7bd27a",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_a9b97ed22f87400d",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1177308086130442247::conclusion_5",
+            "package_id": "paper:1177308086130442247",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1177308086130442247"
+          ]
+        },
+        "rerank_score": 0.8581687637828627,
+        "role": "conclusion",
+        "score": 0.017968416559965856,
+        "title": "Computation of the optical conductivity from TB eigenstates using the Kubo formula",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The paper formulates the 4×4-model longitudinal conductivity as Kubo integrals (Eqs. (21)–(23)) expressed through explicit bilinear combinations of spectral-matrix elements Δ(k,ω;Ω), Σ(k,ω;Ω), and Λ(k,ω;Ω) (Appendix C) built from A_{ij}(ω) that incorporate the four eigenvalues ε_{s,s'}(k), providing a tractable semi-analytic route to compute multi-band optical responses.",
+        "content_hash": "d0d9da0be988e6cb5cc7d524ff33bb80ea92c9c2ba5f9475c682445b1237f670",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_5b0a02b1db734310",
+        "kind": "highlight",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867754849125531810::H3",
+            "package_id": "paper:867754849125531810",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867754849125531810"
+          ]
+        },
+        "rerank_score": 0.8518459781501762,
+        "role": "premise",
+        "score": 0.01,
+        "title": "Explicit Kubo representation for multi-band 4×4 model using spectral-matrix elements",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Ab-initio density functional theory (DFT) calculations, evaluated via Wannier-function based tight-binding models and the Kubo-Greenwood formula for optical response, reproduce the experimentally measured diagonal conductivities Re σ_{xx}(ω) and Re σ_{zz}(ω) and the off-diagonal conductivity Re σ_{xy}(ω), and they capture the low-energy peak at 35.9 meV in Re σ_{xy} as well as the enhanced linear dichroism, providing a material-specific theoretical description of the observed optical spectra with remarkably good quantitative agreement on the interband features (the theoretical spectra neglect the intraband/Drude contribution).",
+        "content_hash": "b26a586272fd32b0928baeb840c1e01c7c1b20d4522ac5291de342d856db6578",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_246ea23f78b54629",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867764638622679772::conclusion_4",
+            "package_id": "paper:867764638622679772",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867764638622679772"
+          ]
+        },
+        "rerank_score": 0.8452014729374919,
+        "role": "conclusion",
+        "score": 0.015172735760971055,
+        "title": "DFT plus Wannier tight-binding reproduces measured optical conductivities including 35.9 meV peak",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The optical conductivities $\\text{Re}[\\sigma^{zz}]$, $\\text{Re}[\\sigma^{xx}]$, and $\\sigma^{zxy}_{\\text{inj}}$ are computed numerically using the Kubo-like formulas $\\sigma^{bb}(\\omega) = \\frac{e^2}{i\\hbar V} \\int \\frac{d^2k}{(2\\pi)^2} \\sum_{n\\neq m} \\frac{f_{nm}}{E_{nm}} \\frac{|\\langle n | \\hbar v^b | m \\rangle|^2}{(\\hbar\\omega + i\\eta - E_{nm})}$ and $\\sigma_{\\mathrm{inj}}^{abc}(\\omega) = \\frac{2\\pi \\tau e^3 \\hbar}{V} \\int \\frac{d^2k}{(2\\pi)^2} \\sum_{n\\neq m} f_{nm} (v_{nn}^a - v_{mm}^a) \\frac{v_{nm}^b v_{mn}^c}{E_{nm}^2} \\delta(E_{nm} - \\hbar\\omega)$, with Lorentzian broadening $\\eta = 0.01t$ and temperature $T = 10\\ \\text{K}$, for the effective Floquet Hamiltonian on a lattice of size $N_y = 150$, with the delta function approximated by a Lorentzian of width $\\eta$.Fig. 10; Fig. 11; Fig. 12",
+        "content_hash": "81096ba8fdc7ab5c85c2f9f2e46b676ccb180394a72b7b239abe73e4c9d143ce",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_60547aced08542b1",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1184515419591934013::P11",
+            "package_id": "paper:1184515419591934013",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1184515419591934013"
+          ]
+        },
+        "rerank_score": 0.8394046025571087,
+        "role": "premise",
+        "score": 0.0072992700729927005,
+        "title": "Numerical accuracy of optical conductivity calculations",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Optical conductivity is commonly computed either via direct diagonalization and matrix-element sums (Lindhard-type formulas) or via time-domain Kubo integrals; for very large systems only the time-domain TBPM approach is computationally feasible. Before adopting TBPM for optical-response studies one must validate that the time-domain TBPM kernel yields the same optical-conductivity spectra as diagonalization-based Lindhard calculations in regimes where both are applicable.",
+        "content_hash": "e29e348951cc50cd751e97400effe56e71e8170de463166d8222d36443ab22b0",
+        "id": "gcn_372abc282cf6400a",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867765002071704074::conclusion_5_subproblem",
+            "package_id": "paper:867765002071704074",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867765002071704074"
+          ]
+        },
+        "rerank_score": 0.8280929698763251,
+        "role": "premise",
+        "score": 0.009908311150547175,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The optical conductivity is computed using the velocity operator obtained via the derivative of the tight-binding Hamiltonian with respect to wavevector (Eq. (3)), which is an exact relation within the tight-binding model, and the Brillouin zone integration is performed on a dense 701×701 grid.",
+        "content_hash": "d2b592ff5923e41e4cfe91098b42f8012c48dd1df0951481a34a8514c5ee3f2e",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_926278e76be24931",
+        "kind": "highlight",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867765530830832207::H3",
+            "package_id": "paper:867765530830832207",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867765530830832207"
+          ]
+        },
+        "rerank_score": 0.8266657355500024,
+        "role": "premise",
+        "score": 0.007692307692307693,
+        "title": "Exact velocity operator and dense k-mesh in optical calculation",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The optical conductivity calculations employ the standard Kubo formula σ_{xx}(ω) = (ie^2/ω) ∫ dε dε' (n_F(ε)-n_F(ε'))/(ħω-ε'+ε+i0) F(ε,ε') with F(ε,ε') = Tr[δ(ε-H) j_x δ(ε'-H) j_x], a well-established linear-response framework for evaluating absorption in tight-binding and continuum models of graphene-based systems.",
+        "content_hash": "a8c0f717fb739ce5b91e9a7abd0d5c93e9109da65622cd68561daff99e399f7c",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_30bbd7e8d1f243ba",
+        "kind": "highlight",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867768289084834443::H7",
+            "package_id": "paper:867768289084834443",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867768289084834443"
+          ]
+        },
+        "rerank_score": 0.925860906213053,
+        "role": "premise",
+        "score": 0.017450271247739603,
+        "title": "Use of standard Kubo formalism for optical conductivity",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Accurately linking atomic topology and strain to optical conductivity requires a computational approach that (a) can relax large hybrid supercells with adequate quantum accuracy and charge self-consistency (to capture charge transfer and local bonding) and (b) evaluates optical response from the electronic structure including momentum-matrix elements consistent with the tight-binding Hamiltonian. Ab initio DFT for these supercells is computationally expensive; purely empirical models lack the electronic fidelity needed for spectral predictions. Demonstrating that SCC-DFTB structural optimization combined with a Kubo–Greenwood evaluation of $\\sigma_{\\alpha\\beta}(\\omega)$ (with momentum matrix obtained from $\\nabla_{\\vec{k}}\\hat{H}(\\vec{k})$) produces detailed, polarization-resolved conductivity maps fills this methodological gap and provides a tractable workflow for similar hybrid systems.",
+        "content_hash": "0a0895d290738c847a6b3a1f6e5750b5c5655a16927b18d4a53ea2841f1bbd33",
+        "id": "gcn_b74a9f94ce394173",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:839814087947845633::conclusion_7_subproblem",
+            "package_id": "paper:839814087947845633",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:839814087947845633"
+          ]
+        },
+        "rerank_score": 0.880215806209385,
+        "role": "premise",
+        "score": 0.016300692383778438,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Expanding the optical conductivity $\\sigma_{ij}(\\boldsymbol{q},\\omega,\\boldsymbol{M})$ that results from combining current-current, current-spin, spin-current, and spin-spin response functions into $\\sigma_{ij}=\\mathcal{K}_{ij}^{jj}-i\\hbar\\gamma\\{\\mathcal{K}_{il}^{js}\\varepsilon_{lkj}+\\varepsilon_{ikl}\\mathcal{K}_{lj}^{sj}\\}q_k+O(q^2)$ and substituting it into $\\varepsilon_{ij}=\\delta_{ij}+\\frac{1}{\\varepsilon_0}\\frac{i}{\\omega}\\sigma_{ij}$ yields explicit microscopic formulas for the dielectric-tensor expansion coefficients: $\\varepsilon_{ij}^{(0)}(\\omega)=\\delta_{ij}+\\frac{1}{\\varepsilon_0}\\frac{i}{\\omega}\\mathcal{K}_{ij}^{jj}(\\mathbf{0},\\omega,\\mathbf{0})$, $\\alpha_{ijk}(\\omega)=\\frac{\\hbar\\gamma}{\\varepsilon_0}\\{\\mathcal{K}_{il}^{js}(\\mathbf{0},\\omega,\\mathbf{0})\\varepsilon_{lkj}+\\varepsilon_{ikl}\\mathcal{K}_{lj}^{sj}(\\mathbf{0},\\omega,\\mathbf{0})\\}$, $\\beta_{ijk}(\\omega)=\\frac{1}{\\varepsilon_0}\\frac{i}{\\omega}\\left.\\frac{\\partial}{\\partial M_k}\\mathcal{K}_{ij}^{jj}(\\mathbf{0},\\omega,\\boldsymbol{M})\\right|_{\\boldsymbol{M}=\\mathbf{0}}$, and $\\gamma_{ijkl}(\\omega)=\\frac{1}{\\varepsilon_0}\\frac{i}{\\omega}\\left.\\frac{\\partial^2}{\\partial q_k\\partial M_l}\\mathcal{K}_{ij}^{jj}(\\boldsymbol{q},\\omega,\\boldsymbol{M})\\right|_{\\mathbf{0},\\mathbf{0}}+\\frac{\\hbar\\gamma}{\\varepsilon_0}\\left.\\frac{\\partial}{\\partial M_l}\\{\\mathcal{K}_{im}^{js}(\\mathbf{0},\\omega,\\boldsymbol{M})\\varepsilon_{mkj}+\\varepsilon_{ikm}\\mathcal{K}_{mj}^{sj}(\\mathbf{0},\\omega,\\boldsymbol{M})\\}\\right|_{\\boldsymbol{M}=\\mathbf{0}}$.",
+        "content_hash": "23edfc3b8de17cb8c8607edbd3362c268bf76f92033f4a05e8d319b4f4f8b911",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_dbb360f88cb74329",
+        "kind": "highlight",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867748888105189607::H2",
+            "package_id": "paper:867748888105189607",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867748888105189607"
+          ]
+        },
+        "rerank_score": 0.8914529074372846,
+        "role": "premise",
+        "score": 0.00909090909090909,
+        "title": "Microscopic expressions relating dielectric-tensor expansion coefficients to quantum response functions",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The study identifies several directions and limitations left open for further investigation. First, experimental confirmation is required: direct magneto-transport measurements in dual-gated bilayer phosphorene devices must verify (or refute) the predicted LL subgroups, scaling laws, anticrossings, disappearance of the $\\sigma_{xy}=0$ plateau, half-integer plateau sequence, and composite plateau morphologies. Second, the present calculations are focused on single-particle tight-binding quantization and linear-response Kubo conductivity in the clean limit; extensions to include disorder, finite temperature effects, electron-electron interactions beyond the single-particle picture, and contact/edge effects are necessary to assess the robustness of the predicted plateau structures in real devices. Third, the work suggests but does not compute magnetothermoelectric transport coefficients: applying the present LL and conductivity framework to predict thermoelectric and magnetothermoelectric responses is left for future study. Finally, while the methodology can be extended to other layered 2D materials, quantitative predictions for those materials (including material-specific hopping parameters and critical fields) remain to be carried out.",
+        "content_hash": "4e33a393b4e32a7ae3cb9e1d2d17169b10d41c15d51e45d0c6fbb0e572d6b2bc",
+        "id": "gcn_b1352cf72de846cc",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867772568772280462::open_question",
+            "package_id": "paper:867772568772280462",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867772568772280462"
+          ]
+        },
+        "rerank_score": 0.856850687646656,
+        "role": "premise",
+        "score": 0.009433962264150943,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The paper presents orbital-resolved, energy-dependent conductivities σ_s^orbital(E) computed from a Slater–Koster tight-binding model fitted to first-principles bands and evaluated with the Kubo formula, so the reported P(E) explicitly includes the velocity (group-velocity) contributions and orbital characters rather than relying solely on densities of states.",
+        "content_hash": "972e6100e638062ccbf1950720f1680f9d5840d42b083d17b9e8f6e94fd6f318",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_6f758536e9714892",
+        "kind": "highlight",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812065244133195778::H2",
+            "package_id": "paper:812065244133195778",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812065244133195778"
+          ]
+        },
+        "rerank_score": 0.9210640710683451,
+        "role": "premise",
+        "score": 0.012195121951219513,
+        "title": "Orbital-resolved conductivity computed (Kubo+TB) rather than relying on DOS alone",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The finite-frequency optical conductivity is computed via the tight-binding propagation method (TBPM) Kubo formula and shows additional peaks at photon energies approximately ω ≈ 2|E_D|, where E_D is the secondary Dirac point energy, for selected misorientation angles and mean local gap magnitude ΔU values; no comparison with experimental optical spectra is made, the numerical convergence with respect to broadening parameter ε, temperature, and system size is not reported, and the peak positions and strengths are not quantitatively validated against any external standard, so the claim of tunability rests solely on internal model consistency.Fig. 6",
+        "content_hash": "e0636ea44cb699bb8c0fa02bd7e4bc078f0f8452f63e61a7eba80d6a3ec0d331",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_a5cc527265d74fd0",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814586056606220289::P11",
+            "package_id": "paper:814586056606220289",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814586056606220289"
+          ]
+        },
+        "rerank_score": 0.8202071677067393,
+        "role": "premise",
+        "score": 0.0068409068409068415,
+        "title": "Optical conductivity not validated externally",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Using the tight-binding Hamiltonian and the static screened-exchange self-energy with identical parameters, the linear optical conductivity obtained from the time-domain integration in response to a short pulse (Eq. 34) and the conductivity obtained from direct diagonalization of the Bethe-Salpeter equation (BSE) combined with the Kubo formula are essentially indistinguishable across the plotted frequency range (Fig. 3). This cross-check uses independent numerical methods (time integration vs eigenvalue diagonalization) with the same physical model.",
+        "content_hash": "2582a6e194a3cbd90289e7a240375b53d7360c1d02ca170c5d748f9493aa5d85",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_02f2c4aacd284dc5",
+        "kind": "highlight",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812531912810692612::H1",
+            "package_id": "paper:812531912810692612",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812531912810692612"
+          ]
+        },
+        "rerank_score": 0.8166678424279392,
+        "role": "premise",
+        "score": 0.006898256601019436,
+        "title": "Cross-validation of time-domain integration against BSE diagonalization for linear response",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For a t_{2g} tight-binding model on a cubic lattice with spin-orbit coupling and an imposed inhomogeneous magnetization profile, the full Kubo formula for the optical conductivity and the LMA spatial averaging of the local response produce quantitatively agreeing optical conductivities for photon energies ℏω ≳ W/4, where the t_{2g} bandwidth W ≈ 2–3 eV (Supplemental Material).",
+        "content_hash": "d197a41d52d201dea4f1905f6796087ce69e3ba5e7f0caca212680a81a645ece",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_ff1714afc19f42ba",
+        "kind": "highlight",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812549216336347140::H4",
+            "package_id": "paper:812549216336347140",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812549216336347140"
+          ]
+        },
+        "rerank_score": 0.8177655738275034,
+        "role": "premise",
+        "score": 0.012955491110830917,
+        "title": "Numerical Kubo validation of LMA for t2g model",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "To compute quantitative dynamical conductivity one needs an explicit lattice Hamiltonian with orbital-resolved hopping parameters that reproduces the material's band energies and interband matrix elements across the relevant energy window (up to ≳1.3 eV). Existing continuum Dirac approximations lack orbital detail and cannot provide the velocity matrix elements and band curvature necessary for numerical Kubo linear-response integrals. A Wannier-based multi-orbital tight-binding model addresses this by providing a practical, material-specific H(k) that can be used to compute optical matrix elements, incorporate finite-frequency disorder broadening, and resolve polarization-dependent responses.",
+        "content_hash": "8d16bb140efbdc21f05b765b153332240a38525c3dc82b35d63814de9afe2e75",
+        "id": "gcn_a8c9681c71ed4bc2",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867768248202953597::conclusion_2_subproblem",
+            "package_id": "paper:867768248202953597",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867768248202953597"
+          ]
+        },
+        "rerank_score": 0.8662173910924419,
+        "role": "premise",
+        "score": 0.015656937290491373,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "A practical calculation that links model Hamiltonians for H-TMDs to measurable linear optical signals requires a concrete computational protocol: an explicit multiorbital tight-binding normal state with Ising SOC, a BdG construction for the chosen pairing matrices, and evaluation of the Kubo formula including interband velocity matrix elements. Previous studies that discussed multiband optical conductivity or considered single-component pairings did not provide a dedicated calculation pipeline for the two-component $E'$ triplet orbital-singlet matrices on the realistic three-band Fermi surface, leaving unresolved whether symmetry-selective linear optical fingerprints could be obtained in the clean limit and how to compute them.",
+        "content_hash": "eb08787c83cc0c1936386000749f2da5119bbe2e323c4429b9b871289d1d3a9c",
+        "id": "gcn_06953a033fa242b2",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1088970807050240023::conclusion_7_subproblem",
+            "package_id": "paper:1088970807050240023",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1088970807050240023"
+          ]
+        },
+        "rerank_score": 0.8087318412962934,
+        "role": "premise",
+        "score": 0.013141462306993642,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The optical-conductivity calculation is built from the standard Kubo linear-response relation σ(Ω) = −lim_{q→0} (e^2 Ω/q^2) ∑_v Im Π_v(Ω,q) with Π_v(Ω,q) obtained by matrix inversion Π = ε^{-1} Π^0 of the 4×4 dielectric matrix that includes the four spin-transition channels, thereby placing the analysis on established theoretical footing.",
+        "content_hash": "8c6536bef834671b6ced66ea4aa1f22845921bfaa8621ee0156a818b51dea39e",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_9dd374ead4c9441c",
+        "kind": "highlight",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812104753344413696::H4",
+            "package_id": "paper:812104753344413696",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812104753344413696"
+          ]
+        },
+        "rerank_score": 0.9063282845765687,
+        "role": "premise",
+        "score": 0.0125,
+        "title": "Use of Kubo formula and explicit matrix inversion to connect Im Π to optical conductivity",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For the second-order NLO charge and spin conductivities in metallic few-layer NbSe₂ (monolayer, AB bilayer, ABA trilayer) described by a multi-orbital tight-binding Hamiltonian with Ising-type SOC (λ_SOC = 0.0784 eV for monolayer), the optical response is computed using the independent-particle second-order Kubo formula with a fixed broadening parameter η = 0.001 eV, without including excitonic or electron–hole interaction effects that could renormalize the interband transition matrix elements and energies, especially for the low-energy (ħω < 0.1 eV) interband transitions near the Fermi level in a metallic system.J. E. Sipe and A. I. Shkrebtii, Phys. Rev. B 61, 5337 (2000) [Ref 4 in the paper]",
+        "content_hash": "a594a51e08567ed2ae17de0b6c51299601593b1cad565e36e67516a7abff9512",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_1aa2ecfaae1e4738",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867750768659137416::P1",
+            "package_id": "paper:867750768659137416",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867750768659137416"
+          ]
+        },
+        "rerank_score": 0.7959427499539569,
+        "role": "premise",
+        "score": 0.007518796992481203,
+        "title": "Independent-particle approximation may miss many-body effects",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Numerical evaluation of Kubo-type correlation functions (optical conductivity, static conductivity, thermal transport integrals and specific heat) requires explicit expressions for the single-particle Green's function and for the density of states that are compatible with the full-band structure obtained from the tight-binding generalized eigenproblem. While the formal Matsubara Green's function is standard, applying it to compute Brillouin-zone integrals for velocity-weighted two-particle response functions in the presence of SOC, finite overlaps, and Zeeman splitting requires the explicit band-space forms above to perform controlled numerical integrations at finite temperature and doping. Without these explicit band-space formulas one cannot consistently evaluate the spectral functions and thermal integrals used in the paper's transport and optical predictions.",
+        "content_hash": "b8f5766120e9b7415351a5b0c48e6f3c652fac08f11892a34c229e960c14b2b9",
+        "id": "gcn_9e6498b668274d2d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867765155239297158::conclusion_2_subproblem",
+            "package_id": "paper:867765155239297158",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867765155239297158"
+          ]
+        },
+        "rerank_score": 0.796174884577943,
+        "role": "premise",
+        "score": 0.01778222730739893,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The reported optical-conductivity peak energies and widths for the two polarizations were extracted from the real part of the complex optical conductivity computed via $\\sigma(\\omega)=-\\mathrm{i}\\omega\\varepsilon(\\omega)/(4\\pi)$ using the independent-particle TB-mBJ dielectric response with the applied scissor shifts; the peak positions and widths depend on the chosen numerical broadening and $k$-point sampling used when evaluating the optical integrals.\n      Table 4; Fig. 19; Fig. 20",
+        "content_hash": "afc9e9360cb18160b3890191e9013ea485580fba18f8bb50fab9c65b0e89a4cd",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_2de8a7c5257d4893",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813055985642897408::P9",
+            "package_id": "paper:813055985642897408",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813055985642897408"
+          ]
+        },
+        "rerank_score": 0.8491099845860673,
+        "role": "premise",
+        "score": 0.006666666666666667,
+        "title": "Optical-conductivity peak extraction from independent-particle dielectric response",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In the tight‑binding model the skyrmion unit cell consists of 9 × 9 lattice sites. The optical conductivity σ_{ij}(ω) is computed from the Kubo formula σ_{ij} = (i e^2)/((2π L)^2 ℏ) ∫ dk/(2π) Σ_{n,l} f_{nl}(k)/ω_{nl}(k) (Π_{nl}^i Π_{ln}^j/(ω_{nl}(k)-ω+iγ) + Π_{ln}^i Π_{nl}^j/(ω_{nl}(k)+ω+iγ)), which requires integration over the Brillouin zone of this enlarged unit cell. The paper does not state the number of k‑points used for this integration. With only 9 × 9 sites, the Brillouin zone is small and the bands are folded; accurate integration of the Kubo formula, especially near gap edges where the off-diagonal dielectric tensor component ε_xy is small, may require many k‑points. Coarse sampling can lead to errors in the dielectric tensor components.",
+        "content_hash": "7525046d55e9728179afd1a55726863f569e1c79c856ec0f7d9662067416448c",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_6db5d74e2db245bd",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867757797993874330::P4",
+            "package_id": "paper:867757797993874330",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867757797993874330"
+          ]
+        },
+        "rerank_score": 0.8420626119255483,
+        "role": "premise",
+        "score": 0.006289308176100629,
+        "title": "Coarse k‑point sampling for the optical integral",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The dynamical conductivity is evaluated in linear response using the Kubo-like expression\n      $$\n      \\sigma(\\omega,T)=\\frac{2 i}{\\omega}\\frac{e^{2}}{\\hbar}\\sum_{m<n}\\int_{\\mathrm{BZ}}\\frac{d^{3}\\boldsymbol{k}}{(2\\pi)^{3}}\n      \\frac{\\left|\\langle n\\boldsymbol{k}|v_{\\alpha}|m\\boldsymbol{k}\\rangle\\right|^{2}}{\\omega+E_{m\\boldsymbol{k}}-E_{n\\boldsymbol{k}}+i\\hbar/(2\\tau)}\n      \\left[n_{F}(E_{m\\boldsymbol{k}},T)-n_{F}(E_{n\\boldsymbol{k}},T)\\right],\n      $$\n      where $v_{\\alpha}=(1/i\\hbar)[x_{\\alpha},H]$ is the velocity operator, $|m\\boldsymbol{k}\\rangle$ are the tight-binding eigenstates with energies $E_{m\\boldsymbol{k}}$, $n_{F}$ is the Fermi distribution with chemical potential $\\mu$, $\\tau$ is a phenomenological relaxation time, and the integral is over the Brillouin zone (BZ). Using the Wannier tight-binding basis and this expression, the calculated real part $\\sigma_{1}(\\omega)=\\mathrm{Re}[\\sigma(\\omega)]$ in the clean/weak-broadening limit (small $\\hbar/\\tau$) exhibits: (i) a Drude peak at $\\omega=0$, (ii) a monotonic increase of $\\sigma_{1}(\\omega)$ with photon energy up to $\\omega\\sim350\\ \\mathrm{meV}$ (i.e., the low-frequency response is not frequency independent as in ideal Dirac models), and (iii) a sharp fall around $\\sim350\\ \\mathrm{meV}$ followed by a separate rise above $\\sim1\\ \\mathrm{eV}$ associated with higher-energy interband transitions.",
+        "content_hash": "76b94b952f9be474a64e2ebae6a41c7ce1ccde253007bf4b08dbdc74fb17faa3",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_93c4863510fa49ed",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812998405079957505::conclusion_3",
+            "package_id": "paper:812998405079957505",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812998405079957505"
+          ]
+        },
+        "rerank_score": 0.8240741526765021,
+        "role": "conclusion",
+        "score": 0.008,
+        "title": "Expression used for dynamical conductivity and computed non-flat behavior in the clean limit",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Tight-binding models are standard computational models for materials, but an explicit derivation that begins from the operator-trace Kubo expression with a microscopic dissipation model and that yields the finite-band Bloch integral formula used in computations was not given in a single self-contained derivation in the accessible literature. This impeded a direct chain of reasoning from an abstract Kubo operator to the formulas employed in numerical tight-binding conductivity computations. The reduction provided here shows exactly how the matrix elements of $\\partial_{k_l}H(\\boldsymbol{k})$ enter the conductivity formula and how the finite $N$ band-sum replaces the infinite continuum-band sum.",
+        "content_hash": "e9c01ac8c85adccc5783d5b7cd14228b506d0ae15a637850bb79799c424db4fc",
+        "id": "gcn_01ff786f59984c82",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867745754687471740::conclusion_7_subproblem",
+            "package_id": "paper:867745754687471740",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867745754687471740"
+          ]
+        },
+        "rerank_score": 0.7793236677966229,
+        "role": "premise",
+        "score": 0.011757918191946522,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In calculations of frequency-dependent optical and Hall conductivities one must evaluate momentum matrix elements between Bloch eigenstates to use the Kubo-Greenwood formula. In many tight-binding descriptions the basis is formed from localized atomic orbitals that are not orthonormal across different sites, so the usual simplification that the momentum operator is given solely by the $\\\\vec{k}$-derivative of the Hamiltonian matrix (which holds in special cases, e.g. for certain orthonormal bases) is not generally valid. Prior approaches either (a) assumed orthonormal bases and used $\\\\partial H(\\\\vec{k})/\\\\partial\\\\vec{k}$ alone, (b) neglected intersite position matrix elements on symmetry grounds or by assuming small overlaps, or (c) used phenomenological or fitted tight-binding parameters without access to the underlying atomic orbital matrix elements. These practices leave a gap: there is no general, first-principles-compatible tight-binding expression for interband momentum matrix elements that (i) is valid for non-orthogonal atomic orbital bases, (ii) identifies precisely which additional matrix elements beyond the tight-binding Hamiltonian and overlap are required, and (iii) clarifies how origin dependence and nonlocal terms (e.g. from pseudopotentials or spin-orbit coupling) affect the result. The absence of such a formula prevents a controlled, ab initio computation of interband optical conductivities (including anomalous Hall conductivity) directly from a tight-binding Hamiltonian built from atomic basis functions, complicates comparison with experiment (especially for frequency-dependent spectra), and obscures how incomplete bases or many-body corrections (bandwidth renormalization, electron–hole interactions) will modify computed spectra.",
+        "content_hash": "971109bbd9403ab01b0b538814017407df17e4445fb64887266163e26e88d163",
+        "id": "gcn_2af5ed75c5ff4dc6",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867745243288568128::problem",
+            "package_id": "paper:867745243288568128",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867745243288568128"
+          ]
+        },
+        "rerank_score": 0.8334757842782594,
+        "role": "premise",
+        "score": 0.008591326561644668,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Experimental and DFT results established that polymerized triptycene membranes show kagome-like electronic bands, but those calculations are costly for large unit cells and do not by themselves provide an efficient, tractable Hamiltonian for computing momentum-resolved optical response. A compact, physically motivated tight-binding parametrization is needed to (i) reproduce the essential band topology (Dirac cones and flat bands), (ii) capture bilayer bonding/antibonding or tilt effects in different cross-link geometries (zigzag versus armchair), and (iii) enable extensive K-space sampling for Kubo conductivity calculations at affordable computational cost. Without such a parametrized model, quantitative momentum-resolved optical predictions and systematic exploration of polarization-dependent transitions across the Brillouin zone were not feasible.",
+        "content_hash": "7cb34c2953bccfaa966d33f9a5990f742cde977ad4b3811a9d1b7404864196fe",
+        "id": "gcn_7056444fee584e59",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812671584392183810::conclusion_1_subproblem",
+            "package_id": "paper:812671584392183810",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812671584392183810"
+          ]
+        },
+        "rerank_score": 0.7912679640513512,
+        "role": "premise",
+        "score": 0.0125,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The optical conductivities are evaluated by numerical integration of the Kubo formula over momentum space using a discretized mesh for the continuum Hamiltonians. The mesh size, number of k-points, and convergence tests with respect to mesh refinement are not reported.",
+        "content_hash": "e1edfdc5bf94ec9f2be8de4edb215575e791f6a16d0a1326799e9d383a2fce40",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_ad61d44028e74079",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:868441591780475400::P4",
+            "package_id": "paper:868441591780475400",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:868441591780475400"
+          ]
+        },
+        "rerank_score": 0.771702350377562,
+        "role": "premise",
+        "score": 0.007751937984496124,
+        "title": "Numerical integration convergence",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The optical conductivity derived from the tight-binding model agrees with field-theoretical calculations for the order-of-limits dependence.",
+        "content_hash": "d785dfeaed38e003555e1e8faeca42f19e3cb8566dd5ba8cb1717b69e1bb1325",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_e47d869d93f84965",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867761781274050726::P6",
+            "package_id": "paper:867761781274050726",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867761781274050726"
+          ]
+        },
+        "rerank_score": 0.8710420331622282,
+        "role": "premise",
+        "score": 0.011900990099009901,
+        "title": "Agreement with field-theoretical calculations for order-of-limits dependence",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The direct-current (dc) electrical conductivity σ is computed from the Kubo linear-response formula: σ = (e²/(k_B T)) K⁰, where K⁰ = 2πℏ ∫ dω f(ω)f(-ω) Γ(ω,ω) is the zeroth kinetic coefficient, with the transport distribution Γ(ω,ω) = (1/V) Σ_k Tr(v_k A_k(ω) v_k A_k(ω)). Here, e is the elementary charge, k_B is Boltzmann's constant, T is temperature, ℏ is reduced Planck constant, f(ω) is the Fermi function, V is the unit-cell volume, k is momentum, v_k is the band velocity, and A_k(ω) is the DMFT spectral function. The calculation neglects vertex corrections, i.e., it does not include the momentum- and energy-dependent irreducible vertex Γ_irr(k,k',ω) that would account for non-local scattering processes beyond the single-particle self-energy approximation.",
+        "content_hash": "6e3f7aa908e160566ae9d12d3b101efffa8095dd860a870234e21aad08281244",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_930ea8cefee840b1",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867748228341170877::P2",
+            "package_id": "paper:867748228341170877",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867748228341170877"
+          ]
+        },
+        "rerank_score": 0.7687361914835231,
+        "role": "premise",
+        "score": 0.006211180124223602,
+        "title": "Neglect of vertex corrections in electrical conductivity calculations for liquid Fe at core conditions",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Prior to this work there was no microscopic, full-bandwidth calculation of how interlayer electron-electron correlations that produce electron-hole (excitonic) pairing modify the in-plane electronic thermal transport and thermoelectric performance of a single AB-stacked bilayer graphene (AB-BLG) sheet. The experimental and theoretical literature contained (i) many studies of thermal and thermoelectric properties in monolayer and bilayer graphene using tight-binding, bias/gating, nanostructuring or phonon-suppression strategies, and (ii) separate studies of excitonic effects and of optical/charge responses. However, those prior approaches either (a) focused on noninteracting models, low-energy approximations, or engineered phonon suppression (substrates, nanopores, overlaps) to enhance ZT, or (b) addressed excitonic transport in double-layer or junction geometries rather than the single suspended AB bilayer, or (c) treated excitonic bandstructure without propagating that information through a Kubo linear-response calculation of heat and thermoelectric coefficients. Consequently, it remained unresolved whether and how intrinsic interlayer Coulomb interactions and resulting excitonic order in a suspended, balanced AB-BLG at half-filling (describable by a bilayer Hubbard model with full interaction bandwidth) control (i) the frequency- and temperature-dependent electronic thermal conductivity $\\kappa(\\omega,T)$, (ii) the frequency-dependent response coefficients $\\mathcal{L}_{ij}(\\omega)$ and derived quantities (electrical conductivity $\\sigma_e(\\omega)$, Seebeck $S(\\omega)$, electronic figure of merit $ZT_e(\\omega,T)$), and (iii) the attainable thermoelectric conversion efficiency $\\eta_{\\mathrm{eff}}$ when only electronic thermal transport is considered. Because prior work did not provide explicit current-operator expressions and full-band Green's-function based Kubo formulas that include an excitonic anomalous propagator and the full interaction bandwidth, there was no controlled way to predict the magnitude, spectral structure, sign changes (e.g., at the charge neutrality point), or operating-frequency windows for high thermoelectric performance in an excitonic AB-BLG. This gap prevented quantitative assessment of room-temperature thermoelectric performance arising purely from electronic (excitonic) effects and obstructed guidance for experimental calibration (choice of photon frequencies or external fields) that would couple to excitonic-modified transport.",
+        "content_hash": "5519ec8bcb0b09d5a37527aa6f203762e9f942f62fdc9d5e45aea78be892f872",
+        "id": "gcn_53c1f43477e74dba",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867769444170989924::problem",
+            "package_id": "paper:867769444170989924",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867769444170989924"
+          ]
+        },
+        "rerank_score": 0.7661955931563408,
+        "role": "premise",
+        "score": 0.012048192771084338,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In nanophotonics applications one needs an accurate, strain-resolved optical response of phosphorene to compute electromagnetic reflection coefficients and local electromagnetic densities of states that determine spontaneous emission rates. Prior nanophotonic treatments commonly employed low-energy anisotropic models with direction-dependent Fermi velocities which capture some anisotropy but do not incorporate strain-induced changes of band energies, interband transition matrix elements, and Drude weights across the Brillouin zone. Without a microscopic, strain-aware conductivity model, electromagnetic boundary-value calculations (reflection coefficients, Green dyadics) cannot reliably predict how ED and MD decay rates evolve with experimentally accessible uniaxial strains, preventing quantitative design of strain-controlled emission devices. The tight-binding + Kubo approach provides the required microscopic linkage between uniaxial strain and the full frequency-dependent optical conductivity.",
+        "content_hash": "5dbbfcae09ec8ff31e618d3d4243cb071dc37035aacdfc5a4921e4b8c1fc908c",
+        "id": "gcn_af52f76fdfe24b3c",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1229344011647451137::conclusion_1_subproblem",
+            "package_id": "paper:1229344011647451137",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1229344011647451137"
+          ]
+        },
+        "rerank_score": 0.7647919434475252,
+        "role": "premise",
+        "score": 0.013157894736842105,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The frequency-dependent optical conductivity tensor in the long-wavelength (local) limit is computed from the Kubo formula\n      $$\\sigma_{\\alpha\\beta}(\\mathbf{q}\\!\\to\\!0,\\omega)=-i\\frac{g_s\\hbar e^{2}}{(2\\pi)^{2}}\\sum_{s,s',j,j'}\\!\\int d\\mathbf{k}\\,\n      \\frac{f(E_{s j\\mathbf{k}})-f(E_{s' j'\\mathbf{k}})}{E_{s j\\mathbf{k}}-E_{s' j'\\mathbf{k}}}\n      \\frac{\\langle\\Phi_{s j\\mathbf{k}}|\\hat{v}_{\\alpha}|\\Phi_{s' j'\\mathbf{k}}\\rangle\\langle\\Phi_{s' j'\\mathbf{k}}|\\hat{v}_{\\beta}|\\Phi_{s j\\mathbf{k}}\\rangle}{E_{s j\\mathbf{k}}-E_{s' j'\\mathbf{k}}+\\hbar\\omega+i\\eta},$$\n      where $\\hat{v}_{\\alpha}=\\hbar^{-1}\\partial_{k_{\\alpha}}\\mathcal{H}$ is the velocity operator, $g_s=2$ is the spin degeneracy, $f$ is the Fermi–Dirac distribution (calculations at $T=300\\,$K), $\\eta\\approx 10\\,$meV models finite damping, indices $s=\\pm1$ label conduction/valence bands and $j$ labels subbands. For multilayer BP in the $q\\to0$ limit only diagonal tensor components $\\sigma_{xx}(\\omega)$ and $\\sigma_{yy}(\\omega)$ are nonzero, and inter-subband optical matrix elements vanish unless $j=j'$ (i.e., optical transitions conserve the subband index). The analytical eigenenergies $E_{\\pm j\\mathbf{k}}$ used in the Kubo integrand are obtained from the two-band effective Hamiltonian $\\mathcal{H} = \\begin{pmatrix}E_c^j + \\eta_c k_x^2 + \\nu_c k_y^2 & \\gamma k_x + \\beta k_y^2 \\\\ \\gamma k_x + \\beta' k_y^2 & E_v^j - \\eta_v k_x^2 - \\nu_v k_y^2 \\end{pmatrix}$ with subband energies $E_{c,v}^j = E_{c,v} + \\delta E_{c,v}^j$, where $\\delta E_c^j = j^2 \\hbar^2 \\pi^2 / (2 m_{cz} t_z^2) + \\delta_c(t_z)$ and analogous expressions apply for holes.",
+        "content_hash": "0cea20e44ddcc0d3e3ffaef39e98f67734b51a65bf107563278bf3bfbbac9fe3",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_7a9da6ddb55141f6",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867774124737430260::conclusion_2",
+            "package_id": "paper:867774124737430260",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867774124737430260"
+          ]
+        },
+        "rerank_score": 0.8642147684057812,
+        "role": "conclusion",
+        "score": 0.006329113924050633,
+        "title": "Application of the Kubo formula to compute anisotropic optical conductivity and selection rules",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Experimental optical probes sample the electromagnetic response in a spatially nonuniform way near surfaces and interfaces; a spatially localized optical response cannot be captured by a single bulk conductivity. Prior Kubo formulations give bulk (local) conductivities but do not provide a straightforward layer-by-layer two-point response suitable for computing how an electric field localized in one layer drives currents in other layers. Without a layer-resolved two-point conductivity, first-principles calculations cannot predict nonlocal absorption, the contribution of subsurface layers, nor the distinct in-plane versus out-of-plane surface anisotropies that affect circular dichroism and the interpretation of optical experiments on thin films.",
+        "content_hash": "6157cc3457e97890adecc7af8990dd490e9e988a38125f862bb25408e77ca203",
+        "id": "gcn_53116db37ea2414b",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1032904190029987859::conclusion_1_subproblem",
+            "package_id": "paper:1032904190029987859",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1032904190029987859"
+          ]
+        },
+        "rerank_score": 0.7640371801873205,
+        "role": "premise",
+        "score": 0.00684931506849315,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The paper applies the standard Kubo-Greenwood linear-response formula σ_{αβ}(T) = (ħ e^2 k_B T / d Ω_SBZ) ∫ dE ξ^{αβ}(E) [−∂n_F/∂E], with ξ^{αβ}(E) built from group velocities v_α^v(k) = ∂E^v(k)/∂k_α and single-particle Green's functions G(k,E), thereby providing an explicit, traceable mapping from the model dispersion (including its V- and μ-dependence) to temperature-dependent conductivity components σ_{xx}, σ_{yy}, and σ_{xy}.",
+        "content_hash": "01ed181ad736290807a8f4e799ed63fc827f37c19b2b16e2ac8986fd1778ae7f",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_9ff6e2f793fa4422",
+        "kind": "highlight",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812594850275786752::H3",
+            "package_id": "paper:812594850275786752",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812594850275786752"
+          ]
+        },
+        "rerank_score": 0.7835723353857753,
+        "role": "premise",
+        "score": 0.009345794392523364,
+        "title": "Use of Kubo-Greenwood linear-response formalism linking dispersion to σ(T)",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "A multiorbital tight-binding Hamiltonian was constructed from maximally localized Wannier functions using a basis of five Co $d$ orbitals and three Si $p$ orbitals per unit cell; the spin-dependent hopping integrals and onsite potentials were obtained from the first-principles bands and reproduce the ab initio band structure. This tight-binding model was used as the single-particle Hamiltonian in linear-response Kubo calculations of the dynamical conductivity $\\sigma(\\omega,T)$ with finite relaxation time $\\tau$, where the conductivity is evaluated by\n      $\n      \\sigma(\\omega,T)=\\frac{2i}{\\omega}\\frac{e^{2}}{\\hbar}\\sum_{m\\le n}\\int_{\\mathrm{BZ}}\\frac{d^{3}\\boldsymbol{k}}{(2\\pi)^{3}}\n      \\frac{|\\langle n\\boldsymbol{k}|\\hat{v}_{\\alpha}|m\\boldsymbol{k}\\rangle|^{2}}\n      {\\hbar\\omega-(E_{n\\boldsymbol{k}}-E_{m\\boldsymbol{k}})+i\\hbar/(2\\tau)}\n      \\left(n_F(E_{n\\boldsymbol{k}},T)-n_F(E_{m\\boldsymbol{k}},T)\\right),\n      $\n      with velocity operator $\\hat{v}_{\\alpha}=(1/i\\hbar)[x_{\\alpha},H]$ and impurity effects parametrized by $\\tau$.",
+        "content_hash": "14ad250f6c3c94656063057f52b20d9cbb5ca7609c4eebe562daf1ae9f01693a",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_eee052d8ca5e4edf",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812699544335679489::conclusion_2",
+            "package_id": "paper:812699544335679489",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812699544335679489"
+          ]
+        },
+        "rerank_score": 0.7821136131882207,
+        "role": "conclusion",
+        "score": 0.015384615384615385,
+        "title": "Construction of a realistic multiorbital tight-binding model for optical calculations",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The tight-binding model used to compute the optical conductivity via the Kubo formula is inaccurate at the Γ point: the p_z orbital weight for the valence band top is underestimated by a factor of 5–20 relative to DFT (for MoS₂: DFT 0.28 vs TB 0.04; for MoSe₂: DFT 0.23 vs TB 0.04; for WS₂: DFT 0.28 vs TB 0.02; for WSe₂: DFT 0.23 vs TB 0.01). Since the velocity operator v̂ = (1/ħ) ∂ℋ/∂k is derived from the k-derivative of the tight-binding Hamiltonian, errors in the orbital composition of the Bloch states at Γ propagate into the computed optical conductivity, particularly affecting higher-energy features associated with van Hove singularities near the M point.",
+        "content_hash": "a316b5d59132334e5ae861fdd9c63a5ae36a1e9437342b6c65a5656fa0eaac92",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_10b4eaba949044a1",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811133642695770113::P6",
+            "package_id": "paper:811133642695770113",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811133642695770113"
+          ]
+        },
+        "rerank_score": 0.8348344073883316,
+        "role": "premise",
+        "score": 0.007282282282282282,
+        "title": "Propagation of TB orbital error into optical conductivity",
+        "type": "claim",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "req_4c1c875048c52"
+}

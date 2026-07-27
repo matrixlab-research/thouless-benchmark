@@ -1,0 +1,1525 @@
+{
+  "code": 0,
+  "data": {
+    "has_more": true,
+    "papers": {
+      "paper:1051743170351595522": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Börge Göbel | Ingrid Mertig",
+        "available_online": "",
+        "cover_date_start": "2024-10-10",
+        "created_at": "2026-06-19T02:28:56+08:00",
+        "doi": "10.48550/arxiv.2410.07784",
+        "en_title": "Orbital Hall Effect Accompanying Quantum Hall Effect: Landau Levels Cause Orbital Polarized Edge Currents",
+        "id": "1051743170351595522",
+        "keywords": "",
+        "publication_date": "2024-10-10",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "伴随量子霍尔效应的轨道霍尔效应：朗道能级导致轨道极化边缘电流"
+      },
+      "paper:1053919589894717445": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Seungwon Jung",
+        "available_online": "",
+        "cover_date_start": "2024-10-15",
+        "created_at": "2026-06-16T23:39:22+08:00",
+        "doi": "10.48550/arxiv.2410.11909",
+        "en_title": "Stop using Landau gauge for Tight-binding Models",
+        "id": "1053919589894717445",
+        "keywords": "",
+        "publication_date": "2024-10-15",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "停止在紧束缚模型中使用朗道规范"
+      },
+      "paper:811169985207468033": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, materials science, multidisciplinary",
+        "authors": "Keita Kishigi | Yasumasa Hasegawa",
+        "available_online": "2016-8-4",
+        "cas_zone": "2",
+        "cover_date_start": "2016-08-04",
+        "created_at": "2026-06-14T23:45:23+08:00",
+        "doi": "10.1103/physrevb.94.085405",
+        "en_title": "Quantum Hall conductance and de Haas–van Alphen oscillation in a tight-binding model with electron and hole pockets for ( TMTSF ) 2 NO 3",
+        "id": "811169985207468033",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "（TMTSF）₂NO₃中具有电子和空穴口袋的紧束缚模型中的量子霍尔电导和德哈斯 - 范阿尔芬振荡"
+      },
+      "paper:811642484516978690": {
+        "area": "physics and astrophysics, physics, condensed matter",
+        "authors": "Jei Wang | Yu-Huang Chiu | Yen-Hung Ho | To-Sing Li | Ming-Fa Lin",
+        "available_online": "",
+        "cas_zone": "4",
+        "cover_date_start": "2011-10-01",
+        "created_at": "2026-05-15T04:39:44+08:00",
+        "doi": "10.1016/j.ssc.2011.07.012",
+        "en_title": "Exact diagonalization of Landau levels in Bernal graphite",
+        "id": "811642484516978690",
+        "impact_factor": 2,
+        "jcr_zone": "Q3",
+        "keywords": "",
+        "publication_date": "2011-10",
+        "publication_id": "653",
+        "publication_name": "Solid State Communications _ Solid State Communications",
+        "research_categories": "",
+        "zh_title": "伯纳尔石墨中朗道能级的精确对角化"
+      },
+      "paper:811684050098978817": {
+        "area": "physics and astrophysics, physics, applied",
+        "authors": "Yen-Hung Ho | Yu-Huang Chiu | Jei Wang | De-Hone Lin | Ming-Fa Lin",
+        "available_online": "2011-1-20",
+        "cas_zone": "4",
+        "cover_date_start": "2011-01-20",
+        "created_at": "2026-06-13T08:27:38+08:00",
+        "doi": "10.1143/jjap.50.01af05",
+        "en_title": "Magnetoelectronic and Optical Properties of Monolayer and AB-Stacked Bilayer Graphenes",
+        "id": "811684050098978817",
+        "impact_factor": 1.3,
+        "jcr_zone": "Q3",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "685",
+        "publication_name": "Japanese Journal of Applied Physics _ Jpn. J. Appl. Phys.",
+        "research_categories": "",
+        "zh_title": "单层及AB堆叠双层石墨烯的磁电子学和光学性质"
+      },
+      "paper:811698707417268226": {
+        "area": null,
+        "authors": "M. Berciu | A. M. Cook",
+        "available_online": "2010-12-3",
+        "cover_date_start": "2010-11-01",
+        "created_at": "2026-06-01T11:03:33+08:00",
+        "doi": "10.1209/0295-5075/92/40003",
+        "en_title": "Efficient computation of lattice Green's functions for models with nearest-neighbour hopping",
+        "id": "811698707417268226",
+        "keywords": "",
+        "publication_date": "2010-11-1",
+        "publication_id": "0",
+        "publication_name": "EPL (Europhysics Letters) _ EPL",
+        "research_categories": "",
+        "zh_title": "具有最近邻跳跃的模型的晶格格林函数的高效计算"
+      },
+      "paper:811958944388874242": {
+        "area": "geoscience, materials science, multidisciplinary, physics, applied, nanoscience & nanotechnology",
+        "authors": "J.H. Ho | Y.H. Lai | Y.H. Chiu | M.F. Lin",
+        "available_online": "",
+        "cover_date_start": "2008-03-01",
+        "created_at": "2026-05-17T02:20:33+08:00",
+        "doi": "10.1016/j.physe.2007.10.065",
+        "en_title": "Landau levels in graphene",
+        "id": "811958944388874242",
+        "keywords": "[{\"en_name\": \"A magnetic field\", \"ch_name\": \"\"}, {\"en_name\": \"Graphene\", \"ch_name\": \"\"}, {\"en_name\": \"Landau levels\", \"ch_name\": \"\"}]",
+        "publication_date": "2008-3",
+        "publication_id": "98276",
+        "publication_name": "Physica E: Low dimensional Systems and Nanostructures _ Physica E: Low-dimensional Systems and Nanostructures",
+        "research_categories": "",
+        "zh_title": "石墨烯中的朗道能级"
+      },
+      "paper:811996557858570240": {
+        "area": "physics and astrophysics, physical sciences, condensed matter physics, particle and high energy physics",
+        "authors": "Lu Tian | Ying Liu | Wei-Wang Yu | Xiaoming Zhang | Guodong Liu",
+        "available_online": "2021-7-23",
+        "cas_zone": "2",
+        "cover_date_start": "2021-07-23",
+        "created_at": "2026-06-17T07:44:51+08:00",
+        "doi": "10.1103/physrevb.104.045137",
+        "en_title": "Triple degenerate point in three dimensions: Theory and realization",
+        "id": "811996557858570240",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Particle and High Energy Physics\"]",
+        "zh_title": "三维空间中的三重简并点：理论与实现"
+      },
+      "paper:812596331519410177": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, materials science, multidisciplinary",
+        "authors": "Thomas Garm Pedersen",
+        "available_online": "2020-6-15",
+        "cas_zone": "2",
+        "cover_date_start": "2020-06-15",
+        "created_at": "2026-06-15T01:43:22+08:00",
+        "doi": "10.1103/physrevb.101.235427",
+        "en_title": "Graphene fractals: Energy gap and spin polarization",
+        "id": "812596331519410177",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "石墨烯分形：能隙与自旋极化"
+      },
+      "paper:812649252864917505": {
+        "area": "Physics and Astrophysics, physics, condensed matter, physics, applied, materials science, multidisciplinary",
+        "authors": "Ankur Das | Ribhu K. Kaul | Ganpathy Murthy",
+        "available_online": "2020-4-17",
+        "cas_zone": "2",
+        "cover_date_start": "2020-04-17",
+        "created_at": "2026-06-19T06:34:44+08:00",
+        "doi": "10.1103/physrevb.101.165416",
+        "en_title": "Stability of zero-energy Dirac touchings in the honeycomb Hofstadter problem",
+        "id": "812649252864917505",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "蜂窝状霍夫施塔特问题中零能量狄拉克点的稳定性"
+      },
+      "paper:812718979456958465": {
+        "area": "material science, materials science, multidisciplinary, chemistry, physical",
+        "authors": "Zhiwei Li | Yuee Xie | Po-Yao Chang | Yuanping Chen",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2020-02-01",
+        "created_at": "2026-05-16T19:39:58+08:00",
+        "doi": "10.1016/j.carbon.2019.10.055",
+        "en_title": "Interlocking nodal chains and their examples in carbon networks",
+        "id": "812718979456958465",
+        "impact_factor": 11.3,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2020-2",
+        "publication_id": "2058",
+        "publication_name": "Carbon _ Carbon",
+        "research_categories": "",
+        "zh_title": "互锁节点链及其在碳网络中的示例"
+      },
+      "paper:813123856075063296": {
+        "area": null,
+        "authors": "Yang Gao | Qian Niu",
+        "available_online": "2017-6-27",
+        "cover_date_start": "2017-06-27",
+        "created_at": "2026-06-02T09:16:02+08:00",
+        "doi": "10.1073/pnas.1702595114",
+        "en_title": "Zero-field magnetic response functions in Landau levels",
+        "id": "813123856075063296",
+        "keywords": "",
+        "publication_date": "2017-7-11",
+        "publication_id": "0",
+        "publication_name": "Proceedings of the National Academy of Sciences _ Proc. Natl. Acad. Sci. U.S.A.",
+        "research_categories": "",
+        "zh_title": "Landau 水平的零场磁响应函数"
+      },
+      "paper:814586056606220289": {
+        "area": "physics and astrophysics, physics, multidisciplinary",
+        "authors": "G. J. Slotman | M. M. van Wijk | Pei-Liang Zhao | A. Fasolino | M. I. Katsnelson | Shengjun Yuan",
+        "available_online": "2015-10-26",
+        "cas_zone": "1",
+        "cover_date_start": "2015-10-26",
+        "created_at": "2026-06-17T06:21:05+08:00",
+        "doi": "10.1103/physrevlett.115.186801",
+        "en_title": "Effect of Structural Relaxation on the Electronic Structure of Graphene on Hexagonal Boron Nitride",
+        "id": "814586056606220289",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "",
+        "zh_title": "结构弛豫对六方氮化硼上石墨烯电子结构的影响"
+      },
+      "paper:814662141645684737": {
+        "area": "Physics and Astrophysics, physics, multidisciplinary",
+        "authors": "Ming-Hao Liu | Peter Rickhaus | Péter Makk | Endre Tóvári | Romain Maurand | Fedor Tkatschenko | Markus Weiss | Christian Schönenberger | Klaus Richter",
+        "available_online": "2015-1-22",
+        "cas_zone": "1",
+        "cover_date_start": "2015-01-22",
+        "created_at": "2026-06-18T23:04:36+08:00",
+        "doi": "10.1103/physrevlett.114.036601",
+        "en_title": "Scalable Tight-Binding Model for Graphene",
+        "id": "814662141645684737",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "",
+        "zh_title": "用于石墨烯的可扩展紧束缚模型"
+      },
+      "paper:814688981575794689": {
+        "area": "physics and astrophysics, physics, multidisciplinary",
+        "authors": "Yang Liu | Matej Brada | Eugene J. Mele | Feodor V. Kusmartsev",
+        "available_online": "2014-10-14",
+        "cas_zone": "3",
+        "cover_date_start": "2014-10-01",
+        "created_at": "2026-06-01T23:55:54+08:00",
+        "doi": "10.1002/andp.201400143",
+        "en_title": "Magnetisation oscillations, boundary conditions and the Hofstadter butterfly in graphene flakes",
+        "id": "814688981575794689",
+        "impact_factor": 2.1,
+        "jcr_zone": "Q2",
+        "keywords": "[{\"ch_name\":\"阿哈罗诺夫玻姆效应\",\"en_name\":\"Aharonov Bohm effect\"},{\"ch_name\":\"边界条件\",\"en_name\":\"Boundary conditions\"},{\"ch_name\":\"狄拉克方程\",\"en_name\":\"Dirac equation\"},{\"ch_name\":\"边缘态\",\"en_name\":\"Edge states\"},{\"ch_name\":\"石墨烯薄片\",\"en_name\":\"Graphene flakes\"},{\"ch_name\":\"霍夫施塔特能谱\",\"en_name\":\"Hofstadter energy spectrum\"},{\"ch_name\":\"磁化\",\"en_name\":\"Magnetization\"},{\"ch_name\":\"拓扑绝缘体\",\"en_name\":\"Topological insulators\"}]",
+        "publication_date": "2014-10",
+        "publication_id": "596",
+        "publication_name": "Annalen der Physik _ ANNALEN DER PHYSIK",
+        "research_categories": "",
+        "zh_title": "石墨烯薄片中的磁化振荡、边界条件与霍夫施塔特蝴蝶"
+      },
+      "paper:867746837434466703": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Ankur Das | Ribhu K. Kaul | Ganpathy Murthy",
+        "available_online": "",
+        "cover_date_start": "2019-08-09",
+        "created_at": "2026-06-19T00:39:19+08:00",
+        "doi": "10.48550/arXiv.1908.03483",
+        "en_title": "Stability of zero energy Dirac touchings in the honeycomb Hofstadter problem",
+        "id": "867746837434466703",
+        "keywords": "",
+        "publication_date": "2019-08-09",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "蜂窝状霍夫施塔特问题中零能狄拉克点的稳定性"
+      },
+      "paper:867748065270825791": {
+        "area": "arxiv-physics",
+        "authors": "Hsien-Ching Chung | Chih-Wei Chiu | Chun-Nan Chen | Ming-Fa Lin",
+        "available_online": "",
+        "cover_date_start": "2017-05-17",
+        "created_at": "2026-06-13T22:34:43+08:00",
+        "doi": "10.48550/arXiv.1705.06016",
+        "en_title": "Landau quantization in buckled monolayer GaAs",
+        "id": "867748065270825791",
+        "keywords": "",
+        "publication_date": "2017-05-17",
+        "publication_id": "108512",
+        "publication_name": "Computational Physics _ Physics.physics.comp-ph",
+        "research_categories": "",
+        "zh_title": "褶皱单层砷化镓中的朗道量子化"
+      },
+      "paper:867749618379653213": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Jhao-Ying Wu | Szu-Chao Chen | Godfrey Gumbs | Ming-Fa Lin",
+        "available_online": "",
+        "cover_date_start": "2015-10-06",
+        "created_at": "2026-06-02T06:19:38+08:00",
+        "doi": "10.48550/arXiv.1510.01504",
+        "en_title": "Feature-rich electronic excitations in external fields of 2D silicene",
+        "id": "867749618379653213",
+        "keywords": "",
+        "publication_date": "2015-10-06",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "二维硅烯外场中富含特征的电子激发"
+      },
+      "paper:867750002582094810": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics, quantum physics",
+        "authors": "Xiaoyu Wang | Oskar Vafek",
+        "available_online": "",
+        "cover_date_start": "2023-03-28",
+        "created_at": "2026-05-16T15:46:15+08:00",
+        "doi": "10.48550/arXiv.2303.16347",
+        "en_title": "Revisiting Bloch electrons in magnetic field: Hofstadter physics via hybrid Wannier states",
+        "id": "867750002582094810",
+        "keywords": "",
+        "publication_date": "2023-03-28",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "重温磁场中的布洛赫电子：通过混合万尼尔态的霍夫施塔特物理"
+      },
+      "paper:867751539903562171": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Priyanka Sinha | Shuichi Murakami | Saurabh Basu",
+        "available_online": "",
+        "cover_date_start": "2020-05-29",
+        "created_at": "2026-06-19T02:54:48+08:00",
+        "doi": "10.48550/arXiv.2005.14394",
+        "en_title": "Quantum Hall studies of a Semi-Dirac Nanoribbon",
+        "id": "867751539903562171",
+        "keywords": "",
+        "publication_date": "2020-05-29",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "半狄拉克纳米带的量子霍尔研究"
+      },
+      "paper:867753010627870762": {
+        "area": "arxiv-physics, arxiv-mathematical physics",
+        "authors": "Kazuki Ikeda | Yoshiyuki Matsuki | Shoto Aoki",
+        "available_online": "",
+        "cover_date_start": "2021-07-22",
+        "created_at": "2026-06-16T23:19:09+08:00",
+        "doi": "10.48550/arXiv.2107.10586",
+        "en_title": "Algebra of Hyperbolic Band Theory under Magnetic Field",
+        "id": "867753010627870762",
+        "keywords": "",
+        "publication_date": "2021-07-22",
+        "publication_id": "108496",
+        "publication_name": "Mathematical Physics _ Physics.math-ph.math-ph",
+        "research_categories": "",
+        "zh_title": "磁场下双曲能带理论的代数"
+      },
+      "paper:867754883078423183": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Thi-Nga Do | Chiun-Yan Lin | Yi-Ping Lin | Po-Hsin Shih | Ming-Fa Lin",
+        "available_online": "",
+        "cover_date_start": "2015-03-27",
+        "created_at": "2026-05-16T18:39:50+08:00",
+        "doi": "10.48550/arXiv.1503.07958",
+        "en_title": "Configuration-enriched magnetoelectronic spectra of AAB-stacked trilayer graphene",
+        "id": "867754883078423183",
+        "keywords": "",
+        "publication_date": "2015-03-27",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "",
+        "zh_title": "AAB堆叠三层石墨烯的构型增强磁电子能谱"
+      },
+      "paper:867757609485074549": {
+        "area": "arXiv-Physics, Mathematical Sciences, Mathematical Physics, Physical Sciences, Condensed Matter Physics",
+        "authors": "Jonah Herzog-Arbeitman | Zhi-Da Song | Luis Elcoro | B. Andrei Bernevig",
+        "available_online": "",
+        "cover_date_start": "2022-09-21",
+        "created_at": "2026-06-19T09:33:31+08:00",
+        "doi": "10.48550/arXiv.2209.10559",
+        "en_title": "Hofstadter Topology with Real Space Invariants and Reentrant Projective Symmetries",
+        "id": "867757609485074549",
+        "keywords": "",
+        "publication_date": "2022-09-21",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Mathematical Sciences\", \"Mathematical Physics\", \"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "具有实空间不变量和折返射影对称性的霍夫施塔特拓扑结构"
+      },
+      "paper:867757619392020866": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "M. Vandelli | M. I. Katsnelson | E. A. Stepanov",
+        "available_online": "",
+        "cover_date_start": "2019-03-15",
+        "created_at": "2026-06-12T06:05:30+08:00",
+        "doi": "10.48550/arXiv.1903.06641",
+        "en_title": "Resonant optical second harmonic generation in graphene-based heterostructures",
+        "id": "867757619392020866",
+        "keywords": "",
+        "publication_date": "2019-03-15",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "基于石墨烯的异质结构中的共振光学二次谐波产生"
+      },
+      "paper:867757797993873628": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "X. Y. Zhou | R. Zhang | J. P. Sun | Y. L. Zou | D. Zhang | W. K. Lou | F. Cheng | G. H. Zhou | F. Zhai | Kai Chang",
+        "available_online": "",
+        "cover_date_start": "2014-11-16",
+        "created_at": "2026-06-14T21:27:40+08:00",
+        "doi": "10.48550/arXiv.1411.4275",
+        "en_title": "Landau levels and magneto-transport property of monolayer phosphorene",
+        "id": "867757797993873628",
+        "keywords": "",
+        "publication_date": "2014-11-16",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "单层磷烯的朗道能级与磁输运性质"
+      },
+      "paper:867759498054337185": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Vasil Rokaj | Markus Penz | Michael A. Sentef | Michael Ruggenthaler | Angel Rubio",
+        "available_online": "",
+        "cover_date_start": "2021-09-30",
+        "created_at": "2026-06-15T03:28:43+08:00",
+        "doi": "10.48550/arXiv.2109.15075",
+        "en_title": "Polaritonic Hofstadter Butterfly and Cavity-Control of the Quantized Hall Conductance",
+        "id": "867759498054337185",
+        "keywords": "",
+        "publication_date": "2021-09-30",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "极化子霍夫施塔特蝴蝶与量子化霍尔电导的腔控制"
+      },
+      "paper:867763666315903778": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Zewen Wu | Zhen Zhan | Shengjun Yuan",
+        "available_online": "",
+        "cover_date_start": "2020-12-26",
+        "created_at": "2026-05-16T14:49:17+08:00",
+        "doi": "10.48550/arXiv.2012.13741",
+        "en_title": "Lattice relaxation, mirror symmetry and magnetic field effects on ultraflat bands in twisted trilayer graphene",
+        "id": "867763666315903778",
+        "keywords": "",
+        "publication_date": "2020-12-26",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "晶格弛豫、镜面对称性以及磁场对扭曲三层石墨烯中超平带的影响"
+      },
+      "paper:867766454894723074": {
+        "area": "arxiv-physics, arxiv-quantum physics",
+        "authors": "Y. Hernández-Espinosa | E. Sadurní",
+        "available_online": "",
+        "cover_date_start": "2021-06-09",
+        "created_at": "2026-06-11T05:02:41+08:00",
+        "doi": "10.48550/arXiv.2106.05417",
+        "en_title": "Tight-Binding realization of non-abelian gauge fields: singular spectra and wave confinement",
+        "id": "867766454894723074",
+        "keywords": "",
+        "publication_date": "2021-06-09",
+        "publication_id": "108526",
+        "publication_name": "Quantum Physics _ Physics.quant-ph.quant-ph",
+        "research_categories": "",
+        "zh_title": "非阿贝尔规范场的紧束缚实现：奇异谱与波局域化"
+      },
+      "paper:867767689035120958": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Fenner Harper | David Bauer | T. S. Jackson | Rahul Roy",
+        "available_online": "",
+        "cover_date_start": "2018-07-03",
+        "created_at": "2026-05-25T21:44:37+08:00",
+        "doi": "10.48550/arXiv.1807.00970",
+        "en_title": "Finite-wavevector Electromagnetic Response in Lattice Quantum Hall Systems",
+        "id": "867767689035120958",
+        "keywords": "",
+        "publication_date": "2018-07-03",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "晶格量子霍尔系统中的有限波矢电磁响应"
+      },
+      "paper:867769339057537771": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "J.N. Fuchs | F. Piéchon | G. Montambaux",
+        "available_online": "",
+        "cover_date_start": "2017-12-06",
+        "created_at": "2026-05-26T02:18:28+08:00",
+        "doi": "10.48550/arXiv.1712.02131",
+        "en_title": "Landau levels, response functions and magnetic oscillations from a generalized Onsager relation",
+        "id": "867769339057537771",
+        "keywords": "",
+        "publication_date": "2017-12-06",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "基于广义昂萨格关系的朗道能级、响应函数与磁振荡"
+      },
+      "paper:867770179126296622": {
+        "area": "arxiv-physics, mathematical sciences, mathematical physics, physical sciences, condensed matter physics",
+        "authors": "Bartholomew Andrews | Alexey Soluyanov",
+        "available_online": "",
+        "cover_date_start": "2020-04-14",
+        "created_at": "2026-06-14T20:30:05+08:00",
+        "doi": "10.48550/arXiv.2004.06602",
+        "en_title": "Fractional quantum Hall states for moiré superstructures in the Hofstadter regime",
+        "id": "867770179126296622",
+        "keywords": "",
+        "publication_date": "2020-04-14",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "[\"Mathematical Sciences\", \"Mathematical Physics\", \"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "霍夫施塔特体系中莫尔超结构的分数量子霍尔态"
+      },
+      "paper:867770253826851094": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Keita Kishigi | Yasumasa Hasegawa",
+        "available_online": "",
+        "cover_date_start": "2014-08-26",
+        "created_at": "2026-06-14T06:56:42+08:00",
+        "doi": "10.48550/arXiv.1408.6408",
+        "en_title": "Quantum oscillations of magnetization in the tight-binding electrons on honeycomb lattice",
+        "id": "867770253826851094",
+        "keywords": "",
+        "publication_date": "2014-08-26",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "",
+        "zh_title": "蜂窝晶格上紧束缚电子中磁化强度的量子振荡"
+      },
+      "paper:867771022567276683": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Simão M. João | Miša Anđelković | Lucian Covaci | Tatiana Rappoport | João M. V. P. Lopes | Aires Ferreira",
+        "available_online": "",
+        "cover_date_start": "2019-10-11",
+        "created_at": "2026-06-14T23:22:23+08:00",
+        "doi": "10.48550/arXiv.1910.05194",
+        "en_title": "KITE: high-performance accurate modelling of electronic structure and response functions of large molecules, disordered crystals and heterostructures",
+        "id": "867771022567276683",
+        "keywords": "",
+        "publication_date": "2019-10-11",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "KITE：大分子、无序晶体和异质结构的电子结构及响应函数的高性能精确建模"
+      },
+      "paper:867772228014440837": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Jonah Herzog-Arbeitman | Zhi-Da Song | Nicolas Regnault | B. Andrei Bernevig",
+        "available_online": "",
+        "cover_date_start": "2020-06-24",
+        "created_at": "2026-06-14T11:28:04+08:00",
+        "doi": "10.48550/arXiv.2006.13938",
+        "en_title": "Hofstadter Topology: Non-crystalline Topological Materials at High Flux",
+        "id": "867772228014440837",
+        "keywords": "",
+        "publication_date": "2020-06-24",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "霍夫施塔特拓扑：高通量下的非晶态拓扑材料"
+      },
+      "paper:867773876199752513": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Gyorgy Kovacs | Zsolt Gulacsi",
+        "available_online": "",
+        "cover_date_start": "2015-11-23",
+        "created_at": "2026-06-17T01:15:36+08:00",
+        "doi": "10.48550/arXiv.1511.07297",
+        "en_title": "Pentagon chain in external fields",
+        "id": "867773876199752513",
+        "keywords": "",
+        "publication_date": "2015-11-23",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "外场中的五角链"
+      },
+      "paper:867791033520357428": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Biao Lian | Fang Xie | B. Andrei Bernevig",
+        "available_online": "",
+        "cover_date_start": "2021-02-08",
+        "created_at": "2026-06-19T08:23:34+08:00",
+        "doi": "10.48550/arXiv.2102.04479",
+        "en_title": "Open Momentum Space Method for Hofstadter Butterfly and the Quantized Lorentz Susceptibility",
+        "id": "867791033520357428",
+        "keywords": "",
+        "publication_date": "2021-02-08",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "霍夫施塔特蝴蝶的开放动量空间方法与量子化洛伦兹磁化率"
+      },
+      "paper:884073193298461254": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Maryam Mansoury | Vram Mughnetsyan | Aram Manaselyan | Albert Kirakosyan | Vidar Gudmundsson | Vigen Aziz-Aghchegala",
+        "available_online": "",
+        "cover_date_start": "2023-07-05",
+        "created_at": "2026-06-19T04:08:35+08:00",
+        "doi": "10.48550/arXiv.2307.02622",
+        "en_title": "Hofstadter-like spectrum and Magnetization of Artificial Graphene constructed with cylindrical and elliptical quantum dots",
+        "id": "884073193298461254",
+        "keywords": "",
+        "publication_date": "2023-07-05",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "由圆柱形和椭圆形量子点构建的人工石墨烯的类霍夫施塔特光谱和磁化强度"
+      },
+      "paper:934147730756862377": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Alina Wania Rodrigues | Maciej Bieniek | Paweł Potasz | Daniel Miravet | Ronny Thomale | Marek Korkusiński | Paweł Hawrylak",
+        "available_online": "",
+        "cover_date_start": "2023-11-21",
+        "created_at": "2026-06-17T03:59:55+08:00",
+        "doi": "10.48550/arXiv.2311.12740",
+        "en_title": "Atomistic theory of moiré Hofstadter's butterfly in magic-angle graphene",
+        "id": "934147730756862377",
+        "keywords": "",
+        "publication_date": "2023-11-21",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "魔角石墨烯中莫尔条纹霍夫施塔特蝴蝶的原子理论"
+      },
+      "paper:943750642852168355": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Toshihito Osada",
+        "available_online": "",
+        "cover_date_start": "2023-12-15",
+        "created_at": "2026-06-18T23:05:27+08:00",
+        "doi": "10.48550/arXiv.2312.09413",
+        "en_title": "Hofstadter Butterfly and Broken-Symmetry Quantum Hall States in α-Type Organic Dirac Fermion Systems",
+        "id": "943750642852168355",
+        "keywords": "",
+        "publication_date": "2023-12-15",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "霍夫施塔特蝴蝶与α型有机狄拉克费米子系统中的破缺对称量子霍尔态"
+      },
+      "paper:966036052106018844": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics, quantum physics",
+        "authors": "Aitor Garcia-Ruiz | Ming-Hao Liu",
+        "available_online": "",
+        "cover_date_start": "2024-01-19",
+        "created_at": "2026-06-16T02:17:12+08:00",
+        "doi": "10.48550/arXiv.2401.10436",
+        "en_title": "Fractal Quantum Transport in MoS2 Superlattices",
+        "id": "966036052106018844",
+        "keywords": "",
+        "publication_date": "2024-01-19",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "二硫化钼超晶格中的分形量子输运"
+      }
+    },
+    "variables": [
+      {
+        "content": "A single-orbital (s-orbital) tight-binding square-lattice model with magnetic field implemented via Peierls substitution (Landau gauge $A=-By\\,e_{x}$, hopping amplitude modified as $t\\to t_{0}\\exp\\big(\\tfrac{e}{\\hbar}\\int_{r_i}^{r_j}\\!A\\!\\cdot\\mathrm{d}r\\big)$, and rational flux $B=\\tfrac{h}{e a^{2}}\\tfrac{p}{q}$) yields a Hofstadter-like spectrum of $q$ Landau levels per magnetic unit cell. When orbital angular momentum is evaluated using the gauge-invariant formalism of Pezo et al. (which expresses the matrix elements $\\langle\\nu\\boldsymbol{k}|L_{z}|\\alpha\\boldsymbol{k}\\rangle$ in terms of velocity operator matrix elements and energy denominators, with a small unspecified correction to ensure gauge invariance), the diagonal values $L_{\\nu,z}(k)=\\langle\\nu k|L_z|\\nu k\\rangle$ (the out-of-plane orbital angular momentum per Bloch state) are nonzero for the Landau bands even though the atomic orbitals are s-like. Inter-site hybridization is the mechanism that produces the nonzero orbital moment in this model; this moment varies with energy and with Landau-level index.",
+        "content_hash": "5516691c137e928b42e068961e18fc1e4a760a7246f3b5c9cdf56b1e04de2695",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_9ba5b902c8a745e3",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1051743170351595522::conclusion_5",
+            "package_id": "paper:1051743170351595522",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1051743170351595522"
+          ]
+        },
+        "rerank_score": 0.9658392782611354,
+        "role": "conclusion",
+        "score": 0.005755979593188895,
+        "title": "s-orbital tight-binding Hofstadter model on square lattice produces Landau levels with nonzero orbital moment via inter-site hybridization",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The four-band tight-binding Hamiltonian with Peierls phase factors under magnetic flux $\\Phi_{\\mathrm{uc}}/\\Phi_0=p/q$ produces a Hofstadter spectrum in which, in the energy window between the van Hove singularities of the third and fourth bands, the magnetic quantization yields Landau levels with the hallmark features of two-dimensional massless Dirac fermions: (i) a zero-mode $N=0$ level (field-independent level at the contact point), (ii) higher LLs whose energies show a square-root-like dependence on magnetic field (characteristic $\\propto\\sqrt{B}$ scaling for Dirac LLs), and (iii) gaps characterized by odd integer Chern numbers $N_{\\mathrm{Ch}}=\\pm1,\\pm3,\\pm5,\\ldots$. The Chern numbers of the Hofstadter gaps were obtained by solving the Diophantine equation $s q + t p = r$ for integer coefficients $s,t$ and occupied-level count $r$, yielding $N_{\\mathrm{Ch}}=t$ (with $|t|\\le q/2$) as the Hall-topological index for each gap. Definitions: $p=4p'$ (the factor 4 accounts for the four-molecule unit cell), $q$ is the magnetic-unit-cell integer, $r$ is the number of occupied Hofstadter levels, and $\\Phi_0=2\\pi\\hbar/e$ is the flux quantum.",
+        "content_hash": "a8d0c001356fe360402a6ddca51dc07f148110c75ac601e1407e89da04f8c394",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_7cc10d3d9e354922",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:943750642852168355::conclusion_1",
+            "package_id": "paper:943750642852168355",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:943750642852168355"
+          ]
+        },
+        "rerank_score": 0.9443770335783949,
+        "role": "conclusion",
+        "score": 0.0062215771649733916,
+        "title": "Hofstadter spectrum and Chern numbers from the four-band tight-binding model confirm Dirac-fermion LL structure between van Hove singularities",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In two-dimensional crystalline tight-binding models, threading magnetic flux through the unit cell breaks ordinary translation symmetry and realizes projective representations of the translation group, producing the Hofstadter spectrum that encodes nonperturbative band responses to flux. Prior descriptions of Hofstadter physics relied largely on momentum-space constructions valid only for rational flux (magnetic unit cells) or on phenomenological/continuum arguments; these approaches do not give a real-space, symmetry-resolved classification of how generic zero-field band topology controls nonperturbative phenomena in finite flux. Specifically, it was not established how (i) spatial point-group operations whose conventional implementation is broken by a magnetic field can nonetheless reappear at special flux values as symmetry operations forming projective (central-extended) point groups, (ii) the projective phases (Schur multipliers) arising from Peierls phases along microscopic hopping paths are computed and related to Aharonov–Bohm fluxes tied to Wyckoff positions, and (iii) local, experimentally accessible real-space topological invariants (Real Space Invariants, RSIs) of the zero-flux ground state can be used to predict and classify robust Hofstadter phenomena — in particular enforced bulk gap closings in flux (Hofstadter semimetals) and quantized pumping of boundary-localized states (Hofstadter higher-order topological insulators, HOTIs). Because the Peierls substitution requires specifying microscopic Peierls paths (which are physical and symmetry constrained), there was also no systematic tabulation tying choices of Peierls paths to the possible projective point-group realizations and the resulting topological indices. These gaps prevented a unified, symmetry-based prediction of which zero-flux topological or obstructed atomic states must close their gap or pump boundary charge upon insertion of flux, and left unanswered how to compute the relevant projective group irreducible representations and RSIs for all realizable projective point groups.",
+        "content_hash": "eb2a649a1fdbf6e357ea664645e3131f078606458fd321c95cda508a59b3ed48",
+        "id": "gcn_7ad8b68bedaa49b5",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867757609485074549::problem",
+            "package_id": "paper:867757609485074549",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867757609485074549"
+          ]
+        },
+        "rerank_score": 0.907092783440188,
+        "role": "premise",
+        "score": 0.010399756493506494,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "For phosphorene described by a tight‑binding model with five hopping parameters (t_1 = −1.22 eV, t_2 = 3.665 eV, t_3 = −0.205 eV, t_4 = −0.105 eV, t_5 = −0.055 eV) and Peierls phases for a perpendicular magnetic field, the Hofstadter butterfly spectrum is computed with magnetic unit cell period q = 10007 in the low‑field regime. The resulting discrete energy levels (blue dots in Fig. 5(b)) are overlaid on the Landau‑level fan obtained from the continuum k·p model (red solid line). The two sets of levels coincide within the graphical resolution over the range of magnetic fields from 0 to approximately 25 T, showing that the atomistic tight‑binding model with realistic hoppings reproduces the continuum Landau‑level prediction. This cross‑check uses a distinct computational method (tight‑binding lattice with Peierls phases) that does not rely on the decoupling approximation or the harmonic‑oscillator ansatz of the k·p derivation.",
+        "content_hash": "26de594414f0b023de59f94feaeccc45e85f6612177a552bb1111fde0601a756",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_6f45e70e51cb4e7f",
+        "kind": "highlight",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867757797993873628::H1",
+            "package_id": "paper:867757797993873628",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867757797993873628"
+          ]
+        },
+        "rerank_score": 0.9604587750430758,
+        "role": "premise",
+        "score": 0.006622589169215925,
+        "title": "Independent TB Hofstadter cross-check validates low-field k·p LL fan",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In constructing tight-binding Hofstadter models with rational flux $1/q$, a practical obstacle is that naive gauges (e.g., Landau gauge) may force an unnecessarily large magnetic unit cell, complicating both analytic symmetry arguments and numerical diagonalization for arbitrary-range hoppings. To study the generic effect of further-neighbor hoppings on the zero-energy touchings one needs a gauge that (i) yields a magnetic unit cell with only $q$ triangular units (the minimal cell that encloses an integer number of flux quanta), and (ii) provides a systematic and explicit formula for the Peierls phases for arbitrary hopping vectors so that longer-range hopping can be included consistently. Prior approaches often treated specific hopping ranges or used gauges that masked symmetry operations; without a compact general expression for Peierls phases the construction of general bipartite hopping Hamiltonians in the Hofstadter setting was cumbersome and obscured symmetry arguments needed to prove the protected nature of the Dirac touchings.",
+        "content_hash": "dcf14823c5aa4a82b3005d185f7c9d5b088e30d9c743e5eaaf04958d95c059d2",
+        "id": "gcn_75ecf3d114d74c69",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867746837434466703::conclusion_1_subproblem",
+            "package_id": "paper:867746837434466703",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867746837434466703"
+          ]
+        },
+        "rerank_score": 0.8800951139282929,
+        "role": "premise",
+        "score": 0.024877149877149878,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "For the honeycomb lattice tight-binding model with nearest-neighbor hopping $t$, the Landau level energies up to second order in the magnetic field $B$ are obtained from the quantization rule $(n+1/2)eB/h = \\sum_{m=0}^2 R_m(\\varepsilon_n) B^m/m!$ by evaluating $R_0 = S_0/(4\\pi^2)$, $R_1 = \\partial M/\\partial\\mu$, and $R_2 = \\partial\\chi/\\partial\\mu$ using the semiclassical theory of the zero-field magnetic response functions. Here, $S_0$ is the $k$-space area enclosed by the equal-energy contour at chemical potential $\\mu$, $M$ is the zero-field magnetization, and $\\chi$ is the zero-field magnetic susceptibility. The resulting Landau levels agree with the exact Hofstadter spectrum (the spectrum from the Harper equation for the tight-binding model in a perpendicular magnetic field). Including the susceptibility correction ($R_2$) reduces the average error for the $n=1$ Landau level from $4 \\times 10^{-5} t$ to $2 \\times 10^{-7} t$, an improvement by a factor of $\\phi/\\phi_0$, where $\\phi$ is the magnetic flux through a unit cell and $\\phi_0 = h/e$ is the flux quantum.",
+        "content_hash": "ccedc7d20a944ed67bb5b9fa2d2ef3d8b837c4aefed1fe6205d6441460e299b3",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_3ef4c4b2c6724eee",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813123856075063296::conclusion_8",
+            "package_id": "paper:813123856075063296",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813123856075063296"
+          ]
+        },
+        "rerank_score": 0.9009214865821518,
+        "role": "conclusion",
+        "score": 0.005591842123657376,
+        "title": "Second-order Landau level calculation for honeycomb lattice tight-binding model",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The Hofstadter butterfly and Landau-level spectra reported for relaxed twisted trilayer graphene are computed by inserting Peierls phase factors into the tight-binding hopping amplitudes on the finite moiré supercells used in this work and calculating the single-particle energy spectrum as a function of perpendicular magnetic field up to about $20\\ \\mathrm{T}$, with the presented relaxed tTLG-A\\tilde{A}A-$1.35^\\circ$ calculation showing clear fractal-like Hofstadter features and higher-index Landau levels becoming apparent at fields as small as approximately $4\\ \\mathrm{T}$.\n      Fig. 5(a); Fig. S5",
+        "content_hash": "39b8f5256af7d5613ff7475d44df52b06f08df5fa4145c2dbed3103e5ab28d42",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_b48d2cf844cf4c4c",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867763666315903778::P8",
+            "package_id": "paper:867763666315903778",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867763666315903778"
+          ]
+        },
+        "rerank_score": 0.8521529570462296,
+        "role": "premise",
+        "score": 0.0055350965294052,
+        "title": "Hofstadter butterflies computed via Peierls phases on finite moiré supercells up to ~20 T",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The Hofstadter problem — electrons in a two-dimensional lattice subject to a uniform magnetic field — is well understood when the underlying zero-field bands are topologically trivial: breaking of lattice translation symmetry at nonzero magnetic flux produces the fractal Hofstadter spectrum and magnetic-field-induced Chern bands. However, a systematic understanding was lacking for the inverse situation: inserting magnetic flux into a lattice whose zero-field electronic structure is already topological. Prior work typically treated (a) the Hofstadter spectrum of trivial Bloch bands, or (b) continuum/field-theoretic limits; there was no general, gauge- and lattice-aware framework for tight-binding models with arbitrary orbital positions and Peierls paths that (i) tracks how magnetic translation symmetry, flux periodicity, and embedding matrices act on the Bloch/Hofstadter Hamiltonian, and (ii) answers how established topological invariants (Chern number, Mirror Chern number, $Z_{2}$ Kane–Mele index, and fragile $w_{2}$) evolve as flux is threaded at fixed electronic filling. Concretely, before this work:\n    - it was not settled whether threading an infinitesimal flux through a nonzero-Chern-number insulator at fixed filling must produce a bulk gap closing or whether the occupied-state manifold can remain continuous in flux; similarly, the fate of mirror-block Chern numbers under flux was not derived;\n    - there was no general, model-independent statement relating the rational flux denominator $q$ (magnetic unit-cell enlargement) to the possible Chern numbers of gapped Hofstadter subspaces at the same filling as the zero-field insulator;\n    - the classification of time-reversal-symmetric ($\\mathcal{T}$) 2D topological insulators viewed as 3D $k_{z}$-parameterized Hamiltonians with $k_{z}\\!\\leftrightarrow\\!\\phi$ (flux) periodicity had not been linked to the flux-periodicity integer $n$ (where the Hofstadter Hamiltonian is periodic under $\\phi\\mapsto\\phi+2\\pi n$), leaving open whether the Hofstadter Hamiltonian realizes a strong 3D TI, a weak TI, or is trivial;\n    - fragile topology (the second Stiefel–Whitney index $w_{2}$) and higher-order topology under flux were unexplored: it was unknown whether flux pumping can convert a fragile 2D phase into a 3D higher-order TI (HOTI) in the flux-parameter direction, and how that depends on microscopic Peierls paths;\n    - numerical and analytic constructions of the Hofstadter Hamiltonian for arbitrary tight-binding models (arbitrary orbital positions, non-straight Peierls paths, and arbitrary commensurabilities) were scattered or incomplete, leaving ambiguous how to choose magnetic unit cells, embedding matrices, and gauge conventions systematically for proofs and numerics;\n    - consequently, there was no unified set of rigorous theorems predicting which gap closings or topological pumpings are enforced by nonzero Chern numbers, Mirror Chern numbers, $Z_{2}$ invariants, or fragile $w_{2}$ under flux, nor clear guidance about the dependence of such statements on microscopic choices (Peierls paths) that are physically determined by Wannier overlaps.\n    These gaps prevented a principled answer to whether new topological phases — especially phases impossible in crystalline insulators (e.g., discontinuous occupied manifolds at infinitesimal flux, Hofstadter semimetals, flux-pumped HOTIs) — must arise when flux is applied to a topological zero-field Hamiltonian, and impeded constructing model calculations and experimental proposals (notably for Moiré systems) that would access those regimes at laboratory magnetic fields.",
+        "content_hash": "acedc351e69ec395125577fe4e7d19aaa90fbf7c6bbd06d42de601ee330790b2",
+        "id": "gcn_175471ba267e481b",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867772228014440837::problem",
+            "package_id": "paper:867772228014440837",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867772228014440837"
+          ]
+        },
+        "rerank_score": 0.8500494394653437,
+        "role": "premise",
+        "score": 0.008403361344537815,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Physical context: one studies electrons on a 2D crystal in a uniform perpendicular magnetic field using a Peierls-substituted tight-binding model built from a finite hopping set. Prior state of knowledge: previous constructions (e.g. Hofstadter on simple lattices) often used linear gauges (Landau gauge) and tacitly assumed the Fourier transform produces a block-$k$ Hamiltonian of size determined by flux quantization. Specific limitation: a linear-$\\mathbf{A}$ ansatz enforces the arithmetic constraint $T^{T}A^{T}\\mathbf{R}\\in\\mathbb{Z}^{2}$ for every hopping vector $\\mathbf{R}\\in S_{hop}$; this mixes properties of the hopping graph with gauge parameters and the magnetic superlattice $T$. Scientific consequences: without this condition one encounters $k$-mixing in the Fourier transform and cannot write a block-diagonal $H_{\\mathbf{k}}$, while enforcing it restricts permissible atomic displacements (forbids rank$(S_{hop})>2$) and therefore prevents treatment of incommensurate atomic reconstructions within the same MUC when using a linear gauge.",
+        "content_hash": "d0e8ec3c305e7997e5284a9a3d0fe6323cb25e538e3de3fb8fc302dc5ed6a528",
+        "id": "gcn_ce5f06080deb4f15",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1053919589894717445::conclusion_1_subproblem",
+            "package_id": "paper:1053919589894717445",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1053919589894717445"
+          ]
+        },
+        "rerank_score": 0.848120229293869,
+        "role": "premise",
+        "score": 0.005813953488372093,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The Landau-level spectra are computed by expanding the effective tight-binding model at the $\\Gamma$ point, introducing a magnetic field via Peierls substitution $\\Pi_\\alpha=k_\\alpha-eA_\\alpha$ and representing the in-plane conjugate momenta by ladder operators while keeping the third (magnetic-field) direction periodic; because this approach is a small-$\\mathbf{k}$ expansion about $\\Gamma$ along the preserved direction, nodal lines that lie far from the $\\Gamma$ point along the magnetic-field direction are not probed by these Landau-level calculations. Fig.5(a-j)",
+        "content_hash": "2b671ed2723d6b7381fb4ce31e0b57f6f4181c46680d47543ba2948ed363f682",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_dca4466cb0034559",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812718979456958465::P7",
+            "package_id": "paper:812718979456958465",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812718979456958465"
+          ]
+        },
+        "rerank_score": 0.8408253214881556,
+        "role": "premise",
+        "score": 0.0058167595905800114,
+        "title": "Landau-level spectra obtained from Γ expansion cannot probe distant nodal lines along field direction",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Physical/scientific context: Two commonly used descriptions of electrons in a magnetic field—(i) continuous-space minimal coupling and (ii) tight-binding with Peierls phases—both predict Hofstadter-type spectra but differ in whether the spectrum appears periodic in $ \\Phi/\\Phi_{0} $ or in its reciprocal.\n        \n        Prior approaches and limitations: Previous literature noted discrepancies and questioned the range of validity of each approach; however, a unified derivation that (i) starts from a translationally restored electron–photon Hamiltonian and (ii) shows how each description emerges (and why they are reciprocal) was lacking.\n        \n        Consequences of the gap: Without a concrete duality derivation, use of one model versus the other near one flux quantum (or beyond the small-flux regime) risks misinterpretation of which spectral features are physical versus artifacts of approximations (e.g., band-isolation in tight-binding).",
+        "content_hash": "869128155d509fa5a0a8bdd68071834a195a3df641a016be5e747768a799f215",
+        "id": "gcn_f4fa1c432afd43fb",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867759498054337185::conclusion_6_subproblem",
+            "package_id": "paper:867759498054337185",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867759498054337185"
+          ]
+        },
+        "rerank_score": 0.839780556040157,
+        "role": "premise",
+        "score": 0.017708732898606316,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In the study of collective excitations in 2D silicene, a first-principles or tight-binding description must capture atomic-scale hopping on the buckled honeycomb lattice, the intrinsic and Rashba spin-orbit couplings that qualitatively reorganize low-energy bands and Landau levels, the staggered potential introduced by a perpendicular electric field that can close and reopen gaps (TI–BI transition), and the Peierls-phase effects of a perpendicular magnetic field. Prior to this work there was no single practical tight-binding formulation presented that explicitly combined all these terms with numerical prescriptions for enlarged magnetic unit cells and Peierls-phase-modified matrix elements needed to compute Landau-level spectra and wavefunctions across wide ranges of $E_{z}$ and $B$. Without such a unified Hamiltonian one cannot reliably produce the LL-resolved eigenstates required to compute Coulomb matrix elements, polarization functions, and hence plasmon dispersions that depend sensitively on LL splitting, valley and spin polarization, and occupation.",
+        "content_hash": "7cb1b6cb495952b4e151e9702238765dc7d37a8cf9039e992babf1a4308714cd",
+        "id": "gcn_3c80cb254e1c4406",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867749618379653213::conclusion_1_subproblem",
+            "package_id": "paper:867749618379653213",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867749618379653213"
+          ]
+        },
+        "rerank_score": 0.9059965616046565,
+        "role": "premise",
+        "score": 0.011626445449974862,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Physical / scientific context: Researchers need a numerically tractable representation of continuum and lattice Hofstadter Hamiltonians that preserves the periodic lattice potential structure and leverages the natural Landau-level algebra of electrons in a magnetic field. Prior approaches required either dense matrices for plane-wave expanded continuum models or large magnetic unit cells / rational-flux constructions for lattice models. Prior state: the zero-field momentum-space Hamiltonian $H(\\mathbf{k})$ is known but its direct promotion to nonzero field was either done in complicated Landau bases or via Peierls phases in real space that yield large or dense matrices. Specific limitations: dense, infinite-dimensional matrices for continuum models; elaborate rational-flux constructions for tight-binding models; and lack of a unified operator prescription that directly converts $H(\\mathbf{k})$ to a magnetic-field Hamiltonian while remaining block-diagonal and $\\lambda$-independent. Consequences: inefficient, poorly convergent numerical computations for moiré and other continuum $k\\cdot p$ models at finite $B$, and no simple, sparse representation that could be used with Lanczos or shift-and-invert diagonalization. This conclusion directly addresses the need for a compact, operator-level substitution rule that produces block-diagonal Hamiltonians amenable to truncation and efficient numerical methods.",
+        "content_hash": "693f1f6edea61194e58f57d00e9401f3d4a23075a3ca1be7ff74c81595817b8f",
+        "id": "gcn_32c203ba1b0843a1",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867791033520357428::conclusion_1_subproblem",
+            "package_id": "paper:867791033520357428",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867791033520357428"
+          ]
+        },
+        "rerank_score": 0.8323639875126686,
+        "role": "premise",
+        "score": 0.012409288824383163,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In honeycomb semiconductor QD superlattices subject to a transverse magnetic field, it is necessary to compute electronic minibands and equilibrium magnetization including (a) the magnetic-field modification of single-dot confinement (Landau-like quantization) and (b) the magnetic-phase dependence of inter-dot matrix elements while preserving the enlarged magnetic translational symmetry. Conventional tight-binding Peierls substitutions or continuum Dirac models treat the field only through phase factors in hopping and assume single-level sites, so they cannot quantify the role of multi–Landau-band mixing or of shape-dependent Fourier components $v(\\mathbf{G})$. Therefore a computational scheme that combines (i) a complete magnetotranslation-respecting basis, (ii) explicit Landau-band resolution, and (iii) the Fourier representation of dot-shape-specific potentials is required to obtain controlled, ab initio–style predictions of band dispersions, Hofstadter-like spectra, DOS, and orbital magnetization in realistic QD superlattices.",
+        "content_hash": "983307a6edecc68f00019ddf83ba7b5b3f838bf18bf7b1b77fe809d484d653ae",
+        "id": "gcn_239a522f08fa4076",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:884073193298461254::conclusion_1_subproblem",
+            "package_id": "paper:884073193298461254",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:884073193298461254"
+          ]
+        },
+        "rerank_score": 0.8149372415033873,
+        "role": "premise",
+        "score": 0.018050363958292348,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Existing Hofstadter calculations are often presented for tight-binding lattice models or Dirac-like systems; for parabolic-band continua relevant to MoS2, a clear prescription that (i) constructs a finite magnetic unit cell using Landau-level guiding-centre shifts and (ii) yields a practical commensurability criterion for numerical diagonalization was missing. Without such an explicit Landau-level magnetic-Bloch construction and its commensurability relation, it is difficult to compute converged magnetic miniband spectra and associated topological invariants for continuum models with moiré potentials.",
+        "content_hash": "4beaaa8f88d961f26ebe05c04eeae7eea75530554650b5a6a1fce95287502ee8",
+        "id": "gcn_ad5937ac6cfd4c82",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:966036052106018844::conclusion_7_subproblem",
+            "package_id": "paper:966036052106018844",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:966036052106018844"
+          ]
+        },
+        "rerank_score": 0.8126266105371369,
+        "role": "premise",
+        "score": 0.01968178055734388,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Physical context: the Harper / Almost-Mathieu operator governs electrons on a 2D lattice pierced by magnetic flux and generates fractal (Hofstadter) spectra; tight-binding variants either include a periodic potential or complex hopping phases via Peierls substitution. Prior approaches to obtain Hofstadter-like spectra used explicit Peierls phases or on-site quasiperiodic potentials. Consequence of the gap: without a rigorous unitary connection, it was unclear whether a model with only site-dependent real hoppings (obtainable by geometry) could reproduce Harper spectral properties. The unitary mapping establishes that geometrically produced modulated hoppings are not merely analogous but can be made exactly isospectral (up to the stated parameter constraints) to Harper's Hamiltonian, justifying geometric emulation strategies.",
+        "content_hash": "7453632e99e9a413bb24f8e5e4fa0f93a4bdfded8dfc4d3424c90bd950afea47",
+        "id": "gcn_cb7abcc1600e4e94",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867766454894723074::conclusion_2_subproblem",
+            "package_id": "paper:867766454894723074",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867766454894723074"
+          ]
+        },
+        "rerank_score": 0.8114495381036846,
+        "role": "premise",
+        "score": 0.007518796992481203,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Realistic magnetic-field studies (Landau levels, magneto-transport) require either tiny flux per unit cell (thus enormous lattices) or, in periodic simulations, unphysically large fields for small lattices. Resolving small Landau level separations ($\\lesssim$ a few meV) further demands extremely high $M$. Prior real-space tight-binding studies were constrained to small lattices and unrealistically large fields. Researchers needed an automated Peierls-substitution framework coupled to a scalable spectral engine able to handle the large $M$ and large $N$ required for realistic field strengths.",
+        "content_hash": "123c1a919a2a6f2e27f41a90625b19f3be041673419ff5b6e0cd7341ead13728",
+        "id": "gcn_97b6dcc1e3564f40",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867771022567276683::conclusion_13_subproblem",
+            "package_id": "paper:867771022567276683",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867771022567276683"
+          ]
+        },
+        "rerank_score": 0.8223914238415206,
+        "role": "premise",
+        "score": 0.02023338979860719,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The Hofstadter model—electrons on a square lattice in a uniform magnetic field—is the prototypical system for studying the interplay of a periodic potential and a magnetic field. The exact energy spectrum fractal, but smooth semiclassical approximations are valuable for describing the global structure. The Onsager quantization using only the zero‑field density of states gives approximate Landau levels, but it does not reproduce the correct $f^2$ and higher‑order terms. The Roth‑Gao‑Niu relation, which includes the susceptibility correction, provides an improved semiclassical description. By applying it to the tight‑binding model, one obtains analytic expressions that match the average positions of the Hofstadter bands very well. The non‑linearity of the Landau plot is a direct consequence of the susceptibility derivative and can be used to test the theory.",
+        "content_hash": "54fa8865eb8c2d855d52e942bc66e8185739ab9c7f56b94bea4ce847eb36cad4",
+        "id": "gcn_20469bd0fe864849",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867769339057537771::conclusion_5_subproblem",
+            "package_id": "paper:867769339057537771",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867769339057537771"
+          ]
+        },
+        "rerank_score": 0.8518982583057866,
+        "role": "premise",
+        "score": 0.023888428610880974,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In order to study general tight-binding perturbations (e.g., further-neighbor hoppings, sublattice-dependent onsite potentials, and spatially modulated hoppings) in the Hofstadter honeycomb problem one needs a Peierls-phase prescription that is compatible with Bloch's theorem in the smallest possible magnetic unit cell. Previous approaches often used gauges that artificially enlarged the unit cell (for example, a Landau gauge representation that required $2q$ triangular units in the MUC) or were given only for nearest-neighbor hoppings. Without a compact, general formula for the Peierls phases one cannot systematically construct $2q\\times2q$ Bloch Hamiltonians for arbitrary-range hoppings, and therefore cannot examine the stability of the zero-energy touchings or compute Berry curvatures and Chern numbers for general perturbations. The provided OG formula removes this technical obstacle by specifying the phases for any hopping vector while keeping the minimal MUC size, enabling systematic diagonalization and symmetry analysis for generic quadratic perturbations.",
+        "content_hash": "68c5cfbdf5f2be5ea9e61ab0c96ad3f838b4be1a7602659ce3be170f74270836",
+        "id": "gcn_71168295f18a46f8",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812649252864917505::conclusion_1_subproblem",
+            "package_id": "paper:812649252864917505",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812649252864917505"
+          ]
+        },
+        "rerank_score": 0.8068883527041708,
+        "role": "premise",
+        "score": 0.012402863377100639,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Magic-angle twisted bilayer graphene (MATBG) exhibits two nearly flat moiré bands around charge neutrality and hosts a variety of correlated and topological phases. Prior theoretical descriptions split into complementary but incomplete approaches: continuum (Bistritzer–MacDonald) and low-energy models capture band topology and interaction phenomenology but rely on phenomenological interlayer terms and cannot access atomically resolved edge physics or arbitrary boundary terminations; Hubbard-like lattice or effective tight-binding models capture interactions but lack atomistic detail; fully atomistic ab initio tight-binding can in principle describe edges, local density of states (LDOS), relaxation, and substrate effects (hBN), but the extremely large moiré unit cell at the magic angle (here 11908 atoms per moiré cell) and the need to include long-range hoppings, out-of-plane relaxation, Peierls phases for magnetic fields, and Zeeman terms makes such calculations computationally prohibitive for realistic sample sizes (ribbon widths up to micrometers and magnetic flux up to one flux quantum per moiré cell). As a result, several concrete questions remained unresolved prior to this work: atomistic Hofstadter spectra of MATBG including realistic relaxation and hBN substrate effects; microscopic identification and spatial structure of bulk and chiral edge states (and their Chern numbers) within the moiré Hofstadter butterfly; the coexistence and mutual influence of moiré-localized flat-band Landau levels and conventional Landau levels; how magnetic field redistributes moiré-localized wavefunction density; and how finite-size and edge-termination choices affect the flat-band LDOS. These limitations prevented direct, quantitative atomistic comparison between single-particle Hofstadter physics and magnetotransport / compressibility measurements and left open whether single-particle physics alone can account for insulating sequences seen experimentally.",
+        "content_hash": "fa905b5445b5f9c8d24d0b9a8b00dc3448a3e8df43c84a3f1a84ebedfabb9b40",
+        "id": "gcn_9f1eb6a73974460c",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:934147730756862377::problem",
+            "package_id": "paper:934147730756862377",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:934147730756862377"
+          ]
+        },
+        "rerank_score": 0.8010029154319966,
+        "role": "premise",
+        "score": 0.008547008547008548,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Studies of fractal lattices and tight-binding models predict Hofstadter-like spectra in magnetic field, but it was unclear how a realistic graphene Sierpinski fractal—complete with multi-neighbor hoppings, interaction-induced magnetism (in the ZZ case), and a hierarchy of edge fragments—would respond to a perpendicular magnetic field. Specifically, it was unknown whether magnetic-field effects would simply shift levels, whether gaps would close or survive, and how robust the interaction-induced edge states would be to flux. Clarifying the interplay between Peierls-phase-induced fractal spectra and interaction-stabilized magnetism is necessary to anticipate magneto-spectroscopic signatures.",
+        "content_hash": "2a7469fb7a3297a00bfbf510944096d91042042effadfcdc54552338a4aa960a",
+        "id": "gcn_4af191ee06ae4364",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812596331519410177::conclusion_7_subproblem",
+            "package_id": "paper:812596331519410177",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812596331519410177"
+          ]
+        },
+        "rerank_score": 0.8005929739927072,
+        "role": "premise",
+        "score": 0.01921309064166207,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "When an external magnetic field is applied to a 2D square lattice with nearest-neighbor hopping, the standard Brillouin zone integration approach becomes extremely cumbersome. The vector potential introduces Peierls phases that modify the hopping, and for a rational flux $\\phi/\\phi_0 = p/q$, the magnetic unit cell becomes $q$ times larger, leading to a folded Brillouin zone with $q$ bands (the Hofstadter butterfly). A separate, costly integration must be performed for each value of the magnetic field because the band structure changes completely. Even for small fields where the continuum Landau level picture is valid, direct integration is inefficient because the integrand becomes highly oscillatory. Existing methods often rely on diagonalizing large matrices or using tight-binding models with strong finite-size effects. There is no unified and efficient numerical approach that can treat both the small-field Landau level regime and the large-field Hofstadter butterfly regime within the same framework, without having to adjust the calculation to the specific size of the magnetic unit cell. Such a capability is essential for studying quantum oscillations (e.g., de Haas–van Alphen effect) on discrete lattices and for exploring the crossover from Landau levels to the Hofstadter spectrum.\n        magnetic field; Landau levels; Hofstadter butterfly; Peierls phases; quantum oscillations",
+        "content_hash": "3b10a50847517857f5c88ca5ca33a0a1223377f6e3bc09780d8fb91469dff514",
+        "id": "gcn_667def0a6fa14fab",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811698707417268226::conclusion_2_subproblem",
+            "package_id": "paper:811698707417268226",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811698707417268226"
+          ]
+        },
+        "rerank_score": 0.899990637015917,
+        "role": "premise",
+        "score": 0.02139344262295082,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The magnetic field is incorporated in the calculations solely through the Peierls phase using the Landau-gauge vector potential A = (0,B_0 x,0) and by enlarging the unit cell to 12 R_B atoms (with Peierls phase G_R = (2π/φ_0) ∫_R^r A·dl and 2φ_0/φ = 2R_B defining R_B), and the manuscript applies this single-particle Peierls-substituted tight-binding approach up to very large reported fields (for example intergroup anticrossings cited near B_0 ≈ 75–97 T) without discussing possible breakdowns of the static tight-binding/Peierls picture at extreme flux densities or possible magnetic-field-induced modifications of hopping amplitudes that lie outside the model assumptions.\n      Peierls-phase expression and Landau-gauge choice in Section 2",
+        "content_hash": "9d48813d55fc59e41f41de0dc9438c276040c6a8675c78fe7ecc481e858b3933",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_932323c34d784479",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867754883078423183::P4",
+            "package_id": "paper:867754883078423183",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867754883078423183"
+          ]
+        },
+        "rerank_score": 0.8750783093844677,
+        "role": "premise",
+        "score": 0.005753505149591134,
+        "title": "Validity of Peierls-substitution tight-binding at very large magnetic fields and anonymous field-regime approximations",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The tight-binding model for space group 198 is used to compute Landau level spectra under a magnetic field; the calculated result shows two chiral Landau levels, but the specification of how the magnetic field is incorporated (Peierls substitution, gauge choice, supercell size, number of flux quanta per unit cell, boundary conditions) and the numerical diagonalization method are not provided; without this documentation, these two chiral Landau levels cannot be independently reproduced or confirmed.Fig. 2(d)\n      Eq. (B1)",
+        "content_hash": "d08d2f08de04c66831ddcb56050b690b6209f7be70a30e977cf445545e8166b4",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_7b5be9a26f51494a",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811996557858570240::8",
+            "package_id": "paper:811996557858570240",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811996557858570240"
+          ]
+        },
+        "rerank_score": 0.7928108296170894,
+        "role": "premise",
+        "score": 0.0061176382548828855,
+        "title": "Tight-binding Landau level calculation not documented",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In the physics of magneto-electronic quantization for 2D crystals, accurate Landau spectra and wave functions require a Hamiltonian that simultaneously captures lattice geometry, orbital hybridization, spin-orbit coupling, and the magnetic Peierls phase; otherwise, key spectral features (e.g., LL scaling with $B_z$, orbital-dominated node structure, and electric-field-induced inter-sublattice potential shifts) cannot be computed reliably. Prior models were either continuum k·p or single-/few-orbital tight-binding approximations that neglected one or more of these coupled ingredients, so they could not predict how multi-orbital orbital content and SOC reshape zero-field bands and how those bands quantize into LLs under a perpendicular magnetic field or how an out-of-plane gate field modifies LL crossings and the band gap. A computational framework that encodes realistic Slater–Koster hopping, atom-specific SOC strengths, Peierls phases in a large magnetic cell, and sublattice potential differences is therefore needed to produce quantitative predictions for monolayer GaAs and comparable group-III–V 2D compounds and to enable comparison with STS and spectroscopic-imaging STM experiments.",
+        "content_hash": "c58932930cb50449ded23facbd289bdbb4fb0f9f5d5e1b8584827955a90bdcd6",
+        "id": "gcn_c7616f34564946c4",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867748065270825791::conclusion_1_subproblem",
+            "package_id": "paper:867748065270825791",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867748065270825791"
+          ]
+        },
+        "rerank_score": 0.8412233858290912,
+        "role": "premise",
+        "score": 0.012162876784769964,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In constructing the Peierls-substituted tight-binding Hamiltonian with the Landau-gauge vector potential $\\mathbf{A}=B_0 x\\,\\hat{y}$ and the enlarged magnetic unit cell, the calculation includes only the Peierls phase factors on in-plane bonds and their periodic modulation with $R_B$, while any magnetic-field-induced modifications of the absolute magnitudes of interlayer hopping parameters or of interlayer orbital hybridization effects beyond these phase factors are neglected as unimportant for the computed single-particle Landau level structure.",
+        "content_hash": "41a36c6ba060623dec34cfa04da5f7b09b19af2305330e48ace6666b63b852b2",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_e1c3bf2596c1423d",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811642484516978690::P9",
+            "package_id": "paper:811642484516978690",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811642484516978690"
+          ]
+        },
+        "rerank_score": 0.8893902915939713,
+        "role": "premise",
+        "score": 0.0060826238479528925,
+        "title": "Neglect of magnetic-field-induced changes of interlayer hopping magnitudes",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In the physical context of two-dimensional tight-binding electrons with a doubled unit cell due to anion ordering, researchers needed an accurate quantum-mechanical account of how a uniform perpendicular magnetic field modifies the band spectrum at experimentally accessible fields. Prior semiclassical treatments replaced lattice-induced structure by phenomenological magnetic-breakdown tunneling amplitudes and assumed discrete Landau levels, thereby missing lattice-driven Harper broadening and the multiplicity of subbands that arise when the flux per magnetic unit cell is rational. Without a direct quantum-mechanical computation using realistic tight-binding parameters and Peierls phase factors, it was impossible to establish whether broadened Landau-like bands and the Diophantine-labeled gap structure control magnetotransport and magnetization in regimes relevant to experiments on (TMTSF)$_2$NO$_3$.",
+        "content_hash": "36fc2ff7f307770d2a7b24d142e808f2af56d6bc45e11c9ade95df8ccc04ed57",
+        "id": "gcn_ad30f7653d514f8d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811169985207468033::conclusion_1_subproblem",
+            "package_id": "paper:811169985207468033",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811169985207468033"
+          ]
+        },
+        "rerank_score": 0.8388849464085091,
+        "role": "premise",
+        "score": 0.02218289085545723,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In perpendicular magnetic fields the density of states (DOS) computed from the tight-binding model develops Landau-level structures that are split into minibands by the moiré modulation, producing a Hofstadter-butterfly–like pattern as a function of magnetic field strength; the splitting of the Landau levels is visible in computed DOS contours for fields stepped by 0.25 T, and the inclusion of a larger mean local gap magnitude $\\Delta U$ increases the clarity and magnitude of the splitting of these minibands.",
+        "content_hash": "f287b4cce08a282e28dda430cb74fcbf201ebc9549e1b20e3f075004f791023c",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_81095833d67f449d",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814586056606220289::conclusion_6",
+            "package_id": "paper:814586056606220289",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814586056606220289"
+          ]
+        },
+        "rerank_score": 0.7878298811501958,
+        "role": "conclusion",
+        "score": 0.006191624559791762,
+        "title": "Magnetic-field DOS shows Hofstadter-like Landau-level splitting enhanced by local gap",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In the study of tight-binding models in a magnetic field, the Peierls substitution $t_{i,j}\\to t_{i,j}e^{i\\phi_{i,j}}$ is standard, but for nontrivial lattice geometries the phases $\\phi_{i,j}$ depend on bond orientation and cell geometry. For pentagon-chain cells (a six-site unit cell with asymmetric bond lengths and angles), no prior explicit, geometry-resolved list of Peierls phases under a perpendicular $\\mathbf{B}$ was available. Without those explicit, bond-resolved phases one cannot write the field-dependent hopping terms of the microscopic Hamiltonian in a form suitable for exact analytical manipulation, nor check flux-consistency relations on the cell. The absence of these specific phase expressions prevented constructing the field-dependent many-body Hamiltonian needed both for one-particle band calculations and for exact positive-semidefinite decompositions used to obtain interacting ground states. Providing explicit closed-form expressions for the phases therefore fills the necessary microscopic input for all subsequent derivations.",
+        "content_hash": "ccedbab190d4e79be478dfa6ab5e1ea569b7c7fe3048213c7ca858e3ccd45455",
+        "id": "gcn_18aaa5cd399c42f4",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867773876199752513::conclusion_1_subproblem",
+            "package_id": "paper:867773876199752513",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867773876199752513"
+          ]
+        },
+        "rerank_score": 0.8481031027865056,
+        "role": "premise",
+        "score": 0.006578947368421052,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Capturing magnetotransport phenomena such as relativistic Landau levels and low-field quantum Hall behavior in a transport simulation requires that the tight-binding model correctly includes magnetic phases and the density-dependent on-site energies, while remaining computationally manageable for micron-scale device geometries. Furthermore, realistic devices contain disorder whose quantitative influence on transport must be assessed. Prior to this work there was no demonstration that a scaled tight-binding lattice could simultaneously (a) include Peierls phases consistent with the scaling constraints, (b) incorporate a realistic electrostatically determined density-to-energy mapping at finite $B_z$, and (c) reproduce measured low-field magnetotransport in an experimental micron-scale device when weak disorder is present.",
+        "content_hash": "d535d9cde06cb29740495344d86748eeb58c80636a1af02e991ef40efb6e2497",
+        "id": "gcn_e63de6bf402f4d01",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814662141645684737::conclusion_4_subproblem",
+            "package_id": "paper:814662141645684737",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814662141645684737"
+          ]
+        },
+        "rerank_score": 0.7741271995352774,
+        "role": "premise",
+        "score": 0.0186986301369863,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The direct Peierls tight-binding representation of graphene under a perpendicular magnetic field produces an enlarged magnetic unit cell and a correspondingly very large Hamiltonian matrix whose dimension scales with the integer $R_{B}$ set by the magnetic flux per hexagon. Previous tight-binding studies either avoided realistic fields or could not diagonalize matrices large enough to represent $B\\lesssim 50\\,$T, leaving a computational barrier to obtaining Landau-level spectra across energies relevant to experiments. A numerical representation that reduces the Hamiltonian to a sparse banded form while preserving the full Peierls phase structure is therefore required to make ab initio tight-binding predictions at experimentally relevant magnetic fields and to resolve energy-dependent features (degeneracy lifting, nonuniform spacing, oscillatory subbands) that are inaccessible to low-energy effective approximations.",
+        "content_hash": "3aad6492d941d6876e226756f9680332d492573c28391a5de33b41ca87f97263",
+        "id": "gcn_049907ffaa0741d9",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811958944388874242::conclusion_1_subproblem",
+            "package_id": "paper:811958944388874242",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811958944388874242"
+          ]
+        },
+        "rerank_score": 0.872638976058612,
+        "role": "premise",
+        "score": 0.02639344262295082,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In studies of magnetoelectronic structure one needs a computational scheme that simultaneously accounts for the field-induced Peierls phase (which enlarges the magnetic unit cell and produces very large Hamiltonian matrices) and the full set of interlayer hopping integrals that determine bilayer band asymmetries. Conventional approaches either used small-$\\boldsymbol{k}$ effective-mass models that treat only $\\gamma_{1}$ perturbatively and are invalid away from the $K$-point, or kept tight-binding descriptions but faced prohibitive matrix sizes at small experimental fields. Without a method that both includes all relevant hoppings and is numerically tractable at experimentally relevant $B_{0}$, one cannot obtain accurate Landau spectra and sublattice-resolved eigenfunctions required to predict optical matrix elements and to compare quantitatively with magneto-optical experiments.",
+        "content_hash": "f86df1c3a29d846378f50f362df7d7ea86e7e4605d73d1402a0600bdf9b63813",
+        "id": "gcn_b4f618c7337c4c27",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811684050098978817::conclusion_1_subproblem",
+            "package_id": "paper:811684050098978817",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811684050098978817"
+          ]
+        },
+        "rerank_score": 0.868266836734425,
+        "role": "premise",
+        "score": 0.009174311926605505,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In the magnetic-field problem on a lattice the Hofstadter butterfly encodes how band topology and Landau quantization interleave with lattice periodicity. For Dirac (isotropic) honeycomb lattices the fractal spectrum is well-characterized and shows no central gap with a zero-energy flat band in finite ribbons under the gauge choices used. Prior to this work, there was no lattice-scale numerical demonstration for the semi-Dirac tight-binding model that records whether the combination of anisotropic hopping and the Peierls phases produces a central Hofstadter gap with a zero-energy state, or whether the Hofstadter pattern remains qualitatively similar to the Dirac case. Without such a demonstration one cannot determine whether semi-Dirac lattice systems support distinctive magnetic subband topology that separates zero-energy modes from bulk bands, a matter with direct implications for edge-state physics and for interpreting magneto-transport in candidate materials such as strained honeycomb systems or phosphorene.",
+        "content_hash": "28dd998ad4133136d8fb3ca55d2d71d4463992a697dccf7d6986029d5859fb49",
+        "id": "gcn_47d43638ec294e58",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867751539903562171::conclusion_1_subproblem",
+            "package_id": "paper:867751539903562171",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867751539903562171"
+          ]
+        },
+        "rerank_score": 0.7688119675896353,
+        "role": "premise",
+        "score": 0.019265854192512588,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "To study spectra (Hofstadter-like problems) and to provide numerically tractable models one needs tight-binding Hamiltonians on a lattice that inherit the correct magnetic symmetry. In Euclidean problems the tight-binding Peierls substitution yields hopping operators that are exponentials of translation generators with Peierls phases; an analogous, symmetry-respecting discretization on hyperbolic tilings was not previously formulated. Without an explicit lattice Hamiltonian built from exponentials of the magnetic symmetry generators one cannot reliably compute band spectra or compare to experiment/simulation platforms. The construction above supplies a concrete procedure to produce a hyperbolic tight-binding Hamiltonian that commutes with the magnetic Fuchsian generators and approaches the continuum magnetic Hamiltonian in the small-spacing limit, thereby enabling symmetry-constrained spectral analysis on hyperbolic lattices.",
+        "content_hash": "9bd196d0c598128a61477305982fe852a74d3c8e0bad8cf4ec1431dba17ba872",
+        "id": "gcn_ca08b676b1f24835",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867753010627870762::conclusion_7_subproblem",
+            "package_id": "paper:867753010627870762",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867753010627870762"
+          ]
+        },
+        "rerank_score": 0.7638540331328463,
+        "role": "premise",
+        "score": 0.01498901098901099,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In lattice quantum Hall systems, the magnetic field enters tight-binding hopping terms via Peierls phases, and the full finite-field band problem is an operator-valued modification of the zero-field matrix. Prior to this work, there was no general, simple prescription that allowed one to read off the finite-field effective Hamiltonian and the leading perturbative corrections to energies and wavefunctions directly from a low-order expansion of the zero-field band structure while managing operator-ordering ambiguities. This gap left practitioners with case-by-case Harper-equation analyses or model-specific expansions (e.g. Hofstadter), hampering the transfer of experimentally or numerically measured zero-field dispersions into reliable finite-field predictions and obstructing systematic calculation of how lattice symmetry and dispersive-band geometry modify Landau-level-like states and their transport properties.",
+        "content_hash": "933a9701cc9a072e6c9f5c25606b9f9495cae36a7abf80b93da01c8b1d066fda",
+        "id": "gcn_5524a16070454113",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867767689035120958::conclusion_2_subproblem",
+            "package_id": "paper:867767689035120958",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867767689035120958"
+          ]
+        },
+        "rerank_score": 0.7952744757684831,
+        "role": "premise",
+        "score": 0.019806763285024155,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In the nearest-neighbor tight-binding model of graphene on a hexagonal lattice, with the magnetic field included via Peierls phase factors and the magnetic flux through each hexagonal unit cell taken as $\\Phi$ such that $\\Phi/\\Phi_0 = p/q$ (where $\\Phi_0 = ch/e$ is the flux quantum and $p$ and $q$ are coprime integers), the energy eigenvalues form a Hofstadter-butterfly energy spectrum as a function of $\\Phi/\\Phi_0$.",
+        "content_hash": "f87f0f5fda722085709f2103ecf11592cfb52b4c547e3ed15914b607d980c878",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_d25693c5c64f4afa",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814688981575794689::conclusion_2",
+            "package_id": "paper:814688981575794689",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814688981575794689"
+          ]
+        },
+        "rerank_score": 0.8600965357636213,
+        "role": "conclusion",
+        "score": 0.006265320129424453,
+        "title": "Hofstadter-butterfly energy spectrum from the nearest-neighbor tight-binding model of graphene with rational magnetic flux",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Electrons moving in two-dimensional crystals subject to perpendicular magnetic field B form magnetic subbands (Hofstadter physics) whose theoretical description must bridge the zero-field Bloch-band Hilbert space and the finite-field Hilbert space respecting magnetic translation symmetry. Two widely used prior approaches are limited in complementary ways. The Landau-level (LL) expansion approach is formally exact but becomes computationally prohibitive at low B because the LL index cutoff N_c needed to converge energetics up to an energy window W scales as N_c ~ \\lambda W / \\hbar\\omega_c (with \\omega_c = eB/m_e c), so that N_c grows as B decreases; matrix elements of periodic potential operators are dense in LL indices, making low-field and interacting calculations costly. The Peierls-substitution / tight-binding approach is simple and efficient when the zero-field bands admit exponentially localized two-dimensional Wannier orbitals, but it is unclear or uncontrolled when applied to subsets of Bloch bands that are not 2D-Wannierizable (topologically nontrivial bands) or when finite-field energetic terms beyond the Peierls phase matter; moreover, naive use of the zero-field projector onto a subset of bands fails to commute with magnetic translations because the magnetic translation operator contains a y-dependent phase that takes states outside the zero-field subspace. These limitations mean that (i) there is no computationally efficient, systematically controlled finite-field Hilbert space construction for a subset of Bloch bands that both (a) preserves magnetic translation group (MTG) symmetry and (b) remains tractable at low B and for interaction problems; (ii) the regime of validity and quantitative errors of Peierls substitution and Harper-type approximations for continuum lattice potentials are not fully characterized in terms of microscopic length scales (magnetic length \\ell, Wannier/hybrid-Wannier spatial extent \\xi, lattice geometry and potential strength); and (iii) constructing an orthonormal MTG-respecting finite-field basis starting from zero-field band states requires a practical procedure that avoids projecting outside the band-subspace and that quantifies leakage (spillover) into remote magnetic subbands. These unresolved method-level issues motivate the present study.",
+        "content_hash": "b4cd4d3ae98a9da1e66f8eeee65d19821ea30c75e6531735483d99638ac2520b",
+        "id": "gcn_162311ae57e446a7",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867750002582094810::problem",
+            "package_id": "paper:867750002582094810",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867750002582094810"
+          ]
+        },
+        "rerank_score": 0.7591164172011551,
+        "role": "premise",
+        "score": 0.015997859818084537,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Physical context: to predict many-body topological phases one first needs an accurate single-particle description of how a perpendicular magnetic field reorganizes band structure in an effective moiré lattice with two orbitals per site and long-range hoppings. Prior baseline knowledge included single-orbital Hofstadter results and continuum approaches for twisted bilayer graphene, but not the explicit Peierls-implemented Hofstadter spectra for the specific two-orbital moiré tight-binding model used here.\n        Prior approaches and limitations: continuum Peierls approaches or truncations to very small-band tight-binding models either miss orbital-mixing effects or produce Hamiltonians whose magnetic-unit-cell implementation is unspecified; earlier minimal models captured zero-field flat bands but did not provide the explicit flux-resolved Hofstadter spectrum needed to identify Chern band structure in the presence of orbital mixing and long-range hoppings. As a consequence, it was not possible to determine which flux densities yield isolated Chern sub-bands and how orbital-mixing terms ($t_2'$) change band connectivity and Chern indices.\n        Consequences: without the explicit Peierls-substituted single-particle Hamiltonian and its computed spectrum, there was no direct map from moiré-model parameters to candidate topological flat bands amenable to many-body study; hence the existence and character of fractional phases in this realistic effective Hamiltonian remained undetermined.",
+        "content_hash": "c9fd41e376a3e94561411def7fca71f2794107072919a7334212fea090f511fd",
+        "id": "gcn_70236907da4d4e77",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867770179126296622::conclusion_1_subproblem",
+            "package_id": "paper:867770179126296622",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867770179126296622"
+          ]
+        },
+        "rerank_score": 0.7635429789783538,
+        "role": "premise",
+        "score": 0.017724104782504205,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The study is set in the context of quantum oscillations of electronic observables (Shubnikov–de Haas and de Haas–van Alphen effects) which are conventionally used to determine Fermi-surface areas by measuring oscillations periodic in the inverse magnetic field. Prior theoretical practice uses semi-classical Landau quantization and the Lifshitz–Kosevich (LK) formula, which relate oscillation frequency to the extremal Fermi-surface area and assume sharp, delta-function Landau levels and a chemical potential that crosses Landau levels as field varies. These semi-classical treatments and the LK framework neglect two lattice-specific effects that are intrinsic to tight-binding models: (i) the Harper broadening of Landau levels produced by the periodic potential, and (ii) the resulting complex spectrum (the Hofstadter butterfly) when the flux per unit cell $ \\phi/\\phi_0 $ is a rational $p/q$. Previous tight-binding studies of magnetization largely interpreted oscillations as arising from crossings of the chemical potential and Landau levels (the dHvA mechanism) and did not establish whether oscillatory magnetization can occur when the zero-field Fermi surface vanishes (for example, when the half-filled honeycomb lattice has only Dirac points) or when the chemical potential lies inside an energy gap opened by sublattice asymmetry ($\\varepsilon_A\\neq\\varepsilon_B$). Partial analytic work near commensurate fluxes (Berry and Wilkinson–Rammal phase contributions) exists for square lattices, but it does not resolve whether those phases (or other mechanisms) produce magnetization oscillations in tight-binding honeycomb systems with $\\mu$ inside a gap. Because of these limitations, there is no clear prediction or understanding of: whether magnetization oscillations can exist when the Fermi-surface area vanishes or when $\\mu$ is in a gap; what their dominant frequency and phase would be in tight-binding honeycomb systems; how the Hofstadter subband structure (including the $n=0$ Landau-related features) controls magnetization; and what temperature and experimental parameter ranges would be required to observe such effects in realistic superlattice or cold-atom realizations. This gap prevents the interpretation of magnetization data in moiré/antidot/optical-lattice systems where lattice-scale magnetic-field effects and band-broadening are important.",
+        "content_hash": "5e9e18304d52f2882bec9a65cdf96ece4985411ae323dd9909019bb0ad47b2df",
+        "id": "gcn_76da5cdb18dc4e58",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867770253826851094::problem",
+            "package_id": "paper:867770253826851094",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867770253826851094"
+          ]
+        },
+        "rerank_score": 0.8379018553775148,
+        "role": "premise",
+        "score": 0.017411412636876827,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Direct numerical Peierls-substitution calculations of the full tight-binding model in a magnetic field are computationally demanding and obscure analytical structure (selection rules, dependence on $m$ and $B$). To make magnetic-field effects tractable and physically transparent while retaining essential nonlinear vertices one needs a momentum-space Landau-level projector formalism that (i) avoids full real-space Peierls numerical overhead, (ii) exposes selection rules from orthogonality properties of Landau-level wavefunctions, and (iii) yields compact expressions suitable for efficient evaluation and physical interpretation.",
+        "content_hash": "53b3352029d24db697fecdfe528d7de6d6230c6306f9c606e6cffa9d901e3339",
+        "id": "gcn_beaf926d7f9d42d5",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867757619392020866::conclusion_7_subproblem",
+            "package_id": "paper:867757619392020866",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867757619392020866"
+          ]
+        },
+        "rerank_score": 0.7800732629436273,
+        "role": "premise",
+        "score": 0.018814997263273125,
+        "type": "question",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "req_103e907914203"
+}

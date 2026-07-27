@@ -1,0 +1,1512 @@
+{
+  "code": 0,
+  "data": {
+    "has_more": true,
+    "papers": {
+      "paper:1051382135996284932": {
+        "area": "arxiv-physics",
+        "authors": "Lucian Feng",
+        "available_online": "",
+        "cover_date_start": "2024-10-08",
+        "created_at": "2026-06-15T02:20:37+08:00",
+        "doi": "10.48550/arxiv.2410.06374",
+        "en_title": "Inverse Design of Photonic Crystal Waveguides Using Neural Networks and Dispersion Optimization",
+        "id": "1051382135996284932",
+        "keywords": "",
+        "publication_date": "2024-10-08",
+        "publication_id": "108520",
+        "publication_name": "Optics _ Physics.physics.optics",
+        "research_categories": "",
+        "zh_title": "基于神经网络和色散优化的光子晶体波导逆设计"
+      },
+      "paper:1066600829370236942": {
+        "area": "arxiv-physics",
+        "authors": "Nathan Roberts | Brook Salter | Jack Binysh | Peter J. Mosley | Anton Souslov",
+        "available_online": "",
+        "cover_date_start": "2024-11-20",
+        "created_at": "1970-01-01T08:00:00+08:00",
+        "doi": "10.48550/arxiv.2411.13064",
+        "en_title": "Twisted fibre: a photonic topological insulator",
+        "id": "1066600829370236942",
+        "keywords": "",
+        "publication_date": "2024-11-20",
+        "publication_id": "108520",
+        "publication_name": "Optics _ Physics.physics.optics",
+        "research_categories": "",
+        "zh_title": "扭曲光纤：一种光子拓扑绝缘体"
+      },
+      "paper:1074881578984800301": {
+        "area": "geoscience, physical sciences, condensed matter physics",
+        "authors": "Yuta Hirasaki | Koji Inui | Eiji Saitoh",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2024-12-08",
+        "created_at": "2026-06-11T05:02:18+08:00",
+        "doi": "10.1103/physrevb.110.214201",
+        "en_title": "Inverse magnetoconductance design by automatic differentiation",
+        "id": "1074881578984800301",
+        "impact_factor": 3.6,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "98281",
+        "publication_name": "Physical Review B - Condensed Matter and Materials Physics _ ",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "基于自动微分的逆磁导设计"
+      },
+      "paper:1079975996221816877": {
+        "area": null,
+        "authors": "Battaglia M. | Comi E. | Stadelmann T. | Hiestand R. | Ruhstaller B. | Knapp E.",
+        "available_online": "2023-7-28",
+        "cover_date_start": "2023-07-28",
+        "created_at": "2026-06-16T04:18:47+08:00",
+        "doi": "10.1063/5.0139707",
+        "en_title": "Deep ensemble inverse model for image-based estimation of solar cell parameters",
+        "id": "1079975996221816877",
+        "keywords": "",
+        "publication_date": "2023-9-1",
+        "publication_id": "132804",
+        "publication_name": "APL Machine Learning",
+        "research_categories": "",
+        "zh_title": "用于基于图像的太阳能电池参数估计的深度集成逆模型"
+      },
+      "paper:1130110077722689539": {
+        "area": "arxiv-physics",
+        "authors": "Ali Ghorashi | Sachin Vaidya | Ziming Liu | Charlotte Loh | Thomas Christensen | Max Tegmark | Marin Soljačić",
+        "available_online": "",
+        "cover_date_start": "2025-05-15",
+        "created_at": "2026-06-13T13:33:41+08:00",
+        "doi": "10.48550/arxiv.2505.10485",
+        "en_title": "Interpretable Artificial Intelligence for Topological Photonics",
+        "id": "1130110077722689539",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108520",
+        "publication_name": "Optics",
+        "research_categories": "",
+        "zh_title": "用于拓扑光子学的可解释人工智能"
+      },
+      "paper:1154755738371883010": {
+        "area": "arxiv-computer science",
+        "authors": "Rabia Altunay | Jarkko Suuronen | Eero Immonen | Lassi Roininen | Jari Hämäläinen",
+        "available_online": "",
+        "cover_date_start": "2025-07-22",
+        "created_at": "2026-06-15T01:44:08+08:00",
+        "doi": "10.48550/arxiv.2507.16470",
+        "en_title": "Computational design of personalized drugs via robust optimization under uncertainty",
+        "id": "1154755738371883010",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108594",
+        "publication_name": "Computational Engineering, Finance, and Science",
+        "research_categories": "",
+        "zh_title": "通过不确定性下的稳健优化进行个性化药物的计算设计"
+      },
+      "paper:1168160599096426499": {
+        "area": "arxiv-computer science",
+        "authors": "Diego Ferrer | Jack Hutchins | Revanth Koduru | Sumeet Kumar Gupta | Admedullah Aziz",
+        "available_online": "",
+        "cover_date_start": "2025-08-27",
+        "created_at": "2026-06-15T03:56:01+08:00",
+        "doi": "10.48550/arXiv.2508.20216",
+        "en_title": "Reverse Designing Ferroelectric Capacitors with Machine Learning-based Compact Modeling",
+        "id": "1168160599096426499",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108605",
+        "publication_name": "Emerging Technologies",
+        "research_categories": "",
+        "zh_title": "基于机器学习紧凑建模的铁电电容器逆向设计"
+      },
+      "paper:1190264974723776513": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Hao Jia | Shanglin Yang | Jiajun He | Shuo Liu | Haoxiang Chen | Ce Shang | Shaojie Ma | Peng Han | Ching Hua Lee | Zhen Gao | Yun Lai | Tie Jun Cui",
+        "available_online": "",
+        "cover_date_start": "2025-10-28",
+        "created_at": "2026-06-16T06:07:32+08:00",
+        "doi": "10.48550/arXiv.2510.24463",
+        "en_title": "Deep-Learning-Empowered Programmable Topolectrical Circuits",
+        "id": "1190264974723776513",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108482",
+        "publication_name": "Disordered Systems and Neural Networks",
+        "research_categories": "",
+        "zh_title": "深度学习赋能的可编程拓扑电路"
+      },
+      "paper:1200776689169203214": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "In Jun Park | Kamal Choudhary",
+        "available_online": "",
+        "cover_date_start": "2025-11-25",
+        "created_at": "2026-06-14T09:56:03+08:00",
+        "doi": "10.48550/arXiv.2511.20740",
+        "en_title": "CHIPS-TB: Evaluating Tight-Binding Models For Metals, Semiconductors, and Insulators",
+        "id": "1200776689169203214",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108483",
+        "publication_name": "Materials Science",
+        "research_categories": "",
+        "zh_title": "CHIPS-TB：评估金属、半导体和绝缘体的紧束缚模型"
+      },
+      "paper:1229645580209225733": {
+        "area": "arxiv-computer science",
+        "authors": "Dibakar Roy Sarkar | Vijay Kag | Birupaksha Pal | Somdatta Goswami",
+        "available_online": "",
+        "cover_date_start": "2024-12-06",
+        "created_at": "2026-06-17T00:14:32+08:00",
+        "doi": "10.48550/arXiv.2412.05133",
+        "en_title": "Learning Hidden Physics and System Parameters with Deep Operator Networks",
+        "id": "1229645580209225733",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108614",
+        "publication_name": "Machine Learning",
+        "research_categories": "",
+        "zh_title": "使用深度算子网络学习隐藏的物理和系统参数"
+      },
+      "paper:1250205177714049040": {
+        "area": null,
+        "authors": "Magnus Strandgaard | Trond Linjordet | Hannes Kneiding | Arron Burnage | Ainara Nova | Jan Halborg Jensen | David Balcells",
+        "available_online": "2025/01/26",
+        "cover_date_start": "2025-01-27",
+        "created_at": "2026-05-16T22:23:20+08:00",
+        "doi": "10.26434/chemrxiv-2024-mzs7b-v2",
+        "en_title": "A Deep Generative Model for the Inverse Design of Transition Metal Ligands and Complexes",
+        "id": "1250205177714049040",
+        "keywords": "[{\"en_name\": \"inverse design\", \"ch_name\": \"\"}, {\"en_name\": \"deep learning\", \"ch_name\": \"\"}, {\"en_name\": \"variational autoencoders\", \"ch_name\": \"\"}, {\"en_name\": \"metal ligands\", \"ch_name\": \"\"}, {\"en_name\": \"transition metal complexes\", \"ch_name\": \"\"}, {\"en_name\": \"generative models\", \"ch_name\": \"\"}]",
+        "publication_date": "",
+        "publication_id": "137752",
+        "publication_name": "chemRxiv-Organometallic Chemistry",
+        "research_categories": "",
+        "zh_title": "一种用于过渡金属配体和配合物逆向设计的深度生成模型"
+      },
+      "paper:811819747879419906": {
+        "area": "material science, chemical sciences, macromolecular and materials chemistry",
+        "authors": "Ekaterina I. Marchenko | Vadim V. Korolev | Sergey A. Fateev | Artem Mitrofanov | Nikolay N. Eremin | Eugene A. Goodilin | Alexey B. Tarasov",
+        "available_online": "2021-9-13",
+        "cas_zone": "2",
+        "cover_date_start": "2021-09-13",
+        "created_at": "2026-06-14T22:30:31+08:00",
+        "doi": "10.1021/acs.chemmater.1c02467",
+        "en_title": "Relationships between Distortions of Inorganic Framework and Band Gap of Layered Hybrid Halide Perovskites",
+        "id": "811819747879419906",
+        "impact_factor": 7.6,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2021-9-28",
+        "publication_id": "2060",
+        "publication_name": "Chemistry of Materials _ Chem. Mater.",
+        "research_categories": "[\"Chemical Sciences\", \"Macromolecular and Materials Chemistry\"]",
+        "zh_title": "层状杂化卤化物钙钛矿的无机骨架畸变与带隙之间的关系"
+      },
+      "paper:811876446615109633": {
+        "area": "physics and astrophysics, physics, multidisciplinary",
+        "authors": "J le Page | D R Mason | C P Race | W M C Foulkes",
+        "available_online": "2009-1-7",
+        "cas_zone": "3",
+        "cover_date_start": "2009-01-07",
+        "created_at": "2026-06-13T14:34:10+08:00",
+        "doi": "10.1088/1367-2630/11/1/013004",
+        "en_title": "How good is damped molecular dynamics as a method to simulate radiation damage in metals?",
+        "id": "811876446615109633",
+        "impact_factor": 2.8,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "525",
+        "publication_name": "New Journal of Physics _ New J. Phys.",
+        "research_categories": "",
+        "zh_title": "作为一种模拟金属中辐射损伤的方法，阻尼分子动力学的效果如何？"
+      },
+      "paper:812318981095424002": {
+        "area": "Physics and Astrophysics, physics, multidisciplinary",
+        "authors": "Vittorio Peano | Florian Sapper | Florian Marquardt",
+        "available_online": "2021-6-8",
+        "cas_zone": "1",
+        "cover_date_start": "2021-06-08",
+        "created_at": "2026-06-19T00:43:27+08:00",
+        "doi": "10.1103/physrevx.11.021052",
+        "en_title": "Rapid Exploration of Topological Band Structures Using Deep Learning",
+        "id": "812318981095424002",
+        "impact_factor": 15.7,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "479",
+        "publication_name": "Physical Review X _ Phys. Rev. X",
+        "research_categories": "",
+        "zh_title": "利用深度学习快速探索拓扑能带结构"
+      },
+      "paper:812501547341578241": {
+        "area": "physics and astrophysics, physical sciences, classical physics",
+        "authors": "Waqas W. Ahmed | Mohamed Farhat | Xiangliang Zhang | Ying Wu",
+        "available_online": "2021-2-12",
+        "cas_zone": "2",
+        "cover_date_start": "2021-02-12",
+        "created_at": "2026-06-16T11:00:34+08:00",
+        "doi": "10.1103/physrevresearch.3.013142",
+        "en_title": "Deterministic and probabilistic deep learning models for inverse design of broadband acoustic cloak",
+        "id": "812501547341578241",
+        "impact_factor": 4.9,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "68812",
+        "publication_name": "Physical Review Research _ Phys. Rev. Research",
+        "research_categories": "[\"Physical Sciences\", \"Classical Physics\"]",
+        "zh_title": "用于宽带声学隐身衣逆向设计的确定性和概率性深度学习模型"
+      },
+      "paper:812516094077042688": {
+        "area": "engineering technology, engineering, electrical & electronic, optics, telecommunications",
+        "authors": "Keisuke Kojima | Mohammad H. Tahersima | Toshiaki Koike-Akino | Devesh K. Jha | Yingheng Tang | Ye Wang | Kieran Parsons",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2021-02-15",
+        "created_at": "2026-05-18T23:08:05+08:00",
+        "doi": "10.1109/jlt.2021.3050083",
+        "en_title": "Deep Neural Networks for Inverse Design of Nanophotonic Devices",
+        "id": "812516094077042688",
+        "impact_factor": 4.5,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2021-2-15",
+        "publication_id": "3856",
+        "publication_name": "Journal of Lightwave Technology _ J. Lightwave Technol.",
+        "research_categories": "",
+        "zh_title": "用于纳米光子器件逆向设计的深度神经网络"
+      },
+      "paper:812530864717037569": {
+        "area": "physics and astrophysics, physics, multidisciplinary",
+        "authors": "Saoirse Freeney | Samuel T. P. Borman | Jacob W. Harteveld | Ingmar Swart",
+        "available_online": "2020-12-10",
+        "cas_zone": "2",
+        "cover_date_start": "2020-12-10",
+        "created_at": "2026-06-14T16:24:34+08:00",
+        "doi": "10.21468/scipostphys.9.6.085",
+        "en_title": "Coupling quantum corrals to form artificial molecules",
+        "id": "812530864717037569",
+        "impact_factor": 5.5,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "512",
+        "publication_name": "SciPost Physics _ SciPost Phys.",
+        "research_categories": "",
+        "zh_title": "耦合量子围栏以形成人工分子"
+      },
+      "paper:812538898029740032": {
+        "area": "material science, materials science, multidisciplinary, metallurgy & metallurgical engineering, mining & mineral processing, mineralogy",
+        "authors": "Anh Tran | Tim Wildey",
+        "available_online": "2020-11-20",
+        "cas_zone": "4",
+        "cover_date_start": "2020-11-20",
+        "created_at": "2026-05-18T22:36:29+08:00",
+        "doi": "10.1007/s11837-020-04432-w",
+        "en_title": "Solving Stochastic Inverse Problems for Property–Structure Linkages Using Data-Consistent Inversion and Machine Learning",
+        "id": "812538898029740032",
+        "impact_factor": 2.9,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "2021-1",
+        "publication_id": "2216",
+        "publication_name": "JOM _ JOM",
+        "research_categories": "",
+        "zh_title": "使用数据一致反演和机器学习解决属性-结构联系的随机反问题"
+      },
+      "paper:812555537357996035": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, atomic, molecular & chemical, quantum science & technology",
+        "authors": "Xingze Qiu | Jie Zou | Xiaodong Qi | Xiaopeng Li",
+        "available_online": "2020-10-16",
+        "cas_zone": "1",
+        "cover_date_start": "2020-10-16",
+        "created_at": "2026-05-23T02:53:05+08:00",
+        "doi": "10.1038/s41534-020-00315-9",
+        "en_title": "Precise programmable quantum simulations with optical lattices",
+        "id": "812555537357996035",
+        "impact_factor": 8.6,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2020-12",
+        "publication_id": "483",
+        "publication_name": "npj Quantum Information _ npj Quantum Inf",
+        "research_categories": "",
+        "zh_title": "利用光学晶格实现精确的可编程量子模拟"
+      },
+      "paper:812557443463643137": {
+        "area": "material science, engineering, nanotechnology",
+        "authors": "Jaehyeok Doh | Sang-In Park | Qing Yang | Nagarajan Raghavan",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2021-02-01",
+        "created_at": "2026-05-18T21:38:12+08:00",
+        "doi": "10.1016/j.carbon.2020.09.092",
+        "en_title": "Uncertainty quantification of percolating electrical conductance for wavy carbon nanotube-filled polymer nanocomposites using Bayesian inference",
+        "id": "812557443463643137",
+        "impact_factor": 11.3,
+        "jcr_zone": "Q1",
+        "keywords": "[{\"ch_name\":\"贝叶斯推理\",\"en_name\":\"Bayesian inference\"},{\"ch_name\":\"碳纳米管（CNT）波纹度\",\"en_name\":\"Carbon nanotube (CNT) waviness\"},{\"ch_name\":\"电渗流行为\",\"en_name\":\"Electrical percolation behavior\"},{\"ch_name\":\"皮尔逊相关系数\",\"en_name\":\"Pearson correlation coefficient\"},{\"ch_name\":\"聚合物纳米复合材料（PNC）\",\"en_name\":\"Polymer nanocomposites (PNC)\"},{\"ch_name\":\"不确定性量化（UQ）\",\"en_name\":\"Uncertainty quantification (UQ)\"}]",
+        "publication_date": "2021-2",
+        "publication_id": "2058",
+        "publication_name": "Carbon _ Carbon",
+        "research_categories": "[\"Engineering\", \"Nanotechnology\"]",
+        "zh_title": "使用贝叶斯推理对波浪形碳纳米管填充聚合物纳米复合材料的渗流电导进行不确定性量化"
+      },
+      "paper:812558777017434113": {
+        "area": null,
+        "authors": "A. Di Vito | A. Pecchia | M. Auf der Maur | A. Di Carlo",
+        "available_online": "",
+        "cover_date_start": "2020-09-01",
+        "created_at": "2026-05-20T05:44:41+08:00",
+        "doi": "10.1109/nusod49422.2020.9217665",
+        "en_title": "Tight binding parameterization through particle swarm optimization algorithm",
+        "id": "812558777017434113",
+        "keywords": "",
+        "publication_date": "2020-9",
+        "publication_id": "0",
+        "publication_name": "2020 International Conference on Numerical Simulation of Optoelectronic Devices (NUSOD)",
+        "research_categories": "",
+        "zh_title": "通过粒子群优化算法进行紧束缚参数化"
+      },
+      "paper:812601707472093187": {
+        "area": "geoscience, information and computing sciences",
+        "authors": "B.U.V. Prashanth | Mohammed Riyaz Ahmed",
+        "available_online": "",
+        "cover_date_start": "2020-01-01",
+        "created_at": "2026-05-28T04:19:55+08:00",
+        "doi": "10.1016/j.procs.2020.04.105",
+        "en_title": "Computer Aided Numerical Simulations of Current Induced Domain Wall in a Nanowire",
+        "id": "812601707472093187",
+        "keywords": "",
+        "publication_date": "2020",
+        "publication_id": "22969",
+        "publication_name": "Procedia Computer Science _ Procedia Computer Science",
+        "research_categories": "[\"Information and Computing Sciences\"]",
+        "zh_title": "纳米线中电流诱导磁畴壁的计算机辅助数值模拟"
+      },
+      "paper:812801252357308416": {
+        "area": null,
+        "authors": "Carlos L Reis | José Luís Martins",
+        "available_online": "2019-3-19",
+        "cover_date_start": "2019-03-19",
+        "created_at": "2026-06-02T04:54:30+08:00",
+        "doi": "10.1088/1361-648x/ab0932",
+        "en_title": "Practical band interpolation with a modified tight-binding method",
+        "id": "812801252357308416",
+        "keywords": "",
+        "publication_date": "2019-5-29",
+        "publication_id": "0",
+        "publication_name": "Journal of Physics: Condensed Matter _ J. Phys.: Condens. Matter",
+        "research_categories": "",
+        "zh_title": "使用改进的紧束缚方法的实用带插值"
+      },
+      "paper:812825644764233733": {
+        "area": "material science, chemical sciences, macromolecular and materials chemistry",
+        "authors": "Kyungdoc Kim | Seokho Kang | Jiho Yoo | Youngchun Kwon | Youngmin Nam | Dongseon Lee | Inkoo Kim | Youn-Suk Choi | Yongsik Jung | Sangmo Kim | Won-Joon Son | Jhunmo Son | Hyo Sug Lee | Sunghan Kim | Jaikwang Shin | Sungwoo Hwang",
+        "available_online": "2018-12-3",
+        "cas_zone": "1",
+        "cover_date_start": "2018-12-01",
+        "created_at": "2026-05-18T20:21:58+08:00",
+        "doi": "10.1038/s41524-018-0128-1",
+        "en_title": "Deep-learning-based inverse design model for intelligent discovery of organic molecules",
+        "id": "812825644764233733",
+        "impact_factor": 11.2,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2018-12",
+        "publication_id": "2057",
+        "publication_name": "npj Computational Materials _ npj Comput Mater",
+        "research_categories": "[\"Chemical Sciences\", \"Macromolecular and Materials Chemistry\"]",
+        "zh_title": "基于深度学习的有机分子智能发现逆设计模型"
+      },
+      "paper:813054246575407106": {
+        "area": "material science, chemical sciences",
+        "authors": "Eric B. Isaacs | Chris Wolverton",
+        "available_online": "2018-2-26",
+        "cas_zone": "2",
+        "cover_date_start": "2018-02-26",
+        "created_at": "2026-06-14T05:50:36+08:00",
+        "doi": "10.1021/acs.chemmater.7b04496",
+        "en_title": "Inverse Band Structure Design via Materials Database Screening: Application to Square Planar Thermoelectrics",
+        "id": "813054246575407106",
+        "impact_factor": 7.6,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2018-3-13",
+        "publication_id": "2060",
+        "publication_name": "Chemistry of Materials _ Chem. Mater.",
+        "research_categories": "[\"Chemical Sciences\"]",
+        "zh_title": "通过材料数据库筛选进行的逆带结构设计：在方形平面热电材料中的应用"
+      },
+      "paper:813107470183432192": {
+        "area": "engineering technology, construction & building technology, engineering, civil, instruments & instrumentation",
+        "authors": "Ka-Veng Yuen | Gilberto A. Ortiz",
+        "available_online": "2017-8-22",
+        "cas_zone": "2",
+        "cover_date_start": "2017-08-22",
+        "created_at": "2026-05-18T17:26:12+08:00",
+        "doi": "10.1002/stc.2077",
+        "en_title": "Multiresolution Bayesian nonparametric general regression for structural model updating",
+        "id": "813107470183432192",
+        "impact_factor": 5.8,
+        "jcr_zone": "Q1",
+        "keywords": "[{\"en_name\": \"Bayesian inference\", \"ch_name\": \"\"}, {\"en_name\": \"general regression\", \"ch_name\": \"\"}, {\"en_name\": \"modal data\", \"ch_name\": \"\"}, {\"en_name\": \"model updating\", \"ch_name\": \"\"}, {\"en_name\": \"nonparametric method\", \"ch_name\": \"\"}, {\"en_name\": \"structural health monitoring\", \"ch_name\": \"\"}]",
+        "publication_date": "2018-2",
+        "publication_id": "3863",
+        "publication_name": "Structural Control and Health Monitoring _ Struct Control Health Monit",
+        "research_categories": "",
+        "zh_title": "用于结构模型更新的多分辨率贝叶斯非参数广义回归"
+      },
+      "paper:817360227526508544": {
+        "area": "physics and astrophysics, physical sciences",
+        "authors": "Zhanhang Du | Jun Mei",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2022-08-30",
+        "created_at": "2026-06-15T04:36:38+08:00",
+        "doi": "10.1103/PhysRevResearch.4.033165",
+        "en_title": "Metagrating-based acoustic wavelength division multiplexing enabled by deterministic and probabilistic deep learning models",
+        "id": "817360227526508544",
+        "impact_factor": 4.9,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "68812",
+        "publication_name": "Physical Review Research _ ",
+        "research_categories": "[\"Physical Sciences\"]",
+        "zh_title": "基于确定性和概率性深度学习模型实现的基于超光栅的声波分复用"
+      },
+      "paper:817402413798391808": {
+        "area": "physics and astrophysics, physics, multidisciplinary",
+        "authors": "Vittorio Peano | Florian Sapper | Florian Marquardt",
+        "available_online": "",
+        "cas_zone": "1",
+        "cover_date_start": "2021-06-09",
+        "created_at": "2026-06-02T08:06:00+08:00",
+        "doi": "10.1103/PhysRevX.11.021052",
+        "en_title": "Rapid Exploration of Topological Band Structures Using Deep Learning",
+        "id": "817402413798391808",
+        "impact_factor": 15.7,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "479",
+        "publication_name": "Physical Review X _ ",
+        "research_categories": "",
+        "zh_title": "利用深度学习快速探索拓扑能带结构"
+      },
+      "paper:867749368948589161": {
+        "area": "arxiv-quantitative biology, biological sciences, biochemistry and cell biology",
+        "authors": "Vincent Zaballa | Elliot Hui",
+        "available_online": "",
+        "cover_date_start": "2021-11-26",
+        "created_at": "2026-06-16T08:26:28+08:00",
+        "doi": "10.48550/arXiv.2111.13612",
+        "en_title": "Optimal Design of Experiments for Simulation-Based Inference of Mechanistic Acyclic Biological Networks",
+        "id": "867749368948589161",
+        "keywords": "",
+        "publication_date": "2021-11-26",
+        "publication_id": "108566",
+        "publication_name": "Quantitative Methods _ Quantitative Biology.q-bio.QM",
+        "research_categories": "[\"Biological Sciences\", \"Biochemistry and Cell Biology\"]",
+        "zh_title": "基于模拟的无环生物网络推断实验的优化设计"
+      },
+      "paper:867752169594421591": {
+        "area": "arxiv-physics, mathematical sciences, mathematical physics, physical sciences, quantum physics",
+        "authors": "Pei-Lin Zheng | Si-Jing Du | Yi Zhang",
+        "available_online": "",
+        "cover_date_start": "2021-05-20",
+        "created_at": "2026-06-14T02:36:10+08:00",
+        "doi": "10.48550/arXiv.2105.09947",
+        "en_title": "Ground-state properties via machine learning quantum constraints",
+        "id": "867752169594421591",
+        "keywords": "",
+        "publication_date": "2021-05-20",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "[\"Mathematical Sciences\", \"Mathematical Physics\", \"Physical Sciences\", \"Quantum Physics\"]",
+        "zh_title": "通过机器学习量子约束实现的基态性质"
+      },
+      "paper:867752670503371378": {
+        "area": "arXiv-Physics, Physical Sciences, Classical Physics",
+        "authors": "Yang Jiao",
+        "available_online": "",
+        "cover_date_start": "2021-03-24",
+        "created_at": "2026-06-19T06:46:34+08:00",
+        "doi": "10.48550/arXiv.2103.12952",
+        "en_title": "Hyperuniform Density Distributions of Brownian Particles via Designer External Potentials",
+        "id": "867752670503371378",
+        "keywords": "",
+        "publication_date": "2021-03-24",
+        "publication_id": "108487",
+        "publication_name": "Soft Condensed Matter _ Physics.cond-mat.soft",
+        "research_categories": "[\"Physical Sciences\", \"Classical Physics\"]",
+        "zh_title": "通过设计外部势实现布朗粒子的超均匀密度分布"
+      },
+      "paper:867753067779457680": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Paul Henderson | Areg Ghazaryan | Alexander A. Zibrov | Andrea F. Young | Maksym Serbyn",
+        "available_online": "",
+        "cover_date_start": "2022-10-12",
+        "created_at": "2026-05-22T22:36:31+08:00",
+        "doi": "10.48550/arXiv.2210.06310",
+        "en_title": "Determining band structure parameters of two-dimensional materials by deep learning",
+        "id": "867753067779457680",
+        "keywords": "",
+        "publication_date": "2022-10-12",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "通过深度学习确定二维材料的能带结构参数"
+      },
+      "paper:867753935341879339": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Kathryn H. Matlack | Marc Serra-Garcia | Antonio Palermo | Sebastian D. Huber | Chiara Daraio",
+        "available_online": "",
+        "cover_date_start": "2016-12-07",
+        "created_at": "2026-06-19T03:41:32+08:00",
+        "doi": "10.48550/arXiv.1612.02362",
+        "en_title": "Designing Perturbative Metamaterials from Discrete Models: From Veselago lenses to topological insulators",
+        "id": "867753935341879339",
+        "keywords": "",
+        "publication_date": "2016-12-07",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "",
+        "zh_title": "从离散模型设计微扰超材料：从韦谢拉戈透镜到拓扑绝缘体"
+      },
+      "paper:867756925113074279": {
+        "area": "arxiv-physics, chemical sciences, theoretical and computational chemistry",
+        "authors": "R. A. Vargas-Hernández | K. Jorner | R. Pollice | A. Aspuru-Guzik",
+        "available_online": "",
+        "cover_date_start": "2022-11-30",
+        "created_at": "2026-06-17T00:32:25+08:00",
+        "doi": "10.48550/arXiv.2211.16763",
+        "en_title": "Inverse molecular design and parameter optimization with Hückel theory using automatic differentiation",
+        "id": "867756925113074279",
+        "keywords": "",
+        "publication_date": "2022-11-30",
+        "publication_id": "108510",
+        "publication_name": "Chemical Physics _ Physics.physics.chem-ph",
+        "research_categories": "[\"Chemical Sciences\", \"Theoretical and Computational Chemistry\"]",
+        "zh_title": "基于休克尔理论并利用自动微分进行逆分子设计与参数优化"
+      },
+      "paper:867757924515053703": {
+        "area": "arxiv-physics, engineering, information and computing sciences, applied computing",
+        "authors": "Yingzhanghao Zhou | Xiang Chen | Peng Zhang | Jun Wang | Lei Wang | Hong Guo",
+        "available_online": "",
+        "cover_date_start": "2022-02-10",
+        "created_at": "2026-06-09T21:38:01+08:00",
+        "doi": "10.48550/arXiv.2202.05098",
+        "en_title": "AD-NEGF: An End-to-End Differentiable Quantum Transport Simulator for Sensitivity Analysis and Inverse Problems",
+        "id": "867757924515053703",
+        "keywords": "",
+        "publication_date": "2022-02-10",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Engineering\", \"Information and Computing Sciences\", \"Applied Computing\"]",
+        "zh_title": "AD-NEGF：用于灵敏度分析和反问题的端到端可微量子输运模拟器"
+      },
+      "paper:867766592790855775": {
+        "area": "arxiv-physics, information and computing sciences, software engineering",
+        "authors": "Alvin Noe Ladines | Thomas Hammerschmidt | Ralf Drautz",
+        "available_online": "",
+        "cover_date_start": "2019-07-29",
+        "created_at": "2026-06-17T04:31:40+08:00",
+        "doi": "10.48550/arXiv.1907.12254",
+        "en_title": "BOPcat software package for the construction and testing of tight-binding models and bond-order potentials",
+        "id": "867766592790855775",
+        "keywords": "",
+        "publication_date": "2019-07-29",
+        "publication_id": "108512",
+        "publication_name": "Computational Physics _ Physics.physics.comp-ph",
+        "research_categories": "[\"Information and Computing Sciences\", \"Software Engineering\"]",
+        "zh_title": "用于构建和测试紧束缚模型及键序势的BOPcat软件包"
+      },
+      "paper:867768823288168730": {
+        "area": "arxiv-physics, arxiv-quantum physics",
+        "authors": "E. Rivera-Mociños | E. Sadurní",
+        "available_online": "",
+        "cover_date_start": "2015-06-12",
+        "created_at": "2026-06-14T13:56:33+08:00",
+        "doi": "10.48550/arXiv.1506.03876",
+        "en_title": "Inverse lattice design and its application to bent waveguides",
+        "id": "867768823288168730",
+        "keywords": "",
+        "publication_date": "2015-06-12",
+        "publication_id": "108526",
+        "publication_name": "Quantum Physics _ Physics.quant-ph.quant-ph",
+        "research_categories": "",
+        "zh_title": "倒易晶格设计及其在弯曲波导中的应用"
+      },
+      "paper:867770683369718451": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "N.Lauber | O.Tichacek | R.Bose | C.Flamm | L.Leuzzi | T-Y Dora tang | K. Ruiz-Mirazo | D. De Martino",
+        "available_online": "",
+        "cover_date_start": "2022-01-27",
+        "created_at": "2026-06-19T02:21:46+08:00",
+        "doi": "10.48550/arXiv.2201.11581",
+        "en_title": "Statistical mechanics of biomolecular condensates via cavity methods",
+        "id": "867770683369718451",
+        "keywords": "",
+        "publication_date": "2022-01-27",
+        "publication_id": "108488",
+        "publication_name": "Statistical Mechanics _ Physics.cond-mat.stat-mech",
+        "research_categories": "",
+        "zh_title": "通过腔方法研究生物分子凝聚物的统计力学"
+      },
+      "paper:867770998659743823": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Vittorio Peano | Florian Sapper | Florian Marquardt",
+        "available_online": "",
+        "cover_date_start": "2019-12-06",
+        "created_at": "2026-05-28T02:29:29+08:00",
+        "doi": "10.48550/arXiv.1912.03296",
+        "en_title": "Rapid Exploration of Topological Band Structures using Deep Learning",
+        "id": "867770998659743823",
+        "keywords": "",
+        "publication_date": "2019-12-06",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "利用深度学习快速探索拓扑能带结构"
+      },
+      "paper:923644246311829763": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Sudeshna Sen | Andrew K. Mitchell",
+        "available_online": "",
+        "cover_date_start": "2023-10-23",
+        "created_at": "2026-06-19T00:17:18+08:00",
+        "doi": "10.48550/arXiv.2310.14775",
+        "en_title": "Many-body quantum interference route to the two-channel Kondo effect: Inverse design for molecular junctions",
+        "id": "923644246311829763",
+        "keywords": "",
+        "publication_date": "2023-10-23",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "通往双通道近藤效应的多体量子干涉途径：分子结的逆向设计"
+      }
+    },
+    "variables": [
+      {
+        "content": "A differentiable inverse-design framework is formulated that finds onsite potential parameters $\\boldsymbol{\\theta}$ in a tight-binding Hamiltonian so that the resulting magnetic-field-dependent conductance $G(B;\\boldsymbol{\\theta})$ reproduces a prescribed target conductance trace $G_{\\mathrm{targ}}(B)$. The tight-binding Hamiltonian used for transport and differentiation is\n      $$\n      \\hat{H}=\\sum_{i} h_{i} c_{i}^{\\dagger} c_{i}\n      -\\sum_{\\langle i,j\\rangle} t\\exp\\left[-i\\pi\\frac{B a^{2}}{\\phi_{0}}(x_{i}-x_{j})(y_{i}+y_{j})\\right] c_{i}^{\\dagger}c_{j},\n      $$\n      where $h_i$ are onsite potentials (the design parameters), $t$ is the hopping, $a$ the lattice spacing, and $\\phi_0=h/e$ the flux quantum. The conductance is evaluated via the Landauer–Büttiker expression\n      $$\n      G=\\frac{e^{2}}{h}\\sum_{n\\in a, m\\in b} |S_{nm}|^{2},\n      $$\n      with $S_{nm}$ the scattering matrix between lead channels. The objective function minimized by gradient-based optimization is the logarithm of the root-sum-square difference between the computed and target conductance traces,\n      $$\n      L(\\boldsymbol{\\theta})=\\log\\left(\\sqrt{\\sum_{B}\\bigl[G(B;\\boldsymbol{\\theta})-G_{\\mathrm{targ}}(B)\\bigr]^{2}}\\right),\n      $$\n      and parameter updates are performed with standard adaptive optimizers (RMSProp or AdaBelief) using gradients obtained by automatic differentiation of the full conductance computation with respect to $\\boldsymbol{\\theta}$. This framework requires no training dataset of Hamiltonian–conductance pairs and directly performs inverse design by minimizing $L(\\boldsymbol{\\theta})$ in parameter space.",
+        "content_hash": "fe362a10f820540d6ceebc51b938e0d5b3c73620cdbb75c0a1f6394d6693d1a7",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_17339133dbf44624",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1074881578984800301::conclusion_1",
+            "package_id": "paper:1074881578984800301",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1074881578984800301"
+          ]
+        },
+        "rerank_score": 0.9099390936750855,
+        "role": "conclusion",
+        "score": 0.006377253109926377,
+        "title": "Differentiable inverse-design framework for magneto-conductance",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The tight-binding neural network (TB-NN) is differentiable with respect to input-geometry parameters (geometries parametrized via Fourier coefficients and a differentiable sigmoid discretization), enabling gradient-based optimization (inverse design) to find geometries reproducing target TB band structures or optimizing rewards such as band gaps. The neural network (NN) acceleration (≈1000×) allows millions of evaluations and hundreds of parallel optimization trials, which are used to (i) search for physical implementations of TB models including extended TBs supporting fragile topology (next-nearest-neighbor hoppings), and (ii) produce high-resolution maps of achievable regions in TB-parameter space (e.g., contours of minimal loss as a function of on-site energy $\\omega_0$, average hopping $\\bar{J}$, and hopping difference $\\delta J$).",
+        "content_hash": "3920e0651e5da1a2070c5974ab0309b9c0ec882aa890cefddb79f7070b5768c3",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_e218d22bfdf94651",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812318981095424002::conclusion_10",
+            "package_id": "paper:812318981095424002",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812318981095424002"
+          ]
+        },
+        "rerank_score": 0.865911979520573,
+        "role": "conclusion",
+        "score": 0.006403688524590164,
+        "title": "Enabling gradient-based inverse design and mapping accessible TB parameter space at large scale",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Tight-binding (TB) models are widely used for atomistic device simulations because they balance numerical efficiency and the ability to represent electronic bands formed by interacting atomic orbitals. A reliable TB representation, however, requires accurate parameterization of the Hamiltonian matrix elements (HME). In practice, those HME are obtained by fitting TB parameters to target properties such as band dispersions that can be measured experimentally or computed with higher-accuracy ab-initio methods (for example, density functional theory, DFT). This fitting step therefore sets the accuracy of any subsequent TB-based simulation. Prior practice typically relies on empirical fits or ad-hoc optimization to reproduce selected DFT or experimental observables, leaving open how to perform an automated, robust, and efficient search over the high-dimensional HME parameter space that guarantees (i) small discrepancy to the target band dispersions across sampled bands and $k$-points, and (ii) computationally affordable convergence for realistic parameter counts. Because parameter space dimensionality, correlations among parameters, and choice of fitting weights complicate the search, there is a practical need for an optimization strategy that maps TB HME to a cost function comparing TB and DFT eigenvalues and then reliably finds low-cost parameter sets with controlled computational effort. Without such an automated and demonstrably effective optimization workflow, TB parameterizations may remain suboptimal or labor-intensive, limiting quantitative predictive capability of TB-based device simulations.",
+        "content_hash": "f49161c8241756e1a0226db5c8dca41ab8b19661dcb39fbf9eb1625c6b79cc6d",
+        "id": "gcn_f5b9878833c94b63",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812558777017434113::problem",
+            "package_id": "paper:812558777017434113",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812558777017434113"
+          ]
+        },
+        "rerank_score": 0.9009094807944209,
+        "role": "premise",
+        "score": 0.0125,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The neural network (NN) that maps a unit-cell geometry to a symmetry-enhanced tight-binding (TB) model is used for inverse design: given a target band structure from a tight-binding model (e.g., honeycomb model with p‑d band inversion, or with next-nearest-neighbor hopping supporting fragile topology), the potential geometry is optimized via gradient descent on the NN-predicted band structure. Because the NN is differentiable, backpropagation through the entire pipeline (geometry → TB parameters → band structure) is possible. The optimization is accelerated by a factor of ~1000 compared to direct simulation. For the honeycomb model, the accessible parameter regions (on-site energy $\\omega_0$, average nearest-neighbor hopping $\\bar{J} = (J+J')/2$, and hopping difference $\\delta J = J' - J$) are mapped out by repeated optimizations. The method also finds geometries implementing fragile topological phases.",
+        "content_hash": "ee1e2768cd346ccf8a50e1606a7e79dc6ebd1b08c18b01eb95d197438e99eb10",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_0d1ce01faa964ce2",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817402413798391808::conclusion_7",
+            "package_id": "paper:817402413798391808",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817402413798391808"
+          ]
+        },
+        "rerank_score": 0.8502439721648829,
+        "role": "conclusion",
+        "score": 0.006600731962356221,
+        "title": "Gradient-based optimization to implement target tight-binding models",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In the CO/Cu(111) platform, an explicit, non-iterative mapping from measured spectral features of small coupled units to the full set of tight-binding parameters was lacking. Previously, designers inferred parameters only indirectly by iteratively comparing muffin-tin band structures to adjustable tight-binding models. This left ambiguity when several tight-binding parameters (ε, t1, t2, s) influence the same spectral splittings and precluded direct experimental determination of overlap and next-nearest-neighbour hopping magnitudes. Without a direct spectroscopic inversion procedure, one could not unambiguously quantify how geometry (gap width, removed CO count) translates into on-site shifts, finite overlap, or non-negligible t2, and therefore could not reliably predict lattice behaviour without repeated simulation–fit cycles.",
+        "content_hash": "8b77129885424aa6b6a3c55399802328b3b2cdac49e06d3f7b1a1d72af351669",
+        "id": "gcn_5a24091ab6c34b61",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812530864717037569::conclusion_1_subproblem",
+            "package_id": "paper:812530864717037569",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812530864717037569"
+          ]
+        },
+        "rerank_score": 0.8413106780207535,
+        "role": "premise",
+        "score": 0.006756756756756757,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Engineering design of PNCs for target electrical performance requires probabilistic input models to perform reliability-driven optimization and inverse design. Absent posterior distributions that reflect microstructure-induced and intrinsic-electrical uncertainties, optimization may be overconfident or miss important trade-offs. Providing posteriors from a physics-informed inference step addresses the need for initial probabilistic inputs that incorporate both geometric waviness effects and tunneling physics for downstream robust design.",
+        "content_hash": "1c54292188f0bc960692646ea40ea5556335ada33628f2739d76a5b881cc76a8",
+        "id": "gcn_dcaac73b286c48c6",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812557443463643137::conclusion_7_subproblem",
+            "package_id": "paper:812557443463643137",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812557443463643137"
+          ]
+        },
+        "rerank_score": 0.8391698380692829,
+        "role": "premise",
+        "score": 0.011235955056179775,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In the study of ABA trilayer graphene, the density of states must be computed for many combinations of hopping parameters, interlayer asymmetry, and charge density to compare with penetration capacitance experiments. Numerical evaluation of the tight-binding Hamiltonian on a momentum grid is slow, making systematic exploration and inverse determination of parameters impractical. A fast yet faithful emulator of the DOS simulator is therefore required to enable high-throughput parameter scans and gradient-based optimization.",
+        "content_hash": "a78ed95a385dd2f90b351f128602aa3951c2efbe2d7d4defff25931f059383b1",
+        "id": "gcn_492e15a8fcfc4625",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867753067779457680::conclusion_1_subproblem",
+            "package_id": "paper:867753067779457680",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867753067779457680"
+          ]
+        },
+        "rerank_score": 0.8077547491924058,
+        "role": "premise",
+        "score": 0.011363636363636364,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Given a target tight-binding matrix $\\mathcal{H}^{\\star}$, experimental realizations must produce a continuous potential $V_{\\mathrm{p}}(x)+V_{\\mathrm{D}}(x)$ whose single-band projection matches $\\mathcal{H}^{\\star}$ with high fidelity. The inverse map from $\\mathcal{H}^{\\star}$ to a realizable $V_{\\mathrm{D}}(x)$ is a high-dimensional, non-convex optimization constrained by limited DMD spatial bandwidth, experimental phase-stabilization requirements, and the need to keep $V_{\\mathrm{D}}$ weak enough to preserve the band gap. Prior approaches did not provide a scalable algorithm that simultaneously (i) accounts for high-band renormalization when extracting the effective tight-binding model, (ii) enforces smoothness and overlap consistency across large systems, and (iii) achieves computational efficiency exploitable for experimentally relevant system sizes. Without a tailored parametrization, cost functional, and piecewise sweeping procedure, the reverse-engineering problem is computationally intractable for large lattices or yields potentials that produce unacceptable deviations in tunnelings and onsite energies.",
+        "content_hash": "7f78366a32ca704d02d68a2e6e6bd7faedd58792e9d2b285fa4ed06ea695b0ed",
+        "id": "gcn_0d0b9761bc4741e0",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812555537357996035::conclusion_2_subproblem",
+            "package_id": "paper:812555537357996035",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812555537357996035"
+          ]
+        },
+        "rerank_score": 0.8066346026712663,
+        "role": "premise",
+        "score": 0.016129032258064516,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Physical context: one-dimensional tight-binding chains of identical sites with no local potentials arise when modeling discrete approximations to wave propagation or mode coupling in arrays and in low-energy truncations of waveguides. Prior state: it was known that specific tight-binding models can have symmetric spectra, but for the general family $H=F(\\hat{N})T+T^{\\dagger}F^{\\dagger}(\\hat{N})$ a general statement about spectral symmetry under only the nearest-neighbour, zero-potential assumption had not been isolated as a simple, model-independent property. Consequence of the gap: without a guaranteed spectral symmetry one could not restrict the inverse design problem to symmetric target spectra or exploit parity properties of eigenfunctions; this uncertainty complicated both the formulation of algebraic inversion equations and the selection of admissible target spectra for physical realization.",
+        "content_hash": "767d35153b9f35bdce04274283355613566484eb64b65ad5220ced589e20e3d3",
+        "id": "gcn_ed81fe952a344dec",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867768823288168730::conclusion_1_subproblem",
+            "package_id": "paper:867768823288168730",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867768823288168730"
+          ]
+        },
+        "rerank_score": 0.8957240465814067,
+        "role": "premise",
+        "score": 0.007575757575757576,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The inverse band structure design problem: given a target electronic band structure (energy $\\epsilon$ versus crystal momentum $\\mathbf{k}$) find a crystalline compound (composition, stoichiometry, and structure) that realizes that band structure. Prior to this work, the forward problem—computing the band structure for a specified crystal—was routine via Kohn–Sham density functional theory (DFT), but the inverse problem remained difficult for realistic materials discovery across broad chemical and structural spaces. Existing inverse-design strategies (for example, simulated annealing or genetic-algorithm based searches) addressed the inverse problem by optimizing atomic configurations or substitutional decorations within a fixed structural family or superlattice; these approaches therefore explored only the configurational space of a chosen prototype structure and chemical substitutional degrees of freedom, and required many repeated forward band-structure evaluations. Meanwhile, large materials databases (here, the Open Quantum Materials Database, OQMD) contain total energies and many DFT-derived quantities for hundreds of thousands of crystalline compositions, but do not store full band structures along high-symmetry $\\mathbf{k}$-paths needed to directly query for momentum-dependent features (e.g., anisotropic dispersion or “pudding-mold” shapes). As a result, there was no established, computationally efficient workflow to search over wide ranges of stoichiometries, chemistries, and known prototype structures for compounds that satisfy complex, $\\mathbf{k}$-dependent band-structure criteria (such as coexistence of flat and dispersive band regions needed for high thermoelectric power factor), while at the same time incorporating synthesizability considerations (thermodynamic stability/metastability). The lack of such a workflow forced either (i) narrow inverse-design searches confined to a specific structural family with heavy forward-calculation cost, or (ii) ad hoc manual searches that could not systematically identify candidate compounds across hundreds of thousands of entries, leaving a gap between database resources and inverse band-structure discovery for targeted electronic properties.",
+        "content_hash": "8f1768560ebcc58be12ae537648fee09cbc8a5662f535d50c0a8217237616b7e",
+        "id": "gcn_76f4718090fe4d8f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813054246575407106::problem",
+            "package_id": "paper:813054246575407106",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813054246575407106"
+          ]
+        },
+        "rerank_score": 0.7951040349411176,
+        "role": "premise",
+        "score": 0.009708737864077669,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The design and simulation of semiconductor and electronic materials at device-relevant length scales require computationally efficient electronic-structure methods that remain predictive across chemically and structurally diverse systems. Density Functional Theory (DFT) provides reliable first-principles electronic structure but is computationally expensive for large-scale or high-throughput studies, limiting its use for device- and materials-screening tasks. Tight-binding (TB) approaches offer far lower computational cost by representing crystal wavefunctions as linear combinations of localized atomic orbitals and using parameterized Hamiltonian and overlap matrix elements, but TB parameter sets are typically semi-empirical or fitted to narrow datasets and therefore suffer from limited transferability across different bonding chemistries, crystal structures, and target properties. Prior TB developments include non-orthogonal Slater–Koster formalisms, Density Functional Tight-Binding (DFTB) derived from DFT expansions, three-body TB extensions (e.g., TB3PY), and machine-learned SK parameterizers (e.g., SlaKoNet). However, there is no widely adopted, standardized benchmarking protocol that (a) defines consistent, quantitative metrics for electronic-structure fidelity (eigenvalue spectra and bandgaps) across many materials, (b) systematically compares multiple TB parameterizations to consistent DFT reference data, and (c) exposes property-specific transferability limits (e.g., whether a parameterization trained to reproduce semi-local DFT band energies also yields accurate mechanical properties or experimental bandgaps). As a result of these gaps, practitioners cannot reliably choose or improve TB parameterizations for particular targets (bandgaps, band dispersion, or mechanical response), comparisons across TB methods are ad hoc, and it remains unclear how parameterization strategy (e.g., inclusion of three-body angular terms or training to higher-level DFT bandgaps) quantitatively affects predictive performance for technologically relevant semiconductors and metals.",
+        "content_hash": "e4a19a209c82753a7de94365d222fb99aad1c43c7a246de9f92d910bdfd00269",
+        "id": "gcn_5053dd8e6c49491b",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1200776689169203214::problem",
+            "package_id": "paper:1200776689169203214",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1200776689169203214"
+          ]
+        },
+        "rerank_score": 0.7820484761733697,
+        "role": "premise",
+        "score": 0.006896551724137931,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "For reverse-design one requires an optimizer that can propose parameter combinations likely to reproduce a specified target electrical characteristic. High-fidelity simulators are too slow to be used inside such an optimizer, so an efficient surrogate is required. In addition, black-box optimizers must operate within reliable parameter bounds and termination criteria to be practical. Prior work did not demonstrate a concrete Bayesian-based inverse-design pipeline that (i) uses a compact model trained on phase-field data as a forward evaluator, (ii) constrains searches to physically plausible bounds derived from training data, and (iii) uses a quantitative target-fit metric ($R^{2}$) and fixed iteration cap for termination. Without such a pipeline, exploring multi-parameter inverse design with uncertainty-aware proposals remained impractical.",
+        "content_hash": "bd4d6f45aee7a1f85fece2885e1b46bea21ddadcb7f9f627df5b16dfa3de6014",
+        "id": "gcn_eed973c6bc3444ac",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1168160599096426499::conclusion_2_subproblem",
+            "package_id": "paper:1168160599096426499",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1168160599096426499"
+          ]
+        },
+        "rerank_score": 0.7792700982627048,
+        "role": "premise",
+        "score": 0.0072992700729927005,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "A central unresolved concern for data‑driven inverse design is whether a trained inverse model can (i) produce geometries at precision finer than the original sampling grid, and (ii) remain useful when asked to produce geometries outside the original parameter bounds. Practical device design benefits if an inverse model can both interpolate at high precision and extrapolate usefully. Prior to this work it was unclear whether a CNN trained on MPB band diagrams sampled on a $0.01\\\\ \\\\mu\\\\mathrm{m}$ grid could deliver four‑decimal precision predictions and whether those predictions, when fed back to a forward solver, would reproduce the intended dispersion shifts; the presented inverse tests and MPB cross‑validation address those uncertainties for the studied PCW family.",
+        "content_hash": "41e7c26aca1b15d26b612f57c43b8c6bc568d743ef0770076d3055c0a6a2fb19",
+        "id": "gcn_6e56e788404c4873",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1051382135996284932::conclusion_6_subproblem",
+            "package_id": "paper:1051382135996284932",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1051382135996284932"
+          ]
+        },
+        "rerank_score": 0.7712682664040329,
+        "role": "premise",
+        "score": 0.01020408163265306,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "MD users need not only to know whether a damping functional form is plausible but also to obtain reliable, material-specific parameter values. Previous studies have either assumed or heuristically adjusted parameters without a trajectory-resolved quantum-informed target. The methodology presented provides a principled route to derive such parameters from an explicit quantum–classical calculation, subject to the fidelity of the employed electronic Hamiltonian. Because the present study used a simplified tight-binding model (with an imperfect density of states and omitted local charge-neutrality/Hartree terms), its numerical parameter outputs should be viewed as illustrative; replacing the electronic model with a more realistic Hamiltonian would produce quantitatively trustworthy coefficients for production MD.",
+        "content_hash": "7b590400d97908909243313bc3d72bce437b5449fb65d6d255d3da25527b0a7d",
+        "id": "gcn_c8e22cdda2514e4a",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811876446615109633::conclusion_7_subproblem",
+            "package_id": "paper:811876446615109633",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811876446615109633"
+          ]
+        },
+        "rerank_score": 0.8690304392793513,
+        "role": "premise",
+        "score": 0.011764705882352941,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Tight-binding descriptions are frequently used to compute band structure and transport, but the choice of hopping/tight-binding parameters and their sensitivity to spin-orbit coupling is often treated heuristically. Without explicit sweeps of tight-binding parameter versus SOC energy for the same device geometry, transport and band-structure predictions lacked a quantified uncertainty and prevented consistent parametrization between electronic-structure and micromagnetic simulations.",
+        "content_hash": "06ee82044eaf79f57280ac640aa5f4482c1a9d6fa9aa0f61c51fc26078dcd3b2",
+        "id": "gcn_105a23620a4c404e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812601707472093187::conclusion_6_subproblem",
+            "package_id": "paper:812601707472093187",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812601707472093187"
+          ]
+        },
+        "rerank_score": 0.8186870763686644,
+        "role": "premise",
+        "score": 0.009900990099009901,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Deterministic inverse mappings deliver a single design per target spectrum, but practical implementation requires design diversity and tolerance quantification because (i) some material parameters may be unavailable or manufacturable only with finite tolerances, (ii) fabrication errors and environmental perturbations can deviate realized parameters from nominal values, and (iii) assessing which parameters are critical versus tolerant is essential for feasible fabrication. Prior inverse methods either returned a single design or did not provide principled uncertainty or sensitivity information. A probabilistic inverse model that yields full distributions over feasible physical parameters conditioned on a spectral objective therefore addresses the need to (i) generate alternative, implementable designs, (ii) quantify parameter tolerances and sensitivities, and (iii) improve robustness of cloaking by revealing which parameters must be tightly controlled (e.g., layer thickness) and which can be relaxed (e.g., bulk modulus).",
+        "content_hash": "d5ecf43663844beb74e0ddd8400258d765a2ae203808e96e41f4290a340182fe",
+        "id": "gcn_9e8d6ba79a644cf8",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812501547341578241::conclusion_4_subproblem",
+            "package_id": "paper:812501547341578241",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812501547341578241"
+          ]
+        },
+        "rerank_score": 0.77650656095075,
+        "role": "premise",
+        "score": 0.005813953488372093,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Practical device realization requires knowledge of acceptable parameter variation (fabrication tolerance, replacement materials, small deviations) that still preserve the desired WDM functionality. Deterministic inverse solutions provide single-point geometries but no explicit measure of parameter sensitivity or the existence of alternative acceptable geometries. A probabilistic inverse map that outputs distributions over design parameters for a given target response is therefore needed to (i) quantify tolerance, (ii) enable robust manufacturing choices, and (iii) expose design degeneracy. The VAE-based encoder coupled to the pretrained PNN as decoder directly addresses this need by returning Gaussian uncertainty estimates $N(\\mu,\\sigma^2)$ whose samples reproduce the target spectra when validated by FEM.",
+        "content_hash": "2861160afe6d9bea1924a35714cf03e3ca2f5a2621e58865ab1835ea967ee6e8",
+        "id": "gcn_1004357d03c646a4",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817360227526508544::conclusion_6_subproblem",
+            "package_id": "paper:817360227526508544",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817360227526508544"
+          ]
+        },
+        "rerank_score": 0.7659998337041118,
+        "role": "premise",
+        "score": 0.007518796992481203,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Physical/scientific context: Inverse design requires gradients of a loss function (defined in terms of low-energy effective couplings) with respect to many microscopic variables (hoppings, onsite energies, gate voltages).\n        Prior approaches and limitations: Numerical finite-difference gradients are expensive and inaccurate when each function evaluation involves many-body calculations; without analytic gradients gradient-based optimization is impractical for high-dimensional searches.\n        Consequences of the gap: Lack of analytic gradients prevented efficient gradient-descent inverse design across multi-parameter microscopic model spaces.\n        Connection to motivation: Providing analytic expressions that reduce gradient evaluation to accessible quantities (ground-state energy and wavefunction derivatives) enables robust and efficient inverse design of interacting molecular junctions.",
+        "content_hash": "69f788ecebf7c6b0b2cc4bfdbca7a1948fd89ccd9b210cacea7b4579a2392b0e",
+        "id": "gcn_b1a69b35d07f45ad",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:923644246311829763::conclusion_2_subproblem",
+            "package_id": "paper:923644246311829763",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:923644246311829763"
+          ]
+        },
+        "rerank_score": 0.7635598448404427,
+        "role": "premise",
+        "score": 0.014705882352941176,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Physical context: parameter inference and exploration across multi-dimensional interaction spaces require repeated evaluation of model-predicted phase behavior many times.\n        Prior state: Monte Carlo lattice simulations provide accurate evaluations but each simulation is time-consuming (hours), making parameter scans and optimization impractical; regular-solution formulas are fast but inaccurate in relevant interaction regimes.\n        Consequences: without a fast and accurate forward model, inverse problems (inferring microscopic couplings from experimental phase diagrams) cannot be performed at scale, hindering model calibration, uncertainty quantification, and experimental-protocol design.",
+        "content_hash": "ab3ccfee2a0419dacfd623318f4ec7fd0793ab80f1564561b8165c5b5c874bb2",
+        "id": "gcn_e3ba28efc6214da0",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867770683369718451::conclusion_6_subproblem",
+            "package_id": "paper:867770683369718451",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867770683369718451"
+          ]
+        },
+        "rerank_score": 0.7760111535735269,
+        "role": "premise",
+        "score": 0.0125,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Reliable design and prediction for fabricated fibres requires that simplified lattice models (tight‑binding/coupled‑mode) faithfully capture the electromagnetic behaviour obtained from full vectorial FEM solutions. Prior work often relied on one or the other method in isolation, leaving open how accurately tight‑binding Peierls‑phase models reproduce the full‑wave modes and spectral features of twisted multicore fibre cross‑sections, and whether tight‑binding models can be used with confidence to scan parameter space for fabrication guidance.",
+        "content_hash": "cc4fead4ed0c89d5d7778e330605d625222371eeb2f8ab7dc6e8c8a9fcede42c",
+        "id": "gcn_25fc075631ad4422",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1066600829370236942::conclusion_9_subproblem",
+            "package_id": "paper:1066600829370236942",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1066600829370236942"
+          ]
+        },
+        "rerank_score": 0.7589021837311076,
+        "role": "premise",
+        "score": 0.005813953488372093,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "For mechanistic models of greater complexity (here, the twostep BMP model with an extra binding step and an additional unknown parameter), posterior inference from limited experiments is more challenging: more parameters and more nonlinear algebraic constraints produce broader, multimodal, or poorly concentrated implicit posteriors, and fixed non-adaptive experimental designs (random or equidistant dosing) often fail to reduce uncertainty efficiently. Consequently, parameter recovery and uncertainty quantification require either many more experiments or an adaptive experimental-design strategy that targets parameter-sensitive regions; prior to this work there was no demonstrated sequential SBI design workflow tailored to such implicit, multivariate biological binding models that shows efficiency gains under comparable budgets.",
+        "content_hash": "2df6711550b485119f88cfd21daffd121468ec560f9ad43b33cd81b34625dfaf",
+        "id": "gcn_b2373c5c957742cb",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867749368948589161::conclusion_3_subproblem",
+            "package_id": "paper:867749368948589161",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867749368948589161"
+          ]
+        },
+        "rerank_score": 0.7698081176401887,
+        "role": "premise",
+        "score": 0.007352941176470588,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Atomistic modeling of materials requires computationally efficient interatomic models that retain electronic-structure information to predict properties beyond what classical pairwise potentials can capture. Density functional theory (DFT) provides accurate reference data but is too expensive for large-scale simulations; tight-binding (TB) and analytic bond-order potentials (BOP) provide a physics-based, coarse-grained description of bonding that can be evaluated much more cheaply. However, TB/BOP models depend on many functional choices and adjustable parameters that must be optimized to reproduce target properties (energies, forces, stresses, eigenvalues, defect energies, elastic constants, phonons, deformation paths, etc.). Prior parameterization tool chains have focused on classical potentials and do not readily support the distinctive needs of TB/BOP parameterization: (i) inclusion of electronic-structure level reference data such as eigenvalues and k-point–resolved quantities, (ii) successive, multi-layer optimization protocols where intermediate TB/BOP models are communicated between optimization stages, (iii) automated handling and filtering of large heterogeneous reference-data sets with calculator-specific identifiers, (iv) flexible objective functions and weighting schemes appropriate for mixed electronic and atomic targets, and (v) high-throughput parallel execution and integration with TB/BOP calculators (e.g., BOPfox) and atomistic frameworks (e.g., ASE). Because these capabilities were not available in an integrated, modular, and user-extensible software package, researchers faced practical obstacles when attempting systematic, reproducible, and efficient construction and testing of TB/BOP models: ad-hoc scripts or manual workflows limited the scope of reference data that could be used, impeded layered optimization strategies, made it difficult to include eigenvalue-level targets, constrained parallel high-throughput explorations of parameter space, and therefore hindered the production of transferable TB/BOP parameterizations for complex materials.",
+        "content_hash": "16017b4543a88fc165107350dc9e4e518ae606aa059697d8e2a76bc71e3dd3b9",
+        "id": "gcn_7d200ca5507a4f0a",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867766592790855775::problem",
+            "package_id": "paper:867766592790855775",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867766592790855775"
+          ]
+        },
+        "rerank_score": 0.8094503334639227,
+        "role": "premise",
+        "score": 0.008695652173913044,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Predicting where a wavefunction will localize given an arbitrary disorder realization, or inversely synthesizing disorder that forces localization at a prescribed site, is challenging because disorder data are high-dimensional and nonlocal in their physical consequences: small parameter changes can nonlinearly shift eigenmodes. Conventional neural networks treat disorder samples as generic images and therefore lack inductive biases reflecting lattice connectivity and tight-binding coupling rules; empirically this leads to poor generalization and low reliability when trained on physics datasets with strong disorder. Without models that incorporate graph structure and tight-binding constraints, it was not possible to achieve high-fidelity inverse design of disorder configurations for specific localization targets, which precludes practical closed-loop design, hardware verification, and applications that require reliable mapping between random-looking parameter sequences and deterministic localization outcomes.",
+        "content_hash": "f22f524e4884bd7306d4da8e445ba7034b1aeae4538c7984fd8a7201d6ce9fd7",
+        "id": "gcn_6f07eb69e37f46f1",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1190264974723776513::conclusion_2_subproblem",
+            "package_id": "paper:1190264974723776513",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1190264974723776513"
+          ]
+        },
+        "rerank_score": 0.7500247522198233,
+        "role": "premise",
+        "score": 0.025568181818181816,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Designing LHHPs with target band gaps demands a computational pipeline that (i) evaluates band gaps with acceptable accuracy and throughput, (ii) searches a physically meaningful structural design space, and (iii) gives interpretable attributions of which structural degrees of freedom control Eg. Before this work, accurate quasiparticle-level evaluations (GW) were too costly for iterative optimization, semilocal DFT suffered uncontrolled band-gap errors, and black-box ML/optimization approaches lacked a compact physics-based descriptor set and interpretable attribution. Thus, an integrated, computationally affordable inverse-design workflow that ties an approximate but quasiparticle-aware DFT scheme to Bayesian optimization and explainable ML was required to enable targeted searches and to quantify descriptor contributions.",
+        "content_hash": "8eaccbb33f5537ce10e1cd37ec03629084348744e96d0c2d92253301310267a7",
+        "id": "gcn_d0c0aa55d3ea40e7",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811819747879419906::conclusion_1_subproblem",
+            "package_id": "paper:811819747879419906",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811819747879419906"
+          ]
+        },
+        "rerank_score": 0.7492964278679207,
+        "role": "premise",
+        "score": 0.008333333333333333,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Inverse design of molecules with target electronic properties is often hampered by the combinatorial discrete nature of chemical identity at atomic sites, which makes direct gradient-based optimization in the discrete space inapplicable. Prior work either used non-gradient global search (costly in evaluations) or handcrafted alchemical schemes without efficient derivative propagation for higher-order observables. Without an AD-enabled physics model and a continuous parameterization of atom identity that is compatible with normalization constraints (e.g., softmax), it was not possible to exploit efficient gradient-based optimizers like quasi-Newton methods to quickly navigate composition space. As a result, inverse-design procedures required many more property evaluations and were less sample-efficient, especially when the target observable depended on higher-order responses (polarizabilities) or when only limited computational budget for property evaluations was available.",
+        "content_hash": "5b47e23e233fac2bd34609679aef3ce86b2b06dbfdd2ab07bbbea5905d47b455",
+        "id": "gcn_d5bff04cb14d4994",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867756925113074279::conclusion_3_subproblem",
+            "package_id": "paper:867756925113074279",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867756925113074279"
+          ]
+        },
+        "rerank_score": 0.7423460401483047,
+        "role": "premise",
+        "score": 0.015625,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The literature on inverse design for controlled-release structures had examples of shape-only inverse design and discrete combinatorial material allocation but lacked an uncertainty-aware topology-optimization demonstration that jointly optimizes continuous material distributions under stochastic dissolution-rate models. Establishing this integration fills a methodological gap between topology optimization, uncertainty quantification, and pharmaceutical release-design applications.",
+        "content_hash": "a96a9e1cf5e87c3271a660c492f32170e36cce3b9f20476be2e78384fc79355f",
+        "id": "gcn_78e963ad80ea43b7",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1154755738371883010::conclusion_10_subproblem",
+            "package_id": "paper:1154755738371883010",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1154755738371883010"
+          ]
+        },
+        "rerank_score": 0.7374171549919019,
+        "role": "premise",
+        "score": 0.005917159763313609,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Direct application of BNGR to the modal inverse mapping demands many simulated input–output pairs to densely cover the full structural-parameter domain because the BNGR likelihood expands the joint PDF by summing over samples. Generating those samples requires repeated finite-element eigenproblems, which is computationally expensive and often unnecessary if the quantity of interest lies in a localized region of parameter space. What is needed is a sampling and inference workflow that progressively concentrates computational effort near the most plausible parameter regions while retaining the Bayesian BNGR machinery for uncertainty quantification. The MR-BNGR zoom-in design addresses this by re-sampling from truncated Gaussians centered on current estimates, using an automatically scaled covariance computed from the $N_v$-th neighbor distance so that each stage both explores and refines the target region; moreover, limiting per-stage inference to the two BNGR hyperparameters avoids high-dimensional Bayesian updates and keeps per-stage optimization inexpensive.",
+        "content_hash": "9fa39546a9bed2b3c854f8b07a1c782afb564543f01e097f859888bc3969dc7c",
+        "id": "gcn_4c014365738643bb",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813107470183432192::conclusion_2_subproblem",
+            "package_id": "paper:813107470183432192",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813107470183432192"
+          ]
+        },
+        "rerank_score": 0.7794528058648547,
+        "role": "premise",
+        "score": 0.00625,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In practice one requires an inverse function that returns both best-estimate parameter values and credible uncertainty ranges so that model-based decisions (e.g., defect severity, expected power loss) can be made with quantified confidence. Prior numerical-inversion routines (least-squares, MCMC) either produce point estimates without calibrated predictive uncertainty or are too computationally costly for real-time use on spatial FEM images. Furthermore, EL-derived voltage images alone do not always contain independent information to determine each parameter uniquely; an inverse estimator must therefore explicitly represent parameter uncertainty so that non-identifiability (for example $j_0$ vs $R_{\\square}$ correlations) is made explicit instead of producing misleading point predictions. The formulated mapping $F^{-1*}$ addresses this need by producing per-parameter Gaussian approximations that can be used directly for fast forward resimulation and uncertainty-aware decisions.",
+        "content_hash": "5bbe1b547a7737a4842d13fa97b902eb3d2a01afbbb7f4ea17d20a9d787ede49",
+        "id": "gcn_e7db3905436f45f1",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1079975996221816877::conclusion_1_subproblem",
+            "package_id": "paper:1079975996221816877",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1079975996221816877"
+          ]
+        },
+        "rerank_score": 0.7276689217454282,
+        "role": "premise",
+        "score": 0.006493506493506494,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Determining process–structure–property linkages for materials requires mapping a stochastic, high-dimensional set of microstructure descriptors into distributions of homogenized material properties. Prior to this work, high-fidelity ICME (integrated computational materials engineering) forward models (e.g., CPFEM implemented in DAMASK) provide physically based predictions but are computationally expensive, so exhaustive forward sampling across microstructure parameter spaces is infeasible for uncertainty quantification (UQ) and inverse design. Existing inverse-design efforts in materials are predominantly deterministic optimization frameworks that return single optimal microstructure parameters or rely on parametric assumptions (e.g., Gaussian fits) for input/output distributions; such approaches do not provide a nonparametric probabilistic description of the set of microstructures that are consistent with a target distribution of properties. At the same time, stochastic inverse problems—finding a probability density on model inputs whose push-forward through the structure→property map matches a prescribed target density on outputs—are mathematically nontrivial: solutions may be nonunique, unstable, or impossible if the model cannot produce the target distribution, and practical solution algorithms require stable formulations and diagnostics (e.g., predictability conditions) plus efficient forward-surrogate evaluations. Consequently, there was a gap in methods that (a) compute nonparametric, data-consistent distributions over microstructure parameters (rather than single deterministic designs), (b) do not assume parametric forms for target or inverse distributions, (c) are numerically stable and diagnostically verifiable, and (d) are computationally tractable when the forward structure→property map is expensive. This paper is motivated by the need for a numerically stable, nonparametric stochastic inversion approach for structure–property linkages that can be made computationally practical by surrogate modeling, together with diagnostics that quantify predictability and information gained.",
+        "content_hash": "7683887430db51d7b730c17f715b4dbbb8eb91f3647a4b4ffd073f4e078992a3",
+        "id": "gcn_d3afbb52cbeb49c8",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812538898029740032::problem",
+            "package_id": "paper:812538898029740032",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812538898029740032"
+          ]
+        },
+        "rerank_score": 0.797323520709214,
+        "role": "premise",
+        "score": 0.005780346820809248,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In the physical context of designing topological bands in $p2$ (two-fold rotation) photonic crystals, existing classifiers either require high-dimensional image inputs or remain black-box functions of many parameters, preventing transparent identification of the minimal geometric degrees of freedom that determine topology. Without a compact, accurate model, inverse design remains computationally intensive and poorly constrained: optimization searches must manipulate a high-dimensional dielectric profile without guidance about which Fourier components actually control the band-symmetry splittings at high-symmetry $k$-points. The need is for a predictive model that is both accurate on realistic data and sufficiently sparse to reveal the physically relevant input parameters that one should tune during inverse design.",
+        "content_hash": "d70c5d205de0ff2dca93dda4ffa4080ad54a026782543949abdc3888b4d3bc2a",
+        "id": "gcn_774ec25336b040dd",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1130110077722689539::conclusion_1_subproblem",
+            "package_id": "paper:1130110077722689539",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1130110077722689539"
+          ]
+        },
+        "rerank_score": 0.7243067224714151,
+        "role": "premise",
+        "score": 0.00819672131147541,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In the inverse design demonstration, the optimization pipeline uses the NN-predicted band structure as the objective to match a target tight-binding model. The resulting unit-cell geometries are not verified by solving the true Schrödinger equation; only the NN's own prediction loss is monitored. Therefore, it is not established that the optimized geometries, when simulated with the continuum wave equation, would actually produce the target band structure or exhibit the intended fragile topological phases.Fig. 6",
+        "content_hash": "82e1a71bc0af55c9a13e499064b0eae5a7ed66a25838c8f36c5f99bdb7387cc2",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_99e4c814738543db",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867770998659743823::P8",
+            "package_id": "paper:867770998659743823",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867770998659743823"
+          ]
+        },
+        "rerank_score": 0.7721520167591571,
+        "role": "premise",
+        "score": 0.006070935052970981,
+        "title": "No direct validation of optimized geometries against the true Schrödinger equation",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "To perform inverse design that directly targets electronic structure properties of TMCs, it is necessary to map ligand structure to properties of assembled complexes at a level compatible with quantum chemistry (DFT) accuracy, and to condition generation on multiple, potentially orthogonal targets. Before this work, generative models seldom combined explicit coordination encodings with DFT‑labeled complex properties, and conditional generation was typically restricted to single objectives. Without a conditional model trained on ligands labeled by the properties of their assembled complexes, practitioners could not carry out deterministic, gradient‑guided optimizations in a two‑dimensional property space such as $(\\epsilon,\\mathrm{q_{Ir}})$, nor quantify how often decoded candidates satisfy DFT‑level target constraints after automated assembly and geometry optimization. This gap prevented systematic multi‑objective inverse design of ligands intended to tune both frontier orbital energetics and metal local charge simultaneously.",
+        "content_hash": "4bf2d2d839add7b88d166f7fe53c826056e32e1d12ccf32692423b5ed6210bd4",
+        "id": "gcn_ef8c69a5cc944e4b",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1250205177714049040::conclusion_3_subproblem",
+            "package_id": "paper:1250205177714049040",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1250205177714049040"
+          ]
+        },
+        "rerank_score": 0.7184937140559837,
+        "role": "premise",
+        "score": 0.006097560975609756,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Classical inverse estimation relies on iterative optimization where each parameter update entails one or more forward PDE solves; this makes repeated parameter estimation across many scenarios computationally costly. For applications requiring many inverse queries (uncertainty quantification, real-time monitoring, design optimization), such repeated forward solves are prohibitive. The scientific need is an inversion approach that amortizes computational cost via a learned surrogate: a one-time training expense followed by near-instantaneous parameter inference for many scenarios. Quantifying training time, per-query inference time, and net speedups compared to iterative solvers is necessary to demonstrate this benefit.",
+        "content_hash": "089a2362f265e452b45b76f8471978b120d2e4ee43e5b9891b44a74c2bb5433b",
+        "id": "gcn_4b764dc2a03f4445",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1229645580209225733::conclusion_8_subproblem",
+            "package_id": "paper:1229645580209225733",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1229645580209225733"
+          ]
+        },
+        "rerank_score": 0.7176615842229991,
+        "role": "premise",
+        "score": 0.015873015873015872,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Tight-binding models are widely used for large-scale simulations, but obtaining accurate parameters from first principles is non-trivial. Existing methods often require fitting band structures or Wannier functions. The MTB method naturally provides the Hamiltonian and overlap matrices in a non-orthogonal localized basis, from which tight-binding parameters can be directly read off for short-range interactions. This provides a convenient way to construct accurate tight-binding models without fitting, as demonstrated for the \\(\\pi\\) system of graphene.",
+        "content_hash": "36c836458e4b90e3f505f0740ec371af4bdcada5fae84692345ef21328e0f825",
+        "id": "gcn_ffe50d01d5b24de4",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812801252357308416::conclusion_8_subproblem",
+            "package_id": "paper:812801252357308416",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812801252357308416"
+          ]
+        },
+        "rerank_score": 0.7808208000569895,
+        "role": "premise",
+        "score": 0.007352941176470588,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Atomic-level engineering of transport (e.g., impurity doping, strain, local external fields) is often modeled by adjusting a small number of local SKTB parameters. Conventional black-box optimizers (genetic algorithms, Bayesian optimization) either require many iterations, are sensitive to hyper-parameters, or fail to reach stringent transmission-reduction targets within reasonable computational budgets; finite-difference gradient methods are similarly inefficient for parameter searches. There was no demonstrated method to optimize SKTB/dopant parameters end-to-end with gradients propagated from the NEGF-Poisson forward model, so atomistic inverse design that directly tunes local TB parameters to meet transport objectives remained inefficient and brittle.",
+        "content_hash": "5ba7f766f43871c7b63754aa3100cfddca4af9153ef4720f7fa00598469845d1",
+        "id": "gcn_a42bbf411bed4489",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867757924515053703::conclusion_7_subproblem",
+            "package_id": "paper:867757924515053703",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867757924515053703"
+          ]
+        },
+        "rerank_score": 0.72619363776976,
+        "role": "premise",
+        "score": 0.011904761904761904,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Accurate inverse design requires a reliable mapping from molecular representation to the target properties so that searching or sampling in descriptor/latent space yields vectors that correspond to molecules with the desired physical characteristics. If the learned property predictor is inaccurate, the inverse-design selection step (choosing $\\boldsymbol{x}$ or $\\boldsymbol{z}$ that satisfy a target condition on $f(\\boldsymbol{z})$) will not reliably produce molecules with the targeted computed properties, undermining downstream decoding and validation. Demonstrating that a DNN trained on a representative database can achieve high correlation with DFT-computed orbital and excitation energies establishes the essential predictive backbone needed for effective inverse sampling and for trusting the selection criterion used in the automated workflow.",
+        "content_hash": "35794ee8394ccbc1eb120fb34f4e3ceb10dd59330fe1642c1739a3bd54e2fc01",
+        "id": "gcn_d9d812725fec49b2",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812825644764233733::conclusion_2_subproblem",
+            "package_id": "paper:812825644764233733",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812825644764233733"
+          ]
+        },
+        "rerank_score": 0.7084315313907406,
+        "role": "premise",
+        "score": 0.007042253521126761,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "A practical inverse design method requires both efficient evaluation of candidate geometries and a search strategy that avoids combinatorial explosion. Straight gradient-only optimization of the full geometry is prone to getting stuck and is computationally expensive when every evaluation requires a full FE band-structure. By precomputing single-element reduced couplings and composing them additively, the pipeline converts an intractable global search into many tractable local searches; the subsequent gradient refinement compensates for non-additive second-order and long-range effects. This combination makes systematic realization of complex discrete models feasible within realistic computational budgets.",
+        "content_hash": "899ddfa9c06663e8993b601c46af4e61a76adbbb87e4098dc48c2c1ebe82450e",
+        "id": "gcn_c906d645088a4476",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867753935341879339::conclusion_5_subproblem",
+            "package_id": "paper:867753935341879339",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867753935341879339"
+          ]
+        },
+        "rerank_score": 0.798503236533037,
+        "role": "premise",
+        "score": 0.006666666666666667,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The work acknowledges several unresolved and actionable issues: (i) experimental realizability and implementation challenges — fabricating external tight-binding potential fields with the required spatial statistics and localization (e.g., arrays of optical traps or patterned substrates) may be difficult in practice, and quantitative protocols for constructing such potentials at relevant length and time scales remain to be developed; (ii) generalization to broader classes of reaction–diffusion systems and interacting-particle models — while the Smoluchowski framework treated here is a special overdamped limit for noninteracting Brownian particles, the realizability and stability of DHU steady states in diffusion–reaction equations and interacting many-body contexts require further theoretical and numerical study; (iii) inverse-realizability and optimization — determining which hypothetical target DHU patterns are physically realizable by conservative potentials (and finding practical, minimum-complexity potentials via inverse optimization) is an open inverse-design problem; (iv) extension to quantum systems — whether and how analogous tight-binding arrangements of nuclei or external potentials produce hyperuniform electronic states in interacting quantum systems needs systematic investigation beyond the classical analogy suggested here; and (v) application to biological and cellular systems — translating the framework to control cell distributions via engineered extracellular-matrix landscapes demands modeling of active motility, cell–matrix coupling, and experimental validation. These directions are explicitly identified as future research challenges in the paper.",
+        "content_hash": "4c12f67ecb0bd248423ad97abdc821898fd897686c028f0c8c337be877c814dc",
+        "id": "gcn_7245ce9fe61b4e5d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867752670503371378::open_question",
+            "package_id": "paper:867752670503371378",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867752670503371378"
+          ]
+        },
+        "rerank_score": 0.7354500269721037,
+        "role": "premise",
+        "score": 0.0078125,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "For practical inverse design one needs a deterministic or fast stochastic mapping from a desired spectral objective to a fabricable topology without running an external optimizer for each new target. Prior methods either used expensive per‑target optimizations (DBS/PSO) or adjoint optimization requiring careful initial guesses, and earlier NN inverse attempts suffered from limited expressivity. Therefore, there was a need for an inverse model architecture that (i) outputs fabricable binary topologies from SPEC inputs, (ii) generalizes to target conditions not seen densely in training data, and (iii) can be improved via iterative data augmentation so that design generation is extremely fast once the model is trained.",
+        "content_hash": "0386144dfd5af5dcb3ba712a3820bb8b6ba6eedb04fe3e512ddc1077e3dadd6d",
+        "id": "gcn_69b72771630e4466",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812516094077042688::conclusion_3_subproblem",
+            "package_id": "paper:812516094077042688",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812516094077042688"
+          ]
+        },
+        "rerank_score": 0.7190095906902303,
+        "role": "premise",
+        "score": 0.005988023952095809,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Designing Hamiltonians or directly optimizing complex functional targets of expectation values typically requires constructing and optimizing over variational Hamiltonians or performing many state-based searches; this is costly and indirect. A direct constrained maximization over the expectation-value manifold would sidestep Hamiltonian parameterization but demands a reliable representation of the physical manifold. The present result demonstrates that once a quantum-constraint function is available (analytic or learned), one can perform inverse-design-style optimizations directly in expectation-value space to realize target properties with results comparable to explicit variational-Hamiltonian searches, thereby providing a new route for property design.",
+        "content_hash": "512a17ff8d292310b3e238f97a692dc0340c6c6a3abc773ea343ec30b50c0a44",
+        "id": "gcn_68ccfb8e8912441a",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867752169594421591::conclusion_6_subproblem",
+            "package_id": "paper:867752169594421591",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867752169594421591"
+          ]
+        },
+        "rerank_score": 0.7243820459222915,
+        "role": "premise",
+        "score": 0.012345679012345678,
+        "type": "question",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "req_fa7c4d3e20c66"
+}

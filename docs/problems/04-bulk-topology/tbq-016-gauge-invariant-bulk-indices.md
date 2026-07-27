@@ -1,0 +1,78 @@
+---
+id: TBQ-016
+suite: 04-bulk-topology
+source_requirement: TB-REQ-016
+status: proposed
+acceptance_class: exact
+lkm_snapshot: 2026-07-27
+---
+
+# TBQ-016 — Gauge-invariant bulk indices
+
+## Scientific question
+
+Are Chern, Z2, winding, and crystalline indices invariant under admissible basis and
+occupied-subspace gauges?
+
+## Benchmark adaptation
+
+This is a benchmark adaptation motivated by the cited research. It is not a claim to
+reproduce the source paper. The benchmark family is:
+
+Haldane, Qi-Wu-Zhang, Kane-Mele, BBH, and nodal semimetal families with tunable mass,
+spin-orbit, and symmetry-breaking terms.
+
+## Parameters
+
+`t` or another explicitly named scale is the reference energy when a row is
+dimensionless. A concrete case must freeze exact values, conventions, and random seeds
+inside the public or held-out evaluator.
+
+| Name | Meaning | Public development range | Unit |
+| --- | --- | --- | --- |
+| `m/t` | topological mass control | -3.5 to 3.5 | dimensionless |
+| `lambda_SO/t` | intrinsic spin-orbit coupling | 0.02 to 0.20 | dimensionless |
+| `lambda_R/t` | Rashba coupling | 0 to 0.15 | dimensionless |
+| `delta/t` | symmetry-breaking perturbation | 0 to 0.20 | dimensionless |
+| `N_k` | mesh or loop resolution | 16 to 256 | points per direction |
+
+## Required computation
+
+Apply smooth, discontinuous, and random unitary gauges to representative gapped models
+and recompute each appropriate invariant.
+
+## Expected result
+
+Every invariant remains quantized and unchanged while the spectral and required symmetry
+gaps remain open.
+
+The expected result is a scientific relation, invariant, trend, or independently
+generated reference. Cross-package agreement alone is not ground truth.
+
+## Acceptance and convergence
+
+**Class:** `exact`
+
+Integer or Z2 result exact after rounding with raw deviation below 1e-5.
+
+Any numerical tolerance must be fixed before held-out evaluation and justified by the
+reference uncertainty, conditioning, and refinement study.
+
+## Held-out variants
+
+Hide the gauge construction and one topological class.
+
+Suite-wide isolation rule: Hold out a symmetry class, a nearly closed gap, and a basis-gauge family.
+
+## Evidence
+
+- LKM seeds: `gcn_e5dd806871ea4f6f`, `gcn_b761eeec869744ab`, and `gcn_177994dd04734e1e`.
+- Representative source: [Topological Insulators from Group Cohomology](https://doi.org/10.1103/physrevx.6.021008).
+- Source requirement: [`TB-REQ-016`](../../tight-binding-domain-benchmark-requirements.md)
+  in the domain-requirements derivation.
+- LKM retrieval rank is not a confidence or correctness probability.
+
+## Implementation status
+
+`proposed`: this document specifies a scientific problem but does not claim that any
+backend currently passes it. [`bulk_haldane_chern_transition`](../../../benchmark/cases.json) is related, but does not by itself establish full coverage of this specification.

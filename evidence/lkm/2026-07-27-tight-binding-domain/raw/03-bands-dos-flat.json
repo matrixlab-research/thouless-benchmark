@@ -1,0 +1,1503 @@
+{
+  "code": 0,
+  "data": {
+    "has_more": true,
+    "papers": {
+      "paper:1106552492092555270": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Qiwei Tian | Sahar Izadi Vishkayi | Chen Zhang | Jiang Zeng | Bo Li | Li Zhang | Long-Jing Yin | Yuan Tian | Meysam Bagheri Tagani | Lijie Zhang | Zhihui Qin",
+        "available_online": "",
+        "cover_date_start": "2025-03-11",
+        "created_at": "2026-06-19T06:30:27+08:00",
+        "doi": "10.48550/arxiv.2503.07945",
+        "en_title": "Kagome goldene with flat bands and Dirac nodal line fermions via line-graph epitaxy",
+        "id": "1106552492092555270",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "通过线图外延生长的具有平带和狄拉克节线费米子的戈薇金"
+      },
+      "paper:1131196464362422281": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Yevhen Kushnirenko | Lin-Lin Wang | Xiaoyi Su | Benjamin Schrunk | Evan O'Leary | Andrew Eaton | P. C. Canfield | Adam Kaminski",
+        "available_online": "",
+        "cover_date_start": "2025-05-16",
+        "created_at": "2026-06-13T21:18:21+08:00",
+        "doi": "10.48550/arxiv.2505.10817",
+        "en_title": "Observation of unexpected band splitting and magnetically-induced band structure reconstruction in TbTi_3Bi_4",
+        "id": "1131196464362422281",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons",
+        "research_categories": "",
+        "zh_title": "在TbTi₃Bi₄中观测到意外的能带分裂和磁诱导能带结构重构 "
+      },
+      "paper:1136667491045474305": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Moon Hyoung Lee | Hyungwoo Lee | Jun-Won Rhim",
+        "available_online": "",
+        "cover_date_start": "2025-06-02",
+        "created_at": "2026-06-15T05:42:25+08:00",
+        "doi": "10.48550/arxiv.2506.01894",
+        "en_title": "Enhancing van-Hove singularities in SrRuO_3 films by vacancy engineerings",
+        "id": "1136667491045474305",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons",
+        "research_categories": "",
+        "zh_title": "通过空位工程增强SrRuO₃薄膜中的范霍夫奇点"
+      },
+      "paper:1139531014951927809": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "F. Mesple | P. Mallet | C. Dutreix | G. Lapertot | J-Y. Veuillen | V. T. Renard",
+        "available_online": "",
+        "cover_date_start": "2025-06-10",
+        "created_at": "2026-06-13T17:36:34+08:00",
+        "doi": "10.48550/arxiv.2506.08913",
+        "en_title": "Experimental evidence of the topological obstruction in twisted bilayer graphene",
+        "id": "1139531014951927809",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "扭曲双层石墨烯中拓扑阻碍的实验证据"
+      },
+      "paper:1229469478262145025": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Yi Liu | Jing Li | Wu-Zhang Yang | Jia-Yi Lu | Bo-Ya Cao | Hua-Xun Li | Wan-Li Chai | Si-Qi Wu | Bai-Zhuo Li | Yun-Lei Sun | Wen-He Jiao | Wang Cao | Xiao-Feng Xu | Ren Zhi | Guang-Han Cao",
+        "available_online": "",
+        "cover_date_start": "2024-03-08",
+        "created_at": "2026-06-14T17:30:19+08:00",
+        "doi": "10.48550/arXiv.2403.05227",
+        "en_title": "Superconductivity in kagome metal ThRu3Si2",
+        "id": "1229469478262145025",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108490",
+        "publication_name": "Superconductivity",
+        "research_categories": "",
+        "zh_title": "kagome金属ThRu3Si2中的超导性"
+      },
+      "paper:1238105795019669508": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Yusen Xiao | Zhibin Qiu | Qingchen Duan | Zhaoyi Li | Hengxin Tan | Shu Guo | Ruidan Zhong",
+        "available_online": "",
+        "cover_date_start": "2026-03-09",
+        "created_at": "2026-05-16T01:24:53+08:00",
+        "doi": "10.48550/arXiv.2603.08565",
+        "en_title": "Heavy-Fermion Behavior and a Tunable Density Wave in a Novel Vanadium-based Mosaic Lattice",
+        "id": "1238105795019669508",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons",
+        "research_categories": "",
+        "zh_title": "新型钒基镶嵌晶格中的重费米子行为和可调密度波"
+      },
+      "paper:320819534518812672": {
+        "area": "physics",
+        "authors": "П. А. Игошев | В. Ю. Ирхин",
+        "available_online": null,
+        "cover_date_start": "2019-10-22",
+        "created_at": "2026-06-05T12:30:23+08:00",
+        "doi": "10.1134/S0370274X1923005X",
+        "en_title": "Electron spectrum topology and gigantic state density features in cubic lattice, £ {1)}$",
+        "id": "320819534518812672",
+        "keywords": null,
+        "publication_date": "2019-10-22",
+        "publication_id": "",
+        "publication_name": "JETP Letters",
+        "research_categories": null,
+        "zh_title": "三次晶格中的电子光谱拓扑和态密度的巨大特征"
+      },
+      "paper:7475202358601318433": {
+        "area": "arXiv-cond-mat",
+        "authors": "Peter Stoeckl | Przemyslaw Wojciech Swatek | Jian-Ping Wang",
+        "available_online": null,
+        "cover_date_start": "2026-06-20",
+        "created_at": "2026-07-08T10:35:08+08:00",
+        "doi": "10.48550/arxiv.2606.22256",
+        "en_title": "Van Hove Singularity and Phase Instability: Exploring the Role of Electron Correlation in the Magnetic Behavior of $\\mathrm{Fe}_{16}\\mathrm{N}_2$",
+        "id": "7475202358601318433",
+        "keywords": null,
+        "publication_date": "2026-06-20",
+        "publication_id": "",
+        "publication_name": "arXiv (cond-mat.str-el)",
+        "research_categories": null,
+        "zh_title": "Van Hove奇异性和相位不稳定性: 探索电子相关性在 $ \\ mathrm{Fe }_{ 16}\\ mathrm{N}_2 $ 磁性行为中的作用"
+      },
+      "paper:7480805078844534801": {
+        "area": "arXiv-cond-mat",
+        "authors": "Maolin Bo | Yaorui Tan | Sunxin Fan | Xiang Chen | Yunhu Zhu | Zhongkai Huang | Chuang Yao",
+        "available_online": null,
+        "cover_date_start": "2026-07-06",
+        "created_at": "2026-07-13T20:37:30+08:00",
+        "doi": "10.48550/arxiv.2607.05470",
+        "en_title": "Non Hermitian Tight Binding Bands in Graphene from Tan Bo Model: Strain Effects and Bernal Bilayer Extensions",
+        "id": "7480805078844534801",
+        "keywords": null,
+        "publication_date": "2026-07-06",
+        "publication_id": "",
+        "publication_name": "arXiv (cond-mat.mtrl-sci)",
+        "research_categories": null,
+        "zh_title": "来自Tan Bo模型的石墨烯中的非厄密紧密结合带: 应变效应和Bernal双层扩展"
+      },
+      "paper:811822664770387969": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, materials science, multidisciplinary",
+        "authors": "Ramiro Quijano | Romeo de Coss | David J. Singh",
+        "available_online": "2009-11-10",
+        "cas_zone": "2",
+        "cover_date_start": "2009-11-10",
+        "created_at": "2026-06-10T00:44:49+08:00",
+        "doi": "10.1103/physrevb.80.184103",
+        "en_title": "Electronic structure and energetics of the tetragonal distortion for TiH 2 , ZrH 2 , and HfH 2 : A first-principles study",
+        "id": "811822664770387969",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "TiH₂、ZrH₂和HfH₂四方畸变的电子结构与能量学：第一性原理研究"
+      },
+      "paper:812469412236886018": {
+        "area": "Material science, Physical Sciences, Condensed Matter Physics",
+        "authors": "Liangbing Ge | Kun Ni | Xiaojun Wu | Zhengping Fu | Yalin Lu | Yanwu Zhu",
+        "available_online": "2021",
+        "cas_zone": "3",
+        "cover_date_start": "2021-01-01",
+        "created_at": "2026-06-19T00:07:22+08:00",
+        "doi": "10.1039/d1nr00220a",
+        "en_title": "Emerging flat bands in large-angle twisted bi-layer graphene under pressure",
+        "id": "812469412236886018",
+        "impact_factor": 5.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "2079",
+        "publication_name": "Nanoscale _ Nanoscale",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "受压大角度扭曲双层石墨烯中出现的新兴平带"
+      },
+      "paper:812505051057618944": {
+        "area": "Material science, Chemical Sciences, Engineering",
+        "authors": "Aikaterini Flessa Savvidou | Judith K. Clark | Hua Wang | Kaya Wei | Eun Sang Choi | Shirin Mozaffari | Xiaofeng Qian | Michael Shatruk | Luis Balicas",
+        "available_online": "2021-2-2",
+        "cas_zone": "2",
+        "cover_date_start": "2021-02-02",
+        "created_at": "2026-06-18T23:27:54+08:00",
+        "doi": "10.1021/acs.chemmater.0c03943",
+        "en_title": "Complex Dirac-like Electronic Structure in Atomic Site-Ordered Rh 3 In 3.4 Ge 3.6",
+        "id": "812505051057618944",
+        "impact_factor": 7.6,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2021-2-23",
+        "publication_id": "2060",
+        "publication_name": "Chemistry of Materials _ Chem. Mater.",
+        "research_categories": "[\"Chemical Sciences\", \"Engineering\"]",
+        "zh_title": "原子有序的Rh₃In₃.₄Ge₃.₆中的类狄拉克复电子结构"
+      },
+      "paper:812579261679403009": {
+        "area": "physics and astrophysics, physics, multidisciplinary",
+        "authors": "A. Biswas | O. Iakutkina | Q. Wang | H. C. Lei | M. Dressel | E. Uykur",
+        "available_online": "2020-8-12",
+        "cas_zone": "1",
+        "cover_date_start": "2020-08-12",
+        "created_at": "2026-06-14T23:54:19+08:00",
+        "doi": "10.1103/physrevlett.125.076403",
+        "en_title": "Spin-Reorientation-Induced Band Gap in Fe 3 Sn 2 : Optical Signatures of Weyl Nodes",
+        "id": "812579261679403009",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "",
+        "zh_title": "铁锡化合物（Fe₃Sn₂）中自旋重取向诱导的带隙：外尔节点的光学特征 "
+      },
+      "paper:812596227320315906": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, materials science, multidisciplinary",
+        "authors": "A. Y. Tupchaya | L. V. Bondarenko | Y. E. Vekovshinin | A. A. Yakovlev | A. N. Mihalyuk | D. V. Gruznev | C. R. Hsing | C. M. Wei | A. V. Zotov | A. A. Saranin",
+        "available_online": "2020-6-26",
+        "cas_zone": "2",
+        "cover_date_start": "2020-06-26",
+        "created_at": "2026-06-17T06:39:11+08:00",
+        "doi": "10.1103/physrevb.101.235444",
+        "en_title": "Double-atomic-layer Tl-Mg compound on a Si(111) surface with advanced electronic properties",
+        "id": "812596227320315906",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "具有先进电子特性的硅（111）表面双原子层铊-镁化合物"
+      },
+      "paper:812676896981516289": {
+        "area": "physics and astrophysics, physics, multidisciplinary",
+        "authors": "P. A. Igoshev | V. Yu. Irkhin",
+        "available_online": "2020-2-18",
+        "cas_zone": "4",
+        "cover_date_start": "2019-12-01",
+        "created_at": "2026-06-13T10:35:14+08:00",
+        "doi": "10.1134/s0021364019230085",
+        "en_title": "Electron Spectrum Topology and Giant Singularities of the Electron Density of States in Cubic Lattices",
+        "id": "812676896981516289",
+        "impact_factor": 1.8,
+        "jcr_zone": "Q3",
+        "keywords": "",
+        "publication_date": "2019-12",
+        "publication_id": "675",
+        "publication_name": "JETP Letters _ Jetp Lett.",
+        "research_categories": "",
+        "zh_title": "立方晶格中电子能谱拓扑与电子态密度的巨大奇点"
+      },
+      "paper:812716941155237890": {
+        "area": null,
+        "authors": "Sobhit Singh | Zeila Zanolli | Maximilian Amsler | Brahim Belhadji | Jorge O. Sofo | Matthieu J. Verstraete | Aldo H. Romero",
+        "available_online": "2019-11-4",
+        "cover_date_start": "2019-11-04",
+        "created_at": "2026-06-01T10:39:52+08:00",
+        "doi": "10.1021/acs.jpclett.9b03043",
+        "en_title": "Low-Energy Phases of Bi Monolayer Predicted by Structure Search in Two Dimensions",
+        "id": "812716941155237890",
+        "keywords": "",
+        "publication_date": "2019-12-5",
+        "publication_id": "0",
+        "publication_name": "The Journal of Physical Chemistry Letters _ J. Phys. Chem. Lett.",
+        "research_categories": "",
+        "zh_title": "通过二维结构搜索预测双分子层的低能相"
+      },
+      "paper:814563309352124417": {
+        "area": "physics and astrophysics, physical sciences, condensed matter physics",
+        "authors": "B. Dietz | T. Klaus | M. Miski-Oglu | A. Richter | M. Wunderle | C. Bouazza",
+        "available_online": "2016-1-14",
+        "cas_zone": "1",
+        "cover_date_start": "2016-01-14",
+        "created_at": "2026-06-17T06:04:41+08:00",
+        "doi": "10.1103/physrevlett.116.023901",
+        "en_title": "Spectral Properties of Dirac Billiards at the van Hove Singularities",
+        "id": "814563309352124417",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "范霍夫奇点处狄拉克台球的光谱特性"
+      },
+      "paper:814612968275705856": {
+        "area": "physics and astrophysics, physics, multidisciplinary",
+        "authors": "Rui Yu | Hongming Weng | Zhong Fang | Xi Dai | Xiao Hu",
+        "available_online": "2015-7-17",
+        "cas_zone": "1",
+        "cover_date_start": "2015-07-17",
+        "created_at": "2026-06-14T23:06:55+08:00",
+        "doi": "10.1103/physrevlett.115.036807",
+        "en_title": "Topological Node-Line Semimetal and Dirac Semimetal State in Antiperovskite Cu 3 PdN",
+        "id": "814612968275705856",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "",
+        "zh_title": "反钙钛矿Cu₃PdN中的拓扑节线半金属和狄拉克半金属态"
+      },
+      "paper:814620514550022144": {
+        "area": "Physics and Astrophysics, physics, condensed matter, physics, applied, materials science, multidisciplinary",
+        "authors": "F. Iachello | B. Dietz | M. Miski-Oglu | A. Richter",
+        "available_online": "2015-6-19",
+        "cas_zone": "2",
+        "cover_date_start": "2015-06-19",
+        "created_at": "2026-06-19T00:13:25+08:00",
+        "doi": "10.1103/physrevb.91.214307",
+        "en_title": "Algebraic theory of crystal vibrations: Singularities and zeros in vibrations of one- and two-dimensional lattices",
+        "id": "814620514550022144",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "晶体振动的代数理论：一维和二维晶格振动中的奇点与零点"
+      },
+      "paper:817335546849263617": {
+        "area": "physics and astrophysics, physics, multidisciplinary",
+        "authors": "Philipp Rosenzweig | Hrag Karakachian | Dmitry Marchenko | Kathrin Küster | and Ulrich Starke",
+        "available_online": "",
+        "cas_zone": "1",
+        "cover_date_start": "2020-10-19",
+        "created_at": "2026-06-02T13:09:57+08:00",
+        "doi": "10.1103/PhysRevLett.125.176403",
+        "en_title": "Overdoping Graphene Beyond the van Hove Singularity",
+        "id": "817335546849263617",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ ",
+        "research_categories": "",
+        "zh_title": "超越范霍夫奇点的石墨烯过掺杂"
+      },
+      "paper:817404459578556417": {
+        "area": "geoscience, materials science, multidisciplinary, physics, condensed matter",
+        "authors": "Louk Rademaker | Dmitry A. Abanin | Paula Mellado",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2019-11-12",
+        "created_at": "2026-06-02T13:59:32+08:00",
+        "doi": "10.1103/PhysRevB.100.205114",
+        "en_title": "Charge smoothening and band flattening due to Hartree corrections in twisted bilayer graphene",
+        "id": "817404459578556417",
+        "impact_factor": 3.6,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "98281",
+        "publication_name": "Physical Review B   Condensed Matter and Materials Physics _ ",
+        "research_categories": "",
+        "zh_title": "由于扭曲双层石墨烯中的哈特里修正导致的电荷平滑和能带扁平化"
+      },
+      "paper:867746403164618859": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Haoxin Zhou | Ludwig Holleis | Yu Saito | Liam Cohen | William Huynh | Caitlin L. Patterson | Fangyuan Yang | Takashi Taniguchi | Kenji Watanabe | Andrea F. Young",
+        "available_online": "",
+        "cover_date_start": "2021-10-21",
+        "created_at": "2026-07-23T12:45:11+08:00",
+        "doi": "10.48550/arXiv.2110.11317",
+        "en_title": "Isospin magnetism and spin-triplet superconductivity in Bernal bilayer graphene",
+        "id": "867746403164618859",
+        "keywords": "",
+        "publication_date": "2021-10-21",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "伯纳尔双层石墨烯中的同位旋磁性与自旋三重态超导性"
+      },
+      "paper:867747990813540427": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Veerpal | Ajay",
+        "available_online": "",
+        "cover_date_start": "2023-04-24",
+        "created_at": "2026-06-13T05:24:39+08:00",
+        "doi": "10.48550/arXiv.2304.12279",
+        "en_title": "Evolution of Flat Band and Van Hove Singularities with Interlayer Coupling in Twisted Bilayer Graphene",
+        "id": "867747990813540427",
+        "keywords": "",
+        "publication_date": "2023-04-24",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "扭曲双层石墨烯中层间耦合作用下平带和范霍夫奇点的演化"
+      },
+      "paper:867750801643144024": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "J. H. Ho | Y. H. Chiu | S. J. Tsai | M. F. Lin",
+        "available_online": "",
+        "cover_date_start": "2008-09-09",
+        "created_at": "2026-06-16T08:23:17+08:00",
+        "doi": "10.48550/arXiv.0809.1514",
+        "en_title": "Semimetalic graphene in a modulated electric potential",
+        "id": "867750801643144024",
+        "keywords": "",
+        "publication_date": "2008-09-09",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "处于调制电势中的半金属性石墨烯"
+      },
+      "paper:867751434697834509": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Guohui Zheng | Xiaosi Qi",
+        "available_online": "",
+        "cover_date_start": "2020-02-04",
+        "created_at": "2026-06-19T09:58:58+08:00",
+        "doi": "10.48550/arXiv.2002.01160",
+        "en_title": "2D clathrate graphene in minimum egg-tray-shape: An \\textit{ab initio} study",
+        "id": "867751434697834509",
+        "keywords": "",
+        "publication_date": "2020-02-04",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "最小蛋托形状的二维笼形石墨烯：一项从头算研究"
+      },
+      "paper:867755213967065466": {
+        "area": "arxiv-physics, arxiv-mathematical physics",
+        "authors": "Samuel Savitz | Marcus Bintz",
+        "available_online": "",
+        "cover_date_start": "2017-10-25",
+        "created_at": "2026-06-17T03:21:59+08:00",
+        "doi": "10.48550/arXiv.1710.10260",
+        "en_title": "Exceptional Lattice Green's Functions",
+        "id": "867755213967065466",
+        "keywords": "",
+        "publication_date": "2017-10-25",
+        "publication_id": "108496",
+        "publication_name": "Mathematical Physics _ Physics.math-ph.math-ph",
+        "research_categories": "",
+        "zh_title": "特殊晶格格林函数"
+      },
+      "paper:867759989651931939": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "A. Biswas | O. Iakutkina | Q. Wang | H. C. Lei | M. Dressel | E. Uykur",
+        "available_online": "",
+        "cover_date_start": "2020-07-29",
+        "created_at": "2026-06-19T07:49:37+08:00",
+        "doi": "10.48550/arXiv.2007.14828",
+        "en_title": "Spin-reorientation-induced band gap in Fe$_3$Sn$_2$: Optical signatures of Weyl nodes",
+        "id": "867759989651931939",
+        "keywords": "",
+        "publication_date": "2020-07-29",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "Fe₃Sn₂中自旋重取向诱导的带隙：外尔节点的光学特征"
+      },
+      "paper:867760621217645252": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Rong-Bin Chen | Der-Jun Jang | Ming-Chieh Lin | Ming-Fa Lin",
+        "available_online": "",
+        "cover_date_start": "2018-03-13",
+        "created_at": "2026-06-13T11:03:18+08:00",
+        "doi": "10.48550/arXiv.1803.04649",
+        "en_title": "Optical Properties of Monolayer Bismuthene in Electric Fields",
+        "id": "867760621217645252",
+        "keywords": "",
+        "publication_date": "2018-03-13",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "电场中单原子层铋烯的光学性质"
+      },
+      "paper:867761384543224506": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics, quantum physics",
+        "authors": "Weihua Zhang | Xiaodong Zhang | Jiongning Che | M. Miski-Oglu | Barbara Dietz",
+        "available_online": "",
+        "cover_date_start": "2023-02-16",
+        "created_at": "2026-06-14T05:37:18+08:00",
+        "doi": "10.48550/arXiv.2302.10094",
+        "en_title": "Properties of the eigenmodes and quantum-chaotic scattering in a superconducting microwave Dirac billiard with threefold rotational symmetry",
+        "id": "867761384543224506",
+        "keywords": "",
+        "publication_date": "2023-02-16",
+        "publication_id": "108511",
+        "publication_name": "Classical Physics _ Physics.physics.class-ph",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "具有三重旋转对称性的超导微波狄拉克台球中本征模的性质及量子混沌散射"
+      },
+      "paper:867762692134273209": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Chenqiang Hua | Feng Sheng | Qifeng Hu | Zhu-An Xu | Yunhao Lu | Yi Zheng",
+        "available_online": "",
+        "cover_date_start": "2018-08-25",
+        "created_at": "2026-05-25T23:30:07+08:00",
+        "doi": "10.48550/arXiv.1808.08461",
+        "en_title": "Dialkali-Metal Monochalcogenide Semiconductors with High Mobility and Tunable Magnetism",
+        "id": "867762692134273209",
+        "keywords": "",
+        "publication_date": "2018-08-25",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "具有高迁移率和可调磁性的二碱金属单硫属化物半导体"
+      },
+      "paper:867767028507739107": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Li Huang | Haiyan Lu",
+        "available_online": "",
+        "cover_date_start": "2020-08-12",
+        "created_at": "2026-06-13T17:02:59+08:00",
+        "doi": "10.48550/arXiv.2008.05494",
+        "en_title": "Temperature dependence of correlated electronic states in archetypal kagome metal CoSn",
+        "id": "867767028507739107",
+        "keywords": "",
+        "publication_date": "2020-08-12",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "原型 Kagome 金属 CoSn 中关联电子态的温度依赖性"
+      },
+      "paper:867767221747712136": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Shengjun Yuan | Edo van Veen | Mikhail I. Katsnelson | Rafael Roldán",
+        "available_online": "",
+        "cover_date_start": "2015-12-20",
+        "created_at": "2026-06-16T06:38:23+08:00",
+        "doi": "10.48550/arXiv.1512.06345",
+        "en_title": "Quantum Hall effect and semiconductor to semimetal transition in biased black phosphorus",
+        "id": "867767221747712136",
+        "keywords": "",
+        "publication_date": "2015-12-20",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "量子霍尔效应与偏置黑磷中的半导体到半金属转变"
+      },
+      "paper:867768672419054017": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Botao Fu | Run-Wu Zhang | Xiaotong Fan | Si Li | Da-Shuai Ma | Cheng-Cheng Liu",
+        "available_online": "",
+        "cover_date_start": "2023-02-09",
+        "created_at": "2026-06-08T20:09:12+08:00",
+        "doi": "10.48550/arXiv.2302.04669",
+        "en_title": "2D Ladder polyborane: an ideal Dirac semimetal with a multi-feld-tunable band gap",
+        "id": "867768672419054017",
+        "keywords": "",
+        "publication_date": "2023-02-09",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "二维阶梯状多硼烷：一种具有多场可调带隙的理想狄拉克半金属"
+      },
+      "paper:867771243141530570": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Jiangang Yang | Yuyang Xie | Zhen Zhao | Xinwei Yi | Taimin Miao | Hailan Luo | Hao Chen | Bo Liang | Wenpei Zhu | Yuhan Ye | Jing-Yang You | Bo Gu | Shenjin Zhang | Fengfeng Zhang | Feng Yang | Zhimin Wang | Qinjun Peng | Hanqing Mao | Guodong Liu | Zuyan Xu | Hui Chen | Haitao Yang | Gang Su | Hongjun Gao | Lin Zhao | X. J. Zhou",
+        "available_online": "",
+        "cover_date_start": "2022-12-08",
+        "created_at": "2026-06-11T06:00:18+08:00",
+        "doi": "10.48550/arXiv.2212.04447",
+        "en_title": "Observation of Flat Band, Dirac Nodal Lines and Topological Surface States in Kagome Superconductor CsTi$_3$Bi$_5$",
+        "id": "867771243141530570",
+        "keywords": "",
+        "publication_date": "2022-12-08",
+        "publication_id": "108490",
+        "publication_name": "Superconductivity _ Physics.cond-mat.supr-con",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "在 Kagome 超导体 CsTi₃Bi₅ 中对平带、狄拉克节线和拓扑表面态的观测"
+      },
+      "paper:867772560236871907": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Chi-Ken Lu",
+        "available_online": "",
+        "cover_date_start": "2016-01-05",
+        "created_at": "2026-06-19T06:08:22+08:00",
+        "doi": "10.48550/arXiv.1601.00801",
+        "en_title": "Friedel oscillation near a van Hove singularity in two-dimensional Dirac materials",
+        "id": "867772560236871907",
+        "keywords": "",
+        "publication_date": "2016-01-05",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "二维狄拉克材料中范霍夫奇点附近的弗瑞德振荡"
+      },
+      "paper:867773019391525099": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Wulayimu Maimaiti | Barbara Dietz | Alexei Andreanov",
+        "available_online": "",
+        "cover_date_start": "2020-11-17",
+        "created_at": "2026-06-12T02:19:09+08:00",
+        "doi": "10.48550/arXiv.2011.09371",
+        "en_title": "Microwave photonic crystals as an experimental realization of a combined honeycomb-kagome lattice",
+        "id": "867773019391525099",
+        "keywords": "",
+        "publication_date": "2020-11-17",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "微波光子晶体作为蜂窝- Kagome复合晶格的实验实现"
+      },
+      "paper:884073270406545729": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Fuyi Wang | Haijun Zhang",
+        "available_online": "",
+        "cover_date_start": "2023-06-28",
+        "created_at": "2026-06-11T23:13:14+08:00",
+        "doi": "10.48550/arXiv.2306.15996",
+        "en_title": "Flat bands and magnetism in $\\mathrm{Fe_4 Ge Te_2}$ and $\\mathrm{Fe_5GeTe_2}$ due to bipartite crystal lattices",
+        "id": "884073270406545729",
+        "keywords": "",
+        "publication_date": "2023-06-28",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "由于二分晶格导致的$\\mathrm{Fe_4 Ge Te_2}$和$\\mathrm{Fe_5GeTe_2}$中的平带与磁性"
+      },
+      "paper:924004006311756048": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Anirudh Chandrasekaran | Luke C. Rhodes | Edgar Abarca Morales | Carolina A. Marques | Phil D.C. King | Peter Wahl | Joseph J. Betouras",
+        "available_online": "",
+        "cover_date_start": "2023-10-23",
+        "created_at": "2026-06-17T03:30:00+08:00",
+        "doi": "10.48550/arXiv.2310.15331",
+        "en_title": "Engineering higher order Van Hove singularities in two dimensions: the example of the surface layer of Sr$_2$RuO$_4$",
+        "id": "924004006311756048",
+        "keywords": "",
+        "publication_date": "2023-10-23",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "二维中高阶范霍夫奇点的工程实现：以Sr₂RuO₄表面层为例"
+      },
+      "paper:967238728734998531": {
+        "area": "material science, physical sciences, quantum physics",
+        "authors": "Paul M. Neves | Joshua P. Wakefield | Shiang Fang | Haimi Nguyen | Linda Ye | Joseph G. Checkelsky",
+        "available_online": "",
+        "cas_zone": "1",
+        "cover_date_start": "2024-02-21",
+        "created_at": "2026-05-21T14:08:41+08:00",
+        "doi": "10.1038/s41524-024-01220-x",
+        "en_title": "Crystal net catalog of model flat band materials",
+        "id": "967238728734998531",
+        "impact_factor": 11.2,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "2057",
+        "publication_name": "npj Computational Materials _ ",
+        "research_categories": "[\"Physical Sciences\", \"Quantum Physics\"]",
+        "zh_title": "模型平带材料的晶体网络目录"
+      },
+      "paper:995573268746338319": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Hengxin Tan | Yiyang Jiang | Gregory T. McCandless | Julia Y. Chan | Binghai Yan",
+        "available_online": "",
+        "cover_date_start": "2024-05-08",
+        "created_at": "2026-05-19T19:22:10+08:00",
+        "doi": "10.48550/arxiv.2405.04863",
+        "en_title": "Three-dimensional higher-order saddle points induced flat bands in Co-based kagome metals",
+        "id": "995573268746338319",
+        "keywords": "",
+        "publication_date": "2024-05-08",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "",
+        "zh_title": "三维高阶鞍点在钴基 Kagome 金属中诱导出平带"
+      }
+    },
+    "variables": [
+      {
+        "content": "Interpreting the experimentally observed thermodynamic and transport anomalies, and building microscopic models of correlated order, require knowledge of the non-interacting band structure (orbital characters, symmetry-protected band crossings, locations of van Hove singularities, and the baseline density of states). Prior to explicit first-principles calculations using the actual mosaic-lattice atomic positions and symmetry, it was not known whether the mosaic tiling would preserve kagome-like features (Dirac points, vHS, flat bands), whether V 3d states dominate near $E_F$, or what the unrenormalized density of states would be. These quantities are essential to quantify correlation-induced renormalizations (via comparison of $\\gamma$ to $\\gamma^{\\mathrm{band}}$), to identify momentum-space instabilities that could drive DW formation, and to supply input for low-energy effective models.",
+        "content_hash": "a70c49648a99c4c48414ad47fcf68ae09c18f6a71dcf6dd7032f2c30709f0e10",
+        "id": "gcn_4fb925994ab54a2e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1238105795019669508::conclusion_7_subproblem",
+            "package_id": "paper:1238105795019669508",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1238105795019669508"
+          ]
+        },
+        "rerank_score": 0.9091303260514922,
+        "role": "premise",
+        "score": 0.00819672131147541,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Reproducing the experimentally measured density of states (DOS) of the Dirac billiard (DB), notably near and above the van Hove singularities and flat band, required augmenting the honeycomb-kagome tight-binding model (TBM) with couplings and wave-function overlap terms up to third-nearest neighbors on the honeycomb sublattice. Inclusion of these extended TBM terms yields computed DOS that agrees quantitatively with the experimental DOS in the frequency ranges where experimental resonances were reliably identified.",
+        "content_hash": "1551c74bf43a489b28706a52dad66a42369a23ef8db46023dc3b4198709b30df",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_69af0746ea004c75",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867761384543224506::conclusion_4",
+            "package_id": "paper:867761384543224506",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867761384543224506"
+          ]
+        },
+        "rerank_score": 0.8636542959753958,
+        "role": "conclusion",
+        "score": 0.005946931052223123,
+        "title": "Necessity of extended TBM terms (up to third-nearest neighbor couplings and overlaps) to fit experimental DOS",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In low-dimensional electron systems a saddle-point (van Hove) singularity in the band structure produces an enhanced electronic density of states (DOS) that can drive strong-correlation phenomena (charge/spin order, superconductivity, nematicity). In three-dimensional (3D) momentum space, however, ordinary quadratic saddle points do not produce a divergent DOS, and therefore their ability to seed correlation-driven instabilities is much reduced. Theoretical proposals have argued that higher-order saddle points (HOSPs) — points where the band dispersion has higher-than-quadratic momentum dependence in one or more directions — can flatten the dispersion and substantially enhance the DOS even in 3D, but concrete analytic characterization of 3D HOSP DOS scaling and, critically, experimentally realistic material realizations were lacking. In parallel, in realistic kagome metals the key band features (flat bands, Dirac points, saddle points) are often energetically separated so their mutual interplay at the Fermi level cannot be explored. Thus, before this work there was (i) an unmet need for a clear, quantitative description of how 3D HOSP dispersion parameters (order $n$ and coefficients) control the DOS and its singularities, and (ii) a lack of identified, stable 3D crystalline materials in which HOSPs and the resulting extended flat dispersions lie at or very near the Fermi energy and whose robustness under chemical substitution and lattice distortions is known. These gaps prevented quantitative predictions for enhanced electronic instabilities in 3D systems and the experimental investigation of combined HOSP/flat-band/Dirac physics in real kagome metals.",
+        "content_hash": "df6fb568394909bfcacdca161bec5f8d4132944e1980fe61e537b16949c94f95",
+        "id": "gcn_b7cdd564aa464099",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:995573268746338319::problem",
+            "package_id": "paper:995573268746338319",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:995573268746338319"
+          ]
+        },
+        "rerank_score": 0.844394637214599,
+        "role": "premise",
+        "score": 0.005780346820809248,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The presence and energetic location of van Hove singularities determine whether a narrow-band system has an enhanced density of states at the Fermi level, a condition often implicated in electronic instabilities and correlated phases. Prior studies reported sharp VHS peaks for certain small-angle, low-pressure systems, but for large-angle TBG the existence and character (sharpness, energy) of VHSs under compression were unknown. Demonstrating saddle-point features in the VBM and CBM near K under high pressure for 9.4°-TBG resolves whether the pressure-induced flat bands are accompanied by VHSs capable of enhancing electronic correlations and thus is essential for assessing the potential for correlated phases in compressed large-angle TBG.",
+        "content_hash": "0188e3fae819fd584d1c23a890a2185a4f119566e18f07c7ab594f185535d116",
+        "id": "gcn_7296c8f60c964c18",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812469412236886018::conclusion_3_subproblem",
+            "package_id": "paper:812469412236886018",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812469412236886018"
+          ]
+        },
+        "rerank_score": 0.8198372011662878,
+        "role": "premise",
+        "score": 0.006756756756756757,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Identifying small-energy, localized features such as flat bands and near-degenerate touchings requires computational approaches that combine the accuracy of first-principles methods with the interpolation efficiency of Wannier-based tight-binding models to reach very dense $k$-space sampling.  Standard coarse-grid DFT band plots can miss or mischaracterize nearly flat bands and minute tilts that determine whether a crossing is a type-I, type-II, or the critical type-III touching.  By building a spinor Wannier tight-binding Hamiltonian consistent with the experimental lattice and including SOC, it becomes possible to resolve the fine structure of band touchings and to generate dense-$k$ Fermi surfaces needed for direct comparison with ARPES or quantum-oscillation experiments.",
+        "content_hash": "89c377c72bcae7e5276ca6c680c04399d586c3dedd7e605a0f8ee8bbb0910497",
+        "id": "gcn_93c658b7de674e1e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812505051057618944::conclusion_7_subproblem",
+            "package_id": "paper:812505051057618944",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812505051057618944"
+          ]
+        },
+        "rerank_score": 0.8155259735242986,
+        "role": "premise",
+        "score": 0.015625,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Transition-metal-oxide (TMO) films offer a route to interaction-driven phases when their single-particle density of states (DOS) near the Fermi level is enhanced, because large DOS can amplify instabilities such as Stoner ferromagnetism or density-wave orders. However, prior to this work two interrelated scientific gaps limited the use of oxides for flat-band–driven correlated physics. First, flat or nearly-flat electronic bands (which produce maximal van Hove singularities in the DOS) are uncommon among experimentally accessible TMOs: most known flat-band materials are non-oxide lattices (kagome, twisted bilayers, etc.), and theoretical proposals for oxide flat bands (for example in pyrochlore-like lattices) have remained largely unrealized experimentally. Second, for an experimentally relevant TMO — SrRuO3 (SRO) — the microscopic origin of the observed nearly-flat bands (NFBs) in thin-film band structures and concrete, materials-realistic routes to increase the number and spectral weight of such NFBs were not established. Existing tight-binding parametrizations reproduce measured dispersions but do not explain why those near-flat features appear nor prescribe how to enhance them without introducing uncontrolled approximations or relying on exotic lattice syntheses. As a result, researchers lacked (a) a clear mechanism-based explanation of the NFBs in SRO films in terms of localized eigenmodes (compact localized states, CLSs) and interference conditions among known hopping parameters, and (b) practicable, material-compatible structural modifications (e.g., vacancy patterns or thickness changes) that would reliably produce additional flat bands (complete across the Brillouin zone or partial along high-symmetry directions). These deficits prevented reliable predictions of enhanced van Hove singularities in SRO films and left open whether vacancy engineering or thickness control could be used, within experimentally realistic tight-binding parameter regimes, to create oxide flat-band platforms suitable for many-body studies.",
+        "content_hash": "7df68242c808d3680facede09f30908f1e00cf1ea4e214310da708e90554e013",
+        "id": "gcn_b6a7ab971a4d4607",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1136667491045474305::problem",
+            "package_id": "paper:1136667491045474305",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1136667491045474305"
+          ]
+        },
+        "rerank_score": 0.8079641043603953,
+        "role": "premise",
+        "score": 0.008480419194704908,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The kagome tight-binding idealization predicts an exactly flat band and Dirac points, but real elemental monolayers with multi-orbital character and substrate potentials can modify these features. To interpret STM/STS spectra and to assess whether the experimental goldene realizes kagome spectral motifs one needs layer-resolved first-principles band structures that include spin–orbit coupling, orbital character, and substrate periodic potential effects. Without such calculations one cannot assign observed LDOS peaks to flat-band, Dirac, or van Hove origins or understand how Au $d$-states and substrate coupling quantitatively alter the ideal kagome bands.",
+        "content_hash": "4043d2ebc0a8df5335e042ca55a7932c9c7005ed6a8d86aef860d00ab89561c9",
+        "id": "gcn_987029e1bca04c55",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1106552492092555270::conclusion_3_subproblem",
+            "package_id": "paper:1106552492092555270",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1106552492092555270"
+          ]
+        },
+        "rerank_score": 0.8002651626197795,
+        "role": "premise",
+        "score": 0.010711768851303736,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Van Hove singularities in the density of states enhance electronic correlations and can drive instabilities such as superconductivity or magnetism. In 2D materials, flat bands and high DOS are typically achieved through moiré superlattices, twistronics, or specific lattice geometries. Intrinsic 2D semiconductors with naturally flat valence bands hosting extended van Hove singularities are rare, yet they could provide a route to gate-tunable electronic phases if the Fermi level can be moved into the high-DOS region by doping. The valence band structure of DMMCs had not been studied, so the existence of such singularities was unknown.",
+        "content_hash": "ee4c1d023f37e9fb9c0819738600964c0dbc4f72c155f3cd4c0213332e1f7e1e",
+        "id": "gcn_b64b9fe5cc68457c",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867762692134273209::conclusion_4_subproblem",
+            "package_id": "paper:867762692134273209",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867762692134273209"
+          ]
+        },
+        "rerank_score": 0.870422058473034,
+        "role": "premise",
+        "score": 0.006622516556291391,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The electronic responses of correlated two-dimensional materials are often dominated by singular features of the band dispersion known as Van Hove singularities (VHs). Higher-order Van Hove singularities (HOVHs), where both the gradient and the Hessian determinant of the band energy $\\varepsilon(k_x,k_y)$ vanish, produce power-law divergences in the single-particle density of states (DoS) and qualitatively different thermodynamic and spectroscopic signatures compared to ordinary (logarithmic) saddle points. Prior theoretical classifications of HOVHs and a formal method to characterise them for model dispersions exist, but the practical identification, classification and engineering of HOVHs in realistic multi-orbital, spin–orbit-coupled materials remained unresolved. Density functional theory (DFT) can provide band structures, but (i) DFT places some low-energy features (notably an electron pocket at $\\bar{\\Gamma}$) at incorrect energies and (ii) multi-band complexity (orbital hybridisation, spin–orbit coupling (SOC), surface reconstructions and possible nematicity) prevents straightforward analytic extraction of the required high-order derivatives of band dispersions. Consequently, there was no established, validated workflow to (a) translate DFT-derived multi-orbital band structures into controlled low-energy tight-binding models, (b) compute robust high-order Taylor expansions of individual bands at candidate critical points in the presence of degeneracies and SOC, (c) determine the tuning-parameter values (e.g. octahedral rotation angle, nematicity, strain, chemical potential) where the Hessian determinant vanishes, and (d) connect these predictions to experiment (ARPES and STM/QPI) to confirm both the presence and the experimental energy window over which an HOVH dominates observables. This gap prevented: quantitatively establishing whether realistic tuning (structural rotations, strain, gating) can produce HOVHs in candidate materials; reliably assigning the order/classification of near-$E_F$ VHs in multi-band materials such as the surface layer of Sr2RuO4; and predicting the experimental signatures and materials-design criteria necessary to engineer HOVHs.",
+        "content_hash": "4fea28d008e817294bf6a33a5df7d65f85ede5628e3732c6d53d2808031a1925",
+        "id": "gcn_cc7595a5831c4bdb",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:924004006311756048::problem",
+            "package_id": "paper:924004006311756048",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:924004006311756048"
+          ]
+        },
+        "rerank_score": 0.7919889460608909,
+        "role": "premise",
+        "score": 0.012658227848101266,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Flat-band and saddle-point singularities enhance density of states and amplify correlation effects; to assess the potential for correlated phases one must know whether van Hove singularities lie near $E_{F}$. Prior to this study the presence, energy position, and band identity of any saddle point in a Tl–Mg surface system were unknown, preventing evaluation of the proximity to electronic instabilities (magnetism, superconductivity, charge order) that depend sensitively on LDOS peaks.",
+        "content_hash": "f761eab8aa20e66684b01f513903bf332203051b38daf3071b5d20d537bcec47",
+        "id": "gcn_0b5d64401f314dc3",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812596227320315906::conclusion_6_subproblem",
+            "package_id": "paper:812596227320315906",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812596227320315906"
+          ]
+        },
+        "rerank_score": 0.8416024520135941,
+        "role": "premise",
+        "score": 0.005847953216374269,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The bilayer kagome structure and multiple Fe d-orbitals in Fe3Sn2 produce flat bands that are not perfectly dispersionless; small band dispersions create peaks (van Hove singularities) in the density of states producing optical interband transitions near the Fermi energy. Prior surface-sensitive studies showed flat-band presence qualitatively, but did not provide a bulk-resolved inventory of the energies of van Hove transitions or their temperature evolution. Identifying and quantifying these optical modes is necessary to separate their contribution from Dirac interband absorption, to understand correlation effects in the flat bands, and to evaluate how these localized-band features couple to magnetism or possible gap openings.",
+        "content_hash": "50e459d8c1fa82f6a1fa6735a99f3c0ef3c455ee3228462041b73fc4d9dcc84b",
+        "id": "gcn_3493e24134ef4147",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867759989651931939::conclusion_4_subproblem",
+            "package_id": "paper:867759989651931939",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867759989651931939"
+          ]
+        },
+        "rerank_score": 0.8171004029359519,
+        "role": "premise",
+        "score": 0.015873015873015872,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "While the k·p model works in the low-energy regime, a global description of the band structure over the entire Brillouin zone is required to understand phenomena such as van Hove singularities, optical transitions, and electron correlation effects. For most 2D Dirac materials, a minimal tight-binding model with a few orbitals often suffices, but the distorted honeycomb lattice of ladder polyborane made it unclear whether a simple two-band model could capture all features. Prior tight-binding models for borophane typically required multiple orbitals and neglected the detailed hopping anisotropy. The inability to reproduce the full band structure with a compact model hinders the study of many-body instabilities (e.g., superconductivity near van Hove filling) and transport properties. The present work demonstrates that a two-band model with up to third-neighbor hoppings can quantitatively reproduce the DFT bands, including the van Hove singularities, thereby providing a computationally efficient tool for further studies.",
+        "content_hash": "df268b298059fa0ed20efde27cd4ae1c7f195266eb4e3af1a807dfbb4af1f873",
+        "id": "gcn_7e14acd0e36642b7",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867768672419054017::conclusion_4_subproblem",
+            "package_id": "paper:867768672419054017",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867768672419054017"
+          ]
+        },
+        "rerank_score": 0.7696738441600148,
+        "role": "premise",
+        "score": 0.006578947368421052,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Understanding the full band topology beyond the immediate Dirac regime requires experimental access to the higher-energy band structure around the van Hove singularity, where Fermi-surface topology changes and additional scattering channels open. Prior to this work there was incomplete, momentum-resolved experimental mapping of how the Dirac-derived contours evolve into the VHS-driven star-shaped contours in TBG and limited atomistic-level comparison of these higher-energy dispersions to structural/defect-resolved models. A momentum- and energy-resolved QPI probe able to track the Lifshitz transition and compare it to tight-binding calculations was therefore necessary to fully validate the non-interacting band structure across relevant energies.",
+        "content_hash": "27938c38056f7aed2a284cfdc4d804911d12c835f5c1d97e5bf362d72859f69a",
+        "id": "gcn_6779909c451b481a",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1139531014951927809::conclusion_6_subproblem",
+            "package_id": "paper:1139531014951927809",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1139531014951927809"
+          ]
+        },
+        "rerank_score": 0.7662925619728861,
+        "role": "premise",
+        "score": 0.00641025641025641,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The relationship between artificial (macroscopic) realizations of graphene and the ideal tight-binding graphene DOS needed experimental confirmation across full bands: while tight-binding and prior photonic/atomic realizations indicated Dirac minima and vHSs in the DOS, it was not demonstrated experimentally in superconducting Dirac billiards with complete bands and very high spectral resolution. Establishing the measured DOS structure is a prerequisite for assessing whether band-structure singularities influence spectral correlations and for locating regions (DP, band edges, vHS) where different physical approximations (linear vs quadratic dispersion) apply.",
+        "content_hash": "5597ecbf12064395c1c759c1f7feec71d4af942b7de72e0ff2c574539270b78e",
+        "id": "gcn_090571dc6f4b476f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814563309352124417::conclusion_2_subproblem",
+            "package_id": "paper:814563309352124417",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814563309352124417"
+          ]
+        },
+        "rerank_score": 0.7788032105766078,
+        "role": "premise",
+        "score": 0.03177805800756621,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Two-dimensional Dirac materials such as twisted graphene bilayer (tGB) and the surface states of topological crystalline insulators (TCI) can host low-energy saddle points in their band structures that generate a van Hove singularity (logarithmically divergent density of states) and hyperbolic constant-energy contours near the saddle. Prior theoretical understanding of long-range carrier-density oscillations (Friedel oscillations, FO) is well established for isotropic two-dimensional electron gas (2DEG) and for Fermi surfaces enclosing a Dirac point (where Berry-phase–induced suppression of backscattering leads to a $1/R^{3}$ decay), but there is little or no analytic or quantitative knowledge of FO when the Fermi level is near a saddle point. Specifically, (i) the static electronic response (Lindhard function $\\Pi(\\mathbf{q},\\Omega\\!\\to\\!0)$) for a hyperbolic Fermi surface near a van Hove singularity has not been derived in closed analytical form, (ii) the role of the wavefunction overlap (form factor $F(\\mathbf{k},\\mathbf{k}+\\mathbf{q})$) for scattering processes connecting opposite sides of the hyperbolic Fermi surface is not settled in this regime, and (iii) without the analytic singular structure of $\\Pi(\\mathbf{q})$ near the relevant nesting vectors one cannot determine the asymptotic spatial decay, oscillation wavevector, or screening strength of impurity-induced charge density $\\delta n(\\mathbf{R})$ measurable by scanning tunnelling microscopy (STM). These gaps prevent quantitative predictions of how FO and screening evolve as the chemical potential is tuned from the Dirac region across the van Hove singularity into higher energies, and thus impede interpretation of STM and other experiments probing impurity-induced and collective responses in these materials.",
+        "content_hash": "92c620f647d4187e663b4ad3d58c72503e79e6121e1c07fdc5c419d8592b0cc7",
+        "id": "gcn_3f8cf50cd297484f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867772560236871907::problem",
+            "package_id": "paper:867772560236871907",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867772560236871907"
+          ]
+        },
+        "rerank_score": 0.8627920342666069,
+        "role": "premise",
+        "score": 0.010752688172043012,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Experimental microwave Dirac billiards show two DPs separated by a narrow high-density spectral region reminiscent of a flatband; prior honeycomb-based TBMs, even with wave-function overlap terms, successfully described the bands framing the lower DP but could not account for the nearly flatband and the upper DP within a single model. Researchers therefore needed a lattice Hamiltonian with additional degrees of freedom and appropriate hopping ranges that could (1) encode the field maxima both at void centers and between cylinders, (2) produce the FB remnant and its broadening, and (3) yield band energies and DOS peaks aligned with experimental markers (DPs, van Hove singularities, FB) in a single consistent energy scale. The absence of such a model prevented a unified quantitative description of the measured spectral features and blocked the identification of the microscopic origin of the FB.",
+        "content_hash": "1f065e3f7707103bcce75b6cabc3b759a747e850d7856105cbe431686bdd716e",
+        "id": "gcn_a8473de845cf405d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867773019391525099::conclusion_1_subproblem",
+            "package_id": "paper:867773019391525099",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867773019391525099"
+          ]
+        },
+        "rerank_score": 0.7943351680334235,
+        "role": "premise",
+        "score": 0.00909090909090909,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The density of states (DOS) of graphene reflects its electronic structure and van Hove singularities. In monolayer graphene, the DOS has a characteristic V-shape near the Dirac point and van Hove peaks at $\\pm t$. For Bernal bilayer graphene, the four-band model predicts a more complex DOS due to interlayer coupling. It is of interest to compare the DOS of the monolayer and bilayer when both use the Tan–Bo intralayer model, to quantify how interlayer coupling and intralayer anisotropy reshape the DOS, particularly the height and position of the main peaks.",
+        "content_hash": "9b3bdb12b9a7ac4846a16d15a5cd4c8946887e95d8a8afbf38ee395b724676fc",
+        "id": "gcn_d65d46b2af3148ba",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:7480805078844534801::conclusion_5_subproblem",
+            "package_id": "paper:7480805078844534801",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:7480805078844534801"
+          ]
+        },
+        "rerank_score": 0.7550260257564362,
+        "role": "premise",
+        "score": 0.010309278350515464,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "For bilayer BP at Δ=2.2 eV > Δ_c, the full tight-binding calculation yields: (i) band structure (Fig. 2(c)) showing two Dirac points along Γ–X, (ii) constant energy contours (Fig. 3(c)) with two Fermi pockets, (iii) zero-field DOS linearly proportional to energy over a range of ~0.2 eV (Fig. 6(c) at B=0), and (iv) Landau level DOS at B=65 T (Fig. 6(f)) that is non-equidistant and merges at a Van Hove singularity. These multiple independent signatures—band dispersion, CEC topology, DOS scaling, and LL pattern—collectively provide strong numerical evidence that the low-energy excitations are Dirac-like.",
+        "content_hash": "981c83bbc8e77bcd7ca74c67ab98d859b4fef7befc3e4c2547d221456347a40b",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_cd49c21392e241f1",
+        "kind": "highlight",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867767221747712136::H3",
+            "package_id": "paper:867767221747712136",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867767221747712136"
+          ]
+        },
+        "rerank_score": 0.8502143687431285,
+        "role": "premise",
+        "score": 0.005739069122988251,
+        "title": "Full-band numerical demonstration of Dirac cone features",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Quantitative benchmarking of the tight-binding band parameters for Bernal bilayer graphene against experimental data in the large-displacement-field, low-density van Hove regime is incomplete. The tight-binding model used to compute the single-particle density of states and Fermi contours relies on parameters derived from numerical band-structure calculations that have not been experimentally calibrated in the regime where superconductivity occurs—specifically, at interlayer potential differences near 50 meV (corresponding to D ≈ 0.5 V/nm) and carrier densities around n_e ≈ -0.5 × 10^12 cm^{-2}. While the existence of a saddle-point van Hove singularity in this density range is expected to be generic, the precise Fermi-surface geometry, the size and shape of the pockets, and the quantitative energy scales depend on the unverified parameters. This uncertainty hinders microscopic modeling of the electronic structure that underlies both the normal-state isospin phases and the superconducting pairing.",
+        "content_hash": "09824f458c6ae96f5acb4908873bc0ec9ca0a6cc8cb903bdc521fd1819a8b72a",
+        "id": "gcn_2683e0b3016649aa",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867746403164618859::open_question_6",
+            "package_id": "paper:867746403164618859",
+            "version": "open-question-atomization-v2"
+          },
+          "source_packages": [
+            "paper:867746403164618859"
+          ]
+        },
+        "rerank_score": 0.7700971829374804,
+        "role": "premise",
+        "score": 0.0136986301369863,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In the study of electronic band structures the stationary points of $\\epsilon(\\mathbf{k})$ (Van Hove singularities) determine non-analytic features of the density of states and drive topology changes of constant-energy surfaces (Fermi seas). Morse theory guarantees the existence and multiplicity structure abstractly, but does not provide the explicit stationary-point energies, indices, or multiplicities for a given lattice dispersion. For the exceptional lattices, these explicit data were absent: without them one cannot identify where non-smooth spectral features lie, cannot predict the order of non-analyticities in $\\rho(\\epsilon)$, nor can one determine which energies will cause qualitative Fermi-surface transitions. A concrete enumeration of the Van Hove singularities was therefore needed to make precise statements about band-topology and the non-smooth structure of $\\rho(\\epsilon)$.",
+        "content_hash": "c4aba35b392105ddeadb92af7a7a7a7e51adaa8aa2a6818d2266eedf5581897b",
+        "id": "gcn_651ac2ba0a584786",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867755213967065466::conclusion_2_subproblem",
+            "package_id": "paper:867755213967065466",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867755213967065466"
+          ]
+        },
+        "rerank_score": 0.8308281732826122,
+        "role": "premise",
+        "score": 0.006493506493506494,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In the extended van Hove scenario of graphene, the van Hove singularity is warped into a flat band pinned at the Fermi level over a wide momentum range (~0.6 Å^−1 along ̄KMK'). Theoretical treatments often assume a perfectly flat band, but the detailed internal structure of this flat band had not been experimentally resolved. Whether the flat band is truly flat or retains a remnant of the VHS singular character, and how the quasiparticle scattering rate varies along the flat band, were open questions. Such details are crucial for understanding the nature of electronic correlations and for distinguishing between different proposed mechanisms (spin fluctuations, charged impurity scattering) that may drive the flat band formation.",
+        "content_hash": "c6396097c10e2b4012b288b43d425d8200f857224718c88b2de61043080e2f6f",
+        "id": "gcn_80083e1bfe014e53",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817335546849263617::conclusion_5_subproblem",
+            "package_id": "paper:817335546849263617",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817335546849263617"
+          ]
+        },
+        "rerank_score": 0.743090394667959,
+        "role": "premise",
+        "score": 0.009523809523809525,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Using a tight-binding Hamiltonian constructed from maximally localized Wannier functions derived from the bulk first-principles calculation without spin-orbit coupling, the surface band structure for the (001) semi-infinite surface shows a nearly flat band inside the projected node-line ring, together with a pronounced peak in the surface density of states. The flat band and peak DOS are characteristic predictions of a node-line semimetal with drumhead surface states.",
+        "content_hash": "badce11b40d818a246f58cb0045e59d90ed7b1f6e162794525400335f1c52860",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_f987a0e0218d420b",
+        "kind": "highlight",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814612968275705856::H3",
+            "package_id": "paper:814612968275705856",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814612968275705856"
+          ]
+        },
+        "rerank_score": 0.7490006433530213,
+        "role": "premise",
+        "score": 0.005721973675679181,
+        "title": "Calculated surface band structure showing drumhead state",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The band structure origin of the van Hove singularity was not analyzed. The paper shows that quasi-flat bands with Fe(4p) character along high-symmetry lines in the Brillouin zone are responsible for the singularity, and that these bands are degenerate due to crystal symmetry. This provides a microscopic understanding of the electronic feature.",
+        "content_hash": "120d1fd9c2a8c275307dc49aae88c45367122ca1663cf4475787d9b50027dd7b",
+        "id": "gcn_e21d4277243f41ef",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:7475202358601318433::conclusion_4_subproblem",
+            "package_id": "paper:7475202358601318433",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:7475202358601318433"
+          ]
+        },
+        "rerank_score": 0.7285037399169754,
+        "role": "premise",
+        "score": 0.008928571428571428,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Flat bands in kagome-derived systems are predicted to produce high densities of states and multiple van Hove singularities, but prior experimental reports (STM, ARPES) indicated limited momentum-space extent and small dispersions that make the optical manifestation ambiguous. Without a clear optical identification of discrete low-energy absorption features and their temperature dependence, it remained unclear how the flat-band density-of-states structure couples to bulk charge dynamics and whether multiple van Hove singularities are optically active. Resolving the individual absorption energies and their thermal sharpening is necessary to map the flat-band electronic structure onto frequency-domain observables and to separate those contributions from Dirac-fermion and localization physics.",
+        "content_hash": "6a84a7a3d0da3c969140809234f9b87e10467a7a2c1fb7db45c26d89a7477b43",
+        "id": "gcn_52646d2eb4c84009",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812579261679403009::conclusion_2_subproblem",
+            "package_id": "paper:812579261679403009",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812579261679403009"
+          ]
+        },
+        "rerank_score": 0.7278175279160701,
+        "role": "premise",
+        "score": 0.01098901098901099,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "A practical, material-specific tight-binding Hamiltonian is required to connect the abstract BCL flat-band proof to numerical band structures. Prior flat-band theorems are general but not directly usable without a concrete Hamiltonian that includes interlayer coupling structure and realistic Wannier hopping amplitudes. The lack of such a Hamiltonian prevented a quantitative comparison between the idealized BCL picture and DFT bands; the model above fills that gap and allows one to test how non-ideal terms affect band flatness and DOS peaks.",
+        "content_hash": "221d3d6991066e153ce188c950eb4a926171c0a371b6099d86b120cd46d0f835",
+        "id": "gcn_8b372a2be1ba4e7b",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:884073270406545729::conclusion_7_subproblem",
+            "package_id": "paper:884073270406545729",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:884073270406545729"
+          ]
+        },
+        "rerank_score": 0.726835079623815,
+        "role": "premise",
+        "score": 0.011627906976744186,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "A mechanistic link between narrow momentum-space flat bands and features in the energy-resolved density of states was not quantitatively established with many-body spectral functions: without eDMFT-level momentum- and energy-resolved data, it remained speculative whether the flat-band physics would yield pronounced van Hove features in the correlated DOS or be smeared out by interactions and temperature. Establishing that van Hove singularities survive as concentrated spectral features clarifies how kagome geometry imprints on one-particle spectral observables and indicates where correlation effects concentrate in energy.",
+        "content_hash": "25ebc790060bfd19b62d830132c0fb59e154d579aad57b056c2e8ac09a123937",
+        "id": "gcn_2f9a9321a6d84763",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867767028507739107::conclusion_3_subproblem",
+            "package_id": "paper:867767028507739107",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867767028507739107"
+          ]
+        },
+        "rerank_score": 0.7632646779038346,
+        "role": "premise",
+        "score": 0.012987012987012988,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In the noninteracting band structure of magic‑angle twisted bilayer graphene, the flat bands exhibit Van Hove singularities (peaks in the density of states) that are generally located away from the Fermi level for finite doping, which would suppress interactions near the Fermi energy. However, experimental observations suggest that the correlated insulator and superconducting phases occur at specific fillings, possibly facilitated by a Van Hove singularity pinned at the Fermi level. The possibility that Coulomb interactions could cause the Van Hove singularity to track the Fermi level upon doping had not been demonstrated in prior non‑self‑consistent models, leaving a key ingredient for understanding the correlated phases unresolved.",
+        "content_hash": "c02d7e0e0998dc47b8c7443a29b706acd168ab7c989f81810c1dc6b09ad38081",
+        "id": "gcn_103a727df97144af",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817404459578556417::conclusion_4_subproblem",
+            "package_id": "paper:817404459578556417",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817404459578556417"
+          ]
+        },
+        "rerank_score": 0.793032773811324,
+        "role": "premise",
+        "score": 0.007462686567164179,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Even when a large-scale screening exists, users need concrete, ranked information about which flat-band motifs occur commonly in realistic structures and representative model bandstructures to guide theoretical and experimental focus. Prior experimental attention focused on a handful of motifs (for example, kagome), leaving the occurrence rates and typical model band features of many other motifs unknown. Providing per-lattice abundance statistics and explicit tight-binding bandstructures enables selection of motifs for deeper orbital-resolved DFT study or for artificial-lattice implementation and shows which models are prevalent enough to merit broader attention.",
+        "content_hash": "954f13dbcb3d4a82b28656c89e188a014c82d13b67c897a1d56771ddd720bf8b",
+        "id": "gcn_47dbeedbc1a140a6",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:967238728734998531::conclusion_4_subproblem",
+            "package_id": "paper:967238728734998531",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:967238728734998531"
+          ]
+        },
+        "rerank_score": 0.7189415834167967,
+        "role": "premise",
+        "score": 0.007246376811594203,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The energetic location of kagome flat bands, van Hove points and Dirac crossings relative to the chemical potential controls the low-energy DOS and the potential for enhanced correlations or unconventional pairing. Before this work the electronic band positions in ThRu$_3$Si$_2$ were unknown, and it was therefore impossible to assess how substituting La by Th (nominally adding electrons) changes carrier filling, moves flat-band-derived spectral weight relative to $E_{\\mathrm{F}}$, and thereby influences both DOS at $E_{\\mathrm{F}}$ and the propensity for correlation-driven effects. Accurate DFT band energies and orbital projections are required to connect experimental thermodynamics to band-derived DOS and to test the flat-band hypothesis for tuning $T_{\\mathrm{c}}$.",
+        "content_hash": "6a7e78b0c9cef3cc1fe8c803d7e466c1228120b8ddefa067ab97e1807f841826",
+        "id": "gcn_66e65dec53fb4e59",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1229469478262145025::conclusion_4_subproblem",
+            "package_id": "paper:1229469478262145025",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1229469478262145025"
+          ]
+        },
+        "rerank_score": 0.7158413024606529,
+        "role": "premise",
+        "score": 0.007936507936507936,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Hexagonal lattices (graphenelike) display nontrivial band topology (Dirac cones) and characteristic DOS features (van Hove singularities, Dirac zero) whose analytical derivation benefits from a symmetry-adapted framework. Previous fermionic tight-binding analyses provided dispersion relations, but an algebraic derivation adapted to vibrational (bosonic) problems that (i) yields closed-form wavevector-space energy surfaces, (ii) exposes the conical band-touching (Dirac) structure and the precise location of the DOS zero, and (iii) furnishes elliptic-integral representations of the DOS for direct comparison with finite-lattice numerical spectra and experiments was lacking. Such results are essential to interpret photonic-crystal experiments that emulate hexagonal lattices.",
+        "content_hash": "f7c78b6613ee58b1b96e60700c3c259ba6d556e5e7e6b5028f064d77a5bf4373",
+        "id": "gcn_8b344bbfc3e64478",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814620514550022144::conclusion_7_subproblem",
+            "package_id": "paper:814620514550022144",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814620514550022144"
+          ]
+        },
+        "rerank_score": 0.8136598550471478,
+        "role": "premise",
+        "score": 0.020257346548426362,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The analysis presented in this work is based on a tight-binding model with only first- and second-neighbor hopping for cubic lattices. Extension to more realistic band structures that include longer-range hopping or other lattice symmetries remains open. The thermodynamic and transport properties are computed in the free-electron approximation using the exact DOS; the influence of electron-electron correlations, which are expected to enhance the van Hove effects (e.g., increase the tendency toward ferromagnetism or superconductivity), is not included. Additionally, the paper notes that the tetrahedron method, commonly used for DOS calculations, cannot satisfactorily resolve the influence of van Hove points on the DOS; an analytic approximation scheme for near-flat band regions is suggested but not fully developed for generic band structures. The quantitative connection to specific weak itinerant ferromagnets (ZrZn2, Ni3Al, Y2Ni7) is only qualitative, and a more detailed comparison between the model predictions and first-principles calculations for these materials would be valuable. Further work is required to incorporate correlation effects, extend the topological analysis to other types of lattices, and develop computational methods that accurately capture van Hove singularities in realistic band structures.",
+        "content_hash": "98dccae1b7cd98409ee237d4cbfcaf0d60caf00d81c8110574e603161343f134",
+        "id": "gcn_56bb1f292dbe4fa1",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:320819534518812672::open_question",
+            "package_id": "paper:320819534518812672",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:320819534518812672"
+          ]
+        },
+        "rerank_score": 0.7705323943163729,
+        "role": "premise",
+        "score": 0.006097560975609756,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "From the tight-binding model with fitted parameters, the computed band structure reveals that the flat band features occur very close to the graphene Dirac point and are confined in momentum space to a linear direction: specifically, the flat dispersion appears only along the one-dimensional wave-vector direction parallel to the line that connects the two closest Dirac points of the two graphene layers (i.e., along the linear dimension joining the layer-Dirac points), rather than extending isotropically around the Dirac point.",
+        "content_hash": "80d23bc93773dbe6b946a126c368d06b363320c9d9d215cc37b1914263b3d670",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_ac85881e99f24ff2",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867747990813540427::conclusion_8",
+            "package_id": "paper:867747990813540427",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867747990813540427"
+          ]
+        },
+        "rerank_score": 0.7095222264220967,
+        "role": "conclusion",
+        "score": 0.00629329111418959,
+        "title": "Flat bands are localized in k-space along the line connecting the closest Dirac points",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Quantum materials built from two-dimensional kagome lattices are expected, in principle, to host a characteristic set of electronic features—nearly dispersionless (flat) bands, Dirac crossings, and saddle-point van Hove singularities—that can seed correlated and topological phenomena such as unconventional superconductivity, charge density waves (CDW), anomalous Hall effects and topological surface states. Prior to this work, several substantive gaps prevented establishing clear causal links between kagome lattice electronic structure and these emergent phenomena: (i) definitive, momentum-resolved spectroscopic identification of kagome-derived flat bands and their orbital character in the 135-family kagome metals was lacking, so it remained unclear whether a genuine kagome flat band is present near the Fermi level in those materials; (ii) the experimental realization and characterization of nonstandard Dirac singularities (type-II and type-III) and their three-dimensional organization into nodal loops and nodal lines in a real kagome metal were scarce, leaving open whether such nodal objects occur and are robust in realistic band structures with spin–orbit coupling (SOC) and interlayer coupling; (iii) the presence and energetic location of van Hove singularities relative to the Fermi level, which can drive density-wave instabilities, were not determined for the titanium-based 135 compound family, so the origin of the absence or presence of CDW in closely related kagome superconductors could not be assessed; and (iv) the existence of topologically nontrivial surface states arising from SOC-driven band inversion in a heavy-Bi kagome material had not been experimentally established. Because established theoretical calculations require experimental benchmarking (e.g., relative Fermi-level alignment) and because CDW and other orders in the related $A{\\rm V}_3{\\rm Sb}_5$ family complicate interpretation, a material that is isostructural but lacks a CDW offers an essential clean testbed. These unresolved issues made it impossible, before this work, to (a) directly connect kagome-origin band features to low-energy instabilities and topology in the 135-family, (b) verify the presence and types of Dirac nodal objects in three-dimensional momentum space in a real kagome metal, and (c) identify whether SOC-driven band inversions produce observable topological surface states accessible to spectroscopy.",
+        "content_hash": "021c0ab501d5eda205f45652684f86407bc808dd536f9568265b07c435f7fc9b",
+        "id": "gcn_571e01d312474f26",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867771243141530570::problem",
+            "package_id": "paper:867771243141530570",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867771243141530570"
+          ]
+        },
+        "rerank_score": 0.7106914709786478,
+        "role": "premise",
+        "score": 0.01,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Van Hove singularities in the electron density of states $\\rho(\\epsilon)$ are known to control important electronic, magnetic, and thermal anomalies, but for three-dimensional cubic lattices the detailed relation between these singularities and the topology of tight-binding energy surfaces remained incomplete once next-nearest-neighbor hopping is included. Earlier exact density-of-states results were available mainly for several lattices with only nearest-neighbor hopping, which for bipartite lattices gives a symmetric $\\rho(\\epsilon,0)$ and misses the asymmetry and topological rearrangements produced by $t'$. In modern condensed-matter problems these next-nearest-neighbor effects are crucial, yet without a systematic topological classification of van Hove points, lines, and surfaces in simple-cubic, body-centered-cubic, and face-centered-cubic lattices, it was not clear when isolated van Hove points merge into extended manifolds, how such mergers change the local effective masses, or what singular structures they generate in $\\rho(\\epsilon)$. This lack of analysis limited the ability to identify whether weakly dispersing spectral segments seen in calculations correspond to large-mass van Hove points or to nearby pairs created by topology changes, and it prevented a controlled description of the resulting giant density-of-states peaks, plateaus, and sharp drops that can strongly affect thermodynamic and magnetic behavior. A quantitative treatment was therefore needed that would track topology changes of the constant-energy surfaces as the ratio $\\tau=t'/t$ varies, derive the associated density-of-states singularities explicitly, and clarify where in the Brillouin zone the dominant van Hove contributions are located.",
+        "content_hash": "7cdf0f9737850b325ef6746a5f070fe4a2c85a3cb83b15fadd477960a1a641a7",
+        "id": "gcn_d358e9eddfd949f2",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812676896981516289::problem",
+            "package_id": "paper:812676896981516289",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812676896981516289"
+          ]
+        },
+        "rerank_score": 0.8076046746928675,
+        "role": "premise",
+        "score": 0.0125,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The kagome motif generically yields Dirac points, flat bands and van Hove singularities, but specific band energies, orbital characters and surface-/bulk-projections depend on material-specific details and surface termination. Before combining DFT surface calculations and high-resolution ARPES for TbTi3Bi4 there was incomplete, and somewhat inconsistent, information about the presence, binding energies, and orbital character of these canonical kagome features for the Tb-terminated surface of this compound. Establishing these baseline features is a prerequisite for identifying anomalies (such as the unidirectional splitting and magnetically-induced reconstructions) and for anchoring comparisons between theory and experiment.",
+        "content_hash": "c52640588610c47d54ef2d49beac0c8d3781fc203991579dd3557d1202579ae1",
+        "id": "gcn_6c4cbf0eed5b43aa",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1131196464362422281::conclusion_4_subproblem",
+            "package_id": "paper:1131196464362422281",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1131196464362422281"
+          ]
+        },
+        "rerank_score": 0.7058524752554444,
+        "role": "premise",
+        "score": 0.010416666666666666,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Van Hove singularities in the density of states of two-dimensional materials can drive emergent phenomena such as ferromagnetism, ferroelasticity, multiferroicity, or superconductivity upon moderate doping. For the buckled hexagonal phase of monolayer Bi, the electronic band structure was not fully characterized: earlier calculations (with $5d$ in core) did not report such a feature. Whether the band structure, especially near the valence band edge, supports a Mexican-hat shape and a van Hove singularity was unknown. Identifying this feature is important because it suggests that the $b$-hexa phase could be a platform for doping-induced phase transitions and collective electronic states.",
+        "content_hash": "f493df217b1ad64af5021b4360d790aa2677ee08740d14669ba81f74e4a46ded",
+        "id": "gcn_c0bc290efd4d48a4",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812716941155237890::conclusion_6_subproblem",
+            "package_id": "paper:812716941155237890",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812716941155237890"
+          ]
+        },
+        "rerank_score": 0.7621474923213507,
+        "role": "premise",
+        "score": 0.015151515151515152,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Optical absorption and other spectroscopic responses are controlled by the joint density of states (JDOS), which is built from single-particle DOS features such as van Hove singularities arising from band extrema, constant-energy loops and linear crossings. Before this calculation there was no detailed account of which singularity types appear in monolayer bismuthene and how they transform with $F_{z}$: specifically whether the sombrero $v_{1}$ band produces a dominant asymmetric peak, how $v_{2}$ features respond to moderate fields, and whether Dirac-like V-shaped DOS emerges at a critical field. Lacking these DOS predictions prevented identification of the origin of optical absorption structures, their expected intensity order, and the field regimes where qualitative changes (peak splitting, merging, or V-shaped DOS) should occur.",
+        "content_hash": "bb01dbe6f738023e1fa9f6a95d2598e36a6f58f500d577d92813bb166488ead5",
+        "id": "gcn_d6b94ea31f874159",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867760621217645252::conclusion_3_subproblem",
+            "package_id": "paper:867760621217645252",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867760621217645252"
+          ]
+        },
+        "rerank_score": 0.7800961474148111,
+        "role": "premise",
+        "score": 0.006134969325153374,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Understanding which electronic states sit at $E_F$ in the undistorted cubic phases is central to any electronic-instability explanation for the tetragonal distortion. Prior literature commonly noted a high density of states at $E_F$ and associated it with a degenerate $\\Gamma$–$L$ band, leading to a Jahn–Teller–type interpretation, but the relation between the flat $\\Gamma$–$L$ band and the van Hove feature in $\\Gamma$–$K$ had not been systematically established across Ti, Zr, and Hf with high-precision calculations. Identifying the specific band characters and locations in $k$-space that produce the DOS peak at $E_F$ is a prerequisite for testing whether splitting of a degenerate band (Jahn–Teller) or removal/shift of a van Hove singularity (Fermi-surface instability) is the operative mechanism under distortion.",
+        "content_hash": "a6a301e616b991a3d0efcdaeb54c3519c3bf2000cf109d7b4570c8d0017c0a8a",
+        "id": "gcn_9607a5804e1a4169",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811822664770387969::conclusion_4_subproblem",
+            "package_id": "paper:811822664770387969",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811822664770387969"
+          ]
+        },
+        "rerank_score": 0.799211753536895,
+        "role": "premise",
+        "score": 0.016129032258064516,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Graphene is a two-dimensional honeycomb lattice whose low-energy π-electron spectrum, in the absence of external perturbations, is characterized by two inequivalent linear band crossings (Dirac points) at the K and K′ corners of the hexagonal Brillouin zone and a vanishing density of states (DOS) at the Fermi level. Prior theoretical descriptions of perturbed graphene have frequently used continuum Dirac approximations or short-period model potentials and have therefore left unresolved how a spatially periodic (one-dimensional) electrostatic modulation with a period commensurate with the lattice but long compared with atomic orbitals modifies the full tight-binding π-electronic structure. Specifically, it is not established within a lattice (tight-binding) framework whether and under what field conditions (modulation period, amplitude, and direction) the characteristic light-cone dispersion and two-point Fermi surface survive; whether band degeneracies are lifted or new critical (band-edge) points are generated; how the number and topology of Fermi-momentum states change (i.e., whether a zero-measure Fermi surface can become a finite-measure one producing free carriers); and what quantitative signatures (DOS at the Fermi level, energy and heights of spectral singularities) emerge as functions of the modulation parameters. These gaps prevent reliable, quantitative predictions of low-energy phenomena that depend sensitively on the detailed band topology and DOS (for example, low-frequency plasmons, optical absorption peaks, and energy-loss spectra), and they make it unclear under what experimental fabrication regimes (periods and field strengths) novel semimetallic behavior might be realized.",
+        "content_hash": "9bdea3a62a200e3612f05c5ef0fc3799c62efe178641ae7db76c4caf85cb5287",
+        "id": "gcn_c04bf1fca0b747ad",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867750801643144024::problem",
+            "package_id": "paper:867750801643144024",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867750801643144024"
+          ]
+        },
+        "rerank_score": 0.7909636495653918,
+        "role": "premise",
+        "score": 0.006711409395973154,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Predicting whether a novel $sp^{2}\\!-\\!sp^{3}$ 2D motif yields a semiconducting gap, metallic states, or features such as van Hove singularities near the Fermi level is essential for assessing electronic-device relevance and potential correlated-electron phenomena. Before this study, no band-structure characterization existed for a minimal clathrate-like monolayer, so it was unclear whether the periodic $sp^{3}$ centers would locally open gaps, preserve dispersive bands, or produce DOS anomalies near $E_{F}$. Quantitative identification of $E_{g}$, the k-space locations of VBM/CBM, the atomic character of band-edge states, and the proximity of van Hove singularities to $E_{F}$ are all required to evaluate transport, optical gaps, and possible many-body instabilities.",
+        "content_hash": "03d8d4036174d229d17a502be0dc2ebe646530ac9798d2ec42142536430b1052",
+        "id": "gcn_6e9aac94a0f74251",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867751434697834509::conclusion_6_subproblem",
+            "package_id": "paper:867751434697834509",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867751434697834509"
+          ]
+        },
+        "rerank_score": 0.7374935214641405,
+        "role": "premise",
+        "score": 0.011235955056179775,
+        "type": "question",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "req_0a4ad40ea7f2e"
+}

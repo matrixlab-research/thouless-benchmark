@@ -22,6 +22,24 @@ The manifest is [`benchmark/cases.json`](benchmark/cases.json). It is the
 canonical list of questions, parameters, applicability, observables,
 tolerances, and provenance.
 
+## Domain problem catalog
+
+The documentation system also contains
+[100 domain-first scientific problem specifications](docs/problems/README.md),
+organized into twenty research suites. Each problem has its own Markdown file
+with:
+
+- a scientific question and benchmark adaptation;
+- parameter ranges, meanings, and units;
+- the required calculation and expected result;
+- acceptance, convergence, and held-out-family rules; and
+- LKM and paper provenance.
+
+These documents define candidate benchmark problems before API design. They
+are all marked `proposed`; the twenty cases in `benchmark/cases.json` remain
+the only currently executable benchmark set. A link from a proposed problem
+to an executable case indicates scientific proximity, not full coverage.
+
 ## Comparison policy
 
 - Correctness is primary. Analytic spectra, quantized invariants, symmetry
@@ -72,6 +90,7 @@ uv pip install --python .venv-kwant/bin/python --no-build-isolation \
   tinyarray==1.2.5 kwant==1.5.0
 uv pip install --python .venv-kwant/bin/python --no-deps -e .
 python tools/collect_seed.py
+python tools/check_problem_docs.py
 ```
 
 Every completed workflow must satisfy

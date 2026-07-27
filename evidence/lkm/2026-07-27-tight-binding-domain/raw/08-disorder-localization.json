@@ -1,0 +1,1474 @@
+{
+  "code": 0,
+  "data": {
+    "has_more": true,
+    "papers": {
+      "paper:1017405136617603131": {
+        "area": "geoscience, physical sciences, condensed matter physics",
+        "authors": "Yan-Yan Lu | Zhao-Nan Mu | Yu Huang | Gui-Rong Guo | Han-Hui Li | Shao-Jie Xiong | Jian-Xin Zhong",
+        "available_online": "",
+        "cover_date_start": "2024-07-06",
+        "created_at": "2026-06-15T03:54:44+08:00",
+        "doi": "10.1038/s41598-024-66391-5",
+        "en_title": "Effects of edge disorder on the stability of quantum oscillations in two-dimensional coupled systems",
+        "id": "1017405136617603131",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "98116",
+        "publication_name": "NanoScience and Technology _ ",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "边缘无序对二维耦合系统中量子振荡稳定性的影响"
+      },
+      "paper:1023844128787529732": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Sayan Sircar",
+        "available_online": "",
+        "cover_date_start": "2024-07-25",
+        "created_at": "1970-01-01T08:00:00+08:00",
+        "doi": "10.48550/arxiv.2407.17883",
+        "en_title": "Disorder driven topological phase transitions in 1D mechanical quasicrystals",
+        "id": "1023844128787529732",
+        "keywords": "",
+        "publication_date": "2024-07-25",
+        "publication_id": "108488",
+        "publication_name": "Statistical Mechanics _ Physics.cond-mat.stat-mech",
+        "research_categories": "",
+        "zh_title": "一维机械准晶中无序驱动的拓扑相变"
+      },
+      "paper:1077113809669193731": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Ioannis Kleftogiannis | Ilias Amanatidis",
+        "available_online": "",
+        "cover_date_start": "2024-12-19",
+        "created_at": "2026-06-17T06:53:50+08:00",
+        "doi": "10.48550/arxiv.2412.14722",
+        "en_title": "Quantum chaos, localization and phase transitions in random graphs",
+        "id": "1077113809669193731",
+        "keywords": "",
+        "publication_date": "2024-12-19",
+        "publication_id": "108482",
+        "publication_name": "Disordered Systems and Neural Networks _ Physics.cond-mat.dis-nn",
+        "research_categories": "",
+        "zh_title": "随机图中的量子混沌、局域化与相变"
+      },
+      "paper:1077622135435821058": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Si-Yuan Chen | Zixuan Chai | Chenzheng Yu | Anton M. Graf | Joonas Keski-Rahkonen | Eric J. Heller",
+        "available_online": "",
+        "cover_date_start": "2024-12-10",
+        "created_at": "2026-06-19T06:48:47+08:00",
+        "doi": "10.48550/arxiv.2412.07117",
+        "en_title": "Mobility Edges in Two-Dimensional Aperiodic Potentials",
+        "id": "1077622135435821058",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108482",
+        "publication_name": "Disordered Systems and Neural Networks",
+        "research_categories": "",
+        "zh_title": "二维非周期势中的迁移率边"
+      },
+      "paper:1086232513950515206": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Shan-Zhong Li | Yi-Cai Zhang | Yucheng Wang | Shanchao Zhang | Shi-Liang Zhu | Zhi Li",
+        "available_online": "",
+        "cover_date_start": "2025-01-14",
+        "created_at": "2026-06-14T06:43:50+08:00",
+        "doi": "10.48550/arxiv.2501.07866",
+        "en_title": "Multifractal-enriched mobility edges and emergent quantum phases in one-dimensional exactly solvable lattice models",
+        "id": "1086232513950515206",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108482",
+        "publication_name": "Disordered Systems and Neural Networks",
+        "research_categories": "",
+        "zh_title": "一维精确可解晶格模型中多重分形增强的迁移率边缘和涌现量子相"
+      },
+      "paper:1106918754043822087": {
+        "area": "arxiv-mathematics",
+        "authors": "Amol Aggarwal | Patrick Lopatto",
+        "available_online": "",
+        "cover_date_start": "2025-03-11",
+        "created_at": "2026-06-16T05:08:22+08:00",
+        "doi": "10.48550/arxiv.2503.08949",
+        "en_title": "Mobility Edge for the Anderson Model on the Bethe Lattice",
+        "id": "1106918754043822087",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108552",
+        "publication_name": "Probability",
+        "research_categories": "",
+        "zh_title": "贝塞晶格上安德森模型的迁移率边缘"
+      },
+      "paper:1116523427977494535": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Jinyuan Shang | Haiping Hu",
+        "available_online": "",
+        "cover_date_start": "2025-04-06",
+        "created_at": "2026-05-16T01:35:13+08:00",
+        "doi": "10.48550/arxiv.2504.04370",
+        "en_title": "Spreading dynamics in the Hatano-Nelson model with disorder",
+        "id": "1116523427977494535",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108482",
+        "publication_name": "Disordered Systems and Neural Networks",
+        "research_categories": "",
+        "zh_title": "具有无序性的Hatano-Nelson模型中的传播动力学"
+      },
+      "paper:1151854052728897544": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Konghao Sun | Haiping Hu",
+        "available_online": "",
+        "cover_date_start": "2025-07-13",
+        "created_at": "2026-06-14T06:04:40+08:00",
+        "doi": "10.48550/arxiv.2507.09447",
+        "en_title": "Lyapunov formulation of band theory for disordered non-Hermitian systems",
+        "id": "1151854052728897544",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108482",
+        "publication_name": "Disordered Systems and Neural Networks",
+        "research_categories": "",
+        "zh_title": "无序非厄米系统能带理论的李雅普诺夫表述"
+      },
+      "paper:1156563046412320775": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Rui Chen | Bin Zhou",
+        "available_online": "",
+        "cover_date_start": "2025-07-25",
+        "created_at": "2026-06-19T06:33:21+08:00",
+        "doi": "10.48550/arxiv.2507.18919",
+        "en_title": "Real-space second Chern number using the kernel polynomial method",
+        "id": "1156563046412320775",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "使用核多项式方法计算实空间第二陈数"
+      },
+      "paper:1200087896946638854": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Mohammad Pouranvari",
+        "available_online": "",
+        "cover_date_start": "2025-11-23",
+        "created_at": "2026-06-15T06:13:25+08:00",
+        "doi": "10.48550/arXiv.2511.18341",
+        "en_title": "Interplay of Power-Law correlated Disorder and Long-Range Hopping in One Dimension: Mobility Edges, Criticality, and ML-Based Phase Identification",
+        "id": "1200087896946638854",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons",
+        "research_categories": "",
+        "zh_title": "一维中幂律相关无序与长程跳跃的相互作用：迁移率边缘、临界性及基于机器学习的相识别"
+      },
+      "paper:1202947975546929152": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Ranadeep Roy | Wei Chen",
+        "available_online": "",
+        "cover_date_start": "2025-12-02",
+        "created_at": "2026-06-17T04:01:41+08:00",
+        "doi": "10.48550/arXiv.2512.03022",
+        "en_title": "Topological marker in three dimensions based on kernel polynomial method",
+        "id": "1202947975546929152",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108482",
+        "publication_name": "Disordered Systems and Neural Networks",
+        "research_categories": "",
+        "zh_title": "基于核多项式方法的三维拓扑标记"
+      },
+      "paper:1229607360125730817": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Sourav Bhattacharjee | Piotr Sierant | Marek Dudyński | Jan Wehr | Jakub Zakrzewski | Maciej Lewenstein",
+        "available_online": "",
+        "cover_date_start": "2024-11-15",
+        "created_at": "2026-05-21T14:10:24+08:00",
+        "doi": "10.48550/arXiv.2411.10247",
+        "en_title": "Anderson localization induced by structural disorder",
+        "id": "1229607360125730817",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108482",
+        "publication_name": "Disordered Systems and Neural Networks",
+        "research_categories": "",
+        "zh_title": "由结构无序引起的安德森局域化"
+      },
+      "paper:1251114917474336776": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Joel M. Sunil | J. Bharathi Kannan | Monu Bhartiya | Rayees A S | Shuvarati Roy | G. J. Sreejith | M. S. Santhanam | Umakant Rapol",
+        "available_online": "",
+        "cover_date_start": "2026-04-13",
+        "created_at": "2026-05-16T20:16:51+08:00",
+        "doi": "10.48550/arXiv.2604.11855",
+        "en_title": "Localization with Hopping Disorder in Quasi-periodic Synthetic Momentum Lattice",
+        "id": "1251114917474336776",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108486",
+        "publication_name": "Quantum Gases",
+        "research_categories": "",
+        "zh_title": "准周期合成动量晶格中具有跳跃无序的局域化"
+      },
+      "paper:811067942069338116": {
+        "area": "Physics and Astrophysics, physics, multidisciplinary",
+        "authors": "Soumya Bera | Thomas Martynec | Henning Schomerus | Fabian Heidrich‐Meisner | Jens H. Bardarson",
+        "available_online": "2017-2-6",
+        "cas_zone": "3",
+        "cover_date_start": "2017-02-06",
+        "created_at": "2026-06-19T11:25:20+08:00",
+        "doi": "10.1002/andp.201600356",
+        "en_title": "One‐particle density matrix characterization of many‐body localization",
+        "id": "811067942069338116",
+        "impact_factor": 2.1,
+        "jcr_zone": "Q2",
+        "keywords": "[{\"ch_name\":\"无序\",\"en_name\":\"disorder\"},{\"ch_name\":\"多体定位\",\"en_name\":\"many-body localization\"},{\"ch_name\":\"量子相变\",\"en_name\":\"quantum phase transitions\"}]",
+        "publication_date": "2017-7",
+        "publication_id": "596",
+        "publication_name": "Annalen der Physik _ ANNALEN DER PHYSIK",
+        "research_categories": "",
+        "zh_title": "多体局域化的单粒子密度矩阵表征"
+      },
+      "paper:811188568285249537": {
+        "area": "comprehensive periodical, multidisciplinary sciences",
+        "authors": "A. P. Petrović | D. Ansermet | D. Chernyshov | M. Hoesch | D. Salloum | P. Gougeon | M. Potel | L. Boeri | C. Panagopoulos",
+        "available_online": "2016-7-22",
+        "cas_zone": "1",
+        "cover_date_start": "2016-07-22",
+        "created_at": "2026-06-17T02:11:07+08:00",
+        "doi": "10.1038/ncomms12262",
+        "en_title": "A disorder-enhanced quasi-one-dimensional superconductor",
+        "id": "811188568285249537",
+        "impact_factor": 15.5,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2016-11",
+        "publication_id": "10026",
+        "publication_name": "Nature Communications _ Nat Commun",
+        "research_categories": "",
+        "zh_title": "一种无序增强的准一维超导体"
+      },
+      "paper:811925901976535040": {
+        "area": null,
+        "authors": "F. Martino",
+        "available_online": "",
+        "cover_date_start": "2021-04-27",
+        "created_at": "2026-05-29T14:21:59+08:00",
+        "doi": "10.1007/3540097317_89",
+        "en_title": "Effects of disorder on the transport properties of polymers",
+        "id": "811925901976535040",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "0",
+        "publication_name": "Lecture Notes in Physics",
+        "research_categories": "",
+        "zh_title": "无序对聚合物输运性质的影响"
+      },
+      "paper:811952029755768834": {
+        "area": null,
+        "authors": "Andreas Alvermann | Holger Fehske",
+        "available_online": "",
+        "cover_date_start": "2020-11-19",
+        "created_at": "2026-05-20T13:29:27+08:00",
+        "doi": "10.1007/978-3-540-74686-7_17",
+        "en_title": "Local Distribution Approach",
+        "id": "811952029755768834",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "0",
+        "publication_name": "Computational Many Particle Physics",
+        "research_categories": "",
+        "zh_title": "本地分销方式"
+      },
+      "paper:812109979359117312": {
+        "area": "Physics and Astrophysics, physics, multidisciplinary",
+        "authors": "Masaki Goda | Shinya Nishino | Hiroki Matsuda",
+        "available_online": "2006-3-31",
+        "cas_zone": "1",
+        "cover_date_start": "2006-03-31",
+        "created_at": "2026-06-19T08:29:21+08:00",
+        "doi": "10.1103/physrevlett.96.126401",
+        "en_title": "Inverse Anderson Transition Caused by Flatbands",
+        "id": "812109979359117312",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "",
+        "zh_title": "由平带引起的逆安德森转变"
+      },
+      "paper:812638298013958144": {
+        "area": null,
+        "authors": "Chui-Zhen Chen | Hua Jiang | Dong-Hui Xu | X. C. Xie",
+        "available_online": "2020-5-8",
+        "cover_date_start": "2020-05-08",
+        "created_at": "2026-06-02T03:11:11+08:00",
+        "doi": "10.1007/s11433-019-1523-6",
+        "en_title": "Emergent Z2 topological invariant and robust helical edge states in two-dimensional topological metals",
+        "id": "812638298013958144",
+        "keywords": "[{\"en_name\": \"disorder\", \"ch_name\": \"\"}, {\"en_name\": \"topological metal\", \"ch_name\": \"\"}, {\"en_name\": \"Z<sub>2</sub> topological invariant\", \"ch_name\": \"\"}]",
+        "publication_date": "2020-10",
+        "publication_id": "0",
+        "publication_name": "Science China Physics, Mechanics and Astronomy _ Sci. China Phys. Mech. Astron.",
+        "research_categories": "",
+        "zh_title": "二维拓扑金属中的涌现 Z2 拓扑不变性和鲁棒螺旋边缘态"
+      },
+      "paper:812650397133963265": {
+        "area": "physics and astrophysics, physical sciences, condensed matter physics",
+        "authors": "N.A. Khan | J.P. Santos Pires | J.M. Viana Parente Lopes | J.M.B. Lopes dos Santos",
+        "available_online": "2020-4-16",
+        "cover_date_start": "2020-01-01",
+        "created_at": "2026-06-13T10:12:53+08:00",
+        "doi": "10.1051/epjconf/202023305011",
+        "en_title": "Probing the Global Delocalization Transition in the de Moura-Lyra Model with the Kernel Polynomial Method",
+        "id": "812650397133963265",
+        "keywords": "",
+        "publication_date": "2020",
+        "publication_id": "21249",
+        "publication_name": "EPJ Web of Conferences _ EPJ Web Conf.",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "用核多项式方法探究德莫拉 - 莱拉模型中的全局离域化转变 "
+      },
+      "paper:812658299957673985": {
+        "area": "geoscience, materials science, multidisciplinary, physics, applied, nanoscience & nanotechnology",
+        "authors": "Yi Zhao | Wei Zhang | Xian-Guo Yan",
+        "available_online": "",
+        "cover_date_start": "2020-07-01",
+        "created_at": "2026-05-16T11:16:59+08:00",
+        "doi": "10.1016/j.physe.2020.114098",
+        "en_title": "Mobility edges and critical exponents in the disordered double chains with long-range correlation",
+        "id": "812658299957673985",
+        "keywords": "[{\"en_name\": \"Critical exponents\", \"ch_name\": \"\"}, {\"en_name\": \"Interchain correlation\", \"ch_name\": \"\"}, {\"en_name\": \"Long-range correlated disorder\", \"ch_name\": \"\"}, {\"en_name\": \"Mobility edges\", \"ch_name\": \"\"}]",
+        "publication_date": "2020-7",
+        "publication_id": "98276",
+        "publication_name": "Physica E: Low dimensional Systems and Nanostructures _ Physica E: Low-dimensional Systems and Nanostructures",
+        "research_categories": "",
+        "zh_title": "具有长程关联的无序双链中的迁移率边和临界指数"
+      },
+      "paper:813004523009212418": {
+        "area": "geoscience, materials science, multidisciplinary, physics, applied, nanoscience & nanotechnology",
+        "authors": "Madhuparna Banerjee | Baisakhi Mal | Santanu K. Maiti",
+        "available_online": "",
+        "cover_date_start": "2019-02-01",
+        "created_at": "2026-05-25T20:44:35+08:00",
+        "doi": "10.1016/j.physe.2018.08.011",
+        "en_title": "Unconventional localization phenomena in a spatially non-uniform disordered material",
+        "id": "813004523009212418",
+        "keywords": "",
+        "publication_date": "2019-2",
+        "publication_id": "98276",
+        "publication_name": "Physica E: Low dimensional Systems and Nanostructures _ Physica E: Low-dimensional Systems and Nanostructures",
+        "research_categories": "",
+        "zh_title": "空间非均匀无序材料中的非常规局域化现象"
+      },
+      "paper:813299331263102976": {
+        "area": null,
+        "authors": "DANIEL JUNG | GERD CZYCHOLL | STEFAN KETTEMANN",
+        "available_online": "2012-7-11",
+        "cover_date_start": "2012-01-01",
+        "created_at": "2026-06-02T04:31:06+08:00",
+        "doi": "10.1142/s2010194512005983",
+        "en_title": "FINITE SIZE SCALING OF THE TYPICAL DENSITY OF STATES OF DISORDERED SYSTEMS WITHIN THE KERNEL POLYNOMIAL METHOD",
+        "id": "813299331263102976",
+        "keywords": "",
+        "publication_date": "2012-1",
+        "publication_id": "0",
+        "publication_name": "International Journal of Modern Physics: Conference Series _ Int. J. Mod. Phys. Conf. Ser.",
+        "research_categories": "",
+        "zh_title": "核多项式方法中无序系统典型状态密度的有限大小缩放"
+      },
+      "paper:814705265537449988": {
+        "area": "geoscience, information science & library science, history & philosophy of science, multidisciplinary sciences",
+        "authors": "Daniel Jung | Stefan Kettemann",
+        "available_online": "",
+        "cover_date_start": "2014-01-01",
+        "created_at": "2026-05-27T19:47:17+08:00",
+        "doi": "10.1063/1.4893514",
+        "en_title": "Anderson metal-insulator transitions with classical magnetic impurities",
+        "id": "814705265537449988",
+        "keywords": "",
+        "publication_date": "2014",
+        "publication_id": "96345",
+        "publication_name": "AIP Conference Proceedings _ ",
+        "research_categories": "",
+        "zh_title": "具有经典磁性杂质的安德森金属 - 绝缘体转变"
+      },
+      "paper:817362443909988353": {
+        "area": "physics and astrophysics, physics, applied, multidisciplinary, mathematical",
+        "authors": "Omri Lesser | Gal Shavit | Yuval Oreg",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2020-06-02",
+        "created_at": "2026-06-02T15:48:54+08:00",
+        "doi": "10.1103/PhysRevResearch.2.023254",
+        "en_title": "Topological superconductivity in carbon nanotubes with a small magnetic flux",
+        "id": "817362443909988353",
+        "impact_factor": 4.9,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "68812",
+        "publication_name": "Physical Review Research _ ",
+        "research_categories": "",
+        "zh_title": "具有小磁通量的碳纳米管中的拓扑超导性"
+      },
+      "paper:817403521266614272": {
+        "area": "physics and astrophysics, physical sciences, condensed matter physics, quantum physics",
+        "authors": "Minho Kim | Giuseppe De Tomasi | Claudio Castelnovo",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2022-12-24",
+        "created_at": "2026-06-14T08:39:29+08:00",
+        "doi": "10.1103/PhysRevResearch.4.043206",
+        "en_title": "Anderson localization of emergent quasiparticles: Spinon and vison interplay at finite temperature in a gauge theory in three dimensions",
+        "id": "817403521266614272",
+        "impact_factor": 4.9,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "68812",
+        "publication_name": "Physical Review Research _ ",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "涌现准粒子的安德森局域化：三维规范理论中有限温度下自旋子与磁通子的相互作用 "
+      },
+      "paper:867745431914807783": {
+        "area": "arXiv-Physics, Mathematical Sciences, Physical Sciences, Classical Physics",
+        "authors": "Xunlong Luo | Tomi Ohtsuki",
+        "available_online": "",
+        "cover_date_start": "2022-07-19",
+        "created_at": "2026-06-18T23:37:41+08:00",
+        "doi": "10.48550/arXiv.2207.09130",
+        "en_title": "Universality classes of the Anderson transitions driven by quasiperiodic potential in the three-dimensional Wigner-Dyson symmetry classes",
+        "id": "867745431914807783",
+        "keywords": "",
+        "publication_date": "2022-07-19",
+        "publication_id": "108482",
+        "publication_name": "Disordered Systems and Neural Networks _ Physics.cond-mat.dis-nn",
+        "research_categories": "[\"Mathematical Sciences\", \"Physical Sciences\", \"Classical Physics\"]",
+        "zh_title": "三维维格纳-戴森对称类中由准周期势驱动的安德森转变的普适类"
+      },
+      "paper:867753668999381463": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Daniel Varjas | Michel Fruchart | Anton R. Akhmerov | Pablo M. Perez-Piskunow",
+        "available_online": "",
+        "cover_date_start": "2019-05-06",
+        "created_at": "2026-06-19T00:48:57+08:00",
+        "doi": "10.48550/arXiv.1905.02215",
+        "en_title": "Computation of topological phase diagram of disordered Pb$_{1-x}$Sn$_{x}$Te using the kernel polynomial method",
+        "id": "867753668999381463",
+        "keywords": "",
+        "publication_date": "2019-05-06",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "使用核多项式方法计算无序Pb$_{1 - x}$Sn$_{x}$Te的拓扑相图"
+      },
+      "paper:867758720841417069": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Gerald Schubert | Holger Fehske",
+        "available_online": "",
+        "cover_date_start": "2009-05-15",
+        "created_at": "2026-06-19T03:24:09+08:00",
+        "doi": "10.48550/arXiv.0905.2537",
+        "en_title": "Quantum Percolation in Disordered Structures",
+        "id": "867758720841417069",
+        "keywords": "",
+        "publication_date": "2009-05-15",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "无序结构中的量子渗流"
+      },
+      "paper:867761027637314088": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Ka-Ming Tam | Hanna Terletska | Tom Berlijn | Liviu Chioncel | Juana Moreno",
+        "available_online": "",
+        "cover_date_start": "2021-09-29",
+        "created_at": "2026-06-14T20:00:05+08:00",
+        "doi": "10.48550/arXiv.2109.14267",
+        "en_title": "Real Space Quantum Cluster Formulation for the Typical Medium Theory of Anderson Localization",
+        "id": "867761027637314088",
+        "keywords": "",
+        "publication_date": "2021-09-29",
+        "publication_id": "108482",
+        "publication_name": "Disordered Systems and Neural Networks _ Physics.cond-mat.dis-nn",
+        "research_categories": "",
+        "zh_title": "用于安德森局域化典型介质理论的实空间量子团簇公式"
+      },
+      "paper:867763008829391019": {
+        "area": "arxiv-physics, physical sciences, classical physics",
+        "authors": "Wasim Raja Mondal | N. S. Vidhyadhiraja",
+        "available_online": "",
+        "cover_date_start": "2020-09-30",
+        "created_at": "2026-05-16T20:09:32+08:00",
+        "doi": "10.48550/arXiv.2010.00068",
+        "en_title": "Effect of short-ranged spatial correlations on the Anderson localization of phonons in mass-disordered systems",
+        "id": "867763008829391019",
+        "keywords": "",
+        "publication_date": "2020-09-30",
+        "publication_id": "108482",
+        "publication_name": "Disordered Systems and Neural Networks _ Physics.cond-mat.dis-nn",
+        "research_categories": "[\"Physical Sciences\", \"Classical Physics\"]",
+        "zh_title": "短程空间关联对质量无序系统中声子安德森局域化的影响"
+      },
+      "paper:867763757172916686": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Shu-Na Liu | Guo-Qing Zhang | Ling-Zhi Tang | Dan-Wei Zhang",
+        "available_online": "",
+        "cover_date_start": "2022-02-24",
+        "created_at": "2026-05-16T19:29:39+08:00",
+        "doi": "10.48550/arXiv.2202.11905",
+        "en_title": "Topological Anderson insulators induced by random binary disorders",
+        "id": "867763757172916686",
+        "keywords": "",
+        "publication_date": "2022-02-24",
+        "publication_id": "108482",
+        "publication_name": "Disordered Systems and Neural Networks _ Physics.cond-mat.dis-nn",
+        "research_categories": "",
+        "zh_title": "由随机二元无序诱导的拓扑安德森绝缘体"
+      },
+      "paper:867765829964399036": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Justin H. Wilson | J. H. Pixley | Pallab Goswami | S. Das Sarma",
+        "available_online": "",
+        "cover_date_start": "2016-12-16",
+        "created_at": "2026-06-17T02:56:51+08:00",
+        "doi": "10.48550/arXiv.1612.05648",
+        "en_title": "Quantum phases of disordered three-dimensional Majorana-Weyl fermions",
+        "id": "867765829964399036",
+        "keywords": "",
+        "publication_date": "2016-12-16",
+        "publication_id": "108482",
+        "publication_name": "Disordered Systems and Neural Networks _ Physics.cond-mat.dis-nn",
+        "research_categories": "",
+        "zh_title": "无序三维马约拉纳-外尔费米子的量子相"
+      },
+      "paper:867770683369718454": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Cem Yuce | Hamidreza Ramezani",
+        "available_online": "",
+        "cover_date_start": "2022-03-04",
+        "created_at": "2026-06-19T07:42:04+08:00",
+        "doi": "10.48550/arXiv.2203.02129",
+        "en_title": "Coexistence of extended and localized states in one-dimensional non-Hermitian Anderson model",
+        "id": "867770683369718454",
+        "keywords": "",
+        "publication_date": "2022-03-04",
+        "publication_id": "108482",
+        "publication_name": "Disordered Systems and Neural Networks _ Physics.cond-mat.dis-nn",
+        "research_categories": "",
+        "zh_title": "一维非厄米安德森模型中扩展态与局域态的共存"
+      },
+      "paper:867771033610879549": {
+        "area": "arXiv-Physics, Mathematical Sciences, Physical Sciences, Condensed Matter Physics",
+        "authors": "G.X. Wang",
+        "available_online": "",
+        "cover_date_start": "2020-09-30",
+        "created_at": "2026-06-19T07:32:22+08:00",
+        "doi": "10.48550/arXiv.2009.14727",
+        "en_title": "Kernel polynomial method to Anderson transition in disordered $β$-graphyne",
+        "id": "867771033610879549",
+        "keywords": "",
+        "publication_date": "2020-09-30",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "[\"Mathematical Sciences\", \"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "用于无序β-石墨炔中安德森转变的核多项式方法"
+      },
+      "paper:867771308924993739": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Yi Zhang | Hanna Terletska | C. Moore | Chinedu Ekuma | Ka-Ming Tam | Tom Berlijn | Wei Ku | Juana Moreno | Mark Jarrell",
+        "available_online": "",
+        "cover_date_start": "2015-09-16",
+        "created_at": "2026-06-19T07:35:01+08:00",
+        "doi": "10.48550/arXiv.1509.04991",
+        "en_title": "Study of multiband disordered systems using the typical medium dynamical cluster approximation",
+        "id": "867771308924993739",
+        "keywords": "",
+        "publication_date": "2015-09-16",
+        "publication_id": "108482",
+        "publication_name": "Disordered Systems and Neural Networks _ Physics.cond-mat.dis-nn",
+        "research_categories": "",
+        "zh_title": "使用典型介质动态团簇近似对多带无序系统的研究"
+      },
+      "paper:867772820707344587": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Qiyun Tang | Yan He",
+        "available_online": "",
+        "cover_date_start": "2021-01-27",
+        "created_at": "2026-06-17T04:38:38+08:00",
+        "doi": "10.48550/arXiv.2101.11213",
+        "en_title": "Mobility Edges in one-dimensional Models with quasi-periodic disorder",
+        "id": "867772820707344587",
+        "keywords": "",
+        "publication_date": "2021-01-27",
+        "publication_id": "108482",
+        "publication_name": "Disordered Systems and Neural Networks _ Physics.cond-mat.dis-nn",
+        "research_categories": "",
+        "zh_title": "具有准周期无序的一维模型中的迁移率边"
+      },
+      "paper:867773444962386694": {
+        "area": "arxiv-physics, arxiv-quantum physics",
+        "authors": "Xue-Gang Li | Hui-Kai Xu | Jun-Hua Wang | Ling-Zhi Tang | Dan-Wei Zhang | Chu-Hong Yang | Tang Su | Chen-Lu Wang | Zhen-Yu Mi | Wei-Jie Sun | Xue-Hui Liang | Mo Chen | Cheng-Yao Li | Ying-Shan Zhang | Ke-Huan Linghu | Jia-Xiu Han | Wei-Yang Liu | Yu-Long Feng | Pei Liu | Guang-Ming Xue | Jing-Ning Zhang | Yi-Rong Jin | Shi-Liang Zhu | Hai-Feng Yu | Qi-Kun Xue",
+        "available_online": "",
+        "cover_date_start": "2023-01-28",
+        "created_at": "2026-06-15T05:22:05+08:00",
+        "doi": "10.48550/arXiv.2301.12138",
+        "en_title": "Mapping a topology-disorder phase diagram with a quantum simulator",
+        "id": "867773444962386694",
+        "keywords": "",
+        "publication_date": "2023-01-28",
+        "publication_id": "108526",
+        "publication_name": "Quantum Physics _ Physics.quant-ph.quant-ph",
+        "research_categories": "",
+        "zh_title": "用量子模拟器绘制拓扑无序相图"
+      },
+      "paper:906969149513662571": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Marcel Filoche | Pierre Pelletier | Dominique Delande | Svitlana Mayboroda",
+        "available_online": "",
+        "cover_date_start": "2023-09-07",
+        "created_at": "2026-06-19T00:19:01+08:00",
+        "doi": "10.48550/arXiv.2309.03813",
+        "en_title": "The Anderson mobility edge as a percolation transition",
+        "id": "906969149513662571",
+        "keywords": "",
+        "publication_date": "2023-09-07",
+        "publication_id": "108482",
+        "publication_name": "Disordered Systems and Neural Networks _ Physics.cond-mat.dis-nn",
+        "research_categories": "",
+        "zh_title": "作为渗流转变的安德森迁移率边"
+      },
+      "paper:991956511087394817": {
+        "area": "arxiv-physics, mathematical sciences, mathematical physics, physical sciences",
+        "authors": "Elizabeth J. Dresselhaus | Alexander Avdoshkin | Zhetao Jia | Matteo Secli | Boubacar Kante | Joel E. Moore",
+        "available_online": "",
+        "cover_date_start": "2024-04-26",
+        "created_at": "2026-05-22T20:14:02+08:00",
+        "doi": "10.48550/arxiv.2404.17578",
+        "en_title": "A tale of two localizations: coexistence of flat bands and Anderson localization in a photonics-inspired amorphous system",
+        "id": "991956511087394817",
+        "keywords": "",
+        "publication_date": "2024-04-26",
+        "publication_id": "108482",
+        "publication_name": "Disordered Systems and Neural Networks _ Physics.cond-mat.dis-nn",
+        "research_categories": "[\"Mathematical Sciences\", \"Mathematical Physics\", \"Physical Sciences\"]",
+        "zh_title": "两个局域化的故事：受光子学启发的非晶态系统中平带与安德森局域化的共存 "
+      }
+    },
+    "variables": [
+      {
+        "content": "In two-dimensional disordered systems, Anderson localization typically localizes all states for sufficiently strong disorder, but the existence of delocalized states at critical energies (mobility edges) is known for symplectic class systems with spin-orbit coupling. For topological metals, it was unknown whether a mobility gap could open up, meaning that all bulk states become localized while the edges remain conducting, and whether such a mobility gap could support a topological phase. The question of how critical points move with disorder and whether they annihilate was also open. Without this understanding, the extent of the QSH phase and its stability could not be quantified.",
+        "content_hash": "986f9d59ba3f0d36502dd10fe740fae3d6fa6ea4c3e2854a08321252c2cd7e25",
+        "id": "gcn_1b045590a2ba409d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812638298013958144::conclusion_3_subproblem",
+            "package_id": "paper:812638298013958144",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812638298013958144"
+          ]
+        },
+        "rerank_score": 0.8277402220908534,
+        "role": "premise",
+        "score": 0.012195121951219513,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Understanding when and how the NHSE is destroyed by disorder requires a precise, quantitative marker of the transition from a spectrum containing skin modes to one in which all modes are Anderson localized. Prior work described the transition qualitatively and located mobility edges in model-specific ways, but a systematic way to determine the threshold disorder for the full Anderson-insulating phase (and the motion of the mobility-edge contour in the complex plane) was lacking for the Hatano–Nelson chain with onsite imaginary disorder. Without a robust diagnostic one cannot produce phase diagrams, predict disorder thresholds as a function of $g$, or relate the disappearance of skin modes to changes in dynamical spreading.",
+        "content_hash": "44c4347cc39f2b2df481bb60d11744307d3a534ff1566c9f464b9672c3b66abf",
+        "id": "gcn_e09795d6cb3646fe",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1116523427977494535::conclusion_3_subproblem",
+            "package_id": "paper:1116523427977494535",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1116523427977494535"
+          ]
+        },
+        "rerank_score": 0.8070822624262807,
+        "role": "premise",
+        "score": 0.007751937984496124,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Knowing whether localization occurs uniformly across the spectrum or only beyond specific energies (i.e., the presence and location of mobility edges) is essential to predict transport and spectroscopic responses of disordered $\\beta$-graphyne. Prior to this work there was no calculated mobility-edge diagram for this lattice under Anderson disorder; without such a map one cannot determine which energy windows contribute to dc transport at given disorder strength or how disorder progressively localizes states across the band. The mobility-edge contour extracted from $R(E)$ fills this gap by resolving the energy dependence of the localization transition and identifying the disorder range where the whole spectrum is localized.",
+        "content_hash": "3785ba54aea85d28dc322911a4b4a41866a2bcbb990d89bcfb88debad52b44bb",
+        "id": "gcn_430de85243444a00",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867771033610879549::conclusion_3_subproblem",
+            "package_id": "paper:867771033610879549",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867771033610879549"
+          ]
+        },
+        "rerank_score": 0.8078628720381031,
+        "role": "premise",
+        "score": 0.012379227053140096,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In the Anderson model, the mobility edge—the energy separating localized from extended states—shifts with disorder, but this dependence had only been studied in simplified nearest-neighbor tight-binding systems. For a system with realistic interactions and a full Hartree-Fock electronic structure, the evolution of the mobility edge with disorder strength had not been established. Knowing whether the number of localized states grows smoothly or abruptly as disorder increases is crucial for predicting the onset of insulating behavior in disordered polymers.",
+        "content_hash": "a3bdd7ede16633bc919ffa032da5aa004fcac85a085eaa8bf32cad0857c513a9",
+        "id": "gcn_b965fa5ddaaf4e48",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811925901976535040::conclusion_2_subproblem",
+            "package_id": "paper:811925901976535040",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811925901976535040"
+          ]
+        },
+        "rerank_score": 0.7936908819957795,
+        "role": "premise",
+        "score": 0.017822520507084265,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Understanding how edge-restricted Anderson disorder modifies the spectral character of finite coupled layers is necessary to explain anomalous transport and temporal coherence phenomena: if the spectrum remains entirely localized no long-range transport or persistent oscillations should occur; conversely, if an appreciable set of extended states survives, those states can sustain long-lived coherent motion. Prior Anderson-model reasoning concentrated on homogeneous disorder or on correlated-disorder models; it was not established whether disordered edges plus ordered interiors could produce a stable central band of extended states coexisting with localized edge-induced tails, nor what the location of any mobility-edge-like separation would be. Demonstrating and quantifying such a separation provides a microscopic basis to understand why central-region dynamics can dominate and to explain nonmonotonic $t_0(W)$ behavior.",
+        "content_hash": "39947c223dcb4ff073d95c1517f64ac2eb5ca21d53fd7b62e3f089512d63f8c5",
+        "id": "gcn_7919097d167b4382",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1017405136617603131::conclusion_4_subproblem",
+            "package_id": "paper:1017405136617603131",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1017405136617603131"
+          ]
+        },
+        "rerank_score": 0.7808265795674566,
+        "role": "premise",
+        "score": 0.010309278350515464,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Determining the metal–insulator transition (MIT) in disordered electronic systems requires an order parameter that distinguishes localized from extended eigenstates. The typical density of states (GDOS) – the geometric mean of the local density of states (LDOS) – serves as such an order parameter: in the thermodynamic limit it vanishes for exponentially localized states and remains finite for extended states. To locate the mobility edges (MEs) and the critical disorder strength $W_\\mathrm{c}$, one must therefore analyse how the GDOS scales with system size $L$. However, the straightforward computation of the LDOS by exact diagonalisation of the Hamiltonian scales as $O(N^3)$ (with $N = L^3$), which severely limits the accessible system sizes. The kernel polynomial method (KPM) reduces this cost to $O(N)$ by expanding the LDOS in Chebyshev moments without performing a full diagonalisation. Although KPM is a well-established technique for obtaining the total density of states, its accuracy and reliability for computing the GDOS – and for extracting the scaling exponent that signals the MIT – had not been systematically tested on a standard model. The Anderson model on a three-dimensional cubic lattice is the prototypical system for disorder‑induced localization, and its phase diagram (mobility edges, critical disorder $W_\\mathrm{c} \\approx 16.5$) is known from extensive numerical studies. Before the KPM‑based GDOS approach can be confidently applied to more realistic systems (e.g. binary alloys, multi‑band tight‑binding models with magnetic impurities), a careful validation on this benchmark model is necessary. The specific scientific problems are: (i) whether the KPM‑computed GDOS follows a simple finite‑size scaling law $\\rho_{\\mathrm{typ}}(E, L) = a\\,L^{-p} + b$ with sufficient precision to extract the scaling exponent $p(E)$; (ii) whether the condition $p(E)=1$ correctly identifies the mobility edges; and (iii) whether the resulting phase diagram reproduces the known qualitative and quantitative features of the Anderson transition, thereby establishing the method’s credibility for future applications.",
+        "content_hash": "ecdee4d9b97a9ee522b853f59e09c0b4447502a9a67b664d2b2e2f907fba41f9",
+        "id": "gcn_06304cf4d78e4c58",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813299331263102976::problem",
+            "package_id": "paper:813299331263102976",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813299331263102976"
+          ]
+        },
+        "rerank_score": 0.8729337958767878,
+        "role": "premise",
+        "score": 0.025252525252525252,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The work identifies several scientific and technical directions left unresolved or requiring further development: (1) Extension to symmetry classes and invariants not currently expressed as local polynomial topological markers — in particular, a KPM-compatible real-space formulation for $ \\mathbb{Z}_{2} $ indices is not provided and remains unavailable; (2) treatment of disorder types and material-specific effects neglected in the present Pb_{1-x}Sn_{x}Te study, such as ferroelectric structural distortions, magnetic dopants, and other symmetry-breaking perturbations that appear in real samples, which may shift or mask the mirror-Chern transition and therefore require incorporation into the atomistic disorder model for quantitative comparison to experiment; (3) adaptation of the method to time-reversal-invariant systems where known formulations for integer markers are lacking or where additional refinements are needed to capture quantized response coefficients (for example, controlled KPM-based evaluation of the quantized magnetoelectric polarizability of 3D strong topological insulators); (4) practical performance and numerical stability in systems with very small mobility gaps but modest localization lengths, where the KPM energy resolution requirement $M\\sim W/\\Delta$ (bandwidth over mobility gap) can be large and may increase computational cost beyond the $ \\xi^{d+1} $ estimate; and (5) systematic validation of critical exponent estimates and finite-size scaling procedures across disorder realizations and model variants — the reported uncertainty in the exponent ($\\nu=0.9(6)$) is large and further numerical and conceptual work is needed to firm up universal scaling properties near disorder-driven topological transitions. Addressing these points (deriving or discovering marker expressions for $ \\mathbb{Z}_{2} $ indices, incorporating additional disorder physics, improving KPM strategies for small-gap systems, and refining finite-size scaling analyses) are the principal open problems explicitly identified by the authors.",
+        "content_hash": "270d24a487055b9a1fedac100f735972be0adb229afa00e1a2bd0a7eca1e398b",
+        "id": "gcn_c8f8494de79a40b8",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867753668999381463::open_question",
+            "package_id": "paper:867753668999381463",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867753668999381463"
+          ]
+        },
+        "rerank_score": 0.8006783356544214,
+        "role": "premise",
+        "score": 0.01436096203538064,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In studies of Anderson localization and quasiperiodic systems, simple tight‑binding models that host flat bands provide tunable degeneracies and local compact states, making them promising loci for more complex localization phenomena. Prior constructions of mobility edges and critical phases in one dimension were either numerically identified or relied on special engineered hopping/onsite patterns; there was not a clearly identified, exactly solvable family of flat‑band models with a simple partial quasiperiodic modulation that simultaneously (i) preserves an analytically accessible flat band, (ii) admits dual‑space mappings, and (iii) can host the full variety of mobility edges (traditional and multifractal‑enriched). Without such a model class, analytical derivations of LEs and of closed‑form mobility edges remained limited, and experimental proposals lacked a minimal Hamiltonian that could be straightforwardly implemented with current quantum simulator technologies.",
+        "content_hash": "c7cd4a971888e8ad8319265bc056b4663457b9ba6a11e4ebdb39388b56d31b4c",
+        "id": "gcn_0ca1dc40392e4b3a",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1086232513950515206::conclusion_1_subproblem",
+            "package_id": "paper:1086232513950515206",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1086232513950515206"
+          ]
+        },
+        "rerank_score": 0.763093551993896,
+        "role": "premise",
+        "score": 0.0055248618784530384,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In one-dimensional quantum tight-binding systems the conventional baseline is that short-range kinetic terms combined with uncorrelated (white-noise) disorder produce exponential single-particle localization across the entire spectrum in the thermodynamic limit. Two well-studied departures from this baseline — (i) introducing long-range hopping, where matrix elements decay algebraically as $|i-j|^{-\\beta}$, and (ii) introducing long-range spatial correlations in the onsite potential with power spectrum $S(k)\\propto k^{-\\alpha}$ — are each known, separately, to weaken localization and in some limits produce delocalized or critical states and even mobility edges. Prior work, however, treated these mechanisms largely in isolation and used non-uniform sets of diagnostics (level statistics, participation ratios, multifractal measures) that are not directly comparable across models. Consequently, when both mechanisms act simultaneously there is no unified, systematically validated description of (a) whether energy-dependent mobility edges survive, (b) how to operationally and compactly classify spectral windows into localized/extended/critical/resonant sectors, and (c) whether inferred transition lines and critical exponents are robust to finite-size effects and to the choice of diagnostics. These gaps have concrete scientific consequences: without a coherent, energy-resolved framework one cannot reliably map phase boundaries in the $(\\alpha,\\beta)$ plane, assess the stability of mobility edges under increasing system size, compare scaling exponents across transitions, or provide an independent, data-driven validation (for example using machine learning) that the handcrafted diagnostics capture the underlying low-dimensional phase manifold. The lack of such a unified characterization also impedes connecting numerical predictions to experiments in systems (e.g., trapped ions, Rydberg atoms, or dipolar systems) where both long-range hopping and correlated disorder can be present.",
+        "content_hash": "0748ef5c774447df3a1d45adada1326b2e19fcdbbaa88feb71e50ad59db3faf7",
+        "id": "gcn_11810c4c36354035",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1200087896946638854::problem",
+            "package_id": "paper:1200087896946638854",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1200087896946638854"
+          ]
+        },
+        "rerank_score": 0.7592074878057165,
+        "role": "premise",
+        "score": 0.008547008547008548,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "As disorder increases, skin modes born from a point gap in the clean limit can continuously evolve into ALMs, but no general, computable boundary condition–robust criterion existed to locate the complex-energy mobility edges that separate skin regions from Anderson regions. Without such a criterion it was impossible to (i) map the coexistence region of skin modes and ALMs in the TDL, (ii) characterize how mobility edges move with disorder strength, or (iii) specify the precise condition for when a skin mode has converted into an ALM. The essential-LE definition and the condition $\\gamma_{ess}(E)=0$ provide a single scalar, energy-dependent diagnostic that resolves these needs and yields closed contours (mobility edges) that partition the complex spectrum.",
+        "content_hash": "b30fc3b090b8c550f5e35ddfd4c209fe12da8c7d949bac79484ac1a1f99cf721",
+        "id": "gcn_12e55d144dcb4335",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1151854052728897544::conclusion_3_subproblem",
+            "package_id": "paper:1151854052728897544",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1151854052728897544"
+          ]
+        },
+        "rerank_score": 0.7497798646935884,
+        "role": "premise",
+        "score": 0.00641025641025641,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "For traditional localization transitions in fixed-dimension lattices, the critical disorder strength is typically a global parameter (possibly energy-dependent via mobility edges). For graph-based Hamiltonians with fluctuating connectivity, it was unknown whether the control parameter $R$ produces a single global critical point or an energy-dependent critical line. Quantifying energy dependence of $R_{c}$ is necessary to map spectral-phase boundaries (possible mobility-edge-like behavior) in the $(R,E)$ parameter space of graph tight-binding models.",
+        "content_hash": "be1e7f440fdfa786cf3bf4b520f0cee4708c8e168d37b2c73c0de283ff26f427",
+        "id": "gcn_3a168c3b85e144ef",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1077113809669193731::conclusion_4_subproblem",
+            "package_id": "paper:1077113809669193731",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1077113809669193731"
+          ]
+        },
+        "rerank_score": 0.7488803782204247,
+        "role": "premise",
+        "score": 0.013157894736842105,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Disorder breaks translational symmetry and invalidates momentum-space formulas for Chern numbers; to characterize disorder-driven topological transitions in 4D one needs a strictly real-space diagnostic that (a) operates on disordered Hamiltonians without invoking momentum-space structure, (b) is computationally feasible for moderately large lattices so that statistical sampling of disorder realizations is practical, and (c) produces results that can be compared to effective-medium analytical approximations (e.g., the self-consistent Born approximation) in regimes where those approximations apply. Prior higher-Chern real-space calculations lacked the size and efficiency to perform statistically meaningful disorder scans and to compare the numerics to Born-approximation phase boundaries. The KPM-based approach enables such disorder-averaged computations and a direct benchmark against Born calculations in the weak-disorder regime.",
+        "content_hash": "e5796e93d248f67203b2a7e0604c31e9f20ff65fa29213e33f45765274994247",
+        "id": "gcn_d2374b1ce6fb4bff",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1156563046412320775::conclusion_3_subproblem",
+            "package_id": "paper:1156563046412320775",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1156563046412320775"
+          ]
+        },
+        "rerank_score": 0.7488133155091725,
+        "role": "premise",
+        "score": 0.010416666666666666,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The paper addresses the spectral-phase classification (localization vs. delocalization) for the Anderson tight-binding Hamiltonian on the infinite K-regular rooted tree (Bethe lattice variant). Prior to this work, rigorous results established (i) localization at large energies or large disorder and (ii) existence of absolutely continuous spectrum at small energies for small disorder, and (iii) criteria connecting a free-energy functional $\\varphi(s;z)$ (built from fractional moments of off-diagonal resolvent entries) with spectrum type (Simon–Wolff and Aizenman–Warzel criteria). However, the refined, quantitative question of the existence and location of sharp mobility edges (energy values separating intervals of pure-point spectrum from intervals of absolutely continuous spectrum) for finite branching number $K$ remained unresolved. Earlier approaches produced complementary but non-coincident upper and lower bounds on the boundaries between localized and delocalized regimes (e.g., [Bap14]) that converge as $K\\to\\infty$ but do not coincide for any finite $K$. The technical obstacles preventing a proof of mobility edges included: (a) the spectral-type criterion reduces to the sign of a limiting free-energy $\\varphi(1;E)$ and, via a transfer/operator formulation, to whether the spectral radius $\\lambda_{1^{-},E}$ of a certain positive integral operator $F_{s,E}$ is $>1/K$ or $<1/K$; (b) the transfer operator depends on the self-energy density $\\rho_E$ (the law/density of the Schur-complement denominator), which itself is defined through a recursive distributional equation and depends nontrivially on $E$ and $K$; (c) for energies near the putative mobility edge the quantity $\\lambda_{1^{-},E}-1/K$ is small and sensitive to small variations of $\\rho_E$, so existing test-function bounds could not determine its sign; (d) the off-diagonal resolvent entries may have nontrivial imaginary boundary values, making passage from complex-$z$ estimates to real-energy statements delicate. These gaps prevented a rigorous identification of finite-$K$ mobility edges and a control of their locations and local structure.",
+        "content_hash": "6fb9d5ab62ae66f4106aee8e7d0c499ce04f9a0c49900bc64e180ba261d28004",
+        "id": "gcn_aba69a726e3d4729",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1106918754043822087::problem",
+            "package_id": "paper:1106918754043822087",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1106918754043822087"
+          ]
+        },
+        "rerank_score": 0.7465916816970073,
+        "role": "premise",
+        "score": 0.012345679012345678,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Mobility edges are the central spectral features that demarcate localized and extended excitations in 3D Anderson problems. Prior phonon-localization studies for uncorrelated mass disorder had reported nonmonotonic (re-entrant) mobility-edge trajectories as disorder $V$ increases, but it was unknown whether short-range pairwise correlations would shift these mobility edges, modify their re-entrant behavior, or produce qualitatively different phase boundaries. Without explicit computation of mobility-edge trajectories across $(V,\\rho)$ one cannot tell whether correlations can systematically delocalize modes at frequencies that would be localized in the uncorrelated model, nor whether correlations can eliminate the re-entrance found for uncorrelated mass disorder.",
+        "content_hash": "defcb8b31fd17e841ecd623f76abc5ab91619c001eb7bdcd355ebb9c5b495796",
+        "id": "gcn_f4e247e3c4ac4efa",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867763008829391019::conclusion_4_subproblem",
+            "package_id": "paper:867763008829391019",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867763008829391019"
+          ]
+        },
+        "rerank_score": 0.7530920753638355,
+        "role": "premise",
+        "score": 0.008130081300813009,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The long-standing scientific problem addressed by this work is to locate and understand the mobility edge (ME) — the energy-disorder boundary separating exponentially localized and delocalized eigenstates — in three-dimensional tight-binding (Anderson) models, and to identify the spatial mechanism that produces the localization–delocalization transition. Prior to this work, the following state-of-knowledge and limitations prevailed. Analytically, perturbative methods fail in the strong-disorder regime where the ME lies. Nonperturbative semi-analytical theories, notably the self-consistent theory of localization, provide only semi-quantitative predictions whose results depend on uncontrolled approximations and which give little direct information about the spatial structure of eigenstates or the mechanism of the transition. Numerically, methods such as the transfer-matrix method (TMM) and multifractal analysis can locate the ME in specific lattice models and disorder laws, but these computations can be expensive, sensitive to finite-size effects, and difficult to generalize to other lattices or network geometries (or to certain disorder laws). Consequently, there was no widely applicable, spatially-explicit, renormalization-based procedure that both predicts the ME across large regions of the energy–disorder diagram for tight-binding models and explains, in real-space terms, how localized states become extended. This gap prevented (i) a unified spatial interpretation of the ME applicable to different disorder types (e.g., uniform/box versus binary), (ii) an efficient way to estimate the ME that exposes the underlying mechanism in terms of landscape geometry, and (iii) straightforward generalization to lattices or networks where TMM is impractical. The paper is motivated by the need for a predictive, spatially-resolved framework that overcomes these limitations and clarifies whether the transition can be interpreted as a geometrical (percolation-like) phenomenon after an appropriate renormalization of the bare disorder.",
+        "content_hash": "a0aff5c8c893c5784114a30f06697241a2f4bcd20bc11f405a95de3c20024d94",
+        "id": "gcn_0160c1e02aa84981",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:906969149513662571::problem",
+            "package_id": "paper:906969149513662571",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:906969149513662571"
+          ]
+        },
+        "rerank_score": 0.737092669487762,
+        "role": "premise",
+        "score": 0.015151515151515152,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Anderson localization is a phenomenon driven by spatial interference and rare-region fluctuations; it does not manifest as a gap or vanishing of the arithmetic density of states, so averaged theories cannot detect it. There was no practical, non-perturbative procedure to extract localization boundaries (mobility edges) from local spectral information for an infinite lattice while treating spatial fluctuations exactly. A distributional indicator that vanishes in the localized phase (for example a typical or geometric moment tending to zero as $\\eta\\to 0$) and a computational scheme to obtain it were required to map out mobility edges.",
+        "content_hash": "9d5ba70387a039c3e025af541af668951692249f3f83cd8bd531461cff301ad4",
+        "id": "gcn_9719b5b8c39a44d2",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811952029755768834::conclusion_5_subproblem",
+            "package_id": "paper:811952029755768834",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811952029755768834"
+          ]
+        },
+        "rerank_score": 0.748932763465347,
+        "role": "premise",
+        "score": 0.006097560975609756,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Electronic localization in disordered systems is usually understood through Anderson localization in spatially uniform randomness, where increasing disorder suppresses transport and drives all states toward localization in one dimension. Mobility edges and localization-to-delocalization transitions are therefore normally associated either with deterministic nonrandom models such as Aubry-André systems, or with higher-dimensional uniform disorder in the weak-disorder regime. What remained unresolved was whether a one-dimensional or quasi-one-dimensional system with uncorrelated disorder could still support mobility-edge-like behavior, and whether such behavior could survive at strong disorder rather than disappearing as in conventional uniformly disordered materials. A further gap concerned how to probe this localization physics in a spatially non-uniform disordered geometry using magnetic response, persistent current, and conductivity measures, especially for realistic doped nanostructures where impurities occupy only part of the system. Without such a framework, one could not explain whether spatial separation of ordered and disordered regions can qualitatively alter current-carrying properties, whether disorder might ever enhance transport instead of suppressing it, or how to identify the underlying eigenstate structure responsible for such anomalous behavior.",
+        "content_hash": "190dd4251dcc789de30399cb60d5bae70b0f704cdc469392832b58df58ee05a7",
+        "id": "gcn_e7680447663c4029",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813004523009212418::problem",
+            "package_id": "paper:813004523009212418",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813004523009212418"
+          ]
+        },
+        "rerank_score": 0.7716869916012223,
+        "role": "premise",
+        "score": 0.012048192771084338,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In homogeneous band-structure transitions the integer topological invariant changes discontinuously at band inversion points; however, in disordered or inhomogeneous systems local regions can host different effective masses so that the system is effectively an alloy of phases and the spatial average of the marker need not be integer. Prior work in 1D/2D indicated such disorder-induced smoothing and suggested that the relevant length and energy scales are set by $\\xi$ and the bulk gap. What was not quantitatively mapped in three dimensions was the phase diagram versus impurity density and strength and whether the same empirical scaling holds. By computing averaged markers with KPM for varying $n_{\\mathrm{imp}}$ and $M_{\\mathrm{imp}}$ and comparing small and large bulk gaps ($M_{0}=-0.5$ and $M_{0}=-2.0$), the phase boundaries are shown to follow the heuristic correlation-length and gap criteria above, thereby filling the gap in quantitative 3D disorder-phase mapping.",
+        "content_hash": "6dee6315b9bc606b350c1b22cda0db3c55b41b447c7c2c9f3f5600baed6c4783",
+        "id": "gcn_bdbc293d2a154557",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1202947975546929152::conclusion_6_subproblem",
+            "package_id": "paper:1202947975546929152",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1202947975546929152"
+          ]
+        },
+        "rerank_score": 0.7248636772987137,
+        "role": "premise",
+        "score": 0.01098901098901099,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The localization properties of tight-binding particles with purely off-diagonal bimodal ($\\pm$) sign disorder resulting from emergent $\\pi$ fluxes in three dimensions were not known: specifically, whether a mobility edge exists (unlike 2D where all but special states are localized), how close any mobility edge would be to the band edges, and to which universality class a possible Anderson transition would belong. Prior numerical studies of off-diagonal disorder in 3D existed for other disorder ensembles, but the particular case where the sign distribution derives from a $\\mathbb{Z}_2$ gauge structure and has fixed magnitude $|\\exp(iA_{ss'})|=1$ had not been characterized. Without locating the mobility edge and identifying the critical exponent, one cannot predict which portion of the spectrum contributes extended states, nor classify the transition for comparison with standard Anderson models or experimental probes.",
+        "content_hash": "d6e354109fb8d7493eb30faa2dd304ae607d3eaeb87ca99deac53d3a1b34e218",
+        "id": "gcn_e01d2085d06b4cbd",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817403521266614272::conclusion_2_subproblem",
+            "package_id": "paper:817403521266614272",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817403521266614272"
+          ]
+        },
+        "rerank_score": 0.724281870606957,
+        "role": "premise",
+        "score": 0.017628739850962076,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In disordered tight-binding systems on lattices the breaking of translational invariance by site-dependent potentials $\\{\\epsilon_j\\}$ produces strong, sample-specific spatial fluctuations of the one-particle wave functions. Conventional, translation-invariant observables (for example the arithmetically averaged density of states) do not capture these fluctuations and therefore cannot reliably discriminate between extended (transporting) and localized (non-transporting) quantum states. Numerically, exact diagonalization of large systems is prohibitive, and common spectral expansion techniques (standard Kernel Polynomial Method, KPM) provide non-uniform spectral resolution across the band: for a fixed polynomial order the Jackson-kernel width $\\sigma$ depends on energy, so small local values of the local density of states (LDOS) may be artifacts of insufficient resolution rather than signatures of localization. In the specific physical problems of (i) Anderson localization and (ii) quantum site percolation (binary alloy with $\\epsilon_A,\\epsilon_B$ and the $\\Delta\\to\\infty$ limit) these methodological shortcomings have hampered clear identification of mobility edges, of a possible quantum percolation threshold $p_q$ distinct from the classical percolation threshold $p_c$, and of the internal fragmentation of the spectrum into localized and extended states (including anomalous kinds of localization at special energies). Moreover, for materials whose transport is believed to be percolative (e.g., graphene with spatial charge inhomogeneities, doped CMR manganites) there is a need for computational schemes that (a) discriminate localized from extended states on microscopic lattices at affordable cost, (b) provide uniform spectral resolution so that small LDOS signals are trustworthy, and (c) allow dynamical (time-domain) and network (random-resistor) modeling to bridge simple percolation models and experimentally relevant transport observables.",
+        "content_hash": "f4651a45c95160303bd8a61c7ccf3a866bb469636d1d4f0d988b731f30ac530a",
+        "id": "gcn_ad5656ad355740f7",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867758720841417069::problem",
+            "package_id": "paper:867758720841417069",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867758720841417069"
+          ]
+        },
+        "rerank_score": 0.8204942479980677,
+        "role": "premise",
+        "score": 0.007042253521126761,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Physical context: identifying phase boundaries and mobility edges in interacting disordered systems typically requires many-body diagnostics (level statistics, entanglement scaling, transport), which are computationally costly and sometimes ambiguous on small finite systems. A compact, state-local one-particle marker that reproduces known features of the phase diagram would streamline numerical mapping and could be accessible experimentally. Prior to this work it was not established that a single-particle-derived discontinuity in the OPDM occupations fulfills this role across models (random disorder and quasiperiodic Aubry-André) and parameter ranges.",
+        "content_hash": "f514a24264527d45897219f87d9924c36b3babf8f75de8d5eb0b23b80ad183cc",
+        "id": "gcn_496c60b4016e44bf",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811067942069338116::conclusion_6_subproblem",
+            "package_id": "paper:811067942069338116",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811067942069338116"
+          ]
+        },
+        "rerank_score": 0.8104286995340215,
+        "role": "premise",
+        "score": 0.008928571428571428,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Theoretical predictions of topological phase transitions and the existence of Majorana zero modes at edges need to be confirmed through real-space simulations on finite-length nanotubes with realistic tight-binding parameters. Such simulations are computationally demanding for micrometer-long CNTs containing millions of atoms, but they are essential to verify that the continuum-model predictions hold in a more realistic setting, to demonstrate the presence of zero-energy edge modes with exponential localization, and to estimate the localization length. The tight-binding model includes the full lattice structure, disorder potential from the gate, and the magnetic Peierls phase, providing a stringent test of the proposed scheme.",
+        "content_hash": "69beaffe4d4d8bdb4ad3ef8034bc86e00d8bbd44735ab0a3d23249927f0d41ef",
+        "id": "gcn_06faaf8fab19476e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817362443909988353::conclusion_4_subproblem",
+            "package_id": "paper:817362443909988353",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817362443909988353"
+          ]
+        },
+        "rerank_score": 0.7152142614567143,
+        "role": "premise",
+        "score": 0.00684931506849315,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The physical context is the electronic localization-delocalization problem for noninteracting electrons in crystalline solids with disorder, i.e., the Anderson transition problem in lattice tight-binding models. Before this work it was understood that in ordinary periodic crystals Bloch bands with nonzero dispersion support conduction when the Fermi energy lies inside a band, and that adding disorder drives an Anderson localization transition characterized, in three dimensions, by a finite critical disorder strength $W_{c}$ and a mobility-edge trajectory in the energy-disorder ($E$-$W$) plane. However, a class of periodic Hamiltonians exists whose entire set of single-particle dispersion relations is flat (flatband systems, FB): these systems possess macroscopic degeneracy of eigenstates and vanishing group velocity, so the usual implication \"periodicity implies conduction\" is not guaranteed. Prior theoretical and numerical studies of Anderson localization focused on dispersive-band systems and on the usual disorder-driven transition from extended (metallic) to localized (insulating) states; they did not supply a quantitative understanding of how disorder acts on a perfect flatband system where the clean limit already has infinitely degenerate, dispersionless eigenenergies. In particular, open points in the pre-contribution baseline were: (i) whether infinitesimally small random perturbations of an ideal flatband necessarily produce localized impurity states only, or whether increasing disorder could instead delocalize the flatband eigenstates (i.e., produce an inverse, disorder-induced localization→delocalization transition); (ii) how to place such possible transitions on a quantitative $E$-$W$ mobility-edge diagram for three-dimensional flatband lattices, given that conventional tools (level statistics, multifractal analysis) can be problematic near low-density-of-states band edges; and (iii) whether the critical properties (multifractal spectrum, universality class) of any disorder-driven delocalization originating from a flatband differ from the ordinary Anderson criticality. These gaps prevented precise statements about phase behavior of disordered flatband systems (no quantitative critical disorder strengths, no mapped mobility-edge trajectories, no confirmed critical multifractal signatures) and thus left unresolved whether disorder can produce an insulating→metallic transition starting from a perfectly flatband crystalline Hamiltonian.",
+        "content_hash": "f6be5ccd3f2863582ddacdc95dbe8915c593064a15b9c29ec5b842b0264a93c4",
+        "id": "gcn_7d6c7d458e3945cd",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812109979359117312::problem",
+            "package_id": "paper:812109979359117312",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812109979359117312"
+          ]
+        },
+        "rerank_score": 0.7252244135158483,
+        "role": "premise",
+        "score": 0.006097560975609756,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The study of disorder-induced Anderson localization in lattice electronic systems requires an effective-medium treatment that can distinguish extended from localized single-particle states and produce quantitative phase diagrams (mobility edges and critical disorder strengths) for realistic lattices. Conventional single-site effective-medium theories such as the coherent potential approximation (CPA) use algebraic (linear) averaging of the local density of states (LDOS) and therefore produce an averaged Green's function that remains finite through the localization transition; as a result these methods cannot serve as an order-parameter theory of localization. The typical medium theory (TMT) improves on CPA by using the geometric (logarithmic) average of the LDOS — the typical density of states (TDOS) — which can go to zero at the Anderson transition, but the single-site TMT neglects non-local multiple-scattering and spatial fluctuations and therefore underestimates the critical disorder strength and fails to capture non-local phenomena such as the re-entrance of mobility edges at finite energy. Momentum-space cluster extensions of TMT (TMDCA) address non-locality but operate in reciprocal space and are less natural for problems with broken translational invariance (for example surfaces or open boundary conditions) and for embedding into real-space first-principles multiple-scattering frameworks. Furthermore, near the transition the LDOS distribution on sites is strongly skewed with long tails (non-self-averaging), so any effective-medium theory based on simple algebraic averaging will give qualitatively wrong predictions (e.g., ADOS remains finite while the most probable LDOS vanishes). These limitations prevent controlled, computationally efficient, real-space studies of Anderson localization that (i) capture non-local multiple-scattering effects required to reproduce the correct critical disorder strength and mobility-edge re-entrance, and (ii) allow embedding and open-boundary treatments needed to address surfaces and material-specific calculations.",
+        "content_hash": "e3276d7155569b41722dda0cb292c0188efce2bb80fd6c1afe74ced08e441a66",
+        "id": "gcn_909b3fac69144913",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867761027637314088::problem",
+            "package_id": "paper:867761027637314088",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867761027637314088"
+          ]
+        },
+        "rerank_score": 0.7050030853926426,
+        "role": "premise",
+        "score": 0.008333333333333333,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Beyond establishing that a mobility edge exists, one must quantify how localization length and momentum-space structure vary with energy and disorder parameters, so as to connect spectral diagnostics to physically measurable wavefunction profiles. Previous 2D disorder studies often reported qualitative localization but not the joint dependence on mode multiplicity $N$, disorder amplitude $\\beta$, and energy relative to back-scattering; without this numerical characterization it is difficult to assert which experimental parameter regimes will display observable localized modes and how sharply the ME separates extended and localized wavefunctions.",
+        "content_hash": "6c1991b7d67ce0fdf498acf656078b9b0c6fa4acef754c3c376de62ead55f0c2",
+        "id": "gcn_a24deab7f57741ad",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1077622135435821058::conclusion_6_subproblem",
+            "package_id": "paper:1077622135435821058",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1077622135435821058"
+          ]
+        },
+        "rerank_score": 0.7016475185798625,
+        "role": "premise",
+        "score": 0.011904761904761904,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The work addresses the problem of locating and characterizing mobility edges and the degree of localization in one-dimensional tight-binding models that contain slowly varying quasi-periodic disorder. In this physical context the goal is to understand, for lattice Hamiltonians with on-site potentials and/or hopping amplitudes modulated by slowly varying incommensurate functions (here $w_i=w\\cos(2\\pi\\alpha i^v)$ and $\\mu_i=\\mu\\cos(2\\pi\\beta i^v+\\phi)$ with $0<v<1$), which single-particle eigenenergies correspond to spatially extended Bloch-like states and which correspond to localized states (the mobility edge problem). Prior approaches include the standard Aubry–André (AA) analysis (self-duality yielding a simultaneous transition of all states, hence no mobility edge in the simple AA model), modifications of the AA model that can produce mobility edges (e.g. long-range hopping), and a heuristic semi-analytical asymptotic method used in the literature for slowly varying potentials that replaces the slowly varying disorder by its asymptotic constant value at large site index. Those prior analyses suffer specific limitations: the standard AA solution does not produce mobility edges; the Das Sarma semi-analytic asymptotic approach becomes difficult to apply and imprecise when both hopping and potential carry quasi-periodic disorder with nontrivial relative phases or when applied to more complex lattice models (for example, topological SSH-type lattices or models with coupled off-diagonal and diagonal quasi-disorder). Because the slowly varying disorder is not spatially uniform, determining precise mobility-edge locations requires accounting for the spatially varying local band structure; existing asymptotic heuristics either give only rough bounds or become intractable for coupled disorders, so researchers cannot efficiently obtain precise analytical mobility-edge formulas for these classes of one-dimensional quasi-periodic models nor a simple quantitative index that captures how “extended” an energy level is across the spatially varying local environments. This gap prevents compact analytical characterization of mobility edges in a broad family of slowly varying quasi-periodic 1D tight-binding models and limits tools for visualizing and quantifying the degree of localization of individual eigenstates beyond numerics such as IPR.",
+        "content_hash": "68043ffbd87819b7a9b7609d38f6bf88fb0b034645b4c07bd8dcd3e6a8972d46",
+        "id": "gcn_dc1152f40abe48a3",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867772820707344587::problem",
+            "package_id": "paper:867772820707344587",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867772820707344587"
+          ]
+        },
+        "rerank_score": 0.7140892198206139,
+        "role": "premise",
+        "score": 0.017158593419008612,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Distinguishing a genuine disorder-induced topological phase (which supports localized edge modes while possibly having localized bulk states) from a generic Anderson localized phase requires direct diagnostics of spatial structure. Momentum-space invariants are inapplicable in the absence of translation symmetry, and edge-state counting alone can be confounded by finite-size or boundary effects. Quantitative, disorder-averaged IPR measures in both real and momentum spaces are necessary to establish whether disorder produces topologically protected edge states coexisting with localized bulk states, and to map out localization versus delocalization regions across the disorder parameters.",
+        "content_hash": "40d55841e3e13c4490cf642efd147d675bd9bb6f644e26e517e494d5a36317ed",
+        "id": "gcn_35275187a8b549e2",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867763757172916686::conclusion_4_subproblem",
+            "package_id": "paper:867763757172916686",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867763757172916686"
+          ]
+        },
+        "rerank_score": 0.696004167157771,
+        "role": "premise",
+        "score": 0.010526315789473684,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The behavior of Anderson localization under amorphous rewiring (fixed coordination, random connectivity) was not systematically characterized: it was unclear whether all states would localize as in 2D Anderson models with onsite disorder, or whether the spectrum would show energy-dependent localization resembling 3D models. Numerical evidence was required to determine the qualitative localization landscape and whether a mobility-edge-like separation exists at experimentally relevant sizes. The observed energy-dependent Anderson-like localization and mobility-edge-like behavior provide that necessary characterization for the studied models.",
+        "content_hash": "d9a2f6b575b483743c5b51cfe1fa5c305e244ad38f232019422b4c9b57f49676",
+        "id": "gcn_f4cc723a0b3e4b24",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:991956511087394817::conclusion_8_subproblem",
+            "package_id": "paper:991956511087394817",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:991956511087394817"
+          ]
+        },
+        "rerank_score": 0.6959169404121415,
+        "role": "premise",
+        "score": 0.00820130168956676,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Determining the mobility edges and critical disorder of the Anderson metal-insulator transition requires an efficient way to compute the local density of states (LDOS) and a reliable finite-size scaling analysis that can separate localized from extended states. Traditional methods like the Lanczos algorithm provide spectral information only in a narrow energy window or require repeated runs, while earlier applications of the Kernel Polynomial Method (KPM) had not been integrated with a thorough finite-size scaling procedure for the typical density of states. Without such a combined approach, mapping the full disorder–energy phase diagram of the Anderson model, especially in the presence of symmetry-breaking perturbations such as magnetic impurities, remained computationally expensive and methodologically imprecise.",
+        "content_hash": "3226877435a9f428c6c9b6c2e7a22d3ccb7588e493b33a60cc5a7d9e26fd11ab",
+        "id": "gcn_c53698759d034c1a",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814705265537449988::conclusion_1_subproblem",
+            "package_id": "paper:814705265537449988",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814705265537449988"
+          ]
+        },
+        "rerank_score": 0.7890233932127584,
+        "role": "premise",
+        "score": 0.011627906976744186,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In double-chain disordered tight-binding systems, interchain coupling splits the spectrum into two branches and mixes the two chains’ disorder landscapes. For long-range correlated disorder, mobility edges can exist, but without a tractable analytical construction the mobility-edge locations must be inferred by extensive transfer-matrix calculations and finite-size crossings of the normalized localization length $\\Lambda=\\lambda/N$. This becomes particularly limiting when exploring how mobility edges shift as the disorder strengths, central energies, hopping asymmetry, and interchain coupling are varied, because a purely numerical search does not provide a compact predictive relation connecting these parameters to the phase boundaries between localized and extended states.",
+        "content_hash": "eaf464262ff1567fa0663abe86db4a2d3c204fec296e840a36a5b1a4379dc55f",
+        "id": "gcn_2d665b4dfbdf4b40",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812658299957673985::conclusion_1_subproblem",
+            "package_id": "paper:812658299957673985",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812658299957673985"
+          ]
+        },
+        "rerank_score": 0.7162678932554609,
+        "role": "premise",
+        "score": 0.015151515151515152,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Quasiperiodic potentials, especially when constructed to be nonseparable, can produce energy-dependent localization boundaries (mobility edges) and direction-dependent transport properties that complicate both phase-diagram interpretation and direct comparisons with isotropic disordered models. Mapping participation ratios across $(E,V)$ identifies such mobility edges and reveals anisotropy at criticality; quantifying these features is necessary to (i) choose appropriate probes (e.g., choosing transmission direction), (ii) tune effective geometry for CCD comparisons, and (iii) understand how deterministic QP structure modifies spatial transport anisotropy relative to random disorder.",
+        "content_hash": "346c669c380761e0e4b8cce1a903edd981650b720a146cd800839ac089029008",
+        "id": "gcn_c0664ab9fc4747b0",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867745431914807783::conclusion_6_subproblem",
+            "package_id": "paper:867745431914807783",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867745431914807783"
+          ]
+        },
+        "rerank_score": 0.6945332394910739,
+        "role": "premise",
+        "score": 0.008064516129032258,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The existence and location of intermediate phases with mobility edges in disordered SSH‑type systems with quasiperiodic modulation had been discussed theoretically in isolated studies, but an integrated identification of both trivial and topological intermediate phases across the (m,W) plane — and experimental signatures thereof — was lacking. Demonstrating mobility edges and their topological character requires spectral resolution (eigenstate‑resolved IPR) or reliable dynamical proxies that reveal coexistence of localized and extended behaviour; addressing this gap clarifies how mobility edges organize the phase diagram.",
+        "content_hash": "6e73a318fe7fe02f84a3d68f09a6c75bb4d98a335ae5a2c0064e4c19d6353ca2",
+        "id": "gcn_66e14527ce834ca9",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867773444962386694::conclusion_5_subproblem",
+            "package_id": "paper:867773444962386694",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867773444962386694"
+          ]
+        },
+        "rerank_score": 0.6900269915651258,
+        "role": "premise",
+        "score": 0.013513513513513514,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "For $d\\le2$ all disorder localizes states, while in truly 3D systems a mobility edge can separate localized and extended states; for q1D materials the question whether a mobility edge can emerge after dimensional crossover was unresolved. Distinguishing a smooth localization crossover from a sharp critical disorder (mobility edge) has strong implications for theories of many-body localization in anisotropic systems and for interpreting why superconductivity can persist or be enhanced across different disorder regimes. Before this work there was limited experimental evidence for a distinct critical disorder in q1D crystals.",
+        "content_hash": "5a31e1a5645b4534d4894bf89a8483e122582d68fac4e0e8e7d9e14094f132a4",
+        "id": "gcn_704700a15d0d4b37",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811188568285249537::conclusion_9_subproblem",
+            "package_id": "paper:811188568285249537",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811188568285249537"
+          ]
+        },
+        "rerank_score": 0.6854597908772728,
+        "role": "premise",
+        "score": 0.008771929824561403,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "At sufficiently large disorder strength the thermal diffusive Hall metal (ThDM) undergoes an Anderson localization transition into a thermal Anderson insulator (AI). Numerically, an energy-dependent mobility edge is observed, defined via $M_{\\rm edge}(E)=\\rho_t(E)/\\rho(E)$ where $\\rho_t(E)$ is the typical DOS and $\\rho(E)$ is the average DOS; the mobility edge moves toward zero energy ($E=0$) with increasing disorder. The typical DOS at zero energy vanishes upon crossing the transition, and finite-KPM-expansion-order analysis (with Chebyshev expansion order $N_C$) indicates that the zero-energy localization threshold extrapolates reliably as $N_C\\to\\infty$. In the numerics at chemical potential $\\mu=0$, the critical behavior of the typical DOS on the metallic side scales empirically as $\\rho_t(0)\\sim(W_l-W)^\\beta$ where $W_l$ is the critical disorder and $\\beta\\approx2.9\\pm0.1$.",
+        "content_hash": "f8a9c7504075c58197f2319a6034a0f097b7ec833be0a29ba6722c9e59682028",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_c2bc7bde477a4cf2",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867765829964399036::conclusion_9",
+            "package_id": "paper:867765829964399036",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867765829964399036"
+          ]
+        },
+        "rerank_score": 0.7516245622304796,
+        "role": "conclusion",
+        "score": 0.006422547988701264,
+        "title": "Anderson localization transition at very large disorder and characterization of mobility edge and critical scaling of typical DOS",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Ultracold-atom quantum simulators have extensively explored localization induced by deterministic quasiperiodic potentials, most notably the one-dimensional Aubry–André (AA) model whose self-duality yields a sharp localization transition at a critical quasiperiodic potential strength. However, a complementary and scientifically important class of one-dimensional localization problems — those with true microscopic disorder in the kinetic (off-diagonal) terms, i.e., spatial variations in nearest-neighbor hopping amplitudes — has remained largely inaccessible to experiments. Conventional real-space optical-lattice platforms lack the site-resolved, bond-resolved control necessary to implement arbitrary distributions of nearest-neighbor tunneling amplitudes and to tune their spatial correlations; as a result, experimental tests of how uncorrelated versus spatially correlated hopping disorder competes with quasiperiodicity (and with Generalized Aubry–André deformations that break self-duality and produce mobility edges) have been missing. This absence prevents direct experimental answers to questions that are central to the theory of low-dimensional localization: whether off-diagonal (hopping) disorder generically enhances localization and converts sharp self-duality-protected transitions into crossovers; how finite-range correlations in hopping amplitudes can modify or even produce local regions of enhanced transport within an otherwise localized spectrum; and to what extent controlled disorder correlations can be realized experimentally with sufficient fidelity for quantitative comparison with microscopic simulations. These gaps limit the ability to experimentally validate theory for disordered tight-binding models beyond purely diagonal disorder, to probe mobility-edge physics in the presence of realistic bond randomness, and to benchmark precision quantum-simulation methods that require bond-resolved control.",
+        "content_hash": "efddda6a65f3494bfb20538ba75bff24fdf40df8c1a5a5ecd6309d00b5dfed2b",
+        "id": "gcn_e799f323ca6b4200",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1251114917474336776::problem",
+            "package_id": "paper:1251114917474336776",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1251114917474336776"
+          ]
+        },
+        "rerank_score": 0.6850138689095077,
+        "role": "premise",
+        "score": 0.006493506493506494,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "For the Anderson model with open boundaries and disorder strength $W/t=1$, the localization length at band center $\\xi(E=0)$ computed with the KPM–Thouless method ($M=2048$ moments) agrees, for several system sizes $N$, with results obtained from exact diagonalization of the same tight-binding Hamiltonian (inset of Fig. 1). The two sets of values coincide within the estimated KPM error of 1%.",
+        "content_hash": "f406aeb4864616b9e0ee91241627cff62616ab1dfc187da2b81ef5784684b213",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_a78d58c3453840a8",
+        "kind": "highlight",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812650397133963265::H2",
+            "package_id": "paper:812650397133963265",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812650397133963265"
+          ]
+        },
+        "rerank_score": 0.7108635029598245,
+        "role": "premise",
+        "score": 0.006525441771343411,
+        "title": "Exact diagonalization benchmark",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "It was an open and experimentally relevant question whether the disordered second phase of $K_xFe_{2-y}Se_2$ with significant Fe-vacancy concentration (up to $\\sim 12.5\\%$) is Anderson localized, given the strong vacancy potentials, quasi-two-dimensional nature, and large vacancy concentrations. Prior to this calculation there was no ab initio–based effective-medium cluster prediction that combined realistic multiband Fe-$d$ low-energy Hamiltonians with a validated multiband TMDCA to locate mobility edges and determine whether the chemical potential lies in a localized regime for experimentally relevant fillings.",
+        "content_hash": "11732fcde55966820928445309a140eeab5e0346c89c533b719d6db14db1e481",
+        "id": "gcn_70b731e3e174484f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867771308924993739::conclusion_8_subproblem",
+            "package_id": "paper:867771308924993739",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867771308924993739"
+          ]
+        },
+        "rerank_score": 0.7596315874961478,
+        "role": "premise",
+        "score": 0.010869565217391304,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "One-dimensional single-particle tight-binding models with on-site disorder or quasi-periodic potentials present a well-defined pre-contribution problem: in the Hermitian Anderson model any nonzero uncorrelated diagonal disorder produces exponential localization of all eigenstates in 1D, and in the Hermitian Aubry-André model the localization transition is sharp (all states localize above a critical quasiperiodic potential strength). Consequently, a 1D lattice supporting a coexistence of spatially localized and extended eigenstates at different energies (a mobility edge) has required specially engineered correlated disorder, tailored hopping amplitudes, or quasi-periodic potentials in prior work. Separately, non-Hermitian nonreciprocal (asymmetric-hopping) lattices exhibit the non-Hermitian skin effect (NHSE) and pronounced sensitivity of the complex energy spectrum to boundary conditions (PBC vs OBC vs semi-infinite), but the role of finite-size boundary geometry that mixes open and periodic connectivity (here: a finite lattice with one open edge and a second edge closed to a bulk site) in producing mobility-edge-like coexistence has not been established as a simple alternative mechanism. Practically, researchers lack (i) a minimal, experimentally feasible finite-lattice setup that produces coexistence of extended and localized single-particle states in 1D without needing engineered correlated disorder or exotic long-range hoppings, (ii) an understanding of how on-site disorder (random or quasi-periodic) alters such coexistence and whether a corresponding localization transition coincides with a topological transition of the non-Hermitian spectrum, and (iii) a clear topological diagnostic that can be computed for the finite mixed-boundary geometry. These gaps impede both theoretical understanding of boundary-condition-induced localization phenomena in nonreciprocal lattices and straightforward experimental realizations of 1D mobility edges in non-Hermitian platforms.",
+        "content_hash": "cdb052e6d6b18a17594c2c77dfe36ef814c0db4c57657851e477b42c32d3899c",
+        "id": "gcn_2168b9840e7a4f4c",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867770683369718454::problem",
+            "package_id": "paper:867770683369718454",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867770683369718454"
+          ]
+        },
+        "rerank_score": 0.6800515505824823,
+        "role": "premise",
+        "score": 0.010101010101010102,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In canonical Anderson models with onsite disorder, it is well known that localized and extended states can coexist at different energies (mobility edges), and determining the energy dependence of the critical disorder strength is essential for a complete phase diagram. For structurally disordered lattices, it was not established whether localization induced by geometric irregularities is uniform across the spectrum or whether a mobility edge exists; the absence of such knowledge prevented mapping the full phase diagram in $(p,E)$ and understanding which energy ranges remain conducting for a given structural disorder. A direct computation of energy-resolved critical disorder strengths is therefore required to determine the existence and location of mobility edges induced by structural disorder.",
+        "content_hash": "f087feb9fca61968604ca2139aa2c00009c2f136ce7060232006dcc080947ae0",
+        "id": "gcn_551d50672208460f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1229607360125730817::conclusion_3_subproblem",
+            "package_id": "paper:1229607360125730817",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1229607360125730817"
+          ]
+        },
+        "rerank_score": 0.6722440949733389,
+        "role": "premise",
+        "score": 0.013333333333333334,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Mobility edges (energy-dependent boundaries separating localized from extended states) are central diagnostics of quasi-periodic systems, but in the mechanical SSH setting with on-site stiffness their existence and analytic form were unknown. Prior A–A results gave single-threshold phenomena for scalar tight-binding models; they did not provide closed-form spectral boundaries for the two-sublattice mechanical chain with frequency-dependent denominators. Lacking such formulas precluded precise mapping of extended/critical/localized spectral regions and prevented comparison to numerical IPR diagnostics. The stated mobility-edge equations supply explicit spectral boundaries enabling analytic classification of localization regimes for the non-chiral mechanical chain without discrete disorder.",
+        "content_hash": "eb5d7982bb1eef2fe02287004f7c3df86b389aa7e9763c491b2587903e818ef2",
+        "id": "gcn_cc5d6537acfd4816",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1023844128787529732::conclusion_4_subproblem",
+            "package_id": "paper:1023844128787529732",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1023844128787529732"
+          ]
+        },
+        "rerank_score": 0.6717772185837705,
+        "role": "premise",
+        "score": 0.00625,
+        "type": "question",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "req_ec36332a4ff0f"
+}

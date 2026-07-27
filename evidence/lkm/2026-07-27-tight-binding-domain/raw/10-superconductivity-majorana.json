@@ -1,0 +1,1521 @@
+{
+  "code": 0,
+  "data": {
+    "has_more": true,
+    "papers": {
+      "paper:1070588220065972231": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Gautam Rai | Arman Babakhani | Ying Wang | Stephan Haas | Stefan Kettemann",
+        "available_online": "",
+        "cover_date_start": "2024-11-28",
+        "created_at": "2026-06-16T04:15:25+08:00",
+        "doi": "10.48550/arxiv.2411.19396",
+        "en_title": "SNS Junctions along the BCS-BEC Crossover",
+        "id": "1070588220065972231",
+        "keywords": "",
+        "publication_date": "2024-11-28",
+        "publication_id": "108490",
+        "publication_name": "Superconductivity _ Physics.cond-mat.supr-con",
+        "research_categories": "",
+        "zh_title": "沿BCS-BEC交叉区域的SNS结"
+      },
+      "paper:1122292424572403745": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Daniel Skliannyi | Yuval Oreg | Ady Stern",
+        "available_online": "",
+        "cover_date_start": "2025-04-22",
+        "created_at": "2026-06-13T15:29:58+08:00",
+        "doi": "10.48550/arxiv.2504.16176",
+        "en_title": "Gapfull and gapless 1D Topological Superconductivity in Spin-Orbit Coupled Bilayer Graphene",
+        "id": "1122292424572403745",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108489",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "自旋轨道耦合双层石墨烯中的全隙和无隙一维拓扑超导性"
+      },
+      "paper:1146777464035344389": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Hamidreza Simchi",
+        "available_online": "",
+        "cover_date_start": "2025-06-30",
+        "created_at": "2026-06-15T01:47:27+08:00",
+        "doi": "10.48550/arxiv.2506.23737",
+        "en_title": "Two-Dimensional Materials-Based Josephson Junctions",
+        "id": "1146777464035344389",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108490",
+        "publication_name": "Superconductivity",
+        "research_categories": "",
+        "zh_title": "基于二维材料的约瑟夫森结"
+      },
+      "paper:1205123114539679752": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Sinchan Ghosh | Srinjoy Ghosh | Arijit Kundu | K. Sengupta",
+        "available_online": "",
+        "cover_date_start": "2025-12-08",
+        "created_at": "2026-06-19T04:05:21+08:00",
+        "doi": "10.48550/arXiv.2512.07701",
+        "en_title": "Index-theoretic route to the subgap Andreev bands and topological response in Josephson junctions",
+        "id": "1205123114539679752",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108490",
+        "publication_name": "Superconductivity",
+        "research_categories": "",
+        "zh_title": "约瑟夫森结中亚能隙安德列夫能带和拓扑响应的指标理论路径"
+      },
+      "paper:1229376872891023394": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Aabir Mukhopadhyay | Udit Khanna | Sourin Das",
+        "available_online": "",
+        "cover_date_start": "2023-09-26",
+        "created_at": "2026-06-10T00:49:33+08:00",
+        "doi": "10.48550/arXiv.2309.15159",
+        "en_title": "Anomalous topology and synthetic flat band in multi-terminal Josephson Junctions",
+        "id": "1229376872891023394",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "多端约瑟夫森结中的反常拓扑与合成平带"
+      },
+      "paper:320846062564671488": {
+        "area": "physics",
+        "authors": "Ю.П. Чубурин | Т.С. Тинюкова",
+        "available_online": null,
+        "cover_date_start": "2022-09-01",
+        "created_at": "2026-06-05T16:16:34+08:00",
+        "doi": "10.4213/tmf10297",
+        "en_title": "ANDREJEVE STATUS IN QUASIONOMIC DRILLING AT THE SURFACE OF TOPOLOGICAL ISOLATOR",
+        "id": "320846062564671488",
+        "keywords": null,
+        "publication_date": "2022-09",
+        "publication_id": "",
+        "publication_name": "Teoreticheskaya i Matematicheskaya Fizika",
+        "research_categories": null,
+        "zh_title": "俄罗斯化学武器子上的四合制LED的安德烈状况"
+      },
+      "paper:320866794015293440": {
+        "area": "physics",
+        "authors": "Ю. П. Чубурин | Т. С. Тинюкова",
+        "available_online": null,
+        "cover_date_start": "2021-07-01",
+        "created_at": "2026-06-05T17:11:32+08:00",
+        "doi": "10.4213/tmf10025",
+        "en_title": "BEHAVING ANDREJEVE CONDITIONS IN TOPOLOGICAL FACE TRANSITION",
+        "id": "320866794015293440",
+        "keywords": null,
+        "publication_date": "2021-07",
+        "publication_id": "",
+        "publication_name": "Teoreticheskaya i Matematicheskaya Fizika",
+        "research_categories": null,
+        "zh_title": "二、安德里的状况在热带气候变化中的影响"
+      },
+      "paper:811035628450873345": {
+        "area": "Physics and Astrophysics, physics, multidisciplinary",
+        "authors": "Hong Huang | Qi-Feng Liang | Dao-Xin Yao | Zhi Wang",
+        "available_online": "",
+        "cas_zone": "3",
+        "cover_date_start": "2017-06-01",
+        "created_at": "2026-06-19T00:20:30+08:00",
+        "doi": "10.1016/j.physleta.2017.04.016",
+        "en_title": "Critical current anomaly at the topological quantum phase transition in a Majorana Josephson junction",
+        "id": "811035628450873345",
+        "impact_factor": 2.3,
+        "jcr_zone": "Q2",
+        "keywords": "[{\"ch_name\":\"临界电流\",\"en_name\":\"Critical current\"},{\"ch_name\":\"约瑟夫森效应\",\"en_name\":\"Josephson effect\"},{\"ch_name\":\"马约拉纳束缚态\",\"en_name\":\"Majorana bound states\"},{\"ch_name\":\"拓扑量子相变\",\"en_name\":\"Topological quantum phase transition\"},{\"ch_name\":\"拓扑超导体\",\"en_name\":\"Topological superconductors\"}]",
+        "publication_date": "2017-6",
+        "publication_id": "604",
+        "publication_name": "Physics Letters A _ Physics Letters A",
+        "research_categories": "",
+        "zh_title": "马约拉纳约瑟夫森结中拓扑量子相变处的临界电流异常"
+      },
+      "paper:811776922190086146": {
+        "area": "physics and astrophysics, physical sciences, condensed matter physics",
+        "authors": "Kosuke Nogaki | Akito Daido | Jun Ishizuka | Youichi Yanase",
+        "available_online": "2021-9-23",
+        "cas_zone": "2",
+        "cover_date_start": "2021-09-23",
+        "created_at": "2026-06-17T01:51:30+08:00",
+        "doi": "10.1103/physrevresearch.3.l032071",
+        "en_title": "Topological crystalline superconductivity in locally noncentrosymmetric CeRh 2 As 2",
+        "id": "811776922190086146",
+        "impact_factor": 4.9,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "68812",
+        "publication_name": "Physical Review Research _ Phys. Rev. Research",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "局域非中心对称CeRh₂As₂中的拓扑晶体超导性"
+      },
+      "paper:812563428097916929": {
+        "area": "physics and astrophysics, physics, applied, multidisciplinary, mathematical",
+        "authors": "J. Ávila | E. Prada | P. San-Jose | R. Aguado",
+        "available_online": "2020-9-25",
+        "cas_zone": "2",
+        "cover_date_start": "2020-09-25",
+        "created_at": "2026-06-14T06:29:25+08:00",
+        "doi": "10.1103/physrevresearch.2.033493",
+        "en_title": "Majorana oscillations and parity crossings in semiconductor nanowire-based transmon qubits",
+        "id": "812563428097916929",
+        "impact_factor": 4.9,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "68812",
+        "publication_name": "Physical Review Research _ Phys. Rev. Research",
+        "research_categories": "",
+        "zh_title": "基于半导体纳米线的transmon量子比特中的马约拉纳振荡和宇称交叉"
+      },
+      "paper:812564214735437830": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, materials science, multidisciplinary",
+        "authors": "J. Ávila | E. Prada | P. San-Jose | R. Aguado",
+        "available_online": "2020-9-25",
+        "cas_zone": "2",
+        "cover_date_start": "2020-09-25",
+        "created_at": "2026-06-15T08:24:27+08:00",
+        "doi": "10.1103/physrevb.102.094518",
+        "en_title": "Superconducting islands with topological Josephson junctions based on semiconductor nanowires",
+        "id": "812564214735437830",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "基于半导体纳米线的具有拓扑约瑟夫森结的超导岛"
+      },
+      "paper:812597592767594498": {
+        "area": "engineering technology, thermodynamics, physics, applied",
+        "authors": "Krzysztof Dominik Pomorski | Paweł Pęczkowski | Robert Bogdan Staszewski",
+        "available_online": "",
+        "cas_zone": "3",
+        "cover_date_start": "2020-07-01",
+        "created_at": "2026-05-28T01:22:18+08:00",
+        "doi": "10.1016/j.cryogenics.2020.103117",
+        "en_title": "Analytical solutions for N interacting electron system confined in graph of coupled electrostatic semiconductor and superconducting quantum dots in tight-binding model",
+        "id": "812597592767594498",
+        "impact_factor": 2.1,
+        "jcr_zone": "Q2",
+        "keywords": "[{\"ch_name\":\"哈达玛门\",\"en_name\":\"Hadamard gate\"},{\"ch_name\":\"接口半导体量子位—约瑟夫森结\",\"en_name\":\"Interface semiconductor qubit âu0080u0093Josephson junction\"},{\"ch_name\":\"N体问题\",\"en_name\":\"N-body problem\"},{\"ch_name\":\"相旋转门\",\"en_name\":\"Phase rotating gate\"},{\"ch_name\":\"半导体基于位置的电荷量子位\",\"en_name\":\"Semiconductor position-based charge qubit\"},{\"ch_name\":\"紧束缚\",\"en_name\":\"Tight-binding\"},{\"ch_name\":\"拓扑相变\",\"en_name\":\"Topological phase transition\"}]",
+        "publication_date": "2020-7",
+        "publication_id": "4159",
+        "publication_name": "Cryogenics _ Cryogenics",
+        "research_categories": "",
+        "zh_title": "在紧束缚模型中，关于限制在耦合静电半导体和超导量子点图中的N个相互作用电子系统的解析解"
+      },
+      "paper:812644319847514114": {
+        "area": "physical sciences, condensed matter physics",
+        "authors": "Prasad Sarangapani | Amrit Poudel | Lee Smith",
+        "available_online": "",
+        "cover_date_start": "2020-10-01",
+        "created_at": "2026-06-15T08:27:34+08:00",
+        "doi": "10.1109/tasc.2020.2991735",
+        "en_title": "A Physics-Based TCAD Simulator for Superconducting Electronics Based on Josephson Junctions",
+        "id": "812644319847514114",
+        "keywords": "",
+        "publication_date": "2020-10",
+        "publication_id": "105711",
+        "publication_name": "IEEE Transactions on Applied Superconductivity _ IEEE Trans. Appl. Supercond.",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "一种基于约瑟夫森结的超导电子学的基于物理的TCAD模拟器 "
+      },
+      "paper:812651247952723969": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, materials science, multidisciplinary",
+        "authors": "Artem V. Galaktionov",
+        "available_online": "2020-4-3",
+        "cas_zone": "2",
+        "cover_date_start": "2020-04-03",
+        "created_at": "2026-06-14T11:06:01+08:00",
+        "doi": "10.1103/physrevb.101.134501",
+        "en_title": "Supersymmetric Hamiltonian solutions simulated by Andreev bound states",
+        "id": "812651247952723969",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "由安德列夫束缚态模拟的超对称哈密顿量解"
+      },
+      "paper:812840552629272577": {
+        "area": null,
+        "authors": "E. Bocquillon | J. Wiedenmann | R. S. Deacon | T. M. Klapwijk | H. Buhmann | L. W. Molenkamp",
+        "available_online": "2018-10-4",
+        "cover_date_start": "2018-01-01",
+        "created_at": "2026-05-20T03:22:50+08:00",
+        "doi": "10.1007/978-3-319-76388-0_5",
+        "en_title": "Microwave Studies of the Fractional Josephson Effect in HgTe-Based Josephson Junctions",
+        "id": "812840552629272577",
+        "keywords": "",
+        "publication_date": "2018",
+        "publication_id": "0",
+        "publication_name": "Topological Matter",
+        "research_categories": "",
+        "zh_title": "HgTe 基约瑟夫森结中分数约瑟夫森效应的微波研究"
+      },
+      "paper:813028602047102976": {
+        "area": "material science, physical sciences, condensed matter physics",
+        "authors": "Pasquale Marra | Alessandro Braggio | Roberta Citro",
+        "available_online": "2018-6-8",
+        "cas_zone": "4",
+        "cover_date_start": "2018-06-08",
+        "created_at": "2026-05-18T21:35:19+08:00",
+        "doi": "10.3762/bjnano.9.162",
+        "en_title": "A zero-dimensional topologically nontrivial state in a superconducting quantum dot",
+        "id": "813028602047102976",
+        "impact_factor": 2.7,
+        "jcr_zone": "Q3",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "2191",
+        "publication_name": "Beilstein Journal of Nanotechnology _ Beilstein J. Nanotechnol.",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "超导量子点中的零维拓扑非平凡态"
+      },
+      "paper:813235625409904641": {
+        "area": "geoscience, physical sciences, condensed matter physics",
+        "authors": "Jeongmin Yoo | Tetsuro Habe | Yasuhiro Asano",
+        "available_online": "",
+        "cover_date_start": "2014-01-01",
+        "created_at": "2026-05-28T16:56:39+08:00",
+        "doi": "10.1016/j.physe.2013.03.021",
+        "en_title": "Bulk-boundary correspondence in Josephson junctions",
+        "id": "813235625409904641",
+        "keywords": "[{\"en_name\": \"Bulk-boundary correspondence\", \"ch_name\": \"\"}, {\"en_name\": \"Josephson junction\", \"ch_name\": \"\"}, {\"en_name\": \"Topological superconductor\", \"ch_name\": \"\"}]",
+        "publication_date": "2014-1",
+        "publication_id": "98276",
+        "publication_name": "Physica E: Low dimensional Systems and Nanostructures _ Physica E: Low-dimensional Systems and Nanostructures",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "约瑟夫森结中的体-边界对应关系"
+      },
+      "paper:813239833248923651": {
+        "area": "physics and astrophysics, physics, multidisciplinary",
+        "authors": "Angelina V. Burmistrova | Igor A. Devyatov | Alexander A. Golubov | Keiji Yada | Yukio Tanaka",
+        "available_online": "",
+        "cas_zone": "4",
+        "cover_date_start": "2013-03-15",
+        "created_at": "2026-05-16T18:13:37+08:00",
+        "doi": "10.7566/jpsj.82.034716",
+        "en_title": "Theory of Tunneling Spectroscopy of Multi-Band Superconductors",
+        "id": "813239833248923651",
+        "impact_factor": 2.6,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "2013-3-15",
+        "publication_id": "647",
+        "publication_name": "Journal of the Physical Society of Japan _ J. Phys. Soc. Jpn.",
+        "research_categories": "",
+        "zh_title": "多带超导体的隧穿光谱理论"
+      },
+      "paper:813303326861950977": {
+        "area": "physics and astrophysics, physics, multidisciplinary",
+        "authors": "Pablo San-Jose | Elsa Prada | Ramón Aguado",
+        "available_online": "2012-6-18",
+        "cas_zone": "1",
+        "cover_date_start": "2012-06-18",
+        "created_at": "2026-06-13T08:15:19+08:00",
+        "doi": "10.1103/physrevlett.108.257001",
+        "en_title": "ac Josephson Effect in Finite-Length Nanowire Junctions with Majorana Modes",
+        "id": "813303326861950977",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "",
+        "zh_title": "具有马约拉纳模式的有限长度纳米线结中的交流约瑟夫森效应"
+      },
+      "paper:817335361834319875": {
+        "area": "physics and astrophysics, physics, multidisciplinary",
+        "authors": "F. Nichele | E. Portolés | A. Fornieri | A. M. Whiticar | A. C. C. Drachmann | S. Gronin | T. Wang | G. C. Gardner | C. Thomas | A. T. Hatke | M. J. Manfra | and C. M. Marcus",
+        "available_online": "",
+        "cas_zone": "1",
+        "cover_date_start": "2020-06-05",
+        "created_at": "2026-06-02T18:41:27+08:00",
+        "doi": "10.1103/PhysRevLett.124.226801",
+        "en_title": "Relating Andreev Bound States and Supercurrents in Hybrid Josephson Junctions",
+        "id": "817335361834319875",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ ",
+        "research_categories": "",
+        "zh_title": "关联混合约瑟夫森结中的安德列夫束缚态与超电流"
+      },
+      "paper:817363703560142851": {
+        "area": "physics and astrophysics, physics, applied, multidisciplinary, mathematical",
+        "authors": "Lucila Peralta Gavensky | Gonzalo Usaj | C. A. Balseiro",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2020-08-08",
+        "created_at": "2026-06-17T04:20:22+08:00",
+        "doi": "10.1103/PhysRevResearch.2.033218",
+        "en_title": "Majorana fermions on the quantum Hall edge",
+        "id": "817363703560142851",
+        "impact_factor": 4.9,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "68812",
+        "publication_name": "Physical Review Research _ ",
+        "research_categories": "",
+        "zh_title": "量子霍尔边缘上的马约拉纳费米子"
+      },
+      "paper:817399497217802242": {
+        "area": "geoscience, materials science, multidisciplinary, physics, condensed matter",
+        "authors": "Juan Juan Wang | S. Liu | J. Wang | Jun-Feng Liu",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2020-06-23",
+        "created_at": "2026-06-02T17:22:43+08:00",
+        "doi": "10.1103/PhysRevB.101.245428",
+        "en_title": "Valley supercurrent in the Kekulé graphene superlattice heterojunction",
+        "id": "817399497217802242",
+        "impact_factor": 3.6,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "98281",
+        "publication_name": "Physical Review B   Condensed Matter and Materials Physics _ ",
+        "research_categories": "",
+        "zh_title": "凯库勒石墨烯超晶格异质结中的谷超流"
+      },
+      "paper:817404425080406019": {
+        "area": "geoscience, physical sciences, condensed matter physics",
+        "authors": "Jie Liu | Dihao Sun",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2019-10-03",
+        "created_at": "2026-06-02T13:23:57+08:00",
+        "doi": "10.1103/PhysRevB.97.035311",
+        "en_title": "Quench dynamics of the Josephson current in a topological Josephson junction",
+        "id": "817404425080406019",
+        "impact_factor": 3.6,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "98281",
+        "publication_name": "Physical Review B   Condensed Matter and Materials Physics _ ",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "拓扑约瑟夫森结中约瑟夫森电流的猝灭动力学"
+      },
+      "paper:867745166889320891": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Yuki Nagai | Hiroki Nakamura | Masahiko Machida",
+        "available_online": "",
+        "cover_date_start": "2013-05-14",
+        "created_at": "2026-06-17T07:49:30+08:00",
+        "doi": "10.48550/arXiv.1305.3025",
+        "en_title": "Quasiclassical Treatment and Odd-parity/Triplet Correspondence in Topological Superconductors",
+        "id": "867745166889320891",
+        "keywords": "",
+        "publication_date": "2013-05-14",
+        "publication_id": "108490",
+        "publication_name": "Superconductivity _ Physics.cond-mat.supr-con",
+        "research_categories": "",
+        "zh_title": "拓扑超导体中的准经典处理与奇宇称/三重态对应关系"
+      },
+      "paper:867745199483257753": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Szczepan Głodzik | Nicholas Sedlmayr | Tadeusz Domański",
+        "available_online": "",
+        "cover_date_start": "2020-04-03",
+        "created_at": "2026-05-22T22:43:15+08:00",
+        "doi": "10.48550/arXiv.2004.01420",
+        "en_title": "How to measure the Majorana polarization of a topological planar Josephson junction",
+        "id": "867745199483257753",
+        "keywords": "",
+        "publication_date": "2020-04-03",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "如何测量拓扑平面约瑟夫森结的马约拉纳极化"
+      },
+      "paper:867747376197010188": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "J. Avila | E. Prada | P. San-Jose | R. Aguado",
+        "available_online": "",
+        "cover_date_start": "2020-03-05",
+        "created_at": "2026-05-16T04:38:18+08:00",
+        "doi": "10.48550/arXiv.2003.02852",
+        "en_title": "Superconducting islands with semiconductor-nanowire-based topological Josephson junctions",
+        "id": "867747376197010188",
+        "keywords": "",
+        "publication_date": "2020-03-05",
+        "publication_id": "108490",
+        "publication_name": "Superconductivity _ Physics.cond-mat.supr-con",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "具有基于半导体纳米线的拓扑约瑟夫森结的超导岛"
+      },
+      "paper:867748607682413286": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics, quantum physics",
+        "authors": "Krzysztof Pomorski | Robert Bogdan Staszewski",
+        "available_online": "",
+        "cover_date_start": "2019-07-06",
+        "created_at": "2026-06-12T06:07:43+08:00",
+        "doi": "10.48550/arXiv.1907.03180",
+        "en_title": "Analytical Solutions for N-Electron Interacting System Confined in Graph of Coupled Electrostatic Semiconductor and Superconducting Quantum Dots in Tight-Binding Model with Focus on Quantum Information Processing",
+        "id": "867748607682413286",
+        "keywords": "",
+        "publication_date": "2019-07-06",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "紧束缚模型下，聚焦量子信息处理的、耦合静电半导体与超导量子点图中受限的N电子相互作用系统的解析解 "
+      },
+      "paper:867748869700584341": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "K. V. Samokhin",
+        "available_online": "",
+        "cover_date_start": "2017-08-09",
+        "created_at": "2026-05-26T02:22:50+08:00",
+        "doi": "10.48550/arXiv.1708.02986",
+        "en_title": "Superconductivity in quantum wires: A symmetry analysis",
+        "id": "867748869700584341",
+        "keywords": "",
+        "publication_date": "2017-08-09",
+        "publication_id": "108490",
+        "publication_name": "Superconductivity _ Physics.cond-mat.supr-con",
+        "research_categories": "",
+        "zh_title": "量子线中的超导性：对称性分析"
+      },
+      "paper:867752205174702746": {
+        "area": "arXiv-Physics, Mathematical Sciences, Mathematical Physics, Physical Sciences, Condensed Matter Physics, Quantum Physics",
+        "authors": "Ranjani Seshadri | Maxim Khodas | Dganit Meidan",
+        "available_online": "",
+        "cover_date_start": "2022-01-27",
+        "created_at": "2026-06-19T06:10:29+08:00",
+        "doi": "10.48550/arXiv.2201.11514",
+        "en_title": "Josephson junctions of topological nodal superconductors",
+        "id": "867752205174702746",
+        "keywords": "",
+        "publication_date": "2022-01-27",
+        "publication_id": "108490",
+        "publication_name": "Superconductivity _ Physics.cond-mat.supr-con",
+        "research_categories": "[\"Mathematical Sciences\", \"Mathematical Physics\", \"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "拓扑节点超导体的约瑟夫森结"
+      },
+      "paper:867752429452526268": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Pasquale Marra | Roberta Citro | Alessandro Braggio",
+        "available_online": "",
+        "cover_date_start": "2015-08-07",
+        "created_at": "2026-06-15T02:41:33+08:00",
+        "doi": "10.48550/arXiv.1508.01799",
+        "en_title": "Signatures of topological phase transitions in Josephson current-phase discontinuities",
+        "id": "867752429452526268",
+        "keywords": "",
+        "publication_date": "2015-08-07",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "约瑟夫森电流-相位不连续性中拓扑相变的特征"
+      },
+      "paper:867762988575096901": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Shiro Kawabata | Yukio Tanaka | Alexander A. Golubov | Andrey S. Vasenko | Yasuhiro Asano",
+        "available_online": "",
+        "cover_date_start": "2011-09-13",
+        "created_at": "2026-05-16T14:54:26+08:00",
+        "doi": "10.48550/arXiv.1109.2753",
+        "en_title": "Spectrum of Andreev bound states in Josepshon junctions with a ferromagnetic insulator",
+        "id": "867762988575096901",
+        "keywords": "",
+        "publication_date": "2011-09-13",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "具有铁磁绝缘体的约瑟夫森结中安德列夫束缚态的能谱"
+      },
+      "paper:867763622271517153": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Keimei Sakurai | Maria Teresa Mercaldo | Shingo Kobayashi | Ai Yamakage | Satoshi Ikegaya | Tetsuro Habe | Panagiotis Kotetes | Mario Cuoco | Yasuhiro Asano",
+        "available_online": "",
+        "cover_date_start": "2020-03-30",
+        "created_at": "2026-05-22T21:49:02+08:00",
+        "doi": "10.48550/arXiv.2003.13596",
+        "en_title": "Nodal Andreev Spectra in Multi-Majorana Three-Terminal Josephson Junctions",
+        "id": "867763622271517153",
+        "keywords": "",
+        "publication_date": "2020-03-30",
+        "publication_id": "108490",
+        "publication_name": "Superconductivity _ Physics.cond-mat.supr-con",
+        "research_categories": "",
+        "zh_title": "多马约拉纳三端约瑟夫森结中的节点安德烈夫谱"
+      },
+      "paper:867767424986906668": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "H. Goudarzi | M. Khezerlou | S.F. Ebadzadeh",
+        "available_online": "",
+        "cover_date_start": "2017-08-06",
+        "created_at": "2026-05-26T00:23:34+08:00",
+        "doi": "10.48550/arXiv.1708.01863",
+        "en_title": "Asymmetric Andreev resonant state with a magnetic exchange field in spin-triplet superconducting monolayer $MoS_2$",
+        "id": "867767424986906668",
+        "keywords": "",
+        "publication_date": "2017-08-06",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "具有磁交换场的自旋三重态超导单层二硫化钼中的非对称安德列夫共振态"
+      },
+      "paper:867769623435543500": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Krzysztof Dominik Pomorski",
+        "available_online": "",
+        "cover_date_start": "2020-05-07",
+        "created_at": "2026-06-17T05:42:49+08:00",
+        "doi": "10.48550/arXiv.2005.03235",
+        "en_title": "Description of interface between semiconductor electrostatic qubit and Josephson junction in tight binding model",
+        "id": "867769623435543500",
+        "keywords": "",
+        "publication_date": "2020-05-07",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "紧束缚模型中半导体静电量子比特与约瑟夫森结之间的界面描述"
+      },
+      "paper:867770771529793717": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Sayonee Ray | Subroto Mukerjee | Nayana Shah",
+        "available_online": "",
+        "cover_date_start": "2020-03-17",
+        "created_at": "2026-06-15T06:24:52+08:00",
+        "doi": "10.48550/arXiv.2003.08299",
+        "en_title": "Accessing different topological classes and types of Majorana edge states in coupled superconducting platforms using perturbations",
+        "id": "867770771529793717",
+        "keywords": "",
+        "publication_date": "2020-03-17",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "利用微扰在耦合超导平台中获取不同拓扑类别的马约拉纳边缘态及类型"
+      },
+      "paper:867771317330378949": {
+        "area": "arxiv-physics, engineering, electronics, sensors and digital hardware, physical sciences, condensed matter physics, quantum physics",
+        "authors": "Praveen Sriram | Sandesh S Kalantre | Kaveh Gharavi | Jonathan Baugh | Bhaskaran Muralidharan",
+        "available_online": "",
+        "cover_date_start": "2019-02-28",
+        "created_at": "2026-06-01T16:47:48+08:00",
+        "doi": "10.48550/arXiv.1902.10947",
+        "en_title": "Supercurrent Interference in Semiconductor Nanowire Josephson Junctions",
+        "id": "867771317330378949",
+        "keywords": "",
+        "publication_date": "2019-02-28",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Engineering\", \"Electronics, Sensors and Digital Hardware\", \"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "半导体纳米线约瑟夫森结中的超流干涉"
+      },
+      "paper:867771698278040198": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Hechen Ren | Falko Pientka | Sean Hart | Andrew Pierce | Michael Kosowsky | Lukas Lunczer | Raimund Schlereth | Benedikt Scharf | Ewelina M. Hankiewicz | Laurens W. Molenkamp | Bertrand I. Halperin | Amir Yacoby",
+        "available_online": "",
+        "cover_date_start": "2018-09-10",
+        "created_at": "2026-05-25T21:33:06+08:00",
+        "doi": "10.48550/arXiv.1809.03076",
+        "en_title": "Topological Superconductivity in a Phase-Controlled Josephson Junction",
+        "id": "867771698278040198",
+        "keywords": "",
+        "publication_date": "2018-09-10",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "相位控制约瑟夫森结中的拓扑超导性"
+      },
+      "paper:954396262134710552": {
+        "area": "mathematics, automation & control systems, transportation science & technology, engineering, multidisciplinary",
+        "authors": "M. Akramov | I. Askerzade | M. Salati | O. Karpova",
+        "available_online": "",
+        "cover_date_start": "2023-12-01",
+        "created_at": "2026-05-21T14:16:33+08:00",
+        "doi": "10.1088/1742-6596/2667/1/012032",
+        "en_title": "Bogoliubov-de Gennes equation on graphs: A model for tree-branched Majorana wire network",
+        "id": "954396262134710552",
+        "keywords": "",
+        "publication_date": "2023-12-1",
+        "publication_id": "15541",
+        "publication_name": "Journal of Physics: Conference Series _ J. Phys.: Conf. Ser.",
+        "research_categories": "",
+        "zh_title": "图上的博戈留波夫 - 德热纳方程：一种树枝状马约拉纳线网络模型"
+      },
+      "paper:969413152976404534": {
+        "area": "geoscience, physical sciences, condensed matter physics",
+        "authors": "Jorge Cayao | Naoto Nagaosa | Yukio Tanaka",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2024-02-27",
+        "created_at": "2026-05-22T21:42:22+08:00",
+        "doi": "10.1103/physrevb.109.l081405",
+        "en_title": "Enhancing the Josephson diode effect with Majorana bound states",
+        "id": "969413152976404534",
+        "impact_factor": 3.6,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "98281",
+        "publication_name": "Physical Review B - Condensed Matter and Materials Physics _ ",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "利用马约拉纳束缚态增强约瑟夫森二极管效应"
+      },
+      "paper:987319147765432334": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Peng Yu | Han Fu | William F. Schiela | William Strickland | Bassel Heiba Elfeky | S. M. Farzaneh | Jacob Issokson | Enrico Rossi | Javad Shabani",
+        "available_online": "",
+        "cover_date_start": "2024-04-15",
+        "created_at": "2026-05-22T20:05:38+08:00",
+        "doi": "10.48550/arxiv.2404.09901",
+        "en_title": "Gate tunable enhancement of supercurrent in hybrid planar Josephson junctions",
+        "id": "987319147765432334",
+        "keywords": "",
+        "publication_date": "2024-04-15",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "混合平面约瑟夫森结中超电流的栅极可调增强"
+      }
+    },
+    "variables": [
+      {
+        "content": "In the tight-binding TJJ model with long wires ($N_L=N_R=50a$), parameters $t_0=10\\Delta$, $U_R=2\\Delta$, $V_x=2\\Delta$, $\\Delta$, $\\mu_L=\\mu_R=-2t_0$ (both wires in topological phase), junction coupling $t_c=0.6t_0$, applied voltage $V=0.1\\Delta$, and on-site random disorder uniformly distributed in $[-W/2,W/2]$, the $4\\pi$ Josephson current is destroyed for disorder strengths $W > 3\\Delta$. However, the topological Andreev bound states (Majorana quasiparticles) are reported to survive up to $W \\approx 8\\Delta$ in a single topological superconducting wire, as shown in Ref. [52].",
+        "content_hash": "49fadbf05c9d82da3286bc7344972dbb7e17f170b2c519ce847f4d6ec2831874",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_0623154216a444ed",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817404425080406019::conclusion_6",
+            "package_id": "paper:817404425080406019",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817404425080406019"
+          ]
+        },
+        "rerank_score": 0.8533286529441729,
+        "role": "conclusion",
+        "score": 0.005922491470562506,
+        "title": "Fragility of 4π Josephson current to bulk on-site disorder",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The continuum Bogoliubov–de Gennes (BdG) Hamiltonian is discretized using a finite-element scheme that reduces to a nearest-neighbor tight-binding model, and this discretization yields numerical solutions that accurately represent the continuum BdG equations for the one-dimensional Josephson junction geometries considered.",
+        "content_hash": "666f76fc87cbb35fb71a17bdf3fb3eb699bd27f7f0727458aeb7bc6236fe1c7e",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_736d7747bc15471c",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812644319847514114::P7",
+            "package_id": "paper:812644319847514114",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812644319847514114"
+          ]
+        },
+        "rerank_score": 0.8041065897276137,
+        "role": "premise",
+        "score": 0.006216036215167514,
+        "title": "Discretization of continuum BdG Hamiltonian to tight-binding model validated",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Hybrid quantum computing architectures seek to connect different physical qubit modalities so that one platform (here: semiconductor single‑electron, position-based qubits implemented in coupled quantum dots) can exchange quantum information with another (here: superconducting Josephson‑junction qubits). Prior to this work there was no compact, analytically tractable microscopic tight‑binding description that couples (i) a minimal two‑site semiconductor position qubit (a single electron occupying one of two spatially localized Wannier nodes) to (ii) the Bogoliubov–de Gennes (BdG) tight‑binding description of a Josephson junction supporting Andreev bound states (ABS). Existing descriptions treated each subsystem separately (two‑level tight‑binding models for coupled quantum dots; BdG mean‑field for extended superconducting structures) or used phenomenological interfaces, and they did not provide closed‑form coupled Hamiltonians and eigenstates that expose how Coulomb electrostatic interaction, the JJ superconducting order parameter profile, geometric distances, and local chemical‑potential tuning modify ABS and qubit energies. As a consequence one could not quantitatively predict (a) how a nearby electrostatic semiconductor qubit shifts or hybridizes ABS of a Josephson junction, (b) when electrostatic coupling produces entangled eigenstates between the two qubits, or (c) how small changes of the chemical potential in the JJ normal region (voltages below $2e\\Delta$) tune the ABS spectrum — all of which are required to design, optimize and control a hybrid semiconductor–superconductor interface for quantum gates and for software modeling of hybrid machines. Moreover, the usual BdG mean‑field formalism is a many‑particle, bulk approximation and its range of validity for systems with a few ABS electrons close to single‑electron semiconductor qubits was not clarified, leaving open which microscopic approximations are acceptable when engineering such an interface.",
+        "content_hash": "516b2f69efd3fb3e24fa626951db90ca4ba9a45d4a44e7607b5e57b1637e1887",
+        "id": "gcn_c034d6be7a204627",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867769623435543500::problem",
+            "package_id": "paper:867769623435543500",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867769623435543500"
+          ]
+        },
+        "rerank_score": 0.772015246430059,
+        "role": "premise",
+        "score": 0.01282051282051282,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In short Josephson junctions, the energies of Andreev bound states depend on the transmission probability of the junction modes and the superconducting phase difference across the junction (Eq. (1)). High transmission modes are particularly interesting because they can approach zero energy at phase $ \\pi $, which is relevant for topological superconductivity. However, measuring ABSs with near-unity transmission in planar hybrid junctions and characterizing their full phase dependence had not been achieved, because earlier spectroscopy experiments in such systems did not resolve discrete ABSs with such high transmission.\n        Andreev bound states; near-unity transmission; zero-energy crossing; phase dependence; planar junction",
+        "content_hash": "fd69513863e8d283966d112962b689369e57e8d1033f6ff675e23f2d7bb8c4b8",
+        "id": "gcn_b9f13a7153b94880",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817335361834319875::conclusion_2_subproblem",
+            "package_id": "paper:817335361834319875",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817335361834319875"
+          ]
+        },
+        "rerank_score": 0.7476107844749676,
+        "role": "premise",
+        "score": 0.009708737864077669,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "A minimal tight-binding Bogoliubov–de Gennes (BdG) model for a Josephson junction (discrete sites for electrons/holes with pairing $\\Delta$) is formulated and coupled electrostatically to a neighboring semiconductor position-based qubit.  The combined minimal model is written as a block BdG tight-binding matrix\n      $$\n      \\hat{H}_{\\mathrm{eff}}=\\begin{pmatrix}\\hat{H}_{0[e]}&\\hat{\\Delta}_1\\\\ \\hat{\\Delta}_2 &\\hat{H}_{0[h]}\\end{pmatrix},\n      $$\n      where $\\hat{H}_{0[e,h]}$ contain JJ electron/hole on-site energies, hopping elements, and Coulomb electrostatic shifts due to the semiconductor qubit; $\\hat{\\Delta}$ encodes superconducting pair terms.  Under simplifying assumptions (electron–hole symmetry at ABS center, $\\Delta(1)=\\Delta(2)=0$ in the junction center, real hopping, spin omitted) the model reduces to tractable block forms; eigenenergies are computed analytically and shown to vary with the semiconductor–JJ distance and with $|\\Delta|$, yielding tunability of Andreev bound-state spectra by a nearby electrostatic qubit.",
+        "content_hash": "387a463a53ed32cd58102119756e1eec8bafcd131ec63561d1010dd772902eb7",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_bc0660353b854dab",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867748607682413286::conclusion_9",
+            "package_id": "paper:867748607682413286",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867748607682413286"
+          ]
+        },
+        "rerank_score": 0.7874340994917786,
+        "role": "conclusion",
+        "score": 0.006431932164831188,
+        "title": "Minimal tight-binding BdG model coupling a Josephson junction to a semiconductor position qubit and analytic eigenenergy tunability",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In a Bogoliubov–de Gennes (BdG) model of an SS'NS'S nanowire junction (S: topologically trivial superconductor, S': topological superconductor, N: normal region) with topological S' segments, the low-energy single-particle spectrum is obtained under the short-junction approximation L_N << ξ_eff, where L_N is the length of the normal region and ξ_eff = ħ v_F / (π Δ_eff) is the effective coherence length. In this limit, exactly two Majorana-dominated Andreev branches lie below the effective gap Δ_eff, and a quasicontinuum of delocalized states appears between Δ_eff and Δ_S. For realistic device geometries, the validity of L_N << ξ_eff is not confirmed; if L_N ≳ ξ_eff, additional subgap Andreev levels could appear, potentially mixing with the Majorana sector, altering the detachment gap δ_0 (the energy gap between the low-energy Majorana sector and the quasicontinuum at φ=0), and modifying the low-energy dynamics that underlies the transient 4π-periodic Josephson effect.",
+        "content_hash": "73b77976c16df4f59daef1c1d82636e2880731e09d7490ced5cbd0fe491ba783",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_8184077325bf4c91",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813303326861950977::P1",
+            "package_id": "paper:813303326861950977",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813303326861950977"
+          ]
+        },
+        "rerank_score": 0.7351423102149476,
+        "role": "premise",
+        "score": 0.0058793058793058794,
+        "title": "Short-junction approximation for the low-energy Andreev spectrum of an SS'NS'S nanowire junction and its potential limitations",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "A Keldysh non-equilibrium Green's function formulation is used to model quasiparticle transport in semiconductor nanowire Josephson junctions within a three-dimensional discrete lattice Bogoliubov-de Gennes tight-binding Hamiltonian, and this framework is used to compute both the Andreev bound state spectrum and the current-phase relation.",
+        "content_hash": "811916b26506b3e8192ef98bb20ce25c32fb008f155be99969a7f60e06e6c6cd",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_bb19bb0489414f54",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867771317330378949::conclusion_1",
+            "package_id": "paper:867771317330378949",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867771317330378949"
+          ]
+        },
+        "rerank_score": 0.7681693338327253,
+        "role": "conclusion",
+        "score": 0.006033196229024861,
+        "title": "NEGF description of semiconductor nanowire Josephson junction transport",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Prior to this work, there existed a precise but fragmented understanding of subgap Andreev bound states (ABS) and the Josephson response of short (Kulic–Omelyanchuk, \"transparent\") junctions that left several conceptual and quantitative questions open. Physically, the problem concerns quasiparticle bound states forming at a short contact between two superconductors and the low-energy Josephson current they mediate, including the special case of topological p-wave superconductors that can exhibit an anomalous $4\\pi$--periodic current–phase relation. Practically, earlier treatments either (i) derived ABS spectra by solving Bogoliubov–de Gennes (BdG) equations with ad hoc step-like spatial profiles for the pair potential at the interface, or (ii) used low-energy effective pictures based on Majorana zero modes and parity arguments or bulk topological invariants. These prior approaches leave three important gaps. First, there was no compact, index-theoretic explanation for why ABS exist in the transparent limit and why their dispersion is insensitive to local spatial variations of the pair potential; step-function BdG solutions reproduce spectra but do not identify the structural origin of their robustness. Second, although $4\\pi$ periodicity is often attributed to Majorana parity protection in strictly one-dimensional or low-energy models, it remained unclear under what microscopic conditions (pairing symmetry, detailed Nambu-spinor structure of ABS, and nature of impurity/barrier potentials) the ABS remain immune to hybridization by scalar (charge) perturbations in higher-dimensional or spinful systems. Third, there was limited microscopic numerical benchmarking for systems proposed to host equal-spin triplet p-wave pairing (e.g., itinerant altermagnets) addressing how finite junction transparency, finite-size splitting of edge modes, and localized interfacial disorder affect the ABS spectrum and the Josephson current in both the KO (transparent) and Ambegaokar–Baratoff (tunneling) limits. These unresolved methodological and conceptual limitations prevented a unified understanding of when ABS dispersion and resulting topological Josephson responses are truly topologically protected versus when they are fragile to interface physics or disorder.",
+        "content_hash": "402be062e8b5edb38db45a49ed1e4ed466c5eae11e634a52fe68de8066d398a7",
+        "id": "gcn_ae042711f721461e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1205123114539679752::problem",
+            "package_id": "paper:1205123114539679752",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1205123114539679752"
+          ]
+        },
+        "rerank_score": 0.712284233074806,
+        "role": "premise",
+        "score": 0.008695652173913044,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Multi-terminal Josephson junctions (n-terminal JJs) host subgap Andreev bound states (ABS) whose energies depend periodically on the superconducting phase differences and therefore form synthetic bands in the (n-1)-dimensional phase space. Prior theoretical practice for topological bands ties changes of integer topological indices (for example Chern numbers) to gap-closing events of the band spectrum: closing and reopening of a band gap is the mechanism by which a topological quantum number can change. In the context of ABS this standard paradigm left open several substantive issues: (i) how the Bogoliubov–de Gennes (BdG) particle–hole structure of superconducting junctions modifies the relation between gap closings and changes of Chern number for synthetic Andreev bands, (ii) whether the topological character of ABS inherits or is controlled by the intrinsic topological nature of the superconducting leads (e.g. $s$-wave vs $p$-wave), or instead by the junction scattering properties, and (iii) what junction conditions can produce ABS bands that are dispersionless (flat) in the phase variables and what are the electrical consequences (DC/AC Josephson responses) of such flat ABS bands. Because these questions concern when and how Chern numbers are well-defined, how they can change, and how ABS electrical responses follow from band geometry, the absence of a unified framework that incorporates the BdG symmetry, the junction scattering matrix $S$, and a transparent geometric diagnostic for topology prevented reliable prediction of (a) anomalous scenarios where gap closure does not imply a topology change, (b) whether ABS topology is universal or depends on the superconducting pairing type, and (c) practical design rules for electrically inert (flat-band) multi-terminal junctions suitable for quantum-information storage.",
+        "content_hash": "77432e04848cea4c9388ebc0034fc6542d4f153aa17a4f81522fb5d3510f9948",
+        "id": "gcn_0f941a5ee1d74a7e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1229376872891023394::problem",
+            "package_id": "paper:1229376872891023394",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1229376872891023394"
+          ]
+        },
+        "rerank_score": 0.708834195189703,
+        "role": "premise",
+        "score": 0.01020408163265306,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Bogoliubov–de Gennes (BdG) simulations of multi-layer (multi-subband) nanowire Josephson junctions—modeled by adding transverse layers to the one-dimensional tight-binding chain—show that the step-like anomaly in the critical current as a function of Zeeman energy persists for odd numbers of layers (odd number of effectively occupied sub-bands) and disappears for even numbers of layers. For even-layer systems, the end Majorana bound states (MBSs) pairwise hybridize into ordinary Andreev bound states, so that the MBS-dominated first-order-in-the-tunneling-matrix-element T contribution is absent; consequently, the critical current remains dominated by second-order quasiparticle processes (∝ T²) and no large step is observed. The simulations also show that the step feature becomes smoother as the number of layers increases and that for sufficiently many layers (crossing from quasi-1D to quasi-2D) the enhancement vanishes altogether.",
+        "content_hash": "6347b3004ee4d51e9f8c42490a59f70d69e41c75c0388e36e944c70c2e9ccb52",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_9ad536927afb46e9",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811035628450873345::conclusion_6",
+            "package_id": "paper:811035628450873345",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811035628450873345"
+          ]
+        },
+        "rerank_score": 0.8024285445005628,
+        "role": "conclusion",
+        "score": 0.006267689083448404,
+        "title": "Multi-band (multi-layer) result: critical current anomaly only for odd number of sub-bands; disappearance when MBSs fuse",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The work addresses Josephson junctions formed on semiconductor nanowires with Rashba spin-orbit coupling (SOC) and proximitized s-wave superconductivity, where applied Zeeman fields generate both conventional nonreciprocal Josephson behavior (the Josephson diode effect, JD) and, above a critical Zeeman magnitude $B_{c}=\\sqrt{\\mu^{2}+\\Delta^{2}}$, topological superconductivity hosting Majorana bound states (MBSs). Prior research established that SOC plus magnetism can produce nonreciprocal supercurrents in superconducting films and junctions, and that a topological phase with MBSs appears in nanowires for $B>B_{c}$; however, the interplay between JD physics and topological MBS physics was not resolved. In particular, it remained unresolved whether and how the spatial nonlocality and zero-energy properties of MBSs modify the Andreev bound state (ABS) spectrum of a finite SNS junction, whether they can produce or enhance asymmetries of the phase-dependent spectrum about the superconducting phase difference $\\phi=\\pi$, and consequently whether they alter the current–phase relation $I(\\phi)$, the positive and negative critical currents $I_{c}^{\\pm}$, and the diode quality factor $Q=(I_{c}^{+}-I_{c}^{-})/(I_{c}^{+}+I_{c}^{-})$ in ways that are qualitatively distinct from the trivial (non-topological) regime. Existing theoretical and experimental JD studies focused mainly on trivial regimes or did not separate effects arising from MBS spatial nonlocality, so there was no design principle or quantitative prediction linking MBS properties (for example their length-dependent zero-energy splitting and spatial separation) to enhanced and topologically protected JD functionality. These gaps prevented using topological superconductivity as a controlled resource to realize Josephson diodes with enhanced, tunable, and potentially protected performance.",
+        "content_hash": "2fe536f13a08578e6a0e4780d20dd8e88536468d89bf3eb8ed31ee80c76b26c7",
+        "id": "gcn_e426a64c440e4d87",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:969413152976404534::problem",
+            "package_id": "paper:969413152976404534",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:969413152976404534"
+          ]
+        },
+        "rerank_score": 0.7008605792913779,
+        "role": "premise",
+        "score": 0.006134969325153374,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Semiconductor-nanowire (NW) Josephson junctions used as weak links in superconducting islands present subgap spectra (Andreev bound states and, in the topological regime, Majorana bound states) that strongly depart from the sinusoidal Josephson potential $V_J(\\varphi)=-E_J\\cos\\varphi$ assumed in the standard Cooper-pair box / transmon description. Prior theoretical practice either (i) modeled the junction phenomenologically by a cosine potential (appropriate for SIS tunnel junctions and many-channel limits), or (ii) employed low-energy toy models that treat Majorana degrees of freedom in an ad hoc way, or (iii) used partial microscopic descriptions that do not incorporate the coherent dynamics of the relevant subgap states across the full parameter range. These limitations become acute in few-channel, gate-tunable NW junctions subject to spin-orbit coupling and Zeeman fields: the current-phase relation is nonsinusoidal, single-electron tunneling mediated by subgap states (Majorana or Andreev) produces an anomalous Josephson coupling $E_M$ in addition to the Cooper-pair Josephson energy $E_J$, and finite-length Majorana hybridization introduces a splitting $\\delta=2E_0$ that oscillates with magnetic field. Because $E_J$, $E_M$, $\\delta$ and the charging energy $E_C$ can be comparable or widely separated depending on microscopic parameters (transparency, length, chemical potential, spin-orbit strength, Zeeman field), the island spectrum and microwave (MW) response can fall into qualitatively different regimes (CPB, transmon, parity-mixed, $E_J\\to0$) that cannot be captured by the conventional model. Consequently, there is no unified, quantitatively controlled microscopic framework that (a) projects the full Bogoliubov–de Gennes (BdG) junction Hamiltonian onto the relevant low-energy subgap manifold while preserving coherent subgap dynamics, (b) yields microscopic definitions and $B,\\tau,\\mu,L_S,\\alpha_{\\mathrm{SO}}$ dependence of the effective scales $E_J$, $E_M$, and $\\delta$, and (c) predicts the gate- and field-dependent MW spectroscopy across the crossover from trivial to topological regimes and from CPB to transmon regimes. This gap prevents making ab initio predictions for measurable spectroscopic signatures of Majorana physics in NW-based superconducting islands and for determining which parameter regimes (e.g., few-channel vs multichannel, short vs long wire) are appropriate for experiments.",
+        "content_hash": "53c0f6de4126e33cdd2d83b08df7a91ee695d44ea015c3d56c0ea05c1a1f09bd",
+        "id": "gcn_b0be30d3e42d4ef3",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812564214735437830::problem",
+            "package_id": "paper:812564214735437830",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812564214735437830"
+          ]
+        },
+        "rerank_score": 0.7241832371759294,
+        "role": "premise",
+        "score": 0.007751937984496124,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Physical context: A Josephson junction with topological superconducting leads can support Majorana zero modes, which alter subgap transport in a way that differs qualitatively from ABS-mediated transport in trivial superconductors. Prior state: Prior theoretical predictions indicated topological superconductivity in MoS₂ can produce edge Majorana modes, but the transport consequences for a finite ribbon weak link coupled to semi-infinite topological leads—specifically whether ABS survive and whether a Josephson supercurrent is carried within the subgap window—were not established in a discrete TB-NEGF calculation. Limitations: Absent such transport calculations, it was ambiguous whether a Josephson current would remain and whether ABS could still mimic MZM transport signatures in such a device geometry. Consequences of the gap: Without knowing whether ABS persist, one cannot design switching devices that rely on the presence/absence of Josephson current. This conclusion shows that, within the paper's tight-binding parameter choices for small $\\mu$, topological leads produce no ABS-related subgap DOS structure and no Josephson current, clarifying the transport distinction between topological and trivial lead cases for device design.",
+        "content_hash": "165b46df3005e7d3242db20f47cd72a589765c5778843099bdf2f8d04e1859fa",
+        "id": "gcn_9cca380d36534b44",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1146777464035344389::conclusion_3_subproblem",
+            "package_id": "paper:1146777464035344389",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1146777464035344389"
+          ]
+        },
+        "rerank_score": 0.6979610494177533,
+        "role": "premise",
+        "score": 0.010526315789473684,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The formalism developed here for the continuous BdG equation on metric graphs is currently being extended to the case of a discrete Bogoliubov-de Gennes equation on quantum graphs, which would allow modeling of lattice Hamiltonians on branched structures and thereby capture tight‑binding effects in Majorana wire networks.",
+        "content_hash": "f5a44e93bba6db04b13122255791670e93634e9c3f7249a31374b121d8c72430",
+        "id": "gcn_0651f6f7cd6545d9",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:954396262134710552::open_question",
+            "package_id": "paper:954396262134710552",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:954396262134710552"
+          ]
+        },
+        "rerank_score": 0.6918159045243037,
+        "role": "premise",
+        "score": 0.005714285714285714,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Josephson junctions formed on the surfaces of three-dimensional topological insulators (TIs) present a physically important but incompletely characterized regime: normal-incidence modes on a TI surface can have near-unity transmission (Klein tunneling) so that Andreev bound states penetrate deep into the superconducting gap, yet standard theoretical tools and common approximations are insufficient to capture the detailed spectral and equilibrium-transport properties in such junctions. Conventional approaches include (i) quasiclassical Eilenberger/Gorkov methods that rely on linearization near the Fermi surface and lead to envelope quasiclassical functions with nontrivial boundary conditions, and (ii) Bogoliubov–de Gennes (BdG) treatments for simple gap profiles. These approaches have known limitations: boundary conditions at interfaces can be nonlinear and subtle, phenomenological effective gaps induced by tunneling may be momentum- or position-dependent, and widely used simplifications—most notably the formula that expresses the equilibrium Josephson current as a sum over discrete Andreev-level contributions, $I_J^{(A)}=-2e\\sum_n E_n'(\\chi)\\tanh[E_n(\\chi)/(2T)]$—ignore continuum (branch-cut) contributions that may be comparable to or dominate the pole contributions in asymmetric or spatially inhomogeneous-gap situations. As a consequence of these gaps, it is unclear (a) what spectral structures of Andreev bound states can be realized when the proximity-induced effective gap has spatial phase and amplitude variation, (b) whether tools from supersymmetric quantum mechanics can be applied to classify such spectra, and (c) whether equilibrium Josephson currents in realistic asymmetric or smoothly varying-gap junctions are governed primarily by discrete Andreev levels or have essential contributions from the scattering continuum. These unresolved points prevent reliable theoretical predictions for spectra accessible in modern experiments (e.g., circuit quantum electrodynamics probing Andreev levels), and they obstruct understanding of consequences for phenomena that rely on Andreev-level structure such as putative $4\\pi$-periodic responses and nonadiabatic occupation effects.",
+        "content_hash": "6ece21ebb56d145b9cbfe58000779cc2d265134c666e7886ef5aac05a16282ba",
+        "id": "gcn_17f91a2358e8473e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812651247952723969::problem",
+            "package_id": "paper:812651247952723969",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812651247952723969"
+          ]
+        },
+        "rerank_score": 0.7208877862923454,
+        "role": "premise",
+        "score": 0.012658227848101266,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The identification of Majorana bound states (MBS) in topological superconductors is experimentally challenging because trivial Andreev bound states (ABS) can produce similar signatures, especially zero-bias conductance peaks. Theoretical studies of ABS typically rely on one-dimensional (1D) Bogoliubov–de Gennes (BdG) equations, which neglect the influence of transverse subbands that arise in quasi-one-dimensional geometries such as strips on the surface of a three-dimensional topological insulator (TI). In 1D models, local perturbations (e.g., a magnetic impurity or a nonmagnetic impurity) are known to create ABS, but these models ignore the coupling between subbands, which becomes important when the strip width is finite and subband occupancy is significant. As a result, predictions about the existence, energy spectrum, and wavefunction properties of ABS in realistic quasi-1D systems are lacking. In particular, it is unknown whether subband mixing qualitatively alters the conditions for ABS formation, the particle–hole symmetry of their wavefunctions, or the sensitivity to magnetic versus nonmagnetic perturbations. This gap hinders the reliable discrimination of MBS from trivial ABS in experiments and the understanding of quasiparticle behaviour in multi-subband superconducting–TI hybrid structures.",
+        "content_hash": "80bad539a5fd4fd97a2515f6c932f888541822f6076634f4b3101a8b27bf9709",
+        "id": "gcn_464d5639867246b8",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:320846062564671488::problem",
+            "package_id": "paper:320846062564671488",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:320846062564671488"
+          ]
+        },
+        "rerank_score": 0.6806351664538489,
+        "role": "premise",
+        "score": 0.013888888888888888,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Experiments are increasingly building superconducting qubits based on Josephson junctions (JJs) formed by proximitized semiconductor nanowires (NWs) with the aim of integrating electrical gating and sizable magnetic fields so as to probe, manipulate, and read out subgap states such as Majorana bound states (MBSs). The relevant low-energy physics of such devices is governed by competing energy scales: the Josephson coupling $E_J$, the charging energy $E_C$, the Majorana-mediated single-electron Josephson coupling $E_M$, and the parity-dependent subgap splitting $\\delta$. Prior theoretical descriptions typically used phenomenological or simplified low-energy models that (i) treat $E_M$, $\\delta$, and Josephson terms as fixed parameters rather than as quantities derived from a microscopic Bogoliubov–de Gennes (BdG) Hamiltonian whose coefficients vary with the microscopic wire parameters and magnetic field $B$; (ii) assume limiting parameter regimes (notably $E_M/E_C\\ll1$) in which charging-energy constraints suppress ground-state parity changes and therefore cannot address parity-switching phenomena in the transmon limit; and (iii) focus on tunneling spectroscopy signatures (e.g., zero-bias peaks) that cannot unambiguously distinguish topological oscillating Majorana modes from topologically trivial robust zero-energy Andreev modes produced by smooth potentials. Because of these limitations, it remains unclear what precise microwave (MW) spectroscopic fingerprints a transmon qubit will exhibit as the NW junction is tuned across the trivial-to-topological crossover, how parity crossings driven by oscillatory Majorana overlap manifest in circuit spectra, and whether MW spectroscopy can provide a practical and discriminating alternative to tunneling probes. A microscopic, quantitatively precise low-energy description that (a) projects the full BdG problem onto the relevant subgap manifold while retaining the bulk contribution, (b) yields $B$-dependent expressions for $E_J$, $E_M$, and $\\delta$, and (c) permits computation of the MW absorption spectrum across experimentally relevant regimes (including the previously unexplored transmon regime with $E_M/E_C\\gtrsim1$) is therefore necessary to predict and interpret spectroscopic signatures that could conclusively distinguish oscillating topological Majoranas from nonoscillating trivial zero modes.",
+        "content_hash": "6565db416c3dd1f4e6c31f32a2c87d2d93c8d41cf362477c1d0f255dff9b3e27",
+        "id": "gcn_7557e7b0a15e4873",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812563428097916929::problem",
+            "package_id": "paper:812563428097916929",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812563428097916929"
+          ]
+        },
+        "rerank_score": 0.6748761423637326,
+        "role": "premise",
+        "score": 0.006711409395973154,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "A lattice-based Bogoliubov–de Gennes boundary-condition framework that matches tight-binding wave functions across a normal-metal/superconductor interface using only real-space lattice amplitudes (finite differences) and orbital-dependent hopping parameters provides a quantitative method to compute Andreev reflection, normal reflection, transmission amplitudes, and tunneling conductance for superconductors with complex nonparabolic multiband electronic structure beyond an effective-mass approximation. When supplied with an appropriate tight-binding BdG model, the same lattice matching formalism can be applied to tunneling into systems with surface states described by Majorana fermions in topological superconductors and can be extended toward self-consistent lattice calculations of spatially varying multiband pair potentials for quantitative comparison with experiment.",
+        "content_hash": "a2f082b079fa929a92f443205e714495a59d87d0398e3bbf41092f2833947868",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_25f5ae263a5b43a4",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813239833248923651::conclusion_10",
+            "package_id": "paper:813239833248923651",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813239833248923651"
+          ]
+        },
+        "rerank_score": 0.7730559200409635,
+        "role": "conclusion",
+        "score": 0.0062213205815582285,
+        "title": "Lattice BdG boundary matching as a general method for tunneling spectroscopy of multiband superconductors and related extensions",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Hybrid semiconductor–superconductor devices require a minimal microscopic model that captures how a localized semiconductor electron electrostatically perturbs Andreev bound states and how junction parameters (geometry, pairing strength, insulating chemical potential) tune the ABS spectrum and possible topological transitions. Previously no compact tight‑binding BdG construction with explicit Coulomb coupling channels to a two‑site semiconductor qubit was given in a form amenable to analytic inspection. Without such a model one cannot derive analytic dependencies of ABS spectra on qubit position or predict parameter regimes (distance or pairing) where qualitative spectral/topological changes emerge. The supplied 16×16 BdG tight‑binding model and its analytic simplifications fill this gap and provide a tool to explore hybrid‑device spectral engineering.",
+        "content_hash": "145a313b98cc541876adbc626dec236a463e4d6289709dffd50e93d283f2ff16",
+        "id": "gcn_9d49ddd8717443fb",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812597592767594498::conclusion_8_subproblem",
+            "package_id": "paper:812597592767594498",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812597592767594498"
+          ]
+        },
+        "rerank_score": 0.7599990562862609,
+        "role": "premise",
+        "score": 0.017006802721088433,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Physical context: the momentum-resolved topological invariant $W(k_{y})$ must be connected to localized end modes to produce observable Josephson signatures. Prior state: general correspondence between 1D winding and Majorana end modes exists abstractly, but for the present Ising-SOC BdG model the explicit weak-tunneling derivation, channel-by-channel identification of whether inter-channel pairing gaps the zero modes, and closed-form estimates for the resulting Andreev energies were missing. Without that connection one cannot physically interpret the number of $4\\pi$ branches nor compute their parametric dependence on junction transparency and microscopic parameters. The effective 1D edge analysis (linearization, spin rotations, perturbative interband-pairing treatment) provides that link and yields analytical expressions (Eqs. (B8), (B16), (B17)) that specify when zero modes survive and how they hybridize into $4\\pi$ or $2\\pi$ periodic Andreev spectra.",
+        "content_hash": "673c377e9f20723b4000466553232a7cb1e673925be922d4078b7492ce0fe4df",
+        "id": "gcn_a5340d3d08744651",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867752205174702746::conclusion_4_subproblem",
+            "package_id": "paper:867752205174702746",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867752205174702746"
+          ]
+        },
+        "rerank_score": 0.664432780963041,
+        "role": "premise",
+        "score": 0.0056179775280898875,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Material-specific claims about boundary Majorana modes require demonstration that (i) a microscopic model with the correct lattice, sublattice, and spin-orbit structure reproduces the Fermi-surface parities inferred from first-principles calculations, and (ii) a BdG calculation on a boundary that preserves the protecting glide symmetry indeed yields in-gap zero modes consistent with those parities. Prior to this study there was no explicit tight-binding BdG demonstration, calibrated to the computed band topology, that the PDW odd-parity superconducting phase in CeRh2As2 should host Majorana modes localized on a glide-preserving surface. Without such a model calculation the practical surface signatures of the predicted TCSC remained conjectural.",
+        "content_hash": "10aa88dd04e0e64819c877d0d5a50f6cbede646c222038b1fc71ac5a60e98e65",
+        "id": "gcn_b285f8f99d5c48d5",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811776922190086146::conclusion_6_subproblem",
+            "package_id": "paper:811776922190086146",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811776922190086146"
+          ]
+        },
+        "rerank_score": 0.6593532298188041,
+        "role": "premise",
+        "score": 0.006622516556291391,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The study is concerned with Josephson junctions formed by two conventional s-wave superconductors separated by a ferromagnetic-insulator (FI) barrier (S/FI/S). Prior theoretical work had reported an unusual “atomic-scale” alternation of the junction ground state between 0 and π as the FI thickness is changed by a single atomic layer, but the microscopic mechanism producing this parity-sensitive 0–π switching remained unresolved. Existing descriptions established standard tools — the Bogoliubov–de Gennes (BdG) framework, tight-binding models of superconductors and ferromagnetic insulators, and the Beenakker formula relating discrete Andreev levels to the Josephson current — yet previous studies did not present a direct, microscopic calculation of the Andreev bound state spectrum inside an FI barrier and its connection to the sign of the Josephson critical current as a function of the integer layer number $L$. Because the FI has large exchange splitting ($V_{\\mathrm{ex}}>4t$ in the tight-binding parametrization), single-particle band structure and spin-resolved densities of states differ qualitatively from normal-insulator barriers; whether and how these spectral differences produce the atomic-scale 0–π alternation was not demonstrated. This absence of a resolved spectral mechanism prevented a clear physical picture explaining why an odd versus even number of FI atomic layers should favor π or 0 ground states, impeded quantitative prediction and design of S/FI/S elements for qubits and logic (where parity control matters), and left open how the discrete Andreev-level structure contributes to the sign of the low-temperature Josephson current.",
+        "content_hash": "b6ccab5ed1436496d0e897b5b3b45dc4660b8a81ace1d8ea979a2faad9b9bfed",
+        "id": "gcn_0be42c96c4ce4b4b",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867762988575096901::problem",
+            "package_id": "paper:867762988575096901",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867762988575096901"
+          ]
+        },
+        "rerank_score": 0.7563114848387349,
+        "role": "premise",
+        "score": 0.014705882352941176,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Josephson and Andreev bound-state spectra across junctions of topological superconductors are the primary experimentally-accessible probes of Majorana physics (in particular $4\\pi$ periodicity signatures). Prior junction calculations commonly assume a large chemical potential and/or treat single Kitaev chains; they gave intuitive $\\cos(\\phi/2)$ results but did not provide analytic expressions valid in the low-$\\mu$ regime relevant to coupled-wire effective models. The lack of closed-form secular solutions and the absence of identification of critical energies where the mode character changes prevented a full understanding of why additional $\\phi$-dependent (\"wing\") branches appear near the bulk bands and when $4\\pi$ periodicity survives versus when branches are pushed into the bulk by a barrier. This conclusion supplies closed-form secular solutions in the transparent limit, locates the energy $E_c$ at which the determinant structure changes, and thereby explains the genesis of multiple subgap branches and their $4\\pi$ character.",
+        "content_hash": "de499ed2210a9d555cd5211c3abbd4529b70afbd44e4d76125da8fe8accd998c",
+        "id": "gcn_aedfe22809b44bcd",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867770771529793717::conclusion_5_subproblem",
+            "package_id": "paper:867770771529793717",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867770771529793717"
+          ]
+        },
+        "rerank_score": 0.6843942847527832,
+        "role": "premise",
+        "score": 0.005649717514124294,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Once the proximitized dot is reduced to an effective Bogoliubov-de Gennes problem, the central unresolved quantity is its discrete excitation spectrum, because the appearance or inversion of subgap levels determines both the ground-state parity and the existence of zero-energy crossings. Prior models had identified Andreev states in similar junctions, but the explicit analytic dependence of the two spin-resolved levels on the gate energy, Zeeman field, and superconducting phase was needed in order to determine where the particle-hole gap closes and how the topological regimes are organized.",
+        "content_hash": "0d1a97ce1d11d8442096c799a0cb7e58a992c91ace8179808e2d6c6b6e1d3ba6",
+        "id": "gcn_85bfd3e659294e07",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813028602047102976::conclusion_3_subproblem",
+            "package_id": "paper:813028602047102976",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813028602047102976"
+          ]
+        },
+        "rerank_score": 0.7508193004462336,
+        "role": "premise",
+        "score": 0.0064516129032258064,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The physical context is the detection and characterization of topological superconducting phases in finite-sized superconducting nanostructures (quantum dots, nanowires, planar wells) proximitized by conventional s-wave superconductors and described by a tight-binding Bogoliubov–de Gennes (BdG) Hamiltonian. Prior to this work, topological superconductivity in such systems is known to be associated with topologically protected zero-energy (Majorana-like) modes and with a $Z_{2}$ invariant that can be expressed as the fermion parity of the ground state $P_{\\varphi}=\\operatorname{sgn}F_{\\varphi}$, where $F_{\\varphi}=\\operatorname{pf}[\\mathcal{H}(\\varphi)\\tau_{x}]$ is the Pfaffian of the BdG Hamiltonian in Majorana representation. However, identifying unambiguous experimental signatures of topological phase transitions in finite-size systems remained problematic: topological transitions do not break a symmetry or show conventional critical behavior, and commonly used probes (zero-bias conductance peaks from tunnelling spectroscopy, or $4\\pi$-periodic Josephson effects in rings) can be ambiguous or technically challenging. Moreover, finite-sized (zero-dimensional, 0D) systems have discrete Andreev spectra rather than the continuous spectra of 1D chains, so the relationship between measurable equilibrium quantities (in particular the equilibrium Josephson current-phase relation, CPR) and the $Z_{2}$ fermion-parity invariant had not been established in the physically relevant regime of non-interacting, finite-length s-wave systems with broken time-reversal symmetry. Practically, this gap prevented a direct, equilibrium-based route to probe ground-state fermion parity and to map topological phase boundaries in finite-size Josephson junctions: without a precise link between measurable CPR features and Pfaffian sign changes / zero-energy modes, experimental CPR measurements could not be used unambiguously to infer topological phase transitions in these nanostructures.",
+        "content_hash": "c0663f117ff1288b879c2f9d21f2faedf5197c68e921842b8ae84a4253851d1c",
+        "id": "gcn_2569800c584f4b8b",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867752429452526268::problem",
+            "package_id": "paper:867752429452526268",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867752429452526268"
+          ]
+        },
+        "rerank_score": 0.7449512105310929,
+        "role": "premise",
+        "score": 0.012345679012345678,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The spectrum of subgap Andreev bound states near the ends of a superconducting wire is a crucial experimental signature of unconventional pairing and a direct probe of Majorana zero modes. Prior calculations often employed specific lattice models or assumed simple boundary conditions tied to a particular band structure. A general, model-independent framework that could be applied to any quasi-1D superconductor with an arbitrary number of nondegenerate bands and arbitrary normal-state boundary scattering was missing, preventing a fully symmetry-based prediction of the zero-energy modes and their topological protection.",
+        "content_hash": "debff8f47244d32851884657395919f9e23ad271c79e4c36b58a6459baef602e",
+        "id": "gcn_9dddf90110644979",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867748869700584341::conclusion_6_subproblem",
+            "package_id": "paper:867748869700584341",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867748869700584341"
+          ]
+        },
+        "rerank_score": 0.7181768567054994,
+        "role": "premise",
+        "score": 0.01282051282051282,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The study concerns superconductors in which strong spin-orbit coupling and multi-orbital electronic structure produce low-energy quasiparticles described by a massive Dirac Bogoliubov–de Gennes (BdG) Hamiltonian. Typical microscopic models for candidate materials such as Cu_xBi_2Se_3 require two orbital degrees of freedom coupled to spin, leading to an 8×8 BdG matrix and Dirac-type kinetic terms. Prior theoretical and computational practice therefore faced two intertwined limitations. First, the full Dirac-BdG framework yields large-scale, second-order differential eigenproblems that are computationally expensive and unwieldy for inhomogeneous situations (surfaces, vortices, interfaces); this prohibits routine application of the many analytical and numerical quasiclassical techniques (Andreev, Eilenberger, Usadel, Ginzburg–Landau) that simplify conventional superconductors. Second, there is a conceptual mismatch: experimentally and in some microscopic calculations, zero-energy surface and vortex bound states appear in topological superconductors even when the microscopic on-site (momentum-independent) odd-parity gap is fully gapped, whereas the conventional criterion for Andreev bound states in unconventional superconductors requires sign change of a momentum-dependent gap along a scattering path. Because existing descriptions either keep the full Dirac-BdG (computationally costly) or do not provide an effective momentum-dependent order parameter that connects topological odd-parity pairing to the well-developed spin-triplet Andreev framework, one cannot readily (a) use established quasiclassical techniques to analyze inhomogeneous topological superconductors, (b) interpret surface Majorana states in the language of Andreev bound states, or (c) exploit known results for chiral p-wave vortices (e.g., level quantization, spin polarization) to understand vortex-bound Majorana modes. This gap motivates a reduced effective theory that (i) retains low-energy Dirac-BdG physics while being tractable for inhomogeneous problems and (ii) clarifies whether and how momentum-independent odd-parity gaps map to momentum-dependent spin-triplet order parameters that generate Andreev-type zero-energy states.",
+        "content_hash": "2c2ea161668c7c16e1489665762e0944ed21048fdc414b351ecc3950cb5a4fc0",
+        "id": "gcn_783ef94f13b641d5",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867745166889320891::problem",
+            "package_id": "paper:867745166889320891",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867745166889320891"
+          ]
+        },
+        "rerank_score": 0.7455547733949814,
+        "role": "premise",
+        "score": 0.016960114983830397,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The asymmetric Andreev resonant state induced by the magnetic exchange field suggests a connection to chiral Majorana modes, but this analogy requires further clarification. The authors note that investigating Andreev bound states in a spin‑triplet SFS (superconductor–ferromagnet–superconductor) Josephson junction on monolayer MoS₂ would be a natural next step to deepen the understanding of the topological aspects and the transport of spin‑valley‑polarized Cooper pairs.",
+        "content_hash": "c2ce3c954768e39ecf5cd0e2365e536908c9e07d7f8e42f0251f832473150ea4",
+        "id": "gcn_0fa083f311b446ad",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867767424986906668::open_question",
+            "package_id": "paper:867767424986906668",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867767424986906668"
+          ]
+        },
+        "rerank_score": 0.7168595901780691,
+        "role": "premise",
+        "score": 0.0078125,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In the BBG/TMD heterostructure context, experimental control and theoretical prediction of superconducting and topological behavior require a controlled low-energy model that connects microscopic material parameters (interlayer potential $u$, hopping amplitudes $\\gamma_i$, and proximity-induced spin-orbit couplings from the TMD) to the bands that cross the Fermi level. Prior modelings either used simplified tight-binding parameterizations that set some hoppings to zero, treated spin-orbit proximity phenomenologically without a controlled projection, or did not track the perturbative hierarchy that determines which spin-orbit term dominates at low energy. Without such a perturbative derivation, it is unclear whether Ising or Rashba coupling will be dominant in the effective low-energy theory, how Rashba is suppressed by large $\\gamma_1$, and how orientation-dependent parameters enter. This gap prevents quantitative mapping from material and gate-controlled parameters to the effective BdG Hamiltonian needed to (a) compute Andreev spectra in Josephson junction geometries, (b) predict where topological transitions occur as functions of $\\theta,\\phi,\\beta,\\mu$, and (c) assess whether Rashba is strong enough to open gaps where required for robust Majorana modes.",
+        "content_hash": "925487caf34027a212df9764020fbda289514c0f30aed357db7d01e49e7199b3",
+        "id": "gcn_bd4e08726c73437e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1122292424572403745::conclusion_1_subproblem",
+            "package_id": "paper:1122292424572403745",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1122292424572403745"
+          ]
+        },
+        "rerank_score": 0.6446195030040256,
+        "role": "premise",
+        "score": 0.005988023952095809,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Unconventional superconductors with nontrivial topological numbers—such as the one-dimensional winding number (Sato number) for d$_{xy}$ and p$_{x}$ wave symmetries, and the TKNN number (Chern number) for chiral superconductors—exhibit zero-energy Andreev bound states at their surfaces, a phenomenon known as the bulk-boundary correspondence. For an isolated superconductor, the number of such surface states equals the absolute value of its topological number. This correspondence has been confirmed theoretically for surfaces. However, its validity for interfaces between two different topological superconductors—i.e., in a Josephson junction configuration—had not been explicitly established. In particular, it was unknown whether the number of zero-energy Andreev bound states at the junction interface is equal to the difference of the topological numbers on the two sides, or whether the conditions under which these states appear (e.g., dependence on the macroscopic phase difference) follow from the topological classification. Furthermore, the role of such interfacial zero-energy states in determining the Josephson current, especially the low-temperature anomalies observed in some unconventional junctions, had not been systematically studied from a topological viewpoint. Prior work had calculated Andreev bound states and Josephson currents for specific pairing symmetries (e.g., d-wave grain boundaries, chiral p-wave junctions), but a unified understanding connecting the counting of zero-energy interfacial states and the topological invariants of the two superconductors, as well as the resulting transport signatures, was missing. This paper aims to fill these gaps by analytically solving the Bogoliubov–de Gennes equation for several classes of Josephson junctions and confirming the bulk-boundary correspondence at interfaces, while also investigating the consequent Josephson current properties.",
+        "content_hash": "85a65067eb85a4fe02962ed6ad62dfdb7ad0356d82de4c5b03e626b99318cc03",
+        "id": "gcn_d33951fccf7242a8",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813235625409904641::problem",
+            "package_id": "paper:813235625409904641",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813235625409904641"
+          ]
+        },
+        "rerank_score": 0.7343375352978967,
+        "role": "premise",
+        "score": 0.016129032258064516,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In conventional superconductor junctions, the Andreev bound states are a central concept, and they possess electron-hole symmetry: for every state at energy $E$, there is a partner at $-E$. This symmetry ensures certain properties, such as a neutral Majorana mode at $\\phi=\\pi$. For the Kekulé GS junction, which is not a true superconductor but a valley-condensed system, it was uncertain whether such symmetry would hold. The Kekulé Hamiltonian does not have intrinsic particle-hole symmetry, and it was known that at $\\mu=0$ the system has a symmetry that resembles charge conjugation. However, with a local electrostatic potential, this symmetry could be broken. Knowing the symmetry properties of the Andreev bound states is crucial for predicting the supercurrent and possible topological features such as Majorana modes.",
+        "content_hash": "7e00ef18854a1d07e63038b5bb4c7500faaf623409e11235d59082550af69d42",
+        "id": "gcn_2fc374d1f2864b29",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817399497217802242::conclusion_6_subproblem",
+            "package_id": "paper:817399497217802242",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817399497217802242"
+          ]
+        },
+        "rerank_score": 0.6658467620091464,
+        "role": "premise",
+        "score": 0.010638297872340425,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The detection and application of Majorana bound states (MBS) in condensed matter systems rely on distinguishing them from trivial Andreev bound states (ABS), as both can produce zero-bias conductance peaks in tunneling experiments. One-dimensional superconducting structures, such as p-wave nanowires, s-wave nanowires with proximity-induced pairing and spin-orbit coupling, and the edges of topological insulators, are prime candidates for hosting MBS. However, the behavior of subgap states during a topological phase transition — when the system moves from a topological phase supporting MBS to a trivial phase without them — remains poorly understood theoretically. Known effects include a spin flip of the quasiparticle components [15,16] and the experimental observation that the zero-bias conductance peak disappears in the trivial phase when the superconducting gap closes [17]. Prior analytical studies (e.g., [20,21]) often assumed constant phase parameters and did not capture the evolution of states as the gap vanishes. A systematic analytical description of the energy levels and wave functions of ABS near the gap edges for the canonical models is lacking. Such a description is necessary to explain the spin-flip mechanism, the fate of localized states at the transition, and the absence of a zero-bias peak in the trivial phase. The present work addresses this gap by employing the Bogoliubov–de Gennes formalism and Green’s function techniques to study the behavior of bound and resonant states at the gap edges for three fundamental one-dimensional superconducting systems, thereby providing a unified mechanism for the observed phenomena.",
+        "content_hash": "6a6564adef03c09907336fd12dac13053b7d7f5e01841ea5c64b741f7ec7ecfe",
+        "id": "gcn_07e5a492f4764a32",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:320866794015293440::problem",
+            "package_id": "paper:320866794015293440",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:320866794015293440"
+          ]
+        },
+        "rerank_score": 0.6414474424218637,
+        "role": "premise",
+        "score": 0.0125,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The work addresses the physics of a Josephson junction in which a central two-dimensional integer quantum Hall (QH) region, carrying chiral edge states, is contacted by one-dimensional superconducting leads that can be driven from a trivial $s$-wave phase into a topological $p$-wave phase supporting Majorana end modes. Prior studies established that when conventional $s$-wave superconductors contact a QH edge the supercurrent is mediated by chiral Andreev edge states that propagate along the sample perimeter, yielding an unusual flux periodicity $ \\Phi_0 = hc/e$ in the critical current and a set of discrete Andreev levels determined by the edge-state level spacing. However, the consequences of replacing trivial superconducting leads by topological superconductors (which host zero-energy Majorana quasiparticles at their ends) were not established: existing theory and experiments had primarily considered proximitized trivial leads or phenomenological treatments, leaving open how Majorana modes hybridize with chiral QH edge channels, how that hybridization modifies the Andreev spectrum and the Josephson current, and which transport signatures (in current-phase relations and in Fraunhofer interference patterns $J_c(B_z)$) would unambiguously reveal both the topological phase transition and the spin properties of the Majorana end states. This gap prevents (i) a microscopic understanding of Majorana-mediated Cooper-pair transfer through a chiral edge that forbids retroreflection and forces perimeter-sensitive transport, (ii) quantitative predictions for changes of $J_c$ and its flux dependence across the topological transition (e.g., whether resonant enhancements persist, invert, or disappear), and (iii) an assessment of whether spin polarization of Majorana modes can be inferred from measurable interference patterns. These unresolved points motivate a combined numerical and low-energy analytical study to (a) compute the spectral and transport signatures across the topological transition for a realistic tight-binding junction in the QH regime, and (b) construct a minimal spinful low-energy model that explains the observed phenomena and yields analytic formulas connecting Majorana–edge coupling, spin polarization, and the flux and phase dependence of the Josephson current.",
+        "content_hash": "9fb1ce1eaaa0fa8bf786ec00b7134759b90cf64fb4e17f071a4d3ab205afc6b4",
+        "id": "gcn_a10d987238bb4f27",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817363703560142851::problem",
+            "package_id": "paper:817363703560142851",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817363703560142851"
+          ]
+        },
+        "rerank_score": 0.6353870171282945,
+        "role": "premise",
+        "score": 0.012658227848101266,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The analysis is performed within mean-field Bogoliubov–de Gennes theory for ballistic, single-channel SNS junction geometries and for an illustrative one-dimensional density of states. Several scientifically meaningful issues remain open and are explicitly acknowledged: (1) a full numerical tight-binding solution of the BdG equations for lattice models (to be reported separately) is required to verify and refine the analytic approximations used here, and to test quantitative robustness beyond the small-$E/\\mu_{N}$ expansion; (2) the effects of multiple transverse channels, finite junction transparency, angle-dependent Andreev scattering, and elastic disorder — which can be treated semiclassically by Eilenberger equations — have not been included and may alter the magnitude of the Josephson current and the robustness of the finite-temperature shift; (3) one-dimensional superconductors suffer quantum and thermal phase fluctuations not captured by mean-field BdG, so extending the theory to include fluctuation effects across the BCS-BEC crossover is necessary to assess the role of phase slips and reduced long-range order on the Josephson current; and (4) quantitative comparison with experiments will require incorporating these effects and exploring parameter regimes (e.g., realistic $d$, $\\mu_N$, multiband structure) beyond the simplified 1D model used here.",
+        "content_hash": "27b01dec348bc9cc6fbd102b87070b38bb71b5a7beedcc1b06f776917f48448b",
+        "id": "gcn_f2f72658f6c0414e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1070588220065972231::open_question",
+            "package_id": "paper:1070588220065972231",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1070588220065972231"
+          ]
+        },
+        "rerank_score": 0.626238601027445,
+        "role": "premise",
+        "score": 0.00625,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Although the Majorana polarization is a fundamental diagnostic of topological superconductivity, no experimental method had been established to access it in planar Josephson junctions. The polarization is defined through the Bogoliubov coefficients, which are not directly observable. In particular, the modulus |𝒫_i| equals the local density of states only for a true Majorana bound state, making it a critical experimental observable. While spin-resolved Andreev reflection spectroscopy had been proposed for one-dimensional systems, its extension to quasi-two-dimensional strips and the quantitative relation between the tunneling conductance and the symmetrized polarization |𝒫_{⟨ij⟩}| were not known. A feasible measurement scheme was needed to empirically verify the topological nature of zero-energy modes observed in recent experiments on InAs and HgTe heterostructures.",
+        "content_hash": "326533a2a50d100474a2172defff47109bed0a1923e3e74ca99614d33b4555ea",
+        "id": "gcn_ac70dac70d3844a7",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867745199483257753::conclusion_2_subproblem",
+            "package_id": "paper:867745199483257753",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867745199483257753"
+          ]
+        },
+        "rerank_score": 0.6561253131167684,
+        "role": "premise",
+        "score": 0.005847953216374269,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The work addresses superconducting islands formed by two Josephson-coupled proximitized semiconductor nanowire (NW) segments (an SNS weak link) that are proposed as platforms for microwave (circuit-QED) readout of conventional and topological qubits. Prior to this work the standard low-energy description for superconducting islands used in qubit physics replaced the microscopic Josephson element by a phenomenological, sinusoidal Josephson potential $V_J(\\varphi)=-E_J\\cos\\varphi$, which is valid for tunnel SIS junctions but fails for weak links with a small number of highly transmitting channels (as in NW, 2D or van-der-Waals Josephson junctions). In these alternative weak links the microscopic subgap Bogoliubov–de Gennes (BdG) spectrum (Andreev bound states and, in the topological phase, Majorana bound states) produces strongly non-sinusoidal, phase-dependent energies and enables single-electron (Majorana-mediated) tunneling terms in addition to Cooper-pair tunneling. Existing theoretical treatments either (i) used low-energy toy models or phenomenological $2\\times2$ forms for $V_J(\\varphi)$ that do not capture full $\\varphi$-anharmonicity, parity mixing, or the microscopic dependence of subgap energy scales on NW parameters, or (ii) relied on partial microscopic descriptions that did not produce a tractable island Hamiltonian spanning CPB-to-transmon and trivial-to-topological regimes. Because of these limitations one could not (a) obtain a controlled, quantitative effective island Hamiltonian that fully incorporates coherent dynamics of subgap levels; (b) compute microscopic values and $B,\\tau,\\mu,L_S$ dependences of the new energy scales introduced by the NW: the Majorana-mediated single-electron Josephson coupling $E_M$, the conventional Josephson coupling $E_J$, and the Majorana hybridization splitting $\\delta=2E_0$; or (c) predict how these scales interplay with the charging energy $E_C$ to produce distinct, experimentally observable microwave spectroscopic signatures across CPB/transmon crossovers and topological transitions. These gaps prevented reliable, microscopic predictions for microwave spectroscopy and for the design/interpretation of experiments aiming to detect Majorana physics in NW-based superconducting islands.",
+        "content_hash": "542fb27b902ca28b905e19d71d1b7a42e11b7a71884e19661acd341542553099",
+        "id": "gcn_e7416624238d47dd",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867747376197010188::problem",
+            "package_id": "paper:867747376197010188",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867747376197010188"
+          ]
+        },
+        "rerank_score": 0.6570056565129427,
+        "role": "premise",
+        "score": 0.008333333333333333,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The study is motivated by the need to understand how Andreev bound state (ABS) band topology in multi-terminal Josephson junctions is governed when the superconducting leads are one-dimensional topological superconductors (TSCs) that can host multiple zero-energy Majorana bound states (MBSs) per edge protected by chiral symmetry. Prior work established that two-terminal topological Josephson junctions with a single MBS per edge can yield nonstandard $4\\pi$-periodic ABS dispersions and that multi-terminal junctions built from conventional s-wave superconductors can realize Weyl or nodal ABS structures in synthetic phase space. However, a systematic description was lacking for junctions formed by TSCs with multiple MBSs per edge: (i) there was no general low-energy framework tying the hybridization of multiple interfacial MBSs to the emergence and classification of point and line nodes in the two-dimensional synthetic space of the two independent phase differences, (ii) it was unclear which symmetry constraints (chiral symmetry, particle-hole symmetry, $2\\pi$-phase sliding) determine the location, shape and robustness of nodal features, and (iii) there existed no concrete mapping between the number/configuration of preexisting interfacial MBSs and experimentally observable Josephson-transport signatures (e.g., periodicities or discontinuities) that would allow diagnosing topological versus trivial origins of low-energy ABSs. These gaps prevented quantitative predictions for which multi-MBS junction configurations necessarily produce nodal lines versus point nodes, how those nodal structures evolve when chiral symmetry is broken or when trivial Andreev states hybridize with MBSs, and what specific Josephson-current fingerprints to expect in realistic devices.",
+        "content_hash": "1029c9e58b9a245ceb1f3ce579ccdc1dfb1dba060c5d1c49725453a10013922b",
+        "id": "gcn_cdac5620641947a6",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867763622271517153::problem",
+            "package_id": "paper:867763622271517153",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867763622271517153"
+          ]
+        },
+        "rerank_score": 0.6550650822295134,
+        "role": "premise",
+        "score": 0.007142857142857143,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Zero-bias conductance peaks in semiconductor–superconductor hybrid structures are often taken as evidence for Majorana bound states, but it is well known that trivial subgap states, including Andreev bound states, can also produce low-energy features. In the context of planar Josephson junctions with Rashba spin-orbit coupling, it was theoretically predicted that the topological phase boundary is accompanied by a zero-energy crossing of a band of Andreev states, yet the extent to which such bulk Andreev band features dominate the tunneling signal—versus possible Majorana end states—was not known for realistic device geometries. Distinguishing these contributions is critical for validating the topological interpretation of the experiment and for designing future devices that can isolate genuine Majorana signals. For the 600 nm wide junction studied, the interplay between the induced gap, the Majorana localization length, and the energy broadening had not been quantified, leaving open whether the observed zero-bias peak could be attributed primarily to Majorana modes or to the bulk Andreev band.",
+        "content_hash": "2ae737827bf485d8e406e869ce5c37f8cf73aece2cbe679ac0dad92cc169f3b0",
+        "id": "gcn_e9a0241e6a5d42f7",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867771698278040198::conclusion_3_subproblem",
+            "package_id": "paper:867771698278040198",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867771698278040198"
+          ]
+        },
+        "rerank_score": 0.6770462323233306,
+        "role": "premise",
+        "score": 0.01405236070709331,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Planar Josephson junctions formed on InAs quantum wells with epitaxial Al are a leading platform for topological superconductivity and Majorana zero modes. To achieve robust quasi-one-dimensional topological superconducting states, it is essential to limit the number of Andreev bound state subbands and to maximize the topological superconducting gap. Prior theoretical proposals suggested that these goals could be addressed by engineering the interfaces between the junction's normal region and the superconducting leads, for instance via spatial modulation of the Al coverage. However, experimental implementations that combine deliberate Al patterning with external gate control to shape carrier density profiles and continuously tune the wave-function matching at the normal–superconductor interface were lacking. Without such a demonstration, it remained unclear whether a patterned-contact plus gate architecture can be used to enhance critical properties of planar Josephson junctions and lay the groundwork for wave-function engineering in topological devices.",
+        "content_hash": "2b9011f61f525ea4f273c8545715a0a3c8f8ea83d116f2af6da8726bd534d585",
+        "id": "gcn_cfd3533bec474ef8",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:987319147765432334::problem",
+            "package_id": "paper:987319147765432334",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:987319147765432334"
+          ]
+        },
+        "rerank_score": 0.6209897032781847,
+        "role": "premise",
+        "score": 0.005988023952095809,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The overarching scientific objective is to demonstrate and quantify topologically protected, gapless Andreev bound states (Majorana–Andreev modes) in proximitized topological insulators, both to validate theoretical predictions and to establish hardware platforms for topological quantum devices. Prior to this combined experimental and modeling effort there was no conclusive microwave-based demonstration, with corroborating control experiments and semiquantitative dynamical modeling, that reconciled frequency-, gate-, and linewidth-dependent data with the existence of gapless Andreev modes in HgTe Josephson junctions.",
+        "content_hash": "c1a2833a9bfb61af4057d35444b914636fcd7868edadfc44cb9ad4401fdfa70f",
+        "id": "gcn_c1f7d4095fd74dd8",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812840552629272577::conclusion_9_subproblem",
+            "package_id": "paper:812840552629272577",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812840552629272577"
+          ]
+        },
+        "rerank_score": 0.6841861568556815,
+        "role": "premise",
+        "score": 0.018752688172043012,
+        "type": "question",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "req_87a11415c41d6"
+}

@@ -1,0 +1,1538 @@
+{
+  "code": 0,
+  "data": {
+    "has_more": true,
+    "papers": {
+      "paper:7480458635998883869": {
+        "area": "arXiv-cond-mat",
+        "authors": "Jian-Jian Miao | Yue Liu | Yue Zhao | Yichen Hua | Changming Yue | Wei-Qiang Chen",
+        "available_online": null,
+        "cover_date_start": "2026-07-05",
+        "created_at": "2026-07-14T17:24:38+08:00",
+        "doi": "10.48550/arxiv.2607.04122",
+        "en_title": "Hall Coefficient Sign Reversal Driven by Orbital-Selective Oxygen-Vacancy Scattering in Nickelate Films",
+        "id": "7480458635998883869",
+        "keywords": null,
+        "publication_date": "2026-07-05",
+        "publication_id": "",
+        "publication_name": "arXiv (cond-mat.supr-con)",
+        "research_categories": null,
+        "zh_title": "镍酸盐薄膜中轨道选择性氧空位散射驱动的霍尔系数符号反转"
+      },
+      "paper:811659553065140225": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, mathematical",
+        "authors": "GUY TRAMBLY DE LAISSARDIÈRE | DIDIER MAYOU",
+        "available_online": "2011-11-21",
+        "cas_zone": "4",
+        "cover_date_start": "2011-05-30",
+        "created_at": "2026-05-17T02:12:22+08:00",
+        "doi": "10.1142/s0217984911026747",
+        "en_title": "ELECTRONIC TRANSPORT IN GRAPHENE: QUANTUM EFFECTS AND ROLE OF LOCAL DEFECTS",
+        "id": "811659553065140225",
+        "impact_factor": 2.1,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2011-5-30",
+        "publication_id": "704",
+        "publication_name": "Modern Physics Letters B _ Mod. Phys. Lett. B",
+        "research_categories": "",
+        "zh_title": "石墨烯中的电子输运：量子效应与局部缺陷的作用"
+      },
+      "paper:811674672092413953": {
+        "area": "physics and astrophysics, physical sciences, nuclear and plasma physics",
+        "authors": "Yue Fan | Akihiro Kushima | Sidney Yip | Bilge Yildiz",
+        "available_online": "2011-3-21",
+        "cas_zone": "1",
+        "cover_date_start": "2011-03-21",
+        "created_at": "2026-06-16T00:12:20+08:00",
+        "doi": "10.1103/physrevlett.106.125501",
+        "en_title": "Mechanism of Void Nucleation and Growth in bcc Fe: Atomistic Simulations at Experimental Time Scales",
+        "id": "811674672092413953",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "[\"Physical Sciences\", \"Nuclear and Plasma Physics\"]",
+        "zh_title": "体心立方铁中空洞形核与生长的机制：实验时间尺度下的原子模拟"
+      },
+      "paper:811714442487136256": {
+        "area": "physics and astrophysics, physics, applied",
+        "authors": "T. Ohsawa | K. Iwaya | R. Shimizu | T. Hashizume | T. Hitosugi",
+        "available_online": "",
+        "cas_zone": "3",
+        "cover_date_start": "2010-10-01",
+        "created_at": "2026-06-17T07:35:06+08:00",
+        "doi": "10.1063/1.3485826",
+        "en_title": "Thickness-dependent local surface electronic structures of homoepitaxial SrTiO3 thin films",
+        "id": "811714442487136256",
+        "impact_factor": 2.4,
+        "jcr_zone": "Q3",
+        "keywords": "",
+        "publication_date": "2010-10",
+        "publication_id": "585",
+        "publication_name": "Journal of Applied Physics _ Journal of Applied Physics",
+        "research_categories": "",
+        "zh_title": "同质外延SrTiO₃薄膜厚度依赖的局域表面电子结构"
+      },
+      "paper:811762960803299329": {
+        "area": "material science, materials science, multidisciplinary, chemistry, physical, physics, applied, condensed matter, nanoscience & nanotechnology",
+        "authors": "Li Gao | Jeffrey R. Guest | Nathan P. Guisinger",
+        "available_online": "2010-8-2",
+        "cas_zone": "2",
+        "cover_date_start": "2010-08-02",
+        "created_at": "2026-06-13T05:24:39+08:00",
+        "doi": "10.1021/nl1016706",
+        "en_title": "Epitaxial Graphene on Cu(111)",
+        "id": "811762960803299329",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "[{\"en_name\": \"Cu(111)\", \"ch_name\": \"\"}, {\"en_name\": \"Graphene\", \"ch_name\": \"\"}, {\"en_name\": \"scanning tunneling microscopy\", \"ch_name\": \"\"}]",
+        "publication_date": "2010-9-8",
+        "publication_id": "2026",
+        "publication_name": "Nano Letters _ Nano Lett.",
+        "research_categories": "",
+        "zh_title": "铜（111）衬底上的外延石墨烯"
+      },
+      "paper:811776695890608129": {
+        "area": "geoscience, geochemistry & geophysics, mineralogy",
+        "authors": "A. K. Verma | B. B. Karki",
+        "available_online": "2010-6-23",
+        "cas_zone": "3",
+        "cover_date_start": "2010-06-23",
+        "created_at": "2026-06-17T06:48:30+08:00",
+        "doi": "10.2138/am.2010.3386",
+        "en_title": "First-principles simulations of MgO tilt grain boundary: Structure and vacancy formation at high pressure",
+        "id": "811776695890608129",
+        "impact_factor": 2.8,
+        "jcr_zone": "Q2",
+        "keywords": "[{\"en_name\": \"Diffusion\", \"ch_name\": \"\"}, {\"en_name\": \"First-principles calculations\", \"ch_name\": \"\"}, {\"en_name\": \"Grain boundaries\", \"ch_name\": \"\"}, {\"en_name\": \"Point defects\", \"ch_name\": \"\"}, {\"en_name\": \"Structure\", \"ch_name\": \"\"}]",
+        "publication_date": "2010-7-1",
+        "publication_id": "173",
+        "publication_name": "American Mineralogist _ American Mineralogist",
+        "research_categories": "",
+        "zh_title": "MgO倾斜晶界的第一性原理模拟：高压下的结构与空位形成"
+      },
+      "paper:811869375920340992": {
+        "area": "material science, materials science, multidisciplinary, nanoscience & nanotechnology, metallurgy & metallurgical engineering",
+        "authors": "Kimihiro Yamanaka | Akira Uedono",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2009-07-01",
+        "created_at": "2026-05-16T11:47:14+08:00",
+        "doi": "10.1016/j.scriptamat.2009.02.006",
+        "en_title": "A study on vacancy-type defects in the electroless Cu measured with a monoenergetic positron beam",
+        "id": "811869375920340992",
+        "impact_factor": 5.3,
+        "jcr_zone": "Q1",
+        "keywords": "[{\"en_name\": \"Electroless Cu\", \"ch_name\": \"\"}, {\"en_name\": \"Positron annihilation\", \"ch_name\": \"\"}, {\"en_name\": \"Vacancy-type defect\", \"ch_name\": \"\"}]",
+        "publication_date": "2009-7",
+        "publication_id": "2046",
+        "publication_name": "Scripta Materialia _ Scripta Materialia",
+        "research_categories": "",
+        "zh_title": "一项关于用单能正电子束测量化学镀铜中空位型缺陷的研究"
+      },
+      "paper:811934407517536256": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, materials science, multidisciplinary",
+        "authors": "Vitor M. Pereira | J. M. B. Lopes dos Santos | A. H. Castro Neto",
+        "available_online": "2008-3-7",
+        "cas_zone": "2",
+        "cover_date_start": "2008-03-07",
+        "created_at": "2026-06-15T01:59:27+08:00",
+        "doi": "10.1103/physrevb.77.115109",
+        "en_title": "Modeling disorder in graphene",
+        "id": "811934407517536256",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "石墨烯无序建模"
+      },
+      "paper:812536252954836993": {
+        "area": "physics and astrophysics, engineering, materials engineering, physical sciences",
+        "authors": "R. Arras | J. Gosteau | S. Tricot | P. Schieffer",
+        "available_online": "2020-11-30",
+        "cas_zone": "2",
+        "cover_date_start": "2020-11-30",
+        "created_at": "2026-06-13T20:29:16+08:00",
+        "doi": "10.1103/physrevb.102.205307",
+        "en_title": "Schottky barrier formation at the Fe / SrTiO 3 (001) interface: Influence of oxygen vacancies and layer oxidation",
+        "id": "812536252954836993",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "[\"Engineering\", \"Materials Engineering\", \"Physical Sciences\"]",
+        "zh_title": "铁/钛酸锶（001）界面处肖特基势垒的形成：氧空位和层氧化的影响"
+      },
+      "paper:812543518613438464": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, materials science, multidisciplinary",
+        "authors": "Keian Noori | Su Ying Quek | Aleksandr Rodin",
+        "available_online": "2020-11-11",
+        "cas_zone": "2",
+        "cover_date_start": "2020-11-11",
+        "created_at": "2026-06-14T09:34:27+08:00",
+        "doi": "10.1103/physrevb.102.195416",
+        "en_title": "Hydrogen adatoms on graphene: The role of hybridization and lattice distortion",
+        "id": "812543518613438464",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "石墨烯上的氢吸附原子：杂化和晶格畸变的作用"
+      },
+      "paper:812568768390627329": {
+        "area": "physics and astrophysics, physics, multidisciplinary",
+        "authors": "Yu Zhang | Ying Su | Lin He",
+        "available_online": "2020-9-10",
+        "cas_zone": "1",
+        "cover_date_start": "2020-09-10",
+        "created_at": "2026-06-16T00:57:23+08:00",
+        "doi": "10.1103/physrevlett.125.116804",
+        "en_title": "Local Berry Phase Signatures of Bilayer Graphene in Intervalley Quantum Interference",
+        "id": "812568768390627329",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "",
+        "zh_title": "双层石墨烯在能谷间量子干涉中的局域贝里相位特征"
+      },
+      "paper:812653368144035840": {
+        "area": "material science, materials science, multidisciplinary, physics, applied, nanoscience & nanotechnology, chemistry",
+        "authors": "Martina Mazalová | Monika Všianská | Jana Pavlů | Mojmír Šob",
+        "available_online": "2020-4-6",
+        "cas_zone": "3",
+        "cover_date_start": "2020-04-06",
+        "created_at": "2026-05-23T03:02:00+08:00",
+        "doi": "10.3390/nano10040691",
+        "en_title": "The Effect of Vacancies on Grain Boundary Segregation in Ferromagnetic fcc Ni",
+        "id": "812653368144035840",
+        "impact_factor": 4.7,
+        "jcr_zone": "Q2",
+        "keywords": "[{\"en_name\": \"Defects binding energies\", \"ch_name\": \"\"}, {\"en_name\": \"Fcc Ni\", \"ch_name\": \"\"}, {\"en_name\": \"Grain boundary energy\", \"ch_name\": \"\"}, {\"en_name\": \"Magnetism\", \"ch_name\": \"\"}, {\"en_name\": \"Segregation energy\", \"ch_name\": \"\"}, {\"en_name\": \"Si and Al impurity\", \"ch_name\": \"\"}, {\"en_name\": \"Tilt 5(210) grain boundary\", \"ch_name\": \"\"}, {\"en_name\": \"Vacancy\", \"ch_name\": \"\"}]",
+        "publication_date": "",
+        "publication_id": "2160",
+        "publication_name": "Nanomaterials _ Nanomaterials",
+        "research_categories": "",
+        "zh_title": "空位对铁磁面心立方镍中晶界偏析的影响"
+      },
+      "paper:812713204089094144": {
+        "area": "Material science, materials science, multidisciplinary, chemistry, physical, nanoscience & nanotechnology, chemistry, multidisciplinary",
+        "authors": "Willem Walravens | Eduardo Solano | Filip Geenen | Jolien Dendooven | Oleg Gorobtsov | Athmane Tadjine | Nayyera Mahmoud | Patrick Peiwen Ding | Jacob P. C. Ruff | Andrej Singer | Gunther Roelkens | Christophe Delerue | Christophe Detavernier | Zeger Hens",
+        "available_online": "2019-11-6",
+        "cas_zone": "1",
+        "cover_date_start": "2019-11-06",
+        "created_at": "2026-06-19T00:09:22+08:00",
+        "doi": "10.1021/acsnano.9b04757",
+        "en_title": "Setting Carriers Free: Healing Faulty Interfaces Promotes Delocalization and Transport in Nanocrystal Solids",
+        "id": "812713204089094144",
+        "impact_factor": 16.3,
+        "jcr_zone": "Q1",
+        "keywords": "[{\"en_name\": \"charge transport\", \"ch_name\": \"\"}, {\"en_name\": \"defects\", \"ch_name\": \"\"}, {\"en_name\": \"grain boundary\", \"ch_name\": \"\"}, {\"en_name\": \"nanocrystal solids\", \"ch_name\": \"\"}, {\"en_name\": \"nanocrystal-nanocrystal interface\", \"ch_name\": \"\"}, {\"en_name\": \"nanomaterials\", \"ch_name\": \"\"}, {\"en_name\": \"self-assembly\", \"ch_name\": \"\"}]",
+        "publication_date": "2019-11-26",
+        "publication_id": "2020",
+        "publication_name": "ACS Nano _ ACS Nano",
+        "research_categories": "",
+        "zh_title": "释放载流子：修复有缺陷的界面可促进纳米晶体固体中的离域化和输运"
+      },
+      "paper:812840557935067136": {
+        "area": "material science, physical sciences, condensed matter physics",
+        "authors": "Julian Gaberle | Alexander L. Shluger",
+        "available_online": "2018",
+        "cas_zone": "3",
+        "cover_date_start": "2018-01-01",
+        "created_at": "2026-05-29T14:09:04+08:00",
+        "doi": "10.1039/c8nr06640j",
+        "en_title": "Structure and properties of intrinsic and extrinsic defects in black phosphorus",
+        "id": "812840557935067136",
+        "impact_factor": 5.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "2079",
+        "publication_name": "Nanoscale _ Nanoscale",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "黑磷中本征缺陷和非本征缺陷的结构与性质"
+      },
+      "paper:813057911805706241": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, materials science, multidisciplinary",
+        "authors": "Susanne Irmer | Denis Kochan | Jeongsu Lee | Jaroslav Fabian",
+        "available_online": "2018-2-15",
+        "cas_zone": "2",
+        "cover_date_start": "2018-02-15",
+        "created_at": "2026-06-15T00:00:07+08:00",
+        "doi": "10.1103/physrevb.97.075417",
+        "en_title": "Resonant scattering due to adatoms in graphene: Top, bridge, and hollow positions",
+        "id": "813057911805706241",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "石墨烯中吸附原子引起的共振散射：顶位、桥位和空位"
+      },
+      "paper:813090197179727872": {
+        "area": "material science, engineering, materials engineering",
+        "authors": "Maxim N. Popov | Anton S. Bochkarev | Vsevolod I. Razumovskiy | Peter Puschnig | Jürgen Spitaler",
+        "available_online": "",
+        "cas_zone": "1",
+        "cover_date_start": "2018-02-01",
+        "created_at": "2026-06-16T01:51:31+08:00",
+        "doi": "10.1016/j.actamat.2017.11.005",
+        "en_title": "Point defects at the Σ 5 (012)[100] grain boundary in TiN and the early stages of Cu diffusion: An ab initio study",
+        "id": "813090197179727872",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "[{\"en_name\": \"Copper\", \"ch_name\": \"\"}, {\"en_name\": \"Defects\", \"ch_name\": \"\"}, {\"en_name\": \"Diffusion\", \"ch_name\": \"\"}, {\"en_name\": \"Grain boundary\", \"ch_name\": \"\"}, {\"en_name\": \"Titanium nitride\", \"ch_name\": \"\"}]",
+        "publication_date": "2018-2",
+        "publication_id": "2021",
+        "publication_name": "Acta Materialia _ Acta Materialia",
+        "research_categories": "[\"Engineering\", \"Materials Engineering\"]",
+        "zh_title": "TiN中Σ 5 (012)[100]晶界处的点缺陷与Cu扩散的早期阶段：一项从头算研究"
+      },
+      "paper:813144063887802368": {
+        "area": null,
+        "authors": "Vo Van Hoang",
+        "available_online": "2014-4-25",
+        "cover_date_start": "2014-04-25",
+        "created_at": "2026-05-20T00:14:52+08:00",
+        "doi": "10.1088/0953-8984/26/20/205101",
+        "en_title": "‘Graphenization’ of 2D simple monatomic liquids",
+        "id": "813144063887802368",
+        "keywords": "[{\"en_name\": \"2D crystals\", \"ch_name\": \"\"}, {\"en_name\": \"graphene\", \"ch_name\": \"\"}, {\"en_name\": \"honeycomb structure\", \"ch_name\": \"\"}, {\"en_name\": \"MD simulation\", \"ch_name\": \"\"}, {\"en_name\": \"silicene\", \"ch_name\": \"\"}]",
+        "publication_date": "2014-5-21",
+        "publication_id": "0",
+        "publication_name": "Journal of Physics: Condensed Matter _ J. Phys.: Condens. Matter",
+        "research_categories": "",
+        "zh_title": "二维简单单原子液体的“石墨化”"
+      },
+      "paper:813154205308026883": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, materials science, multidisciplinary",
+        "authors": "N. A. Pike | D. Stroud",
+        "available_online": "2014-3-20",
+        "cas_zone": "2",
+        "cover_date_start": "2014-03-20",
+        "created_at": "2026-06-17T01:17:15+08:00",
+        "doi": "10.1103/physrevb.89.115428",
+        "en_title": "Tight-binding model for adatoms on graphene: Analytical density of states, spectral function, and induced magnetic moment",
+        "id": "813154205308026883",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "石墨烯上吸附原子的紧束缚模型：态密度、谱函数和感应磁矩的解析解"
+      },
+      "paper:813322051396829184": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, materials science, multidisciplinary",
+        "authors": "F. M. Hu | J. E. Gubernatis | Hai-Qing Lin | Yan-Chao Li | R. M. Nieminen",
+        "available_online": "2012-3-28",
+        "cas_zone": "2",
+        "cover_date_start": "2012-03-28",
+        "created_at": "2026-05-16T09:41:07+08:00",
+        "doi": "10.1103/physrevb.85.115442",
+        "en_title": "Behavior of a magnetic impurity in graphene in the presence of a vacancy",
+        "id": "813322051396829184",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "存在空位时石墨烯中磁性杂质的行为 "
+      },
+      "paper:813360770292121603": {
+        "area": "comprehensive periodical, multidisciplinary sciences",
+        "authors": "Zhongchang Wang | Mitsuhiro Saito | Keith P. McKenna | Lin Gu | Susumu Tsukimoto | Alexander L. Shluger | Yuichi Ikuhara",
+        "available_online": "2011-11-16",
+        "cas_zone": "1",
+        "cover_date_start": "2011-11-01",
+        "created_at": "2026-06-16T02:01:38+08:00",
+        "doi": "10.1038/nature10593",
+        "en_title": "Atom-resolved imaging of ordered defect superstructures at individual grain boundaries",
+        "id": "813360770292121603",
+        "impact_factor": 48.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2011-11",
+        "publication_id": "8233",
+        "publication_name": "Nature _ Nature",
+        "research_categories": "",
+        "zh_title": "单个晶界有序缺陷超结构的原子分辨成像"
+      },
+      "paper:814619646224236544": {
+        "area": "physics and astrophysics, physics, multidisciplinary",
+        "authors": "M. V. Ulybyshev | M. I. Katsnelson",
+        "available_online": "2015-6-15",
+        "cas_zone": "1",
+        "cover_date_start": "2015-06-15",
+        "created_at": "2026-06-13T09:05:40+08:00",
+        "doi": "10.1103/physrevlett.114.246801",
+        "en_title": "Magnetism and Interaction-Induced Gap Opening in Graphene with Vacancies or Hydrogen Adatoms: Quantum Monte Carlo Study",
+        "id": "814619646224236544",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "",
+        "zh_title": "具有空位或氢吸附原子的石墨烯中的磁性和相互作用诱导能隙打开：量子蒙特卡罗研究"
+      },
+      "paper:817400101768003585": {
+        "area": "geoscience, physical sciences, condensed matter physics",
+        "authors": "Keian Noori | Su Ying Quek | Aleksandr Rodin",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2020-11-12",
+        "created_at": "2026-06-02T14:39:39+08:00",
+        "doi": "10.1103/PhysRevB.102.195416",
+        "en_title": "Hydrogen adatoms on graphene: The role of hybridization and lattice distortion",
+        "id": "817400101768003585",
+        "impact_factor": 3.6,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "98281",
+        "publication_name": "Physical Review B   Condensed Matter and Materials Physics _ ",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "石墨烯上的氢吸附原子：杂化和晶格畸变的作用"
+      },
+      "paper:817404401281925126": {
+        "area": "geoscience, materials science, multidisciplinary, physics, condensed matter",
+        "authors": "L. L. Li | F. M. Peeters",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2019-10-03",
+        "created_at": "2026-06-02T14:05:56+08:00",
+        "doi": "10.1103/PhysRevB.97.075414",
+        "en_title": "Quantum transport in defective phosphorene nanoribbons: Effects of atomic vacancies",
+        "id": "817404401281925126",
+        "impact_factor": 3.6,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "98281",
+        "publication_name": "Physical Review B   Condensed Matter and Materials Physics _ ",
+        "research_categories": "",
+        "zh_title": "缺陷磷烯纳米带中的量子输运：原子空位的影响"
+      },
+      "paper:867747211407000152": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Shengjun Yuan | Malte Rosner | Alexander Schulz | Tim O. Wehling | Mikhail I. Katsnelson",
+        "available_online": "",
+        "cover_date_start": "2014-08-20",
+        "created_at": "2026-06-11T23:55:58+08:00",
+        "doi": "10.48550/arXiv.1408.4717",
+        "en_title": "Electronic Structures and Optical Properties of Partially and Fully Fluorinated Graphene",
+        "id": "867747211407000152",
+        "keywords": "",
+        "publication_date": "2014-08-20",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "部分氟化和全氟化石墨烯的电子结构与光学性质"
+      },
+      "paper:867747478844211713": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Mariana Weissmann | V.Ferrari | Andres Saul",
+        "available_online": "",
+        "cover_date_start": "2010-01-14",
+        "created_at": "2026-06-14T11:08:21+08:00",
+        "doi": "10.48550/arXiv.1001.2531",
+        "en_title": "Ab initio study of magnetism at the TiO2/LaAlO3 interface",
+        "id": "867747478844211713",
+        "keywords": "",
+        "publication_date": "2010-01-14",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "",
+        "zh_title": "二氧化钛/镧铝氧界面磁性的从头算研究"
+      },
+      "paper:867749368948588812": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Alexander V. Savin | Yuri S. Kivshar",
+        "available_online": "",
+        "cover_date_start": "2013-04-29",
+        "created_at": "2026-07-23T18:38:40+08:00",
+        "doi": "10.48550/arXiv.1304.7702",
+        "en_title": "Localized defect modes in graphene",
+        "id": "867749368948588812",
+        "keywords": "",
+        "publication_date": "2013-04-29",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "石墨烯中的局域缺陷模式"
+      },
+      "paper:867749711044411597": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Bruno Schuler | Jun-Ho Lee | Christoph Kastl | Katherine A. Cochrane | Christopher T. Chen | Sivan Refaely-Abramson | Shengjun Yuan | Edo van Veen | Rafael Roldán | Nicholas J. Borys | Roland J. Koch | Shaul Aloni | Adam M. Schwartzberg | D. Frank Ogletree | Jeffrey B. Neaton | Alexander Weber-Bargioni",
+        "available_online": "",
+        "cover_date_start": "2020-05-15",
+        "created_at": "2026-05-22T22:52:16+08:00",
+        "doi": "10.48550/arXiv.2005.07466",
+        "en_title": "How Substitutional Point Defects in Two-Dimensional WS$_2$ Induce Charge Localization, Spin-Orbit Splitting, and Strain",
+        "id": "867749711044411597",
+        "keywords": "",
+        "publication_date": "2020-05-15",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "二维WS₂中的替代点缺陷如何诱导电荷局域化、自旋轨道分裂和应变"
+      },
+      "paper:867750056940274607": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Xiaolong Liu | Itamar Balla | Hadallia Bergeron | Mark C. Hersam",
+        "available_online": "",
+        "cover_date_start": "2016-04-03",
+        "created_at": "2026-06-14T01:49:17+08:00",
+        "doi": "10.48550/arXiv.1604.00682",
+        "en_title": "Point Defects and Grain Boundaries in Rotationally Commensurate MoS2 on Epitaxial Graphene",
+        "id": "867750056940274607",
+        "keywords": "",
+        "publication_date": "2016-04-03",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "",
+        "zh_title": "外延石墨烯上旋转相称的二硫化钼中的点缺陷和晶界"
+      },
+      "paper:867753935341879535": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Philippe Lambin | Hakim Amara | François Ducastelle | Luc Henrard",
+        "available_online": "",
+        "cover_date_start": "2012-05-30",
+        "created_at": "2026-06-19T02:17:38+08:00",
+        "doi": "10.48550/arXiv.1205.6630",
+        "en_title": "Long-range interactions between substitutional nitrogen dopants in graphene: electronic properties calculations",
+        "id": "867753935341879535",
+        "keywords": "",
+        "publication_date": "2012-05-30",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "",
+        "zh_title": "石墨烯中替代型氮掺杂剂之间的长程相互作用：电子性质计算"
+      },
+      "paper:867754767365964302": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "F. M. Hu | J. E. Gubernatis | Hai-Qing Lin | Yan-Chao Li | R. M. Nieminen",
+        "available_online": "",
+        "cover_date_start": "2011-12-06",
+        "created_at": "2026-05-16T18:41:08+08:00",
+        "doi": "10.48550/arXiv.1112.1216",
+        "en_title": "Behavior of a Magnetic Impurity in Graphene in the Presence of a Vacancy",
+        "id": "867754767365964302",
+        "keywords": "",
+        "publication_date": "2011-12-06",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "存在空位时石墨烯中磁性杂质的行为"
+      },
+      "paper:867756083391759219": {
+        "area": "arXiv-Physics, Physical Sciences, Condensed Matter Physics",
+        "authors": "Marcos G. Menezes | Saif Ullah",
+        "available_online": "",
+        "cover_date_start": "2021-10-01",
+        "created_at": "2026-06-19T05:26:29+08:00",
+        "doi": "10.48550/arXiv.2110.00191",
+        "en_title": "Unveiling the multi-level structure of midgap states in Sb-doped MoX$_2$ (X = S, Se, Te) monolayers",
+        "id": "867756083391759219",
+        "keywords": "",
+        "publication_date": "2021-10-01",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "揭示锑掺杂的二硫化钼（X = S、Se、Te）单层中能隙态的多层结构 "
+      },
+      "paper:867757183213765468": {
+        "area": "arXiv-Physics, Physical Sciences, Condensed Matter Physics",
+        "authors": "Aline Ramires | J. L. Lado",
+        "available_online": "",
+        "cover_date_start": "2019-02-15",
+        "created_at": "2026-06-19T00:24:35+08:00",
+        "doi": "10.48550/arXiv.1902.05862",
+        "en_title": "Impurity-induced triple point fermions in twisted bilayer graphene",
+        "id": "867757183213765468",
+        "keywords": "",
+        "publication_date": "2019-02-15",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "扭曲双层石墨烯中杂质诱导的三重简并费米子"
+      },
+      "paper:867758372294754433": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Luis A. González-Árraga | J. L. Lado | F. Guinea",
+        "available_online": "",
+        "cover_date_start": "2015-07-28",
+        "created_at": "2026-06-19T02:13:19+08:00",
+        "doi": "10.48550/arXiv.1507.07714",
+        "en_title": "Topological features of hydrogenated graphene",
+        "id": "867758372294754433",
+        "keywords": "",
+        "publication_date": "2015-07-28",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "氢化石墨烯的拓扑特征"
+      },
+      "paper:867759681752269420": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Viet Hung Nguyen | Jean-Christophe Charlier",
+        "available_online": "",
+        "cover_date_start": "2019-08-25",
+        "created_at": "2026-05-25T20:58:54+08:00",
+        "doi": "10.48550/arXiv.1908.09399",
+        "en_title": "Aharonov-Bohm interferences in polycrystalline graphene",
+        "id": "867759681752269420",
+        "keywords": "",
+        "publication_date": "2019-08-25",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "多晶石墨烯中的阿哈罗诺夫-玻姆干涉"
+      },
+      "paper:867760472693145771": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "D. A. Lovey | Gonzalo Usaj | L. E. F. Foa Torres | C. A. Balseiro",
+        "available_online": "",
+        "cover_date_start": "2016-03-14",
+        "created_at": "2026-06-17T01:28:26+08:00",
+        "doi": "10.48550/arXiv.1603.04398",
+        "en_title": "Floquet bound states around defects and adatoms in graphene",
+        "id": "867760472693145771",
+        "keywords": "",
+        "publication_date": "2016-03-14",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "石墨烯中缺陷和吸附原子周围的弗洛凯束缚态"
+      },
+      "paper:867762641777460060": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "M. V. Ulybyshev | M. I. Katsnelson",
+        "available_online": "",
+        "cover_date_start": "2015-02-04",
+        "created_at": "2026-05-16T15:20:47+08:00",
+        "doi": "10.48550/arXiv.1502.01184",
+        "en_title": "Magnetism and interaction-induced gap opening in graphene with vacancies or hydrogen adatoms: Quantum Monte Carlo study",
+        "id": "867762641777460060",
+        "keywords": "",
+        "publication_date": "2015-02-04",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "具有空位或氢吸附原子的石墨烯中的磁性和相互作用诱导能隙打开：量子蒙特卡罗研究"
+      },
+      "paper:867765542948175959": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "M. M. Ugeda | I. Brihuega | F. Guinea | J. M. Gomez-Rodriguez",
+        "available_online": "",
+        "cover_date_start": "2010-01-18",
+        "created_at": "2026-06-17T08:26:03+08:00",
+        "doi": "10.48550/arXiv.1001.3081",
+        "en_title": "The missing atom as a source of carbon magnetism",
+        "id": "867765542948175959",
+        "keywords": "",
+        "publication_date": "2010-01-18",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "作为碳磁性来源的缺失原子"
+      },
+      "paper:867769757791682855": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Kristen Kaasbjerg",
+        "available_online": "",
+        "cover_date_start": "2019-11-01",
+        "created_at": "2026-05-25T22:02:39+08:00",
+        "doi": "10.48550/arXiv.1911.00530",
+        "en_title": "Atomistic $T$-matrix theory of disordered 2D materials: Bound states, spectral properties, quasiparticle scattering, and transport",
+        "id": "867769757791682855",
+        "keywords": "",
+        "publication_date": "2019-11-01",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "无序二维材料的原子级$T$矩阵理论：束缚态、光谱特性、准粒子散射与输运"
+      },
+      "paper:867769795058073995": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Yu Zhang | Ying Su | Lin He",
+        "available_online": "",
+        "cover_date_start": "2020-05-03",
+        "created_at": "2026-06-15T04:34:31+08:00",
+        "doi": "10.48550/arXiv.2005.00958",
+        "en_title": "Intervalley quantum interference and measurement of Berry phase in bilayer graphene",
+        "id": "867769795058073995",
+        "keywords": "",
+        "publication_date": "2020-05-03",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "双层石墨烯中的能谷间量子干涉与贝里相位测量"
+      },
+      "paper:937046747836842622": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Santiago Galván y García | Yonatan Betancur-Ocampo | Francisco Sánchez-Ochoa | Thomas Stegmann",
+        "available_online": "",
+        "cover_date_start": "2023-11-29",
+        "created_at": "2026-06-12T08:29:24+08:00",
+        "doi": "10.48550/arXiv.2311.17880",
+        "en_title": "Atomically thin current pathways in graphene through Kekulé-O engineering",
+        "id": "937046747836842622",
+        "keywords": "",
+        "publication_date": "2023-11-29",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "通过凯库勒-奥工程实现的石墨烯中原子级薄的电流通路"
+      }
+    },
+    "variables": [
+      {
+        "content": "In the reduced six-band tight-binding model used, strongly localizing substitutions such as Cr_W and O_S are represented by taking the vacancy limit (zero hopping and infinite onsite energy at the defect site), producing DOS resembling the DFT-calculated localized impurity spectra; this mapping assumes that neglected effects (explicit lattice relaxation, modified onsite energies due to chemistry, and substrate screening) do not change the qualitative vacancy-like spectrum.Fig. 9",
+        "content_hash": "f03c5bba2d84ca4c4c70e9ca913e2af204ac7fe0b9c9a93af436ddb3b87a4292",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_8cf0377e5b9c4811",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867749711044411597::P8",
+            "package_id": "paper:867749711044411597",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867749711044411597"
+          ]
+        },
+        "rerank_score": 0.8611447529749869,
+        "role": "premise",
+        "score": 0.006437523933720412,
+        "title": "Reduced six-band tight-binding vacancies model localized substitutions",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Hydrogen adatoms on graphene induce localized electronic states that underpin phenomena of broad interest (magnetism, enhanced spin-orbit coupling, spin relaxation, Friedel oscillations). Density functional theory (DFT) can describe individual hydrogen adsorption accurately, but it cannot be used straightforwardly to study experimentally relevant impurity clusters because ab initio supercells must be prohibitively large and periodic-boundary-image interactions produce spurious adatom–adatom coupling and artificial band gaps. Existing tight-binding (TB) models address hydrogen in two main, limiting ways: (i) the “vacancy” or missing-orbital picture, which models the carbon–hydrogen bond as removal of a $p_z$ orbital and thereby neglects hybridization between the adatom orbital and graphene valence orbitals; and (ii) single-impurity orbital-coupling models, which are typically applied perturbatively or for isolated impurities and are not constructed for arbitrary, simultaneous multiple-impurity configurations. These limitations imply that current methods cannot (a) treat many impurities nonperturbatively for arbitrary arrangements without supercell artefacts, (b) capture hybridization-driven redistribution of impurity spectral weight across the graphene $\\pi$ bands, (c) account for adsorption-induced lattice deformation (buckling) together with hybridization effects, and (d) represent Anderson-like impurity physics or impurities that bind to multiple carbon atoms. Consequently, quantitative predictions for spectral functions, local charge density (including Friedel oscillations), impurity–impurity interaction energies, and impurity-induced magnetization in clustered or closely spaced realistic impurity geometries remain inaccessible with controlled accuracy and feasible computational cost.",
+        "content_hash": "5867e838cb16d965d4d8c0a6cdca6798813fda76dabc754b498cc780ef0979a6",
+        "id": "gcn_4e2c18caeab14287",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812543518613438464::problem",
+            "package_id": "paper:812543518613438464",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812543518613438464"
+          ]
+        },
+        "rerank_score": 0.8209479674942814,
+        "role": "premise",
+        "score": 0.010526315789473684,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Explaining why geometrically large necks seen in TEM do not automatically yield the band-structure effects predicted by defect-free tight-binding models demands a quantification of how atomic-scale deviations from ideal epitaxy (vacancies, missing bonds, local misregistry) alter the single-particle coupling between NCs. Without atomistic modelling that introduces representative defects and computes their impact on coupling energies, the argument that interface defects (rather than only geometry) are responsible for suppressed delocalization remains qualitative. A dimer-level calculation that correlates defect density to the key coupling parameter $2V_{ss\\sigma}$ is therefore required to bridge structure and theory.",
+        "content_hash": "6cc35bfc1f019de2f8cae4837ac29a69313be460cbc8d49d175ed878402b9fca",
+        "id": "gcn_fb0dd68b25b94c98",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812713204089094144::conclusion_7_subproblem",
+            "package_id": "paper:812713204089094144",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812713204089094144"
+          ]
+        },
+        "rerank_score": 0.8180897543801001,
+        "role": "premise",
+        "score": 0.0078125,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Predicting how specific atomic-scale defect arrangements at grain boundaries affect electronic properties (for example, the presence, depth and localization of gap states that can trap electrons) requires an atomically resolved structural model including impurity species, their valence states, and compensating vacancies. Prior macroscopic or simplified models that treated the boundary as an open core without these multicomponent complexes could not predict whether deep, localized electronic traps would arise. Without a validated defect-superstructure model and its electronic-structure calculation, the role of grain-boundary defect chemistry in producing electron traps remained speculative.",
+        "content_hash": "abdfaede7ff50ce295eb0d045f0843647c937d8d3a22fe02326d4dd0e668ea38",
+        "id": "gcn_1378eeb2ef914577",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813360770292121603::conclusion_7_subproblem",
+            "package_id": "paper:813360770292121603",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813360770292121603"
+          ]
+        },
+        "rerank_score": 0.7895345150186436,
+        "role": "premise",
+        "score": 0.014492753623188406,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Validating any tight-binding model for hydrogen on graphene requires comparing its predictions against DFT calculations for a well-controlled system—here, a single hydrogen adatom in a \\(10\\times10\\) graphene supercell. The vacancy model, despite being widely used, has never been critically evaluated for its ability to reproduce the spectral function of individual carbon atoms near the impurity, especially the host carbon. An accurate TB model must correctly describe the redistribution of spectral weight from the impurity and the host carbon across the entire \\(\\pi\\)-bandwidth. Without such validation, the reliability of the TB model for predicting local electronic structure, magnetization, or transport in multi-impurity systems remains uncertain.",
+        "content_hash": "48d408443ac0a4fbbf08c3f13f2aef08a5ddcd3507266223a51c713484f5c3b7",
+        "id": "gcn_d4c468a9bc5346be",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817400101768003585::conclusion_4_subproblem",
+            "package_id": "paper:817400101768003585",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817400101768003585"
+          ]
+        },
+        "rerank_score": 0.7889898576396004,
+        "role": "premise",
+        "score": 0.015581761675677978,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Differentiating between intrinsic crystalline defects (vacancies, dislocations, domain-boundary reconstructions) and extrinsic adsorbates is essential for accurate interpretation of atomic-resolution images and local spectroscopy. On Moiré-patterned graphene/metal systems the local electronic modulation can bias adsorption sites; without explicit identification of observed speckles as adsorbates localized to Moiré minima, one could misattribute scattering centers or spectroscopic features to lattice defects rather than to extrinsic adsorbates.",
+        "content_hash": "e01fcba2c30b8a65e274af66cfd3854bcb66e00fd6c7a73a11995ff42b63f4d8",
+        "id": "gcn_ab237e4fe4124769",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811762960803299329::conclusion_6_subproblem",
+            "package_id": "paper:811762960803299329",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811762960803299329"
+          ]
+        },
+        "rerank_score": 0.773572147436781,
+        "role": "premise",
+        "score": 0.013333333333333334,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The paper does not explicitly identify open scientific questions for future work within the scope of this study. The results are presented as definitive within the chosen computational framework (single‑orbital tight‑binding model fitted to DFT‑GW, scattering matrix formalism, zero temperature, and atomic vacancies only). Extensions to other types of point defects (e.g., adatoms, substitutional impurities, edge roughness), finite‑temperature effects, electron‑electron interactions, and more accurate ab initio or many‑body methods remain natural but unaddressed directions. Furthermore, the localization lengths were extracted only at specific energies; their full energy dependence and relation to the band structure have not been explored.",
+        "content_hash": "8d6585a3eb70a2ad347c2580a41382490b1d9e2dcecff878535794fa4ff575e6",
+        "id": "gcn_32ae508a73ff491b",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817404401281925126::open_question",
+            "package_id": "paper:817404401281925126",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817404401281925126"
+          ]
+        },
+        "rerank_score": 0.7752370067749987,
+        "role": "premise",
+        "score": 0.0136986301369863,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Whether vacancy-released electrons form localized defect states, populate conduction bands, or are absorbed by interface states determines electronic conduction and SBH pinning. Prior theoretical descriptions gave differing pictures (fully delocalized conduction electrons versus localized in-gap states) depending on cell size and correlation treatment. For device modeling and for interpreting spectroscopies, quantifying how many electrons remain trapped at the vacancy and how many are transferred to the interface is crucial; moreover, relating these charge partitions to an internal field via a simple electrostatic model helps connect atomistic charge rearrangements to macroscopic band bending and SBH changes.",
+        "content_hash": "f19e70ce814348f7020c19aa77f59fee5bd21aae09f598a2fa93bc5d5c1ce920",
+        "id": "gcn_2af36ad286514019",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812536252954836993::conclusion_7_subproblem",
+            "package_id": "paper:812536252954836993",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812536252954836993"
+          ]
+        },
+        "rerank_score": 0.7651033474208415,
+        "role": "premise",
+        "score": 0.012345679012345678,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The vacancy limit in the tight-binding model is implemented by taking the on-site impurity potential $w\\to\\infty$ (i.e., $\\mathcal{W}=w c_n^\\dagger c_n$), which omits lattice relaxation effects and chemical modifications that would occur in a real vacancy (such as those induced by adsorbed hydrogen).",
+        "content_hash": "11f1ef260580cb92b533fa3abd080ef7c5442c4867e2e2a5336a4ba82fd475c0",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_7942535b544d4279",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867757183213765468::P4",
+            "package_id": "paper:867757183213765468",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867757183213765468"
+          ]
+        },
+        "rerank_score": 0.7769143994779087,
+        "role": "premise",
+        "score": 0.005950602091939879,
+        "title": "Vacancy model omits lattice relaxation and chemical effects",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In a graphene tight-binding model with hydrogen adatoms represented by an onsite potential ε_0=100 t at the hydrogenated carbon site and an exchange splitting Δ at neighboring sites, the energy gap opened at half-filling by the exchange splitting of the impurity (vacancy) bands depends on the adatom concentration because the vacancy-state amplitude and the induced local magnetic moment decay with distance from the impurity. In the dilute (isolated vacancy) limit the vacancy state lies at zero energy without opening a global gap, whereas finite adatom concentrations in a periodic array produce hybridization of the impurity states and a concentration-dependent gap whose magnitude scales with impurity density.",
+        "content_hash": "3f150767ad0bbc4311b25e783a80fc2717d561eb19a2012b40d7bce2576c217d",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_f31faf5f411c4d02",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867758372294754433::conclusion_5",
+            "package_id": "paper:867758372294754433",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867758372294754433"
+          ]
+        },
+        "rerank_score": 0.8154214875054118,
+        "role": "conclusion",
+        "score": 0.0063074875340207006,
+        "title": "Exchange-splitting gap of the impurity bands depends on adatom concentration; dilute limit yields an isolated zero-energy vacancy state",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In the tight-binding simulation, the defect is modelled as a single carbon vacancy (missing atom at the defect site). The three experimental cases are: a single carbon defect at the B' sublattice, a hydrogen atom chemisorbed on the B sublattice (identified as hydrogen impurity), and a single carbon defect at the A sublattice. Thus, for the B sublattice case, the experimental defect type (hydrogen adatom) differs from the simulated defect type (carbon vacancy). The simulation's wavefront count N=2 for a defect at the B sublattice is claimed to reproduce the experimental N=2 observed for the hydrogen impurity. However, if the scattering properties of a hydrogen adatom (e.g., on-site energy shift, resonant states) lead to a different intervalley scattering amplitude or phase compared to a vacancy, the wavefront count might differ, yet the simulation would not capture this.Fig. 2b, 2e\n      Fig. 1b, 1e",
+        "content_hash": "faead19f5136bac75d11b982155fb8720ff2e3b6b0ffa901c34af281a137c55a",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_4b186bec71d4478e",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867769795058073995::P3",
+            "package_id": "paper:867769795058073995",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867769795058073995"
+          ]
+        },
+        "rerank_score": 0.7509250822953992,
+        "role": "premise",
+        "score": 0.005859591878571489,
+        "title": "Mismatch between simulated defect type and experimental impurity on B sublattice",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Several scientifically meaningful issues remain unresolved or are identified as limitations/future work. First, the calculations use a one-band tight-binding model with vacancies modeled as removed sites and do not include full atomic reconstruction or lattice relaxation around real vacancies; the authors note that exchange interactions and quantitative magnetic couplings are sensitive to such reconstruction, so the discrepancy between the computed effective coupling $J\\sim0.1\\ \\mathrm{eV}$ and much smaller experimental estimates requires further investigation with more realistic electronic structure (full-electron or multi-orbital) treatments. Second, adatom migration and clustering are not modeled: while the QMC framework can in principle compute adatom-adatom interaction potentials and simulate cluster formation, such coupled configurational/quantum simulations are left for future work. Third, disorder-induced smearing of the impurity-band gap into a pseudogap and the detailed optical and tunneling signatures of the predicted two-peak impurity-band structure versus a single central peak (per single-particle theories) require explicit modeling of disorder realizations, finite-temperature disorder averaging, and comparison with experiment; the robustness of the midgap gap against realistic disorder and inhomogeneity is thus an open question. Fourth, environmental and substrate effects beyond static dielectric screening (for example, dynamical screening, substrate-induced hybridization, or chemical interactions with a substrate) were not treated and could modify gap sizes and band widths. Finally, quantitative reconciliation with density-functional and experimental data—especially regarding noncollinear magnetic ground states reported in some DFT studies and the magnitude of exchange interactions—requires extensions of the present many-body calculations to include more complete electronic structure and possibly spin-orbit or lattice-coupling effects.",
+        "content_hash": "cfd1b001251b3a1f93c3ca14f1826fd05bf38bac1ace8a6df448f75ddd036bea",
+        "id": "gcn_e61da57b5b73476a",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867762641777460060::open_question",
+            "package_id": "paper:867762641777460060",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867762641777460060"
+          ]
+        },
+        "rerank_score": 0.8157999988107143,
+        "role": "premise",
+        "score": 0.011904761904761904,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Much prior theoretical work focused on isolated vacancy defects producing narrow in-gap states; however, realistic film growth can lead to high local vacancy densities at interfaces, where defect states may overlap and hybridize. Without characterizing the high-concentration limit, it is impossible to relate ab-initio defect-state predictions to spectroscopic measurements that probe ensembles of defects. Demonstrating impurity-band formation at high vacancy concentration clarifies how the electronic structure evolves from isolated defect levels to continuum-like gap filling and informs interpretation of experimental spectra.",
+        "content_hash": "fbfc4ef1e9f230d2e20128b07622f734a5c63e60ee261434696f04e1e3a99f38",
+        "id": "gcn_ff0e02dc72264164",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867747478844211713::conclusion_6_subproblem",
+            "package_id": "paper:867747478844211713",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867747478844211713"
+          ]
+        },
+        "rerank_score": 0.8476949785128391,
+        "role": "premise",
+        "score": 0.016129032258064516,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Understanding which defect species and grain-boundary atomic motifs appear under synthesis-like cooling conditions is essential because defects determine chemical reactivity and electronic/transport properties. Prior ab initio and small-scale MD studies discussed certain canonical defects (Stone–Wales, vacancies) but did not provide an inventory and spatial visualization of defect types, their abundance, or whether adatoms or unusual multi-member-ring vacancies can appear when a sheet is formed from a liquid. Without large-sample dynamical cooling data one cannot assess whether defects that are energetically disfavored in the solid can nonetheless be trapped during formation from a melt, nor can one evaluate the likely structure of grain boundaries in polycrystalline sheets. The present conclusion supplies that inventory and shows that synthesis history (cooling from liquid) can produce adatoms, multi-size vacancies and complex grain-boundary motifs.",
+        "content_hash": "1ed53cef25822124493b36f90ceb6c75e15ee32fc5e226cc1db3d1ff6161284a",
+        "id": "gcn_7a137d72c3b1477c",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813144063887802368::conclusion_4_subproblem",
+            "package_id": "paper:813144063887802368",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813144063887802368"
+          ]
+        },
+        "rerank_score": 0.8208895430513381,
+        "role": "premise",
+        "score": 0.006024096385542169,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Complex vacancy–interstitial defects (Frenkel pairs) and stoichiometry-changing vacancy pairs (Schottky defects) influence the density of vacancies and the local elastic and chemical environment at GBs, thereby affecting impurity trapping and migration pathways. Bulk formation energies are often large because the lattice strain created by interstitials is costly in a crystalline matrix, but GBs can partially relax and accommodate strain, possibly lowering formation costs. Prior to these computations there was no GB-resolved quantification of such defect-pair formation energies for a representative TiN GB, so the magnitude by which interfaces reduce these formation costs and thus modify defect thermodynamics and populations at GBs was unknown.",
+        "content_hash": "1c3810e432bdb5144301802881d7ce0d20543ba457fd48e4f1741742d43388f4",
+        "id": "gcn_9ce971986fdb465a",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813090197179727872::conclusion_3_subproblem",
+            "package_id": "paper:813090197179727872",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813090197179727872"
+          ]
+        },
+        "rerank_score": 0.7435143821923348,
+        "role": "premise",
+        "score": 0.007194244604316547,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "DFT calculations of realistic adatom-decorated graphene indicate that adatoms not only modulate bond strengths but also introduce local charge transfer and electrostatic shifts that vary between bulk and grain-boundary regions; without capturing these local potential shifts a tight-binding model can miss important band alignments such as the upward shift of soliton bands and their mixing with bulk bands. The unresolved modeling gap was how to minimally incorporate Ti-induced local doping/electrostatic effects into the continuum/tight-binding description in order to reconcile the analytic/tight-binding soliton predictions with the DFT bandstructure. Introducing a localized onsite potential $\\varepsilon$ at the grain boundary provides such a mapping; demonstrating that $\\varepsilon=0.3\\,t_{0}$ reproduces the qualitative DFT features resolves the discrepancy and yields a practical parameter to connect first-principles calculations to effective models and device expectations.",
+        "content_hash": "f2904e7a195d7e8ec8ed277963d6eba581e6c69b3dee5c1271c1fe02d9e1c1d4",
+        "id": "gcn_999640b15d5d417b",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:937046747836842622::conclusion_6_subproblem",
+            "package_id": "paper:937046747836842622",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:937046747836842622"
+          ]
+        },
+        "rerank_score": 0.7418114531514326,
+        "role": "premise",
+        "score": 0.009174311926605505,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Graphene defect scattering has often been modeled with minimal tight-binding onsite perturbations, but the actual defect potentials of vacancies and substitutional atoms are highly sensitive to the local atomic environment and charge redistribution. A quantitative atomistic benchmark was needed to determine whether the common Dirac or onsite-potential models faithfully represent realistic defects and to clarify the relative importance of intra- and intervalley scattering. Without such a benchmark, the position of resonant states and the magnitude of transport-limiting scattering could not be tied reliably to first-principles defect physics.",
+        "content_hash": "9b396586a9b00c749a29f224c0e78d660dd26c5e5483276103cdeaaffac9753d",
+        "id": "gcn_b3b0c71e08e649d9",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867769757791682855::conclusion_4_subproblem",
+            "package_id": "paper:867769757791682855",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867769757791682855"
+          ]
+        },
+        "rerank_score": 0.7422432113705459,
+        "role": "premise",
+        "score": 0.01020408163265306,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The study acknowledges and leaves open several experimentally and theoretically relevant issues: (1) quantitative prediction of defect concentrations under specific, realistic non-equilibrium growth and anneal pathways remains unresolved because formation energies alone cannot predict grown-in populations without detailed reaction pathways and chemical-potential histories; (2) the role of line defects, grain boundaries and step edges in trapping, generating or altering point-defect formation energies and migration barriers was not addressed and could modify vacancy aggregation and impurity incorporation tendencies; (3) long-range magnetic ordering, exchange interactions and collective spin behaviour at higher impurity or vacancy densities were not investigated: the computed single-impurity spin states do not determine whether dilute local moments can align ferromagnetically or remain paramagnetic at experimentally relevant concentrations; (4) the influence of realistic metal contacts, substrates and applied bias on defect charge states and dynamics (beyond the computed VBM alignments) requires further study to predict defect charging, mobility and spectroscopy in device geometries; and (5) the thermodynamic and structural consequences of higher impurity concentrations (e.g. whether I or Sn can change interlayer spacing or stacking for significant intercalation concentrations) were not explored and remain open.",
+        "content_hash": "174852a0908225b49bc52181e71e87fe1962b3f00a71d97e35ef8a865fa8917f",
+        "id": "gcn_a93cd485997d4bdb",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812840557935067136::open_question",
+            "package_id": "paper:812840557935067136",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812840557935067136"
+          ]
+        },
+        "rerank_score": 0.7375337338358575,
+        "role": "premise",
+        "score": 0.009345794392523364,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The simulations and analyses establish defect- and impurity-mediated AB interference in atomistic models, but several practical and conceptual issues remain open: (1) Quantitative experimental realization parameters — the precise fabrication tolerances, reproducibility, and alignment requirements for producing two parallel grain boundaries (or two narrow impurity barriers) with the enclosed-area control needed to yield specific oscillation periods are not determined; (2) Temperature and dephasing — the calculations are coherent, and the temperature dependence and dephasing length scales required for observable oscillations in realistic samples are not quantified; (3) Large-disorder and high-impurity regimes — while robustness is shown up to moderate vacancy densities and impurity concentrations, the crossover thresholds for complete suppression of AB oscillations (including interplay of disorder types and spatial correlation of defects) are not exhaustively mapped; (4) Role of electron-electron interactions and screening in the defect-mediated tunneling process under quantum Hall conditions has not been addressed; (5) Extension to specific other 2D materials — although the mechanism is proposed to be general, material-specific modeling (including realistic defect electronic structure and appropriate tight-binding parametrizations for each material) is required to validate applicability beyond graphene. These limitations are explicitly acknowledged or implied by the demonstrated scope of the simulations and are left for future work.",
+        "content_hash": "74127df0f9eba34859ac1c871f8056ba494a89abfce6dfaf7b8199e91b5aa439",
+        "id": "gcn_be08112ec3f54192",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867759681752269420::open_question",
+            "package_id": "paper:867759681752269420",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867759681752269420"
+          ]
+        },
+        "rerank_score": 0.7368580988330515,
+        "role": "premise",
+        "score": 0.005917159763313609,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The survival of Floquet bound states in the extreme small-defect limit (single vacancies and single adatoms) is essential to assess whether realistic disorder produces in-gap spectral weight that can mask laser-induced gaps. Continuum Dirac approaches fail in the $R\\to 0$ limit and cannot capture impurity hybridization effects. The explicit tight-binding + Floquet impurity analysis above provides the exact impurity Green-function structure in the two-replica approximation, shows replica decoupling inside the gap, and yields explicit root conditions that determine impurity bound-state energies as functions of $\\epsilon$ and $V$, thereby filling the prior void in understanding the vacancy/adatom limit.",
+        "content_hash": "6eedc3e62083d832f344664c808f4f183681ae9a2064052726696468006eab47",
+        "id": "gcn_bd0cea40e160412c",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867760472693145771::conclusion_6_subproblem",
+            "package_id": "paper:867760472693145771",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867760472693145771"
+          ]
+        },
+        "rerank_score": 0.7758457556999186,
+        "role": "premise",
+        "score": 0.013157894736842105,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Several scientifically meaningful issues remain unresolved or are explicitly limited by the present measurements: (1) definitive chemical identification of certain point-defect morphologies — in particular whether type-2 triangular protrusions are sulfur interstitials, sulfur divacancies, or Frenkel-pair-related configurations — is not unambiguously established by STM/STS alone and would benefit from complementary atomic spectroscopy or correlated S/TEM/DFT studies; (2) the exact atomic arrangements at grain boundary cores cannot be uniquely determined from constant-current STM because topography is a convolution of geometric structure and local electronic structure, and the possible presence of adsorbates or oxidation at GBs (which could broaden the apparent GB width and modify DOS) introduces ambiguity in atomic models; (3) the relative contributions of lattice strain, under-coordinated atoms, intrinsic GB point defects, and adsorbed impurities to the observed VBM upward shifts and band gap narrowing at GBs are not quantitatively separated by the current data; (4) while van der Waals epitaxy on epitaxial graphene appears correlated with a lower total point-defect density, the mechanistic control parameters that determine defect suppression during CVD growth (e.g., kinetics, local stoichiometry, substrate-mediated formation energies) remain to be established to enable predictive defect engineering; and (5) quantitative links between the reported local electronic perturbations at defects/GBs and macroscopic device-relevant metrics (e.g., carrier mobility degradation, photoluminescence quantum yield changes) were not established and are left for future work combining spatially resolved spectroscopy with transport and optical measurements.",
+        "content_hash": "f5564232028b98ba83f2fa2ce84bcffdb39341d8823a319415ea8eebefb73814",
+        "id": "gcn_1c4862fb6e4543d3",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867750056940274607::open_question",
+            "package_id": "paper:867750056940274607",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867750056940274607"
+          ]
+        },
+        "rerank_score": 0.7690594368586622,
+        "role": "premise",
+        "score": 0.006896551724137931,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The tight-binding simulation models a single-atom vacancy (missing carbon atom) at each sublattice. In the experiment, the defect on the B sublattice is a hydrogen atom chemisorbed on a carbon atom (an impurity), not a vacancy. The simulation does not include the on-site energy or hopping modification that an H impurity introduces, so the match between the simulation for a B vacancy and the experimental H impurity on B is a coincidence that has not been verified by a direct simulation of an H impurity.",
+        "content_hash": "7780d62e2433f68c9acd954181cb6310086ac2a42f10ce6230c5cb85b4ddd065",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_6d2f0baf1c704937",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812568768390627329::P3",
+            "package_id": "paper:812568768390627329",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812568768390627329"
+          ]
+        },
+        "rerank_score": 0.7100854235340482,
+        "role": "premise",
+        "score": 0.00642426992245504,
+        "title": "Simulation only covers vacancies, not H impurities",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "A microscopic description of oxygen-vacancy scattering requires the single-vacancy scattering potential, which is not known a priori. Prior treatments often used phenomenological impurity parameters. A first-principles determination of the vacancy-induced changes in the tight-binding parameters is needed to capture the orbital selectivity of the scattering potential and to provide a quantitative basis for transport calculations.",
+        "content_hash": "996f17bcda3a76d4a7713f4e0a633eb6d30fb6188ce7fa4a765a9324c08375d1",
+        "id": "gcn_4c77e54c632a4b53",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:7480458635998883869::conclusion_9_subproblem",
+            "package_id": "paper:7480458635998883869",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:7480458635998883869"
+          ]
+        },
+        "rerank_score": 0.7075298062658374,
+        "role": "premise",
+        "score": 0.014285714285714285,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "To predict defect clustering and the mutual stabilization of vacancies, impurities and GBs, one must know binding energies between defects and between defect clusters; such energies determine whether defects aggregate or remain isolated and control coupled segregation-vacancy phenomena. Previously, data for vacancy–impurity–GB binding were sparse or inconsistent; quantitative, same-framework binding energies are required to identify whether vacancies enhance or suppress impurity segregation and how strongly interstitial impurities are pulled into vacancy-containing boundaries.",
+        "content_hash": "8888f17898c13ec71e01e3138843fdfdce8a23dc6683b93d280eb7d9f21ecf8b",
+        "id": "gcn_54a13ecccfdf4615",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812653368144035840::conclusion_9_subproblem",
+            "package_id": "paper:812653368144035840",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812653368144035840"
+          ]
+        },
+        "rerank_score": 0.7049057514357663,
+        "role": "premise",
+        "score": 0.015625,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Understanding how specific atomic-scale defects affect the electronic density of states is essential because DOS features (resonances, midgap states, gaps) control scattering strength, available carrier density, and therefore conductivity. Prior work indicated vacancy-induced zero-energy states in bipartite tight-binding models, but the quantitative energy position and width of resonance peaks when realistic second-neighbor hopping is included, and the contrast between single vacancies (which break local sublattice balance) and divacancies (which can preserve it), had not been established in an ab initio–consistent tight-binding framework. Resolving these DOS modifications is necessary to predict energy-dependent scattering rates and to interpret transport anomalies measured experimentally.",
+        "content_hash": "8bd8e4c519c5eab9baef10461603e466b66af9390fcda7fea0a469f077a45b09",
+        "id": "gcn_5c94d975ba4640a7",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811659553065140225::conclusion_3_subproblem",
+            "package_id": "paper:811659553065140225",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811659553065140225"
+          ]
+        },
+        "rerank_score": 0.8013731935643577,
+        "role": "premise",
+        "score": 0.009523809523809525,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Many materials beyond graphene are modeled by tight-binding Hamiltonians where adatom and impurity problems are of interest. Existing analytical impurity results are often restricted to graphene-specific linearized DOS or to numerical case studies. Demonstrating that the same formal structure carries over to arbitrary 2D tight-binding hosts (with only $\\rho_0$ and $\\mathcal G_0$ changed) provides a transferable analytic tool for studying dilute adatoms across material platforms.",
+        "content_hash": "aedd95a731f506c1b9078613a11034fc6acfca3d934f2be91a17d2127d1ed8ab",
+        "id": "gcn_576a908efd694c0a",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813154205308026883::conclusion_13_subproblem",
+            "package_id": "paper:813154205308026883",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813154205308026883"
+          ]
+        },
+        "rerank_score": 0.7739004826506598,
+        "role": "premise",
+        "score": 0.010416666666666666,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The paper catalogues localized mode frequencies for a specific set of defects: Stone-Wales, single/double/quadruple/linear vacancies, inverse Stone-Wales, and adatom pairs. It remains an open question to extend this catalogue to other important defect geometries, such as grain boundaries, edge reconstructions, multi-vacancy clusters of different shapes, and functionalized adatoms; moreover, mixed-defect configurations where several defect types coexist in close proximity may lead to mode hybridization that has not been studied.",
+        "content_hash": "4ee438dfff9be979629745a23739e08cefb2e3edfbde2424d849cef0ca7db4a4",
+        "id": "gcn_ebb01db3727d4539",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867749368948588812::open_question_7",
+            "package_id": "paper:867749368948588812",
+            "version": "open-question-atomization-v2"
+          },
+          "source_packages": [
+            "paper:867749368948588812"
+          ]
+        },
+        "rerank_score": 0.7781422958367044,
+        "role": "premise",
+        "score": 0.00847457627118644,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Graphene's low-energy electronic properties are strongly affected by localized states introduced by atomic-scale defects or adsorbates (adatoms). Existing theory and numerical studies had established that such resonant states and their scattering strongly depend on the adatom orbital and on its adsorption site (top, bridge, hollow), but the literature mostly treated only selected impurity types, specific orbital parameter choices, or used approximations (for example, substitutional-impurity analogies, linearized graphene spectrum with infinite momentum cutoff, or energy-independent model potentials) that may be uncontrolled for some adsorption geometries. In particular, (i) prior tight-binding and first-principles works examined specific adatoms (e.g., H, F, Cu) or substitutional impurities but did not provide a systematic mapping of how the adatom on-site energy $\\varepsilon$ and hybridization $\\omega$ determine resonance energy and width for each adsorption geometry; (ii) the role of adsorption-symmetry-induced interference (especially the expected decoupling of $s$ or $p_z$ orbitals in the hollow site) lacked a broad, quantitative parameter-space characterization; (iii) approximations commonly used for graphene Green's functions (linearization about Dirac points and taking the cutoff $\\Lambda\\to\\infty$) can shift resonance predictions, particularly for bridge and hollow geometries; and (iv) simplified transport models (strong midgap scatterer / vacancy disk models) are widely used to interpret experiments but their relation to realistic adatoms with finite $\\varepsilon$ and $\\omega$ is not fully quantified. These gaps prevent reliable interpretation of experimental transport and spectroscopic data for dilute adatom concentrations, and they leave unclear which adsorption positions and orbital parameters produce experimentally relevant resonances (energies within a few 0.1 eV of neutrality), what the corresponding resonance widths and momentum-relaxation effects are, and how localized the resulting resonant states are in space.",
+        "content_hash": "b06d0e3f50e883fea8468badf78460c4a27534e494394cf1fdd0bfd84b7997b3",
+        "id": "gcn_2f83ca92aed24db0",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813057911805706241::problem",
+            "package_id": "paper:813057911805706241",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813057911805706241"
+          ]
+        },
+        "rerank_score": 0.7256163076160446,
+        "role": "premise",
+        "score": 0.005952380952380952,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "For the same two-defect system (a single magnetic adatom hybridized to one carbon site adjacent to a single vacancy in nearest-neighbor tight-binding graphene) the impurity spectral density A(\\omega)=\\sum_{\\sigma}A_{\\sigma}(\\omega), defined so that the imaginary-time impurity Green's function G_{d}(\\tau)=\\sum_{\\sigma}G_{d\\sigma}(\\tau) is related to A(\\omega) by G_{d}(\\tau)=\\int_{-\\infty}^{\\infty}d\\omega\\,[e^{-\\tau\\omega}A(\\omega)/(e^{-\\beta\\omega}+1)], exhibits a four-peak structure consisting of two inner peaks and two outer peaks: the two outer peaks correspond to the usual impurity-related excitations (the lower-frequency peak associated with the singly occupied impurity excitation and the higher-frequency peak associated with the doubly occupied impurity excitation) that are each split so that the two outer peaks are separated in energy by approximately the on-site Coulomb interaction U of the impurity orbital, while the two inner peaks arise from the vacancy-induced, doubly degenerate localized state of the isolated vacancy problem after it is shifted into the upper and lower bands by the presence of the adatom and therefore show only a weak dependence on U over the sampled range of U.",
+        "content_hash": "0f0894bac7a404251bab1f484536dda7bfd330fb734c04aecbaf296e27c924d8",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_be053d9e1b6c40dc",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813322051396829184::conclusion_2",
+            "package_id": "paper:813322051396829184",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813322051396829184"
+          ]
+        },
+        "rerank_score": 0.7807587777198661,
+        "role": "conclusion",
+        "score": 0.006110340073957469,
+        "title": "Four-peak spectral density: splitting of adatom and vacancy resonances with outer peaks separated by ~U",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Determining which atomic orbitals participate in impurity-induced states is critical to understanding the spatial extent, symmetry, and chemical character of defect levels and to assessing how the impurity will interact with carriers and with other defects. Prior descriptions of Sb doping in MoX$_2$ did not provide a complete orbital decomposition that would clarify whether Sb introduces its own atomic-like states or primarily perturbs host-derived vacancy-like states. Without this orbital identification one cannot rationalize similarities to vacancy-induced states, predict selection rules for impurity-related optical transitions, or build reduced models (e.g., tight-binding) that capture the defect physics.",
+        "content_hash": "035586e0cca005e343aca8e81944db84d96b2f832ed4bd504103bb840e5f1309",
+        "id": "gcn_d83522b98b854ed6",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867756083391759219::conclusion_4_subproblem",
+            "package_id": "paper:867756083391759219",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867756083391759219"
+          ]
+        },
+        "rerank_score": 0.692295513062215,
+        "role": "premise",
+        "score": 0.01639344262295082,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The authors identify several unresolved scientific issues and limitations of the present study that remain for future work: (1) The effect of adatom migration and clustering on magnetic ordering and on the reconstruction of the defect band has not been computed here; in particular, the inter-adatom interaction potential (the energetics driving cluster formation) could in principle be computed by QMC and used to model clustering, but this was left for future study. (2) Exchange interactions and the magnetic ground-state texture may be very sensitive to realistic electronic structure and to lattice reconstruction around true vacancies; the present one-band tight-binding treatment may overestimate exchange energies (as suggested by the $J\\sim0.1\\ \\mathrm{eV}$ estimate being two orders of magnitude larger than recent experimental estimates) and does not address possible noncollinear or more complex magnetic ground states predicted by full-electron density-functional calculations — resolving this discrepancy requires further investigation with more complete electronic-structure treatments. (3) Disorder effects and finite-size or configurational averaging could smear a true midgap gap into a pseudogap; the degree to which optical or tunneling measurements can distinguish a two-peak pseudogapped structure from single-particle predictions remains to be established by more detailed disorder-averaged spectral calculations and comparison with experiments. (4) The calculations presented are restricted to random uniform distributions of adatoms and to the two sets of interaction potentials described; systematic studies across broader ranges of concentrations, correlated defect distributions (clusters), substrate dielectrics, and lower temperatures (including finite chemical potential away from neutrality) are open tasks. These limitations define concrete computational and experimental follow-ups necessary to connect the present model predictions to realistic graphene samples.",
+        "content_hash": "778b01b2bb362b77bd9b39de5670f1dd1d52570ccc3660cf10a41101616336b2",
+        "id": "gcn_7019a476e4c54dde",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814619646224236544::open_question",
+            "package_id": "paper:814619646224236544",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814619646224236544"
+          ]
+        },
+        "rerank_score": 0.6899647090458016,
+        "role": "premise",
+        "score": 0.0125,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "To test theoretical predictions about vacancy-induced electronic states and possible local magnetism, experiments require atomically controlled, isolated vacancies so that the LDOS and spatial structure of the defect state can be measured at the single-defect level. Earlier irradiation studies produced heterogeneous defect ensembles and could not assign measured macroscopic effects to single, well-characterized vacancies located on specific sublattice sites. Creating and identifying single vacancies on a clean graphite surface removes ensemble ambiguity and supplies the necessary sample-level control to link local spectroscopic signatures to theoretical models of vacancy states and to enable site-resolved comparisons between experiment and tight-binding calculations.",
+        "content_hash": "b51688dd50ef6078ff30cb4aec65be12442fa867390df384a6f7add66c1566c2",
+        "id": "gcn_adad0de283264263",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867765542948175959::conclusion_1_subproblem",
+            "package_id": "paper:867765542948175959",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867765542948175959"
+          ]
+        },
+        "rerank_score": 0.7883223593583406,
+        "role": "premise",
+        "score": 0.00971980002325311,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In isolated-defect studies, the vacancy produces a robust, nearly zero-energy localized resonance and an isolated Anderson impurity produces a two-peak spectral density split roughly by $U$. These single-defect results leave open how an impurity orbital placed adjacent to a vacancy reorganizes spectral weight: whether the vacancy resonance survives, whether the impurity's lower/upper Hubbard-like peaks persist or split, and what energy scales control the resulting features. This is important because the spectral density determines the impurity occupancy, local moment formation, and the energy windows over which gating can tune magnetic behavior. The absence of a combined-defect spectral prediction meant that experiments or applications that intentionally place magnetic adatoms next to vacancies in graphene could not predict the spectroscopic signatures or the operative energy scales for moment control.",
+        "content_hash": "a3bf9bf03b524d00df4e8763a422dbb64556b12f6bdb4240e5344af89340de17",
+        "id": "gcn_463d3bc6d2bd478e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867754767365964302::conclusion_1_subproblem",
+            "package_id": "paper:867754767365964302",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867754767365964302"
+          ]
+        },
+        "rerank_score": 0.778409279008156,
+        "role": "premise",
+        "score": 0.0076292089714908515,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Many practical materials are alloys or contain impurities whose strong local interactions with vacancies (for example, C increasing vacancy migration barriers or hydrogen-vacancy binding) can alter defect reaction kinetics and transition temperatures; existing global sampling methods are either too costly or unable to focus sampling on localized impurity-mediated events. A computational capability that can bias activation to a local region while retaining unbiased pathway discovery is therefore needed to study impurity-modified defect kinetics.",
+        "content_hash": "54c836d65a38c3c18244cfa2167ceced457912523f1549bb350fed472550437b",
+        "id": "gcn_a4791ac1e0f94147",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811674672092413953::conclusion_7_subproblem",
+            "package_id": "paper:811674672092413953",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811674672092413953"
+          ]
+        },
+        "rerank_score": 0.6859605757122201,
+        "role": "premise",
+        "score": 0.011627906976744186,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "To interpret sub‑gap optical features and to use spectroscopy as a structural probe, one needs quantitative associations between atomistic defect types and the energies of the electronic states they introduce. Prior tight‑binding or ab initio studies either treated isolated defects or small supercells and could not provide a catalogue of defect energies for realistic concentrations and cluster morphologies. This lack of fingerprinting prevented using measured sub‑gap peaks to infer the underlying atomic defect populations and to separate signature contributions of vacancies, adatom clusters, and line defects.",
+        "content_hash": "fa10387a36b43350c0b9cb51c8b5829d57e8d0392d607cda799b330318b45174",
+        "id": "gcn_0805086809c046c8",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867747211407000152::conclusion_6_subproblem",
+            "package_id": "paper:867747211407000152",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867747211407000152"
+          ]
+        },
+        "rerank_score": 0.7532707232429585,
+        "role": "premise",
+        "score": 0.014925373134328358,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Vacancy formation in bulk MgO had been studied via first-principles methods, but the interfacial regions of grain boundaries provide distinct local environments (excess free space, coordination defects, dislocation cores) that create multiple inequivalent sublattice sites whose relative defect stabilities were unknown. Without site-resolved interfacial formation enthalpies one cannot determine which boundary locations will host vacancies, how many distinct vacancy species coexist at the interface, nor how boundary-localized vacancies alter local charge balance and transport relative to the bulk.",
+        "content_hash": "3d6f825e5b4c5192eba862a423191911bf4a387241ae9db716ef0cdff7c5a3c6",
+        "id": "gcn_75300ba4d1b44b78",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811776695890608129::conclusion_3_subproblem",
+            "package_id": "paper:811776695890608129",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811776695890608129"
+          ]
+        },
+        "rerank_score": 0.7824397585683333,
+        "role": "premise",
+        "score": 0.006097560975609756,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Interfaces between chemically and microstructurally different Cu layers are potential sources of unique defect populations (for example interface-stabilized vacancy clusters or impurity-enriched trapping sites) that could dominate ionic or vacancy-mediated transport near via bottoms. Prior to this work there was no depth-resolved positron-spectroscopy evidence to confirm whether the electroless/electrolytic interface hosts such interface-specific vacancy species; without this information models of via-bottom failure that assume either a benign or a deleterious interface-specific defect population remained unconstrained.",
+        "content_hash": "2815bf6526d45be034a8f875dd24572caf38403a04d7f9b082e8576dcd62af00",
+        "id": "gcn_8b02997490ee455f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811869375920340992::conclusion_4_subproblem",
+            "package_id": "paper:811869375920340992",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811869375920340992"
+          ]
+        },
+        "rerank_score": 0.7459866534023832,
+        "role": "premise",
+        "score": 0.014492753623188406,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Identifying the spectroscopic fingerprint of surface point defects accessible to STM/STS is necessary to distinguish defect-induced electronic states from intrinsic band-structure features. Previous experiments lacked low-temperature, in-situ $dI/dV$ mapping that could spatially correlate localized spectral features with individual point defects on oxide film surfaces. Without an established local spectroscopic signature and its bias dependence, it is difficult to pinpoint which defects (oxygen vacancies, Sr adatoms/segregation, or cation nonstoichiometry) are present and how they contribute to local density-of-states variations that may control interfacial transport or carrier accumulation.",
+        "content_hash": "4f771c36af90be9937c110ea79b0b4e834dde27cd880b0c83a00c687a38e8808",
+        "id": "gcn_c7c6d3c759464afb",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811714442487136256::conclusion_4_subproblem",
+            "package_id": "paper:811714442487136256",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811714442487136256"
+          ]
+        },
+        "rerank_score": 0.7757403137234892,
+        "role": "premise",
+        "score": 0.006329113924050633,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "A unified understanding of how different microscopic realizations of local disorder (strong on-site scattering vs suppressed hopping) connect to the vacancy extreme is required to interpret experiments on a variety of defects (adsorbates, substitutional dopants, irradiation-induced vacancies). Prior treatments often considered these models separately; demonstrating that both routes continuously approach the same vacancy physics clarifies how spectral-weight transfer, midgap resonances and impurity-band detachment appear in different physical scenarios.",
+        "content_hash": "a064a0676f67ecc2eb5718b787a4cb3d8db8b08e74664743cd72e33794f9ed92",
+        "id": "gcn_97430850a0f94dee",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811934407517536256::conclusion_11_subproblem",
+            "package_id": "paper:811934407517536256",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811934407517536256"
+          ]
+        },
+        "rerank_score": 0.773478758182257,
+        "role": "premise",
+        "score": 0.008264462809917356,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Several scientifically meaningful issues remain open or are explicitly identified as limitations requiring future work: (i) the behaviour when two or more substitutional impurities come very close (inter-impurity separations below ~2 nm) is not clarified; the present tight-binding parametrization, fitted to isolated or well-separated defects, may fail for neighboring dopants and a new parametrization (including explicit modifications of hoppings and higher-order terms) would be required to obtain reliable STM topographies and LDOS for such configurations; (ii) the treatment and parametrization of more complex defects (e.g., N plus vacancy, P plus N, O3 complexes) are not addressed in detail here and are acknowledged to be more difficult to capture within the same local-parameter framework; (iii) a fuller, quantitative derivation and numerical assessment of the low-energy Green-function asymptotics on the honeycomb lattice and its consequences for scattering and transport (the paper states that \"a more detailed discussion will be given elsewhere\") is pending; and (iv) practical limits of DFT-based STM imaging remain: because localized atomic orbitals in the employed basis sets decay rapidly, the DFT-predicted tip-distance dependence of STM contrast (especially at experimentally large tip–sample separations) cannot be fully assessed within the present DFT implementation and requires further methodological investigation or comparison with experiments.",
+        "content_hash": "e11c6eaf465b1f47c1d5ac15f00d038d31cf3e787dc9d0aaff1d9389058565d4",
+        "id": "gcn_a32061b286974cb0",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867753935341879535::open_question",
+            "package_id": "paper:867753935341879535",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867753935341879535"
+          ]
+        },
+        "rerank_score": 0.7576497947962033,
+        "role": "premise",
+        "score": 0.007246376811594203,
+        "type": "question",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "req_abacb648d8f48"
+}

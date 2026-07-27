@@ -1,0 +1,1492 @@
+{
+  "code": 0,
+  "data": {
+    "has_more": true,
+    "papers": {
+      "paper:1027222240887832579": {
+        "area": "arxiv-physics, physical sciences, quantum physics",
+        "authors": "Sayan Sircar",
+        "available_online": "",
+        "cover_date_start": "2024-07-31",
+        "created_at": "1970-01-01T08:00:00+08:00",
+        "doi": "10.48550/arxiv.2407.21550",
+        "en_title": "Topological Anderson insulator phases in one dimensional quasi-periodic mechanical SSH chains",
+        "id": "1027222240887832579",
+        "keywords": "",
+        "publication_date": "2024-07-31",
+        "publication_id": "108488",
+        "publication_name": "Statistical Mechanics _ Physics.cond-mat.stat-mech",
+        "research_categories": "[\"Physical Sciences\", \"Quantum Physics\"]",
+        "zh_title": "一维准周期机械SSH链中的拓扑安德森绝缘相"
+      },
+      "paper:1032904190029987864": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Zhe Hou | Kai Yuan | Hua Jiang",
+        "available_online": "",
+        "cover_date_start": "2024-08-19",
+        "created_at": "2026-06-17T00:05:34+08:00",
+        "doi": "10.48550/arxiv.2408.09843",
+        "en_title": "Arrays of one-dimensional conducting channels in minimally twisted bilayer graphene",
+        "id": "1032904190029987864",
+        "keywords": "",
+        "publication_date": "2024-08-19",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "最小扭曲双层石墨烯中一维导电通道阵列"
+      },
+      "paper:1066237901798375427": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Leonardo Pierattelli | Fabio Taddei | Alessandro Braggio",
+        "available_online": "",
+        "cover_date_start": "2024-11-19",
+        "created_at": "2026-06-15T02:27:39+08:00",
+        "doi": "10.48550/arxiv.2411.12572",
+        "en_title": "$ΔT$-noise in Multiterminal Hybrid Systems",
+        "id": "1066237901798375427",
+        "keywords": "",
+        "publication_date": "2024-11-19",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "多端混合系统中的ΔT噪声"
+      },
+      "paper:1096303472338272263": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Ipsita Mandal",
+        "available_online": "",
+        "cover_date_start": "2025-02-10",
+        "created_at": "2026-06-19T06:25:21+08:00",
+        "doi": "10.48550/arxiv.2502.06265",
+        "en_title": "Transmission through rectangular potentials in semimetals featuring quadratic dispersion",
+        "id": "1096303472338272263",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "具有二次色散的半金属中通过矩形势垒的传输"
+      },
+      "paper:1177308086130442243": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Sachiraj Mishra | Colin Benjamin",
+        "available_online": "",
+        "cover_date_start": "2025-09-20",
+        "created_at": "2026-06-19T04:32:37+08:00",
+        "doi": "10.48550/arXiv.2509.16747",
+        "en_title": "Δ_T Noise as a Robust Diagnostic for Chiral, Helical and Trivial Edge Modes",
+        "id": "1177308086130442243",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "Δ_T噪声作为手性、螺旋和平凡边缘模式的一种稳健诊断方法"
+      },
+      "paper:1183449982028480544": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Jaroslaw Pawlowski | Dickson Thian | Repaka Maheswar | Chai Jian Wei | Pawan Kumar | Sudhiranjan Tripathy | Hugh O.H. Churchill | Dharmraj Kotekar Patil",
+        "available_online": "",
+        "cover_date_start": "2025-10-09",
+        "created_at": "2026-06-19T06:08:51+08:00",
+        "doi": "10.48550/arXiv.2510.08557",
+        "en_title": "Classical to Quantum Diffusive Transport in Atomically Thin Semiconductors Capped with High-k Dielectric",
+        "id": "1183449982028480544",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108485",
+        "publication_name": "Other Condensed Matter",
+        "research_categories": "",
+        "zh_title": "高介电常数介质覆盖的原子级薄半导体中的经典到量子扩散输运"
+      },
+      "paper:1207660240137355286": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Satyam Sinha | Rekha Kumari | Junaid Majeed Bhat | Abhishek Dhar | R. Shankar",
+        "available_online": "",
+        "cover_date_start": "2025-12-14",
+        "created_at": "2026-06-19T04:06:43+08:00",
+        "doi": "10.48550/arXiv.2512.12746",
+        "en_title": "Proximity effects and a topological invariant in a Chern insulator connected to leads",
+        "id": "1207660240137355286",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "与引线相连的陈绝缘体中的近邻效应和拓扑不变量"
+      },
+      "paper:1228665211347533836": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Wenyu Chen | Miaomiao Wei | Yunjin Yu | Fuming Xu | Jian Wang",
+        "available_online": "",
+        "cover_date_start": "2026-02-11",
+        "created_at": "2026-06-16T05:44:58+08:00",
+        "doi": "10.48550/arXiv.2602.10406",
+        "en_title": "Linear thermal noise induced by Berry curvature dipole in a four-terminal system",
+        "id": "1228665211347533836",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "四端系统中贝里曲率偶极子诱导的线性热噪声"
+      },
+      "paper:1243175682972844035": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Shakthidhar Vilvanathan | Jerin Saji | Kristiana Frei | Jakub Tworzydlo | Manohar Kumar",
+        "available_online": "",
+        "cover_date_start": "2026-03-23",
+        "created_at": "2026-06-19T01:37:36+08:00",
+        "doi": "10.48550/arXiv.2603.22111",
+        "en_title": "Landau-Level-Resolved Mode Mixing and Shot Noise in Gate-Defined Graphene Quantum Point Contacts",
+        "id": "1243175682972844035",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "栅极定义的石墨烯量子点接触中的朗道能级分辨模式混合与散粒噪声"
+      },
+      "paper:811078477779304448": {
+        "area": "physics and astrophysics, physics, multidisciplinary",
+        "authors": "C. Ramírez | L.A. Medina-Amayo",
+        "available_online": "",
+        "cas_zone": "3",
+        "cover_date_start": "2017-03-01",
+        "created_at": "2026-06-16T05:50:37+08:00",
+        "doi": "10.1016/j.aop.2017.01.015",
+        "en_title": "Scattering matrix of arbitrary tight-binding Hamiltonians",
+        "id": "811078477779304448",
+        "impact_factor": 3.8,
+        "jcr_zone": "Q2",
+        "keywords": "[{\"ch_name\":\"兰道尔电导率\",\"en_name\":\"Landauer conductivity\"},{\"ch_name\":\"散射矩阵\",\"en_name\":\"Scattering matrix\"},{\"ch_name\":\"散射理论\",\"en_name\":\"Scattering theory\"},{\"ch_name\":\"紧束缚哈密顿量\",\"en_name\":\"Tight-binding Hamiltonian\"}]",
+        "publication_date": "2017-3",
+        "publication_id": "577",
+        "publication_name": "Annals of Physics _ Annals of Physics",
+        "research_categories": "",
+        "zh_title": "任意紧束缚哈密顿量的散射矩阵"
+      },
+      "paper:811817445189746688": {
+        "area": null,
+        "authors": "Jiang-chai Chen | Shu-guang Cheng | Shun-Qing Shen | Qing-feng Sun",
+        "available_online": "2009-12-21",
+        "cover_date_start": "2009-12-21",
+        "created_at": "2026-05-20T16:39:41+08:00",
+        "doi": "10.1088/0953-8984/22/3/035301",
+        "en_title": "Electronic transport through a graphene-based ferromagnetic/normal/ferromagnetic junction",
+        "id": "811817445189746688",
+        "keywords": "",
+        "publication_date": "2010-1-27",
+        "publication_id": "0",
+        "publication_name": "Journal of Physics: Condensed Matter _ J. Phys.: Condens. Matter",
+        "research_categories": "",
+        "zh_title": "通过石墨烯基铁磁/普通/铁磁结的电子传输"
+      },
+      "paper:811870116227579904": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, materials science, multidisciplinary",
+        "authors": "Gianluca Stefanucci | Enrico Perfetto | Stefano Bellucci | Michele Cini",
+        "available_online": "2009-2-17",
+        "cas_zone": "2",
+        "cover_date_start": "2009-02-17",
+        "created_at": "2026-06-17T00:43:14+08:00",
+        "doi": "10.1103/physrevb.79.073406",
+        "en_title": "Generalized waveguide approach to tight-binding wires: Understanding large vortex currents in quantum rings",
+        "id": "811870116227579904",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "紧束缚导线的广义波导方法：理解量子环中的大涡旋电流"
+      },
+      "paper:811875281684922368": {
+        "area": "physics and astrophysics, physical sciences, condensed matter physics, quantum physics",
+        "authors": "Hong-Hyun Park | Seonghoon Jin | Young June Park | Hong Shick Min",
+        "available_online": "",
+        "cas_zone": "3",
+        "cover_date_start": "2009-01-15",
+        "created_at": "2026-06-17T08:57:23+08:00",
+        "doi": "10.1063/1.3068346",
+        "en_title": "Quantum simulation of noise in silicon nanowire transistors with electron-phonon interactions",
+        "id": "811875281684922368",
+        "impact_factor": 2.4,
+        "jcr_zone": "Q3",
+        "keywords": "",
+        "publication_date": "2009-1-15",
+        "publication_id": "585",
+        "publication_name": "Journal of Applied Physics _ Journal of Applied Physics",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "具有电子 - 声子相互作用的硅纳米线晶体管中噪声的量子模拟"
+      },
+      "paper:811903549792321536": {
+        "area": "computer science, engineering, electrical & electronic",
+        "authors": "M.P. Anantram | M.S. Lundstrom | D.E. Nikonov",
+        "available_online": "",
+        "cas_zone": "1",
+        "cover_date_start": "2008-09-01",
+        "created_at": "2026-05-19T07:36:36+08:00",
+        "doi": "10.1109/jproc.2008.927355",
+        "en_title": "Modeling of Nanoscale Devices",
+        "id": "811903549792321536",
+        "impact_factor": 25.1,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2008-9",
+        "publication_id": "2436",
+        "publication_name": "Proceedings of the IEEE _ Proc. IEEE",
+        "research_categories": "",
+        "zh_title": "纳米级器件建模"
+      },
+      "paper:812397509975474176": {
+        "area": null,
+        "authors": "Dapeng Guan | U. Ravaioli",
+        "available_online": "",
+        "cover_date_start": "2017-03-10",
+        "created_at": "2026-05-20T07:51:53+08:00",
+        "doi": "10.1109/nano.2002.1032278",
+        "en_title": "Green's function simulation of quantum structures including magnetic field",
+        "id": "812397509975474176",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "0",
+        "publication_name": "Proceedings of the 2nd IEEE Conference on Nanotechnology",
+        "research_categories": "",
+        "zh_title": "包括磁场在内的量子结构的格林函数模拟"
+      },
+      "paper:812576253839147009": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, materials science, multidisciplinary",
+        "authors": "Arne Brataas",
+        "available_online": "2020-8-28",
+        "cas_zone": "2",
+        "cover_date_start": "2020-08-28",
+        "created_at": "2026-06-16T23:55:42+08:00",
+        "doi": "10.1103/physrevb.102.054440",
+        "en_title": "Current fluctuations driven by ferromagnetic and antiferromagnetic resonance",
+        "id": "812576253839147009",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "由铁磁共振和反铁磁共振驱动的电流波动"
+      },
+      "paper:812635210792304641": {
+        "area": "geoscience, materials science, multidisciplinary, physics, applied, nanoscience & nanotechnology",
+        "authors": "Carlos Ramírez | Mauricio J. Rodríguez | Bryan D. Gomez",
+        "available_online": "",
+        "cover_date_start": "2020-10-01",
+        "created_at": "2026-05-16T20:33:06+08:00",
+        "doi": "10.1016/j.physe.2020.114213",
+        "en_title": "Taylor series of Landauer conductance",
+        "id": "812635210792304641",
+        "keywords": "[{\"en_name\": \"Graphene nanoconstrictions\", \"ch_name\": \"\"}, {\"en_name\": \"Landauer formula\", \"ch_name\": \"\"}, {\"en_name\": \"Mesoscopic systems\", \"ch_name\": \"\"}, {\"en_name\": \"Scattering matrix\", \"ch_name\": \"\"}, {\"en_name\": \"Taylor series\", \"ch_name\": \"\"}, {\"en_name\": \"Tight-binding Hamiltonians\", \"ch_name\": \"\"}]",
+        "publication_date": "2020-10",
+        "publication_id": "98276",
+        "publication_name": "Physica E: Low dimensional Systems and Nanostructures _ Physica E: Low-dimensional Systems and Nanostructures",
+        "research_categories": "",
+        "zh_title": "兰道尔电导的泰勒级数"
+      },
+      "paper:812813430258925570": {
+        "area": "engineering technology, engineering, electrical & electronic, materials science, multidisciplinary, nanoscience & nanotechnology, physics, applied",
+        "authors": "Kerem Y. Camsari | Samiran Ganguly | Deepanjan Datta | Supriyo Datta",
+        "available_online": "",
+        "cas_zone": "4",
+        "cover_date_start": "2019-01-01",
+        "created_at": "2026-06-17T08:34:50+08:00",
+        "doi": "10.1109/tnano.2018.2889443",
+        "en_title": "Non-Equilibrium Green's Function Based Circuit Models for Coherent Spin Devices",
+        "id": "812813430258925570",
+        "impact_factor": 2.3,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "2019",
+        "publication_id": "4307",
+        "publication_name": "IEEE Transactions on Nanotechnology _ IEEE Trans. Nanotechnology",
+        "research_categories": "",
+        "zh_title": "基于非平衡格林函数的相干自旋器件电路模型"
+      },
+      "paper:812841394937790466": {
+        "area": "comprehensive periodical, physical sciences, quantum physics",
+        "authors": "Ofir Shein Lumbroso | Lena Simine | Abraham Nitzan | Dvira Segal | Oren Tal",
+        "available_online": "2018-10-10",
+        "cas_zone": "1",
+        "cover_date_start": "2018-10-01",
+        "created_at": "2026-06-16T03:01:33+08:00",
+        "doi": "10.1038/s41586-018-0592-2",
+        "en_title": "Electronic noise due to temperature differences in atomic-scale junctions",
+        "id": "812841394937790466",
+        "impact_factor": 48.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2018-10",
+        "publication_id": "8233",
+        "publication_name": "Nature _ Nature",
+        "research_categories": "[\"Physical Sciences\", \"Quantum Physics\"]",
+        "zh_title": "原子级结温差引起的电子噪声"
+      },
+      "paper:813118062533279746": {
+        "area": "material science, materials science, multidisciplinary, physics, applied, nanoscience & nanotechnology",
+        "authors": "Yawen Yuan | Fang Cheng",
+        "available_online": "",
+        "cas_zone": "4",
+        "cover_date_start": "2017-07-01",
+        "created_at": "2026-05-18T20:00:51+08:00",
+        "doi": "10.1063/1.4991494",
+        "en_title": "Strain modification on electronic transport of the phosphorene nanoribbon",
+        "id": "813118062533279746",
+        "impact_factor": 1,
+        "jcr_zone": "Q4",
+        "keywords": "",
+        "publication_date": "2017-7",
+        "publication_id": "2279",
+        "publication_name": "AIP Advances _ AIP Advances",
+        "research_categories": "",
+        "zh_title": "磷烯纳米带电子输运的应变调控"
+      },
+      "paper:813296016466903040": {
+        "area": "physics and astrophysics, physics, condensed matter",
+        "authors": "A. Caso | L. Arrachea | G. S. Lozano",
+        "available_online": "2012-8-1",
+        "cas_zone": "4",
+        "cover_date_start": "2012-08-01",
+        "created_at": "2026-06-17T06:36:33+08:00",
+        "doi": "10.1140/epjb/e2012-30303-0",
+        "en_title": "Defining the effective temperature of a quantum driven system from current-current correlation functions",
+        "id": "813296016466903040",
+        "impact_factor": 1.4,
+        "jcr_zone": "Q3",
+        "keywords": "",
+        "publication_date": "2012-8",
+        "publication_id": "658",
+        "publication_name": "The European Physical Journal B _ Eur. Phys. J. B",
+        "research_categories": "",
+        "zh_title": "从电流-电流关联函数定义量子驱动系统的有效温度"
+      },
+      "paper:817362731106566145": {
+        "area": "Physics and Astrophysics, Physical Sciences, Condensed Matter Physics",
+        "authors": "Sandeep Joy | Saad Khalid | Brian Skinner",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2020-12-25",
+        "created_at": "2026-06-19T01:54:14+08:00",
+        "doi": "10.1103/PhysRevResearch.2.043416",
+        "en_title": "Transparent mirror effect in twist-angle-disordered bilayer graphene",
+        "id": "817362731106566145",
+        "impact_factor": 4.9,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "68812",
+        "publication_name": "Physical Review Research _ ",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "扭曲角无序双层石墨烯中的透明镜效应"
+      },
+      "paper:817404054144548864": {
+        "area": "physics and astrophysics, physics, multidisciplinary",
+        "authors": "G. Salerno | H. M. Price | M. Lebrat | S. Häusler | T. Esslinger | L. Corman | J.-P. Brantut | N. Goldman",
+        "available_online": "",
+        "cas_zone": "1",
+        "cover_date_start": "2019-11-25",
+        "created_at": "2026-06-02T12:12:15+08:00",
+        "doi": "10.1103/PhysRevX.9.041001",
+        "en_title": "Quantized Hall Conductance of a Single Atomic Wire: A Proposal Based on Synthetic Dimensions",
+        "id": "817404054144548864",
+        "impact_factor": 15.7,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "479",
+        "publication_name": "Physical Review X _ ",
+        "research_categories": "",
+        "zh_title": "单原子线的量子化霍尔电导：基于合成维度的提议"
+      },
+      "paper:867747154356077183": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Tatsuya Muro | Yoshitaka Nishihara | Shota Norimoto | Meydi Ferrier | Tomonori Arakawa | Kensuke Kobayashi | Thomas Ihn | Clemens Rossler | Klaus Ensslin | Christian Reichl | Werner Wegscheider",
+        "available_online": "",
+        "cover_date_start": "2017-05-15",
+        "created_at": "2026-06-16T02:19:06+08:00",
+        "doi": "10.48550/arXiv.1705.05112",
+        "en_title": "Finite shot noise and electron heating at quantized conductance in high-mobility quantum point contacts",
+        "id": "867747154356077183",
+        "keywords": "",
+        "publication_date": "2017-05-15",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "高迁移率量子点接触中量子化电导下的有限散粒噪声与电子加热"
+      },
+      "paper:867747660444992417": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "E.Yu. Danilovskii | N.T. Bagraev",
+        "available_online": "",
+        "cover_date_start": "2014-04-24",
+        "created_at": "2026-06-17T07:13:29+08:00",
+        "doi": "10.48550/arXiv.1404.6051",
+        "en_title": "Conductance matrix of multi terminal semiconductor devices with edge channels",
+        "id": "867747660444992417",
+        "keywords": "",
+        "publication_date": "2014-04-24",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "具有边缘通道的多端半导体器件的电导矩阵"
+      },
+      "paper:867752213487812743": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Zekun Zhuang | Jaime Merino | J. B. Marston",
+        "available_online": "",
+        "cover_date_start": "2020-07-19",
+        "created_at": "2026-06-18T23:32:53+08:00",
+        "doi": "10.48550/arXiv.2007.09810",
+        "en_title": "Transport in Conductors and Rectifiers: Mean-Field Redfield Equations and Non-Equilibrium Green's Functions",
+        "id": "867752213487812743",
+        "keywords": "",
+        "publication_date": "2020-07-19",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "导体与整流器中的输运：平均场雷德菲尔德方程与非平衡格林函数"
+      },
+      "paper:867753569162363241": {
+        "area": "arxiv-physics, engineering, nanotechnology, physical sciences, condensed matter physics",
+        "authors": "Pablo Ares | Sahar Pakdel | Irene Palacio | Wendel S. Paz | Maedeh Rassekh | David Rodriguez-San Miguel | Lucia Aballe | Michael Foerster | Nerea Ruiz del Arbol | Jose Angel Martin-Gago | Felix Zamora | Julio Gomez-Herrero | Juan Jose Palacios",
+        "available_online": "",
+        "cover_date_start": "2021-07-23",
+        "created_at": "2026-06-14T02:33:52+08:00",
+        "doi": "10.48550/arXiv.2107.11218",
+        "en_title": "Few-layer antimonene electrical properties",
+        "id": "867753569162363241",
+        "keywords": "",
+        "publication_date": "2021-07-23",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "[\"Engineering\", \"Nanotechnology\", \"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "少层锑烯的电学性质"
+      },
+      "paper:867754444618465990": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Alessandro Betti | Gianluca Fiori | Giuseppe Iannaccone",
+        "available_online": "",
+        "cover_date_start": "2009-04-27",
+        "created_at": "2026-06-19T02:09:31+08:00",
+        "doi": "10.48550/arXiv.0904.4274",
+        "en_title": "Statistical theory of shot noise in quasi-1D Field Effect Transistors in the presence of electron-electron interaction",
+        "id": "867754444618465990",
+        "keywords": "",
+        "publication_date": "2009-04-27",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "存在电子-电子相互作用时准一维场效应晶体管散粒噪声的统计理论"
+      },
+      "paper:867758509083591444": {
+        "area": "arxiv-physics, engineering, nanotechnology, physical sciences, condensed matter physics",
+        "authors": "Manas Ranjan Sahu | Arup Kumar Paul | Jagannath Sutradhar | K. Watanabe | T. Taniguchi | Vibhor Singh | Subroto Mukerjee | Sumilan Banerjee | Anindya Das",
+        "available_online": "",
+        "cover_date_start": "2021-05-27",
+        "created_at": "2026-06-14T05:04:14+08:00",
+        "doi": "10.48550/arXiv.2105.13070",
+        "en_title": "Quantized conductance with non-zero shot noise as a signature of Andreev edge state",
+        "id": "867758509083591444",
+        "keywords": "",
+        "publication_date": "2021-05-27",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Engineering\", \"Nanotechnology\", \"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "具有非零散粒噪声的量子化电导作为安德列夫边缘态的一个特征"
+      },
+      "paper:867759378575392895": {
+        "area": "arxiv-physics, physical sciences, quantum physics",
+        "authors": "Sachiraj Mishra | Colin Benjamin",
+        "available_online": "",
+        "cover_date_start": "2023-02-12",
+        "created_at": "2026-06-12T02:43:32+08:00",
+        "doi": "10.48550/arXiv.2302.05961",
+        "en_title": "Finite temperature quantum noise correlations as a probe for topological helical edge modes",
+        "id": "867759378575392895",
+        "keywords": "",
+        "publication_date": "2023-02-12",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Quantum Physics\"]",
+        "zh_title": "有限温度量子噪声关联作为拓扑螺旋边缘模式的一种探测手段"
+      },
+      "paper:867760176520758243": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Liliana Arrachea",
+        "available_online": "",
+        "cover_date_start": "2008-11-11",
+        "created_at": "2026-06-14T16:23:44+08:00",
+        "doi": "10.48550/arXiv.0811.1648",
+        "en_title": "Stationary transport in mesoscopic hybrid structures with contacts to superconducting and normal wires. A Green's function approach for multiterminal setups",
+        "id": "867760176520758243",
+        "keywords": "",
+        "publication_date": "2008-11-11",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "与超导和普通导线相连的介观混合结构中的稳态输运。多端设置的格林函数方法"
+      },
+      "paper:867762565508235382": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "S. P. Milovanovic | M. Ramezani Masir | F. M. Peeters",
+        "available_online": "",
+        "cover_date_start": "2014-07-29",
+        "created_at": "2026-05-16T19:45:33+08:00",
+        "doi": "10.48550/arXiv.1407.7751",
+        "en_title": "Interplay between snake and quantum edge states in a graphene Hall bar with a pn-junction",
+        "id": "867762565508235382",
+        "keywords": "",
+        "publication_date": "2014-07-29",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "具有 pn 结的石墨烯霍尔条中蛇形与量子边缘态之间的相互作用"
+      },
+      "paper:867766844545564930": {
+        "area": "arxiv-physics, engineering, nanotechnology, physical sciences, condensed matter physics",
+        "authors": "Saumen Acharjee | Arindam Boruah | Reeta Devi | Nimisha Dutta",
+        "available_online": "",
+        "cover_date_start": "2022-09-23",
+        "created_at": "2026-06-11T06:15:49+08:00",
+        "doi": "10.48550/arXiv.2209.11573",
+        "en_title": "Ballistic transport and spin dependent anomalous quantum tunnelling in Rashba-Zeeman and bilayer graphene hybrid structures",
+        "id": "867766844545564930",
+        "keywords": "",
+        "publication_date": "2022-09-23",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Engineering\", \"Nanotechnology\", \"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "Rashba - 塞曼和双层石墨烯混合结构中的弹道输运与自旋相关的反常量子隧穿"
+      },
+      "paper:867769035654168759": {
+        "area": "arxiv-physics, engineering, communications engineering, physical sciences",
+        "authors": "Carlos Ramirez | Luis A. Medina-Amayo",
+        "available_online": "",
+        "cover_date_start": "2020-03-10",
+        "created_at": "2026-06-16T01:39:07+08:00",
+        "doi": "10.48550/arXiv.2003.04859",
+        "en_title": "Scattering matrix of arbitrary tight-binding Hamiltonians",
+        "id": "867769035654168759",
+        "keywords": "",
+        "publication_date": "2020-03-10",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Engineering\", \"Communications Engineering\", \"Physical Sciences\"]",
+        "zh_title": "任意紧束缚哈密顿量的散射矩阵"
+      },
+      "paper:867769111499768376": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Yongjin Jiang | Liangbin Hu",
+        "available_online": "",
+        "cover_date_start": "2006-05-13",
+        "created_at": "2026-06-14T22:41:14+08:00",
+        "doi": "10.48550/arXiv.cond-mat/0605361",
+        "en_title": "Scattering wave function approach to multi-terminal mesoscopic system with spin-orbit coupling",
+        "id": "867769111499768376",
+        "keywords": "",
+        "publication_date": "2006-05-13",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "具有自旋轨道耦合的多端介观系统的散射波函数方法"
+      },
+      "paper:867769177622970670": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Carlos Ramirez | Mauricio J. Rodriguez | Bryan D. Gomez",
+        "available_online": "",
+        "cover_date_start": "2020-03-05",
+        "created_at": "2026-06-15T02:39:53+08:00",
+        "doi": "10.48550/arXiv.2003.02745",
+        "en_title": "Taylor series of Landauer conductance",
+        "id": "867769177622970670",
+        "keywords": "",
+        "publication_date": "2020-03-05",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "兰道尔电导的泰勒级数"
+      },
+      "paper:867770534220267928": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Thomas Stegmann | Axel Lorke",
+        "available_online": "",
+        "cover_date_start": "2015-02-17",
+        "created_at": "2026-06-15T23:17:12+08:00",
+        "doi": "10.48550/arXiv.1502.05020",
+        "en_title": "Edge magnetotransport in graphene: A combined analytical and numerical study",
+        "id": "867770534220267928",
+        "keywords": "",
+        "publication_date": "2015-02-17",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "石墨烯中的边缘磁输运：解析与数值相结合的研究"
+      },
+      "paper:867772064977650219": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Chaitrali Duse | Praveen Sriram | Kaveh Gharavi | Jonathan Baugh | Bhaskaran Muralidharan",
+        "available_online": "",
+        "cover_date_start": "2021-03-16",
+        "created_at": "2026-06-17T02:04:12+08:00",
+        "doi": "10.48550/arXiv.2103.08857",
+        "en_title": "Role of dephasing on the conductance signatures of Majorana zero modes",
+        "id": "867772064977650219",
+        "keywords": "",
+        "publication_date": "2021-03-16",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "退相对马约拉纳零模电导特征的作用"
+      },
+      "paper:867774278387368715": {
+        "area": "arXiv-Physics, Physical Sciences, Condensed Matter Physics",
+        "authors": "Kohei Kawabata | Masahito Ueda",
+        "available_online": "",
+        "cover_date_start": "2021-10-15",
+        "created_at": "2026-06-19T01:28:59+08:00",
+        "doi": "10.48550/arXiv.2110.08304",
+        "en_title": "Nonlinear Landauer formula: Nonlinear response theory of disordered and topological materials",
+        "id": "867774278387368715",
+        "keywords": "",
+        "publication_date": "2021-10-15",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "非线性朗道尔公式：无序和拓扑材料的非线性响应理论"
+      },
+      "paper:957895359214911489": {
+        "area": "arXiv-Physics, Engineering, Physical Sciences, Quantum Physics",
+        "authors": "José Balduque | Rafael Sánchez",
+        "available_online": "",
+        "cover_date_start": "2023-07-25",
+        "created_at": "2026-06-19T06:22:25+08:00",
+        "doi": "10.48550/arXiv.2307.13319",
+        "en_title": "Coherent control of thermoelectric currents and noise in quantum thermocouples",
+        "id": "957895359214911489",
+        "keywords": "",
+        "publication_date": "2023-07-25",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Engineering\", \"Physical Sciences\", \"Quantum Physics\"]",
+        "zh_title": "量子热电偶中热电电流和噪声的相干控制"
+      }
+    },
+    "variables": [
+      {
+        "content": "Prior to these calculations there was no detailed, disorder-averaged microscopic prediction for both conductance and shot noise in realistic graphene QH–SC junctions. In particular, it was unknown whether disorder-averaged AES-mediated transport would still produce quantized conductance plateaus while also producing an observable shot-noise signal, and what the numerical value of the Fano factor would be when realistic lattice, magnetic flux, finite interface width and onsite disorder are included. The NEGF computation provides quantitative disorder-averaged transport and noise predictions (forms for $G$ and $F$ and numerical values) that directly address this gap.",
+        "content_hash": "5dfc91173244dba1a77fac4f4615d7f78e1417f64df453ba60488f8537ab2030",
+        "id": "gcn_8d5107693c024b90",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867758509083591444::conclusion_3_subproblem",
+            "package_id": "paper:867758509083591444",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867758509083591444"
+          ]
+        },
+        "rerank_score": 0.8261091191065084,
+        "role": "premise",
+        "score": 0.011627906976744186,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The conductance of nanoscale quantum systems is computed from scattering properties (Landauer formula), but practical calculation of the required scattering matrix (SM) for tight-binding models is hindered by several pre-existing gaps. Standard transfer-matrix techniques determine wave amplitudes by iterated multiplication of transfer matrices, yet these multiplications produce well-known numerical instabilities that limit reliable computation for long or complex systems. Alternative routes compute an SM from transfer matrices or by direct wave-function matching, but assembling the SM of a composite system then requires computing scattering properties at every layer interface and combining them (e.g., via star products), which can become computationally expensive and delicate. In electromagnetic scattering this interface problem is commonly avoided by inserting free-space gaps of zero thickness between layers; no immediate, generally accepted tight-binding analogue of such a gap was available. Moreover, many realistic device geometries are multiterminal and/or have leads built from repeated transversal layers (layer-composed leads); efficient, stable, and modular methods to (i) represent arbitrary tight-binding building blocks by elementary SMs, (ii) compose those SMs into larger systems without introducing the instabilities of transfer-matrix multiplication, and (iii) connect the composite scattering region to semi-infinite periodic leads (with well-defined propagating and evanescent modes) were lacking. As a result, prior approaches either suffered numerical instability for macroscopic-length systems, required expensive repeated interface calculations, or lacked a simple, general framework for constructing SMs of arbitrary multiterminal tight-binding Hamiltonians from small primitives.",
+        "content_hash": "c8e47636e1b8428eb987059d05ca1949602cd28051066c5b33ec1e9c10a4a5e7",
+        "id": "gcn_da2e995d149b4da4",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867769035654168759::problem",
+            "package_id": "paper:867769035654168759",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867769035654168759"
+          ]
+        },
+        "rerank_score": 0.7919487856883749,
+        "role": "premise",
+        "score": 0.007936507936507936,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In experiments at finite temperature one needs a scattering-matrix expression that (a) splits equilibrium thermal fluctuations from nonequilibrium transport (shot) fluctuations, (b) is valid for multiterminal geometries with arbitrary static scattering matrices, and (c) is suitable to compute both cross- and autocorrelations. Prior literature provided zero-temperature shot-noise expressions or scattering-matrix formulae that did not transparently separate thermal and shot contributions for multiterminal QH/QSH setups at finite $T$, preventing systematic prediction of measurable signatures that survive realistic thermal backgrounds. The presented decomposition sets the starting point required to compute temperature-dependent signatures for different edge-mode types and bias configurations.",
+        "content_hash": "80b55bc6f479bfd2871e15f009b766dec1322a93ecfa990d64e7c13fa1b2815c",
+        "id": "gcn_114071d04f4e4d54",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867759378575392895::conclusion_1_subproblem",
+            "package_id": "paper:867759378575392895",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867759378575392895"
+          ]
+        },
+        "rerank_score": 0.7736089177879506,
+        "role": "premise",
+        "score": 0.0078125,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In coherent mesoscopic electronic transport, the zero-temperature conductance of a device is given by the Landauer formula $G=(2e^{2}/h)\\,T(E_{F})$, where the transmission function $T(E)$ is obtained from the scattering matrix $\\mathbf{S}(E)$. Prior practice computes $T(E)$ numerically at discrete energies (e.g., via recursive Green's function methods or via computation of $\\mathbf{S}(E)$), or else derives fully analytical expressions only for special, highly symmetric or low-complexity tight-binding models. These approaches have concrete limitations: numerical sampling can miss fine spectral structure if the energy grid is too sparse and can be computationally wasteful if excessively dense; available analytical results do not cover general multiterminal tight-binding architectures with arbitrary periodic leads; and perturbative (first-order) Taylor expansions used in some applications are insufficient when higher-order local spectral information is needed. Moreover, producing a Taylor expansion of $T(E)$ to arbitrary order for a general tight-binding scattering region requires exact, finite-order rules for algebraic operations (sum, product, inverse, diagonalization) on matrix-valued Taylor series and a way to treat periodic leads whose S-matrices require diagonalization (Bloch eigenproblems) as analytic functions of energy. Because these algebraic and spectral operations on matrix Taylor expansions are nontrivial and were not previously assembled into a general, recursive scheme applicable to multiterminal tight-binding systems with arbitrary periodic leads, there existed no general method to obtain exact order-$N$ Taylor series of scattering matrices and hence of Landauer conductance; as a result, researchers could not systematically obtain higher-order local analytic information about $T(E)$ for complex device geometries, nor exploit such expansions to reduce sampling costs or to accelerate tasks that require derivatives of $T(E)$ (for example, higher-order perturbative analyses or rootfinding for Büttiker-probe conditions).",
+        "content_hash": "e4ef4a49ebe72bc5bdc4d40da5939b67f329baf97b6a5e6e2fc81e1604e67a66",
+        "id": "gcn_7c5ef32942094647",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867769177622970670::problem",
+            "package_id": "paper:867769177622970670",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867769177622970670"
+          ]
+        },
+        "rerank_score": 0.7730554295137425,
+        "role": "premise",
+        "score": 0.02434759214420231,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In the quantum Hall regime the global quantized Hall conductance follows from the number of edge channels, but local-current resolution in finite stripes can differ from a simple counting argument because of degeneracy lifting near edges, sublattice packing effects, and finite spatial resolution when averaging over atomic cells. A combined NEGF and Dirac-eigenstate analysis is necessary to establish whether the local current indeed resolves as one channel per occupied Landau level, how many channels appear in finite stripes and how edge termination affects channel spacing and visibility.",
+        "content_hash": "58e4f7fc53d6991fc275737a866b606dea9bb224e6abcceadebb3468d6da2bca",
+        "id": "gcn_6f52473d35c44880",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867770534220267928::conclusion_7_subproblem",
+            "package_id": "paper:867770534220267928",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867770534220267928"
+          ]
+        },
+        "rerank_score": 0.8057376991808876,
+        "role": "premise",
+        "score": 0.006944444444444444,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Two commonly used theoretical routes to quantum transport — the NEGF formalism based on steady-state Green’s functions and the scattering-state S-matrix approach — are known to be formally related but explicit checks on local observables for nontrivial topological models with reservoir self-energies were limited. In the context of the Lead–CI–Lead geometry, it was necessary to verify that the NEGF expressions used to derive Eq. (5) and the analytic scattering-state formulas used to obtain the local conductance (conclusion 4) yield the same local currents for realistic parameter choices. Without such checks, conclusions drawn from either method alone could be questioned. This conclusion provides numerical confirmation that both formalisms give identical local Hall-conductance density for the model studied.",
+        "content_hash": "d2ef7c9b1debcc239b69adfd420017d4a62ef5c029138318f3c22706dbc9a853",
+        "id": "gcn_c2b8e6a84bc3428f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1207660240137355286::conclusion_5_subproblem",
+            "package_id": "paper:1207660240137355286",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1207660240137355286"
+          ]
+        },
+        "rerank_score": 0.7271191474177,
+        "role": "premise",
+        "score": 0.007462686567164179,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Physical context: device currents in nanostructures subject to dephasing and inelastic scattering cannot be computed correctly by Landauer formulas that assume phase coherence; practical device modeling requires expressions that combine scattering self-energies and correlation functions. Prior state: Landauer formulas give correct ballistic currents, and scattering-inclusive Keldysh/Kadanoff–Baym formulations exist abstractly, but a compact, device-layered expression valid with arbitrary in-scattering/out-scattering that is directly suitable for numerical evaluation in layered NEGF codes was lacking in a consolidated, implementable form. Limitations: absence of such expressions hindered energy-resolved current calculations and obscured how to recover Landauer limits. Consequences: engineers lacked ready-to-use expressions that (i) yield the local energy-resolved current in the presence of scattering, (ii) connect to $G^n$ computed self-consistently with phonon self-energies, and (iii) transparently reduce to Landauer in the coherent limit. The provided general current formulas fill this gap and link the NEGF solution objects ($G$, $G^n$, $\\Sigma$) to physically measurable currents and transmission.",
+        "content_hash": "c4ea2899f1d03a514e168da32a77ec87c09ce14977acf95c2f9ecf7bcae4d4ee",
+        "id": "gcn_b5053395b3b243a2",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811903549792321536::conclusion_4_subproblem",
+            "package_id": "paper:811903549792321536",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811903549792321536"
+          ]
+        },
+        "rerank_score": 0.7207673458176256,
+        "role": "premise",
+        "score": 0.026022913256955812,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In studies of pump-driven current noise, previous analytic results were derived either for leads with a single waveguide mode or for highly specialized two-terminal tunnel structures; consequently, there was no general multiterminal, multi-mode scattering-matrix expression connecting frozen scattering properties of a time-dependent conductor to the frequency-resolved thermal and shot-noise contributions. Without such a general formula, one could not uniformly treat realistic junctions with many transverse modes, include arbitrary interface and bulk scattering captured by full scattering matrices, nor compare different device geometries (multiterminal configurations) on common theoretical grounds. This prevented a systematic mapping from microscopic scattering information to both the thermal background and the pump-induced shot noise for arbitrary device architectures.",
+        "content_hash": "bb25f71c226c3cafb24be700a6993eaccab3c31319e5684324bd00c31f4bd562",
+        "id": "gcn_622c4a5e4fcb4720",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812576253839147009::conclusion_1_subproblem",
+            "package_id": "paper:812576253839147009",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812576253839147009"
+          ]
+        },
+        "rerank_score": 0.7317375157089469,
+        "role": "premise",
+        "score": 0.00980392156862745,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In mesoscopic spin-dependent transport one frequently needs local (position-resolved) expectation values such as spin density or local currents inside a device region that is coupled to multiple ideal leads. The standard Landauer-Buttiker (LB) practice computes terminal conductances from the scattering matrix or from Green's–function formulas, but typically does not construct the full single-particle scattering wave functions in the open multi-terminal geometry. Alternative approaches that can produce local quantities (for example, Landauer–Keldysh or macroscopic linear-response methods) either do not stay within a manifest single-particle scattering picture or make approximations that obscure phase-coherent boundary contributions. In addition, common textbook expressions for lead self-energies often neglect evanescent (non-conducting) modes near interfaces. Because of these gaps, prior analyses could not (i) obtain explicit single-particle scattering wave functions for arbitrary multi-terminal tight-binding spin-orbit (SO) devices, (ii) thereby express local observables in transparent LB single-particle language, or (iii) unambiguously trace how boundary and evanescent-mode physics affect local spectral weight and spin transport. This limitation has direct consequences for current problems in spintronics (e.g., interpreting local spin accumulation and the spin Hall effect measurements): without an explicit scattering-wave formulation one cannot reliably compute local spin densities, test equilibrium vs nonequilibrium contributions, or derive exact symmetry constraints that must hold in finite SO devices coupled to leads. The paper is therefore motivated by the need for (a) an explicit, linear-algebraic scattering-wave formulation for multi-terminal tight-binding SO systems that gives access to all local quantities, and (b) rigorous statements (and checks) about equilibrium properties, spectral functions, and symmetry relations that depend sensitively on boundary and evanescent-mode effects.",
+        "content_hash": "38252c8689166b2fce766b4ee75b10dd60498ec56b11f692ced165a9eb1be510",
+        "id": "gcn_4033c6e58720475f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867769111499768376::problem",
+            "package_id": "paper:867769111499768376",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867769111499768376"
+          ]
+        },
+        "rerank_score": 0.8104456030698657,
+        "role": "premise",
+        "score": 0.00625,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Noise in driven mesoscopic conductors has two physically distinct origins: equilibrium thermal fluctuations and non-equilibrium (photon-assisted) shot noise. Prior analyses in the literature typically produced these contributions within the Floquet scattering-matrix framework. Without an NEGF-level decomposition and an explicit matching to scattering-matrix quantities, it was unclear whether the two frameworks give identical predictions for noise in driven non-interacting systems and therefore whether NEGF results could be directly compared to existing scattering-matrix calculations and experiments. Establishing the decomposition and equivalence resolves this gap and provides a NEGF basis for interpreting thermal vs shot-noise contributions in driven multiterminal geometries.",
+        "content_hash": "dab11e077d34566f4ab448c6b051cc6079e54cbcf7f0f903a44e30d984572efe",
+        "id": "gcn_431b6e769c4d4abc",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813296016466903040::conclusion_2_subproblem",
+            "package_id": "paper:813296016466903040",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813296016466903040"
+          ]
+        },
+        "rerank_score": 0.7923419086271208,
+        "role": "premise",
+        "score": 0.011235955056179775,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "A central test of any approximate open-system formalism for transport is whether it reproduces the Landauer picture of ballistic conductance in non-interacting limits and how system–bath coupling and interface scattering modify the ideal result. Prior QME derivations often obscure or miscount contributions to the current (and sometimes require adding fictitious currents for continuity in Lindblad schemes); NEGF gives the exact Landauer result but requires frequency-resolved Dyson equation solution. An explicit analytic current formula derived from the closed MRE both clarifies how interface coupling reduces the ideal Landauer current (via the $J/(1+J^{2}/t_{S}^{2})$ factor) and provides an efficient, physically transparent expression for ballistic transport that can be compared directly to NEGF benchmarks and used in mean-field self-consistent calculations.",
+        "content_hash": "b15ad3d687f6a38cce3d8501a22dad38e68de6b62067f2d801f31fd0e5b5e46b",
+        "id": "gcn_e630c35c35f84931",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867752213487812743::conclusion_4_subproblem",
+            "package_id": "paper:867752213487812743",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867752213487812743"
+          ]
+        },
+        "rerank_score": 0.7077996657282771,
+        "role": "premise",
+        "score": 0.015625,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Nanoscale quantum transport calculations require the scattering matrix (SM) that relates incoming and outgoing propagating modes in a scattering region in order to compute conductance via the Landauer formula $G=(e^{2}/\\pi\\hbar)\\,T$. Prior practical techniques for tight-binding systems have relied on transfer-matrix iterations to propagate wave amplitudes across layered structures, but such iterative multiplications are well known to suffer numerical instabilities (exponentially growing/decaying modes) and to require special stabilizing manipulations. Alternative approaches (obtaining the SM from the transfer matrix or by direct wave-function matching and then composing component SMs) exist, yet applying them to tight-binding models built from many different local pieces (layers, contacts, multiterminal junctions) is computationally costly because one must compute SMs for every interface geometry and because a tight-binding analogue of the electromagnetic \"zero-thickness free space gap\" separator was not specified. Consequently, there was no simple, numerically stable, and modular prescription to (i) represent arbitrary tight-binding scattering regions in terms of small reusable elements, (ii) connect those elements to semi-infinite leads with multi-channel transverse structure, and (iii) compose component SMs into the SM of a large system without introducing uncontrolled approximations. This gap limits reliable, efficient computations of transmission for complex multiterminal tight-binding devices and obstructs the use of renormalization/doubling strategies to reach macroscopic system lengths while controlling numerical error.",
+        "content_hash": "65db538dff565c6457ef82d341607d309ddbc71256da708485d52f2eebea700b",
+        "id": "gcn_f485c7a1f8be4cf0",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811078477779304448::problem",
+            "package_id": "paper:811078477779304448",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811078477779304448"
+          ]
+        },
+        "rerank_score": 0.7412379004882584,
+        "role": "premise",
+        "score": 0.015303765303765305,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Analytic Landauer-like decompositions of current into transmission channels are central to interpreting conductance experiments. However, the Landauer form relies on absence of inelastic/dephasing self-energies in the conductor. Prior to this work it was not explicitly demonstrated within the NEGF + self-consistent Born framework for momentum-randomizing scattering that the presence of $\\Sigma_s$ invalidates the simple decomposition into local and non-local transmission contributions, thereby limiting phenomenological interpretations of measured conductance in the presence of dephasing.",
+        "content_hash": "11bbce6a84b8de53d16c9880992f79dbcf48ca15b07654174bcd1e87cfd439aa",
+        "id": "gcn_51798a95f9bd4c9f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867772064977650219::conclusion_8_subproblem",
+            "package_id": "paper:867772064977650219",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867772064977650219"
+          ]
+        },
+        "rerank_score": 0.6901693347301975,
+        "role": "premise",
+        "score": 0.021521647751155948,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Physical context: thermoelectric conversion in a phase-coherent three-terminal mesoscopic conductor where the hot reservoir is coupled via a local beam-splitter (scanning tip). Prior state of knowledge: Landauer–Büttiker scattering theory provides general relations between a system’s scattering matrix and currents/noises, and resonant QD or DQD models give standard forms for single-scatterer amplitudes. What was missing: a closed-form decomposition of the full three-terminal scattering matrix that makes explicit how the tip-conductor coupling $\\epsilon$, the internal kinetic phases $\\chi_{x},\\chi_{d-x}$, and the individual scatterer amplitudes $\\tau_{\\alpha}(E)$ combine to produce (i) the inelastic, hot-terminal mediated transmissions $\\mathcal{T}_{lH}(E)$ and (ii) the elastic direct transmission $\\mathcal{T}_{LR}(E)$. Consequences of the gap: without such explicit expressions one cannot (a) analyze how tip position and coupling coherently shape spectral transmissions, (b) design interference conditions that suppress elastic leakage or produce broadband inelastic windows, nor (c) compute currents and noises for device optimization.",
+        "content_hash": "84eac89a09079aa8c966e2578433504f8f8eb552212ac0e4b2781f682d36734f",
+        "id": "gcn_44998c25a0c94ee7",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:957895359214911489::conclusion_1_subproblem",
+            "package_id": "paper:957895359214911489",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:957895359214911489"
+          ]
+        },
+        "rerank_score": 0.6804617678823823,
+        "role": "premise",
+        "score": 0.012048192771084338,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Visual demonstration that current flows along spatially separated TZMs, and not via AA-node scattering, requires a local, bias-driven quantity that isolates the net current contribution from the equilibrium LDOS background. While formal NEGF relations exist in the literature, applying them to produce device-scale spatial maps that resolve TZMs in a realistic tight-binding mTBG requires (i) an explicit small-bias linearized formula suitable for large-scale numerical evaluation, and (ii) its implementation on the tight-binding model with Slater–Koster interlayer hoppings and the device contact self-energies. The derived expression for $\\\\rho_{\\\\rm NE}$ provides the operational quantity that separates net current-carrying density from equilibrium LDOS and enables direct visualization of the TZMs in device geometries.",
+        "content_hash": "6583789d7d0e901d6c8241811d6a58775bb602ca8ca75dcfe74e759a82452e54",
+        "id": "gcn_e62667fd836e4f24",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1032904190029987864::conclusion_4_subproblem",
+            "package_id": "paper:1032904190029987864",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1032904190029987864"
+          ]
+        },
+        "rerank_score": 0.6750068260998,
+        "role": "premise",
+        "score": 0.01,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In coherent electronic transport through mesoscopic tight-binding structures, conductance at zero temperature is given by the Landauer formula $G=(2e^{2}/h)T(E_{F})$, so the central computational and theoretical task is to obtain the transmission function $T(E)$ for a scattering region connected to semi-infinite periodic leads. Prior practice obtains $T(E)$ by numerical evaluation of Green's functions or of the scattering matrix at discrete energies, which (i) may miss spectral features if the energy sampling is not sufficiently dense and (ii) can be computationally expensive if an overly dense sampling is used. Analytic expressions for $T(E)$ exist only for special, highly symmetric or simple systems (atomic chains with simple impurities, certain nanotubes, some nanoribbons, etc.), but are not available for general complex multiterminal tight-binding systems with arbitrary periodic leads. First-order (perturbative) Taylor expansions of conductance have been used in specific problems (Büttiker probes, inelastic spectra, thermoelectric linear-response expansions), yet higher-order, systematically computable Taylor series of the scattering matrix and of $T(E)$ for general tight-binding geometries were not available. Furthermore, implementing a Taylor expansion for composite scattering matrices requires algebraic capabilities (Taylor arithmetic) for matrix sum, product, inversion and diagonalization to arbitrary order, and a way to treat semi-infinite periodic leads (Bloch states, evanescent modes) within the same Taylor-expanded framework. Because these algebraic building blocks and a consistent procedure to propagate Taylor expansions through the recursive scattering matrix method (RSMM) were absent, researchers lacked a general, automated method to obtain order-$N$ Taylor series of the S-matrix and of Landauer conductance for arbitrary tight-binding multiterminal devices, and therefore lacked (a) systematic higher-order analytic information about $T(E)$ in the neighborhood of any chosen energy, and (b) controlled estimates of truncation errors and convergence radii for such expansions.",
+        "content_hash": "a379cf4825aec37721389c747818639a087effd46473d22e712c6718341ef3af",
+        "id": "gcn_c6296167e1fd42d5",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812635210792304641::problem",
+            "package_id": "paper:812635210792304641",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812635210792304641"
+          ]
+        },
+        "rerank_score": 0.6873360930556551,
+        "role": "premise",
+        "score": 0.022704081632653063,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The conductance calculations are performed using the Landauer–Büttiker formalism together with nonequilibrium Green's functions (NEGF) applied to a tight-binding Hamiltonian, so transmission is computed as T(E)=Tr[Γ_L G^r Γ_R G^a] and G=(e^2/h)T(E_F) at zero temperature, providing a standard, internally consistent method for coherent ballistic transport in mesoscopic systems.",
+        "content_hash": "cf0e41cc592d700577de6cf6e8b66368f01fe472e44ca690ec85e0a3bf88f81c",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_fa2d7159210a4c5b",
+        "kind": "highlight",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811817445189746688::H1",
+            "package_id": "paper:811817445189746688",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811817445189746688"
+          ]
+        },
+        "rerank_score": 0.7711589573673427,
+        "role": "premise",
+        "score": 0.0057053817571616925,
+        "title": "Use of Landauer–Büttiker NEGF for coherent transport",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "To analyze internal current patterns (e.g., circular currents in rings) one needs an expression that gives the steady current through any internal bond directly in terms of scattering wave functions. Prior to this work no compact Landauer-like expression was available that yields a local conductance for a generic tight-binding bond in terms of scattering amplitudes analogous to the continuum Landauer formula for lead currents. Without such a formula one cannot readily connect scattering states to spatially resolved currents, hindering the study of internal vortex currents and the direct comparison of TB-device behavior with continuum intuition.",
+        "content_hash": "e647f713ad3639d32c8f8365ad2f210f1f60bb9799edd1f0220d3fcd2147e471",
+        "id": "gcn_a3efd832d6b440d6",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811870116227579904::conclusion_2_subproblem",
+            "package_id": "paper:811870116227579904",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811870116227579904"
+          ]
+        },
+        "rerank_score": 0.7638193273622099,
+        "role": "premise",
+        "score": 0.019738671114817904,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "All transport calculations reported are performed in the coherent noninteracting NEGF / Landauer framework using the tight-binding Hamiltonian at effectively zero temperature (linear conductance $G$ is obtained from the transmission $T(E)$ via the Landauer formula $G=\\frac{2e^{2}}{h}\\int dE\\left(-\\partial f/\\partial E\\right)T(E)$ with $f$ the Fermi function), and the transport model does not include electron–phonon (inelastic) scattering, explicit temperature-induced broadening beyond the Fermi-derivative in the Landauer integral, structural disorder, or ribbon-edge roughness.",
+        "content_hash": "96b39bd51f668f4eb182bbe6e56a0c9bbca8c5e4d51fe6d9c2f4511ab0f7551c",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_e39258560fce4990",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813118062533279746::P3",
+            "package_id": "paper:813118062533279746",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813118062533279746"
+          ]
+        },
+        "rerank_score": 0.7602043619268248,
+        "role": "premise",
+        "score": 0.0057435666422658935,
+        "title": "Coherent zero-temperature NEGF transport omits inelastic effects and disorder",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Physical context: Transport experiments probe conductance and shot noise rather than single-particle transmission for a single incidence angle. Prior status: in Dirac systems with scalar disorder some nontrivial size scalings are known, but for quasi-1D velocity disorder and coupled twist-disorder the connection between angle-resolved localization physics and experimentally observable $G$ and $F$ had not been established. Shortcomings: without the mapping from angle-resolved $T_{\\text{typical}}(\\phi_0)$ to the angular integral in the Landauer formula, no quantitative predictions for $G(N)$ or $F(N)$ exist. Consequences: experimental tests (e.g., scaling of conductance with number of domains, or crossover of Fano factor from $\\sim0.29$ to unity) could not previously be proposed or interpreted; the formulas above provide these explicit predictions and their parameter dependence.",
+        "content_hash": "c4fc999f85b6878b43f07b01a69622c5e6d189ffe3f505895655d46d36ef38b1",
+        "id": "gcn_957be7487ab146bf",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817362731106566145::conclusion_5_subproblem",
+            "package_id": "paper:817362731106566145",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817362731106566145"
+          ]
+        },
+        "rerank_score": 0.6596216480070166,
+        "role": "premise",
+        "score": 0.007692307692307693,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Prior multi-terminal quantum-transport formulas for noise were typically written in scattering-matrix form or in NEGF without explicitly incorporating the first-order internal Coulomb potential response required for gauge invariance at nonlinear order. In the presence of spatial inhomogeneity (finite device region and terminals) and quantum-geometric sources such as a BCD, a gauge-invariant expression that separates external (injected-electron) and internal (induced-potential) contributions is necessary to compute terminal-resolved linear thermal noise $S_{\\alpha\\beta}^{(1)}$ reliably and to satisfy the continuity constraints required for meaningful comparison to experiments. Without such an NEGF-level, gauge-invariant formula, terminal-resolved predictions would either violate current-conservation sum rules or omit induced-potential contributions that can qualitatively change symmetry-selected components of the noise.",
+        "content_hash": "c8487749ec3cbf1907925016991cc104c8c157ba69f6f942a6404a1cf438e82b",
+        "id": "gcn_9031dc1d51f74fca",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1228665211347533836::conclusion_1_subproblem",
+            "package_id": "paper:1228665211347533836",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1228665211347533836"
+          ]
+        },
+        "rerank_score": 0.6595929339769837,
+        "role": "premise",
+        "score": 0.014925373134328358,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Predicting measurable transport quantities (two-terminal conductance and shot noise) for the RZ|BLG|RZ device requires integrating the spin-resolved, angle-dependent transmission over transverse modes. Although Landauer–Büttiker theory is standard, no previous work had applied it to the RZ|BLG|RZ scattering solution derived above; without explicit integrals tied to the RZ–BLG $T_{\\pm}$, quantitative predictions for $G$ and $F$ as functions of bias, RSOC strength, magnetization magnitude/orientation and device length could not be produced. Presenting $G$ and $F$ in the above integral form closes that gap and makes comparison to experiments possible once $T_{\\pm}$ is known.",
+        "content_hash": "055b13f305c0799774ea64d9f320522d16ffaa51c6af5ef9483510dde63720e6",
+        "id": "gcn_1e3b5a0fc71b4a58",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867766844545564930::conclusion_2_subproblem",
+            "package_id": "paper:867766844545564930",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867766844545564930"
+          ]
+        },
+        "rerank_score": 0.6578981746552138,
+        "role": "premise",
+        "score": 0.005988023952095809,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Translating angle-resolved transmission into experimentally relevant 3d transport observables requires correct angular weighting of transverse modes and inclusion of band degeneracy factors. Absent trustworthy $T(\\theta)$ from a complete scattering theory, any computed $\\sigma$ or $F$ for 3d QBCPs could be quantitatively wrong. Performing the Landauer integrals with the full $T(\\theta)$ extracted from the complete $16\\times16$ matching solution is necessary to expose how quadratic dispersion modifies conductance scaling with energy and barrier parameters and how shot-noise deviates from conventional metallic behaviour.",
+        "content_hash": "da8eaea1171ea5b0f13e135415106fefc0ca1bb2e0cf2e85f02c66094cc2e3dc",
+        "id": "gcn_9d76f69809254305",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1096303472338272263::conclusion_6_subproblem",
+            "package_id": "paper:1096303472338272263",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1096303472338272263"
+          ]
+        },
+        "rerank_score": 0.657337297652114,
+        "role": "premise",
+        "score": 0.007575757575757576,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "A necessary baseline check is whether single-particle scattering theory still describes the bulk of measured shot-noise behavior across multiple conduction channels and many plateaus. If deviations were widespread, a more radical revision of transport theory would be indicated. Therefore, demonstrating that the Landauer-Büttiker prediction captures the conductance dependence of $F$ across many plateaus (with excess noise localized to plateaus) is essential to delimit the scope of any new physics and to motivate a focused explanation (such as heating) for the plateau anomalies.",
+        "content_hash": "c5b0608c1bba8c862fde7417109e64f9e345c1b8aff9eb8f1a63a44db17d2410",
+        "id": "gcn_5f0e773696b44071",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867747154356077183::conclusion_6_subproblem",
+            "package_id": "paper:867747154356077183",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867747154356077183"
+          ]
+        },
+        "rerank_score": 0.7096056210165813,
+        "role": "premise",
+        "score": 0.009615384615384616,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Electronic nonlinear transport in quantum coherent conductors lacks a general scattering-theory formulation that captures genuine quantum effects (disorder, topology, wave-function geometry) away from linear response. Prior to this work, the Landauer approach provided a broadly applicable scattering formulation for linear conductance and for some far-from-equilibrium quantities (e.g., shot noise), but applications were largely confined to linear-response conductance or to numerical I–V calculations for specific scattering problems. Alternative approaches to nonlinear response either relied on semiclassical Boltzmann treatments (which use a relaxation-time approximation and characterize conductivity from the band dispersion $E(\\boldsymbol{k})$, thereby neglecting quantum coherence, wave-function geometry, and localization physics) or on high-frequency nonlinear-optics formalisms (whose validity is unclear in the low-frequency, transport-biased regime). Perturbative Kubo-type or diagrammatic treatments of nonlinear response were limited to weak disorder and low diagram orders and thus could not capture nonperturbative quantum phenomena such as Anderson localization or the singular behavior of symmetry-protected zero modes. As a consequence of these methodological gaps, several scientifically important goals were unattainable: a) a compact, general, scattering-based formula expressing the $n$th-order nonlinear conductance in terms of scattering data; b) a fully quantum characterization of nonlinear transport in disordered one-dimensional systems and the role of internal symmetries (time-reversal, particle-hole, chiral) in producing singular nonlinear response; c) a quantum scattering-based description of nonlinear transport in topological semimetals (exemplified by graphene) that distinguishes semiclassical from topology-driven contributions at the Dirac point; d) a fully quantum relation between the nonlinear Hall response and nonequilibrium current fluctuations (shot noise) that goes beyond semiclassical Berry-curvature-dipole formulas; and e) a tractable framework to assess how Anderson localization, mobility edges, and edge modes modify nonlinear (including nonreciprocal) transport. These unresolved issues motivate the development of a scattering-theory nonlinear response framework that can (i) produce analytical expressions relating nonlinear conductances to scattering observables, (ii) reveal quantum and topological mechanisms for nonlinearities (including singularities), and (iii) connect nonlinear response to nonequilibrium fluctuations.",
+        "content_hash": "2398c69249a28372a1fef7fc3e68ee228eb4ca2d176f6aa7be3b63da7381c9d6",
+        "id": "gcn_842a54f4f1ab4968",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867774278387368715::problem",
+            "package_id": "paper:867774278387368715",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867774278387368715"
+          ]
+        },
+        "rerank_score": 0.6557242445553806,
+        "role": "premise",
+        "score": 0.009009009009009009,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In nanoscale, coherent conductors the established Landauer description gives conductance as $G=G_{0}\\sum_{i}\\tau_{i}$ and accounts for voltage-driven shot noise, but prior to this work there was no compact Landauer-based formula that isolates the leading-order contribution to current noise produced solely by a finite temperature difference across the contact at zero applied voltage. Existing exact or previous results treated different transport regimes (for example, diffusive conductors) or considered voltage bias; thus, there was no direct expression that (a) separates the thermal-noise dependence on the mean temperature from additional $\\Delta T$-activated terms, and (b) predicts how the $\\Delta T$ contribution depends on the channel transmissions $\\{\\tau_{i}\\}$. Without such a formula, researchers could not quantitatively anticipate the magnitude, scaling, or channel-dependence of temperature-difference-induced noise in atomic- or molecular-scale junctions, nor could they design experiments to detect or exploit that contribution.",
+        "content_hash": "3190bbebaf15cdf5a99a48078923b70a1602ed1ce8aaa73b2451278e81c231b8",
+        "id": "gcn_d753a17a3cbd4869",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812841394937790466::conclusion_1_subproblem",
+            "package_id": "paper:812841394937790466",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812841394937790466"
+          ]
+        },
+        "rerank_score": 0.6449106495529522,
+        "role": "premise",
+        "score": 0.014705882352941176,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The study addresses charge-current fluctuations (zero-frequency noise) in coherent nanoscale multiterminal hybrid systems that combine normal leads and grounded superconducting regions. Prior to this work, theory and applications mostly focused on electrically driven (voltage-biased) noise in normal conductors or on single normal–superconductor (NS) junctions under temperature bias; a general, multiterminal treatment of thermal out-of-equilibrium noise (``ΔT-noise'') in hybrid normal–superconductor multiterminal geometries was missing. Established tools include the Landauer–Büttiker scattering formalism and Onsager linear-response matrices for charge and heat, and prior analyses recovered Johnson–Nyquist and Schottky limits in simpler contexts. However, these prior approaches did not (i) provide compact, general expressions separating background (thermal) and excess (partition) zero-frequency noise contributions for arbitrary multiterminal hybrid scattering matrices including Andreev processes, (ii) identify how temperature differences couple charge-noise self- and cross-correlators to heat-transport coefficients in multiterminal hybrid setups with grounded superconductors, nor (iii) characterize the nontrivial bias- and temperature-dependence (including ``thermal shot-noise'' asymptotics and interference terms originating from Andreev processes) of excess noise beyond single-junction cases. These gaps prevented using charge-noise measurements as a general probe of heat conductance in hybrid multiterminal devices, hindered understanding of signatures that distinguish electrically-induced and thermally-induced partition noise in presence of Andreev reflections, and left open how such effects manifest in realistic multiterminal examples such as three-terminal NSN junctions or chiral quantum-Hall edge-state devices with proximitized regions.",
+        "content_hash": "0c02436946e03246d7926cd8a092156d82f38200de4ad96b2ba957fe17cf0c8a",
+        "id": "gcn_5015576abb594de8",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1066237901798375427::problem",
+            "package_id": "paper:1066237901798375427",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1066237901798375427"
+          ]
+        },
+        "rerank_score": 0.6434529888313512,
+        "role": "premise",
+        "score": 0.005917159763313609,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Practitioners analyzing multiterminal hybrid S–N devices require explicit, operational formulas for currents that separately identify normal transmission (single-electron escape to reservoirs) and Andreev transmission (hole-mediated multiscattering) so that steady-state charge transport and equilibrium persistent currents can be computed and interpreted. Prior formulations either worked in Nambu space without a Langreth-style decomposition of effective self-energies into normal and hole-mediated parts or relied on scattering-matrix results limited to few-terminal cases. Without compact Landauer-like expressions that include explicit $T^{n}$ and $T^{a}$ components and well-defined reservoir spectral functions $\\Gamma^{\\nu\\nu'}(\\omega)$, it is difficult to (i) numerically benchmark hybrid transport against known limits (e.g., BTK), (ii) separate contributions to currents arising from quasiparticle escape versus coherent Andreev processes, and (iii) analyze equilibrium versus bias-induced components in multiterminal networks.",
+        "content_hash": "09e2f7e74f0e4be40d261c50f51b4c034c05f38119b39bc5bb6a3fd8e1ab2f69",
+        "id": "gcn_fe75a1f0335744dd",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867760176520758243::conclusion_2_subproblem",
+            "package_id": "paper:867760176520758243",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867760176520758243"
+          ]
+        },
+        "rerank_score": 0.7399287254603281,
+        "role": "premise",
+        "score": 0.014492753623188406,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Prior theoretical descriptions either used continuum phenomenological scattering rates or NEGF/S-matrix calculations specialized to simple one-dimensional scatterers, and did not combine an atomistic multiorbital tight-binding description of MoS$_{2}$ with a Rytova–Keldysh screened-defect landscape, explicit finite channel quantization (Bloch-moded channel), a coherence-length estimate based on eigenstate $k$-space width, and a Landauer-mode conductance with transmission approximated from $l_{\\varphi}$. Consequently, before this work there was no quantitative microscopic model that could take experimentally realistic defect densities, dielectric screening values (e.g. $\\epsilon_{c}=2.5$ versus 13.5), and device dimensions, and then predict whether FP interference should be suppressed or restored. That gap prevented close, parameter-resolved comparison between experiment and theory needed to attribute observed FP patterns to dielectric screening of impurity potentials.",
+        "content_hash": "ff90f236620f9f8d5d53dc4525e51dd87e53b87466e4f793f9181d1c14b7b40a",
+        "id": "gcn_81503d45088b4dee",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1183449982028480544::conclusion_3_subproblem",
+            "package_id": "paper:1183449982028480544",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1183449982028480544"
+          ]
+        },
+        "rerank_score": 0.639243155206831,
+        "role": "premise",
+        "score": 0.014492753623188406,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Physical/scientific context: NEGF naturally yields device Green's functions and contact broadenings, while the generalized shot-noise formula is expressed in terms of scattering amplitudes. Previous numerical implementations of LB-like noise formulas coupled to NEGF used Fisher–Lee relations for non-interacting fixed potentials; here, because scattering amplitudes depend on snapshot-specific potentials, a robust procedure is required to compute $\\mathbf{t},\\mathbf{r}$ from the NEGF $\\mathbf{G}$ for each self-consistent snapshot so that the generalized expression can be evaluated numerically.",
+        "content_hash": "b6d1fd59d33145df8fd8524be8805aed308fcab62a0a69eeac4040cc10b71bf3",
+        "id": "gcn_1c384028d5864094",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867754444618465990::conclusion_5_subproblem",
+            "package_id": "paper:867754444618465990",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867754444618465990"
+          ]
+        },
+        "rerank_score": 0.7378740945495439,
+        "role": "premise",
+        "score": 0.01639344262295082,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Experimentalists and theorists needed a controlled operational definition and calculational formula for the temperature-bias-only contribution to current noise in multiterminal edge geometries: a zero-voltage protocol that isolates the non-equilibrium thermal contribution without contamination from steady charge currents. Prior scattering-theory expressions for quantum noise (Blanter–Büttiker type) provide full noise at arbitrary voltages and temperatures but do not directly give the Δ_T component in a multiterminal setting in a form that ensures current-conservation identities (e.g., S_{ii} = -∑_{j≠i}S_{ij}) unless auxiliary regularization (energy-dependent reference distributions) is introduced. Without a clear, general Δ_T formula that accounts for these consistency conditions and explicitly ties Δ_T to s-matrix elements and reservoir Fermi functions, one cannot compute or compare the temperature-driven noise fingerprints of distinct edge modes or assess their experimental measurability in four-terminal devices.",
+        "content_hash": "3cf05bbc2b27bfc8229b23395b7edcbb10792f424e64274fcd65e918e3b5b6e2",
+        "id": "gcn_3440ddc7712a4e27",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1177308086130442243::conclusion_1_subproblem",
+            "package_id": "paper:1177308086130442243",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1177308086130442243"
+          ]
+        },
+        "rerank_score": 0.6375973091006124,
+        "role": "premise",
+        "score": 0.007518796992481203,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Topological edge modes produce observable transport signatures; in order to corroborate a topological classification obtained from a real-space marker and spectral diagnostics, one needs an independent dynamical transport calculation demonstrating protected conduction associated with edge states. Prior to this work, NEGF-based conductance diagnostics had been used in electronic tight-binding contexts but were not demonstrated systematically for the intra-cell AA-modulated mechanical SSH dynamical matrix. Without NEGF conductance data, claims about conducting edge channels in the TAI regime lack explicit transport evidence. The NEGF calculations here provide that complementary signature and confirm that mid-gap, localized edge modes computed from $D$ actually support a single quantized conducting channel.",
+        "content_hash": "90468576a057bd7a1194803081e4d0fe3d5e1acc8008084dca0cf2417d5446b6",
+        "id": "gcn_e13b306439ec4f84",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1027222240887832579::conclusion_4_subproblem",
+            "package_id": "paper:1027222240887832579",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1027222240887832579"
+          ]
+        },
+        "rerank_score": 0.6347128495102939,
+        "role": "premise",
+        "score": 0.009708737864077669,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In standard solid-state quantum Hall experiments, a Hall bar requires at least four terminals to measure the longitudinal and Hall voltages independently. For ultracold atomic gases, implementing a similar multiterminal geometry is very challenging because it would require multiple reservoirs and constrictions. The synthetic dimension approach offers a possible alternative: the $\\lambda$ levels are naturally ordered in energy, so that only low-$\\lambda$ states are populated when the reservoir chemical potential is low. This can be interpreted as each $\\lambda$ row being connected to an independent reservoir with a chemical potential $\\mu_\\lambda = \\mu - \\lambda\\hbar\\omega$ (approximately). If this effective multiterminal picture holds, then the two-terminal conductance measurement on the real reservoirs would reflect a combination of contributions from many $\\lambda$ channels. By choosing appropriate combinations of the effective terminal indices (e.g., $L_1, R_1$ for the $\\lambda=0$ edge, $L_2, R_2$ for the next row), one could isolate the edge-mode contribution and thus extract the Hall conductance. The question was whether this effective multiterminal picture is mathematically consistent with the Landauer–Büttiker formalism and whether the resulting Hall conductance plateaus would be robust.",
+        "content_hash": "4ceb1f4afd60eea065632e653d38c37d9c2b20d4e130db4a6acaf98bddc905ac",
+        "id": "gcn_a424d5d49281478e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817404054144548864::conclusion_4_subproblem",
+            "package_id": "paper:817404054144548864",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817404054144548864"
+          ]
+        },
+        "rerank_score": 0.6301132290146012,
+        "role": "premise",
+        "score": 0.006369426751592357,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Quantitative simulation of bias‑dependent I–V characteristics in the presence of internal scattering requires an explicit device‑level expression that relates local coherent propagation kernels and local occupations to terminal current. While NEGF supplies Green's functions and local broadening functions, packaging these into an integral that yields the drain current in a form compatible with the noise decomposition is necessary to compare ballistic and scattering cases on equal footing. The presented $I_{D}$ formula expresses the drain current as the net nonlocal coherent flux into the drain contact and provides the direct computational target for the NEGF steady‑state solution used to produce the numerical current reductions and to normalize shot‑noise comparisons.",
+        "content_hash": "7750e3eec50d73e20a38c0550a94348ad9ed879724db69e10ed0640947a87820",
+        "id": "gcn_144ab0ccdf0c4c9d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811875281684922368::conclusion_9_subproblem",
+            "package_id": "paper:811875281684922368",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811875281684922368"
+          ]
+        },
+        "rerank_score": 0.7218792974498778,
+        "role": "premise",
+        "score": 0.011363636363636364,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Transport in graphene Hall bars is known to exhibit quantum Hall plateaus and corresponding longitudinal resistance peaks when Landau levels cross the Fermi energy. Prior modeling for large samples captures this phenomenology semiclassically or with models that implicitly assume bulk-like Landau levels. For nanoscale samples (here $W=L=50\\ \\text{nm}$) confinement modifies the spectrum and a quantum-mechanical verification that the multiterminal Landauer-Büttiker resistance framework (with mode-resolved transmissions obtained from NEGF) still produces the expected quantized Hall steps and longitudinal resistance peaks is required. Without such a calculation, one cannot rely on semiclassical expectations for diagnostic features of Landau-level crossing in nanoscale multiterminal measurements, nor validate the numerical transport methodology for the gated calculations that follow.",
+        "content_hash": "a5a6a730b2d6b0e2ed2dcef4e4974e0a8d9979d54b5908e21bbfbc45bc8a23a9",
+        "id": "gcn_649b41cbf2a24e26",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867762565508235382::conclusion_1_subproblem",
+            "package_id": "paper:867762565508235382",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867762565508235382"
+          ]
+        },
+        "rerank_score": 0.6965774870374257,
+        "role": "premise",
+        "score": 0.007407407407407408,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Experimental conductance maps alone do not determine transmission-eigenvalue statistics: conductance gives only $\\sum_n T_n$ and cannot distinguish different eigenvalue distributions that produce the same conductance. Existing theoretical approaches either used oversimplified potential profiles (saddle or rectangular potentials) or purely statistical RMT arguments divorced from device electrostatics, leaving a gap between microscopic device parameters (gate geometry, local filling, localized states under gates, disorder) and universal eigenvalue statistics that control shot noise. A combined, device-resolved computational framework was therefore needed to translate realistic gate-controlled potentials into transmission eigenvalues and to supply the correct inputs ($N$, $\\Gamma$, $\\rho(T)$) to RMT so that universal shot-noise predictions become experimentally testable for graphene QPCs in the quantum Hall regime.",
+        "content_hash": "dfac9e838b9e0611f29eef3cb47d5fd5e00ae7ed956f7aeb46916cd4d9d80bc6",
+        "id": "gcn_ceb5d6f84273483d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1243175682972844035::conclusion_1_subproblem",
+            "package_id": "paper:1243175682972844035",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1243175682972844035"
+          ]
+        },
+        "rerank_score": 0.6184391314646047,
+        "role": "premise",
+        "score": 0.012195121951219513,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In experiments on mesoscopic and topological semiconductor devices the electrical transport is often carried by narrow edge channels (quantum Hall effect, QHE; quantum spin Hall effect, QSHE), and a complete description of transport in multi‑terminal samples requires the full N×N conductance matrix G relating contact currents and voltages via $\\boldsymbol{I}=\\boldsymbol{G}\\cdot\\boldsymbol{V}$. Prior practice has relied on Landauer–Büttiker theory to relate particular measured four‑terminal resistances to transmission coefficients, but there was no practical, experimentally detailed procedure that (i) yields the full conductance matrix for a realistic multi‑terminal sample, (ii) provides instrument‑level and statistical uncertainty estimates for every matrix element, and (iii) accounts quantitatively for unavoidable parasitic effects that distort measured voltages — in particular finite contact pad resistances $R_c$, thermoelectric EMFs, geometrical asymmetries of probe placement, and limited measurement time/throughput. Existing treatments typically used idealized assumptions (reciprocity, zero probe resistance, perfect symmetry) or focused on specific transmission coefficients rather than reconstructing G in full; as a consequence, experimentalists lacked a reproducible measurement algorithm to (a) choose current injection pairs to avoid singular linear systems, (b) compute all pairwise potential differences efficiently and with controlled error propagation, and (c) separate genuine edge‑channel transmission signatures from artifacts introduced by $R_c$ and probe asymmetries. This gap prevented unambiguous experimental identification and quantitative analysis of edge transport (e.g., distinguishing non‑reciprocal channel conductances, assessing backscattering weights, or using G as a device signature), and limited the practical use of conductance matrices for device engineering (including proposed analog applications).",
+        "content_hash": "ef07b16e8fb9e2b1e9c34c2ed132c1934ddd4a1c19ed656a543807319026f0a5",
+        "id": "gcn_98b74a6ffc4942aa",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867747660444992417::problem",
+            "package_id": "paper:867747660444992417",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867747660444992417"
+          ]
+        },
+        "rerank_score": 0.6940344081863772,
+        "role": "premise",
+        "score": 0.012345679012345678,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Any generalized four-component conductance must be consistent with the well-established scalar NEGF Landauer expressions in the purely charge limit. Prior to a unified matrix expression there was a risk that new multi-component formulations would be incompatible with standard benchmarks for charge transport. Demonstrating the reduction to the conventional charge formula is therefore required to validate that the new $4\\times4$ conductance is a genuine generalization and can be used interchangeably where spin degrees of freedom are not active.",
+        "content_hash": "2a54207418f9d1ce07be746a504c3d27b39fca76bba6144f5c88cbddc6ac37e7",
+        "id": "gcn_2e575dde91b1495a",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812813430258925570::conclusion_3_subproblem",
+            "package_id": "paper:812813430258925570",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812813430258925570"
+          ]
+        },
+        "rerank_score": 0.686954890033724,
+        "role": "premise",
+        "score": 0.007633587786259542,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Separating the roles of surface-localized and bulk-extended states in transport requires transport modeling of clean multilayers contacted at their surfaces. Prior to this study there was no explicit Landauer/NEGF-based ballistic-conductance calculation for surface-contacted FL antimonene that quantifies how conductance scales with layer number when TPSS and bulk pockets coexist. Without such calculations one cannot assess whether the naive expectation of conductance growing linearly with the number of conducting layers applies or whether surface channels can produce a thickness-insensitive conductance.",
+        "content_hash": "6ae7898867536eb7ce4c9d99a9077d3cf50fc6fb1e0746ac81e8940629a40e65",
+        "id": "gcn_a3d8f7f342f247a4",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867753569162363241::conclusion_6_subproblem",
+            "package_id": "paper:867753569162363241",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867753569162363241"
+          ]
+        },
+        "rerank_score": 0.6243861804240953,
+        "role": "premise",
+        "score": 0.01098901098901099,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Quantitative validation of a multi-terminal NEGF approach with homogeneous magnetic field requires direct computation of physical observables measured in experiments, notably the Hall resistance $R_{xy}$ and longitudinal resistance $R_{xx}$, for device geometries and impurity realizations representative of laboratory samples. Earlier limited-field or two-terminal simulations could not faithfully reproduce multi-probe measurement conditions or impurity-induced shifts in plateau onset. A demonstration that the full-device, homogeneous-field NEGF workflow yields $R_{xx}$ and $R_{xy}$ trends and captures impurity-driven modifications is therefore required to validate the numerical procedures and to compare with experimental quantum-Hall data.",
+        "content_hash": "db6abbf72a4820255460f8bfad0f71342b87caf1d3219f37ca6388fbae757e2e",
+        "id": "gcn_85eaea3da9be4c6e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812397509975474176::conclusion_5_subproblem",
+            "package_id": "paper:812397509975474176",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812397509975474176"
+          ]
+        },
+        "rerank_score": 0.6535265645690107,
+        "role": "premise",
+        "score": 0.006578947368421052,
+        "type": "question",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "req_deffd6287506e"
+}

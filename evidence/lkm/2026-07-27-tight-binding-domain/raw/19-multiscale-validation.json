@@ -1,0 +1,1488 @@
+{
+  "code": 0,
+  "data": {
+    "has_more": true,
+    "papers": {
+      "paper:1024642401873952773": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "L. L. Lage | O. Arroyo-Gascón | Leonor Chico | A. Latgé",
+        "available_online": "",
+        "cover_date_start": "2024-03-28",
+        "created_at": "2026-06-13T04:17:30+08:00",
+        "doi": "10.48550/arxiv.2403.19373",
+        "en_title": "Robustness of type-II Dirac cones in biphenylene-based structures",
+        "id": "1024642401873952773",
+        "keywords": "",
+        "publication_date": "2024-03-28",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "基于联亚苯基结构的II型狄拉克锥的稳健性"
+      },
+      "paper:1068413833229369356": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Motohiko Ezawa",
+        "available_online": "",
+        "cover_date_start": "2024-11-25",
+        "created_at": "2026-06-13T13:05:40+08:00",
+        "doi": "10.48550/arxiv.2411.16036",
+        "en_title": "Third-order and fifth-order nonlinear spin-current generation in $g$-wave and $i$-wave altermagnets and perfect spin-current diode based on $f$-wave magnets",
+        "id": "1068413833229369356",
+        "keywords": "",
+        "publication_date": "2024-11-25",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "基于f波磁体的g波和i波交替磁体中的三阶和五阶非线性自旋流产生以及完美自旋流二极管"
+      },
+      "paper:1102523558807994392": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Alexey Bondarev | Gu Zhang | Harold U. Baranger",
+        "available_online": "",
+        "cover_date_start": "2025-02-18",
+        "created_at": "2026-06-19T04:44:30+08:00",
+        "doi": "10.48550/arxiv.2502.13307",
+        "en_title": "Transparent Graphene-Superconductor Interfaces: Quantum Hall and Zero Field Regimes",
+        "id": "1102523558807994392",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "透明石墨烯 - 超导体界面：量子霍尔和零场状态"
+      },
+      "paper:1155117519665627144": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Mohammadamir Bazrafshan | Thomas. D. Kühne",
+        "available_online": "",
+        "cover_date_start": "2025-07-23",
+        "created_at": "2026-06-19T02:32:11+08:00",
+        "doi": "10.48550/arxiv.2507.17410",
+        "en_title": "Revisiting the Impact of Single-Vacancy Defects on Electronic Properties of Graphene",
+        "id": "1155117519665627144",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Materials Science",
+        "research_categories": "",
+        "zh_title": "重新审视单空位缺陷对石墨烯电子性质的影响"
+      },
+      "paper:1177308086130442242": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Motohiko Ezawa",
+        "available_online": "",
+        "cover_date_start": "2025-09-21",
+        "created_at": "2026-06-13T10:37:03+08:00",
+        "doi": "10.48550/arXiv.2509.16867",
+        "en_title": "Tunneling magnetoresistance in a junction made of X-wave magnets with X=p,d,f,g,i",
+        "id": "1177308086130442242",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "由X波磁体（X = p、d、f、g、i）制成的结中的隧穿磁电阻"
+      },
+      "paper:1187776897719730189": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Daniele Barettin | Stella V. Kavokina | Evgeny L. Ivchenko | Alexey V. Kavokin",
+        "available_online": "",
+        "cover_date_start": "2025-10-21",
+        "created_at": "2026-06-19T07:54:12+08:00",
+        "doi": "10.48550/arXiv.2510.18482",
+        "en_title": "Semiconductor-Semimetal Transition in van der Waals Carbyne Crystals",
+        "id": "1187776897719730189",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "范德华卡宾晶体中的半导体-半金属转变"
+      },
+      "paper:1250179902330634263": {
+        "area": null,
+        "authors": "Maxime Van den Bossche",
+        "available_online": "2023/12/07",
+        "cover_date_start": "2023-12-07",
+        "created_at": "2026-05-18T13:29:22+08:00",
+        "doi": "10.26434/chemrxiv-2023-v7ljv",
+        "en_title": "Three-Center Tight-Binding together with Multipolar Auxiliary Functions",
+        "id": "1250179902330634263",
+        "keywords": "[{\"en_name\": \"tight-binding\", \"ch_name\": \"\"}, {\"en_name\": \"Tibi\", \"ch_name\": \"\"}, {\"en_name\": \"Hotcent\", \"ch_name\": \"\"}, {\"en_name\": \"approximate DFT\", \"ch_name\": \"\"}]",
+        "publication_date": "",
+        "publication_id": "137753",
+        "publication_name": "chemRxiv-Physical Chemistry",
+        "research_categories": "",
+        "zh_title": "三中心紧束缚与多极辅助函数"
+      },
+      "paper:1286282699631230978": {
+        "area": "arXiv, arXiv-Condensed Matter",
+        "authors": "Hernan Aguirre | Hernan L. Calvo | Eduardo M. Perassi",
+        "available_online": "",
+        "cas_zone": "99",
+        "cover_date_start": "2026-07-20",
+        "created_at": "2026-07-23T05:46:30+08:00",
+        "doi": "10.48550/arxiv.2607.18214",
+        "en_title": "Position-dependent tight-binding model for Li impurities in monolayer and bilayer graphene",
+        "id": "1286282699631230978",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": ""
+      },
+      "paper:811667364922785795": {
+        "area": "Material science, Physical Sciences, Condensed Matter Physics",
+        "authors": "Fangping Ouyang | Shenglin Peng | Zhongfan Liu | Zhirong Liu",
+        "available_online": "2011-4-29",
+        "cas_zone": "1",
+        "cover_date_start": "2011-04-29",
+        "created_at": "2026-06-19T08:38:09+08:00",
+        "doi": "10.1021/nn200580w",
+        "en_title": "Bandgap Opening in Graphene Antidot Lattices: The Missing Half",
+        "id": "811667364922785795",
+        "impact_factor": 16.3,
+        "jcr_zone": "Q1",
+        "keywords": "[{\"en_name\": \"Antidot lattices\", \"ch_name\": \"\"}, {\"en_name\": \"Bandgap\", \"ch_name\": \"\"}, {\"en_name\": \"Electronic structure\", \"ch_name\": \"\"}, {\"en_name\": \"First-principles calculations\", \"ch_name\": \"\"}, {\"en_name\": \"Graphene\", \"ch_name\": \"\"}, {\"en_name\": \"Tight-binding model\", \"ch_name\": \"\"}]",
+        "publication_date": "2011-5-24",
+        "publication_id": "2020",
+        "publication_name": "ACS Nano _ ACS Nano",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "石墨烯反点晶格中的带隙打开：缺失的另一半"
+      },
+      "paper:811680488723841024": {
+        "area": "chemistry, physical, physics, atomic, molecular & chemical",
+        "authors": "Chih-Wei Chiu | Yuan-Cheng Huang | Szu-Chao Chen | Ming-Fa Lin | Feng-Lin Shyu",
+        "available_online": "",
+        "cas_zone": "3",
+        "cover_date_start": "2011-01-01",
+        "created_at": "2026-06-13T12:53:41+08:00",
+        "doi": "10.1039/c0cp01830a",
+        "en_title": "Low-frequency electronic and optical properties of rhombohedral graphite",
+        "id": "811680488723841024",
+        "impact_factor": 2.1,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "2011",
+        "publication_id": "3439",
+        "publication_name": "Physical Chemistry Chemical Physics _ Phys. Chem. Chem. Phys.",
+        "research_categories": "",
+        "zh_title": "菱方石墨的低频电子与光学性质"
+      },
+      "paper:811807096193417216": {
+        "area": "material science, materials science, multidisciplinary, chemistry, physical, physics, applied, condensed matter, nanoscience & nanotechnology",
+        "authors": "G. Trambly de Laissardière | D. Mayou | L. Magaud",
+        "available_online": "2010-2-1",
+        "cas_zone": "2",
+        "cover_date_start": "2010-02-01",
+        "created_at": "2026-06-12T04:17:54+08:00",
+        "doi": "10.1021/nl902948m",
+        "en_title": "Localization of Dirac Electrons in Rotated Graphene Bilayers",
+        "id": "811807096193417216",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "[{\"en_name\": \"Ab initio\", \"ch_name\": \"\"}, {\"en_name\": \"Electron localization\", \"ch_name\": \"\"}, {\"en_name\": \"Graphene\", \"ch_name\": \"\"}, {\"en_name\": \"Graphite\", \"ch_name\": \"\"}, {\"en_name\": \"Moire pattern\", \"ch_name\": \"\"}, {\"en_name\": \"Tight binding\", \"ch_name\": \"\"}]",
+        "publication_date": "2010-3-10",
+        "publication_id": "2026",
+        "publication_name": "Nano Letters _ Nano Lett.",
+        "research_categories": "",
+        "zh_title": "旋转双层石墨烯中狄拉克电子的局域化"
+      },
+      "paper:812661069578240002": {
+        "area": "material science, materials science, multidisciplinary, chemistry, physical, physics, applied, condensed matter, nanoscience & nanotechnology",
+        "authors": "Stephen Carr | Chenyuan Li | Ziyan Zhu | Efthimios Kaxiras | Subir Sachdev | Alexander Kruchkov",
+        "available_online": "2020-3-25",
+        "cas_zone": "2",
+        "cover_date_start": "2020-03-25",
+        "created_at": "2026-06-14T10:19:21+08:00",
+        "doi": "10.1021/acs.nanolett.9b04979",
+        "en_title": "Ultraheavy and Ultrarelativistic Dirac Quasiparticles in Sandwiched Graphenes",
+        "id": "812661069578240002",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "[{\"en_name\": \"ab initio calculations\", \"ch_name\": \"\"}, {\"en_name\": \"flat bands\", \"ch_name\": \"\"}, {\"en_name\": \"Graphene\", \"ch_name\": \"\"}, {\"en_name\": \"lattice relaxation.\", \"ch_name\": \"\"}, {\"en_name\": \"moiré superlattices\", \"ch_name\": \"\"}]",
+        "publication_date": "2020-5-13",
+        "publication_id": "2026",
+        "publication_name": "Nano Letters _ Nano Lett.",
+        "research_categories": "",
+        "zh_title": "夹层石墨烯中的超重和超相对论性狄拉克准粒子"
+      },
+      "paper:812730926273396738": {
+        "area": "material science, physical sciences, condensed matter physics",
+        "authors": "Aron W. Cummings | Simon M.-M. Dubois | Jean-Christophe Charlier | Stephan Roche",
+        "available_online": "2019-9-18",
+        "cas_zone": "2",
+        "cover_date_start": "2019-09-18",
+        "created_at": "2026-06-12T02:33:20+08:00",
+        "doi": "10.1021/acs.nanolett.9b03112",
+        "en_title": "Universal Spin Diffusion Length in Polycrystalline Graphene",
+        "id": "812730926273396738",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "[{\"en_name\": \"CVD\", \"ch_name\": \"\"}, {\"en_name\": \"grain boundaries\", \"ch_name\": \"\"}, {\"en_name\": \"Graphene\", \"ch_name\": \"\"}, {\"en_name\": \"polycrystalline\", \"ch_name\": \"\"}, {\"en_name\": \"spin relaxation\", \"ch_name\": \"\"}, {\"en_name\": \"spintronics\", \"ch_name\": \"\"}]",
+        "publication_date": "2019-10-9",
+        "publication_id": "2026",
+        "publication_name": "Nano Letters _ Nano Lett.",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "多晶石墨烯中的通用自旋扩散长度"
+      },
+      "paper:812764178287689729": {
+        "area": "material science, engineering, nanotechnology, physical sciences, condensed matter physics, quantum physics",
+        "authors": "Christopher C. Price | Nathan C. Frey | Deep Jariwala | Vivek B. Shenoy",
+        "available_online": "2019-6-21",
+        "cas_zone": "1",
+        "cover_date_start": "2019-06-21",
+        "created_at": "2026-06-17T08:51:27+08:00",
+        "doi": "10.1021/acsnano.9b03716",
+        "en_title": "Engineering Zero-Dimensional Quantum Confinement in Transition-Metal Dichalcogenide Heterostructures",
+        "id": "812764178287689729",
+        "impact_factor": 16.3,
+        "jcr_zone": "Q1",
+        "keywords": "[{\"en_name\": \"Dirac fermions\", \"ch_name\": \"\"}, {\"en_name\": \"heterostructure\", \"ch_name\": \"\"}, {\"en_name\": \"multiscale modeling\", \"ch_name\": \"\"}, {\"en_name\": \"quantum dot\", \"ch_name\": \"\"}, {\"en_name\": \"transition-metal dichalcogenides\", \"ch_name\": \"\"}, {\"en_name\": \"two-dimensional materials\", \"ch_name\": \"\"}]",
+        "publication_date": "2019-7-23",
+        "publication_id": "2020",
+        "publication_name": "ACS Nano _ ACS Nano",
+        "research_categories": "[\"Engineering\", \"Nanotechnology\", \"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "在过渡金属二硫属化物异质结构中构建零维量子限域"
+      },
+      "paper:813227052453855233": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, materials science, multidisciplinary",
+        "authors": "Pilkyung Moon | Mikito Koshino",
+        "available_online": "2013-5-2",
+        "cas_zone": "2",
+        "cover_date_start": "2013-05-02",
+        "created_at": "2026-06-13T07:21:43+08:00",
+        "doi": "10.1103/physrevb.87.205404",
+        "en_title": "Optical absorption in twisted bilayer graphene",
+        "id": "813227052453855233",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "扭曲双层石墨烯中的光吸收"
+      },
+      "paper:813238273693450241": {
+        "area": "Physics and Astrophysics, Mathematical Sciences, Mathematical Physics, Physical Sciences, Condensed Matter Physics, Quantum Physics",
+        "authors": "Jelena Klinovaja | Daniel Loss",
+        "available_online": "2013-3-19",
+        "cas_zone": "1",
+        "cover_date_start": "2013-03-19",
+        "created_at": "2026-06-19T05:54:14+08:00",
+        "doi": "10.1103/physrevlett.110.126402",
+        "en_title": "Fractional Fermions with Non-Abelian Statistics",
+        "id": "813238273693450241",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "[\"Mathematical Sciences\", \"Mathematical Physics\", \"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "具有非阿贝尔统计特性的分数费米子"
+      },
+      "paper:814560188810919937": {
+        "area": "physics and astrophysics, physics, multidisciplinary",
+        "authors": "D. D. Solnyshkov | A. V. Nalitov | G. Malpuech",
+        "available_online": "2016-1-29",
+        "cas_zone": "1",
+        "cover_date_start": "2016-01-29",
+        "created_at": "2026-06-15T03:50:11+08:00",
+        "doi": "10.1103/physrevlett.116.046402",
+        "en_title": "Kibble-Zurek Mechanism in Topologically Nontrivial Zigzag Chains of Polariton Micropillars",
+        "id": "814560188810919937",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "",
+        "zh_title": "极化激元微柱拓扑非平凡曲折链中的基布尔-祖雷克机制"
+      },
+      "paper:814625335990550530": {
+        "area": "material science, materials science, multidisciplinary, chemistry, physical, physics, applied, condensed matter, nanoscience & nanotechnology",
+        "authors": "A. A. Mitioglu | P. Plochocka | Á. Granados del Aguila | P. C. M. Christianen | G. Deligeorgis | S. Anghel | L. Kulyuk | D. K. Maude",
+        "available_online": "2015-6-15",
+        "cas_zone": "2",
+        "cover_date_start": "2015-06-15",
+        "created_at": "2026-06-16T05:08:42+08:00",
+        "doi": "10.1021/acs.nanolett.5b00626",
+        "en_title": "Optical Investigation of Monolayer and Bulk Tungsten Diselenide (WSe 2 ) in High Magnetic Fields",
+        "id": "814625335990550530",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2015-7-8",
+        "publication_id": "2026",
+        "publication_name": "Nano Letters _ Nano Lett.",
+        "research_categories": "",
+        "zh_title": "高磁场下单层和体相二硒化钨（WSe₂）的光学研究"
+      },
+      "paper:817399059563151360": {
+        "area": "geoscience, physical sciences, condensed matter physics",
+        "authors": "Daniel T. Larson | Wei Chen | Steven B. Torrisi | Jennifer Coulter | Shiang Fang | Efthimios Kaxiras",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2020-07-22",
+        "created_at": "2026-06-02T12:49:05+08:00",
+        "doi": "10.1103/PhysRevB.102.045128",
+        "en_title": "Effects of structural distortions on the electronic structure of -type transition metal dichalcogenides",
+        "id": "817399059563151360",
+        "impact_factor": 3.6,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "98281",
+        "publication_name": "Physical Review B   Condensed Matter and Materials Physics _ ",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "结构畸变对-型过渡金属二硫属化物电子结构的影响"
+      },
+      "paper:817400016527163394": {
+        "area": "geoscience, materials science, multidisciplinary, physics, condensed matter",
+        "authors": "Mikito Koshino and Nguyen N. T. Nam",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2020-05-16",
+        "created_at": "2026-06-02T13:48:52+08:00",
+        "doi": "10.1103/PhysRevB.101.195425",
+        "en_title": "Effective continuum model for relaxed twisted bilayer graphene and moiré electron-phonon interaction",
+        "id": "817400016527163394",
+        "impact_factor": 3.6,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "98281",
+        "publication_name": "Physical Review B   Condensed Matter and Materials Physics _ ",
+        "research_categories": "",
+        "zh_title": "弛豫扭曲双层石墨烯和莫尔电子-声子相互作用的有效连续体模型"
+      },
+      "paper:867749524582433526": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Tomoaki Kaneko | Kikuo Harigaya",
+        "available_online": "",
+        "cover_date_start": "2012-11-04",
+        "created_at": "2026-06-12T03:43:25+08:00",
+        "doi": "10.48550/arXiv.1211.0726",
+        "en_title": "Dependence of atomic arrangement on length of flat bands in zigzag BC2N nanoribbons",
+        "id": "867749524582433526",
+        "keywords": "",
+        "publication_date": "2012-11-04",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "",
+        "zh_title": "锯齿形BC2N纳米带中原子排列对平带长度的依赖性"
+      },
+      "paper:867749586037375395": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "O. V. Bugaiko | D. O. Oriekhov",
+        "available_online": "",
+        "cover_date_start": "2019-02-06",
+        "created_at": "2026-06-16T08:24:33+08:00",
+        "doi": "10.48550/arXiv.1902.02367",
+        "en_title": "Electronic states of pseudospin-1 fermions in $α-\\mathcal{T}_3$ lattice ribbons in a magnetic field",
+        "id": "867749586037375395",
+        "keywords": "",
+        "publication_date": "2019-02-06",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "磁场中α - $\\mathcal{T}_3$晶格带中赝自旋 - 1费米子的电子态"
+      },
+      "paper:867756148961312875": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Dongzhe Li | Cyrille Barreteau | Martin R. Castell | Fabien Silly | Alexander Smogunov",
+        "available_online": "",
+        "cover_date_start": "2014-07-22",
+        "created_at": "2026-06-19T02:44:24+08:00",
+        "doi": "10.48550/arXiv.1407.5830",
+        "en_title": "Out- versus in-plane magnetic anisotropy of free Fe and Co nanocrystals: tight-binding and first-principles studies",
+        "id": "867756148961312875",
+        "keywords": "",
+        "publication_date": "2014-07-22",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "",
+        "zh_title": "自由铁和钴纳米晶体的面外与面内磁各向异性：紧束缚和第一性原理研究"
+      },
+      "paper:867757942403760871": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "P. A. Almeida | L. S. Sousa | Tome M. Schmidt | G. B. Martins",
+        "available_online": "",
+        "cover_date_start": "2022-02-01",
+        "created_at": "2026-06-09T21:26:52+08:00",
+        "doi": "10.48550/arXiv.2202.00742",
+        "en_title": "Ferromagnetism in armchair graphene nanoribbon heterostructures",
+        "id": "867757942403760871",
+        "keywords": "",
+        "publication_date": "2022-02-01",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "扶手椅型石墨烯纳米带异质结构中的铁磁性"
+      },
+      "paper:867759972065214508": {
+        "area": "arxiv-physics, engineering, physical sciences, condensed matter physics",
+        "authors": "Víctor M. García-Suárez",
+        "available_online": "",
+        "cover_date_start": "2023-01-17",
+        "created_at": "2026-06-17T08:18:32+08:00",
+        "doi": "10.48550/arXiv.2301.06966",
+        "en_title": "Thermoelectric response enhanced by surface/edge states in physical nanogaps",
+        "id": "867759972065214508",
+        "keywords": "",
+        "publication_date": "2023-01-17",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Engineering\", \"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "物理纳米间隙中表面/边缘态增强的热电响应"
+      },
+      "paper:867763034523697721": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Gaohua Liao | Ning Luo | Ke-Qiu Chen | H. Q. Xu",
+        "available_online": "",
+        "cover_date_start": "2016-06-08",
+        "created_at": "2026-05-16T15:02:19+08:00",
+        "doi": "10.48550/arXiv.1606.02636",
+        "en_title": "Electronic structures of free-standing nanowires made from indirect bandgap semiconductor gallium phosphide",
+        "id": "867763034523697721",
+        "keywords": "",
+        "publication_date": "2016-06-08",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "由间接带隙半导体磷化镓制成的独立纳米线的电子结构"
+      },
+      "paper:867763272420425753": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "T. Stauber | T. Low | G. Gómez-Santos",
+        "available_online": "",
+        "cover_date_start": "2018-09-10",
+        "created_at": "2026-05-16T19:25:54+08:00",
+        "doi": "10.48550/arXiv.1809.03465",
+        "en_title": "Linear response of twisted bilayer graphene: continuum vs. tight-binding models",
+        "id": "867763272420425753",
+        "keywords": "",
+        "publication_date": "2018-09-10",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "扭曲双层石墨烯的线性响应：连续介质模型与紧束缚模型"
+      },
+      "paper:867765729875722847": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Zhoufei Liu | Liujun Xu | Jiping Huang",
+        "available_online": "",
+        "cover_date_start": "2022-06-20",
+        "created_at": "2026-06-12T05:35:58+08:00",
+        "doi": "10.48550/arXiv.2206.09837",
+        "en_title": "Higher-Dimensional Topological Insulators in Pure Diffusion Systems",
+        "id": "867765729875722847",
+        "keywords": "",
+        "publication_date": "2022-06-20",
+        "publication_id": "108505",
+        "publication_name": "Applied Physics _ Physics.physics.app-ph",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "纯扩散系统中的高维拓扑绝缘体"
+      },
+      "paper:867766333842916054": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Xiaotian Shi | Jinkyu Yang",
+        "available_online": "",
+        "cover_date_start": "2020-04-06",
+        "created_at": "2026-06-19T01:37:12+08:00",
+        "doi": "10.48550/arXiv.2004.02412",
+        "en_title": "Spin-1 Weyl Point and Surface Arc State in a Chiral Phononic Crystal",
+        "id": "867766333842916054",
+        "keywords": "",
+        "publication_date": "2020-04-06",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "手性声子晶体中的自旋-1外尔点和表面弧态"
+      },
+      "paper:867766532191551867": {
+        "area": "arxiv-physics, engineering, nanotechnology, physical sciences, condensed matter physics",
+        "authors": "Michele Pizzochero | Kristiāns Čerņevičs | Gabriela Borin Barin | Shiyong Wang | Pascal Ruffieux | Roman Fasel | Oleg V. Yazyev",
+        "available_online": "",
+        "cover_date_start": "2020-06-26",
+        "created_at": "2026-05-28T03:50:06+08:00",
+        "doi": "10.48550/arXiv.2006.15075",
+        "en_title": "Quantum Electronic Transport Across \"Bite\" Defects in Graphene Nanoribbons",
+        "id": "867766532191551867",
+        "keywords": "",
+        "publication_date": "2020-06-26",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "[\"Engineering\", \"Nanotechnology\", \"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "量子电子在石墨烯纳米带“咬合”缺陷处的输运"
+      },
+      "paper:867768106380952096": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Somnath Bhowmick | Vijay B. Shenoy",
+        "available_online": "",
+        "cover_date_start": "2010-11-22",
+        "created_at": "2026-06-19T07:49:20+08:00",
+        "doi": "10.48550/arXiv.1011.4736",
+        "en_title": "Sensory Organ like Response of Zigzag Edge Graphene Nanoribbons",
+        "id": "867768106380952096",
+        "keywords": "",
+        "publication_date": "2010-11-22",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "锯齿形边缘石墨烯纳米带的类感觉器官响应"
+      },
+      "paper:867768223968264610": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Yusef Koohsarian | Ali Naji",
+        "available_online": "",
+        "cover_date_start": "2021-10-27",
+        "created_at": "2026-05-16T18:51:48+08:00",
+        "doi": "10.48550/arXiv.2110.14338",
+        "en_title": "Bag boundaries for quasispinor confinement whithin nanolanes on a graphene sheet",
+        "id": "867768223968264610",
+        "keywords": "",
+        "publication_date": "2021-10-27",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "石墨烯片上纳米通道内准自旋子限制的袋状边界"
+      },
+      "paper:867768959993118953": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Guang Yang | Peter Stano | Jelena Klinovaja | Daniel Loss",
+        "available_online": "",
+        "cover_date_start": "2016-02-02",
+        "created_at": "2026-06-14T07:13:26+08:00",
+        "doi": "10.48550/arXiv.1602.00968",
+        "en_title": "Majorana bound states in magnetic skyrmions",
+        "id": "867768959993118953",
+        "keywords": "",
+        "publication_date": "2016-02-02",
+        "publication_id": "108490",
+        "publication_name": "Superconductivity _ Physics.cond-mat.supr-con",
+        "research_categories": "",
+        "zh_title": "磁斯格明子中的马约拉纳束缚态"
+      },
+      "paper:867770655649562805": {
+        "area": "arXiv-Physics, Physical Sciences, Condensed Matter Physics",
+        "authors": "Mikito Koshino | Nguyen N. T. Nam",
+        "available_online": "",
+        "cover_date_start": "2019-09-24",
+        "created_at": "2026-06-19T04:57:10+08:00",
+        "doi": "10.48550/arXiv.1909.10786",
+        "en_title": "Continuum model for relaxed twisted bilayer graphenes and moiré electron-phonon interaction",
+        "id": "867770655649562805",
+        "keywords": "",
+        "publication_date": "2019-09-24",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "弛豫扭曲双层石墨烯的连续体模型及莫尔电子-声子相互作用"
+      },
+      "paper:867772413759193107": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Dillon Wong | Fabiano Corsetti | Yang Wang | Victor W. Brar | Hsin-Zon Tsai | Qiong Wu | Roland K. Kawakami | Alex Zettl | Arash A. Mostofi | Johannes Lischner | Michael F. Crommie",
+        "available_online": "",
+        "cover_date_start": "2017-05-17",
+        "created_at": "2026-06-13T18:20:19+08:00",
+        "doi": "10.48550/arXiv.1705.06077",
+        "en_title": "Spatially resolving density-dependent screening around a single charged atom in graphene",
+        "id": "867772413759193107",
+        "keywords": "",
+        "publication_date": "2017-05-17",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "解析石墨烯中单个带电原子周围与密度相关的空间屏蔽效应"
+      },
+      "paper:874748089015993101": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Ricardo Ortiz",
+        "available_online": "",
+        "cover_date_start": "2023-06-08",
+        "created_at": "2026-06-19T06:39:49+08:00",
+        "doi": "10.48550/arXiv.2306.05346",
+        "en_title": "Olympicene radicals as building blocks of two-dimensional anisotropic networks",
+        "id": "874748089015993101",
+        "keywords": "",
+        "publication_date": "2023-06-08",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "奥运烯自由基作为二维各向异性网络的构建单元"
+      },
+      "paper:906786966924689686": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Po-Hsin Shih | Thi-Nga Do | Godfrey Gumbs",
+        "available_online": "",
+        "cover_date_start": "2023-09-05",
+        "created_at": "2026-06-14T08:21:13+08:00",
+        "doi": "10.48550/arXiv.2309.02535",
+        "en_title": "Strain Engineering of Magneto-optical Properties in C$_3$B/C$_3$N van der Waals Heterostructure",
+        "id": "906786966924689686",
+        "keywords": "",
+        "publication_date": "2023-09-05",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "",
+        "zh_title": "C₃B/C₃N范德华异质结构中磁光性质的应变工程"
+      },
+      "paper:919290960280551532": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Xiaoting Zhou | Yi-Chun Hung | Baokai Wang | Arun Bansil",
+        "available_online": "",
+        "cover_date_start": "2023-10-11",
+        "created_at": "2026-06-18T23:07:30+08:00",
+        "doi": "10.48550/arXiv.2310.07647",
+        "en_title": "Fountains of Flat Bands through Moiré Engineering",
+        "id": "919290960280551532",
+        "keywords": "",
+        "publication_date": "2023-10-11",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "通过莫尔工程实现的平带喷泉效应"
+      },
+      "paper:921827655311949886": {
+        "area": "arXiv-Physics, arXiv-Physics",
+        "authors": "Limin Song | Shenyi Gao | Jina Ma | Liqin Tang | Daohong Song | Yigang Li | Zhigang Chen",
+        "available_online": "",
+        "cover_date_start": "2023-10-18",
+        "created_at": "2026-06-19T09:21:48+08:00",
+        "doi": "10.48550/arXiv.2310.11858",
+        "en_title": "Multiple flat bands and localized states in photonic super-Kagome lattices",
+        "id": "921827655311949886",
+        "keywords": "",
+        "publication_date": "2023-10-18",
+        "publication_id": "108520",
+        "publication_name": "Optics _ Physics.physics.optics",
+        "research_categories": "",
+        "zh_title": "光子超 Kagome 晶格中的多个平带和局域态"
+      },
+      "paper:966036063640354870": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Mohammed M. Al Ezzi | Gayani N. Pallewela | Shaffique Adam",
+        "available_online": "",
+        "cover_date_start": "2023-12-31",
+        "created_at": "2026-06-14T13:50:36+08:00",
+        "doi": "10.48550/arXiv.2401.00498",
+        "en_title": "Analytical Model for Atomic Relaxation in Twisted Moiré Materials",
+        "id": "966036063640354870",
+        "keywords": "",
+        "publication_date": "2023-12-31",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "扭曲莫尔材料中原子弛豫的解析模型"
+      }
+    },
+    "variables": [
+      {
+        "content": "Different levels of modeling can produce divergent predictions if the observed phenomena depend on lattice-scale properties or multiband folding. It was therefore necessary to validate continuum intuitions (which are analytically tractable and parameter-transparent) against atomistic tight‑binding simulations that include lattice matching and band‑folding effects. Demonstrating agreement addresses the uncertainty about whether continuum matching conditions capture the essential physics of transparent graphene–superconductor interfaces and supports the use of continuum formulas (e.g., for $P_{A}$ and $v_{g}$) to interpret experiments.",
+        "content_hash": "53d6c4e14c4f3acc2df2cfcba8f807bcba538d799e396844a8a31d7db32680b9",
+        "id": "gcn_c9883ef775314033",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1102523558807994392::conclusion_9_subproblem",
+            "package_id": "paper:1102523558807994392",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1102523558807994392"
+          ]
+        },
+        "rerank_score": 0.9084796172969565,
+        "role": "premise",
+        "score": 0.006211180124223602,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Analytic continuum models rely on small-$k$ expansions and approximations (e.g., replacing lattice dispersion by parabolic forms near $\\Gamma$). Without explicit numerical checks on lattice tight-binding realizations, it is unclear whether the continuum predictions survive when lattice effects deform Fermi surfaces or when higher-order momentum dependence becomes relevant. Before this work no systematic numerical cross-check across the p,d,f,g,i families was presented. The tight-binding confirmations in this paper bridge the gap between low-energy continuum theory and lattice-realizable models, validating the analytic scalings in the parameter regimes considered and resolving the uncertainty about lattice-induced corrections in practical model implementations.",
+        "content_hash": "2c6ed2cab75a6bb3f32546adcf25c73d29b1ea833c5cb54d97073a37c79c2183",
+        "id": "gcn_d2c6245554f04bd1",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1177308086130442242::conclusion_5_subproblem",
+            "package_id": "paper:1177308086130442242",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1177308086130442242"
+          ]
+        },
+        "rerank_score": 0.8938093825077311,
+        "role": "premise",
+        "score": 0.00641025641025641,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Tight-binding provides useful intuition but neglects long-range Coulomb effects and exchange; therefore, without first-principles verification one cannot be confident that tight-binding-predicted compact localized states and flat-band energies are physically meaningful in realistic materials. Prior to these DFT checks there was uncertainty whether self-consistent Coulomb and exchange would delocalize the states or shift energies drastically. This conclusion demonstrates that the tight-binding picture is a robust starting point for realistic predictive modeling.",
+        "content_hash": "a25911cc753c43f2b6a3d2a1fa6844a1e5d04c1230b77e21396073ff4cdd376f",
+        "id": "gcn_3226df8d95374015",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867757942403760871::conclusion_7_subproblem",
+            "package_id": "paper:867757942403760871",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867757942403760871"
+          ]
+        },
+        "rerank_score": 0.8623447212255025,
+        "role": "premise",
+        "score": 0.01639344262295082,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Numerical validation in a continuous model is necessary to confirm that the discrete tight-binding predictions and experimental observations are robust when realistic lattice-site mode profiles, continuous diffraction, and longer propagation distances are included. Prior studies frequently rely solely on tight-binding models or short-distance experiments; without continuous-model simulations over long distances it remains unclear whether the discrete CLSs persist in a more realistic propagation setting and whether experimental observations are limited by finite propagation length or other fabrication details.",
+        "content_hash": "36c4d3153be47c14e269dfb98778ad0d365ff05510e90fd8937121dc35962c12",
+        "id": "gcn_b7037e5e77184992",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:921827655311949886::conclusion_6_subproblem",
+            "package_id": "paper:921827655311949886",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:921827655311949886"
+          ]
+        },
+        "rerank_score": 0.8523914941730915,
+        "role": "premise",
+        "score": 0.0078125,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The continuum $k\\cdot p$ approach is a long-wavelength theory that could break down at small dot sizes where atomic-scale band-structure details and additional bands matter. Without explicit cross-checks against atomistic tight-binding models, continuum predictions for few-nanometer dots would be uncertain. Establishing whether continuum-derived scaling laws and confinement trends persist into the small-size regime requires validation by a more microscopic model that includes the relevant orbital content and edge potentials; absent such checks, the design prescriptions would lack credibility across the full experimentally relevant size range.",
+        "content_hash": "0118d2877f26c2b68b77857e4f3cfc3c2e84dfd4f97c22d13cb043ea31421265",
+        "id": "gcn_d49454adfaeb497b",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812764178287689729::conclusion_8_subproblem",
+            "package_id": "paper:812764178287689729",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812764178287689729"
+          ]
+        },
+        "rerank_score": 0.8403043490036208,
+        "role": "premise",
+        "score": 0.005714285714285714,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Establishing trust in any analytic TB prediction requires that the TB dispersions faithfully reproduce more expensive first-principles results for the same crystalline geometry. Without such validation, quantities computed analytically (e.g., saddle-point gaps, finite-size gap scalings) could be artefacts of an oversimplified model. Demonstrating quantitative agreement with DFT along representative k-paths and in 3D ensures that subsequent analytical conclusions (critical chain length, hyperbolic singularity energy, oscillator-strength trends) are grounded on a TB model that captures the essential band topology and energetic scales of the real material.",
+        "content_hash": "d2fcd55a6f1657b86b3ea114fd24bdf71bb7231c19c034f2537e0c940ba81520",
+        "id": "gcn_d31da7df828a4de4",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1187776897719730189::conclusion_3_subproblem",
+            "package_id": "paper:1187776897719730189",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1187776897719730189"
+          ]
+        },
+        "rerank_score": 0.8274891114975416,
+        "role": "premise",
+        "score": 0.006369426751592357,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "To be useful for predictions, a compact TB model must be transferable: parameters fitted on idealized periodic structures (haeckelites) should also describe realistic GB configurations. If the model failed to reproduce first-principles bands and spin splittings in prototypical GB geometries, then conclusions drawn from large-scale TB transport simulations would be unreliable. Hence validation against first-principles electronic structure of representative GBs was necessary to justify using the model for transport.",
+        "content_hash": "9413bd65c30cb3adbd616165f93d2f81bc0cac81d1427008d8fb8943439fc072",
+        "id": "gcn_adf5c44081b64654",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812730926273396738::conclusion_3_subproblem",
+            "package_id": "paper:812730926273396738",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812730926273396738"
+          ]
+        },
+        "rerank_score": 0.8252225056366744,
+        "role": "premise",
+        "score": 0.011904761904761904,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Numerical predictions for moiré-engineered correlated states require atomistic validation of continuum expectations: continuum models can miss quantitative energy offsets, the effects of atomic-scale corrugation and strain, and the magnitude of indirect interlayer couplings that can lift degeneracies. Prior to this work, continuum predictions for trilayer magic angles and the coexistence of Dirac cones with flat bands were not confirmed by ab initio-derived tight-binding models that include realistic hopping ranges, strain corrections, and relaxation-induced domain formation. Without atomistic confirmation one cannot (i) produce quantitative magic-angle values to guide experiments, (ii) predict the density-of-states enhancement or gap sizes near $\\Gamma$, or (iii) determine whether the Dirac cone survives as a weakly hybridized monolayer-like feature. Ab initio tight-binding calculations that incorporate relaxation and long-range hoppings are thus necessary to provide quantitative benchmarks (magic angle, Fermi velocities, DOS features) for experiments and for assessing the continuum model's accuracy.",
+        "content_hash": "70924eac21876994433b4c393bbc90bb60cc78ec5c95dd40ca1c015a28e47f9a",
+        "id": "gcn_41d6e69ce7934d68",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812661069578240002::conclusion_3_subproblem",
+            "package_id": "paper:812661069578240002",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812661069578240002"
+          ]
+        },
+        "rerank_score": 0.8249828142009537,
+        "role": "premise",
+        "score": 0.02163678253030151,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Systematic scans of ribbon widths up to $n=26$ and family-resolved LDOS/transport studies require computationally efficient models. Pure first-principles transport across that many structures is expensive and would limit the ability to generalize. Prior to validation, it was unclear whether a compact tight-binding model could capture defect-induced localization and band-edge transport changes with quantitative fidelity. The validated tight-binding parametrization supplies an efficient and reliable computational surrogate to extend first-principles findings across broad width ranges.",
+        "content_hash": "ab0223d451602a03016eb072bf6e15abae6f51167053213beccbe3c258fc8cee",
+        "id": "gcn_35782fddda5b44d9",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867766532191551867::conclusion_10_subproblem",
+            "package_id": "paper:867766532191551867",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867766532191551867"
+          ]
+        },
+        "rerank_score": 0.8300950002094325,
+        "role": "premise",
+        "score": 0.013888888888888888,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "To establish that the tight-binding nanogap model is predictive for realistic materials, a comparison to first-principles calculations was needed. Prior phenomenological models risk producing artifacts that disappear in atomistic simulations; without DFT+transport benchmarking for a real material (graphene), the applicability of the tight-binding predictions (high $ZT$, symmetry dependence, temperature trends) to experimentally accessible systems remained uncertain.",
+        "content_hash": "1af6cb21db7a73d53460c97d6d89d6e78377d41ec59fefc3fa32f77d3d52e5e9",
+        "id": "gcn_b68aa658383d4023",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867759972065214508::conclusion_6_subproblem",
+            "package_id": "paper:867759972065214508",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867759972065214508"
+          ]
+        },
+        "rerank_score": 0.8092789972761165,
+        "role": "premise",
+        "score": 0.015384615384615385,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Tight-binding mappings based on fragment in-gap orbitals provide a simplified predictive framework, but without validation by an independent first-principles method the trustworthiness of the single-orbital approximation and the calculated effective hopping magnitudes remains uncertain. Demonstrating that fully interacting DFT calculations yield band dispersions consistent with the TB low-energy bands is necessary to validate the reduced models and to justify subsequent topological and interaction-based analyses that rely on the single-orbital mapping.",
+        "content_hash": "6828baad9931447688a197611947258e918aafa945c4a144fa0306effd567476",
+        "id": "gcn_6422b8859298446e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:874748089015993101::conclusion_5_subproblem",
+            "package_id": "paper:874748089015993101",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:874748089015993101"
+          ]
+        },
+        "rerank_score": 0.8038293902995333,
+        "role": "premise",
+        "score": 0.011494252873563218,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Continuum approximations and analytic solutions must be validated against the parent lattice model to ensure no lattice-scale effects invalidate the low-energy conclusions. In particular, one needs to verify (i) that the zero-energy degeneracy persists in the full tight-binding spectrum, (ii) that localized density patterns agree with analytic forms across the lattice, and (iii) that finite-size splittings behave as the overlap predictions suggest. Prior works sometimes rely only on continuum or only on numerics; a combined demonstration is required to establish that the continuum-derived topological and bound-state properties survive the full lattice description. The numerical diagonalization here provides that validation for representative system sizes and parameter choices.",
+        "content_hash": "d1f98ca8655f54484efa23498de808b52f3c9c997daf13b2298c0fd2badcdf3c",
+        "id": "gcn_7a7e572f25524bf8",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813238273693450241::conclusion_5_subproblem",
+            "package_id": "paper:813238273693450241",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813238273693450241"
+          ]
+        },
+        "rerank_score": 0.8168575178093174,
+        "role": "premise",
+        "score": 0.006097560975609756,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "There has been concern that continuum Dirac descriptions may fail quantitatively at small confinement widths (few lattice spacings), thereby limiting their predictive utility for nanoscale device geometries. Demonstrating the regime of quantitative validity and providing explicit error estimates relative to tight-binding benchmarks is necessary to justify use of continuum models for design and interpretation at experimentally relevant nanometer scales.",
+        "content_hash": "7609b377fa7eed77ccaa02c213a7485cd8a17b7d708ae5d5d0392c2176dc574a",
+        "id": "gcn_251762c2b5b242b9",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867768223968264610::conclusion_9_subproblem",
+            "package_id": "paper:867768223968264610",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867768223968264610"
+          ]
+        },
+        "rerank_score": 0.8013521589415833,
+        "role": "premise",
+        "score": 0.006329113924050633,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Analytic continuum derivations must be tested against the full lattice tight-binding model to ensure that approximations (continuum expansion, delta-function modeling of edge potentials, neglect of higher-order lattice effects) do not qualitatively or quantitatively alter predictions. The tight-binding validation confirms that the secular equation and subsequent analytic expressions capture the essential microscopic physics and produce quantitatively accurate, testable predictions for magnetization, gaps, and doping dependence.",
+        "content_hash": "7f90fec894f4c6685413ef6ef28cc806a90ed0259b67dff8ed9369a2fa6e6a31",
+        "id": "gcn_6f59ff4f7e704956",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867768106380952096::conclusion_8_subproblem",
+            "package_id": "paper:867768106380952096",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867768106380952096"
+          ]
+        },
+        "rerank_score": 0.8992587343777503,
+        "role": "premise",
+        "score": 0.029236022193768675,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Analytic tight-binding predictions require numerical testing to establish their quantitative validity when full atomic relaxation and the realistic electronic structure (beyond the simple Hückel connectivity model) are included. Prior to this work, numerical DFT validation of the single-walled analytic predictions for Dirac-point positions and Fermi-velocity scaling was lacking. Such verification is necessary to ensure that the simplified TB picture captures the essential physics of the low-energy spectrum and to justify using the TB-derived intuition when interpreting DFT results for wider classes of GALs.",
+        "content_hash": "7f210164a4600e4af0778428751e802e25e5475a38e81201b2d9f60222dd8c8e",
+        "id": "gcn_9de501bdbfde44de",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811667364922785795::conclusion_6_subproblem",
+            "package_id": "paper:811667364922785795",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811667364922785795"
+          ]
+        },
+        "rerank_score": 0.7979278583538278,
+        "role": "premise",
+        "score": 0.005714285714285714,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Continuum models are valuable only if they faithfully represent the electronic spectra of realistic, relaxed geometries. Prior continuum treatments either ignored relaxation phases or modeled relaxation only through fitted amplitude differences, leaving uncertainty whether a first-shell effective model can simultaneously reproduce low-energy flat bands, isolation gaps, and higher-energy features seen in relaxed tight-binding calculations. A validated effective model that reproduces those atomistic spectra provides a compact noninteracting Hamiltonian on which interaction and transport theories can be built.",
+        "content_hash": "1ed796e5b5cfcd6a0b1e4c563d36b38553f0305d941c1f9b8c2524394b6654b9",
+        "id": "gcn_07bb67e0f66e4d6a",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:966036063640354870::conclusion_6_subproblem",
+            "package_id": "paper:966036063640354870",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:966036063640354870"
+          ]
+        },
+        "rerank_score": 0.7970693324224627,
+        "role": "premise",
+        "score": 0.01020408163265306,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "A theoretical effective Hamiltonian or tight-binding mapping is only useful for applications if it quantitatively reproduces the continuum diffusion dynamics that would be observed in realistic materials and geometries. Prior proposals lacking such validation could not convincingly argue that predicted topological decay modes would survive in full continuum heat conduction simulations or experiments. Demonstrating quantitative agreement between the discrete model's eigen-decay rates and finite-element solutions closes that gap and provides predictive power for designing experiments.",
+        "content_hash": "f7b9c89dbcc864b38221a496c4556793d7521b689bb7b4205ab0a5c4b7e24eeb",
+        "id": "gcn_c7a7883778144bd6",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867765729875722847::conclusion_5_subproblem",
+            "package_id": "paper:867765729875722847",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867765729875722847"
+          ]
+        },
+        "rerank_score": 0.7965174432746688,
+        "role": "premise",
+        "score": 0.008300747753310009,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Tight-binding/RPA models include controlled approximations (nearest-neighbour hoppings, a chosen impurity charge and height, and RPA screening) that require validation against higher-level first-principles methods to ensure that the observed trends are not artifacts of the simplified model. Prior to this confirmation, it was possible that atomistic details captured only in first-principles calculations (chemical bonding, charge transfer, local relaxation) might alter or negate the trends predicted by tight-binding/RPA; such cross-validation is necessary to establish the robustness of model-based interpretations of experimental spectroscopy.",
+        "content_hash": "f9e4f82b42b7731570c4480e017dde52259f47a99803d0ef63e375f65e377e29",
+        "id": "gcn_43b4324fcd1b4f0e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867772413759193107::conclusion_7_subproblem",
+            "package_id": "paper:867772413759193107",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867772413759193107"
+          ]
+        },
+        "rerank_score": 0.8616579594292544,
+        "role": "premise",
+        "score": 0.016129032258064516,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Because the continuum projection can fail or become ambiguous when monolayer flat bands exist at zero energy, a full tight-binding treatment is required to confirm that the predicted moiré flat-band phenomena are not artifacts of continuum truncation. Prior to this work such a validation for twisted Lieb and Dice lattices had not been carried out with explicit Slater–Koster parameterizations and representative commensurate twists. The tight-binding calculations presented here close that validation loop and provide concrete spectral data for realistic supercells.",
+        "content_hash": "b01e9c321c04cd32d53e34b96454b5d9dff54d92d8a6112d2e6220d308caddb0",
+        "id": "gcn_7282d4dc4d8d47ea",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:919290960280551532::conclusion_8_subproblem",
+            "package_id": "paper:919290960280551532",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:919290960280551532"
+          ]
+        },
+        "rerank_score": 0.7926774238190064,
+        "role": "premise",
+        "score": 0.012987012987012988,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Bridging continuum Dirac-like descriptions and atomistic tight-binding parameters requires experimentally constrained values of $v_{F}$ so that tight-binding hopping integrals ($t$) can be inferred. Prior to this work, first-principles predictions for $t$ had not been tested against high-field spectroscopic determinations of $v_{F}$ in WSe₂; without such an experimental anchor the quantitative mapping between continuum and tight-binding models remained uncertain.",
+        "content_hash": "2bdcb64744afb8e4aa1bf9213d4c9f6122e85d008b608ce3de35afd06b880ee8",
+        "id": "gcn_1a87383441b94422",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814625335990550530::conclusion_5_subproblem",
+            "package_id": "paper:814625335990550530",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814625335990550530"
+          ]
+        },
+        "rerank_score": 0.7910120100138114,
+        "role": "premise",
+        "score": 0.008771929824561403,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Even when a tight-binding model is constructed from first principles, its accuracy must be systematically validated against the ab initio reference to confirm that it captures essential features such as band ordering under strain and spin-orbit coupling effects. Prior to this work, no systematic validation of an ab initio tight-binding model for T-type TMDCs existed, leaving uncertainty about the reliability of such models for predicting strain-modified band structures.",
+        "content_hash": "4bb6e070d6b662b4a2df42f68de9d2abbb82908375f8e61529c31e63c13b5039",
+        "id": "gcn_dd8b57fef0534d3d",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817399059563151360::conclusion_2_subproblem",
+            "package_id": "paper:817399059563151360",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817399059563151360"
+          ]
+        },
+        "rerank_score": 0.8232798618861934,
+        "role": "premise",
+        "score": 0.012658227848101266,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Continuum descriptions are attractive for computational simplicity in the small-angle Moiré regime, but their quantitative range of validity relative to full tight-binding calculations was not fully established: it was unclear up to what twist angles one can trust continuum-model predictions for spectra and optical response, and which spectral features (e.g., peak positions, selection rules) are captured. This uncertainty limited practical use of continuum approaches for interpreting experiments at moderate twist angles. By directly comparing continuum and tight-binding results across angles and showing quantitative reproduction of low-energy bands and conductivity for $ \\theta \\lesssim 10^\\circ $, the work delineates the continuum-model domain of applicability and identifies the regime where tight-binding details (such as electron-hole asymmetry) matter.",
+        "content_hash": "53c8f562a05091d5dc2bb3e2441ab7e782ae6731e498b2aaafc11a5644cea6ea",
+        "id": "gcn_a2086579d1464c22",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813227052453855233::conclusion_3_subproblem",
+            "package_id": "paper:813227052453855233",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813227052453855233"
+          ]
+        },
+        "rerank_score": 0.8771665482745516,
+        "role": "premise",
+        "score": 0.013340965128566397,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Continuum analytic and radial numerical treatments must be validated against lattice-scale microscopic calculations to ensure that the conclusions are not artifacts of continuum approximations, particular boundary conditions, or chosen basis truncations. Without lattice corroboration, device-scale predictions (which depend on bandstructure and lattice-scale cutoffs) remain uncertain. Establishing agreement between tight-binding and continuum approaches provides confidence that the predicted zero mode and subgap features survive microscopic regularization.",
+        "content_hash": "7445f5fd7029beafdcd917c7e802d8791bb1323837971702438c2e40fd3e7617",
+        "id": "gcn_8bece55d9beb48b4",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867768959993118953::conclusion_9_subproblem",
+            "package_id": "paper:867768959993118953",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867768959993118953"
+          ]
+        },
+        "rerank_score": 0.8567917339823952,
+        "role": "premise",
+        "score": 0.01098901098901099,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Tight-binding models are widely used because they are computationally inexpensive and capture essential band-topology, but for engineering applications and for comparison to experiments one must know their quantitative reliability. If TB predicts a gapless state while a first-principles method predicts a small gap, then transport or optical predictions based on TB alone may be incorrect. Prior literature often mixes TB and ab initio results without clearly delimiting the quantitative limits of TB for vacancy-induced small-gap or shallow impurity-band problems. Identifying the regimes where TB gives only qualitative guidance (small-gap cases, Fermi-velocity magnitudes for impurity bands) is necessary to choose when higher-level methods are required for quantitative predictions.",
+        "content_hash": "95f19e68d6085b97621853f32b5c88dab76185167ada531969d347ae69634864",
+        "id": "gcn_a02366e957f74f20",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1155117519665627144::conclusion_5_subproblem",
+            "package_id": "paper:1155117519665627144",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1155117519665627144"
+          ]
+        },
+        "rerank_score": 0.7726080300867786,
+        "role": "premise",
+        "score": 0.014492753623188406,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In the study of TBG linear response, the continuum model is widely used because it simplifies the bandstructure and is computationally tractable at small twist angles. However, the continuum interlayer coupling is an approximate representation of the full distance-dependent tight-binding hopping, and the continuum formulation excludes explicit parallel currents on non-vertical interlayer bonds. Because the predicted chiral and counterflow effects are small in magnitude, it was uncertain whether these are robust material properties or artifacts of the continuum truncations and approximations. This uncertainty prevented confident translation of continuum predictions into experimentally testable expectations across twist angles and left open whether continuum results can be used to infer response at angles where tight-binding is numerically infeasible. The reported tight-binding vs continuum comparison resolves this gap by directly checking whether continuum predictions persist in a microscopic lattice model and by quantifying the trend of convergence with decreasing twist angle.",
+        "content_hash": "4ee55184e346f2ed219a8517169ee22c2694d53a66efe00b99845f984c9e1bb8",
+        "id": "gcn_36c84135e6384345",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867763272420425753::conclusion_1_subproblem",
+            "package_id": "paper:867763272420425753",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867763272420425753"
+          ]
+        },
+        "rerank_score": 0.8168071825406116,
+        "role": "premise",
+        "score": 0.008547008547008548,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Tight-binding modeling depends on uncertain parameters ($E_{B},t$) and neglects charge transfer effects; it was therefore necessary to check whether the model predictions (flat bands, edge LDOS patterns) are robust in first-principles treatments that incorporate charge self-consistency and realistic orbital chemistry. Prior to this study, no such first-principles confirmation for the specific BC_{2}N ribbon geometries with H termination was reported, leaving open whether the tight-binding flat-band predictions were artifacts of parameter choices.",
+        "content_hash": "8793b72fea8c521f4b6524c93820d3109940dec0b2c70eb8d70185c06c94fc93",
+        "id": "gcn_4975c8dc54a149a9",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867749524582433526::conclusion_10_subproblem",
+            "package_id": "paper:867749524582433526",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867749524582433526"
+          ]
+        },
+        "rerank_score": 0.8637500799880931,
+        "role": "premise",
+        "score": 0.01282051282051282,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Physical context: analytic continuum formulas are practically useful only if they represent the behavior of lattice (tight-binding) systems realizable in materials and numerics. Prior limitation: without numerical checks, continuum predictions could be questioned for lattice realizations or for parameter ranges where lattice effects matter. Consequence: the performed tight-binding numerics and their agreement near the band bottom validate the applicability of the analytic continuum Drude formulas for realistic lattice models in their regime of validity.",
+        "content_hash": "d9f8c810417db006c0bc54f1d6128866577614720bb4bdf132bec7b67f98e2c6",
+        "id": "gcn_3d79628000f44d58",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1068413833229369356::conclusion_12_subproblem",
+            "package_id": "paper:1068413833229369356",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1068413833229369356"
+          ]
+        },
+        "rerank_score": 0.7622621601537929,
+        "role": "premise",
+        "score": 0.006060606060606061,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The authors acknowledge that the reliability of tight-binding predictions depends sensitively on the chosen parameter set: it is explicitly stated that a suitable set of tight-binding parameters must be used to obtain reliable band-structure results and that unsuitable parameters can produce spurious direction-dependent bandgap characteristics even for larger nanowire sizes. Consequently, there remains an unresolved need to (i) validate and, if necessary, re-parametrise empirical $sp^{3}s^{*}$ tight-binding parameters for GaP specifically for nanowire geometries and for the indirect-gap physics (including correct anisotropic electron and hole effective masses at Γ and at X/L), and (ii) benchmark the tight-binding results against higher-level calculations or experimental measurements (for example, spectroscopic band-edge data or angle-resolved probes) to establish the transferability and quantitative accuracy of the fitted parameters across wire orientations and cross-sectional shapes. This parameter-validation and benchmarking challenge is left open by the present work.",
+        "content_hash": "eb5f3efd1e9ade6d91fca7412a1ff2e5a858146c1bfdf32c7ad3267dd800233e",
+        "id": "gcn_bb523a1ed6434719",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867763034523697721::open_question",
+            "package_id": "paper:867763034523697721",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867763034523697721"
+          ]
+        },
+        "rerank_score": 0.8382257454314817,
+        "role": "premise",
+        "score": 0.006535947712418301,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Tight-binding models provide an idealized description of polarization-dependent dimerization but neglect continuum effects such as mode shapes, finite pillar confinement profiles, and realistic effective-mass anisotropies. To establish that the Zak-phase and dimerization conclusions survive beyond the tight-binding approximation and apply to experimentally realizable micropillar structures, a continuum spinor calculation incorporating TE–TM mass anisotropy and the full pillar potential is required. Without such continuum confirmation, it remained uncertain whether the idealized tight-binding predictions would hold in realistic parameter regimes and whether the polarization textures and localization lengths predicted by the SSH mapping would be observable.",
+        "content_hash": "9b2f7c8b55db53d980d905309bbb8df12942e52299ad56e7f4a86105a70fdd80",
+        "id": "gcn_bfadf120b37a4301",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814560188810919937::conclusion_2_subproblem",
+            "package_id": "paper:814560188810919937",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814560188810919937"
+          ]
+        },
+        "rerank_score": 0.756676398422258,
+        "role": "premise",
+        "score": 0.006211180124223602,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Computationally efficient tight-binding descriptions are required to extend MAE analyses to nanocrystals containing hundreds of atoms, but unconstrained TB models must be validated against first-principles DFT to ensure reliability, especially for surface and low-coordination sites where TB parametrizations fitted to bulk data can break down. Prior to this work there was insufficient cross-validation demonstrating that a TB model with SOC and Stoner-like terms can reproduce DFT-calculated slab and small-pyramid MAE trends and layer-resolved decompositions, leaving uncertainty about using TB for large-scale MAE and local analysis.",
+        "content_hash": "8df448e09c699c591911e27952d03d305f9797feb33b402f22d7978a56bdfb80",
+        "id": "gcn_88661dd18e1549a1",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867756148961312875::conclusion_2_subproblem",
+            "package_id": "paper:867756148961312875",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867756148961312875"
+          ]
+        },
+        "rerank_score": 0.8514865461436916,
+        "role": "premise",
+        "score": 0.013513513513513514,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Any continuum model for TBG must be validated against full atomistic calculations to confirm that its approximations—such as truncating high‑order displacement terms and using constant interlayer matrix elements—do not introduce significant errors. Without such validation, conclusions drawn from the continuum model regarding the electronic structure and subsequent electron‑phonon physics would remain uncertain. Tight‑binding calculations with relaxation are computationally demanding for large moiré cells, so a validated continuum model provides a reliable and efficient tool.",
+        "content_hash": "9c1ab47889edb5488f6180641a50c1d0f342c20aee2f523c2f1cc9346062eebd",
+        "id": "gcn_3962f95ca6304e3c",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817400016527163394::conclusion_3_subproblem",
+            "package_id": "paper:817400016527163394",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817400016527163394"
+          ]
+        },
+        "rerank_score": 0.7928451488206686,
+        "role": "premise",
+        "score": 0.015873015873015872,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "To connect the analytic tight-binding prediction to experimentally relevant observables one must (i) show that a realizable geometry actually exhibits the predicted degeneracies in the continuum acoustic model and (ii) compute the integer topological charges that guarantee robust surface phenomena. Absent full-wave confirmation and explicit Wilson-loop evaluation, the tight-binding prediction would remain an idealized conjecture. Demonstrating the Weyl-point locations and their charges in a continuum simulation validates the tight-binding mapping and establishes the topology underlying expected surface arcs and one-way surface transport.",
+        "content_hash": "8e364275aff08c4e4384445e47541d9ae0aef2b7553ee2550efe2ddba8774c85",
+        "id": "gcn_e79e6b82f30c4b2a",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867766333842916054::conclusion_4_subproblem",
+            "package_id": "paper:867766333842916054",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867766333842916054"
+          ]
+        },
+        "rerank_score": 0.7753592411776,
+        "role": "premise",
+        "score": 0.007462686567164179,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In ab initio tight-binding, the central difficulty is to retain a first-principles connection to Kohn-Sham DFT while avoiding the runtime numerical integrations that make full DFT expensive. Conventional semi-empirical practice usually compresses the zeroth-order Hamiltonian into one-center on-site terms and two-center off-site terms, truncates exchange-correlation effects at very low order, and replaces the repulsive contribution by fitted empirical potentials. These approximations are attractive computationally, but earlier work cited in the paper showed that higher-order contributions to $H^{(0)}$ are not negligible and that two-center descriptions perform poorly unless empirical corrections absorb the missing physics. As a result, quantitatively reliable, transferable predictions across diverse bonding environments remain difficult without substantial fitting. The specific unresolved problem was therefore to construct a parameter-free zeroth-order tight-binding description in which multicenter neutral-atom and exchange-correlation effects enter explicitly enough to avoid those empirical repairs, yet remain pretabulatable and efficient enough for practical calculations.",
+        "content_hash": "d08f657391cb1505dd19ded8b18b715670d0791d35342103ded5b34e7f6f1fc5",
+        "id": "gcn_4d68f26ec47342ac",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1250179902330634263::conclusion_1_subproblem",
+            "package_id": "paper:1250179902330634263",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1250179902330634263"
+          ]
+        },
+        "rerank_score": 0.7496083886764526,
+        "role": "premise",
+        "score": 0.009345794392523364,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Extrapolating tight-binding results to very large supercells relies on the model accurately representing the true electronic structure. A direct cross-method validation is necessary to establish confidence that TB predictions for small-angle rotated bilayers reflect the underlying ab initio physics. Without demonstrating close agreement for cells where both methods are feasible, conclusions about velocity renormalization and localization based on TB for very large cells would remain speculative.",
+        "content_hash": "bc9d2925fdd314c413a4b9de9f8eb2369f4dcb796217a29863e47535dfe08204",
+        "id": "gcn_1632b30485394c2a",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811807096193417216::conclusion_9_subproblem",
+            "package_id": "paper:811807096193417216",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811807096193417216"
+          ]
+        },
+        "rerank_score": 0.7807372577467877,
+        "role": "premise",
+        "score": 0.008620689655172414,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "To validate the proposed tight-binding model, it was necessary to compare its predictions with first-principles DFT calculations for various Li positions, heights, and supercell sizes. Without such validation, the reliability of the model for predicting electronic structure would be unknown. The conclusion demonstrates that the model accurately reproduces the DFT band structures near the Fermi level, particularly around the $\\Gamma$ point (folded Dirac point), for both MLG and BLG across a range of configurations, establishing its accuracy and utility.",
+        "content_hash": "6f7becde016abd6a8ecfa754558cdce06753eebffd54dc6309430d0814b53a71",
+        "id": "gcn_cbc9f5b52d50474a",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1286282699631230978::conclusion_6_subproblem",
+            "package_id": "paper:1286282699631230978",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1286282699631230978"
+          ]
+        },
+        "rerank_score": 0.7456772817767932,
+        "role": "premise",
+        "score": 0.015151515151515152,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Tight-binding numerics provide exact-lattice spectra but do not directly yield compact analytic scaling relations or asymptotic forms; validating a low-energy continuum approach against tight-binding is necessary to confirm the continuum method's quantitative reliability for finite ribbons, to establish parameter ranges where analytic approximations hold, and to justify using continuum asymptotics to interpret numeric plateaus and gaps.",
+        "content_hash": "57cb0ef46c90537b601545a385059e950de5b09a4a5c0cee3928ee2a9b880cbf",
+        "id": "gcn_fd2aa14a69e94cbb",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867749586037375395::conclusion_9_subproblem",
+            "package_id": "paper:867749586037375395",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867749586037375395"
+          ]
+        },
+        "rerank_score": 0.7849878447192921,
+        "role": "premise",
+        "score": 0.019722726522528468,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Using a tight-binding description for a 3D stacked graphite system depends critically on whether the chosen inter-atomic hopping integrals capture the low-energy dispersion features that determine carrier character near the Fermi level and the locations of band-edge states that dominate DOS and optical excitations. Although the hopping parameters were obtained from fits to first-principles dispersions, the paper emphasizes that exchange-correlation effects in first-principles theory require approximations and that parameters could in principle be modified by experiment; therefore, without an explicit verification that tight-binding reproduces the relevant low-energy first-principles band features, subsequent predictions for DOS/JDOS/absorption based on the tight-binding model would be on uncertain footing.",
+        "content_hash": "a450c3af83936fe349ed3e3119bb1e6970e7bd446632f0f71b8526652d80a33c",
+        "id": "gcn_3c1ce21a828e4d7a",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811680488723841024::conclusion_3_subproblem",
+            "package_id": "paper:811680488723841024",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811680488723841024"
+          ]
+        },
+        "rerank_score": 0.8398240744476939,
+        "role": "premise",
+        "score": 0.006756756756756757,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "To use a parametrized tight-binding model for predictive studies (strain dependence, magnetic quantization, optical spectra) it is necessary that the model reproduce established first-principles reference results in the energy window that controls optical and low-energy electronic response. If a compact TB parametrization does not match DFT in the low-energy regime (band gap magnitude, orbital character at band edges), conclusions drawn about strain-induced inversion, optical thresholds, and LL quantization would be unreliable. Therefore validating the TB parametrization against first-principles bands is required to justify all subsequent strain- and field-dependent calculations.",
+        "content_hash": "b04412aceab243e0e83b3f466924db4ca4674b819ba795f5d4c4c6c2a67985a2",
+        "id": "gcn_01fb64850c2041cb",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:906786966924689686::conclusion_2_subproblem",
+            "package_id": "paper:906786966924689686",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:906786966924689686"
+          ]
+        },
+        "rerank_score": 0.7397102687519242,
+        "role": "premise",
+        "score": 0.008695652173913044,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Predictive simulation of biphenylene electronic structure across geometries (2D monolayer, multiple bilayer registries, and quasi-1D ribbons) requires a compact model that (i) is calibrated to first-principles relaxed geometries, (ii) includes the correct range dependence of hopping amplitudes, and (iii) is transferable between periodicities. Previous tight-binding descriptions used few-parameter phenomenological models that either did not include site-dependent onsite energies or neglected longer-range intralayer hoppings, which led to qualitative failures such as converting a type-II cone into a type-III or producing flat bands along symmetry lines. Without an explicit unified Hamiltonian and a clear mapping between geometric distances and hopping amplitudes, it is not possible to systematically study stacking-induced band splitting, ribbon confinement effects, or to compute edge state spectra and topological indicators in a consistent way across systems.",
+        "content_hash": "7309a19e658cc912c399f1061286e0c5375a042524c1b71ec01fce2727ad3d72",
+        "id": "gcn_c99b35c48637477f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1024642401873952773::conclusion_2_subproblem",
+            "package_id": "paper:1024642401873952773",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1024642401873952773"
+          ]
+        },
+        "rerank_score": 0.7361134861409472,
+        "role": "premise",
+        "score": 0.010869565217391304,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Lattice relaxation significantly reshapes the moiré pattern and therefore the low-energy bands; verifying a continuum model's fidelity requires demonstrating that the compact $U(\\mathbf{r})$ captures the same band modifications produced by full tight-binding on the relaxed atomic geometry. Without such validation one cannot trust continuum calculations for relaxed structures or use the continuum model to explore parameter space efficiently. Prior continuum approaches either neglected relaxation or used phenomenological adjustments; a validated mapping from tight-binding relaxed structures to a compact continuum Hamiltonian is necessary for controlled and efficient studies of low-angle electronic structure.",
+        "content_hash": "9465b14754bf5bdac3de3e155c529f9fdf7a2a1903359b508004e63358925bce",
+        "id": "gcn_b386fb0dd01f4289",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867770655649562805::conclusion_3_subproblem",
+            "package_id": "paper:867770655649562805",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867770655649562805"
+          ]
+        },
+        "rerank_score": 0.7679881824196302,
+        "role": "premise",
+        "score": 0.019314177283816753,
+        "type": "question",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "req_530e983798723"
+}

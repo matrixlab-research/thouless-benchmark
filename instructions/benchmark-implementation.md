@@ -40,6 +40,9 @@ transport. Compare native Thouless Rust with the original PythTB 2.0 and Kwant
 ## Required checks
 
 - The manifest contains exactly twenty unique cases.
+- The domain problem catalog contains exactly one hundred unique proposed
+  questions in twenty suites. These documents are research specifications, not
+  executable-case or backend-coverage claims.
 - Every case has a public LKM GCN identifier and source paper.
 - Every case has at least one native Thouless implementation.
 - Every scored result records backend version and commit where applicable.
@@ -47,3 +50,22 @@ transport. Compare native Thouless Rust with the original PythTB 2.0 and Kwant
 - All applicable backend outputs satisfy their declared scientific gates.
 - CI runs the deterministic accuracy profile; performance reports are generated
   manually or on dedicated hardware.
+
+## Domain problem documentation
+
+The canonical proposed-problem catalog is
+[`docs/problems/README.md`](../docs/problems/README.md). Keep one scientific
+question per Markdown file. Every problem file must define:
+
+1. the scientific question and benchmark adaptation;
+2. the model family and parameters, including ranges and units;
+3. the required computation and expected scientific result;
+4. an acceptance class, numerical convergence conditions, and held-out
+   model-family variations;
+5. LKM and paper provenance; and
+6. an honest implementation status.
+
+Do not mark a problem `executable` merely because a related case exists.
+Executable status requires a frozen case definition, an independent oracle,
+backend execution, result records, and CI. Held-out validation remains a
+separate evaluator-owned claim.

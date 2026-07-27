@@ -1,0 +1,1508 @@
+{
+  "code": 0,
+  "data": {
+    "has_more": true,
+    "papers": {
+      "paper:1033233054258167810": {
+        "area": "physics and astrophysics, physics, applied, multidisciplinary, mathematical",
+        "authors": "Mikel Iraola | Iñigo Robredo | Titus Neupert | Juan L. Mañes | Roser Valentí | and Maia G. Vergniory",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2024-08-21",
+        "created_at": "2026-06-09T19:22:54+08:00",
+        "doi": "10.1103/physrevresearch.6.033195",
+        "en_title": "Topology of revisited by means of topological quantum chemistry",
+        "id": "1033233054258167810",
+        "impact_factor": 4.9,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "68812",
+        "publication_name": "Physical Review Research _ ",
+        "research_categories": "",
+        "zh_title": "通过拓扑量子化学重新审视的拓扑结构"
+      },
+      "paper:1147502108841345026": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "R. Moola | A. Mckenna | M. Hilke",
+        "available_online": "",
+        "cover_date_start": "2025-07-02",
+        "created_at": "2026-06-13T16:29:01+08:00",
+        "doi": "10.48550/arxiv.2507.01846",
+        "en_title": "Wilson Line and Disorder Invariants of Topological One-Dimensional Multiband Models",
+        "id": "1147502108841345026",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108482",
+        "publication_name": "Disordered Systems and Neural Networks",
+        "research_categories": "",
+        "zh_title": "拓扑一维多带模型的威尔逊线与无序不变量"
+      },
+      "paper:1152953530244399117": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Manabu Sato | Shingo Kobayashi | Motoaki Hirayama | Akira Furusaki",
+        "available_online": "",
+        "cover_date_start": "2025-07-17",
+        "created_at": "2026-06-16T08:12:47+08:00",
+        "doi": "10.48550/arxiv.2507.12783",
+        "en_title": "Three-dimensional spinless Euler insulators with rotational symmetry",
+        "id": "1152953530244399117",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "具有旋转对称性的三维无自旋欧拉绝缘体"
+      },
+      "paper:1156923802140016658": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Robert J. Davis | Daniel F. Sievenpiper",
+        "available_online": "",
+        "cover_date_start": "2025-07-26",
+        "created_at": "2026-06-19T08:34:08+08:00",
+        "doi": "10.48550/arXiv.2507.20015",
+        "en_title": "Spin-Type Photonic Topological Insulators on a Rhombic Lattice",
+        "id": "1156923802140016658",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "菱形晶格上的自旋型光子拓扑绝缘体"
+      },
+      "paper:1205122912558776378": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Deep Mondal | Arka Bandyopadhyay | Atanu Nandy | Debnarayan Jana",
+        "available_online": "",
+        "cover_date_start": "2025-12-06",
+        "created_at": "2026-06-19T04:20:00+08:00",
+        "doi": "10.48550/arXiv.2512.06342",
+        "en_title": "Quantum Spin Hall Effect and Su-Schrieffer-Heeger Model Implementation in Novel C3N-based Dumbbell Morphologies",
+        "id": "1205122912558776378",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108483",
+        "publication_name": "Materials Science",
+        "research_categories": "",
+        "zh_title": "新型基于C3N的哑铃形态中的量子自旋霍尔效应与苏-施里弗-黑格模型实现"
+      },
+      "paper:1243871561119694851": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Xinyang Li | Lumen Eek | Jasper van Wezel | Cristiane Morais Smith",
+        "available_online": "",
+        "cover_date_start": "2026-03-25",
+        "created_at": "2026-05-18T13:49:48+08:00",
+        "doi": "10.48550/arXiv.2603.24412",
+        "en_title": "Fragile topology for six-fold rotation symmetry indicated by the concentric Wilson loop spectrum",
+        "id": "1243871561119694851",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "由同心威尔逊回路谱表明的六重旋转对称性的脆弱拓扑结构"
+      },
+      "paper:811058876798468096": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, materials science, multidisciplinary",
+        "authors": "Dominik Gresch | Gabriel Autès | Oleg V. Yazyev | Matthias Troyer | David Vanderbilt | B. Andrei Bernevig | Alexey A. Soluyanov",
+        "available_online": "2017-2-23",
+        "cas_zone": "2",
+        "cover_date_start": "2017-02-23",
+        "created_at": "2026-06-17T05:03:49+08:00",
+        "doi": "10.1103/physrevb.95.075146",
+        "en_title": "Z2Pack: Numerical implementation of hybrid Wannier centers for identifying topological materials",
+        "id": "811058876798468096",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "Z2Pack：用于识别拓扑材料的混合万尼尔中心的数值实现 "
+      },
+      "paper:811258612063141888": {
+        "area": "physics and astrophysics, physics, multidisciplinary",
+        "authors": "Ziming Zhu | Georg W. Winkler | QuanSheng Wu | Ju Li | Alexey A. Soluyanov",
+        "available_online": "2016-7-7",
+        "cas_zone": "1",
+        "cover_date_start": "2016-07-07",
+        "created_at": "2026-06-15T01:35:10+08:00",
+        "doi": "10.1103/physrevx.6.031003",
+        "en_title": "Triple Point Topological Metals",
+        "id": "811258612063141888",
+        "impact_factor": 15.7,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "479",
+        "publication_name": "Physical Review X _ Phys. Rev. X",
+        "research_categories": "",
+        "zh_title": "三重简并拓扑金属"
+      },
+      "paper:811271834249986048": {
+        "area": "comprehensive periodical, physical sciences, atomic, molecular and optical physics, condensed matter physics, quantum physics",
+        "authors": "N. Fläschner | B. S. Rem | M. Tarnowski | D. Vogel | D.-S. Lühmann | K. Sengstock | C. Weitenberg",
+        "available_online": "",
+        "cas_zone": "1",
+        "cover_date_start": "2016-05-27",
+        "created_at": "2026-06-15T03:37:50+08:00",
+        "doi": "10.1126/science.aad4568",
+        "en_title": "Experimental reconstruction of the Berry curvature in a Floquet Bloch band",
+        "id": "811271834249986048",
+        "impact_factor": 45.7,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2016-5-27",
+        "publication_id": "7984",
+        "publication_name": "Science _ Science",
+        "research_categories": "[\"Physical Sciences\", \"Atomic, Molecular and Optical Physics\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "弗洛凯布洛赫带中贝里曲率的实验重构"
+      },
+      "paper:811635672707235841": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, materials science, multidisciplinary",
+        "authors": "Rui Yu | Xiao Liang Qi | Andrei Bernevig | Zhong Fang | Xi Dai",
+        "available_online": "2011-8-8",
+        "cas_zone": "2",
+        "cover_date_start": "2011-08-08",
+        "created_at": "2026-06-15T05:19:51+08:00",
+        "doi": "10.1103/physrevb.84.075119",
+        "en_title": "Equivalent expression of Z 2 topological invariant for band insulators using the non-Abelian Berry connection",
+        "id": "811635672707235841",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "使用非阿贝尔贝里联络的带绝缘体的Z2拓扑不变量的等效表达式"
+      },
+      "paper:812536452305911808": {
+        "area": "physics and astrophysics, physical sciences, condensed matter physics",
+        "authors": "Stefan Rex | Igor V. Gornyi | Alexander D. Mirlin",
+        "available_online": "2020-12-1",
+        "cas_zone": "2",
+        "cover_date_start": "2020-12-01",
+        "created_at": "2026-06-14T05:38:57+08:00",
+        "doi": "10.1103/physrevb.102.224501",
+        "en_title": "Majorana modes in emergent-wire phases of helical and cycloidal magnet-superconductor hybrids",
+        "id": "812536452305911808",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "螺旋和摆线磁体 - 超导体混合体系中涌现线相的马约拉纳模式"
+      },
+      "paper:812710858248421376": {
+        "area": "Comprehensive Periodical, multidisciplinary sciences",
+        "authors": "Yihao Yang | Jian-ping Xia | Hong-xiang Sun | Yong Ge | Ding Jia | Shou-qi Yuan | Shengyuan A. Yang | Yidong Chong | Baile Zhang",
+        "available_online": "2019-11-15",
+        "cas_zone": "1",
+        "cover_date_start": "2019-11-15",
+        "created_at": "2026-06-19T00:29:17+08:00",
+        "doi": "10.1038/s41467-019-13258-3",
+        "en_title": "Observation of a topological nodal surface and its surface-state arcs in an artificial acoustic crystal",
+        "id": "812710858248421376",
+        "impact_factor": 15.5,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2019-12",
+        "publication_id": "10026",
+        "publication_name": "Nature Communications _ Nat Commun",
+        "research_categories": "",
+        "zh_title": "在人工声学晶体中对拓扑节面及其表面态弧的观测"
+      },
+      "paper:812730884787535873": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, materials science, multidisciplinary",
+        "authors": "Sander H. Kooi | Guido van Miert | Carmine Ortix",
+        "available_online": "2019-9-27",
+        "cas_zone": "2",
+        "cover_date_start": "2019-09-27",
+        "created_at": "2026-06-17T07:22:40+08:00",
+        "doi": "10.1103/physrevb.100.115160",
+        "en_title": "Classification of crystalline insulators without symmetry indicators: Atomic and fragile topological phases in twofold rotation symmetric systems",
+        "id": "812730884787535873",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "无对称性指标的晶体绝缘体分类：二重旋转对称系统中的原子相和脆弱拓扑相"
+      },
+      "paper:814526957587791874": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, materials science, multidisciplinary",
+        "authors": "A. Alexandradinata | B. Andrei Bernevig",
+        "available_online": "2016-5-3",
+        "cas_zone": "2",
+        "cover_date_start": "2016-05-03",
+        "created_at": "2026-06-14T00:26:10+08:00",
+        "doi": "10.1103/physrevb.93.205104",
+        "en_title": "Berry-phase description of topological crystalline insulators",
+        "id": "814526957587791874",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "拓扑晶体绝缘体的贝里相描述"
+      },
+      "paper:814532884890124290": {
+        "area": "physics and astrophysics, physics, multidisciplinary",
+        "authors": "A. Alexandradinata | Zhijun Wang | B. Andrei Bernevig",
+        "available_online": "2016-4-15",
+        "cas_zone": "1",
+        "cover_date_start": "2016-04-15",
+        "created_at": "2026-06-13T17:12:40+08:00",
+        "doi": "10.1103/physrevx.6.021008",
+        "en_title": "Topological Insulators from Group Cohomology",
+        "id": "814532884890124290",
+        "impact_factor": 15.7,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "479",
+        "publication_name": "Physical Review X _ Phys. Rev. X",
+        "research_categories": "",
+        "zh_title": "来自群上同调的拓扑绝缘体"
+      },
+      "paper:817342636015747076": {
+        "area": "physics and astrophysics, physical sciences, condensed matter physics",
+        "authors": "Junyeong Ahn | Youngkuk Kim | Dongwook Kim | Bohm-Jung Yang",
+        "available_online": "",
+        "cas_zone": "1",
+        "cover_date_start": "2019-10-03",
+        "created_at": "2026-06-14T15:05:21+08:00",
+        "doi": "10.1103/PhysRevLett.121.106403",
+        "en_title": "Band Topology and Linking Structure of Nodal Line Semimetals with ${Z}_{2}$ Monopole Charges",
+        "id": "817342636015747076",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ ",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "具有$$Z_2$$单极电荷的节线半金属的能带拓扑与链接结构"
+      },
+      "paper:817405227316543488": {
+        "area": "mathematics, chemical sciences, physical sciences, condensed matter physics",
+        "authors": "Jen-Chuan Tung | Chi-Hsuan Lee | Po-Liang Liu | Yin-Kuo Wang",
+        "available_online": "",
+        "cover_date_start": "2022-06-10",
+        "created_at": "2026-05-23T01:19:43+08:00",
+        "doi": "10.3390/app12125913",
+        "en_title": "Applied Sciences, Vol. 12, Pages 5913: Electronic Band Structures of the Possible Topological Insulator Pb2BiBrO6 and Pb2SeTeO6 Double Perovskite: An Ab Initio Study",
+        "id": "817405227316543488",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "96529",
+        "publication_name": "Applied Sciences (Switzerland) _ ",
+        "research_categories": "[\"Chemical Sciences\", \"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "《应用科学》，第12卷，第5913页：可能的拓扑绝缘体Pb₂BiBrO₆和Pb₂SeTeO₆双钙钛矿的电子能带结构：一项从头算研究 "
+      },
+      "paper:867746369488552167": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Maryam Taherinejad | Kevin F. Garrity | David Vanderbilt",
+        "available_online": "",
+        "cover_date_start": "2013-12-25",
+        "created_at": "2026-06-19T01:39:01+08:00",
+        "doi": "10.48550/arXiv.1312.6940",
+        "en_title": "Wannier Center Sheets in Topological Insulators",
+        "id": "867746369488552167",
+        "keywords": "",
+        "publication_date": "2013-12-25",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "拓扑绝缘体中的万尼尔中心薄片"
+      },
+      "paper:867750371978641748": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Kamal Choudhary | Kevin F. Garrity | Francesca Tavazza",
+        "available_online": "",
+        "cover_date_start": "2018-10-24",
+        "created_at": "2026-06-15T00:40:32+08:00",
+        "doi": "10.48550/arXiv.1810.10640",
+        "en_title": "High-throughput Discovery of Topologically Non-trivial Materials using Spin-orbit Spillage",
+        "id": "867750371978641748",
+        "keywords": "",
+        "publication_date": "2018-10-24",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "",
+        "zh_title": "利用自旋轨道泄漏进行拓扑非平凡材料的高通量发现"
+      },
+      "paper:867752287840239821": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Chang-An Li",
+        "available_online": "",
+        "cover_date_start": "2022-08-07",
+        "created_at": "2026-06-17T02:11:42+08:00",
+        "doi": "10.48550/arXiv.2208.03814",
+        "en_title": "Topological States in Two-Dimensional Su-Schrieffer-Heeger Models",
+        "id": "867752287840239821",
+        "keywords": "",
+        "publication_date": "2022-08-07",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "二维Su-Schrieffer-Heeger模型中的拓扑态"
+      },
+      "paper:867754212677648999": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Haoshu Li | Shaolong Wan",
+        "available_online": "",
+        "cover_date_start": "2021-02-09",
+        "created_at": "2026-06-14T07:37:14+08:00",
+        "doi": "10.48550/arXiv.2102.04807",
+        "en_title": "Homotopy invariant in time-reversal and twofold rotation symmetric systems",
+        "id": "867754212677648999",
+        "keywords": "",
+        "publication_date": "2021-02-09",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "时间反演和双重旋转对称系统中的同伦不变量"
+      },
+      "paper:867757723767275708": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Alexander C. Tyner | Shouvik Sur | Qunfei Zhou | Danilo Puggioni | Pierre Darancet | James M. Rondinelli | Pallab Goswami",
+        "available_online": "",
+        "cover_date_start": "2021-02-11",
+        "created_at": "2026-06-19T02:42:38+08:00",
+        "doi": "10.48550/arXiv.2102.06207",
+        "en_title": "Non-Abelian Stokes theorem and quantized Berry flux",
+        "id": "867757723767275708",
+        "keywords": "",
+        "publication_date": "2021-02-11",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "",
+        "zh_title": "非阿贝尔斯托克斯定理与量子化贝里通量"
+      },
+      "paper:867761858881258204": {
+        "area": "arXiv-Physics, Physical Sciences, Condensed Matter Physics",
+        "authors": "Simin Nie | B. Andrei Bernevig | Zhijun Wang",
+        "available_online": "",
+        "cover_date_start": "2020-06-22",
+        "created_at": "2026-06-19T06:40:06+08:00",
+        "doi": "10.48550/arXiv.2006.12502",
+        "en_title": "Six-fold Excitations in Electrides",
+        "id": "867761858881258204",
+        "keywords": "",
+        "publication_date": "2020-06-22",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "电子化合物中的六重激发"
+      },
+      "paper:867764014640268236": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Jans Henke | Mert Kurttutan | Jorrit Kruthoff | Jasper van Wezel",
+        "available_online": "",
+        "cover_date_start": "2021-07-07",
+        "created_at": "2026-05-16T19:17:15+08:00",
+        "doi": "10.48550/arXiv.2107.03222",
+        "en_title": "The topological invariants of rotationally symmetric crystals",
+        "id": "867764014640268236",
+        "keywords": "",
+        "publication_date": "2021-07-07",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "旋转对称晶体的拓扑不变量"
+      },
+      "paper:867765926274007240": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "N.K. Karn | M.M. Sharma | Prince Sharma | Ganesh Gurjar | S. Patnaik | V.P.S. Awana",
+        "available_online": "",
+        "cover_date_start": "2021-06-22",
+        "created_at": "2026-06-14T12:36:33+08:00",
+        "doi": "10.48550/arXiv.2106.11682",
+        "en_title": "Superconductivity with Topological non-trivial surface states in NbC",
+        "id": "867765926274007240",
+        "keywords": "",
+        "publication_date": "2021-06-22",
+        "publication_id": "108490",
+        "publication_name": "Superconductivity _ Physics.cond-mat.supr-con",
+        "research_categories": "",
+        "zh_title": "NbC中具有拓扑非平凡表面态的超导性"
+      },
+      "paper:867766563653026071": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Sander H. Kooi | Guido van Miert | Carmine Ortix",
+        "available_online": "",
+        "cover_date_start": "2019-06-20",
+        "created_at": "2026-05-16T22:21:55+08:00",
+        "doi": "10.48550/arXiv.1906.08695",
+        "en_title": "Classification of crystalline insulators without symmetry indicators: atomic and fragile topological phases in twofold rotation symmetric systems",
+        "id": "867766563653026071",
+        "keywords": "",
+        "publication_date": "2019-06-20",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "无对称性指标的晶体绝缘体分类：二重旋转对称系统中的原子相和脆弱拓扑相"
+      },
+      "paper:867766983276363797": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Edward McCann",
+        "available_online": "",
+        "cover_date_start": "2023-03-13",
+        "created_at": "2026-06-14T13:12:20+08:00",
+        "doi": "10.48550/arXiv.2303.06973",
+        "en_title": "Catalog of noninteracting tight-binding models in one dimension with two energy bands",
+        "id": "867766983276363797",
+        "keywords": "",
+        "publication_date": "2023-03-13",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "具有两个能带的一维非相互作用紧束缚模型目录"
+      },
+      "paper:867767172699521404": {
+        "area": "arXiv-Physics, Physical Sciences, Condensed Matter Physics",
+        "authors": "Shingo Kobayashi | Akira Furusaki",
+        "available_online": "",
+        "cover_date_start": "2021-04-28",
+        "created_at": "2026-06-18T23:47:17+08:00",
+        "doi": "10.48550/arXiv.2104.13631",
+        "en_title": "Fragile topological insulators protected by rotation symmetry without spin-orbit coupling",
+        "id": "867767172699521404",
+        "keywords": "",
+        "publication_date": "2021-04-28",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "由旋转对称性保护且无自旋轨道耦合的脆弱拓扑绝缘体"
+      },
+      "paper:867767303326925420": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Rui Yu | Xiao Liang Qi | Andrei Bernevig | Zhong Fang | Xi Dai",
+        "available_online": "",
+        "cover_date_start": "2011-01-11",
+        "created_at": "2026-06-17T00:59:00+08:00",
+        "doi": "10.48550/arXiv.1101.2011",
+        "en_title": "An equivalent expression of Z2 Topological Invariant for band insulators using Non-Abelian Berry's connection",
+        "id": "867767303326925420",
+        "keywords": "",
+        "publication_date": "2011-01-11",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "",
+        "zh_title": "一种使用非阿贝尔贝里联络的带绝缘体的Z2拓扑不变量的等效表达式"
+      },
+      "paper:867770674649760411": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Lei Hao | C. S. Ting",
+        "available_online": "",
+        "cover_date_start": "2016-12-02",
+        "created_at": "2026-06-19T10:39:29+08:00",
+        "doi": "10.48550/arXiv.1612.00779",
+        "en_title": "Searching for two-dimensional Weyl superconductors in heterostructures",
+        "id": "867770674649760411",
+        "keywords": "",
+        "publication_date": "2016-12-02",
+        "publication_id": "108490",
+        "publication_name": "Superconductivity _ Physics.cond-mat.supr-con",
+        "research_categories": "",
+        "zh_title": "在异质结构中寻找二维外尔超导体"
+      },
+      "paper:867770717259694264": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Ziming Zhu | Georg W. Winkler | QuanSheng Wu | Ju Li | Alexey A. Soluyanov",
+        "available_online": "",
+        "cover_date_start": "2016-05-16",
+        "created_at": "2026-05-26T05:33:28+08:00",
+        "doi": "10.48550/arXiv.1605.04653",
+        "en_title": "Triple Point Topological Metals",
+        "id": "867770717259694264",
+        "keywords": "",
+        "publication_date": "2016-05-16",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "三重简并拓扑金属"
+      },
+      "paper:867772228014440837": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Jonah Herzog-Arbeitman | Zhi-Da Song | Nicolas Regnault | B. Andrei Bernevig",
+        "available_online": "",
+        "cover_date_start": "2020-06-24",
+        "created_at": "2026-06-14T11:28:04+08:00",
+        "doi": "10.48550/arXiv.2006.13938",
+        "en_title": "Hofstadter Topology: Non-crystalline Topological Materials at High Flux",
+        "id": "867772228014440837",
+        "keywords": "",
+        "publication_date": "2020-06-24",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "霍夫施塔特拓扑：高通量下的非晶态拓扑材料"
+      },
+      "paper:867772482034074461": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "P. Zhou | Y. Z. Hu | B. R. Pan | F. F. Huang | W. Q. Li | Z. S. Ma | L. Z. Sun",
+        "available_online": "",
+        "cover_date_start": "2023-01-17",
+        "created_at": "2026-06-12T08:19:43+08:00",
+        "doi": "10.48550/arXiv.2301.06887",
+        "en_title": "Hybrid single-pair charge-2 Weyl semimetals",
+        "id": "867772482034074461",
+        "keywords": "",
+        "publication_date": "2023-01-17",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "混合单对电荷-2外尔半金属"
+      },
+      "paper:867773131442356923": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Cong Chen | Weikang Wu | Zhi-Ming Yu | Ziyu Chen | Y. X. Zhao | Xian-Lei Sheng | Shengyuan A. Yang",
+        "available_online": "",
+        "cover_date_start": "2020-11-30",
+        "created_at": "2026-06-17T07:14:03+08:00",
+        "doi": "10.48550/arXiv.2011.14868",
+        "en_title": "Graphyne as a second-order and real Chern topological insulator in two dimensions",
+        "id": "867773131442356923",
+        "keywords": "",
+        "publication_date": "2020-11-30",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "二维石墨炔作为二阶实陈数拓扑绝缘体"
+      },
+      "paper:867773525744681665": {
+        "area": "arXiv-Physics, Mathematical Sciences, Pure Mathematics, Physical Sciences, Condensed Matter Physics",
+        "authors": "Jennifer Cano | L. Elcoro | M. I. Aroyo | B. Andrei Bernevig | Barry Bradlyn",
+        "available_online": "",
+        "cover_date_start": "2021-07-01",
+        "created_at": "2026-06-19T02:53:45+08:00",
+        "doi": "10.48550/arXiv.2107.00647",
+        "en_title": "Topology invisible to eigenvalues in obstructed atomic insulators",
+        "id": "867773525744681665",
+        "keywords": "",
+        "publication_date": "2021-07-01",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Mathematical Sciences\", \"Pure Mathematics\", \"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "受阻原子绝缘体中对本征值不可见的拓扑结构"
+      },
+      "paper:929076021410398797": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Arnob Kumar Ghosh | Tanay Nag | Arijit Saha",
+        "available_online": "",
+        "cover_date_start": "2023-11-07",
+        "created_at": "2026-06-19T03:26:30+08:00",
+        "doi": "10.48550/arXiv.2311.03727",
+        "en_title": "Floquet second-order topological Anderson insulator hosting corner localized modes",
+        "id": "929076021410398797",
+        "keywords": "",
+        "publication_date": "2023-11-07",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "具有角局域模的弗洛凯二阶拓扑安德森绝缘体"
+      },
+      "paper:964420400035397634": {
+        "area": "arxiv-physics, mathematical sciences, mathematical physics, physical sciences, quantum physics",
+        "authors": "Gurkirat Singh | Surajit Bera | Vijay B. Shenoy",
+        "available_online": "",
+        "cover_date_start": "2024-02-12",
+        "created_at": "2026-06-17T06:04:30+08:00",
+        "doi": "10.48550/arXiv.2402.07608",
+        "en_title": "Arboreal Obstructed Atomic Insulating and Metallic Phases of Fermions",
+        "id": "964420400035397634",
+        "keywords": "",
+        "publication_date": "2024-02-12",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Mathematical Sciences\", \"Mathematical Physics\", \"Physical Sciences\", \"Quantum Physics\"]",
+        "zh_title": "费米子的树栖受阻原子绝缘相和金属相"
+      },
+      "paper:966036046494040252": {
+        "area": "arxiv-physics, information and computing sciences, physical sciences, condensed matter physics",
+        "authors": "Alexander C. Tyner",
+        "available_online": "",
+        "cover_date_start": "2023-12-20",
+        "created_at": "2026-06-13T12:14:13+08:00",
+        "doi": "10.48550/arXiv.2312.13051",
+        "en_title": "BerryEasy: A GPU enabled python package for diagnosis of $n$-th-order and spin-resolved topology in the presence of fields and effects",
+        "id": "966036046494040252",
+        "keywords": "",
+        "publication_date": "2023-12-20",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "[\"Information and Computing Sciences\", \"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "BerryEasy：一个支持GPU的Python软件包，用于在存在场和效应的情况下诊断n阶和自旋分辨拓扑结构"
+      },
+      "paper:966036052106018872": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Peng Peng | Yuchen Peng | Aoqian Shi | Xiaogen Yi | Yizhou Wei | Jianjun Liu",
+        "available_online": "",
+        "cover_date_start": "2024-01-29",
+        "created_at": "2026-06-19T11:04:59+08:00",
+        "doi": "10.48550/arXiv.2401.15849",
+        "en_title": "Aperiodic-quasiperiodic-periodic characteristics in twisted nested Moiré patterns and topological transitions",
+        "id": "966036052106018872",
+        "keywords": "",
+        "publication_date": "2024-01-29",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "扭曲嵌套莫尔条纹中的非周期-准周期-周期特性及拓扑转变"
+      },
+      "paper:977218346858577921": {
+        "area": "arXiv-Physics, Physical Sciences, Condensed Matter Physics, Quantum Physics",
+        "authors": "Jingping Dong | Miao Gao | Xun-Wang Yan | Fengjie Ma | Zhong-Yi Lu",
+        "available_online": "",
+        "cover_date_start": "2024-03-06",
+        "created_at": "2026-06-19T09:07:29+08:00",
+        "doi": "10.48550/arxiv.2403.03402",
+        "en_title": "Two-dimensional Kagome-in-Honeycomb materials (MN$_4$)$_3$C$_{32}$ (M=Pt or Mn)",
+        "id": "977218346858577921",
+        "keywords": "",
+        "publication_date": "2024-03-06",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "二维蜂窝状 Kagome 结构材料 (MN$_4$)$_3$C$_{32}$（M = Pt 或 Mn）"
+      }
+    },
+    "variables": [
+      {
+        "content": "The computed Chern numbers for the phonon nodes at Γ (-2) and A (+2) in Na2Zn2O3, obtained via Wilson-loop integration, quantitatively match the symmetry-predicted monopole charges and the values found in the tight-binding model, providing a direct link between abstract classification and a specific material.",
+        "content_hash": "6fbf3b3774db371e59e062812b55907926977517f0f9e1d07ec37e7315c64215",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_87b1bc0cfbd74e84",
+        "kind": "highlight",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867772482034074461::H10",
+            "package_id": "paper:867772482034074461",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867772482034074461"
+          ]
+        },
+        "rerank_score": 0.7814505433630691,
+        "role": "premise",
+        "score": 0.00583742682188278,
+        "title": "Computed Chern numbers match theoretical prediction and TB model",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "A Wilson-loop analysis on a closed surface (sphere) in $k$-space enclosing a pair of triple points (topologically protected three-band crossings) connected by a nodal line reveals nontrivial flow of Wilson-loop eigenphases: two Wilson eigenvalues exhibit gapless flow corresponding to two separated Berry-flux contributions with individual Chern numbers $+1$ and $-1$, while the remaining Wilson eigenvalues remain trivial. The difference of those two individual Chern numbers divided by two yields a $\\mathbb{Z}_2$ topological invariant that distinguishes topologically nontrivial pairs of triple points (where valence-band rotation eigenvalues change across the pair) from trivial pairs. This characterization is computed for a symmetrized tight-binding model of ZrTe: the Wilson loop spectrum on a sphere enclosing a pair of triple points shows gapless flow of two eigenvalues, with $C_3$ symmetry expectation values changing from $\\{-1,-1\\}$ to $\\{e^{i\\pi/3},e^{-i\\pi/3}\\}$, confirming the nontrivial $\\mathbb{Z}_2$ invariant.",
+        "content_hash": "06ca458c13dac80c11d11f93a6ac8f0b6c1572c912652198673996570cca0bdd",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_21ebc9f6a30d48f8",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811258612063141888::conclusion_11",
+            "package_id": "paper:811258612063141888",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811258612063141888"
+          ]
+        },
+        "rerank_score": 0.7752415948750049,
+        "role": "conclusion",
+        "score": 0.006044294620849645,
+        "title": "Wilson-loop characterization and a $\\mathbb{Z}_2$ invariant for pairs of triple points",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For band-topology diagnosis one requires a practical, bulk-sensitive computational scheme that (a) encodes quasimomentum translations acting on the occupied subspace, (b) yields topological invariants that are robust to gap- and symmetry-preserving deformations, and (c) assembles lower-dimensional submanifold topologies into a global classification. Prior to this work Wilson loops were known as useful diagnostics, but there was no systematic procedure to (i) derive the allowed symmetry constraints on Wilson loops from group cohomology including quasimomentum translations and (ii) enumerate and match Wilson-band connectivities across multiple intersecting submanifolds to produce a complete classification for crystalline groups with multiple point-group generators.",
+        "content_hash": "5fb6a1923ad60ce0fcdfda8b19dea9dbe5cb98ad27d07f6e0f701cdee8abd15a",
+        "id": "gcn_e5dd806871ea4f6f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814532884890124290::conclusion_2_subproblem",
+            "package_id": "paper:814532884890124290",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814532884890124290"
+          ]
+        },
+        "rerank_score": 0.7582754112828949,
+        "role": "premise",
+        "score": 0.006802721088435374,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "For the acoustic Bloch wavefunctions obtained from FEM, a Wilson-loop integration on a closed surface encircling the nodal surface (the exact shape and discretisation not detailed in the main text but referenced to Supplementary Note 1) yields an integer Chern number of +2. The same method (Wilson loop) is widely used in topological band theory to compute Chern numbers of Weyl points and nodal lines, and the paper cites prior work (Chang et al. 2018, ref. 32) that established the formalism for chiral crystals.",
+        "content_hash": "4d5205823fae2080376e34cca25e6e58f27d591106895889e73555916e7e6374",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_9dc74d7bd95b46f3",
+        "kind": "highlight",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812710858248421376::H3",
+            "package_id": "paper:812710858248421376",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812710858248421376"
+          ]
+        },
+        "rerank_score": 0.7190191000677317,
+        "role": "premise",
+        "score": 0.005875130037348433,
+        "title": "Wilson-loop computation of Chern number +2 with documented method",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Continuum-local invariants and approximate conditions are insufficient to establish the existence of global, robust topological phases once crystalline periodicity, lattice-scale band structure, and commensurability are taken into account. For experimental design and numerical checks one needs a lattice (tight-binding) model consistent with the magnetic unit cell and its $C_2$ symmetry, explicit computable topological indices, and phase diagrams mapping realistic parameter ranges to phases with nonzero Chern number and crystal indices. Prior work did not provide such a lattice-level classification connected to the magnetic unit cell for helical/cycloidal MSH. The conclusion supplies a concrete $C_2$-symmetric tight-binding Hamiltonian, the definitions of the rotation invariants, and numerical phase diagrams demonstrating that a stable $(1|0,0,-1)$ phase exists over a wide parameter range—thus filling the gap between continuum intuition and lattice realizability.",
+        "content_hash": "c8088cbee39620b240caeb47d7ed7656d482c309d298b0a91ab46ef47718a823",
+        "id": "gcn_b761eeec869744ab",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812536452305911808::conclusion_4_subproblem",
+            "package_id": "paper:812536452305911808",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812536452305911808"
+          ]
+        },
+        "rerank_score": 0.7708045607854881,
+        "role": "premise",
+        "score": 0.011764705882352941,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Research on electronic band topology requires reliable, state-of-the-art numerical diagnostics (Wilson loops, nested Wilson loops, and spin-resolved Wilson loops) to determine bulk topological invariants such as Chern numbers, $Z_{2}$ indices, nested/hinge topology, and spin-Chern numbers. Prior to this work, community codes offered complementary but incomplete capabilities: PythTB implemented nested and spin-resolved Wilson-loop diagnostics but is awkward for large supercells, disorder averages and transport/edge-spectral calculations; WannierTools and other fast Fortran codes are efficient for transport and many-band Wannier models but did not provide nested or spin-resolved Wilson-loop diagnostics; PyBinding provides a flexible Python front end with a C++ back end ideal for applying fields, defects and constructing large supercells, but it lacked built-in, state-of-the-art topological diagnostics. Independently, realistic first-principles Wannier tight-binding models produced by Wannier90 are widely used for materials-specific topology, but integrating those models with a framework that can both apply perturbations (disorder, impurities, fields) and compute nested and spin-resolved Wilson loops was not available. Finally, computing these diagnostics in supercells or for disorder-averaged studies is computationally expensive because it requires repeated exact diagonalizations and Wilson-loop constructions over dense reciprocal-space grids; existing CPU-based workflows limited attainable supercell sizes, disorder-averaging statistics, and the feasibility of scanning parameter space. These gaps prevented straightforward, efficient, and reproducible determination of advanced topological diagnostics (nested Wilson loops, spin-resolved Wilson loops) in realistic many-band models and in finite-size/disordered geometries where perturbations and fields are important.",
+        "content_hash": "b4e9a5198ac5f13c0de8dd5d1a754454c734e28802a447a3e9b785e1fec6d503",
+        "id": "gcn_177994dd04734e1e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:966036046494040252::problem",
+            "package_id": "paper:966036046494040252",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:966036046494040252"
+          ]
+        },
+        "rerank_score": 0.7031694926829188,
+        "role": "premise",
+        "score": 0.019961240310077517,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Physical context: constructing explicit lattice models clarifies abstract topological classifications and supplies testbeds for numerical diagnostics. Prior state: existence of distinct gapped C_4+T phases (including a weak phase without surface states) was known, but an explicit tight-binding Hamiltonian that (i) spans all three phases and (ii) shows the corresponding bulk Wilson-loop signatures provides a concrete bridge between theory and numerics. Consequences: without such an explicit model, it was difficult to (A) test the bent-loop Wilson-loop diagnostic in finite models, and (B) visualize the connection between bulk holonomy and surface spectra. The present Hamiltonian (above) and its computed phase diagram and surface spectra demonstrate the three phase types and validate the bent-loop identification of their weak indices.",
+        "content_hash": "d89c923ce47fa84b264a7e7aef82735cef64f3529857eda4af8adeb2996b22e4",
+        "id": "gcn_dc12fe37965d4e91",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814526957587791874::conclusion_4_subproblem",
+            "package_id": "paper:814526957587791874",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814526957587791874"
+          ]
+        },
+        "rerank_score": 0.7805878639855215,
+        "role": "premise",
+        "score": 0.017334993773349936,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Physical/scientific context: For hexagonal lattices one seeks a small set of symmetry eigenvalues and a Z2 invariant $v_6$ that together determine $e_2$ without Wilson-loop computation.\n        Prior approaches and limitations: Previously diagnosing $e_2$ for $C_{6z}$ doublets required explicit Wilson loops; no closed expression combining $v_6$ and $C_{2z}$ eigenvalues was available.\n        Consequences of the gap: This hindered efficient classification of possible 2D Euler phases on hexagonal lattices and the design of tight-binding models realizing specified $(e_2,v_6)$ combinations.",
+        "content_hash": "f93c70e92581bb9887a4b7444e6a326b2fbd8f566ec40ceae63e9c77c89fb92e",
+        "id": "gcn_558c62c2e2e24dce",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1152953530244399117::conclusion_8_subproblem",
+            "package_id": "paper:1152953530244399117",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1152953530244399117"
+          ]
+        },
+        "rerank_score": 0.6791231997220197,
+        "role": "premise",
+        "score": 0.0136986301369863,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The classification and abstract invariants are only scientifically useful if explicit Hamiltonians realize the predicted phases and if numerical diagnostics confirm their properties. Prior absence of microscopic models left fragile topology in low-symmetry crystals as a formal possibility without concrete real-space realizations. To validate the invariants and classification one needed (i) tight-binding Hamiltonians whose occupied-band symmetry content is compatible with atomic insulating PEBRs but whose Wilson-loop spectra display the predicted winding or nested invariants, and (ii) numerical computations of band structures, edge spectra, and Wilson loops to demonstrate gapfulness and the nontrivial nested partial polarizations. This paper provides such constructions with explicit parameter sets and numerical diagnostics.",
+        "content_hash": "9ae37684a7ef711645939e383f24679e7a74d74c99e09da7095113af266c844b",
+        "id": "gcn_41a9411b2a1e4146",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812730884787535873::conclusion_4_subproblem",
+            "package_id": "paper:812730884787535873",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812730884787535873"
+          ]
+        },
+        "rerank_score": 0.7589751127368405,
+        "role": "premise",
+        "score": 0.010309278350515464,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "A useful topological diagnostic must be transferable across model Hamiltonians and drive protocols. Prior constructions tied to nested Wilson loops or momentum-space invariants are tailored to specific crystalline models or to particular driving schemes and do not generalize straightforwardly to disordered, mirror-breaking drives or to different time-dependences. Without demonstrating that a real-space invariant can be computed and yields meaningful phase information across multiple driven models and drive shapes, its utility is limited. Implementing the chiral winding construction on a sinusoidally driven BHZ-like model and on a driven BBH model shows that the method can provide multipurpose diagnostics of Floquet higher-order topology across drive protocols and models, subject to computational finite-size constraints.",
+        "content_hash": "30a02ea7fef3241f5e74f9e3ac9de7e146c6bee34fd17487397f06b0760a9256",
+        "id": "gcn_cc1eda11f89b46a4",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:929076021410398797::conclusion_5_subproblem",
+            "package_id": "paper:929076021410398797",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:929076021410398797"
+          ]
+        },
+        "rerank_score": 0.6743712955525745,
+        "role": "premise",
+        "score": 0.011494252873563218,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Higher-order topological phases and models with multi-valued or larger-than-$2\\pi$ flux present two related problems: (i) standard first-homotopy diagnostics (WCC/PL) and the NWL approach can both fail to report the bulk invariant in particular tight-binding realizations (e.g., when band-structure details place the system outside the NWL assumptions or when parity symmetry acts trivially), and (ii) a robust bulk criterion that applies under periodic boundary conditions and is basis-agnostic has been lacking. The tight-binding demonstrations of $|4\\pi|$ Wilson-loop quantization and the concurrent failure of WCCs/NWLs highlight the need for a direct bulk probe: the Wilson-loop eigenangle serves that role by providing a numerical bulk invariant that corresponds to observed corner phenomena when open boundaries are introduced.",
+        "content_hash": "0db93c22e3d019ca7dd2082d237911ec78dcaf839727d6cec68eea5d10edf1f2",
+        "id": "gcn_3d761706f2f24c4b",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867757723767275708::conclusion_5_subproblem",
+            "package_id": "paper:867757723767275708",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867757723767275708"
+          ]
+        },
+        "rerank_score": 0.7004946340198733,
+        "role": "premise",
+        "score": 0.009763593380614657,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In two-dimensional time-reversal-symmetric (class AII) crystalline insulators with rotational symmetry, symmetry-based (K-theory) classifications predict the existence of additional Z2 topological invariants beyond the familiar Fu–Kane–Mele (FKM) and Lau–Brink–Ortix (LBO) line invariants. Prior computational and diagnostic tools that extract topology from the Bloch bundle—most notably the conventional family of parallel (linear) Wilson loops parametrized by a conserved momentum—are sufficient to obtain the FKM invariant and LBO line invariants in many settings, but they do not provide a general, constructive procedure to identify or compute the extra rotationally induced invariants predicted by classification. More specifically, (i) the K-theory existence proofs do not specify explicit momentum-space contours or spectral features whose quantized properties yield the new invariants in a given lattice model; (ii) standard Wilson-loop spectra lack the symmetry-adapted structure needed to capture curvature features confined to symmetry-related sectors of the Brillouin zone (BZ) and therefore can miss invariants that are tied to fractional symmetry domains (for instance, $1/n$ of the BZ for an $n$-fold rotation); and (iii) the interplay of symmetry-constrained degeneracies (Kramers pairs), band overlap, and the addition of topologically trivial occupied Kramers pairs creates ambiguity about which spectral features of Wilson loops are stable (true invariants) versus fragile and removable by adding trivial bands. Because of these gaps, researchers cannot, in a systematic way, compute the rotational Z2 invariants in concrete tight-binding models, cannot unambiguously relate such invariants to boundary phenomena (edge or corner states) in finite geometries, and cannot determine which purportedly “fragile” signatures are in fact stable under addition of trivial Kramers pairs. This lack of an explicit, symmetry-adapted diagnostic that (a) respects time-reversal symmetry and pure rotational symmetry, (b) yields quantized, band-structure-computable indicators for all curvature-based invariants predicted by classification, and (c) distinguishes stable from fragile spectral features, is the scientific problem this paper addresses.",
+        "content_hash": "8f9cc3b10b59949ecdc408c7ef906f3a0ad21d53606deef8bb1372c9a1638f25",
+        "id": "gcn_d763cb8ba9ff4a7b",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867764014640268236::problem",
+            "package_id": "paper:867764014640268236",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867764014640268236"
+          ]
+        },
+        "rerank_score": 0.6873238906178766,
+        "role": "premise",
+        "score": 0.010526315789473684,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Unambiguous topological classification requires a robust calculation of the $Z_{2}$ invariant that does not rely on crystalline inversion symmetry. Prior to this work no $Z_{2}$ computation tied to DB‑C3NX had been shown, leaving the identification of a QSH phase dependent on indirect indicators only. Computing the WCC and extracting $Z_{2}$ demonstrates the topological character conclusively and provides a gauge‑invariant diagnostic that can be directly compared across field strengths.",
+        "content_hash": "3ae90b056ef898eaa476f05371ed3c15e2a283932d7f50bdd9fa576ff9a42f2e",
+        "id": "gcn_ff635ff21c664281",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1205122912558776378::conclusion_6_subproblem",
+            "package_id": "paper:1205122912558776378",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1205122912558776378"
+          ]
+        },
+        "rerank_score": 0.6617489525094927,
+        "role": "premise",
+        "score": 0.007692307692307693,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Demonstrating topology in a reduced-symmetry lattice requires both a bulk invariant and an explicit finite-geometry demonstration of protected boundary modes. Although the modified Hamiltonian suggests a Kane–Mele-like phase, it remained to be shown whether the Wilson-loop obstruction implied by the bulk model actually corresponds to boundary-localized, spin-filtered dispersing states for parameter sets relevant to the photonic implementation. Without this check, the analytic model could be formally topological but not produce the expected physical surface transport. Computing Wilson loops and finite-ribbon spectra for explicit parameter values verifies that the analytic $H_{KM}^{C_{2v}}$ model supports a $Z_{2}=1$ phase with edge modes, thereby connecting the tight-binding invariants to tangible boundary phenomena.",
+        "content_hash": "2df54d5e7141af3f717a24b7d97187c0c6b9670cf0fd22d3129a085d4f53ea61",
+        "id": "gcn_e81b218129ec4c91",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1156923802140016658::conclusion_6_subproblem",
+            "package_id": "paper:1156923802140016658",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1156923802140016658"
+          ]
+        },
+        "rerank_score": 0.6563990507608388,
+        "role": "premise",
+        "score": 0.00625,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The authors construct maximally localized Wannier functions for Pb, Bi, Br, O (s, p_x, p_y, p_z) and show that the Wannier-interpolated tight-binding bandstructure reproduces the DFT bandstructure closely (Fig. 5a), enabling Wilson-loop (wannier charge-center) calculations on the tight-binding model that yield Z2 invariants with unambiguous crossing counts corresponding to (1; 0 0 0).",
+        "content_hash": "90603bfd28f7fdfe404a1885f3cd3bfdc14f8e5778e82cbd527f1c16a22d2c26",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_e85fba05fdef4035",
+        "kind": "highlight",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817405227316543488::H1",
+            "package_id": "paper:817405227316543488",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817405227316543488"
+          ]
+        },
+        "rerank_score": 0.6658599291582682,
+        "role": "premise",
+        "score": 0.0059973385124442525,
+        "title": "Wannier-interpolated bandstructure and Wilson-loop Z2 calculation",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Practitioners needed explicit, model-level criteria that map simple atomic-hopping parameter combinations to integer winding numbers for minimal nearest-neighbour two-band chiral models. Abstract statements that a $\\mathbb{Z}$ invariant exists are insufficient for direct spectral-phase diagnosis. The provided nearest-neighbour formula expresses the winding invariant in terms of canonical Fourier coefficients (which in turn are linear combinations of atomic hoppings via Tables II/IV), delivering an immediately computable topological phase boundary and gap-closing condition for experimental or numerical parameter scans.",
+        "content_hash": "cd5c77dd9651da138db91fa484898a51aa882f7dd95fc4304609030f8426b30f",
+        "id": "gcn_51aec5c80c5c4785",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867766983276363797::conclusion_7_subproblem",
+            "package_id": "paper:867766983276363797",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867766983276363797"
+          ]
+        },
+        "rerank_score": 0.6551077759384153,
+        "role": "premise",
+        "score": 0.016129032258064516,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Robust topological classification and edge-state calculations require low-energy tight-binding Hamiltonians that faithfully reproduce the ab initio band structure including relevant orbital content and SOC. Directly computing topological invariants and edge spectra from plane-wave DFT output is cumbersome without a compact, accurate model; uncontrolled projections or imperfect bases can give ambiguous results for invariants. Therefore an accurate Wannier tight-binding representation that preserves the orbital characters ($d_{xz},d_{yz}$ of the transition metal and $p_{z}$ states of the ligands/carbon) is necessary to evaluate $Z_{2}$ and Chern indices and to compute edge spectral functions reliably. The constructed Wannier models fulfill this need for the KIH compounds and serve as the computational bridge between DFT band structures and topological diagnostics.",
+        "content_hash": "af9e711872050e92a548a4af9e4ca4a42f9dff5a17312dffad435ba1c5ccdd2e",
+        "id": "gcn_39243997927441ea",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:977218346858577921::conclusion_6_subproblem",
+            "package_id": "paper:977218346858577921",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:977218346858577921"
+          ]
+        },
+        "rerank_score": 0.6513926267664367,
+        "role": "premise",
+        "score": 0.007407407407407408,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Any new diagnostic must be tested on paradigmatic models and realistic material models to establish practical reliability. Prior classifications for the BHZ model, HgTe/CdTe, Bi$_2$Se$_3$, Bi$_2$Te$_3$ thin films, bilayer Bi/Sb, and the Kane–Mele graphene model are established in the literature by other methods (parity counting where applicable, direct surface-state calculations, or known analytical results). The conclusion demonstrates that the Wilson-loop eigenphase evolution and partner-switching parity rule, when applied to these standard test cases using the discrete-overlap implementation, reproduces the expected $\\mathbb{Z}_2$ classifications. This validates the method as a practical, gauge-free tool for diagnosing topology in both toy models and realistic tight-binding models derived from first-principles calculations.",
+        "content_hash": "a1fa6c00f6ec829706eaba87fcd532a80721630d26a6adc4606370fb5ec281ec",
+        "id": "gcn_f3de3144357341be",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811635672707235841::conclusion_5_subproblem",
+            "package_id": "paper:811635672707235841",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811635672707235841"
+          ]
+        },
+        "rerank_score": 0.745356933295334,
+        "role": "premise",
+        "score": 0.014285714285714285,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "In one-dimensional crystalline tight-binding systems, especially multiband generalizations of the Su–Schrieffer–Heeger (SSH) model, established bulk topological diagnostics are incomplete. Standard single-band constructs such as the Zak phase (polarization) and the Wilson loop produce phases defined only modulo $2\\pi$ and therefore give a $\\mathbb{Z}_2$-type characterization (polarization) that cannot distinguish richer integer-valued topologies that appear in multiband settings. The winding number gives an integer ($\\mathbb{Z}$) invariant but requires chiral symmetry and is constructed to count only zero-energy, chiral-symmetry–pinned edge modes; it ceases to be well-defined or complete when chiral symmetry is broken or when edge modes occur at nonzero energy. The closed-path Wilson loop and Wannier-center spectra correctly give polarization but, being inherently modular, do not directly yield an unambiguous integer that counts all boundary-localized states in multiband, non-inversion-symmetric models. Practically, these theoretical limitations imply that (i) multiband SSH-type chains can host multiple edge states per boundary (including nonzero-energy edge states) that are invisible to Zak-phase/polarization diagnostics and to winding-number counts, (ii) finite-size behavior complicates identification of bulk phase boundaries and the onset of edge states, and (iii) there is no straightforward, numerically stable, ab initio prescription to obtain a signed integer bulk invariant that (a) is computable for arbitrary multiband 1D Hamiltonians, (b) correlates with the full set of boundary states (including nonzero-energy ones), and (c) can be connected to an experimentally accessible observable that reveals the sign of the invariant. Additionally, the different symmetry- and sublattice-structured disorder types in multiband chains suggest distinct protection mechanisms (standard chiral protection for $E=0$ modes versus “hidden” symmetries protecting nonzero-energy in-gap modes), but a systematic identification of which disorder classes preserve which edge states is lacking. These gaps motivate a numerically tractable multiband invariant and an analysis of its physical meaning, finite-size convergence, experimental accessibility, and robustness to realistic disorder classes.",
+        "content_hash": "e8b828cfe48ad895ea35d1f7dda6b91f50da46690a9d6ff7029349dbee09fbda",
+        "id": "gcn_08a4b72ee10a40b4",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1147502108841345026::problem",
+            "package_id": "paper:1147502108841345026",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1147502108841345026"
+          ]
+        },
+        "rerank_score": 0.6442364270141266,
+        "role": "premise",
+        "score": 0.01639344262295082,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The Wilson loop analysis for the mirror-Chern numbers is performed only on the minimal tight-binding model, not on the ab initio Wannier model. The TB model's wavefunctions are approximate, so the Wilson loop windings may differ from those of the ab initio bands.Wilson loop only on TB model",
+        "content_hash": "a6b6a026ca0dc2fef29e1b9272a2f8fa3df71e8dc697e8ba70c4603a5f57cd29",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_0c60c06a4c7d4d93",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1033233054258167810::P7",
+            "package_id": "paper:1033233054258167810",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1033233054258167810"
+          ]
+        },
+        "rerank_score": 0.6439014357326395,
+        "role": "premise",
+        "score": 0.006080008857069048,
+        "title": "Wilson loop only on TB model",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Materials characterization typically required either (i) inversion-parity diagnostics (inapplicable when inversion symmetry is absent), (ii) explicit surface-slab electronic-structure calculations that depend on termination and are computationally heavier, or (iii) delicate Berry-phase integrations.  Practitioners needed a bulk protocol that could be applied to realistic DFT band-structures and that would unambiguously report weak- versus strong- versus trivial- $Z_2$ topology and Chern/crystalline signatures.  This conclusion demonstrates that by (i) generating an ab initio Wannier tight-binding Hamiltonian for the active valence manifold, and (ii) applying the Wilson-loop WCC-sheet construction, one can determine the topological class of real materials (here $Sb_2Se_3$, KHgSb, Bi$_2$Se$_3$) using only primitive-cell bulk calculations.",
+        "content_hash": "ec8ade32d3a3683ea086378f828035505d14ada954a173ec59b6bbad32186d00",
+        "id": "gcn_a8a744810b5042f6",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867746369488552167::conclusion_5_subproblem",
+            "package_id": "paper:867746369488552167",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867746369488552167"
+          ]
+        },
+        "rerank_score": 0.7399591179970345,
+        "role": "premise",
+        "score": 0.020675620675620676,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "To identify a real (i.e., $\\mathcal{PT}$-protected) topological phase one must compute an invariant appropriate to real vector bundles rather than the usual complex Chern number. For a candidate spinless 2D material, this requires both (a) a gauge-invariant numerical diagnostic applicable to the ab-initio valence-band subspace (such as the non-Abelian Wilson-loop method adapted to real bundles) and (b) a simple crystallographic shortcut when inversion symmetry exists (a parity formula). Before this work, it was not established whether graphyne’s valence bands carry a nontrivial real-Chern topology, nor was it demonstrated that the two independent diagnostics (Wilson-loop flow parity and the inversion-parity formula) agree for an ab-initio-derived tight-binding/Wannier model of graphyne. Establishing $\\nu_R=1$ with both methods fills that methodological and identification gap, providing an unambiguous bulk topological label for the material.",
+        "content_hash": "52cf118d3502143a8b267de47693984a4ae7bab51775053b05b875e76127564a",
+        "id": "gcn_3f89b82a21484078",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867773131442356923::conclusion_2_subproblem",
+            "package_id": "paper:867773131442356923",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867773131442356923"
+          ]
+        },
+        "rerank_score": 0.6701861706536025,
+        "role": "premise",
+        "score": 0.01282051282051282,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "To make Berry-obstructed atomic limits physically tangible, one needs explicit lattice models that (a) realize the irrep-equivalent EBRs in question, (b) exhibit a symmetry-preserving path that cannot be completed without closing the bulk gap, and (c) show the generic nature of intermediate gapless phases. Prior literature offered conceptual examples (SSH/Rice–Mele in 1D) but not three-dimensional models in specific space groups where irreps are insufficient. The provided tight-binding construction demonstrates the required obstruction concretely, shows how Wilson-loop/Berry invariants change across the transition, and identifies the generic Weyl-semimetal intermediate—thereby connecting abstract representation-theoretic distinctions to explicit Hamiltonians and possible experimental signatures.",
+        "content_hash": "7b220452ee9f485ca91d1501d8bb0c6cd078029f7eedd442e2058c2da3dad0fd",
+        "id": "gcn_c14f956000a9489e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867773525744681665::conclusion_10_subproblem",
+            "package_id": "paper:867773525744681665",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867773525744681665"
+          ]
+        },
+        "rerank_score": 0.6617070027574062,
+        "role": "premise",
+        "score": 0.005714285714285714,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Global topological labels are required to relate bulk Weyl-node configurations to protected boundary phenomena and to distinguish topologically nontrivial proximized states from trivial ones when the BdG spectrum can be gapless. Existing topological invariants that rely on fully gapped bands (band-wise Chern numbers, TKNN number) are inapplicable when nodes persist. There was thus a need for symmetry-robust diagnostics applicable in gapless proximitized films. The Pfaffian Z_2 invariant above provides an explicit criterion, computable from band and pairing parameters at k=(0,0), that predicts an odd-parity topological character when m> |μ+4t| for the d-wave cases; quantized Zak phases on symmetry lines further supply loop-resolved indicators that predict where edge modes should appear. These invariants resolve the prior lack of applicable topological diagnostics for the always-nodal dWSC cases.",
+        "content_hash": "bed331ab573512c75a6db5f602be4cc1143c8521d5ca8474373f350cf5096380",
+        "id": "gcn_b639c7cbf4f740ee",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867770674649760411::conclusion_6_subproblem",
+            "package_id": "paper:867770674649760411",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867770674649760411"
+          ]
+        },
+        "rerank_score": 0.7196293992183599,
+        "role": "premise",
+        "score": 0.011235955056179775,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "To validate the theoretical surface classification and the Wilson-loop bulk diagnoses one needed concrete lattice Hamiltonians and numerical Wilson-loop and surface-state calculations. Prior to this work such a systematic set of tight-binding realizations covering different $C_n$ and orbital representations $l$ was lacking, so there was no numerical demonstration that the Euler-class and $C_n$ $\\mathbb{Z}_2$ indices computed on lattices match the predicted surface Dirac-cone counts or quadratic-touching phenomena.",
+        "content_hash": "dfce1a151da47ff5365577320f95940674ccac7b7631fbb07796db206b0201e7",
+        "id": "gcn_95ca6f63d8cc4f0e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867767172699521404::conclusion_6_subproblem",
+            "package_id": "paper:867767172699521404",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867767172699521404"
+          ]
+        },
+        "rerank_score": 0.6626282753080557,
+        "role": "premise",
+        "score": 0.008464477235287933,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "A coarse screening metric alone does not provide the full topological classification or the specific invariants and surface spectra required to confirm a material's topological class. Therefore, after screening, a secondary workflow capable of producing first-principles tight-binding models and computing Wilson loops, surface spectral functions, and band-node searches is necessary to assign materials to concrete topological classes and to distinguish, for example, strong $Z_2$ TIs from crystalline TIs or from semimetallic phases.",
+        "content_hash": "a0b47a8b9f248a964e9ca607387a3c4c518634578f3cc8bd0e84e63a9d37a941",
+        "id": "gcn_c5b5f1807d384a11",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867750371978641748::conclusion_4_subproblem",
+            "package_id": "paper:867750371978641748",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867750371978641748"
+          ]
+        },
+        "rerank_score": 0.6953192589677839,
+        "role": "premise",
+        "score": 0.0070921985815602835,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Physical context: topological diagnostics (Chern, $Z_{2}$, $w_{2}$) using Wilson loops are standard at zero flux, but the magnetic unit-cell enlargement and flux-dependent embedding matrices make the straightforward application of Wilson-loop diagnostics at nonzero flux nontrivial. The prior absence of a careful Wilson-loop construction that (a) incorporates the embedding matrices $V_i(\\phi)$, (b) respects the magnetic BZ periodicities, and (c) implements sewing matrices for magnetic-translation and antiunitary symmetries prevented rigorous Wilson-loop proofs of flux-enforced constraints on topological indices. This prevented model-independent derivations of many of the gap-closing and pumping results above.",
+        "content_hash": "39e0d2fcc6c6a77fa8fbd7f6cbb9ca2210f51770aaeb52c71aa97225b213cd0f",
+        "id": "gcn_1b95ed99bb814858",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867772228014440837::conclusion_8_subproblem",
+            "package_id": "paper:867772228014440837",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867772228014440837"
+          ]
+        },
+        "rerank_score": 0.6711587843268934,
+        "role": "premise",
+        "score": 0.009571350064114307,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Practical identification of $Z_{2}$-charged nodal lines in first-principles calculations requires a gauge-invariant computational diagnostic that can be evaluated on discrete $k$-space meshes. Prior to this work there was no established, widely usable procedure that (i) translates the abstract second Stiefel-Whitney class into a Wilson-loop spectral signature and (ii) specifies how to compute this signature on common closed manifolds used to enclose nodal lines (sphere or torus). Without such a procedure one could not reliably extract the $Z_{2}$ monopole from ab initio band structures or confirm the presence of $w_{2}=1$ in candidate materials.",
+        "content_hash": "0a2356ee3eb508754bd9dbd49b1d7b2916fd0a63112448a74a95cad73b3c40ee",
+        "id": "gcn_2cc452be55e7447a",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817342636015747076::conclusion_2_subproblem",
+            "package_id": "paper:817342636015747076",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817342636015747076"
+          ]
+        },
+        "rerank_score": 0.636218112450176,
+        "role": "premise",
+        "score": 0.015873015873015872,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The identification of band-structure topology in real materials is hampered by several interrelated scientific and methodological gaps that motivated this work. Physically, researchers need robust, quantitative ways to decide whether a given material or model realizes a nontrivial topological phase (e.g., Chern, $\\mathbb{Z}_2$, crystalline topological insulators, Weyl/Dirac semimetals) across the range of modeling approaches used in materials theory: continuum $ \\mathbf{k}\\!\\cdot\\!\\mathbf{p} $ models, tight-binding models, and first-principles (ab initio) calculations. Prior approaches provided distinct theoretical characterizations (Chern numbers, Berry curvature, Wilson loops, symmetry-based indicators) and a number of numerical recipes, but no single, practical, and broadly applicable computational pipeline existed to (a) compute the relevant topological invariants from Bloch states obtained by different modeling levels, (b) incorporate symmetry-based decompositions of the occupied space (for example to obtain individual or mirror Chern numbers), and (c) treat metals and semimetals where direct band gaps may close on portions of the Brillouin zone. Specific methodological limitations included: gauge ambiguities and numerical discontinuities when splitting the occupied Hilbert space into symmetry-respecting subspaces; the lack of a stable, automatable numerical recipe to extract $\\mathbb{Z}_2$ and Chern invariants directly from Bloch eigenstates on discrete $k$ meshes; the absence of a practical detection procedure for topological point nodes (Weyl/Dirac) based on Bloch-state data; and the absence of an integrated, high-throughput-capable software implementing such algorithms and interfaces to common first-principles codes. As a consequence, researchers could not reliably or automatically screen large materials databases for many classes of topological states, could not robustly assign symmetry-resolved invariants (e.g., mirror Chern numbers) from ab initio data without delicate gauge construction, and faced difficulty detecting and characterizing topological degeneracies (existence, location, and chirality) in metallic band structures from first-principles outputs.",
+        "content_hash": "110ef011920f1f46208a8943a540ad0fe4e540f3fc8d2eae752e800e975e4940",
+        "id": "gcn_dde797541c314b5e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811058876798468096::problem",
+            "package_id": "paper:811058876798468096",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811058876798468096"
+          ]
+        },
+        "rerank_score": 0.7173500325224352,
+        "role": "premise",
+        "score": 0.017787114845938375,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Conventional topological diagnostics (Berry phases, Bloch windings) presuppose momentum space and are not directly applicable on a tree. A prior deficiency was the lack of a bulk frequency-domain diagnostic that: (i) is defined from resolvent Green's functions available on arboreal graphs, and (ii) correlates with obstructed atomic character and edge phenomena. Without such a diagnostic one cannot unambiguously identify which link supports the obstructed Wannier localization or track that topological character into metallic regimes. This conclusion supplies $W_\\alpha(z)$ as a model-intrinsic, dimensionless winding diagnostic built from $G$ and $G_\\alpha$, states its precise mathematical definition, and records its distinct phasewise winding behaviour (winding in $\\mathbf{I}_\\alpha$ and $\\mathbf{M}_\\alpha$, none in $\\mathbf{M}_0$), thus filling the conceptual gap.",
+        "content_hash": "252fb676b2a76263095fe1b199914d51f78525bfb458926f1bfcdac1f4e80ae0",
+        "id": "gcn_7dd49d0cfb5c45f8",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:964420400035397634::conclusion_3_subproblem",
+            "package_id": "paper:964420400035397634",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:964420400035397634"
+          ]
+        },
+        "rerank_score": 0.6147051416465218,
+        "role": "premise",
+        "score": 0.007518796992481203,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Symmetry indicators alone can miss fragile or obstructed-band topologies; conversely, Wilson-loop winding provides an unambiguous bulk diagnostic of band topology (including fragile features). Prior TNPC studies lacked Wilson-loop calculations tied to a geometry-parameterized Hamiltonian, so the connection between a designed coupling set and the Wilson-loop winding remained unverified. Without Wilson-loop evidence, claims of topological versus trivial gaps can be ambiguous; producing explicit winding numbers shows the model supports bona fide topological phases, not only symmetry-indicated signals.",
+        "content_hash": "9b05d6738635b811da9069cb2adae8f9a6834c481b98dff364e754c4955b90d9",
+        "id": "gcn_9427fabebacf4c37",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:966036052106018872::conclusion_6_subproblem",
+            "package_id": "paper:966036052106018872",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:966036052106018872"
+          ]
+        },
+        "rerank_score": 0.6126380632629259,
+        "role": "premise",
+        "score": 0.0072992700729927005,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The work addresses the need to establish bulk topological characterization and phase diagrams for two-dimensional tight-binding models that possess only $n$-fold rotational symmetry (here $n=6$) and time-reversal (TR) symmetry in some settings, or that explicitly break TR in others. Prior to this paper, canonical topological invariants (Chern numbers, the $Z_{2}$ Fu–Kane–Mele invariant, and various symmetry-based indicators) provide reliable classification for many lattices with high crystalline symmetry or for the ten-fold way, but important gaps remained. In particular, K-theory analyses suggested that, for systems that preserve TR and rotation but break other spatial symmetries, the Concentric Wilson Loop Spectrum (CWLS) may contain an additional invariant that is “missing” from conventional lists; however, numerical tests of this proposal were restricted to specific realizations with three- and four-fold rotation and to a small set of lattice geometries. Separately, studies of Haldane- and Kane–Mele-type physics on lattices beyond honeycomb or square geometries have not systematically explored how inequivalent nearest-neighbor (NN) hoppings, distinct intra-cell Haldane (or intrinsic SOC) terms, and longer-range (next-next-nearest-neighbor, NNNN) hoppings modify the band gaps and produce higher absolute-value Chern numbers. Because these open methodological and conceptual points leave the topological classification incomplete, it is not known whether the CWLS-based invariant is a stable (strong) bulk invariant in general rotation-symmetric TR-preserving crystals, nor how robust or how large the set of possible Chern insulating phases can be once additional geometric degrees of freedom (inequivalent triangle vs hexagon hoppings) and longer-range hoppings are allowed. The lack of (i) a worked-out six-fold-symmetric model that systematically scans these parameters, (ii) phase diagrams that list attainable Chern numbers for multi-band subsystems, and (iii) numerical tests of the CWLS invariant’s stability under band hybridization, prevents settling whether the CWLS supplies the “missing” strong invariant predicted by K-theory and obstructs a complete, model-tested classification of rotation-only topological phases.",
+        "content_hash": "638ec6d339463d5b2f83200c3f1458fd2c1663ccc9be0dbac3efb52916181083",
+        "id": "gcn_845d86ba3cd34ef0",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1243871561119694851::problem",
+            "package_id": "paper:1243871561119694851",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1243871561119694851"
+          ]
+        },
+        "rerank_score": 0.612096171257339,
+        "role": "premise",
+        "score": 0.014084507042253521,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Directional (weak) topology in crystalline systems can be diagnosed either by edge spectra or by bulk Wilson-loop/Wannier methods; however, an explicit Wilson-loop construction tied to the microscopic four-band 2D SSH Hamiltonian was not previously provided. Without such a Wilson-loop evaluation one lacks an unambiguous bulk invariant (polarization/Wannier spectra) that matches the ribbon-edge phenomenology of the WTI subphases. The Wilson-loop formula and the computed Wannier bands furnish the bulk invariant that corroborates the winding-number classification and explains the flat edge bands in a bulk–boundary-consistent way.",
+        "content_hash": "9a37ee1353231b32c9cf4e6e0857a2095df712a08c7635537b654882e82b3798",
+        "id": "gcn_65d07500731846dd",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867752287840239821::conclusion_6_subproblem",
+            "package_id": "paper:867752287840239821",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867752287840239821"
+          ]
+        },
+        "rerank_score": 0.6260870225764431,
+        "role": "premise",
+        "score": 0.012345679012345678,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Because the net chiral charge of the occupied band pair is zero, conventional bulk invariants based on a single Chern number do not detect the nontrivial structure bound to the six-fold excitation. Therefore a more refined diagnostic (Wilson-loop spectrum on a sphere) was required to reveal band winding and to identify the protecting symmetries that stabilize crossing points of Wilson bands. Prior approaches that relied on naive counting of chiral charges or on surface Fermi-arc heuristics could not establish protected spectral flow when net Chern numbers vanish; without the Wilson-loop analysis and symmetry identification the topological character of the spinless six-fold excitation would remain ambiguous.",
+        "content_hash": "ae31cb2bb8c28c909cbe59519ee5ecb7c7f07cf6ae0e4a39e4d37dce99bcf10b",
+        "id": "gcn_baf1856423af4591",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867761858881258204::conclusion_3_subproblem",
+            "package_id": "paper:867761858881258204",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867761858881258204"
+          ]
+        },
+        "rerank_score": 0.653454384470966,
+        "role": "premise",
+        "score": 0.006134969325153374,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "The classification built from abstract Berry-phase invariants required concrete lattice models to (i) demonstrate that the invariants are computable in realistic Hamiltonians, (ii) showcase the spectral (Wilson-loop) signatures that distinguish atomic from fragile phases, and (iii) verify the stability/fragility properties under symmetry-allowed perturbations and band additions. Without explicit tight-binding realizations and Wilson-loop diagnostics, the proposed invariants would remain formal; constructing models that realize each conceptual possibility and numerically extracting their Wilson-loop spectra was necessary to validate the classification.",
+        "content_hash": "5fd004e2da97bc6a43af362245aba07b6b87fd25b4c6baf8e75416f2db7dbdb2",
+        "id": "gcn_3e4c58faa5a6423f",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867766563653026071::conclusion_6_subproblem",
+            "package_id": "paper:867766563653026071",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867766563653026071"
+          ]
+        },
+        "rerank_score": 0.6659641394539684,
+        "role": "premise",
+        "score": 0.01649470540320391,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Physical context: concrete lattice Hamiltonians that realize abstract Wilson-loop constructions are required both to demonstrate physical realizability and to provide benchmarks for numerical methods. Prior state: while K-theory predicts the existence of $\\\\nu_{new}$ and prior works discussed Wilson-loop windings and fragile/atomic obstructions, explicit tight-binding models with analytically computable Wilson loops realizing the nontrivial $\\\\nu_{new}$ (especially with gapless Wilson-loop spectra) were lacking. The inability to produce such models impeded direct numerical tests and physical interpretation. The conclusion supplies an explicit analytic model with closed-form Wilson loop, making the invariant directly computable and illustrating the physical meaning of the lifted-covering construction.",
+        "content_hash": "8ba2f8597adb621d3f06365ba859acb6f6ab6442d983b5138bbfd795e4c92e4b",
+        "id": "gcn_e0820da4b34e49c8",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867754212677648999::conclusion_5_subproblem",
+            "package_id": "paper:867754212677648999",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867754212677648999"
+          ]
+        },
+        "rerank_score": 0.6434886519988805,
+        "role": "premise",
+        "score": 0.007194244604316547,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Identifying the 3D strong/weak/topological classification requires examining 2D $k_i=0,\\pi$ cuts. Existing approaches either relied on parity counting (only valid with inversion) or computationally heavy surface-state calculations. There was a need for a bulk method that can be applied to realistic tight-binding models (including noncentrosymmetric zinc-blende materials) and that produces unambiguous classification for the relevant high-symmetry $k_z$ cuts. The Wilson-loop algorithm supplies that direct bulk test and yields the strong-TI diagnosis for strained HgTe and a trivial result for CdTe without requiring inversion symmetry arguments or surface calculations.",
+        "content_hash": "e549c0f415c4d24533148aa87063d48db758b7a49ddc1a3d05331accc6b9efbf",
+        "id": "gcn_6a82bf6e767b4904",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867767303326925420::conclusion_6_subproblem",
+            "package_id": "paper:867767303326925420",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867767303326925420"
+          ]
+        },
+        "rerank_score": 0.7042081517020341,
+        "role": "premise",
+        "score": 0.005780346820809248,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "On a spherical surface enclosing a pair of triple points in the symmetrized tight‑binding model for ZrTe, the Wilson loop spectrum is computed (Fig. 13). Among the eight occupied bands, six Wilson loop eigenvalues are trivial (φ_i ≈ 0), while two eigenvalues exhibit a gapless flow as a function of the azimuthal angle θ, with opposite Chern numbers (+1 and -1) determined from their C₃ symmetry expectation values. The difference of these Chern numbers divided by two defines a Z₂ invariant. Additionally, the C₃ eigenvalues of the valence bands change from {−1,−1} to {exp(iπ/3), exp(−iπ/3)} when crossing the pair of TPs along the k_z axis.",
+        "content_hash": "52a6600e2cf7905792fbec10a890119f27de4ce53a28fef5e72a79d973024a8b",
+        "has_evidence": false,
+        "has_reasoning": false,
+        "id": "gcn_017c64bb135f459a",
+        "kind": "highlight",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867770717259694264::H4",
+            "package_id": "paper:867770717259694264",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867770717259694264"
+          ]
+        },
+        "rerank_score": 0.6900001082987128,
+        "role": "premise",
+        "score": 0.005699103394578627,
+        "title": "Wilson loop identification of Z₂ topological invariant",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Confirming non-trivial band topology in a material requires band-structure calculations that include spin–orbit coupling and topological diagnostics (e.g., Z2 invariants) evaluated on the same crystal structure as the experimentally measured sample. Prior theoretical predictions indicated non-trivial topology in NbC, and ARPES on single crystals reported related features, but a combined computation using the experimental CIF of a well-characterized polycrystalline sample, with MLWF-based tight-binding and explicit Z2-plane-by-plane evaluation, was not previously shown for the same sample used in superconducting measurements. Moreover, topological diagnostics in time-reversal-symmetric metals can be subtle (Chern number is not applicable), and practical Wannier-based implementations may fail to converge in the presence of nodal points; without demonstrating the Z2 indices and analyzing SOC effects on band degeneracies, the claim of non-trivial topology for experimentally realized NbC remained incomplete.",
+        "content_hash": "5d1b8041e908de84ee13eed1c45f2dc602ca94c38146f03861a717aeda58ff9e",
+        "id": "gcn_80a1b219303c4389",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867765926274007240::conclusion_6_subproblem",
+            "package_id": "paper:867765926274007240",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867765926274007240"
+          ]
+        },
+        "rerank_score": 0.6314791921596865,
+        "role": "premise",
+        "score": 0.008695652173913044,
+        "type": "question",
+        "visibility": "public"
+      },
+      {
+        "content": "Topological invariants beyond single-band Chern numbers—such as multiband Chern numbers and $Z_{2}$ invariants relevant for systems with degeneracies or time-reversal–protected topology—are formulated in terms of Wilson loops or Wilson–Zak loop eigenvalues. Experimental access to these invariants therefore requires a means to measure the underlying Wilson lines. Before an experimental protocol existed to measure Wilson lines, there was no direct way to reconstruct the matrix-valued connection and compute these multiband invariants from laboratory observables; this gap limited experimental tests of theoretical classification schemes for multiband and symmetry-protected topological phases.",
+        "content_hash": "e1cb658e4209baea91ba1c85ba4ce32b59fcbbd1d2e62e96536a14ee6feacb96",
+        "id": "gcn_9b95c0e026c54d3e",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811271834249986048::conclusion_6_subproblem",
+            "package_id": "paper:811271834249986048",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811271834249986048"
+          ]
+        },
+        "rerank_score": 0.5994890084453617,
+        "role": "premise",
+        "score": 0.016786093418259023,
+        "type": "question",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "req_57057cf4d2f4e"
+}
