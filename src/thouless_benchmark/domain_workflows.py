@@ -23,6 +23,14 @@ SIGMA_Y = np.array([[0.0, -1.0j], [1.0j, 0.0]], dtype=complex)
 SIGMA_Z = np.array([[1.0, 0.0], [0.0, -1.0]], dtype=complex)
 
 
+def _trapezoid(values: np.ndarray, grid: np.ndarray) -> float:
+    """Support NumPy 1.26 (`trapz`) and NumPy 2.5 (`trapezoid`)."""
+
+    if hasattr(np, "trapezoid"):
+        return float(np.trapezoid(values, grid))
+    return float(np.trapz(values, grid))
+
+
 def spectral_reliability(
     build_matrix: MatrixBuilder,
     periodic_energy: Callable[[float], float],
@@ -62,7 +70,7 @@ def spectral_reliability(
         -0.5 * ((energy_grid[:, None] - square_energies[None, :]) / eta) ** 2
     ) / (math.sqrt(2.0 * math.pi) * eta)
     dos = np.mean(gaussian, axis=1)
-    integrated_dos = float(np.trapz(dos, energy_grid))
+    integrated_dos = _trapezoid(dos, energy_grid)
 
     chain_momenta = 2.0 * np.pi * np.arange(4096) / 4096.0
     chain_energies = np.asarray([periodic_energy(float(k)) for k in chain_momenta])
