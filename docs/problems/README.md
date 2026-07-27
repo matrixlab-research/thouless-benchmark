@@ -19,6 +19,13 @@ ranges and units, required computation, expected result, acceptance and
 convergence conditions, held-out variants, provenance, and implementation
 status.
 
+The per-document status below says only whether an executable benchmark exists.
+The separate [three-backend capability assessment](../problem-coverage.md)
+classifies every problem for Thouless, PythTB, and Kwant as `implemented`,
+`implementable_unverified`, `missing_capability`, or `not_applicable`.
+That assessment includes the documented parameter range: a dense small-system
+path does not satisfy a problem that requires sparse production-scale methods.
+
 ## Status vocabulary
 
 - `proposed`: domain specification only; no backend pass is claimed.

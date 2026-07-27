@@ -23,9 +23,10 @@ related observables.
 5. Thouless cases must execute a native Rust binary linked to the pinned
    Thouless commit. Python may orchestrate processes but may not replace the
    Rust scientific calculation.
-6. A package that does not provide the required scientific workflow must be
-   marked `not_applicable`; do not hide a separate NumPy implementation behind
-   that package's name.
+6. A core scientific workflow outside a package's declared scope must be marked
+   `not_applicable`. An in-scope workflow lacking a specialized primitive must
+   be marked `missing_capability`. Do not hide a separate NumPy or SciPy
+   implementation behind that package's name.
 7. Prefer analytic invariants and metamorphic relations over stored numerical
    arrays. Cross-backend agreement is supporting evidence, not ground truth.
 8. Do not recognize case identifiers inside a numerical routine to return
@@ -37,12 +38,31 @@ related observables.
     failures. Do not silently remove a failing backend or widen a tolerance.
 11. Public cases are not held-out validation. Generality claims require a
     separate evaluator with unseen models and hidden expected results.
+12. Backend-level problem assessments use exactly four states:
+    `implemented`, `implementable_unverified`, `missing_capability`, and
+    `not_applicable`. `Implementable_unverified` requires source evidence for
+    every specialized primitive. `Missing_capability` means a general solver
+    or representation must be added. `Not_applicable` is reserved for a core
+    workflow outside the package's declared scope.
+13. Model definitions, parameter loops, statistics, and gauge-invariant
+    postprocessing may be shared after the named backend constructs the
+    Hamiltonian. Do not attribute an unrelated external scientific solver to a
+    backend merely because its matrix can be exported. A documented package
+    dependency may provide a numerical kernel only when the package exposes the
+    required representation as its normal workflow; record that dependency
+    explicitly.
+14. The documented parameter range is part of the scientific problem. A dense
+    toy-size path is not evidence that a backend has the required sparse or
+    production-scale capability.
 
 ## Required checks
 
 - The original manifest contains exactly twenty unique seed cases.
 - The domain manifest contains five executable witnesses and the generated
   audit contains exactly 100 questions by three backends.
+- Every one of the 300 backend-question assessments names its required,
+  available, and missing capabilities and links available capabilities to
+  pinned source-level API evidence.
 - The domain problem catalog contains exactly one hundred unique questions in
   twenty suites. Thirteen currently have complete executable witnesses; the
   remaining documents stay proposed.

@@ -39,9 +39,9 @@ with:
 These documents define benchmark problems before API design. Thirteen are now
 marked `executable`; eighty-seven remain `proposed`. The canonical
 [100-question by three-backend audit](benchmark/problem_coverage.json)
-distinguishes complete implementation, partial capability, and scientific
-non-applicability. A related model or single observable is not counted as a
-whole-problem implementation.
+distinguishes complete implementation, implementability without verification,
+missing reusable capability, and scientific non-applicability. A related model
+or single observable is not counted as a whole-problem implementation.
 
 ## Comparison policy
 
@@ -49,7 +49,11 @@ whole-problem implementation.
   transformations, bulk-boundary correspondence, and exact transport limits
   are the reference gates.
 - Cross-backend agreement is reported but is never the sole source of truth.
-- `not_applicable` is explicit and unscored.
+- `implementable_unverified` requires source evidence for every specialized
+  primitive, but remains unscored until an end-to-end evaluator passes.
+- `missing_capability` means test orchestration alone is insufficient.
+- `not_applicable` is reserved for a core workflow outside the package's
+  declared scope; it is not inferred from a missing API alone.
 - The original PythTB and Kwant packages are installed in an isolated Python
   environment. The repository rejects imports from a Thouless compatibility
   tree.
@@ -79,16 +83,20 @@ pass their analytic or invariant-based checks. See
 
 Strict whole-problem coverage of the 100-question catalog is:
 
-| Backend | Implemented | Partial | Not applicable | Raw coverage |
-|---|---:|---:|---:|---:|
-| Thouless native Rust | 13 | 71 | 16 | 13% |
-| Original PythTB 2.0.0 | 12 | 44 | 44 | 12% |
-| Original Kwant 1.5.0 | 13 | 61 | 26 | 13% |
+| Backend | Implemented | Implementable, unverified | Missing capability | Not applicable | Verified coverage |
+|---|---:|---:|---:|---:|---:|
+| Thouless native Rust | 13 | 54 | 18 | 15 | 13% |
+| Original PythTB 2.0.0 | 12 | 16 | 42 | 30 | 12% |
+| Original Kwant 1.5.0 | 13 | 46 | 21 | 20 | 13% |
 
 The five domain witnesses cover degeneracy-safe projectors and DOS state
 counting, Bloch-to-finite spectral convergence, Peierls gauge covariance and
 Hofstadter topology, BdG/Andreev/Majorana physics, analytic lead calibration,
-and spin-texture covariance. `Partial` is a recorded gap, not coverage.
+and spin-texture covariance. `Implementable, unverified` is an engineering
+queue, not coverage; `missing capability` requires a reusable package feature
+before an end-to-end benchmark can be honest. The documented parameter range is
+part of the classification: a dense toy-size route does not establish a sparse
+or production-scale capability.
 
 ## Same-machine timing
 

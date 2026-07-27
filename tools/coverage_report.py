@@ -29,7 +29,9 @@ def main() -> None:
         item = domain[backend]
         print(
             f"{backend}: {item['implemented']}/100 implemented; "
-            f"{item['partial']} partial; {item['not_applicable']} not applicable"
+            f"{item['implementable_unverified']} implementable but unverified; "
+            f"{item['missing_capability']} missing capability; "
+            f"{item['not_applicable']} not applicable"
         )
 
 
