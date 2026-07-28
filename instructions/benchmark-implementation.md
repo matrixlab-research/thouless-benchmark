@@ -68,6 +68,11 @@ related observables.
 - The domain problem catalog contains exactly one hundred unique questions in
   twenty suites. Sixty-seven currently have complete executable witnesses; the
   remaining thirty-three documents stay proposed.
+- The AD companion catalog contains exactly one requirement per domain
+  question. Every companion states its derivative variable, scientific output,
+  no-AD control, validity boundary, acceptance evidence, capability demand, and
+  issue-backed status. Existing AD witnesses do not imply whole-question
+  coverage.
 - Every case has a public LKM GCN identifier and source paper.
 - Every case has at least one native Thouless implementation.
 - Every scored result records backend version and commit where applicable.

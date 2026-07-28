@@ -51,6 +51,17 @@ distinguishes complete implementation, implementability without verification,
 missing reusable capability, and scientific non-applicability. A related model
 or single observable is not counted as a whole-problem implementation.
 
+The same immutable anchors now have
+[100 domain-first AD companion requirements](docs/ad-requirements/README.md).
+Each companion records when differentiation is essential, helpful,
+conditional, or not central; names the continuous controls and scientific
+outputs; freezes a no-AD control; and separates missing forward physics from a
+missing AD rule. The machine-readable
+[100-row matrix](benchmark/ad_requirements.json) is the source for the
+[Rust-native capability plan](docs/rust-native-ad-capability-plan.md). The
+existing ten AD workflows touch fourteen questions as evidence witnesses, but
+do not define the requirements or claim complete coverage of those TBQs.
+
 ## Comparison policy
 
 - Correctness is primary. Analytic spectra, quantized invariants, symmetry
@@ -193,6 +204,8 @@ python tools/check_ad_comparison.py \
   results/local/ad-vs-finite-difference.json
 python tools/build_problem_coverage.py --check
 python tools/check_problem_docs.py
+python tools/build_ad_requirements.py --check
+python tools/check_ad_requirements.py
 ```
 
 Every completed workflow must satisfy
