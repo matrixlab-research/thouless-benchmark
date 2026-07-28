@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "track": "ad_method_comparison",
+  "source_catalog": "benchmark/ad_cases.json",
+  "methods": {
+    "native_ad": "Thouless native analytic JVP or VJP rules",
+    "central_finite_difference": {
+      "scheme": "central",
+      "step": 1e-06
+    }
+  },
+  "fairness_contract": {
+    "same_rust_forward_model": true,
+    "same_physical_parameters": true,
+    "same_scientific_product": true,
+    "same_initial_state_and_optimizer": true,
+    "same_stopping_rule_and_line_search": true,
+    "finite_difference_uses_forward_only_calls": true,
+    "both_derivative_paths_are_warmed_before_timing": true,
+    "accuracy_is_gated": true,
+    "relative_speed_is_not_a_ci_gate": true
+  },
+  "cases": [
+    {
+      "id": "adcmp_spectral_recovery",
+      "source_case_id": "ad_spectral_recovery",
+      "physical_system": "Rice-Mele chain",
+      "workload_kind": "end_to_end_optimization",
+      "parameter_count": 3
+    },
+    {
+      "id": "adcmp_degenerate_projector",
+      "source_case_id": "ad_degenerate_projector",
+      "physical_system": "spin-degenerate BHZ orbital block",
+      "workload_kind": "full_gradient",
+      "parameter_count": 2
+    },
+    {
+      "id": "adcmp_identifiability",
+      "source_case_id": "ad_identifiability",
+      "physical_system": "Su-Schrieffer-Heeger chain with a local bond marker",
+      "workload_kind": "full_jacobian",
+      "parameter_count": 2
+    },
+    {
+      "id": "adcmp_quantum_metric",
+      "source_case_id": "ad_quantum_metric",
+      "physical_system": "Rice-Mele chain",
+      "workload_kind": "full_gradient",
+      "parameter_count": 2
+    },
+    {
+      "id": "adcmp_topological_design",
+      "source_case_id": "ad_topological_design",
+      "physical_system": "Qi-Wu-Zhang Chern insulator",
+      "workload_kind": "end_to_end_optimization",
+      "parameter_count": 1
+    },
+    {
+      "id": "adcmp_surface_green_implicit",
+      "source_case_id": "ad_surface_green_implicit",
+      "physical_system": "semi-infinite Rice-Mele/SSH chain",
+      "workload_kind": "full_gradient",
+      "parameter_count": 5
+    },
+    {
+      "id": "adcmp_inverse_transport",
+      "source_case_id": "ad_inverse_transport",
+      "physical_system": "noninteracting serial double quantum dot",
+      "workload_kind": "end_to_end_optimization",
+      "parameter_count": 2
+    },
+    {
+      "id": "adcmp_lead_device_sensitivity",
+      "source_case_id": "ad_lead_device_sensitivity",
+      "physical_system": "single resonant level between two semi-infinite one-dimensional leads",
+      "workload_kind": "full_gradient",
+      "parameter_count": 14
+    },
+    {
+      "id": "adcmp_sparse_adjoint_scaling",
+      "source_case_id": "ad_sparse_adjoint_scaling",
+      "physical_system": "one-dimensional Anderson resolvent with grouped onsite gates",
+      "workload_kind": "parameter_scaling_full_gradient",
+      "parameter_count": 64
+    },
+    {
+      "id": "adcmp_robust_kpm_design",
+      "source_case_id": "ad_robust_kpm_design",
+      "physical_system": "bond-disordered Su-Schrieffer-Heeger chain",
+      "workload_kind": "end_to_end_optimization",
+      "parameter_count": 4
+    }
+  ],
+  "required_checks": [
+    "ADCMP-G01_full_derivative_agreement",
+    "ADCMP-G02_scientific_result_equivalence",
+    "ADCMP-G03_paired_timings_are_positive"
+  ]
+}

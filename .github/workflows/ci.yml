@@ -23,6 +23,7 @@ jobs:
       - run: python tools/check_domain_results.py results/verified/2026-07-27-domain.json
       - run: python tools/check_domain_results.py --current results/verified/2026-07-27-domain-expanded.json
       - run: python tools/check_ad_results.py --current results/verified/2026-07-28-ad-research-workflows.json
+      - run: python tools/check_ad_comparison.py results/verified/2026-07-28-ad-vs-finite-difference.json
       - run: python -m pytest
 
   pythtb:

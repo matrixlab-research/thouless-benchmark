@@ -1,0 +1,1474 @@
+{
+  "generated_at": "2026-07-28T07:54:15.720126+00:00",
+  "platform": {
+    "machine": "arm64",
+    "processor": "arm",
+    "python": "3.12.8",
+    "release": "23.6.0",
+    "system": "Darwin"
+  },
+  "policy": {
+    "accuracy_is_gated": true,
+    "both_derivative_paths_are_warmed_before_timing": true,
+    "finite_difference_uses_forward_only_calls": true,
+    "paired_methods_execute_in_one_process": true,
+    "public_validation_is_not_isolated_held_out_evaluation": true,
+    "relative_speed_is_not_a_ci_gate": true,
+    "same_initial_state_and_optimizer": true,
+    "same_physical_parameters": true,
+    "same_rust_forward_model": true,
+    "same_scientific_product": true,
+    "same_stopping_rule_and_line_search": true,
+    "timing_is_descriptive": true
+  },
+  "records": [
+    {
+      "backend": "thouless",
+      "case_id": "adcmp_spectral_recovery",
+      "central_finite_difference_seconds": {
+        "maximum": 0.015261167,
+        "median": 0.010043917,
+        "minimum": 0.009931875,
+        "samples": [
+          0.015261167,
+          0.012106042,
+          0.010775083,
+          0.010035833,
+          0.009931875,
+          0.010043917,
+          0.010015833
+        ]
+      },
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "adcmp_spectral_recovery"
+      ],
+      "native_ad_seconds": {
+        "maximum": 0.004143,
+        "median": 0.002633875,
+        "minimum": 0.002474833,
+        "samples": [
+          0.004143,
+          0.003651417,
+          0.002847084,
+          0.002633875,
+          0.00251575,
+          0.002474833,
+          0.002520625
+        ]
+      },
+      "repetitions": 7,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "237f544c497e89cd99dedd68f16e399bc9980987",
+        "case_id": "adcmp_spectral_recovery",
+        "checks": [
+          {
+            "actual": 1.4947075743343586e-10,
+            "expected": {
+              "maximum_relative_error": 5e-05
+            },
+            "name": "ADCMP-G01_full_derivative_agreement",
+            "passed": true,
+            "tolerance": 5e-05
+          },
+          {
+            "actual": 9.486061925323453e-13,
+            "expected": {
+              "maximum_error": 5e-05
+            },
+            "name": "ADCMP-G02_scientific_result_equivalence",
+            "passed": true,
+            "tolerance": 5e-05
+          },
+          {
+            "actual": {
+              "central_finite_difference_seconds": 0.010015833,
+              "native_ad_seconds": 0.002520625
+            },
+            "expected": "both methods execute the frozen workload",
+            "name": "ADCMP-G03_paired_timings_are_positive",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 0.012717917,
+        "metrics": {
+          "central_finite_difference": {
+            "final_loss": 9.191301972616709e-17,
+            "forward_only_evaluations": 101,
+            "gradient_evaluations": 102,
+            "objective_evaluations": 815,
+            "parameters": [
+              0.35000002965141647,
+              0.7200000115473748,
+              0.9999999818086215
+            ],
+            "seconds": 0.010015833
+          },
+          "comparison_product": "optimized parameters from the same loss and line search",
+          "finite_difference_scheme": "central",
+          "finite_difference_step": 1e-06,
+          "initial_full_gradient_relative_error": 1.4947075743343586e-10,
+          "native_ad": {
+            "final_loss": 9.191451326090979e-17,
+            "forward_only_evaluations": 101,
+            "gradient_evaluations": 102,
+            "objective_evaluations": 203,
+            "parameters": [
+              0.3500000296517485,
+              0.7200000115474176,
+              0.9999999818085873
+            ],
+            "seconds": 0.002520625
+          },
+          "parameter_count": 3,
+          "physical_model": "Rice-Mele chain",
+          "scientific_result_error": 9.486061925323453e-13,
+          "speedup_finite_difference_over_ad": 3.973551400942227,
+          "workflow": "joint spectral parameter recovery"
+        },
+        "schema_version": 1,
+        "status": "passed"
+      },
+      "source_case_id": "ad_spectral_recovery",
+      "speedup_finite_difference_over_ad": 3.813361302263775
+    },
+    {
+      "backend": "thouless",
+      "case_id": "adcmp_degenerate_projector",
+      "central_finite_difference_seconds": {
+        "maximum": 1.4834e-05,
+        "median": 1.1833e-05,
+        "minimum": 1.15e-05,
+        "samples": [
+          1.1792e-05,
+          1.2625e-05,
+          1.1666e-05,
+          1.15e-05,
+          1.4834e-05,
+          1.1833e-05,
+          1.2e-05
+        ]
+      },
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "adcmp_degenerate_projector"
+      ],
+      "native_ad_seconds": {
+        "maximum": 3.417e-06,
+        "median": 2.541e-06,
+        "minimum": 2.458e-06,
+        "samples": [
+          2.625e-06,
+          3.292e-06,
+          2.458e-06,
+          2.458e-06,
+          3.417e-06,
+          2.541e-06,
+          2.5e-06
+        ]
+      },
+      "repetitions": 7,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "237f544c497e89cd99dedd68f16e399bc9980987",
+        "case_id": "adcmp_degenerate_projector",
+        "checks": [
+          {
+            "actual": 6.715418592262069e-12,
+            "expected": {
+              "maximum_relative_error": 5e-05
+            },
+            "name": "ADCMP-G01_full_derivative_agreement",
+            "passed": true,
+            "tolerance": 5e-05
+          },
+          {
+            "actual": 0.0,
+            "expected": {
+              "maximum_error": 1e-10
+            },
+            "name": "ADCMP-G02_scientific_result_equivalence",
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "actual": {
+              "central_finite_difference_seconds": 1.2e-05,
+              "native_ad_seconds": 2.5e-06
+            },
+            "expected": "both methods execute the frozen workload",
+            "name": "ADCMP-G03_paired_timings_are_positive",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 0.000101125,
+        "metrics": {
+          "central_finite_difference": {
+            "gradient": [
+              -0.13480364445019044,
+              0.19281793023351312
+            ],
+            "objective": 0.028255973374554655,
+            "objective_evaluations": 5,
+            "seconds": 1.2e-05
+          },
+          "comparison_product": "objective value and complete two-parameter gradient",
+          "finite_difference_scheme": "central",
+          "finite_difference_step": 1e-06,
+          "full_gradient_relative_error": 6.715418592262069e-12,
+          "native_ad": {
+            "gradient": [
+              -0.13480364444995924,
+              0.19281793023480798
+            ],
+            "objective": 0.028255973374554655,
+            "objective_evaluations": 1,
+            "seconds": 2.5e-06
+          },
+          "parameter_count": 2,
+          "physical_model": "spin-degenerate BHZ orbital block",
+          "scientific_result_error": 0.0,
+          "speedup_finite_difference_over_ad": 4.8,
+          "workflow": "degeneracy-safe occupied-projector sensitivity"
+        },
+        "schema_version": 1,
+        "status": "passed"
+      },
+      "source_case_id": "ad_degenerate_projector",
+      "speedup_finite_difference_over_ad": 4.656828020464384
+    },
+    {
+      "backend": "thouless",
+      "case_id": "adcmp_identifiability",
+      "central_finite_difference_seconds": {
+        "maximum": 3.2459e-05,
+        "median": 2.3458e-05,
+        "minimum": 2.225e-05,
+        "samples": [
+          2.35e-05,
+          2.225e-05,
+          2.3167e-05,
+          2.2833e-05,
+          2.525e-05,
+          2.3458e-05,
+          3.2459e-05
+        ]
+      },
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "adcmp_identifiability"
+      ],
+      "native_ad_seconds": {
+        "maximum": 7.584e-06,
+        "median": 5.541e-06,
+        "minimum": 5.375e-06,
+        "samples": [
+          5.458e-06,
+          5.375e-06,
+          5.541e-06,
+          6.541e-06,
+          6e-06,
+          5.375e-06,
+          7.584e-06
+        ]
+      },
+      "repetitions": 7,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "237f544c497e89cd99dedd68f16e399bc9980987",
+        "case_id": "adcmp_identifiability",
+        "checks": [
+          {
+            "actual": 1.671108943035528e-10,
+            "expected": {
+              "maximum_relative_error": 5e-05
+            },
+            "name": "ADCMP-G01_full_derivative_agreement",
+            "passed": true,
+            "tolerance": 5e-05
+          },
+          {
+            "actual": 6.945732877738919e-11,
+            "expected": {
+              "maximum_error": 1e-08
+            },
+            "name": "ADCMP-G02_scientific_result_equivalence",
+            "passed": true,
+            "tolerance": 1e-08
+          },
+          {
+            "actual": {
+              "central_finite_difference_seconds": 3.2459e-05,
+              "native_ad_seconds": 7.584e-06
+            },
+            "expected": "both methods execute the frozen workload",
+            "name": "ADCMP-G03_paired_timings_are_positive",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 0.000126334,
+        "metrics": {
+          "central_finite_difference": {
+            "eigensystem_evaluations": 25,
+            "fisher_eigenvalues": [
+              0.00422334602625174,
+              6.767046964407844
+            ],
+            "jacobian": [
+              [
+                -0.9950041652828645,
+                -0.9950041652828645
+              ],
+              [
+                -0.9393727128381713,
+                -0.9393727129491936
+              ],
+              [
+                -0.7960837985487856,
+                -0.7960837984377633
+              ],
+              [
+                -0.49757104791936513,
+                -0.4975710479748763
+              ],
+              [
+                -0.844195982563356,
+                -0.7423220084179505
+              ]
+            ],
+            "seconds": 3.2459e-05
+          },
+          "comparison_product": "complete five-observable Jacobian and Fisher spectrum",
+          "finite_difference_scheme": "central",
+          "finite_difference_step": 1e-06,
+          "full_jacobian_relative_error": 1.671108943035528e-10,
+          "native_ad": {
+            "eigensystem_evaluations": 5,
+            "fisher_eigenvalues": [
+              0.004223346030662434,
+              6.767046964338387
+            ],
+            "jacobian": [
+              [
+                -0.9950041652780256,
+                -0.9950041652780256
+              ],
+              [
+                -0.9393727128473787,
+                -0.9393727128473787
+              ],
+              [
+                -0.7960837985490554,
+                -0.7960837985490556
+              ],
+              [
+                -0.4975710478917268,
+                -0.49757104789172674
+              ],
+              [
+                -0.8441959826135838,
+                -0.7423220084017974
+              ]
+            ],
+            "seconds": 7.584e-06
+          },
+          "observable_count": 5,
+          "parameter_count": 2,
+          "physical_model": "Su-Schrieffer-Heeger chain with a local bond marker",
+          "scientific_result_error": 6.945732877738919e-11,
+          "speedup_finite_difference_over_ad": 4.279931434599156,
+          "workflow": "Fisher identifiability analysis"
+        },
+        "schema_version": 1,
+        "status": "passed"
+      },
+      "source_case_id": "ad_identifiability",
+      "speedup_finite_difference_over_ad": 4.233531853456055
+    },
+    {
+      "backend": "thouless",
+      "case_id": "adcmp_quantum_metric",
+      "central_finite_difference_seconds": {
+        "maximum": 0.000554333,
+        "median": 0.000482083,
+        "minimum": 0.000448,
+        "samples": [
+          0.000554333,
+          0.000480083,
+          0.000491417,
+          0.000448,
+          0.000482083,
+          0.000470917,
+          0.000513458
+        ]
+      },
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "adcmp_quantum_metric"
+      ],
+      "native_ad_seconds": {
+        "maximum": 0.000121875,
+        "median": 0.000108667,
+        "minimum": 8.8e-05,
+        "samples": [
+          0.000108667,
+          0.000109542,
+          0.000121875,
+          8.8e-05,
+          9.5e-05,
+          0.000110667,
+          9.2541e-05
+        ]
+      },
+      "repetitions": 7,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "237f544c497e89cd99dedd68f16e399bc9980987",
+        "case_id": "adcmp_quantum_metric",
+        "checks": [
+          {
+            "actual": 1.8095671748600932e-10,
+            "expected": {
+              "maximum_relative_error": 5e-05
+            },
+            "name": "ADCMP-G01_full_derivative_agreement",
+            "passed": true,
+            "tolerance": 5e-05
+          },
+          {
+            "actual": 0.0,
+            "expected": {
+              "maximum_error": 1e-10
+            },
+            "name": "ADCMP-G02_scientific_result_equivalence",
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "actual": {
+              "central_finite_difference_seconds": 0.000513458,
+              "native_ad_seconds": 9.2541e-05
+            },
+            "expected": "both methods execute the frozen workload",
+            "name": "ADCMP-G03_paired_timings_are_positive",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 0.001243458,
+        "metrics": {
+          "central_finite_difference": {
+            "gradient": [
+              -0.35790555963366444,
+              0.13383368430153197
+            ],
+            "mesh_objective_evaluations": 5,
+            "metric": 0.28309188662902923,
+            "seconds": 0.000513458
+          },
+          "comparison_product": "mesh-integrated metric and complete gradient",
+          "finite_difference_scheme": "central",
+          "finite_difference_step": 1e-06,
+          "full_gradient_relative_error": 1.8095671748600932e-10,
+          "mesh_points": 64,
+          "native_ad": {
+            "gradient": [
+              -0.35790555969842985,
+              0.133833684313712
+            ],
+            "mesh_objective_evaluations": 1,
+            "metric": 0.28309188662902923,
+            "seconds": 9.2541e-05
+          },
+          "parameter_count": 2,
+          "physical_model": "Rice-Mele chain",
+          "scientific_result_error": 0.0,
+          "speedup_finite_difference_over_ad": 5.548437989647832,
+          "workflow": "Brillouin-zone quantum-metric sensitivity"
+        },
+        "schema_version": 1,
+        "status": "passed"
+      },
+      "source_case_id": "ad_quantum_metric",
+      "speedup_finite_difference_over_ad": 4.436333017383382
+    },
+    {
+      "backend": "thouless",
+      "case_id": "adcmp_topological_design",
+      "central_finite_difference_seconds": {
+        "maximum": 0.036111208,
+        "median": 0.035796,
+        "minimum": 0.035383708,
+        "samples": [
+          0.036111208,
+          0.035882208,
+          0.035383708,
+          0.035565542,
+          0.035796,
+          0.035929167,
+          0.03551275
+        ]
+      },
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "adcmp_topological_design"
+      ],
+      "native_ad_seconds": {
+        "maximum": 0.018668958,
+        "median": 0.018535291,
+        "minimum": 0.018142125,
+        "samples": [
+          0.018535291,
+          0.018638917,
+          0.018470917,
+          0.018668958,
+          0.018613,
+          0.018226,
+          0.018142125
+        ]
+      },
+      "repetitions": 7,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "237f544c497e89cd99dedd68f16e399bc9980987",
+        "case_id": "adcmp_topological_design",
+        "checks": [
+          {
+            "actual": 4.885866218578615e-10,
+            "expected": {
+              "maximum_relative_error": 5e-05
+            },
+            "name": "ADCMP-G01_full_derivative_agreement",
+            "passed": true,
+            "tolerance": 5e-05
+          },
+          {
+            "actual": 8.948397578478762e-14,
+            "expected": {
+              "maximum_error": 5e-05
+            },
+            "name": "ADCMP-G02_scientific_result_equivalence",
+            "passed": true,
+            "tolerance": 5e-05
+          },
+          {
+            "actual": {
+              "central_finite_difference_seconds": 0.03551275,
+              "native_ad_seconds": 0.018142125
+            },
+            "expected": "both methods execute the frozen workload",
+            "name": "ADCMP-G03_paired_timings_are_positive",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 0.055715292,
+        "metrics": {
+          "central_finite_difference": {
+            "chern_number": -1.000000000000001,
+            "final_loss": 4.345791642071643e-14,
+            "forward_only_evaluations": 120,
+            "gradient_evaluations": 120,
+            "objective_evaluations": 480,
+            "optimized_mass": 1.000000654690746,
+            "seconds": 0.03551275
+          },
+          "comparison_product": "optimized mass from the same loss and line search",
+          "finite_difference_scheme": "central",
+          "finite_difference_step": 1e-06,
+          "initial_full_gradient_relative_error": 4.885866218578615e-10,
+          "native_ad": {
+            "chern_number": -0.9999999999999999,
+            "final_loss": 4.3457906021537446e-14,
+            "forward_only_evaluations": 120,
+            "gradient_evaluations": 120,
+            "objective_evaluations": 240,
+            "optimized_mass": 1.0000006546906566,
+            "seconds": 0.018142125
+          },
+          "parameter_count": 1,
+          "physical_model": "Qi-Wu-Zhang Chern insulator",
+          "scientific_result_error": 8.948397578478762e-14,
+          "speedup_finite_difference_over_ad": 1.9574746618711978,
+          "workflow": "topological inverse design with forward Chern validation"
+        },
+        "schema_version": 1,
+        "status": "passed"
+      },
+      "source_case_id": "ad_topological_design",
+      "speedup_finite_difference_over_ad": 1.9312348535558468
+    },
+    {
+      "backend": "thouless",
+      "case_id": "adcmp_surface_green_implicit",
+      "central_finite_difference_seconds": {
+        "maximum": 4.0792e-05,
+        "median": 3.0084e-05,
+        "minimum": 2.9166e-05,
+        "samples": [
+          3.5167e-05,
+          2.9583e-05,
+          3.0084e-05,
+          2.9166e-05,
+          3.0041e-05,
+          3.05e-05,
+          4.0792e-05
+        ]
+      },
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "adcmp_surface_green_implicit"
+      ],
+      "native_ad_seconds": {
+        "maximum": 1.975e-05,
+        "median": 6.375e-06,
+        "minimum": 6.25e-06,
+        "samples": [
+          1.975e-05,
+          6.25e-06,
+          6.25e-06,
+          6.375e-06,
+          6.5e-06,
+          6.375e-06,
+          8.75e-06
+        ]
+      },
+      "repetitions": 7,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "237f544c497e89cd99dedd68f16e399bc9980987",
+        "case_id": "adcmp_surface_green_implicit",
+        "checks": [
+          {
+            "actual": 2.510588146785483e-10,
+            "expected": {
+              "maximum_relative_error": 5e-05
+            },
+            "name": "ADCMP-G01_full_derivative_agreement",
+            "passed": true,
+            "tolerance": 5e-05
+          },
+          {
+            "actual": 0.0,
+            "expected": {
+              "maximum_error": 1e-10
+            },
+            "name": "ADCMP-G02_scientific_result_equivalence",
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "actual": {
+              "central_finite_difference_seconds": 4.0792e-05,
+              "native_ad_seconds": 8.75e-06
+            },
+            "expected": "both methods execute the frozen workload",
+            "name": "ADCMP-G03_paired_timings_are_positive",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 0.000118292,
+        "metrics": {
+          "central_finite_difference": {
+            "gradient": [
+              6.61690137826465,
+              -2.3120815001442807,
+              1.55205881974263,
+              -6.953951158517047,
+              -0.8911604974515264
+            ],
+            "objective": 0.9073067147187306,
+            "seconds": 4.0792e-05,
+            "surface_green_solves": 11
+          },
+          "comparison_product": "scalar Green-function functional and complete physical gradient",
+          "finite_difference_scheme": "central",
+          "finite_difference_step": 1e-06,
+          "full_gradient_relative_error": 2.510588146785483e-10,
+          "native_ad": {
+            "gradient": [
+              6.61690137786332,
+              -2.312081500226995,
+              1.5520588199493135,
+              -6.953951158370293,
+              -0.8911604976752601
+            ],
+            "objective": 0.9073067147187306,
+            "seconds": 8.75e-06,
+            "surface_green_solves": 1
+          },
+          "parameter_count": 5,
+          "parameter_order": [
+            "staggered_onsite",
+            "intracell_hopping",
+            "intercell_hopping",
+            "energy",
+            "broadening"
+          ],
+          "physical_model": "semi-infinite Rice-Mele/SSH chain",
+          "scientific_result_error": 0.0,
+          "speedup_finite_difference_over_ad": 4.661942857142857,
+          "workflow": "surface Green-function implicit sensitivity"
+        },
+        "schema_version": 1,
+        "status": "passed"
+      },
+      "source_case_id": "ad_surface_green_implicit",
+      "speedup_finite_difference_over_ad": 4.719058823529411
+    },
+    {
+      "backend": "thouless",
+      "case_id": "adcmp_inverse_transport",
+      "central_finite_difference_seconds": {
+        "maximum": 0.00820275,
+        "median": 0.008149625,
+        "minimum": 0.008015959,
+        "samples": [
+          0.008015959,
+          0.00820275,
+          0.0080625,
+          0.008043042,
+          0.008161208,
+          0.008149625,
+          0.008180209
+        ]
+      },
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "adcmp_inverse_transport"
+      ],
+      "native_ad_seconds": {
+        "maximum": 0.00280675,
+        "median": 0.002746291,
+        "minimum": 0.002704417,
+        "samples": [
+          0.002742209,
+          0.002704417,
+          0.002707917,
+          0.002746291,
+          0.00280675,
+          0.002766125,
+          0.002782333
+        ]
+      },
+      "repetitions": 7,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "237f544c497e89cd99dedd68f16e399bc9980987",
+        "case_id": "adcmp_inverse_transport",
+        "checks": [
+          {
+            "actual": 7.882840194493218e-11,
+            "expected": {
+              "maximum_relative_error": 5e-05
+            },
+            "name": "ADCMP-G01_full_derivative_agreement",
+            "passed": true,
+            "tolerance": 5e-05
+          },
+          {
+            "actual": 5.149974019761014e-12,
+            "expected": {
+              "maximum_error": 5e-05
+            },
+            "name": "ADCMP-G02_scientific_result_equivalence",
+            "passed": true,
+            "tolerance": 5e-05
+          },
+          {
+            "actual": {
+              "central_finite_difference_seconds": 0.008180209,
+              "native_ad_seconds": 0.002782333
+            },
+            "expected": "both methods execute the frozen workload",
+            "name": "ADCMP-G03_paired_timings_are_positive",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 0.011070833,
+        "metrics": {
+          "central_finite_difference": {
+            "final_loss": 8.054659468447387e-17,
+            "forward_only_evaluations": 147,
+            "gradient_evaluations": 148,
+            "objective_evaluations": 887,
+            "parameters": [
+              0.22999997449163662,
+              -0.18999999980558913
+            ],
+            "seconds": 0.008180209
+          },
+          "comparison_product": "optimized device parameters from the same loss and line search",
+          "energy_samples": 7,
+          "finite_difference_scheme": "central",
+          "finite_difference_step": 1e-06,
+          "initial_full_gradient_relative_error": 7.882840194493218e-11,
+          "native_ad": {
+            "final_loss": 8.054133437265897e-17,
+            "forward_only_evaluations": 147,
+            "gradient_evaluations": 148,
+            "objective_evaluations": 295,
+            "parameters": [
+              0.22999997449247717,
+              -0.18999999980461063
+            ],
+            "seconds": 0.002782333
+          },
+          "parameter_count": 2,
+          "physical_model": "noninteracting serial double quantum dot",
+          "scientific_result_error": 5.149974019761014e-12,
+          "speedup_finite_difference_over_ad": 2.940053904403247,
+          "workflow": "inverse transmission-trace calibration"
+        },
+        "schema_version": 1,
+        "status": "passed"
+      },
+      "source_case_id": "ad_inverse_transport",
+      "speedup_finite_difference_over_ad": 2.9675023513531524
+    },
+    {
+      "backend": "thouless",
+      "case_id": "adcmp_lead_device_sensitivity",
+      "central_finite_difference_seconds": {
+        "maximum": 0.000394334,
+        "median": 0.0003635,
+        "minimum": 0.000330041,
+        "samples": [
+          0.00037575,
+          0.0003635,
+          0.000366125,
+          0.000330041,
+          0.000394334,
+          0.000351167,
+          0.000352
+        ]
+      },
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "adcmp_lead_device_sensitivity"
+      ],
+      "native_ad_seconds": {
+        "maximum": 1.4834e-05,
+        "median": 1.3583e-05,
+        "minimum": 1.2375e-05,
+        "samples": [
+          1.4834e-05,
+          1.3625e-05,
+          1.3625e-05,
+          1.2375e-05,
+          1.325e-05,
+          1.3583e-05,
+          1.3458e-05
+        ]
+      },
+      "repetitions": 7,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "237f544c497e89cd99dedd68f16e399bc9980987",
+        "case_id": "adcmp_lead_device_sensitivity",
+        "checks": [
+          {
+            "actual": 1.178753450786099e-08,
+            "expected": {
+              "maximum_relative_error": 5e-05
+            },
+            "name": "ADCMP-G01_full_derivative_agreement",
+            "passed": true,
+            "tolerance": 5e-05
+          },
+          {
+            "actual": 0.0,
+            "expected": {
+              "maximum_error": 1e-10
+            },
+            "name": "ADCMP-G02_scientific_result_equivalence",
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "actual": {
+              "central_finite_difference_seconds": 0.000352,
+              "native_ad_seconds": 1.3458e-05
+            },
+            "expected": "both methods execute the frozen workload",
+            "name": "ADCMP-G03_paired_timings_are_positive",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 0.000741209,
+        "metrics": {
+          "central_finite_difference": {
+            "gradient": [
+              -0.12987098235717198,
+              0.016995653329132665,
+              -0.13484062894031368,
+              0.00493319379790691,
+              0.4446499274890492,
+              -0.017437252253227342,
+              0.06952621317557472,
+              0.02465258203132592,
+              0.14052295566058248,
+              0.00384994403024308,
+              -0.5116777938574124,
+              -0.04759793403863455,
+              -0.07583080868789338,
+              0.08822274666364649
+            ],
+            "open_system_solves": 29,
+            "seconds": 0.000352,
+            "transmission": 0.9860442413302684
+          },
+          "comparison_product": "transmission and complete physical-coordinate gradient",
+          "finite_difference_scheme": "central",
+          "finite_difference_step": 1e-06,
+          "full_gradient_relative_error": 1.178753450786099e-08,
+          "native_ad": {
+            "gradient": [
+              -0.12987098227389932,
+              0.016995653501200667,
+              -0.1348406288866837,
+              0.0049331937397567175,
+              0.44464992735394393,
+              -0.017437252053095834,
+              0.06952621320881548,
+              0.024652582214839847,
+              0.1405229559038325,
+              0.003849943997365275,
+              -0.5116777937869466,
+              -0.047597934305762465,
+              -0.07583080808525965,
+              0.0882227465578588
+            ],
+            "open_system_solves": 1,
+            "seconds": 1.3458e-05,
+            "transmission": 0.9860442413302684
+          },
+          "parameter_count": 14,
+          "physical_model": "single resonant level between two semi-infinite one-dimensional leads",
+          "scientific_result_error": 0.0,
+          "speedup_finite_difference_over_ad": 26.15544657452816,
+          "workflow": "whole device-lead transmission sensitivity"
+        },
+        "schema_version": 1,
+        "status": "passed"
+      },
+      "source_case_id": "ad_lead_device_sensitivity",
+      "speedup_finite_difference_over_ad": 26.76139291761761
+    },
+    {
+      "backend": "thouless",
+      "case_id": "adcmp_sparse_adjoint_scaling",
+      "central_finite_difference_seconds": {
+        "maximum": 0.008755208,
+        "median": 0.008604083,
+        "minimum": 0.008431291,
+        "samples": [
+          0.008454876,
+          0.008729209,
+          0.008584874999999999,
+          0.008633624999999999,
+          0.008755208,
+          0.008604083,
+          0.008431291
+        ]
+      },
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "adcmp_sparse_adjoint_scaling"
+      ],
+      "native_ad_seconds": {
+        "maximum": 0.000261916,
+        "median": 0.000235708,
+        "minimum": 0.000231541,
+        "samples": [
+          0.000235708,
+          0.00024045700000000002,
+          0.000261916,
+          0.000232458,
+          0.000231541,
+          0.000235625,
+          0.00025191799999999996
+        ]
+      },
+      "repetitions": 7,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "237f544c497e89cd99dedd68f16e399bc9980987",
+        "case_id": "adcmp_sparse_adjoint_scaling",
+        "checks": [
+          {
+            "actual": 1.5466820294879573e-05,
+            "expected": {
+              "maximum_relative_error": 5e-05
+            },
+            "name": "ADCMP-G01_full_derivative_agreement",
+            "passed": true,
+            "tolerance": 5e-05
+          },
+          {
+            "actual": 0.0,
+            "expected": {
+              "maximum_error": 1e-10
+            },
+            "name": "ADCMP-G02_scientific_result_equivalence",
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "actual": {
+              "central_finite_difference_seconds": 0.008431291,
+              "native_ad_seconds": 0.00025191799999999996
+            },
+            "expected": "both methods execute the frozen workload",
+            "name": "ADCMP-G03_paired_timings_are_positive",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 0.017515125,
+        "metrics": {
+          "central_finite_difference": {
+            "linear_systems": 211,
+            "seconds": 0.008431291
+          },
+          "comparison_product": "complete gradients at 8, 32, and 64 parameters",
+          "dimension": 128,
+          "finite_difference_scheme": "central",
+          "finite_difference_step": 1e-06,
+          "full_gradient_relative_error": 1.5466820294879573e-05,
+          "native_ad": {
+            "linear_systems": 6,
+            "seconds": 0.00025191799999999996
+          },
+          "parameter_count": 64,
+          "parameter_counts": [
+            8,
+            32,
+            64
+          ],
+          "physical_model": "one-dimensional Anderson resolvent with grouped onsite gates",
+          "records": [
+            {
+              "central_finite_difference": {
+                "gradient": [
+                  -0.0006495123328065233,
+                  -0.0005842517858400953,
+                  -0.0005877248687724546,
+                  -0.0006386001172309363,
+                  -0.0006864800672357063,
+                  -0.0007094469178792195,
+                  -0.0007290781312008221,
+                  -0.0007396689094552045
+                ],
+                "linear_systems": 17,
+                "objective": 0.27370564720747526,
+                "seconds": 0.000641708
+              },
+              "full_gradient_relative_error": 3.378525190963756e-07,
+              "native_ad": {
+                "adjoint_iterations": 11,
+                "gradient": [
+                  -0.0006495125522459753,
+                  -0.0005842517741982845,
+                  -0.0005877248002666886,
+                  -0.0006385999856913279,
+                  -0.0006864801919760643,
+                  -0.0007094468139297836,
+                  -0.0007290782193256968,
+                  -0.0007396689916642458
+                ],
+                "linear_systems": 2,
+                "maximum_residual": 2.2519662464230335e-12,
+                "objective": 0.27370564720747526,
+                "primal_iterations": 11,
+                "seconds": 9.1417e-05
+              },
+              "parameter_count": 8,
+              "speedup_finite_difference_over_ad": 7.019569664285636
+            },
+            {
+              "central_finite_difference": {
+                "gradient": [
+                  -0.00012608153410198497,
+                  -0.00012892686918064555,
+                  -0.0001608905508820868,
+                  -0.00019207987977942764,
+                  -0.0001833350138369383,
+                  -0.00015735962533014458,
+                  -0.0001689490769507529,
+                  -0.00019959328634300277,
+                  -0.000190930771193365,
+                  -0.0001494674939372942,
+                  -0.00012148557160251983,
+                  -0.00013487824745972432,
+                  -0.00018752394082000023,
+                  -0.00022234278307387,
+                  -0.0001954488793032283,
+                  -0.00015429024724511464,
+                  -0.0001549055050897863,
+                  -0.00017351597936254848,
+                  -0.00017147092079561332,
+                  -0.0001511984981661385,
+                  -0.0001350710654435261,
+                  -0.0001587226738930525,
+                  -0.0002129593723587675,
+                  -0.0002261398290848149,
+                  -0.000177366704656734,
+                  -0.00013265791243277647,
+                  -0.0001345527023133286,
+                  -0.0001614115785475434,
+                  -0.00018200216334030017,
+                  -0.00017294518595001307,
+                  -0.0001535521154671926,
+                  -0.00016095136334826066
+                ],
+                "linear_systems": 65,
+                "objective": 0.27391690374137817,
+                "seconds": 0.002586708
+              },
+              "full_gradient_relative_error": 9.452920236456512e-07,
+              "native_ad": {
+                "adjoint_iterations": 11,
+                "gradient": [
+                  -0.00012608165328596615,
+                  -0.00012892688640235816,
+                  -0.0001608905859795416,
+                  -0.00019207979971225508,
+                  -0.00018333495670591298,
+                  -0.0001573596388495462,
+                  -0.0001689490427109879,
+                  -0.00019959321014248157,
+                  -0.00019093068870239445,
+                  -0.00014946750311097313,
+                  -0.0001214855782605637,
+                  -0.0001348782405643359,
+                  -0.00018752386932517493,
+                  -0.00022234278717791461,
+                  -0.00019544880488600965,
+                  -0.00015429030088990974,
+                  -0.00015490546169678133,
+                  -0.0001735160211206782,
+                  -0.00017147092324868113,
+                  -0.0001511984482760606,
+                  -0.00013507106820321273,
+                  -0.0001587227177744328,
+                  -0.000212959356566199,
+                  -0.00022613972576816728,
+                  -0.00017736664333016416,
+                  -0.00013265796049424442,
+                  -0.000134552669730013,
+                  -0.00016141156105366965,
+                  -0.00018200211935574776,
+                  -0.00017294518628147254,
+                  -0.00015355220599709118,
+                  -0.00016095128115523375
+                ],
+                "linear_systems": 2,
+                "maximum_residual": 2.4983350001851576e-12,
+                "objective": 0.27391690374137817,
+                "primal_iterations": 11,
+                "seconds": 8.1542e-05
+              },
+              "parameter_count": 32,
+              "speedup_finite_difference_over_ad": 31.72240072600623
+            },
+            {
+              "central_finite_difference": {
+                "gradient": [
+                  -8.148223762383111e-05,
+                  -1.4645368251464674e-05,
+                  -2.5890567467712344e-05,
+                  -0.00011708292668721754,
+                  -0.0001686835948699894,
+                  -0.00011018860823774901,
+                  -2.8275881636119493e-05,
+                  -3.41419115201802e-05,
+                  -0.00010563405705710238,
+                  -0.0001373784974667558,
+                  -8.490302905173053e-05,
+                  -2.2430224344560656e-05,
+                  -4.958258803533511e-05,
+                  -0.00013847273327982634,
+                  -0.00016295301219493297,
+                  -8.716913302286855e-05,
+                  -1.3559348088776346e-05,
+                  -2.9343083518540425e-05,
+                  -0.00010460729504835342,
+                  -0.0001429280860332227,
+                  -9.780956600202728e-05,
+                  -4.006248111032562e-05,
+                  -5.986747209085763e-05,
+                  -0.0001281288686261206,
+                  -0.00014126894098964726,
+                  -7.535219670451454e-05,
+                  -1.1167872182582528e-05,
+                  -2.9818508773260533e-05,
+                  -0.00011642500852282467,
+                  -0.00016215465081792502,
+                  -0.00010626144408831806,
+                  -3.231132028602701e-05,
+                  -4.4656417452770825e-05,
+                  -0.00011465409177624508,
+                  -0.0001356184053946663,
+                  -7.541123281384898e-05,
+                  -1.4727552510862552e-05,
+                  -4.7431086835914016e-05,
+                  -0.00014140430493192468,
+                  -0.0001661275006448193,
+                  -8.551598318362608e-05,
+                  -1.2099293789091803e-05,
+                  -3.6524588908903866e-05,
+                  -0.0001121047976671008,
+                  -0.00013733789105963012,
+                  -8.341977109083132e-05,
+                  -3.2299551921965985e-05,
+                  -6.671410646141851e-05,
+                  -0.00014059234332286508,
+                  -0.00014357257049901762,
+                  -6.667993934783567e-05,
+                  -8.26008705878678e-06,
+                  -3.730935005386016e-05,
+                  -0.00011899223273381665,
+                  -0.00015374534978462862,
+                  -9.854558835620253e-05,
+                  -3.632194545133416e-05,
+                  -5.76489411763248e-05,
+                  -0.0001240486879883207,
+                  -0.00013216774896740446,
+                  -6.577902111892797e-05,
+                  -1.0804995786983795e-05,
+                  -4.7246956347279934e-05,
+                  -0.00012835876805894486
+                ],
+                "linear_systems": 129,
+                "objective": 0.2739957322927827,
+                "seconds": 0.005202875
+              },
+              "full_gradient_relative_error": 1.5466820294879573e-05,
+              "native_ad": {
+                "adjoint_iterations": 11,
+                "gradient": [
+                  -8.148229195291862e-05,
+                  -1.4645281817620309e-05,
+                  -2.5890537997598475e-05,
+                  -0.00011708295001259051,
+                  -0.00016868361110181687,
+                  -0.00011018865874235143,
+                  -2.827587145190772e-05,
+                  -3.414187700101646e-05,
+                  -0.0001056340061444724,
+                  -0.00013737845127408165,
+                  -8.490299441846441e-05,
+                  -2.243015915454765e-05,
+                  -4.958265444655747e-05,
+                  -0.00013847270936040147,
+                  -0.00016295297275132627,
+                  -8.716915461454178e-05,
+                  -1.3559385370249719e-05,
+                  -2.9343015442331333e-05,
+                  -0.00010460737855145866,
+                  -0.00014292813717058835,
+                  -9.780950632589427e-05,
+                  -4.006233948854227e-05,
+                  -5.986745895552221e-05,
+                  -0.000128128900020637,
+                  -0.0001412690725109616,
+                  -7.535228001503222e-05,
+                  -1.1167699451110404e-05,
+                  -2.9818528658668943e-05,
+                  -0.0001164251089001591,
+                  -0.00016215456506242157,
+                  -0.00010626142616505831,
+                  -3.23113112368957e-05,
+                  -4.46564407242178e-05,
+                  -0.0001146540319259728,
+                  -0.00013561850243163246,
+                  -7.541129570623404e-05,
+                  -1.4727605073850097e-05,
+                  -4.7431096592434504e-05,
+                  -0.00014140427717364553,
+                  -0.0001661274450342289,
+                  -8.551601050761177e-05,
+                  -1.2099390738505923e-05,
+                  -3.652470867209042e-05,
+                  -0.00011210475304535937,
+                  -0.0001373379234598184,
+                  -8.341978880737605e-05,
+                  -3.229953421897742e-05,
+                  -6.671420074819003e-05,
+                  -0.00014059235763940657,
+                  -0.00014357252930730246,
+                  -6.667995566445818e-05,
+                  -8.260063729513436e-06,
+                  -3.7309361895617164e-05,
+                  -0.0001189921123522299,
+                  -0.00015374526266005492,
+                  -9.854566615776298e-05,
+                  -3.6321937735314536e-05,
+                  -5.764895865863702e-05,
+                  -0.0001240487420868195,
+                  -0.0001321676905763088,
+                  -6.577907916691241e-05,
+                  -1.080498264858873e-05,
+                  -4.724700209660901e-05,
+                  -0.00012835867003683986
+                ],
+                "linear_systems": 2,
+                "maximum_residual": 2.3580275851308635e-12,
+                "objective": 0.2739957322927827,
+                "primal_iterations": 11,
+                "seconds": 7.8959e-05
+              },
+              "parameter_count": 64,
+              "speedup_finite_difference_over_ad": 65.8933750427437
+            }
+          ],
+          "scientific_result_error": 0.0,
+          "speedup_finite_difference_over_ad": 33.468394477568104,
+          "workflow": "parameter-scaling of a sparse resolvent sensitivity"
+        },
+        "schema_version": 1,
+        "status": "passed"
+      },
+      "source_case_id": "ad_sparse_adjoint_scaling",
+      "speedup_finite_difference_over_ad": 36.50314372019618
+    },
+    {
+      "backend": "thouless",
+      "case_id": "adcmp_robust_kpm_design",
+      "central_finite_difference_seconds": {
+        "maximum": 1.801870917,
+        "median": 1.794566708,
+        "minimum": 1.7893007920000001,
+        "samples": [
+          1.794566708,
+          1.7893007920000001,
+          1.7937395409999999,
+          1.801870917,
+          1.798040042,
+          1.795314458,
+          1.79194275
+        ]
+      },
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "adcmp_robust_kpm_design"
+      ],
+      "native_ad_seconds": {
+        "maximum": 1.187792417,
+        "median": 1.184932625,
+        "minimum": 1.177214291,
+        "samples": [
+          1.180253875,
+          1.177214291,
+          1.185978542,
+          1.187592292,
+          1.187792417,
+          1.178783875,
+          1.184932625
+        ]
+      },
+      "repetitions": 7,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "237f544c497e89cd99dedd68f16e399bc9980987",
+        "case_id": "adcmp_robust_kpm_design",
+        "checks": [
+          {
+            "actual": 1.822275953726119e-08,
+            "expected": {
+              "maximum_relative_error": 5e-05
+            },
+            "name": "ADCMP-G01_full_derivative_agreement",
+            "passed": true,
+            "tolerance": 5e-05
+          },
+          {
+            "actual": 2.010625205247314e-08,
+            "expected": {
+              "maximum_error": 8e-05
+            },
+            "name": "ADCMP-G02_scientific_result_equivalence",
+            "passed": true,
+            "tolerance": 8e-05
+          },
+          {
+            "actual": {
+              "central_finite_difference_seconds": 1.79194275,
+              "native_ad_seconds": 1.184932625
+            },
+            "expected": "both methods execute the frozen workload",
+            "name": "ADCMP-G03_paired_timings_are_positive",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 2.980982209,
+        "metrics": {
+          "central_finite_difference": {
+            "final_loss": 3.9185187794730326e-05,
+            "forward_only_evaluations": 2719,
+            "gradient_evaluations": 360,
+            "initial_gradient_operator_applications": 2520,
+            "operator_applications": 1668520,
+            "parameters": [
+              0.08281224609567214,
+              -0.026245329830110964,
+              -0.018355729525899818,
+              -0.01603509690116002
+            ],
+            "seconds": 1.79194275
+          },
+          "comparison_product": "optimized bond gates from the same loss and line search",
+          "dimension": 96,
+          "finite_difference_scheme": "central",
+          "finite_difference_step": 1e-06,
+          "initial_full_gradient_relative_error": 1.822275953726119e-08,
+          "moment_count": 36,
+          "native_ad": {
+            "final_loss": 3.9185187490265594e-05,
+            "forward_only_evaluations": 2719,
+            "gradient_evaluations": 360,
+            "initial_gradient_operator_applications": 824,
+            "operator_applications": 1057960,
+            "parameters": [
+              0.082812246571799,
+              -0.02624533016865308,
+              -0.018355729156834893,
+              -0.016035097181950363
+            ],
+            "peak_stored_vectors": 19,
+            "seconds": 1.184932625
+          },
+          "parameter_count": 4,
+          "physical_model": "bond-disordered Su-Schrieffer-Heeger chain",
+          "scientific_result_error": 2.010625205247314e-08,
+          "speedup_finite_difference_over_ad": 1.5122739573484187,
+          "training_seed_count": 8,
+          "workflow": "robust KPM inverse design over a disorder ensemble"
+        },
+        "schema_version": 1,
+        "status": "passed"
+      },
+      "source_case_id": "ad_robust_kpm_design",
+      "speedup_finite_difference_over_ad": 1.514488393802137
+    }
+  ],
+  "schema_version": 1,
+  "summary": {
+    "central_finite_difference_faster": 0,
+    "failed": 0,
+    "median_speedup_finite_difference_over_ad": 4.334932435419718,
+    "native_ad_faster": 10,
+    "passed": 10,
+    "repetitions_per_record": 7,
+    "workflow_records": 10
+  }
+}

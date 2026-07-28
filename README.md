@@ -19,6 +19,7 @@ not claims to reproduce those papers.
 | Open-system transport | 4 | Thouless and Kwant; PythTB is not a transport solver |
 | Whole-problem domain witnesses | 22 | Backend applicability is explicit |
 | Native automatic differentiation | 10 | Thouless native Rust |
+| AD versus no-AD paired comparisons | 10 | Thouless native Rust |
 
 The original manifest is [`benchmark/cases.json`](benchmark/cases.json).
 Whole-problem witnesses are frozen in
@@ -27,6 +28,8 @@ The ten domain-facing native AD witnesses are frozen in
 [`benchmark/ad_cases.json`](benchmark/ad_cases.json) and explained in
 [`docs/ad-benchmarks.md`](docs/ad-benchmarks.md), with
 [one specification per problem](docs/ad-problems/README.md).
+The same ten workflows also have a
+[native-AD versus central-finite-difference comparison](docs/ad-method-comparison.md).
 
 ## Domain problem catalog
 
@@ -148,6 +151,15 @@ AD witnesses also do not automatically change strict whole-problem TBQ
 coverage. The complete LKM search and reasoning evidence is preserved under
 [`evidence/lkm/2026-07-28-ad-research-workflows`](evidence/lkm/2026-07-28-ad-research-workflows/README.md).
 
+The
+[paired no-AD comparison](results/verified/2026-07-28-ad-vs-finite-difference.json)
+uses the same Rust forward objectives, scientific products, and optimizer
+conditions. Native AD is faster in all ten recorded warmed workloads, with a
+median 4.33× speedup. The range is scientifically informative: the
+one-parameter QWZ and four-parameter KPM designs show modest gains, while the
+64-parameter sparse-adjoint workflow is 36.50× faster with native AD.
+Accuracy and scientific equivalence are gated; relative timing is not.
+
 PythTB 2.0 requires NumPy 2, while Kwant 1.5 currently builds against NumPy
 1.26. They therefore run in separate environments. Combining both into one
 Python environment is not a supported benchmark configuration.
@@ -167,6 +179,10 @@ python tools/collect_domain_results.py
 python tools/run_thouless_cases.py --track ad
 python tools/collect_ad_results.py
 python tools/check_ad_results.py --current results/local/ad.json
+python tools/run_thouless_cases.py --track ad-comparison
+python tools/collect_ad_comparison.py
+python tools/check_ad_comparison.py \
+  results/local/ad-vs-finite-difference.json
 python tools/build_problem_coverage.py --check
 python tools/check_problem_docs.py
 ```

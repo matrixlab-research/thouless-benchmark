@@ -29,7 +29,7 @@ def main() -> int:
     )
     parser.add_argument(
         "--track",
-        choices=("seed", "domain", "ad", "all"),
+        choices=("seed", "domain", "ad", "ad-comparison", "all"),
         default="all",
     )
     args = parser.parse_args()
@@ -54,11 +54,21 @@ def main() -> int:
             (ROOT / "benchmark" / "ad_cases.json").read_text()
         )["cases"]
     }
+    ad_comparison_payload = json.loads(
+        (ROOT / "benchmark" / "ad_comparison.json").read_text()
+    )
+    ad_comparison = [
+        case["id"] for case in ad_comparison_payload["cases"]
+    ]
+    ad_comparison_cases = {
+        case["id"]: case for case in ad_comparison_payload["cases"]
+    }
     case_ids = {
         "seed": seed,
         "domain": domain,
         "ad": ad,
-        "all": seed + domain + ad,
+        "ad-comparison": ad_comparison,
+        "all": seed + domain + ad + ad_comparison,
     }[args.track]
     if len(case_ids) != len(set(case_ids)):
         raise ValueError("selected Thouless manifest contains duplicate case ids")
@@ -106,6 +116,18 @@ def main() -> int:
             if not required <= available:
                 raise ValueError(
                     f"native Thouless AD case {case_id} lacks gates "
+                    f"{sorted(required - available)}"
+                )
+        if case_id in ad_comparison_cases:
+            available = {
+                check["name"]
+                for check in result["checks"]
+                if check["passed"]
+            }
+            required = set(ad_comparison_payload["required_checks"])
+            if not required <= available:
+                raise ValueError(
+                    f"native Thouless AD comparison {case_id} lacks gates "
                     f"{sorted(required - available)}"
                 )
         print(

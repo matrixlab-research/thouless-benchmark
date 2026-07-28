@@ -134,3 +134,70 @@ def test_verified_ad_snapshot_matches_manifest() -> None:
     )
     assert payload["policy"]["public_validation_is_not_isolated_held_out_evaluation"]
     assert payload["policy"]["whole_tbq_coverage_is_not_inferred_from_ad_witnesses"]
+
+
+def test_ad_method_comparison_manifest_is_complete_and_fair() -> None:
+    payload = json.loads((ROOT / "benchmark" / "ad_comparison.json").read_text())
+    cases = payload["cases"]
+    source_cases = {
+        case["id"]
+        for case in json.loads((ROOT / "benchmark" / "ad_cases.json").read_text())[
+            "cases"
+        ]
+    }
+    assert payload["schema_version"] == 1
+    assert len(cases) == len({case["id"] for case in cases}) == 10
+    assert {case["source_case_id"] for case in cases} == source_cases
+    assert all(case["id"].startswith("adcmp_") for case in cases)
+    assert all(case["parameter_count"] > 0 for case in cases)
+    assert {
+        case["workload_kind"] for case in cases
+    } == {
+        "end_to_end_optimization",
+        "full_gradient",
+        "full_jacobian",
+        "parameter_scaling_full_gradient",
+    }
+    fairness = payload["fairness_contract"]
+    assert fairness["same_rust_forward_model"]
+    assert fairness["same_scientific_product"]
+    assert fairness["same_initial_state_and_optimizer"]
+    assert fairness["finite_difference_uses_forward_only_calls"]
+    assert fairness["both_derivative_paths_are_warmed_before_timing"]
+    assert fairness["accuracy_is_gated"]
+    assert fairness["relative_speed_is_not_a_ci_gate"]
+    assert set(payload["required_checks"]) == {
+        "ADCMP-G01_full_derivative_agreement",
+        "ADCMP-G02_scientific_result_equivalence",
+        "ADCMP-G03_paired_timings_are_positive",
+    }
+
+
+def test_verified_ad_method_comparison_matches_manifest() -> None:
+    payload = json.loads(
+        (
+            ROOT
+            / "results"
+            / "verified"
+            / "2026-07-28-ad-vs-finite-difference.json"
+        ).read_text()
+    )
+    expected = {
+        case["id"]
+        for case in json.loads(
+            (ROOT / "benchmark" / "ad_comparison.json").read_text()
+        )["cases"]
+    }
+    records = payload["records"]
+    assert {record["case_id"] for record in records} == expected
+    assert all(record["repetitions"] >= 3 for record in records)
+    assert all(
+        record["representative_result"]["status"] == "passed"
+        for record in records
+    )
+    assert (
+        payload["summary"]["native_ad_faster"]
+        + payload["summary"]["central_finite_difference_faster"]
+        <= len(records)
+    )
+    assert payload["policy"]["relative_speed_is_not_a_ci_gate"]
