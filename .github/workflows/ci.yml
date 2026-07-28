@@ -18,6 +18,8 @@ jobs:
       - run: python tools/build_problem_coverage.py --check
       - run: python tools/sync_problem_status.py --check
       - run: python tools/check_problem_docs.py
+      - run: python tools/build_ad_requirements.py --check
+      - run: python tools/check_ad_requirements.py
       - run: python tools/coverage_report.py
       - run: python tools/check_results.py results/verified/2026-07-26-implemented.json
       - run: python tools/check_domain_results.py results/verified/2026-07-27-domain.json
