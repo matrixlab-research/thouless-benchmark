@@ -71,6 +71,8 @@ equal at the recorded tolerance. The speed ordering is reported rather than
 required, so a future workload where finite differences win will remain a
 valid benchmark result.
 
+![Native AD and central finite-difference median timings across ten scientific workflows](ad-vs-finite-difference.svg)
+
 ## Reproduce
 
 ```bash
@@ -79,6 +81,9 @@ python tools/run_thouless_cases.py --track ad-comparison
 python tools/collect_ad_comparison.py
 python tools/check_ad_comparison.py \
   results/local/ad-vs-finite-difference.json
+python tools/render_ad_comparison_chart.py \
+  results/verified/2026-07-28-ad-vs-finite-difference.json \
+  --output docs/ad-vs-finite-difference.svg
 ```
 
 The machine-readable workload definitions and fairness contract are in
