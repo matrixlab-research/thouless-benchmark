@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="894" viewBox="0 0 1180 894" role="img" aria-labelledby="chart-title chart-desc">
+<title id="chart-title">Native AD versus central finite differences</title>
+<desc id="chart-desc">Overlaid horizontal bars compare native automatic differentiation and central finite differences for ten scientific workflows on a logarithmic time axis. Each row reports the same-machine median times and finite-difference over AD speedup.</desc>
+<rect width="100%" height="100%" rx="12" fill="#ffffff"/>
+<text class="chart-heading" x="28" y="46" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="#172033">Native AD versus central finite differences</text>
+<text class="chart-subtitle" x="28" y="78" font-family="system-ui, sans-serif" font-size="15" fill="#596579">arm64 Darwin · 7 warmed repetitions · median method time, lower is better</text>
+<rect class="summary-badge" x="826" y="24" width="326" height="42" rx="21" fill="#edf4ff"/>
+<text class="summary-label" x="989" y="51" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#205493">AD faster in 10/10 workflows · median 4.33×</text>
+<rect x="28" y="101" width="24" height="16" rx="3" fill="#377eb8"/>
+<text class="legend-label" x="62" y="115" font-family="system-ui, sans-serif" font-size="15" fill="#344054">Native AD</text>
+<rect x="171" y="94" width="24" height="30" rx="3" fill="#e7a568"/>
+<text class="legend-label" x="205" y="115" font-family="system-ui, sans-serif" font-size="15" fill="#344054">Central finite difference</text>
+<text class="scale-note" x="450" y="115" font-family="system-ui, sans-serif" font-size="14" fill="#667085">logarithmic time axis</text>
+<line x1="330.00" y1="162" x2="330.00" y2="818" stroke="#e6e9ef" stroke-width="1"/>
+<text class="tick-label" x="330.00" y="844" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#667085">1 μs</text>
+<line x1="413.57" y1="162" x2="413.57" y2="818" stroke="#e6e9ef" stroke-width="1"/>
+<text class="tick-label" x="413.57" y="844" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#667085">10 μs</text>
+<line x1="497.14" y1="162" x2="497.14" y2="818" stroke="#e6e9ef" stroke-width="1"/>
+<text class="tick-label" x="497.14" y="844" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#667085">100 μs</text>
+<line x1="580.71" y1="162" x2="580.71" y2="818" stroke="#e6e9ef" stroke-width="1"/>
+<text class="tick-label" x="580.71" y="844" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#667085">1 ms</text>
+<line x1="664.29" y1="162" x2="664.29" y2="818" stroke="#e6e9ef" stroke-width="1"/>
+<text class="tick-label" x="664.29" y="844" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#667085">10 ms</text>
+<line x1="747.86" y1="162" x2="747.86" y2="818" stroke="#e6e9ef" stroke-width="1"/>
+<text class="tick-label" x="747.86" y="844" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#667085">100 ms</text>
+<line x1="831.43" y1="162" x2="831.43" y2="818" stroke="#e6e9ef" stroke-width="1"/>
+<text class="tick-label" x="831.43" y="844" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#667085">1 s</text>
+<line x1="915.00" y1="162" x2="915.00" y2="818" stroke="#e6e9ef" stroke-width="1"/>
+<text class="tick-label" x="915.00" y="844" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#667085">10 s</text>
+<text class="axis-label" x="622.50" y="876" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" fill="#475467">median method time (log scale)</text>
+<text class="workflow-label" x="314" y="211.00" text-anchor="end" font-family="system-ui, sans-serif" font-size="15" font-weight="600" fill="#283548">Spectral parameter recovery</text>
+<rect class="finite-difference-bar" data-case-id="adcmp_spectral_recovery" data-center-y="206.00" x="330" y="191.00" width="334.44" height="30" rx="4" fill="#e7a568"><title>Central finite difference: 10.043917 ms</title></rect>
+<rect class="native-ad-bar" data-case-id="adcmp_spectral_recovery" data-center-y="206.00" x="330" y="198.00" width="285.86" height="16" rx="4" fill="#377eb8"><title>Native AD: 2.633875 ms</title></rect>
+<text class="speedup-label" data-case-id="adcmp_spectral_recovery" x="933.00" y="203.00" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#205493">AD 3.81× faster</text>
+<text class="timing-label" data-case-id="adcmp_spectral_recovery" x="933.00" y="223.00" font-family="ui-monospace, SFMono-Regular, monospace" font-size="12.5" fill="#667085">AD 2.63 · FD 10.04 ms</text>
+<rect class="row-guide" x="20" y="240.00" width="1140" height="60" rx="6" fill="#fafbfc" fill-opacity="0.68"/>
+<text class="workflow-label" x="314" y="275.00" text-anchor="end" font-family="system-ui, sans-serif" font-size="15" font-weight="600" fill="#283548">Degenerate projector gradient</text>
+<rect class="finite-difference-bar" data-case-id="adcmp_degenerate_projector" data-center-y="270.00" x="330" y="255.00" width="89.68" height="30" rx="4" fill="#e7a568"><title>Central finite difference: 0.011833 ms</title></rect>
+<rect class="native-ad-bar" data-case-id="adcmp_degenerate_projector" data-center-y="270.00" x="330" y="262.00" width="33.85" height="16" rx="4" fill="#377eb8"><title>Native AD: 0.002541 ms</title></rect>
+<text class="speedup-label" data-case-id="adcmp_degenerate_projector" x="933.00" y="267.00" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#205493">AD 4.66× faster</text>
+<text class="timing-label" data-case-id="adcmp_degenerate_projector" x="933.00" y="287.00" font-family="ui-monospace, SFMono-Regular, monospace" font-size="12.5" fill="#667085">AD 0.003 · FD 0.012 ms</text>
+<text class="workflow-label" x="314" y="339.00" text-anchor="end" font-family="system-ui, sans-serif" font-size="15" font-weight="600" fill="#283548">SSH identifiability Jacobian</text>
+<rect class="finite-difference-bar" data-case-id="adcmp_identifiability" data-center-y="334.00" x="330" y="319.00" width="114.52" height="30" rx="4" fill="#e7a568"><title>Central finite difference: 0.023458 ms</title></rect>
+<rect class="native-ad-bar" data-case-id="adcmp_identifiability" data-center-y="334.00" x="330" y="326.00" width="62.14" height="16" rx="4" fill="#377eb8"><title>Native AD: 0.005541 ms</title></rect>
+<text class="speedup-label" data-case-id="adcmp_identifiability" x="933.00" y="331.00" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#205493">AD 4.23× faster</text>
+<text class="timing-label" data-case-id="adcmp_identifiability" x="933.00" y="351.00" font-family="ui-monospace, SFMono-Regular, monospace" font-size="12.5" fill="#667085">AD 0.006 · FD 0.023 ms</text>
+<rect class="row-guide" x="20" y="368.00" width="1140" height="60" rx="6" fill="#fafbfc" fill-opacity="0.68"/>
+<text class="workflow-label" x="314" y="403.00" text-anchor="end" font-family="system-ui, sans-serif" font-size="15" font-weight="600" fill="#283548">Quantum-metric gradient</text>
+<rect class="finite-difference-bar" data-case-id="adcmp_quantum_metric" data-center-y="398.00" x="330" y="383.00" width="224.23" height="30" rx="4" fill="#e7a568"><title>Central finite difference: 0.482083 ms</title></rect>
+<rect class="native-ad-bar" data-case-id="adcmp_quantum_metric" data-center-y="398.00" x="330" y="390.00" width="170.16" height="16" rx="4" fill="#377eb8"><title>Native AD: 0.108667 ms</title></rect>
+<text class="speedup-label" data-case-id="adcmp_quantum_metric" x="933.00" y="395.00" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#205493">AD 4.44× faster</text>
+<text class="timing-label" data-case-id="adcmp_quantum_metric" x="933.00" y="415.00" font-family="ui-monospace, SFMono-Regular, monospace" font-size="12.5" fill="#667085">AD 0.109 · FD 0.482 ms</text>
+<text class="workflow-label" x="314" y="467.00" text-anchor="end" font-family="system-ui, sans-serif" font-size="15" font-weight="600" fill="#283548">Topological inverse design</text>
+<rect class="finite-difference-bar" data-case-id="adcmp_topological_design" data-center-y="462.00" x="330" y="447.00" width="380.57" height="30" rx="4" fill="#e7a568"><title>Central finite difference: 35.796000 ms</title></rect>
+<rect class="native-ad-bar" data-case-id="adcmp_topological_design" data-center-y="462.00" x="330" y="454.00" width="356.68" height="16" rx="4" fill="#377eb8"><title>Native AD: 18.535291 ms</title></rect>
+<text class="speedup-label" data-case-id="adcmp_topological_design" x="933.00" y="459.00" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#205493">AD 1.93× faster</text>
+<text class="timing-label" data-case-id="adcmp_topological_design" x="933.00" y="479.00" font-family="ui-monospace, SFMono-Regular, monospace" font-size="12.5" fill="#667085">AD 18.54 · FD 35.80 ms</text>
+<rect class="row-guide" x="20" y="496.00" width="1140" height="60" rx="6" fill="#fafbfc" fill-opacity="0.68"/>
+<text class="workflow-label" x="314" y="531.00" text-anchor="end" font-family="system-ui, sans-serif" font-size="15" font-weight="600" fill="#283548">Surface Green-function gradient</text>
+<rect class="finite-difference-bar" data-case-id="adcmp_surface_green_implicit" data-center-y="526.00" x="330" y="511.00" width="123.55" height="30" rx="4" fill="#e7a568"><title>Central finite difference: 0.030084 ms</title></rect>
+<rect class="native-ad-bar" data-case-id="adcmp_surface_green_implicit" data-center-y="526.00" x="330" y="518.00" width="67.23" height="16" rx="4" fill="#377eb8"><title>Native AD: 0.006375 ms</title></rect>
+<text class="speedup-label" data-case-id="adcmp_surface_green_implicit" x="933.00" y="523.00" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#205493">AD 4.72× faster</text>
+<text class="timing-label" data-case-id="adcmp_surface_green_implicit" x="933.00" y="543.00" font-family="ui-monospace, SFMono-Regular, monospace" font-size="12.5" fill="#667085">AD 0.006 · FD 0.030 ms</text>
+<text class="workflow-label" x="314" y="595.00" text-anchor="end" font-family="system-ui, sans-serif" font-size="15" font-weight="600" fill="#283548">Inverse transport calibration</text>
+<rect class="finite-difference-bar" data-case-id="adcmp_inverse_transport" data-center-y="590.00" x="330" y="575.00" width="326.86" height="30" rx="4" fill="#e7a568"><title>Central finite difference: 8.149625 ms</title></rect>
+<rect class="native-ad-bar" data-case-id="adcmp_inverse_transport" data-center-y="590.00" x="330" y="582.00" width="287.38" height="16" rx="4" fill="#377eb8"><title>Native AD: 2.746291 ms</title></rect>
+<text class="speedup-label" data-case-id="adcmp_inverse_transport" x="933.00" y="587.00" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#205493">AD 2.97× faster</text>
+<text class="timing-label" data-case-id="adcmp_inverse_transport" x="933.00" y="607.00" font-family="ui-monospace, SFMono-Regular, monospace" font-size="12.5" fill="#667085">AD 2.75 · FD 8.15 ms</text>
+<rect class="row-guide" x="20" y="624.00" width="1140" height="60" rx="6" fill="#fafbfc" fill-opacity="0.68"/>
+<text class="workflow-label" x="314" y="659.00" text-anchor="end" font-family="system-ui, sans-serif" font-size="15" font-weight="600" fill="#283548">Whole device-lead sensitivity</text>
+<rect class="finite-difference-bar" data-case-id="adcmp_lead_device_sensitivity" data-center-y="654.00" x="330" y="639.00" width="213.99" height="30" rx="4" fill="#e7a568"><title>Central finite difference: 0.363500 ms</title></rect>
+<rect class="native-ad-bar" data-case-id="adcmp_lead_device_sensitivity" data-center-y="654.00" x="330" y="646.00" width="94.69" height="16" rx="4" fill="#377eb8"><title>Native AD: 0.013583 ms</title></rect>
+<text class="speedup-label" data-case-id="adcmp_lead_device_sensitivity" x="933.00" y="651.00" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#205493">AD 26.76× faster</text>
+<text class="timing-label" data-case-id="adcmp_lead_device_sensitivity" x="933.00" y="671.00" font-family="ui-monospace, SFMono-Regular, monospace" font-size="12.5" fill="#667085">AD 0.014 · FD 0.363 ms</text>
+<text class="workflow-label" x="314" y="723.00" text-anchor="end" font-family="system-ui, sans-serif" font-size="15" font-weight="600" fill="#283548">Sparse-adjoint scaling</text>
+<rect class="finite-difference-bar" data-case-id="adcmp_sparse_adjoint_scaling" data-center-y="718.00" x="330" y="703.00" width="328.83" height="30" rx="4" fill="#e7a568"><title>Central finite difference: 8.604083 ms</title></rect>
+<rect class="native-ad-bar" data-case-id="adcmp_sparse_adjoint_scaling" data-center-y="718.00" x="330" y="710.00" width="198.26" height="16" rx="4" fill="#377eb8"><title>Native AD: 0.235708 ms</title></rect>
+<text class="speedup-label" data-case-id="adcmp_sparse_adjoint_scaling" x="933.00" y="715.00" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#205493">AD 36.50× faster</text>
+<text class="timing-label" data-case-id="adcmp_sparse_adjoint_scaling" x="933.00" y="735.00" font-family="ui-monospace, SFMono-Regular, monospace" font-size="12.5" fill="#667085">AD 0.236 · FD 8.60 ms</text>
+<rect class="row-guide" x="20" y="752.00" width="1140" height="60" rx="6" fill="#fafbfc" fill-opacity="0.68"/>
+<text class="workflow-label" x="314" y="787.00" text-anchor="end" font-family="system-ui, sans-serif" font-size="15" font-weight="600" fill="#283548">Disorder-robust KPM design</text>
+<rect class="finite-difference-bar" data-case-id="adcmp_robust_kpm_design" data-center-y="782.00" x="330" y="767.00" width="522.65" height="30" rx="4" fill="#e7a568"><title>Central finite difference: 1794.566708 ms</title></rect>
+<rect class="native-ad-bar" data-case-id="adcmp_robust_kpm_design" data-center-y="782.00" x="330" y="774.00" width="507.59" height="16" rx="4" fill="#377eb8"><title>Native AD: 1184.932625 ms</title></rect>
+<text class="speedup-label" data-case-id="adcmp_robust_kpm_design" x="933.00" y="779.00" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#205493">AD 1.51× faster</text>
+<text class="timing-label" data-case-id="adcmp_robust_kpm_design" x="933.00" y="799.00" font-family="ui-monospace, SFMono-Regular, monospace" font-size="12.5" fill="#667085">AD 1184.9 · FD 1794.6 ms</text>
+</svg>

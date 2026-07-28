@@ -160,6 +160,14 @@ one-parameter QWZ and four-parameter KPM designs show modest gains, while the
 64-parameter sparse-adjoint workflow is 36.50× faster with native AD.
 Accuracy and scientific equivalence are gated; relative timing is not.
 
+![Native AD and central finite-difference median timings across ten scientific workflows, with direct speedup labels](docs/ad-vs-finite-difference.svg)
+
+The overlaid bars use a logarithmic time axis because the workflows span
+microseconds to seconds. The wider orange bar is the central finite-difference
+baseline and the narrower blue bar is native AD; lower is better. The figure
+is generated directly from the verified result by
+[`tools/render_ad_comparison_chart.py`](tools/render_ad_comparison_chart.py).
+
 PythTB 2.0 requires NumPy 2, while Kwant 1.5 currently builds against NumPy
 1.26. They therefore run in separate environments. Combining both into one
 Python environment is not a supported benchmark configuration.
