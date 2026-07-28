@@ -3235,6 +3235,24 @@ fn main() -> Result<(), Box<dyn Error>> {
         "ad_lead_device_sensitivity" => Some(ad_workflows::lead_device_sensitivity()?),
         "ad_sparse_adjoint_scaling" => Some(ad_workflows::sparse_adjoint_scaling()?),
         "ad_robust_kpm_design" => Some(ad_workflows::robust_kpm_design()?),
+        "adcmp_spectral_recovery" => Some(ad_workflows::method_comparison("spectral_recovery")?),
+        "adcmp_degenerate_projector" => {
+            Some(ad_workflows::method_comparison("degenerate_projector")?)
+        }
+        "adcmp_identifiability" => Some(ad_workflows::method_comparison("identifiability")?),
+        "adcmp_quantum_metric" => Some(ad_workflows::method_comparison("quantum_metric")?),
+        "adcmp_topological_design" => Some(ad_workflows::method_comparison("topological_design")?),
+        "adcmp_surface_green_implicit" => {
+            Some(ad_workflows::method_comparison("surface_green_implicit")?)
+        }
+        "adcmp_inverse_transport" => Some(ad_workflows::method_comparison("inverse_transport")?),
+        "adcmp_lead_device_sensitivity" => {
+            Some(ad_workflows::method_comparison("lead_device_sensitivity")?)
+        }
+        "adcmp_sparse_adjoint_scaling" => {
+            Some(ad_workflows::method_comparison("sparse_adjoint_scaling")?)
+        }
+        "adcmp_robust_kpm_design" => Some(ad_workflows::method_comparison("robust_kpm_design")?),
         _ => None,
     };
     let Some((metrics, checks)) = computed else {

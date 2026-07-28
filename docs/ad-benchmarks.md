@@ -6,9 +6,12 @@ into ten executable Rust-native benchmarks. Each case now names a physical
 system, a source paper, and a compact adaptation boundary; the selection is
 not ten variations of a scalar derivative test.
 
-The benchmark uses native Thouless JVPs and VJPs. Central finite differences
-are independent validators only. Optimizers and loss composition remain a thin
-benchmark layer outside the physics kernels.
+The correctness track uses native Thouless JVPs and VJPs. Central finite
+differences are independent validators only in that track. A separate
+[paired method comparison](ad-method-comparison.md) runs complete central
+finite-difference gradients and optimizations as an explicit no-AD baseline.
+Optimizers and loss composition remain a thin benchmark layer outside the
+physics kernels.
 
 ## Selection
 
@@ -107,4 +110,8 @@ cargo build --release --manifest-path backends/thouless/Cargo.toml
 python tools/run_thouless_cases.py --track ad
 python tools/collect_ad_results.py
 python tools/check_ad_results.py --current results/local/ad.json
+python tools/run_thouless_cases.py --track ad-comparison
+python tools/collect_ad_comparison.py
+python tools/check_ad_comparison.py \
+  results/local/ad-vs-finite-difference.json
 ```

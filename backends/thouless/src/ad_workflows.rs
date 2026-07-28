@@ -1,8 +1,9 @@
 //! Domain-facing automatic-differentiation benchmarks.
 //!
 //! These cases exercise complete scientific maps rather than isolated trait
-//! calls.  Native Thouless derivatives provide the gradients; central finite
-//! differences are used only as independent validation or cost baselines.
+//! calls. Native Thouless derivatives provide the gradients. The correctness
+//! cases use central finite differences as independent validators; the paired
+//! comparison cases also execute them as explicit no-AD baselines.
 
 use std::error::Error;
 use std::f64::consts::TAU;
@@ -146,6 +147,131 @@ where
         values = candidate;
     }
     Ok((values, history))
+}
+
+struct OptimizationOutcome {
+    parameters: Vec<f64>,
+    loss_history: Vec<f64>,
+    gradient_evaluations: usize,
+    forward_only_evaluations: usize,
+}
+
+fn central_difference_value_and_gradient<F>(
+    parameters: &ModelParameters,
+    value: &F,
+) -> Result<(f64, Vec<f64>), Box<dyn Error>>
+where
+    F: Fn(&ModelParameters) -> Result<f64, Box<dyn Error>>,
+{
+    let center = value(parameters)?;
+    let mut gradient = Vec::with_capacity(parameters.len());
+    for coordinate in 0..parameters.len() {
+        let mut direction = vec![0.0; parameters.len()];
+        direction[coordinate] = 1.0;
+        let direction = ModelDirection::new(direction)?;
+        let positive = value(&parameters.displaced(&direction, FD_STEP)?)?;
+        let negative = value(&parameters.displaced(&direction, -FD_STEP)?)?;
+        gradient.push((positive - negative) / (2.0 * FD_STEP));
+    }
+    Ok((center, gradient))
+}
+
+fn minimize_with_forward_line_search<V, G>(
+    initial: Vec<f64>,
+    maximum_iterations: usize,
+    initial_step: f64,
+    value: &V,
+    value_and_gradient: &G,
+) -> Result<OptimizationOutcome, Box<dyn Error>>
+where
+    V: Fn(&ModelParameters) -> Result<f64, Box<dyn Error>>,
+    G: Fn(&ModelParameters) -> Result<(f64, Vec<f64>), Box<dyn Error>>,
+{
+    let mut values = initial;
+    let mut history = Vec::new();
+    let mut gradient_evaluations = 0usize;
+    let mut forward_only_evaluations = 0usize;
+    for _ in 0..maximum_iterations {
+        let parameters = ModelParameters::new(values.clone())?;
+        let (loss, gradient) = value_and_gradient(&parameters)?;
+        gradient_evaluations += 1;
+        history.push(loss);
+        if vector_norm(&gradient) < 1.0e-10 || loss < 1.0e-16 {
+            break;
+        }
+        let mut step = initial_step;
+        let gradient_norm_squared = dot(&gradient, &gradient);
+        let mut accepted = None;
+        for _ in 0..28 {
+            let candidate = values
+                .iter()
+                .zip(&gradient)
+                .map(|(value, gradient)| value - step * gradient)
+                .collect::<Vec<_>>();
+            let candidate_parameters = ModelParameters::new(candidate.clone())?;
+            let candidate_loss = value(&candidate_parameters)?;
+            forward_only_evaluations += 1;
+            if candidate_loss <= loss - 1.0e-4 * step * gradient_norm_squared
+                || candidate_loss < loss
+            {
+                accepted = Some(candidate);
+                break;
+            }
+            step *= 0.5;
+        }
+        let Some(candidate) = accepted else {
+            break;
+        };
+        values = candidate;
+    }
+    Ok(OptimizationOutcome {
+        parameters: values,
+        loss_history: history,
+        gradient_evaluations,
+        forward_only_evaluations,
+    })
+}
+
+fn maximum_vector_relative_error(left: &[f64], right: &[f64]) -> f64 {
+    left.iter()
+        .zip(right)
+        .map(|(left, right)| relative_error(*left, *right))
+        .fold(0.0_f64, f64::max)
+}
+
+fn comparison_checks(
+    gradient_error: f64,
+    scientific_error: f64,
+    scientific_tolerance: f64,
+    ad_seconds: f64,
+    finite_difference_seconds: f64,
+) -> Vec<Check> {
+    vec![
+        check(
+            "ADCMP-G01_full_derivative_agreement",
+            gradient_error < 5.0e-5,
+            json!(gradient_error),
+            json!({"maximum_relative_error": 5.0e-5}),
+            Some(5.0e-5),
+        ),
+        check(
+            "ADCMP-G02_scientific_result_equivalence",
+            scientific_error < scientific_tolerance,
+            json!(scientific_error),
+            json!({"maximum_error": scientific_tolerance}),
+            Some(scientific_tolerance),
+        ),
+        check(
+            "ADCMP-G03_paired_timings_are_positive",
+            ad_seconds > 0.0 && finite_difference_seconds > 0.0,
+            json!({
+                "native_ad_seconds": ad_seconds,
+                "central_finite_difference_seconds": finite_difference_seconds,
+            }),
+            json!("both methods execute the frozen workload"),
+            None,
+        ),
+    ]
 }
 
 /// Rice--Mele Bloch Hamiltonian in units where the target intercell hopping
@@ -1769,4 +1895,1077 @@ pub(super) fn robust_kpm_design() -> Result<(Value, Vec<Check>), Box<dyn Error>>
         }),
         checks,
     ))
+}
+
+fn compare_spectral_recovery() -> Result<(Value, Vec<Check>), Box<dyn Error>> {
+    let public_momenta = [0.17, 0.63, 1.11, 1.72, 2.31];
+    let target_values = vec![0.35, 0.72, 1.0];
+    let target = ModelParameters::new(target_values.clone())?;
+    let families = public_momenta
+        .iter()
+        .map(|momentum| rice_mele_family(*momentum))
+        .collect::<Result<Vec<_>, _>>()?;
+    let targets = families
+        .iter()
+        .map(|family| {
+            let matrix = family.value(&target)?;
+            Ok((
+                hermitian_eigensystem(&matrix, 1.0e-12)?.eigenvalues()[0],
+                occupied_projector(&matrix, 1)?,
+            ))
+        })
+        .collect::<Result<Vec<_>, Box<dyn Error>>>()?;
+    let value = |parameters: &ModelParameters| -> Result<f64, Box<dyn Error>> {
+        let mut loss = 0.0;
+        for (family, (target_energy, target_projector)) in families.iter().zip(&targets) {
+            let matrix = family.value(parameters)?;
+            let energy = hermitian_eigensystem(&matrix, 1.0e-12)?.eigenvalues()[0];
+            let residual = energy - target_energy;
+            loss += 0.5 * residual * residual;
+            loss += 0.4
+                * SpectralProjectorObjective::new(family, 1, target_projector.clone(), 1.0e-5)?
+                    .value(parameters)?;
+        }
+        Ok(loss / families.len() as f64)
+    };
+    let ad_value_and_gradient =
+        |parameters: &ModelParameters| -> Result<(f64, Vec<f64>), Box<dyn Error>> {
+            let mut loss = 0.0;
+            let mut gradient = vec![0.0; 3];
+            for (family, (target_energy, target_projector)) in families.iter().zip(&targets) {
+                let (energy, energy_gradient) = energy_and_gradient(family, parameters, 0, 1.0e-5)?;
+                let residual = energy - target_energy;
+                loss += 0.5 * residual * residual;
+                add_gradient(&mut gradient, &energy_gradient, residual);
+                let objective =
+                    SpectralProjectorObjective::new(family, 1, target_projector.clone(), 1.0e-5)?;
+                let (projector_loss, projector_gradient) = objective.value_and_grad(parameters)?;
+                loss += 0.4 * projector_loss;
+                add_gradient(&mut gradient, &projector_gradient, 0.4);
+            }
+            let normalization = families.len() as f64;
+            for entry in &mut gradient {
+                *entry /= normalization;
+            }
+            Ok((loss / normalization, gradient))
+        };
+    let fd_value_and_gradient =
+        |parameters: &ModelParameters| central_difference_value_and_gradient(parameters, &value);
+    let initial = vec![0.12, 0.95, 0.62];
+    let initial_parameters = ModelParameters::new(initial.clone())?;
+    let (_, ad_gradient) = ad_value_and_gradient(&initial_parameters)?;
+    let (_, finite_difference_gradient) = fd_value_and_gradient(&initial_parameters)?;
+    let gradient_error = maximum_vector_relative_error(&ad_gradient, &finite_difference_gradient);
+
+    let started = Instant::now();
+    let ad = minimize_with_forward_line_search(
+        initial.clone(),
+        180,
+        1.0,
+        &value,
+        &ad_value_and_gradient,
+    )?;
+    let ad_seconds = started.elapsed().as_secs_f64();
+    let started = Instant::now();
+    let finite_difference =
+        minimize_with_forward_line_search(initial, 180, 1.0, &value, &fd_value_and_gradient)?;
+    let finite_difference_seconds = started.elapsed().as_secs_f64();
+    let scientific_error =
+        maximum_vector_relative_error(&ad.parameters, &finite_difference.parameters);
+    let checks = comparison_checks(
+        gradient_error,
+        scientific_error,
+        5.0e-5,
+        ad_seconds,
+        finite_difference_seconds,
+    );
+    Ok((
+        json!({
+            "physical_model": "Rice-Mele chain",
+            "workflow": "joint spectral parameter recovery",
+            "comparison_product": "optimized parameters from the same loss and line search",
+            "parameter_count": 3,
+            "finite_difference_scheme": "central",
+            "finite_difference_step": FD_STEP,
+            "initial_full_gradient_relative_error": gradient_error,
+            "scientific_result_error": scientific_error,
+            "native_ad": {
+                "seconds": ad_seconds,
+                "parameters": ad.parameters,
+                "final_loss": ad.loss_history.last(),
+                "gradient_evaluations": ad.gradient_evaluations,
+                "forward_only_evaluations": ad.forward_only_evaluations,
+                "objective_evaluations": ad.gradient_evaluations + ad.forward_only_evaluations,
+            },
+            "central_finite_difference": {
+                "seconds": finite_difference_seconds,
+                "parameters": finite_difference.parameters,
+                "final_loss": finite_difference.loss_history.last(),
+                "gradient_evaluations": finite_difference.gradient_evaluations,
+                "forward_only_evaluations": finite_difference.forward_only_evaluations,
+                "objective_evaluations": finite_difference.gradient_evaluations * 7
+                    + finite_difference.forward_only_evaluations,
+            },
+            "speedup_finite_difference_over_ad": finite_difference_seconds / ad_seconds,
+        }),
+        checks,
+    ))
+}
+
+fn compare_degenerate_projector() -> Result<(Value, Vec<Check>), Box<dyn Error>> {
+    let family = degenerate_family()?;
+    let target_parameters = ModelParameters::new(vec![0.21, -0.16])?;
+    let target_projector = occupied_projector(&family.value(&target_parameters)?, 2)?;
+    let objective = SpectralProjectorObjective::new(&family, 2, target_projector, 1.0e-4)?;
+    let parameters = ModelParameters::new(vec![0.07, 0.04])?;
+    let value = |parameters: &ModelParameters| -> Result<f64, Box<dyn Error>> {
+        Ok(objective.value(parameters)?)
+    };
+    let _ = objective.value_and_grad(&parameters)?;
+    let _ = central_difference_value_and_gradient(&parameters, &value)?;
+    let started = Instant::now();
+    let (ad_value, ad_gradient) = objective.value_and_grad(&parameters)?;
+    let ad_seconds = started.elapsed().as_secs_f64();
+    let started = Instant::now();
+    let (finite_difference_value, finite_difference_gradient) =
+        central_difference_value_and_gradient(&parameters, &value)?;
+    let finite_difference_seconds = started.elapsed().as_secs_f64();
+    let gradient_error =
+        maximum_vector_relative_error(ad_gradient.as_slice(), &finite_difference_gradient);
+    let scientific_error = relative_error(ad_value, finite_difference_value);
+    let checks = comparison_checks(
+        gradient_error,
+        scientific_error,
+        1.0e-10,
+        ad_seconds,
+        finite_difference_seconds,
+    );
+    Ok((
+        json!({
+            "physical_model": "spin-degenerate BHZ orbital block",
+            "workflow": "degeneracy-safe occupied-projector sensitivity",
+            "comparison_product": "objective value and complete two-parameter gradient",
+            "parameter_count": 2,
+            "finite_difference_scheme": "central",
+            "finite_difference_step": FD_STEP,
+            "full_gradient_relative_error": gradient_error,
+            "scientific_result_error": scientific_error,
+            "native_ad": {
+                "seconds": ad_seconds,
+                "objective": ad_value,
+                "gradient": ad_gradient.as_slice(),
+                "objective_evaluations": 1,
+            },
+            "central_finite_difference": {
+                "seconds": finite_difference_seconds,
+                "objective": finite_difference_value,
+                "gradient": finite_difference_gradient,
+                "objective_evaluations": 5,
+            },
+            "speedup_finite_difference_over_ad": finite_difference_seconds / ad_seconds,
+        }),
+        checks,
+    ))
+}
+
+fn compare_identifiability() -> Result<(Value, Vec<Check>), Box<dyn Error>> {
+    let parameters = ModelParameters::new(vec![0.8, 0.8])?;
+    let mut families = [0.2_f64, 0.7, 1.3, 2.1]
+        .iter()
+        .map(|momentum| {
+            Ok(AffineHermitianFamily::new(
+                ComplexMatrix::zeros(2, 2),
+                vec![
+                    pauli_x(scalar(1.0))?,
+                    matrix2(
+                        scalar(0.0),
+                        Complex64::new(momentum.cos(), -momentum.sin()),
+                        Complex64::new(momentum.cos(), momentum.sin()),
+                        scalar(0.0),
+                    )?,
+                ],
+            )?)
+        })
+        .collect::<Result<Vec<_>, Box<dyn Error>>>()?;
+    let marker_momentum = 1.3_f64;
+    families.push(AffineHermitianFamily::new(
+        pauli_x(scalar(0.2))?,
+        vec![
+            pauli_x(scalar(1.0))?,
+            matrix2(
+                scalar(0.0),
+                Complex64::new(marker_momentum.cos(), -marker_momentum.sin()),
+                Complex64::new(marker_momentum.cos(), marker_momentum.sin()),
+                scalar(0.0),
+            )?,
+        ],
+    )?);
+    for family in &families {
+        let _ = isolated_jacobian_row(family, &parameters)?;
+        let energy = |parameters: &ModelParameters| -> Result<f64, Box<dyn Error>> {
+            Ok(hermitian_eigensystem(&family.value(parameters)?, 1.0e-12)?.eigenvalues()[0])
+        };
+        let _ = central_difference_value_and_gradient(&parameters, &energy)?;
+    }
+    let started = Instant::now();
+    let ad_rows = families
+        .iter()
+        .map(|family| isolated_jacobian_row(family, &parameters))
+        .collect::<Result<Vec<_>, _>>()?;
+    let ad_seconds = started.elapsed().as_secs_f64();
+    let started = Instant::now();
+    let finite_difference_rows = families
+        .iter()
+        .map(|family| {
+            let energy = |parameters: &ModelParameters| -> Result<f64, Box<dyn Error>> {
+                Ok(hermitian_eigensystem(&family.value(parameters)?, 1.0e-12)?.eigenvalues()[0])
+            };
+            Ok(central_difference_value_and_gradient(&parameters, &energy)?.1)
+        })
+        .collect::<Result<Vec<_>, Box<dyn Error>>>()?;
+    let finite_difference_seconds = started.elapsed().as_secs_f64();
+    let gradient_error = ad_rows
+        .iter()
+        .zip(&finite_difference_rows)
+        .map(|(ad, finite_difference)| maximum_vector_relative_error(ad, finite_difference))
+        .fold(0.0_f64, f64::max);
+    let ad_fisher = fisher_2x2(&ad_rows);
+    let finite_difference_fisher = fisher_2x2(&finite_difference_rows);
+    let ad_eigenvalues = symmetric_2x2_eigenvalues(ad_fisher);
+    let finite_difference_eigenvalues = symmetric_2x2_eigenvalues(finite_difference_fisher);
+    let scientific_error = ad_eigenvalues
+        .iter()
+        .zip(finite_difference_eigenvalues)
+        .map(|(ad, finite_difference)| (ad - finite_difference).abs())
+        .fold(0.0_f64, f64::max);
+    let checks = comparison_checks(
+        gradient_error,
+        scientific_error,
+        1.0e-8,
+        ad_seconds,
+        finite_difference_seconds,
+    );
+    Ok((
+        json!({
+            "physical_model": "Su-Schrieffer-Heeger chain with a local bond marker",
+            "workflow": "Fisher identifiability analysis",
+            "comparison_product": "complete five-observable Jacobian and Fisher spectrum",
+            "parameter_count": 2,
+            "observable_count": 5,
+            "finite_difference_scheme": "central",
+            "finite_difference_step": FD_STEP,
+            "full_jacobian_relative_error": gradient_error,
+            "scientific_result_error": scientific_error,
+            "native_ad": {
+                "seconds": ad_seconds,
+                "jacobian": ad_rows,
+                "fisher_eigenvalues": ad_eigenvalues,
+                "eigensystem_evaluations": 5,
+            },
+            "central_finite_difference": {
+                "seconds": finite_difference_seconds,
+                "jacobian": finite_difference_rows,
+                "fisher_eigenvalues": finite_difference_eigenvalues,
+                "eigensystem_evaluations": 25,
+            },
+            "speedup_finite_difference_over_ad": finite_difference_seconds / ad_seconds,
+        }),
+        checks,
+    ))
+}
+
+fn compare_quantum_metric() -> Result<(Value, Vec<Check>), Box<dyn Error>> {
+    let point_count = 64;
+    let objective = QuantumMetricMeshObjective::new(
+        rice_mele_quantum_metric_families(point_count)?,
+        1,
+        TAU / point_count as f64,
+        1.0e-5,
+    )?;
+    let parameters = ModelParameters::new(vec![0.31, -0.18])?;
+    let value = |parameters: &ModelParameters| -> Result<f64, Box<dyn Error>> {
+        Ok(objective.value(parameters)?)
+    };
+    let _ = objective.value_and_grad(&parameters)?;
+    let _ = central_difference_value_and_gradient(&parameters, &value)?;
+    let started = Instant::now();
+    let (ad_value, ad_gradient) = objective.value_and_grad(&parameters)?;
+    let ad_seconds = started.elapsed().as_secs_f64();
+    let started = Instant::now();
+    let (finite_difference_value, finite_difference_gradient) =
+        central_difference_value_and_gradient(&parameters, &value)?;
+    let finite_difference_seconds = started.elapsed().as_secs_f64();
+    let gradient_error =
+        maximum_vector_relative_error(ad_gradient.as_slice(), &finite_difference_gradient);
+    let scientific_error = relative_error(ad_value, finite_difference_value);
+    let checks = comparison_checks(
+        gradient_error,
+        scientific_error,
+        1.0e-10,
+        ad_seconds,
+        finite_difference_seconds,
+    );
+    Ok((
+        json!({
+            "physical_model": "Rice-Mele chain",
+            "workflow": "Brillouin-zone quantum-metric sensitivity",
+            "comparison_product": "mesh-integrated metric and complete gradient",
+            "parameter_count": 2,
+            "mesh_points": point_count,
+            "finite_difference_scheme": "central",
+            "finite_difference_step": FD_STEP,
+            "full_gradient_relative_error": gradient_error,
+            "scientific_result_error": scientific_error,
+            "native_ad": {
+                "seconds": ad_seconds,
+                "metric": ad_value,
+                "gradient": ad_gradient.as_slice(),
+                "mesh_objective_evaluations": 1,
+            },
+            "central_finite_difference": {
+                "seconds": finite_difference_seconds,
+                "metric": finite_difference_value,
+                "gradient": finite_difference_gradient,
+                "mesh_objective_evaluations": 5,
+            },
+            "speedup_finite_difference_over_ad": finite_difference_seconds / ad_seconds,
+        }),
+        checks,
+    ))
+}
+
+fn compare_topological_design() -> Result<(Value, Vec<Check>), Box<dyn Error>> {
+    let target_mass = 1.0;
+    let target_parameters = ModelParameters::new(vec![target_mass])?;
+    let mesh = (0..7)
+        .flat_map(|ix| (0..7).map(move |iy| [(ix as f64 + 0.31) / 7.0, (iy as f64 + 0.43) / 7.0]))
+        .collect::<Vec<_>>();
+    let families = mesh
+        .iter()
+        .map(|point| qwz_family(*point))
+        .collect::<Result<Vec<_>, _>>()?;
+    let target_projectors = families
+        .iter()
+        .map(|family| occupied_projector(&family.value(&target_parameters)?, 1))
+        .collect::<Result<Vec<_>, _>>()?;
+    let value = |parameters: &ModelParameters| -> Result<f64, Box<dyn Error>> {
+        let mut loss = 0.0;
+        for (family, target_projector) in families.iter().zip(&target_projectors) {
+            loss += SpectralProjectorObjective::new(family, 1, target_projector.clone(), 1.0e-4)?
+                .value(parameters)?;
+        }
+        Ok(loss / families.len() as f64)
+    };
+    let ad_value_and_gradient =
+        |parameters: &ModelParameters| -> Result<(f64, Vec<f64>), Box<dyn Error>> {
+            let mut loss = 0.0;
+            let mut gradient = vec![0.0];
+            for (family, target_projector) in families.iter().zip(&target_projectors) {
+                let objective =
+                    SpectralProjectorObjective::new(family, 1, target_projector.clone(), 1.0e-4)?;
+                let (local_loss, local_gradient) = objective.value_and_grad(parameters)?;
+                loss += local_loss;
+                gradient[0] += local_gradient.as_slice()[0];
+            }
+            gradient[0] /= families.len() as f64;
+            Ok((loss / families.len() as f64, gradient))
+        };
+    let fd_value_and_gradient =
+        |parameters: &ModelParameters| central_difference_value_and_gradient(parameters, &value);
+    let initial = vec![2.65];
+    let initial_parameters = ModelParameters::new(initial.clone())?;
+    let (_, ad_initial_gradient) = ad_value_and_gradient(&initial_parameters)?;
+    let (_, finite_difference_initial_gradient) = fd_value_and_gradient(&initial_parameters)?;
+    let gradient_error =
+        maximum_vector_relative_error(&ad_initial_gradient, &finite_difference_initial_gradient);
+    let started = Instant::now();
+    let ad = minimize_with_forward_line_search(
+        initial.clone(),
+        120,
+        0.8,
+        &value,
+        &ad_value_and_gradient,
+    )?;
+    let ad_seconds = started.elapsed().as_secs_f64();
+    let started = Instant::now();
+    let finite_difference =
+        minimize_with_forward_line_search(initial, 120, 0.8, &value, &fd_value_and_gradient)?;
+    let finite_difference_seconds = started.elapsed().as_secs_f64();
+    let scientific_error = (ad.parameters[0] - finite_difference.parameters[0]).abs();
+    let ad_chern = fhs_chern([25, 25], 1, |point| qwz_matrix_at(ad.parameters[0], point))?;
+    let finite_difference_chern = fhs_chern([25, 25], 1, |point| {
+        qwz_matrix_at(finite_difference.parameters[0], point)
+    })?;
+    let checks = comparison_checks(
+        gradient_error,
+        scientific_error,
+        5.0e-5,
+        ad_seconds,
+        finite_difference_seconds,
+    );
+    Ok((
+        json!({
+            "physical_model": "Qi-Wu-Zhang Chern insulator",
+            "workflow": "topological inverse design with forward Chern validation",
+            "comparison_product": "optimized mass from the same loss and line search",
+            "parameter_count": 1,
+            "finite_difference_scheme": "central",
+            "finite_difference_step": FD_STEP,
+            "initial_full_gradient_relative_error": gradient_error,
+            "scientific_result_error": scientific_error,
+            "native_ad": {
+                "seconds": ad_seconds,
+                "optimized_mass": ad.parameters[0],
+                "chern_number": ad_chern,
+                "final_loss": ad.loss_history.last(),
+                "gradient_evaluations": ad.gradient_evaluations,
+                "forward_only_evaluations": ad.forward_only_evaluations,
+                "objective_evaluations": ad.gradient_evaluations + ad.forward_only_evaluations,
+            },
+            "central_finite_difference": {
+                "seconds": finite_difference_seconds,
+                "optimized_mass": finite_difference.parameters[0],
+                "chern_number": finite_difference_chern,
+                "final_loss": finite_difference.loss_history.last(),
+                "gradient_evaluations": finite_difference.gradient_evaluations,
+                "forward_only_evaluations": finite_difference.forward_only_evaluations,
+                "objective_evaluations": finite_difference.gradient_evaluations * 3
+                    + finite_difference.forward_only_evaluations,
+            },
+            "speedup_finite_difference_over_ad": finite_difference_seconds / ad_seconds,
+        }),
+        checks,
+    ))
+}
+
+fn compare_surface_green_implicit() -> Result<(Value, Vec<Check>), Box<dyn Error>> {
+    let parameters = ModelParameters::new(vec![0.05, 0.65, 1.0, 0.18, 0.04])?;
+    let arguments_from_parameters =
+        |parameters: &ModelParameters| -> Result<SurfaceGreenArguments, Box<dyn Error>> {
+            let values = parameters.as_slice();
+            Ok(SurfaceGreenArguments {
+                cell_hamiltonian: matrix2(
+                    scalar(values[0]),
+                    scalar(values[1]),
+                    scalar(values[1]),
+                    scalar(-values[0]),
+                )?,
+                inter_cell_hopping: matrix2(
+                    scalar(0.0),
+                    scalar(0.0),
+                    scalar(values[2]),
+                    scalar(0.0),
+                )?,
+                energy: values[3],
+                broadening: values[4],
+            })
+        };
+    let output_cotangent = matrix2(
+        Complex64::new(0.2, -0.1),
+        Complex64::new(-0.03, 0.08),
+        Complex64::new(0.05, -0.04),
+        Complex64::new(-0.15, 0.06),
+    )?;
+    let rule = SurfaceGreenRule::new(1.0e-14, 512)?;
+    let value = |parameters: &ModelParameters| -> Result<f64, Box<dyn Error>> {
+        Ok(real_frobenius_pairing(
+            &rule.value(&arguments_from_parameters(parameters)?)?,
+            &output_cotangent,
+        )?)
+    };
+    let warm_arguments = arguments_from_parameters(&parameters)?;
+    let (_, warm_pullback) = rule.vjp(&warm_arguments)?;
+    let _ = warm_pullback.apply(output_cotangent.clone())?;
+    let _ = central_difference_value_and_gradient(&parameters, &value)?;
+    let started = Instant::now();
+    let arguments = arguments_from_parameters(&parameters)?;
+    let (green, pullback) = rule.vjp(&arguments)?;
+    let cotangent = pullback.apply(output_cotangent.clone())?;
+    let ad_value = real_frobenius_pairing(&green, &output_cotangent)?;
+    let staggered_basis = pauli_z(scalar(1.0))?;
+    let intracell_basis = pauli_x(scalar(1.0))?;
+    let intercell_basis = matrix2(scalar(0.0), scalar(0.0), scalar(1.0), scalar(0.0))?;
+    let ad_gradient = vec![
+        real_frobenius_pairing(&cotangent.cell_hamiltonian, &staggered_basis)?,
+        real_frobenius_pairing(&cotangent.cell_hamiltonian, &intracell_basis)?,
+        real_frobenius_pairing(&cotangent.inter_cell_hopping, &intercell_basis)?,
+        cotangent.energy,
+        cotangent.broadening,
+    ];
+    let ad_seconds = started.elapsed().as_secs_f64();
+    let started = Instant::now();
+    let (finite_difference_value, finite_difference_gradient) =
+        central_difference_value_and_gradient(&parameters, &value)?;
+    let finite_difference_seconds = started.elapsed().as_secs_f64();
+    let gradient_error = maximum_vector_relative_error(&ad_gradient, &finite_difference_gradient);
+    let scientific_error = relative_error(ad_value, finite_difference_value);
+    let checks = comparison_checks(
+        gradient_error,
+        scientific_error,
+        1.0e-10,
+        ad_seconds,
+        finite_difference_seconds,
+    );
+    Ok((
+        json!({
+            "physical_model": "semi-infinite Rice-Mele/SSH chain",
+            "workflow": "surface Green-function implicit sensitivity",
+            "comparison_product": "scalar Green-function functional and complete physical gradient",
+            "parameter_order": [
+                "staggered_onsite",
+                "intracell_hopping",
+                "intercell_hopping",
+                "energy",
+                "broadening"
+            ],
+            "parameter_count": 5,
+            "finite_difference_scheme": "central",
+            "finite_difference_step": FD_STEP,
+            "full_gradient_relative_error": gradient_error,
+            "scientific_result_error": scientific_error,
+            "native_ad": {
+                "seconds": ad_seconds,
+                "objective": ad_value,
+                "gradient": ad_gradient,
+                "surface_green_solves": 1,
+            },
+            "central_finite_difference": {
+                "seconds": finite_difference_seconds,
+                "objective": finite_difference_value,
+                "gradient": finite_difference_gradient,
+                "surface_green_solves": 11,
+            },
+            "speedup_finite_difference_over_ad": finite_difference_seconds / ad_seconds,
+        }),
+        checks,
+    ))
+}
+
+fn compare_inverse_transport() -> Result<(Value, Vec<Check>), Box<dyn Error>> {
+    let family = transport_family()?;
+    let self_energies = endpoint_self_energies(2, 0.72, 0.61)?;
+    let training_energies = [-0.72, -0.48, -0.21, 0.0, 0.24, 0.51, 0.77];
+    let target_values = vec![0.23, -0.19];
+    let target = ModelParameters::new(target_values)?;
+    let objectives = training_energies
+        .iter()
+        .map(|energy| OpenTransmissionObjective::new(&family, self_energies.clone(), *energy, 1, 0))
+        .collect::<Result<Vec<_>, _>>()?;
+    let targets = objectives
+        .iter()
+        .map(|objective| objective.value(&target))
+        .collect::<Result<Vec<_>, _>>()?;
+    let value = |parameters: &ModelParameters| -> Result<f64, Box<dyn Error>> {
+        let mut loss = 0.0;
+        for (objective, target) in objectives.iter().zip(&targets) {
+            let residual = objective.value(parameters)? - target;
+            loss += 0.5 * residual * residual;
+        }
+        Ok(loss / objectives.len() as f64)
+    };
+    let ad_value_and_gradient =
+        |parameters: &ModelParameters| -> Result<(f64, Vec<f64>), Box<dyn Error>> {
+            let mut loss = 0.0;
+            let mut gradient = vec![0.0; 2];
+            for (objective, target) in objectives.iter().zip(&targets) {
+                let (transmission, local_gradient) = objective.value_and_grad(parameters)?;
+                let residual = transmission - target;
+                loss += 0.5 * residual * residual;
+                add_gradient(&mut gradient, &local_gradient, residual);
+            }
+            let normalization = objectives.len() as f64;
+            for entry in &mut gradient {
+                *entry /= normalization;
+            }
+            Ok((loss / normalization, gradient))
+        };
+    let fd_value_and_gradient =
+        |parameters: &ModelParameters| central_difference_value_and_gradient(parameters, &value);
+    let initial = vec![-0.31, 0.17];
+    let initial_parameters = ModelParameters::new(initial.clone())?;
+    let (_, ad_initial_gradient) = ad_value_and_gradient(&initial_parameters)?;
+    let (_, finite_difference_initial_gradient) = fd_value_and_gradient(&initial_parameters)?;
+    let gradient_error =
+        maximum_vector_relative_error(&ad_initial_gradient, &finite_difference_initial_gradient);
+    let started = Instant::now();
+    let ad = minimize_with_forward_line_search(
+        initial.clone(),
+        220,
+        0.5,
+        &value,
+        &ad_value_and_gradient,
+    )?;
+    let ad_seconds = started.elapsed().as_secs_f64();
+    let started = Instant::now();
+    let finite_difference =
+        minimize_with_forward_line_search(initial, 220, 0.5, &value, &fd_value_and_gradient)?;
+    let finite_difference_seconds = started.elapsed().as_secs_f64();
+    let scientific_error =
+        maximum_vector_relative_error(&ad.parameters, &finite_difference.parameters);
+    let checks = comparison_checks(
+        gradient_error,
+        scientific_error,
+        5.0e-5,
+        ad_seconds,
+        finite_difference_seconds,
+    );
+    Ok((
+        json!({
+            "physical_model": "noninteracting serial double quantum dot",
+            "workflow": "inverse transmission-trace calibration",
+            "comparison_product": "optimized device parameters from the same loss and line search",
+            "parameter_count": 2,
+            "energy_samples": training_energies.len(),
+            "finite_difference_scheme": "central",
+            "finite_difference_step": FD_STEP,
+            "initial_full_gradient_relative_error": gradient_error,
+            "scientific_result_error": scientific_error,
+            "native_ad": {
+                "seconds": ad_seconds,
+                "parameters": ad.parameters,
+                "final_loss": ad.loss_history.last(),
+                "gradient_evaluations": ad.gradient_evaluations,
+                "forward_only_evaluations": ad.forward_only_evaluations,
+                "objective_evaluations": ad.gradient_evaluations + ad.forward_only_evaluations,
+            },
+            "central_finite_difference": {
+                "seconds": finite_difference_seconds,
+                "parameters": finite_difference.parameters,
+                "final_loss": finite_difference.loss_history.last(),
+                "gradient_evaluations": finite_difference.gradient_evaluations,
+                "forward_only_evaluations": finite_difference.forward_only_evaluations,
+                "objective_evaluations": finite_difference.gradient_evaluations * 5
+                    + finite_difference.forward_only_evaluations,
+            },
+            "speedup_finite_difference_over_ad": finite_difference_seconds / ad_seconds,
+        }),
+        checks,
+    ))
+}
+
+fn zero_open_system_direction() -> OpenSystemDirection {
+    OpenSystemDirection {
+        device_hamiltonian: ComplexMatrix::scalar(scalar(0.0)),
+        leads: vec![
+            LeadDirection {
+                cell_hamiltonian: ComplexMatrix::scalar(scalar(0.0)),
+                inter_cell_hopping: ComplexMatrix::scalar(scalar(0.0)),
+                coupling: ComplexMatrix::scalar(scalar(0.0)),
+                broadening: 0.0,
+            },
+            LeadDirection {
+                cell_hamiltonian: ComplexMatrix::scalar(scalar(0.0)),
+                inter_cell_hopping: ComplexMatrix::scalar(scalar(0.0)),
+                coupling: ComplexMatrix::scalar(scalar(0.0)),
+                broadening: 0.0,
+            },
+        ],
+        energy: 0.0,
+    }
+}
+
+fn compare_lead_device_sensitivity() -> Result<(Value, Vec<Check>), Box<dyn Error>> {
+    let system = DifferentiableOpenSystem {
+        device_hamiltonian: ComplexMatrix::scalar(scalar(0.1)),
+        leads: vec![
+            DifferentiableLead {
+                cell_hamiltonian: ComplexMatrix::scalar(scalar(-0.04)),
+                inter_cell_hopping: ComplexMatrix::scalar(Complex64::new(-0.82, 0.03)),
+                coupling: ComplexMatrix::scalar(Complex64::new(-0.51, 0.02)),
+                broadening: 0.08,
+            },
+            DifferentiableLead {
+                cell_hamiltonian: ComplexMatrix::scalar(scalar(0.06)),
+                inter_cell_hopping: ComplexMatrix::scalar(Complex64::new(-0.73, -0.02)),
+                coupling: ComplexMatrix::scalar(Complex64::new(-0.43, -0.04)),
+                broadening: 0.09,
+            },
+        ],
+        energy: 0.12,
+    };
+    let mut bases = Vec::new();
+    let mut device = zero_open_system_direction();
+    device.device_hamiltonian = ComplexMatrix::scalar(scalar(1.0));
+    bases.push(device);
+    for lead_index in 0..2 {
+        let mut cell = zero_open_system_direction();
+        cell.leads[lead_index].cell_hamiltonian = ComplexMatrix::scalar(scalar(1.0));
+        bases.push(cell);
+        let mut hopping_real = zero_open_system_direction();
+        hopping_real.leads[lead_index].inter_cell_hopping = ComplexMatrix::scalar(scalar(1.0));
+        bases.push(hopping_real);
+        let mut hopping_imaginary = zero_open_system_direction();
+        hopping_imaginary.leads[lead_index].inter_cell_hopping =
+            ComplexMatrix::scalar(Complex64::new(0.0, 1.0));
+        bases.push(hopping_imaginary);
+        let mut coupling_real = zero_open_system_direction();
+        coupling_real.leads[lead_index].coupling = ComplexMatrix::scalar(scalar(1.0));
+        bases.push(coupling_real);
+        let mut coupling_imaginary = zero_open_system_direction();
+        coupling_imaginary.leads[lead_index].coupling =
+            ComplexMatrix::scalar(Complex64::new(0.0, 1.0));
+        bases.push(coupling_imaginary);
+        let mut broadening = zero_open_system_direction();
+        broadening.leads[lead_index].broadening = 1.0;
+        bases.push(broadening);
+    }
+    let mut energy = zero_open_system_direction();
+    energy.energy = 1.0;
+    bases.push(energy);
+    let objective = OpenSystemTransmission::new(1, 0, 1.0e-14, 512)?;
+    let _ = objective.value_and_grad(&system)?;
+    for direction in &bases {
+        let _ = objective.value(&displaced_open_system(&system, direction, FD_STEP)?)?;
+        let _ = objective.value(&displaced_open_system(&system, direction, -FD_STEP)?)?;
+    }
+    let started = Instant::now();
+    let (ad_value, gradient) = objective.value_and_grad(&system)?;
+    let ad_gradient = bases
+        .iter()
+        .map(|direction| {
+            let device = real_frobenius_pairing(
+                &gradient.device_hamiltonian,
+                &direction.device_hamiltonian,
+            )?;
+            let mut result = device + gradient.energy * direction.energy;
+            for (lead_gradient, lead_direction) in gradient.leads.iter().zip(&direction.leads) {
+                result += real_frobenius_pairing(
+                    &lead_gradient.cell_hamiltonian,
+                    &lead_direction.cell_hamiltonian,
+                )?;
+                result += real_frobenius_pairing(
+                    &lead_gradient.inter_cell_hopping,
+                    &lead_direction.inter_cell_hopping,
+                )?;
+                result +=
+                    real_frobenius_pairing(&lead_gradient.coupling, &lead_direction.coupling)?;
+                result += lead_gradient.broadening * lead_direction.broadening;
+            }
+            Ok(result)
+        })
+        .collect::<Result<Vec<_>, Box<dyn Error>>>()?;
+    let ad_seconds = started.elapsed().as_secs_f64();
+    let started = Instant::now();
+    let finite_difference_value = objective.value(&system)?;
+    let finite_difference_gradient = bases
+        .iter()
+        .map(|direction| {
+            let positive = objective.value(&displaced_open_system(&system, direction, FD_STEP)?)?;
+            let negative =
+                objective.value(&displaced_open_system(&system, direction, -FD_STEP)?)?;
+            Ok((positive - negative) / (2.0 * FD_STEP))
+        })
+        .collect::<Result<Vec<_>, Box<dyn Error>>>()?;
+    let finite_difference_seconds = started.elapsed().as_secs_f64();
+    let gradient_error = maximum_vector_relative_error(&ad_gradient, &finite_difference_gradient);
+    let scientific_error = relative_error(ad_value, finite_difference_value);
+    let checks = comparison_checks(
+        gradient_error,
+        scientific_error,
+        1.0e-10,
+        ad_seconds,
+        finite_difference_seconds,
+    );
+    Ok((
+        json!({
+            "physical_model": "single resonant level between two semi-infinite one-dimensional leads",
+            "workflow": "whole device-lead transmission sensitivity",
+            "comparison_product": "transmission and complete physical-coordinate gradient",
+            "parameter_count": bases.len(),
+            "finite_difference_scheme": "central",
+            "finite_difference_step": FD_STEP,
+            "full_gradient_relative_error": gradient_error,
+            "scientific_result_error": scientific_error,
+            "native_ad": {
+                "seconds": ad_seconds,
+                "transmission": ad_value,
+                "gradient": ad_gradient,
+                "open_system_solves": 1,
+            },
+            "central_finite_difference": {
+                "seconds": finite_difference_seconds,
+                "transmission": finite_difference_value,
+                "gradient": finite_difference_gradient,
+                "open_system_solves": 1 + 2 * bases.len(),
+            },
+            "speedup_finite_difference_over_ad": finite_difference_seconds / ad_seconds,
+        }),
+        checks,
+    ))
+}
+
+fn compare_sparse_adjoint_scaling() -> Result<(Value, Vec<Check>), Box<dyn Error>> {
+    let dimension = 128;
+    let parameter_counts = [8_usize, 32, 64];
+    let mut records = Vec::new();
+    let mut maximum_gradient_error = 0.0_f64;
+    let mut maximum_scientific_error = 0.0_f64;
+    let mut ad_seconds = 0.0;
+    let mut finite_difference_seconds = 0.0;
+    let mut ad_linear_systems = 0usize;
+    let mut finite_difference_linear_systems = 0usize;
+    for parameter_count in parameter_counts {
+        let family = sparse_family(
+            dimension,
+            parameter_count,
+            |site| 2.4 + 0.11 * (0.731 * site as f64 + 0.29).sin(),
+            -0.22,
+            0.04,
+        )?;
+        let objective = SparseLinearFunctionalObjective::new(
+            &family,
+            deterministic_vector(dimension, 0.2),
+            deterministic_vector(dimension, 0.9),
+            GmresOptions {
+                relative_tolerance: 1.0e-11,
+                absolute_tolerance: 1.0e-13,
+                restart: 64,
+                max_iterations: 512,
+            },
+        )?;
+        let parameters = ModelParameters::new(
+            (0..parameter_count)
+                .map(|index| 0.08 * (0.31 * index as f64).sin())
+                .collect(),
+        )?;
+        let value = |parameters: &ModelParameters| -> Result<f64, Box<dyn Error>> {
+            Ok(objective.value(parameters)?)
+        };
+        let _ = objective.value_and_grad_with_report(&parameters)?;
+        let _ = central_difference_value_and_gradient(&parameters, &value)?;
+        let started = Instant::now();
+        let report = objective.value_and_grad_with_report(&parameters)?;
+        let local_ad_seconds = started.elapsed().as_secs_f64();
+        let started = Instant::now();
+        let (finite_difference_value, finite_difference_gradient) =
+            central_difference_value_and_gradient(&parameters, &value)?;
+        let local_finite_difference_seconds = started.elapsed().as_secs_f64();
+        let gradient_error = maximum_vector_relative_error(
+            report.gradient().as_slice(),
+            &finite_difference_gradient,
+        );
+        let scientific_error = relative_error(report.value(), finite_difference_value);
+        maximum_gradient_error = maximum_gradient_error.max(gradient_error);
+        maximum_scientific_error = maximum_scientific_error.max(scientific_error);
+        ad_seconds += local_ad_seconds;
+        finite_difference_seconds += local_finite_difference_seconds;
+        ad_linear_systems += 2;
+        finite_difference_linear_systems += 1 + 2 * parameter_count;
+        records.push(json!({
+            "parameter_count": parameter_count,
+            "full_gradient_relative_error": gradient_error,
+            "native_ad": {
+                "seconds": local_ad_seconds,
+                "objective": report.value(),
+                "gradient": report.gradient().as_slice(),
+                "linear_systems": 2,
+                "primal_iterations": report.primal_iterations(),
+                "adjoint_iterations": report.adjoint_iterations(),
+                "maximum_residual": report.primal_residual_norm()
+                    .max(report.adjoint_residual_norm()),
+            },
+            "central_finite_difference": {
+                "seconds": local_finite_difference_seconds,
+                "objective": finite_difference_value,
+                "gradient": finite_difference_gradient,
+                "linear_systems": 1 + 2 * parameter_count,
+            },
+            "speedup_finite_difference_over_ad":
+                local_finite_difference_seconds / local_ad_seconds,
+        }));
+    }
+    let checks = comparison_checks(
+        maximum_gradient_error,
+        maximum_scientific_error,
+        1.0e-10,
+        ad_seconds,
+        finite_difference_seconds,
+    );
+    Ok((
+        json!({
+            "physical_model": "one-dimensional Anderson resolvent with grouped onsite gates",
+            "workflow": "parameter-scaling of a sparse resolvent sensitivity",
+            "comparison_product": "complete gradients at 8, 32, and 64 parameters",
+            "dimension": dimension,
+            "parameter_count": *parameter_counts.last().unwrap(),
+            "parameter_counts": parameter_counts,
+            "finite_difference_scheme": "central",
+            "finite_difference_step": FD_STEP,
+            "full_gradient_relative_error": maximum_gradient_error,
+            "scientific_result_error": maximum_scientific_error,
+            "native_ad": {
+                "seconds": ad_seconds,
+                "linear_systems": ad_linear_systems,
+            },
+            "central_finite_difference": {
+                "seconds": finite_difference_seconds,
+                "linear_systems": finite_difference_linear_systems,
+            },
+            "records": records,
+            "speedup_finite_difference_over_ad": finite_difference_seconds / ad_seconds,
+        }),
+        checks,
+    ))
+}
+
+fn kpm_ensemble_value(
+    operators: &[SparseAffineOperator],
+    probes: &[Vec<Complex64>],
+    coefficients: &[Vec<f64>],
+    targets: &[f64],
+    parameters: &ModelParameters,
+    checkpoint_interval: usize,
+) -> Result<f64, Box<dyn Error>> {
+    let mut loss = 0.0;
+    for (((operator, probe), coefficients), target) in
+        operators.iter().zip(probes).zip(coefficients).zip(targets)
+    {
+        let value = KpmMomentObjective::new(
+            operator,
+            probe.clone(),
+            coefficients.clone(),
+            checkpoint_interval,
+        )?
+        .value(parameters)?;
+        loss += 0.5 * (value - target).powi(2);
+    }
+    Ok(loss / operators.len() as f64)
+}
+
+fn compare_robust_kpm_design() -> Result<(Value, Vec<Check>), Box<dyn Error>> {
+    let dimension = 96;
+    let parameter_count = 4;
+    let moment_count = 36;
+    let checkpoint_interval = 6;
+    let training_seeds = [11_usize, 23, 37, 53, 71, 89, 107, 131];
+    let target = ModelParameters::new(vec![0.18, -0.13, 0.09, -0.16])?;
+    let (operators, probes, coefficients) =
+        robust_kpm_objectives(&training_seeds, dimension, parameter_count, moment_count)?;
+    let targets = kpm_targets(
+        &operators,
+        &probes,
+        &coefficients,
+        &target,
+        checkpoint_interval,
+    )?;
+    let value = |parameters: &ModelParameters| {
+        kpm_ensemble_value(
+            &operators,
+            &probes,
+            &coefficients,
+            &targets,
+            parameters,
+            checkpoint_interval,
+        )
+    };
+    let ad_value_and_gradient =
+        |parameters: &ModelParameters| -> Result<(f64, Vec<f64>), Box<dyn Error>> {
+            let (loss, gradient, _, _) = kpm_ensemble_value_and_gradient(
+                &operators,
+                &probes,
+                &coefficients,
+                &targets,
+                parameters,
+                checkpoint_interval,
+            )?;
+            Ok((loss, gradient))
+        };
+    let fd_value_and_gradient =
+        |parameters: &ModelParameters| central_difference_value_and_gradient(parameters, &value);
+    let initial = vec![0.0; parameter_count];
+    let initial_parameters = ModelParameters::new(initial.clone())?;
+    let (_, ad_initial_gradient, native_gradient_applications, peak_vectors) =
+        kpm_ensemble_value_and_gradient(
+            &operators,
+            &probes,
+            &coefficients,
+            &targets,
+            &initial_parameters,
+            checkpoint_interval,
+        )?;
+    let (_, finite_difference_initial_gradient) = fd_value_and_gradient(&initial_parameters)?;
+    let gradient_error =
+        maximum_vector_relative_error(&ad_initial_gradient, &finite_difference_initial_gradient);
+    let started = Instant::now();
+    let ad = minimize_with_forward_line_search(
+        initial.clone(),
+        360,
+        40.0,
+        &value,
+        &ad_value_and_gradient,
+    )?;
+    let ad_seconds = started.elapsed().as_secs_f64();
+    let started = Instant::now();
+    let finite_difference =
+        minimize_with_forward_line_search(initial, 360, 40.0, &value, &fd_value_and_gradient)?;
+    let finite_difference_seconds = started.elapsed().as_secs_f64();
+    let scientific_error =
+        maximum_vector_relative_error(&ad.parameters, &finite_difference.parameters);
+    let forward_operator_applications = training_seeds.len() * (moment_count - 1);
+    let ad_operator_applications = ad.gradient_evaluations * native_gradient_applications
+        + ad.forward_only_evaluations * forward_operator_applications;
+    let finite_difference_operator_applications = finite_difference.gradient_evaluations
+        * (1 + 2 * parameter_count)
+        * forward_operator_applications
+        + finite_difference.forward_only_evaluations * forward_operator_applications;
+    let checks = comparison_checks(
+        gradient_error,
+        scientific_error,
+        8.0e-5,
+        ad_seconds,
+        finite_difference_seconds,
+    );
+    Ok((
+        json!({
+            "physical_model": "bond-disordered Su-Schrieffer-Heeger chain",
+            "workflow": "robust KPM inverse design over a disorder ensemble",
+            "comparison_product": "optimized bond gates from the same loss and line search",
+            "dimension": dimension,
+            "parameter_count": parameter_count,
+            "moment_count": moment_count,
+            "training_seed_count": training_seeds.len(),
+            "finite_difference_scheme": "central",
+            "finite_difference_step": FD_STEP,
+            "initial_full_gradient_relative_error": gradient_error,
+            "scientific_result_error": scientific_error,
+            "native_ad": {
+                "seconds": ad_seconds,
+                "parameters": ad.parameters,
+                "final_loss": ad.loss_history.last(),
+                "gradient_evaluations": ad.gradient_evaluations,
+                "forward_only_evaluations": ad.forward_only_evaluations,
+                "operator_applications": ad_operator_applications,
+                "initial_gradient_operator_applications": native_gradient_applications,
+                "peak_stored_vectors": peak_vectors,
+            },
+            "central_finite_difference": {
+                "seconds": finite_difference_seconds,
+                "parameters": finite_difference.parameters,
+                "final_loss": finite_difference.loss_history.last(),
+                "gradient_evaluations": finite_difference.gradient_evaluations,
+                "forward_only_evaluations": finite_difference.forward_only_evaluations,
+                "operator_applications": finite_difference_operator_applications,
+                "initial_gradient_operator_applications":
+                    (1 + 2 * parameter_count) * forward_operator_applications,
+            },
+            "speedup_finite_difference_over_ad": finite_difference_seconds / ad_seconds,
+        }),
+        checks,
+    ))
+}
+
+pub(super) fn method_comparison(workflow_id: &str) -> Result<(Value, Vec<Check>), Box<dyn Error>> {
+    match workflow_id {
+        "spectral_recovery" => compare_spectral_recovery(),
+        "degenerate_projector" => compare_degenerate_projector(),
+        "identifiability" => compare_identifiability(),
+        "quantum_metric" => compare_quantum_metric(),
+        "topological_design" => compare_topological_design(),
+        "surface_green_implicit" => compare_surface_green_implicit(),
+        "inverse_transport" => compare_inverse_transport(),
+        "lead_device_sensitivity" => compare_lead_device_sensitivity(),
+        "sparse_adjoint_scaling" => compare_sparse_adjoint_scaling(),
+        "robust_kpm_design" => compare_robust_kpm_design(),
+        _ => Err(format!("unknown AD comparison workflow: {workflow_id}").into()),
+    }
 }
