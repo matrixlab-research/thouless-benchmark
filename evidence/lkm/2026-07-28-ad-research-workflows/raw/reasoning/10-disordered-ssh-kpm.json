@@ -1,0 +1,110 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "For finite random Su-Schrieffer-Heeger (SSH) chains constructed from coaxial cables with a binary impedance distribution (impedances $Z_a=50\\Omega$ and $Z_b=93\\Omega$), the Dyson singularity in the density of states at $\\varepsilon=0$ (where $\\varepsilon=\\cos(\\omega\\tau)$), predicted as $\\rho(\\varepsilon)\\sim|\\varepsilon(\\ln\\varepsilon)^3|^{-1}$ for infinite chains with off-diagonal disorder, is replaced by a broadened peak whose width decreases with increasing chain length. Additionally, the quantisation of the topological invariant $M$ (defined as $M=2\\ln((Z_1Z_3\\cdots)/(Z_2Z_4\\cdots))$) for a binary impedance set produces gaps immediately adjacent to $\\varepsilon=0$ in finite ensembles. Numerical simulations reported in the work indicate that chain lengths of $50$ to $100$ cable sections would be required to observe a strong, narrow averaged peak near $\\varepsilon=0$.",
+      "content_hash": "3fe999136a32f371352563ce735f3c6b6dadd536c4cd65377ae70a367f4db2ed",
+      "id": "gcn_dd35cab4703b4260",
+      "type": "claim"
+    },
+    "papers": {
+      "paper:933789746092572966": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "author_details": [
+          {
+            "origin_name": "D. M. Whittaker"
+          },
+          {
+            "origin_name": "Maxine M. McCarthy"
+          },
+          {
+            "origin_name": "Qingqing Duan"
+          }
+        ],
+        "authors": "D. M. Whittaker | Maxine M. McCarthy | Qingqing Duan",
+        "authors_list": [
+          "D. M. Whittaker",
+          "Maxine M. McCarthy",
+          "Qingqing Duan"
+        ],
+        "available_online": "",
+        "cover_date_start": "2023-11-18",
+        "created_at": "2023-11-21T10:27:13+08:00",
+        "doi": "10.48550/arXiv.2311.11040",
+        "en_abstract": "We report an experimental study of the disordered Su-Schrieffer-Heeger (SSH) model, implemented in a system of coaxial cables, whose radio frequency properties map on to the SSH Hamiltonian. By measuring multiple chains with random hopping terms, we demonstrate the presence of a topologically protected state, with frequency variation of less than 0.2% over the ensemble. Connecting the ends of the chains to form loops, we observe a topological phase transition, characterised by the closure of the band gap and the appearance of states which are delocalised, despite the strong disorder.",
+        "en_title": "Observation of a Topological Phase Transition in Random Coaxial Cable Structures with Chiral Symmetry",
+        "id": "933789746092572966",
+        "keywords": "",
+        "open_access": true,
+        "paper_url": "https://arxiv.org/abs/2311.11040v1",
+        "pdf_flag": true,
+        "publication_cover": "https://icon.bohrium.com/journal/arxiv.png",
+        "publication_date": "2023-11-18",
+        "publication_id": "108482",
+        "publication_name": "Disordered Systems and Neural Networks _ Physics.cond-mat.dis-nn",
+        "research_categories": "",
+        "zh_abstract": "我们报告了一项关于无序Su-Schrieffer-Heeger（SSH）模型的实验研究，该模型在同轴电缆系统中实现，其射频特性对应于SSH哈密顿量。通过测量具有随机跳跃项的多条链，我们证明了存在一种拓扑保护态，在整个系综中频率变化小于0.2%。将链的两端连接形成环，我们观察到了拓扑相变，其特征是带隙闭合以及出现了尽管存在强无序但仍为离域的态。 ",
+        "zh_title": "具有手性对称性的随机同轴电缆结构中拓扑相变的观测"
+      }
+    },
+    "reasoning_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "For finite random Su-Schrieffer-Heeger (SSH) chains constructed from coaxial cables with a binary impedance distribution (impedances $Z_a=50\\Omega$ and $Z_b=93\\Omega$), the Dyson singularity in the density of states at $\\varepsilon=0$ (where $\\varepsilon=\\cos(\\omega\\tau)$), predicted as $\\rho(\\varepsilon)\\sim|\\varepsilon(\\ln\\varepsilon)^3|^{-1}$ for infinite chains with off-diagonal disorder, is replaced by a broadened peak whose width decreases with increasing chain length. Additionally, the quantisation of the topological invariant $M$ (defined as $M=2\\ln((Z_1Z_3\\cdots)/(Z_2Z_4\\cdots))$) for a binary impedance set produces gaps immediately adjacent to $\\varepsilon=0$ in finite ensembles. Numerical simulations reported in the work indicate that chain lengths of $50$ to $100$ cable sections would be required to observe a strong, narrow averaged peak near $\\varepsilon=0$.",
+              "id": "gcn_dd35cab4703b4260",
+              "metadata": "{\"narrative\": \"The claim that 50-100 cables are needed to observe a strong Dyson peak is stated without supporting simulation data or analysis (P2). The qualitative suppression of the singularity by finite-size and binary-impedance effects is theoretically plausible, but the specific numerical estimate is unsubstantiated in the paper. This conclusion therefore carries low credibility.\"}",
+              "title": "Finite-size and binary-impedance effects suppress the Dyson singularity; numerical estimate of required chain lengths"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_4aa132aeb1ab4808",
+            "premises": [
+              {
+                "content": "For finite coaxial-cable Su-Schrieffer-Heeger (SSH) chains with a binary impedance distribution ($Z_a=50\\Omega$, $Z_b=93\\Omega$), numerical simulations indicate that chain lengths of $50$ to $100$ cable sections are required to observe a strong narrow peak in the averaged density of states near the dimensionless energy $\\varepsilon=0$ (where $\\varepsilon=\\cos(\\omega\\tau)$), which would correspond to the Dyson singularity predicted for infinite chains.",
+                "id": "gcn_ebaed948436b40fa",
+                "metadata": "{\"weak_types\": [\"computational\", \"model\"], \"weakness_reason\": \"The paper states this estimate as \\\"numerical simulations suggest\\\" without providing any details of the simulation method, parameters, or results. No figures, tables, or error margins are given. The reader cannot assess whether the simulation included losses, chiral symmetry breaking, or the specific cable impedances. The estimate appears to be a qualitative guess rather than a substantiated quantitative prediction.\", \"failure_mode\": \"If the numerical estimate is incorrect or not based on reliable simulations, then the conclusion that finite-size and binary-impedance effects suppress the Dyson singularity to the extent that 50-100 cables are needed is not supported. The conclusion would become merely a speculation without empirical or computational backing, offering no useful guidance for experimental design.\"}",
+                "title": "Numerical estimate for Dyson singularity observation in finite binary-impedance Su-Schrieffer-Heeger chains"
+              },
+              {
+                "content": "A network of transmission-line sections (coaxial cables) with equal transit time $\\tau$ maps one-to-one onto a real tight-binding Hamiltonian $H$ whose dimensionless eigenvalue $\\varepsilon$ is related to the radio-frequency by $\\varepsilon=\\cos(\\omega\\tau)$. For a network of sites labelled $n$ connected pairwise by cable segments of impedance $Z_{nn'}$, define the site scaling factors $\\sigma_{n}=\\left(\\sum_{n'}Z_{nn'}^{-1}\\right)^{-1/2}$ with the sum over sites directly connected to $n$. The tight-binding matrix elements are\n      $$\n      H_{nn'}=\\sigma_{n}Z_{nn'}^{-1}\\sigma_{n'}.\n      $$\n      The scaled eigenvector components $v_n$ are related to physical voltages by $V_n=\\sigma_n v_n$. This mapping preserves the chiral (sublattice) structure whenever the network connects only opposite sublattices, so coaxial cable assemblies with equal transit times realize finite real Su-Schrieffer-Heeger (SSH) Hamiltonians with experimentally tunable hopping amplitudes given by the $H_{nn'}$ above.",
+                "id": "gcn_175243e0e9ba445f",
+                "metadata": "{\"narrative\": \"The tight-binding mapping is derived rigorously from transmission line theory; H1 provides the explicit algebraic link that places the entire experimental platform on a solid foundation. No load-bearing uncertainties were identified in this formal result; its applicability to real cables is validated in later conclusions.\", \"structural_edges\": [{\"target\": \"paper:933789746092572966::conclusion_2\", \"type\": \"supports\"}, {\"target\": \"paper:933789746092572966::conclusion_3\", \"type\": \"supports\"}, {\"target\": \"paper:933789746092572966::conclusion_4\", \"type\": \"supports\"}, {\"target\": \"paper:933789746092572966::conclusion_5\", \"type\": \"supports\"}, {\"target\": \"paper:933789746092572966::conclusion_6\", \"type\": \"supports\"}, {\"target\": \"paper:933789746092572966::conclusion_7\", \"type\": \"supports\"}]}",
+                "title": "Exact tight-binding mapping from coaxial cable networks to a real Su-Schrieffer-Heeger Hamiltonian"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "State the theoretical infinite-chain prediction and its functional form: prior theoretical work on random chains with off-diagonal disorder predicts a Dyson singularity in the density of states near zero energy for infinite chains, with the asymptotic behaviour\n$$\n\\\\rho(\\\\varepsilon)\\\\sim\\\\bigl|\\\\varepsilon(\\\\ln\\\\varepsilon)^{3}\\\\bigr|^{-1},\n$$\nso that $\\\\rho(\\\\varepsilon)$ diverges as $\\\\varepsilon\\\\to0$ in the infinite-length limit. The authors attribute this functional form to the literature on off-diagonal-disorder chains dating to Dyson and subsequent works. [3-10]",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Explain finite-size broadening: in finite ensembles the singularity is replaced by a broadened peak centered near $\\\\varepsilon=0$, and the width of this peak decreases as the chain length $N$ increases; therefore finite $N$ suppresses the true Dyson divergence into a finite, length-dependent peak.",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Describe binary-impedance quantisation effects: because the experiments and corresponding simulations use only two discrete impedances ($Z_{a}$ and $Z_{b}$), the loop invariant $M$ is quantised into integer multiples of $\\\\ln(Z_{a}/Z_{b})$ via $M=\\\\tilde{M}\\\\ln(Z_{a}/Z_{b})$, producing gaps immediately adjacent to $\\\\varepsilon=0$ in finite ensembles; these gaps are visible in the measured local density-of-states spectra (for example, in the experimental spectra showing reduced density immediately beside the central region).\nFig. 2",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Report numerical-estimate of required chain lengths: numerical simulations performed by the authors, using the chosen impedances $50\\\\,\\\\Omega$ and $93\\\\,\\\\Omega$, indicate that to observe a strong, narrow averaged peak near $\\\\varepsilon=0$ (i.e. to see a clear remnant of the Dyson singularity in ensemble-averaged data) one would require ensembles of chains of order $50$--$100$ cables in length; shorter chains (such as the $N=16$ used experimentally) instead exhibit broadened peaks and quantisation-induced gaps that mask a sharp Dyson-like singularity.",
+                "step_id": "4"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "The asymptotic random-matrix / scaling-theory predictions (Dyson singularity and associated critical statistics) apply for infinite or very large one-dimensional systems and typically assume continuous distributions of off-diagonal elements. Real experimental implementations are finite and may use discrete component values (here two impedances), which alters the local product/quotient statistics that control low-energy behaviour. Consequently it is unclear a priori whether finite-size and discretisation effects will mask the predicted singularity in the density of states. Establishing the finite-size scales required to see the Dyson-like enhancement is necessary for planning experiments and for interpreting measured broadened spectra; the numerical estimate (50–100 cables) provides that experimental scale for the present binary-impedance choice.",
+            "id": "paper:933789746092572966::conclusion_6_subproblem",
+            "source_package": "paper:933789746092572966"
+          }
+        ],
+        "source_package": "paper:933789746092572966"
+      }
+    ],
+    "total_chains": 1
+  },
+  "trace_id": "req_5064862da46c6"
+}

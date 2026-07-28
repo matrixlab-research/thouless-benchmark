@@ -1,0 +1,623 @@
+{
+  "code": 0,
+  "data": {
+    "has_more": true,
+    "papers": {
+      "paper:1157287926887874563": {
+        "area": "arXiv-Physics, arXiv-Physics",
+        "authors": "Angxiu Ni",
+        "available_online": "",
+        "cover_date_start": "2025-07-29",
+        "created_at": "2026-06-19T00:10:18+08:00",
+        "doi": "10.48550/arXiv.2507.21497",
+        "en_title": "Backpropagation in unstable diffusions",
+        "id": "1157287926887874563",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108512",
+        "publication_name": "Probability",
+        "research_categories": "",
+        "zh_title": "不稳定扩散中的反向传播"
+      },
+      "paper:1210202448791076874": {
+        "area": "arxiv-statistics",
+        "authors": "Elling Svee | Geir-Arne Fuglstad",
+        "available_online": "",
+        "cover_date_start": "2025-12-21",
+        "created_at": "2026-06-10T23:53:41+08:00",
+        "doi": "10.48550/arXiv.2512.18768",
+        "en_title": "Non-stationary Spatial Modeling Using Fractional SPDEs",
+        "id": "1210202448791076874",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108581",
+        "publication_name": "Methodology",
+        "research_categories": "",
+        "zh_title": "使用分数阶随机偏微分方程的非平稳空间建模"
+      },
+      "paper:1217807259023704094": {
+        "area": "arxiv-mathematics",
+        "authors": "Donglin Liu | Francisco García Atienza | Mengwu Guo",
+        "available_online": "",
+        "cover_date_start": "2026-01-12",
+        "created_at": "2026-06-16T23:30:32+08:00",
+        "doi": "10.48550/arXiv.2601.07579",
+        "en_title": "An adjoint method for training data-driven reduced-order models",
+        "id": "1217807259023704094",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108549",
+        "publication_name": "Numerical Analysis",
+        "research_categories": "",
+        "zh_title": "一种用于训练数据驱动降阶模型的伴随方法"
+      },
+      "paper:7478124115209486362": {
+        "area": "arXiv-math",
+        "authors": "Hassan Yazdanian | Leila Taghizadeh | Babak Maboudi Afkham",
+        "available_online": null,
+        "cover_date_start": "2026-06-29",
+        "created_at": "2026-07-08T10:42:55+08:00",
+        "doi": "10.48550/arxiv.2606.30340",
+        "en_title": "Adjoint-Based Bayesian Uncertainty Quantification for PDE-Constrained Inverse Problems with Application to Semiconductor Imaging",
+        "id": "7478124115209486362",
+        "keywords": null,
+        "publication_date": "2026-06-29",
+        "publication_id": "",
+        "publication_name": "arXiv (math.NA)",
+        "research_categories": null,
+        "zh_title": "PDE约束反问题的伴随贝叶斯不确定性量化及其在半导体成像中的应用"
+      },
+      "paper:811151083580686338": {
+        "area": null,
+        "authors": "Reetam Biswas | Mrinal Sen",
+        "available_online": "2016-9-1",
+        "cover_date_start": "2016-09-01",
+        "created_at": "2026-05-20T19:37:53+08:00",
+        "doi": "10.1190/segam2016-13525149.1",
+        "en_title": "From acoustic FWI to elastic prestack inversion",
+        "id": "811151083580686338",
+        "keywords": "",
+        "publication_date": "2016-9-1",
+        "publication_id": "0",
+        "publication_name": "SEG Technical Program Expanded Abstracts 2016",
+        "research_categories": "",
+        "zh_title": "从声学 FWI 到弹性叠前反演"
+      },
+      "paper:811900260778508288": {
+        "area": "physics and astrophysics, engineering",
+        "authors": "Z. G. Wang | L. Z. Sun | L. L. Fajardo | G. Wang",
+        "available_online": "",
+        "cover_date_start": "2009-06-01",
+        "created_at": "2026-06-16T00:18:10+08:00",
+        "doi": "10.1002/cnm.1175",
+        "en_title": "Modeling and reconstruction of diffuse optical tomography using adjoint method",
+        "id": "811900260778508288",
+        "keywords": "[{\"ch_name\":\"伴随法\",\"en_name\":\"Adjoint method\"},{\"ch_name\":\"漫射光学层析成像\",\"en_name\":\"Diffuse optical tomography\"},{\"ch_name\":\"有限元法\",\"en_name\":\"Finite-element method\"},{\"ch_name\":\"频域扩散方程\",\"en_name\":\"Frequent-domain diffusion equation\"},{\"ch_name\":\"光学成像\",\"en_name\":\"Optical imaging\"},{\"ch_name\":\"重建算法\",\"en_name\":\"Reconstruction algorithm\"}]",
+        "publication_date": "2009-6",
+        "publication_id": "12427",
+        "publication_name": "Communications in Numerical Methods in Engineering _ Commun. Numer. Meth. Engng.",
+        "research_categories": "[\"Engineering\"]",
+        "zh_title": "基于伴随方法的扩散光学层析成像建模与重建"
+      },
+      "paper:811934241301463040": {
+        "area": "physics and astrophysics, physics, multidisciplinary",
+        "authors": "Geneviève Fleury | Xavier Waintal",
+        "available_online": "2008-2-22",
+        "cas_zone": "1",
+        "cover_date_start": "2008-02-22",
+        "created_at": "2026-06-11T23:14:54+08:00",
+        "doi": "10.1103/physrevlett.100.076602",
+        "en_title": "Numerical Finite Size Scaling Approach to Many-Body Localization",
+        "id": "811934241301463040",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "",
+        "zh_title": "多体局域化的数值有限尺寸标度方法"
+      },
+      "paper:812558283494653952": {
+        "area": "computer science, mathematical sciences, applied mathematics",
+        "authors": "Azahar Monge | Enrique Zuazua",
+        "available_online": "",
+        "cas_zone": "3",
+        "cover_date_start": "2020-11-01",
+        "created_at": "2026-05-23T02:55:46+08:00",
+        "doi": "10.1016/j.sysconle.2020.104801",
+        "en_title": "Sparse source identification of linear diffusion–advection equations by adjoint methods",
+        "id": "812558283494653952",
+        "impact_factor": 2.2,
+        "jcr_zone": "Q2",
+        "keywords": "[{\"ch_name\":\"伴随问题\",\"en_name\":\"Adjoint problem\"},{\"ch_name\":\"扩散平流方程\",\"en_name\":\"Diffusion–advection equation\"},{\"ch_name\":\"逆问题\",\"en_name\":\"Inverse problems\"},{\"ch_name\":\"最优控制\",\"en_name\":\"Optimal control\"},{\"ch_name\":\"最优化\",\"en_name\":\"Optimization\"}]",
+        "publication_date": "2020-11",
+        "publication_id": "2634",
+        "publication_name": "Systems and Control Letters _ Systems & Control Letters",
+        "research_categories": "[\"Mathematical Sciences\", \"Applied Mathematics\"]",
+        "zh_title": "基于伴随方法的线性扩散-对流方程稀疏源识别"
+      },
+      "paper:813246789837651969": {
+        "area": "geoscience, geochemistry & geophysics",
+        "authors": "Christoph Schwarzbach | Eldad Haber",
+        "available_online": "2013-2-18",
+        "cas_zone": "2",
+        "cover_date_start": "2013-02-18",
+        "created_at": "2026-06-16T04:14:42+08:00",
+        "doi": "10.1093/gji/ggt006",
+        "en_title": "Finite element based inversion for time-harmonic electromagnetic problems",
+        "id": "813246789837651969",
+        "impact_factor": 2.6,
+        "jcr_zone": "Q2",
+        "keywords": "[{\"ch_name\":\"电磁理论\",\"en_name\":\"Electromagnetic theory\"},{\"ch_name\":\"逆理论\",\"en_name\":\"Inverse theory\"},{\"ch_name\":\"海洋电磁学\",\"en_name\":\"Marine electromagnetics\"},{\"ch_name\":\"数值近似与分析\",\"en_name\":\"Numerical approximations and analysis\"},{\"ch_name\":\"数值解\",\"en_name\":\"Numerical solutions\"}]",
+        "publication_date": "2013-5-1",
+        "publication_id": "96",
+        "publication_name": "Geophysical Journal International _ ",
+        "research_categories": "",
+        "zh_title": "基于有限元的时谐电磁问题反演"
+      },
+      "paper:814525255002357760": {
+        "area": "engineering technology, engineering, mechanical",
+        "authors": "S. Kraft | G. Puel | D. Aubry | C. Funfschilling",
+        "available_online": "",
+        "cas_zone": "1",
+        "cover_date_start": "2016-12-01",
+        "created_at": "2026-06-13T07:11:30+08:00",
+        "doi": "10.1016/j.ymssp.2016.04.037",
+        "en_title": "Parameter identification of multi-body railway vehicle models – Application of the adjoint state approach",
+        "id": "814525255002357760",
+        "impact_factor": 8.7,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2016-12",
+        "publication_id": "3763",
+        "publication_name": "Mechanical Systems and Signal Processing _ Mechanical Systems and Signal Processing",
+        "research_categories": "",
+        "zh_title": "多体铁路车辆模型的参数识别——伴随状态法的应用"
+      },
+      "paper:867748157499376365": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Zhantao Chen | Xiaozhe Shen | Nina Andrejevic | Tongtong Liu | Duan Luo | Thanh Nguyen | Nathan C. Drucker | Michael E. Kozina | Qichen Song | Chengyun Hua | Gang Chen | Xijie Wang | Jing Kong | Mingda Li",
+        "available_online": "",
+        "cover_date_start": "2022-02-13",
+        "created_at": "2026-06-16T06:00:03+08:00",
+        "doi": "10.48550/arXiv.2202.06199",
+        "en_title": "Panoramic mapping of phonon transport from ultrafast electron diffraction and machine learning",
+        "id": "867748157499376365",
+        "keywords": "",
+        "publication_date": "2022-02-13",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "",
+        "zh_title": "基于超快电子衍射和机器学习的声子输运全景映射"
+      },
+      "paper:867757924515053703": {
+        "area": "arxiv-physics, engineering, information and computing sciences, applied computing",
+        "authors": "Yingzhanghao Zhou | Xiang Chen | Peng Zhang | Jun Wang | Lei Wang | Hong Guo",
+        "available_online": "",
+        "cover_date_start": "2022-02-10",
+        "created_at": "2026-06-09T21:38:01+08:00",
+        "doi": "10.48550/arXiv.2202.05098",
+        "en_title": "AD-NEGF: An End-to-End Differentiable Quantum Transport Simulator for Sensitivity Analysis and Inverse Problems",
+        "id": "867757924515053703",
+        "keywords": "",
+        "publication_date": "2022-02-10",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Engineering\", \"Information and Computing Sciences\", \"Applied Computing\"]",
+        "zh_title": "AD-NEGF：用于灵敏度分析和反问题的端到端可微量子输运模拟器"
+      },
+      "paper:867763923233800672": {
+        "area": "arxiv-mathematics",
+        "authors": "Kailai Xu | Eric Darve",
+        "available_online": "",
+        "cover_date_start": "2020-02-24",
+        "created_at": "2026-05-21T14:29:25+08:00",
+        "doi": "10.48550/arXiv.2002.10521",
+        "en_title": "Physics Constrained Learning for Data-driven Inverse Modeling from Sparse Observations",
+        "id": "867763923233800672",
+        "keywords": "",
+        "publication_date": "2020-02-24",
+        "publication_id": "108549",
+        "publication_name": "Numerical Analysis _ Mathematics.math.NA",
+        "research_categories": "",
+        "zh_title": "基于稀疏观测的物理约束数据驱动逆建模学习"
+      },
+      "paper:867766619026227327": {
+        "area": "arXiv-Physics, Engineering, Communications Engineering",
+        "authors": "Luke Szymanski | Gurkan Gok | Anthony Grbic",
+        "available_online": "",
+        "cover_date_start": "2021-03-22",
+        "created_at": "2026-06-19T08:36:37+08:00",
+        "doi": "10.48550/arXiv.2103.12210",
+        "en_title": "Inverse Design of Multi-input Multi-output 2D Metastructured Devices",
+        "id": "867766619026227327",
+        "keywords": "",
+        "publication_date": "2021-03-22",
+        "publication_id": "108505",
+        "publication_name": "Applied Physics _ Physics.physics.app-ph",
+        "research_categories": "[\"Engineering\", \"Communications Engineering\"]",
+        "zh_title": "多输入多输出二维超结构器件的逆设计"
+      },
+      "paper:994847883452743724": {
+        "area": "arxiv-computer science",
+        "authors": "Robert Stephany",
+        "available_online": "",
+        "cover_date_start": "2024-05-04",
+        "created_at": "2026-05-22T20:26:36+08:00",
+        "doi": "10.48550/arxiv.2405.02661",
+        "en_title": "DDE-Find: Learning Delay Differential Equations from Data",
+        "id": "994847883452743724",
+        "keywords": "",
+        "publication_date": "2024-05-04",
+        "publication_id": "108614",
+        "publication_name": "Machine Learning _ Computer Science.cs.LG",
+        "research_categories": "",
+        "zh_title": "DDE-Find：从数据中学习延迟微分方程"
+      }
+    },
+    "variables": [
+      {
+        "content": "Parameter estimation is performed using gradient-based optimization with custom automatic-differentiation (AD) operations that preserve sparsity. Analytical vector–Jacobian products are derived for sparse linear solves and sparse log-determinants, and during backpropagation adjoints are masked to the input sparsity pattern so that gradients remain sparse. The implementation uses custom PyTorch functions following the masking strategy $\\mathrm{mask}(\\mathrm{adjoint}) = \\mathrm{mask}(\\mathrm{input})$, employs the partial inverse computed from sparse Cholesky factors for log-determinant adjoints, supports differentiation with respect to the smoothness parameter $\\nu$ under the working assumption $\\nu\\in(0,3)\\setminus\\mathbb{N}$ (so the computational graph of the rational approximation remains fixed), and uses the Adam optimizer with a relative log-likelihood stopping tolerance of $10^{-4}$.",
+        "content_hash": "1e01b517b5b2ed6b18b3626e6610e1cf2d7d6f7f45c3cd2fa1ce9055f413c313",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_17462e96fb0d445a",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1210202448791076874::conclusion_4",
+            "package_id": "paper:1210202448791076874",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1210202448791076874"
+          ]
+        },
+        "rerank_score": 0.7020660400991248,
+        "role": "conclusion",
+        "score": 0.013333333333333334,
+        "title": "Automatic-differentiation based gradient computation preserving sparsity",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The adjoint-state gradient computation for the linear wheelset, nonlinear quarter-car, and nonlinear bogie models has the property that computing the full gradient vector $\\nabla_{\\mathbf{p}}J$ (with $J$ the misfit function and $\\mathbf{p}$ the parameter vector) requires one forward integration of the nonlinear model plus one backward integration of the adjoint equations, therefore the computational cost to obtain all components of $\\nabla_{\\mathbf{p}}J$ does not grow with the number of parameters $n$. This contrasts with finite-difference gradient evaluation whose cost scales as $O(n)$ forward solves. Consequently, for models with many parameters (hundreds), adjoint gradients offer potentially large wall-time savings in iterative gradient-based calibration.",
+        "content_hash": "874d2e9b8c771334af5e1ecc53a152c4a7546e85eb6b6db6ecaf697fb83aad05",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_0f1db16b13ee494d",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814525255002357760::conclusion_6",
+            "package_id": "paper:814525255002357760",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814525255002357760"
+          ]
+        },
+        "rerank_score": 0.6630085510630936,
+        "role": "conclusion",
+        "score": 0.015625,
+        "title": "Computational-scaling advantage: adjoint gradient cost independent of number of parameters",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The adjoint formulation yields a computational cost per optimization iteration that is roughly two reduced-order integrations (one forward solve to obtain $\\tilde{\\mathbf{q}}$ and one backward solve for $\\boldsymbol{\\lambda}$) plus inexpensive algebraic gradient assembly, so the cost is essentially independent of the number of parameters $d$. This contrasts with primal sensitivity approaches whose cost grows with $d$ and makes the adjoint-based training attractive when $d$ is large (e.g., high-dimensional polynomial tensors).",
+        "content_hash": "0a688e60c7752714eab6cb6f10a9a0890171f86da02be9e39102e5e2a59b47ac",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_29ad9f2f5d4e4f38",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1217807259023704094::conclusion_6",
+            "package_id": "paper:1217807259023704094",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1217807259023704094"
+          ]
+        },
+        "rerank_score": 0.6488918096572307,
+        "role": "conclusion",
+        "score": 0.011764705882352941,
+        "title": "Adjoint method yields parameter-gradient cost independent of parameter dimension",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "A numerical scheme for studying Anderson localization in interacting fermionic systems at zero temperature consists of (a) zero-temperature Green function quantum Monte Carlo (GFMC) within the fixed-node approximation, which obtains the interacting many-body ground state by projecting a Jastrow-Slater guiding wave function (GWF) Ψ_G(r_1,…,r_N) = det[φ_i(r_j)] ∏_{i<j} J(|r_i - r_j|) with J(r) = exp[-(a A(r_s)/r)(1 - e^{-B(r_s) r / a})], a = 1/√(πν) (average interelectron distance), and variational parameters A(r_s) and B(r_s) satisfying B = √(r_s/A) (cusp condition), and (b) the many-body Thouless conductance g computed from the imaginary-time diffusion of the center of mass via g = lim_{τ→∞} N ⟨R_x²(τ)⟩/(tτ), where t is the nearest-neighbor hopping amplitude, together with the relation g = D L_x²/(N t) where D = ∂²E/∂φ²|_{φ=0} is the curvature of the total energy E with respect to an Aharonov-Bohm flux φ. The nodal surface of the GWF determinant is built from one-body orbitals φ_i obtained either from exact diagonalization of the disordered one-body Hamiltonian (Ψ_liq) or from a self-consistent Hartree one-body problem (Ψ_Har). The scheme operates on rectangular or square periodic lattices with long-range Coulomb interactions implemented via Ewald summation. This yields a concrete operational pipeline that produces interacting ground states and a localization-sensitive scalar g suitable for finite-size scaling analysis of many-body localization.",
+        "content_hash": "e4f34d525ee1f25619b3950005c9809346b4e777d30c3dd12f1ebe80e0967051",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_e70f4e09b2734747",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811934241301463040::conclusion_1",
+            "package_id": "paper:811934241301463040",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811934241301463040"
+          ]
+        },
+        "rerank_score": 0.6379156054665398,
+        "role": "conclusion",
+        "score": 0.011904761904761904,
+        "title": "Numerical scheme combining fixed-node GFMC with Thouless-conductance measurement",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The gradient of a converged surface Green's function $g_{s}(\\theta)$ with respect to input parameters $\\theta$ is written explicitly using the implicit function identity derived from the self-consistent equation $h(g_{s},\\theta)=0$. Concretely,\n      $$\n      \\frac{d g_{s}}{d\\theta} \\;=\\; -\\left[\\frac{\\partial h(g_{s},\\theta)}{\\partial g_{s}}\\right]^{-1}\\frac{\\partial h(g_{s},\\theta)}{\\partial\\theta},\n      $$\n      where the self-consistency residual is $h(g_{s},\\theta) = \\big[A_{ll} - A_{l,l-1}\\, g_{s}\\, A_{l-1,l}^{\\dagger}\\big] - g_{s}^{-1}$, $A_{ll}=[E S_{ll}-H_{ll}]$ with $E$ the energy, $S_{ll}$ the overlap matrix for layer $l$ of the semi-infinite lead, $H_{ll}$ the Hamiltonian matrix for that layer, $A_{l,l-1}$ the inter-layer coupling matrix, and $A_{l-1,l}^{\\dagger}$ its Hermitian conjugate; $g_{s}$ is the surface Green's function entering the lead self-energy $\\Sigma^{L}=A_{DL}\\, g_{s}\\, A_{lD}$, where $A_{DL}$ and $A_{lD}$ are the coupling matrices between the device and the left lead (from the $[EI-H]$ matrix). This closed-form implicit-gradient expression is implemented in the backward pass of the corresponding autograd primitive.",
+        "content_hash": "d01d669db99cbd9bad16f0a971794dbf1f9a2e68ffb1d9a5ddc253537f39874a",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_a72c49f810f54d63",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867757924515053703::conclusion_2",
+            "package_id": "paper:867757924515053703",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867757924515053703"
+          ]
+        },
+        "rerank_score": 0.627774604050458,
+        "role": "conclusion",
+        "score": 0.015384615384615385,
+        "title": "Implicit-gradient formula for surface Green's function",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The adjoint formulation is computationally efficient because it requires solving one backward-in-time delay differential equation in $\\mathbb{R}^d$ to obtain gradients, whereas a direct sensitivity approach would require separate delay differential equations in $\\mathbb{R}^{d \\times p}$ for $\\partial_\\theta x$, $\\mathbb{R}^d$ for $\\partial_\\tau x$, and $\\mathbb{R}^{d \\times q}$ for $\\partial_\\phi x$, so the direct approach scales linearly with the number of parameters.",
+        "content_hash": "a1a50457506eeb62c45141a5dc6b26a34e566be061c5b81c6558ff234703d650",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_c9b03a0dff584aa4",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:994847883452743724::conclusion_8",
+            "package_id": "paper:994847883452743724",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:994847883452743724"
+          ]
+        },
+        "rerank_score": 0.6134672819162768,
+        "role": "conclusion",
+        "score": 0.010526315789473684,
+        "title": "Adjoint gradients require one DDE solve",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In the numerical experiments, applying the least-squares postprocessing to the candidate locations produced by the adjoint gradient-descent iteration yields a substantially reduced final-time mismatch ∥u(T)-u^*∥_2 and a reconstructed initial condition that restores the sparse point-source structure more effectively than the adjoint step alone, i.e., the least-squares step converts the smooth adjoint-derived proxy into a sparse sum of Kronecker deltas with intensities that match the target much more closely.",
+        "content_hash": "162eb6a377da5aead0758b1067b67ea313e4d97e84de16fc3022db560bc00b96",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_686046069c2546b4",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812558283494653952::conclusion_5",
+            "package_id": "paper:812558283494653952",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812558283494653952"
+          ]
+        },
+        "rerank_score": 0.667882231888318,
+        "role": "conclusion",
+        "score": 0.011235955056179775,
+        "title": "Least-squares postprocessing substantially improves adjoint output",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "An adjoint-based gradient formulation is derived for the negative log-posterior of the semiconductor inverse problem, which consists of reconstructing the piecewise-constant doping profile (interface geometry and plateau concentrations) from boundary flux measurements. The gradient accounts for the dependence of the forward model on both the interior doping field (via the source term) and the Dirichlet boundary conditions (via the plateau concentrations). The adjoint method computes the gradient at a cost that is essentially independent of the parameter dimension, requiring only one additional PDE solve (the adjoint equation) per gradient evaluation.",
+        "content_hash": "6c563442507a9830ea7cc32c33eed1fe2f02fe251137cc54933f985ea623fe61",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_708362a62a294471",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:7478124115209486362::conclusion_3",
+            "package_id": "paper:7478124115209486362",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:7478124115209486362"
+          ]
+        },
+        "rerank_score": 0.60777530800116,
+        "role": "conclusion",
+        "score": 0.012658227848101266,
+        "title": "Adjoint-based gradient formulation for the semiconductor inverse problem",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For a discretized inverse problem with $p$ parameters and $N$ state degrees of freedom, when $p$ is large, the computationally preferred gradient-evaluation strategy is to solve the state equation $F_h(\\theta,u_h)=0$ for $u_h$, form the adjoint right-hand side $\\partial L_h/\\partial u_h$, solve the sparse adjoint linear system in Eq. (7) with cost $C$, and then compute the contraction $w^{T}\\partial F_h/\\partial \\theta$ by reverse-mode automatic differentiation. With this adjoint-solve plus reverse-mode AD strategy, the dominant cost per gradient evaluation is $\\mathcal{O}(\\max\\{C',C\\})$, where $C'$ is the cost of evaluating $F_h$, rather than $\\mathcal{O}(pC)$, which would arise from solving $p$ linear systems. This strategy is therefore practical when $p\\gg N$, including the case of neural-network parameters.",
+        "content_hash": "6debce3f30fc89b36c89b4fe05af7c39d304114d574dcdff3583162257cd6713",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_e9858f31e626490c",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867763923233800672::conclusion_3",
+            "package_id": "paper:867763923233800672",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867763923233800672"
+          ]
+        },
+        "rerank_score": 0.635775818086783,
+        "role": "conclusion",
+        "score": 0.015151515151515152,
+        "title": "Adjoint solve and reverse-mode AD for large parameter sets",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "A quasi-analytical adjoint-variable method is applied to the sparse circuit-network forward model to compute the gradient of the multi-input cost function g(p) = Σ_{k=1}^K g_k(p) with respect to P design variables for K input-output pairs, where g_k(p) = ½ (v^k(p) - v_out^k)^H G (v^k(p) - v_out^k), with G a diagonal positive-semidefinite matrix that selects and scales the elements of v^k(p) - v_out^k, v^k(p) the voltage vector when the network is excited by the kth input, and v_out^k the desired output voltage vector. The gradient computation requires 2×K sparse linear solves instead of (P+1)×K solves required by naive finite-difference gradient estimation. Specifically, for the kth input-output pair, the gradient contribution is ∇_p g_k(p) = -Re{λ_k^H V_p^k}, where V_p^k = (∂Q_k/∂p1 v^k | ... | ∂Q_k/∂p_P v^k), v^k is the forward-solution voltage vector for input k, and the adjoint variable λ_k satisfies the adjoint linear system Q_k^H λ_k = G (v^k - v_out^k). Summing over k yields ∇_p g(p) = -Σ_{k=1}^K Re{λ_k^H V_p^k}. The implementation leverages the sparse structure of Q so each adjoint solve has complexity comparable to a forward solve.",
+        "content_hash": "5cfd67a6245bf45a4b8556c5bdc049472ee3f3eb2db164f6ee120838d7c78a8d",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_47142aed065b4aaf",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867766619026227327::conclusion_3",
+            "package_id": "paper:867766619026227327",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867766619026227327"
+          ]
+        },
+        "rerank_score": 0.6168539092254763,
+        "role": "conclusion",
+        "score": 0.026881720430107527,
+        "title": "Adjoint-variable gradient computation for the circuit-network model",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The acoustic FWI stage is performed in two optimization steps: first Very Fast Simulated Annealing (VFSA) is used to estimate a sparse-parameter starting velocity model (a low-dimensional representation of the background velocity defined by a set of laterally varying interfaces and interface velocities interpolated by non-oscillatory splines), and second a conjugate-gradient optimization is applied to the full-grid model using adjoint-state gradients (computed from the forward and adjoint wavefields and regularized by Tikhonov $L_2$ penalty) to obtain the final $V_P$ model.",
+        "content_hash": "5428e7491d0200ee33cc829112f2896a62bd119588b47018553ddf60c0530097",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_e170041d6be74489",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811151083580686338::conclusion_2",
+            "package_id": "paper:811151083580686338",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811151083580686338"
+          ]
+        },
+        "rerank_score": 0.6498432196642411,
+        "role": "conclusion",
+        "score": 0.010101010101010102,
+        "title": "Hybrid VFSA then conjugate-gradient FWI optimization",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The adjoint path-kernel formulas produce a single main backward covector process $\\nu$ whose computation is shared across all parameter directions: for multiple parameters $\\{\\gamma_i\\}$ the linear response expressions reduce to inner products of $\\nu$ with the parameter-specific perturbation vectors, so the dominant pathwise cost (integrating the backward covector) is independent of the number of parameters and additional parameter derivatives require only inexpensive pathwise inner products. Consequently, Monte Carlo computation of gradients of expectations for high-dimensional parameter vectors (e.g., neural-network-like parameterizations or per-time-step correction maps) has cost nearly independent of parameter dimension.",
+        "content_hash": "ebc59440ec30a645c378df521f72591d719664a6d8bf574c5db8738309dfed46",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_faab01c4d88f4bce",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1157287926887874563::conclusion_4",
+            "package_id": "paper:1157287926887874563",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1157287926887874563"
+          ]
+        },
+        "rerank_score": 0.5797198407733544,
+        "role": "conclusion",
+        "score": 0.01639344262295082,
+        "title": "Adjoint formulation yields parameter-gradient cost nearly independent of parameter dimension",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The sensitivity of predicted data to model parameters for source $k$ is expressed compactly as\n      $$\n      \\boldsymbol{J}_k(\\boldsymbol{m}) = -\\boldsymbol{P}_k^{\\top}\\,\\boldsymbol{A}(\\boldsymbol{m})^{-1}\\,\\boldsymbol{G}(\\boldsymbol{m},\\boldsymbol{u}_k),\n      $$\n      where $\\boldsymbol{P}_k^{\\top}$ is the observation matrix for source $k$, $\\boldsymbol{A}(\\boldsymbol{m})$ is the forward system matrix, $\\boldsymbol{u}_k$ is the forward solution for source $k$, and the gradient operator $\\boldsymbol{G}(\\boldsymbol{m},\\boldsymbol{v}):=\\nabla_{\\boldsymbol{m}}\\boldsymbol{A}(\\boldsymbol{m})\\,\\boldsymbol{v}$ is computed efficiently elementwise using stored unit element mass matrices, yielding a very sparse $\\boldsymbol{G}$ with only six nonzeros per model parameter column. When problem size permits, a sparse factorization of $\\boldsymbol{A}(\\boldsymbol{m})$ (PARDISO or MUMPS) is reused for multiple right-hand sides to accelerate multiple forward and adjoint solves needed for gradient and Gauss–Newton Hessian–vector products.",
+        "content_hash": "10bbb7e73a64889b5140caafb278423a6d7b7cf9c6afea13a6f4e623420bc303",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_5e3957ae733440cf",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813246789837651969::conclusion_7",
+            "package_id": "paper:813246789837651969",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813246789837651969"
+          ]
+        },
+        "rerank_score": 0.6792847852293507,
+        "role": "conclusion",
+        "score": 0.014925373134328358,
+        "title": "Efficient Jacobian/sensitivity computation using element-matrix structure and sparse direct solves",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For the FEM discretization used, the system matrix $[K]$ for the forward problem is identical to that for the adjoint problem; consequently, the same Cholesky factorization of $[K]$ can be reused to solve both the forward nodal field $\\{\\phi\\}$ (the complex nodal photon density vector) and the adjoint field $\\{w\\}$ (the complex adjoint nodal vector). Once the adjoint field is computed, gradients with respect to multiple distributed parameters are obtained from the same adjoint field via the single analytic expression for $\\delta G$, so the computational expense of gradient evaluation does not scale strongly with the number of unknown parameters. Thus the adjoint-based gradient evaluation significantly reduces per-iteration computational cost relative to methods that form the Jacobian by repeated forward solves or finite differences.",
+        "content_hash": "6add88b0e74cc578e3feb23d1c5d89bf6df8171ab9b5cc7702ee24e8d8c3953b",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_eab327f3990f4fcf",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811900260778508288::conclusion_4",
+            "package_id": "paper:811900260778508288",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811900260778508288"
+          ]
+        },
+        "rerank_score": 0.6351000519643439,
+        "role": "conclusion",
+        "score": 0.0136986301369863,
+        "title": "Computational cost reduction from shared Cholesky factorization and adjoint field for gradient computation in FEM DOT",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The adjoint-state method and automatic differentiation compute gradients of a temporal mean-absolute error loss (between computed and target MSD time series) with respect to high-dimensional, frequency-dependent phonon transport parameters. The adjoint equations solved backward in time are\n      $$\n      \\frac{\\partial\\lambda}{\\partial t}=-\\lambda\\frac{\\partial h}{\\partial g}+\\frac{\\partial L}{\\partial g},\\quad \\lambda(t_f)=0,\n      $$\n      $$\n      \\frac{\\partial\\eta}{\\partial t}=-\\lambda\\frac{\\partial h}{\\partial\\theta},\\quad \\eta(t_f)=0,\n      $$\n      where $h=\\partial g/\\partial t$ is the forward time derivative of $g$, $\\lambda(t)$ is the adjoint state (the sensitivity of the loss to $g$), $\\theta$ denotes the vector of model parameters (e.g., sampled values of the composite transmittance $\\mathcal{T}(\\omega)=\\max(T_{12}(\\omega),T_{21}(\\omega))$, energy-loss coefficients $\\varepsilon_n$, or piecewise-linear basis coefficients $\\tau_n$ for $\\tau(\\omega)=\\sum_n \\tau_n \\phi_n(\\omega)$ where $\\phi_n$ are basis functions), and $\\eta(t_0)=\\partial L/\\partial\\theta$ collects gradients over the measurement interval $[t_0,t_f]$. Automatic differentiation computes the required Jacobian-vector products, and the numerical adjoint integrator reuses precomputed forward states to ensure stability.",
+        "content_hash": "1eebd3ea7556f5ce9398e826afe3a6462ae83f6fc411390ef133ae2325020eb4",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_3b945e132dbe42b7",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867748157499376365::conclusion_2",
+            "package_id": "paper:867748157499376365",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867748157499376365"
+          ]
+        },
+        "rerank_score": 0.5606466740735313,
+        "role": "conclusion",
+        "score": 0.014084507042253521,
+        "title": "Loss gradients with respect to BTE phonon parameters computed by adjoint-state equations and automatic differentiation",
+        "type": "claim",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "req_30dd05e91ebce"
+}

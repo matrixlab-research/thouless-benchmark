@@ -1,4 +1,4 @@
-# Inverse transmission design
+# Double-quantum-dot transmission inference
 
 **Case:** `ad_inverse_transport`  
 **Motivating requirements:** TBQ-040, TBQ-099  
@@ -6,16 +6,18 @@
 
 ## Scientific question
 
-Can microscopic device parameters be inferred from a transmission spectrum and
-then validated through an independent non-AD forward solve at excluded
-energies?
+Can the onsite detuning and interdot hopping of a serial double quantum dot be
+inferred from its transmission spectrum and then validated through an
+independent non-AD forward solve at excluded energies?
 
 ## Benchmark adaptation
 
-A two-site device with fixed endpoint self-energies has two unknown
-Hamiltonian parameters. Seven energies define the training trace. Five
-interleaved energies are excluded from the loss and evaluated through the
-ordinary open-system solver after optimization.
+A noninteracting serial double quantum dot is coupled to wide-band endpoint
+self-energies. The left-dot onsite energy and interdot hopping correction are
+unknown. Seven energies define the training trace; five interleaved energies
+are excluded from the loss and evaluated through the ordinary open-system
+solver after optimization. This is a compact NEGF inverse workflow, not a
+fit to a specific experimental trace.
 
 ## Parameters
 
@@ -43,10 +45,12 @@ and the excluded-energy transmission RMS remains small.
 
 ## Evidence and boundary
 
-LKM nodes `gcn_7508395e785e4a5e`, `gcn_e8d4a72c26304f59`, and
-`gcn_b1a69b35d07f45ad` motivated differentiable transport and
-many-parameter inverse design. Primary sources:
-[Hirasaki, Inui, and Saitoh (2024)](https://arxiv.org/abs/2409.02009),
-[Zhou et al. (2023)](https://doi.org/10.1103/PhysRevB.108.195143), and
-[Sen and Mitchell (2023)](https://arxiv.org/abs/2310.14775).
-This compact case tests the end-to-end map, not large-device scaling.
+LKM node `gcn_a5eb3fecc5264ac5` reports gradient-based Hamiltonian inverse
+design against a target transmission, while `gcn_8670a519b2ed4d85` reports a
+double-quantum-dot transmission model fitted to first-principles transport.
+Primary sources:
+[Zhou et al. (2022)](https://doi.org/10.48550/arXiv.2202.05098) and
+[Li et al. (2010)](https://doi.org/10.1021/nn101840a). Raw retrieval evidence
+is preserved under `evidence/lkm/2026-07-28-ad-research-workflows`. This
+compact case tests the end-to-end map, not interacting or large-device
+transport.

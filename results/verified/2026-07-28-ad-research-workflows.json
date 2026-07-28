@@ -1,0 +1,1958 @@
+{
+  "generated_at": "2026-07-28T03:26:46.286474+00:00",
+  "platform": {
+    "machine": "arm64",
+    "processor": "arm",
+    "python": "3.12.8",
+    "release": "23.6.0",
+    "system": "Darwin"
+  },
+  "policy": {
+    "accuracy_is_gated": true,
+    "finite_differences_are_validation_only": true,
+    "public_validation_is_not_isolated_held_out_evaluation": true,
+    "same_machine": true,
+    "timing_is_descriptive": true,
+    "whole_tbq_coverage_is_not_inferred_from_ad_witnesses": true
+  },
+  "records": [
+    {
+      "backend": "thouless",
+      "case_id": "ad_spectral_recovery",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "ad_spectral_recovery"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.006253292,
+        "median": 0.003554583,
+        "minimum": 0.00314725,
+        "samples": [
+          0.006253292,
+          0.003592708,
+          0.003661333,
+          0.003442083,
+          0.00329025,
+          0.00314725,
+          0.003554583
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.474965000001248,
+        "median": 0.006751499997335486,
+        "minimum": 0.006004625000059605,
+        "samples": [
+          0.474965000001248,
+          0.0078121660044416785,
+          0.0068469580000964925,
+          0.006397582998033613,
+          0.006530500002554618,
+          0.006004625000059605,
+          0.006751499997335486
+        ]
+      },
+      "repetitions": 7,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "237f544c497e89cd99dedd68f16e399bc9980987",
+        "case_id": "ad_spectral_recovery",
+        "checks": [
+          {
+            "actual": 3.23126176955926e-10,
+            "expected": {
+              "maximum_relative_error": 1e-05
+            },
+            "name": "AD-G01_spectral_loss_directional_derivative",
+            "passed": true,
+            "tolerance": 1e-05
+          },
+          {
+            "actual": {
+              "loss": 9.191451326090979e-17,
+              "maximum_parameter_error": 2.9651748501002828e-08,
+              "parameters": [
+                0.3500000296517485,
+                0.7200000115474176,
+                0.9999999818085873
+              ]
+            },
+            "expected": {
+              "maximum_parameter_error": 2e-05,
+              "target": [
+                0.35,
+                0.72,
+                1.0
+              ]
+            },
+            "name": "AD-G11_joint_spectral_parameter_recovery",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": {
+              "energy_error": 3.1450690940459936e-09,
+              "projector_error": 2.5540809471383694e-08
+            },
+            "expected": {
+              "maximum_error": 2e-05
+            },
+            "name": "AD-G11_hidden_momentum_forward_validation",
+            "passed": true,
+            "tolerance": 2e-05
+          }
+        ],
+        "elapsed_seconds": 0.003554583,
+        "metrics": {
+          "directional_relative_error": 3.23126176955926e-10,
+          "energy_unit": "target intercell hopping",
+          "hidden_energy_error": 3.1450690940459936e-09,
+          "hidden_projector_error": 2.5540809471383694e-08,
+          "loss_history": [
+            0.030409837896071566,
+            0.014830761467177364,
+            0.010724098597773254,
+            0.008063257524238246,
+            0.0060012450724479735,
+            0.004402796523653857,
+            0.003187551208233855,
+            0.002281192427349368,
+            0.0016164871965560139,
+            0.0011359275113594367,
+            0.0007926524440548234,
+            0.0005498961726160801,
+            0.00037965543388183916,
+            0.0002610936441298093,
+            0.0001789931482089485,
+            0.00012240562655751447,
+            8.354963980305443e-05,
+            5.694909266368254e-05,
+            3.878120042904202e-05,
+            2.6394768300080388e-05,
+            1.7960862988919442e-05,
+            1.2223168753507619e-05,
+            8.321641234493684e-06,
+            5.669088315389296e-06,
+            3.865432671938847e-06,
+            2.6385051382840635e-06,
+            1.8033535664939033e-06,
+            1.2343827804769414e-06,
+            8.463366058396186e-07,
+            5.813459151364757e-07,
+            4.0012348503094074e-07,
+            2.7598579282311703e-07,
+            1.9079782633518474e-07,
+            1.3222388027575382e-07,
+            9.186423597885155e-08,
+            6.399226544538153e-08,
+            4.469828159317344e-08,
+            3.130887105959822e-08,
+            2.1992812440687688e-08,
+            1.5493401542842912e-08,
+            1.094645330699889e-08,
+            7.756411436065476e-09,
+            5.5119002358259075e-09,
+            3.928075441502963e-09,
+            2.807204563401468e-09,
+            2.011663756098436e-09,
+            1.4454042169523893e-09,
+            1.0412051125822328e-09,
+            7.518869138999951e-10,
+            5.442404651421547e-10,
+            3.9482208911852045e-10,
+            2.870336729534964e-10,
+            2.0908964841353292e-10,
+            1.5259759054681593e-10,
+            1.1156443775229582e-10,
+            8.169871099382374e-11,
+            5.991914614164041e-11,
+            4.400766917782822e-11,
+            3.236359688892206e-11,
+            2.382903082102547e-11,
+            1.756446843408667e-11,
+            1.2959939301510422e-11,
+            9.57134587731704e-12,
+            7.074738209799261e-12,
+            5.2333855175826606e-12,
+            3.8740044515001486e-12,
+            2.869557062169196e-12,
+            2.1267747424950155e-12,
+            1.5770904171816534e-12,
+            1.1700346130175136e-12,
+            8.684168207658168e-13,
+            6.448032816321815e-13,
+            4.789381489305526e-13,
+            3.5585245078406457e-13,
+            2.644754375351209e-13,
+            1.9661350515274488e-13,
+            1.4619848640731138e-13,
+            1.0873363236125087e-13,
+            8.088487591878617e-14,
+            6.017899762335313e-14,
+            4.4780543463380855e-14,
+            3.332681899319221e-14,
+            2.4805753418981478e-14,
+            1.846543726759882e-14,
+            1.3747080630597248e-14,
+            1.0235301895620373e-14,
+            7.621248970809102e-15,
+            5.675228836888324e-15,
+            4.226385621137827e-15,
+            3.1476068381503776e-15,
+            2.344308977872973e-15,
+            1.7461031290171998e-15,
+            1.300599224002047e-15,
+            9.687991747709243e-16,
+            7.216705746161949e-16,
+            5.375980355214615e-16,
+            4.00486992957252e-16,
+            2.983527147360116e-16,
+            2.222702260533225e-16,
+            1.655927516189144e-16,
+            1.2336989313361696e-16,
+            9.191451326090979e-17
+          ],
+          "parameter_order": [
+            "staggered_onsite",
+            "intracell_hopping",
+            "intercell_hopping"
+          ],
+          "physical_model": "Rice-Mele chain",
+          "recovered_parameters": [
+            0.3500000296517485,
+            0.7200000115474176,
+            0.9999999818085873
+          ],
+          "target_parameters": [
+            0.35,
+            0.72,
+            1.0
+          ]
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "thouless",
+      "case_id": "ad_degenerate_projector",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "ad_degenerate_projector"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.000141416,
+        "median": 9.4166e-05,
+        "minimum": 8.5959e-05,
+        "samples": [
+          0.000141416,
+          0.000106583,
+          9.4166e-05,
+          0.000104625,
+          8.65e-05,
+          8.7875e-05,
+          8.5959e-05
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.00334399999701418,
+        "median": 0.0027377919977880083,
+        "minimum": 0.0024429999975836836,
+        "samples": [
+          0.0032123750061145984,
+          0.00334399999701418,
+          0.002696999996260274,
+          0.002768416001345031,
+          0.0027377919977880083,
+          0.0024429999975836836,
+          0.002457458002027124
+        ]
+      },
+      "repetitions": 7,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "237f544c497e89cd99dedd68f16e399bc9980987",
+        "case_id": "ad_degenerate_projector",
+        "checks": [
+          {
+            "actual": 8.816968327494775e-11,
+            "expected": {
+              "maximum_relative_error": 1e-05
+            },
+            "name": "AD-G04_degenerate_projector_directional_derivative",
+            "passed": true,
+            "tolerance": 1e-05
+          },
+          {
+            "actual": {
+              "gradient_error": 1.1102230246251565e-16,
+              "value_error": 1.0408340855860843e-17
+            },
+            "expected": {
+              "maximum_gradient_error": 1e-10,
+              "maximum_value_error": 1e-11
+            },
+            "name": "AD-G04_occupied_basis_rotation_invariance",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": true,
+            "expected": true,
+            "name": "AD-G04_unstable_band_label_rejected",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 8.5959e-05,
+        "metrics": {
+          "basis_rotation_gradient_error": 1.1102230246251565e-16,
+          "basis_rotation_value_error": 1.0408340855860843e-17,
+          "directional_relative_error": 8.816968327494775e-11,
+          "isolated_degeneracy_rejected": true,
+          "objective": 0.028255973374554655,
+          "occupied_sector": "Kramers pair",
+          "physical_model": "spin-degenerate BHZ orbital block"
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "thouless",
+      "case_id": "ad_identifiability",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "ad_identifiability"
+      ],
+      "kernel_seconds": {
+        "maximum": 9.1542e-05,
+        "median": 8.0667e-05,
+        "minimum": 7.05e-05,
+        "samples": [
+          8.6125e-05,
+          8.0667e-05,
+          7.8167e-05,
+          9.1542e-05,
+          7.05e-05,
+          7.3458e-05,
+          8.3792e-05
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.0025999169956776313,
+        "median": 0.0023599159976583906,
+        "minimum": 0.002173749999201391,
+        "samples": [
+          0.002580500004114583,
+          0.002318708000530023,
+          0.00236558399774367,
+          0.0025999169956776313,
+          0.0023599159976583906,
+          0.002173749999201391,
+          0.002272582998557482
+        ]
+      },
+      "repetitions": 7,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "237f544c497e89cd99dedd68f16e399bc9980987",
+        "case_id": "ad_identifiability",
+        "checks": [
+          {
+            "actual": {
+              "eigenvalues": [
+                -4.440892098500626e-16,
+                5.507561489150456
+              ],
+              "null_residual": 2.220446049250313e-16
+            },
+            "expected": "the SSH hopping-swap direction is a rank-one Fisher null direction",
+            "name": "AD-G14_ssh_bulk_spectral_nullspace",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": {
+              "eigenvalues": [
+                0.004223346030662434,
+                6.767046964338387
+              ]
+            },
+            "expected": {
+              "minimum_eigenvalue": 0.001
+            },
+            "name": "AD-G14_local_marker_lifts_ssh_ambiguity",
+            "passed": true,
+            "tolerance": 0.001
+          },
+          {
+            "actual": {
+              "bulk_spectrum_difference": 2.220446049250313e-16,
+              "marked_spectrum_difference": 0.030323154026028476
+            },
+            "expected": {
+              "bulk_maximum": 1e-12,
+              "marked_minimum": 0.01
+            },
+            "name": "AD-G14_ssh_swap_ambiguity_is_not_hidden",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 8.3792e-05,
+        "metrics": {
+          "augmented_fisher": [
+            [
+              3.4664476016361423,
+              3.380446001873673
+            ],
+            [
+              3.380446001873673,
+              3.3048227087329067
+            ]
+          ],
+          "augmented_fisher_eigenvalues": [
+            0.004223346030662434,
+            6.767046964338387
+          ],
+          "marker_lifted_difference": 0.030323154026028476,
+          "parameter_order": [
+            "intracell_hopping",
+            "intercell_hopping"
+          ],
+          "physical_model": "Su-Schrieffer-Heeger chain with a local bond marker",
+          "primary_fisher": [
+            [
+              2.753780744575228,
+              2.7537807445752285
+            ],
+            [
+              2.7537807445752285,
+              2.7537807445752285
+            ]
+          ],
+          "primary_fisher_eigenvalues": [
+            -4.440892098500626e-16,
+            5.507561489150456
+          ],
+          "primary_jacobian": [
+            [
+              -0.9950041652780256,
+              -0.9950041652780256
+            ],
+            [
+              -0.9393727128473787,
+              -0.9393727128473787
+            ],
+            [
+              -0.7960837985490554,
+              -0.7960837985490556
+            ],
+            [
+              -0.4975710478917268,
+              -0.49757104789172674
+            ]
+          ],
+          "swapped_bulk_spectrum_difference": 2.220446049250313e-16,
+          "symmetric_parameters": [
+            0.8,
+            0.8
+          ]
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "thouless",
+      "case_id": "ad_quantum_metric",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "ad_quantum_metric"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.000906916,
+        "median": 0.000867209,
+        "minimum": 0.000850792,
+        "samples": [
+          0.000867209,
+          0.00085725,
+          0.000895875,
+          0.000853667,
+          0.000906916,
+          0.00087525,
+          0.000850792
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.0033785830019041896,
+        "median": 0.0030719579954165965,
+        "minimum": 0.0029874169995309785,
+        "samples": [
+          0.003047082995180972,
+          0.0029874169995309785,
+          0.0033216250012628734,
+          0.0030719579954165965,
+          0.0032193329971050844,
+          0.0033785830019041896,
+          0.003061667004658375
+        ]
+      },
+      "repetitions": 7,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "237f544c497e89cd99dedd68f16e399bc9980987",
+        "case_id": "ad_quantum_metric",
+        "checks": [
+          {
+            "actual": 7.089640169052152e-10,
+            "expected": {
+              "maximum_relative_error": 1e-05
+            },
+            "name": "AD-G01_quantum_metric_directional_derivative",
+            "passed": true,
+            "tolerance": 1e-05
+          },
+          {
+            "actual": 1.6653345369377348e-16,
+            "expected": {
+              "maximum_error": 1e-10
+            },
+            "name": "AD-G02_quantum_metric_basis_covariance",
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "actual": {
+              "derivative_change": 0.016880579133947502,
+              "value_change": 0.002590059203663668
+            },
+            "expected": {
+              "maximum_derivative_change": 0.03,
+              "maximum_value_change": 0.02
+            },
+            "name": "AD-G15_quantum_geometry_mesh_convergence",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 0.000850792,
+        "metrics": {
+          "basis_covariance_error": 1.6653345369377348e-16,
+          "directional_derivative": -0.15150631168719797,
+          "directional_relative_error": 7.089640169052152e-10,
+          "fixed_average_hopping": 1.0,
+          "mesh_derivative_change": 0.016880579133947502,
+          "mesh_value_change": 0.002590059203663668,
+          "parameter_order": [
+            "staggered_onsite",
+            "dimerization"
+          ],
+          "physical_model": "Rice-Mele chain",
+          "refined_directional_derivative": -0.15410773958033763,
+          "refined_value": 0.2838270154025209,
+          "value": 0.28309188662902923
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "thouless",
+      "case_id": "ad_topological_design",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "ad_topological_design"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.03853625,
+        "median": 0.037723125,
+        "minimum": 0.036882875,
+        "samples": [
+          0.038004333,
+          0.037723125,
+          0.038133125,
+          0.036882875,
+          0.03853625,
+          0.037429708,
+          0.037039458
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.04195954099850496,
+        "median": 0.04081379199487856,
+        "minimum": 0.040209291997598484,
+        "samples": [
+          0.04081470799428644,
+          0.04081379199487856,
+          0.04135449999739649,
+          0.040209291997598484,
+          0.04195954099850496,
+          0.04078441700403346,
+          0.04027620800479781
+        ]
+      },
+      "repetitions": 7,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "237f544c497e89cd99dedd68f16e399bc9980987",
+        "case_id": "ad_topological_design",
+        "checks": [
+          {
+            "actual": {
+              "final_loss": 7.585898344476932e-17,
+              "final_mass": 0.9999999687615665
+            },
+            "expected": {
+              "maximum_mass_error": 0.002,
+              "target_mass": 1.0
+            },
+            "name": "AD-G16_smooth_topological_proxy_optimized",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": {
+              "final_chern": -0.9999999999999993,
+              "initial_chern": -3.8341973210785234e-17
+            },
+            "expected": {
+              "final_magnitude": 1,
+              "initial": 0
+            },
+            "name": "AD-G16_discrete_invariant_forward_recomputed",
+            "passed": true,
+            "tolerance": 0.1
+          },
+          {
+            "actual": {
+              "closing_mass": 2.0,
+              "minimum_gap": 3.4638242249419736e-16
+            },
+            "expected": {
+              "critical_mass": 2.0,
+              "mass_tolerance": 0.02,
+              "maximum_gap": 1e-08
+            },
+            "name": "AD-G16_invariant_change_has_resolved_gap_closing",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 0.037039458,
+        "metrics": {
+          "final_chern": -0.9999999999999993,
+          "gap_scan": [
+            0.7999999999999998,
+            0.7799999999999998,
+            0.7599999999999998,
+            0.7399999999999998,
+            0.7199999999999998,
+            0.6999999999999997,
+            0.6799999999999997,
+            0.6599999999999997,
+            0.6399999999999997,
+            0.6199999999999997,
+            0.5999999999999996,
+            0.5799999999999996,
+            0.5599999999999996,
+            0.54,
+            0.5199999999999996,
+            0.5,
+            0.48,
+            0.45999999999999996,
+            0.43999999999999995,
+            0.41999999999999993,
+            0.3999999999999999,
+            0.3799999999999999,
+            0.3599999999999999,
+            0.33999999999999986,
+            0.31999999999999984,
+            0.2999999999999998,
+            0.2799999999999998,
+            0.2599999999999998,
+            0.23999999999999977,
+            0.21999999999999975,
+            0.19999999999999973,
+            0.17999999999999972,
+            0.1599999999999997,
+            0.13999999999999968,
+            0.11999999999999966,
+            0.09999999999999964,
+            0.08000000000000007,
+            0.05999999999999961,
+            0.040000000000000036,
+            0.019999999999999574,
+            3.4638242249419736e-16,
+            0.020000000000000462,
+            0.040000000000000036,
+            0.0600000000000005,
+            0.08000000000000007,
+            0.10000000000000053,
+            0.1200000000000001,
+            0.14000000000000054,
+            0.16000000000000014,
+            0.17999999999999972,
+            0.20000000000000018,
+            0.22000000000000064,
+            0.2400000000000002,
+            0.2599999999999998,
+            0.28000000000000025,
+            0.3000000000000007,
+            0.3200000000000003,
+            0.33999999999999986,
+            0.3600000000000003,
+            0.3799999999999999,
+            0.40000000000000036,
+            0.41999999999999993,
+            0.4400000000000004,
+            0.45999999999999996,
+            0.4800000000000004,
+            0.5,
+            0.5200000000000005,
+            0.54,
+            0.5600000000000005,
+            0.5800000000000001,
+            0.6000000000000005,
+            0.6200000000000001,
+            0.6400000000000006,
+            0.6600000000000001,
+            0.6799999999999997,
+            0.7000000000000002,
+            0.7200000000000006,
+            0.7400000000000002,
+            0.7599999999999998,
+            0.7800000000000002,
+            0.8000000000000007
+          ],
+          "gap_scan_masses": [
+            1.6,
+            1.61,
+            1.62,
+            1.6300000000000001,
+            1.6400000000000001,
+            1.6500000000000001,
+            1.6600000000000001,
+            1.6700000000000002,
+            1.6800000000000002,
+            1.6900000000000002,
+            1.7000000000000002,
+            1.7100000000000002,
+            1.7200000000000002,
+            1.73,
+            1.7400000000000002,
+            1.75,
+            1.76,
+            1.77,
+            1.78,
+            1.79,
+            1.8,
+            1.81,
+            1.82,
+            1.83,
+            1.84,
+            1.85,
+            1.86,
+            1.87,
+            1.8800000000000001,
+            1.8900000000000001,
+            1.9000000000000001,
+            1.9100000000000001,
+            1.9200000000000002,
+            1.9300000000000002,
+            1.9400000000000002,
+            1.9500000000000002,
+            1.96,
+            1.9700000000000002,
+            1.98,
+            1.9900000000000002,
+            2.0,
+            2.0100000000000002,
+            2.02,
+            2.0300000000000002,
+            2.04,
+            2.0500000000000003,
+            2.06,
+            2.0700000000000003,
+            2.08,
+            2.09,
+            2.1,
+            2.1100000000000003,
+            2.12,
+            2.13,
+            2.14,
+            2.1500000000000004,
+            2.16,
+            2.17,
+            2.18,
+            2.19,
+            2.2,
+            2.21,
+            2.22,
+            2.23,
+            2.24,
+            2.25,
+            2.2600000000000002,
+            2.27,
+            2.2800000000000002,
+            2.29,
+            2.3000000000000003,
+            2.31,
+            2.3200000000000003,
+            2.33,
+            2.34,
+            2.35,
+            2.3600000000000003,
+            2.37,
+            2.38,
+            2.39,
+            2.4000000000000004
+          ],
+          "initial_chern": -3.8341973210785234e-17,
+          "initial_mass": 2.65,
+          "loss_history": [
+            0.12374259129592538,
+            0.023456732758167793,
+            0.014044990735958498,
+            0.002049247546707942,
+            0.0006920148072646427,
+            0.00016816249996010383,
+            4.89322767773783e-05,
+            1.2994509744861443e-05,
+            3.6224796087330183e-06,
+            9.846904277855625e-07,
+            2.71238552710176e-07,
+            7.419837415975247e-08,
+            2.0371105992446764e-08,
+            5.582251296861861e-09,
+            1.5312162557479466e-09,
+            4.1979504056766357e-10,
+            1.1512154959662982e-10,
+            3.156558728758083e-11,
+            8.655728542952367e-12,
+            2.373429630075882e-12,
+            6.508156763638871e-13,
+            1.7845757342640278e-13,
+            4.8934415525512e-14,
+            1.3418147071151302e-14,
+            3.679352188313662e-15,
+            1.008903949846916e-15,
+            2.7664859465204073e-16,
+            7.585898344476932e-17
+          ],
+          "optimized_mass": 0.9999999687615665,
+          "parameter_order": [
+            "Dirac mass"
+          ],
+          "physical_model": "Qi-Wu-Zhang Chern insulator",
+          "resolved_closing_mass": 2.0,
+          "target_mass": 1.0
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "thouless",
+      "case_id": "ad_surface_green_implicit",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "ad_surface_green_implicit"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.000106583,
+        "median": 5.9583e-05,
+        "minimum": 4.8291e-05,
+        "samples": [
+          0.000106583,
+          5.2667e-05,
+          8.2292e-05,
+          9.5125e-05,
+          5.9583e-05,
+          5.1625e-05,
+          4.8291e-05
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.003384583003935404,
+        "median": 0.003014583999174647,
+        "minimum": 0.002133374997356441,
+        "samples": [
+          0.0030507909978041425,
+          0.002517209002689924,
+          0.003018625000549946,
+          0.003384583003935404,
+          0.003014583999174647,
+          0.002556791005190462,
+          0.002133374997356441
+        ]
+      },
+      "repetitions": 7,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "237f544c497e89cd99dedd68f16e399bc9980987",
+        "case_id": "ad_surface_green_implicit",
+        "checks": [
+          {
+            "actual": 7.83612144959495e-10,
+            "expected": {
+              "maximum_relative_error": 1e-05
+            },
+            "name": "AD-G09_surface_green_directional_derivative",
+            "passed": true,
+            "tolerance": 1e-05
+          },
+          {
+            "actual": 6.246116820582651e-16,
+            "expected": {
+              "maximum_relative_error": 1e-10
+            },
+            "name": "AD-G02_surface_green_adjoint_identity",
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "actual": {
+              "maximum_imaginary_diagonal": -0.045984847638660446,
+              "tolerance_stability": 0.0
+            },
+            "expected": {
+              "maximum_tolerance_change": 1e-08,
+              "retarded_diagonal_imaginary": "negative"
+            },
+            "name": "AD-G10_retarded_branch_and_tolerance_stability",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 4.8291e-05,
+        "metrics": {
+          "adjoint_identity_relative_error": 6.246116820582651e-16,
+          "finite_difference_relative_error": 7.83612144959495e-10,
+          "green_function": [
+            [
+              3.8759015123384053,
+              -1.2900636506963041
+            ],
+            [
+              -0.6838927036433157,
+              -0.01949571399535895
+            ],
+            [
+              -0.6838927036433157,
+              -0.01949571399535895
+            ],
+            [
+              -0.13557880448279488,
+              -0.045984847638660446
+            ]
+          ],
+          "implicit_rule_retains_iteration_tape": false,
+          "intercell_hopping": 1.0,
+          "intracell_hopping": 0.65,
+          "maximum_imaginary_diagonal": -0.045984847638660446,
+          "physical_model": "semi-infinite Rice-Mele/SSH chain",
+          "staggered_onsite": 0.05,
+          "tolerance_stability": 0.0
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "thouless",
+      "case_id": "ad_inverse_transport",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "ad_inverse_transport"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.003106333,
+        "median": 0.002989542,
+        "minimum": 0.002922083,
+        "samples": [
+          0.003047667,
+          0.002943,
+          0.003008125,
+          0.002989542,
+          0.003106333,
+          0.002922083,
+          0.00298425
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.0063182919984683394,
+        "median": 0.0058470420044614,
+        "minimum": 0.005558042001212016,
+        "samples": [
+          0.005558042001212016,
+          0.005644125005346723,
+          0.0058470420044614,
+          0.0058482080057729036,
+          0.0063182919984683394,
+          0.005752042001404334,
+          0.00593591600045329
+        ]
+      },
+      "repetitions": 7,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "237f544c497e89cd99dedd68f16e399bc9980987",
+        "case_id": "ad_inverse_transport",
+        "checks": [
+          {
+            "actual": 7.274891674654943e-10,
+            "expected": {
+              "maximum_relative_error": 1e-05
+            },
+            "name": "AD-G12_transport_loss_directional_derivative",
+            "passed": true,
+            "tolerance": 1e-05
+          },
+          {
+            "actual": {
+              "final_loss": 8.054133437265897e-17,
+              "optimized_parameters": [
+                0.22999997449247717,
+                -0.18999999980461063
+              ]
+            },
+            "expected": {
+              "maximum_loss": 1e-10
+            },
+            "name": "AD-G13_inverse_transmission_trace",
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "actual": 1.2220414630400121e-08,
+            "expected": {
+              "maximum_hidden_rms": 2e-05
+            },
+            "name": "AD-G13_independent_forward_transport_validation",
+            "passed": true,
+            "tolerance": 2e-05
+          }
+        ],
+        "elapsed_seconds": 0.00298425,
+        "metrics": {
+          "gradient_relative_error": 7.274891674654943e-10,
+          "hidden_forward_rms": 1.2220414630400121e-08,
+          "lead_model": "wide-band endpoint self-energies",
+          "loss_history": [
+            0.07714511905298602,
+            0.04667226491003656,
+            0.03432371126454527,
+            0.02480235927349314,
+            0.01662184533322328,
+            0.012979047672983888,
+            0.011101727892281631,
+            0.009701403860524564,
+            0.008604128114540066,
+            0.007724605162779492,
+            0.0070025754923118645,
+            0.006395180974398648,
+            0.00587206135660472,
+            0.005411618849498856,
+            0.004998359212600665,
+            0.004621069654085867,
+            0.0042715888755537924,
+            0.003943978682200133,
+            0.0036339624385911123,
+            0.0033385387098694114,
+            0.003055708664282307,
+            0.002784276409335922,
+            0.0025236952672462567,
+            0.0022739419463063703,
+            0.002035405854370134,
+            0.0018087836470763526,
+            0.0015949711775093682,
+            0.0013949482164738699,
+            0.0012096567804410281,
+            0.0010398808928189925,
+            0.000886141389672594,
+            0.0007486207973226006,
+            0.0006271290431268349,
+            0.0005211124960018016,
+            0.0004297001736482354,
+            0.00035177510873527965,
+            0.0002860570708257989,
+            0.00023118442029215408,
+            0.0001857862945952726,
+            0.00014854016893393424,
+            0.00011821317469974649,
+            9.368798752221283e-05,
+            7.397555442678669e-05,
+            5.8217561965219295e-05,
+            4.568158371176742e-05,
+            3.5751519745680126e-05,
+            2.7915444991426285e-05,
+            2.1752452577132903e-05,
+            1.6919593263454562e-05,
+            1.3139610626155399e-05,
+            1.0189863748974605e-05,
+            7.892608038754105e-06,
+            6.106656170553572e-06,
+            4.720348864060304e-06,
+            3.645714019609995e-06,
+            2.8136699918761924e-06,
+            2.170124542501651e-06,
+            1.6728279865069104e-06,
+            1.2888521066592063e-06,
+            9.92582129240676e-07,
+            7.641252644521563e-07,
+            5.880547352145627e-07,
+            4.5242217344794175e-07,
+            3.4798346972856047e-07,
+            2.67593579549246e-07,
+            2.0573451545601313e-07,
+            1.5814795838201713e-07,
+            1.2154980071873992e-07,
+            9.340868697693838e-08,
+            7.17744315348318e-08,
+            5.514523324233048e-08,
+            4.23650175211133e-08,
+            3.254413977351606e-08,
+            2.4998180614714985e-08,
+            1.9200736657489023e-08,
+            1.4747027687024117e-08,
+            1.1325856263948854e-08,
+            8.698012398880628e-09,
+            6.679648353794701e-09,
+            5.129484047063523e-09,
+            3.938963376003478e-09,
+            3.0246828302225607e-09,
+            2.3225691882642765e-09,
+            1.7834031282510709e-09,
+            1.3693782227040479e-09,
+            1.051456237349864e-09,
+            8.073347274222335e-10,
+            6.198853556165705e-10,
+            4.759540313660955e-10,
+            3.654391246917151e-10,
+            2.80583364892009e-10,
+            2.1542992574902823e-10,
+            1.654046527602513e-10,
+            1.2699519504702318e-10,
+            9.750457577173764e-11,
+            7.486193959994976e-11,
+            5.7477216114142084e-11,
+            4.4129511901147525e-11,
+            3.3881406168219896e-11,
+            2.601313939958425e-11,
+            1.9972078683611566e-11,
+            1.533391427307687e-11,
+            1.1772864546834898e-11,
+            9.038798342936872e-12,
+            6.939668915596689e-12,
+            5.328026428488574e-12,
+            4.0906621149873106e-12,
+            3.14065703319254e-12,
+            2.41127711884322e-12,
+            1.8512858460143973e-12,
+            1.4213453461978229e-12,
+            1.0912532402784153e-12,
+            8.378211283966954e-13,
+            6.432457409385146e-13,
+            4.938583463963188e-13,
+            3.7916457991762493e-13,
+            2.91107249853566e-13,
+            2.2350034280123878e-13,
+            1.7159446994462617e-13,
+            1.3174323186847144e-13,
+            1.0114706340446024e-13,
+            7.765656776425251e-14,
+            5.962152208368572e-14,
+            4.577495077388067e-14,
+            3.514412036688222e-14,
+            2.698220503079752e-14,
+            2.0715822032325277e-14,
+            1.590475125406971e-14,
+            1.2211009526682107e-14,
+            9.375107181977383e-15,
+            7.197818585611505e-15,
+            5.526186482325016e-15,
+            4.242776613222215e-15,
+            3.2574276780028832e-15,
+            2.5009176507149727e-15,
+            1.9201006392865432e-15,
+            1.4741734453191566e-15,
+            1.131809070033318e-15,
+            8.689559289922882e-16,
+            6.671482089271349e-16,
+            5.12208637363784e-16,
+            3.932524765915732e-16,
+            3.019228859710278e-16,
+            2.3180381850812957e-16,
+            1.7796932541458295e-16,
+            1.3663743896040523e-16,
+            1.0490453753549566e-16,
+            8.054133437265897e-17
+          ],
+          "optimized_parameters": [
+            0.22999997449247717,
+            -0.18999999980461063
+          ],
+          "parameter_order": [
+            "left_dot_onsite",
+            "interdot_hopping_correction"
+          ],
+          "physical_model": "noninteracting serial double quantum dot",
+          "target_parameters": [
+            0.23,
+            -0.19
+          ]
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "thouless",
+      "case_id": "ad_lead_device_sensitivity",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "ad_lead_device_sensitivity"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.000138375,
+        "median": 0.000101,
+        "minimum": 9.1292e-05,
+        "samples": [
+          0.000132125,
+          0.000101,
+          9.4958e-05,
+          9.5625e-05,
+          9.1292e-05,
+          0.000138375,
+          0.000104
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.0032570839975960553,
+        "median": 0.0026383750009699725,
+        "minimum": 0.0024330420055775903,
+        "samples": [
+          0.002716832997975871,
+          0.002765249999356456,
+          0.0024330420055775903,
+          0.0025615839986130595,
+          0.0026383750009699725,
+          0.0032570839975960553,
+          0.0024514589968021028
+        ]
+      },
+      "repetitions": 7,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "237f544c497e89cd99dedd68f16e399bc9980987",
+        "case_id": "ad_lead_device_sensitivity",
+        "checks": [
+          {
+            "actual": 1.537024636576298e-08,
+            "expected": {
+              "maximum_relative_error": 1e-05
+            },
+            "name": "AD-G12_complete_device_lead_directional_derivative",
+            "passed": true,
+            "tolerance": 1e-05
+          },
+          {
+            "actual": {
+              "decomposition_error": 0.0,
+              "device": -0.009090968759172953,
+              "energy_and_broadening": -0.00222700126554412,
+              "interface": -0.012174266126462382,
+              "lead_cell": -0.00010644495033497621,
+              "lead_hopping": -0.005240908225423939
+            },
+            "expected": "all physical layers contribute and sum to the JVP",
+            "name": "AD-G12_device_lead_interface_energy_contributions",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": {
+              "broadening_gradients": [
+                0.06952621320881548,
+                -0.07583080808525965
+              ],
+              "transmission": 0.9860442413302684
+            },
+            "expected": "finite causal lead gradients and positive transmission",
+            "name": "AD-G09_periodic_lead_implicit_path",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 0.000104,
+        "metrics": {
+          "contributions": {
+            "device": -0.009090968759172953,
+            "energy_and_broadening": -0.00222700126554412,
+            "interfaces": -0.012174266126462382,
+            "lead_cells": -0.00010644495033497621,
+            "periodic_hoppings": -0.005240908225423939
+          },
+          "directional_relative_error": 1.537024636576298e-08,
+          "finite_difference_directional_derivative": -0.028839588883666778,
+          "native_directional_derivative": -0.02883958932693837,
+          "physical_model": "single resonant level between two semi-infinite one-dimensional leads",
+          "transmission": 0.9860442413302684
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "thouless",
+      "case_id": "ad_sparse_adjoint_scaling",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "ad_sparse_adjoint_scaling"
+      ],
+      "kernel_seconds": {
+        "maximum": 0.000886375,
+        "median": 0.000808583,
+        "minimum": 0.000762042,
+        "samples": [
+          0.000762042,
+          0.000886375,
+          0.000881,
+          0.000801916,
+          0.000787958,
+          0.000838666,
+          0.000808583
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 0.003831542002444621,
+        "median": 0.003511458999128081,
+        "minimum": 0.0030937920018914156,
+        "samples": [
+          0.0032355419971281663,
+          0.0037428750001708977,
+          0.003511458999128081,
+          0.003831542002444621,
+          0.00334024999756366,
+          0.003597125003580004,
+          0.0030937920018914156
+        ]
+      },
+      "repetitions": 7,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "237f544c497e89cd99dedd68f16e399bc9980987",
+        "case_id": "ad_sparse_adjoint_scaling",
+        "checks": [
+          {
+            "actual": {
+              "maximum_iterations": 11,
+              "maximum_residual": 2.4983350001851576e-12
+            },
+            "expected": {
+              "maximum_iterations": 128,
+              "maximum_residual": 1e-09
+            },
+            "name": "AD-G07_sparse_primal_and_adjoint_residuals",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": 2.644228318311047e-06,
+            "expected": {
+              "maximum_relative_error": 1e-05
+            },
+            "name": "AD-G07_sparse_adjoint_gradient",
+            "passed": true,
+            "tolerance": 1e-05
+          },
+          {
+            "actual": [
+              {
+                "adjoint_iterations": 11,
+                "adjoint_residual": 2.2519662464230335e-12,
+                "central_difference_linear_systems": 16,
+                "directional_relative_error": 1.5085903087746265e-07,
+                "native_linear_systems": 2,
+                "native_microseconds": 95,
+                "parameter_count": 8,
+                "primal_iterations": 11,
+                "primal_residual": 2.208428368691109e-12
+              },
+              {
+                "adjoint_iterations": 11,
+                "adjoint_residual": 2.362226127213238e-12,
+                "central_difference_linear_systems": 64,
+                "directional_relative_error": 2.1131607970045883e-06,
+                "native_linear_systems": 2,
+                "native_microseconds": 87,
+                "parameter_count": 32,
+                "primal_iterations": 11,
+                "primal_residual": 2.4983350001851576e-12
+              },
+              {
+                "adjoint_iterations": 11,
+                "adjoint_residual": 2.2999954679095723e-12,
+                "central_difference_linear_systems": 128,
+                "directional_relative_error": 2.644228318311047e-06,
+                "native_linear_systems": 2,
+                "native_microseconds": 80,
+                "parameter_count": 64,
+                "primal_iterations": 11,
+                "primal_residual": 2.3580275851308635e-12
+              }
+            ],
+            "expected": "two native systems versus two systems per finite-difference parameter",
+            "name": "AD-G08_reverse_solve_count_independent_of_parameters",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 0.000808583,
+        "metrics": {
+          "dimension": 128,
+          "disorder_amplitude": 0.11,
+          "maximum_gradient_relative_error": 2.644228318311047e-06,
+          "maximum_true_residual": 2.4983350001851576e-12,
+          "nearest_neighbor_hopping": -0.22,
+          "physical_model": "one-dimensional Anderson resolvent with grouped onsite gates",
+          "records": [
+            {
+              "adjoint_iterations": 11,
+              "adjoint_residual": 2.2519662464230335e-12,
+              "central_difference_linear_systems": 16,
+              "directional_relative_error": 1.5085903087746265e-07,
+              "native_linear_systems": 2,
+              "native_microseconds": 95,
+              "parameter_count": 8,
+              "primal_iterations": 11,
+              "primal_residual": 2.208428368691109e-12
+            },
+            {
+              "adjoint_iterations": 11,
+              "adjoint_residual": 2.362226127213238e-12,
+              "central_difference_linear_systems": 64,
+              "directional_relative_error": 2.1131607970045883e-06,
+              "native_linear_systems": 2,
+              "native_microseconds": 87,
+              "parameter_count": 32,
+              "primal_iterations": 11,
+              "primal_residual": 2.4983350001851576e-12
+            },
+            {
+              "adjoint_iterations": 11,
+              "adjoint_residual": 2.2999954679095723e-12,
+              "central_difference_linear_systems": 128,
+              "directional_relative_error": 2.644228318311047e-06,
+              "native_linear_systems": 2,
+              "native_microseconds": 80,
+              "parameter_count": 64,
+              "primal_iterations": 11,
+              "primal_residual": 2.3580275851308635e-12
+            }
+          ]
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "backend": "thouless",
+      "case_id": "ad_robust_kpm_design",
+      "command": [
+        "/Users/kunchen/.codex/worktrees/6b96/\u67b6\u6784/thouless-benchmark/backends/thouless/target/release/thouless-benchmark-runner",
+        "ad_robust_kpm_design"
+      ],
+      "kernel_seconds": {
+        "maximum": 3.1319255,
+        "median": 3.085886708,
+        "minimum": 3.0823635,
+        "samples": [
+          3.1319255,
+          3.108320291,
+          3.099735583,
+          3.085875292,
+          3.085886708,
+          3.0823635,
+          3.082735459
+        ]
+      },
+      "process_wall_seconds": {
+        "maximum": 3.134928540996043,
+        "median": 3.0892916670054547,
+        "minimum": 3.085803041998588,
+        "samples": [
+          3.134928540996043,
+          3.1116877919994295,
+          3.1032134590059286,
+          3.0892916670054547,
+          3.089117499999702,
+          3.085803041998588,
+          3.086276125002769
+        ]
+      },
+      "repetitions": 7,
+      "representative_result": {
+        "backend": "thouless",
+        "backend_version": "237f544c497e89cd99dedd68f16e399bc9980987",
+        "case_id": "ad_robust_kpm_design",
+        "checks": [
+          {
+            "actual": 8.46479850277791e-10,
+            "expected": {
+              "maximum_relative_error": 2e-05
+            },
+            "name": "AD-G17_stochastic_kpm_directional_derivative",
+            "passed": true,
+            "tolerance": 2e-05
+          },
+          {
+            "actual": {
+              "final_public_holdout_loss": 8.011130035489598e-05,
+              "final_training_loss": 3.914511403802909e-05,
+              "initial_public_holdout_loss": 0.00041612804326743823,
+              "initial_training_loss": 0.0004364741697242257,
+              "parameter_error": 0.14396490281804963
+            },
+            "expected": "training and unseen public-seed losses both decrease by at least 80%",
+            "name": "AD-G17_training_and_public_holdout_improve",
+            "passed": true,
+            "tolerance": null
+          },
+          {
+            "actual": {
+              "finite_difference_operator_applications": 2240,
+              "full_tape_vectors": 36,
+              "native_operator_applications": 824,
+              "peak_stored_vectors": 19
+            },
+            "expected": "native reverse uses fewer operator actions and vectors than parameter-wise finite differences",
+            "name": "AD-G08_checkpointed_kpm_cost_reduction",
+            "passed": true,
+            "tolerance": null
+          }
+        ],
+        "elapsed_seconds": 3.082735459,
+        "metrics": {
+          "bond_disorder_amplitude": 0.018,
+          "clean_intercell_hopping": 0.24,
+          "clean_intracell_hopping": 0.16,
+          "dimension": 96,
+          "final_public_holdout_loss": 8.011130035489598e-05,
+          "final_training_loss": 3.914511403802909e-05,
+          "finite_difference_operator_applications": 2240,
+          "gradient_relative_error": 8.46479850277791e-10,
+          "initial_public_holdout_loss": 0.00041612804326743823,
+          "initial_training_loss": 0.0004364741697242257,
+          "isolated_held_out_validation_claimed": false,
+          "loss_history": [
+            0.0004364741697242257,
+            0.00023517355713303324,
+            0.00017279664103410743,
+            0.00015481664786109206,
+            0.00014795056616260743,
+            0.00014429338895326083,
+            0.0001408298091558674,
+            0.00013723212690590935,
+            0.00013439037868790522,
+            0.0001308057207270275,
+            0.00012857858239249118,
+            0.00012495784256823884,
+            0.00012334757861222245,
+            0.00011963796659804801,
+            0.00011865711514626073,
+            0.00011480094197736838,
+            0.00011447336947612285,
+            0.00011040662577998515,
+            0.00010826783927343973,
+            0.00010640167010120478,
+            0.00010427870062865484,
+            0.00010276808948189871,
+            0.0001006335185176457,
+            9.947750633395021e-05,
+            9.73022215598867e-05,
+            9.650523192437934e-05,
+            9.425785635089436e-05,
+            9.383009420533528e-05,
+            9.147634127150462e-05,
+            9.143431206847011e-05,
+            8.893625142182516e-05,
+            8.766160826137467e-05,
+            8.662632640072624e-05,
+            8.534234104657486e-05,
+            8.452460083958875e-05,
+            8.321213987627456e-05,
+            8.261746459166974e-05,
+            8.1255407105579e-05,
+            8.089364872757127e-05,
+            7.94583148026494e-05,
+            7.93442308584198e-05,
+            7.780870226554629e-05,
+            7.699593740266045e-05,
+            7.629171853544568e-05,
+            7.547235230912481e-05,
+            7.490120678572638e-05,
+            7.406354551940348e-05,
+            7.362913921058074e-05,
+            7.276027816287467e-05,
+            7.246884729267717e-05,
+            7.155434316179543e-05,
+            7.14150129201711e-05,
+            7.043850083212811e-05,
+            6.990665036281913e-05,
+            6.9408166881114e-05,
+            6.887003035251204e-05,
+            6.845676332806547e-05,
+            6.790438194928523e-05,
+            6.75799309230853e-05,
+            6.700433233330992e-05,
+            6.67742300595291e-05,
+            6.616515140111647e-05,
+            6.603717048373872e-05,
+            6.538272474740863e-05,
+            6.536726567102199e-05,
+            6.46535372651996e-05,
+            6.427985049803577e-05,
+            6.397325703224559e-05,
+            6.358871976019855e-05,
+            6.334043093332609e-05,
+            6.293903303714797e-05,
+            6.275315517039591e-05,
+            6.232798817812411e-05,
+            6.221011737862986e-05,
+            6.175315414255815e-05,
+            6.171063193316936e-05,
+            6.121246193184549e-05,
+            6.09440388870693e-05,
+            6.070482016901963e-05,
+            6.0427612161880204e-05,
+            6.022852716400908e-05,
+            5.993813447637956e-05,
+            5.978272251025289e-05,
+            5.94739911634131e-05,
+            5.9366983708953996e-05,
+            5.903381382176697e-05,
+            5.898137220005771e-05,
+            5.861648266219903e-05,
+            5.841343670502593e-05,
+            5.822064191193135e-05,
+            5.80104821001613e-05,
+            5.7845985102265365e-05,
+            5.7625515656135363e-05,
+            5.749213276403566e-05,
+            5.72575832343876e-05,
+            5.715900360250132e-05,
+            5.6905887775009124e-05,
+            5.6846849223990545e-05,
+            5.656979266852365e-05,
+            5.6556300056354084e-05,
+            5.6248828934744956e-05,
+            5.608413778057169e-05,
+            5.594299698617245e-05,
+            5.576990013020254e-05,
+            5.565205762393721e-05,
+            5.546757165457183e-05,
+            5.5376200892152895e-05,
+            5.517672187994051e-05,
+            5.5115892372788446e-05,
+            5.4897039488047306e-05,
+            5.487192259253226e-05,
+            5.4628343283157196e-05,
+            5.4493721176108606e-05,
+            5.437032598829577e-05,
+            5.4228737054037496e-05,
+            5.4123260197224217e-05,
+            5.397234274124153e-05,
+            5.38874159283637e-05,
+            5.372430200660114e-05,
+            5.366327286392019e-05,
+            5.348446295059002e-05,
+            5.3451559807326275e-05,
+            5.3252767293426866e-05,
+            5.3139902675445764e-05,
+            5.3029395848837e-05,
+            5.2910588461352516e-05,
+            5.28144596026066e-05,
+            5.2687721498884426e-05,
+            5.2608308471788025e-05,
+            5.24711960390968e-05,
+            5.241147926050429e-05,
+            5.226097560983658e-05,
+            5.222473685610587e-05,
+            5.205710387289411e-05,
+            5.2049127130251987e-05,
+            5.1859719057042715e-05,
+            5.1756882418377325e-05,
+            5.166888356038362e-05,
+            5.155916735722776e-05,
+            5.148507500401103e-05,
+            5.136639545155498e-05,
+            5.130880620016299e-05,
+            5.117858238302857e-05,
+            5.114078093320555e-05,
+            5.099580777629157e-05,
+            5.098193861854218e-05,
+            5.081822747146198e-05,
+            5.072768112831893e-05,
+            5.064618977843187e-05,
+            5.0549508263841306e-05,
+            5.048001690690279e-05,
+            5.0375327428792844e-05,
+            5.032023847751433e-05,
+            5.02051991772862e-05,
+            5.016756895059016e-05,
+            5.00392438485306e-05,
+            5.0022955048166036e-05,
+            4.9877655157644116e-05,
+            4.979604303893912e-05,
+            4.972059771010019e-05,
+            4.963338120236247e-05,
+            4.9568520819719604e-05,
+            4.9474007138123854e-05,
+            4.942193236383627e-05,
+            4.931799937712281e-05,
+            4.928150616708558e-05,
+            4.9165488551035965e-05,
+            4.914812443663886e-05,
+            4.9016669519919234e-05,
+            4.894219151508495e-05,
+            4.887188397171847e-05,
+            4.879215540673479e-05,
+            4.873148473752054e-05,
+            4.8644905439435285e-05,
+            4.859599526612489e-05,
+            4.850054285807318e-05,
+            4.8466107635452885e-05,
+            4.835922117537995e-05,
+            4.834272867986058e-05,
+            4.8221159687027264e-05,
+            4.815193826749415e-05,
+            4.80865725779273e-05,
+            4.801231454822481e-05,
+            4.795590198410939e-05,
+            4.787508445576979e-05,
+            4.7829663734881475e-05,
+            4.7740358148705944e-05,
+            4.770853384963055e-05,
+            4.760829456911683e-05,
+            4.759339195298569e-05,
+            4.747911407529914e-05,
+            4.741415397556337e-05,
+            4.735316726724274e-05,
+            4.7283265858351834e-05,
+            4.723083688942664e-05,
+            4.7154486670725064e-05,
+            4.711266613181671e-05,
+            4.7027944232073696e-05,
+            4.699936805263752e-05,
+            4.6903818021818544e-05,
+            4.689187419847509e-05,
+            4.67823535865787e-05,
+            4.6720427869570686e-05,
+            4.666380629891029e-05,
+            4.659692381735158e-05,
+            4.654864076254186e-05,
+            4.647529891386597e-05,
+            4.643741067003909e-05,
+            4.6355689811715655e-05,
+            4.633083885653052e-05,
+            4.6238284015344493e-05,
+            4.6229865100417674e-05,
+            4.612333391943966e-05,
+            4.606381131398006e-05,
+            4.60112232914925e-05,
+            4.5946629455797595e-05,
+            4.590238390720125e-05,
+            4.583116683124144e-05,
+            4.5797416195581046e-05,
+            4.571757992532052e-05,
+            4.569710710197323e-05,
+            4.56060815258112e-05,
+            4.5602485416875696e-05,
+            4.549695723085963e-05,
+            4.543888541308038e-05,
+            4.539051407176858e-05,
+            4.532714552040138e-05,
+            4.528727589134669e-05,
+            4.521699723368383e-05,
+            4.5187876027652504e-05,
+            4.510860998014722e-05,
+            4.5093141199275935e-05,
+            4.500221104670551e-05,
+            4.494938157247523e-05,
+            4.48981362317854e-05,
+            4.4841011240467934e-05,
+            4.479677865459559e-05,
+            4.4734016812768966e-05,
+            4.4698678218527215e-05,
+            4.462854357858071e-05,
+            4.460454475826811e-05,
+            4.45247881100448e-05,
+            4.4515309733996626e-05,
+            4.442301374579089e-05,
+            4.4370656228759115e-05,
+            4.4323515226505146e-05,
+            4.4266505911537075e-05,
+            4.4226771002748536e-05,
+            4.4163664954619976e-05,
+            4.413337040135181e-05,
+            4.406229544322114e-05,
+            4.404408553837785e-05,
+            4.396261421053556e-05,
+            4.395992616830746e-05,
+            4.386490911285667e-05,
+            4.3812608306116464e-05,
+            4.376960175819569e-05,
+            4.371218548512709e-05,
+            4.367718729035457e-05,
+            4.361305141152504e-05,
+            4.3588344290780825e-05,
+            4.3515398119591635e-05,
+            4.3503966444123344e-05,
+            4.341948252473158e-05,
+            4.3370822116243246e-05,
+            4.3325600018516924e-05,
+            4.327259311820796e-05,
+            4.323421473704986e-05,
+            4.317548924474815e-05,
+            4.314590621121027e-05,
+            4.307967379901662e-05,
+            4.306143638995725e-05,
+            4.2985364795121745e-05,
+            4.298180570889156e-05,
+            4.289285166148877e-05,
+            4.284353479584372e-05,
+            4.2802553935964035e-05,
+            4.274830489959325e-05,
+            4.2714973533136435e-05,
+            4.2654221095127275e-05,
+            4.263079628994043e-05,
+            4.256148118323273e-05,
+            4.255092869568832e-05,
+            4.247034962787e-05,
+            4.242391918975434e-05,
+            4.238113593758275e-05,
+            4.23303996725671e-05,
+            4.2294316693200823e-05,
+            4.2237895949542356e-05,
+            4.221049293959435e-05,
+            4.214658086912832e-05,
+            4.213045763030584e-05,
+            4.205668493139127e-05,
+            4.205525592108886e-05,
+            4.196851430748235e-05,
+            4.192078010061395e-05,
+            4.188251079628223e-05,
+            4.182974614991641e-05,
+            4.1799208983983734e-05,
+            4.173978783061594e-05,
+            4.171933931375812e-05,
+            4.1651119161536925e-05,
+            4.1643870763508134e-05,
+            4.156402636727877e-05,
+            4.151865071541047e-05,
+            4.147884820103293e-05,
+            4.1428968603053216e-05,
+            4.13961006219369e-05,
+            4.13402556737206e-05,
+            4.13164391354353e-05,
+            4.125270354050256e-05,
+            4.1240731547560076e-05,
+            4.116656770561824e-05,
+            4.1123257389404196e-05,
+            4.108221199545591e-05,
+            4.10348287563308e-05,
+            4.1000088145011276e-05,
+            4.0947290484321804e-05,
+            4.092081086314355e-05,
+            4.086082362689156e-05,
+            4.0845198696206426e-05,
+            4.077567106964018e-05,
+            4.077434160044081e-05,
+            4.06921580412268e-05,
+            4.064674223270029e-05,
+            4.061067185527688e-05,
+            4.056029200079184e-05,
+            4.0531800390303774e-05,
+            4.04748245201141e-05,
+            4.045629451144692e-05,
+            4.0390562057574336e-05,
+            4.038515178325347e-05,
+            4.030780126338493e-05,
+            4.026414501675041e-05,
+            4.0226966062038665e-05,
+            4.0178716407329246e-05,
+            4.0148583396757636e-05,
+            4.0094208504665864e-05,
+            4.0073373042340407e-05,
+            4.001083594012959e-05,
+            4.0002296943734624e-05,
+            3.992888697053397e-05,
+            3.9886607004045766e-05,
+            3.984871166875624e-05,
+            3.9802134337072495e-05,
+            3.977083251212519e-05,
+            3.9718520870578685e-05,
+            3.9695923718074245e-05,
+            3.963596728116284e-05,
+            3.9624884517907125e-05,
+            3.9554742264591894e-05,
+            3.951370606972593e-05,
+            3.947522726121866e-05,
+            3.943013553083658e-05,
+            3.9397904071452415e-05,
+            3.934738282858532e-05,
+            3.932343018302183e-05,
+            3.9265645016946224e-05,
+            3.925268740884792e-05,
+            3.9185187490265594e-05
+          ],
+          "moment_count": 36,
+          "native_operator_applications": 824,
+          "optimized_parameters": [
+            0.082812246571799,
+            -0.02624533016865308,
+            -0.018355729156834893,
+            -0.016035097181950363
+          ],
+          "parameter_count": 4,
+          "peak_stored_vectors": 19,
+          "physical_model": "bond-disordered Su-Schrieffer-Heeger chain",
+          "public_holdout_seeds": [
+            17,
+            41,
+            67,
+            97,
+            127
+          ],
+          "target_parameters": [
+            0.18,
+            -0.13,
+            0.09,
+            -0.16
+          ],
+          "training_seeds": [
+            11,
+            23,
+            37,
+            53,
+            71,
+            89,
+            107,
+            131
+          ]
+        },
+        "schema_version": 1,
+        "status": "passed"
+      }
+    }
+  ],
+  "schema_version": 1,
+  "summary": {
+    "backend_case_records": 10,
+    "failed": 0,
+    "passed": 10,
+    "repetitions_per_record": 7
+  }
+}

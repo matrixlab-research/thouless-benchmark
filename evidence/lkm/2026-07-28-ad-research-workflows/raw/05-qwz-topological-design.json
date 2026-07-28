@@ -1,0 +1,665 @@
+{
+  "code": 0,
+  "data": {
+    "has_more": true,
+    "papers": {
+      "paper:1073851326128979992": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Yifan Wang | Wladimir A. Benalcazar",
+        "available_online": "",
+        "cover_date_start": "2024-12-08",
+        "created_at": "2026-06-13T18:28:11+08:00",
+        "doi": "10.48550/arxiv.2412.05809",
+        "en_title": "Higher-order Topological Knots and Nonreciprocal Dynamics in non-Hermitian lattices",
+        "id": "1073851326128979992",
+        "keywords": "",
+        "publication_date": "2024-12-08",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "非厄米晶格中的高阶拓扑结与非互易动力学"
+      },
+      "paper:1083079572217397328": {
+        "area": "arxiv-physics",
+        "authors": "Gang-Gang Xu | Xiao-Shuang Li | Tian-Xue Ma | Xi-Xian Liu | Xiao-Wei Sun | Yue-Sheng Wang",
+        "available_online": "",
+        "cover_date_start": "2025-01-03",
+        "created_at": "2026-06-13T08:42:04+08:00",
+        "doi": "10.48550/arxiv.2501.01766",
+        "en_title": "Customizing pseudospin unidirectional states of acoustic and electromagnetic waves in two-dimensional phoxonic topological insulators via multi-objective strategies",
+        "id": "1083079572217397328",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108505",
+        "publication_name": "Applied Physics",
+        "research_categories": "",
+        "zh_title": "通过多目标策略在二维声子拓扑绝缘体中定制声波和电磁波的赝自旋单向状态"
+      },
+      "paper:1196062166898180096": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Aiden J. Mains | Jia-Xin Zhong | Yun Jing | Bitan Roy",
+        "available_online": "",
+        "cover_date_start": "2025-11-13",
+        "created_at": "2026-06-13T17:20:39+08:00",
+        "doi": "10.48550/arXiv.2511.10646",
+        "en_title": "Ordinary lattice defects as probes of topology",
+        "id": "1196062166898180096",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "作为拓扑结构探针的普通晶格缺陷"
+      },
+      "paper:1231203457055064068": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Frode Balling-Ansø | Adipta Pal | Ashley M. Cook | Anne E. B. Nielsen",
+        "available_online": "",
+        "cover_date_start": "2026-02-18",
+        "created_at": "2026-06-19T07:55:41+08:00",
+        "doi": "10.48550/arXiv.2602.16411",
+        "en_title": "Transition between one- and two-dimensional topology in a Chern insulator of finite width",
+        "id": "1231203457055064068",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "有限宽度的陈绝缘体中一维与二维拓扑之间的转变"
+      },
+      "paper:1245716009227124790": {
+        "area": "arxiv-physics, arxiv-quantum physics",
+        "authors": "Qin-Qin Wang | Xiao-Ye Xu | Chuan-Feng Li | Guang-Can Guo",
+        "available_online": "",
+        "cover_date_start": "2026-03-27",
+        "created_at": "2026-05-16T01:21:31+08:00",
+        "doi": "10.48550/arXiv.2603.27028",
+        "en_title": "Nonunitary Preparation of Nontrivial States from Trivial Regimes in Two-Dimensional Topological Insulators",
+        "id": "1245716009227124790",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108526",
+        "publication_name": "Quantum Physics",
+        "research_categories": "",
+        "zh_title": ""
+      },
+      "paper:7478126813728211046": {
+        "area": "arXiv-cond-mat",
+        "authors": "Tengming Lou (1) | Haiyang Wang (1) | Haijiao Ji (2) | Haiwen Liu (1 | 3 | 4) ((1) Center for Advanced Quantum Studies | School of Physics | Astronomy | Beijing Normal University | Beijing | China | (2) Tsung-Dao Lee Institute | Shanghai Jiao Tong University | Shanghai | China | (3) Key Laboratory of Multiscale Spin Physics | Ministry of Education | Beijing | China | (4) Interdisciplinary Center for Theoretical Physics | Information Sciences | Fudan University | Shanghai | China)",
+        "available_online": null,
+        "cover_date_start": "2026-06-30",
+        "created_at": "2026-07-08T11:22:43+08:00",
+        "doi": "10.48550/arxiv.2606.31604",
+        "en_title": "Eigenstate Transitions, Duality, and Anomalous Diffusion in a Quasiperiodic Qi-Wu-Zhang Chern Insulator",
+        "id": "7478126813728211046",
+        "keywords": null,
+        "publication_date": "2026-06-30",
+        "publication_id": "",
+        "publication_name": "arXiv (cond-mat.dis-nn)",
+        "research_categories": null,
+        "zh_title": "准周期Qi-wu-zhang Chern绝缘子中的本征态跃迁，对偶和异常扩散"
+      },
+      "paper:7483279775917490288": {
+        "area": "arXiv-cond-mat",
+        "authors": "Lizhou Liu | Cheng-Ming Miao | Qing-Feng Sun",
+        "available_online": null,
+        "cover_date_start": "2026-07-14",
+        "created_at": "2026-07-16T06:54:58+08:00",
+        "doi": "10.48550/arxiv.2607.12314",
+        "en_title": "Engineering Two-Dimensional Hybrid-Order Topological Insulators via Trilayer Coupling",
+        "id": "7483279775917490288",
+        "keywords": null,
+        "publication_date": "2026-07-14",
+        "publication_id": "",
+        "publication_name": "arXiv (cond-mat.mes-hall)",
+        "research_categories": null,
+        "zh_title": "通过三层耦合的工程二维混合阶拓扑绝缘体"
+      },
+      "paper:813184879289171971": {
+        "area": "material science, materials science, multidisciplinary, chemistry, physical, physics, applied, condensed matter, nanoscience & nanotechnology",
+        "authors": "Liangzhi Kou | Binghai Yan | Feiming Hu | Shu-Chun Wu | Tim O. Wehling | Claudia Felser | Changfeng Chen | Thomas Frauenheim",
+        "available_online": "2013-11-11",
+        "cas_zone": "2",
+        "cover_date_start": "2013-11-11",
+        "created_at": "2026-06-17T02:00:20+08:00",
+        "doi": "10.1021/nl4037214",
+        "en_title": "Graphene-Based Topological Insulator with an Intrinsic Bulk Band Gap above Room Temperature",
+        "id": "813184879289171971",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "[{\"en_name\": \"band inversion\", \"ch_name\": \"\"}, {\"en_name\": \"graphene\", \"ch_name\": \"\"}, {\"en_name\": \"large bandgap\", \"ch_name\": \"\"}, {\"en_name\": \"quantum well\", \"ch_name\": \"\"}, {\"en_name\": \"strain engineering\", \"ch_name\": \"\"}, {\"en_name\": \"Topological insulator\", \"ch_name\": \"\"}]",
+        "publication_date": "2013-12-11",
+        "publication_id": "2026",
+        "publication_name": "Nano Letters _ Nano Lett.",
+        "research_categories": "",
+        "zh_title": "具有高于室温的本征体能隙的基于石墨烯的拓扑绝缘体"
+      },
+      "paper:817342761018589185": {
+        "area": "physics and astrophysics, physical sciences, condensed matter physics",
+        "authors": "Rasmus E. Christiansen | Fengwen Wang | Ole Sigmund",
+        "available_online": "",
+        "cas_zone": "1",
+        "cover_date_start": "2019-10-07",
+        "created_at": "2026-06-02T11:04:39+08:00",
+        "doi": "10.1103/PhysRevLett.122.234502",
+        "en_title": "Topological Insulators by Topology Optimization",
+        "id": "817342761018589185",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ ",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "基于拓扑优化的拓扑绝缘体"
+      },
+      "paper:817362327027318785": {
+        "area": "material science, chemical sciences, engineering",
+        "authors": "Jishi Yang | Yaolu Liu | Dongyang Sun | Ning Hu | Huiming Ning",
+        "available_online": "",
+        "cas_zone": "3",
+        "cover_date_start": "2022-09-28",
+        "created_at": "2026-05-23T01:48:26+08:00",
+        "doi": "10.3390/ma15196697",
+        "en_title": "Inverse Design of Valley-Like Edge States of Sound Degenerated Away from the High-Symmetry Points in a Square Lattice",
+        "id": "817362327027318785",
+        "impact_factor": 3.2,
+        "jcr_zone": "Q2",
+        "keywords": "[{\"ch_name\":\"边缘态\",\"en_name\":\"edge states\"},{\"ch_name\":\"显式几何描述\",\"en_name\":\"explicit geometry description\"},{\"ch_name\":\"逆设计\",\"en_name\":\"inverse design\"},{\"ch_name\":\"谷状态\",\"en_name\":\"valley-like states\"}]",
+        "publication_date": "",
+        "publication_id": "2165",
+        "publication_name": "Materials _ ",
+        "research_categories": "[\"Chemical Sciences\", \"Engineering\"]",
+        "zh_title": "远离正方晶格高对称点处简并声谷状边缘态的逆设计"
+      },
+      "paper:817363160708153348": {
+        "area": "physics and astrophysics, physical sciences, condensed matter physics",
+        "authors": "Yafeng Chen | Fei Meng | Yuri Kivshar | Baohua Jia | and Xiaodong Huang",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2020-05-02",
+        "created_at": "2026-06-02T08:58:54+08:00",
+        "doi": "10.1103/PhysRevResearch.2.023115",
+        "en_title": "Inverse design of higher-order photonic topological insulators",
+        "id": "817363160708153348",
+        "impact_factor": 4.9,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "68812",
+        "publication_name": "Physical Review Research _ ",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "高阶光子拓扑绝缘体的逆设计"
+      },
+      "paper:865006607434514618": {
+        "area": "material science, physical sciences, condensed matter physics",
+        "authors": "Zongliang Du | Xianggui Ding | Hui Chen | Chang Liu | Weisheng Zhang | Jiachen Luo | Xu Guo",
+        "available_online": "2022-12-5",
+        "cas_zone": "4",
+        "cover_date_start": "2022-12-05",
+        "created_at": "2026-05-22T22:19:33+08:00",
+        "doi": "10.3389/fmats.2022.1075073",
+        "en_title": "Optimal design of topological waveguides by machine learning",
+        "id": "865006607434514618",
+        "impact_factor": 2.5,
+        "jcr_zone": "Q3",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "2250",
+        "publication_name": "Frontiers in Materials _ Front. Mater.",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "通过机器学习优化拓扑波导设计"
+      },
+      "paper:867751391383257513": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Samuel Kim | Thomas Christensen | Steven G. Johnson | Marin Soljačić",
+        "available_online": "",
+        "cover_date_start": "2022-11-29",
+        "created_at": "2026-06-10T00:23:24+08:00",
+        "doi": "10.48550/arXiv.2211.16560",
+        "en_title": "Automated Discovery and Optimization of 3D Topological Photonic Crystals",
+        "id": "867751391383257513",
+        "keywords": "",
+        "publication_date": "2022-11-29",
+        "publication_id": "108520",
+        "publication_name": "Optics _ Physics.physics.optics",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "三维拓扑光子晶体的自动发现与优化"
+      },
+      "paper:867759705399755151": {
+        "area": "arxiv-physics, mathematical sciences, physical sciences, condensed matter physics",
+        "authors": "James Bartlett | Erhai Zhao",
+        "available_online": "",
+        "cover_date_start": "2022-09-14",
+        "created_at": "2026-06-13T11:57:06+08:00",
+        "doi": "10.48550/arXiv.2209.06774",
+        "en_title": "Unravelling the edge spectra of non-Hermitian Chern insulators",
+        "id": "867759705399755151",
+        "keywords": "",
+        "publication_date": "2022-09-14",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Mathematical Sciences\", \"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "解析非厄米陈绝缘体的边缘谱"
+      },
+      "paper:867765760213123939": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Haijiao Ji | Noah F. Q. Yuan | Hua Jiang | Haiwen Liu | X. C. Xie",
+        "available_online": "",
+        "cover_date_start": "2023-03-26",
+        "created_at": "2026-06-14T12:33:57+08:00",
+        "doi": "10.48550/arXiv.2303.14794",
+        "en_title": "Anomalous open orbits in Hofstadter spectrum of Chern insulator",
+        "id": "867765760213123939",
+        "keywords": "",
+        "publication_date": "2023-03-26",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "陈绝缘体霍夫施塔特谱中的反常开放轨道"
+      }
+    },
+    "variables": [
+      {
+        "content": "The best Chern-insulator design obtained (SG 168, $C_z=1$, HS gap 5.1% equaling full-BZ gap) is claimed to have the largest known complete bandgap of any three-dimensional photonic Chern insulator in the literature surveyed, and it achieves this without employing supercell modulation techniques used in earlier proposals.",
+        "content_hash": "70ecad07aa27b4696c794d6b87c2b60b6d5724efd8ee000567c0fc02a3376eb7",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_da9ba1b0de6c4da5",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867751391383257513::conclusion_10",
+            "package_id": "paper:867751391383257513",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867751391383257513"
+          ]
+        },
+        "rerank_score": 0.8250106688089642,
+        "role": "conclusion",
+        "score": 0.01639344262295082,
+        "title": "Claimed record: largest-known complete bandgap for a 3D photonic Chern insulator (author assertion)",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "A top-down, inverse design method based on density-based topology optimization is introduced for synthesizing acoustic topological insulators. The approach directly targets backscattering-protected, directional energy transport by maximizing transmission to two output ports and minimizing transmission to a third, without imposing any explicit requirements on the existence of pseudospin-1/2 edge states, the Chern numbers of the topological phases, or band symmetry inversion. These topological properties emerge spontaneously during the optimization process.",
+        "content_hash": "ce0696324239999aa4b7c48e28a5ef506b4171c90610e6f1ee0a5c780d42c680",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_9da619e467814f8e",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817342761018589185::conclusion_1",
+            "package_id": "paper:817342761018589185",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817342761018589185"
+          ]
+        },
+        "rerank_score": 0.7958243794610518,
+        "role": "conclusion",
+        "score": 0.015151515151515152,
+        "title": "Inverse design method for acoustic TIs",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The overlapped band gap between the optimized nontrivial PC (NP1) and trivial PC (TP) achieves a width of 29.3% (normalized frequency range $\\Omega=0.434$ to $0.583$), which is more than twice that of the existing SPTI designs reported in Refs. [28,29,31].",
+        "content_hash": "5715ef211942a1b2f50fc1319681072e78f39100b71f18219222154674c50543",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_eb7c7fa676054bb7",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817363160708153348::conclusion_2",
+            "package_id": "paper:817363160708153348",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817363160708153348"
+          ]
+        },
+        "rerank_score": 0.8519204032862163,
+        "role": "conclusion",
+        "score": 0.01020408163265306,
+        "title": "Overlapped band gap of 29.3%, more than twice that of existing SPTIs",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The inverse design of a topological waveguide is formulated as a paired-unit-cell optimization over design vectors \\boldsymbol{d}^{(1)} and \\boldsymbol{d}^{(2)}, where each \\boldsymbol{d}^{(i)}=(x_{0}^{(i)},\\rho_{1}^{(i)},\\rho_{2}^{(i)},\\rho_{3}^{(i)},\\rho_{4}^{(i)},\\phi^{(i)})^{\\top} is constrained to an admissible set and the objective enforces opposite predicted labels ψ^{(1)}=-1 and ψ^{(2)}=+1 together with maximizing or targeting the normalized width of their common nontrivial bandgap; in this formulation the learned maps \\mathcal{F}_c:\\boldsymbol{d}\\mapsto\\psi (the trained classification network) and \\mathcal{F}_r:\\boldsymbol{d}\\mapsto(\\bar{\\omega}_1,\\bar{\\omega}_2) (the trained regression network) are substituted for direct topology and band-structure computations inside the optimization constraints.",
+        "content_hash": "10982d752427c2b007f635791b86b040bcd5d9c667edab8787eb100073c84b77",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_e6d681b2afda4936",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:865006607434514618::conclusion_6",
+            "package_id": "paper:865006607434514618",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:865006607434514618"
+          ]
+        },
+        "rerank_score": 0.803143359361817,
+        "role": "conclusion",
+        "score": 0.013888888888888888,
+        "title": "Optimization formulation for paired MMC unit cells using learned surrogates",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The presented two-step inverse-design approach directly generates a pair of unit cells (a first unit cell (FUC) and a counterpart unit cell (CUC)) with distinct topological characters for both acoustic and electromagnetic waves and explicitly maximizes their bandgap matching, rather than relying on parameter scans across a single Dirac-point band inversion to choose unit cells before and after a phase transition. This direct-pair construction workflow produces practical phoxonic topological insulator (PxTI) interfaces without requiring the pre-identification of critical band-inversion points.",
+        "content_hash": "7629d4ac9f36f9d95b7865e7b64d8ac15e481db271b928995583ed6a1fe24605",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_b9376b79a8614f05",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1083079572217397328::conclusion_12",
+            "package_id": "paper:1083079572217397328",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1083079572217397328"
+          ]
+        },
+        "rerank_score": 0.6947266330650668,
+        "role": "conclusion",
+        "score": 0.016129032258064516,
+        "title": "Direct unit cell pair generation approach distinct from band-inversion selection",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Maximizing the common bandgap width $G_{4,5}$ for the fourth–fifth band pair in the inverse design yields a relative bandgap that is approximately 70% larger than the common bandgap computed for the manually designed valley‑like structure reported by Xia et al., Phys. Rev. B 97, 155124 (2018); the reported numerical improvement is therefore a pairwise comparison against that single prior design.",
+        "content_hash": "533e3a128334b70b8914989054fb3e46a40271a274d21489c85eee49420fea19",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_1fca4fd2883e4236",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817362327027318785::conclusion_5",
+            "package_id": "paper:817362327027318785",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817362327027318785"
+          ]
+        },
+        "rerank_score": 0.7412613211385468,
+        "role": "conclusion",
+        "score": 0.015873015873015872,
+        "title": "~70% wider common bandgap versus the Xia et al. 2018 design",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In the modified Qi-Wu-Zhang model with open boundary conditions in the \\(x\\)-direction and periodic in the \\(y\\)-direction, implemented on a lattice of width \\(L_x\\) with Hamiltonian \\(H_{\\mathrm{op}}(k_y)\\) (given explicitly in the model definition), the smooth width-modulation procedure—adding the edge potential\n      \\[\n      H_{\\mathrm{edge}}(u)=\\left(|1\\rangle\\langle 1|+|L_x\\rangle\\langle L_x|\\right)\\otimes \\tan\\!\\left(\\frac{\\pi u}{2}\\right)\\sigma_z,\\quad u\\in[0,1),\n      \\]\n      and then repeating on the new edges—continuously reduces the effective width from \\(L_x\\) to \\(L_x-2\\). By iterating this procedure, the width can be reduced stepwise; for example, from \\(L_x=20\\) down to \\(L_x=6\\). Tracking the centers of the several rightmost spectral gaps as \\(u\\) increases shows that these gaps never close during the modulation. Consequently, the system can be taken continuously from an effectively two-dimensional Chern insulator (large \\(L_x\\)) to an effectively one-dimensional topological insulator (small \\(L_x\\)) along a path that does not close the energy gap separating occupied and unoccupied states.",
+        "content_hash": "e5d0b72c8c58d82aceca7ebe20407efea7798c80d7b3bb28577c3cd42a4e88b8",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_d2d050d640dc4ecb",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1231203457055064068::conclusion_2",
+            "package_id": "paper:1231203457055064068",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1231203457055064068"
+          ]
+        },
+        "rerank_score": 0.6539286454038682,
+        "role": "conclusion",
+        "score": 0.026132699813337858,
+        "title": "Existence of a continuous gapped path between two-dimensional and one-dimensional topological phases",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Ordinary lattice defects provide a generic and practical mechanism to localize mid-gap modes that diagnose band topology or local topological changes, as demonstrated by model studies and acoustic-lattice experiments on the Qi-Wu-Zhang (QWZ) Chern insulator. These findings should be pertinent across lattice symmetries and physical dimensions and can be exploited to (a) trap localized Majorana modes near ordinary defects in topological superconductors (with suitable spinor redefinitions of the QWZ model to $p+ip$ pairing contexts), and (b) motivate ordinary-defect-engineered topological devices in metamaterials (acoustic, photonic, phononic, and topoelectric circuits), as well as motivate analogous studies in Floquet and non-Hermitian lattices (including defect-localized non-Hermitian skin effects).",
+        "content_hash": "669de7df637fbe1f465e7a2c60fcdf1038be8921c9b43e3926c5bca1ccc06bc3",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_85377cf5e1a34651",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1196062166898180096::conclusion_8",
+            "package_id": "paper:1196062166898180096",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1196062166898180096"
+          ]
+        },
+        "rerank_score": 0.6364273685413883,
+        "role": "conclusion",
+        "score": 0.016129032258064516,
+        "title": "Ordinary defects as generic probes of topology with applications to Majorana trapping and topological devices",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The coupled trilayer Chern system, composed of three Qi-Wu-Zhang layers with Chern numbers $C_1=+1$, $C_2=-1$, $C_3=+1$ in the decoupled limit and with interlayer tunneling $t_\\perp$, realizes a two-dimensional hybrid-order topological insulator. In this phase, a single chiral edge mode and a pair of zero-dimensional corner states coexist within the same bulk gap.",
+        "content_hash": "d584a30798cf256e4b78e049578171ee4ac6382b91b5079afc25bec66c2146d9",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_d780d97221ab498f",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:7483279775917490288::conclusion_1",
+            "package_id": "paper:7483279775917490288",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:7483279775917490288"
+          ]
+        },
+        "rerank_score": 0.6167950142045105,
+        "role": "conclusion",
+        "score": 0.01639344262295082,
+        "title": "Realization of 2D hybrid-order topological insulator in coupled trilayer Chern system",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "A continuous deformation connects a minimal two-band Chern insulator to a higher-order skin effect (HOSE) phase: the two-band Bloch Hamiltonian\n      $h_{\\mathrm{def}}^{\\mathrm{Re}}(\\mathbf{k})=\\sin k_{x}\\,\\sigma_{x}+\\sin k_{y}\\,\\sigma_{y}+(m+t\\cos k_{x}+\\cos k_{y})\\sigma_{z}+\\mathrm{i}\\cos k_{x}(1-g)\\,\\sigma_{0}$,\n      where $\\sigma_{x},\\sigma_{y},\\sigma_{z}$ are the Pauli matrices and $\\sigma_{0}$ is the $2\\times2$ identity matrix, with parameter path $(g,t)=(1,1)-\\theta(1,1)$ for $\\theta:0\\to1$ (mass $m$ fixed at $0.5$), transforms the Hermitian Qi-Wu-Zhang Chern-insulator regime at $(g,t)=(1,1)$ into a HOSE regime at $(g,t)=(0,0)$. Along this deformation (i) a bulk phase transition occurs where a line gap closes and the bulk Chern number changes (the strong bulk topology becomes trivial), and (ii) one pair of chiral edge bands detaches from the bulk and becomes spectrally isolated as point-gapped edge bands that wind in the complex-energy plane; the winding on that one pair of opposite edges yields an $O(L)$ corner skin effect under full open boundary conditions.",
+        "content_hash": "4d9dece62c2ca32a191c719685e2b82b4b6b00517ae5d38fd7b06ed215aaaf80",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_03bdfd5e7e1347b8",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1073851326128979992::conclusion_1",
+            "package_id": "paper:1073851326128979992",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1073851326128979992"
+          ]
+        },
+        "rerank_score": 0.6038610802427684,
+        "role": "conclusion",
+        "score": 0.012658227848101266,
+        "title": "Continuous deformation of a two-band Chern insulator into a HOSE phase",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For the two-band Qi–Wu–Zhang Chern-insulator ramp that crosses the isolated gap-closing cone at momentum $\\mathbf{k}_c=(0,0)$ and critical parameter $m_c=-2$, the leading-order momentum-resolved probability to excite from the lower to the upper band in the slow-parameter-ramp limit is given by the Landau–Zener expression\n      $$\n      P_{\\mathrm{LZ}}^{\\mathbf{k}}\\approx\\exp\\!\\left(-\\frac{\\pi \\mathbf{k}^2}{v_{\\mathrm{LZ}}}\\right),\n      $$\n      where the two-dimensional momentum $\\mathbf{k}$ is measured relative to the gap-closing momentum $\\mathbf{k}_c$, and the effective Landau–Zener velocity is the instantaneous slope of the mass parameter at the crossing time,\n      $$\n      v_{\\mathrm{LZ}}=\\big|\\dot{m}(t_c)\\big|=v\\,\\big|m_f+2\\big|\n      $$\n      for the exponential ramp $m(t)=m_f-(m_f-m_i)e^{-v t}$ that crosses $m_c=-2$; here $v>0$ is the scalar ramp parameter and $m_i,m_f$ are the initial and final mass values. This Gaussian-in-$\\mathbf{k}$ profile sets the leading spatial profile of excitations created in the nonadiabatic crossing and controls the narrowness of the excitation region in momentum space.",
+        "content_hash": "c8d8a041861039171b819e8a851df959d7cb3fbc6b7613b8ee7a18adf2754d7c",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_30f14d6f2c794348",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1245716009227124790::conclusion_1",
+            "package_id": "paper:1245716009227124790",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1245716009227124790"
+          ]
+        },
+        "rerank_score": 0.5977879527605537,
+        "role": "conclusion",
+        "score": 0.00980392156862745,
+        "title": "Landau–Zener excitation probability for Dirac cone crossing",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The nontrivial band gap $\\Delta$ of the quantum well (QW) formed by a single graphene layer sandwiched between two single quintuple-layer (QL) slabs of Bi2Se3 is tunable by varying the interlayer distance and the thickness of the Bi2Se3 cladding: (a) compressing the interlayer distance between graphene and the Bi2Se3 QLs increases the hybridization and increases $\\Delta$ from $\\sim 30\\ \\mathrm{meV}$ (equilibrium) to $\\sim 50\\ \\mathrm{meV}$ at an interlayer compression of $0.45\\ \\mathrm{\\AA}$, corresponding to a nominal applied pressure of $3.78\\ \\mathrm{GPa}$; (b) increasing the Bi2Se3 slab thickness beyond a single QL reduces the QW energy gap, and when each cladding reaches 3 QLs the gap closes due to the emergence of gapless three-dimensional topological surface states. Thus, $1\\ \\mathrm{QL}$ Bi2Se3 cladding and controlled interlayer separation provide the optimal parameter regime for achieving the largest, intrinsic two-dimensional topological insulator (2D TI) gap in this design.",
+        "content_hash": "f8a26d64209ba3ebfa6617c9b873c1700a5db66560543bb06142ef7580f2edb9",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_37d49dd0bbb24e22",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813184879289171971::conclusion_2",
+            "package_id": "paper:813184879289171971",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813184879289171971"
+          ]
+        },
+        "rerank_score": 0.643984270720992,
+        "role": "conclusion",
+        "score": 0.0136986301369863,
+        "title": "Tunability of the nontrivial quantum-well band gap in the Bi2Se3/graphene/Bi2Se3 quantum well by interlayer compression and cladding thickness",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The Qi-Wu-Zhang (QWZ) Chern insulator model under an irrational magnetic flux (with flux per unit cell β = (√5-1)/2) reduces to a one-dimensional spinor quasiperiodic chain with onsite matrix potential controlled by the hopping amplitude t_x (quasiperiodic modulation strength), intercell hopping t_y (set to 1 in numerical calculations), and topological mass m. The eigenstate transitions depend on the relative magnitudes of |m+2| and t_y. When |m+2| > t_y, increasing t_x produces the conventional extended-critical-localized sequence with a critical line at t_x = t_y. When |m+2| ≤ t_y, the system undergoes an extended-to-critical transition at t_x = |m+2| and remains in a critical phase for all t_x ≥ |m+2|, without entering a localized phase even for arbitrarily strong quasiperiodic modulation.",
+        "content_hash": "56b03b9b07f8521477c461279b2a2af712baeb8ae9fc67204451be83457d126b",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_d08eb08225d74091",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:7478126813728211046::conclusion_1",
+            "package_id": "paper:7478126813728211046",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:7478126813728211046"
+          ]
+        },
+        "related": [
+          {
+            "content": "The magnetic Qi-Wu-Zhang (QWZ) model (a two-dimensional Chern insulator under an irrational magnetic flux, reduced to a one-dimensional spinor quasiperiodic chain) possesses a dual transformation that exchanges the hopping amplitudes t_x and t_y (along with the corresponding Bloch phases k_x and k_y). Under this transformation, the real-space Hamiltonian maps to a momentum-space Hamiltonian of identical form. Consequently, the real-space phase diagram maps to the momentum-space phase diagram with extended and localized regions exchanged, while critical regions remain delocalized in both representations.",
+            "has_reasoning": true,
+            "id": "gcn_027c15e159884f4b",
+            "kind": "conclusion",
+            "rerank_score": 0,
+            "role": "conclusion",
+            "score": 0.023255813953488372,
+            "title": "Dual transformation exchanging t_x and t_y",
+            "type": "claim"
+          }
+        ],
+        "rerank_score": 0.5763194002200328,
+        "role": "conclusion",
+        "score": 0.0264808362369338,
+        "title": "Eigenstate transitions in the magnetic QWZ model",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The two principal phenomena — the subband-count formula $N=|q-C|$ and the emergence of anomalous open-orbit subbands with Chern numbers $q-1$ and $-q-1$ — are observed in numerical Hofstadter spectra of multiple lattice Chern-insulator models: the Qi–Wu–Zhang model, the Haldane model, and higher-Chern-number tight-binding constructions. This cross-model verification indicates the phenomena are not artifacts of a single fine-tuned model but are robust features tied to parent-band topology and saddle-point structure.",
+        "content_hash": "ceb300adfd20f10e4f0dd61ae23f66ae40cfa18b2920ea903235b3fad727c17a",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_bc7c99ff25584768",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867765760213123939::conclusion_5",
+            "package_id": "paper:867765760213123939",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867765760213123939"
+          ]
+        },
+        "related": [
+          {
+            "content": "For Bloch bands of Chern insulators at rational flux $\\phi/\\phi_{0}=p/q$ (here $p/q=1/q$ in the computed examples), the parent band splits into $N=|q-C|$ magnetic subbands, where $C$ is the Chern number of the parent (zero-field) band and $q$ is the flux-denominator integer. This counting was observed numerically in Hofstadter spectra of the Qi–Wu–Zhang (QWZ) model (examples at $q=4$) and in higher-Chern-number models (examples at $q=8$).",
+            "has_reasoning": true,
+            "id": "gcn_df827d196e1b4a1d",
+            "kind": "conclusion",
+            "rerank_score": 0,
+            "role": "conclusion",
+            "score": 0.012345679012345678,
+            "title": "Parent band splits into $N=|q-C|$ magnetic subbands at rational flux $\\phi/\\phi_0=p/q$",
+            "type": "claim"
+          }
+        ],
+        "rerank_score": 0.604702173614668,
+        "role": "conclusion",
+        "score": 0.015151515151515152,
+        "title": "Two principal phenomena verified across QWZ, Haldane, and higher-Chern-number models",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The slab-phase diagram of the non-Hermitian model \\(H_3 = H_0 + i t_1 \\sin k_x \\sigma_z\\) (with \\(H_0\\) the Qi-Wu-Zhang model, in the first quadrant \\(m>0, t_1>0\\)) is mirror-symmetric about \\(m=1\\) and comprises six regions: a trivial gapped phase T with line gap and Chern number \\(0\\); two gapped topological regions \\(C_{1}^{LR}\\) and \\(C_{1}^{LL}\\), each with band Chern numbers \\(\\pm1\\) but differing in that \\(C_{1}^{LR}\\) has one edge mode on each edge while \\(C_{1}^{LL}\\) has both edge modes on the left edge; and three gapless regions \\(GL_1\\), \\(GL_2\\), and \\(S'\\), where \\(S'\\) is a topological gapless membrane phase with edge modes traversing a hole in the continuum bands.",
+        "content_hash": "ccad19e891b5c4d80224b196f849a5983210864b3fa92f2de380f8f055383137",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_8d58b5be6f4c4a45",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867759705399755151::conclusion_10",
+            "package_id": "paper:867759705399755151",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867759705399755151"
+          ]
+        },
+        "related": [
+          {
+            "content": "For the non-Hermitian model \\(H_2 = H_0 + i h_x \\sigma_x\\) with \\(H_0\\) the Qi-Wu-Zhang model, in the slab geometry (open boundaries in \\(x\\), periodic in \\(y\\), in the thermodynamic limit \\(L\\to\\infty\\)), the continuum bands are obtained from the analytically continued Hamiltonian \\(\\mathcal{H}_2(\\beta,k_y)\\) (obtained by \\(e^{ik_x}\\to\\beta\\)) with \\(\\beta\\) on the GBZ. These continuum bands define three distinct slab phases in the first quadrant \\(m>0, h_x>0\\): two gapped topological phases \\(C_1\\) and \\(C_2\\) with line gaps and band Chern numbers \\(\\pm1\\) and \\(\\pm2\\) respectively, and a gapless topological slab phase \\(S\\). All slab-phase boundaries, where the continuum-band line gap closes, are given analytically by the four curves on the \\((m,h_x)\\) plane\n      $$\n      m=\\sqrt{1+h_x^2}\\pm 1,\\qquad h_x=\\sqrt{(m\\mp1)^2+1},\n      $$\n      i.e. the set \\(\\{m=\\sqrt{1+h_x^2}+1,\\; m=\\sqrt{1+h_x^2}-1,\\; h_x=\\sqrt{(m-1)^2+1},\\; h_x=\\sqrt{(m+1)^2+1}\\}\\).",
+            "has_reasoning": true,
+            "id": "gcn_fb6af3c240d74ee2",
+            "kind": "conclusion",
+            "rerank_score": 0,
+            "role": "conclusion",
+            "score": 0.010638297872340425,
+            "title": "Analytic slab phase boundaries and three slab phases for H2",
+            "type": "claim"
+          }
+        ],
+        "rerank_score": 0.6093968096924078,
+        "role": "conclusion",
+        "score": 0.014925373134328358,
+        "title": "Slab phase diagram of H3 with six regions and mirror symmetry about m=1",
+        "type": "claim",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "req_465ae3ffc9784"
+}

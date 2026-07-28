@@ -1,4 +1,4 @@
-# Multi-observable spectral recovery
+# Rice-Mele spectral and Wannier-sector inference
 
 **Case:** `ad_spectral_recovery`  
 **Motivating requirements:** TBQ-096, TBQ-099  
@@ -6,20 +6,25 @@
 
 ## Scientific question
 
-Can one tight-binding Hamiltonian be inferred jointly from band energies and
-occupied-subspace information, and does that Hamiltonian predict momenta that
-were excluded from the loss?
+Can the staggered onsite energy and two hopping amplitudes of a Rice-Mele
+chain be inferred jointly from band energies and occupied-subspace
+information, and does the inferred Hamiltonian predict momenta excluded from
+the fit?
 
 ## Benchmark adaptation
 
-A three-parameter, two-band Hermitian family is sampled at five training
-momenta. The loss combines the lower eigenvalue and the occupied projector,
-avoiding any dependence on arbitrary eigenvector phases. A thin
-backtracking optimizer consumes the native gradient.
+The Bloch Hamiltonian is
+`H(k) = delta sigma_z + (t1 + t2 cos(k)) sigma_x + t2 sin(k) sigma_y`.
+Five momenta play the role of measured band and Wannier-sector information.
+The loss combines the lower eigenvalue and occupied projector, avoiding
+arbitrary eigenvector phases. This is a compact adaptation of Rice-Mele
+Hamiltonian inference, not a reproduction of a particular experiment or HHG
+dataset.
 
 ## Parameters
 
-- Target parameters: `(0.42, -0.27, 0.19)`.
+- Energy unit: target intercell hopping `t2 = 1`.
+- Target `(delta, t1, t2)`: `(0.35, 0.72, 1.0)`.
 - Training momenta: `0.17, 0.63, 1.11, 1.72, 2.31`.
 - Public validation momenta: `0.39, 0.91, 1.43, 2.03, 2.67`.
 - Directional-difference step: `1e-6`.
@@ -44,9 +49,12 @@ projector errors remain below the declared tolerance.
 
 ## Evidence and boundary
 
-LKM nodes `gcn_d8da92281f564142` and `gcn_d369960c13104475` motivated joint
-spectral fitting and differentiable tight-binding observables. Primary sources:
-[Elbaz and Toroker (2024)](https://doi.org/10.1038/s41598-024-62788-4) and
-[Vargas-Hernández et al. (2023)](https://doi.org/10.1063/5.0137103).
-The visible validation momenta test interpolation but are not isolated
-held-out evidence.
+LKM node `gcn_c52f0ae9e48644a6` reports simultaneous recovery of modified
+Rice-Mele band parameters from spectra; `gcn_61fac1b8d03e407d` reports
+experimental Wannier-center extraction consistent with a Rice-Mele
+tight-binding description. Primary sources:
+[Klimkin et al. (2021)](https://doi.org/10.48550/arXiv.2106.08638) and
+[Ligthart et al. (2024)](https://doi.org/10.48550/arxiv.2407.14465).
+The raw LKM search and reasoning response are preserved under
+`evidence/lkm/2026-07-28-ad-research-workflows`. Visible validation momenta
+test interpolation but are not isolated held-out evidence.

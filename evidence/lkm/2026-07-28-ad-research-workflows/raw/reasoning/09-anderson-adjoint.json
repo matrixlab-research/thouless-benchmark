@@ -1,0 +1,156 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "The gradient of a converged surface Green's function $g_{s}(\\theta)$ with respect to input parameters $\\theta$ is written explicitly using the implicit function identity derived from the self-consistent equation $h(g_{s},\\theta)=0$. Concretely,\n      $$\n      \\frac{d g_{s}}{d\\theta} \\;=\\; -\\left[\\frac{\\partial h(g_{s},\\theta)}{\\partial g_{s}}\\right]^{-1}\\frac{\\partial h(g_{s},\\theta)}{\\partial\\theta},\n      $$\n      where the self-consistency residual is $h(g_{s},\\theta) = \\big[A_{ll} - A_{l,l-1}\\, g_{s}\\, A_{l-1,l}^{\\dagger}\\big] - g_{s}^{-1}$, $A_{ll}=[E S_{ll}-H_{ll}]$ with $E$ the energy, $S_{ll}$ the overlap matrix for layer $l$ of the semi-infinite lead, $H_{ll}$ the Hamiltonian matrix for that layer, $A_{l,l-1}$ the inter-layer coupling matrix, and $A_{l-1,l}^{\\dagger}$ its Hermitian conjugate; $g_{s}$ is the surface Green's function entering the lead self-energy $\\Sigma^{L}=A_{DL}\\, g_{s}\\, A_{lD}$, where $A_{DL}$ and $A_{lD}$ are the coupling matrices between the device and the left lead (from the $[EI-H]$ matrix). This closed-form implicit-gradient expression is implemented in the backward pass of the corresponding autograd primitive.",
+      "content_hash": "d01d669db99cbd9bad16f0a971794dbf1f9a2e68ffb1d9a5ddc253537f39874a",
+      "id": "gcn_a72c49f810f54d63",
+      "type": "claim"
+    },
+    "papers": {
+      "paper:867757924515053703": {
+        "area": "arXiv-Physics, Engineering, Information and Computing Sciences, Applied Computing",
+        "author_details": [
+          {
+            "origin_name": "Yingzhanghao Zhou"
+          },
+          {
+            "origin_name": "Xiang Chen"
+          },
+          {
+            "affiliation": "Tianjin University",
+            "affiliation_zh": "天津大学",
+            "author_id": "259q1p52",
+            "avatar": "https://cdn1.deepmd.net/static/img/30308f3btvDb5_cAAAAJ.png",
+            "citation_nums": 3896,
+            "h_index": 25,
+            "is_high_cited": true,
+            "name": "Peng Zhang",
+            "origin_name": "Peng Zhang"
+          },
+          {
+            "author_id": "9v8139616",
+            "citation_nums": 715,
+            "h_index": 10,
+            "name": "Jun Wang",
+            "origin_name": "Jun Wang"
+          },
+          {
+            "affiliation": "University of Science and Technology of China",
+            "affiliation_zh": "中国科学技术大学",
+            "author_id": "V55j4uZ5",
+            "citation_nums": 47,
+            "h_index": 2,
+            "name": "Lei Wang",
+            "origin_name": "Lei Wang"
+          },
+          {
+            "affiliation": "McGill University;University of Pittsburgh;Temple University;Lehigh University",
+            "affiliation_zh": "麦吉尔大学;匹兹堡大学;天普大学;理海大学",
+            "author_id": "9454j531",
+            "citation_nums": 25445,
+            "h_index": 83,
+            "is_high_cited": true,
+            "name": "Hong Guo",
+            "origin_name": "Hong Guo"
+          }
+        ],
+        "authors": "Yingzhanghao Zhou | Xiang Chen | Peng Zhang | Jun Wang | Lei Wang | Hong Guo",
+        "authors_list": [
+          "Yingzhanghao Zhou",
+          "Xiang Chen",
+          "Peng Zhang",
+          "Jun Wang",
+          "Lei Wang",
+          "Hong Guo"
+        ],
+        "available_online": "",
+        "citation_nums": 1,
+        "cover_date_start": "2022-02-10",
+        "created_at": "2023-05-23T05:20:11+08:00",
+        "doi": "10.48550/arXiv.2202.05098",
+        "en_abstract": "Since proposed in the 70s, the Non-Equilibrium Green Function (NEGF) method has been recognized as a standard approach to quantum transport simulations. Although it achieves superiority in simulation accuracy, the tremendous computational cost makes it unbearable for high-throughput simulation tasks such as sensitivity analysis, inverse design, etc. In this work, we propose AD-NEGF, to our best knowledge the first end-to-end differentiable NEGF model for quantum transport simulations. We implement the entire numerical process in PyTorch, and design customized backward pass with implicit layer techniques, which provides gradient information at an affordable cost while guaranteeing the correctness of the forward simulation. The proposed model is validated with applications in calculating differential physical quantities, empirical parameter fitting, and doping optimization, which demonstrates its capacity to accelerate the material design process by conducting gradient-based parameter optimization.",
+        "en_title": "AD-NEGF: An End-to-End Differentiable Quantum Transport Simulator for Sensitivity Analysis and Inverse Problems",
+        "id": "867757924515053703",
+        "keywords": "",
+        "open_access": true,
+        "paper_url": "https://arxiv.org/abs/2202.05098v2",
+        "pdf_flag": true,
+        "publication_cover": "https://icon.bohrium.com/journal/arxiv.png",
+        "publication_date": "2022-02-10",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Engineering\", \"Information and Computing Sciences\", \"Applied Computing\"]",
+        "zh_abstract": "自20世纪70年代被提出以来，非平衡格林函数（NEGF）方法已被公认为量子输运模拟的标准方法。尽管它在模拟精度上具有优势，但巨大的计算成本使其无法承受诸如灵敏度分析、逆向设计等高通量模拟任务。在这项工作中，我们提出了AD-NEGF，据我们所知，这是首个用于量子输运模拟的端到端可微NEGF模型。我们在PyTorch中实现了整个数值过程，并使用隐层技术设计了定制的反向传播，在保证正向模拟正确性的同时，以可承受的成本提供梯度信息。所提出的模型通过在计算微分物理量、经验参数拟合和掺杂优化中的应用得到了验证，这表明它有能力通过基于梯度的参数优化来加速材料设计过程。 ",
+        "zh_title": "AD-NEGF：用于灵敏度分析和反问题的端到端可微量子输运模拟器"
+      }
+    },
+    "reasoning_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "The gradient of a converged surface Green's function $g_{s}(\\theta)$ with respect to input parameters $\\theta$ is written explicitly using the implicit function identity derived from the self-consistent equation $h(g_{s},\\theta)=0$. Concretely,\n      $$\n      \\frac{d g_{s}}{d\\theta} \\;=\\; -\\left[\\frac{\\partial h(g_{s},\\theta)}{\\partial g_{s}}\\right]^{-1}\\frac{\\partial h(g_{s},\\theta)}{\\partial\\theta},\n      $$\n      where the self-consistency residual is $h(g_{s},\\theta) = \\big[A_{ll} - A_{l,l-1}\\, g_{s}\\, A_{l-1,l}^{\\dagger}\\big] - g_{s}^{-1}$, $A_{ll}=[E S_{ll}-H_{ll}]$ with $E$ the energy, $S_{ll}$ the overlap matrix for layer $l$ of the semi-infinite lead, $H_{ll}$ the Hamiltonian matrix for that layer, $A_{l,l-1}$ the inter-layer coupling matrix, and $A_{l-1,l}^{\\dagger}$ its Hermitian conjugate; $g_{s}$ is the surface Green's function entering the lead self-energy $\\Sigma^{L}=A_{DL}\\, g_{s}\\, A_{lD}$, where $A_{DL}$ and $A_{lD}$ are the coupling matrices between the device and the left lead (from the $[EI-H]$ matrix). This closed-form implicit-gradient expression is implemented in the backward pass of the corresponding autograd primitive.",
+              "id": "gcn_a72c49f810f54d63",
+              "metadata": "{\"narrative\": \"The implicit-gradient formula for the surface Green's function is derived explicitly (Eq. 5) and provides a closed-form gradient that avoids backprop through the iterative solver (H1). This is the principal load-bearing strength. The weak point (P2) is that the invertibility of the Jacobian \\u2202h/\\u2202g_s is not verified for the energy regimes encountered in practice; at energies where the lead has no propagating modes or near band edges, the Jacobian may be singular, causing the gradient formula to fail. However, this is a reasonable formal caveat that does not invalidate the derivation's use in the typical energy ranges tested. The prior of 0.8 acknowledges the soundness of the formula while noting the lack of failure-mode analysis.\", \"structural_edges\": [{\"target\": \"paper:867757924515053703::conclusion_4\", \"type\": \"supports\"}]}",
+              "title": "Implicit-gradient formula for surface Green's function"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_2e739892488e4e8c",
+            "premises": [
+              {
+                "content": "The surface Green's function $g_s$ satisfies the self-consistent equation $h(g_s, \\theta) = [A_{ll} - A_{l,l-1} g_s A_{l-1,l}^\\dagger] - g_s^{-1} = 0$, derived from the ideal periodic lead assumption in the Lopez-Sancho algorithm. The implicit gradient formula $\\frac{d g_s}{d\\theta} = -[\\partial h/\\partial g_s]^{-1} \\partial h/\\partial \\theta$ requires that the matrix $\\partial h/\\partial g_s$ be invertible. The paper does not examine the spectral properties of this Jacobian or identify energy regimes (e.g., energies within a band gap, near Van Hove singularities, or in the presence of evanescent modes) where $\\partial h/\\partial g_s$ may become singular or ill-conditioned. The implementation presumably computes and inverts this matrix without a fallback or error handling. Eq. (5)\n      Eq. (A6)",
+                "id": "gcn_63357d881a6f4470",
+                "metadata": "{\"refs\": [{\"type\": \"equation\", \"text\": \"Eq. (5)\"}, {\"type\": \"equation\", \"text\": \"Eq. (A6)\"}], \"weak_types\": [\"formal\", \"model\"], \"weakness_reason\": \"The implicit function theorem requires the Jacobian to be invertible at the converged fixed point. For the surface Green's function, the Jacobian involves terms from the lead's band structure and may become singular at certain energies (e.g., band edges or degenerate mode crossings). The paper neither identifies these pathological cases nor demonstrates that \\u2202h/\\u2202g_s is invertible for the energies used in the examples. Moreover, at energies where the lead has no propagating modes (imaginary k), the surface Green's function may still exist but the gradient formula's validity is not established. This gap means that the autograd primitive may silently produce incorrect gradients at energies relevant for devices operating near band edges or in transport gaps.\", \"failure_mode\": \"If \\u2202h/\\u2202g_s is singular at some parameter value \\u03b8 and energy E, the gradient computed by Eq. (5) via the backward pass will be undefined or numerically unstable (e.g., large errors from near-singular matrix inversion). This would cause incorrect derivatives of the lead self-energy, which propagate into errors in dG_D/d\\u03b8 and dT(E)/d\\u03b8. The conclusion 2's specific formula is only conditionally valid; the paper's claim of a working implicit-gradient implementation is not guaranteed for all physically relevant parameter/energy combinations.\"}",
+                "title": "Unverified invertibility condition for implicit gradient of surface Green's function"
+              },
+              {
+                "content": "For the iterative Lopez-Sancho algorithm solving the surface Green's function g_s from the self-consistent equation h(g_s, θ) = [A_{ll} - A_{l,l-1} g_s A_{l-1,l}^†] - g_s^{-1} = 0 (Eq. (A6)), the paper derives the closed-form gradient dg_s/dθ = -[∂h/∂g_s]^{-1} ∂h/∂θ (Eq. (5)) using the implicit function theorem. This provides an exact expression that does not require backpropagating through the iterations, avoiding memory growth with iteration count and enabling efficient gradient computation for the lead self-energy.",
+                "id": "gcn_3d30d9d07f224181",
+                "metadata": "{\"role\": \"highlight\", \"conclusion_id\": \"2\", \"strength_types\": [\"formal\", \"computational\"], \"credit\": \"This derivation preempts the failure mode where backprop through the iterative surface Green's function solver would require storing the entire iteration history (prohibitive cost) or resorting to finite differences (inaccurate). The closed form underwrites the correctness of the gradient relative to the forward solution (up to the numerical accuracy of the linear system solve). Without this element, the AD-NEGF framework could not efficiently or exactly differentiate through the lead self-energy calculation, which is a critical component of any NEGF transport computation. The scope is full underwriting of the surface Green's function differentiation component.\", \"refs\": [{\"type\": \"equation\", \"text\": \"Eq. (5)\"}, {\"type\": \"equation\", \"text\": \"Eq. (A6)\"}]}",
+                "title": "Explicit implicit-gradient formula for surface Green's function"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Define the quantity of interest: $g_{s}(\\theta)$ denotes the converged surface Green's function of an electrode layer (the bottom-right block of the lead Green's function inverse), where $\\theta$ denotes input parameters (for example, energy $E$, Hamiltonian block entries $H_{ll}$, or other variables that affect $g_{s}$); the surface Green's function enters the left lead self-energy via $\\Sigma^{L}=A_{DL}g_{s}A_{lD}$ where $A_{DL}$ is the device-to-lead coupling and $A_{lD}$ its Hermitian conjugate.",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Give the self-consistency relation satisfied by the surface Green's function and define symbols: the surface Green's function $g_{s}$ satisfies the self-consistent equation written as $h(g_{s},\\theta)=0$, where the residual function is\n$h(g_{s},\\theta)=\\big[A_{ll}-A_{l,l-1}\\, g_{s}\\, A_{l-1,l}^{\\dagger}\\big]-g_{s}^{-1}$;\nhere $A_{ll}=[ES_{ll}-H_{ll}]$ with $E$ the energy, $S_{ll}$ the overlap block (often the identity for orthogonal bases), $H_{ll}$ the intra-layer Hamiltonian block, and $A_{l,l-1}$ denotes the inter-layer coupling between layer $l$ and layer $l-1$.\n[41]",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Invoke the implicit function identity from the implicit function theorem: if $h(y,x)=0$ defines $y$ implicitly as a function of $x$ at a converged solution, then the derivative is given by\n$\\displaystyle \\frac{dy}{dx}=-\\left[\\frac{\\partial h(y,x)}{\\partial y}\\right]^{-1}\\frac{\\partial h(y,x)}{\\partial x}$,\nwhere the symbols $y$ and $x$ correspond here to $g_{s}$ and $\\theta$ respectively.\n[45]",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Apply the implicit-gradient identity to the surface Green's function residual to obtain the closed-form gradient: substituting $y=g_{s}$ and $x=\\theta$ into the implicit-gradient identity yields the explicit formula\n$\\displaystyle \\frac{d g_{s}}{d\\theta} \\;=\\; -\\left[\\frac{\\partial h(g_{s},\\theta)}{\\partial g_{s}}\\right]^{-1}\\frac{\\partial h(g_{s},\\theta)}{\\partial\\theta}$,\nwhich provides the derivative of the converged surface Green's function with respect to input parameters $\\theta$ in terms of the Jacobian $\\partial h/\\partial g_{s}$ and the partial $\\partial h/\\partial\\theta$.",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "Explain the structure of the Jacobians appearing in the formula and their evaluation context: $\\partial h/\\partial g_{s}$ involves the linearization of the mapping $g_{s}\\mapsto\\big[A_{ll}-A_{l,l-1}g_{s}A_{l-1,l}^{\\dagger}\\big]-g_{s}^{-1}$ and thus contains contributions from both the $-A_{l,l-1}(\\cdot)A_{l-1,l}^{\\dagger}$ term and the derivative of $-g_{s}^{-1}$ (the latter is $g_{s}^{-1}(\\partial g_{s})g_{s}^{-1}$ under matrix differentiation); $\\partial h/\\partial\\theta$ contains the explicit derivatives of $A_{ll}$ and $A_{l,l-1}$ with respect to $\\theta$ depending on which entries in the Hamiltonian or energy are considered.",
+                "step_id": "5"
+              },
+              {
+                "reasoning": "State implementation decision in the autograd primitive: the closed-form implicit-gradient expression for $d g_{s}/d\\theta$ is implemented in the backward pass of the custom autograd primitive corresponding to the surface Green's function solver, so that during backward propagation the inverse Jacobian multiplication is computed using the converged forward $g_{s}$ and the forward-computed $A$-matrices rather than by naive unrolling of the forward recursion.",
+                "step_id": "6"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "The electrode self-energies in NEGF are computed from a surface Green's function $g_{s}$ that satisfies a nonlinear, fixed-point relation (for example, Eq. (A6) in the paper). In existing practice, forward solvers compute $g_{s}$ iteratively (e.g., Lopez-Sancho recursion) but do not provide derivatives of $g_{s}$ with respect to Hamiltonian entries or other parameters. Without an explicit formula for $d g_{s}/d\\theta$ one must either (i) backpropagate through the entire sequence of iterations (creating large computational graphs and high memory cost) or (ii) use finite differences (costly and numerically unstable). The absence of an exact, implementable implicit-gradient formula prevented efficient, numerically controlled evaluation of sensitivities that propagate from lead self-energies into device Green's functions, transmission, and currents.",
+            "id": "paper:867757924515053703::conclusion_2_subproblem",
+            "source_package": "paper:867757924515053703"
+          }
+        ],
+        "source_package": "paper:867757924515053703"
+      }
+    ],
+    "total_chains": 1
+  },
+  "trace_id": "req_f424470f77fc1"
+}

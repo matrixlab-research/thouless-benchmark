@@ -1,0 +1,666 @@
+{
+  "code": 0,
+  "data": {
+    "has_more": true,
+    "papers": {
+      "paper:1126134277365301250": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Yongtai Li | Gour Jana | Chinedu E. Ekuma",
+        "available_online": "",
+        "cover_date_start": "2025-05-01",
+        "created_at": "2026-06-14T16:10:09+08:00",
+        "doi": "10.48550/arxiv.2505.00806",
+        "en_title": "Dynamical Cluster Approximation for Disordered Systems with Rashba Spin-Orbit Coupling",
+        "id": "1126134277365301250",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108482",
+        "publication_name": "Disordered Systems and Neural Networks",
+        "research_categories": "",
+        "zh_title": "具有Rashba自旋轨道耦合的无序系统的动力学团簇近似"
+      },
+      "paper:1215272869265670145": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Dunkan Martinez | Rodrigo P A Lima | Alexander Lopez | Francisco Dominguez-Adame | Pedro A Orellana",
+        "available_online": "",
+        "cover_date_start": "2026-01-03",
+        "created_at": "2026-06-13T12:39:29+08:00",
+        "doi": "10.48550/arXiv.2601.01178",
+        "en_title": "Topological bound states in the continuum",
+        "id": "1215272869265670145",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "连续统中的拓扑束缚态"
+      },
+      "paper:7466519664879493243": {
+        "area": "arxiv-cond-mat",
+        "authors": "Hai-Tao Ding | Sen Mu | Leong-Chuan Kwek | Gabriel Lemari\\'e | Jiangbin Gong",
+        "available_online": null,
+        "cover_date_start": "2026-05-28",
+        "created_at": "2026-06-02T11:57:12+08:00",
+        "doi": "10.48550/arxiv.2605.29871",
+        "en_title": "Enhanced Density Fluctuations Near a Disordered Chiral Topological Transition",
+        "id": "7466519664879493243",
+        "keywords": null,
+        "publication_date": "2026-05-28",
+        "publication_id": "",
+        "publication_name": "arXiv (cond-mat.dis-nn)",
+        "research_categories": null,
+        "zh_title": "无序手性拓扑跃迁附近的增强密度波动"
+      },
+      "paper:812292376419631105": {
+        "area": "material science, materials science, multidisciplinary, chemistry, physical, physics, applied, condensed matter, metallurgy & metallurgical engineering",
+        "authors": "Tomasz Kwapiński | Marcin Kurzyna",
+        "available_online": "2021-6-14",
+        "cas_zone": "3",
+        "cover_date_start": "2021-06-14",
+        "created_at": "2026-06-10T00:57:55+08:00",
+        "doi": "10.3390/ma14123289",
+        "en_title": "Topological Atomic Chains on 2D Hybrid Structure",
+        "id": "812292376419631105",
+        "impact_factor": 3.2,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "2165",
+        "publication_name": "Materials _ Materials",
+        "research_categories": "",
+        "zh_title": "二维混合结构上的拓扑原子链"
+      },
+      "paper:812539232366100480": {
+        "area": "Physics and Astrophysics, physics, condensed matter, physics, applied, materials science, multidisciplinary",
+        "authors": "M. Kurzyna | T. Kwapiński",
+        "available_online": "2020-11-23",
+        "cas_zone": "2",
+        "cover_date_start": "2020-11-23",
+        "created_at": "2026-06-19T09:21:18+08:00",
+        "doi": "10.1103/physrevb.102.195429",
+        "en_title": "Edge-state dynamics in coupled topological chains",
+        "id": "812539232366100480",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "耦合拓扑链中的边缘态动力学"
+      },
+      "paper:812549862254968834": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, materials science, multidisciplinary",
+        "authors": "Yanming Che | Clemens Gneiting | Tao Liu | Franco Nori",
+        "available_online": "2020-10-29",
+        "cas_zone": "2",
+        "cover_date_start": "2020-10-29",
+        "created_at": "2026-06-15T07:07:50+08:00",
+        "doi": "10.1103/physrevb.102.134213",
+        "en_title": "Topological quantum phase transitions retrieved through unsupervised machine learning",
+        "id": "812549862254968834",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "通过无监督机器学习检索拓扑量子相变"
+      },
+      "paper:817362335155879938": {
+        "area": "physics and astrophysics, physics, applied, multidisciplinary, mathematical",
+        "authors": "Zhiwei Guo | Jun Jiang | Haitao Jiang | Jie Ren | and Hong Chen",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2021-02-09",
+        "created_at": "2026-06-02T16:02:00+08:00",
+        "doi": "10.1103/PhysRevResearch.3.013122",
+        "en_title": "Observation of topological bound states in a double Su-Schrieffer-Heeger chain composed of split ring resonators",
+        "id": "817362335155879938",
+        "impact_factor": 4.9,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "68812",
+        "publication_name": "Physical Review Research _ ",
+        "research_categories": "",
+        "zh_title": "由分裂环谐振器构成的双Su-Schrieffer-Heeger链中拓扑束缚态的观测"
+      },
+      "paper:817403017799139329": {
+        "area": "geoscience, physical sciences, quantum physics",
+        "authors": "Alireza Habibi | Elaheh Adibi | S. A. Jafari",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2019-10-04",
+        "created_at": "2026-06-02T10:57:43+08:00",
+        "doi": "10.1103/PhysRevB.98.245105",
+        "en_title": "Strong-coupling perturbative study of the disordered Hubbard model on the honeycomb lattice",
+        "id": "817403017799139329",
+        "impact_factor": 3.6,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "98281",
+        "publication_name": "Physical Review B   Condensed Matter and Materials Physics _ ",
+        "research_categories": "[\"Physical Sciences\", \"Quantum Physics\"]",
+        "zh_title": "蜂窝晶格上无序哈伯德模型的强耦合微扰研究"
+      },
+      "paper:867751424413401766": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Andrea Nava | Gabriele Campagnano | Pasquale Sodano | Domenico Giuliano",
+        "available_online": "",
+        "cover_date_start": "2022-10-19",
+        "created_at": "2026-06-17T04:42:31+08:00",
+        "doi": "10.48550/arXiv.2210.10856",
+        "en_title": "Lindblad master equation approach to the topological phase transition in the disordered Su-Schrieffer-Heeger model",
+        "id": "867751424413401766",
+        "keywords": "",
+        "publication_date": "2022-10-19",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "用于无序Su-Schrieffer-Heeger模型中拓扑相变的林德布拉德主方程方法"
+      },
+      "paper:867752196962255724": {
+        "area": "arxiv-physics",
+        "authors": "Qingchen Yuan | Linpeng Gu | Liang Fang | Xuetao Gan | Zhigang Chen | Jianlin Zhao",
+        "available_online": "",
+        "cover_date_start": "2021-05-20",
+        "created_at": "2026-06-15T08:47:05+08:00",
+        "doi": "10.48550/arXiv.2105.09735",
+        "en_title": "Giant Enhancement of Nonlinear Harmonic Generation in a Silicon Topological Photonic Crystal Nanocavity Chain",
+        "id": "867752196962255724",
+        "keywords": "",
+        "publication_date": "2021-05-20",
+        "publication_id": "108520",
+        "publication_name": "Optics _ Physics.physics.optics",
+        "research_categories": "",
+        "zh_title": "硅拓扑光子晶体纳米腔链中非线性谐波产生的巨大增强"
+      },
+      "paper:867757254252691875": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Tong Wang | Zhiming Pan | Tomi Ohtsuki | Ilya A. Gruzberg | Ryuichi Shindou",
+        "available_online": "",
+        "cover_date_start": "2021-08-27",
+        "created_at": "2026-06-16T07:50:51+08:00",
+        "doi": "10.48550/arXiv.2108.12133",
+        "en_title": "Multicriticality of Two-dimensional Class D Disordered Topological Superconductors",
+        "id": "867757254252691875",
+        "keywords": "",
+        "publication_date": "2021-08-27",
+        "publication_id": "108482",
+        "publication_name": "Disordered Systems and Neural Networks _ Physics.cond-mat.dis-nn",
+        "research_categories": "",
+        "zh_title": "二维D类无序拓扑超导体的多临界性"
+      },
+      "paper:867763216636182896": {
+        "area": "arxiv-physics",
+        "authors": "Yanming Che | Clemens Gneiting | Tao Liu | Franco Nori",
+        "available_online": "",
+        "cover_date_start": "2020-02-06",
+        "created_at": "2026-05-16T14:54:26+08:00",
+        "doi": "10.48550/arXiv.2002.02363",
+        "en_title": "Topological quantum phase transitions retrieved through unsupervised machine learning",
+        "id": "867763216636182896",
+        "keywords": "",
+        "publication_date": "2020-02-06",
+        "publication_id": "108512",
+        "publication_name": "Computational Physics _ Physics.physics.comp-ph",
+        "research_categories": "",
+        "zh_title": "通过无监督机器学习检索拓扑量子相变"
+      },
+      "paper:884073193298461073": {
+        "area": "arXiv-Physics, Physical Sciences, Condensed Matter Physics",
+        "authors": "Alexei Bissonnette | Nicolas Delnour | Andrew Mckenna | Hichem Eleuch | Michael Hilke | Richard MacKenzie",
+        "available_online": "",
+        "cover_date_start": "2023-06-30",
+        "created_at": "2026-06-19T08:20:57+08:00",
+        "doi": "10.48550/arXiv.2306.17761",
+        "en_title": "Boundary-induced topological transition in an open SSH model",
+        "id": "884073193298461073",
+        "keywords": "",
+        "publication_date": "2023-06-30",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "开放SSH模型中边界诱导的拓扑相变"
+      },
+      "paper:933789746092572966": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "D. M. Whittaker | Maxine M. McCarthy | Qingqing Duan",
+        "available_online": "",
+        "cover_date_start": "2023-11-18",
+        "created_at": "2026-06-14T08:34:09+08:00",
+        "doi": "10.48550/arXiv.2311.11040",
+        "en_title": "Observation of a Topological Phase Transition in Random Coaxial Cable Structures with Chiral Symmetry",
+        "id": "933789746092572966",
+        "keywords": "",
+        "publication_date": "2023-11-18",
+        "publication_id": "108482",
+        "publication_name": "Disordered Systems and Neural Networks _ Physics.cond-mat.dis-nn",
+        "research_categories": "",
+        "zh_title": "具有手性对称性的随机同轴电缆结构中拓扑相变的观测"
+      },
+      "paper:949873907425345602": {
+        "area": "physics and astrophysics, optics, physics, applied, materials science, multidisciplinary, nanoscience & nanotechnology",
+        "authors": "David Viedma | Anselmo M. Marques | Ricardo G. Dias | Verònica Ahufinger",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2024-01-04",
+        "created_at": "2026-05-19T19:49:18+08:00",
+        "doi": "10.1515/nanoph-2023-0590",
+        "en_title": "Topological n -root Su–Schrieffer–Heeger model in a non-Hermitian photonic ring system",
+        "id": "949873907425345602",
+        "impact_factor": 6.2,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "515",
+        "publication_name": "Nanophotonics _ ",
+        "research_categories": "",
+        "zh_title": "非厄米光子环系统中的拓扑$$n$$次根苏–施里弗–海格模型"
+      }
+    },
+    "variables": [
+      {
+        "content": "For an SSH chain of length $N$ (even) with alternating hopping parameters $t_1$ (odd bonds) and $t_2$ (even bonds), coupled at both ends to semi-infinite undimerized leads (lead hopping set to $1$) via lead-chain hopping $t_L$, the system supports a novel class of low-energy, boundary-localized modes—termed phase-inverted edge (PIE) states. These states have energies near zero, are strongly localized on the second and second-to-last sites of the original SSH chain (i.e., on the sublattice opposite to that of conventional edge states), and emerge when the isolated SSH chain is in the trivial dimerization ($r \\equiv t_1/t_2 > 1$) for even $N$. In the strong-coupling limit $t_L \\to \\infty$, these PIE modes map onto the edge states of a truncated SSH chain of length $N-2$ whose first and last hopping parameters are $t_2$. Quantitatively, the PIE-state local density-of-states (LDOS) and in-gap density-of-states (DOS) grow approximately like $t_L^2$ for $t_L \\lesssim 1$ and then plateau for strong coupling; PIE states become discretized and acquire small imaginary parts (narrow spectral widths) as $t_L \\to \\infty$. PIE states are robust to chiral (hopping) disorder (random multiplicative disorder on the hopping parameters $t_m$) in the sense that configuration-averaged DOS peaks associated with PIE states persist up to the disorder strength scale where the bulk gap closes.",
+        "content_hash": "d628ba5ffdfaed355e41e1d1914dee4db24a5c25c5eeff33f94a7313b18ebb03",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_0ea85c473fec4083",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:884073193298461073::conclusion_2",
+            "package_id": "paper:884073193298461073",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:884073193298461073"
+          ]
+        },
+        "rerank_score": 0.8009200757091144,
+        "role": "conclusion",
+        "score": 0.01,
+        "title": "Phase-inverted edge (PIE) states in an open SSH chain with semi-infinite leads",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Under open boundary conditions, a $\\sqrt[n]{\\mathrm{SSH}}$ chain with integer $n$ and parameters in the topological regime $t_1<t_2$ hosts $n$ topological in-gap edge states localized at the same physical edge of the chain. In the cubic example ($n=3$), three in-gap modes appear at one end, their localization lengths increase as the root hopping ratio approaches the critical point $\\sqrt[3]{t_1}=\\sqrt[3]{t_2}$, and they merge into bulk states after the transition. The root edge modes remain robust against disorders that, when raised to the $n$th power, correspond to chiral off-diagonal disorder of the parent SSH block; correlated quartet hopping disorder that preserves the parent chiral symmetry is an example, whereas uncorrelated disorder maps to parent onsite and off-diagonal perturbations and destroys the protection.",
+        "content_hash": "f8c416954714718e32b487ff759d30d5625fb29ecfaf2688ac0ec0102826ff12",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_80a9c89a8bb3451d",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:949873907425345602::conclusion_4",
+            "package_id": "paper:949873907425345602",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:949873907425345602"
+          ]
+        },
+        "rerank_score": 0.7856563602158594,
+        "role": "conclusion",
+        "score": 0.013157894736842105,
+        "title": "Multiplicity and disorder robustness of root edge states",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For finite random Su-Schrieffer-Heeger (SSH) chains constructed from coaxial cables with a binary impedance distribution (impedances $Z_a=50\\Omega$ and $Z_b=93\\Omega$), the Dyson singularity in the density of states at $\\varepsilon=0$ (where $\\varepsilon=\\cos(\\omega\\tau)$), predicted as $\\rho(\\varepsilon)\\sim|\\varepsilon(\\ln\\varepsilon)^3|^{-1}$ for infinite chains with off-diagonal disorder, is replaced by a broadened peak whose width decreases with increasing chain length. Additionally, the quantisation of the topological invariant $M$ (defined as $M=2\\ln((Z_1Z_3\\cdots)/(Z_2Z_4\\cdots))$) for a binary impedance set produces gaps immediately adjacent to $\\varepsilon=0$ in finite ensembles. Numerical simulations reported in the work indicate that chain lengths of $50$ to $100$ cable sections would be required to observe a strong, narrow averaged peak near $\\varepsilon=0$.",
+        "content_hash": "3fe999136a32f371352563ce735f3c6b6dadd536c4cd65377ae70a367f4db2ed",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_dd35cab4703b4260",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:933789746092572966::conclusion_6",
+            "package_id": "paper:933789746092572966",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:933789746092572966"
+          ]
+        },
+        "rerank_score": 0.7577078284148354,
+        "role": "conclusion",
+        "score": 0.01282051282051282,
+        "title": "Finite-size and binary-impedance effects suppress the Dyson singularity; numerical estimate of required chain lengths",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In Anderson-insulating (AI) parameter points near the metal–insulator critical line of the two-dimensional disordered class D topological superconductor model, the low-energy density of states (DOS) inferred from kernel-polynomial-method (KPM) truncation-order scaling behaves as a power-law singularity $\\rho(\\varepsilon)\\propto|\\varepsilon|^{-\\alpha}$ with a nonuniversal exponent $\\alpha>0$ that varies with location in the phase diagram. Numerically, this manifests as $\\rho_{\\mathrm{KPM}}(0)\\propto N^{\\alpha}$ for finite KPM truncation order $N$, consistent with Griffiths-like rare-region effects previously proposed for class D network models.",
+        "content_hash": "2327255a2a9dea7980e15604300407bcf7c547390d6909cbee3e810ea2a3d699",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_ac8088dc63474cf1",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867757254252691875::conclusion_9",
+            "package_id": "paper:867757254252691875",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867757254252691875"
+          ]
+        },
+        "rerank_score": 0.7985810046528845,
+        "role": "conclusion",
+        "score": 0.015151515151515152,
+        "title": "Nonuniversal power-law low-energy density of states in Anderson-insulating regions near metal–insulator critical line",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In the topological nontrivial phase ($d=31.5$ mm) of a photonic Kitaev chain (a double Su-Schrieffer-Heeger (SSH) chain composed of split ring resonators (SRRs) that emulates the Kitaev model), two topological bound states are observed at frequencies $\\omega=0.994\\omega_{0}$ and $\\omega=1.006\\omega_{0}$, confined at the two ends of the upper chain (as shown by normalized local density of states (LDOS) distribution). These bound states exhibit robustness against disorder: when random rotations of $\\pm5^\\circ$ are applied to 16 interior SRRs of the 36-SRR chain, the topological bound state remains strongly localized at the ends of the upper chain, with negligible change in the LDOS distribution.",
+        "content_hash": "91b5728c1a35c35885beeee7416b0a9539ade7fc18229af165d564a663dac460",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_89925a7f89934f7f",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817362335155879938::conclusion_3",
+            "package_id": "paper:817362335155879938",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817362335155879938"
+          ]
+        },
+        "rerank_score": 0.7583486788930429,
+        "role": "conclusion",
+        "score": 0.015625,
+        "title": "Identification and robustness of topological bound states",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "At the critical point of the disordered SSH chain with chiral symmetry, where the disorder-averaged energy gap closes and the topological transition occurs, the fluctuation exponent $\\theta$ of $\\sigma[\\ln P(r)]$ returns close to $0.5$ ($\\sim 0.54$), despite the wave-packet density profile $\\langle\\ln P(r)\\rangle$ being non-exponential and the system being at a topological transition.",
+        "content_hash": "7784dd5d3ecb53d48c5249556ebe09104498235b9e9d0bbeb25ec48aaf2a3074",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_04a80482f435408b",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:7466519664879493243::conclusion_3",
+            "package_id": "paper:7466519664879493243",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:7466519664879493243"
+          ]
+        },
+        "related": [
+          {
+            "content": "For the disordered SSH chain with chiral symmetry, in both the topological insulator (TI) and normal insulator (NI) phases away from the topological transition, the standard deviation of the logarithmic wave-packet density $\\ln P(r)$ as a function of distance $r$ from the initial excitation follows the conventional one-dimensional scaling $\\sigma[\\ln P(r)] \\sim r^{\\theta}$ with $\\theta \\simeq 0.5$, despite the distinct topological character of the phases.",
+            "has_reasoning": true,
+            "id": "gcn_721649eeeb69442b",
+            "kind": "conclusion",
+            "rerank_score": 0,
+            "role": "conclusion",
+            "score": 0.014285714285714285,
+            "title": "Conventional fluctuation scaling in localized phases away from transition",
+            "type": "claim"
+          },
+          {
+            "content": "Near but not exactly at the chiral topological transition of the disordered SSH chain, in the topological Anderson insulator (TAI) regime, the growth exponent $\\theta$ of $\\sigma[\\ln P(r)]$ is enhanced above $1/2$, reaching up to $\\theta \\simeq 0.65$, indicating significantly stronger fluctuations than conventional scaling.",
+            "has_reasoning": true,
+            "id": "gcn_0a4644718bb74f9b",
+            "kind": "conclusion",
+            "rerank_score": 0,
+            "role": "conclusion",
+            "score": 0.010752688172043012,
+            "title": "Enhanced fluctuation exponent in topological Anderson insulator regime near chiral topological transition",
+            "type": "claim"
+          }
+        ],
+        "rerank_score": 0.6997279039918628,
+        "role": "conclusion",
+        "score": 0.014705882352941176,
+        "title": "Fluctuation exponent near 0.5 at critical point of disordered SSH chain despite anomalous profile",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In tight-binding numerical tests on a nine-site non-trivial SSH chain (sites A₁B₁A₂B₂A₃B₃A₄B₄A₅, with alternating couplings γ1<γ2), random Gaussian perturbations are introduced in the resonance wavelengths (standard deviation <1%) and coupling strengths (standard deviation <10%). For the topological edge mode M₁' (corresponding to the single-PCNC mode M₁), the localized wavefunction magnitude at the terminal site $|\\psi(A_1)|$ remains statistically steady with a mean robustness of approximately 98% of its unperturbed value, and the diagnostic quantity $|\\psi(B_1)|-|\\psi(A_2)|$ remains negative across disorder realizations, indicating preservation of the quasi-'dark' sublattice distribution and topological character. In contrast, for an equivalent normal chain with uniform coupling $\\bar\\gamma = (\\gamma_1+\\gamma_2)/2$, the same disorder causes large fluctuations in $|\\psi(A_1)|$ and sign changes in $|\\psi(B_1)|-|\\psi(A_2)|$, showing loss of topological protection.",
+        "content_hash": "aab2480e27adf23752a0379d4739a1858a16575c65c0dba22c0ad291d87ee6a4",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_e70f4a61084b419b",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867752196962255724::conclusion_6",
+            "package_id": "paper:867752196962255724",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867752196962255724"
+          ]
+        },
+        "rerank_score": 0.7497761151379594,
+        "role": "conclusion",
+        "score": 0.01,
+        "title": "Topological robustness of the SSH edge modes against fabrication-like disorder (numerical) with quantitative robustness metrics",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The average density of states (ADOS) computed with DCA–SOC at \\(N_c=32\\) closely matches numerically exact kernel polynomial method (KPM) calculations performed on \\(300\\times300\\) lattices with \\(10^3\\) disorder realizations across a range of disorder strengths. In the studied examples, a DCA calculation with \\(N_c=32\\) and \\(2\\times10^3\\) disorder realizations completed in approximately \\(4\\) hours, whereas the corresponding KPM simulations required over \\(30\\) hours on the same computational resources, demonstrating that DCA–SOC provides a computationally efficient alternative for capturing key spectral features of disordered Rashba systems.",
+        "content_hash": "2eb1264dd4cc7b847fe3feaa376fe6d0392b186782757bc38a52986898b31e7d",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_58636b14cc7d4109",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1126134277365301250::conclusion_9",
+            "package_id": "paper:1126134277365301250",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1126134277365301250"
+          ]
+        },
+        "rerank_score": 0.6870418647355305,
+        "role": "conclusion",
+        "score": 0.013333333333333334,
+        "title": "DCA–SOC with moderate cluster size reproduces KPM ADOS and is computationally efficient",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "A bound state in the continuum (BIC) that is protected by the SSH chain topology exists at zero energy when the SSH chain is in its topological regime $v<w$. The TBIC is a perfectly confined eigenstate whose energy lies inside the lead continuum but which remains decoupled from the lead owing to the antisymmetric combination of the two end-localized topological states of the finite chain. The TBIC manifests as a pronounced localized spectral feature in the chain density of states (DOS) near $E=0$ and as an anti-resonance imprint of the SSH spectrum on the lead conductance, thereby providing transport-detectable evidence of its existence.",
+        "content_hash": "75b47d6d5525206aeecbf958f7a50fcde4fff8df19abf08bff951a1d474e7815",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_c76d5884729b4337",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1215272869265670145::conclusion_2",
+            "package_id": "paper:1215272869265670145",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1215272869265670145"
+          ]
+        },
+        "rerank_score": 0.6839102361990805,
+        "role": "conclusion",
+        "score": 0.015384615384615385,
+        "title": "Topologically protected bound state in the continuum (TBIC) at zero energy for the finite SSH chain coupled to a lead",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For a finite nontrivial Su-Schrieffer-Heeger (SSH\\(_1\\)) chain of length \\(N=16\\) with intracell hopping \\(V=2.0\\) and intercell hopping \\(W=0.5\\) (so \\(V>W\\), nontrivial phase), placed on a substrate with site–lead coupling \\(\\Gamma=1\\) and on-site energy \\(\\varepsilon_0=0\\), when the chain is abruptly broken at \\(t=20\\) between sites 8 and 9 (creating two shorter chains of length 8 each), the original midgap state localized at the original chain end (site 1) remains essentially unchanged in its local density of states (LDOS) at that boundary site (the original topological edge state is robust to this local destructive perturbation), while two new midgap states form adiabatically at the newly created edges (sites 8 and 9) by smooth bending of the bulk sidebands toward zero energy.",
+        "content_hash": "32b239e97a87ec7c51fdc53f9c4680b2913dc87747feb8bc3b2f6264fb422eac",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_ac3d80eb3e4044f2",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812539232366100480::conclusion_5",
+            "package_id": "paper:812539232366100480",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812539232366100480"
+          ]
+        },
+        "rerank_score": 0.7568388416821993,
+        "role": "conclusion",
+        "score": 0.011904761904761904,
+        "title": "Protection of the original edge state and formation of new edge states when a finite SSH1 chain is abruptly broken",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For real-space inputs given by unnormalized many-site density matrices ρ written as a vectorized sum ρ=∑_n ρ_n constructed from the occupied (lower) bands of tight-binding Hamiltonians, the Gaussian kernel built from the L^{1} distance between vectorized density matrices,\n      $$\n      \\mathcal{K}_{ij}^{p=1}=\\exp\\!\\left(-\\frac{\\|\\mathbf{x}_{i}-\\mathbf{x}_{j}\\|_{L^{1}}^{2}}{2\\epsilon L^{2}}\\right),\n      $$\n      with L the number of lattice sites and ε>0 the kernel resolution, together with diffusion-map embedding and clustering, recovers real-space topological phase structure. Concretely: (i) for a uniform, disorder-free SSH chain the diffusion-map with the L^{1}-norm kernel finds three clusters and two critical points in the (t_1,t_2) diagram when the density-matrix vectors are sampled and vectorized over the finite lattice; and (ii) for a locally disordered SSH chain with hopping disorder controlled by a scalar w and with density-matrix feature vectors sampled uniformly in w, the L^{1}-kernel similarity yields two clusters separated at w=0, while the L^{2}-kernel (Euclidean) similarity fails to produce that separation. Thus the real-space L^{1} dual metric enables unsupervised detection of topological transitions even when translation symmetry is broken and momentum-space invariants are unavailable.",
+        "content_hash": "231093c48acc538e205eea54a2ed5dd412b5568095ee00c63490cfbc041139ce",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_229b60ccc23d4836",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867763216636182896::conclusion_6",
+            "package_id": "paper:867763216636182896",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867763216636182896"
+          ]
+        },
+        "rerank_score": 0.739915223519461,
+        "role": "conclusion",
+        "score": 0.03009207275993712,
+        "title": "Real-space learning with dual L^{1} norm on vectorized density matrices including disorder",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The Lindblad-based NESS methodology—using the closed covariance matrix equation to compute the steady-state current $I_{\\mathrm{NESS}}$ and the even-odd differential occupancy $\\bar{\\nu} = \\mathrm{Tr}[\\Gamma \\rho_{\\mathrm{NESS}}]$ to detect topology—can be extended beyond the short-range noninteracting SSH chain to other disordered topological systems. Concrete prospective directions include: SSH chains with long-range single-electron hopping and/or interactions, to probe mobility edges induced by long-range correlations; junctions hosting topological Kondo physics; and models with multi-site Lindblad baths to interpolate between the linear-response (Landauer–Büttiker-like) regime and the large-bias regime. These extensions are proposed as feasible generalizations of the present formalism rather than as conjectured universal statements.",
+        "content_hash": "9e07cc47c282dd3d98978963c915a0b7260f5664d2dbc1b6326cfd0e899b7a96",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_147cb9052f894963",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867751424413401766::conclusion_7",
+            "package_id": "paper:867751424413401766",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867751424413401766"
+          ]
+        },
+        "rerank_score": 0.6869482323110134,
+        "role": "conclusion",
+        "score": 0.014084507042253521,
+        "title": "Method generalizability and prospective extensions",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For lattice SSH Hamiltonians represented in real space with $L=2N_l$ sites, forming input feature vectors from the (unnormalized) density matrix of the occupied (lower) bands $\\rho=\\sum_{n}^{N_l}|\\psi_n\\rangle\\langle\\psi_n|$ and using the kernel\n      $$\n      \\mathcal{K}_{ij}^{p}=\\exp\\!\\left(-\\frac{\\|\\mathbf{x}_i-\\mathbf{x}_j\\|_{\\mathbb{L}^{p}}^{2}}{2\\epsilon L^2}\\right),\n      $$\n      the $\\mathbb{L}^1$-norm (dual to the momentum-space Chebyshev distance under Fourier duality) produces a similarity matrix that, when combined with diffusion maps and $k$-means, identifies the expected phase sectors in the translationally invariant SSH chain and locates the critical line at disorder strength $w=0$ in a locally disordered SSH model with hopping disorder $t_{n1}=1-w r_{1n}$, $t_{n2}=1+w r_{2n}$. In the disordered case the $\\mathbb{L}^2$-norm (real-space Euclidean distance) requires extreme hyperparameter tuning of $\\epsilon$ and fails to deliver the correct clustering, whereas the $\\mathbb{L}^1$ kernel yields two nearly ideal clusters separated at $w=0$. Thus the real-space dual $\\mathbb{L}^1$ metric enables unsupervised detection of topological transitions even when momentum-space invariants are inapplicable.",
+        "content_hash": "ac9f6a62de5e1c7e685febfe81015e8920f2017407634cfe3f7e0c6678b3b77f",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_b846cbc443c74ff7",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812549862254968834::conclusion_5",
+            "package_id": "paper:812549862254968834",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812549862254968834"
+          ]
+        },
+        "related": [
+          {
+            "content": "As a general methodological statement, constructing graph-based similarity kernels using the Chebyshev ($\\mathbb{L}^{\\infty}$) distance for momentum-space state descriptors (or the Fourier-dual $\\mathbb{L}^1$ distance for real-space density-matrix descriptors), followed by Markov normalization, diffusion-map embedding, and conventional clustering (e.g., $k$-means), provides an interpretable, computationally efficient, unsupervised pipeline that can (i) recover known topological critical lines and sector partitions in prototypical models (QWZ, SSH, quenched SSH), (ii) identify transitions from raw state or density-matrix samples without precomputed invariants or labeled training data, and (iii) perform reliably in momentum and in real-space/disordered settings where Euclidean-kernel approaches fail or require delicate hyperparameter tuning. The approach relies on similarity kernels such as the Chebyshev ($\\mathbb{L}^{\\infty}$) kernel for momentum-space data and the $\\mathbb{L}^1$ kernel for real-space density-matrix data, combined with standard diffusion-map eigen-decomposition and subsequent clustering.",
+            "has_reasoning": true,
+            "id": "gcn_bf38c5ecb04f4687",
+            "kind": "conclusion",
+            "rerank_score": 0,
+            "role": "conclusion",
+            "score": 0.012345679012345678,
+            "title": "Methodological proposal: unsupervised manifold learning with Chebyshev (momentum) and dual $\\mathbb{L}^1$ (real) distances enables interpretable, label-free discovery of topological quantum phase transitions",
+            "type": "claim"
+          }
+        ],
+        "rerank_score": 0.7332677814695372,
+        "role": "conclusion",
+        "score": 0.028373015873015873,
+        "title": "Real-space dual ($\\mathbb{L}^1$) distance on density matrices plus diffusion maps identifies real-space and disordered SSH transitions where Euclidean fails",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The strong-coupling perturbation theory, at the leading order in \\(t/U\\), yields a local, dynamical self-energy for the Hubbard model on the honeycomb lattice. This local self-energy allows efficient combination with the kernel polynomial method (KPM) for computing the density of states and with the transfer matrix method in a ribbon geometry for computing the localization length. This combination enables the study of disordered Hubbard systems with millions of lattice sites, overcoming the severe finite-size limitations of conventional many-body methods.",
+        "content_hash": "25dc021d8fcf66717bd9a60c0a495d36fc5141a583b265ede85d6019022c9334",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_6f6c7b975096457e",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817403017799139329::conclusion_1",
+            "package_id": "paper:817403017799139329",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817403017799139329"
+          ]
+        },
+        "rerank_score": 0.7321001769724111,
+        "role": "conclusion",
+        "score": 0.010309278350515464,
+        "title": "Methodological framework combining strong-coupling perturbation theory with KPM and transfer matrix methods",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Van Hove singularities in the substrate density of states (DOS) can split a Su–Schrieffer–Heeger (SSH) mid-gap (topological) state into multiple spectral features, and conversely, energy regions where the substrate DOS vanishes (dips or zeros) force chain states toward the atomic limit, producing dispersionless, strongly localized peaks in the local density of states at site i (LDOS_i(E)). In practice, when a substrate van Hove peak overlaps the energy of an SSH mid-gap state, the single mid-gap resonance is split or develops a local minimum at that energy; when the hybridization function Γ(E) (the imaginary part of the site self-energy, proportional to the substrate DOS) tends to zero over an energy window (substrate DOS dip or outside the surface band), the effective hybridization vanishes and the chain exhibits narrow, high-amplitude, nearly dispersionless local DOS peaks characteristic of localized (atomic-like) states.",
+        "content_hash": "7d095bce0e047b2acb0f09030ac7eaf004556d350c0a763e48bbd75a423e8e37",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_503c34eee7b34c3d",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812292376419631105::conclusion_2",
+            "package_id": "paper:812292376419631105",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812292376419631105"
+          ]
+        },
+        "rerank_score": 0.725635466507477,
+        "role": "conclusion",
+        "score": 0.011764705882352941,
+        "title": "Van Hove singularities split Su–Schrieffer–Heeger mid-gap states; substrate DOS dips produce dispersionless atomic-like states",
+        "type": "claim",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "req_5c862b79d0a70"
+}

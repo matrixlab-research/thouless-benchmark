@@ -1,23 +1,33 @@
 {
   "schema_version": 1,
-  "meaning": "Domain-facing witnesses for Rust-native automatic differentiation. TBQ references identify motivating domain requirements and do not by themselves claim complete TBQ coverage.",
+  "meaning": "Research-workflow adaptations for Rust-native automatic differentiation. Every case starts from a named physical system and LKM-discovered paper, then freezes an independently checkable compact benchmark. TBQ references identify motivating domain requirements and do not by themselves claim complete TBQ coverage.",
   "source_issue": "https://github.com/matrixlab-research/thouless-benchmark/issues/6",
+  "lkm_evidence": "evidence/lkm/2026-07-28-ad-research-workflows",
   "cases": [
     {
       "id": "ad_spectral_recovery",
       "document": "docs/ad-problems/ad-spectral-recovery.md",
       "track": "ad",
-      "problem_type": "multi-observable spectral inference",
+      "benchmark_kind": "research_workflow_adaptation",
+      "physical_system": "Rice-Mele chain",
+      "problem_type": "Rice-Mele spectral and Wannier-sector inference",
       "question_ids": ["TBQ-096", "TBQ-099"],
       "ad_gates": ["AD-G01", "AD-G11"],
-      "question": "Can one Hamiltonian be recovered from eigenvalues and occupied-subspace information, then predict momenta excluded from the loss?",
+      "question": "Can the staggered potential and two hoppings of a Rice-Mele chain be recovered jointly from band energies and occupied-subspace information, then predict momenta excluded from the loss?",
       "parameters": {
         "model_parameters": 3,
         "training_momenta": [0.17, 0.63, 1.11, 1.72, 2.31],
         "public_validation_momenta": [0.39, 0.91, 1.43, 2.03, 2.67]
       },
       "oracle": "central directional derivative, known parameters, and an independent eigensystem/projector forward calculation at excluded momenta",
-      "lkm_nodes": ["gcn_d8da92281f564142", "gcn_d369960c13104475"],
+      "lkm_nodes": ["gcn_c52f0ae9e48644a6", "gcn_61fac1b8d03e407d"],
+      "source_papers": [
+        {
+          "title": "Deep neural networks for high harmonic spectroscopy in solids",
+          "doi": "10.48550/arXiv.2106.08638",
+          "lkm_paper_id": "867769962276586176"
+        }
+      ],
       "required_checks": [
         "AD-G01_spectral_loss_directional_derivative",
         "AD-G11_joint_spectral_parameter_recovery",
@@ -28,7 +38,9 @@
       "id": "ad_degenerate_projector",
       "document": "docs/ad-problems/ad-degenerate-projector.md",
       "track": "ad",
-      "problem_type": "degeneracy-safe spectral differentiation",
+      "benchmark_kind": "research_workflow_adaptation",
+      "physical_system": "spin-degenerate BHZ orbital block",
+      "problem_type": "BHZ Kramers-subspace differentiation",
       "question_ids": ["TBQ-006", "TBQ-097"],
       "ad_gates": ["AD-G04"],
       "question": "Does differentiation remain gauge invariant for a separated occupied subspace while rejecting an isolated band label at exact degeneracy?",
@@ -38,7 +50,14 @@
         "subspace_gap_floor": 0.0001
       },
       "oracle": "central difference, a simultaneous unitary basis rotation, and an explicit exact-degeneracy negative control",
-      "lkm_nodes": ["gcn_fb3f3fe0ae0d411b"],
+      "lkm_nodes": ["gcn_995145fb96d14e92", "gcn_00da49cbfa6c47d6"],
+      "source_papers": [
+        {
+          "title": "A topological look at the quantum spin Hall state",
+          "doi": "10.48550/arXiv.1201.1690",
+          "lkm_paper_id": "867771334485082886"
+        }
+      ],
       "required_checks": [
         "AD-G04_degenerate_projector_directional_derivative",
         "AD-G04_occupied_basis_rotation_invariance",
@@ -49,38 +68,56 @@
       "id": "ad_identifiability",
       "document": "docs/ad-problems/ad-identifiability.md",
       "track": "ad",
-      "problem_type": "inverse-problem identifiability",
+      "benchmark_kind": "research_workflow_adaptation",
+      "physical_system": "Su-Schrieffer-Heeger chain with a local bond marker",
+      "problem_type": "SSH hopping identifiability",
       "question_ids": ["TBQ-098"],
       "ad_gates": ["AD-G14"],
-      "question": "Can the sensitivity matrix reveal a known non-identifiable parameter direction, and can a local perturbation observable lift it?",
+      "question": "Can sensitivities reveal the SSH bulk-spectrum ambiguity under swapping intracell and intercell hoppings, and can a local Hamiltonian marker lift it?",
       "parameters": {
         "model_parameters": 2,
-        "spectral_observables": 5,
+        "spectral_observables": 4,
         "local_perturbation_observables": 1
       },
       "oracle": "analytic Fisher eigenstructure and a deliberately constructed local observable with nonzero response along the spectral nullspace",
-      "lkm_nodes": ["gcn_f3c1234ae1284fbd"],
+      "lkm_nodes": ["gcn_8dff8e3ffbb54f6e", "gcn_ab12a53ddc864f6e"],
+      "source_papers": [
+        {
+          "title": "Evolution-free Hamiltonian parameter estimation through Zeeman markers",
+          "doi": "10.48550/arXiv.1705.07725",
+          "lkm_paper_id": "867771350779954069"
+        }
+      ],
       "required_checks": [
-        "AD-G14_known_fisher_nullspace",
-        "AD-G14_local_perturbation_lifts_ambiguity",
-        "AD-G14_predictive_ambiguity_is_not_hidden"
+        "AD-G14_ssh_bulk_spectral_nullspace",
+        "AD-G14_local_marker_lifts_ssh_ambiguity",
+        "AD-G14_ssh_swap_ambiguity_is_not_hidden"
       ]
     },
     {
       "id": "ad_quantum_metric",
       "document": "docs/ad-problems/ad-quantum-metric.md",
       "track": "ad",
-      "problem_type": "differentiable quantum geometry",
+      "benchmark_kind": "research_workflow_adaptation",
+      "physical_system": "Rice-Mele chain",
+      "problem_type": "Rice-Mele quantum geometry",
       "question_ids": ["TBQ-026", "TBQ-029"],
       "ad_gates": ["AD-G01", "AD-G02", "AD-G15"],
       "question": "Are quantum-metric sensitivities correct, basis covariant, and stable under momentum-mesh refinement?",
       "parameters": {
-        "coarse_momentum_points": 32,
-        "refined_momentum_points": 64,
+        "coarse_momentum_points": 64,
+        "refined_momentum_points": 128,
         "model_parameters": 2
       },
       "oracle": "central directional difference, a global basis rotation, and coarse-to-refined value and gradient convergence",
-      "lkm_nodes": ["gcn_86bcebac99504f4c", "gcn_43c4ae6e813149c4"],
+      "lkm_nodes": ["gcn_e264632a5a0e4780", "gcn_61fac1b8d03e407d"],
+      "source_papers": [
+        {
+          "title": "Giant piezoelectricity driven by Thouless pump in conjugated polymers",
+          "doi": "10.48550/arXiv.2308.16070",
+          "lkm_paper_id": "904068914462326823"
+        }
+      ],
       "required_checks": [
         "AD-G01_quantum_metric_directional_derivative",
         "AD-G02_quantum_metric_basis_covariance",
@@ -91,6 +128,8 @@
       "id": "ad_topological_design",
       "document": "docs/ad-problems/ad-topological-design.md",
       "track": "ad",
+      "benchmark_kind": "research_workflow_adaptation",
+      "physical_system": "Qi-Wu-Zhang Chern insulator",
       "problem_type": "topological inverse design",
       "question_ids": ["TBQ-017", "TBQ-030"],
       "ad_gates": ["AD-G16"],
@@ -103,7 +142,14 @@
         "target_mass": 1.0
       },
       "oracle": "independent FHS Chern recomputation and a resolved gap closing between the initial and final masses",
-      "lkm_nodes": ["gcn_0d1ce01faa964ce2", "gcn_43c4ae6e813149c4"],
+      "lkm_nodes": ["gcn_9da619e467814f8e", "gcn_d08eb08225d74091"],
+      "source_papers": [
+        {
+          "title": "Topological Insulators by Topology Optimization",
+          "doi": "10.1103/PhysRevLett.122.234502",
+          "lkm_paper_id": "817342761018589185"
+        }
+      ],
       "required_checks": [
         "AD-G16_smooth_topological_proxy_optimized",
         "AD-G16_discrete_invariant_forward_recomputed",
@@ -114,18 +160,30 @@
       "id": "ad_surface_green_implicit",
       "document": "docs/ad-problems/ad-surface-green-implicit.md",
       "track": "ad",
-      "problem_type": "implicit differentiation of a converged solver",
+      "benchmark_kind": "research_workflow_adaptation",
+      "physical_system": "semi-infinite Rice-Mele/SSH chain",
+      "problem_type": "SSH boundary Green-function differentiation",
       "question_ids": ["TBQ-023", "TBQ-036"],
       "ad_gates": ["AD-G02", "AD-G09", "AD-G10"],
       "question": "Can the retarded surface Green function be differentiated through its fixed-point equation without unrolling solver iterations?",
       "parameters": {
         "lead_dimension": 2,
-        "broadening": 0.001,
-        "tight_tolerance": 1e-12,
-        "loose_tolerance": 1e-09
+        "intracell_hopping": 0.65,
+        "intercell_hopping": 1.0,
+        "staggered_onsite": 0.05,
+        "broadening": 0.04,
+        "tight_tolerance": 1e-14,
+        "loose_tolerance": 1e-11
       },
       "oracle": "central difference, JVP/VJP adjoint identity, retarded sign, and tolerance stability",
-      "lkm_nodes": ["gcn_ce17a6832cec4c76", "gcn_e8d4a72c26304f59"],
+      "lkm_nodes": ["gcn_e2f9ddf1a54846e4", "gcn_93f7740861dc4400"],
+      "source_papers": [
+        {
+          "title": "Quantum dot coupled to topological insulators: The role of edge states",
+          "doi": "10.48550/arXiv.2112.11814",
+          "lkm_paper_id": "867758051187229240"
+        }
+      ],
       "required_checks": [
         "AD-G09_surface_green_directional_derivative",
         "AD-G02_surface_green_adjoint_identity",
@@ -136,7 +194,9 @@
       "id": "ad_inverse_transport",
       "document": "docs/ad-problems/ad-inverse-transport.md",
       "track": "ad",
-      "problem_type": "inverse transmission design",
+      "benchmark_kind": "research_workflow_adaptation",
+      "physical_system": "noninteracting serial double quantum dot",
+      "problem_type": "double-quantum-dot transmission inference",
       "question_ids": ["TBQ-040", "TBQ-099"],
       "ad_gates": ["AD-G12", "AD-G13"],
       "question": "Can microscopic device parameters be inferred from a transmission trace and then validated by a separate non-AD forward solve at excluded energies?",
@@ -146,7 +206,14 @@
         "public_validation_energies": [-0.61, -0.34, 0.13, 0.39, 0.68]
       },
       "oracle": "central directional difference, target trace loss, and independent open-system transmission at excluded energies",
-      "lkm_nodes": ["gcn_7508395e785e4a5e", "gcn_e8d4a72c26304f59", "gcn_b1a69b35d07f45ad"],
+      "lkm_nodes": ["gcn_a5eb3fecc5264ac5", "gcn_8670a519b2ed4d85"],
+      "source_papers": [
+        {
+          "title": "AD-NEGF: An End-to-End Differentiable Quantum Transport Simulator for Sensitivity Analysis and Inverse Problems",
+          "doi": "10.48550/arXiv.2202.05098",
+          "lkm_paper_id": "867757924515053703"
+        }
+      ],
       "required_checks": [
         "AD-G12_transport_loss_directional_derivative",
         "AD-G13_inverse_transmission_trace",
@@ -157,17 +224,26 @@
       "id": "ad_lead_device_sensitivity",
       "document": "docs/ad-problems/ad-lead-device-sensitivity.md",
       "track": "ad",
-      "problem_type": "complete open-system sensitivity",
+      "benchmark_kind": "research_workflow_adaptation",
+      "physical_system": "single resonant level between two semi-infinite one-dimensional leads",
+      "problem_type": "resonant-level device-and-contact sensitivity",
       "question_ids": ["TBQ-036", "TBQ-040"],
       "ad_gates": ["AD-G09", "AD-G12"],
       "question": "Does a transmission VJP include device, lead-cell, periodic-hopping, interface, energy, and broadening contributions?",
       "parameters": {
-        "device_dimension": 2,
+        "device_dimension": 1,
         "leads": 2,
         "differentiated_blocks": 6
       },
       "oracle": "one full-graph central directional difference and nonzero contribution checks for every declared parameter family",
-      "lkm_nodes": ["gcn_7508395e785e4a5e", "gcn_599a15903a2a40bc", "gcn_e8d4a72c26304f59"],
+      "lkm_nodes": ["gcn_cb7923a88d2246b7", "gcn_4f5c36bfc4254a27"],
+      "source_papers": [
+        {
+          "title": "Harnessing quantum transport by transient chaos",
+          "doi": "10.1063/1.4790863",
+          "lkm_paper_id": "813243759130050560"
+        }
+      ],
       "required_checks": [
         "AD-G12_complete_device_lead_directional_derivative",
         "AD-G12_device_lead_interface_energy_contributions",
@@ -178,7 +254,9 @@
       "id": "ad_sparse_adjoint_scaling",
       "document": "docs/ad-problems/ad-sparse-adjoint-scaling.md",
       "track": "ad",
-      "problem_type": "many-parameter sparse adjoint",
+      "benchmark_kind": "research_workflow_adaptation",
+      "physical_system": "one-dimensional Anderson resolvent with grouped onsite gates",
+      "problem_type": "many-parameter Anderson sparse adjoint",
       "question_ids": ["TBQ-094", "TBQ-097"],
       "ad_gates": ["AD-G07", "AD-G08"],
       "question": "Does a sparse adjoint give converged gradients while keeping the number of linear systems independent of parameter count?",
@@ -188,7 +266,19 @@
         "relative_residual_tolerance": 1e-11
       },
       "oracle": "true primal and adjoint residuals, JVP/VJP/central-difference agreement, and two reverse linear systems versus two per finite-difference parameter",
-      "lkm_nodes": ["gcn_e8d4a72c26304f59", "gcn_b1a69b35d07f45ad"],
+      "lkm_nodes": ["gcn_e70f4e09b2734747", "gcn_a72c49f810f54d63"],
+      "source_papers": [
+        {
+          "title": "Numerical Finite Size Scaling Approach to Many-Body Localization",
+          "doi": "10.1103/PhysRevLett.100.076602",
+          "lkm_paper_id": "811934241301463040"
+        },
+        {
+          "title": "AD-NEGF: An End-to-End Differentiable Quantum Transport Simulator for Sensitivity Analysis and Inverse Problems",
+          "doi": "10.48550/arXiv.2202.05098",
+          "lkm_paper_id": "867757924515053703"
+        }
+      ],
       "required_checks": [
         "AD-G07_sparse_primal_and_adjoint_residuals",
         "AD-G07_sparse_adjoint_gradient",
@@ -199,7 +289,9 @@
       "id": "ad_robust_kpm_design",
       "document": "docs/ad-problems/ad-robust-kpm-design.md",
       "track": "ad",
-      "problem_type": "stochastic robust sparse design",
+      "benchmark_kind": "research_workflow_adaptation",
+      "physical_system": "bond-disordered Su-Schrieffer-Heeger chain",
+      "problem_type": "disordered SSH KPM robust design",
       "question_ids": ["TBQ-094", "TBQ-100"],
       "ad_gates": ["AD-G08", "AD-G17"],
       "question": "Can a checkpointed KPM gradient improve an ensemble objective on both training disorder and public unseen seeds without parameter-wise finite differences?",
@@ -213,7 +305,14 @@
       },
       "oracle": "central directional difference, objective improvement on public unseen seeds, and reported operator-action and stored-vector costs",
       "generality_boundary": "Public unseen seeds are development evidence only. They do not satisfy the isolated AD-G18 evaluator.",
-      "lkm_nodes": ["gcn_0e8306bb16b74c91", "gcn_041957b9b14b4f04"],
+      "lkm_nodes": ["gcn_dd35cab4703b4260", "gcn_58636b14cc7d4109"],
+      "source_papers": [
+        {
+          "title": "Observation of a Topological Phase Transition in Random Coaxial Cable Structures with Chiral Symmetry",
+          "doi": "10.48550/arXiv.2311.11040",
+          "lkm_paper_id": "933789746092572966"
+        }
+      ],
       "required_checks": [
         "AD-G17_stochastic_kpm_directional_derivative",
         "AD-G17_training_and_public_holdout_improve",

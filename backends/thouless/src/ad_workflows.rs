@@ -148,30 +148,37 @@ where
     Ok((values, history))
 }
 
-fn two_band_family(momentum: f64) -> Result<AffineHermitianFamily, Box<dyn Error>> {
-    let base = matrix2(
-        scalar(0.18 * (2.0 * momentum).cos()),
-        Complex64::new(0.55 * momentum.cos(), -0.45 * momentum.sin()),
-        Complex64::new(0.55 * momentum.cos(), 0.45 * momentum.sin()),
-        scalar(-0.18 * (2.0 * momentum).cos()),
+/// Rice--Mele Bloch Hamiltonian in units where the target intercell hopping
+/// is one.
+///
+/// The physical coordinates are the staggered onsite energy, intracell
+/// hopping, and intercell hopping:
+///
+/// H(k) = delta sigma_z + (t1 + t2 cos(k)) sigma_x + t2 sin(k) sigma_y.
+fn rice_mele_family(momentum: f64) -> Result<AffineHermitianFamily, Box<dyn Error>> {
+    let base = ComplexMatrix::zeros(2, 2);
+    let staggered_onsite = pauli_z(scalar(1.0))?;
+    let intracell_hopping = pauli_x(scalar(1.0))?;
+    let intercell_hopping = matrix2(
+        scalar(0.0),
+        Complex64::new(momentum.cos(), -momentum.sin()),
+        Complex64::new(momentum.cos(), momentum.sin()),
+        scalar(0.0),
     )?;
-    let mass = pauli_z(scalar(1.0))?;
-    let real_hopping = pauli_x(scalar(0.35 + 0.65 * momentum.cos()))?;
-    let phase_hopping = pauli_y(scalar(0.4 + 0.6 * momentum.sin()))?;
     Ok(AffineHermitianFamily::new(
         base,
-        vec![mass, real_hopping, phase_hopping],
+        vec![staggered_onsite, intracell_hopping, intercell_hopping],
     )?)
 }
 
 pub(super) fn spectral_recovery() -> Result<(Value, Vec<Check>), Box<dyn Error>> {
     let public_momenta = [0.17, 0.63, 1.11, 1.72, 2.31];
     let hidden_momenta = [0.39, 0.91, 1.43, 2.03, 2.67];
-    let target_values = vec![0.42, -0.27, 0.19];
+    let target_values = vec![0.35, 0.72, 1.0];
     let target = ModelParameters::new(target_values.clone())?;
     let families = public_momenta
         .iter()
-        .map(|momentum| two_band_family(*momentum))
+        .map(|momentum| rice_mele_family(*momentum))
         .collect::<Result<Vec<_>, _>>()?;
     let targets = families
         .iter()
@@ -206,7 +213,7 @@ pub(super) fn spectral_recovery() -> Result<(Value, Vec<Check>), Box<dyn Error>>
         Ok((loss / normalization, gradient))
     };
 
-    let initial = vec![-0.18, 0.14, -0.11];
+    let initial = vec![0.12, 0.95, 0.62];
     let initial_parameters = ModelParameters::new(initial.clone())?;
     let direction = ModelDirection::new(vec![0.31, -0.22, 0.17])?;
     let (_, analytic_gradient) = evaluate(&initial_parameters)?;
@@ -226,7 +233,7 @@ pub(super) fn spectral_recovery() -> Result<(Value, Vec<Check>), Box<dyn Error>>
     let mut hidden_energy_error = 0.0_f64;
     let mut hidden_projector_error = 0.0_f64;
     for momentum in hidden_momenta {
-        let family = two_band_family(momentum)?;
+        let family = rice_mele_family(momentum)?;
         let expected = family.value(&target)?;
         let actual = family.value(&recovered_parameters)?;
         let expected_energy = hermitian_eigensystem(&expected, 1.0e-12)?.eigenvalues()[0];
@@ -263,6 +270,9 @@ pub(super) fn spectral_recovery() -> Result<(Value, Vec<Check>), Box<dyn Error>>
     ];
     Ok((
         json!({
+            "physical_model": "Rice-Mele chain",
+            "parameter_order": ["staggered_onsite", "intracell_hopping", "intercell_hopping"],
+            "energy_unit": "target intercell hopping",
             "target_parameters": target_values,
             "recovered_parameters": recovered_parameters.as_slice(),
             "loss_history": loss_history,
@@ -275,6 +285,10 @@ pub(super) fn spectral_recovery() -> Result<(Value, Vec<Check>), Box<dyn Error>>
 }
 
 fn degenerate_family() -> Result<AffineHermitianFamily, Box<dyn Error>> {
+    // Spin-degenerate BHZ orbital block.  The real orbital direction is shared
+    // by both spin blocks and the imaginary direction has time-reversed signs,
+    // preserving a Kramers pair while the occupied and unoccupied sectors
+    // remain separated.
     let base = ComplexMatrix::new(
         4,
         4,
@@ -308,13 +322,13 @@ fn degenerate_family() -> Result<AffineHermitianFamily, Box<dyn Error>> {
             scalar(0.0),
             scalar(0.0),
             scalar(0.0),
-            scalar(0.0),
+            scalar(1.0),
             scalar(1.0),
             scalar(0.0),
             scalar(0.0),
             scalar(0.0),
             scalar(0.0),
-            scalar(0.0),
+            scalar(1.0),
             scalar(0.0),
             scalar(0.0),
         ],
@@ -325,13 +339,13 @@ fn degenerate_family() -> Result<AffineHermitianFamily, Box<dyn Error>> {
         vec![
             scalar(0.0),
             scalar(0.0),
-            scalar(0.0),
+            Complex64::new(0.0, 1.0),
             scalar(0.0),
             scalar(0.0),
             scalar(0.0),
             scalar(0.0),
             Complex64::new(0.0, -1.0),
-            scalar(0.0),
+            Complex64::new(0.0, -1.0),
             scalar(0.0),
             scalar(0.0),
             scalar(0.0),
@@ -435,6 +449,8 @@ pub(super) fn degenerate_projector() -> Result<(Value, Vec<Check>), Box<dyn Erro
     ];
     Ok((
         json!({
+            "physical_model": "spin-degenerate BHZ orbital block",
+            "occupied_sector": "Kramers pair",
             "objective": value,
             "directional_relative_error": directional_error,
             "basis_rotation_value_error": gauge_value_error,
@@ -474,20 +490,25 @@ fn symmetric_2x2_eigenvalues(matrix: [[f64; 2]; 2]) -> [f64; 2] {
 }
 
 pub(super) fn identifiability() -> Result<(Value, Vec<Check>), Box<dyn Error>> {
-    let parameters = ModelParameters::new(vec![0.24, -0.08])?;
+    // Bulk SSH energies are invariant under swapping the intracell and
+    // intercell hoppings.  At t1 = t2 the local Fisher matrix therefore has
+    // the exact direction (1, -1) in its nullspace.  A marked intracell bond
+    // breaks the ambiguity, following the Hamiltonian-marker workflow.
+    let parameters = ModelParameters::new(vec![0.8, 0.8])?;
     let shared_families = [0.2_f64, 0.7, 1.3, 2.1]
         .iter()
         .map(|momentum| {
-            let base = matrix2(
-                scalar(0.3 * momentum.cos()),
-                Complex64::new(momentum.cos(), -momentum.sin()),
-                Complex64::new(momentum.cos(), momentum.sin()),
-                scalar(-0.3 * momentum.cos()),
-            )?;
-            let common = pauli_z(scalar(1.0))?;
             Ok(AffineHermitianFamily::new(
-                base,
-                vec![common.clone(), common],
+                ComplexMatrix::zeros(2, 2),
+                vec![
+                    pauli_x(scalar(1.0))?,
+                    matrix2(
+                        scalar(0.0),
+                        Complex64::new(momentum.cos(), -momentum.sin()),
+                        Complex64::new(momentum.cos(), momentum.sin()),
+                        scalar(0.0),
+                    )?,
+                ],
             )?)
         })
         .collect::<Result<Vec<_>, Box<dyn Error>>>()?;
@@ -502,22 +523,26 @@ pub(super) fn identifiability() -> Result<(Value, Vec<Check>), Box<dyn Error>> {
         .map(|row| (row[0] - row[1]).abs())
         .fold(0.0_f64, f64::max);
 
+    let marker_momentum = 1.3_f64;
     let local_family = AffineHermitianFamily::new(
-        matrix2(
-            scalar(0.2),
-            Complex64::new(0.8, -0.35),
-            Complex64::new(0.8, 0.35),
-            scalar(-0.2),
-        )?,
-        vec![pauli_z(scalar(1.0))?, pauli_x(scalar(0.7))?],
+        pauli_x(scalar(0.2))?,
+        vec![
+            pauli_x(scalar(1.0))?,
+            matrix2(
+                scalar(0.0),
+                Complex64::new(marker_momentum.cos(), -marker_momentum.sin()),
+                Complex64::new(marker_momentum.cos(), marker_momentum.sin()),
+                scalar(0.0),
+            )?,
+        ],
     )?;
     let mut augmented_rows = shared_rows.clone();
     augmented_rows.push(isolated_jacobian_row(&local_family, &parameters)?);
     let augmented_fisher = fisher_2x2(&augmented_rows);
     let augmented_eigenvalues = symmetric_2x2_eigenvalues(augmented_fisher);
 
-    let plus = ModelParameters::new(vec![0.34, -0.18])?;
-    let minus = ModelParameters::new(vec![0.14, 0.02])?;
+    let plus = ModelParameters::new(vec![0.95, 0.65])?;
+    let minus = ModelParameters::new(vec![0.65, 0.95])?;
     let primary_difference = shared_families
         .iter()
         .map(|family| {
@@ -534,68 +559,73 @@ pub(super) fn identifiability() -> Result<(Value, Vec<Check>), Box<dyn Error>> {
 
     let checks = vec![
         check(
-            "AD-G14_known_fisher_nullspace",
+            "AD-G14_ssh_bulk_spectral_nullspace",
             null_residual < 1.0e-12
                 && shared_eigenvalues[0].abs() < 1.0e-12
                 && shared_eigenvalues[1] > 1.0e-3,
             json!({"eigenvalues": shared_eigenvalues, "null_residual": null_residual}),
-            json!("one rank-one Fisher null direction"),
+            json!("the SSH hopping-swap direction is a rank-one Fisher null direction"),
             None,
         ),
         check(
-            "AD-G14_local_perturbation_lifts_ambiguity",
+            "AD-G14_local_marker_lifts_ssh_ambiguity",
             augmented_eigenvalues[0] > 1.0e-3,
             json!({"eigenvalues": augmented_eigenvalues}),
             json!({"minimum_eigenvalue": 1.0e-3}),
             Some(1.0e-3),
         ),
         check(
-            "AD-G14_predictive_ambiguity_is_not_hidden",
+            "AD-G14_ssh_swap_ambiguity_is_not_hidden",
             primary_difference < 1.0e-12 && local_difference > 1.0e-2,
-            json!({"primary_difference": primary_difference, "local_difference": local_difference}),
-            json!({"primary_maximum": 1.0e-12, "local_minimum": 1.0e-2}),
+            json!({"bulk_spectrum_difference": primary_difference, "marked_spectrum_difference": local_difference}),
+            json!({"bulk_maximum": 1.0e-12, "marked_minimum": 1.0e-2}),
             None,
         ),
     ];
     Ok((
         json!({
+            "physical_model": "Su-Schrieffer-Heeger chain with a local bond marker",
+            "parameter_order": ["intracell_hopping", "intercell_hopping"],
+            "symmetric_parameters": parameters.as_slice(),
             "primary_jacobian": shared_rows,
             "primary_fisher": shared_fisher,
             "primary_fisher_eigenvalues": shared_eigenvalues,
             "augmented_fisher": augmented_fisher,
             "augmented_fisher_eigenvalues": augmented_eigenvalues,
-            "ambiguous_primary_prediction_difference": primary_difference,
-            "ambiguity_revealing_local_difference": local_difference,
+            "swapped_bulk_spectrum_difference": primary_difference,
+            "marker_lifted_difference": local_difference,
         }),
         checks,
     ))
 }
 
-fn quantum_metric_families(
+fn rice_mele_quantum_metric_families(
     point_count: usize,
 ) -> Result<Vec<AffineHermitianFamily>, Box<dyn Error>> {
     let momentum_step = TAU / point_count as f64;
     (0..point_count)
         .map(|point| {
             let momentum = point as f64 * momentum_step;
-            let base = matrix2(
+            let intercell = matrix2(
                 scalar(0.0),
                 Complex64::new(momentum.cos(), -momentum.sin()),
                 Complex64::new(momentum.cos(), momentum.sin()),
                 scalar(0.0),
             )?;
+            let equal_hoppings = add_matrices(&pauli_x(scalar(1.0))?, &intercell)?;
+            let dimerization = subtract_matrices(&pauli_x(scalar(1.0))?, &intercell)?;
             Ok(AffineHermitianFamily::new(
-                base,
-                vec![pauli_z(scalar(1.0))?, pauli_x(scalar(1.0))?],
+                equal_hoppings,
+                vec![pauli_z(scalar(1.0))?, dimerization],
             )?)
         })
         .collect()
 }
 
 pub(super) fn quantum_metric() -> Result<(Value, Vec<Check>), Box<dyn Error>> {
-    let point_count = 32;
+    let point_count = 64;
     let step = TAU / point_count as f64;
-    let families = quantum_metric_families(point_count)?;
+    let families = rice_mele_quantum_metric_families(point_count)?;
     let rotated_families = {
         let unitary = matrix2(
             scalar((0.37_f64).cos()),
@@ -637,9 +667,9 @@ pub(super) fn quantum_metric() -> Result<(Value, Vec<Check>), Box<dyn Error>> {
             .fold(0.0_f64, f64::max),
     );
 
-    let refined_count = 64;
+    let refined_count = 128;
     let refined = QuantumMetricMeshObjective::new(
-        quantum_metric_families(refined_count)?,
+        rice_mele_quantum_metric_families(refined_count)?,
         1,
         TAU / refined_count as f64,
         1.0e-5,
@@ -672,6 +702,9 @@ pub(super) fn quantum_metric() -> Result<(Value, Vec<Check>), Box<dyn Error>> {
     ];
     Ok((
         json!({
+            "physical_model": "Rice-Mele chain",
+            "parameter_order": ["staggered_onsite", "dimerization"],
+            "fixed_average_hopping": 1.0,
             "value": value,
             "directional_derivative": derivative,
             "directional_relative_error": directional_error,
@@ -796,6 +829,8 @@ pub(super) fn topological_design() -> Result<(Value, Vec<Check>), Box<dyn Error>
     ];
     Ok((
         json!({
+            "physical_model": "Qi-Wu-Zhang Chern insulator",
+            "parameter_order": ["Dirac mass"],
             "initial_mass": initial_mass,
             "target_mass": target_mass,
             "optimized_mass": final_mass,
@@ -811,37 +846,20 @@ pub(super) fn topological_design() -> Result<(Value, Vec<Check>), Box<dyn Error>
 }
 
 pub(super) fn surface_green_implicit() -> Result<(Value, Vec<Check>), Box<dyn Error>> {
+    // Semi-infinite Rice--Mele/SSH lead.  The cell Hamiltonian contains the
+    // intracell bond and the lower-left entry of V is the intercell bond in
+    // this principal-cell convention.
     let arguments = SurfaceGreenArguments {
-        cell_hamiltonian: matrix2(
-            scalar(0.15),
-            Complex64::new(-0.08, 0.03),
-            Complex64::new(-0.08, -0.03),
-            scalar(-0.12),
-        )?,
-        inter_cell_hopping: matrix2(
-            Complex64::new(0.31, 0.02),
-            Complex64::new(0.04, -0.03),
-            Complex64::new(-0.02, 0.01),
-            Complex64::new(0.27, -0.01),
-        )?,
-        energy: 0.07,
-        broadening: 0.12,
+        cell_hamiltonian: matrix2(scalar(0.05), scalar(0.65), scalar(0.65), scalar(-0.05))?,
+        inter_cell_hopping: matrix2(scalar(0.0), scalar(0.0), scalar(1.0), scalar(0.0))?,
+        energy: 0.18,
+        broadening: 0.04,
     };
     let tangent = SurfaceGreenTangent {
-        cell_hamiltonian: matrix2(
-            scalar(0.2),
-            Complex64::new(-0.03, 0.05),
-            Complex64::new(-0.03, -0.05),
-            scalar(-0.1),
-        )?,
-        inter_cell_hopping: matrix2(
-            Complex64::new(0.06, -0.02),
-            Complex64::new(0.03, 0.04),
-            Complex64::new(-0.05, 0.01),
-            Complex64::new(-0.02, 0.03),
-        )?,
-        energy: -0.08,
-        broadening: 0.04,
+        cell_hamiltonian: matrix2(scalar(0.12), scalar(-0.08), scalar(-0.08), scalar(-0.12))?,
+        inter_cell_hopping: matrix2(scalar(0.0), scalar(0.0), scalar(0.07), scalar(0.0))?,
+        energy: -0.05,
+        broadening: 0.015,
     };
     let output_cotangent = matrix2(
         Complex64::new(0.2, -0.1),
@@ -933,6 +951,10 @@ pub(super) fn surface_green_implicit() -> Result<(Value, Vec<Check>), Box<dyn Er
     ];
     Ok((
         json!({
+            "physical_model": "semi-infinite Rice-Mele/SSH chain",
+            "intracell_hopping": 0.65,
+            "intercell_hopping": 1.0,
+            "staggered_onsite": 0.05,
             "green_function": green.as_slice().iter().map(|value| [value.re, value.im]).collect::<Vec<_>>(),
             "finite_difference_relative_error": finite_difference_error,
             "adjoint_identity_relative_error": duality_error,
@@ -1062,6 +1084,9 @@ pub(super) fn inverse_transport() -> Result<(Value, Vec<Check>), Box<dyn Error>>
     ];
     Ok((
         json!({
+            "physical_model": "noninteracting serial double quantum dot",
+            "parameter_order": ["left_dot_onsite", "interdot_hopping_correction"],
+            "lead_model": "wide-band endpoint self-energies",
             "target_parameters": target_values,
             "optimized_parameters": optimized_parameters.as_slice(),
             "loss_history": history,
@@ -1235,6 +1260,7 @@ pub(super) fn lead_device_sensitivity() -> Result<(Value, Vec<Check>), Box<dyn E
     ];
     Ok((
         json!({
+            "physical_model": "single resonant level between two semi-infinite one-dimensional leads",
             "transmission": value,
             "native_directional_derivative": analytic,
             "finite_difference_directional_derivative": numerical,
@@ -1326,7 +1352,13 @@ pub(super) fn sparse_adjoint_scaling() -> Result<(Value, Vec<Check>), Box<dyn Er
     let mut maximum_gradient_error = 0.0_f64;
     let mut maximum_residual = 0.0_f64;
     for parameter_count in parameter_counts {
-        let family = sparse_family(dimension, parameter_count, |_| 2.4, -0.22, 0.04)?;
+        let family = sparse_family(
+            dimension,
+            parameter_count,
+            |site| 2.4 + 0.11 * (0.731 * site as f64 + 0.29).sin(),
+            -0.22,
+            0.04,
+        )?;
         let right_hand_side = deterministic_vector(dimension, 0.2);
         let output_cotangent = deterministic_vector(dimension, 0.9);
         let objective = SparseLinearFunctionalObjective::new(
@@ -1423,6 +1455,9 @@ pub(super) fn sparse_adjoint_scaling() -> Result<(Value, Vec<Check>), Box<dyn Er
     ];
     Ok((
         json!({
+            "physical_model": "one-dimensional Anderson resolvent with grouped onsite gates",
+            "disorder_amplitude": 0.11,
+            "nearest_neighbor_hopping": -0.22,
             "dimension": dimension,
             "records": records,
             "maximum_gradient_relative_error": maximum_gradient_error,
@@ -1439,6 +1474,47 @@ fn kpm_coefficients(moment_count: usize) -> Vec<f64> {
             120.0 * (-order / 11.0).exp() * (0.43 * order).cos()
         })
         .collect()
+}
+
+fn disordered_ssh_family(
+    seed: usize,
+    dimension: usize,
+    parameter_count: usize,
+) -> Result<SparseAffineOperator, Box<dyn Error>> {
+    let phase = seed as f64 * 0.173;
+    let mut row_offsets = Vec::with_capacity(dimension + 1);
+    let mut column_indices = Vec::with_capacity(3 * dimension);
+    let mut values = Vec::with_capacity(3 * dimension);
+    row_offsets.push(0);
+    for row in 0..dimension {
+        if row > 0 {
+            let bond = row - 1;
+            let clean = if bond % 2 == 0 { 0.16 } else { 0.24 };
+            let disorder = 0.018 * (phase + 0.619 * bond as f64).sin();
+            column_indices.push(row - 1);
+            values.push(scalar(clean + disorder));
+        }
+        column_indices.push(row);
+        values.push(scalar(0.0));
+        if row + 1 < dimension {
+            let bond = row;
+            let clean = if bond % 2 == 0 { 0.16 } else { 0.24 };
+            let disorder = 0.018 * (phase + 0.619 * bond as f64).sin();
+            column_indices.push(row + 1);
+            values.push(scalar(clean + disorder));
+        }
+        row_offsets.push(column_indices.len());
+    }
+    let base = CsrMatrix::new(dimension, dimension, row_offsets, column_indices, values)?;
+    let terms = (0..dimension - 1)
+        .map(|bond| SparseHermitianTerm {
+            parameter: (bond / 2) % parameter_count,
+            row: bond,
+            column: bond + 1,
+            coefficient: scalar(0.035),
+        })
+        .collect();
+    Ok(SparseAffineOperator::new(base, parameter_count, terms)?)
 }
 
 type KpmEnsembleComponents = (
@@ -1459,13 +1535,7 @@ fn robust_kpm_objectives(
     let mut coefficients = Vec::new();
     for seed in seeds {
         let phase = *seed as f64 * 0.173;
-        operators.push(sparse_family(
-            dimension,
-            parameter_count,
-            |site| 0.11 * (phase + 0.37 * site as f64).sin(),
-            0.18,
-            0.035,
-        )?);
+        operators.push(disordered_ssh_family(*seed, dimension, parameter_count)?);
         probes.push(deterministic_vector(dimension, phase + 0.31));
         coefficients.push(kpm_coefficients(moment_count));
     }
@@ -1604,7 +1674,7 @@ pub(super) fn robust_kpm_design() -> Result<(Value, Vec<Check>), Box<dyn Error>>
         / (2.0 * FD_STEP);
     let gradient_error = relative_error(analytic, numerical);
 
-    let (optimized, history) = minimize_with_backtracking(initial, 180, 40.0, evaluate)?;
+    let (optimized, history) = minimize_with_backtracking(initial, 360, 40.0, evaluate)?;
     let optimized_parameters = ModelParameters::new(optimized.clone())?;
     let (training_loss, _, _, _) = kpm_ensemble_value_and_gradient(
         &training_operators,
@@ -1675,6 +1745,10 @@ pub(super) fn robust_kpm_design() -> Result<(Value, Vec<Check>), Box<dyn Error>>
     ];
     Ok((
         json!({
+            "physical_model": "bond-disordered Su-Schrieffer-Heeger chain",
+            "clean_intracell_hopping": 0.16,
+            "clean_intercell_hopping": 0.24,
+            "bond_disorder_amplitude": 0.018,
             "dimension": dimension,
             "parameter_count": parameter_count,
             "moment_count": moment_count,

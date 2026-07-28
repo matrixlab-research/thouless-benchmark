@@ -1,0 +1,662 @@
+{
+  "code": 0,
+  "data": {
+    "has_more": true,
+    "papers": {
+      "paper:1164534351535276044": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "R. G. Dias | L. Madail | A. M. Marques",
+        "available_online": "",
+        "cover_date_start": "2025-08-16",
+        "created_at": "2026-06-14T02:33:01+08:00",
+        "doi": "10.48550/arXiv.2508.12066",
+        "en_title": "High-root topological edge-state bands",
+        "id": "1164534351535276044",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "高根拓扑边缘态能带"
+      },
+      "paper:811150981105451010": {
+        "area": "Physics and Astrophysics, physics, condensed matter, physics, applied, materials science, multidisciplinary",
+        "authors": "R. O. Kuzian | E. E. Krasovskii",
+        "available_online": "2016-9-8",
+        "cas_zone": "2",
+        "cover_date_start": "2016-09-08",
+        "created_at": "2026-06-19T07:14:23+08:00",
+        "doi": "10.1103/physrevb.94.115119",
+        "en_title": "One-step approach to ARPES from strongly correlated solids: A Mott-Hubbard system",
+        "id": "811150981105451010",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "从强关联固体到角分辨光电子能谱的一步法：一个莫特-哈伯德体系"
+      },
+      "paper:812524369094901763": {
+        "area": "mathematics, mathematical sciences, applied mathematics",
+        "authors": "Sabine Jansen | Wolfgang König | Bernd Schmidt | Florian Theil",
+        "available_online": "2020-12-21",
+        "cas_zone": "1",
+        "cover_date_start": "2020-12-21",
+        "created_at": "2026-06-17T03:22:34+08:00",
+        "doi": "10.1007/s00205-020-01587-3",
+        "en_title": "Surface Energy and Boundary Layers for a Chain of Atoms at Low Temperature",
+        "id": "812524369094901763",
+        "impact_factor": 2.2,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2021-2",
+        "publication_id": "818",
+        "publication_name": "Archive for Rational Mechanics and Analysis _ Arch Rational Mech Anal",
+        "research_categories": "[\"Mathematical Sciences\", \"Applied Mathematics\"]",
+        "zh_title": "低温下原子链的表面能与边界层"
+      },
+      "paper:812543674729627649": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, materials science, multidisciplinary",
+        "authors": "Daniel J. Yates | Alexander G. Abanov | Aditi Mitra",
+        "available_online": "2020-11-12",
+        "cas_zone": "2",
+        "cover_date_start": "2020-11-12",
+        "created_at": "2026-06-17T06:26:58+08:00",
+        "doi": "10.1103/physrevb.102.195419",
+        "en_title": "Dynamics of almost strong edge modes in spin chains away from integrability",
+        "id": "812543674729627649",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "远离可积性的自旋链中近强边缘模式的动力学"
+      },
+      "paper:812638260781121537": {
+        "area": "comprehensive periodical, engineering, physical sciences, condensed matter physics",
+        "authors": "Yiing-Rei Chen | Ming-Kuan Lin | Dun-Hao Chan | Kuan-Bo Lin | Chao-Cheng Kaun",
+        "available_online": "2020-5-15",
+        "cas_zone": "3",
+        "cover_date_start": "2020-05-15",
+        "created_at": "2026-06-17T01:28:27+08:00",
+        "doi": "10.1038/s41598-020-63363-3",
+        "en_title": "Ab Initio and Theoretical Study on Electron Transport through Polyene Junctions in between Carbon Nanotube Leads of Various Cuts",
+        "id": "812638260781121537",
+        "impact_factor": 3.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2020-12",
+        "publication_id": "9354",
+        "publication_name": "Scientific Reports _ Sci Rep",
+        "research_categories": "[\"Engineering\", \"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "关于电子通过不同切割方式的碳纳米管引线之间的多烯结的从头算和理论研究"
+      },
+      "paper:813047613166190593": {
+        "area": "mathematics, computer science, artificial intelligence, materials science, characterization & testing, engineering, multidisciplinary",
+        "authors": "Martin Esmann | Norberto Lanzillotti-Kimura",
+        "available_online": "2018-3-30",
+        "cover_date_start": "2018-03-30",
+        "created_at": "2026-05-16T20:53:08+08:00",
+        "doi": "10.3390/app8040527",
+        "en_title": "A Topological View on Optical and Phononic Fabry–Perot Microcavities through the Su–Schrieffer–Heeger Model",
+        "id": "813047613166190593",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "96528",
+        "publication_name": "Applied Sciences _ Applied Sciences",
+        "research_categories": "",
+        "zh_title": "通过Su-Schrieffer-Heeger模型对光学和声学法布里-珀罗微腔的拓扑视角"
+      },
+      "paper:867747121321738780": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Nicolas Delnour | Alexei Bissonnette | Hichem Eleuch | Richard MacKenzie | Michael Hilke",
+        "available_online": "",
+        "cover_date_start": "2023-02-27",
+        "created_at": "2026-06-15T03:25:32+08:00",
+        "doi": "10.48550/arXiv.2302.13771",
+        "en_title": "Scanning qubit probe of edge states in a topological insulator",
+        "id": "867747121321738780",
+        "keywords": "",
+        "publication_date": "2023-02-27",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "拓扑绝缘体边缘态的扫描量子比特探针"
+      },
+      "paper:867748000917619236": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Mojtaba Farmanbar | Taher Amlaki | Geert Brocks",
+        "available_online": "",
+        "cover_date_start": "2016-03-18",
+        "created_at": "2026-05-16T04:28:51+08:00",
+        "doi": "10.48550/arXiv.1603.05986",
+        "en_title": "Green$'$s function approach to edge states in transition metal dichalcogenides",
+        "id": "867748000917619236",
+        "keywords": "",
+        "publication_date": "2016-03-18",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "格林函数方法研究过渡金属二硫属化物中的边缘态"
+      },
+      "paper:867753912784912934": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Subhajyoti Bid | Arunava Chakrabarti",
+        "available_online": "",
+        "cover_date_start": "2021-08-21",
+        "created_at": "2026-06-17T03:08:06+08:00",
+        "doi": "10.48550/arXiv.2108.09525",
+        "en_title": "Topological properties of a class of Su-Schrieffer-Heeger variants",
+        "id": "867753912784912934",
+        "keywords": "",
+        "publication_date": "2021-08-21",
+        "publication_id": "108482",
+        "publication_name": "Disordered Systems and Neural Networks _ Physics.cond-mat.dis-nn",
+        "research_categories": "",
+        "zh_title": "一类Su-Schrieffer-Heeger变体的拓扑性质"
+      },
+      "paper:867758051187229240": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics, quantum physics",
+        "authors": "Martin T. Maurer | Yen-Ting Lin | Dante M. Kennes | Mikhail Pletyukhov | Herbert Schoeller | Volker Meden",
+        "available_online": "",
+        "cover_date_start": "2021-12-22",
+        "created_at": "2026-06-15T01:19:01+08:00",
+        "doi": "10.48550/arXiv.2112.11814",
+        "en_title": "Quantum dot coupled to topological insulators: The role of edge states",
+        "id": "867758051187229240",
+        "keywords": "",
+        "publication_date": "2021-12-22",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "耦合到拓扑绝缘体的量子点：边缘态的作用"
+      },
+      "paper:867758987695620672": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Meri Zaimi | Christian Boudreault | Nouédyn Baspin | Nicolas Delnour | Hichem Eleuch | Richard MacKenzie | Michael Hilke",
+        "available_online": "",
+        "cover_date_start": "2019-10-22",
+        "created_at": "2026-05-25T20:40:18+08:00",
+        "doi": "10.48550/arXiv.1910.09926",
+        "en_title": "Detecting topological edge states with the dynamics of a qubit",
+        "id": "867758987695620672",
+        "keywords": "",
+        "publication_date": "2019-10-22",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "利用量子比特的动力学检测拓扑边缘态"
+      },
+      "paper:867769538161148616": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics, quantum physics",
+        "authors": "A. C. P. Lima | R. C. Bento Ribeiro | J. H. Correa | Fernanda Deus | M. S. Figueira | Mucio A. Continentino",
+        "available_online": "",
+        "cover_date_start": "2021-12-20",
+        "created_at": "2026-06-17T00:32:25+08:00",
+        "doi": "10.48550/arXiv.2112.10896",
+        "en_title": "Thermoelectric properties of topological chains coupled to a quantum dot",
+        "id": "867769538161148616",
+        "keywords": "",
+        "publication_date": "2021-12-20",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "耦合到量子点的拓扑链的热电性质"
+      },
+      "paper:867772031297388606": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "R. Pineda | W. J. Herrera",
+        "available_online": "",
+        "cover_date_start": "2022-05-04",
+        "created_at": "2026-06-12T08:28:04+08:00",
+        "doi": "10.48550/arXiv.2205.02326",
+        "en_title": "Edge states, transport and topological properties of heterostructures in the SSH model",
+        "id": "867772031297388606",
+        "keywords": "",
+        "publication_date": "2022-05-04",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "SSH模型中异质结构的边缘态、输运和拓扑性质"
+      },
+      "paper:884073193298461073": {
+        "area": "arXiv-Physics, Physical Sciences, Condensed Matter Physics",
+        "authors": "Alexei Bissonnette | Nicolas Delnour | Andrew Mckenna | Hichem Eleuch | Michael Hilke | Richard MacKenzie",
+        "available_online": "",
+        "cover_date_start": "2023-06-30",
+        "created_at": "2026-06-19T08:20:57+08:00",
+        "doi": "10.48550/arXiv.2306.17761",
+        "en_title": "Boundary-induced topological transition in an open SSH model",
+        "id": "884073193298461073",
+        "keywords": "",
+        "publication_date": "2023-06-30",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "开放SSH模型中边界诱导的拓扑相变"
+      },
+      "paper:965133945781878791": {
+        "area": "arXiv-Physics, Physical Sciences, Quantum Physics",
+        "authors": "Gonzalo Usaj",
+        "available_online": "",
+        "cover_date_start": "2024-02-14",
+        "created_at": "2026-06-19T02:43:55+08:00",
+        "doi": "10.48550/arXiv.2402.09104",
+        "en_title": "Localization engineering by resonant driving in dissipative polariton arrays",
+        "id": "965133945781878791",
+        "keywords": "",
+        "publication_date": "2024-02-14",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Quantum Physics\"]",
+        "zh_title": "通过耗散极化激元阵列中的共振驱动实现定位工程"
+      }
+    },
+    "variables": [
+      {
+        "content": "By solving the Dyson self-consistency $\\hat{G}_{11}=\\hat{\\Delta}(\\hat{g}_m,\\hat{G}_{11})$, where $\\hat{g}_m(E)$ is the GF of a single SSH cell with intra-cell hopping $v$ (given by $\\hat{g}_m(E)=\\frac{1}{E^2-v^2}\\begin{pmatrix} E & v \\\\ v & E \\end{pmatrix}$ for $\\epsilon_{A,B}=0$) and $\\hat{\\Delta}(\\hat{a},\\hat{b})=(\\hat{1}-\\hat{a}\\hat{\\Sigma}\\hat{b}\\hat{\\Sigma})^{-1}\\hat{a}$ with $\\hat{\\Sigma}=w\\hat{C}$ (inter-cell coupling matrix with $\\hat{C}=\\begin{pmatrix}0&0\\\\1&0\\end{pmatrix}$), an analytic closed-form expression for the edge GF of a semi-infinite SSH chain (with intra-cell hopping $v$ and inter-cell hopping $w$) was obtained. Defining $A/B=(E-\\epsilon_{A/B})$ and\n      $$\n      D=\\frac{AB-(v^{2}+w^{2})}{2vw}-i\\sqrt{1-\\Big[\\frac{AB-(v^{2}+w^{2})}{2vw}\\Big]^2},\n      $$\n      the edge GF is given by\n      $$\n      G_{11}(E)=\\frac{D}{w}\\begin{pmatrix}\n        \\frac{w}{AD}\\left[1+\\frac{v}{w}D\\right] & 1\\\\[4pt]\n        1 & \\frac{A}{v}\n      \\end{pmatrix}.\n      $$\n      This closed form provides the semi-infinite LDOS (bulk band edges and zero-energy edge-state spectral weight) and serves as an analytic reference limiting case against which finite-chain results are compared.",
+        "content_hash": "d2bbe61d38e10e8091aa1a53cfe60a35968e817047e879ac4f43d823646f7f01",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_93f7740861dc4400",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867772031297388606::conclusion_6",
+            "package_id": "paper:867772031297388606",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867772031297388606"
+          ]
+        },
+        "rerank_score": 0.9590624058029076,
+        "role": "conclusion",
+        "score": 0.024501173708920188,
+        "title": "Closed-form semi-infinite-chain Green function (analytic expression) used to obtain LDOS of semi-infinite limit",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The boundary (first-site) retarded Green's function of a semi-infinite SSH chain admits an analytic form whose low-energy expansion (for $|\\omega|,\\Delta\\ll W$) has the real and imaginary parts\n      $$\n      \\mathrm{Re}\\,\\langle1|g^{\\mathrm{R}}(\\omega)|1\\rangle=\\frac{2}{W}\\Big[\\kappa\\frac{\\Delta}{\\omega}+\\Theta(\\Delta-|\\omega|)\\frac{\\sqrt{\\Delta^{2}-\\omega^{2}}}{\\omega}\\Big],\n      $$\n      $$\n      \\mathrm{Im}\\,\\langle1|g^{\\mathrm{R}}(\\omega)|1\\rangle=\\frac{2}{W}\\Big[\\eta+\\Theta(|\\omega|-\\Delta)\\frac{\\sqrt{\\omega^{2}-\\Delta^{2}}}{|\\omega|}+2\\pi\\Delta\\,\\delta_{\\kappa,1}\\,\\delta_{\\eta}(\\omega)\\Big],\n      $$\n      and, in the topological phase ($\\kappa=1$), the pole associated with the edge state satisfies\n      $$\n      \\langle1|g^{\\mathrm{R}}(\\omega)|1\\rangle \\xrightarrow{\\omega\\to0} |\\langle1|\\psi_{e}\\rangle|^{2}\\frac{1}{\\omega+i\\eta},\n      $$\n      with the edge-state boundary weight $|\\langle1|\\psi_{e}\\rangle|^{2}=4\\Delta/W$. Here $\\kappa$ is the lead-phase index ($\\kappa=1$ for topological, $\\kappa=-1$ for normal), $\\eta\\to0^{+}$ is a convergence parameter, $\\delta_{\\eta}(\\omega)=(1/\\pi)\\eta/(\\omega^{2}+\\eta^{2})$ is a nascent delta function, and $\\Theta$ denotes the Heaviside step function. These expressions expose explicitly the $1/\\omega$ singularity in the real part and the $\\delta$-peak in the imaginary part that originate from the SSH boundary-localized state.",
+        "content_hash": "cd2b257c798075043203b58c97697777e2ceab397cc2f5ad70cf8161a35f9396",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_e2f9ddf1a54846e4",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867758051187229240::conclusion_2",
+            "package_id": "paper:867758051187229240",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867758051187229240"
+          ]
+        },
+        "rerank_score": 0.946415173690746,
+        "role": "conclusion",
+        "score": 0.011904761904761904,
+        "title": "Analytic boundary Green's function of a semi-infinite SSH lead and its singular edge-state contribution",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The surface (right-most-site) retarded Green's function $G_{\\mathrm{SSH},\\infty}^{\\mathrm{S}}(E)$ of a finite SSH chain of $N$ sites whose left end is coupled to a semi-infinite tight-binding lead (surface self-energy $\\Sigma_{\\infty}$) is given in closed algebraic form, with distinct expressions for even and odd $N$. For even $N$,\n      $$\n      G_{\\mathrm{SSH},\\infty}^{\\mathrm{S}}(E)=\\frac{E\\,t_{2}\\,s_{N}-\\Sigma_{\\infty}\\left(t_{1}\\,s_{N-2}+t_{2}\\,s_{N}\\right)}\n      {t_{2}^{2}\\left(t_{1}\\,s_{N+2}+t_{2}\\,s_{N}\\right)-E\\,t_{2}\\,\\Sigma_{\\infty}\\,s_{N}},\n      $$\n      and for odd $N$,\n      $$\n      G_{\\mathrm{SSH},\\infty}^{\\mathrm{S}}(E)=\\frac{t_{2}\\left(t_{2}\\,s_{N-1}+t_{1}\\,s_{N+1}\\right)-E\\,\\Sigma_{\\infty}\\,s_{N-1}}\n      {t_{1}\\,t_{2}\\,E\\,s_{N+1}-t_{1}\\,\\Sigma_{\\infty}\\left(t_{2}\\,s_{N+1}+t_{1}\\,s_{N-1}\\right)}.\n      $$\n      Here $E$ is energy, $t_1,t_2>0$ are the alternating SSH hopping parameters, $s_j\\equiv\\sin(jk)$ with $k$ the appropriate wave number for bulk solutions (as in the SSH dispersion), and $\\Sigma_{\\infty}=t_{\\mathrm{L}}^{2}G_{\\infty}^{\\mathrm{S}}(E)$ is the left-lead surface self-energy (with $t_{\\mathrm{L}}$ the lead–SSH coupling and $G_{\\infty}^{\\mathrm{S}}(E)=\\frac{1}{2}\\left(E-i\\sqrt{4-E^{2}}\\right)$ the lead surface Green's function used here). These expressions give the full energy dependence of the finite-chain surface Green's function that enters the qubit self-energy.",
+        "content_hash": "a90f6983f6d90151661e781356c7d0afd856751fd53941978122ebebf23374d7",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_cd7962153b184894",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867758987695620672::conclusion_1",
+            "package_id": "paper:867758987695620672",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867758987695620672"
+          ]
+        },
+        "related": [
+          {
+            "content": "For a double-dot qubit (energies $\\epsilon_1,\\epsilon_2$, coupling $\\tau$) weakly coupled ($t_{\\mathrm{C}}\\ll1$) to the rightmost site of a finite SSH chain of $N$ sites (alternating hoppings $t_1,t_2>0$, ratio $r=t_1/t_2$) whose left end is coupled to a semi-infinite lead (coupling $t_{\\mathrm{L}}$), the qubit decoherence rate $(\\tau_{\\phi})^{-1}$ as a function of $N$ and $r$ exhibits the following behaviors: (i) pronounced even–odd oscillations at small $N$ due to resonances between double-dot eigenenergies and discrete SSH chain energy levels; (ii) when an exponentially localized edge state exists at the qubit attachment site (for odd $N$ with $r>1$, or even $N$ with $r<r_{\\mathrm{C}}$), the decoherence rate is strongly enhanced; (iii) when no edge state exists at the qubit site (even $N$ with $r>r_{\\mathrm{C}}$, or odd $N$ with $r<1$ where the edge state is localized at the opposite end), the decoherence rate is exponentially suppressed with $N$ because the surface local density of states at the qubit energy is exponentially small. Here $r_{\\mathrm{C}}=N/(N+2)$ is the finite-size critical ratio for even $N$, separating regimes with and without complex-$k$ edge solutions.",
+            "has_reasoning": true,
+            "id": "gcn_ab82ba9b31fc472a",
+            "kind": "conclusion",
+            "rerank_score": 0,
+            "role": "conclusion",
+            "score": 0.014492753623188406,
+            "title": "Even–odd parity and hopping-ratio dependence of qubit decoherence rate",
+            "type": "claim"
+          }
+        ],
+        "rerank_score": 0.9534714164960225,
+        "role": "conclusion",
+        "score": 0.026333113890717574,
+        "title": "Closed-form surface Green's function of finite SSH chain with semi-infinite lead (even/odd $N$)",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Working directly in the discrete Krylov chain coupled on the right to a metallic lead (modeled as a semi-infinite tight-binding chain with hopping $u_N$), the surface Green's function at small energy $E\\to0$ takes a Lorentzian form\n      $G_S^{(N)}(E)\\approx\\dfrac{(\\mathcal{N}_\\phi^{(N)}+R)^{-1}}{i\\Gamma_A^{(N)}+E}$,\n      where $\\mathcal{N}_\\phi^{(N)}=\\sum_{l=1}^N|\\phi_l|^2$ and $\\mathcal{N}_\\eta^{(N)}=\\sum_{l=1}^N|\\eta_l|^2$ are the norms-squared of the odd- and even-site components, respectively, of the zero-energy edge-mode wavefunction on the finite Krylov segment (with $\\phi_1=1$, $\\eta_2=1$, and $\\phi_{2l+1}=-(b_{2l-1}/b_{2l})\\phi_{2l-1}$, $\\eta_{2l+2}=-(b_{2l}/b_{2l+1})\\eta_{2l}$); $R=\\dfrac{|\\phi_{N+1}|^4\\mathcal{N}_{\\eta}^{(N)}u_N^4}{\\Sigma_{(N)}^2 u_1^2}$ is a small correction when the edge mode is localized, with $u_1$ the hopping between sites $1$ and $2$ of the Krylov chain; and the discrete decay rate is\n      $\\Gamma_A^{(N)}=\\dfrac{|\\phi_{N+1}|^2 u_N^2}{|\\Sigma_{(N)}|(\\mathcal{N}_\\phi^{(N)}+R)}$,\n      with $\\Sigma_{(N)}(E\\to0)\\approx -i|u_N|$ the lead self-energy. For the ideal SSH chain of length $N$ with alternating hoppings $u_{2n-1}=u_1$, $u_{2n}=u_2$ and ratio $r=u_1/u_2<1$, this yields the closed-form estimate\n      $\\Gamma_A \\sim \\dfrac{u_2^2 r^N(1-r^2)}{u_0}$ with $u_0=(u_1+u_2)/2$, showing exponential suppression $\\propto r^N$. For the sloped SSH toy model (with linear ramp $h_n=\\alpha n+\\delta$ and staggering approximated as a step of magnitude $M_0/2$ over the first $x_0$ lattice sites), the discrete product formula for $|\\phi_{x_0+1}|^2=\\prod_{l=1}^{x_0/2}[(\\alpha(2l-1)+\\delta-M_0/2)/(\\alpha(2l)+\\delta+M_0/2)]^2$ reproduces, in the $\\alpha\\ll M_0\\ll\\delta$ limit, the scaling $\\ln\\Gamma_A\\sim-(M_0/\\alpha)\\ln(\\alpha x_0/\\delta)$.",
+        "content_hash": "25b3e7852c05229fe5877c691415573518c8203c65ce68391e62319b5ddbb175",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_0a2dd58044df490a",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812543674729627649::conclusion_5",
+            "package_id": "paper:812543674729627649",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812543674729627649"
+          ]
+        },
+        "rerank_score": 0.8827295377813531,
+        "role": "conclusion",
+        "score": 0.015151515151515152,
+        "title": "Discrete Green's-function derivation of ASM lifetime and Lorentzian surface Green's function",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In an SSH chain (alternating hoppings $J,J'$) with on-site energy $\\omega_0$ and loss rate $\\gamma$, a resonant drive at frequency $\\omega_{d}=\\omega_{0}$ placed on a central site whose energy lies in the chiral-symmetry gap yields, to leading order in small $\\gamma$ and for $|J-J'|\\gg\\gamma$, a nearly vanishing driven-site amplitude $\\bar{\\phi}_{0}\\sim\\gamma/|J-J'|$, where $\\bar{\\phi}_0$ is the steady amplitude on that site. Consequently the chain is effectively split and only one side hosts a nonzero exponentially decaying response: the drive excites the edge-like mode on the side whose surface Green function $g_{j,1}(\\omega)$ (connecting site $1$ to site $j$ of a semi-infinite SSH chain) has a pole at $\\omega_0$, producing appreciable amplitudes only on a single sublattice and decaying with the inverse gap length.",
+        "content_hash": "eb911628a2993e7982779cb2e1735fe56104e5b5a9d6fcc9c5dd253f31ee6032",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_0e3105316014481d",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:965133945781878791::conclusion_7",
+            "package_id": "paper:965133945781878791",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:965133945781878791"
+          ]
+        },
+        "rerank_score": 0.8451603058543045,
+        "role": "conclusion",
+        "score": 0.015873015873015872,
+        "title": "Localization in an SSH chain by center-gap driving: driven-site suppression and one-sided edge excitation",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For the semi-infinite Su–Schrieffer–Heeger (SSH) chain with intracell hopping $t_{1}$ and intercell hopping $t_{2}$, an energy-dependent left-edge onsite potential $V_{1}$ that replaces the missing half of the infinite chain selects an evanescent solution parametrized by $c$ through the algebraic relation\n      $$\n      V_{1}=t_{2}\\frac{\\varepsilon(c)}{c\\,t_{1}+t_{2}},\n      $$\n      where $\\varepsilon(c)=\\pm\\sqrt{(t_{1}+t_{2}/c)(t_{1}+t_{2}c)}$ is the SSH-chain eigenenergy corresponding to the evanescent parameter $c$ from the infinite SSH dispersion. Equivalently, after replacing the effective edge potential $V_{\\mathrm{eff}}(c)$ by a virtual dangling site with hopping $t_{\\alpha}$ satisfying $V_{\\mathrm{eff}}(c)=t_{\\alpha}^{2}/\\varepsilon(c)$ (which restores bipartiteness), the relation\n      $$\n      c=\\frac{t_{1}t_{2}}{V_{\\mathrm{eff}}(c)\\,\\varepsilon(c)-t_{2}^{2}}\n      $$\n      holds. These closed relations determine SSH-chain boundary-induced edge levels without diagonalizing large matrices.",
+        "content_hash": "d97e25c7c1d3cfed1caeed8908cecbf2923f5b5b301fea1cefad0e3b4e0e14d4",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_f87c4e43e8684d41",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1164534351535276044::conclusion_5",
+            "package_id": "paper:1164534351535276044",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1164534351535276044"
+          ]
+        },
+        "rerank_score": 0.8437186803545311,
+        "role": "conclusion",
+        "score": 0.014925373134328358,
+        "title": "SSH-chain edge-potential to impurity mapping and algebraic condition",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For a semi-infinite SSH$_4$ chain cut so that the decimated effective SSH chain has uniform renormalized on-site potential, at the effective-SSH gap-closing condition $E'=0$ (i.e., $E=\\pm\\sqrt{t_a^{2}+t_d^{2}}$) an explicit analytic edge-state amplitude sequence on the remaining sites is\n      $$\n      \\psi_{2n+1}=(-1)^n\\left(\\frac{t_c t_d}{t_a t_b}\\right)^{n}\\psi_1,\\qquad \\psi_{2n}=0,\\quad n=0,1,2,\\ldots,\n      $$\n      counted from the leftmost vertex. Consequently the edge-state is exponentially localized at the left end when\n      $$\n      t_a t_b>t_c t_d,\n      $$\n      and the localization length is set by the ratio $(t_c t_d)/(t_a t_b)$. Finite-chain diagonalization shows two degenerate edge eigenvalues at $E=\\pm\\sqrt{t_a^{2}+t_d^{2}}$ in the nontrivial phase.",
+        "content_hash": "1131b602336d426dbe66c78aa304f5131f3098588845a702bfc582b4b329ce90",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_82e4e75db3144380",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867753912784912934::conclusion_4",
+            "package_id": "paper:867753912784912934",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867753912784912934"
+          ]
+        },
+        "rerank_score": 0.8429070489657211,
+        "role": "conclusion",
+        "score": 0.015384615384615385,
+        "title": "Analytic edge-state energies and decay condition; explicit semi-infinite wavefunction and localization criterion",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Inclusion of the surface-induced term in the semi-infinite Green's function removes horn-like one-dimensional density-of-states singularities in the coherent-band contribution when the final state is strongly localized near the surface, i.e., $k_{z}''c\\to\\infty$ (where $k_{z}''$ is the imaginary part of the final-state perpendicular momentum and $c$ is the interplanar distance). In that limit the photocurrent-related Green's function reduces to a semi-elliptical form characteristic of the local density of states at the edge of a semi-infinite chain:\n      $\\mathcal{G}(\\hat{q},\\omega)\\propto\\frac{\\omega-\\sigma_{\\mathbf{k}_{\\parallel},\\omega}-S_{\\omega}\\sqrt{(\\omega-\\sigma_{\\mathbf{k}_{\\parallel},\\omega})^{2}-4T^{2}}}{2T^{2}}$,\n      where $\\sigma_{\\mathbf{k}_{\\parallel},\\omega}=\\varepsilon_{\\mathbf{k}_{\\parallel}}+\\Sigma_{\\mathbf{k}_{\\parallel},\\omega}$ (with $\\varepsilon_{\\mathbf{k}_{\\parallel}}$ the in-plane dispersion and $\\Sigma_{\\mathbf{k}_{\\parallel},\\omega}$ the self-energy), $T$ is the effective nearest-neighbor hopping perpendicular to the surface (assumed real and constant in this limit), and $S_{\\omega}=\\operatorname{sgn}[\\operatorname{Re}(\\omega-\\sigma_{\\mathbf{k}_{\\parallel},\\omega})]$. Thus, surface contributions are essential to obtain the correct coherent-peak lineshape in the localized-final-state regime, while the incoherent-band contribution is less affected by the surface term.",
+        "content_hash": "ea685578409ff7a4abb170d010e2ccf2f6455a4505a1380ffbb6584f1e4e4793",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_cba2ec7740394699",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811150981105451010::conclusion_6",
+            "package_id": "paper:811150981105451010",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811150981105451010"
+          ]
+        },
+        "rerank_score": 0.8785874635567754,
+        "role": "conclusion",
+        "score": 0.014925373134328358,
+        "title": "Surface term cancels one-dimensional DOS singularities; surface crucial for coherent contribution",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For an SSH chain of length $N$ (even) with alternating hopping parameters $t_1$ (odd bonds) and $t_2$ (even bonds), coupled at both ends to semi-infinite undimerized leads (lead hopping set to $1$) via lead-chain hopping $t_L$, the system supports a novel class of low-energy, boundary-localized modes—termed phase-inverted edge (PIE) states. These states have energies near zero, are strongly localized on the second and second-to-last sites of the original SSH chain (i.e., on the sublattice opposite to that of conventional edge states), and emerge when the isolated SSH chain is in the trivial dimerization ($r \\equiv t_1/t_2 > 1$) for even $N$. In the strong-coupling limit $t_L \\to \\infty$, these PIE modes map onto the edge states of a truncated SSH chain of length $N-2$ whose first and last hopping parameters are $t_2$. Quantitatively, the PIE-state local density-of-states (LDOS) and in-gap density-of-states (DOS) grow approximately like $t_L^2$ for $t_L \\lesssim 1$ and then plateau for strong coupling; PIE states become discretized and acquire small imaginary parts (narrow spectral widths) as $t_L \\to \\infty$. PIE states are robust to chiral (hopping) disorder (random multiplicative disorder on the hopping parameters $t_m$) in the sense that configuration-averaged DOS peaks associated with PIE states persist up to the disorder strength scale where the bulk gap closes.",
+        "content_hash": "d628ba5ffdfaed355e41e1d1914dee4db24a5c25c5eeff33f94a7313b18ebb03",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_0ea85c473fec4083",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:884073193298461073::conclusion_2",
+            "package_id": "paper:884073193298461073",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:884073193298461073"
+          ]
+        },
+        "rerank_score": 0.8019789079425528,
+        "role": "conclusion",
+        "score": 0.011904761904761904,
+        "title": "Phase-inverted edge (PIE) states in an open SSH chain with semi-infinite leads",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "A semi-infinite quarter-wave DBR consisting of repeated two-layer unit cells and terminated at its free surface by the lower-impedance member of the bilayer (the AlAs-like, lower-$Z$ layer in the $\\mathrm{Al}_x\\mathrm{Ga}_{1-x}\\mathrm{As}/\\mathrm{Al}_{1-x}\\mathrm{Ga}_x\\mathrm{As}$ family) with a zero-stress free-surface boundary condition (which enforces total reflection of high-frequency longitudinal phonons at the air interface) supports a surface-localized acoustic displacement eigenmode whose eigenfrequency lies at the center of the first acoustic minigap; the displacement amplitude of this surface mode has pronounced maxima at every second interface (i.e., at alternating interfaces) and decays exponentially (evanescently) into the DBR bulk away from the termination, and this localized midgap acoustic mode is the direct mechanical analogue of the SSH edge state that appears in a terminated polyacetylene chain when the terminating bond is the weaker (single) bond.",
+        "content_hash": "23f17f67580410ae4ad5be709bd7e7b7f3696eba78af6f0cd1bc8c07b69170c1",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_0dc3a9250f1e4e97",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813047613166190593::conclusion_3",
+            "package_id": "paper:813047613166190593",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813047613166190593"
+          ]
+        },
+        "rerank_score": 0.8381985587662508,
+        "role": "conclusion",
+        "score": 0.011111111111111112,
+        "title": "Semi-infinite DBR terminated by the lower-impedance layer supports a midgap surface-localized displacement mode",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The qubit (double-dot two-level system) coupled at site $n$ of the SSH chain embedded between semi-infinite leads admits an exact reduction to a $2\\times 2$ effective Hamiltonian acting on the qubit subspace,\n      $$\n      H_{\\mathrm{DD}}' = H_{\\mathrm{DD}} + \\Sigma_{\\mathrm{SSH},\\infty}^{nn}(E)\\,d_{2}^{\\dagger}d_{2},\n      $$\n      where the isolated qubit Hamiltonian is\n      $$\n      H_{\\mathrm{DD}}=\\epsilon_{1} d_{1}^{\\dagger} d_{1}+\\epsilon_{2} d_{2}^{\\dagger} d_{2}+\\tau\\left(d_{1}^{\\dagger} d_{2}+d_{2}^{\\dagger} d_{1}\\right),\n      $$\n      the environment self-energy is defined by\n      $$\n      \\Sigma_{\\mathrm{SSH},\\infty}^{nn}(E)=t_{c}^{2}\\,G_{\\mathrm{SSH},\\infty}^{nn}(E),\n      $$\n      $t_c$ is the qubit–chain tunnelling amplitude to site $n$, and $G_{\\mathrm{SSH},\\infty}^{nn}(E)$ is the diagonal ($n,n$) element of the Green's function of the finite SSH chain including the two semi-infinite leads. This projective treatment is exact within the qubit's $2\\times2$ subspace and recasts all environmental influence on the qubit as an energy-dependent complex potential acting on the coupled qubit site.",
+        "content_hash": "46d26a4f2fffcd86af587755f20a0f43ecfa0892177295c7f47e50357f051307",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_80adc0c1ca064cfe",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867747121321738780::conclusion_1",
+            "package_id": "paper:867747121321738780",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867747121321738780"
+          ]
+        },
+        "related": [
+          {
+            "content": "For a finite $N$-site Su-Schrieffer-Heeger (SSH) chain with left and right lead self-energies $\\Sigma_{L}(E)=t_L^2 G_{\\infty}^{S}(E)$ and $\\Sigma_{R}(E)=t_R^2 G_{\\infty}^{S}(E)$ (where $t_L,t_R$ are lead–chain couplings, $G_{\\infty}^{S}(E)=\\tfrac{1}{2}\\big(E-\\mathrm{sgn}(E+2)\\sqrt{E^{2}-4}\\big)$ is the surface Green's function of a semi-infinite lead with hopping $t=1$), the diagonal elements $G_{\\mathrm{SSH},\\infty}^{nn}(E)$ of the $N\\times N$ Green's function $(E - H_{\\mathrm{SSH},\\infty})^{-1}$ admit closed-form expressions that depend on the parity of $N$ and on the parity of the site index $n$. Using $s_A\\equiv\\sin(Ak)$ where $k$ is the Bloch wavenumber from the SSH dispersion relation $E(k)=\\pm\\sqrt{t_1^2+t_2^2+2t_1t_2\\cos2k}$, and $t_1,t_2$ the staggered SSH hoppings:\n      - For odd $N$,\n      $$\n      G_{\\mathrm{SSH},\\infty}^{nn}(E)=\\begin{cases}\n      \\big[E+g_{L1}(E)+h_{R1}(E;t_1,t_2)\\big]^{-1}, & n\\ \\text{odd}, \\\\\n      \\big[E+g_{L2}(E)+h_{R2}(E;t_1,t_2)\\big]^{-1}, & n\\ \\text{even},\n      \\end{cases}\n      $$\n      - For even $N$,\n      $$\n      G_{\\mathrm{SSH},\\infty}^{nn}(E)=\\begin{cases}\n      \\big[E+g_{L1}(E)+h_{R2}(E;t_2,t_1)\\big]^{-1}, & n\\ \\text{odd}, \\\\\n      \\big[E+g_{L2}(E)+h_{R1}(E;t_2,t_1)\\big]^{-1}, & n\\ \\text{even},\n      \\end{cases}\n      $$\n      with the auxiliary rational functions\n      $$\n      g_{L1}(E)=\\frac{t_{2}^{2}E s_{n-1} - t_2 \\Sigma_L \\left(t_1 s_{n-3} + t_2 s_{n-1}\\right)}{E \\Sigma_L s_{n-1} - t_2 \\left(t_1 s_{n+1} + t_2 s_{n-1}\\right)},\n      $$\n      $$\n      g_{L2}(E)=\\frac{t_1 \\Sigma_L E s_{n-2} - t_1 t_2 \\left(t_1 s_n + t_2 s_{n-2}\\right)}{E t_2 s_n - \\Sigma_L \\left(t_1 s_{n-2} + t_2 s_n\\right)},\n      $$\n      $$\n      h_{R1}(E;t_1,t_2)=\\frac{t_{1}^{2}E s_{N-n} - t_1 \\Sigma_R \\left(t_1 s_{N-n} + t_2 s_{N-n-2}\\right)}{E \\Sigma_R s_{N-n} - t_1 \\left(t_1 s_{N-n} + t_2 s_{N-n+2}\\right)},\n      $$\n      $$\n      h_{R2}(E;t_1,t_2)=\\frac{t_2 E \\Sigma_R s_{N-n-1} - t_1 t_2 \\left(t_1 s_{N-n-1} + t_2 s_{N-n+1}\\right)}{E t_1 s_{N-n+1} - \\Sigma_R \\left(t_1 s_{N-n+1} + t_2 s_{N-n-1}\\right)}.\n      $$\n      All symbols are as defined: $t_1,t_2$ are staggered SSH hoppings, $t_{L,R}$ are lead–chain couplings, $k$ enters via the SSH dispersion parameterization, and $\\Sigma_{L,R}(E)$ are lead surface self-energies given above.",
+            "has_reasoning": true,
+            "id": "gcn_ee91f3a476be47f0",
+            "kind": "conclusion",
+            "rerank_score": 0,
+            "role": "conclusion",
+            "score": 0.010101010101010102,
+            "title": "Closed-form diagonal Green's function elements for the SSH chain with lead self-energies",
+            "type": "claim"
+          }
+        ],
+        "rerank_score": 0.7642880504452604,
+        "role": "conclusion",
+        "score": 0.0125,
+        "title": "2x2 effective qubit Hamiltonian with environment self-energy",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Let v satisfy the conditions in Conclusion 1, m∈ℕ∪{∞}, p∈[0,p*) with p*=|v(z_max)|/z_max. Set a=argmin_{r>0}(pr+Σ_{k=1}^m v(kr)) and e_0=pa+Σ_{k=1}^m v(ka). Define h(z_1,…,z_m)=pz_1+Σ_{k=1}^m v(z_1+⋯+z_k). For sequences (z_j)_{j∈ℕ} with Σ_{j=1}^∞ (z_j-a)^2<∞, define the semi-infinite-chain surface functional ℰ_surf((z_j)_{j≥1})=Σ_{j=1}^∞ (h(z_j,…,z_{j+m-1})-e_0), extended by +∞ to sequences not in ℓ^2. Then ℰ_surf extends continuously to 𝒟={(z_j):Σ (z_j-a)^2<∞}, is strictly convex on 𝒟∩[z_min,z_max]^ℕ, and has a unique minimizer in that set. The finite-N ground-state surface correction e_surf=lim_{N→∞}(E_N-N e_0) exists and is given by e_surf=2 min_𝒟 ℰ_surf - pa - Σ_{k=1}^m k v(ka).",
+        "content_hash": "92d802c6fb91ad2d843008eb6050953906cce15ed72e775f6334ed0e865574b7",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_88baa30b63f24428",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812524369094901763::conclusion_2",
+            "package_id": "paper:812524369094901763",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812524369094901763"
+          ]
+        },
+        "rerank_score": 0.8436542833121652,
+        "role": "conclusion",
+        "score": 0.01020408163265306,
+        "title": "Definition and properties of the surface energy functional and surface energy at zero temperature",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "A left semi-infinite system with a single modified edge strip ($i=0$) having on-site Hamiltonian $\\mathbf{H}'$ and coupling $\\mathbf{B}'$ to the semi-infinite bulk is embedded by the left-lead self-energy $ \\boldsymbol{\\Sigma}_L(E) \\equiv \\mathbf{B}(\\mathbf{F}^-)^{-1} $, and the Green's function block of the two layers nearest the edge is given by the $2N\\times 2N$ matrix inverse\n      $$\n      \\mathbf{G}_L =\n      \\begin{pmatrix}\n      E\\mathbf{I}-\\mathbf{H}-\\mathbf{B}(\\mathbf{F}^-)^{-1} & -\\mathbf{B}'^\\dagger \\\\\n      -\\mathbf{B}' & E\\mathbf{I}-\\mathbf{H}'\n      \\end{pmatrix}^{-1}.\n      $$\n      This provides the density of states of the modified edge strip and the poles corresponding to edge-localized states of the reconstructed edge.",
+        "content_hash": "45568cc2b9013eb13cecb0866ebcd1507e0df9a4042ebb4b843dadb26402a9db",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_66826b0c24f44be1",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867748000917619236::conclusion_5",
+            "package_id": "paper:867748000917619236",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867748000917619236"
+          ]
+        },
+        "rerank_score": 0.8480304359542019,
+        "role": "conclusion",
+        "score": 0.013157894736842105,
+        "title": "Embedding a modified terminating strip using the left-lead self-energy and a 2N×2N Green's function inverse",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Two computational constructions of the surface Green's function g_s(E) for semi-infinite carbon nanotube (CNT) leads separate bulk-state and edge-state contributions: (i) an iterative self-consistent surface Green's function satisfying g_s(E) = [α - β† g_s(E) β]^{-1} with α = E - h + iη, where h is the surface-layer Hamiltonian and β is the coupling between the surface layer and the remaining bulk, includes both propagating and evanescent components; (ii) an integration construction that builds g_s from linear combinations of bulk Bloch states constrained to vanish on the nodal rim (cut boundary condition) excludes evanescent waves and therefore yields a bulk-states-only contribution. Comparing results from these two constructions isolates the influence of edge states on both local density of states (LDOS) and transport near the Fermi energy E_F (set to zero).",
+        "content_hash": "b53ce003791f2566091edaa6f9c411ba2a09fb30f91ad201489ed0d1bf0c5e9e",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_2d53ba8bc34e4360",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812638260781121537::conclusion_2",
+            "package_id": "paper:812638260781121537",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812638260781121537"
+          ]
+        },
+        "rerank_score": 0.7633395322435708,
+        "role": "conclusion",
+        "score": 0.015384615384615385,
+        "title": "Bulk-state-only vs full surface Green's function as an operational separation of bulk and edge contributions",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The monoatomic sp‑chain and the SSH model are formally related at the level of the edge Green's function: the edge Green's function of an sp‑chain has the same functional structure as that of the SSH chain up to a factor due to two electrons per site. Explicitly, the sp‑chain edge Green's function can be written\n      $$\n      G_{00}^{(sp)}(\\omega)=\\frac{1}{\\omega}\\Big[\\tilde{\\omega}^{2}-\\tilde{\\epsilon}^{2}+1\\pm\\sqrt{(\\tilde{\\omega}^{2}-\\tilde{\\epsilon}^{2}+1)^{2}-4\\tilde{\\omega}^{2}}\\Big],\n      $$\n      with $\\tilde{\\omega}=\\omega/2t$, $\\tilde{\\epsilon}=\\epsilon/2t$, establishing the formal correspondence used to translate SSH/RM results into sp‑chain predictions.",
+        "content_hash": "9d8110c34cf9a2b8821c700b4d1105c8c63da79057481f16ea6054e49661896e",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_b977d42fff7f4afa",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867769538161148616::conclusion_8",
+            "package_id": "paper:867769538161148616",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867769538161148616"
+          ]
+        },
+        "related": [
+          {
+            "content": "The surface (edge) electronic structure of semi-infinite SSH and Rice–Mele chains is obtained in closed form via the self-consistent edge Green's function. For the SSH chain ($\\epsilon=0$, $V_{2}=1$), the surface Green's function is\n      $$\n      G_{00}(\\omega)=\\frac{1}{2}\\frac{1}{\\omega}\\Big[\\tilde{\\omega}^{2}-\\tilde{V}^{2}+1\\pm\\sqrt{(\\tilde{\\omega}^{2}-\\tilde{V}^{2}+1)^{2}-4\\tilde{\\omega}^{2}}\\Big],\n      $$\n      with $\\tilde{\\omega}=\\omega/V_{2}$ and $\\tilde{V}=V_{1}/V_{2}$. The corresponding surface density of states decomposes into a delta function at zero energy and a continuum,\n      $$\n      \\rho(\\omega)=\\tfrac{1}{2}\\Big\\{(D+|D|)\\delta(\\tilde{\\omega})+\\tfrac{1}{\\pi}\\mathrm{Im}\\!\\left[\\frac{\\sqrt{(\\tilde{\\omega}^{2}+D)^{2}-4\\tilde{\\omega}^{2}}}{\\tilde{\\omega}}\\right]\\Big\\},\n      $$\n      with $D=1-\\tilde{V}^{2}$. Thus a true zero‑energy surface state appears only for $D>0$ (i.e., $\\tilde{V}<1$), and the weight of the zero mode vanishes linearly with the distance to the topological transition ($\\propto 1-\\tilde{V}$). For the Rice–Mele chain ($\\epsilon\\neq0$) the surface density of states has a finite‑energy surface mode at $\\omega_{S}=\\epsilon-\\mu$ and is given by $\\rho(\\omega) = (D+|D|)\\delta(\\omega+\\mu-\\epsilon) + \\frac{\\mathrm{sgn}(\\omega+\\mu)\\,\\mathrm{Im}[R(\\omega)]}{2(\\omega+\\mu-\\epsilon)}$ with $R(\\omega)=\\sqrt{-(\\mu+\\omega)^{2}+(1-\\tilde{V})^{2}+\\epsilon^{2}}\\,\\sqrt{-(\\mu+\\omega)^{2}+(1+\\tilde{V})^{2}+\\epsilon^{2}}$ and $D=1-\\tilde{V}^{2}$. This shows the presence (for $\\tilde{V}<1$) or absence (for $\\tilde{V}>1$) of the surface mode and the persistence of a bulk gap at $\\tilde{V}=1$.",
+            "has_reasoning": true,
+            "id": "gcn_fbea6ffed5534c83",
+            "kind": "conclusion",
+            "rerank_score": 0,
+            "role": "conclusion",
+            "score": 0.026151315789473682,
+            "title": "Analytic surface Green's function and surface density of states for semi-infinite SSH and Rice–Mele chains",
+            "type": "claim"
+          }
+        ],
+        "rerank_score": 0.7445929243090378,
+        "role": "conclusion",
+        "score": 0.02738245361196181,
+        "title": "Formal mapping between sp‑chain and SSH models (relation of edge Green's functions)",
+        "type": "claim",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "req_343ba48e33333"
+}

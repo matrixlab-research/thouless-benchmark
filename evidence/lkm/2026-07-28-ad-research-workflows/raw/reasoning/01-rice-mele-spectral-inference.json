@@ -1,0 +1,135 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "A convolutional deep neural network mapping 2D high-harmonic spectra $x_{N,\\Delta\\varphi} \\equiv \\log_{10}|j(N\\omega,\\Delta\\varphi)|$ (with harmonics $N=0\\dots40$ and discretized CEP-shift axis $\\Delta\\varphi$ sampled in 32 steps, input tensors of size $41\\times32\\times1$) to the unknown intraband hopping parameters $\\{t_j\\}$ of a modified Rice–Mele lattice and to the carrier-envelope phase $\\varphi$ was trained and tested on simulated datasets. For the unchirped, noiseless Rice–Mele source problem with four unknown band parameters, the network recovers the band-parameter offsets and the CEP with the following average absolute errors on the test set: $\\delta\\epsilon_{\\min} = 0.024\\ \\mathrm{eV}$, $\\delta t_1 = 0.030\\ \\mathrm{eV}$, $\\delta t_2 = 0.037\\ \\mathrm{eV}$, $\\delta t_3 = 0.025\\ \\mathrm{eV}$, and $\\delta\\varphi = 0.018\\ \\mathrm{rad}$. Definitions: $j(\\omega)$ is the Fourier transform of the simulated current $\\langle j\\rangle(t)$ driven by vector potential $A(t)$; $\\epsilon_{\\min}$ denotes the minimal band energy offset parameter defined in the modified Rice–Mele Hamiltonian; $\\varphi$ is the initial CEP.",
+      "content_hash": "f2ad2b80ca0bc9ac9b9f98b7ded560895e9cfe4ef9a9583bb075fa918b23b68a",
+      "id": "gcn_c52f0ae9e48644a6",
+      "type": "claim"
+    },
+    "papers": {
+      "paper:867769962276586176": {
+        "area": "arXiv-Physics, Information and Computing Sciences, Machine Learning, Physical Sciences, Quantum Physics",
+        "author_details": [
+          {
+            "affiliation": "Max Born Institute",
+            "affiliation_zh": "马克斯·玻恩研究所",
+            "author_id": "K6357257",
+            "avatar": "https://cdn1.deepmd.net/static/img/2c073e1fru1QZkEAAAAJ.png",
+            "citation_nums": 193,
+            "h_index": 3,
+            "name": "Nikolai D. Klimkin",
+            "origin_name": "Nikolai D. Klimkin"
+          },
+          {
+            "origin_name": "Álvaro Jiménez-Galán"
+          },
+          {
+            "origin_name": "Rui E. F. Silva"
+          },
+          {
+            "affiliation": "Max Born Institute;Humboldt University of Berlin;Imperial College London",
+            "affiliation_zh": "马克斯·玻恩研究所;柏林洪堡大学;帝国理工学院",
+            "author_id": "519R6P06",
+            "avatar": "https://cdn1.deepmd.net/static/img/49d5f580Ncu-IYYAAAAJ.png",
+            "citation_nums": 42278,
+            "h_index": 84,
+            "is_high_cited": true,
+            "name": "Misha Ivanov",
+            "origin_name": "Misha Ivanov"
+          }
+        ],
+        "authors": "Nikolai D. Klimkin | Álvaro Jiménez-Galán | Rui E. F. Silva | Misha Ivanov",
+        "authors_list": [
+          "Nikolai D. Klimkin",
+          "Álvaro Jiménez-Galán",
+          "Rui E. F. Silva",
+          "Misha Ivanov"
+        ],
+        "available_online": "",
+        "cover_date_start": "2021-06-16",
+        "created_at": "2023-05-23T06:08:01+08:00",
+        "doi": "10.48550/arXiv.2106.08638",
+        "en_abstract": "Neural networks are a prominent tool for identifying and modeling complex patterns, which are otherwise hard to detect and analyze. While machine learning and neural networks have been finding applications across many areas of science and technology, their use in decoding ultrafast dynamics of quantum systems driven by strong laser fields has been limited so far. Here we use deep neural networks to analyze simulated noisy spectra of highly nonlinear optical response of a 2-dimensional gapped graphene crystal to intense few-cycle laser pulses. We show that a computationally simple 1-dimensional system provides a useful \"nursery school\" for our neural network, allowing it to be easily retrained to treat more complex systems, recovering the band structure and spectral phases of the incident few-cycle pulse with high accuracy, in spite of significant amplitude noise and phase jitter. Our results both offer a new tool for attosecond spectroscopy of quantum dynamics in solids and also open a route to developing all-solid-state devices for complete characterization of few-cycle pulses, including their nonlinear chirp and the carrier envelope phase.",
+        "en_title": "Deep neural networks for high harmonic spectroscopy in solids",
+        "id": "867769962276586176",
+        "keywords": "",
+        "open_access": true,
+        "paper_url": "https://arxiv.org/abs/2106.08638v2",
+        "pdf_flag": true,
+        "publication_cover": "https://icon.bohrium.com/journal/arxiv.png",
+        "publication_date": "2021-06-16",
+        "publication_id": "108512",
+        "publication_name": "Computational Physics _ Physics.physics.comp-ph",
+        "research_categories": "[\"Information and Computing Sciences\", \"Machine Learning\", \"Physical Sciences\", \"Quantum Physics\"]",
+        "zh_abstract": "神经网络是识别和建模复杂模式的重要工具，否则这些模式很难被检测和分析。虽然机器学习和神经网络已在许多科学技术领域得到应用，但到目前为止，它们在解码由强激光场驱动的量子系统的超快动力学方面的应用还很有限。在这里，我们使用深度神经网络来分析二维带隙石墨烯晶体对强少周期激光脉冲的高度非线性光学响应的模拟噪声光谱。我们表明，一个计算简单的一维系统为我们的神经网络提供了一个有用的“幼儿园”，使其能够轻松地重新训练以处理更复杂的系统，尽管存在显著的幅度噪声和相位抖动，仍能高精度地恢复入射少周期脉冲的能带结构和光谱相位。我们的结果既为固体中量子动力学的阿秒光谱学提供了一种新工具，也为开发用于完整表征少周期脉冲（包括其非线性啁啾和载波包络相位）的全固态器件开辟了一条途径。 ",
+        "zh_title": "用于固体高次谐波光谱学的深度神经网络"
+      }
+    },
+    "reasoning_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "A convolutional deep neural network mapping 2D high-harmonic spectra $x_{N,\\Delta\\varphi} \\equiv \\log_{10}|j(N\\omega,\\Delta\\varphi)|$ (with harmonics $N=0\\dots40$ and discretized CEP-shift axis $\\Delta\\varphi$ sampled in 32 steps, input tensors of size $41\\times32\\times1$) to the unknown intraband hopping parameters $\\{t_j\\}$ of a modified Rice–Mele lattice and to the carrier-envelope phase $\\varphi$ was trained and tested on simulated datasets. For the unchirped, noiseless Rice–Mele source problem with four unknown band parameters, the network recovers the band-parameter offsets and the CEP with the following average absolute errors on the test set: $\\delta\\epsilon_{\\min} = 0.024\\ \\mathrm{eV}$, $\\delta t_1 = 0.030\\ \\mathrm{eV}$, $\\delta t_2 = 0.037\\ \\mathrm{eV}$, $\\delta t_3 = 0.025\\ \\mathrm{eV}$, and $\\delta\\varphi = 0.018\\ \\mathrm{rad}$. Definitions: $j(\\omega)$ is the Fourier transform of the simulated current $\\langle j\\rangle(t)$ driven by vector potential $A(t)$; $\\epsilon_{\\min}$ denotes the minimal band energy offset parameter defined in the modified Rice–Mele Hamiltonian; $\\varphi$ is the initial CEP.",
+              "id": "gcn_c52f0ae9e48644a6",
+              "metadata": "{\"narrative\": \"This conclusion rests entirely on the reported test-set errors on the Rice\\u2013Mele model without identified load-bearing weak points. The derivation is straightforward: training and testing on simulated data with a held-out test set. No element of the derivation rises above the field's default to constitute a highlight; the procedure is standard. The conclusion's credibility is high because the evidence directly supports it and no specific uncertain bridges were found that could invalidate it within its stated scope (simulated Rice\\u2013Mele model).\", \"structural_edges\": [{\"target\": \"paper:867769962276586176::conclusion_2\", \"type\": \"supports\"}, {\"target\": \"paper:867769962276586176::conclusion_3\", \"type\": \"supports\"}, {\"target\": \"paper:867769962276586176::conclusion_4\", \"type\": \"supports\"}]}",
+              "title": "Accurate simultaneous recovery of band parameters and CEP from 2D HHG spectra of the modified Rice–Mele model"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_484d87e1263f497a",
+            "premises": [
+              {
+                "content": "A specific methodological pipeline is effective for the inverse HHG problem: a convolutional neural network composed of four convolutional layers followed by two fully connected layers, trained with the AdaBelief optimizer for 200 epochs (batch size 256, initial learning rate $10^{-3}$ with a tenfold decay at epoch 150), with input images given by $\\log_{10}|j(N\\omega,\\Delta\\varphi)|$ (where $j(\\omega)$ is the Fourier transform of the simulated laser-induced current $\\langle j\\rangle(t)$), normalized to zero mean and unit standard deviation, sampled as $41\\times32$ grids (harmonics $N=0,\\dots,40$, CEP-shift axis $\\Delta\\varphi$ in 32 steps), and augmented by random circular shifts along the $\\Delta\\varphi$ axis during training. Transfer learning is implemented by pretraining on simpler datasets (no chirp) and retraining on more complex/chirped or target datasets. This operational recipe, including data normalization and augmentation choices, yields the retrieval results for the Rice–Mele and gapped graphene systems.",
+                "id": "gcn_9435233b4f364392",
+                "metadata": "{\"narrative\": \"The conclusion that the described architecture and pipeline is effective for HHG retrieval is directly supported by the numerical results of Conclusions 1\\u20134, which were obtained using this pipeline. The only specific element that rises above standard practice is H3, the circular-shift augmentation, which the paper credits with improving data efficiency and reducing overfitting. No load-bearing weak points were identified, as the pipeline's effectiveness is demonstrated by its success across multiple problems. The credibility is high within the scope of the paper's simulated demonstrations.\", \"structural_edges\": [{\"target\": \"paper:867769962276586176::conclusion_1\", \"type\": \"supports\"}]}",
+                "title": "Practical convolutional neural-network architecture and data-preparation pipeline for HHG-based retrieval"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Starting point (use of upstream pipeline): accept the convolutional neural-network architecture, data-preparation, and training pipeline established previously (the CNN with four convolutional layers + two fully connected layers; normalized $41\\times32\\times1$ inputs; training with AdaBelief and circular-phase-axis augmentation) as given and used to produce the reported retrieval results.\nFig. 3",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Define the simulated quantum system used for the source problem: the modified Rice–Mele tight-binding Hamiltonian used to generate training and test spectra is\n$ \\hat{H} = \\left[ \\tfrac{1}{2} \\sum_{j=0}^{N} t_j \\sum_{\\alpha\\in\\{A,B\\}} s_\\alpha |i\\alpha\\rangle\\langle i+j,\\alpha| + h_1 \\sum_{i=-\\infty}^{+\\infty} |i,A\\rangle\\langle i+1,B| \\right] + \\mathrm{h.c.},$\nwhere $s_\\alpha=-1$ for $\\alpha=A$ and $s_\\alpha=+1$ for $\\alpha=B$, $N$ is the maximal hopping order (varied 2–6), the onsite energies are $-t_0$ for site A and $+t_0$ for site B, the intraband hopping parameters $t_{j\\ge1}$ are the unknowns to be recovered, and $h_1$ is a small inversion-breaking hopping (used values $h_1=0.01$ eV and $0.05$ eV).",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Define the momentum-space band energy and the current used to form inputs: in $k$-space the Hamiltonian becomes $\\hat{H}(k)=\\epsilon(k)\\sigma_z + h_1(\\sigma_x\\cos k + \\sigma_y\\sin k)$ with $\\epsilon(k)=\\sum_{j=0}^N t_j \\cos(jk)$; the current operator is $\\hat{\\mathcal{J}}(k)=\\partial\\hat{H}(k)/\\partial k = -\\sum_j j t_j \\sin(jk) + h_1(-\\sigma_x\\sin k + \\sigma_y \\cos k)$, and the total time-dependent current is obtained by solving the master equation with dephasing and summing contributions over $k$ points to yield $\\langle j\\rangle(t)=\\sum_k \\operatorname{tr}(\\rho_k(t)\\mathcal{J}(k+A(t)))$; the harmonic-domain input is produced by Fourier transforming this current to obtain $j(\\omega)$ (so $j(\\omega)$ is explicitly the Fourier transform of $\\langle j\\rangle(t)$).\nFig. 1",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Define the input images provided to the network: for each simulated sample the CEP offset was varied as $\\varphi+\\Delta\\varphi$ with $\\Delta\\varphi\\in[0,2\\pi)$ discretized into 32 steps, and integer harmonics up to $N=40$ were extracted by sampling 80 time points per cycle and taking the Fourier transform; the resulting 2D array of form $\\log_{10}|j(N\\omega,\\varphi+\\Delta\\varphi)|$ with $N=0\\dots40$ and 32 $\\Delta\\varphi$ steps yields an image of size $41\\times32$, normalized to mean 0 and standard deviation 1 before being input as a $41\\times32\\times1$ tensor to the CNN.\nFig. 2",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "Specify the training dataset and target outputs used for this source problem: a dataset of 65,536 samples (for the unchirped Rice–Mele case with up to four unknown band parameters) was generated with random selections of the intraband hoppings $\\{t_j\\}$ (kept so that band gaps lie between $8.0$ and $16.0$ eV); 1% of the dataset was set aside as the test set; the network was trained (using the pipeline in conclusion 5) to map each normalized $41\\times32\\times1$ input image to the unknown intraband hopping parameters $\\{t_j\\}$ (including the minimal band-energy offset $\\epsilon_{\\min}$ as one such parameter) and to the carrier-envelope phase $\\varphi$, encoded in training as $(\\cos\\varphi,\\sin\\varphi)$ for continuity.",
+                "step_id": "5"
+              },
+              {
+                "reasoning": "Report the quantitative recovery performance on the Rice–Mele test set (no chirp, noiseless): the average absolute test-set errors reported in the performance table for the unchirped, noiseless Rice–Mele source problem with four unknown band parameters are $\\delta\\epsilon_{\\min} = 0.024\\ \\mathrm{eV}$, $\\delta t_1 = 0.030\\ \\mathrm{eV}$, $\\delta t_2 = 0.037\\ \\mathrm{eV}$, $\\delta t_3 = 0.025\\ \\mathrm{eV}$, and $\\delta\\varphi = 0.018\\ \\mathrm{rad}$; these values are taken directly from the averaged performance table in the source-problem results.\nFig. 4\nFig. 3",
+                "step_id": "6"
+              },
+              {
+                "reasoning": "Note the mapping learned: the trained CNN therefore provides an explicit learned function $f_\\theta(x)$ mapping the normalized 2D harmonic-vs-phase input $x_{N,\\Delta\\varphi}=\\log_{10}|j(N\\omega,\\Delta\\varphi)|$ (with $N=0\\dots40$ and 32 $\\Delta\\varphi$ steps) to the unknown Rice–Mele intraband hopping parameters $\\{t_j\\}$ and the CEP $\\varphi$, achieving the average absolute errors reported above on unseen test samples from the simulated dataset.\nFig. 4",
+                "step_id": "7"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "In 1D model solids such as the Rice–Mele family, the HHG spectra depend sensitively on a set of lattice hoppings $\\{t_j\\}$ and on the instantaneous field waveform (including the CEP $\\varphi$). Experimental and simulated HHG maps are high-dimensional images with no simple inversion formula that yields $\\{t_j\\}$ and $\\varphi$ simultaneously. Conventional analytical or fitting approaches are either inapplicable or require prohibitive manual modelling: they cannot extract multiple unknown band parameters together with the CEP from a single 2D HHG dataset because the microscopic electron dynamics that generate harmonics combine intraband motion, interband transitions, and dephasing in a strongly nonlinear fashion. Therefore, a robust data-driven interpolative mapping from measured 2D HHG images to the multidimensional parameter set was needed to enable simultaneous pulse and band-structure retrieval even in a controlled model setting.",
+            "id": "paper:867769962276586176::conclusion_1_subproblem",
+            "source_package": "paper:867769962276586176"
+          }
+        ],
+        "source_package": "paper:867769962276586176"
+      }
+    ],
+    "total_chains": 1
+  },
+  "trace_id": "req_3626d9133ab0b"
+}

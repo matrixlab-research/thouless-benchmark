@@ -1,0 +1,148 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "The boundary (first-site) retarded Green's function of a semi-infinite SSH chain admits an analytic form whose low-energy expansion (for $|\\omega|,\\Delta\\ll W$) has the real and imaginary parts\n      $$\n      \\mathrm{Re}\\,\\langle1|g^{\\mathrm{R}}(\\omega)|1\\rangle=\\frac{2}{W}\\Big[\\kappa\\frac{\\Delta}{\\omega}+\\Theta(\\Delta-|\\omega|)\\frac{\\sqrt{\\Delta^{2}-\\omega^{2}}}{\\omega}\\Big],\n      $$\n      $$\n      \\mathrm{Im}\\,\\langle1|g^{\\mathrm{R}}(\\omega)|1\\rangle=\\frac{2}{W}\\Big[\\eta+\\Theta(|\\omega|-\\Delta)\\frac{\\sqrt{\\omega^{2}-\\Delta^{2}}}{|\\omega|}+2\\pi\\Delta\\,\\delta_{\\kappa,1}\\,\\delta_{\\eta}(\\omega)\\Big],\n      $$\n      and, in the topological phase ($\\kappa=1$), the pole associated with the edge state satisfies\n      $$\n      \\langle1|g^{\\mathrm{R}}(\\omega)|1\\rangle \\xrightarrow{\\omega\\to0} |\\langle1|\\psi_{e}\\rangle|^{2}\\frac{1}{\\omega+i\\eta},\n      $$\n      with the edge-state boundary weight $|\\langle1|\\psi_{e}\\rangle|^{2}=4\\Delta/W$. Here $\\kappa$ is the lead-phase index ($\\kappa=1$ for topological, $\\kappa=-1$ for normal), $\\eta\\to0^{+}$ is a convergence parameter, $\\delta_{\\eta}(\\omega)=(1/\\pi)\\eta/(\\omega^{2}+\\eta^{2})$ is a nascent delta function, and $\\Theta$ denotes the Heaviside step function. These expressions expose explicitly the $1/\\omega$ singularity in the real part and the $\\delta$-peak in the imaginary part that originate from the SSH boundary-localized state.",
+      "content_hash": "cd2b257c798075043203b58c97697777e2ceab397cc2f5ad70cf8161a35f9396",
+      "id": "gcn_e2f9ddf1a54846e4",
+      "type": "claim"
+    },
+    "papers": {
+      "paper:867758051187229240": {
+        "area": "arXiv-Physics, Physical Sciences, Condensed Matter Physics, Quantum Physics",
+        "author_details": [
+          {
+            "origin_name": "Martin T. Maurer"
+          },
+          {
+            "origin_name": "Yen-Ting Lin"
+          },
+          {
+            "affiliation": "RWTH Aachen University;Max Planck Institute for the Structure and Dynamics of Matter Hamburg",
+            "affiliation_zh": "亚琛工业大学;汉堡马克斯·普朗克物质结构与动力学研究所",
+            "author_id": "3214R191",
+            "avatar": "https://cdn1.deepmd.net/static/img/d5926676PgJO1T0AAAAJ.png",
+            "citation_nums": 7417,
+            "h_index": 37,
+            "is_high_cited": true,
+            "name": "Dante M. Kennes",
+            "origin_name": "Dante M. Kennes"
+          },
+          {
+            "affiliation": "RWTH Aachen University",
+            "affiliation_zh": "亚琛工业大学",
+            "author_id": "5785561h",
+            "avatar": "https://cdn1.deepmd.net/static/img/ef1be205WbnzQi8AAAAJ.png",
+            "citation_nums": 2465,
+            "h_index": 28,
+            "is_high_cited": true,
+            "name": "Mikhail Pletyukhov",
+            "origin_name": "Mikhail Pletyukhov"
+          },
+          {
+            "affiliation": "RWTH Aachen University",
+            "affiliation_zh": "亚琛工业大学物理学院",
+            "author_id": "N79215F7",
+            "avatar": "https://cdn1.deepmd.net/static/img/4e4652ddXQBWnMIAAAAJ.png",
+            "citation_nums": 8151,
+            "h_index": 45,
+            "is_high_cited": true,
+            "name": "Herbert Schoeller",
+            "origin_name": "Herbert Schoeller"
+          },
+          {
+            "author_id": "3289461K",
+            "avatar": "https://cdn1.deepmd.net/static/img/3c5b388127394820_0.jpg",
+            "citation_nums": 6249,
+            "h_index": 43,
+            "is_high_cited": true,
+            "name": "Volker Meden",
+            "origin_name": "Volker Meden"
+          }
+        ],
+        "authors": "Martin T. Maurer | Yen-Ting Lin | Dante M. Kennes | Mikhail Pletyukhov | Herbert Schoeller | Volker Meden",
+        "authors_list": [
+          "Martin T. Maurer",
+          "Yen-Ting Lin",
+          "Dante M. Kennes",
+          "Mikhail Pletyukhov",
+          "Herbert Schoeller",
+          "Volker Meden"
+        ],
+        "available_online": "",
+        "citation_nums": 1,
+        "cover_date_start": "2021-12-22",
+        "created_at": "2023-05-23T05:20:42+08:00",
+        "doi": "10.48550/arXiv.2112.11814",
+        "en_abstract": "We investigate a system consisting of one or two topological-insulator leads which are tunnel coupled to a single dot level. The leads are described by the one-dimensional Su-Schrieffer-Heeger model. We show that (topological) edge states cause characteristic features in the dot spectral function, the dot occupation, and the finite-bias current across the dot. As the kinetic energy is quenched in the dot region, local two-particle interactions are of particular relevance there. This motivates us to test whether the aforementioned edge-state features are robust against such interactions; we report here that they are either robust or even enhanced. We conclude that the characteristic features can be used to determine if the leads are in their topologically non-trivial or trivial phase.",
+        "en_title": "Quantum dot coupled to topological insulators: The role of edge states",
+        "id": "867758051187229240",
+        "keywords": "",
+        "open_access": true,
+        "paper_url": "https://arxiv.org/abs/2112.11814v2",
+        "pdf_flag": true,
+        "publication_cover": "https://icon.bohrium.com/journal/arxiv.png",
+        "publication_date": "2021-12-22",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_abstract": "我们研究了一个由一个或两个拓扑绝缘体引线组成的系统，这些引线通过隧道效应耦合到一个单量子点能级。引线由一维Su-Schrieffer-Heeger模型描述。我们表明，（拓扑）边缘态在量子点谱函数、量子点占据情况以及通过量子点的有限偏置电流中产生特征性特征。由于量子点区域的动能被淬灭，局部两粒子相互作用在那里具有特别重要的意义。这促使我们测试上述边缘态特征是否对这种相互作用具有鲁棒性；我们在此报告，它们要么具有鲁棒性，甚至还会增强。我们得出结论，这些特征可用于确定引线处于其拓扑非平凡相还是平凡相。 ",
+        "zh_title": "耦合到拓扑绝缘体的量子点：边缘态的作用"
+      }
+    },
+    "reasoning_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "The boundary (first-site) retarded Green's function of a semi-infinite SSH chain admits an analytic form whose low-energy expansion (for $|\\omega|,\\Delta\\ll W$) has the real and imaginary parts\n      $$\n      \\mathrm{Re}\\,\\langle1|g^{\\mathrm{R}}(\\omega)|1\\rangle=\\frac{2}{W}\\Big[\\kappa\\frac{\\Delta}{\\omega}+\\Theta(\\Delta-|\\omega|)\\frac{\\sqrt{\\Delta^{2}-\\omega^{2}}}{\\omega}\\Big],\n      $$\n      $$\n      \\mathrm{Im}\\,\\langle1|g^{\\mathrm{R}}(\\omega)|1\\rangle=\\frac{2}{W}\\Big[\\eta+\\Theta(|\\omega|-\\Delta)\\frac{\\sqrt{\\omega^{2}-\\Delta^{2}}}{|\\omega|}+2\\pi\\Delta\\,\\delta_{\\kappa,1}\\,\\delta_{\\eta}(\\omega)\\Big],\n      $$\n      and, in the topological phase ($\\kappa=1$), the pole associated with the edge state satisfies\n      $$\n      \\langle1|g^{\\mathrm{R}}(\\omega)|1\\rangle \\xrightarrow{\\omega\\to0} |\\langle1|\\psi_{e}\\rangle|^{2}\\frac{1}{\\omega+i\\eta},\n      $$\n      with the edge-state boundary weight $|\\langle1|\\psi_{e}\\rangle|^{2}=4\\Delta/W$. Here $\\kappa$ is the lead-phase index ($\\kappa=1$ for topological, $\\kappa=-1$ for normal), $\\eta\\to0^{+}$ is a convergence parameter, $\\delta_{\\eta}(\\omega)=(1/\\pi)\\eta/(\\omega^{2}+\\eta^{2})$ is a nascent delta function, and $\\Theta$ denotes the Heaviside step function. These expressions expose explicitly the $1/\\omega$ singularity in the real part and the $\\delta$-peak in the imaginary part that originate from the SSH boundary-localized state.",
+              "id": "gcn_e2f9ddf1a54846e4",
+              "metadata": "{\"narrative\": \"The analytic boundary Green's function and its edge-state pole (conclusion 2) are derived directly from the exact expression (A7), not from the low-energy expansion. The edge-state pole at \\u03c9=0 and its boundary weight \\u221a(4\\u0394/W) are rigorous consequences of the SSH model in the topological phase, as shown by the asymptotic behavior of the exact Green's function (Eq. (A9)). The only threat is P1, which affects the subleading (non-pole) parts of G_{11} in the expansion, but not the existence of the pole or its leading weight. Therefore, this conclusion is very solid, with only marginal quantitative uncertainty on the structure of the real part in the gap away from the singularity. H1 provides the exact closed form that directly yields the pole structure, fully underwriting this conclusion.\", \"structural_edges\": [{\"target\": \"paper:867758051187229240::conclusion_3\", \"type\": \"supports\"}]}",
+              "title": "Analytic boundary Green's function of a semi-infinite SSH lead and its singular edge-state contribution"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_d0358594a5dd4d47",
+            "premises": [],
+            "steps": [
+              {
+                "reasoning": "Consider a single semi-infinite Su-Schrieffer-Heeger (SSH) chain described by the single-particle Hamiltonian matrix with staggered hoppings $t_{1}$ and $t_{2}$; denote the single-particle Hamiltonian by $h$ and the free retarded lead Green's function by $g^{\\mathrm{R}}(\\omega)=(\\omega-h+i\\eta)^{-1}$ with convergence parameter $ \\eta>0 $. The boundary (first-site) retarded Green's function is the top-left matrix element $\\langle1|g^{\\mathrm{R}}(\\omega)|1\\rangle$, where $|1\\rangle$ denotes the single-particle state localized on the boundary site.",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Use the analytic inversion of the semi-infinite tridiagonal SSH single-particle matrix to obtain the exact closed-form expression for the boundary Green's function top-left element in terms of $z=\\omega+i\\eta$, the SSH parameters $t_{1},t_{2}$, the SSH gap $\\Delta=|t_{1}-t_{2}|$, and bandwidth parameter $W=t_{1}+t_{2}$. The resulting expression (derived by computing the $(1,1)$ entry of $(z-h)^{-1}$) is\n$$\n\\langle1|g^{\\mathrm{R}}(\\omega)|1\\rangle=\\frac{1}{2z t_{2}^{2}}\\Big\\{z^{2}-t_{1}^{2}+t_{2}^{2}-\\sqrt{z+W}\\sqrt{z-W}\\sqrt{z+\\Delta}\\sqrt{z-\\Delta}\\Big\\},\n$$\nwith $z=\\omega+i\\eta$. This analytic form follows from standard formulas for inverses of periodic tridiagonal matrices specialized to the semi-infinite SSH structure.",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Take the low-energy limit $|\\omega|,\\Delta\\ll W$ and expand the above expression to leading order in $\\Delta/W$ to separate real and imaginary parts. Define the lead phase index $\\kappa=1$ for the topological SSH chain and $\\kappa=-1$ for the normal (trivial) SSH chain, and the nascent delta function $\\delta_{\\eta}(\\omega)=(1/\\pi)\\eta/(\\omega^{2}+\\eta^{2})$. Then the low-energy real and imaginary parts are\n$$\n\\mathrm{Re}\\,\\langle1|g^{\\mathrm{R}}(\\omega)|1\\rangle=\\frac{2}{W}\\Big[\\kappa\\frac{\\Delta}{\\omega}+\\Theta(\\Delta-|\\omega|)\\frac{\\sqrt{\\Delta^{2}-\\omega^{2}}}{\\omega}\\Big],\n$$\n$$\n\\mathrm{Im}\\,\\langle1|g^{\\mathrm{R}}(\\omega)|1\\rangle=\\frac{2}{W}\\Big[\\eta+\\Theta(|\\omega|-\\Delta)\\frac{\\sqrt{\\omega^{2}-\\Delta^{2}}}{|\\omega|}+2\\pi\\Delta\\,\\delta_{\\kappa,1}\\,\\delta_{\\eta}(\\omega)\\Big],\n$$\nwhere $ \\Theta $ denotes the Heaviside step function. These expressions are obtained by evaluating the square-root branch cuts and taking the small-$\\omega$ expansion of the exact formula given above.",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Identify the signatures of a boundary-localized edge state in these expansions: in the topological phase ($\\kappa=1$) the real part exhibits a $1/\\omega$ singular term proportional to $\\kappa\\Delta/\\omega$, and the imaginary part contains a $2\\pi\\Delta\\,\\delta_{\\eta}(\\omega)$ term producing, in the limit $\\eta\\to0^{+}$, a $\\delta$-peak at $\\omega=0$. These emergent singular contributions are the analytic manifestation of a boundary-localized state in the semi-infinite SSH chain.",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "Extract the edge-state pole explicitly: in the topological phase ($\\kappa=1$) the boundary Green's function has a simple pole structure as $\\omega\\to0$, namely\n$$\n\\langle1|g^{\\mathrm{R}}(\\omega)|1\\rangle \\xrightarrow{\\omega\\to0} |\\langle1|\\psi_{e}\\rangle|^{2}\\frac{1}{\\omega+i\\eta},\n$$\nwhere $|\\psi_{e}\\rangle$ denotes the single-particle edge-state wavefunction localized near the boundary and $|\\langle1|\\psi_{e}\\rangle|^{2}$ is its weight on the boundary site. From the low-energy expansion one obtains the explicit boundary-site weight\n$$\n|\\langle1|\\psi_{e}\\rangle|^{2}=\\frac{4\\Delta}{W},\n$$\nso that the pole residue is $4\\Delta/W$. This follows by matching the coefficient of the $1/\\omega$ term in the low-energy real part expansion to the pole form and using the normalization of the edge-state contribution.",
+                "step_id": "5"
+              },
+              {
+                "reasoning": "State the conclusion linking these analytic results to physical consequences: the $1/\\omega$ singularity in the real part and the $\\delta$-peak in the imaginary part are the explicit analytic fingerprints, in the boundary Green's function, of the SSH boundary-localized edge state; they determine, when inserted into the lead self-energy $ \\Sigma^{\\mathrm{R}}(\\omega)=\\sum_{l}|t_{l}|^{2}\\langle1_{l}|g_{l}^{\\mathrm{R}}(\\omega)|1_{l}\\rangle$, the divergent and $\\delta$-like contributions responsible for the additional spectral structure in a dot coupled to topological leads.\nFig. 2",
+                "step_id": "6"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "The influence of an SSH lead on a boundary-coupled dot is governed by the lead boundary Green's function. Prior treatments of boundary-coupled dots typically assumed featureless (wide-band) reservoirs or treated gapped leads phenomenologically; neither approach captures the singular $1/\\omega$ real-part contribution and the $\\delta$-peak in the imaginary part that arise from an SSH edge state. Without an analytic boundary Green's function that isolates these singular contributions and provides the edge-state weight on the boundary site, one has no controlled way to (i) understand how the edge state hybridizes with a localized dot level, (ii) calculate the frequency-dependent broadening acting on the dot near gap/edge energies, or (iii) predict observable signatures (resonance shifts, emergent discrete peaks) traceable specifically to the edge-state pole rather than to continuum band features.",
+            "id": "paper:867758051187229240::conclusion_2_subproblem",
+            "source_package": "paper:867758051187229240"
+          }
+        ],
+        "source_package": "paper:867758051187229240"
+      }
+    ],
+    "total_chains": 1
+  },
+  "trace_id": "req_425d3ed9a272a"
+}

@@ -1,0 +1,728 @@
+{
+  "code": 0,
+  "data": {
+    "has_more": true,
+    "papers": {
+      "paper:1017398531041787935": {
+        "area": "material science, engineering, electronics, sensors and digital hardware, materials engineering",
+        "authors": "Patricio Vergara | Guidobeth Sáez | Mario Castro | Sebastián Allende | Álvaro S. Núñez",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2024-07-03",
+        "created_at": "2026-05-16T20:36:43+08:00",
+        "doi": "10.1038/s41699-024-00478-5",
+        "en_title": "Emerging topological multiferroics from the 2D Rice-Mele model",
+        "id": "1017398531041787935",
+        "impact_factor": 8.2,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "2062",
+        "publication_name": "npj 2D Materials and Applications _ ",
+        "research_categories": "[\"Engineering\", \"Electronics, Sensors and Digital Hardware\", \"Materials Engineering\"]",
+        "zh_title": "源自二维赖斯 - 梅勒模型的新兴拓扑多铁性材料"
+      },
+      "paper:1022395441930567681": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics, quantum physics",
+        "authors": "R.A.M. Ligthart | M.A.J. Herrera | A. Visser | A. Vlasblom | D. Bercioux | I. Swart",
+        "available_online": "",
+        "cover_date_start": "2024-07-19",
+        "created_at": "1970-01-01T08:00:00+08:00",
+        "doi": "10.48550/arxiv.2407.14465",
+        "en_title": "Experimental Determination of Wannier Centers in 1D topological chains",
+        "id": "1022395441930567681",
+        "keywords": "",
+        "publication_date": "2024-07-19",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "一维拓扑链中万尼尔中心的实验测定"
+      },
+      "paper:1110939600638967815": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Y. Onaya | F. Hamano | T. Fukui",
+        "available_online": "",
+        "cover_date_start": "2025-03-21",
+        "created_at": "2026-06-17T07:30:53+08:00",
+        "doi": "10.48550/arxiv.2503.16897",
+        "en_title": "A formally exact real-space representation of the Berry phase on infinite lattices: Applications to dipole and quadrupole moments",
+        "id": "1110939600638967815",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "无限晶格上贝里相位的形式精确实空间表示：偶极矩和四极矩的应用"
+      },
+      "paper:1182052014889107540": {
+        "area": "arXiv-Physics, arXiv-Quantum Physics",
+        "authors": "Ioannis Petrides | Arpit Arora | Prineha Narang",
+        "available_online": "",
+        "cover_date_start": "2025-09-30",
+        "created_at": "2026-06-19T07:46:09+08:00",
+        "doi": "10.48550/arXiv.2510.00108",
+        "en_title": "Passive detection of Schwinger boson dynamics via a qubit",
+        "id": "1182052014889107540",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108526",
+        "publication_name": "Quantum Physics",
+        "research_categories": "",
+        "zh_title": "通过量子比特对施温格玻色子动力学进行被动检测"
+      },
+      "paper:1243175682972844045": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Luca Maranzana | Koki Shinada | Ying-Ming Xie | Sergey Artyukhin | Naoto Nagaosa",
+        "available_online": "",
+        "cover_date_start": "2026-03-22",
+        "created_at": "2026-06-17T07:13:22+08:00",
+        "doi": "10.48550/arXiv.2603.21262",
+        "en_title": "Semiclassical Wave-Packet Dynamics in Phase-Space Geometry: Quantum Metric Effects",
+        "id": "1243175682972844045",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "相空间几何中的半经典波包动力学：量子度量效应"
+      },
+      "paper:1243175698722455555": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Martin Latorre | Gaspar De la Barrera | Roberto E. Troncoso | Alvaro S. Nunez",
+        "available_online": "",
+        "cover_date_start": "2026-03-23",
+        "created_at": "2026-06-13T08:47:32+08:00",
+        "doi": "10.48550/arXiv.2603.21755",
+        "en_title": "Antiferromagnetic Pure Spin Current Memdevices",
+        "id": "1243175698722455555",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108485",
+        "publication_name": "Other Condensed Matter",
+        "research_categories": "",
+        "zh_title": "反铁磁纯自旋流存储器件"
+      },
+      "paper:811133843825229826": {
+        "area": "Physics and Astrophysics, physics, condensed matter, physics, applied, materials science, multidisciplinary",
+        "authors": "Frédéric Combes | Maximilian Trescher | Frédéric Piéchon | Jean-Noël Fuchs",
+        "available_online": "2016-10-6",
+        "cas_zone": "2",
+        "cover_date_start": "2016-10-06",
+        "created_at": "2026-06-18T23:51:45+08:00",
+        "doi": "10.1103/physrevb.94.155109",
+        "en_title": "Statistical mechanics approach to the electric polarization and dielectric constant of band insulators",
+        "id": "811133843825229826",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "能带绝缘体电极化和介电常数的统计力学方法"
+      },
+      "paper:812815699733905408": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, materials science, multidisciplinary",
+        "authors": "A. Hayward | C. Schweizer | M. Lohse | M. Aidelsburger | F. Heidrich-Meisner",
+        "available_online": "2018-12-27",
+        "cas_zone": "2",
+        "cover_date_start": "2018-12-27",
+        "created_at": "2026-06-14T06:41:25+08:00",
+        "doi": "10.1103/physrevb.98.245148",
+        "en_title": "Topological charge pumping in the interacting bosonic Rice-Mele model",
+        "id": "812815699733905408",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "相互作用玻色子Rice-Mele模型中的拓扑电荷泵浦"
+      },
+      "paper:813129922976415744": {
+        "area": "physics and astrophysics, physics, multidisciplinary",
+        "authors": "V. I. Belyavskii | A. A. Gorbatsevich",
+        "available_online": "2017-6-3",
+        "cas_zone": "4",
+        "cover_date_start": "2017-04-01",
+        "created_at": "2026-05-28T02:33:21+08:00",
+        "doi": "10.1134/s0021364017070062",
+        "en_title": "On the theory of pyro- and ferroelectrics: Dipole moment density and polarization",
+        "id": "813129922976415744",
+        "impact_factor": 1.8,
+        "jcr_zone": "Q3",
+        "keywords": "",
+        "publication_date": "2017-4",
+        "publication_id": "675",
+        "publication_name": "JETP Letters _ Jetp Lett.",
+        "research_categories": "",
+        "zh_title": "关于热释电和铁电体理论：偶极矩密度与极化"
+      },
+      "paper:814550912939851777": {
+        "area": "physics and astrophysics, optics, physics, applied",
+        "authors": "Chuan-Jia Shan | Wei-Wen Cheng | Ji-Bing Liu | Yong-Shan Cheng | Tang-Kun Liu",
+        "available_online": "2016-3-4",
+        "cas_zone": "4",
+        "cover_date_start": "2016-03-04",
+        "created_at": "2026-05-18T16:31:48+08:00",
+        "doi": "10.1088/1612-2011/13/4/045203",
+        "en_title": "Simple method to detect topological Bloch bands in one-dimensional optical lattice",
+        "id": "814550912939851777",
+        "impact_factor": 1.4,
+        "jcr_zone": "Q3",
+        "keywords": "",
+        "publication_date": "2016-4-1",
+        "publication_id": "614",
+        "publication_name": "Laser Physics Letters _ Laser Phys. Lett.",
+        "research_categories": "",
+        "zh_title": "在一维光学晶格中检测拓扑布洛赫能带的简单方法"
+      },
+      "paper:814564379600093184": {
+        "area": "physics and astrophysics, physics, multidisciplinary",
+        "authors": "Shuta Nakajima | Takafumi Tomita | Shintaro Taie | Tomohiro Ichinose | Hideki Ozawa | Lei Wang | Matthias Troyer | Yoshiro Takahashi",
+        "available_online": "2016-1-18",
+        "cas_zone": "1",
+        "cover_date_start": "2016-01-18",
+        "created_at": "2026-06-15T01:15:14+08:00",
+        "doi": "10.1038/nphys3622",
+        "en_title": "Topological Thouless pumping of ultracold fermions",
+        "id": "814564379600093184",
+        "impact_factor": 18.3,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2016-4",
+        "publication_id": "470",
+        "publication_name": "Nature Physics _ Nature Phys",
+        "research_categories": "",
+        "zh_title": "超冷费米子的拓扑 Thouless 泵浦"
+      },
+      "paper:817403289128665088": {
+        "area": "geoscience, chemical sciences, physical sciences, quantum physics",
+        "authors": "D. H. Torchinsky | T. Morimoto | J. E. Moore | N. L. Nair | Liang Wu | J. Orenstein | Baozhu Lu | Daniel E. Parker | Adolfo G. Grushin | Jason D. Tran | J. G. Analytis | Shreyas Patankar | Manita Rai",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2019-10-04",
+        "created_at": "2026-06-02T13:44:44+08:00",
+        "doi": "10.1103/PhysRevB.98.165113",
+        "en_title": "Resonance-enhanced optical nonlinearity in the Weyl semimetal TaAs",
+        "id": "817403289128665088",
+        "impact_factor": 3.6,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "98281",
+        "publication_name": "Physical Review B   Condensed Matter and Materials Physics _ ",
+        "research_categories": "[\"Chemical Sciences\", \"Physical Sciences\", \"Quantum Physics\"]",
+        "zh_title": "外尔半金属TaAs中的共振增强光学非线性"
+      },
+      "paper:867769186837856436": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Tonatiuh Rangel | Benjamin M. Fregoso | Bernardo S. Mendoza | Takahiro Morimoto | Joel E. Moore | Jeffrey B. Neaton",
+        "available_online": "",
+        "cover_date_start": "2016-10-20",
+        "created_at": "2026-05-26T05:33:32+08:00",
+        "doi": "10.48550/arXiv.1610.06589",
+        "en_title": "Large bulk photovoltaic effect and spontaneous polarization of single-layer monochalcogenides",
+        "id": "867769186837856436",
+        "keywords": "",
+        "publication_date": "2016-10-20",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "单层硫属化物的大体积光伏效应和自发极化"
+      },
+      "paper:867770441521955390": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Jun-Won Rhim | Jan Behrends | Jens H. Bardarson",
+        "available_online": "",
+        "cover_date_start": "2016-08-29",
+        "created_at": "2026-06-19T06:44:16+08:00",
+        "doi": "10.48550/arXiv.1608.08232",
+        "en_title": "Bulk-boundary correspondence from the inter-cellular Zak phase",
+        "id": "867770441521955390",
+        "keywords": "",
+        "publication_date": "2016-08-29",
+        "publication_id": "108489",
+        "publication_name": "Strongly Correlated Electrons _ Physics.cond-mat.str-el",
+        "research_categories": "",
+        "zh_title": "基于细胞间Zak相的体-边界对应关系"
+      },
+      "paper:904068914462326823": {
+        "area": "arxiv-physics, chemical sciences, macromolecular and materials chemistry, engineering, materials engineering, physical sciences",
+        "authors": "Stefano Paolo Villani | Marco Campetella | Paolo Barone | Francesco Mauri",
+        "available_online": "",
+        "cover_date_start": "2023-08-30",
+        "created_at": "2026-06-14T08:21:10+08:00",
+        "doi": "10.48550/arXiv.2308.16070",
+        "en_title": "Giant piezoelectricity driven by Thouless pump in conjugated polymers",
+        "id": "904068914462326823",
+        "keywords": "",
+        "publication_date": "2023-08-30",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "[\"Chemical Sciences\", \"Macromolecular and Materials Chemistry\", \"Engineering\", \"Materials Engineering\", \"Physical Sciences\"]",
+        "zh_title": "共轭聚合物中由 Thouless 泵驱动的巨压电效应"
+      }
+    },
+    "variables": [
+      {
+        "content": "The topological (Berry-phase) theory of polarization also exhibits a dependence on the microscopic mechanism of the polar phase formation. For the Rice-Mele model, the electronic contribution to polarization is calculated via the Berry curvature \\(\\Omega_{qt}\\), which in the tight-binding approximation (hopping average \\(\\tau\\), dimerization \\(\\delta\\), site-energy \\(\\Delta\\), quasimomentum \\(q\\), lattice parameter \\(a\\)) is \\(\\Omega_{qt} = -\\frac{a \\tau \\delta}{4 h^3} \\frac{\\partial \\Delta}{\\partial t} + \\frac{a \\tau \\Delta}{4} \\frac{\\sin^2(qa/2)}{h^3} \\frac{\\partial \\delta}{\\partial t}\\), where \\(h = \\sqrt{(\\tau \\cos(qa/2))^2 + (-\\delta \\sin(qa/2))^2 + \\Delta^2}\\). The polarization \\(P^{(e)} = e \\int_0^t dt' \\int_{-\\pi/a}^{\\pi/a} \\frac{dq}{2\\pi} \\Omega_{qt'}\\) depends on which parameter is varied during the adiabatic process: if \\(\\delta \\neq 0\\) and \\(\\Delta\\) is increased from zero, the polarization is \\(P_1 = \\frac{e \\delta \\Delta}{2 \\pi \\tau \\sqrt{\\tau^2 + \\Delta^2}} \\Pi_1(-\\kappa_1^2, k)\\), where \\(\\kappa_1^2 = (\\tau^2 - \\delta^2)/\\tau^2\\) and \\(k^2 = (\\tau^2 - \\delta^2)/(\\tau^2 + \\Delta^2)\\), with \\(\\Pi_1\\) the complete elliptic integral of the third kind; if \\(\\Delta \\neq 0\\) and \\(\\delta\\) is increased from zero, the polarization is \\(P_2 = \\frac{e \\delta \\Delta}{2 \\pi \\tau \\sqrt{\\tau^2 + \\Delta^2}} [\\Pi_1(-\\kappa_2^2, k) - K(k)]\\), where \\(\\kappa_2^2 = \\tau^2/(\\tau^2 + \\Delta^2)\\) and \\(K(k)\\) is the complete elliptic integral of the first kind. In general \\(P_1 \\neq P_2\\), confirming that the topological approach inherits the same path dependence as the classical picture. Thus, the ambiguity is not an artifact of the classical formulation but is inherent in the physical definition of polarization in polar crystals.",
+        "content_hash": "15dac746b29dddc4405b423bd4b70dbc9610b4c4dcac51cd11175d035b18584c",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_1f3532fa63fc4d4a",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813129922976415744::conclusion_5",
+            "package_id": "paper:813129922976415744",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813129922976415744"
+          ]
+        },
+        "related": [
+          {
+            "content": "For the Rice-Mele model, which describes a one-dimensional chain with two different atoms per unit cell and alternating bond lengths \\(a_\\pm = a/2 \\pm u\\) (where \\(a\\) is the lattice parameter and \\(u > 0\\) is the displacement order parameter), the classical electrodynamics formalism with polarization \\(\\mathbf{P} = \\mathbf{P}_\\rho + \\mathbf{P}_a\\) yields a polarization that is independent of the choice of unit cell when the auxiliary term \\(\\mathbf{P}_a\\) is included. Two families of unit-cell choices (centered at an atom or at a bond midpoint) lead to different dipole moment densities \\(\\mathbf{P}_\\rho\\), but the auxiliary term \\(\\mathbf{P}_a\\) adjusts accordingly, producing the same final polarization. Specifically, when the unit-cell center is at an atom, the polarization is \\(P = -Q_{\\mathrm{eff}} u / a\\), where \\(Q_{\\mathrm{eff}}\\) is the effective atomic charge; when the unit-cell center is at a bond midpoint, the result is \\(P = -Q_{\\mathrm{eff}} u / a + (Q_1 - Q_2)/2\\), where \\(Q_1\\) and \\(Q_2\\) are the charges flowing through the two types of bonds (double and single) and satisfy \\(Q_1 + Q_2 = Q_{\\mathrm{eff}}\\). Both expressions yield the same physical polarization for a given mechanism of formation of the polar phase, differing only in how the auxiliary term accounts for charge flow across cell boundaries.",
+            "has_reasoning": true,
+            "id": "gcn_2114cd95ad044d2a",
+            "kind": "conclusion",
+            "rerank_score": 0,
+            "role": "conclusion",
+            "score": 0.015625,
+            "title": "Unit-cell-invariant polarization in the Rice-Mele model via inclusion of auxiliary term",
+            "type": "claim"
+          },
+          {
+            "content": "The polarization in the polar phase depends on the specific microscopic mechanism of symmetry breaking, i.e., on the path in parameter space taken from a nonpolar parent phase to the polar phase. For the Rice-Mele model (a one-dimensional chain with two different atoms per unit cell and alternating bonds), two different parent phases exist: one with bond dimerization parameter \\(\\delta \\neq 0\\) and site-energy alternation \\(\\Delta = 0\\), and the other with \\(\\delta = 0\\) and \\(\\Delta \\neq 0\\). Each leads to a different polarization in the final polar phase, even though the final charge distribution may be identical. The classical expression for polarization, \\(P = -Q_{\\mathrm{eff}} u / a + (Q_1 - Q_2)/2\\), where \\(Q_{\\mathrm{eff}}\\) is the effective atomic charge, \\(u\\) is the displacement order parameter, \\(a\\) is the lattice parameter, and \\(Q_1, Q_2\\) are the charges flowing through the two types of bonds (with \\(Q_1 + Q_2 = Q_{\\mathrm{eff}}\\)), contains terms depending on the relative currents, reflecting the mechanism of charge redistribution. Consequently, polarization is not solely determined by the instantaneous charge density but also by the history of the system (the path of symmetry breaking).",
+            "has_reasoning": true,
+            "id": "gcn_e4651c2581c24f3e",
+            "kind": "conclusion",
+            "rerank_score": 0,
+            "role": "conclusion",
+            "score": 0.009523809523809525,
+            "title": "Polarization dependence on the microscopic symmetry-breaking mechanism",
+            "type": "claim"
+          }
+        ],
+        "rerank_score": 0.8683872281779969,
+        "role": "conclusion",
+        "score": 0.015873015873015872,
+        "title": "Path dependence of polarization in the topological (Berry-phase) theory",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Spatial gradients of the momentum-space metric $G_{ij}^{pp}(\\boldsymbol{x},\\boldsymbol{p})$ (the momentum-space component of the band-renormalized quantum metric) produce a local polarization of the electronic system. The polarization density is $P_j = -\\partial_i^x Q_{ij}$, where $\\partial_i^x$ is the real-space derivative and $Q_{ij} = e\\hbar^2 \\int \\frac{d^d p}{(2\\pi\\hbar)^d} G_{ij}^{pp} \\mathcal{E}_0 f_0$, with $e$ the electron charge, $\\mathcal{E}_0$ the unperturbed band energy, and $f_0$ the equilibrium distribution function. Thus, a nonuniform $G_{ij}^{pp}(\\boldsymbol{x})$ generates a linear polarization even in the absence of Berry-curvature effects.",
+        "content_hash": "6a441114140c383ab2ca506b695a0a3c7985db1b426a121b511379188df41b34",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_6b750c07efe34fa6",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1243175682972844045::conclusion_8",
+            "package_id": "paper:1243175682972844045",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1243175682972844045"
+          ]
+        },
+        "rerank_score": 0.7509527852213449,
+        "role": "conclusion",
+        "score": 0.011627906976744186,
+        "title": "Polarization induced by real-space gradients of the momentum-space metric",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In the parameter regime that preserves combined parity and time-reversal symmetry, defined by vanishing parity-breaking potentials $V_d^{x}=V_d^{y}=0$, each spin channel of the spinful 2D Rice–Mele model carries the fractional polarization $\\mathbf{P}_{\\sigma}=(1/2,1/2)$, while the net electric charge dipolar moment density and the net spin dipolar moment density, defined respectively as $\\mathbf{P}_e=\\mathbf{P}_\\uparrow+\\mathbf{P}_\\downarrow$ and $\\mathbf{P}_S=\\mathbf{P}_\\uparrow-\\mathbf{P}_\\downarrow$, satisfy\n      $$\n      \\mathbf{P}_e=\\mathbf{P}_\\uparrow+\\mathbf{P}_\\downarrow=0\\pmod{1},\\qquad\n      \\mathbf{P}_S=\\mathbf{P}_\\uparrow-\\mathbf{P}_\\downarrow=0\\pmod{1}.\n      $$\n      In this same PT-preserving regime, when the tight-binding hopping amplitudes depend on a spatial parameter (for example, when mechanical strain modifies $t$ and $\\delta t$ locally), the model exhibits a piezospintronic response in which spatial variations of the hopping parameters can drive pure spin currents without an accompanying net charge current, i.e., a strain-driven generation of spin current with zero net charge flow.",
+        "content_hash": "6c692cdce565f717e843a84748d1509b683985b5a6de2179ee2c45c013207e9a",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_9f875010edfd4860",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1017398531041787935::conclusion_3",
+            "package_id": "paper:1017398531041787935",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1017398531041787935"
+          ]
+        },
+        "rerank_score": 0.7497526334953646,
+        "role": "conclusion",
+        "score": 0.011904761904761904,
+        "title": "PT-preserving case: vanishing net charge and spin dipoles and piezospintronic pure-spin current",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Numerical diagonalization of finite Rice‑Mele chains (tight‑binding model with alternating hopping $t(1\\pm\\delta)$ and staggered on‑site potential $\\pm\\Delta$, parameterized by an angular parameter $\\theta$, with $t=1$, $\\Delta_0=\\delta_0=0.6$, and lattice constant $a=1$) confirms the analytical Wannier‑Stark ladder (WSL) expansion and the derived finite‑temperature polarization and susceptibility in the regime where (i) the system is in the WSL regime (field $\\mathcal{E}\\gg W/N$, where $W$ is the bandwidth and $N$ the number of unit cells, so states are localized with ladder structure), (ii) field is weak compared to band scales ($\\mathcal{E}\\ll W$) so the $\\mathcal{E}^2$ expansion is valid, and (iii) Zener tunneling (electron tunneling between bands) is negligible. Deviations due to finite size scale as $\\exp(-\\mathcal{E}/\\mathcal{E}_c)$ initially and finite‑size edge effects vanish for larger fields. The numerically computed first and second derivatives of the WSL center energy (corresponding to the polarization and susceptibility) as functions of $\\theta$ show agreement with the analytical predictions from the WSL expansion within these regimes, with only small finite‑size effects near $\\theta=0$ and $\\theta=\\pi$.",
+        "content_hash": "eb6d6fc22f8c32a21192a41b0a1df5c3b6209db6745aab095a6a6025a051951d",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_06381c38bc7444ea",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811133843825229826::conclusion_7",
+            "package_id": "paper:811133843825229826",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811133843825229826"
+          ]
+        },
+        "rerank_score": 0.8477947050869169,
+        "role": "conclusion",
+        "score": 0.01,
+        "title": "Numerical validation on Rice–Mele chain and identification of finite‑size and field regimes",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For a spin-Rice-Mele electronic model with antiferromagnetic Néel order and an applied magnetic-field gradient, the three response coefficients entering the polarization-current decomposition admit microscopic expressions as Brillouin-zone integrals of generalized Berry curvatures. Denoting occupied band eigenstates by $|\\psi_{-,\\sigma}\\rangle$ ($\\sigma\\in\\{\\uparrow,\\downarrow\\}$) and the sublattice operator by $\\tau^{z}$ (eigenvalues $\\pm1$ for sublattices $A,B$), define the generalized Berry curvature\n      $$\n      \\Omega_{x,k}^{\\tau^{z}} \\equiv i\\Big(\\langle\\partial_{x}\\psi_{-,\\sigma}|\\tau^{z}|\\partial_{k}\\psi_{-,\\sigma}\\rangle\n      -\\langle\\partial_{k}\\psi_{-,\\sigma}|\\tau^{z}|\\partial_{x}\\psi_{-,\\sigma}\\rangle\\Big),\n      $$\n      with parameter $x\\in\\{\\delta t,n,\\nabla B\\}$ and crystal momentum $k$. Then\n      $$\n      \\lambda_{\\mathrm{pzsp}}=\\frac{\\partial(\\delta t)}{\\partial u}\\frac{a}{2\\pi}\\sum_{\\sigma}\\int_{-\\pi}^{\\pi}\\Omega_{\\delta t,k}^{\\tau^{z}}\\,dk,\n      $$\n      $$\n      \\lambda_{n}=\\frac{a}{2\\pi}\\sum_{\\sigma}\\int_{-\\pi}^{\\pi}\\Omega_{n,k}^{\\tau^{z}}\\,dk,\n      $$\n      $$\n      \\lambda_{\\nabla B}=\\frac{a}{2\\pi}\\sum_{\\sigma}\\int_{-\\pi}^{\\pi}\\Omega_{\\nabla B,k}^{\\tau^{z}}\\,dk.\n      $$\n      Here $\\delta t(\\mathbf{u})$ is the bond-alternation hopping amplitude, $a$ the lattice constant, and derivatives such as $\\partial(\\delta t)/\\partial u$ relate electronic hopping to lattice deformation. These formulas provide explicit, calculable quantities linking microscopic band-structure changes due to $u$, $\\mathbf{n}$, and $\\nabla B$ to the polarization-current channels.",
+        "content_hash": "57c710d7ab5f2d0eef93542adcd0336c7b6cfbb2eb9ae951bb2718dbef03cb39",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_94d96e211a284e0f",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1243175698722455555::conclusion_3",
+            "package_id": "paper:1243175698722455555",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1243175698722455555"
+          ]
+        },
+        "rerank_score": 0.7467546944641792,
+        "role": "conclusion",
+        "score": 0.010101010101010102,
+        "title": "Microscopic expressions for the $\\lambda$-coefficients via generalized Berry curvatures",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Application of the STM/STS-based band-integration protocol to a Rice–Mele chain fabricated from Cs artificial atoms on InAs(111)A yields a small bandgap of approximately $30\\ \\mathrm{mV}$ (reported $\\Delta/t \\sim 0.39$, where $\\Delta$ is the staggered on-site energy difference and $t$ is the hopping parameter) and a lowest-band normalized charge $p_x$ (defined as $p_x = \\frac{\\int_{E_{\\text{min}}}^{E_{\\text{max}}} \\rho(x,E) dE}{\\int_{\\text{all bands}} \\rho(x,E) dE}$) whose spatial profile matches tight-binding calculations for the Rice–Mele parameters used; the experimentally determined Wannier center positions coincide with the theoretical expectation for the chosen parameters.",
+        "content_hash": "aec0a4b18242f0cd749a7aee06b12dfd9b75fce916dacdef60a6f88ebcf09bd7",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_61fac1b8d03e407d",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1022395441930567681::conclusion_3",
+            "package_id": "paper:1022395441930567681",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1022395441930567681"
+          ]
+        },
+        "related": [
+          {
+            "content": "Finite-size tight-binding calculations with experimentally motivated hopping parameters reproduce the measured differential conductance ($dI/dV$) line spectra and the band-resolved normalized charge $p_x$ (defined as $p_x = \\frac{\\int_{E_{\\text{min}}}^{E_{\\text{max}}} \\rho(x,E) dE}{\\int_{\\text{all bands}} \\rho(x,E) dE}$) spatial profiles for the atomic chain, Rice–Mele chain, trivial and non-trivial SSH chains, symmetric and non-symmetric trimer chains on InAs(111)A. A set of fitted parameters (hopping amplitudes, on-site energies, and edge on-site energies) used in the finite tight-binding models is tabulated, and direct comparisons between experiment and theory show close agreement in spectral positions, bandgaps, and Wannier-center peak locations.",
+            "has_reasoning": true,
+            "id": "gcn_cbea5267c1c643fd",
+            "kind": "conclusion",
+            "rerank_score": 0,
+            "role": "conclusion",
+            "score": 0.013333333333333334,
+            "title": "Tight-binding modelling quantitatively reproduces experimental spectra and $p_x$ profiles across studied chains",
+            "type": "claim"
+          },
+          {
+            "content": "Finite-size nearest-neighbour tight-binding calculations using experimentally motivated and fitted parameters quantitatively reproduce the measured differential conductance line spectra and the band-resolved normalized charge $p_x$ spatial profiles for the studied one-dimensional chains (atomic chain, Rice–Mele chain, trivial and non-trivial SSH chains, symmetric and non-symmetric trimer chains); the fitted parameter sets used in the finite tight-binding models are (model: hopping parameters $t_i$ in meV; additional model-specific parameters shown when present): Atomic Chain: $t_1=38$; Rice–Mele: $t_1=38$, $t_2=38$, edge on-site energies $o_1=0$, $o_2=38$; SSH 27 Trivial: $t_1=50.7$, $t_2=9$, edge on-site energy 5; SSH 72 Non-Trivial: $t_1=9$, $t_2=50.7$, edge on-site energy 45; SSH 63 Non-Trivial: $t_1=18.6$, $t_2=54.4$, edge on-site energy 35; Symmetric Trimer 336 Trivial: $t_1=50$, $t_2=50$, $t_3=17.1$, on-site energies $s_1=100$, $s_2=100$, $s_3=34.2$, edge on-site energy 20; Symmetric Trimer 662 Non-Trivial: $t_1=17.1$, $t_2=17.1$, $t_3=76$, on-site energies $s_1=51.3$, $s_2=51.3$, $s_3=228.1$, edge on-site energy 35; Non-symmetric Trimer 326 Trivial: $t_1=52.7$, $t_2=80.3$, $t_3=18.1$, on-site energies $s_1=158.2$, $s_2=240.8$, $s_3=54.2$, edge on-site energy 10; Non-symmetric Trimer 362 Non-Trivial: $t_1=52.7$, $t_2=18.1$, $t_3=80.3$, on-site energies $s_1=158.1$, $s_2=54.2$, $s_3=240.8$, edge on-site energy 10. Direct comparisons between the experimental and theoretical spectra show close agreement in spectral peak positions, bandgap magnitudes, and Wannier-center peak locations when these fitted parameter sets are used in the finite tight-binding models.",
+            "has_reasoning": true,
+            "id": "gcn_f754ca90fbc74411",
+            "kind": "conclusion",
+            "rerank_score": 0,
+            "role": "conclusion",
+            "score": 0.009523809523809525,
+            "title": "Tight-binding modelling quantitatively reproduces experimental spectra and $p_x$ profiles across studied chains",
+            "type": "claim"
+          }
+        ],
+        "rerank_score": 0.7124815495078965,
+        "role": "conclusion",
+        "score": 0.015873015873015872,
+        "title": "Experimental extraction of Wannier centers in a Rice–Mele chain and consistency with tight-binding",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In the Rice-Mele tight-binding model of a one-dimensional linear chain with two atoms per unit cell, nearest-neighbour hopping \\(t_0\\), on-site energy difference \\(\\Delta\\), dimerization \\(\\delta t\\), and strain \\(\\epsilon\\), the dipole moment per unit cell in the small-gap limit, where the band gap \\(E_{\\mathrm{gap}} = 2\\sqrt{\\Delta^2 + 4\\delta t^2}\\) is much smaller than \\(t_0\\) (\\(E_{\\mathrm{gap}} \\ll t_0\\)), is \\(P(\\epsilon,\\overline{u}(\\epsilon)) = -\\dfrac{|e|}{\\pi}\\,\\theta(\\epsilon,\\overline{u}(\\epsilon))\\), where the angular parameter \\(\\theta\\) is defined by \\(\\tan\\theta(\\epsilon,\\overline{u}(\\epsilon)) = \\dfrac{\\Delta}{2\\delta t(\\epsilon,\\overline{u}(\\epsilon))}\\). The clamped-ion piezoelectric coefficient (internal coordinate fixed) is \\(c_{\\mathrm{piezo}}^{\\mathrm{c.i.}} = -\\dfrac{|e|}{2\\pi}\\,\\beta\\,\\sin 2\\theta(0,\\overline{u}_{0})\\), where \\(\\beta\\) is the adimensional electron–phonon parameter defined by \\(\\beta\\equiv -\\dfrac{a_{0}}{2t_{0}}\\left.\\dfrac{\\mathrm{d}t}{\\mathrm{d}r}\\right|_{a_{0}/2}\\), \\(a_{0}\\) is the equilibrium unit cell length, and \\(\\overline{u}_{0}=\\overline{u}(0)\\) is the equilibrium internal coordinate at zero macroscopic strain.",
+        "content_hash": "09e04fc4be14e41b67361769ae7055e89a8ad059367b7895a6317549e1f47896",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_e264632a5a0e4780",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:904068914462326823::conclusion_1",
+            "package_id": "paper:904068914462326823",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:904068914462326823"
+          ]
+        },
+        "related": [
+          {
+            "content": "In the Rice-Mele tight-binding model of a one-dimensional linear chain with two atoms per unit cell, nearest-neighbour hopping \\(t_0\\), on-site energy difference \\(\\Delta\\), dimerization \\(\\delta t\\), and strain \\(\\epsilon\\), the electronic (Born) effective charge \\(Z^{*}\\) associated with the fractional internal coordinate \\(u\\) is given by \\(Z^{*}(\\overline{u}_{0}) = \\dfrac{|e|}{\\pi}\\;4\\,\\beta\\,t_{0}\\;\\dfrac{\\sin\\theta(0,\\overline{u}_{0})}{E_{\\mathrm{gap}}(0,\\overline{u}_{0})}\\), where \\(\\beta\\) is the adimensional electron–phonon parameter defined by \\(\\beta\\equiv -\\dfrac{a_{0}}{2t_{0}}\\left.\\dfrac{\\mathrm{d}t}{\\mathrm{d}r}\\right|_{a_{0}/2}\\), \\(a_{0}\\) is the equilibrium unit cell length, \\(\\overline{u}_{0}=\\overline{u}(0)\\) is the equilibrium internal coordinate at zero macroscopic strain, \\(E_{\\mathrm{gap}}(0,\\overline{u}_{0}) = 2\\sqrt{\\Delta^{2} + 4(\\beta t_{0}\\overline{u}_{0})^{2}}\\) is the band gap, and \\(\\sin\\theta = 2\\Delta/E_{\\mathrm{gap}}\\) with \\(\\theta\\) defined by \\(\\tan\\theta = \\Delta/(2\\delta t)\\). In the undimerized limit \\(\\overline{u}=0\\) (so \\(\\sin\\theta=1\\)) this yields the asymptotic scaling \\(Z^{*}\\propto\\beta/E_{\\mathrm{gap}}\\sim\\beta/\\Delta\\), i.e. an inverse proportionality of \\(Z^{*}\\) to the band gap amplitude. The \\(1/E_{\\mathrm{gap}}\\) behaviour has a geometric/topological origin related to the Berry‑phase parametrisation of the dipole moment per unit cell \\(P\\propto-\\theta\\) and the Thouless‑pump topology of the \\((\\Delta,\\delta t)\\) parameter space, where the origin corresponds to a metallic point.",
+            "has_reasoning": true,
+            "id": "gcn_b0c54f9de21e43e4",
+            "kind": "conclusion",
+            "rerank_score": 0,
+            "role": "conclusion",
+            "score": 0.011111111111111112,
+            "title": "Analytical formula for Born effective charge and its inverse band-gap scaling",
+            "type": "claim"
+          },
+          {
+            "content": "Combining analysis of the Rice-Mele tight-binding model and Density Functional Theory (DFT) validation gives a material‑design guideline: the dominant microscopic factor amplifying the internal‑relaxation piezoelectric contribution \\(c_{\\mathrm{piezo}}^{\\mathrm{i.r.}}=Z^{*}\\,\\partial\\overline{u}/\\partial\\epsilon\\) is the Born effective charge \\(Z^{*}\\), which scales as \\(Z^{*}\\propto 1/E_{\\mathrm{gap}}\\) near the Thouless‑pump metallic point (the origin of the \\((\\Delta,\\delta t)\\) parameter space where the band gap \\(E_{\\mathrm{gap}}=0\\)); consequently, lowering the band gap \\(E_{\\mathrm{gap}}\\) (while maintaining inversion‑symmetry breaking and finite internal strains \\(\\partial\\overline{u}/\\partial\\epsilon\\)) is a direct route to increase electronic polar response and thus macroscopic piezoelectricity in conjugated polymers. This provides an actionable design principle linking electronic structure (band gap) to piezoelectric performance.",
+            "has_reasoning": true,
+            "id": "gcn_dc838fb00f974996",
+            "kind": "conclusion",
+            "rerank_score": 0,
+            "role": "conclusion",
+            "score": 0.010101010101010102,
+            "title": "Material-design principle: inverse proportionality of polar response to band gap",
+            "type": "claim"
+          },
+          {
+            "content": "Range‑separated hybrid Density Functional Theory (DFT) calculations on two representative substituted polyacetylene polymers — mono‑fluorinated polyacetylene (MFPA, repeating CH–CF unit) and polymethineimine (PMI, repeating N–CH unit) — where the long‑range exact‑exchange mixing parameter \\(c_{\\mathrm{LR}}\\) (which controls the fraction of long-range exact exchange in the functional) is varied as a computational proxy for tuning the effective electron–phonon coupling \\(\\beta\\) (a dimensionless parameter quantifying the variation of hopping with distance), reproduce the predictions of the Rice-Mele tight-binding model of a one-dimensional linear chain with two atoms per unit cell. The results show: (i) a second‑order suppression of the bond‑length alternation (BLA) as \\(c_{\\mathrm{LR}}\\) is reduced, with fitted critical mixing values \\(\\overline{c}_{LR}^{\\mathrm{MFPA}}\\simeq 14\\%\\) and \\(\\overline{c}_{LR}^{\\mathrm{PMI}}\\simeq 26\\%\\), consistent with the order parameter \\(\\overline{u}\\) (the fractional internal coordinate) following \\(\\overline{u}\\simeq|c_{\\mathrm{LR}}-\\overline{c}_{\\mathrm{LR}}|^{1/2}\\); (ii) computed Born effective charges \\(Z^{*}\\) on backbone carbon atoms attain strongly anomalous values across the studied \\(c_{\\mathrm{LR}}\\) range, reaching \\(\\sim 30|e|\\) for MFPA and \\(\\sim 15|e|\\) for PMI near their respective critical points, with typical values in the range \\(5|e|\\)–\\(30|e|\\) even for band gaps exceeding several eV; (iii) the strain derivative \\(\\partial\\overline{u}/\\partial\\epsilon\\) (internal strain) and the total piezoelectric coefficient \\(c_{\\mathrm{piezo}}\\) display strong enhancement near the critical \\(c_{\\mathrm{LR}}\\), with the internal‑relaxation term \\(c_{\\mathrm{piezo}}^{\\mathrm{i.r.}}=Z^{*}\\,\\partial\\overline{u}/\\partial\\epsilon\\) dominating the total response. Quantitative DFT results agree both qualitatively and quantitatively with the Rice–Mele model when the ab initio \\(Z^{*}\\) and \\(\\partial\\overline{u}/\\partial\\epsilon\\) are inserted into the model expression \\(c_{\\mathrm{piezo}}^{\\mathrm{i.r.}}=Z^{*}\\,\\partial\\overline{u}/\\partial\\epsilon\\).",
+            "has_reasoning": true,
+            "id": "gcn_e564ac6f073c46f3",
+            "kind": "conclusion",
+            "rerank_score": 0,
+            "role": "conclusion",
+            "score": 0.009900990099009901,
+            "title": "DFT with range-separated hybrids reproduces model predictions and yields giant effective charges in substituted polyacetylenes",
+            "type": "claim"
+          }
+        ],
+        "rerank_score": 0.7088115677720025,
+        "role": "conclusion",
+        "score": 0.01282051282051282,
+        "title": "Closed-form expressions for polarization and clamped-ion piezoelectric coefficient in the Rice-Mele model",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Numerical calculations for the Rice–Mele one-dimensional tight-binding chain (with parameters \\(t=1\\), \\(\\Delta = 0.6\\cos\\theta\\), \\(\\delta = 0.6\\sin\\theta\\), where \\(\\theta\\) is a parameter ranging from \\(0\\) to \\(2\\pi\\)) show (i) the inter-cellular Zak phase \\(\\gamma^{\\mathrm{inter}}\\) (the sum over filled bands of the origin-independent part of the band Zak phases) computed from the bulk Bloch functions predicts the extra charge accumulation at a termination modulo \\(e\\) in quantitative agreement with direct evaluation of the terminated finite chain's local charge density, and (ii) the bound surface charge \\(\\sigma = \\mathbf{P} \\cdot \\hat{n}\\) (with \\(\\mathbf{P}\\) the modern polarization and \\(\\hat{n}\\) the surface normal) differs from the extra charge accumulation by the classical dipolar contribution originating from the intra-cellular Zak phase \\(\\gamma^{\\mathrm{intra}}\\) (the origin-dependent part corresponding to the bulk unit cell dipole). For inversion-symmetric parameter choices (\\(\\Delta=0\\)) the two quantities coincide because \\(\\gamma^{\\mathrm{intra}}\\) vanishes.",
+        "content_hash": "fd3e42ab43b65e881d341d9c293d3263eb9da83fa54c6ecc93d3cb011b4a2db3",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_2d21987d572b4b36",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867770441521955390::conclusion_6",
+            "package_id": "paper:867770441521955390",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867770441521955390"
+          ]
+        },
+        "rerank_score": 0.7863077934599143,
+        "role": "conclusion",
+        "score": 0.014084507042253521,
+        "title": "Numerical validation in the Rice-Mele chain: inter-cellular Zak phase predicts extra charge and differs from bound surface charge",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "A one‑dimensional Rice‑Mele (RM) tight‑binding model, with nearest‑neighbor hopping parameter t, dimerization δ, and staggered on‑site potential Δ, set to reproduce the density functional theory (DFT) band gap and the polarization curve of GeS, captures the non‑monotonic behavior of the frequency‑integrated shift current as a function of polarization. The integral ∫ dω σ^{zzz} is expressed analytically in terms of the shift vector R_{cv} and the squared velocity matrix element |v_{cv}|², revealing a competition between δ (dimerization) and Δ (staggered on‑site potential). For δ ≪ Δ the shift vector is sharply peaked at k = 0 while |v_{cv}|² peaks at the zone boundary, leading to a small integral; as δ increases, both quantities broaden and the integral grows until it reaches a maximum at an optimal dimerization δₘ ≈ Δ + O(Δ³ log Δ). For GeS, GeSe, and SnS, the ground‑state dimerization δ₀ is close to δₘ, explaining their large integrated shift current, whereas for SnSe δ₀ deviates further from δₘ, consistent with its smaller response.",
+        "content_hash": "53519416d0a1e191ae15d59bcaacc8b9d3823f499af63a273e70e925619c4cdd",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_1cea24ee8dde4195",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867769186837856436::conclusion_4",
+            "package_id": "paper:867769186837856436",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867769186837856436"
+          ]
+        },
+        "rerank_score": 0.7801000106813405,
+        "role": "conclusion",
+        "score": 0.013157894736842105,
+        "title": "Rice-Mele tight-binding model rationalizing the shift-current–polarization relation",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Ab initio band-structure calculations for the continuous time-dependent Hamiltonian $H(z,t)=-\\hbar^{2}\\nabla^{2}/(2m)+V(z,t)$ with $V(z,t)=-V_{\\mathrm{S}}(t)\\cos^{2}(2\\pi z/d)-V_{\\mathrm{L}}(t)\\cos^{2}(\\pi z/d-\\phi(t))$ (where $d=532$ nm is the superlattice constant and $V_S$, $V_L$, and $\\phi$ are dynamically controlled) and for the continuous Rice-Mele (cRM) pumping sequence with constant lattice depths $(V_S, V_L)=(20,30)E_R$ (where $E_R = h^2/(8md^2)$ is the recoil energy) and phase sweep $\\phi(t) = \\pi t / T$ show that the Chern numbers of the lowest band for the continuous model coincide with those of the tight-binding Rice–Mele Hamiltonian\n      $\\hat{\\mathcal{H}}=\\sum_{i}\\big(-(J+\\delta)\\hat{a}_{i}^{\\dagger}\\hat{b}_{i}-(J-\\delta)\\hat{a}_{i}^{\\dagger}\\hat{b}_{i+1}+\\mathrm{h.c.}+\\Delta(\\hat{a}_{i}^{\\dagger}\\hat{a}_{i}-\\hat{b}_{i}^{\\dagger}\\hat{b}_{i})\\big)$,\n      where $\\hat{a}_{i}$ and $\\hat{b}_{i}$ annihilate fermions on the two sublattices of unit cell $i$, $J\\pm\\delta$ are the intra- and inter-cell tunnelling amplitudes, and $\\Delta$ is the staggered on-site energy. Therefore, for atoms occupying the lowest band the continuous Rice–Mele (cRM) pumping sequence implemented in the experiment is topologically equivalent to the Rice–Mele tight-binding model and can be analyzed in terms of winding trajectories in the $(\\delta,\\Delta)$ plane.",
+        "content_hash": "8428ef75eae56f1c96299d72144248b149ea3773eaaf367f077e6745f0901e77",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_816b174ca9cd4c9d",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814564379600093184::conclusion_6",
+            "package_id": "paper:814564379600093184",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814564379600093184"
+          ]
+        },
+        "related": [
+          {
+            "content": "When the pumping trajectory in the tight-binding Rice–Mele parameter plane $(\\delta,\\Delta)$ winds around the degenerate point $(\\delta=0,\\Delta=0)$ (winding number $w\\neq0$), the pump produces a finite net centre-of-mass (CoM) shift per cycle ($\\sim d$); when the trajectory does not wind around the origin ($w=0$) the pump produces no net CoM shift. Experiments comparing four distinct pumping sequences — forward continuous Rice–Mele (cRM) cycles and amplitude-modified cycles that do or do not enclose the origin — show that sequences with the same winding number produce nearly identical pumped amounts even when the geometric area enclosed differs, whereas a non-winding sequence yields no pumping. Reversing the sign of the phase sweep $\\phi(t)\\mapsto-\\phi(t)$ (reversing the winding) reverses the direction of pumping while leaving the instantaneous band dispersion unchanged.",
+            "has_reasoning": true,
+            "id": "gcn_e02676ebb0cb44da",
+            "kind": "conclusion",
+            "rerank_score": 0,
+            "role": "conclusion",
+            "score": 0.014925373134328358,
+            "title": "Experimental demonstration that pumping is determined by topology of the pumping trajectory (winding number) rather than enclosed area",
+            "type": "claim"
+          }
+        ],
+        "rerank_score": 0.6519119703440419,
+        "role": "conclusion",
+        "score": 0.015151515151515152,
+        "title": "Topological equivalence of the continuous optical superlattice drive to the Rice–Mele tight-binding model for atoms in the lowest band",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The time-derivative quantum metric (a measure related to the quantum Fisher information for time-parameter variations) for $|\\psi(t)\\rangle = \\sum_i c_i e^{it\\lambda_i}|i\\rangle$ is given exactly by\n      $$\n      Q = \\langle\\partial_t\\psi|\\partial_t\\psi\\rangle - |\\langle\\partial_t\\psi|\\psi\\rangle|^2\n      = \\sum_{i>j} g_{ij}(\\rho,\\theta,\\phi),\n      $$\n      with atomic contributions\n      $$\n      g_{ij}(\\rho,\\theta,\\phi) = \\Delta\\lambda_{ij}^2\\,|c_i|^2 |c_j|^2.\n      $$\n      The metric depends explicitly on the coupling-vector parameters $(\\rho,\\theta,\\phi)$ via the dressed eigenvalues $\\lambda_i$ and overlaps $c_i$. The metric attains extrema when the coupling vector direction matches the cross-resonator rotation vector ($\\theta=\\theta_0$, $\\phi=\\phi_0$), and individual contributions $g_{ij}$ become large (divergent in the idealized lossless model) when the coupling strength equals the rotation-vector magnitude ($\\rho = |R|$).",
+        "content_hash": "1e70ae159a972ea45f8720780dd214db37c0a7a61af850de7c67afad4aa7e3bb",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_29cd25ada1694ac8",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1182052014889107540::conclusion_7",
+            "package_id": "paper:1182052014889107540",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1182052014889107540"
+          ]
+        },
+        "rerank_score": 0.6271473914052648,
+        "role": "conclusion",
+        "score": 0.012048192771084338,
+        "title": "Quantum metric for dynamical sensitivity expressed as a sum over dressed-state pairs and its optimization conditions",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The polarization $p$ computed with the finite open-boundary formula $p = -\\operatorname{Re}\\operatorname{Tr} P\\Sigma$ (where $P=\\Psi\\Psi^\\dagger$ is the projector onto occupied eigenstates under open boundary conditions and $\\Sigma$ is the diagonal matrix with $\\Sigma_{ij} = \\frac12\\operatorname{sgn}(i)\\delta_{ij}$, $\\operatorname{sgn}0\\equiv0$) can be used to determine the Chern number $c_1$ of a Thouless pump, such as the Rice-Mele model, by summing discrete polarization jumps $p(t)$ over a pumping period. The Rice-Mele model is a one-dimensional model with time-dependent on-site potential $\\gamma(t)=m_0+m_d\\cos(2\\pi t/T)$ and hoppings $t_1(t)=t_0-t_d\\sin(2\\pi t/T)$, $t_2(t)=t_0+t_d\\sin(2\\pi t/T)$, with disorder introduced via random on-site potentials $\\delta\\Gamma_{A,ij}=-\\delta\\Gamma_{B,ij}=W\\delta m_i\\delta_{ij}$ where $\\delta m_i\\in[-0.5,0.5]$. Numerical results for this disordered Rice-Mele model show that the ensemble-averaged Chern number obtained from polarization jumps agrees with conventional momentum-space or Resta-type approaches: a nontrivial pump phase survives up to disorder strength $W\\sim2$, beyond which the system becomes gapless; for stronger disorder the reopened gap corresponds to a trivial Chern number ($c_1=0$). The practical procedure involves computing $p(t)$ at intermediate times $t$ within the period, detecting polarization discontinuities associated with edge-state crossings or bulk gap closings, and summing their signed contributions to obtain $c_1$.",
+        "content_hash": "087a03c6487d479586ce4f9684a4bfbc2b11cc40dd306a0675d09eee59a5de23",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_9453f52fb91248d5",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1110939600638967815::conclusion_6",
+            "package_id": "paper:1110939600638967815",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1110939600638967815"
+          ]
+        },
+        "rerank_score": 0.6142176583381683,
+        "role": "conclusion",
+        "score": 0.01020408163265306,
+        "title": "Computation of Chern numbers via polarization jumps in the Rice-Mele pump; robustness under disorder",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Let the Zak phase for a one-dimensional Bloch band be denoted $\\\\varphi_z$, and define the Zak-phase difference between the two lattice dimerization configurations by $\\\\delta\\\\varphi_z=\\\\varphi_z(\\\\delta)-\\\\varphi_z(-\\\\delta)$ where the alternating hopping amplitudes are $J_1=J+\\\\delta$ and $J_2=J-\\\\delta$ with dimerization parameter $\\\\delta$ and staggered on-site energy $M$; then $\\\\delta\\\\varphi_z=\\\\pi$ exactly when the staggered on-site energy vanishes ($M=0$), while $\\\\delta\\\\varphi_z$ takes a non-integer multiple of $\\\\pi$ (a fractional multiple of $\\\\pi$) when $M\\\\neq0$ — for the parameter values $\\\\delta=0.5$ and $M=0.3$ the numerical evaluation reported for this noninteracting Rice–Mele tight-binding model gives $\\\\delta\\\\varphi_z=0.7752\\\\pi$.",
+        "content_hash": "869453653bd5b27368ae79e8b0a3d10e323d35afe5a1c738f35e45440f5a9f50",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_949a83df3d4c496a",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814550912939851777::conclusion_1",
+            "package_id": "paper:814550912939851777",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814550912939851777"
+          ]
+        },
+        "rerank_score": 0.7078612321427782,
+        "role": "conclusion",
+        "score": 0.011764705882352941,
+        "title": "Zak-phase difference for Rice–Mele dimerizations: quantized at M=0, fractional otherwise",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In the hardcore-boson limit ($U/J\\to\\infty$) at filling $\\bar n=1/2$, the Rice-Mele model maps to free spinless fermions and the many-body polarization reduces to the Zak-phase expression for a filled band. For $\\delta,\\beta>0$ one obtains an analytic expression\n      $P(\\delta,\\beta)=a q\\,\\delta\\,\\beta\\;\\Pi\\!\\big(1-\\delta^2\\big|m\\big),$\n      with $\\beta=\\Delta/\\sqrt{16J^2+\\Delta^2}$, $m=(1-\\delta^2)(1-\\beta^2)$, and $\\Pi(w|z)=\\displaystyle\\int_0^{\\pi/2}\\frac{dk}{(1-w\\sin^2 k)\\sqrt{1-z\\sin^2 k}}$ the complete elliptic integral of the third kind. This formula gives the polarization as a function of Rice-Mele parameters in the hardcore limit and reproduces the integer pumped charge whenever the pump path encloses the central degeneracy at $\\delta=\\Delta=0$.",
+        "content_hash": "d430112ea691da58b9b1d0361ca07bd20b1f10381f98c3e69947ef53c8942ac0",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_c5fee24d001c48c4",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812815699733905408::conclusion_6",
+            "package_id": "paper:812815699733905408",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812815699733905408"
+          ]
+        },
+        "rerank_score": 0.7011049345200742,
+        "role": "conclusion",
+        "score": 0.010526315789473684,
+        "title": "Analytic expression for many-body polarization in the hardcore-boson (free-fermion) limit",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Extending the Rice-Mele model to include next-nearest-neighbor hopping, characterized by parameters t' (average next-nearest-neighbor hopping) and δ' (staggered next-nearest-neighbor hopping), can increase the third cumulant C_3 of the polarization distribution and the associated frequency-integrated shift current spectral weight (which is proportional to C_3) beyond the nearest-neighbor bound C_3/c^2 ≤ 0.3, where c is the lattice constant along the chain. At the metal-insulator transition where the band gap closes, C_3 can diverge.",
+        "content_hash": "61925b999c31912479ffeb41d5b95210f994154d56e4ecd5f60e4d3596640d38",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_41d31db369b949f2",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817403289128665088::conclusion_8",
+            "package_id": "paper:817403289128665088",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817403289128665088"
+          ]
+        },
+        "rerank_score": 0.6872621978819415,
+        "role": "conclusion",
+        "score": 0.0125,
+        "title": "Beyond nearest-neighbor hopping increases C_3 beyond bound",
+        "type": "claim",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "req_7cab9e43ce76a"
+}

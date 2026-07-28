@@ -1,0 +1,142 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "For the one-dimensional tight-binding Hamiltonian\n$$\nH=\\sum_{n=1}^{N-1} c_{n}|n\\rangle\\langle n+1|+c_{n}^{*}|n+1\\rangle\\langle n|,\n$$\nconsider the perturbed Hamiltonian $H'=H+f|1\\rangle\\langle1|$ with scalar $f\\in\\mathbb{R}$, and denote the eigenvalues of $H$ as $\\{e_k\\}$ and those of $H'$ as $\\{e'_k\\}$. Then the local eigenstate weights $|\\langle1|e_k\\rangle|^2$ are given by\n$$\n|\\langle e_k|1\\rangle|^{2}=\\frac{(e_{k}^{\\prime}-e_{k})}{f}\\prod_{m\\neq k}\\frac{(e_{k}-e_{m}^{\\prime})}{(e_{k}-e_{m})}.\n$$\nKnowledge of $\\{e_k\\}$ and $\\{|\\langle1|e_k\\rangle|^2\\}$ determines all hopping parameters $\\{c_n\\}$. Concretely, the moment equations\n$$\n\\sum_{k=1}^{N} e_{k}^{m} |\\langle1|e_{k}\\rangle|^{2}=\\langle1|H^{m}|1\\rangle\n$$\nfor integers $m$ generate a system of polynomial relations in the $c_n$ which can be solved iteratively: for example $m=2$ yields $c_{1}^{2}$, $m=4$ yields combinations involving $c_{1}^{2}+c_{2}^{2}$, and higher $m$ successively reveal the remaining $c_n$. On-site potential terms $b_{n}|n\\rangle\\langle n|$ can similarly be recovered from the same data.",
+      "content_hash": "5dbbf49c869b97c7c4f23a9256b4496cf28c3b8599b9db799cc54fd3d5104b11",
+      "id": "gcn_8dff8e3ffbb54f6e",
+      "type": "claim"
+    },
+    "papers": {
+      "paper:867771350779954069": {
+        "area": "arXiv-Physics, arXiv-Quantum Physics",
+        "author_details": [
+          {
+            "affiliation": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+            "affiliation_zh": "埃尔朗根-纽伦堡大学",
+            "author_id": "441591oX",
+            "avatar": "https://cdn1.deepmd.net/static/img/6b70d7c8Rn762kMAAAAJ.png",
+            "citation_nums": 4286,
+            "h_index": 36,
+            "is_high_cited": true,
+            "name": "Daniel Burgarth",
+            "origin_name": "Daniel Burgarth"
+          },
+          {
+            "affiliation": "University of California, Berkeley;Massachusetts Institute of Technology",
+            "affiliation_zh": "加州大学伯克利分校;麻省理工学院",
+            "author_id": "2526240r",
+            "avatar": "https://cdn1.deepmd.net/static/img/c70ec2f4o0M12Q8AAAAJ.png",
+            "citation_nums": 2106,
+            "h_index": 26,
+            "is_high_cited": true,
+            "name": "Ashok Ajoy",
+            "origin_name": "Ashok Ajoy"
+          }
+        ],
+        "authors": "Daniel Burgarth | Ashok Ajoy",
+        "authors_list": [
+          "Daniel Burgarth",
+          "Ashok Ajoy"
+        ],
+        "available_online": "",
+        "cover_date_start": "2017-05-22",
+        "created_at": "2023-05-23T06:13:32+08:00",
+        "doi": "10.48550/arXiv.1705.07725",
+        "en_abstract": "We provide a protocol for Hamiltonian parameter estimation which relies only on the Zeeman effect. No time-dependent quantities need to be measured, it fully suffices to observe spectral shifts induced by fields applied to local `markers'. We demonstrate the idea with a simple tight-binding Hamiltonian and numerically show stability with respect to Gaussian noise on the spectral measurements. Then we generalize the result to show applicability to a wide range of systems, including quantum spin chains, networks of qubits, and coupled harmonic oscillators, and suggest potential experimental implementations.",
+        "en_title": "Evolution-free Hamiltonian parameter estimation through Zeeman markers",
+        "id": "867771350779954069",
+        "keywords": "",
+        "open_access": true,
+        "paper_url": "https://arxiv.org/abs/1705.07725v1",
+        "pdf_flag": true,
+        "publication_cover": "https://icon.bohrium.com/journal/arxiv.png",
+        "publication_date": "2017-05-22",
+        "publication_id": "108526",
+        "publication_name": "Quantum Physics _ Physics.quant-ph.quant-ph",
+        "research_categories": "",
+        "zh_abstract": "我们提供了一种仅依赖于塞曼效应的哈密顿量参数估计协议。无需测量随时间变化的量，只需观察施加到局部“标记”上的场引起的光谱频移即可。我们用一个简单的紧束缚哈密顿量演示了这一想法，并通过数值计算表明了光谱测量对高斯噪声的稳定性。然后，我们推广了这一结果，以表明其适用于广泛的系统，包括量子自旋链、量子比特网络和耦合谐振子，并提出了潜在的实验实现方案。 ",
+        "zh_title": "通过塞曼标记进行无演化哈密顿量参数估计"
+      }
+    },
+    "reasoning_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "For the one-dimensional tight-binding Hamiltonian\n$$\nH=\\sum_{n=1}^{N-1} c_{n}|n\\rangle\\langle n+1|+c_{n}^{*}|n+1\\rangle\\langle n|,\n$$\nconsider the perturbed Hamiltonian $H'=H+f|1\\rangle\\langle1|$ with scalar $f\\in\\mathbb{R}$, and denote the eigenvalues of $H$ as $\\{e_k\\}$ and those of $H'$ as $\\{e'_k\\}$. Then the local eigenstate weights $|\\langle1|e_k\\rangle|^2$ are given by\n$$\n|\\langle e_k|1\\rangle|^{2}=\\frac{(e_{k}^{\\prime}-e_{k})}{f}\\prod_{m\\neq k}\\frac{(e_{k}-e_{m}^{\\prime})}{(e_{k}-e_{m})}.\n$$\nKnowledge of $\\{e_k\\}$ and $\\{|\\langle1|e_k\\rangle|^2\\}$ determines all hopping parameters $\\{c_n\\}$. Concretely, the moment equations\n$$\n\\sum_{k=1}^{N} e_{k}^{m} |\\langle1|e_{k}\\rangle|^{2}=\\langle1|H^{m}|1\\rangle\n$$\nfor integers $m$ generate a system of polynomial relations in the $c_n$ which can be solved iteratively: for example $m=2$ yields $c_{1}^{2}$, $m=4$ yields combinations involving $c_{1}^{2}+c_{2}^{2}$, and higher $m$ successively reveal the remaining $c_n$. On-site potential terms $b_{n}|n\\rangle\\langle n|$ can similarly be recovered from the same data.",
+              "id": "gcn_8dff8e3ffbb54f6e",
+              "metadata": "{\"narrative\": \"Conclusion\\u202f2 inherits all the uncertainties of Conclusion\\u202f1 (via the weights) and adds its own load\\u2011bearing weaknesses. P3 raises the issue that the polynomial moment system may not be triangularly solvable for arbitrary coupling patterns (zero couplings break the sequential structure), while P5 notes that complex hopping phases are not recovered\\u2014both are formal\\u2011mathematical gaps that the paper does not fill. P4 adds that the numerical stability characterisation from Conclusion\\u202f3 was performed only for uniform couplings, so the practical reliability of the polynomial reconstruction for non\\u2011uniform chains is untested. No highlight in this conclusion strengthens the derivation: the polynomial equations are merely referenced from prior work [2,8] without new analytical or numerical validation. The dominant risk (P3) could collapse the reconstruction even if the weights are perfectly known when the chain has gaps or non\\u2011standard patterns; P5 is a refinement for systems where phase information matters. The absence of any highlight means the conclusion's credibility derives solely from the cited prior papers, and this paper contributes no independent verification or extension of the polynomial step beyond providing a brief example.\", \"structural_edges\": [{\"target\": \"paper:867771350779954069::conclusion_3\", \"type\": \"supports\"}]}",
+              "title": "Reconstruction of tight-binding couplings from spectra and local eigenstate weights"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_ccf3bd77b0504a09",
+            "premises": [
+              {
+                "content": "For the one‑dimensional tight‑binding Hamiltonian $H = \\sum_{n=1}^{N-1} c_n |n\\rangle\\langle n+1| + \\mathrm{h.c.}$ (with $c_n$ complex in general but taken positive after absorbing phases into the basis), the reconstruction uses the moment equations\n\\[\n\\sum_{k=1}^N e_k^m |\\langle1|e_k\\rangle|^2 = \\langle1|H^m|1\\rangle\n\\]\nfor $m = 2,4,6,\\dots$, where $e_k$ are the eigenvalues of $H$ and $|\\langle1|e_k\\rangle|^2$ are the squared overlaps between the eigenstates and the local basis state $|1\\rangle$. It is shown that $m=2$ gives $c_1^2$, $m=4$ gives a combination involving $c_1^2+c_2^2$, etc., implying a sequential triangular solution. However, if some couplings are zero (e.g. $c_2=0$) the moment $m=4$ may not introduce $c_2^2$ as an independent unknown, breaking the triangular pattern; if couplings are strongly non‑uniform the system of polynomial equations may have multiple isolated solutions or require solving a full multivariate polynomial system. The polynomial structure has been analyzed, but the iterative method is not proven to work for an arbitrary set of $\\{c_n\\}$ with possible zeros, nor is the solution proven unique even when it exists.",
+                "id": "gcn_c92a0de2f0a8460f",
+                "metadata": "{\"weak_types\": [\"formal\", \"computational\"], \"weakness_reason\": \"The moment equations produce a polynomial system whose solvability depends on the sparsity pattern of the chain's adjacency. The paper's example (Eq.\\u202f(3) and the following sentences) assumes every moment introduces exactly one new coupling, which holds only when the chain is fully connected (all couplings non\\u2011zero) and the couplings satisfy a monotonicity property. For a chain with a missing coupling (e.g. a break in the chain) the moment hierarchy skips variables, and the system becomes underdetermined or requires a different solving order. The paper does not characterise the conditions under which the sequential method works or provide an alternative algorithm for general cases.\", \"failure_mode\": \"If the polynomial system is not triangularly solvable (e.g. due to zero couplings), the iterative procedure described in the paper fails to produce the \\\\(c_n\\\\) or yields ambiguous results. The conclusion that knowledge of \\\\(\\\\{e_k\\\\}\\\\) and \\\\(\\\\{|\\\\langle1|e_k\\\\rangle|^2\\\\}\\\\) \\\"determines all hopping parameters\\\" would then be false for that configuration. The conclusion's validity is therefore contingent on a specific structure of the coupling set that is not guaranteed in experimental or natural systems, narrowing its claimed scope.\"}",
+                "title": "Moment polynomial system may not be triangularly solvable for arbitrary couplings"
+              },
+              {
+                "content": "The numerical stability analysis of the spectral-shift protocol is performed exclusively for tight‑binding chains with uniform true couplings $c_n = 1$. The reconstruction of the couplings via the moment polynomials inherits the same numerical sensitivity: the computed weights $|\\langle e_k|1\\rangle|^2$ (obtained via $|\\langle e_k|1\\rangle|^2 = \\frac{e'_k - e_k}{f} \\prod_{m\\neq k} \\frac{e_k - e'_m}{e_k - e_m}$ where $e'_k$ are the eigenvalues of $H' = H + f|1\\rangle\\langle1|$) contain measurement noise, and the polynomial system amplifies this noise in a way that depends on the coupling structure. For non‑uniform or random coupling patterns (e.g. disordered chains, alternating‑bond chains, chains with a range of coupling strengths spanning several orders of magnitude), the eigenvalue spacing distribution, the condition number of the spectral‑shift formula, and the structure of the moment polynomial system all differ from the uniform case. The error scaling and critical chain lengths reported therefore do not necessarily transfer to non‑uniform settings.",
+                "id": "gcn_600f6ab2dd1a4a71",
+                "metadata": "{\"weak_types\": [\"generalization\", \"statistical\"], \"weakness_reason\": \"Generalising stability results from a single uniformly coupled chain to all possible coupling configurations is an extrapolation without supporting evidence. The paper explicitly notes that the error scaling argument relies on the minimum level spacing of isotropic chains, which is not representative of systems with disorder, localisation, or engineered coupling profiles. The conclusion's claim of practical applicability (in combination with Conclusion\\u202f3) therefore rests on an implicit homogeneity assumption that the paper does not test.\", \"failure_mode\": \"If the protocol's error behaviour for non\\u2011uniform couplings is substantially worse (e.g. the critical chain length drops to 4 instead of 20 for the same noise level), then the practical operating regimes claimed jointly by Conclusions\\u202f2\\u202fand\\u202f3 for real systems are overestimated. The reconstruction of couplings in chains with varying \\\\(c_n\\\\) would fail at smaller sizes or require lower noise than the paper's figures suggest, narrowing the class of systems to which the method can be applied.\"}",
+                "title": "Stability analysis tested only for uniform couplings"
+              },
+              {
+                "content": "The reconstruction procedure for a tight-binding Hamiltonian $H = \\sum_{n=1}^{N-1} c_n |n\\rangle\\langle n+1| + \\mathrm{h.c.}$ using the moment equations $\\sum_{k=1}^N e_k^m |\\langle1|e_k\\rangle|^2 = \\langle1|H^m|1\\rangle$ recovers the magnitudes $|c_n|$ of the hopping parameters, not the full complex numbers $c_n = |c_n| e^{i\\phi_n}$ when the original Hamiltonian has complex phases. It is noted that complex phases can \"always be absorbed in the choice of basis\" via the transformation $|n+1\\rangle \\to e^{-i\\phi_n}|n+1\\rangle,\\; |n+2\\rangle \\to e^{-i(\\phi_n+\\phi_{n+1})}|n+2\\rangle$, etc. This absorption is a basis change that requires the phases to be known: the spectral data alone do not determine the basis transformation. If the physical application (e.g. quantum transport interference, Hamiltonian engineering with sign‑sensitive interactions) depends on the complex phases or signs of the couplings, the reconstruction gives an incomplete picture. The claim that \"all hopping parameters\" are determined is ambiguous about whether phases are included.",
+                "id": "gcn_93c643b28e114629",
+                "metadata": "{\"weak_types\": [\"measurement\", \"formal\"], \"weakness_reason\": \"The absorption argument shows that the eigenvalues of the Hamiltonian are invariant under a diagonal unitary transformation that removes phases from the couplings, but it does not justify that the spectral data (eigenvalues and the projection weights \\\\(|\\\\langle e_k|1\\\\rangle|^2\\\\)) uniquely determine the phases. In fact, the weights are insensitive to the phases because they depend only on the magnitudes of the wavefunction overlaps. Therefore, while the magnitudes \\\\(|c_n|\\\\) may be recovered, the phases remain unknown from the spectroscopic data alone.\", \"failure_mode\": \"If the true Hamiltonian has complex or sign\\u2011alternating couplings, the reconstruction produces a positive\\u2011real Hamiltonian that is unitarily equivalent to the original only if the absorbing phase transformation is known. Since that transformation is not supplied by the spectral data, the reconstructed parameters may differ from the physical coupling values by unknown phases. The conclusion that the method \\\"determines all hopping parameters\\\" would be overstated if \\\"all\\\" includes these phases, and an experimenter using the reconstructed parameters to predict dynamics (where phases matter) would obtain incorrect predictions.\"}",
+                "title": "Complex hopping phases are not recovered"
+              },
+              {
+                "content": "The squared modulus of the projection of an eigenstate $|e_{k}\\rangle$ of a Hamiltonian $H$ onto a basis state $|1\\rangle$ can be obtained exactly from the eigenvalues $\\{e_{k}\\}$ of $H$ and the eigenvalues $\\{e_{k}^{\\prime}\\}$ of the perturbed Hamiltonian $H'=H+f|1\\rangle\\langle1|$ via the closed-form formula\n$$\n|\\langle e_{k}|1\\rangle|^{2}=\\frac{(e_{k}^{\\prime}-e_{k})}{f}\\prod_{m\\neq k}\\frac{(e_{k}-e_{m}^{\\prime})}{(e_{k}-e_{m})}.\n$$\nHere $H$ is a Hermitian operator on an $N$-dimensional Hilbert space with eigenpairs $H|e_{k}\\rangle=e_{k}|e_{k}\\rangle$, $H'=H+f|1\\rangle\\langle1|$ with scalar $f\\in\\mathbb{R}$, and the products run over the other eigenvalues of $H$ and $H'$. The formula requires that the eigenvalues of $H$ and $H'$ are non-degenerate and that no eigenvalue of $H$ coincides with an eigenvalue of $H'$; the latter condition holds for almost all choices of $f$.",
+                "id": "gcn_46109b72b6e84097",
+                "metadata": "{\"narrative\": \"The formal derivation (H1) provides a rigorous proof of the exact spectral\\u2011shift formula under the stated non\\u2011degeneracy and non\\u2011overlap assumptions, establishing the qualitative direction and algebraic structure of the relation with high theoretical credence. However, two premises challenge the applicability of those assumptions in realistic settings: P1 identifies that intrinsic degeneracies of the unperturbed Hamiltonian (e.g. from spatial symmetries) violate the non\\u2011degeneracy condition, and the paper's comment about \\\"almost all f\\\" does not address this; P2 notes that experimental perturbations are unlikely to be perfectly rank\\u2011one, which would break the key algebraic step. These weaknesses do not affect the mathematical validity of the formula within its stated assumptions but narrow the class of systems (symmetric Hamiltonians) and experimental setups (imperfect local fields) for which it can be directly applied without mitigation. Among the two premises, P1 is the more structurally fundamental risk because it concerns a property of H itself that the protocol does not attempt to break; P2 could be mitigated by engineering better field localization. The highlight (H1) is fully load\\u2011bearing for the theoretical core of the conclusion, but the practical reach of the conclusion remains exposed along both the degeneracy and the perturbation\\u2011fidelity axes.\", \"structural_edges\": [{\"target\": \"paper:867771350779954069::conclusion_2\", \"type\": \"supports\"}, {\"target\": \"paper:867771350779954069::conclusion_3\", \"type\": \"supports\"}, {\"target\": \"paper:867771350779954069::conclusion_4\", \"type\": \"supports\"}, {\"target\": \"paper:867771350779954069::conclusion_5\", \"type\": \"supports\"}, {\"target\": \"paper:867771350779954069::conclusion_6\", \"type\": \"supports\"}]}",
+                "title": "Exact relation between spectral shifts from a local rank-one perturbation and local eigenstate weights"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Adopt the one-dimensional tight-binding Hamiltonian definition used in the paper: $H=\\sum_{n=1}^{N-1} c_{n}|n\\rangle\\langle n+1|+c_{n}^{*}|n+1\\rangle\\langle n|$, where $|n\\rangle$ denotes the local site basis, $c_{n}\\in\\mathbb{C}$ are nearest-neighbour hopping parameters, and $c_{n}^{*}$ denotes the complex conjugate of $c_{n}$; the authors note that phases of $c_{n}$ can be absorbed into a redefinition of basis vectors so it suffices to consider $c_{n}>0$ (real positive) without loss of generality.",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Assume the eigenvalues $\\{e_{k}\\}_{k=1}^{N}$ of $H$ are known from spectroscopy, and invoke the result of the preceding conclusion that the local eigenstate weights $|\\langle1|e_{k}\\rangle|^{2}$ are obtainable exactly from the spectra of $H$ and a perturbed Hamiltonian $H'=H+f|1\\rangle\\langle1|$; treat these weights as known inputs for the reconstruction of the coupling parameters $\\{c_{n}\\}$.",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Introduce the sequence of moment identities which relate the known spectral data to matrix elements of powers of $H$: for each integer $m\\geq0$ define the moment equation $\\sum_{k=1}^{N} e_{k}^{m} |\\langle1|e_{k}\\rangle|^{2}=\\langle1|H^{m}|1\\rangle$, where the left-hand side is computed from known eigenvalues $e_{k}$ and known weights $|\\langle1|e_{k}\\rangle|^{2}$ and the right-hand side expresses a local matrix element of the $m$-th power of $H$ in the site basis.",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Evaluate the right-hand side $\\langle1|H^{m}|1\\rangle$ as a polynomial in the nearest-neighbour couplings $\\{c_{n}\\}$: because $H$ only couples nearest neighbours in the site basis, the entry $\\langle1|H^{m}|1\\rangle$ can be expanded as a sum of contributions corresponding to paths of length $m$ that start and end at site $1$, and each such contribution is a product of powers of the hopping amplitudes $c_{n}$ and their conjugates; therefore each moment $m$ yields a polynomial equation in the coupling parameters.",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "Demonstrate the iterative solvability of these polynomial equations as follows (as the authors summarize): the $m=0$ moment gives the trivial normalization $\\sum_{k}|\\langle1|e_{k}\\rangle|^{2}=1$; the $m=2$ moment yields $\\langle1|H^{2}|1\\rangle=c_{1}^{2}$ (under the choice of $c_{n}>0$ and with no on-site potentials), thereby providing the value of $c_{1}^{2}$ and hence $c_{1}$ up to sign which the positivity choice fixes; the $m=4$ moment yields an expression containing $c_{1}^{2}+c_{2}^{2}$ (the authors state $m=4$ yields combinations involving $c_{1}^{2}+c_{2}^{2}$), and because $c_{1}^{2}$ is already known from $m=2$, one can solve for $c_{2}^{2}$ and hence $c_{2}$; continuing to higher $m$ successively reveals further $c_{n}$ by peeling off previously determined contributions, so the entire set $\\{c_{n}\\}$ can be recovered iteratively from the sequence of moments.",
+                "step_id": "5"
+              },
+              {
+                "reasoning": "State that in the presence of on-site potential terms of the form $\\sum_{n} b_{n}|n\\rangle\\langle n|$ the same moment equations apply with polynomials now containing both hopping amplitudes $c_{n}$ and onsite potentials $b_{n}$; the authors remark that on-site potentials $b_{n}|n\\rangle\\langle n|$ can similarly be recovered from the same spectral data, citing prior works that developed polynomial and algebraic techniques (including Gröbner-basis based analyses) for solving such systems of equations.\n[2]\n[10]",
+                "step_id": "6"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "In the tight-binding context practitioners need the local coupling strengths $c_{n}$ to predict transport, dynamics, or to validate engineered Hamiltonians, but a single energy spectrum $\\\\{e_{k}\\\\}$ does not determine the $c_{n}$ because eigenvalue information lacks the eigenstate-localization data. Time-domain schemes can supply those local weights but require local, time-resolved control and readout. A method that maps spectroscopic observables (eigenvalues before and after a local static perturbation) into the complete set of algebraic constraints needed to uniquely recover the $c_{n}$ was not previously established. Therefore experimentalists with only spectroscopic access lacked a viable route to reconstruct the full tight-binding Hamiltonian parameters.",
+            "id": "paper:867771350779954069::conclusion_2_subproblem",
+            "source_package": "paper:867771350779954069"
+          }
+        ],
+        "source_package": "paper:867771350779954069"
+      }
+    ],
+    "total_chains": 1
+  },
+  "trace_id": "req_9e9226080f8a5"
+}

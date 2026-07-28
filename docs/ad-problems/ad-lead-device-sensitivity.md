@@ -1,4 +1,4 @@
-# Complete device-and-lead sensitivity
+# Resonant-level device-and-contact sensitivity
 
 **Case:** `ad_lead_device_sensitivity`  
 **Motivating requirements:** TBQ-036, TBQ-040  
@@ -6,19 +6,21 @@
 
 ## Scientific question
 
-Does an open-system transmission gradient include every declared physical
-parameter family rather than silently treating the leads or interfaces as
-constants?
+For a resonant level between semi-infinite one-dimensional leads, does the
+transmission gradient include every declared device, lead, interface, energy,
+and broadening parameter rather than silently treating contacts as constants?
 
 ## Benchmark adaptation
 
-A two-site device is connected to two differentiable periodic leads. One
-direction simultaneously perturbs the device Hamiltonian, lead unit cells,
-lead periodic hoppings, device-lead couplings, energy, and broadening.
+A single resonant device level is connected to two differentiable periodic
+one-dimensional leads. One direction simultaneously perturbs the device
+onsite energy, lead unit cells, lead periodic hoppings, device-lead
+couplings, energy, and broadening. This is a complete resonant-tunneling
+sensitivity graph, not a claim to model the geometry of the source device.
 
 ## Parameters
 
-- Device dimension: `2`.
+- Device dimension: `1`.
 - Leads: `2`.
 - Parameter families: device, lead cell, periodic hopping, interface coupling,
   energy, and broadening.
@@ -44,9 +46,11 @@ declared physical block contributes to the sensitivity.
 
 ## Evidence and boundary
 
-LKM nodes `gcn_7508395e785e4a5e`, `gcn_599a15903a2a40bc`, and
-`gcn_e8d4a72c26304f59` motivated microscopic transport sensitivities and native
-reverse-mode support. Primary sources:
-[Hirasaki, Inui, and Saitoh (2024)](https://doi.org/10.1103/PhysRevB.110.214201)
-and [Zhou et al. (2023)](https://doi.org/10.1103/PhysRevB.108.195143).
-Flux and geometry parameterizations remain separate upstream model rules.
+LKM node `gcn_cb7923a88d2246b7` identifies device-lead boundary amplitude as a
+control of transport coupling, while `gcn_4f5c36bfc4254a27` provides the
+one-dimensional lead self-energy construction. Primary sources:
+[Yang et al. (2013)](https://doi.org/10.1063/1.4790863) and
+[Polizzi and Datta (2003)](https://doi.org/10.1109/nano.2003.1231709). Raw
+retrieval evidence is preserved under
+`evidence/lkm/2026-07-28-ad-research-workflows`. Flux and geometry
+parameterizations remain separate upstream model rules.
