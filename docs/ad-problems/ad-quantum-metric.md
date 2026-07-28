@@ -1,4 +1,4 @@
-# Differentiable quantum metric
+# Rice-Mele quantum-metric sensitivity
 
 **Case:** `ad_quantum_metric`  
 **Motivating requirements:** TBQ-026, TBQ-029  
@@ -12,14 +12,18 @@ resolution?
 
 ## Benchmark adaptation
 
-A gapped two-band family is evaluated on periodic one-dimensional meshes. The
-metric objective is expressed through occupied projectors. The complete model
-is rotated by a fixed unitary and independently recomputed on a doubled mesh.
+The Rice-Mele Hamiltonian uses fixed average hopping and two controls:
+staggered onsite energy and dimerization. Its occupied-band quantum metric is
+evaluated on periodic one-dimensional meshes through projectors. The complete
+model is rotated by a fixed unitary and independently recomputed on a doubled
+mesh. This is a geometry-sensitivity adaptation, not a reproduction of a
+material piezoelectric coefficient.
 
 ## Parameters
 
-- Coarse mesh: `32` points.
-- Refined mesh: `64` points.
+- Coarse mesh: `64` points.
+- Refined mesh: `128` points.
+- Fixed average hopping: `1`.
 - Parameters: `(0.31, -0.18)`.
 - Direction: `(0.27, -0.41)`.
 
@@ -44,8 +48,11 @@ refinement.
 
 ## Evidence and boundary
 
-LKM nodes `gcn_86bcebac99504f4c` and `gcn_43c4ae6e813149c4` motivated
-derivative convergence and geometry-sensitive objectives. Primary sources:
-[Yang and Wang (2020)](https://arxiv.org/abs/2010.05598) and
-[Guo et al. (2017)](https://doi.org/10.1038/s41535-016-0007-2).
-This case covers a quantum-metric path, not the full nonlinear-Hall workflow.
+LKM node `gcn_e264632a5a0e4780` reports closed-form Rice-Mele polarization and
+piezoelectric response, while `gcn_61fac1b8d03e407d` reports experimental
+Wannier centers consistent with the model. Primary sources:
+[Villani et al. (2023)](https://doi.org/10.48550/arXiv.2308.16070) and
+[Ligthart et al. (2024)](https://doi.org/10.48550/arxiv.2407.14465). Raw
+retrieval evidence is preserved under
+`evidence/lkm/2026-07-28-ad-research-workflows`. This case covers a
+quantum-metric path, not the full polarization or piezoelectric workflow.

@@ -1,0 +1,632 @@
+{
+  "code": 0,
+  "data": {
+    "has_more": true,
+    "papers": {
+      "paper:1136667871556927511": {
+        "area": "arXiv-Physics, arXiv-Quantum Physics",
+        "authors": "Abir Mukherjee | Kajal Sharma | Kamlesh Bhat | Santanu Kander | Rajendra Singh | Samaresh Das",
+        "available_online": "",
+        "cover_date_start": "2025-06-01",
+        "created_at": "2026-06-19T04:26:09+08:00",
+        "doi": "10.48550/arxiv.2506.00971",
+        "en_title": "Resonant Tunneling in Tri-layer 2H-MoTe2 grown by Molecular Beam Epitaxy Coupled with layered WSe2 carrier Reservoir",
+        "id": "1136667871556927511",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108526",
+        "publication_name": "Quantum Physics",
+        "research_categories": "",
+        "zh_title": "通过分子束外延生长的与层状WSe₂载流子库耦合的三层2H-MoTe₂中的共振隧穿"
+      },
+      "paper:811978986383998976": {
+        "area": "physics and astrophysics, physics, applied",
+        "authors": "V. I. Zubkov | Iana V. Ivanova | M. Weyers",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2021-07-26",
+        "created_at": "2026-06-17T01:22:08+08:00",
+        "doi": "10.1063/5.0056842",
+        "en_title": "Direct observation of resonant tunneling in heterostructure with a single quantum well",
+        "id": "811978986383998976",
+        "impact_factor": 3.3,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "2021-7-26",
+        "publication_id": "535",
+        "publication_name": "Applied Physics Letters _ Appl. Phys. Lett.",
+        "research_categories": "",
+        "zh_title": "在具有单量子阱的异质结构中对共振隧穿的直接观测"
+      },
+      "paper:812093829900402689": {
+        "area": "computer science, telecommunications",
+        "authors": "Shivam Upadhyay",
+        "available_online": "2021-6-30",
+        "cas_zone": "4",
+        "cover_date_start": "2021-06-30",
+        "created_at": "2026-05-16T13:39:01+08:00",
+        "doi": "10.1007/s11277-021-08689-5",
+        "en_title": "A Quadruple Hole Resonant Cavity based Optical Pressure Sensor for Blood Pressure Measurement",
+        "id": "812093829900402689",
+        "impact_factor": 2.3,
+        "jcr_zone": "Q3",
+        "keywords": "[{\"en_name\": \"Blood Pressure (BP)\", \"ch_name\": \"\"}, {\"en_name\": \"Finite Difference Time Domain (FDTD)\", \"ch_name\": \"\"}, {\"en_name\": \"Photonic Crystal (PCs)\", \"ch_name\": \"\"}, {\"en_name\": \"Plane Wave Expansion (PWE)\", \"ch_name\": \"\"}, {\"en_name\": \"Sensor\", \"ch_name\": \"\"}]",
+        "publication_date": "2021-12",
+        "publication_id": "2834",
+        "publication_name": "Wireless Personal Communications _ Wireless Pers Commun",
+        "research_categories": "",
+        "zh_title": "一种基于四孔谐振腔的用于血压测量的光学压力传感器"
+      },
+      "paper:812368971293523970": {
+        "area": null,
+        "authors": "E. Polizzi | S. Datta",
+        "available_online": "",
+        "cover_date_start": "2017-03-13",
+        "created_at": "2026-06-01T14:56:32+08:00",
+        "doi": "10.1109/nano.2003.1231709",
+        "en_title": "Multidimensional nanoscale device modeling: the finite element method applied to the non-equilibrium Green's function formalism",
+        "id": "812368971293523970",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "0",
+        "publication_name": "2003 Third IEEE Conference on Nanotechnology, 2003. IEEE NANO 2003.",
+        "research_categories": "",
+        "zh_title": "多维纳米尺度器件建模：应用于非平衡格林函数形式体系的有限元方法"
+      },
+      "paper:812436545066762241": {
+        "area": null,
+        "authors": "D.X. Xu | G.D. Shen | M. Willander | G.V. Hansson",
+        "available_online": "",
+        "cover_date_start": "2017-03-08",
+        "created_at": "2026-05-20T06:51:12+08:00",
+        "doi": "10.1109/cornel.1991.170034",
+        "en_title": "The features of hole resonant tunneling in Si/sub 1-x/Ge/sub x//Si double barrier structures",
+        "id": "812436545066762241",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "0",
+        "publication_name": "[1991] Proceedings IEEE/Cornell Conference on Advanced Concepts in High Speed Semiconductor Devices and Circuits",
+        "research_categories": "",
+        "zh_title": "Si<sub>1-x</sub>Ge<sub>x</sub>/Si双势垒结构中孔洞共振隧穿的特性"
+      },
+      "paper:813115988538032130": {
+        "area": "comprehensive periodical, multidisciplinary sciences",
+        "authors": "P. H. Jacobse | A. Kimouche | T. Gebraad | M. M. Ervasti | J. M. Thijssen | P. Liljeroth | I. Swart",
+        "available_online": "2017-7-25",
+        "cas_zone": "1",
+        "cover_date_start": "2017-07-25",
+        "created_at": "2026-06-15T00:12:28+08:00",
+        "doi": "10.1038/s41467-017-00195-2",
+        "en_title": "Electronic components embedded in a single graphene nanoribbon",
+        "id": "813115988538032130",
+        "impact_factor": 15.5,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2017-12",
+        "publication_id": "10026",
+        "publication_name": "Nature Communications _ Nat Commun",
+        "research_categories": "",
+        "zh_title": "嵌入在单个石墨烯纳米带中的电子元件"
+      },
+      "paper:813243759130050560": {
+        "area": "mathematics, applied, physics, mathematical",
+        "authors": "Rui Yang | Liang Huang | Ying-Cheng Lai | Celso Grebogi | Louis M. Pecora",
+        "available_online": "",
+        "cas_zone": "3",
+        "cover_date_start": "2013-03-01",
+        "created_at": "2026-05-18T18:25:56+08:00",
+        "doi": "10.1063/1.4790863",
+        "en_title": "Harnessing quantum transport by transient chaos",
+        "id": "813243759130050560",
+        "impact_factor": 3.2,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2013-3",
+        "publication_id": "905",
+        "publication_name": "Chaos: An Interdisciplinary Journal of Nonlinear Science _ Chaos",
+        "research_categories": "",
+        "zh_title": "通过瞬态混沌控制量子输运"
+      },
+      "paper:813294100630470657": {
+        "area": "physics and astrophysics, physics, fluids & plasmas, mathematical",
+        "authors": "Huanan Li | Bijay Kumar Agarwalla | Jian-Sheng Wang",
+        "available_online": "2012-7-31",
+        "cas_zone": "3",
+        "cover_date_start": "2012-07-31",
+        "created_at": "2026-06-11T07:13:52+08:00",
+        "doi": "10.1103/physreve.86.011141",
+        "en_title": "Generalized Caroli formula for the transmission coefficient with lead-lead coupling",
+        "id": "813294100630470657",
+        "impact_factor": 2.7,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "565",
+        "publication_name": "Physical Review E _ Phys. Rev. E",
+        "research_categories": "",
+        "zh_title": "考虑铅-铅耦合时传输系数的广义卡罗利公式"
+      },
+      "paper:813322027678040067": {
+        "area": "Physics and Astrophysics, physics, multidisciplinary",
+        "authors": "Shih-Jye Sun",
+        "available_online": "",
+        "cas_zone": "3",
+        "cover_date_start": "2012-04-01",
+        "created_at": "2026-06-19T02:31:46+08:00",
+        "doi": "10.1016/j.physleta.2012.03.057",
+        "en_title": "Phonon coupling effect upon transport in nanoscale polymers",
+        "id": "813322027678040067",
+        "impact_factor": 2.3,
+        "jcr_zone": "Q2",
+        "keywords": "[{\"ch_name\":\"电子声子相互作用\",\"en_name\":\"Electron-phonon interaction\"},{\"ch_name\":\"非相干输运\",\"en_name\":\"Incoherent transport\"},{\"ch_name\":\"分子线\",\"en_name\":\"Molecular wire\"}]",
+        "publication_date": "2012-4",
+        "publication_id": "604",
+        "publication_name": "Physics Letters A _ Physics Letters A",
+        "research_categories": "",
+        "zh_title": "声子耦合对纳米级聚合物中输运的影响"
+      },
+      "paper:814517545645113344": {
+        "area": "physics and astrophysics, physics, applied",
+        "authors": "Tobias Wenz | Frank Hohls | Xavier Jehl | Marc Sanquer | Sylvain Barraud | Jevgeny Klochan | Girts Barinovs | Vyacheslavs Kashcheyevs",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2016-05-23",
+        "created_at": "2026-05-16T21:28:29+08:00",
+        "doi": "10.1063/1.4951679",
+        "en_title": "Dopant-controlled single-electron pumping through a metallic island",
+        "id": "814517545645113344",
+        "impact_factor": 3.3,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "2016-5-23",
+        "publication_id": "535",
+        "publication_name": "Applied Physics Letters _ Appl. Phys. Lett.",
+        "research_categories": "",
+        "zh_title": "通过金属岛的掺杂剂控制单电子泵浦"
+      },
+      "paper:867756365366428607": {
+        "area": "arXiv-Physics, Engineering, Communications Engineering, Electrical Engineering",
+        "authors": "Hossein Khodavirdi | Zhun-Yong Ong | Ankit Srivastava",
+        "available_online": "",
+        "cover_date_start": "2023-01-28",
+        "created_at": "2026-06-19T05:26:17+08:00",
+        "doi": "10.48550/arXiv.2301.12259",
+        "en_title": "The Atomistic Green's Function method for acoustic and elastic wave-scattering problems",
+        "id": "867756365366428607",
+        "keywords": "",
+        "publication_date": "2023-01-28",
+        "publication_id": "108505",
+        "publication_name": "Applied Physics _ Physics.physics.app-ph",
+        "research_categories": "[\"Engineering\", \"Communications Engineering\", \"Electrical Engineering\"]",
+        "zh_title": "用于声学和弹性波散射问题的原子格林函数方法"
+      },
+      "paper:867757599410356546": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "R. Duda | J. Keski-Rahkonen | J. Solanpää | E. Räsänen",
+        "available_online": "",
+        "cover_date_start": "2020-06-29",
+        "created_at": "2026-05-22T22:06:46+08:00",
+        "doi": "10.48550/arXiv.2006.15951",
+        "en_title": "Tinie -- a software package for electronic transport through two-dimensional cavities in a magnetic field",
+        "id": "867757599410356546",
+        "keywords": "",
+        "publication_date": "2020-06-29",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "Tinie——一个用于研究磁场中二维腔体内电子输运的软件包"
+      },
+      "paper:867759963139736548": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "M. Rüth | C. Gould | L.W. Molenkamp",
+        "available_online": "",
+        "cover_date_start": "2010-12-20",
+        "created_at": "2026-06-17T08:31:42+08:00",
+        "doi": "10.48550/arXiv.1012.4261",
+        "en_title": "Zero field spin polarization in a 2D paramagnetic resonant tunneling diode",
+        "id": "867759963139736548",
+        "keywords": "",
+        "publication_date": "2010-12-20",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "二维顺磁共振隧穿二极管中的零场自旋极化"
+      },
+      "paper:867762487171219580": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "H. Tong | M. W. Wu",
+        "available_online": "",
+        "cover_date_start": "2012-03-09",
+        "created_at": "2026-05-16T19:44:58+08:00",
+        "doi": "10.48550/arXiv.1203.1989",
+        "en_title": "Strongly modulated transmissions in gapped armchair graphene nanoribbons with sidearm or on-site gate voltage",
+        "id": "867762487171219580",
+        "keywords": "",
+        "publication_date": "2012-03-09",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "具有侧臂或在位栅极电压的带隙扶手椅型石墨烯纳米带中的强调制传输"
+      },
+      "paper:867771954092834947": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Gang Xu | Yan Li | Fei Gao | Hai-Ou Li | He Liu | Ke Wang | Gang Cao | Ting Wang | Jian-Jun Zhang | Guang-Can Guo | Guo-Ping Guo",
+        "available_online": "",
+        "cover_date_start": "2019-05-05",
+        "created_at": "2026-06-17T04:57:38+08:00",
+        "doi": "10.48550/arXiv.1905.01586",
+        "en_title": "Dipole coupling of a tunable hole double quantum dot in germanium hut wire to a microwave resonator",
+        "id": "867771954092834947",
+        "keywords": "",
+        "publication_date": "2019-05-05",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "锗量子点线中可调谐空穴双量子点与微波谐振器的偶极耦合"
+      }
+    },
+    "variables": [
+      {
+        "content": "A resonant-tunneling device concept is identified in which a doped heterostructure with only two heterojunctions (a single QW between identically doped adjacent regions) can exhibit resonant-tunneling conductivity; such a device requires identical impurity concentrations in the two barrier regions (tolerance about $\\pm10\\%$) and benefits from sufficiently large band offset (here from $x\\gtrsim0.27$). Because the electrostatic double-barrier is self-formed by dopants rather than by deliberately grown thin barrier layers, the fabrication technology can be simpler than that of conventional four-junction RTDs, and the strongly symmetry-sensitive resonant response suggests suitability for high-sensitivity (rather than high-power) applications. Additionally, admittance spectroscopy at low temperatures is established as a diagnostic method to detect and analyze tunnel resonances in semiconductor quantum wells.",
+        "content_hash": "0d4fa5090004de6e86d24678eadeabd83807f867d98b5995cf9e9d5ce4d34a81",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_2c76f731cabe4536",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811978986383998976::conclusion_8",
+            "package_id": "paper:811978986383998976",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811978986383998976"
+          ]
+        },
+        "rerank_score": 0.7806221725062924,
+        "role": "conclusion",
+        "score": 0.023676099747828524,
+        "title": "Practical implications: two-heterojunction resonant-tunneling devices and admittance-spectroscopy diagnostic method",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Charge stability (honeycomb) diagrams of the Ge hut-wire DQD obtained from reflected microwave amplitude $A$ and phase $\\phi$ measurements reproduce the same honeycomb structure observed in DC transport, demonstrating that resonator-based readout resolves interdot and lead–dot tunneling features in this device; differences in sensitivity to left/right lead couplings reflect the asymmetric capacitive coupling between the resonator and the device leads.",
+        "content_hash": "497495290f9d1987d7b46c6df87d4f802740b75fb8fb7bd8d88c0d277c8b8c75",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_713d3386345247c4",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867771954092834947::conclusion_3",
+            "package_id": "paper:867771954092834947",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867771954092834947"
+          ]
+        },
+        "rerank_score": 0.7200301414236363,
+        "role": "conclusion",
+        "score": 0.014285714285714285,
+        "title": "Microwave reflectometry reproduces DQD charge stability diagrams in agreement with DC transport",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "When computing current as a function of internal e-ph coupling $\\alpha$ at bias $V_{a}=1.0\\,$V with external phonon frequency $\\omega_{0}=0.1$ and $K_{s}=20$, a narrow resonant tunnelling peak appears at a specified $\\alpha$ value (interpreted as simultaneous alignment of LUMO and HOMO levels with lead chemical potentials). Increasing the external coupling $\\gamma$ shifts this resonant peak toward lower $\\alpha$ (left shift) and reduces its amplitude: both the resonance position and magnitude are sensitive to $\\gamma$.",
+        "content_hash": "880da19cee6ac9698a5d77c9b5f32aa62bc5b4706117696b0458ff24459d9648",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_feb1348ed8ac40e0",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813322027678040067::conclusion_4",
+            "package_id": "paper:813322027678040067",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813322027678040067"
+          ]
+        },
+        "rerank_score": 0.7738738113834085,
+        "role": "conclusion",
+        "score": 0.014084507042253521,
+        "title": "External coupling shifts and reduces resonant tunnelling peaks in internal e-ph parameter space",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Non-equilibrium Green's function (NEGF) simulations of the double-barrier MoTe₂ resonant tunneling device (RTD), using a second-quantized Hamiltonian with electron-phonon coupling and reservoir self-energies, predict that increasing temperature reduces the distinguishability of quantized energy eigenstates in the MoTe₂ quantum well due to enhanced phonon-mediated intra-subband transitions (IST), which both broaden the local density of states (LDOS) and shift the dominant resonant current peak in bias. The simulations produce peak-to-valley ratio (PVR) values that are nearly consistent with the experimentally measured PVR of approximately 4 at 4 K and 1.16 at 40 K, and qualitatively reproduce the experimentally observed increase of PVR as temperature is lowered toward 4 K.",
+        "content_hash": "5e52cdff71065a99628187487df94a529e7d9545f90bab7ebdaa16480daf2fe4",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_4926161c6ae44cd2",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1136667871556927511::conclusion_5",
+            "package_id": "paper:1136667871556927511",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1136667871556927511"
+          ]
+        },
+        "rerank_score": 0.6655361522605086,
+        "role": "conclusion",
+        "score": 0.0125,
+        "title": "Theoretical finding: phonon-induced intra-subband transitions broaden local density of states (LDOS) and shift resonances; model reproduces measured temperature dependence and peak-to-valley ratio (PVR)",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In lifting experiments where the GNR coupling to the substrate becomes comparable to the coupling to the STM tip (small overall coupling), I(V) spectra recorded at large tip heights on a long 5/7/5 heterostructure show (i) a low‑bias resonance due to resonant tunneling between near‑degenerate lead‑localized states, and (ii) suppression of resonant tunneling at higher bias where degeneracy is lifted, producing negative differential conductance in selected tip‑height spectra; this behavior provides transport evidence for bias‑dependent alignment and splitting of lead states in weakly coupled single‑ribbon devices.",
+        "content_hash": "395866c310239289399a204dc4fd7284340fd1b7b2791dfa2efbbe13e64ef93b",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_80bfc77c42ae4b1c",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813115988538032130::conclusion_6",
+            "package_id": "paper:813115988538032130",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813115988538032130"
+          ]
+        },
+        "rerank_score": 0.6651386682604364,
+        "role": "conclusion",
+        "score": 0.011764705882352941,
+        "title": "Observation of bias‑dependent resonant transport and negative differential conductance in weakly coupled heterostructures",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Because the lead retarded self-energy matrix $\\Sigma^R$ has nonzero matrix elements only on the discrete device boundary sites that are directly connected to the leads, the resonance width $\\gamma_\\alpha\\approx -\\langle\\psi_{0\\alpha}|\\mathrm{Im}(\\Sigma^R)|\\psi_{0\\alpha}\\rangle$ depends primarily on the projection of the closed-system eigenfunction $\\psi_{0\\alpha}$ onto the lead-mode basis at those boundary sites (i.e., the expansion coefficients $c_m$ in $\\psi_{0\\alpha,L}=\\sum_m c_m\\chi_{m,L}$), so the magnitude of the closed-system wavefunction on the device boundaries controls the strength of coupling to the leads and hence the resonance width.",
+        "content_hash": "28703d4ba5b90b9edcde7007d3a7f9332fac58fd76fd251e0df468490ba6cce8",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_cb7923a88d2246b7",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813243759130050560::conclusion_9",
+            "package_id": "paper:813243759130050560",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813243759130050560"
+          ]
+        },
+        "rerank_score": 0.7508815163455534,
+        "role": "conclusion",
+        "score": 0.01639344262295082,
+        "title": "Wavefunction amplitude at device-lead boundary controls coupling to leads",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The device is a silicon-on-insulator nanowire structure in which a central 20 nm wide region between two top gates is rendered metallic by silicidation, and the two 50 nm long top gates (separated by 50 nm) form semiconducting barrier regions beneath them that contain sparsely distributed phosphorus (P) dopants; electron transport between the central metallic island and the metallic source and drain is therefore dominated by resonant tunneling through single, barrier-localized P-donor energy levels, which we denote μ_{g1} for the dopant state under gate 1 and μ_{g2} for the dopant state under gate 2, so that the tunnel coupling of the island to each lead is set by the resonant alignment of the corresponding μ_{g i } with the island electrochemical potentials.",
+        "content_hash": "fd67ef76f94cfc22e2bd2112c25ea55abdc271259ea9e689a8884fa031ccb2cb",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_9cc4f37ecdab4add",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:814517545645113344::conclusion_1",
+            "package_id": "paper:814517545645113344",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:814517545645113344"
+          ]
+        },
+        "rerank_score": 0.6979758821990547,
+        "role": "conclusion",
+        "score": 0.010638297872340425,
+        "title": "Silicided central island with barrier-localized phosphorus dopant tunnel coupling",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For one-dimensional leads attached to the device, the self-energy matrix in the finite element method (FEM) formulation is given by $[\\Sigma_j]_{ii'} = -\\frac{\\hbar^2}{2m_j^*} i k_j \\delta_{i \\in \\gamma_j} \\delta_{i' \\in \\gamma_j}$, where $m_j^*$ is the effective mass in lead $j$, $k_j$ is the longitudinal wave vector, $\\gamma_j$ is the set of nodes at the contact interface, and $i$ and $i'$ index these nodes. This self-energy is complex symmetric and non-zero only for nodes on the contact boundary.",
+        "content_hash": "bab57225f2ee92c61070b22709d77ce3ac701c585bccac8a0dce9f150354c365",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_4f5c36bfc4254a27",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812368971293523970::conclusion_2",
+            "package_id": "paper:812368971293523970",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812368971293523970"
+          ]
+        },
+        "rerank_score": 0.6653293078187091,
+        "role": "conclusion",
+        "score": 0.015384615384615385,
+        "title": "Self-energy for one-dimensional leads in the finite element formulation",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In the self-consistent device calculations for Si0.8Ge0.2/Si resonant-tunneling diodes reported here, the resonant confined sub-band energy at the bias giving the current peak, denoted E_{1p}, can lie either below or above the quasi Fermi-level in the anode-side spacer at the spacer/active-region interface, denoted E_{fp}; E_{1p} is the energy of the relevant confined sub-band under the bias that produces the peak current and E_{fp} is the quasi Fermi-level in the spacer at that same bias. The relative ordering of E_{1p} and E_{fp} depends on device geometry (for example, quantum-well width w and spacer thickness L_S), on the contact Fermi-level E_f, and on temperature, and this ordering strongly affects the temperature dependence of resonant tunneling because the one-dimensional distribution g(E) and its temperature sensitivity differ markedly between energy ranges above and below E_{fp}.",
+        "content_hash": "2e828d950764c23f16a63e46c940f74f7b46fcdf26be8722458222935faac162",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_237301a4b80140d8",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812436545066762241::conclusion_2",
+            "package_id": "paper:812436545066762241",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812436545066762241"
+          ]
+        },
+        "rerank_score": 0.6637961747761294,
+        "role": "conclusion",
+        "score": 0.02619736419157827,
+        "title": "Resonant sub-band energy can be on either side of spacer quasi-Fermi-level",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For the interface problem in which the center is absent (mathematically $V^{CL}=V^{CR}=0$), the transmission coefficient can be written as\n      $T_{I}[\\omega]=\\operatorname{Tr}\\!\\left(G_{RR}^{r}[\\omega]\\,\\tilde{\\Gamma}_{R}[\\omega]\\,G_{RR}^{a}[\\omega]\\,\\Gamma_{L}[\\omega]\\right)$,\n      where $G_{RR}^{r}$ satisfies the closed equation\n      $G_{RR}^{r}=g_{R}^{\\mathrm{sur},r}+g_{R}^{\\mathrm{sur},r}\\,\\tilde{\\Sigma}_{L}^{r}\\,G_{RR}^{r}$,\n      with the reduced retarded self-energy $\\tilde{\\Sigma}_{L}^{r}=V^{RL}\\,g_{L}^{\\mathrm{sur},r}\\,V^{LR}$, and the lead coupling spectral quantities are\n      $\\tilde{\\Gamma}_{R}=i\\!\\left(\\left(g_{R}^{\\mathrm{sur},a}\\right)^{-1}-\\left(g_{R}^{\\mathrm{sur},r}\\right)^{-1}\\right)$ and $\\Gamma_{L}=i\\!\\left(\\left(g_{L}^{\\mathrm{sur},a}\\right)^{-1}-\\left(g_{L}^{\\mathrm{sur},r}\\right)^{-1}\\right)$.\n      This interface formula is computationally efficient because it reduces the problem to surface Green's functions and a finite reduced self-energy.",
+        "content_hash": "66c7d0e67bc00c0339f351a077a1690b366f6da6c3bef412a7cf18790ddaf7e4",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_7c3f5a51654b49c3",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813294100630470657::conclusion_4",
+            "package_id": "paper:813294100630470657",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813294100630470657"
+          ]
+        },
+        "rerank_score": 0.7189976891594947,
+        "role": "conclusion",
+        "score": 0.013513513513513514,
+        "title": "Interface transmission formula for a direct-lead contact (center removed)",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The lead-device coupling can be evaluated either from an overlap integral over the common region,\n      \\[\n      \\left[\\mathbf{V}_{\\alpha}\\right]_{ij}=\\int_{\\Omega}\\psi_{L_{\\alpha},i}^{*}(\\mathbf{r})\\left[-\\frac{1}{2}\\nabla^{2}+\\frac{1}{2}\\mathrm{i}By\\frac{\\partial}{\\partial x}+\\frac{1}{2}B^{2}y^{2}+V_{\\mathrm{pot}}(\\mathbf{r})\\right]\\psi_{C,j}(\\mathbf{r})\\,\\mathrm{d}\\mathbf{r},\n      \\]\n      or from a tight-binding-style tunneling kernel with a magnetic Peierls phase.",
+        "content_hash": "f082ce9cc6d96ba5bddfe9b3603ed6604f9aada62d5bab8753fabe99fb7a0ec2",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_3d5012a3974343e8",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867757599410356546::conclusion_5",
+            "package_id": "paper:867757599410356546",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867757599410356546"
+          ]
+        },
+        "rerank_score": 0.6261349677709891,
+        "role": "conclusion",
+        "score": 0.013333333333333334,
+        "title": "Coupling matrices are computed from overlap or tunneling kernels",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The resonant tunneling device can be quantitatively modeled as two spin channels in parallel, each channel represented by a resonant diode in parallel with a non-resonant background conductance and with spin-dependent contact resistances and a spin-independent interface-scattering resistance. The total current is written as the sum of the channel node voltages times their conductances. The resonant conductance for each spin channel is parameterized by a Gaussian-shaped function on the energy (lever-arm) scale:\n      $$\n      \\sigma^{\\uparrow,\\downarrow}(V^{\\uparrow,\\downarrow}) \\propto p^{\\uparrow,\\downarrow}\\cdot \\exp\\left(\\frac{(l(E-E_{0}^{\\uparrow,\\downarrow}))^{2}}{2\\Gamma^{\\uparrow,\\downarrow\\,2}}\\right),\n      $$\n      where $V^{\\uparrow,\\downarrow}$ are the local voltages at the spin-diodes, $p^{\\uparrow,\\downarrow}$ are amplitude-fitting parameters that determine the spin-resolved resonant conductances, $l$ is the lever arm converting energy in the quantum well to diode bias voltage, $E_{0}^{\\uparrow,\\downarrow}$ are the resonant level energies measured with respect to the emitter conduction band edge, and $\\Gamma^{\\uparrow,\\downarrow}$ are the variances of the Gaussians describing the ensemble-broadened resonant level distributions. The model also includes LO-phonon replica peaks modeled as additional Gaussians with the same $E_{0}^{\\uparrow,\\downarrow}$ shifted by the LO-phonon energy $31.7\\ \\mathrm{meV}$ and with independent amplitudes and variances, plus an explicit non-resonant transmission contribution obtained from a two-tilted-barrier transfer-matrix model that omits the quantum well. This operational model is solved self-consistently including the effect of spin-dependent contact resistances $R_{s}^{\\uparrow,\\downarrow}$ and an interface scattering resistance $R_{scat}$ to produce the device I–V characteristic as a function of applied bias $V_{app}$.",
+        "content_hash": "02d0e332e917cb166a5f6f9f33179dec34412a6941490958878e15da16a6e884",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_cb4c2ee4724b4dda",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867759963139736548::conclusion_1",
+            "package_id": "paper:867759963139736548",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867759963139736548"
+          ]
+        },
+        "rerank_score": 0.6902593640622534,
+        "role": "conclusion",
+        "score": 0.016129032258064516,
+        "title": "Two-channel equivalent-circuit RTD model with spin-dependent contacts and Gaussian resonant conductances",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Modeling the device contacts as semi-infinite tight-binding metal leads with lead hopping t_α equal to the ribbon nearest-neighbor hopping t and with contact hopping t_T = t produces propagating contact modes (nonzero energy-dependent lead self-energies Γ_L and Γ_R) at energies that lie inside the isolated ribbon's intrinsic gap; these propagating lead modes provide the electronic coupling channels that enable resonant transmission through bound or quasi-bound states localized inside the ribbon gap, and therefore inclusion of semi-infinite metal leads in the tight-binding Landauer setup is essential to capture the experimentally accessible in-gap resonant conduction induced by sidearms or on-site gates.",
+        "content_hash": "0fef6f63de088009f0df5e24ffca008de5fc9783aaa905e96943ea1318bb784e",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_d8e2611b75694de1",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867762487171219580::conclusion_7",
+            "package_id": "paper:867762487171219580",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867762487171219580"
+          ]
+        },
+        "rerank_score": 0.6829417172705088,
+        "role": "conclusion",
+        "score": 0.012345679012345678,
+        "title": "Semi-infinite tight-binding metal leads are required to access in-gap resonant transmission",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Two-dimensional time-domain FDTD field maps computed for the optimized geometry show resonant tunneling from the linear waveguide into the quadruple-cavity region: the simulated transverse-magnetic (TM) magnetic-field distribution exhibits localized magnetic-field maxima in the coupling region of the cavity and the simulated in-plane Poynting-vector field shows energy flow into the cavity mode at the device resonance wavelength $\\lambda_{0}=1.55\\ \\mu\\mathrm{m}$, indicating strong in-plane confinement and coupling consistent with selective resonant behavior.",
+        "content_hash": "f5e275acf11a4e68653b682e9972f8c13a6e578bf53fbb81292e22ef58870e1e",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_86ae86acdcbc4145",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812093829900402689::conclusion_7",
+            "package_id": "paper:812093829900402689",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812093829900402689"
+          ]
+        },
+        "rerank_score": 0.6367960785325549,
+        "role": "conclusion",
+        "score": 0.010752688172043012,
+        "title": "FDTD field maps showing resonant tunneling and localized confinement at 1.55 µm",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For the one-dimensional discretized homogeneous lead formed by masses $m_h=h\\rho_h$ and springs $k_h=E_h/h$ coupled in nearest-neighbor fashion, the surface Green's function at the lead site connected to the device, denoted $g_{\\text{surf}}(\\omega)\\equiv g_L(N,N)=g_R(1,1)$, satisfies a quadratic relation and the physically admissible root (selected by the weak-coupling asymptotic $g_{\\text{surf}}\\sim1/\\omega^2$ as $k_h\\to0$) is\n      $$\n      g_{\\text{surf}}(\\omega)=\\frac{\\big[(\\omega+i\\eta)^2-\\dfrac{2k_h}{h\\rho_h}\\big]-\\sqrt{\\big[(\\omega+i\\eta)^2-\\dfrac{2k_h}{h\\rho_h}\\big]^2-4\\big(\\dfrac{k_h}{h\\rho_h}\\big)^2}}{2\\big(\\dfrac{k_h}{h\\rho_h}\\big)^2}.\n      $$\n      This closed-form expression yields the surface block of the lead Green's function required to form the device self-energy for 1D problems.",
+        "content_hash": "7855acc58d33bdc789cbef12076a02576f7b5bb425cf1b1c8b3ce0c931acd4b1",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_94ed40d86a934d24",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867756365366428607::conclusion_2",
+            "package_id": "paper:867756365366428607",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867756365366428607"
+          ]
+        },
+        "rerank_score": 0.5952729924737223,
+        "role": "conclusion",
+        "score": 0.010526315789473684,
+        "title": "Analytical closed-form surface Green's function for a 1D homogeneous lead",
+        "type": "claim",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "req_510fff30bfc79"
+}

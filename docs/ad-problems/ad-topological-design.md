@@ -16,7 +16,9 @@ The QWZ mass starts at `2.65` and is optimized against target occupied
 projectors generated at mass `1.0`. The loss uses an offset `7 x 7` momentum
 mesh. Initial and final Chern numbers are recomputed with an independent FHS
 implementation on a `25 x 25` mesh. A separate mass scan resolves the analytic
-gap closing near mass `2`.
+gap closing near mass `2`. The differentiable topology-optimization workflow
+is adapted to the canonical QWZ model; it is not a reproduction of the source
+photonic structure.
 
 ## Parameters
 
@@ -46,8 +48,11 @@ resolved gap closing.
 
 ## Evidence and boundary
 
-LKM nodes `gcn_0d1ce01faa964ce2` and `gcn_43c4ae6e813149c4` motivated
-geometry/topology design and Berry-curvature sensitivity. Primary sources:
-[Peano, Sapper, and Marquardt (2021)](https://doi.org/10.1103/PhysRevX.11.021052)
-and [Guo et al. (2017)](https://doi.org/10.1038/s41535-016-0007-2).
-No derivative of the integer Chern number is defined or used.
+LKM node `gcn_9da619e467814f8e` reports inverse design of topological
+insulators through topology optimization; `gcn_d08eb08225d74091` provides a
+QWZ phase-transition application. Primary sources:
+[Christiansen, Wang, and Sigmund (2019)](https://doi.org/10.1103/PhysRevLett.122.234502)
+and [Adak et al. (2026)](https://doi.org/10.48550/arxiv.2606.31604). Raw
+retrieval evidence is preserved under
+`evidence/lkm/2026-07-28-ad-research-workflows`. No derivative of the integer
+Chern number is defined or used.

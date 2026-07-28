@@ -1,0 +1,629 @@
+{
+  "code": 0,
+  "data": {
+    "has_more": true,
+    "papers": {
+      "paper:1147866257039556619": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Max Yuan | Lucian Livadaru | Roshan Achal | Jason Pitters | Furkan Altincicek | Robert Wolkow",
+        "available_online": "",
+        "cover_date_start": "2025-07-02",
+        "created_at": "2026-06-13T08:39:39+08:00",
+        "doi": "10.48550/arxiv.2507.02123",
+        "en_title": "Engineering Quantum Wire States for Atom Scale Circuitry",
+        "id": "1147866257039556619",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Materials Science",
+        "research_categories": "",
+        "zh_title": "用于原子尺度电路的工程量子线态"
+      },
+      "paper:1187365606299533313": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Zili Tang | Xiaoxin Xie | Guanwen Yao | Ligong Zhang | Xiaoyan Liu | Xing Zhang | Liu Fei",
+        "available_online": "",
+        "cover_date_start": "2025-10-19",
+        "created_at": "2026-06-10T00:31:41+08:00",
+        "doi": "10.48550/arXiv.2510.16878",
+        "en_title": "Deep Learning Accelerated First-Principles Quantum Transport Simulations at Nonequilibrium State",
+        "id": "1187365606299533313",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "深度学习加速的非平衡态第一性原理量子输运模拟"
+      },
+      "paper:1207297312280281090": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Jijie Zou | Zhanghao Zhouyin | Qiangqiang Gu | Shishir Kumar Pandey",
+        "available_online": "",
+        "cover_date_start": "2025-12-12",
+        "created_at": "2026-06-14T18:19:48+08:00",
+        "doi": "10.48550/arXiv.2512.11291",
+        "en_title": "Deep Learning-Based Quantum Transport Simulations in Two-Dimensional Materials",
+        "id": "1207297312280281090",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108482",
+        "publication_name": "Disordered Systems and Neural Networks",
+        "research_categories": "",
+        "zh_title": "基于深度学习的二维材料中的量子输运模拟"
+      },
+      "paper:811102771334873089": {
+        "area": "Material science, Engineering, Nanotechnology, Physical Sciences, Condensed Matter Physics",
+        "authors": "S. Bohloul | Q. Shi | Robert A. Wolkow | Hong Guo",
+        "available_online": "2016-12-7",
+        "cas_zone": "2",
+        "cover_date_start": "2016-12-07",
+        "created_at": "2026-06-19T03:25:36+08:00",
+        "doi": "10.1021/acs.nanolett.6b04125",
+        "en_title": "Quantum Transport in Gated Dangling-Bond Atomic Wires",
+        "id": "811102771334873089",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2017-1-11",
+        "publication_id": "2026",
+        "publication_name": "Nano Letters _ Nano Lett.",
+        "research_categories": "[\"Engineering\", \"Nanotechnology\", \"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "门控悬空键原子线中的量子输运"
+      },
+      "paper:811715643043741697": {
+        "area": "material science, materials science, multidisciplinary, chemistry, physical, nanoscience & nanotechnology",
+        "authors": "Arijit Sen | Chao-Cheng Kaun",
+        "available_online": "2010-10-11",
+        "cas_zone": "1",
+        "cover_date_start": "2010-10-11",
+        "created_at": "2026-06-14T01:15:44+08:00",
+        "doi": "10.1021/nn101840a",
+        "en_title": "Effect of Electrode Orientations on Charge Transport in Alkanedithiol Single-Molecule Junctions",
+        "id": "811715643043741697",
+        "impact_factor": 16.3,
+        "jcr_zone": "Q1",
+        "keywords": "[{\"en_name\": \"Double quantum dot\", \"ch_name\": \"\"}, {\"en_name\": \"Electronic transport\", \"ch_name\": \"\"}, {\"en_name\": \"First-principles\", \"ch_name\": \"\"}, {\"en_name\": \"Gold nanowires\", \"ch_name\": \"\"}, {\"en_name\": \"Molecular electronics\", \"ch_name\": \"\"}, {\"en_name\": \"Tunable quantum interference\", \"ch_name\": \"\"}]",
+        "publication_date": "2010-11-23",
+        "publication_id": "2020",
+        "publication_name": "ACS Nano _ ACS Nano",
+        "research_categories": "",
+        "zh_title": "电极取向对链烷二硫醇单分子结中电荷传输的影响"
+      },
+      "paper:811741739021762560": {
+        "area": "chemistry, multidisciplinary",
+        "authors": "Eun Cheol Lee | Young Cheol Choi | Woo Youn Kim | N. Jiten Singh | Sik Lee | Ji Hoon Shim | Kwang S. Kim",
+        "available_online": "2010-9-13",
+        "cas_zone": "3",
+        "cover_date_start": "2010-09-13",
+        "created_at": "2026-05-17T00:50:02+08:00",
+        "doi": "10.1002/chem.201000858",
+        "en_title": "A Radical Polymer as a Two-Dimensional Organic Half Metal",
+        "id": "811741739021762560",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "[{\"en_name\": \"graphene\", \"ch_name\": \"\"}, {\"en_name\": \"molecular modeling\", \"ch_name\": \"\"}, {\"en_name\": \"organic electronics\", \"ch_name\": \"\"}, {\"en_name\": \"organic half metals\", \"ch_name\": \"\"}, {\"en_name\": \"radicals\", \"ch_name\": \"\"}]",
+        "publication_date": "2010-10-25",
+        "publication_id": "3412",
+        "publication_name": "Chemistry   A European Journal _ Chem. Eur. J.",
+        "research_categories": "",
+        "zh_title": "一种作为二维有机半金属的自由基聚合物"
+      },
+      "paper:811904168011759617": {
+        "area": "physics and astrophysics, physics, applied",
+        "authors": "Chun-Lei Li | Xiao-Ming Wang | Fu-Hua Yang | Song-Lin Feng",
+        "available_online": "2008-9-12",
+        "cas_zone": "4",
+        "cover_date_start": "2008-09-12",
+        "created_at": "2026-06-11T05:27:15+08:00",
+        "doi": "10.1143/jjap.47.7239",
+        "en_title": "Transmission Properties through a Double Quantum Dot with a Wave Packet",
+        "id": "811904168011759617",
+        "impact_factor": 1.3,
+        "jcr_zone": "Q3",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "685",
+        "publication_name": "Japanese Journal of Applied Physics _ Jpn. J. Appl. Phys.",
+        "research_categories": "",
+        "zh_title": "通过具有波包的双量子点的传输特性"
+      },
+      "paper:812010444708380674": {
+        "area": "physics and astrophysics, physics, condensed matter, applied, materials science, multidisciplinary",
+        "authors": "Shachar Klaiman | Nimrod Moiseyev | H. R. Sadeghpour",
+        "available_online": "2007-3-9",
+        "cas_zone": "2",
+        "cover_date_start": "2007-03-09",
+        "created_at": "2026-06-11T08:21:07+08:00",
+        "doi": "10.1103/physrevb.75.113305",
+        "en_title": "Interpretation of the Fano lineshape reversal in quantum waveguides",
+        "id": "812010444708380674",
+        "impact_factor": 3.7,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "529",
+        "publication_name": "Physical Review B _ Phys. Rev. B",
+        "research_categories": "",
+        "zh_title": "量子波导中Fano线形反转的解读"
+      },
+      "paper:812135537115660289": {
+        "area": null,
+        "authors": "",
+        "available_online": "",
+        "cover_date_start": "2021-06-30",
+        "created_at": "2026-06-02T00:46:26+08:00",
+        "doi": "10.1021/jacs.1c00928.s001",
+        "en_title": "Reversible Switching between Destructive and Constructive Quantum Interference Using Atomically Precise Chemical Gating of Single-Molecule Junctions",
+        "id": "812135537115660289",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "0",
+        "publication_name": "",
+        "research_categories": "",
+        "zh_title": "使用单分子结的原子级精确化学门控在破坏性和建设性量子干涉之间进行可逆切换"
+      },
+      "paper:817403003043577857": {
+        "area": "geoscience, physical sciences, atomic, molecular and optical physics, condensed matter physics, quantum physics",
+        "authors": "Claes Thelander | Malin Nilsson | Florinda Viñas Boström | Adam Burke | Sebastian Lehmann | Kimberly A. Dick | Martin Leijnse",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2019-10-04",
+        "created_at": "2026-06-02T15:04:48+08:00",
+        "doi": "10.1103/PhysRevB.98.245305",
+        "en_title": "Spectroscopy and level detuning of few-electron spin states in parallel InAs quantum dots",
+        "id": "817403003043577857",
+        "impact_factor": 3.6,
+        "jcr_zone": "Q2",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "98281",
+        "publication_name": "Physical Review B   Condensed Matter and Materials Physics _ ",
+        "research_categories": "[\"Physical Sciences\", \"Atomic, Molecular and Optical Physics\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "平行排列的砷化铟量子点中少电子自旋态的光谱学与能级失谐"
+      },
+      "paper:867745150900634346": {
+        "area": "arxiv-physics, engineering, nanotechnology, physical sciences, condensed matter physics",
+        "authors": "Grzegorz Michałek | Bogdan R. Bułka",
+        "available_online": "",
+        "cover_date_start": "2021-10-29",
+        "created_at": "2026-06-14T23:57:43+08:00",
+        "doi": "10.48550/arXiv.2110.15760",
+        "en_title": "Formation of Fano resonance in double quantum dot system",
+        "id": "867745150900634346",
+        "keywords": "",
+        "publication_date": "2021-10-29",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Engineering\", \"Nanotechnology\", \"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "双量子点系统中Fano共振的形成"
+      },
+      "paper:867747604929184160": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Anirban Dey | Devendra Singh Bhakuni | Bijay Kumar Agarwalla | Auditya Sharma",
+        "available_online": "",
+        "cover_date_start": "2019-02-01",
+        "created_at": "2026-06-16T06:35:07+08:00",
+        "doi": "10.48550/arXiv.1902.00474",
+        "en_title": "Quantum entanglement and transport in non-equilibrium interacting double-dot setup: The curious role of degeneracy",
+        "id": "867747604929184160",
+        "keywords": "",
+        "publication_date": "2019-02-01",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "非平衡相互作用双量子点体系中的量子纠缠与输运：简并的奇特作用 "
+      },
+      "paper:867757924515053703": {
+        "area": "arxiv-physics, engineering, information and computing sciences, applied computing",
+        "authors": "Yingzhanghao Zhou | Xiang Chen | Peng Zhang | Jun Wang | Lei Wang | Hong Guo",
+        "available_online": "",
+        "cover_date_start": "2022-02-10",
+        "created_at": "2026-06-09T21:38:01+08:00",
+        "doi": "10.48550/arXiv.2202.05098",
+        "en_title": "AD-NEGF: An End-to-End Differentiable Quantum Transport Simulator for Sensitivity Analysis and Inverse Problems",
+        "id": "867757924515053703",
+        "keywords": "",
+        "publication_date": "2022-02-10",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Engineering\", \"Information and Computing Sciences\", \"Applied Computing\"]",
+        "zh_title": "AD-NEGF：用于灵敏度分析和反问题的端到端可微量子输运模拟器"
+      },
+      "paper:867768127872565947": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Abhishek Sharma | Ashwin Tulapurkar | Bhaskaran Muralidharan",
+        "available_online": "",
+        "cover_date_start": "2019-08-17",
+        "created_at": "2026-05-16T18:53:40+08:00",
+        "doi": "10.48550/arXiv.1908.06279",
+        "en_title": "Band-pass Magnetic Tunnel Junction based Magnetoresistive Random Access Memory",
+        "id": "867768127872565947",
+        "keywords": "",
+        "publication_date": "2019-08-17",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "基于带通磁隧道结的磁阻随机存取存储器"
+      },
+      "paper:867772252647588249": {
+        "area": "arxiv-physics, engineering, nanotechnology, physical sciences, condensed matter physics",
+        "authors": "M. Lavagna | V. Talbo | T.Q. Duong | A. Crépieux",
+        "available_online": "",
+        "cover_date_start": "2020-03-02",
+        "created_at": "2026-06-14T09:44:33+08:00",
+        "doi": "10.48550/arXiv.2003.00715",
+        "en_title": "Level anticrossing effect in single-level or multilevel double quantum dots: Electrical conductance, zero-frequency charge susceptibility and Seebeck coefficient",
+        "id": "867772252647588249",
+        "keywords": "",
+        "publication_date": "2020-03-02",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Engineering\", \"Nanotechnology\", \"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "单能级或多能级双量子点中的能级反交叉效应：电导、零频电荷磁化率和塞贝克系数"
+      }
+    },
+    "variables": [
+      {
+        "content": "A two-site (double quantum-dot) model where each quantum dot represents the localized state at one sulfur atom, coupled to electrode continua and to each other, reproduces the principal transmission features when parametrized by interdot tunneling $t_{c}$ and electrode–dot couplings $\\gamma_{1}$ and $\\gamma_{2}$. The model transmission used is\n      $$\n      T(E)=\\frac{4\\bigl[t_{c}\\bar{\\gamma}-\\gamma_{12}(E-\\bar{E})\\bigr]^{2}}{\\bigl[(E-\\bar{E})^{2}-\\bigl(\\tfrac{\\Delta E}{2}\\bigr)^{2}-t_{c}^{2}-\\bigl(\\tfrac{\\Delta\\gamma}{2}\\bigr)^{2}\\bigr]^{2}+4\\bigl[\\bar{\\gamma}(E-\\bar{E})-t_{c}\\gamma_{12}\\bigr]^{2}},\n      $$\n      with $\\bar{E}=(E_{1}+E_{2})/2$, $\\Delta E=E_{1}-E_{2}$, $\\bar{\\gamma}=(\\gamma_{1}+\\gamma_{2})/2$, $\\Delta\\gamma=\\gamma_{1}-\\gamma_{2}$, and $\\gamma_{12}=(\\gamma_{1}\\gamma_{2})^{1/2}$. Fitting the first-principles $T(E)$ with this expression captures the two main peaks and their asymmetries, thereby justifying the DQD interpretation of the junction as two localized contact states (MIGS/BEIS) coupled through the alkane bridge and to electrode continua.",
+        "content_hash": "9038d6b8e1bafbe7ff7457c2ca43f11335dd3f36cbb61edbf19ad18db4f8cdf8",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_8670a519b2ed4d85",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811715643043741697::conclusion_6",
+            "package_id": "paper:811715643043741697",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811715643043741697"
+          ]
+        },
+        "rerank_score": 0.6879409410967737,
+        "role": "conclusion",
+        "score": 0.01020408163265306,
+        "title": "Double quantum-dot model and analytical transmission formula fit first-principles T(E)",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "AD-NEGF enables gradient-based inverse optimization of Hamiltonian matrix elements to fit a target transmission curve. In an example, starting from the Hamiltonian $H_{52}$ of a 5-2 graphene nano-junction (consisting of 5 graphene rings on the left and 2 on the right) as the initial guess, gradient-based minibatch optimization over 2000 energy-sampled transmission $T(E)$ points and roughly $10^{4}$ Hamiltonian parameters (including device, leads, and couplings) was performed with the Adam optimizer; the loss decreased substantially within a few hundred iterations and the optimized $H_{52}$ produced a transmission curve qualitatively approximating the target transmission $T_{74}(E)$ of a 7-4 graphene nano-junction (7 rings left, 4 rings right). Conventional black-box optimizers (Bayesian optimization, genetic algorithms, and finite-difference gradient methods) failed on this high-dimensional fitting task due to the curse of dimensionality.",
+        "content_hash": "94d9542a303c58311bb3fce3818f5413b35dacc7854ed4048971af68902b07f3",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_a5eb3fecc5264ac5",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867757924515053703::conclusion_6",
+            "package_id": "paper:867757924515053703",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867757924515053703"
+          ]
+        },
+        "rerank_score": 0.6739986379670483,
+        "role": "conclusion",
+        "score": 0.010526315789473684,
+        "title": "Gradient-based inverse design of Hamiltonian to fit target transmission (transmission-by-design)",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The stationary tunneling probability spectrum of a single electron through a GaAs/InAs double quantum dot shows that a single resonant-transmission peak associated with an isolated dot splits into two distinct resonance peaks when the two dots are coupled; the energy separation between the two split resonance peaks increases as the interdot distance $d$ decreases (stronger interdot coupling), and the splitting becomes negligible when $d$ is sufficiently large (example parameter set: $R_1=R_2=5.0\\ \\mathrm{nm}$, $L_1=L_2=4.0\\ \\mathrm{nm}$; results displayed for $d=0,\\ 1.0,\\ 2.0,\\ 4.0,\\ 8.0\\ \\mathrm{nm}$).",
+        "content_hash": "df205df6137dd1413b1fb835568ddd32cfade4fc063af5b45ad0ad584b647444",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_ae6b530d5eaf44f2",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811904168011759617::conclusion_1",
+            "package_id": "paper:811904168011759617",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811904168011759617"
+          ]
+        },
+        "rerank_score": 0.7695800327295417,
+        "role": "conclusion",
+        "score": 0.012048192771084338,
+        "title": "Resonance-energy splitting increases with stronger interdot coupling",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In the 2QD-T system (double quantum dot T-shaped) with symmetric dot–lead coupling ($\\Gamma_L=\\Gamma_R=\\Gamma$) and equal dot levels ($\\epsilon_1=\\epsilon_2=\\epsilon$), for strong inter-dot coupling ($t_{12}\\gg\\Gamma$) the transmission evolves with a single dominant relaxation time $\\tau^{osc}=2/\\Gamma$ from an initial single-peak (corresponding to transmission through the single quantum dot) into a stationary double-peak spectrum corresponding to bonding and anti-bonding resonances at $E_{\\pm}=\\epsilon\\mp\\Delta/2$ (width $\\Gamma/2$), where $\\Delta=\\sqrt{4t_{12}^{2}-\\Gamma^{2}}$ is the bonding–antibonding splitting. During this evolution pronounced dot–electrode charge oscillations occur; these oscillations can make the time-dependent transmission change sign at certain energies and thus can transiently reverse the direction of the current flow.",
+        "content_hash": "4ec4dbfbd1e3860159c228755cde793f0fe14e96a8d0931bce6e69fe22ac0824",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_48129ea3c4a54c50",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867745150900634346::conclusion_6",
+            "package_id": "paper:867745150900634346",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867745150900634346"
+          ]
+        },
+        "rerank_score": 0.6531426088905952,
+        "role": "conclusion",
+        "score": 0.014705882352941176,
+        "title": "Strong-coupling physical outcome: single relaxation time evolution into bonding/antibonding resonances and transient current reversals",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For the non-interacting double-dot dynamics and steady-state quantities (current, mutual information, concurrence), results obtained from (i) exact unitary time evolution of a large discretized bath (128 levels per lead) and (ii) the steady-state NEGF/EOM formalism agree quantitatively across the parameter regimes explored, with small discrepancies attributable to finite discretization of the bath spectrum in the exact numerics.",
+        "content_hash": "48b65554b90cc4851630d959cf2e73224fe71b24500d95657f101078c55fb454",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_bfe5cdf242394d15",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867747604929184160::conclusion_9",
+            "package_id": "paper:867747604929184160",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867747604929184160"
+          ]
+        },
+        "rerank_score": 0.6808321119022095,
+        "role": "conclusion",
+        "score": 0.015873015873015872,
+        "title": "Validation: exact numerics and NEGF (EOM) agree in the non-interacting limit",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Transport calculations based on a master-equation approach using a double quantum dot model with one spin-degenerate orbital per dot, with parameters extracted from the experiment (including interdot tunnel coupling t = 0.14 meV, spin-orbit parameter α = 0.6, effective g-factor |g| = 8.9, charging energies, and lead couplings), fully reproduce the measured transport spectrum for the one- to two-electron transition in a parallel InAs nanowire double quantum dot (cooldown B) as a function of level detuning and magnetic field, including the conductance map at B = 2 T and V_SD = 2.5 mV.",
+        "content_hash": "e7b5fb0fb0ff44bb7483c8bfe5cf48e73a42e9345d0989231ee292026eeee393",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_b447d43d3a404a4e",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:817403003043577857::conclusion_8",
+            "package_id": "paper:817403003043577857",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:817403003043577857"
+          ]
+        },
+        "rerank_score": 0.6443659013718885,
+        "role": "conclusion",
+        "score": 0.011764705882352941,
+        "title": "Master-equation transport calculation with one orbital per dot reproduces one-to-two electron transition spectrum",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "A parameterized tight-binding model consisting of a linear chain of single-orbital sites representing the dangling-bond wire (DBW) coupled to identical one-orbital dangling-bond centers (DBCs) was fitted to the first-principles results obtained from nonequilibrium Green's function density functional theory (NEGF-DFT) and reproduces the principal features of the NEGF-DFT transmission spectra: a transmission dip produced by a single DBC, the suppression of the second propagating channel, and the splitting of density of states (DOS) and transmission dips for closely spaced coupled DBCs. The model thereby provides a simple physical picture of a continuum wire coupled to localized dot states that captures the qualitative gating mechanism observed in the ab initio calculations.",
+        "content_hash": "0be14da53d561fe130149a0672aae7cdda638970c0ab987939a526bf33a7a653",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_9c429384faa64b08",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811102771334873089::conclusion_7",
+            "package_id": "paper:811102771334873089",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811102771334873089"
+          ]
+        },
+        "rerank_score": 0.5905284378108293,
+        "role": "conclusion",
+        "score": 0.0125,
+        "title": "A minimal tight-binding model reproduces main NEGF-DFT gated DBW transport features",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "When DeepQTH equilibrium Hamiltonians and DeepQTV-derived Hamiltonian corrections are combined and provided to the quantum transport solver TBtrans, DeepQT yields transport observables matching full Non-Equilibrium Green's Function combined with Density Functional Theory (NEGF-DFT) references for challenging, large-scale devices: (a) nanoporous graphene nanoribbon device (422 atoms, circular pore diameter 8 Å) — predicted wave-vector-averaged transmission spectrum across $[-1.5, +1.5]$ eV, electrode spectral densities, atom-resolved density of states (DOS) spatial decay from pore edge, and current–voltage (I–V) curve match NEGF-DFT references with low error; (b) heavily doped silicon Esaki (tunnel) diode (384 atoms, doping $\\sim 8\\times10^{20}\\ \\mathrm{cm}^{-3}$) — DeepQT-predicted Hamiltonians across biases $-1.0$ to $+1.0\\,$V reproduce the nonlinear I–V and capture the negative differential resistance (NDR) region between 0.2 and 0.5 V, consistent with reference self-consistent calculations using TranSIESTA and the TBtrans solver.",
+        "content_hash": "4a9c2b207e261bde7e2baa823d92af28181de73dc65983ad5eb4b720762b312b",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_23086849ee5f4a7d",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1187365606299533313::conclusion_6",
+            "package_id": "paper:1187365606299533313",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1187365606299533313"
+          ]
+        },
+        "rerank_score": 0.5841710755527744,
+        "role": "conclusion",
+        "score": 0.012345679012345678,
+        "title": "Accurate transport predictions on large, defected devices including nanoporous graphene and Esaki diode",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "When trained on density functional theory (DFT) electronic-structure labels computed with the ABACUS package, the deep learning tight-binding (DeePTB) model reproduces the conduction and valence band dispersions of monolayer MoS$_{2}$ near the K and $\\Gamma$ points in the Brillouin zone and captures the magnitude of the direct band gap; the combined DeePTB and non-equilibrium Green's function (DeePTB-NEGF) pipeline then produces a transmission spectrum computed over the energy range from -10 eV to 10 eV with a 0.05 eV step that reflects semiconducting behavior (negligible transmission within the gap and gradual emergence of conducting channels at higher energies). Because ABACUS does not provide a native NEGF reference calculation, the transmission spectrum is derived from the DeePTB-fitted Hamiltonian without direct DFT-NEGF benchmarking.",
+        "content_hash": "06ae3f3035db9bd411158d4405291c0b23b91fcbbac8d2d2290d6f8bd52fab9b",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_6d0bd00c82a34e65",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1207297312280281090::conclusion_4",
+            "package_id": "paper:1207297312280281090",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1207297312280281090"
+          ]
+        },
+        "rerank_score": 0.5834440134005419,
+        "role": "conclusion",
+        "score": 0.011627906976744186,
+        "title": "Reproduction of monolayer MoS$_2$ band structure from DeePTB model trained on ABACUS DFT data and DeePTB-NEGF transport prediction without DFT-NEGF benchmark",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The analytic Green‑function expressions, the Landauer‑type current formula, and the derived relations for occupancies and static susceptibility constitute a framework that, within the noninteracting double quantum dot model (i.e., no electron–electron interactions) and, for the multilevel case, under the approximation of energy‑independent hopping integrals, applies at arbitrary temperature, arbitrary dot–lead and interdot coupling strengths, and arbitrary bias and gate voltages. The framework formally extends to nonlinear response, asymmetric couplings, and finite‑bias/finite‑temperature gradients within the same nonequilibrium Green function (NEGF) formalism used here.",
+        "content_hash": "bb6af10851411b550fd90adb528d95f80b92e66729a7fd6cad1801edbbc59900",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_cbbbf7a679c94cdd",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867772252647588249::conclusion_10",
+            "package_id": "paper:867772252647588249",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867772252647588249"
+          ]
+        },
+        "rerank_score": 0.6151065598337678,
+        "role": "conclusion",
+        "score": 0.01,
+        "title": "Scope: framework applies at arbitrary temperature, couplings, and biases; extensible to nonlinear and asymmetric cases",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Tight-binding and material-specific DFT-NEGF calculations for two meta-connected OPE3-type molecules M2 and M3, each containing a single pyridinic nitrogen atom at different positions, show that increasing the on-site energy of the pyridinic nitrogen site ($\\varepsilon_p$), which models protonation or methylation, causes an interchange of frontier orbital ordering that changes the quantum interference (QI) pattern: in M2 the highest occupied molecular orbital (HOMO) and HOMO-1 interchange and in M3 the lowest unoccupied molecular orbital (LUMO) and LUMO+1 interchange, and these reorderings convert a low-transmission destructive-QI anti-resonance into a high-transmission constructive-QI spectrum near the electrode Fermi energy. This mechanism is captured both in simple tight-binding parameter sweeps of $\\varepsilon_p$ and in material-specific transmission spectra.",
+        "content_hash": "fe472069465c4236c68df216514b7cc2052ebb5c5ba50029141d3364852c2b77",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_a1683b77bbcf405a",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812135537115660289::conclusion_2",
+            "package_id": "paper:812135537115660289",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812135537115660289"
+          ]
+        },
+        "rerank_score": 0.5730056212326673,
+        "role": "conclusion",
+        "score": 0.011363636363636364,
+        "title": "Increase in on-site energy of the pyridinic nitrogen site interchanges frontier orbital ordering and switches quantum interference from destructive to constructive in M2 and M3",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In a single-electron two-dimensional rectangular quantum dot model (width $W_{\\mathrm{QD}}$, length $L$, leads of width $W$) treated with an $S$-matrix scattering formalism using transverse-mode expansions $\\Psi_{L}(x,y)$ and $\\Psi_{\\mathrm{QD}}(x,y)$ and channel momenta $k_{n}^{L,R}=\\sqrt{2m^{*}E/\\hbar^{2}-(n\\pi/W)^{2}}$, $q_{m}=\\sqrt{2m^{*}E/\\hbar^{2}-(m\\pi/W_{\\mathrm{QD}})^{2}}$ with effective mass $m^{*}=0.067$ a.u., the computed transmission spectrum (single open left and right channel energy range) exhibits a reversal of the Fano asymmetry parameter $q$ at energy approximately $E\\approx 42\\ \\mathrm{meV}$. At this energy the transmission goes nearly to zero at a shape-resonance position, indicating strong destructive interference produced by coupling between an open-channel shape resonance and closed-channel Feshbach resonances. The transmission $T_{n}$ is computed from the $S$-matrix via $T_{n}=\\sum_{m}\\dfrac{k_{m}^{R}+k_{m}^{R^{*}}}{k_{n}^{L}+k_{n}^{L^{*}}}\\left[\\mathrm{S}_{21}\\right]_{m,n}\\left[\\mathrm{S}_{21}^{*}\\right]_{m,n}$.",
+        "content_hash": "8c03f5a5bf1f2cb01218e32fcce6021c309256b408b78404f2698e9751fcb289",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_02bfc3e868804f28",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812010444708380674::conclusion_2",
+            "package_id": "paper:812010444708380674",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812010444708380674"
+          ]
+        },
+        "rerank_score": 0.6423756745233182,
+        "role": "conclusion",
+        "score": 0.009615384615384616,
+        "title": "Numerical demonstration of q reversal in a rectangular 2D quantum dot model at E ≈ 42 meV",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Synthesizing the controlled local density of states (LDOS) measurements and non-equilibrium Green's function density functional theory (NEGF-DFT) transmission results, the study identifies single-row dimer wires as \"good\" candidates and wider dimerized wires (e.g., double-dimer wires) as \"best\" candidates for atom-scale transport and quantum-dot applications because they (i) possess multiple discrete mid-gap states arising from $\\pi$-type hybridization that extend well into the apparent bandgap (reducing leakage to bulk), (ii) show higher low-bias transmission (e.g., measured/modelled $T\\approx 0.7$ for single-dimer and $T\\approx 1.3$–$1.5$ for double-dimer geometries), and (iii) exhibit enhanced resilience to localized hydrogen defects and mechanical buckling compared to single-atom-wide or zig-zag geometries.",
+        "content_hash": "a1b49cb4bc1efcc64422666a273d1abc0252e62dd3db14b02e5b6aa5823a3e27",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_95f69983bd8440dd",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1147866257039556619::conclusion_10",
+            "package_id": "paper:1147866257039556619",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1147866257039556619"
+          ]
+        },
+        "rerank_score": 0.5453000170132882,
+        "role": "conclusion",
+        "score": 0.015625,
+        "title": "Identification of dimer and wider dimer wires as practical candidates for atom-scale transport and quantum-dot applications",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For a 2‑quantum‑well MgO/NM superlattice in which each ARR termination consists of a quantum well identical to the superlattice wells and a barrier whose width is half that of the superlattice barriers, coherent non‑equilibrium Green's function (NEGF) quantum transport calculations for a representative transverse mode with transverse mode energy E_{t}=0.1 eV show that the transmission spectrum of the structure is modified from a set of narrow resonant transmission peaks (the resonances of the bare superlattice) into a broadened continuous band‑pass transmission window within the miniband; in other words, the ARR design acts as an electronic analog of an optical anti‑reflection coating and produces a broadened band of high electronic transmission instead of isolated narrow resonances.",
+        "content_hash": "9fc3f8d3dc1447c284e0ec3c8212c211a023a01866b7d21ad492e42d08fddfe1",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_0a57b055bee84010",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867768127872565947::conclusion_2",
+            "package_id": "paper:867768127872565947",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867768127872565947"
+          ]
+        },
+        "rerank_score": 0.5784144529685981,
+        "role": "conclusion",
+        "score": 0.011235955056179775,
+        "title": "Anti‑reflective terminations broaden superlattice resonances into a band‑pass window",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Nonequilibrium Green's-function (NEGF) quantum-transport calculations for a model two-terminal device geometry predict that, at energies close to the Fermi energy E_F, the number of conducting transmission eigenchannels is zero for majority-spin carriers and two to three for minority-spin carriers, so that the computed quantum transmission corresponds to an electrical conductance that is fully spin polarized (100% spin polarization) near E_F; this transmission spectrum therefore implies that the polymer, in the coherent ballistic transport regime assumed by the calculations, can act as a perfect spin filter.",
+        "content_hash": "466bcd99d9257df8c4607c06988bce855f8f9a46e2435c05ceb0a3b7157375b9",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_12718e92788a4738",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:811741739021762560::conclusion_2",
+            "package_id": "paper:811741739021762560",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:811741739021762560"
+          ]
+        },
+        "rerank_score": 0.6031716016534464,
+        "role": "conclusion",
+        "score": 0.014492753623188406,
+        "title": "NEGF quantum-transport prediction of fully spin-polarized conductance near the Fermi level",
+        "type": "claim",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "req_139ebcf384243"
+}

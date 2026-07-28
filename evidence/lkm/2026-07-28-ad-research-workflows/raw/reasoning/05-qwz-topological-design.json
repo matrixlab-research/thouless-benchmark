@@ -1,0 +1,138 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "A top-down, inverse design method based on density-based topology optimization is introduced for synthesizing acoustic topological insulators. The approach directly targets backscattering-protected, directional energy transport by maximizing transmission to two output ports and minimizing transmission to a third, without imposing any explicit requirements on the existence of pseudospin-1/2 edge states, the Chern numbers of the topological phases, or band symmetry inversion. These topological properties emerge spontaneously during the optimization process.",
+      "content_hash": "ce0696324239999aa4b7c48e28a5ef506b4171c90610e6f1ee0a5c780d42c680",
+      "id": "gcn_9da619e467814f8e",
+      "type": "claim"
+    },
+    "papers": {
+      "paper:817342761018589185": {
+        "area": "Physics and Astrophysics, Physical Sciences, Condensed Matter Physics",
+        "author_details": [
+          {
+            "origin_name": "Rasmus E. Christiansen"
+          },
+          {
+            "origin_name": "Fengwen Wang"
+          },
+          {
+            "origin_name": "Ole Sigmund"
+          }
+        ],
+        "authors": "Rasmus E. Christiansen | Fengwen Wang | Ole Sigmund",
+        "authors_list": [
+          "Rasmus E. Christiansen",
+          "Fengwen Wang",
+          "Ole Sigmund"
+        ],
+        "available_online": "",
+        "cover_date_start": "2019-10-07",
+        "created_at": "2023-01-04T02:28:22+08:00",
+        "doi": "10.1103/PhysRevLett.122.234502",
+        "en_title": "Topological Insulators by Topology Optimization",
+        "id": "817342761018589185",
+        "impact_factor": 9,
+        "impact_score": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_cover": "https://icon.bohrium.com/journal/484.png",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ ",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "基于拓扑优化的拓扑绝缘体"
+      }
+    },
+    "reasoning_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "A top-down, inverse design method based on density-based topology optimization is introduced for synthesizing acoustic topological insulators. The approach directly targets backscattering-protected, directional energy transport by maximizing transmission to two output ports and minimizing transmission to a third, without imposing any explicit requirements on the existence of pseudospin-1/2 edge states, the Chern numbers of the topological phases, or band symmetry inversion. These topological properties emerge spontaneously during the optimization process.",
+              "id": "gcn_9da619e467814f8e",
+              "metadata": "{\"narrative\": \"The main risk for Conclusion 1 is that the method's generality is unconfirmed (P1) and that the objective function does not guarantee a topological output (P2). P2 is the more severe weak point: if a different instance of the optimization converges to a non-topological local minimum, the claim that the method \\\"synthesizes TIs\\\" would be contingent on tuning. H1 partially offsets P2 by demonstrating that for the presented case the optimization did converge to a TI with all the topological hallmarks, but this does not protect against P2's failure in other cases. P1 limits the scope of the method to the single demonstrated parameter set. Overall, the conclusion that the method works in general is only weakly supported; the stronger conclusion is that it worked for this particular design.\", \"keywords\": [\"topology optimization\", \"inverse design\", \"backscattering protection\", \"no explicit topological constraints\"], \"structural_edges\": [{\"target\": \"paper:817342761018589185::conclusion_2\", \"type\": \"supports\"}, {\"target\": \"paper:817342761018589185::conclusion_3\", \"type\": \"supports\"}, {\"target\": \"paper:817342761018589185::conclusion_4\", \"type\": \"supports\"}, {\"target\": \"paper:817342761018589185::conclusion_5\", \"type\": \"supports\"}]}",
+              "title": "Inverse design method for acoustic TIs"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_281d28486434450f",
+            "premises": [
+              {
+                "content": "The inverse design method consists of a density-based topology optimization over two hexagonal periodic domains with C3v symmetry, using a single target frequency f0 = 20 kHz, a specific initial guess (a crystal with a bulk band gap at f0), and fixed constraint parameters (γ1 = 0.04, γ2 = 0.3, γ3 = 1.7). The optimization has been performed only for these settings; no validation exists for other target frequencies, lattice symmetries, constraint values, or initial guesses. Additionally, no theoretical proof guarantees that the optimization converges to a topological insulator for arbitrary inputs.",
+                "id": "gcn_b0db9956d96b4de9",
+                "metadata": "{\"weak_types\": [\"generalization\", \"model\"], \"weakness_reason\": \"The method is claimed to be \\\"trivially extendable,\\\" but the burden of proof for a general design methodology requires testing across a representative set of conditions. The demonstration is a single point in a high-dimensional design space (frequency, symmetry, initial guess, constraints). Competing approaches (He et al., 2016) also succeeded for one set of parameters; the advantage claimed here is methodological generality. Without multiple validations, there is no evidence that the optimizer will produce a TI for other frequencies (e.g., lower frequencies where Helmholtz model validity changes), other lattice symmetries (e.g., square lattice), or other initial guesses (e.g., one with no initial bulk band gap). The interpolation power (exponent 6 in Eq. 2) and filtering/projection parameters further contribute to model dependence.\", \"failure_mode\": \"If the method fails to produce a TI for other target frequencies, lattice symmetries, or initial guesses \\u2014 which is plausible given the sensitivity of topology optimization to these choices \\u2014 then the conclusion that the method \\\"synthesizes acoustic TIs\\\" would be narrowed to a specific, possibly nonrobust set of conditions. The claim of a widely applicable top-down design procedure over intuition-based band engineering would be substantially weakened, reducing to a single case study rather than a general methodology.\"}",
+                "title": "Inverse design method tested only for a specific set of parameters"
+              },
+              {
+                "content": "The optimization objective maximizes transmission into ports P2 and P4 (the two output ports, measured by integrated intensities Φ_Max1 and Φ_Max2) and minimizes transmission into port P3 (the third output port, measured by integrated intensity Φ_Min), subject to a bulk band gap constraint (Φ_BG ≤ γ1, where Φ_BG is the integrated field intensity over the bulk regions) and a transmission ratio constraint (γ2 < Φ_Max1/Φ_Max2 < γ3). There is no mathematical proof that any solution satisfying these constraints necessarily constitutes a topological insulator (e.g., supports pseudospin-1/2 edge states with band inversion). A non-topological waveguide (e.g., a narrow channel with impedance mismatch, or a conventional defect waveguide) could also transmit energy directionally with low backscattering.",
+                "id": "gcn_ad8542d54c3a4126",
+                "metadata": "{\"weak_types\": [\"model\", \"formal\"], \"weakness_reason\": \"The paper argues that topological features \\\"appear spontaneously\\\" and shows that for this one design they did. However, the objective function is purely phenomenological (targeting transmission) and does not encode any topological invariant. Many systems exhibit low backscattering without being topological (e.g., adiabatic tapers, high-contrast waveguides). Without a formal link between the optimization problem and the emergence of edge states, it is possible that other local minima of the objective function correspond to non-topological designs. Indeed, the initial guess (Fig. 2(a)) had a bulk band gap but exhibited no directional transport (Fig. 2(c)); the optimizer moved away from that local minimum to find the TI. But there may be other local minima that are non-topological yet satisfy the constraints.\", \"failure_mode\": \"If a different initial guess or small perturbation of constraint parameters leads the optimizer to a non-topological local minimum meeting the objective, then the claim that the method \\\"synthesizes TIs\\\" would be contingent on careful initialization and parameter tuning, reducing its advertised advantage over intuition-based approaches. The spontaneous emergence of topological features would no longer be a robust property of the method but an artifact of the specific design choices.\"}",
+                "title": "Optimization objective does not guarantee a topological insulator"
+              },
+              {
+                "content": "For the optimized TI design (Fig. 2(b)), the supercell band structure (Fig. 3(b)) computed using periodic boundary conditions reveals two edge-state bands (colored red and blue in Fig. 3(b)) that cross at k∥≈0.12 (in units of π/a) and connect the upper (bands 4&5) and lower (bands 2&3) bulk bands across a bulk gap extending from ≈18 to ≈20.4 kHz. The eigenmodes at f0 = 20 kHz (Figs. 3(d), 3(e)) show circulating pressure patterns with opposite chirality on opposite sides of the interface, consistent with pseudospin-1/2 edge states. The bulk band structures of the two phases (Fig. 3(f)) each exhibit degeneracies at the Γ point for bands 2&3 and 4&5, indicating band inversion typical of a topological phase transition.",
+                "id": "gcn_9bdbcb96bd5a4f3b",
+                "metadata": "{\"role\": \"highlight\", \"conclusion_id\": \"1\", \"strength_types\": [\"measurement\", \"formal\"], \"credit\": \"This band-structure analysis guards against the failure mode that the optimized structure achieves directional transport via a non-topological mechanism (e.g., a conventional waveguide effect). By showing crossing edge bands, degeneracies at \\u0393, and circulating eigenmodes, the evidence underwrites the claim that the optimization spontaneously converged to a topological insulator. The scope of credit is qualitative direction and mechanism: the structure is indeed a TI, not merely a waveguide. Without this analysis, the \\\"spontaneous emergence\\\" claim would be speculation.\"}",
+                "title": "Spontaneous emergence of topological band structure validated"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "The authors identify that existing design approaches for acoustic topological insulators (TIs) are based on intuition and bottom-up band-structure engineering. Such approaches do not consider the finite size of the physical structure, disregard the coupling of energy into and out of the TI, and are fundamentally incapable of producing globally optimal designs, leaving a large performance potential untapped.",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "To overcome these limitations, the authors propose a fundamentally different, top-down approach based on inverse design. The approach directly targets backscattering-protected, directional energy transport without imposing any explicit requirements on the existence of pseudospin-1/2 edge states, the Chern numbers of the topological phases, or band symmetry inversion in reciprocal space. These properties are expected to appear spontaneously during the design process.",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "The model domain is configured. An air region $\\Omega_A$ is surrounded by a perfectly matched layer $\\Omega_{\\text{PML}}$ to absorb outgoing waves. A hexagonally shaped design domain is placed inside $\\Omega_A$ and partitioned into two subdomains, $\\Omega_{\\text{dR},1}$ and $\\Omega_{\\text{dR},2}$, which contain two different periodic structures. The slab is illuminated by a monopolar point source $\\mathbf{P}_S$ placed in the focal point of a perfectly reflecting parabolic reflector, where the Neumann boundary condition $\\mathbf{n}\\cdot\\nabla\\Psi(\\mathbf{r})=0$ holds for all $\\mathbf{r}$ on the reflector surface $\\Gamma_R$.\nFig. 1(c)",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "The fundamental goal is directional and confined energy transport. This is achieved by targeting the transmission characteristics of a structure composed of two geometrically independent periodic bulk domains. By inserting a field at port $P1$, maximizing transmission at ports $P2$ and $P4$, and minimizing transmission at port $P3$, the authors effectively obtain modes that can propagate in directions where medium 1 is on the right-hand side and medium 2 is on the left-hand side, i.e., directional and hence backscattering-protected energy transport.\nFig. 1(d)",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "The physics is modeled using a Helmholtz-type equation:\n$$\n\\nabla \\cdot \\left(C_{1} \\frac{\\omega_{0}-i c \\alpha}{\\omega_{0}} \\nabla \\Psi\\right) + C_{2} \\frac{\\left(\\omega_{0}-i c \\alpha\\right)^{3}}{\\omega_{0}} \\Psi = -\\mathbf{P}_{S},\n$$\nwhere $C_1(\\mathbf{r})$ and $C_2(\\mathbf{r})$ are material-dependent parameters, $i$ is the imaginary unit, $\\alpha(\\mathbf{r})$ is an attenuation parameter, $\\omega_0=2\\pi f_0$ is the free-space angular frequency, $c$ is the free-space wave speed, $\\Psi(\\mathbf{r})$ is the state field (sound pressure $p$), and $\\mathbf{r}$ is the spatial position. For the acoustic case, $\\{C_1, C_2\\} = \\{(1/\\rho), (1/\\kappa)\\}$, where $\\rho$ and $\\kappa$ are the density and bulk modulus, respectively. Material parameters for air and aluminium are used. The impedance contrast between the two ensures that vibrations excited in the solid are negligible.\n[31][32][33]",
+                "step_id": "5"
+              },
+              {
+                "reasoning": "The design problem is formulated as a continuous constrained optimization problem solved using density-based topology optimization. A spatial design field $\\xi(\\mathbf{r}) \\in [0,1]$ for all $\\mathbf{r} \\in \\Omega_{\\text{dR},1} \\cup \\Omega_{\\text{dR},2}$ is introduced to control the periodic material distributions in $\\Omega_{\\text{dR},1}$ and $\\Omega_{\\text{dR},2}$. The material parameters $C_1$ and $C_2$ are interpolated between the air and aluminium values using the power-law:\n$$\nC_i^{-1}(\\mathbf{r}) = C_{i,\\text{air}}^{-1} + \\xi(\\mathbf{r})^{6} \\left( C_{i,\\text{aluminium}}^{-1} - C_{i,\\text{air}}^{-1} \\right), \\quad i \\in \\{1,2\\}.\n$$\n[23][24]",
+                "step_id": "6"
+              },
+              {
+                "reasoning": "The base design cells are defined, and $C3v$ symmetry is imposed on both base cells. The content of each base cell is duplicated throughout $\\Omega_{\\text{dR},1}$ and $\\Omega_{\\text{dR},2}$ to construct the material distributions (topological phases).\nFig. 1(b)",
+                "step_id": "7"
+              },
+              {
+                "reasoning": "The optimization problem is stated as:\n$$\n\\max_{\\xi(\\mathbf{r}) \\in [0,1]} \\Phi_{\\text{Total}}(\\xi) = \\sum_{i=1}^{3} \\Phi_{\\text{Max}_i}(\\xi) - \\Phi_{\\text{Min}}(\\xi),\n$$\nsubject to:\n$$\n\\Phi_{\\text{BG}}(\\xi) \\leq \\gamma_1,\n$$\n$$\n\\gamma_2 < \\Phi_{\\text{Max}_1}(\\xi) / \\Phi_{\\text{Max}_2}(\\xi) < \\gamma_3,\n$$\nwhere $\\Phi_{\\text{Total}}$ is the objective function, and $\\Phi_{\\star}$ for $\\star \\in \\{\\text{Max}_j, \\text{Min}, \\text{BG}\\}$ is defined as:\n$$\n\\Phi_{\\star}(\\xi) = \\tau_{\\star} \\int_{\\Omega_{\\star}} |I(\\Psi(\\xi))| d\\mathbf{r} \\bigg/ \\int_{\\Omega_{\\star}} d\\mathbf{r},\n$$\nwith $I$ being the field intensity, $\\tau_{\\star}$ scaling constants, and $\\Omega_{\\star}$ the integration domains corresponding to ports $P2$, $P4$, $P3$, and the bulk region respectively. The constants $\\gamma_j > 0$ control the constraints.",
+                "step_id": "8"
+              },
+              {
+                "reasoning": "The objective $\\Phi_{\\text{Total}}$ maximizes the energy transmitted into $\\Omega_{\\text{Max}_1}$ (port $P2$) and $\\Omega_{\\text{Max}_2}$ (port $P4$) while simultaneously minimizing energy transmitted into $\\Omega_{\\text{Min}}$ (port $P3$). To maximize $\\Phi_{\\text{Total}}$, any field emitted by $P_S$ that propagates along the interface between $\\Omega_{\\text{dR},1}$ and $\\Omega_{\\text{dR},2}$ must keep $\\Omega_{\\text{dR},1}$ on its right-hand side and $\\Omega_{\\text{dR},2}$ on its left-hand side at all times, thereby promoting backscattering-protected transport. The constraint $\\Phi_{\\text{BG}} \\leq \\gamma_1$ ensures that a bulk band gap exists in both topological phases. The constraint on the ratio $\\Phi_{\\text{Max}_1} / \\Phi_{\\text{Max}_2}$ controls the intensity distribution between the two output ports.",
+                "step_id": "9"
+              },
+              {
+                "reasoning": "The design problem is implemented and solved in COMSOL MULTIPHYSICS 5.3 using the globally convergent method of moving asymptotes to solve the optimization problem. The objective function gradients are calculated using adjoint sensitivity analysis. A physically admissible final design, consisting solely of solid and air and free of numerical artifacts, is assured using a projection and filtering procedure.\n[34][35][36]",
+                "step_id": "10"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "In designing acoustic topological insulators, the conventional methodology is a bottom-up approach that starts from band structure engineering: a unit cell with specific symmetry and accidental degeneracy (e.g., a double Dirac cone at the Brillouin zone center) is sought, and then the topological phase transition is induced by breaking that symmetry (e.g., by deforming the unit cell). This approach relies heavily on physical intuition and parametric sweeps, and it does not incorporate the finite-size effects of a realistic waveguide or the coupling of incident waves into the edge states. As a result, such designs are not systematically optimized for practical performance metrics such as transmission efficiency from a source to output ports; the design space remains limited by the initial guess. Consequently, the achieved operational bandwidth and transmission are likely not maximal, and there is no guarantee that the designed TI will perform optimally under realistic excitation and termination conditions. There was a need for a design methodology that could directly maximize the desired transport properties while allowing the underlying topological structure to emerge naturally.",
+            "id": "paper:817342761018589185::conclusion_1_subproblem",
+            "source_package": "paper:817342761018589185"
+          }
+        ],
+        "source_package": "paper:817342761018589185"
+      }
+    ],
+    "total_chains": 1
+  },
+  "trace_id": "req_71b1886346a01"
+}

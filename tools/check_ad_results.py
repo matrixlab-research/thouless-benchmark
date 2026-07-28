@@ -74,6 +74,11 @@ def main() -> int:
                 f"{record['backend']}/{record['case_id']} lacks passing AD gates: "
                 f"{missing}"
             )
+        if result["metrics"].get("physical_model") != case["physical_system"]:
+            raise ValueError(
+                f"{record['backend']}/{record['case_id']} did not report the "
+                "frozen physical system"
+            )
         if result["backend_version"] != "237f544c497e89cd99dedd68f16e399bc9980987":
             raise ValueError("AD result is not pinned to the merged native AD revision")
 

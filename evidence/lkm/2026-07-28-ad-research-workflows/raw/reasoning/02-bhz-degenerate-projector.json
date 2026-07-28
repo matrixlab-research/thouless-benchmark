@@ -1,0 +1,156 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "A computational procedure is used and validated whereby the calculated Bloch wavefunction $|\\phi\\rangle$ is projected onto spin and site-resolved orbital bases to compute coefficients $C_{i,l,m,\\eta}=\\langle\\phi|(\\varsigma_{\\eta}\\otimes |l,m\\rangle_{ii}\\langle l,m|)|\\phi\\rangle$ and then summed over the atomic sites belonging to a chosen real-space sector; such sector-resolved spin projections reveal that Kramers-degenerate bands can have their two degenerate branches localized on distinct real-space sectors, each carrying opposite spin polarization. Applying this projection enables visualization and quantification of R-2 (compensated Rashba-type) and D-2 (compensated Dresselhaus-type) textures even though the bands remain globally doubly degenerate.",
+      "content_hash": "c673934655ebb44e3f0aae1a4b2a4868684a9f753c6dc710a9e659a9b94f98f1",
+      "id": "gcn_00da49cbfa6c47d6",
+      "type": "claim"
+    },
+    "papers": {
+      "paper:813147782394150913": {
+        "area": "Physics and Astrophysics, physics, multidisciplinary",
+        "author_details": [
+          {
+            "affiliation": "Renewable and Sustainable Energy Institute,University of Colorado",
+            "affiliation_zh": "科罗拉多大学可再生与可持续能源研究所",
+            "author_id": "066EO9g1",
+            "avatar": "https://cdn1.deepmd.net/static/img/60273b19TgcWtsgAAAAJ.png",
+            "citation_nums": 14941,
+            "h_index": 52,
+            "is_high_cited": true,
+            "name": "Xiuwen Zhang",
+            "origin_name": "Xiuwen Zhang"
+          },
+          {
+            "affiliation": "Southern University of Science and Technology",
+            "affiliation_zh": "南方科技大学",
+            "author_id": "Y601t5E7",
+            "avatar": "https://cdn1.deepmd.net/static/img/01e626677xSacYQAAAAJ.png",
+            "citation_nums": 11461,
+            "h_index": 51,
+            "is_high_cited": true,
+            "name": "Qihang Liu",
+            "origin_name": "Qihang Liu"
+          },
+          {
+            "affiliation": "Institute of Semiconductors,Chinese Academy of Sciences",
+            "affiliation_zh": "中国科学院半导体研究所",
+            "author_id": "j160A17J",
+            "avatar": "https://cdn1.deepmd.net/static/img/a536f22eeO8iG5QAAAAJ.png",
+            "citation_nums": 5722,
+            "h_index": 39,
+            "is_high_cited": true,
+            "name": "Jun-Wei Luo",
+            "origin_name": "Jun-Wei Luo"
+          },
+          {
+            "origin_name": "Arthur J. Freeman"
+          },
+          {
+            "affiliation": "University of Colorado Boulder;Renewable and Sustainable Energy Institute",
+            "affiliation_zh": "科罗拉多大学博尔德分校可再生与可持续能源研究所",
+            "author_id": "0Y953DuK",
+            "avatar": "https://cdn1.deepmd.net/static/img/569604bf9I1Ner8AAAAJ.png",
+            "citation_nums": 137815,
+            "h_index": 166,
+            "is_high_cited": true,
+            "name": "Alex Zunger",
+            "origin_name": "Alex Zunger"
+          }
+        ],
+        "authors": "Xiuwen Zhang | Qihang Liu | Jun-Wei Luo | Arthur J. Freeman | Alex Zunger",
+        "authors_list": [
+          "Xiuwen Zhang",
+          "Qihang Liu",
+          "Jun-Wei Luo",
+          "Arthur J. Freeman",
+          "Alex Zunger"
+        ],
+        "available_online": "2014-4-13",
+        "citation_nums": 5,
+        "cover_date_start": "2014-04-13",
+        "created_at": "2022-12-23T12:38:59+08:00",
+        "doi": "10.1038/nphys2933",
+        "en_abstract": "Spin–orbit coupling can induce spin polarization in nonmagnetic 3D crystals when the inversion symmetry is broken, as manifested by the bulk Rashba and Dresselhaus effects. We establish that these spin-polarization effects originate fundamentally from specific atomic site asymmetries, rather than, as generally accepted, from the asymmetry of the crystal space group. This understanding leads to the recognition that a previously overlooked hidden form of spin polarization should exist in centrosymmetric crystals. Although all energy bands must be doubly degenerate in centrosymmetric materials, we find that the two components of such doubly degenerate bands could have opposite polarizations, each spatially localized on one of the two separate sectors forming the inversion partners. We demonstrate such hidden spin polarizations in particular centrosymmetric crystals by first-principles calculations. This new understanding could considerably broaden the range of currently useful spintronic materials and enable the control of spin polarization by means of operations on the atomic scale.",
+        "en_title": "Hidden spin polarization in inversion-symmetric bulk crystals",
+        "id": "813147782394150913",
+        "impact_factor": 18.4,
+        "impact_score": 18.3,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "open_access": false,
+        "paper_url": "https://www.nature.com/articles/nphys2933",
+        "pdf_flag": false,
+        "publication_cover": "https://icon.bohrium.com/journal/470.png",
+        "publication_date": "2014-5",
+        "publication_id": "470",
+        "publication_name": "Nature Physics _ Nature Phys",
+        "research_categories": "",
+        "zh_abstract": "当反演对称性被打破时，自旋 - 轨道耦合可以在非磁性三维晶体中诱导自旋极化，这表现为体Rashba效应和Dresselhaus效应。我们确定，这些自旋极化效应从根本上源于特定的原子位点不对称性，而不是像普遍认为的那样，源于晶体空间群的不对称性。这种理解使人们认识到，在中心对称晶体中应该存在一种以前被忽视的隐藏形式的自旋极化。尽管在中心对称材料中所有能带必然是双重简并的，但我们发现这种双重简并能带的两个分量可以具有相反的极化，每个极化在空间上局域在形成反演伙伴的两个单独扇区之一上。我们通过第一性原理计算在特定的中心对称晶体中证明了这种隐藏的自旋极化。这种新的理解可以大大拓宽当前有用的自旋电子材料的范围，并能够通过原子尺度的操作来控制自旋极化。 ",
+        "zh_title": "反演对称体晶体中的隐藏自旋极化"
+      }
+    },
+    "reasoning_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "A computational procedure is used and validated whereby the calculated Bloch wavefunction $|\\phi\\rangle$ is projected onto spin and site-resolved orbital bases to compute coefficients $C_{i,l,m,\\eta}=\\langle\\phi|(\\varsigma_{\\eta}\\otimes |l,m\\rangle_{ii}\\langle l,m|)|\\phi\\rangle$ and then summed over the atomic sites belonging to a chosen real-space sector; such sector-resolved spin projections reveal that Kramers-degenerate bands can have their two degenerate branches localized on distinct real-space sectors, each carrying opposite spin polarization. Applying this projection enables visualization and quantification of R-2 (compensated Rashba-type) and D-2 (compensated Dresselhaus-type) textures even though the bands remain globally doubly degenerate.",
+              "id": "gcn_00da49cbfa6c47d6",
+              "metadata": "{\"narrative\": \"The wavefunction-sector projection method is essential for revealing the R-2 and D-2 textures, but its validation is weak. The single premise (P14) identifies sensitivity to Wigner\\u2013Seitz radii and angular-momentum basis as a load-bearing uncertainty: if the projection is not robust, all the sector-resolved visualizations in the paper become questionable. The paper provides no convergence tests or cross-checks against alternative projection schemes (e.g., Bader volumes, Hirshfeld charges, real-space grid integration). No highlight speaks to this\\u2014the method is simply presented, not validated. The conclusion therefore has moderate credibility: the method is physically reasonable and likely correct in broad strokes, but the lack of sensitivity analysis means one cannot assess how reliably the sector assignments reproduce with different computational parameters.\", \"structural_edges\": [{\"target\": \"paper:813147782394150913::conclusion_4\", \"type\": \"supports\"}, {\"target\": \"paper:813147782394150913::conclusion_5\", \"type\": \"supports\"}, {\"target\": \"paper:813147782394150913::conclusion_6\", \"type\": \"supports\"}]}",
+              "title": "Wavefunction-sector projection method to reveal spatially segregated spin textures in degenerate bands"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_852960365ccb4fab",
+            "premises": [
+              {
+                "content": "The projection of the Bloch wavefunction onto site-centered atomic orbital basis sets $|l,m\\rangle_i$ with the standard Wigner–Seitz radii from the Vienna Ab-initio Simulation Package (VASP) projector-augmented wave (PAW) datasets yields spin coefficients $C_{i,l,m,\\eta}$ that are quantitatively stable with respect to small changes in the Wigner–Seitz radius values, the choice of PAW dataset, and the set of angular momentum channels included; the sector-summed spin polarization directions and magnitudes are robust to these choices.",
+                "id": "gcn_3f50ebc7d30244ae",
+                "metadata": "{\"weak_types\": [\"computational\", \"measurement\"], \"weakness_reason\": \"The paper does not report any convergence tests for the projection method. It uses the default Wigner\\u2013Seitz radii from VASP pseudopotentials without exploring how the results change when these radii are varied (e.g., \\u00b110%). The set of |l,m\\u27e9 projectors included in the PAW dataset is fixed; for delocalized states, significant spin density may exist in interstitial regions not captured by any atomic sphere, or in higher angular momentum channels not present in the PAW. The paper acknowledges the need for advanced methods, implying the current approach is provisional.\", \"failure_mode\": \"If the sector-resolved spin projection is sensitive to the Wigner\\u2013Seitz radius or angular-momentum basis, then the visualizations of opposite spin polarization on \\u03b1 and \\u03b2 sectors (the key evidence for R-2/D-2) could be quantitatively or even qualitatively unreliable\\u2014for example, they could overstate the degree of localization or the direction of the spin vector. The sector-projection method would then not constitute a validated tool for revealing hidden spin textures, weakening the core empirical support for the existence of R-2 and D-2.\"}",
+                "title": "Robustness of the site-centered atomic-orbital projection to computational parameters"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Define the calculated Bloch wavefunction $|\\phi\\rangle$ as the single-particle Kohn–Sham state obtained from density functional theory (DFT) calculations; define an atomic-site orbital basis $|l,m\\rangle_{i}$ as the angular-momentum eigenstate with orbital quantum number $l$ and magnetic quantum number $m$ on atomic site $i$; define the spin projector operators $\\varsigma_{\\eta}$ where $\\eta$ labels spin direction components (for example, spin up/down along a chosen axis). The projection coefficient $C_{i,l,m,\\eta}$ is defined by the expectation value $C_{i,l,m,\\eta} = \\langle \\phi | (\\varsigma_{\\eta} \\otimes |l,m\\rangle_{ii}\\langle l,m|) | \\phi \\rangle$, which yields the contribution of orbital $|l,m\\rangle_{i}$ and spin component $\\eta$ to the Bloch state $|\\phi\\rangle$.",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Explain that summing $C_{i,l,m,\\eta}$ over the set of atomic sites $i$ that belong to a chosen real-space sector (defined as a collection of atoms forming a physically meaningful domain such as a single layer, denoted $\\alpha$ or $\\beta$) and over orbital indices $l,m$ yields the sector-resolved spin projection for that spin component $\\eta$; this summation procedure produces a quantitative measure of how much of the Bloch state's spin character resides on a particular spatial sector. The authors implement this by summing the coefficients for the given spin direction across the atomic sites belonging to the sector.",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "State that the projection procedure allows one to distinguish the two Kramers-degenerate branches of a doubly-degenerate band by their spatial localization: by applying the projection separately to the two degenerate wavefunctions (or to an orthogonal pair constructed as linear combinations), one can find that one branch localizes predominantly on one real-space sector while the other localizes on the inversion-partner sector, and that these two branches carry opposite spin polarizations when resolved onto those sectors; thus the projection exposes spatially segregated, opposite spin textures even though the bands are globally energetically degenerate. The authors assert this behavior and demonstrate it for specific materials. Fig. 3Fig. 4",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Provide the explicit computational context in which this projection is carried out: the band-structure and wavefunctions $|\\phi\\rangle$ are computed with first-principles DFT using the projector-augmented wave (PAW) method and Perdew–Burke–Ernzerhof exchange-correlation functional as implemented in the VASP code; spin-orbit coupling is included via a perturbation term $\\sum_{i,l,m} V_{i}^{\\text{SO}} \\mathbf{L}\\cdot\\mathbf{S}\\,|l,m\\rangle_{ii}\\langle l,m|$, where $V_{i}^{\\text{SO}}$ is the site-dependent spin-orbit potential and $\\mathbf{L}\\cdot\\mathbf{S}$ is the orbital–spin coupling operator; these methodological details place the projection in a concrete numerical framework. [23][24][25][26][29]",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "Note that the authors construct atomic orbital projectors using Wigner–Seitz radii from the chosen pseudopotentials (the numerical parameters used to construct $|l,m\\rangle_{i}$) and state that in future work they will extend the projection to arbitrary-shaped volumes; this clarifies that the present projections are atomic-site based and rely on the specific PAW projector definitions provided by the computational implementation. [26]",
+                "step_id": "5"
+              },
+              {
+                "reasoning": "Summarize the methodological conclusion: projecting calculated Bloch wavefunctions onto spin and site-resolved orbital bases by computing $C_{i,l,m,\\eta}=\\langle \\phi | (\\varsigma_{\\eta} \\otimes |l,m\\rangle_{ii}\\langle l,m|) | \\phi \\rangle$ and then summing over atomic sites belonging to a chosen real-space sector yields sector-resolved spin projections that reveal whether degenerate bands have their two degenerate branches localized on distinct real-space sectors with opposite spin polarization; this procedure thereby enables visualization and quantification of hidden (compensated) R-2 and D-2 textures even when bands remain globally doubly degenerate. Fig. 3Fig. 4",
+                "step_id": "6"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "The methodological obstacle was that energetic double degeneracy (enforced by time-reversal and inversion symmetry) typically masks any spin character when one inspects only total-cell-averaged spin expectation values. There was a need for a sector-resolved projection technique that respects the wavefunction structure and reveals hidden, spatially segregated spin polarizations. The described projection procedure resolves that limitation by attributing spin expectation values to physically meaningful real-space sectors composed of groups of atomic sites, thus transforming a formal degeneracy into experimentally and computationally accessible local spin information.",
+            "id": "paper:813147782394150913::conclusion_8_subproblem",
+            "source_package": "paper:813147782394150913"
+          }
+        ],
+        "source_package": "paper:813147782394150913"
+      }
+    ],
+    "total_chains": 1
+  },
+  "trace_id": "req_02336836d0b1d"
+}

@@ -1,0 +1,649 @@
+{
+  "code": 0,
+  "data": {
+    "has_more": true,
+    "papers": {
+      "paper:1004995936662847499": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Lizhou Liu | Jiaqi An | Yafei Ren | Yingtao Zhang | Zhenhua Qiao | Qian Niu",
+        "available_online": "",
+        "cover_date_start": "2024-06-03",
+        "created_at": "1970-01-01T08:00:00+08:00",
+        "doi": "10.48550/arxiv.2406.01037",
+        "en_title": "Engineering second-order topological insulators via coupling two first-order topological insulators",
+        "id": "1004995936662847499",
+        "keywords": "",
+        "publication_date": "2024-06-03",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "通过耦合两个一阶拓扑绝缘体来构建二阶拓扑绝缘体"
+      },
+      "paper:1122291796349550627": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Srijata Lahiri | Kuntal Bhattacharyya | Saurabh Basu",
+        "available_online": "",
+        "cover_date_start": "2025-04-23",
+        "created_at": "2026-06-19T05:06:04+08:00",
+        "doi": "10.48550/arxiv.2504.16674",
+        "en_title": "Emergent topological phases and coexistence of gapless and spectral-localized Floquet quantum spin Hall states via electron-phonon interaction",
+        "id": "1122291796349550627",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "通过电子 - 声子相互作用产生的拓扑相以及无能隙和光谱局域化的弗洛凯量子自旋霍尔态的共存"
+      },
+      "paper:1218614740494843926": {
+        "area": "arxiv-physics",
+        "authors": "Liren Chen | Jingming Chen | Zhen Gao",
+        "available_online": "",
+        "cover_date_start": "2026-01-14",
+        "created_at": "2026-06-15T06:13:39+08:00",
+        "doi": "10.48550/arXiv.2601.09134",
+        "en_title": "Higher-order Topological Type-II Hyperbolic Lattices",
+        "id": "1218614740494843926",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108520",
+        "publication_name": "Optics",
+        "research_categories": "",
+        "zh_title": "高阶拓扑II型双曲晶格"
+      },
+      "paper:1229522869680078848": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Andrea Vezzosi | Andrea Bertoni | Marco Gibertini | Guido Goldoni",
+        "available_online": "",
+        "cover_date_start": "2024-08-30",
+        "created_at": "2026-06-14T17:59:20+08:00",
+        "doi": "10.48550/arXiv.2409.00274",
+        "en_title": "Spin-orbit control of Dirac points and end states in inverted gap nanowires",
+        "id": "1229522869680078848",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics",
+        "research_categories": "",
+        "zh_title": "反带隙纳米线中狄拉克点和端态的自旋轨道控制"
+      },
+      "paper:812835019780259840": {
+        "area": "comprehensive periodical, multidisciplinary sciences",
+        "authors": "Yuan Li | Yong Sun | Weiwei Zhu | Zhiwei Guo | Jun Jiang | Toshikaze Kariyado | Hong Chen | Xiao Hu",
+        "available_online": "2018-11-2",
+        "cas_zone": "1",
+        "cover_date_start": "2018-11-02",
+        "created_at": "2026-05-16T17:42:21+08:00",
+        "doi": "10.1038/s41467-018-07084-2",
+        "en_title": "Topological LC-circuits based on microstrips and observation of electromagnetic modes with orbital angular momentum",
+        "id": "812835019780259840",
+        "impact_factor": 15.5,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2018-12",
+        "publication_id": "10026",
+        "publication_name": "Nature Communications _ Nat Commun",
+        "research_categories": "",
+        "zh_title": "基于微带线的拓扑LC电路以及具有轨道角动量的电磁模式观测"
+      },
+      "paper:813147782394150913": {
+        "area": "physics and astrophysics, physics, multidisciplinary",
+        "authors": "Xiuwen Zhang | Qihang Liu | Jun-Wei Luo | Arthur J. Freeman | Alex Zunger",
+        "available_online": "2014-4-13",
+        "cas_zone": "1",
+        "cover_date_start": "2014-04-13",
+        "created_at": "2026-06-14T21:31:09+08:00",
+        "doi": "10.1038/nphys2933",
+        "en_title": "Hidden spin polarization in inversion-symmetric bulk crystals",
+        "id": "813147782394150913",
+        "impact_factor": 18.3,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2014-5",
+        "publication_id": "470",
+        "publication_name": "Nature Physics _ Nature Phys",
+        "research_categories": "",
+        "zh_title": "反演对称体晶体中的隐藏自旋极化"
+      },
+      "paper:813310596584833024": {
+        "area": "physics and astrophysics, physical sciences, condensed matter physics, quantum physics",
+        "authors": "Huichao Li | L. Sheng | D. Y. Xing",
+        "available_online": "2012-5-10",
+        "cas_zone": "1",
+        "cover_date_start": "2012-05-10",
+        "created_at": "2026-06-17T03:16:53+08:00",
+        "doi": "10.1103/physrevlett.108.196806",
+        "en_title": "Connection of Edge States to Bulk Topological Invariance in a Quantum Spin Hall State",
+        "id": "813310596584833024",
+        "impact_factor": 9.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "484",
+        "publication_name": "Physical Review Letters _ Phys. Rev. Lett.",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "量子自旋霍尔态中边缘态与体拓扑不变性的联系"
+      },
+      "paper:833292067986735104": {
+        "area": "physics and astrophysics, physical sciences, condensed matter physics, quantum physics",
+        "authors": "Alexander C. Tyner | Shouvik Sur | Danilo Puggioni | James M. Rondinelli | Pallab Goswami",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2023-02-16",
+        "created_at": "2026-06-12T04:07:47+08:00",
+        "doi": "10.1103/PhysRevResearch.5.L012019",
+        "en_title": "Topology of three-dimensional Dirac semimetals and quantum spin Hall systems without gapless edge modes",
+        "id": "833292067986735104",
+        "impact_factor": 4.9,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "68812",
+        "publication_name": "Physical Review Research _ ",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "无无能隙边缘模式的三维狄拉克半金属和量子自旋霍尔系统的拓扑结构"
+      },
+      "paper:867757382543868382": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Alexander C. Tyner | Pallab Goswami",
+        "available_online": "",
+        "cover_date_start": "2022-09-27",
+        "created_at": "2026-05-22T22:10:49+08:00",
+        "doi": "10.48550/arXiv.2209.13582",
+        "en_title": "Spin-charge separation and quantum spin Hall effect of $β$-bismuthene",
+        "id": "867757382543868382",
+        "keywords": "",
+        "publication_date": "2022-09-27",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "β-铋烯的自旋-电荷分离与量子自旋霍尔效应"
+      },
+      "paper:867764708579475562": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "R. Battilomo | N. Scopigno | C. Ortix",
+        "available_online": "",
+        "cover_date_start": "2018-08-23",
+        "created_at": "2026-05-16T19:14:06+08:00",
+        "doi": "10.48550/arXiv.1808.07818",
+        "en_title": "Spin field-effect transistor in a quantum spin-Hall device",
+        "id": "867764708579475562",
+        "keywords": "",
+        "publication_date": "2018-08-23",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "量子自旋霍尔器件中的自旋场效应晶体管"
+      },
+      "paper:867766424687346549": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics",
+        "authors": "Yue-Ran Ding | Dong-Hui Xu | Chui-Zhen Chen | X. C. Xie",
+        "available_online": "",
+        "cover_date_start": "2019-11-25",
+        "created_at": "2026-05-16T16:42:01+08:00",
+        "doi": "10.48550/arXiv.1911.10797",
+        "en_title": "Hinged Quantum Spin-Hall Effect in Antiferromagnetic Topological Insulators",
+        "id": "867766424687346549",
+        "keywords": "",
+        "publication_date": "2019-11-25",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "反铁磁拓扑绝缘体中的铰链式量子自旋霍尔效应"
+      },
+      "paper:867771334485082886": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "Huichao Li | L. Sheng | D. Y. Xing",
+        "available_online": "",
+        "cover_date_start": "2012-01-09",
+        "created_at": "2026-06-16T00:28:31+08:00",
+        "doi": "10.48550/arXiv.1201.1690",
+        "en_title": "A topological look at the quantum spin Hall state",
+        "id": "867771334485082886",
+        "keywords": "",
+        "publication_date": "2012-01-09",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "对量子自旋霍尔态的拓扑学视角"
+      },
+      "paper:890158010050019484": {
+        "area": "arXiv-Physics, arXiv-Physics",
+        "authors": "Shukai Ma | Steven M. Anlage",
+        "available_online": "",
+        "cover_date_start": "2023-07-14",
+        "created_at": "2026-06-19T00:57:12+08:00",
+        "doi": "10.48550/arXiv.2307.08622",
+        "en_title": "Experimental Realization of Anti-Unitary Wave-Chaotic Photonic Topological Insulator Graphs Showing Kramers Degeneracy and Symplectic Ensemble Statistics",
+        "id": "890158010050019484",
+        "keywords": "",
+        "publication_date": "2023-07-14",
+        "publication_id": "108520",
+        "publication_name": "Optics _ Physics.physics.optics",
+        "research_categories": "",
+        "zh_title": "展示克莱默简并和辛系综统计特性的反幺正波混沌光子拓扑绝缘体图的实验实现 "
+      },
+      "paper:933789746092572723": {
+        "area": "arXiv-Physics, arXiv-Condensed Matter",
+        "authors": "Anderson L. R. Barbosa | Luis M. Canonico | Jose H. Garía | Tatiana G. Rappoport",
+        "available_online": "",
+        "cover_date_start": "2023-11-20",
+        "created_at": "2026-06-19T01:17:21+08:00",
+        "doi": "10.48550/arXiv.2311.11715",
+        "en_title": "Orbital Hall effect and topology on a two-dimensional triangular lattice: from bulk to edge",
+        "id": "933789746092572723",
+        "keywords": "",
+        "publication_date": "2023-11-20",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "",
+        "zh_title": "二维三角晶格上的轨道霍尔效应与拓扑：从体到边缘"
+      },
+      "paper:984337272881020935": {
+        "area": "arXiv-Physics, Physical Sciences, Condensed Matter Physics, Quantum Physics",
+        "authors": "Dipendu Halder | Srijata Lahiri | Saurabh Basu",
+        "available_online": "",
+        "cover_date_start": "2024-04-05",
+        "created_at": "2026-06-19T04:49:44+08:00",
+        "doi": "10.48550/arxiv.2404.04184",
+        "en_title": "Competing topological phases in a non-Hermitian time-reversal symmetry-broken Bernevig-Hughes-Zhang model",
+        "id": "984337272881020935",
+        "keywords": "",
+        "publication_date": "2024-04-05",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "非厄米时间反演对称性破缺的Bernevig-Hughes-Zhang模型中的竞争拓扑相"
+      }
+    },
+    "variables": [
+      {
+        "content": "In a quantum spin Hall system characterized by nontrivial band topology (nonzero spin-Chern numbers defined when the bulk single-particle energy gap and the spectrum gap of the projected spin operator $P\\sigma_z P$ are open), gauge invariance applied to a looped ribbon with an adiabatically inserted magnetic flux implies the following exact dichotomy: on the physical sample edges either the single-particle energy gap in the edge-state spectrum must close, or the gap in the spectrum of the projected spin operator $P\\sigma_z P$ must close. Here $P$ is the orthogonal projector onto the occupied bands and $P\\sigma_z P$ denotes the Hermitian operator obtained by projecting the Pauli matrix $\\sigma_z$ into the occupied-state subspace; \"spin spectrum gap\" means a nonzero spectral gap around zero in the spectrum of $P\\sigma_z P$ when restricted to the finite-width ribbon including the edges. This requirement is obtained from a Laughlin-type spectral-flow argument applied separately to the two spin sectors into which the occupied subspace is decomposed by $P\\sigma_z P$, and it does not assume any symmetry such as time-reversal symmetry.",
+        "content_hash": "4341e7c5f6ddefe8889564819bd9acec789b6307dd53fe8549d7470762a165cc",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_dd22e601217e416f",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813310596584833024::conclusion_1",
+            "package_id": "paper:813310596584833024",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813310596584833024"
+          ]
+        },
+        "rerank_score": 0.8064513147353165,
+        "role": "conclusion",
+        "score": 0.013157894736842105,
+        "title": "Topological requirement for edge spectral gaps in a quantum spin Hall system",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In the effective Floquet Hamiltonian $\\mathcal{H}_F^{\\mathrm{eff}}$ for the Bernevig-Hughes-Zhang (BHZ) quantum spin Hall system with onsite Holstein electron–phonon coupling (derived via the Lang–Firsov transformation and zero-phonon average in the anti-adiabatic limit), varying the electron–phonon interaction (EPI) strength $g$ (with drive amplitudes $\\mathcal{F}_1,\\mathcal{F}_2$ fixed) produces multiple distinct Floquet quantum spin Hall (FQSH) phases and sharp topological transitions that are controlled solely by $g$. The bulk topology of phases with a continuous gap at the zero and/or $\\pi$ quasienergy sectors is captured by the projected spin Chern number $C_{p}$ obtained from the projected Berry curvature $\\Omega_{p}(\\mathbf{k})=i\\big[\\langle\\partial_{k_x}\\psi_p|\\partial_{k_y}\\psi_p\\rangle-\\langle\\partial_{k_y}\\psi_p|\\partial_{k_x}\\psi_p\\rangle\\big]$, where the occupied twofold-degenerate subspace is separated by the projector $P=(\\mathbb{I}\\pm S)/2$ with $S=\\sigma_{z}\\otimes\\sigma_{0}$, and $\\sigma_{z}$, $\\sigma_{0}$ are the Pauli $z$-matrix and $2\\times2$ identity matrix in spin space, respectively. Representative quantified findings are: for $(\\mathcal{F}_1,\\mathcal{F}_2)=(\\tfrac{\\pi}{4},\\tfrac{3\\pi}{4})$ the regime $0\\le g\\lesssim0.18$ yields $|C_{p}|=2$ (both zero and $\\pi$ edge sectors topological), while $0.78\\lesssim g\\lesssim0.88$ yields $C_{p}=0$ (trivial); for $(\\mathcal{F}_1,\\mathcal{F}_2)=(\\tfrac{3\\pi}{4},\\tfrac{7\\pi}{8})$ the regimes $0\\le g\\lesssim0.14$ yield $|C_{p}|=2$, $0.58\\lesssim g\\lesssim0.68$ yield $|C_{p}|=1$, and $0.88\\lesssim g\\lesssim0.93$ yield $|C_{p}|=1$. These quantized $C_{p}$ plateaus demonstrate that Holstein EPI can by itself produce new Floquet topological phases and change edge Hall responses.",
+        "content_hash": "1a9ec031e4ffe3711e6cf0689063fbc7d0d131a87e907296da18e63a1c4fcbdf",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_0c4c3b81cdf34c30",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1122291796349550627::conclusion_2",
+            "package_id": "paper:1122291796349550627",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1122291796349550627"
+          ]
+        },
+        "rerank_score": 0.7388456863140391,
+        "role": "conclusion",
+        "score": 0.014492753623188406,
+        "title": "Electron-phonon interaction alone generates multiple emergent Floquet quantum spin Hall phases characterized by quantized projected spin Chern numbers",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "In a two-dimensional quantum spin Hall system whose occupied-band subspace decomposes into two spin sectors via the projected spin operator $P\\sigma_{z}P$ (with $P$ the projector onto occupied bands and $\\sigma_{z}$ the spin Pauli matrix), nontrivial bulk band topology together with gauge invariance of an adiabatically flux-threaded looped ribbon implies the following necessary boundary condition: on the sample edges at least one of the two spectral gaps must close — either (A) the single-particle energy gap in the edge-state spectrum must close on the boundary (yielding gapless edge modes), or (B) the gap in the spectrum of the operator $P\\sigma_{z}P$ (the \"spin spectrum gap\" separating the two projected-spin sectors) must close on the boundary (yielding gapped edge modes but vanishing spin-spectrum gap at the edge). Here gauge invariance refers to invariance of the many-body spectrum under insertion of one flux quantum ($\\phi$ increased by 1 in units $hc/e$) through a looped ribbon; the nontrivial (spin) Chern numbers require adiabatic spectral flow that returns to the initial eigenstates only if the spectral flow forms closed loops, which forces one of the two gaps to vanish on the edges.",
+        "content_hash": "86ea89ba87283ece08e839d7b31c76c2a0f07ceba44fea98020574bf4c00e3d5",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_995145fb96d14e92",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867771334485082886::conclusion_1",
+            "package_id": "paper:867771334485082886",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867771334485082886"
+          ]
+        },
+        "rerank_score": 0.7965839661504639,
+        "role": "conclusion",
+        "score": 0.011904761904761904,
+        "title": "Gauge-invariance/topology constraint: either energy gap or spin-spectrum gap must close on QSH edges",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The combination of the Wilson-loop magnitudes $|\\mathfrak{C}_{R,n}|$ for the six low-energy Kramers-degenerate bands of β-bismuthene and the real-space flux-tube responses described in Conclusion 1 permits a signed assignment of the bandwise relative Chern numbers (where the sign is defined with respect to a chosen global spin-quantization axis) that is consistent with the observed direction of spin pumping and the induced-charge behavior; the compatible signed assignments are\n      $$\n      (\\mathfrak{C}_{R,1},\\mathfrak{C}_{R,2},\\mathfrak{C}_{R,3},\\mathfrak{C}_{R,4},\\mathfrak{C}_{R,5},\\mathfrak{C}_{R,6})=\\pm(0,1,0,-2,+2,-1),\n      $$\n      and under either choice of overall sign the magnitude of the net relative Chern number of the occupied subspace for the three insulating fillings studied remains $|\\mathfrak{C}_{R,GS}|=1$, while its sign changes when bands 4 and 5 become occupied; this sign change of the occupied-subspace relative Chern number is consistent with the first-principles calculation of the spin Hall conductivity component $\\sigma_{xy}^{z}$ as a function of energy, which shows a reversal of sign when bands 4 and 5 become occupied.",
+        "content_hash": "17f61ea0690f1a9c2ac06072e674516ed4217a2dd60b6014e1e54bf86b4dc783",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_3fb414ca89b34dcb",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867757382543868382::conclusion_3",
+            "package_id": "paper:867757382543868382",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867757382543868382"
+          ]
+        },
+        "related": [
+          {
+            "content": "For a first-principles–based Wannier tight-binding model of a single (111) bilayer of antimony (β-antimonene) that includes spin-orbit coupling, the combined analysis of (i) in-plane $SU(2)$ Wilson loops for constituent Kramers-degenerate bands, (ii) first-principles evaluation of spin Hall conductivity components as a function of Fermi energy, and (iii) exact diagonalization of the same tight-binding Hamiltonian modified by a Peierls-phase magnetic flux tube under periodic boundary conditions for a $24\\times24$ unit-cell system shows the following at half-filling ($N_e=N/2$): no mid-gap flux-bound single-particle states appear in the flux-tube spectrum, no quantized pumping of a Kramers pair is observed when the threaded flux is adiabatically varied, and all three components of the computed spin Hall conductivity vanish when the Fermi level lies inside the direct gap; these observations imply that the net relative Chern number of the occupied subspace for β-antimonene is $\\mathfrak{C}_{R,GS}=0$, and any nontrivial constituent-band relative Chern numbers must sum to zero so that signed assignments for the nontrivial bands are constrained to possibilities such as $(\\mathfrak{C}_{R,2},\\mathfrak{C}_{R,3})=\\pm(1,-1)$.",
+            "has_reasoning": true,
+            "id": "gcn_df8518a3bbb74ccd",
+            "kind": "conclusion",
+            "rerank_score": 0,
+            "role": "conclusion",
+            "score": 0.013888888888888888,
+            "title": "β-antimonene: no mid-gap flux bound states at half-filling and zero net relative Chern number",
+            "type": "claim"
+          }
+        ],
+        "rerank_score": 0.6760036553752398,
+        "role": "conclusion",
+        "score": 0.014925373134328358,
+        "title": "Signed assignment of relative Chern numbers consistent with flux response and spin-Hall sign change",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The Bernevig–Hughes–Zhang (BHZ) quantum spin Hall tight-binding Hamiltonian is realized on a finite type-II hyperbolic lattice by the lattice Hamiltonian\n      $$\n      H_{\\mathrm{QSHI}}=-\\tfrac{1}{2}\\sum_{\\langle i,j\\rangle} c_i^\\dagger\\Big[i t_1\\big(\\sigma_3 s_1\\cos\\theta_{ij}+\\sigma_0 s_2\\sin\\theta_{ij}\\big)+t_2\\sigma_0 s_3\\Big]c_j+\\sum_i\\big(M+2t_2\\big)c_i^\\dagger\\sigma_0 s_3 c_i,\n      $$\n      where $c_i^{(\\dagger)}$ annihilates (creates) an electron on site $i$ with four internal degrees of freedom described by Pauli matrices $\\sigma_\\nu$ (orbital) and $s_\\nu$ (spin) for $\\nu=0,1,2,3$, $\\theta_{ij}$ is the polar angle of the vector from site $i$ to $j$, and the calculations reported use $t_1=t_2=1$ and $M=-1$ under open boundary conditions. Diagonalizing $H_{\\mathrm{QSHI}}$ on a finite type-II hyperbolic flake shows double-degenerate (Kramers) helical edge states localized on both the inner and the outer boundaries in the bulk energy gap, and the spin Bott index $C_B$, computed in real space for nonperiodic systems, takes the nontrivial value $C_B=-1$ in the spectral window of these edge states, confirming their topological character.",
+        "content_hash": "04fa918dceb5c5394e34be268c8bd71a89209fdfa6fc477d1bd8d5b062385f2f",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_f4a4b6ef591b4fe2",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1218614740494843926::conclusion_1",
+            "package_id": "paper:1218614740494843926",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1218614740494843926"
+          ]
+        },
+        "rerank_score": 0.6688073972967306,
+        "role": "conclusion",
+        "score": 0.014492753623188406,
+        "title": "Mapping BHZ model to type-II hyperbolic lattice yields inner and outer helical edge states with nontrivial spin Bott index",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "A computational procedure is used and validated whereby the calculated Bloch wavefunction $|\\phi\\rangle$ is projected onto spin and site-resolved orbital bases to compute coefficients $C_{i,l,m,\\eta}=\\langle\\phi|(\\varsigma_{\\eta}\\otimes |l,m\\rangle_{ii}\\langle l,m|)|\\phi\\rangle$ and then summed over the atomic sites belonging to a chosen real-space sector; such sector-resolved spin projections reveal that Kramers-degenerate bands can have their two degenerate branches localized on distinct real-space sectors, each carrying opposite spin polarization. Applying this projection enables visualization and quantification of R-2 (compensated Rashba-type) and D-2 (compensated Dresselhaus-type) textures even though the bands remain globally doubly degenerate.",
+        "content_hash": "c673934655ebb44e3f0aae1a4b2a4868684a9f753c6dc710a9e659a9b94f98f1",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_00da49cbfa6c47d6",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813147782394150913::conclusion_8",
+            "package_id": "paper:813147782394150913",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813147782394150913"
+          ]
+        },
+        "rerank_score": 0.6642104422046287,
+        "role": "conclusion",
+        "score": 0.015873015873015872,
+        "title": "Wavefunction-sector projection method to reveal spatially segregated spin textures in degenerate bands",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For the Hermitian Hamiltonian $H_{\\mathrm{T}}(\\mathbf{k}) = H(\\mathbf{k}) + H_B(\\mathbf{k})$ (where $H(\\mathbf{k})$ is the BHZ Bloch Hamiltonian on a square lattice with parameters $\\Delta, t, t_{sp}$, and $H_B = B_y \\sigma_y\\otimes\\tau_0$ is the in-plane magnetic field (IPMF) Zeeman term), the occupied-space projector $P(\\mathbf{k}) = |u_1(\\mathbf{k})\\rangle\\langle u_1(\\mathbf{k})| + |u_2(\\mathbf{k})\\rangle\\langle u_2(\\mathbf{k})|$ is constructed from the two valence eigenstates $|u_1\\rangle, |u_2\\rangle$, and the projected spin operator $S(\\mathbf{k}) = P(\\mathbf{k})\\hat{O}P(\\mathbf{k})$ with $\\hat{O} = \\sigma_z\\otimes\\tau_0$ (acting on spin and orbital spaces) is diagonalized. Using Fukui's gauge-invariant lattice method on the eigenvectors of $S(\\mathbf{k})$ corresponding to nonzero eigenvalues yields spin Chern numbers $C_{\\uparrow} = -C_{\\downarrow} = 1$ even when $B_y \\neq 0$. Thus, although the IPMF gaps the helical edge states of the x-periodic nanoribbon, the first-order bulk topology (as diagnosed by the spin Chern number) is preserved in the Hermitian time-reversal symmetry-broken model.",
+        "content_hash": "f9bafdcfd37b9b89db66a70ff3d3bdc8a1664eca429d8374488b7690a4a30852",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_e9096b2c6c2245bc",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:984337272881020935::conclusion_3",
+            "package_id": "paper:984337272881020935",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:984337272881020935"
+          ]
+        },
+        "rerank_score": 0.6507100691029852,
+        "role": "conclusion",
+        "score": 0.01282051282051282,
+        "title": "Spin Chern numbers of the Hermitian TRS-broken Hamiltonian remain non-trivial ($C_{\\uparrow}=-C_{\\downarrow}=1$)",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For Phase II ($t_{1}\\neq0$, $t_{2}=t_{12}=0$) the enabled $t_{1}$ hybridization mixes $d_{z^{2}}$ with the $m_{-l}=\\tfrac{1}{\\sqrt{2}}(d_{x^{2}-y^{2}}-i d_{xy})$ subspace, producing two pairs of spin-polarized in-gap edge states in a nanoribbon and bulk transport signatures consistent with a first-order (Bernevig-Hughes-Zhang (BHZ)-like) quantum spin Hall insulator: the spin Hall conductivity $\\sigma_{xy}^{S_z}$ (where $S_z$ is the $z$-component of the spin operator) is quantized in the gap while the orbital Hall conductivity $\\sigma_{xy}^{L_z}$ (where $L_z$ is the $z$-component of the orbital angular momentum operator) exhibits a finite, non-quantized plateau with opposite sign to the spin Hall signal.",
+        "content_hash": "92059899a039c1e6cb2382a310212d25ec0946ef95766f331fc9b512c09648cf",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_1b3c24de3f1347e2",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:933789746092572723::conclusion_3",
+            "package_id": "paper:933789746092572723",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:933789746092572723"
+          ]
+        },
+        "rerank_score": 0.6364390184552822,
+        "role": "conclusion",
+        "score": 0.01282051282051282,
+        "title": "Phase II: Bernevig-Hughes-Zhang (BHZ)-like first-order topological insulator with quantized spin Hall conductivity and opposite-sign orbital Hall response",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Coupling two Bernevig–Hughes–Zhang (BHZ) model $\\mathbb{Z}_2$ layers by a scalar, orbital- and spin-diagonal interlayer tunneling amplitude $\\eta$ in the bilayer Hamiltonian\n      $H(\\mathbf{k})=\\begin{pmatrix}H_T(\\mathbf{k})+B_z\\sigma_z s_z & \\eta\\\\ \\eta^{*} & H_B(\\mathbf{k})+B_z\\sigma_z s_z\\end{pmatrix}$\n      with the out-of-plane Zeeman $B_z$ set to zero produces a gapped edge spectrum from the decoupled helical edge modes and, when the stacking preserves a real-space mirror symmetry, yields four zero-energy Kramers-degenerate corner-localized states in finite flakes. The single-layer BHZ parameters appearing in the continuum lattice form $H_{T,B}(\\mathbf{k})$ are the intra-orbital hopping $t$, the relative orbital energy $\\epsilon$, and the kinetic coupling coefficients $\\lambda_x,\\lambda_y$ defined via\n      $H_{T}(\\mathbf{k})=(t k_x^2+t k_y^2+\\epsilon)\\sigma_z+\\lambda_x k_x\\sigma_x s_z+\\lambda_y k_y\\sigma_y$\n      and a correspondingly stacked $H_B(\\mathbf{k})$; $\\sigma_i$ and $s_i$ are Pauli matrices in orbital and spin spaces. When the bilayer stacking choice preserves either the mirror $\\mathcal{M}_{xy}$ that maps $(k_x,k_y)\\mapsto(k_y,k_x)$ or the mirror $\\mathcal{M}_{x\\bar y}$ that maps $(k_x,k_y)\\mapsto(-k_y,-k_x)$ as an exact crystalline symmetry of the finite-flake Hamiltonian, the resulting zero-energy Kramers pairs of corner states are protected by the combination of time-reversal symmetry $\\mathcal{T}=i s_y\\mathcal{K}$ and the preserved mirror symmetry, and the spatial locations of the corner Kramers pairs are fixed by which mirror is preserved by the stacking.",
+        "content_hash": "abc3f355fa9a7c5db3dc34c4abc2971cbe22b48215f352c08923238604b050bd",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_a7ff0ad3ef7746a1",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1004995936662847499::conclusion_6",
+            "package_id": "paper:1004995936662847499",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1004995936662847499"
+          ]
+        },
+        "rerank_score": 0.6289969129885743,
+        "role": "conclusion",
+        "score": 0.009708737864077669,
+        "title": "Generalization to Bernevig–Hughes–Zhang (BHZ) $\\mathbb{Z}_2$ models: interlayer coupling induces mirror-symmetry-protected Kramers pairs of corner states",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "At the field-induced crossings the two degenerate subbands at $+k_0$ are fully spin polarized along the $x$ direction and have opposite spin orientations; by Kramers theorem the partner crossings at $-k_0$ carry opposite propagation spin relations. The $x$-directed spin polarization at the crossing is a direct consequence of the field-induced spin-orbit field in the effective laterally confined Bernevig-Hughes-Zhang (BHZ) model Hamiltonian $H_4(k_z)$ and is consistent with the explicit spin expectation values computed in the full $8$-band $ \\mathbf{k\\cdot p} $ solutions.",
+        "content_hash": "eefe495e8adf40922aeb0b1280c115e41f1dfc6327da04f3b11aeb636294efa5",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_4bbd45998bac4d9a",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1229522869680078848::conclusion_3",
+            "package_id": "paper:1229522869680078848",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1229522869680078848"
+          ]
+        },
+        "rerank_score": 0.5982651964079223,
+        "role": "conclusion",
+        "score": 0.022574508560558024,
+        "title": "Spin polarization of crossing bands at the Dirac points",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The hinged quantum spin-Hall (HQSH) phase in the multilayer is characterized by a quantized spin Chern number $C_{s}\\equiv (C_{+}-C_{-})/2=1$, where $C_{\\pm}$ are the Chern numbers of the two QAH subsystems and can be computed from the noncommutative Kubo formula\n      $$\n      C_{\\pm}=2\\pi i\\,\\mathrm{Tr}\\bigl[Q_{\\pm}\\,[\\partial_{k_x}Q_{\\pm},\\partial_{k_y}Q_{\\pm}]\\bigr],\n      $$\n      with $Q_{\\pm}=Q P_{\\pm}$, $Q$ the projector onto occupied states of the full multilayer Hamiltonian $\\mathcal{H}$, and $P_{\\pm}$ projectors onto the two end-state (surface) subspaces. In the limit of large number of composite layers $N_z$ and in the regime $|t_1|<|t_2|$, projection onto the two end quasi-2D bands yields an effective projected Hamiltonian $H_{proj}=\\bigoplus \\pm h_{D}\\hat{P}_{\\pm}$, with end-state wavefunctions given by $|\\nu_{0z}^{+}\\rangle=A_{+}\\lambda^{z}[1,0]^{T}$ and $|\\nu_{0z}^{-}\\rangle=A_{-}\\lambda^{-z}[0,1]^{T}$ where $\\lambda=t_1/t_2$ and $A_{\\pm}$ are normalization constants; under this mapping the multilayer stacking problem is exactly a three-dimensional generalization of the Su–Schrieffer–Heeger (SSH)/Rice–Mele end-state physics, where the SSH end states become quasi-2D surface bands that inherit the QAH Dirac character and produce the quantized spin Chern invariant $C_s=1$ in the HQSH phase.",
+        "content_hash": "3e418696a93666eb1bbe8acb8fb490ca3fc45b9229a78fc67a274c2ca7536840",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_68da1b5db0884343",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867766424687346549::conclusion_3",
+            "package_id": "paper:867766424687346549",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867766424687346549"
+          ]
+        },
+        "rerank_score": 0.6403131790591196,
+        "role": "conclusion",
+        "score": 0.012345679012345678,
+        "title": "Spin Chern number characterization via projected end states and 3D SSH mapping",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Full-wave eigenmode simulations (CST and HFSS) of closed bianisotropic metawaveguide (BMW) photonic topological insulator (PTI) graph realizations built from quantum spin Hall (QSH)-quantum valley Hall (QVH) interface waveguides show that inside the bulk bandgap the system supports only doubly-degenerate (two-fold Kramers) edgemodes; at the lower edge of the bulk bandgap ($\\sim 23.5$ GHz) edgemodes and bulk modes coexist and hybridize, while inside the gap the edgemodes appear as isolated two-fold-degenerate levels in the simulated spectrum.",
+        "content_hash": "5be0a8279ed57a2c274717a23d822e4117a40fd6fa4b455b1f03a5573de21a64",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_e73fddbb02d748c1",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:890158010050019484::conclusion_3",
+            "package_id": "paper:890158010050019484",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:890158010050019484"
+          ]
+        },
+        "related": [
+          {
+            "content": "An effective anti-unitary time-reversal operator for the bianisotropic metawaveguide (BMW) photonic topological insulator (PTI) system is proposed as $T_b = i \\tau_x s_y \\sigma_0 C$, where $\\tau_x$ is the Pauli matrix acting on the valley subspace ($K$ and $K'$), $s_y$ is the Pauli matrix acting on the synthetic spin subspace (formed by orthogonal linear combinations of degenerate transverse electric (TE) and transverse magnetic (TM) modes), $\\sigma_0$ is the $2\\times2$ identity acting on the Dirac degeneracy subspace, and $C$ denotes complex conjugation (with $C i = -i C$). This operator satisfies the anti-unitary criterion $T_b^2 = -1$, and acts on the BMW eigenvectors $\\Psi_{K(K')}^{\\uparrow(\\downarrow)}$ according to $T_b \\Psi_{K(K')}^{\\uparrow} = \\Psi_{K'(K)}^{\\downarrow}$ and $T_b \\Psi_{K(K')}^{\\downarrow} = -\\Psi_{K'(K)}^{\\uparrow}$, establishing the formal Kramers-pair mapping between opposite-valley, opposite-spin edge eigenstates in the BMW quantum spin Hall (QSH)-quantum valley Hall (QVH) interface system.",
+            "has_reasoning": true,
+            "id": "gcn_0aa84cb73eab43c1",
+            "kind": "conclusion",
+            "rerank_score": 0,
+            "role": "conclusion",
+            "score": 0.015151515151515152,
+            "title": "Anti-unitary time-reversal operator for the bianisotropic metawaveguide photonic topological insulator with $T^2=-1$",
+            "type": "claim"
+          }
+        ],
+        "rerank_score": 0.598736277080282,
+        "role": "conclusion",
+        "score": 0.015625,
+        "title": "Numerical demonstration of two-fold (Kramers) degeneracy of bianisotropic metawaveguide quantum spin Hall–quantum valley Hall edge eigenmodes",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Expanding the electromagnetic spectrum near the Brillouin-zone center ($\\Gamma$ point) in the basis formed by the four nearly-degenerate eigenmodes that have $p_{\\pm}$ (dipolar, $l=\\pm1$) and $d_{\\pm}$ (quadrupolar, $l=\\pm2$) orbital character yields a $4\\times4$ $k\\!\\cdot\\!p$ Hamiltonian in that orbital basis which block-diagonalizes into two decoupled $2\\times2$ blocks; each $2\\times2$ block is associated with modes of a definite sign of orbital angular momentum (OAM), namely the $+$ or $-$ OAM sector.  The structure of these two blocks is formally equivalent to the Bernevig–Hughes–Zhang (BHZ) model for the quantum spin Hall effect: each $2\\times2$ block plays the role of an effective spin sector in the BHZ model, and the sign of the mode OAM ($\\pm$) functions as an emergent pseudospin quantum number that determines the coupling to momentum near $\\Gamma$.  When the ordering of the even- and odd-parity modes at $\\Gamma$ versus the M point is interchanged (a $p$–$d$ band inversion), the effective BHZ mass term changes sign, thereby producing the regime with nontrivial topology in which helical (counterpropagating, opposite-pseudospin) interface modes are expected.",
+        "content_hash": "1c549b22fa5ace1b0dc83eccdff1de416fe9fc5d4588e3a47eae219dc7905ffc",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_95479a6a31064470",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812835019780259840::conclusion_2",
+            "package_id": "paper:812835019780259840",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812835019780259840"
+          ]
+        },
+        "rerank_score": 0.5820945224878444,
+        "role": "conclusion",
+        "score": 0.011764705882352941,
+        "title": "Four-mode k·p near Γ: BHZ-like blocks with OAM as pseudospin",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For a quantum spin-Hall (QSH) disk modeled by the four-band BHZ Hamiltonian with an added linear Rashba spin-orbit coupling of strength $\\alpha_R$, the local expectation values of the spin operators defined in the BHZ four-component basis change with increasing Rashba strength: the out-of-plane spin operator is $S_z=\\tfrac{1}{2}\\sigma_0\\otimes\\sigma_z$ and its local expectation value $\\langle S_z\\rangle$ for edge-state wave functions decreases monotonically as the Rashba coupling parameter $\\alpha_R$ is increased; the in-plane spin operator in the $x$ direction is $S_x=\\tfrac{1}{2}\\sigma_0\\otimes\\sigma_x$, and the local expectation value $\\langle S_x\\rangle$ along the disk circumference is reversed under a $\\pi$ azimuthal rotation (for example, the values of $\\langle S_x\\rangle$ measured at $\\phi=0$ and at $\\phi=\\pi$ have equal magnitude and opposite sign), so Rashba SOC produces a spatially varying tilt of the Kramers-pair spin projections in the QSH plane around the disk.",
+        "content_hash": "4f3ac1d52cc738a24cd9e0d41ee92c9465f67d8dc76fe63d2a60dc6f7dbdcc7c",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_d30a35fcd8d94234",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867764708579475562::conclusion_2",
+            "package_id": "paper:867764708579475562",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867764708579475562"
+          ]
+        },
+        "rerank_score": 0.6354878685820565,
+        "role": "conclusion",
+        "score": 0.023537414965986395,
+        "title": "Rashba-induced spatial spin tilt of BHZ disk edge states",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The generic fourfold planes of the $C_4$-symmetric Dirac semimetal (DSM) model and the Bernevig-Hughes-Zhang (BHZ) quantum spin Hall (QSH) model (and stacked variants that produce first-order or higher-order topological insulators) support identical quantized non-Abelian Berry flux of magnitude $2\\pi$ in the Abelian projection associated with $\\Gamma_{12}$, where $\\Gamma_{12}=[\\Gamma_1,\\Gamma_2]/(2i)=\\tau_0\\otimes\\sigma_3$ is the Cartan generator of $SO(5)$. Consequently these planes display the same quantized topological response (spin-charge separation and pumping of one Kramers-pair under flux insertion) despite the absence of gapless helical edge modes in the DSM planes; in other words, models that differ in edge phenomenology (gapless helical edges vs gapped edges/HOTI) can share the same bulk relative Chern number and identical $2\\pi$ non-Abelian Berry flux.",
+        "content_hash": "5f5c86bcd29e1e8f83a0e20f56a7830222a57d63fd70625775e282b5134f1fc6",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_5bc56ae451324afc",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:833292067986735104::conclusion_5",
+            "package_id": "paper:833292067986735104",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:833292067986735104"
+          ]
+        },
+        "rerank_score": 0.5846807286958373,
+        "role": "conclusion",
+        "score": 0.010309278350515464,
+        "title": "Equivalence of generic DSM planes, the BHZ model, and certain HOTIs with identical quantized non-Abelian Berry flux ($2\\pi$)",
+        "type": "claim",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "req_47f8a8b2da8ed"
+}

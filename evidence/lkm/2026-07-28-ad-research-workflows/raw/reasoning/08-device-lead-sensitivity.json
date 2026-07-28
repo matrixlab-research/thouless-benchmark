@@ -1,0 +1,163 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "Because the lead retarded self-energy matrix $\\Sigma^R$ has nonzero matrix elements only on the discrete device boundary sites that are directly connected to the leads, the resonance width $\\gamma_\\alpha\\approx -\\langle\\psi_{0\\alpha}|\\mathrm{Im}(\\Sigma^R)|\\psi_{0\\alpha}\\rangle$ depends primarily on the projection of the closed-system eigenfunction $\\psi_{0\\alpha}$ onto the lead-mode basis at those boundary sites (i.e., the expansion coefficients $c_m$ in $\\psi_{0\\alpha,L}=\\sum_m c_m\\chi_{m,L}$), so the magnitude of the closed-system wavefunction on the device boundaries controls the strength of coupling to the leads and hence the resonance width.",
+      "content_hash": "28703d4ba5b90b9edcde7007d3a7f9332fac58fd76fd251e0df468490ba6cce8",
+      "id": "gcn_cb7923a88d2246b7",
+      "type": "claim"
+    },
+    "papers": {
+      "paper:813243759130050560": {
+        "area": "Mathematics, mathematics, applied, physics, mathematical",
+        "author_details": [
+          {
+            "affiliation": "Arizona State University,USA",
+            "affiliation_zh": "美国亚利桑那州立大学",
+            "author_id": "21623H77",
+            "avatar": "https://cdn1.deepmd.net/static/img/e9c68acbd77Dt3QAAAAJ.png",
+            "citation_nums": 1639,
+            "h_index": 18,
+            "is_high_cited": true,
+            "name": "Rui Yang",
+            "origin_name": "Rui Yang"
+          },
+          {
+            "affiliation": "School of Physical Science and Technology,Lanzhou University",
+            "affiliation_zh": "兰州大学物理科学与技术学院",
+            "author_id": "7k40T155",
+            "avatar": "https://cdn1.deepmd.net/static/img/411a6ad0gEnndDIAAAAJ.png",
+            "citation_nums": 8473,
+            "h_index": 49,
+            "is_high_cited": true,
+            "name": "Liang Huang",
+            "name_zh": "黄亮",
+            "origin_name": "Liang Huang"
+          },
+          {
+            "affiliation": "Arizona State University",
+            "affiliation_zh": "亚利桑那州立大学",
+            "author_id": "81B73eR5",
+            "avatar": "https://cdn1.deepmd.net/static/img/2d20506542cK_xMAAAAJ.png",
+            "citation_nums": 37203,
+            "h_index": 90,
+            "is_high_cited": true,
+            "name": "Ying-Cheng Lai",
+            "origin_name": "Ying-Cheng Lai"
+          },
+          {
+            "affiliation": "University of Aberdeen",
+            "affiliation_zh": "阿伯丁大学",
+            "author_id": "bf9P5863",
+            "avatar": "https://cdn1.deepmd.net/static/img/dca494c4sdayej0AAAAJ.png",
+            "citation_nums": 51299,
+            "h_index": 100,
+            "is_high_cited": true,
+            "name": "Celso Grebogi",
+            "origin_name": "Celso Grebogi"
+          },
+          {
+            "affiliation": "The Department of The Navy's Corporate Laboratory, U.S. Naval Research Laboratory",
+            "affiliation_zh": "美国海军研究实验室，海军部企业实验室",
+            "author_id": "3263293v",
+            "avatar": "https://cdn1.deepmd.net/static/img/dcc9a0dc3263293v_0.png",
+            "citation_nums": 25251,
+            "h_index": 43,
+            "is_high_cited": true,
+            "name": "Louis M. Pecora",
+            "origin_name": "Louis M. Pecora"
+          }
+        ],
+        "authors": "Rui Yang | Liang Huang | Ying-Cheng Lai | Celso Grebogi | Louis M. Pecora",
+        "authors_list": [
+          "Rui Yang",
+          "Liang Huang",
+          "Ying-Cheng Lai",
+          "Celso Grebogi",
+          "Louis M. Pecora"
+        ],
+        "available_online": "",
+        "citation_nums": 17,
+        "cover_date_start": "2013-03-01",
+        "created_at": "2022-12-23T19:00:22+08:00",
+        "doi": "10.1063/1.4790863",
+        "en_abstract": "Chaos has long been recognized to be generally advantageous from the perspective of control. In particular, the infinite number of unstable periodic orbits embedded in a chaotic set and the intrinsically sensitive dependence on initial conditions imply that a chaotic system can be controlled to a desirable state by using small perturbations. Investigation of chaos control, however, was largely limited to nonlinear dynamical systems in the classical realm. In this paper, we show that chaos may be used to modulate or harness quantum mechanical systems. To be concrete, we focus on quantum transport through nanostructures, a problem of considerable interest in nanoscience, where a key feature is conductance fluctuations. We articulate and demonstrate that chaos, more specifically transient chaos, can be effective in modulating the conductance-fluctuation patterns. Experimentally, this can be achieved by applying an external gate voltage in a device of suitable geometry to generate classically inaccessible potential barriers. Adjusting the gate voltage allows the characteristics of the dynamical invariant set responsible for transient chaos to be varied in a desirable manner which, in turn, can induce continuous changes in the statistical characteristics of the quantum conductance-fluctuation pattern. To understand the physical mechanism of our scheme, we develop a theory based on analyzing the spectrum of the generalized non-Hermitian Hamiltonian that includes the effect of leads, or electronic waveguides, as self-energy terms. As the escape rate of the underlying non-attracting chaotic set is increased, the imaginary part of the complex eigenenergy becomes increasingly large so that pointer states are more difficult to form, making smoother the conductance-fluctuation pattern.",
+        "en_title": "Harnessing quantum transport by transient chaos",
+        "id": "813243759130050560",
+        "impact_factor": 3.2,
+        "impact_score": 3.2,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "open_access": false,
+        "paper_url": "https://pubs.aip.org/aip/cha/article/23/1/013125/153184/Harnessing-quantum-transport-by-transient-chaos",
+        "pdf_flag": false,
+        "publication_cover": "https://icon.bohrium.com/journal/905.png",
+        "publication_date": "2013-3",
+        "publication_id": "905",
+        "publication_name": "Chaos: An Interdisciplinary Journal of Nonlinear Science _ Chaos",
+        "research_categories": "",
+        "zh_abstract": "长期以来，人们一直认识到从控制的角度来看，混沌总体上是有利的。特别是，嵌入混沌集中的无限多个不稳定周期轨道以及对初始条件的内在敏感依赖性意味着，可以通过使用小扰动将混沌系统控制到期望的状态。然而，混沌控制的研究在很大程度上限于经典领域的非线性动力系统。在本文中，我们表明混沌可用于调制或驾驭量子力学系统。具体而言，我们关注通过纳米结构的量子输运，这是纳米科学中一个备受关注的问题，其一个关键特征是电导涨落。我们阐述并证明，混沌，更具体地说是瞬态混沌，能够有效地调制电导涨落模式。在实验上，可以通过在具有合适几何形状的器件中施加外部栅极电压来产生经典上不可达的势垒来实现这一点。调整栅极电压可以使负责瞬态混沌的动力学不变集的特性以期望的方式变化，这进而可以引起量子电导涨落模式的统计特性的连续变化。为了理解我们方案的物理机制，我们基于分析广义非厄米哈密顿量的谱发展了一种理论，该哈密顿量将引线或电子波导的效应作为自能项包含在内。随着潜在的非吸引混沌集的逃逸率增加，复本征能量的虚部变得越来越大，使得指针态更难形成，从而使电导涨落模式更加平滑。 ",
+        "zh_title": "通过瞬态混沌控制量子输运"
+      }
+    },
+    "reasoning_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "Because the lead retarded self-energy matrix $\\Sigma^R$ has nonzero matrix elements only on the discrete device boundary sites that are directly connected to the leads, the resonance width $\\gamma_\\alpha\\approx -\\langle\\psi_{0\\alpha}|\\mathrm{Im}(\\Sigma^R)|\\psi_{0\\alpha}\\rangle$ depends primarily on the projection of the closed-system eigenfunction $\\psi_{0\\alpha}$ onto the lead-mode basis at those boundary sites (i.e., the expansion coefficients $c_m$ in $\\psi_{0\\alpha,L}=\\sum_m c_m\\chi_{m,L}$), so the magnitude of the closed-system wavefunction on the device boundaries controls the strength of coupling to the leads and hence the resonance width.",
+              "id": "gcn_cb7923a88d2246b7",
+              "metadata": "{\"narrative\": \"P10 is the load-bearing bridge, because without the boundary-support property of the self-energy the paper could not specifically attribute resonance broadening to wavefunction amplitude at the contacts. H10 directly underwrites that attribution and rules out a bulk-amplitude explanation, so the mechanistic layer of the conclusion is genuinely strengthened rather than merely restated. The conclusion is therefore strong on the contact-controlled coupling picture, while still resting on the usual validity of the self-energy approximation.\", \"keywords\": [\"lead coupling\", \"boundary amplitude\", \"wavefunction projection\", \"self-energy\", \"lead modes\"], \"structural_edges\": [{\"target\": \"paper:813243759130050560::conclusion_10\", \"type\": \"supports\"}]}",
+              "title": "Wavefunction amplitude at device-lead boundary controls coupling to leads"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_df315689f4ed4bfc",
+            "premises": [
+              {
+                "content": "From the first-order expression $\\gamma_\\alpha\\approx -\\langle\\psi_{0\\alpha}|\\mathrm{Im}(\\Sigma^R)|\\psi_{0\\alpha}\\rangle$ and the mode expansion formula used for the lead self-energy, $\\Sigma^R=-t\\sum_{L}\\sum_{m\\in L}\\chi_{m,L}\\exp(ik_m a)\\chi_{m,L}^\\dagger$ (where $\\chi_{m,L}$ are lead transverse-mode eigenfunctions and $k_m(E)$ contains the energy dependence), it follows that only the values of the closed-system eigenfunction $\\psi_{0\\alpha}$ at the discrete device boundary sites connected to the leads enter the width formula; expanding $\\psi_{0\\alpha}$ on those boundary sites as $\\psi_{0\\alpha,L}=\\sum_m c_m\\chi_{m,L}$ shows that the coefficients $c_m$ (the projection onto lead modes) determine $\\gamma_\\alpha$.\n      Eq. (14)\n      Eq. (15)\n      Eq. (16)",
+                "id": "gcn_bee4ba3c114c4379",
+                "metadata": "{\"refs\": [{\"type\": \"equation\", \"text\": \"Eq. (14)\"}, {\"type\": \"equation\", \"text\": \"Eq. (15)\"}, {\"type\": \"equation\", \"text\": \"Eq. (16)\"}], \"weak_types\": [\"formal\", \"measurement\", \"external\"], \"weakness_reason\": \"The boundary-amplitude conclusion depends on the validity of the self-energy expression and on the projection being dominated by boundary values rather than by hidden higher-order corrections. That is a reasonable mesoscopic-transport approximation, but it is still an approximation to an open-system spectral problem, not an exact identity for arbitrary device-lead coupling.\", \"failure_mode\": \"If boundary amplitude were not the dominant factor in the width, then conclusion 9 would lose its mechanistic specificity: the paper could still say the leads matter, but it would no longer justify the claim that the closed-system wavefunction's boundary weight is what primarily controls coupling to the leads.\"}",
+                "title": "Boundary wavefunction amplitude controls width via lead self-energy structure"
+              },
+              {
+                "content": "In the generalized non-Hermitian Hamiltonian model of the open dot, the retarded self-energy matrix has support only on the device sites that touch the leads, so the coupling-induced width depends on the closed-system wavefunction amplitude at those boundary sites.",
+                "id": "gcn_64a50642896b44c5",
+                "metadata": "{\"role\": \"highlight\", \"conclusion_id\": \"9\", \"strength_types\": [\"formal\", \"external\"], \"credit\": \"This is the crucial support for conclusion 9 because it explains why boundary amplitude, rather than bulk amplitude, controls the width mechanism. It preempts a possible alternative explanation in which resonance broadening would be dominated by some diffuse interior property of the eigenstate, and instead underwrites the paper's specific attribution of lead coupling to wavefunction weight at the contacts.\", \"refs\": [{\"type\": \"equation\", \"text\": \"Eq. (14)\"}, {\"type\": \"equation\", \"text\": \"Eq. (15)\"}, {\"type\": \"equation\", \"text\": \"Eq. (16)\"}]}",
+                "title": "The self-energy acts only at lead-contact boundary points"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Use the self-energy formula for the open quantum dot, in which $\\Sigma^R$ acts only on the boundary points where the device is connected to the leads and can be expanded in the lead-mode basis $\\{\\chi_{m,L}\\}$.",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Because the self-energy has support only on the boundary sites, the quantity $\\gamma_\\alpha\\approx-\\langle\\psi_{0\\alpha}|\\mathrm{Im}(\\Sigma^R)|\\psi_{0\\alpha}\\rangle$ depends on the closed-system eigenfunction only through its values on those boundary sites.",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Writing the boundary wavefunction as $\\psi_{0\\alpha,L}=\\sum_m c_m\\chi_{m,L}$ shows that the coupling to the leads is determined by the projection coefficients $c_m$ of the closed-system wavefunction onto the lead modes.",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Therefore the wavefunction amplitude at the device boundaries controls the strength of coupling to the leads, and that boundary amplitude primarily determines the imaginary part of the complex eigenenergy.",
+                "step_id": "4"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "lead coupling; boundary amplitude; wavefunction projection; self-energy; lead modes\n        Understanding resonance broadening requires identifying the spatial origin of the coupling between the device and the attached leads. Previous qualitative arguments about stable and unstable classical orbits did not specify how the geometry of an eigenstate affects its interaction with the leads at the spectral level. The missing piece was a boundary-sensitive mechanism showing why some states remain weakly coupled and generate narrow resonances while others couple strongly and broaden the conductance pattern.",
+            "id": "paper:813243759130050560::conclusion_9_subproblem",
+            "source_package": "paper:813243759130050560"
+          }
+        ],
+        "source_package": "paper:813243759130050560"
+      }
+    ],
+    "total_chains": 1
+  },
+  "trace_id": "req_789f5ae52a711"
+}

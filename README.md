@@ -133,19 +133,20 @@ It is the result set used for the current 67-question Thouless coverage claim.
 
 ## Native AD benchmark status
 
-Ten different scientific problem types now exercise the merged Rust-native AD
-stack: spectral inference, degenerate subspaces, identifiability, quantum
-geometry, topological design, implicit surface Green functions, inverse
-transport, full device/lead sensitivity, sparse adjoints, and robust
-checkpointed KPM design.
+Ten LKM-discovered research-workflow adaptations now exercise the merged
+Rust-native AD stack: Rice-Mele spectral inference, BHZ Kramers subspaces, SSH
+identifiability, Rice-Mele quantum geometry, QWZ topological design, SSH
+boundary Green functions, double-quantum-dot inference, resonant-level contact
+sensitivity, Anderson sparse adjoints, and disordered-SSH KPM design.
 
 All 30 required checks pass in the
-[seven-repetition verified snapshot](results/verified/2026-07-28-ad.json)
+[seven-repetition research-workflow snapshot](results/verified/2026-07-28-ad-research-workflows.json)
 against Thouless commit
 `237f544c497e89cd99dedd68f16e399bc9980987`. The public validation points and
 disorder seeds are development evidence, not the isolated held-out evaluator.
 AD witnesses also do not automatically change strict whole-problem TBQ
-coverage.
+coverage. The complete LKM search and reasoning evidence is preserved under
+[`evidence/lkm/2026-07-28-ad-research-workflows`](evidence/lkm/2026-07-28-ad-research-workflows/README.md).
 
 PythTB 2.0 requires NumPy 2, while Kwant 1.5 currently builds against NumPy
 1.26. They therefore run in separate environments. Combining both into one

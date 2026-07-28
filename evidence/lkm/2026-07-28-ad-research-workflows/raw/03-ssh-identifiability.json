@@ -1,0 +1,659 @@
+{
+  "code": 0,
+  "data": {
+    "has_more": true,
+    "papers": {
+      "paper:1085119427327819784": {
+        "area": "arxiv-physics, arxiv-quantum physics",
+        "authors": "Waqas Parvaiz | Johannes Aspman | Ales Wodecki | Georgios Korpas | Jakub Marecek",
+        "available_online": "",
+        "cover_date_start": "2025-01-09",
+        "created_at": "2026-06-13T20:25:22+08:00",
+        "doi": "10.48550/arxiv.2501.05270",
+        "en_title": "Identifiability of Controlled Open Quantum Systems",
+        "id": "1085119427327819784",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108526",
+        "publication_name": "Quantum Physics",
+        "research_categories": "",
+        "zh_title": "可控开放量子系统的可识别性"
+      },
+      "paper:1092748556957122584": {
+        "area": "arXiv-Physics, arXiv-Quantum Physics",
+        "authors": "Marco Peruzzo | Tommaso Grigoletto | Francesco Ticozzi",
+        "available_online": "",
+        "cover_date_start": "2025-01-23",
+        "created_at": "2026-06-19T03:51:55+08:00",
+        "doi": "10.48550/arxiv.2501.13668",
+        "en_title": "Reconstructing Quantum States from Local Observation: A Dynamical Viewpoint",
+        "id": "1092748556957122584",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108526",
+        "publication_name": "Quantum Physics",
+        "research_categories": "",
+        "zh_title": "从局部观测重构量子态：动力学视角"
+      },
+      "paper:1115034947090907155": {
+        "area": "arXiv-Physics, arXiv-Quantum Physics",
+        "authors": "Chi-Fang Chen | Anurag Anshu | Quynh T. Nguyen",
+        "available_online": "",
+        "cover_date_start": "2025-04-03",
+        "created_at": "2026-06-19T05:26:19+08:00",
+        "doi": "10.48550/arxiv.2504.02706",
+        "en_title": "Learning quantum Gibbs states locally and efficiently",
+        "id": "1115034947090907155",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "108526",
+        "publication_name": "Quantum Physics",
+        "research_categories": "",
+        "zh_title": "局部且高效地学习量子吉布斯态"
+      },
+      "paper:812656388445569025": {
+        "area": null,
+        "authors": "",
+        "available_online": "",
+        "cover_date_start": "2020-04-03",
+        "created_at": "2026-05-29T14:08:15+08:00",
+        "doi": "10.1021/acs.nanolett.7b04006.s001",
+        "en_title": "Atom-Dependent Edge-Enhanced Second-Harmonic Generation on MoS2 Monolayers",
+        "id": "812656388445569025",
+        "keywords": "",
+        "publication_date": "",
+        "publication_id": "0",
+        "publication_name": "",
+        "research_categories": "",
+        "zh_title": "二硫化钼单层上基于原子的边缘增强二次谐波产生"
+      },
+      "paper:812669179147583488": {
+        "area": "computer science, automation & control systems, engineering, electrical & electronic",
+        "authors": "Yuanlong Wang | Daoyi Dong | Akira Sone | Ian R. Petersen | Hidehiro Yonezawa | Paola Cappellaro",
+        "available_online": "",
+        "cas_zone": "2",
+        "cover_date_start": "2020-11-01",
+        "created_at": "2026-06-17T07:27:48+08:00",
+        "doi": "10.1109/tac.2020.2973582",
+        "en_title": "Quantum Hamiltonian Identifiability via a Similarity Transformation Approach and Beyond",
+        "id": "812669179147583488",
+        "impact_factor": 7.6,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2020-11",
+        "publication_id": "2478",
+        "publication_name": "IEEE Transactions on Automatic Control _ IEEE Trans. Automat. Contr.",
+        "research_categories": "",
+        "zh_title": "通过相似变换方法及其他方法实现量子哈密顿量的可识别性"
+      },
+      "paper:812771206355746817": {
+        "area": "material science, physics, condensed matter, chemistry, multidisciplinary",
+        "authors": "Jayita Chakraborty",
+        "available_online": "",
+        "cas_zone": "3",
+        "cover_date_start": "2019-11-01",
+        "created_at": "2026-06-01T21:31:21+08:00",
+        "doi": "10.1016/j.jpcs.2019.05.038",
+        "en_title": "Ab initio calculations on three dimensional antiferromagnet Cu3TeO6",
+        "id": "812771206355746817",
+        "impact_factor": 4.7,
+        "jcr_zone": "Q2",
+        "keywords": "[{\"ch_name\":\"反铁磁体\",\"en_name\":\"Antiferromagnet\"},{\"ch_name\":\"密度泛函理论\",\"en_name\":\"Density functional theory\"},{\"ch_name\":\"电子结构\",\"en_name\":\"Electronic structure\"},{\"ch_name\":\"跳跃相互作用\",\"en_name\":\"Hopping interactions\"},{\"ch_name\":\"自旋轨道耦合\",\"en_name\":\"Spin orbit coupling\"},{\"ch_name\":\"万尼尔函数\",\"en_name\":\"Wannier function\"}]",
+        "publication_date": "2019-11",
+        "publication_id": "2153",
+        "publication_name": "Journal of Physics and Chemistry of Solids _ Journal of Physics and Chemistry of Solids",
+        "research_categories": "",
+        "zh_title": "关于三维反铁磁体Cu₃TeO₆的从头算计算"
+      },
+      "paper:813010055820476417": {
+        "area": "comprehensive periodical, multidisciplinary sciences",
+        "authors": "Oliver Gröning | Shiyong Wang | Xuelin Yao | Carlo A. Pignedoli | Gabriela Borin Barin | Colin Daniels | Andrew Cupo | Vincent Meunier | Xinliang Feng | Akimitsu Narita | Klaus Müllen | Pascal Ruffieux | Roman Fasel",
+        "available_online": "2018-8-8",
+        "cas_zone": "1",
+        "cover_date_start": "2018-08-01",
+        "created_at": "2026-06-15T08:00:01+08:00",
+        "doi": "10.1038/s41586-018-0375-9",
+        "en_title": "Engineering of robust topological quantum phases in graphene nanoribbons",
+        "id": "813010055820476417",
+        "impact_factor": 48.8,
+        "jcr_zone": "Q1",
+        "keywords": "",
+        "publication_date": "2018-8",
+        "publication_id": "8233",
+        "publication_name": "Nature _ Nature",
+        "research_categories": "",
+        "zh_title": "石墨烯纳米带中稳健拓扑量子相的工程"
+      },
+      "paper:813311336569110534": {
+        "area": "physics and astrophysics, chemical sciences, macromolecular and materials chemistry, engineering",
+        "authors": "Luiz A. Ribeiro Junior | Pedro H. Oliveira Neto | Wiliam F. da Cunha | Geraldo M. e Silva",
+        "available_online": "",
+        "cover_date_start": "2012-01-01",
+        "created_at": "2026-05-16T19:53:55+08:00",
+        "doi": "10.1016/j.phpro.2012.03.681",
+        "en_title": "Dynamics of Photogenerated Polaron-Excitons in Organic Semiconductors",
+        "id": "813311336569110534",
+        "keywords": "[{\"en_name\": \"Photoexcitations\", \"ch_name\": \"\"}, {\"en_name\": \"Polaron-Excitons\", \"ch_name\": \"\"}, {\"en_name\": \"Polarons\", \"ch_name\": \"\"}, {\"en_name\": \"SSH\", \"ch_name\": \"\"}]",
+        "publication_date": "2012",
+        "publication_id": "20427",
+        "publication_name": "Physics Procedia _ Physics Procedia",
+        "research_categories": "[\"Chemical Sciences\", \"Macromolecular and Materials Chemistry\", \"Engineering\"]",
+        "zh_title": "有机半导体中光生极化子-激子的动力学"
+      },
+      "paper:867755989443543881": {
+        "area": "arxiv-physics, physical sciences, quantum physics",
+        "authors": "J. Andrés Rojas-Sánchez | Yesenia A. García Jomaso | Brenda Vargas | David Ley Dominguez | César L. Ordoñez-Romero | Hugo A. Lara-García | Arturo Camacho-Guardian | Giuseppe Pirruccio",
+        "available_online": "",
+        "cover_date_start": "2022-11-30",
+        "created_at": "2026-06-09T22:07:22+08:00",
+        "doi": "10.48550/arXiv.2211.17082",
+        "en_title": "Topological Frenkel Exciton-Polaritons in One-Dimensional Lattices of Strongly Coupled Cavities",
+        "id": "867755989443543881",
+        "keywords": "",
+        "publication_date": "2022-11-30",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Quantum Physics\"]",
+        "zh_title": "强耦合腔一维晶格中的拓扑弗伦克尔激子极化激元"
+      },
+      "paper:867756944155214204": {
+        "area": "arXiv-Physics, Physical Sciences, Condensed Matter Physics",
+        "authors": "Daniel J. Trainer | Srilok Srinivasan | Brandon L. Fisher | Yuan Zhang | Constance R. Pfeiffer | Saw-Wai Hla | Pierre Darancet | Nathan P. Guisinger",
+        "available_online": "",
+        "cover_date_start": "2021-04-22",
+        "created_at": "2026-06-19T04:30:42+08:00",
+        "doi": "10.48550/arXiv.2104.11334",
+        "en_title": "Manipulating topology in tailored artificial graphene nanoribbons",
+        "id": "867756944155214204",
+        "keywords": "",
+        "publication_date": "2021-04-22",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\"]",
+        "zh_title": "在定制的人工石墨烯纳米带中操控拓扑结构"
+      },
+      "paper:867763047706395510": {
+        "area": "arxiv-physics, arxiv-condensed matter",
+        "authors": "J. Kusk Block | N. Nygaard",
+        "available_online": "",
+        "cover_date_start": "2010-02-16",
+        "created_at": "2026-06-14T22:01:02+08:00",
+        "doi": "10.48550/arXiv.1002.3044",
+        "en_title": "Honeycomb optical lattices with harmonic confinement",
+        "id": "867763047706395510",
+        "keywords": "",
+        "publication_date": "2010-02-16",
+        "publication_id": "108486",
+        "publication_name": "Quantum Gases _ Physics.cond-mat.quant-gas",
+        "research_categories": "",
+        "zh_title": "具有谐波约束的蜂窝状光学晶格"
+      },
+      "paper:867768831798411783": {
+        "area": "arXiv-Physics, Physical Sciences, Quantum Physics",
+        "authors": "Jack Thomas | Huajie Chen | Christoph Ortner",
+        "available_online": "",
+        "cover_date_start": "2021-06-23",
+        "created_at": "2026-06-19T08:45:10+08:00",
+        "doi": "10.48550/arXiv.2106.12572",
+        "en_title": "Rigorous body-order approximations of an electronic structure potential energy landscape",
+        "id": "867768831798411783",
+        "keywords": "",
+        "publication_date": "2021-06-23",
+        "publication_id": "108496",
+        "publication_name": "Mathematical Physics _ Physics.math-ph.math-ph",
+        "research_categories": "[\"Physical Sciences\", \"Quantum Physics\"]",
+        "zh_title": "电子结构势能面的严格体序近似"
+      },
+      "paper:867771350779954069": {
+        "area": "arxiv-physics, arxiv-quantum physics",
+        "authors": "Daniel Burgarth | Ashok Ajoy",
+        "available_online": "",
+        "cover_date_start": "2017-05-22",
+        "created_at": "2026-06-14T13:12:04+08:00",
+        "doi": "10.48550/arXiv.1705.07725",
+        "en_title": "Evolution-free Hamiltonian parameter estimation through Zeeman markers",
+        "id": "867771350779954069",
+        "keywords": "",
+        "publication_date": "2017-05-22",
+        "publication_id": "108526",
+        "publication_name": "Quantum Physics _ Physics.quant-ph.quant-ph",
+        "research_categories": "",
+        "zh_title": "通过塞曼标记进行无演化哈密顿量参数估计"
+      },
+      "paper:880764644145234465": {
+        "area": "arxiv-physics, physical sciences, condensed matter physics, quantum physics",
+        "authors": "Shaina Gandhi | Jayendra N. Bandyopadhyay",
+        "available_online": "",
+        "cover_date_start": "2023-06-26",
+        "created_at": "2026-06-17T07:53:16+08:00",
+        "doi": "10.48550/arXiv.2306.14987",
+        "en_title": "Topological triple phase transition in non-Hermitian quasicrystals with complex asymmetric hopping",
+        "id": "880764644145234465",
+        "keywords": "",
+        "publication_date": "2023-06-26",
+        "publication_id": "108482",
+        "publication_name": "Disordered Systems and Neural Networks _ Physics.cond-mat.dis-nn",
+        "research_categories": "[\"Physical Sciences\", \"Condensed Matter Physics\", \"Quantum Physics\"]",
+        "zh_title": "具有复非对称跳跃的非厄米准晶中的拓扑三相转变"
+      },
+      "paper:906786994577735744": {
+        "area": "arXiv-Physics, arXiv-Quantum Physics",
+        "authors": "Matthew T. Eiles | Christopher W. Wächtler | Alexander Eisfeld | Jan M. Rost",
+        "available_online": "",
+        "cover_date_start": "2023-09-06",
+        "created_at": "2026-06-19T10:39:29+08:00",
+        "doi": "10.48550/arXiv.2309.03039",
+        "en_title": "Topological edge states in a Rydberg composite",
+        "id": "906786994577735744",
+        "keywords": "",
+        "publication_date": "2023-09-06",
+        "publication_id": "108526",
+        "publication_name": "Quantum Physics _ Physics.quant-ph.quant-ph",
+        "research_categories": "",
+        "zh_title": "里德堡复合体中的拓扑边缘态"
+      }
+    },
+    "variables": [
+      {
+        "content": "The electronic confinement produced by the anti-lattice of carbon monoxide (CO) molecules on Cu(111) is modeled by a single-orbital tight-binding Hamiltonian with uniform on-site energy ε, nearest-neighbor hopping t_nn, next-nearest-neighbor hopping t_nnn, and nearest-neighbor overlap s. Nonlinear least-squares fitting to muffin-tin band-structure calculations yields the parameter values ε = 0.107 eV, t_nn = −0.121 eV, t_nnn = −0.028 eV, and s = 0.293. These parameters are used in tight-binding calculations that reproduce the measured local density of states (LDOS) and differential conductance maps.",
+        "content_hash": "5017300b7a9473a1149a7283ea5a01cd9e7c517bcd734500339291005ef3a208",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_b3303e2b949944bc",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867756944155214204::conclusion_6",
+            "package_id": "paper:867756944155214204",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867756944155214204"
+          ]
+        },
+        "rerank_score": 0.8739754549309151,
+        "role": "conclusion",
+        "score": 0.01282051282051282,
+        "title": "Tight-binding parametrization of the artificial-lattice Hamiltonian fitted to muffin-tin calculations",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For the one-dimensional tight-binding Hamiltonian\n$$\nH=\\sum_{n=1}^{N-1} c_{n}|n\\rangle\\langle n+1|+c_{n}^{*}|n+1\\rangle\\langle n|,\n$$\nconsider the perturbed Hamiltonian $H'=H+f|1\\rangle\\langle1|$ with scalar $f\\in\\mathbb{R}$, and denote the eigenvalues of $H$ as $\\{e_k\\}$ and those of $H'$ as $\\{e'_k\\}$. Then the local eigenstate weights $|\\langle1|e_k\\rangle|^2$ are given by\n$$\n|\\langle e_k|1\\rangle|^{2}=\\frac{(e_{k}^{\\prime}-e_{k})}{f}\\prod_{m\\neq k}\\frac{(e_{k}-e_{m}^{\\prime})}{(e_{k}-e_{m})}.\n$$\nKnowledge of $\\{e_k\\}$ and $\\{|\\langle1|e_k\\rangle|^2\\}$ determines all hopping parameters $\\{c_n\\}$. Concretely, the moment equations\n$$\n\\sum_{k=1}^{N} e_{k}^{m} |\\langle1|e_{k}\\rangle|^{2}=\\langle1|H^{m}|1\\rangle\n$$\nfor integers $m$ generate a system of polynomial relations in the $c_n$ which can be solved iteratively: for example $m=2$ yields $c_{1}^{2}$, $m=4$ yields combinations involving $c_{1}^{2}+c_{2}^{2}$, and higher $m$ successively reveal the remaining $c_n$. On-site potential terms $b_{n}|n\\rangle\\langle n|$ can similarly be recovered from the same data.",
+        "content_hash": "5dbbf49c869b97c7c4f23a9256b4496cf28c3b8599b9db799cc54fd3d5104b11",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_8dff8e3ffbb54f6e",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867771350779954069::conclusion_2",
+            "package_id": "paper:867771350779954069",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867771350779954069"
+          ]
+        },
+        "rerank_score": 0.8920065546781768,
+        "role": "conclusion",
+        "score": 0.0125,
+        "title": "Reconstruction of tight-binding couplings from spectra and local eigenstate weights",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The reduced tight-binding Hamiltonian is written as $H=\\varepsilon_i \\delta_{ij}+t_{ij}[a_i^\\dagger b_j]$, where $\\varepsilon_i$ is the on-site energy, $t_{ij}$ is the hopping integral between orbitals $i$ and $j$, and the parameters are fitted from local-density-approximation calculations.",
+        "content_hash": "6d36028cf8ef009cf10def24575c305c8633a2271eb473991d96d20819347167",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_f766f1cd3c754afd",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812656388445569025::conclusion_5",
+            "package_id": "paper:812656388445569025",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812656388445569025"
+          ]
+        },
+        "rerank_score": 0.8380813397494536,
+        "role": "conclusion",
+        "score": 0.016129032258064516,
+        "title": "The tight-binding Hamiltonian is parameterized by on-site energies and hopping integrals fitted from LDA calculations",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For a tight-binding Hamiltonian $\\mathcal{H}$ defined on a finite or countable index set $\\Lambda$, with each atom $\\ell$ specified by state $\\boldsymbol{u}_\\ell=(\\boldsymbol{r}_\\ell, v_\\ell, Z_\\ell)$ (position $\\boldsymbol{r}_\\ell$, effective potential $v_\\ell$, atomic species $Z_\\ell$), and satisfying the three-centre tight-binding form: for $\\ell,k\\in\\Lambda$, $\\mathcal{H}(\\boldsymbol{u})_{\\ell k}=h(\\boldsymbol{u}_{\\ell k})+\\sum_{m\\notin\\{\\ell,k\\}} t(\\boldsymbol{u}_{\\ell m},\\boldsymbol{u}_{k m})+\\delta_{\\ell k} v_\\ell \\mathrm{Id}_{N_{\\mathrm{b}}}$, where $\\boldsymbol{u}_{\\ell k}=(\\boldsymbol{r}_k-\\boldsymbol{r}_\\ell, v_\\ell, v_k, Z_\\ell, Z_k)$ and $N_{\\mathrm{b}}$ is the number of atomic orbitals per atom, with $h$ and $t$ matrix-valued functions satisfying exponential decay bounds $|h(\\boldsymbol{u}_{\\ell k})|+|\\nabla h(\\boldsymbol{u}_{\\ell k})|\\le h_0 e^{-\\gamma_0 r_{\\ell k}}$ and $|t(\\boldsymbol{u}_{\\ell m},\\boldsymbol{u}_{k m})|+|\\nabla t(\\boldsymbol{u}_{\\ell m},\\boldsymbol{u}_{k m})|\\le h_0 e^{-\\gamma_0(r_{\\ell m}+r_{k m})}$ for constants $h_0,\\gamma_0>0$ where $r_{\\ell m}=|\\boldsymbol{r}_\\ell-\\boldsymbol{r}_m|$, and given any finite set of interpolation nodes $X=\\{x_j\\}$, the interpolated atomic observable $I_X O_\\ell(\\boldsymbol{u}) := \\mathrm{tr}\\big[I_X O(\\mathcal{H}(\\boldsymbol{u}))_{\\ell\\ell}\\big]$ is representable exactly as a finite body-order site energy of the form $I_X O_\\ell(\\boldsymbol{u})=\\sum_{n=0}^{N-1}\\sum_{k_1<\\cdots<k_n\\neq\\ell} V_{nN}(\\boldsymbol{u}_\\ell;\\boldsymbol{u}_{\\ell k_1},\\dots,\\boldsymbol{u}_{\\ell k_n})$ with $N=|X|$ and with maximal body-order at most $2(|X|-1)$ for the three-centre model, or $|X|-1$ in the two-centre simplification where $t\\equiv0$. Each $V_{nN}$ depends only on the finite set $\\{\\boldsymbol{u}_\\ell,\\boldsymbol{u}_{\\ell k_j}\\}$ and is constructed by collecting terms from the monomial expansion of $I_X O(\\mathcal{H})$.",
+        "content_hash": "e6d199ed8766c71024109d6fd68d045e9461b90f1499f28a36707fd0c3370f85",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_fdd4aa9773f64054",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867768831798411783::conclusion_1",
+            "package_id": "paper:867768831798411783",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867768831798411783"
+          ]
+        },
+        "rerank_score": 0.7793697672660695,
+        "role": "conclusion",
+        "score": 0.00980392156862745,
+        "title": "Polynomial interpolation yields finite body-order site energies",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The Structure Preserving Transformation (SPT) framework yields an indicator condition for the existence of “economic” Hamiltonian identification algorithms whose computational complexity scales with the number of unknown parameters $\\mathcal{M}$ rather than the full system dimension $d$. Specifically, if one can realize elementary probe/measurement pairs such that $B=I_{\\sigma j}$ and $C=I_{i\\sigma}$ (i.e., the initial state equals the $j$th canonical basis vector and the measured observable selects the $i$th state component), which isolates the unknown Hamiltonian parameter appearing as $A_{ij}$, then identification of one unknown parameter under that setting is possible and the total Hamiltonian can be obtained by repeating this procedure parameterwise; this structural indicator is computable via SPT/Similarity Transformation Approach (STA) analysis on the minimal subsystem and signals when algorithmic cost can be made $O(\\mathcal{M} \\cdot f(\\mathcal{M}))$ for some function $f$ independent of $d$.",
+        "content_hash": "55ebe27865dbf40c3e8b9ae91de8aaf7deb34ac5a096003863cc1c14790c6ddb",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_79ecd03e77c14ef8",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812669179147583488::conclusion_6",
+            "package_id": "paper:812669179147583488",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812669179147583488"
+          ]
+        },
+        "related": [
+          {
+            "content": "For the $(n+1)\\times(n+1)$ antisymmetric tridiagonal system matrix\n      $$\n      A=\\begin{pmatrix}\n      0 & \\theta_1 & 0 & \\cdots \\\\\n      -\\theta_1 & 0 & \\theta_2 & \\\\\n      0 & -\\theta_2 & 0 & \\ddots \\\\\n      \\vdots & & \\ddots & \\ddots\n      \\end{pmatrix},\n      $$\n      with probe initial vector $B=\\mathbf{x}_0=(1,0,\\dots,0)^T$ and output selector $C=(1,0,\\dots,0)$ (this model arises from the exchange spin chain without transverse field, with Hamiltonian $H=\\sum_{i=1}^{n} \\frac{(-1)^{i+1} \\theta_{i}}{2}\\left(X_{i} X_{i+1}+Y_{i} Y_{i+1}\\right)$), the realization is almost always controllable and observable (hence minimal), and the STA equations constrained by $S\\mathbf{x}_0=\\mathbf{x}_0$, $C=CS$ admit only solutions for which $S=\\operatorname{diag}(1,\\pm1,\\pm1,\\dots,\\pm1)$ and $|\\theta_i|=|\\theta_i'|$ for all $i$. Therefore the magnitudes of all Hamiltonian coupling parameters $\\{\\theta_i\\}$ are structurally globally identifiable under the single‑qubit probe measurement of $X_1$ with the probe prepared in an $X_1$ eigenstate.",
+            "has_reasoning": true,
+            "id": "gcn_6f3b0b9b83d2409b",
+            "kind": "conclusion",
+            "rerank_score": 0,
+            "role": "conclusion",
+            "score": 0.013333333333333334,
+            "title": "Identifiability of exchange model without transverse field (Theorem 1)",
+            "type": "claim"
+          }
+        ],
+        "rerank_score": 0.7177162378714605,
+        "role": "conclusion",
+        "score": 0.015151515151515152,
+        "title": "SPT indicator for existence of economic identification algorithms",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The nearest-neighbour $2p_{z}$ tight-binding Hamiltonian $H=\\sum_{i}\\varepsilon_{i}c_{i}^{\\dagger}c_{i}-\\sum_{\\langle i,j\\rangle}\\gamma_{0}c_{i}^{\\dagger}c_{j}$ (with $\\varepsilon_{i}=0$ and $\\gamma_{0}=3\\ \\text{eV}$) accurately reproduces the dispersive in-gap bands of the edge-extended graphene nanoribbons (GNRs) of the $N$-AGNR-$S(n,m)$ and $N$-AGNR-$I(n,m)$ families and their SSH-like form. Extracted effective SSH couplings for experimentally relevant examples are: 7-AGNR-S(1,3) $t_{n}=0.45\\ \\text{eV}$, $t_{m}=0.59\\ \\text{eV}$; 7-AGNR-I(1,3) $t_{n}=0.45\\ \\text{eV}$, $t_{m}=0.65\\ \\text{eV}$. Using these parameters the SSH dispersion $E(k)=\\pm\\sqrt{t_{n}^{2}+t_{m}^{2}+2t_{n}t_{m}\\cos(k)}$ reproduces the tight-binding bands and allows prediction of bandgaps and bandwidths as functions of $(n,m)$, enabling geometric bandgap engineering without changing ribbon width.",
+        "content_hash": "c74ad2188e35c76e1ebd396073056f3d69bf58c8cd1a8947106ca9ff5b78c620",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_ab12a53ddc864f6e",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813010055820476417::conclusion_5",
+            "package_id": "paper:813010055820476417",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813010055820476417"
+          ]
+        },
+        "rerank_score": 0.704004957886375,
+        "role": "conclusion",
+        "score": 0.01,
+        "title": "Quantitative tight-binding parametrization demonstrates SSH-band correspondence and enables bandgap engineering via geometry",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For a 100‑site cis‑polyacetylene chain with periodic boundary conditions simulated with a Su–Schrieffer–Heeger (SSH) tight‑binding Hamiltonian modified by a Brazovskii–Kirova symmetry‑breaking term (Brazovskii–Kirova parameter δ0 = 0.05) and the parameter values t0 = 2.5 eV, α = 4.1 eV·Å−1, K = 21 eV·Å−2, and M = 1349.14 eV·fs2·Å−2, a simulated HOMO→LUMO+1 electronic excitation (implemented by changing the single‑particle occupation numbers so that an electron is removed from the highest occupied molecular orbital and placed in the second lowest unoccupied molecular orbital) produces an observable onset of lattice oscillation: the site‑local lattice displacement u_n(t) (with bond variable y_n(t) ≡ u_{n+1}(t) − u_n(t)) yields the bond‑length order parameter\n      $$\\bar{y}(t)=(-1)^n - \\frac{-y_{n-1}(t)+2y_n(t)-y_{n+1}(t)}{4},$$\n      and the time series of this order parameter shows the beginning of phonon formation, i.e., the first clear appearance of oscillatory motion of \\bar{y}(t), at approximately 200 fs after the HOMO→LUMO+1 excitation.",
+        "content_hash": "37f1a7a1182f7e98985d8ad5b99768a00fd36f9b62fe606229caae26cd95b8a0",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_2d427cffa45940ca",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:813311336569110534::conclusion_1",
+            "package_id": "paper:813311336569110534",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:813311336569110534"
+          ]
+        },
+        "rerank_score": 0.7911816780498595,
+        "role": "conclusion",
+        "score": 0.013888888888888888,
+        "title": "Lattice oscillation onset at ≈200 fs in 100-site SSH cis‑polyacetylene with δ0=0.05",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For closed quantum systems (unitary evolution, a special case of the GKSL master equation with all decoherence rates zero), the identifiability results for autonomous and controlled open quantum systems reduce to statements about Hamiltonian identifiability. Specifically, an autonomous closed quantum system (governed by the Liouville-von Neumann equation \\(\\dot{\\rho} = -i[H,\\rho]\\)) maps to an LDS, and its Hamiltonian parameters are identifiable if the input matrix \\(\\mathbf{B}\\) satisfies \\(\\mathrm{Rank}(\\mathbf{B}) = n\\) (arbitrary initial state preparation) and the sampling is non-uniform with increments whose ratios are irrational (as in Conclusion 6). A controlled closed quantum system (with Hamiltonian \\(H = H_0 + \\sum_j u_j(t) H_j\\)) maps to a BDS, and its Hamiltonian parameters are identifiable if the bilinear controllability and observability matrices (as in Conclusion 7) have full rank and the system is probed with the family of non-constant pulses \\(u_{\\tau,\\alpha}\\) (as in Conclusion 7). In both cases, if the matrix \\(\\mathbf{M}\\) (Conclusion 3) is invertible, the Hamiltonian parameters \\(\\vec{\\theta}\\) are uniquely reconstructible from the identified system matrices; since the Kossakowski matrix is zero, the symmetric condition does not apply.",
+        "content_hash": "b57a9cbf7dbbb892b0900afc27150f9f30eb0cb496f1aafea7261305d7dd8b6d",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_cd5d9d7e3f294460",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1085119427327819784::conclusion_8",
+            "package_id": "paper:1085119427327819784",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1085119427327819784"
+          ]
+        },
+        "related": [
+          {
+            "content": "Define a bijective vectorization index map \\(\\Gamma: \\{1,2,\\dots,n^2\\} \\to \\{(j,k): j,k \\in \\{1,\\dots,n\\}\\}\\) with \\(n = N^2-1\\). Let \\(\\mathbf{T}_1 \\in \\mathbb{R}^{n^2 \\times n}\\) be the matrix whose rows are indexed by \\(\\Gamma(i)= (j,k)\\) and whose entry in column \\(l\\) is \\(-f_{jkl}\\), i.e., \\((\\mathbf{T}_1)_{(j,k), l} = -f_{jkl}\\). Let \\(\\mathbf{T}_2 \\in \\mathbb{C}^{n^2 \\times n^2}\\) be the matrix with entries \\((\\mathbf{T}_2)_{\\Gamma(i), \\Gamma(j)} = -D^{(i,j)}_{\\Gamma(j)}\\) where \\(D_{lm}^{(a,b)}\\) is defined as in Conclusion 1. Assemble the block matrix\n      \\[\n      \\mathbf{M} = \\begin{pmatrix} \\mathbf{T}_1 & \\mathbf{T}_2 \\\\ 0 & \\frac{i}{N} \\mathbf{T}_1 \\end{pmatrix} \\in \\mathbb{C}^{(n+n^2) \\times (n+n^2)}.\n      \\]\n      If \\(\\mathbf{M}\\) is invertible, then the mapping from the vectorized parameters \\((\\vec{\\theta}, \\mathrm{vec}(\\gamma))\\) to \\((\\mathrm{vec}(\\mathbf{A}), \\vec{\\beta})\\) is invertible. Consequently, the Hamiltonian parameters \\(\\vec{\\theta} = (\\theta_1,\\dots,\\theta_n)\\) and the entries \\(\\gamma_{kl}\\) of the Kossakowski matrix are uniquely determined by the entries of the system matrix \\(\\mathbf{A}\\) and the vector \\(\\vec{\\beta}\\) obtained from the identified LDS or BDS. The relationship is linear via \\(\\mathbf{M}\\), so explicit inversion yields the unique parameter vector.",
+            "has_reasoning": true,
+            "id": "gcn_24070ee3b292491a",
+            "kind": "conclusion",
+            "rerank_score": 0,
+            "role": "conclusion",
+            "score": 0.015625,
+            "title": "Invertibility of M uniquely determines GKSL parameters from the identified LDS/BDS system matrix A and vector β",
+            "type": "claim"
+          }
+        ],
+        "rerank_score": 0.6848585382773892,
+        "role": "conclusion",
+        "score": 0.015873015873015872,
+        "title": "Closed-system identifiability as a special case of open-system results",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For the tight‑binding Hamiltonian\n      $$\n      H=\\sum_{j=1}^{L}V\\cos(2\\pi\\beta j+\\phi_{1}+\\phi_{2})\\hat{c}_{j}^{\\dagger}\\hat{c}_{j}\n      +[t+i\\gamma\\sin(2\\pi\\beta j+\\phi_{1})]\\hat{c}_{j+1}^{\\dagger}\\hat{c}_{j}\n      +[t+i\\gamma\\sin(2\\pi\\beta(j+1)+\\phi_{1})]\\hat{c}_{j}^{\\dagger}\\hat{c}_{j+1},\n      $$\n      with $V=t=1$, $\\gamma=0.05$, $\\beta=144/233$, $L=233$, $\\phi_{1}=\\pi-\\pi\\beta\\pmod{2\\pi}$, $\\theta=0$ (so $\\phi_{2}=-ih$), and $h_{c}=0.68$ for these parameters, eigenstate localization is strongly boundary‑condition sensitive: under open boundary conditions (OBC) the eigenstates are primarily localized even when the periodic boundary condition (PBC) spectrum indicates metallic/extended behavior; under PBC the MI transition is observed with extended states for $h<h_{c}$ and localized states for $h>h_{c}$. Numerical illustrations for $h=0.4$ and $h=1.2$ show representative eigenfunctions localized under OBC for both values, while the same eigenstates are extended under PBC for $h=0.4$ and localized under PBC for $h=1.2$.",
+        "content_hash": "0843c0d4b4e5900ce53f0e6a665fc56928a86d14ffe614100d50b212850b2c25",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_da20413d762848ec",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:880764644145234465::conclusion_6",
+            "package_id": "paper:880764644145234465",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:880764644145234465"
+          ]
+        },
+        "rerank_score": 0.6696356455078232,
+        "role": "conclusion",
+        "score": 0.01,
+        "title": "Boundary‑condition sensitivity: OBC versus PBC eigenstate localization behavior",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Define the identifiability observable for any operators $\\boldsymbol{O},\\boldsymbol{A}$ with $\\|\\boldsymbol{O}\\|,\\|\\boldsymbol{A}\\|\\leq 1$, any auxiliary Hamiltonian $\\boldsymbol{G}$ and any candidate Hamiltonian $\\boldsymbol{K}$ (with interaction degree $d$ and coefficients bounded by $1$) as\n$$\nQ(\\boldsymbol{O},\\boldsymbol{G},\\boldsymbol{A},\\boldsymbol{K}) = \\frac{1}{\\sqrt{2\\pi}}\\int_{-\\infty}^{\\infty}\\int_{-\\infty}^{\\infty}\\mathrm{Tr}[\\boldsymbol{O}_{\\boldsymbol{G}}^\\dagger(t)(h_+(t')\\boldsymbol{A}_{\\boldsymbol{K}}(t'+t)\\rho - h_-(t')\\rho\\boldsymbol{A}_{\\boldsymbol{K}}(t'+t))]g_{\\beta}(t)\\,\\mathrm{d}t'\\mathrm{d}t,\n$$\nwhere $\\rho\\propto e^{-\\beta\\boldsymbol{H}}$ is the unknown Gibbs state of the true Hamiltonian $\\boldsymbol{H}$, $\\boldsymbol{O}_{\\boldsymbol{G}}(t)=e^{i\\boldsymbol{G}t}\\boldsymbol{O}e^{-i\\boldsymbol{G}t}$, $\\boldsymbol{A}_{\\boldsymbol{K}}(t)=e^{i\\boldsymbol{K}t}\\boldsymbol{A}e^{-i\\boldsymbol{K}t}$, $g_\\beta(t)=\\frac{2}{\\beta}g(2t/\\beta)$ with $g(t)=-\\frac{\\pi^{3/2}}{2\\sqrt{2}(1+\\cosh(\\pi t))}$, and $h_{\\pm}(t)$ are rapidly decaying functions defined via the operator Fourier transform with Gaussian window of width $\\sigma=1/\\beta$ and frequency truncation $\\Omega'>0$, satisfying $|h_{\\pm}(t)| \\lesssim e^{-t^2/\\beta^2} \\frac{1}{\\beta^{3/2}} e^{\\beta\\Omega'/2 + 1/4}$.\nThe observable $Q$ has the following properties:\n(i) (Vanishing) When $\\boldsymbol{K}=\\boldsymbol{H}$, $Q(\\boldsymbol{O},\\boldsymbol{G},\\boldsymbol{A},\\boldsymbol{H})=0$ for any $\\boldsymbol{G},\\boldsymbol{O},\\boldsymbol{A}$.\n(ii) (Robustness/Locality) Let $\\boldsymbol{G}_\\ell$ and $\\boldsymbol{K}_\\ell$ be the restrictions of $\\boldsymbol{G}$ and $\\boldsymbol{K}$ to balls of radius $\\ell$ around the supports of $\\boldsymbol{O}$ and $\\boldsymbol{A}$, respectively. Then\n$$\n|Q(\\boldsymbol{O},\\boldsymbol{G},\\boldsymbol{A},\\boldsymbol{K}) - Q(\\boldsymbol{O},\\boldsymbol{G}_\\ell,\\boldsymbol{A},\\boldsymbol{K}_\\ell)| \\lesssim \\frac{e^{\\beta\\Omega'/2}}{\\sqrt{\\beta}}(e^{-\\ell^2/16e^4 d^2\\beta^2}+e^{-\\pi\\ell/e^2 d\\beta})(|\\boldsymbol{O}|+|\\boldsymbol{A}|).\n$$\nFor perturbations that differ only away from the support, similar exponentially decaying bounds hold.\n(iii) (Measurability) Each $Q$ can be estimated to additive precision $\\epsilon$ with success probability $1-\\delta$ using $\\mathcal{O}\\left(\\frac{e^{\\beta\\Omega'}\\|\\boldsymbol{O}\\|^2\\|\\boldsymbol{A}\\|^2}{\\beta\\epsilon^2}\\log(1/\\delta)\\right)$ copies of $\\rho$ and $\\operatorname{poly}(\\beta, V(\\ell), \\log(1/(\\kappa\\epsilon)), \\frac{e^{\\beta\\Omega'/2}}{\\sqrt{\\beta}})$ quantum gates acting on the neighborhoods of radius $\\ell$ around $\\boldsymbol{O},\\boldsymbol{A}$, where $V(\\ell)$ is the number of Hamiltonian terms within distance $\\ell$ and $\\kappa$ is the precision of the discrete net used for coefficient representation. These properties enable constructing hypothesis tests over local candidate Hamiltonians using only local experiments.",
+        "content_hash": "6551484cf5404f72351d9cf160a90c8d1020461eaab645396dcf91a059c7f3be",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_fe3ea6b312634a3d",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1115034947090907155::conclusion_3",
+            "package_id": "paper:1115034947090907155",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1115034947090907155"
+          ]
+        },
+        "rerank_score": 0.6668569979233733,
+        "role": "conclusion",
+        "score": 0.010526315789473684,
+        "title": "Identifiability observable Q and its operational properties",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "A combined, twofold theoretical workflow—parameter-free transfer matrix method (TMM) using measured material optical constants, together with an explicit Su-Schrieffer-Heeger (SSH) tight-binding exciton-polariton Hamiltonian—constitutes a practical and general methodology to (i) compute experimentally observable reflectance and field distributions of stacked cavity arrays including realistic loss and vibronic features, and (ii) interpret those observables in terms of microscopic polaritonic bands, Hopfield weights, and topological edge modes. This workflow is applicable beyond the specific organic molecule studied and to inorganic excitons when appropriate material data are supplied.",
+        "content_hash": "93de4ed6f60fe37fa9a1a75d7510c6d6ba3b6c4962fa6b5425a66321ae4d5131",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_03d1a03f19154ff4",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867755989443543881::conclusion_9",
+            "package_id": "paper:867755989443543881",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867755989443543881"
+          ]
+        },
+        "related": [
+          {
+            "content": "For the specific cavity stack with $2N=20$ cavities, $L_c=140$ nm, $L_{\\text{odd}}=30$ nm, $L_{\\text{even}}=40$ nm, and Su-Schrieffer-Heeger (SSH) hopping parameters $v=0.15$, $w=0.09$ for the trivial configuration (and swapped for the topological configuration), the transfer matrix method (TMM) reflectance spectra and the eigenvalues of the SSH tight-binding Hamiltonian show remarkable quantitative agreement: (i) bulk polariton bands, their angle-dependent bandgaps, and the closing of the lower-band gap at large in-plane momentum are reproduced by both methods; (ii) the in-gap edge-state dispersions obtained from the tight-binding diagonalization coincide with reflectance minima and localized field distributions obtained via the TMM, establishing that the multilayer stack physically realizes the SSH exciton-polariton model.",
+            "has_reasoning": true,
+            "id": "gcn_fedea1e3c8564a32",
+            "kind": "conclusion",
+            "rerank_score": 0,
+            "role": "conclusion",
+            "score": 0.011627906976744186,
+            "title": "Quantitative agreement between TMM and SSH tight-binding model for polariton spectra",
+            "type": "claim"
+          }
+        ],
+        "rerank_score": 0.6570153369786496,
+        "role": "conclusion",
+        "score": 0.016129032258064516,
+        "title": "Combined transfer-matrix and SSH tight-binding methodology for topological polariton analysis",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "The on-site energies $E_q$ and hopping amplitudes $V_{qq'}$ of the effective tight-binding Hamiltonian that maps the electronic Hamiltonian of a Rydberg atom interacting with neutral scatterers can be continuously tuned by varying the arclengths $t_i$ between scatterers along the ring, the ring radius $R$, and the Rydberg principal quantum number $\\nu$, enabling systematic engineering of nearest-neighbor, staggered, trimerized, and oscillatory long-range couplings in the Rydberg composite. Demonstrations include a system with $\\nu=60$, $R=2\\nu^{2}$ for the SSH dimer and trimer SSH examples, and a system with $\\nu=60$, $R_2=1.74\\nu^{2}$ for the triangle-chain example (for which the intra-cell coupling $u$ is approximately $-5.5\\ \\mathrm{MHz}$ for the system with $M=24$ scatterers), showing that geometric parameters map directly onto target tight-binding parameters.",
+        "content_hash": "b1b985b5fae6968d61610d19f827654139a50769890b6210821262ec6e824110",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_e22f506838d243ed",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:906786994577735744::conclusion_5",
+            "package_id": "paper:906786994577735744",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:906786994577735744"
+          ]
+        },
+        "rerank_score": 0.6411207550903671,
+        "role": "conclusion",
+        "score": 0.01098901098901099,
+        "title": "Continuous tunability of on-site energies and hopping amplitudes via scatterer geometry and Rydberg quantum number in a Rydberg composite",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For a zero-temperature, noninteracting (spin-polarized) Fermi gas of N atoms occupying the lowest single-particle eigenstates of the trapped tight-binding Hamiltonian (nearest-neighbour tunnelling amplitude J, harmonic trap spring constant κ), the radial density profile n(r) = ∫_{-∞}^{E_F} ρ(E,r) dE, where ρ(E,r) is the angle-averaged local density of states at radius r (defined as ρ(E,r)=∑_n∫_0^{2π} dφ/(2π) |ψ_n(r)|² δ(E-E_n) with ψ_n and E_n the eigenstates and eigenvalues of the tight-binding Hamiltonian with harmonic confinement), displays a distinct shoulder at the radius where the local Fermi energy E_F - ½κr² crosses the homogeneous-lattice Dirac point energy (E=0). Thus the Dirac-point physics manifests as an observable shoulder at half-filling in the spatial density distribution of the trapped Fermi gas.",
+        "content_hash": "eb860a26f6358fac3f1dd8aa811d6ee1a0bd5401006791d8f9004f29c102b96e",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_27f9ad2d6bbc4120",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:867763047706395510::conclusion_6",
+            "package_id": "paper:867763047706395510",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:867763047706395510"
+          ]
+        },
+        "rerank_score": 0.7404095057319411,
+        "role": "conclusion",
+        "score": 0.015384615384615385,
+        "title": "Signature of Dirac points in the equilibrium density of a trapped noninteracting Fermi gas",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "For the 4-qubit linear chain Hamiltonian $H = \\sum_{i=1}^{4}\\alpha_i \\sigma_i^x + \\beta_i \\sigma_i^y + \\gamma_i \\sigma_i^z + \\sum_{i=1}^{3}\\delta_i \\sigma_i^x \\sigma_{i+1}^x + \\epsilon_i \\sigma_i^z \\sigma_{i+1}^z$ with all coefficients set to 1, drawing the parameter $\\gamma_4$ independently from a Gaussian distribution with mean 0 and variance 1 while leaving the other coefficients at 1 produces, for almost all samples, an observable discrete-time system. Over 30 random realizations of $\\gamma_4$, the mean minimal number of discrete steps $k^{*}$ required to reach observability (the smallest $k$ such that the observability matrix attains full rank) was approximately 15.",
+        "content_hash": "2a519372804a9121b02c12a2033b14ad1ace4a59de29def7ab219117ef50ed08",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_100ceac189914538",
+        "kind": "weak_point",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:1092748556957122584::conclusion_5b",
+            "package_id": "paper:1092748556957122584",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:1092748556957122584"
+          ]
+        },
+        "rerank_score": 0.6143313330513044,
+        "role": "conclusion",
+        "score": 0.012195121951219513,
+        "title": "Randomizing a single Hamiltonian parameter generically restores observability; empirics for gamma_4",
+        "type": "claim",
+        "visibility": "public"
+      },
+      {
+        "content": "Twelve important hopping interactions between Cu^{2+} ions in three-dimensional Cu_3TeO_6 (cubic, space group Ia\\overline{3}, lattice parameter a = 9.537 Å) are identified from a low-energy tight-binding Hamiltonian derived by the Nth-order muffin-tin orbital (NMTO) downfolding method applied to the local-density approximation (LDA) potential, which retains only Cu d_{x^2-y^2} orbitals in the local octahedral frame and integrates out other Cu d orbitals.",
+        "content_hash": "4b7d969de6027d338bfb5235c6c5b625c42c09bc8da41690481e28a3e59a5d14",
+        "has_evidence": true,
+        "has_reasoning": true,
+        "id": "gcn_5c1bddbc381540f8",
+        "kind": "conclusion",
+        "provenance": {
+          "representative_lcn": {
+            "local_id": "paper:812771206355746817::conclusion_1",
+            "package_id": "paper:812771206355746817",
+            "version": "2.0.0"
+          },
+          "source_packages": [
+            "paper:812771206355746817"
+          ]
+        },
+        "rerank_score": 0.6500363092071157,
+        "role": "conclusion",
+        "score": 0.011904761904761904,
+        "title": "Twelve hopping interactions between Cu^{2+} ions in Cu_3TeO_6 identified by NMTO downfolding",
+        "type": "claim",
+        "visibility": "public"
+      }
+    ]
+  },
+  "trace_id": "req_d0cba8d6137cc"
+}

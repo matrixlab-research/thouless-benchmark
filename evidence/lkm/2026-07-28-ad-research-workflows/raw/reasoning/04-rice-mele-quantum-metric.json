@@ -1,0 +1,139 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "In the Rice-Mele tight-binding model of a one-dimensional linear chain with two atoms per unit cell, nearest-neighbour hopping \\(t_0\\), on-site energy difference \\(\\Delta\\), dimerization \\(\\delta t\\), and strain \\(\\epsilon\\), the dipole moment per unit cell in the small-gap limit, where the band gap \\(E_{\\mathrm{gap}} = 2\\sqrt{\\Delta^2 + 4\\delta t^2}\\) is much smaller than \\(t_0\\) (\\(E_{\\mathrm{gap}} \\ll t_0\\)), is \\(P(\\epsilon,\\overline{u}(\\epsilon)) = -\\dfrac{|e|}{\\pi}\\,\\theta(\\epsilon,\\overline{u}(\\epsilon))\\), where the angular parameter \\(\\theta\\) is defined by \\(\\tan\\theta(\\epsilon,\\overline{u}(\\epsilon)) = \\dfrac{\\Delta}{2\\delta t(\\epsilon,\\overline{u}(\\epsilon))}\\). The clamped-ion piezoelectric coefficient (internal coordinate fixed) is \\(c_{\\mathrm{piezo}}^{\\mathrm{c.i.}} = -\\dfrac{|e|}{2\\pi}\\,\\beta\\,\\sin 2\\theta(0,\\overline{u}_{0})\\), where \\(\\beta\\) is the adimensional electron–phonon parameter defined by \\(\\beta\\equiv -\\dfrac{a_{0}}{2t_{0}}\\left.\\dfrac{\\mathrm{d}t}{\\mathrm{d}r}\\right|_{a_{0}/2}\\), \\(a_{0}\\) is the equilibrium unit cell length, and \\(\\overline{u}_{0}=\\overline{u}(0)\\) is the equilibrium internal coordinate at zero macroscopic strain.",
+      "content_hash": "09e04fc4be14e41b67361769ae7055e89a8ad059367b7895a6317549e1f47896",
+      "id": "gcn_e264632a5a0e4780",
+      "type": "claim"
+    },
+    "papers": {
+      "paper:904068914462326823": {
+        "area": "arXiv-Physics, Chemical Sciences, Macromolecular and Materials Chemistry, Engineering, Materials Engineering, Physical Sciences",
+        "author_details": [
+          {
+            "affiliation": "Sapienza University of Rome",
+            "affiliation_zh": "罗马第一大学",
+            "author_id": "45w54954",
+            "citation_nums": 2,
+            "h_index": 1,
+            "name": "Stefano Paolo Villani",
+            "origin_name": "Stefano Paolo Villani"
+          },
+          {
+            "affiliation": "Fondazione Policlinico Universitario A. Gemelli IRCCS;Università Cattolica del Sacro Cuore",
+            "affiliation_zh": "杰梅利大学综合医院基金会;圣心天主教大学",
+            "author_id": "8M6783389",
+            "citation_nums": 1149,
+            "h_index": 21,
+            "name": "Marco Campetella",
+            "origin_name": "Marco Campetella"
+          },
+          {
+            "affiliation": "Consiglio Nazionale delle Ricerche;Istituto per lo Studio dei Materiali Nanostrutturati",
+            "affiliation_zh": "意大利国家研究委员会超导体、绝缘体和新型材料自旋研究所",
+            "author_id": "2XR71714",
+            "citation_nums": 5115,
+            "h_index": 35,
+            "is_high_cited": true,
+            "name": "Paolo Barone",
+            "origin_name": "Paolo Barone"
+          },
+          {
+            "affiliation": "Sapienza Università di Roma",
+            "affiliation_zh": "罗马第一大学",
+            "author_id": "28UT2991",
+            "avatar": "https://cdn1.deepmd.net/static/img/6bc0e1fe4uDyhe0AAAAJ.png",
+            "citation_nums": 99046,
+            "h_index": 106,
+            "is_high_cited": true,
+            "name": "Francesco Mauri",
+            "origin_name": "Francesco Mauri"
+          }
+        ],
+        "authors": "Stefano Paolo Villani | Marco Campetella | Paolo Barone | Francesco Mauri",
+        "authors_list": [
+          "Stefano Paolo Villani",
+          "Marco Campetella",
+          "Paolo Barone",
+          "Francesco Mauri"
+        ],
+        "available_online": "",
+        "cover_date_start": "2023-08-30",
+        "created_at": "2023-08-31T10:07:06+08:00",
+        "doi": "10.48550/arXiv.2308.16070",
+        "en_abstract": "Piezoelectricity of organic polymers has attracted increasing interest because of several advantages they exhibit over traditional inorganic ceramics. While most organic piezoelectrics rely on the presence of intrinsic local dipoles, a highly nonlocal electronic polarization can be foreseen in conjugated polymers, characterised by delocalized and highly responsive π-electrons. These 1D systems represent a physical realization of a Thouless pump, a mechanism of adiabatic charge transport of topological nature which results, as shown in this work, in anomalously large dynamical effective charges, inversely proportional to the band gap energy. A structural (ferroelectric) phase transition further contributes to an enhancement of the piezoelectric response reminiscent of that observed in piezoelectric perovskites close to morphotropic phase boundaries. First-principles Density Functional Theory (DFT) calculations performed in two representative conjugated polymers using hybrid functionals, show that state-of-the-art organic piezoelectric are outperformed by piezoelectric conjugated polymers, mostly thanks to strongly anomalous effective charges of carbon, larger than 5e - ordinary values being of the order of 1e - and reaching the giant value of 30e for band gaps of the order of 1 eV.",
+        "en_title": "Giant piezoelectricity driven by Thouless pump in conjugated polymers",
+        "id": "904068914462326823",
+        "keywords": "",
+        "open_access": true,
+        "paper_url": "https://arxiv.org/abs/2308.16070v3",
+        "pdf_flag": true,
+        "publication_cover": "https://icon.bohrium.com/journal/arxiv.png",
+        "publication_date": "2023-08-30",
+        "publication_id": "108483",
+        "publication_name": "Materials Science _ Physics.cond-mat.mtrl-sci",
+        "research_categories": "[\"Chemical Sciences\", \"Macromolecular and Materials Chemistry\", \"Engineering\", \"Materials Engineering\", \"Physical Sciences\"]",
+        "zh_title": "共轭聚合物中由 Thouless 泵驱动的巨压电效应"
+      }
+    },
+    "reasoning_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "In the Rice-Mele tight-binding model of a one-dimensional linear chain with two atoms per unit cell, nearest-neighbour hopping \\(t_0\\), on-site energy difference \\(\\Delta\\), dimerization \\(\\delta t\\), and strain \\(\\epsilon\\), the dipole moment per unit cell in the small-gap limit, where the band gap \\(E_{\\mathrm{gap}} = 2\\sqrt{\\Delta^2 + 4\\delta t^2}\\) is much smaller than \\(t_0\\) (\\(E_{\\mathrm{gap}} \\ll t_0\\)), is \\(P(\\epsilon,\\overline{u}(\\epsilon)) = -\\dfrac{|e|}{\\pi}\\,\\theta(\\epsilon,\\overline{u}(\\epsilon))\\), where the angular parameter \\(\\theta\\) is defined by \\(\\tan\\theta(\\epsilon,\\overline{u}(\\epsilon)) = \\dfrac{\\Delta}{2\\delta t(\\epsilon,\\overline{u}(\\epsilon))}\\). The clamped-ion piezoelectric coefficient (internal coordinate fixed) is \\(c_{\\mathrm{piezo}}^{\\mathrm{c.i.}} = -\\dfrac{|e|}{2\\pi}\\,\\beta\\,\\sin 2\\theta(0,\\overline{u}_{0})\\), where \\(\\beta\\) is the adimensional electron–phonon parameter defined by \\(\\beta\\equiv -\\dfrac{a_{0}}{2t_{0}}\\left.\\dfrac{\\mathrm{d}t}{\\mathrm{d}r}\\right|_{a_{0}/2}\\), \\(a_{0}\\) is the equilibrium unit cell length, and \\(\\overline{u}_{0}=\\overline{u}(0)\\) is the equilibrium internal coordinate at zero macroscopic strain.",
+              "id": "gcn_e264632a5a0e4780",
+              "metadata": "{\"narrative\": \"The closed\\u2011form expressions for $P$ and $c_{\\\\mathrm{piezo}}^{\\\\mathrm{c.i.}}$ are derived from the strained Rice\\u2013Mele model using the small\\u2011gap approximation $E_{\\\\mathrm{gap}} \\\\ll t_0$. The derivation is mathematically consistent and the assumptions are clearly stated. No load\\u2011bearing weak points were identified, as any uncertainties about the small\\u2011gap regime do not affect the paper's main quantitative conclusions (which rest on exact numerical model solutions). No element of this derivation rises above standard theoretical practice to constitute a highlight.\", \"structural_edges\": [{\"target\": \"paper:904068914462326823::conclusion_2\", \"type\": \"supports\"}]}",
+              "title": "Closed-form expressions for polarization and clamped-ion piezoelectric coefficient in the Rice-Mele model"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_6124b95359cd4a84",
+            "premises": [],
+            "steps": [
+              {
+                "reasoning": "Define the physical model and all relevant symbols: consider an infinite one-dimensional linear chain with a two‑atom unit cell of equilibrium length $a_{0}$; the only macroscopic strain is the dimensionless scalar $ \\epsilon $ defined by $a(\\epsilon)=a_{0}(1+\\epsilon)$, where $a(\\epsilon)$ is the strained unit‑cell length; denote by $u(\\epsilon)$ the dimensionless internal (fractional) coordinate measuring the relative displacement of the two atoms in the unit cell, defined by $u(\\epsilon)=(\\delta r_{B}-\\delta r_{A})/(a(\\epsilon)/2)$ where $\\delta r_{\\alpha}$ are atomic displacements; denote by $t_{0}$ the unstrained nearest‑neighbour hopping $t(a_{0}/2)$ and by $\\Delta\\ge 0$ the on‑site energy difference between the two sublattice sites (atoms A and B). This is the Rice–Mele tight‑binding model extended to include strain and internal displacement. [22]",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "Introduce strain dependence of hopping terms and define the electron–phonon parameter $\\beta$: at linear order in strain and displacements the average hopping is $t(\\epsilon)=t_{0}(1-\\beta\\epsilon)$, where $\\beta$ is the dimensionless electron–phonon (e‑ph) parameter, defined explicitly as $\\beta\\equiv -\\dfrac{a_{0}}{2t_{0}}\\left.\\dfrac{\\mathrm{d}t}{\\mathrm{d}r}\\right|_{a_{0}/2}$; the dimerization (alternating) part of the hopping is $\\delta t(\\epsilon)=-t_{0}\\beta(1+\\epsilon)u(\\epsilon)$ (consistent with defining $\\delta t$ as half the difference between the two nearest‑neighbour hoppings). All symbols ($t_{0},\\beta,a_{0},u,\\epsilon,\\delta t,\\Delta$) are as defined here. These relations are the model's linearised expressions for strain and internal displacement dependence of hopping. (These equalities are presented in the model/Methods text as the definitions of $t(\\epsilon)$, $\\delta t(\\epsilon)$ and $\\beta$.)",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "Write the electronic Hamiltonian and recall the Berry‑phase expression for polarization in the small‑gap limit: the electronic part of the Hamiltonian in the nearest‑neighbour tight‑binding approximation has, in reciprocal space, a $2\\times2$ Bloch Hamiltonian with off‑diagonal hopping terms built from $t(\\epsilon)$ and $\\delta t(\\epsilon)$ and diagonal on‑site splitting $\\pm\\Delta$; the modern theory of polarization (Berry‑phase approach) yields, in the limit $E_{gap}\\ll t(\\epsilon)$, that the dipole moment (electronic polarization per unit cell) is proportional to an angular parameter $\\theta$ which parametrises the point $(\\Delta,\\delta t)$ in a two‑dimensional parameter space: explicitly, $P(\\epsilon,\\overline{u}(\\epsilon)) = -\\dfrac{|e|}{\\pi}\\,\\theta(\\epsilon,\\overline{u}(\\epsilon))$, where $|e|$ is the elementary positive charge and $\\theta$ is defined through the parametric relations below. This Berry‑phase relation is the starting point for closed‑form polar expressions in the Rice–Mele model. [51]",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Define the angular parameter $\\theta$ and its relation to model parameters: introduce the angle $\\theta(\\epsilon,\\overline{u}(\\epsilon))$ in the $(\\Delta,\\delta t)$ parameter space by the relation $\\tan\\theta(\\epsilon,\\overline{u}(\\epsilon))=\\dfrac{\\Delta}{2\\delta t(\\epsilon,\\overline{u}(\\epsilon))}$, equivalently parametrising $2\\Delta=E_{gap}\\sin\\theta$ and $4\\delta t=E_{gap}\\cos\\theta$ with $E_{gap}=\\sqrt{(2\\Delta)^{2}+(4\\delta t)^{2}}$; here $\\overline{u}(\\epsilon)$ is the equilibrium internal coordinate (minimiser of the total energy) at strain $\\epsilon$. This defines $\\theta$ as used in the polarization formula and ties it to $\\Delta$ and $\\delta t$. (All symbols are those defined in prior steps.)",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "Derive the closed‑form Berry‑phase expression for the dipole moment per unit cell in the small‑gap ($E_{gap}\\ll t_{0}$) limit: combining the Berry‑phase expression for polarization with the parametrisation by $\\theta$ yields the explicit closed form $P(\\epsilon,\\overline{u}(\\epsilon)) = -\\dfrac{|e|}{\\pi}\\,\\theta(\\epsilon,\\overline{u}(\\epsilon))$, where $\\theta$ satisfies $\\tan\\theta=\\Delta/2\\delta t$ as specified; this equality is the model expression for the electronic polarization quoted in the paper (it follows from evaluating the Berry phase of the occupied band and taking the small‑gap limit). Fig. 1[51,52]",
+                "step_id": "5"
+              },
+              {
+                "reasoning": "Define the piezoelectric coefficient and its decomposition, and state the clamped‑ion (internal coordinate fixed) derivative to be derived: the longitudinal piezoelectric coefficient is $c_{\\mathrm{piezo}}=\\left.\\dfrac{\\mathrm{d}P(\\epsilon,\\overline{u}(\\epsilon))}{\\mathrm{d}\\epsilon}\\right|_{\\epsilon=0}$ and is decomposed into clamped‑ion and internal‑relaxation parts as $c_{\\mathrm{piezo}}=c_{\\mathrm{piezo}}^{\\mathrm{c.i.}} + c_{\\mathrm{piezo}}^{\\mathrm{i.r.}}$, with $c_{\\mathrm{piezo}}^{\\mathrm{c.i.}}=\\left.\\dfrac{\\partial P(\\epsilon,\\overline{u})}{\\partial\\epsilon}\\right|_{\\epsilon=0,\\ \\overline{u}=\\overline{u}_{0}}$ and $c_{\\mathrm{piezo}}^{\\mathrm{i.r.}}=Z^{*}(\\overline{u}_{0})\\left.\\dfrac{\\partial\\overline{u}}{\\partial\\epsilon}\\right|_{\\epsilon=0}$ where $Z^{*}=\\partial P/\\partial u$ is the Born (effective) charge associated with $u$ and $\\overline{u}_{0}\\equiv\\overline{u}(0)$ is the equilibrium internal coordinate at zero macroscopic strain. These definitions are used to obtain the closed form for the clamped‑ion term. [60]",
+                "step_id": "6"
+              },
+              {
+                "reasoning": "Compute the clamped‑ion piezoelectric coefficient by differentiating the closed polarization at fixed internal coordinate: starting from $P=-\\dfrac{|e|}{\\pi}\\theta(\\epsilon,\\overline{u})$ with $\\tan\\theta=\\dfrac{\\Delta}{2\\delta t(\\epsilon,\\overline{u})}$ and using $\\delta t(\\epsilon,\\overline{u})=-t_{0}\\beta(1+\\epsilon)\\,u$ and $t(\\epsilon)=t_{0}(1-\\beta\\epsilon)$, take the partial derivative of $P$ with respect to $\\epsilon$ at $\\epsilon=0$ holding $\\overline{u}=\\overline{u}_{0}$ fixed; evaluating the chain rule algebraically yields the closed expression $c_{\\mathrm{piezo}}^{\\mathrm{c.i.}} = -\\dfrac{|e|}{2\\pi}\\,\\beta\\,\\sin 2\\theta(0,\\overline{u}_{0})$, where $\\sin2\\theta$ is computed from the angle $\\theta$ defined above and all symbols ($\\beta,\\theta,\\overline{u}_{0}$) are as previously defined. This is the clamped‑ion closed form reported in the paper. (The inequality $|c_{\\mathrm{piezo}}^{\\mathrm{c.i.}}|\\le |e|/2\\pi\\beta$ follows by noting $|\\sin2\\theta|\\le1$.) Fig. 1",
+                "step_id": "7"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "In conjugated 1D chains described by the Rice–Mele Hamiltonian, a rigorous connection between microscopic tight‑binding parameters (hopping modulation, on‑site energy imbalance, electron–phonon coupling) and bulk polarization/piezoelectric response under strain had not been written in explicit, closed form. Without explicit analytical relations one cannot predict how material parameters (e.g., the electron–phonon coupling $\\beta$, the on‑site splitting $\\Delta$, and the dimerization $\\delta t$) set absolute limits on the clamped‑ion contribution to piezoelectricity or how to tune those parameters to improve the clamped‑ion response. The derived expressions above supply that missing analytical link by defining $P$ and $c_{\\mathrm{p i e z o}}^{\\mathrm{c.i.}}$ in terms of model parameters, enabling quantitative comparison with numerics and guiding material tuning.",
+            "id": "paper:904068914462326823::conclusion_1_subproblem",
+            "source_package": "paper:904068914462326823"
+          }
+        ],
+        "source_package": "paper:904068914462326823"
+      }
+    ],
+    "total_chains": 1
+  },
+  "trace_id": "req_e8bdf5772acad"
+}

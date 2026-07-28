@@ -1,0 +1,165 @@
+{
+  "code": 0,
+  "data": {
+    "claim": {
+      "content": "AD-NEGF enables gradient-based inverse optimization of Hamiltonian matrix elements to fit a target transmission curve. In an example, starting from the Hamiltonian $H_{52}$ of a 5-2 graphene nano-junction (consisting of 5 graphene rings on the left and 2 on the right) as the initial guess, gradient-based minibatch optimization over 2000 energy-sampled transmission $T(E)$ points and roughly $10^{4}$ Hamiltonian parameters (including device, leads, and couplings) was performed with the Adam optimizer; the loss decreased substantially within a few hundred iterations and the optimized $H_{52}$ produced a transmission curve qualitatively approximating the target transmission $T_{74}(E)$ of a 7-4 graphene nano-junction (7 rings left, 4 rings right). Conventional black-box optimizers (Bayesian optimization, genetic algorithms, and finite-difference gradient methods) failed on this high-dimensional fitting task due to the curse of dimensionality.",
+      "content_hash": "94d9542a303c58311bb3fce3818f5413b35dacc7854ed4048971af68902b07f3",
+      "id": "gcn_a5eb3fecc5264ac5",
+      "type": "claim"
+    },
+    "papers": {
+      "paper:867757924515053703": {
+        "area": "arXiv-Physics, Engineering, Information and Computing Sciences, Applied Computing",
+        "author_details": [
+          {
+            "origin_name": "Yingzhanghao Zhou"
+          },
+          {
+            "origin_name": "Xiang Chen"
+          },
+          {
+            "affiliation": "Tianjin University",
+            "affiliation_zh": "天津大学",
+            "author_id": "259q1p52",
+            "avatar": "https://cdn1.deepmd.net/static/img/30308f3btvDb5_cAAAAJ.png",
+            "citation_nums": 3896,
+            "h_index": 25,
+            "is_high_cited": true,
+            "name": "Peng Zhang",
+            "origin_name": "Peng Zhang"
+          },
+          {
+            "author_id": "9v8139616",
+            "citation_nums": 715,
+            "h_index": 10,
+            "name": "Jun Wang",
+            "origin_name": "Jun Wang"
+          },
+          {
+            "affiliation": "Tianjin University",
+            "affiliation_zh": "天津大学",
+            "author_id": "613126Dh",
+            "avatar": "https://cdn1.deepmd.net/static/img/f1441b7b22OBl9oAAAAJ.png",
+            "citation_nums": 520,
+            "h_index": 11,
+            "name": "Wang Lei",
+            "origin_name": "Lei Wang"
+          },
+          {
+            "affiliation": "McGill University;University of Pittsburgh;Temple University;Lehigh University",
+            "affiliation_zh": "麦吉尔大学;匹兹堡大学;天普大学;理海大学",
+            "author_id": "9454j531",
+            "citation_nums": 25445,
+            "h_index": 83,
+            "is_high_cited": true,
+            "name": "Hong Guo",
+            "origin_name": "Hong Guo"
+          }
+        ],
+        "authors": "Yingzhanghao Zhou | Xiang Chen | Peng Zhang | Jun Wang | Lei Wang | Hong Guo",
+        "authors_list": [
+          "Yingzhanghao Zhou",
+          "Xiang Chen",
+          "Peng Zhang",
+          "Jun Wang",
+          "Lei Wang",
+          "Hong Guo"
+        ],
+        "available_online": "",
+        "citation_nums": 1,
+        "cover_date_start": "2022-02-10",
+        "created_at": "2023-05-23T05:20:11+08:00",
+        "doi": "10.48550/arXiv.2202.05098",
+        "en_abstract": "Since proposed in the 70s, the Non-Equilibrium Green Function (NEGF) method has been recognized as a standard approach to quantum transport simulations. Although it achieves superiority in simulation accuracy, the tremendous computational cost makes it unbearable for high-throughput simulation tasks such as sensitivity analysis, inverse design, etc. In this work, we propose AD-NEGF, to our best knowledge the first end-to-end differentiable NEGF model for quantum transport simulations. We implement the entire numerical process in PyTorch, and design customized backward pass with implicit layer techniques, which provides gradient information at an affordable cost while guaranteeing the correctness of the forward simulation. The proposed model is validated with applications in calculating differential physical quantities, empirical parameter fitting, and doping optimization, which demonstrates its capacity to accelerate the material design process by conducting gradient-based parameter optimization.",
+        "en_title": "AD-NEGF: An End-to-End Differentiable Quantum Transport Simulator for Sensitivity Analysis and Inverse Problems",
+        "id": "867757924515053703",
+        "keywords": "",
+        "open_access": true,
+        "paper_url": "https://arxiv.org/abs/2202.05098v2",
+        "pdf_flag": true,
+        "publication_cover": "https://icon.bohrium.com/journal/arxiv.png",
+        "publication_date": "2022-02-10",
+        "publication_id": "108484",
+        "publication_name": "Mesoscale and Nanoscale Physics _ Physics.cond-mat.mes-hall",
+        "research_categories": "[\"Engineering\", \"Information and Computing Sciences\", \"Applied Computing\"]",
+        "zh_abstract": "自20世纪70年代被提出以来，非平衡格林函数（NEGF）方法已被公认为量子输运模拟的标准方法。尽管它在模拟精度上具有优势，但巨大的计算成本使其无法承受诸如灵敏度分析、逆向设计等高通量模拟任务。在这项工作中，我们提出了AD-NEGF，据我们所知，这是首个用于量子输运模拟的端到端可微NEGF模型。我们在PyTorch中实现了整个数值过程，并使用隐层技术设计了定制的反向传播，在保证正向模拟正确性的同时，以可承受的成本提供梯度信息。所提出的模型通过在计算微分物理量、经验参数拟合和掺杂优化中的应用得到了验证，这表明它有能力通过基于梯度的参数优化来加速材料设计过程。 ",
+        "zh_title": "AD-NEGF：用于灵敏度分析和反问题的端到端可微量子输运模拟器"
+      }
+    },
+    "reasoning_chains": [
+      {
+        "factors": [
+          {
+            "conclusion": {
+              "content": "AD-NEGF enables gradient-based inverse optimization of Hamiltonian matrix elements to fit a target transmission curve. In an example, starting from the Hamiltonian $H_{52}$ of a 5-2 graphene nano-junction (consisting of 5 graphene rings on the left and 2 on the right) as the initial guess, gradient-based minibatch optimization over 2000 energy-sampled transmission $T(E)$ points and roughly $10^{4}$ Hamiltonian parameters (including device, leads, and couplings) was performed with the Adam optimizer; the loss decreased substantially within a few hundred iterations and the optimized $H_{52}$ produced a transmission curve qualitatively approximating the target transmission $T_{74}(E)$ of a 7-4 graphene nano-junction (7 rings left, 4 rings right). Conventional black-box optimizers (Bayesian optimization, genetic algorithms, and finite-difference gradient methods) failed on this high-dimensional fitting task due to the curse of dimensionality.",
+              "id": "gcn_a5eb3fecc5264ac5",
+              "metadata": "{\"narrative\": \"The demonstration that Adam can optimize 10^4 Hamiltonian parameters to roughly match a target transmission curve (H4) is a significant proof-of-concept for gradient-based inverse design at this scale. However, the conclusion is weakened by two load-bearing uncertainties: the failure of conventional methods is claimed without supporting data (P6), so the comparative superiority is unsubstantiated; and the optimized Hamiltonian is not constrained to be physically realizable (P7), limiting the conclusion's practical relevance. H4 provides evidence that the optimization works, but the conclusion's scope (as stated) implies a practical design capability that the evidence does not fully support. The prior of 0.6 reflects that the feasibility is shown but the stronger claims about being \\\"enabled\\\" relative to alternatives are not validated.\"}",
+              "title": "Gradient-based inverse design of Hamiltonian to fit target transmission (transmission-by-design)"
+            },
+            "factor_type": "strategy",
+            "id": "gfac_c71d92914dec44c6",
+            "premises": [
+              {
+                "content": "In the inverse design experiment of fitting a target transmission curve by optimizing Hamiltonian elements, the paper states: \"we have also tried traditional black-box optimization methods including Bayesian optimization, genetic algorithm, and gradient-based optimization with numerical differentiation, but none works for this problem because of the curse of dimensionality.\" No quantitative results, figures, or tables are provided to support this claim. The paper does not report how many iterations or function evaluations were allocated to each method, what hyperparameters were used, or what performance (loss value, convergence behavior) was observed. Without this evidence, the reader cannot verify that the conventional methods indeed failed, nor can the comparison be meaningfully assessed. Section III.B",
+                "id": "gcn_9512f26dee3c43b1",
+                "metadata": "{\"refs\": [{\"type\": \"citation\", \"text\": \"Section III.B\"}], \"weak_types\": [\"comparative\", \"statistical\"], \"weakness_reason\": \"The paper makes a strong comparative claim about the failure of alternative approaches but provides no supporting data. In computational science, benchmarking against baselines requires transparent reporting: number of evaluations, final loss, computational budget, hyperparameter tuning effort. The absence of this information means the claim is essentially an anecdote. The phrase \\\"because of the curse of dimensionality\\\" is a generic justification that does not constitute a rigorous comparison. This weakens the conclusion that AD-NEGF is necessary for this inverse problem.\", \"failure_mode\": \"If the conventional methods were implemented with suboptimal hyperparameters or insufficient budget (e.g., too few iterations for Bayesian optimization to explore), they might actually succeed with more effort. Then the conclusion's claim that they \\\"failed\\\" would be unsupported, and the advantage of AD-NEGF over black-box methods for this high-dimensional problem would not be established. The conclusion would still be valid in that AD-NEGF works, but its claimed superiority (implicit in \\\"conventional... failed\\\") would be unfounded.\"}",
+                "title": "Unsubstantiated failure of conventional optimization baselines"
+              },
+              {
+                "content": "In the transmission-by-design example, the optimization treats all elements of the Hamiltonian matrix $H_{52}$ (device, leads, couplings) as free parameters, allowing any real values (implicitly). The resulting optimized $H_{52}$ is not checked against physical constraints such as Hermiticity (it might be non-Hermitian if optimization breaks symmetry), crystal symmetry, or the tight-binding structure (e.g., only nearest-neighbor couplings, specific sparsity pattern). The paper acknowledges this limitation in its discussion. The conclusion states that AD-NEGF \"inversely finds a possible device Hamiltonian\", but \"possible\" is not qualified to mean \"physically realizable\" rather than just \"mathematically admissible\". Without constraints, the optimized parameters may not correspond to any actual material or device configuration. Section III.B; open questions (point 4)",
+                "id": "gcn_5b3f69e339f54331",
+                "metadata": "{\"refs\": [{\"type\": \"citation\", \"text\": \"Section III.B; open questions (point 4)\"}], \"weak_types\": [\"model\", \"measurement\"], \"weakness_reason\": \"The inverse design procedure optimizes for a target transmission but does not impose physically motivated constraints on the Hamiltonian. In tight-binding models, Hamiltonian matrix elements are related to atomic orbitals and chemical bonding; arbitrary coupling parameters may violate foundational symmetries (time-reversal, Hermiticity, locality). The paper's own open questions acknowledge that the mapping to experimentally implementable manipulations is unsolved. Thus the conclusion's use of \\\"possible device Hamiltonian\\\" is misleading if interpreted as physically possible. The conclusion's strength depends on whether the reader considers this a proof-of-concept or a practical method.\", \"failure_mode\": \"If the optimized Hamiltonian violates physical constraints (e.g., non-Hermitian eigenvalues, or non-causal Green's functions), it cannot be realized in any actual material system, so the claim of \\\"transmission-by-design\\\" is reduced to a mathematical curve-fitting exercise without practical material-design implications. The conclusion would be limited to demonstrating optimization feasibility, not to achieving a physically realizable design.\"}",
+                "title": "Optimized Hamiltonian not constrained to physical realizability"
+              },
+              {
+                "content": "Using the Adam optimizer with minibatch sampling of 2000 energy points, the loss (mean-squared error between T_optimized and T_target) decreases substantially within a few hundred iterations (upper panel of Fig. 5) for optimizing all 10^4 Hamiltonian matrix elements of a 5-2 graphene nano-junction to match the transmission of a 7-4 junction. The optimized transmission qualitatively follows the target (lower panel of Fig. 5).",
+                "id": "gcn_453dc455c9164d23",
+                "metadata": "{\"role\": \"highlight\", \"conclusion_id\": \"6\", \"strength_types\": [\"computational\", \"measurement\"], \"credit\": \"This demonstration preempts the failure mode where the high-dimensional (10^4 parameters) inverse design is assumed intractable without evidence. The fact that gradient-based optimization with minibatch sampling works on a standard PyTorch optimizer shows that the end-to-end gradients are sufficiently accurate for optimization to make notable progress. Without this demonstration, the claim that AD-NEGF enables gradient-based inverse design would be only a hypothetical capability. The element underwrites the feasibility of the approach for nontrivial Hamiltonian dimensions. The scope is specific to the 5-2/7-4 system but provides a proof-of-concept for similar scales.\", \"refs\": [{\"type\": \"figure\", \"text\": \"Fig. 5\"}]}",
+                "title": "Demonstration of convergence for 10^4-parameter gradient-based inverse design"
+              },
+              {
+                "content": "AD-NEGF is implemented in PyTorch following a three-step operational design: (1) the explicit parts of the nonequilibrium Green's function tight-binding (NEGF-TB) calculation are implemented so that PyTorch can automatically differentiate them; (2) for implicit or iterative components, including the surface Green's function recursion (used in lead self-energy computation), the self-consistent loop between the device Green's function $G_D$ and the electrostatic potential $V$, and the Poisson solver with image charges, the forward solvers are retained unmodified inside autograd forward functions while custom backward routines supply gradients using the implicit-gradient identity $\\frac{d g_s}{d\\theta} = -[\\partial h/\\partial g_s]^{-1} \\partial h/\\partial \\theta$ for the surface Green's function $g_s$, the adjoint sensitivity method for the Poisson partial differential equation, and the image-charge gradient summation $\\frac{\\partial L}{\\partial q_j} = \\sum_i \\frac{\\partial L}{\\partial V_i} \\frac{\\partial V_i}{\\partial q_j}$ expressed as an image series; (3) these primitives compose to permit a single end-to-end backward call that returns gradients with respect to Hamiltonian entries and other parameters. The implementation supports minibatch stochastic optimization over energy-sampled transmission points and ties into standard PyTorch optimizers (e.g., Adam).",
+                "id": "gcn_9b27e0da1e1147a5",
+                "metadata": "{\"narrative\": \"The practical implementation combines explicit AD where possible, custom autograd primitives for the specialized solvers, and composition via PyTorch operators. The design is clear and standard for differentiable programming. The major risk is again P1 (missing derivation for the self-consistent loop backward), which directly impacts the implementation's correctness for the full physics. The highlights (H1, H2) underwrite the individual primitives, but the integration of the loop differentiator is not independently validated. The prior of 0.7 is consistent with conclusion 1.\", \"structural_edges\": [{\"target\": \"paper:867757924515053703::conclusion_5\", \"type\": \"supports\"}, {\"target\": \"paper:867757924515053703::conclusion_6\", \"type\": \"supports\"}, {\"target\": \"paper:867757924515053703::conclusion_7\", \"type\": \"supports\"}]}",
+                "title": "Practical PyTorch implementation with custom autograd primitives and adjoint Poisson integration"
+              }
+            ],
+            "steps": [
+              {
+                "reasoning": "Start point: use the practical AD-NEGF implementation (conclusion 4) and its validated derivative capabilities (conclusion 5) as known tools for inverse optimization; the objective is to perform gradient-based inverse design of Hamiltonian matrix elements to fit a target transmission curve $T_{\\mathrm{target}}(E)$.",
+                "step_id": "1"
+              },
+              {
+                "reasoning": "State the specific inverse-design example setup and define symbols: the target transmission is $T_{74}(E)$ computed from a 7-4 graphene nano-junction (the desired curve), the initial guess Hamiltonian is $H_{52}$ corresponding to a 5-2 graphene nano-junction, and the fitting variables are the Hamiltonian matrix elements in $H_{52}$ including device, leads, and coupling entries; the number of energy-sampled points used to define the fitting loss is $2000$ sampled from the interval $(-5\\,\\mathrm{eV},5\\,\\mathrm{eV})$, and the optimization dimensionality is at the level of $10^{4}$ parameters.\nFIG. 5",
+                "step_id": "2"
+              },
+              {
+                "reasoning": "State the optimization method and batching strategy: compute gradients of transmission with respect to Hamiltonian elements using AD-NEGF by performing a forward evaluation and a single backward call per minibatch of energy points; use stochastic minibatch optimization (minibatch size specified in experiments, e.g., 64) with the Adam optimizer to update the Hamiltonian parameters, so that computing gradients for a minibatch is constant work per iteration independent of the full parameter dimensionality.\n[52]",
+                "step_id": "3"
+              },
+              {
+                "reasoning": "Report optimization outcome and describe evidence: during optimization the loss function (difference between the current transmission and the target $T_{74}(E)$ over sampled points) decreases substantially within a few hundred iterations as shown in the plotted loss curve; the converged Hamiltonian $H_{52}^{\\ast}$ produces a transmission curve that qualitatively approximates $T_{74}(E)$ (the optimized transmission is a smoothed approximation of the target), as shown by the fitted curve comparison in the figure.\nFIG. 5",
+                "step_id": "4"
+              },
+              {
+                "reasoning": "Contrast with conventional black-box optimizers and explain failure mode: conventional black-box optimization techniques (for example, Bayesian optimization, genetic algorithms, and finite-difference gradient methods) were attempted in this problem but failed due to the curse of dimensionality: sampling-based black-box approaches cannot effectively explore the roughly $10^{4}$-dimensional Hamiltonian parameter space, and finite-difference gradient methods suffer from prohibitive cost and mesh sensitivity when estimating gradients for so many parameters; thus gradient-based optimization enabled by AD-NEGF was essential to make the inverse-fit feasible.",
+                "step_id": "5"
+              }
+            ],
+            "subtype": "noisy_and"
+          }
+        ],
+        "motivating_questions": [
+          {
+            "content": "The inverse problem of finding a Hamiltonian that reproduces a desired transport characteristic (here, a target transmission function sampled at many energies) requires exploring a very high-dimensional parameter space (Hamiltonian matrix entries scale quadratically with system size). Black-box optimizers are exponentially expensive in the number of parameters; numerical-differentiation-based gradient methods are costly because finite-difference gradients scale with the number of parameters. Prior to AD-NEGF there was no practical approach to obtain exact gradients of $T(E)$ with respect to all Hamiltonian elements at a cost independent of the number of parameters, which is essential for scalable gradient-based inverse design. As a result, Hamiltonian-level transport-by-design has been largely infeasible for nontrivial atomistic parameterizations.",
+            "id": "paper:867757924515053703::conclusion_6_subproblem",
+            "source_package": "paper:867757924515053703"
+          }
+        ],
+        "source_package": "paper:867757924515053703"
+      }
+    ],
+    "total_chains": 1
+  },
+  "trace_id": "req_f54a0a0ce7bea"
+}

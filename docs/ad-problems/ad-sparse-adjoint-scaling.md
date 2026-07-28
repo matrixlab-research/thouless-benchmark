@@ -1,4 +1,4 @@
-# Many-parameter sparse adjoint scaling
+# Many-parameter Anderson sparse adjoint
 
 **Case:** `ad_sparse_adjoint_scaling`  
 **Motivating requirements:** TBQ-094, TBQ-097  
@@ -6,19 +6,25 @@
 
 ## Scientific question
 
-Can a sparse reverse-mode calculation return correct many-parameter gradients
-with a solve count that does not grow linearly with the number of parameters?
+Can a sparse reverse-mode calculation return correct gradients of an Anderson
+chain resolvent with respect to many grouped onsite gates, while keeping the
+number of linear systems independent of parameter count?
 
 ## Benchmark adaptation
 
-A `128 x 128` sparse Hermitian operator is solved for parameter counts
-`8, 32, 64`. A scalar linear functional supplies the cotangent. Native reverse
-mode requires one primal and one adjoint system; central parameter-wise
-differences require two systems per parameter.
+A `128`-site nearest-neighbor Anderson resolvent contains deterministic onsite
+disorder of amplitude `0.11` and hopping `-0.22`. Sites are grouped into
+`8, 32, 64` independently controlled onsite gates. A scalar response
+functional supplies the cotangent. Native reverse mode requires one primal
+and one adjoint system; central parameter-wise differences require two
+systems per parameter. The benchmark tests the differentiable sparse
+workflow, not localization critical exponents.
 
 ## Parameters
 
 - Sparse dimension: `128`.
+- Onsite disorder amplitude: `0.11`.
+- Nearest-neighbor hopping: `-0.22`.
 - Parameter counts: `8, 32, 64`.
 - GMRES relative tolerance: `1e-11`.
 - GMRES absolute tolerance: `1e-13`.
@@ -43,8 +49,12 @@ systems.
 
 ## Evidence and boundary
 
-LKM nodes `gcn_e8d4a72c26304f59` and `gcn_b1a69b35d07f45ad` motivated the
-many-parameter adjoint comparison. Primary sources:
-[Zhou et al. (2023)](https://doi.org/10.1103/PhysRevB.108.195143) and
-[Sen and Mitchell (2023)](https://arxiv.org/abs/2310.14775).
-Solve count is the architectural scaling claim; wall time remains descriptive.
+LKM node `gcn_e70f4e09b2734747` provides an Anderson-localization
+finite-size-scaling workflow, while `gcn_a72c49f810f54d63` supplies the
+implicit Green-function gradient used in differentiable transport. Primary
+sources:
+[Fleury and Waintal (2008)](https://doi.org/10.1103/PhysRevLett.100.076602)
+and [Zhou et al. (2022)](https://doi.org/10.48550/arXiv.2202.05098). Raw
+retrieval evidence is preserved under
+`evidence/lkm/2026-07-28-ad-research-workflows`. Solve count is the
+architectural scaling claim; wall time remains descriptive.

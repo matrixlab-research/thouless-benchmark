@@ -1,10 +1,10 @@
 # Native automatic-differentiation benchmarks
 
-This track turns the research requirements in
+This track turns LKM-discovered research workflows and the AD requirements in
 [issue #6](https://github.com/matrixlab-research/thouless-benchmark/issues/6)
-into ten executable, domain-facing benchmarks. The selection deliberately spans
-different scientific maps and numerical boundaries; it is not ten variations
-of a scalar derivative test.
+into ten executable Rust-native benchmarks. Each case now names a physical
+system, a source paper, and a compact adaptation boundary; the selection is
+not ten variations of a scalar derivative test.
 
 The benchmark uses native Thouless JVPs and VJPs. Central finite differences
 are independent validators only. Optimizers and loss composition remain a thin
@@ -14,20 +14,23 @@ benchmark layer outside the physics kernels.
 
 | Case | Scientific problem type | Motivating questions | Native AD gates | Independent evidence |
 |---|---|---|---|---|
-| `ad_spectral_recovery` | Multi-observable spectral inference | TBQ-096, TBQ-099 | AD-G01, AD-G11 | Known parameters and excluded momenta |
-| `ad_degenerate_projector` | Degeneracy-safe spectra | TBQ-006, TBQ-097 | AD-G04 | Basis rotation and exact-degeneracy negative control |
-| `ad_identifiability` | Inverse-problem identifiability | TBQ-098 | AD-G14 | Known Fisher nullspace and an ambiguity-lifting observable |
-| `ad_quantum_metric` | Differentiable quantum geometry | TBQ-026, TBQ-029 | AD-G01, AD-G02, AD-G15 | Basis covariance and mesh refinement |
-| `ad_topological_design` | Topological inverse design | TBQ-017, TBQ-030 | AD-G16 | Independent Chern calculation and resolved gap closing |
-| `ad_surface_green_implicit` | Implicit solver differentiation | TBQ-023, TBQ-036 | AD-G02, AD-G09, AD-G10 | Adjoint identity, retarded branch, and tolerance stability |
-| `ad_inverse_transport` | Inverse transmission design | TBQ-040, TBQ-099 | AD-G12, AD-G13 | Non-AD forward solve at excluded energies |
-| `ad_lead_device_sensitivity` | Full open-system sensitivity | TBQ-036, TBQ-040 | AD-G09, AD-G12 | Device, lead, interface, energy, and broadening contributions |
-| `ad_sparse_adjoint_scaling` | Many-parameter sparse adjoint | TBQ-094, TBQ-097 | AD-G07, AD-G08 | Residuals, derivative agreement, and solve counts |
-| `ad_robust_kpm_design` | Stochastic robust sparse design | TBQ-094, TBQ-100 | AD-G08, AD-G17 | Training disorder and public unseen seeds |
+| `ad_spectral_recovery` | Rice-Mele parameter inference | TBQ-096, TBQ-099 | AD-G01, AD-G11 | Known parameters and excluded momenta |
+| `ad_degenerate_projector` | BHZ Kramers subspace | TBQ-006, TBQ-097 | AD-G04 | Basis rotation and exact-degeneracy negative control |
+| `ad_identifiability` | SSH hopping identifiability | TBQ-098 | AD-G14 | Analytic hopping-swap nullspace and a local marker |
+| `ad_quantum_metric` | Rice-Mele quantum geometry | TBQ-026, TBQ-029 | AD-G01, AD-G02, AD-G15 | Basis covariance and mesh refinement |
+| `ad_topological_design` | QWZ Chern inverse design | TBQ-017, TBQ-030 | AD-G16 | Independent Chern calculation and resolved gap closing |
+| `ad_surface_green_implicit` | SSH boundary Green function | TBQ-023, TBQ-036 | AD-G02, AD-G09, AD-G10 | Adjoint identity, retarded branch, and tolerance stability |
+| `ad_inverse_transport` | Double-quantum-dot inference | TBQ-040, TBQ-099 | AD-G12, AD-G13 | Non-AD forward solve at excluded energies |
+| `ad_lead_device_sensitivity` | Resonant-level contact sensitivity | TBQ-036, TBQ-040 | AD-G09, AD-G12 | Device, lead, interface, energy, and broadening contributions |
+| `ad_sparse_adjoint_scaling` | Anderson sparse adjoint | TBQ-094, TBQ-097 | AD-G07, AD-G08 | Residuals, derivative agreement, and solve counts |
+| `ad_robust_kpm_design` | Disordered SSH KPM design | TBQ-094, TBQ-100 | AD-G08, AD-G17 | Training disorder and public unseen seeds |
 
-The canonical machine-readable definitions, including LKM node identifiers,
-parameters, oracles, and required checks, are in
+The canonical machine-readable definitions, including physical systems,
+source papers, LKM node identifiers, parameters, oracles, and required checks,
+are in
 [`benchmark/ad_cases.json`](../benchmark/ad_cases.json).
+The raw discovery and reasoning responses are in
+[`evidence/lkm/2026-07-28-ad-research-workflows`](../evidence/lkm/2026-07-28-ad-research-workflows/README.md).
 
 ## What is actually tested
 
@@ -60,28 +63,30 @@ finite-difference baseline, while storing 19 vectors instead of the full
 ## Verified snapshot
 
 The
-[`2026-07-28 verified result`](../results/verified/2026-07-28-ad.json)
+[`2026-07-28 research-workflow result`](../results/verified/2026-07-28-ad-research-workflows.json)
 contains seven same-machine repetitions for all ten cases. All 30 required
-checks pass against Thouless commit
+scientific checks pass against Thouless commit
 `237f544c497e89cd99dedd68f16e399bc9980987`.
 
 Median native-kernel times on the recorded arm64 macOS machine are:
 
 | Case | Median kernel time |
 |---|---:|
-| Spectral recovery | 2.108 ms |
-| Degenerate projector | 0.080 ms |
-| Identifiability | 0.071 ms |
-| Quantum metric | 0.460 ms |
-| Topological design | 37.333 ms |
-| Implicit surface Green function | 0.055 ms |
-| Inverse transport | 2.901 ms |
-| Lead/device sensitivity | 0.088 ms |
-| Sparse adjoint scaling | 0.720 ms |
-| Robust KPM design | 234.765 ms |
+| Rice-Mele spectral recovery | 3.555 ms |
+| BHZ degenerate projector | 0.094 ms |
+| SSH identifiability | 0.081 ms |
+| Rice-Mele quantum metric | 0.867 ms |
+| QWZ topological design | 37.723 ms |
+| Implicit surface Green function | 0.060 ms |
+| Double-dot inverse transport | 2.990 ms |
+| Resonant-level sensitivity | 0.101 ms |
+| Anderson sparse adjoint | 0.809 ms |
+| Disordered SSH KPM design | 3,085.887 ms |
 
 These timings describe complete benchmark workflows and are not cross-package
-speed claims.
+speed claims. The KPM workflow includes 360 optimization iterations across
+eight disorder realizations; its longer runtime is therefore not comparable
+to a single gradient evaluation.
 
 ## Generality boundary
 

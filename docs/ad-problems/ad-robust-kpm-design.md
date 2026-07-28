@@ -1,4 +1,4 @@
-# Robust checkpointed KPM design
+# Robust KPM design of a disordered SSH chain
 
 **Case:** `ad_robust_kpm_design`  
 **Motivating requirements:** TBQ-094, TBQ-100  
@@ -6,21 +6,24 @@
 
 ## Scientific question
 
-Can a stochastic sparse KPM objective be optimized across disorder
-realizations with a checked gradient, bounded reverse memory, and improvement
-on public unseen seeds?
+Can a sparse KPM objective for a bond-disordered SSH chain be optimized across
+disorder realizations with a checked gradient, bounded reverse memory, and
+improvement on public unseen disorder seeds?
 
 ## Benchmark adaptation
 
-Eight deterministic disorder seeds define the training ensemble for a
-four-parameter `96 x 96` sparse family. Five different public seeds are
-excluded from optimization. A 36-moment recurrence uses checkpoint interval
-six. The objective is deliberately expressed through general sparse operators,
-probes, and coefficients rather than seed-specific branches.
+The `96`-site chain has clean alternating hoppings `0.16/0.24` and chiral
+bond disorder of amplitude `0.018`. Four regional bond controls are optimized
+over eight deterministic disorder seeds; five public seeds are excluded from
+optimization. A 36-moment recurrence uses checkpoint interval six. This is a
+compact disordered-SSH KPM adaptation, not a reproduction of the source
+coaxial-cable sample or its finite-size scaling.
 
 ## Parameters
 
 - Sparse dimension: `96`.
+- Clean intracell/intercell hoppings: `0.16/0.24`.
+- Bond-disorder amplitude: `0.018`.
 - Parameters: `4`.
 - KPM moments: `36`.
 - Checkpoint interval: `6`.
@@ -49,9 +52,12 @@ recurrence vectors.
 
 ## Evidence and boundary
 
-LKM nodes `gcn_0e8306bb16b74c91` and `gcn_041957b9b14b4f04` motivated robust
-design under fabrication disorder. Primary sources:
-[Ryczko, Darancet, and Tamblyn (2020)](https://doi.org/10.1021/acs.jpcc.0c06903)
-and [Molina (2020)](https://doi.org/10.1016/j.physleta.2020.126704).
-Public unseen seeds are development evidence only; the isolated AD-G18
-evaluator remains outside this repository.
+LKM node `gcn_dd35cab4703b4260` reports finite-size and binary-disorder effects
+at a random chiral SSH transition, while `gcn_58636b14cc7d4109` provides a KPM
+disorder-averaged density-of-states workflow. Primary sources:
+[Whittaker, McCarthy, and Duan (2023)](https://doi.org/10.48550/arXiv.2311.11040)
+and [Terletska et al. (2025)](https://doi.org/10.48550/arxiv.2505.00806). Raw
+retrieval evidence is preserved under
+`evidence/lkm/2026-07-28-ad-research-workflows`. Public unseen seeds are
+development evidence only; the isolated AD-G18 evaluator remains outside this
+repository.
